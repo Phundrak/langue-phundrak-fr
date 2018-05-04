@@ -1,0 +1,191 @@
+#+TITLE: Grammaire de la langue divine
+#+AUTHOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+#+OPTIONS: toc:nil
+src_latex{\newpage}
+
+* Introduction
+* Phonologie
+** Voyelles
+*** Voyelles courtes
+*** Voyelles longues
+*** Diphtongues
+*** Consonnes syllabiques
+*** Allophones
+** Consonnes
+*** Consonnes et allophones
+** Accentuation
+** Romanisation et translittération
+* Noms
+*** Genres
+La langue divine dispose d’un système de genre composé de neuf éléments :
+1. divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin.
+2. mental : se réfère à tout élément non physique ou concept, comme des pensées ou un événement.
+3. liquide : se réfère, comme son nom l’indique, à tout liquide, et en particulier à l’eau, mais ne couvre pas tous les fluides (l’air n’est pas considéré comme un liquide, malgré le fait que ce soit un fluide).
+4. masculin : se réfère à tout mâle biologique humain ou semi-humain.
+6. féminin : se réfère à toute femelle biologique humaine ou semi-humaine.
+7. neutre : se réfère à groupe d’humain et/ou de semi-humains, ou bien à un humain ou semi-humain dont le sexe biologique est inconnu du locuteur.
+8. animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain.
+9. végétal : se réfère à toute plante ou végétal.
+10. inanimé : se réfère à tout élément minéral ou physique ne rentrant pas dans les catégories précédentes.
+
+*** Nombre
+La langue divine dispose d’un système de nombre des noms plutôt évolué, avec un total de cinq nombres :
+- singulier : un élément unique
+- singulatif : un groupe d’éléments semblables non dénombrés
+- duel : deux éléments
+- triel : trois éléments
+- pluriel : quatre éléments ou plus
+
+Le singulier, le singulatif, le duel et le triel sont parfois regroupé dans le super-singulier pour certaines utilisations grammaticales, le pluriel restant à part.
+
+* Cas grammaticaux
+La langue divine est une langue très riche en cas grammaticaux et en déclinaisons. Cela lui permet ainsi d’exprimer une grande précision dans un nombre minimal de mots, et lui donne également une grande liberté quant à l’ordre des mots dans la phrase. En revanche, cela implique également un système complexe de déclinaisons qu’il faut mémoriser.
+
+Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans _[[*Genres][Genres]]_, le super-singulier (tel que décrit dans _[[*Nombre][Nombre]]_) est représenté par « s » et le pluriel par « p ».
+
+| /  | <>                   | >  | >  | >  | >  | >  | >  | >  | >  |
+|    |                      | 1s | 1p | 2s | 2p | 3s | 3p | 4s | 4p |
+|----+----------------------+----+----+----+----+----+----+----+----|
+|    | abessif              |    |    |    |    |    |    |    |    |
+|    | ablatif              |    |    |    |    |    |    |    |    |
+|    | ablatif              |    |    |    |    |    |    |    |    |
+|    | absolutif            |    |    |    |    |    |    |    |    |
+|    | accusatif            |    |    |    |    |    |    |    |    |
+|    | accusatif temporel   |    |    |    |    |    |    |    |    |
+|    | adessif              |    |    |    |    |    |    |    |    |
+|    | adverbial            |    |    |    |    |    |    |    |    |
+|    | agentif              |    |    |    |    |    |    |    |    |
+|    | allatif              |    |    |    |    |    |    |    |    |
+|    | antessif             |    |    |    |    |    |    |    |    |
+|    | apudessif            |    |    |    |    |    |    |    |    |
+|    | aversif              |    |    |    |    |    |    |    |    |
+|    | causal               |    |    |    |    |    |    |    |    |
+|    | comitatif            |    |    |    |    |    |    |    |    |
+|    | comparatif           |    |    |    |    |    |    |    |    |
+|    | datif                |    |    |    |    |    |    |    |    |
+|    | delatif              |    |    |    |    |    |    |    |    |
+|    | distributif          |    |    |    |    |    |    |    |    |
+|    | distributif-temporel |    |    |    |    |    |    |    |    |
+|    | elatif               |    |    |    |    |    |    |    |    |
+|    | equatif              |    |    |    |    |    |    |    |    |
+|    | ergatif              |    |    |    |    |    |    |    |    |
+|    | ergatif-genitif      |    |    |    |    |    |    |    |    |
+|    | essif                |    |    |    |    |    |    |    |    |
+|    | essif                |    |    |    |    |    |    |    |    |
+|    | essif-formel         |    |    |    |    |    |    |    |    |
+|    | essif-modal          |    |    |    |    |    |    |    |    |
+|    | exessif              |    |    |    |    |    |    |    |    |
+|    | genitif              |    |    |    |    |    |    |    |    |
+|    | identique            |    |    |    |    |    |    |    |    |
+|    | illatif              |    |    |    |    |    |    |    |    |
+|    | inessif              |    |    |    |    |    |    |    |    |
+|    | initiatif            |    |    |    |    |    |    |    |    |
+|    | instructif           |    |    |    |    |    |    |    |    |
+|    | instrumental         |    |    |    |    |    |    |    |    |
+|    | intratif             |    |    |    |    |    |    |    |    |
+|    | latif                |    |    |    |    |    |    |    |    |
+|    | limitatif            |    |    |    |    |    |    |    |    |
+|    | locatif              |    |    |    |    |    |    |    |    |
+|    | nominal              |    |    |    |    |    |    |    |    |
+|    | nominatif            |    |    |    |    |    |    |    |    |
+|    | oblique              |    |    |    |    |    |    |    |    |
+|    | orientatif           |    |    |    |    |    |    |    |    |
+|    | partitif             |    |    |    |    |    |    |    |    |
+|    | pegatif              |    |    |    |    |    |    |    |    |
+|    | perlatif             |    |    |    |    |    |    |    |    |
+|    | pertingent           |    |    |    |    |    |    |    |    |
+|    | postessif            |    |    |    |    |    |    |    |    |
+|    | privatif             |    |    |    |    |    |    |    |    |
+|    | prolatif             |    |    |    |    |    |    |    |    |
+|    | revertif             |    |    |    |    |    |    |    |    |
+|    | semplatif            |    |    |    |    |    |    |    |    |
+|    | sociatif             |    |    |    |    |    |    |    |    |
+|    | subessif             |    |    |    |    |    |    |    |    |
+|    | sublatif             |    |    |    |    |    |    |    |    |
+|    | superessif           |    |    |    |    |    |    |    |    |
+|    | temporel             |    |    |    |    |    |    |    |    |
+|    | terminatif           |    |    |    |    |    |    |    |    |
+|    | translatif           |    |    |    |    |    |    |    |    |
+|    | vocatif              |    |    |    |    |    |    |    |    |
+
+| / | <>                   | >  | >  | >  | >  | >  | >  | >  | >  |    |    |
+|   |                      | 5s | 5p | 6s | 6p | 7s | 7p | 8s | 8p | 9s | 9p |
+|---+----------------------+----+----+----+----+----+----+----+----+----+----|
+|   | abessif              |    |    |    |    |    |    |    |    |    |    |
+|   | ablatif              |    |    |    |    |    |    |    |    |    |    |
+|   | ablatif              |    |    |    |    |    |    |    |    |    |    |
+|   | absolutif            |    |    |    |    |    |    |    |    |    |    |
+|   | accusatif            |    |    |    |    |    |    |    |    |    |    |
+|   | accusatif temporel   |    |    |    |    |    |    |    |    |    |    |
+|   | adessif              |    |    |    |    |    |    |    |    |    |    |
+|   | adverbial            |    |    |    |    |    |    |    |    |    |    |
+|   | agentif              |    |    |    |    |    |    |    |    |    |    |
+|   | allatif              |    |    |    |    |    |    |    |    |    |    |
+|   | antessif             |    |    |    |    |    |    |    |    |    |    |
+|   | apudessif            |    |    |    |    |    |    |    |    |    |    |
+|   | aversif              |    |    |    |    |    |    |    |    |    |    |
+|   | causal               |    |    |    |    |    |    |    |    |    |    |
+|   | comitatif            |    |    |    |    |    |    |    |    |    |    |
+|   | comparatif           |    |    |    |    |    |    |    |    |    |    |
+|   | datif                |    |    |    |    |    |    |    |    |    |    |
+|   | delatif              |    |    |    |    |    |    |    |    |    |    |
+|   | distributif          |    |    |    |    |    |    |    |    |    |    |
+|   | distributif-temporel |    |    |    |    |    |    |    |    |    |    |
+|   | elatif               |    |    |    |    |    |    |    |    |    |    |
+|   | equatif              |    |    |    |    |    |    |    |    |    |    |
+|   | ergatif              |    |    |    |    |    |    |    |    |    |    |
+|   | ergatif-genitif      |    |    |    |    |    |    |    |    |    |    |
+|   | essif                |    |    |    |    |    |    |    |    |    |    |
+|   | essif                |    |    |    |    |    |    |    |    |    |    |
+|   | essif-formel         |    |    |    |    |    |    |    |    |    |    |
+|   | essif-modal          |    |    |    |    |    |    |    |    |    |    |
+|   | exessif              |    |    |    |    |    |    |    |    |    |    |
+|   | genitif              |    |    |    |    |    |    |    |    |    |    |
+|   | identique            |    |    |    |    |    |    |    |    |    |    |
+|   | illatif              |    |    |    |    |    |    |    |    |    |    |
+|   | inessif              |    |    |    |    |    |    |    |    |    |    |
+|   | initiatif            |    |    |    |    |    |    |    |    |    |    |
+|   | instructif           |    |    |    |    |    |    |    |    |    |    |
+|   | instrumental         |    |    |    |    |    |    |    |    |    |    |
+|   | intratif             |    |    |    |    |    |    |    |    |    |    |
+|   | latif                |    |    |    |    |    |    |    |    |    |    |
+|   | limitatif            |    |    |    |    |    |    |    |    |    |    |
+|   | locatif              |    |    |    |    |    |    |    |    |    |    |
+|   | nominal              |    |    |    |    |    |    |    |    |    |    |
+|   | nominatif            |    |    |    |    |    |    |    |    |    |    |
+|   | oblique              |    |    |    |    |    |    |    |    |    |    |
+|   | orientatif           |    |    |    |    |    |    |    |    |    |    |
+|   | partitif             |    |    |    |    |    |    |    |    |    |    |
+|   | pegatif              |    |    |    |    |    |    |    |    |    |    |
+|   | perlatif             |    |    |    |    |    |    |    |    |    |    |
+|   | pertingent           |    |    |    |    |    |    |    |    |    |    |
+|   | postessif            |    |    |    |    |    |    |    |    |    |    |
+|   | privatif             |    |    |    |    |    |    |    |    |    |    |
+|   | prolatif             |    |    |    |    |    |    |    |    |    |    |
+|   | revertif             |    |    |    |    |    |    |    |    |    |    |
+|   | semplatif            |    |    |    |    |    |    |    |    |    |    |
+|   | sociatif             |    |    |    |    |    |    |    |    |    |    |
+|   | subessif             |    |    |    |    |    |    |    |    |    |    |
+|   | sublatif             |    |    |    |    |    |    |    |    |    |    |
+|   | superessif           |    |    |    |    |    |    |    |    |    |    |
+|   | temporel             |    |    |    |    |    |    |    |    |    |    |
+|   | terminatif           |    |    |    |    |    |    |    |    |    |    |
+|   | translatif           |    |    |    |    |    |    |    |    |    |    |
+|   | vocatif              |    |    |    |    |    |    |    |    |    |    |
+
+
+* Adjectifs
+* Adverbes
+* Verbes
+* Pronoms et déterminants
+* Nombres
+** Nombres Cardinaux
+** Nombres Ordinaux
+* Interjections
+* Interrogation
+* Syntaxe
+
+#  LocalWords:  super-singulier

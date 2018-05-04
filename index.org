@@ -1,0 +1,10 @@
+#+TITLE: Ressources grammaticales de la Langue Divine V2
+#+SUBTITLE: Développement en cours
+#+AUTHOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+#+OPTIONS: toc:nil
+src_latex{\newpage}
+
+[[file:grammaire.html][Grammaire de la langue divine]]
