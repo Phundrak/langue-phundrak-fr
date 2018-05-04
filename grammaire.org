@@ -3,7 +3,6 @@
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
 #+LaTeX_CLASS_OPTIONS: [a4paper]
-#+OPTIONS: toc:nil
 src_latex{\newpage}
 
 * Introduction
