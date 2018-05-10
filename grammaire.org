@@ -8,6 +8,10 @@
 src_latex{\newpage}
 
 * Introduction
+La langue divine est, comme son nom l’indique, la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, la langue divine a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
+
+Cette langue sera également utilisée pour créer d’autres langues qui auront évolué depuis la langue divine en des langues (me paraissant) beaucoup plus simples afin de créer des langues pour les mortels.
+
 * Phonologie
 ** Voyelles
 La langue divine dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans _[[*Diphtongues][Diphtongues]]_). Voici la liste des voyelles utilisées dans la langue divine :
@@ -117,7 +121,7 @@ En plus d’un important inventaire de voyelle, la langue divine dispose égalem
 |---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
 |   | sv   | w |   |    |   |   |   |   |   |    |   |   |   |   |   |   |   |    |   |    |   |   |   |
 
-Abbréviations :
+Abréviations :
 # | / | <  | <>              |   | <>      | >                  |
 |   | b  | bilabial        |   | pl   | plosif             |
 |   | ld | labio-dental    |   | n    | nasal              |
@@ -130,6 +134,38 @@ Abbréviations :
 |   | ph | pharyngal       |   |      |                    |
 |   | g  | glottal         |   |      |                    |
 *** Consonnes et allophones
+
+- ~[p]~ : P p
+- ~[b]~ : B b
+- ~[t]~ : T t
+- ~[d]~ : D d
+- ~[t`]~ : Ť ť
+- ~[d`]~ : Ď ď
+- ~[k]~ : K k
+- ~[g]~ : G g
+- ~[?]~ : ' '
+- ~[m]~ : M m
+- ~[n]~ : N n
+- ~[N]~ : Ň ň
+- ~[r]~ : R r
+- ~[f]~ : F f
+- ~[v]~ : V v
+- ~[T]~ : Þ þ
+- ~[D]~ : Ð ð
+- ~[s]~ : S s
+- ~[z]~ : Z z
+- ~[S]~ : ß ß
+- ~[C]~ : Š š
+- ~[j\]~ : Ž ž
+- ~[X]~ : X x
+- ~[R]~ : Ŗ ŗ
+- ~[h]~ : H h
+- ~[K]~ : Ł ł
+- ~[r\]~ : Ŕ ŕ
+- ~[j]~ : J j
+- ~[l]~ : L l
+- ~[w]~ : W w
+
 ** Accentuation
 ** Romanisation et translittération
 * Noms
