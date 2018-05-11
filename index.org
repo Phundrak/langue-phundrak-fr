@@ -7,4 +7,4 @@
 #+OPTIONS: toc:nil
 src_latex{\newpage}
 
-[[file:grammaire.html][Grammaire de la langue divine]]
+[[file:grammaire.html][Grammaire de la langue divine]] ([[file:grammaire.pdf][pdf]])
