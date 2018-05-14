@@ -36,7 +36,7 @@ La langue divine dispose également de deux consonnes syllabiques, le /ń/ et le
 |   | mi-ouvertes | ~E~ / ~9~   | ~O~          |
 |   | ouvertes    | ~a:~        | ~A~          |
 
-Avec le /ń/ et le /ł/ ayant respectivement pour valeur ~n=~ et ~l=~.
+Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur ~n=~ et ~l=~.
 
 On peut remarquer que, à l’exception de /ǒ/, /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ n’aura pas la même signification que /þrán/. En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
