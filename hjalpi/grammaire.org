@@ -225,195 +225,132 @@ Notez également que la ou les voyelles présentée dans le tableau s’accorde 
 
 Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans _[[*Genres][Genres]]_, le super-singulier (tel que décrit dans _[[*Nombre][Nombre]]_) est représenté par « s » et le pluriel par « p ».
 
-| / | <>                   | >      | >      | >      | >      | >      | >      | >      | >       |
-|   |                      | 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p      |
-|---+----------------------+--------+--------+--------+--------+--------+--------+--------+---------|
-|   | abessif              |        |        |        |        |        |        |        |         |
-|   | ablatif              |        |        |        |        |        |        |        |         |
-|   | absolutif            |        |        |        |        |        |        |        |         |
-|   | accusatif            |        |        |        |        |        |        |        |         |
-|   | accusatif temporel   |        |        |        |        |        |        |        |         |
-|   | adessif              | ix(a)- | ix(e)- | ix(a)- | ix(e)- | ix(a)- | ix(e)- | iź(a)- | iź(ei)- |
-|   | adverbial            |        |        |        |        |        |        |        |         |
-|   | agentif              |        |        |        |        |        |        |        |         |
-|   | allatif              |        |        |        |        |        |        |        |         |
-|   | antessif             |        |        |        |        |        |        |        |         |
-|   | apudessif            |        |        |        |        |        |        |        |         |
-|   | aversif              |        |        |        |        |        |        |        |         |
-|   | causal               |        |        |        |        |        |        |        |         |
-|   | comitatif            |        |        |        |        |        |        |        |         |
-|   | comparatif           |        |        |        |        |        |        |        |         |
-|   | datif                |        |        |        |        |        |        |        |         |
-|   | delatif              |        |        |        |        |        |        |        |         |
-|   | distributif          |        |        |        |        |        |        |        |         |
-|   | distributif-temporel |        |        |        |        |        |        |        |         |
-|   | elatif               |        |        |        |        |        |        |        |         |
-|   | equatif              |        |        |        |        |        |        |        |         |
-|   | ergatif              |        |        |        |        |        |        |        |         |
-|   | ergatif-genitif      |        |        |        |        |        |        |        |         |
-|   | essif                |        |        |        |        |        |        |        |         |
-|   | essif-formel         |        |        |        |        |        |        |        |         |
-|   | essif-modal          |        |        |        |        |        |        |        |         |
-|   | exessif              |        |        |        |        |        |        |        |         |
-|   | genitif              |        |        |        |        |        |        |        |         |
-|   | identique            |        |        |        |        |        |        |        |         |
-|   | illatif              |        |        |        |        |        |        |        |         |
-|   | inessif              |        |        |        |        |        |        |        |         |
-|   | initiatif            |        |        |        |        |        |        |        |         |
-|   | instructif           |        |        |        |        |        |        |        |         |
-|   | instrumental         |        |        |        |        |        |        |        |         |
-|   | intratif             |        |        |        |        |        |        |        |         |
-|   | latif                |        |        |        |        |        |        |        |         |
-|   | limitatif            |        |        |        |        |        |        |        |         |
-|   | locatif              |        |        |        |        |        |        |        |         |
-|   | nominal              |        |        |        |        |        |        |        |         |
-|   | nominatif            |        |        |        |        |        |        |        |         |
-|   | oblique              |        |        |        |        |        |        |        |         |
-|   | orientatif           |        |        |        |        |        |        |        |         |
-|   | partitif             |        |        |        |        |        |        |        |         |
-|   | pegatif              |        |        |        |        |        |        |        |         |
-|   | perlatif             |        |        |        |        |        |        |        |         |
-|   | pertingent           |        |        |        |        |        |        |        |         |
-|   | postessif            |        |        |        |        |        |        |        |         |
-|   | privatif             |        |        |        |        |        |        |        |         |
-|   | prolatif             |        |        |        |        |        |        |        |         |
-|   | revertif             |        |        |        |        |        |        |        |         |
-|   | semplatif            |        |        |        |        |        |        |        |         |
-|   | sociatif             |        |        |        |        |        |        |        |         |
-|   | subessif             |        |        |        |        |        |        |        |         |
-|   | sublatif             |        |        |        |        |        |        |        |         |
-|   | superessif           |        |        |        |        |        |        |        |         |
-|   | temporel             |        |        |        |        |        |        |        |         |
-|   | terminatif           |        |        |        |        |        |        |        |         |
-|   | translatif           |        |        |        |        |        |        |        |         |
-|   | vocatif              |        |        |        |        |        |        |        |         |
+| / | <>                   | >      | >      | >      | >      | >      | >      | >      | >       | >      | >       |
+|   |                      | 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p      | 5s     | 5p      |
+|---+----------------------+--------+--------+--------+--------+--------+--------+--------+---------+--------+---------|
+|   | abessif              |        |        |        |        |        |        |        |         |        |         |
+|   | ablatif              |        |        |        |        |        |        |        |         |        |         |
+|   | absolutif            |        |        |        |        |        |        |        |         |        |         |
+|   | accusatif            |        |        |        |        |        |        |        |         |        |         |
+|   | accusatif temporel   |        |        |        |        |        |        |        |         |        |         |
+|   | adessif              | ix(a)- | ix(e)- | ix(a)- | ix(e)- | ix(a)- | ix(e)- | iź(a)- | iź(ei)- | iź(a)- | iź(ei)- |
+|   | adverbial            |        |        |        |        |        |        |        |         |        |         |
+|   | agentif              |        |        |        |        |        |        |        |         |        |         |
+|   | allatif              |        |        |        |        |        |        |        |         |        |         |
+|   | antessif             |        |        |        |        |        |        |        |         |        |         |
+|   | apudessif            |        |        |        |        |        |        |        |         |        |         |
+|   | aversif              |        |        |        |        |        |        |        |         |        |         |
+|   | causal               |        |        |        |        |        |        |        |         |        |         |
+|   | comitatif            |        |        |        |        |        |        |        |         |        |         |
+|   | comparatif           |        |        |        |        |        |        |        |         |        |         |
+|   | datif                |        |        |        |        |        |        |        |         |        |         |
+|   | delatif              |        |        |        |        |        |        |        |         |        |         |
+|   | distributif          |        |        |        |        |        |        |        |         |        |         |
+|   | distributif-temporel |        |        |        |        |        |        |        |         |        |         |
+|   | elatif               |        |        |        |        |        |        |        |         |        |         |
+|   | equatif              |        |        |        |        |        |        |        |         |        |         |
+|   | ergatif              |        |        |        |        |        |        |        |         |        |         |
+|   | ergatif-genitif      |        |        |        |        |        |        |        |         |        |         |
+|   | essif                |        |        |        |        |        |        |        |         |        |         |
+|   | essif-formel         |        |        |        |        |        |        |        |         |        |         |
+|   | essif-modal          |        |        |        |        |        |        |        |         |        |         |
+|   | exessif              |        |        |        |        |        |        |        |         |        |         |
+|   | genitif              |        |        |        |        |        |        |        |         |        |         |
+|   | identique            |        |        |        |        |        |        |        |         |        |         |
+|   | illatif              |        |        |        |        |        |        |        |         |        |         |
+|   | inessif              |        |        |        |        |        |        |        |         |        |         |
+|   | initiatif            |        |        |        |        |        |        |        |         |        |         |
+|   | instructif           |        |        |        |        |        |        |        |         |        |         |
+|   | instrumental         |        |        |        |        |        |        |        |         |        |         |
+|   | intratif             |        |        |        |        |        |        |        |         |        |         |
+|   | latif                |        |        |        |        |        |        |        |         |        |         |
+|   | limitatif            |        |        |        |        |        |        |        |         |        |         |
+|   | locatif              |        |        |        |        |        |        |        |         |        |         |
+|   | nominal              |        |        |        |        |        |        |        |         |        |         |
+|   | nominatif            |        |        |        |        |        |        |        |         |        |         |
+|   | oblique              |        |        |        |        |        |        |        |         |        |         |
+|   | orientatif           |        |        |        |        |        |        |        |         |        |         |
+|   | partitif             |        |        |        |        |        |        |        |         |        |         |
+|   | pegatif              |        |        |        |        |        |        |        |         |        |         |
+|   | perlatif             |        |        |        |        |        |        |        |         |        |         |
+|   | pertingent           |        |        |        |        |        |        |        |         |        |         |
+|   | postessif            |        |        |        |        |        |        |        |         |        |         |
+|   | privatif             |        |        |        |        |        |        |        |         |        |         |
+|   | prolatif             |        |        |        |        |        |        |        |         |        |         |
+|   | revertif             |        |        |        |        |        |        |        |         |        |         |
+|   | semplatif            |        |        |        |        |        |        |        |         |        |         |
+|   | sociatif             |        |        |        |        |        |        |        |         |        |         |
+|   | subessif             |        |        |        |        |        |        |        |         |        |         |
+|   | sublatif             |        |        |        |        |        |        |        |         |        |         |
+|   | superessif           |        |        |        |        |        |        |        |         |        |         |
+|   | temporel             |        |        |        |        |        |        |        |         |        |         |
+|   | terminatif           |        |        |        |        |        |        |        |         |        |         |
+|   | translatif           |        |        |        |        |        |        |        |         |        |         |
+|   | vocatif              |        |        |        |        |        |        |        |         |        |         |
 
-| / | <>                   | >      | >       | >      | >       | >      | >       | >      | >      |
-|   |                      | 5s     | 5p      | 6s     | 6p      | 7s     | 7p      | 8s     | 8p     |
-|---+----------------------+--------+---------+--------+---------+--------+---------+--------+--------|
-|   | abessif              |        |         |        |         |        |         |        |        |
-|   | ablatif              |        |         |        |         |        |         |        |        |
-|   | absolutif            |        |         |        |         |        |         |        |        |
-|   | accusatif            |        |         |        |         |        |         |        |        |
-|   | accusatif temporel   |        |         |        |         |        |         |        |        |
-|   | adessif              | iź(a)- | iź(ei)- | iź(a)- | iź(ei)- | iź(a)- | iź(ei)- | iŗ(a)- | iŗ(a)- |
-|   | adverbial            |        |         |        |         |        |         |        |        |
-|   | agentif              |        |         |        |         |        |         |        |        |
-|   | allatif              |        |         |        |         |        |         |        |        |
-|   | antessif             |        |         |        |         |        |         |        |        |
-|   | apudessif            |        |         |        |         |        |         |        |        |
-|   | aversif              |        |         |        |         |        |         |        |        |
-|   | causal               |        |         |        |         |        |         |        |        |
-|   | comitatif            |        |         |        |         |        |         |        |        |
-|   | comparatif           |        |         |        |         |        |         |        |        |
-|   | datif                |        |         |        |         |        |         |        |        |
-|   | delatif              |        |         |        |         |        |         |        |        |
-|   | distributif          |        |         |        |         |        |         |        |        |
-|   | distributif-temporel |        |         |        |         |        |         |        |        |
-|   | elatif               |        |         |        |         |        |         |        |        |
-|   | equatif              |        |         |        |         |        |         |        |        |
-|   | ergatif              |        |         |        |         |        |         |        |        |
-|   | ergatif-genitif      |        |         |        |         |        |         |        |        |
-|   | essif                |        |         |        |         |        |         |        |        |
-|   | essif-formel         |        |         |        |         |        |         |        |        |
-|   | essif-modal          |        |         |        |         |        |         |        |        |
-|   | exessif              |        |         |        |         |        |         |        |        |
-|   | genitif              |        |         |        |         |        |         |        |        |
-|   | identique            |        |         |        |         |        |         |        |        |
-|   | illatif              |        |         |        |         |        |         |        |        |
-|   | inessif              |        |         |        |         |        |         |        |        |
-|   | initiatif            |        |         |        |         |        |         |        |        |
-|   | instructif           |        |         |        |         |        |         |        |        |
-|   | instrumental         |        |         |        |         |        |         |        |        |
-|   | intratif             |        |         |        |         |        |         |        |        |
-|   | latif                |        |         |        |         |        |         |        |        |
-|   | limitatif            |        |         |        |         |        |         |        |        |
-|   | locatif              |        |         |        |         |        |         |        |        |
-|   | nominal              |        |         |        |         |        |         |        |        |
-|   | nominatif            |        |         |        |         |        |         |        |        |
-|   | oblique              |        |         |        |         |        |         |        |        |
-|   | orientatif           |        |         |        |         |        |         |        |        |
-|   | partitif             |        |         |        |         |        |         |        |        |
-|   | pegatif              |        |         |        |         |        |         |        |        |
-|   | perlatif             |        |         |        |         |        |         |        |        |
-|   | pertingent           |        |         |        |         |        |         |        |        |
-|   | postessif            |        |         |        |         |        |         |        |        |
-|   | privatif             |        |         |        |         |        |         |        |        |
-|   | prolatif             |        |         |        |         |        |         |        |        |
-|   | revertif             |        |         |        |         |        |         |        |        |
-|   | semplatif            |        |         |        |         |        |         |        |        |
-|   | sociatif             |        |         |        |         |        |         |        |        |
-|   | subessif             |        |         |        |         |        |         |        |        |
-|   | sublatif             |        |         |        |         |        |         |        |        |
-|   | superessif           |        |         |        |         |        |         |        |        |
-|   | temporel             |        |         |        |         |        |         |        |        |
-|   | terminatif           |        |         |        |         |        |         |        |        |
-|   | translatif           |        |         |        |         |        |         |        |        |
-|   | vocatif              |        |         |        |         |        |         |        |        |
-
-| / | <>                   | >      | >      |
-|   |                      | 9s     | 9p     |
-|---+----------------------+--------+--------|
-|   | abessif              |        |        |
-|   | ablatif              |        |        |
-|   | absolutif            |        |        |
-|   | accusatif            |        |        |
-|   | accusatif temporel   |        |        |
-|   | adessif              | iŗ(e)- | iŗ(e)- |
-|   | adverbial            |        |        |
-|   | agentif              |        |        |
-|   | allatif              |        |        |
-|   | antessif             |        |        |
-|   | apudessif            |        |        |
-|   | aversif              |        |        |
-|   | causal               |        |        |
-|   | comitatif            |        |        |
-|   | comparatif           |        |        |
-|   | datif                |        |        |
-|   | delatif              |        |        |
-|   | distributif          |        |        |
-|   | distributif-temporel |        |        |
-|   | elatif               |        |        |
-|   | equatif              |        |        |
-|   | ergatif              |        |        |
-|   | ergatif-genitif      |        |        |
-|   | essif                |        |        |
-|   | essif-formel         |        |        |
-|   | essif-modal          |        |        |
-|   | exessif              |        |        |
-|   | genitif              |        |        |
-|   | identique            |        |        |
-|   | illatif              |        |        |
-|   | inessif              |        |        |
-|   | initiatif            |        |        |
-|   | instructif           |        |        |
-|   | instrumental         |        |        |
-|   | intratif             |        |        |
-|   | latif                |        |        |
-|   | limitatif            |        |        |
-|   | locatif              |        |        |
-|   | nominal              |        |        |
-|   | nominatif            |        |        |
-|   | oblique              |        |        |
-|   | orientatif           |        |        |
-|   | partitif             |        |        |
-|   | pegatif              |        |        |
-|   | perlatif             |        |        |
-|   | pertingent           |        |        |
-|   | postessif            |        |        |
-|   | privatif             |        |        |
-|   | prolatif             |        |        |
-|   | revertif             |        |        |
-|   | semplatif            |        |        |
-|   | sociatif             |        |        |
-|   | subessif             |        |        |
-|   | sublatif             |        |        |
-|   | superessif           |        |        |
-|   | temporel             |        |        |
-|   | terminatif           |        |        |
-|   | translatif           |        |        |
-|   | vocatif              |        |        |
-
+| / | <>                   | >      | >       | >      | >       | >      | >      | >      | >      |
+|   |                      | 6s     | 6p      | 7s     | 7p      | 8s     | 8p     | 9s     | 9b     |
+|---+----------------------+--------+---------+--------+---------+--------+--------+--------+--------|
+|   | abessif              |        |         |        |         |        |        |        |        |
+|   | ablatif              |        |         |        |         |        |        |        |        |
+|   | absolutif            |        |         |        |         |        |        |        |        |
+|   | accusatif            |        |         |        |         |        |        |        |        |
+|   | accusatif temporel   |        |         |        |         |        |        |        |        |
+|   | adessif              | iź(a)- | iź(ei)- | iź(a)- | iź(ei)- | iŗ(a)- | iŗ(a)- | iŗ(e)- | iŗ(e)- |
+|   | adverbial            |        |         |        |         |        |        |        |        |
+|   | agentif              |        |         |        |         |        |        |        |        |
+|   | allatif              |        |         |        |         |        |        |        |        |
+|   | antessif             |        |         |        |         |        |        |        |        |
+|   | apudessif            |        |         |        |         |        |        |        |        |
+|   | aversif              |        |         |        |         |        |        |        |        |
+|   | causal               |        |         |        |         |        |        |        |        |
+|   | comitatif            |        |         |        |         |        |        |        |        |
+|   | comparatif           |        |         |        |         |        |        |        |        |
+|   | datif                |        |         |        |         |        |        |        |        |
+|   | delatif              |        |         |        |         |        |        |        |        |
+|   | distributif          |        |         |        |         |        |        |        |        |
+|   | distributif-temporel |        |         |        |         |        |        |        |        |
+|   | elatif               |        |         |        |         |        |        |        |        |
+|   | equatif              |        |         |        |         |        |        |        |        |
+|   | ergatif              |        |         |        |         |        |        |        |        |
+|   | ergatif-genitif      |        |         |        |         |        |        |        |        |
+|   | essif                |        |         |        |         |        |        |        |        |
+|   | essif-formel         |        |         |        |         |        |        |        |        |
+|   | essif-modal          |        |         |        |         |        |        |        |        |
+|   | exessif              |        |         |        |         |        |        |        |        |
+|   | genitif              |        |         |        |         |        |        |        |        |
+|   | identique            |        |         |        |         |        |        |        |        |
+|   | illatif              |        |         |        |         |        |        |        |        |
+|   | inessif              |        |         |        |         |        |        |        |        |
+|   | initiatif            |        |         |        |         |        |        |        |        |
+|   | instructif           |        |         |        |         |        |        |        |        |
+|   | instrumental         |        |         |        |         |        |        |        |        |
+|   | intratif             |        |         |        |         |        |        |        |        |
+|   | latif                |        |         |        |         |        |        |        |        |
+|   | limitatif            |        |         |        |         |        |        |        |        |
+|   | locatif              |        |         |        |         |        |        |        |        |
+|   | nominal              |        |         |        |         |        |        |        |        |
+|   | nominatif            |        |         |        |         |        |        |        |        |
+|   | oblique              |        |         |        |         |        |        |        |        |
+|   | orientatif           |        |         |        |         |        |        |        |        |
+|   | partitif             |        |         |        |         |        |        |        |        |
+|   | pegatif              |        |         |        |         |        |        |        |        |
+|   | perlatif             |        |         |        |         |        |        |        |        |
+|   | pertingent           |        |         |        |         |        |        |        |        |
+|   | postessif            |        |         |        |         |        |        |        |        |
+|   | privatif             |        |         |        |         |        |        |        |        |
+|   | prolatif             |        |         |        |         |        |        |        |        |
+|   | revertif             |        |         |        |         |        |        |        |        |
+|   | semplatif            |        |         |        |         |        |        |        |        |
+|   | sociatif             |        |         |        |         |        |        |        |        |
+|   | subessif             |        |         |        |         |        |        |        |        |
+|   | sublatif             |        |         |        |         |        |        |        |        |
+|   | superessif           |        |         |        |         |        |        |        |        |
+|   | temporel             |        |         |        |         |        |        |        |        |
+|   | terminatif           |        |         |        |         |        |        |        |        |
+|   | translatif           |        |         |        |         |        |        |        |        |
+|   | vocatif              |        |         |        |         |        |        |        |        |
+src_latex{\newpage}
 Ci-dessous, chaque cas grammatical sera expliqué ainsi que son utilisation dans le Hjalpi’.
 
 ** Lieu
