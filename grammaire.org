@@ -1,4 +1,4 @@
-#+TITLE: Grammaire de la langue divine
+#+TITLE: Grammaire du Hjalpi’
 #+AUTHOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
