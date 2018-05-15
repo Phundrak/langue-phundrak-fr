@@ -1,4 +1,4 @@
-#+TITLE: Ressources grammaticales de la Langue Divine
+#+TITLE: Ressources grammaticales des langues construites de P’undrak
 #+AUTHOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
