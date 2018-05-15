@@ -178,19 +178,19 @@ Pour ce qui est de l’accentuation des phrases, le ton est généralement tomba
 
 ** Romanisation et translittération
 * Noms
-*** Genres
+** Genres
 La langue divine dispose d’un système de genre composé de neuf éléments :
 1. divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin.
-2. mental : se réfère à tout élément non physique ou concept, comme des pensées ou un événement. Les lieux sont également classifiés dans le genre mental.
+2. mental : se réfère à tout élément non physique ou concept, comme des pensées ou un événement. Les lieux physiques et temporels sont également classifiés dans le genre mental.
 3. liquide : se réfère, comme son nom l’indique, à tout liquide, et en particulier à l’eau, mais ne couvre pas tous les fluides (l’air n’est pas considéré comme un liquide, malgré le fait que ce soit un fluide).
 4. masculin : se réfère à tout mâle biologique humain ou semi-humain.
 6. féminin : se réfère à toute femelle biologique humaine ou semi-humaine.
-7. neutre : se réfère à groupe d’humain et/ou de semi-humains, ou bien à un humain ou semi-humain dont le sexe biologique est inconnu du locuteur.
-8. animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain.
+7. neutre : se réfère à groupe d’humain et/ou de semi-humains, ou bien à un humain ou semi-humain dont le sexe biologique est inconnu du locuteur. Se réfère aussi à tout membre du corps humain.
+8. animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain, ou membre d’animaux.
 9. végétal : se réfère à toute plante ou végétal.
 10. inanimé : se réfère à tout élément minéral ou physique ne rentrant pas dans les catégories précédentes.
 
-*** Nombre
+** Nombre
 La langue divine dispose d’un système de nombre des noms plutôt évolué, avec un total de cinq nombres :
 - singulier : un élément unique
 - singulatif : un groupe d’éléments semblables non dénombrés
