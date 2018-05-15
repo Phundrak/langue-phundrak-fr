@@ -211,7 +211,7 @@ Le singulier, le singulatif, le duel et le triel sont parfois regroupé dans le 
 Comme précisé ci-dessus, le singulatif permet de regrouper des éléments semblables non dénombrés. Ainsi, « du sucre » ou « des arbres » sera au nombre singulatif.
 
 * Cas grammaticaux
-La langue divine est une langue très riche en cas grammaticaux et en déclinaisons. Cela lui permet ainsi d’exprimer une grande précision dans un nombre minimal de mots, et lui donne également une grande liberté quant à l’ordre des mots dans la phrase. En revanche, cela implique également un système complexe de déclinaisons qu’il faut mémoriser.
+La langue divine est une langue très riche en cas grammaticaux et en déclinaisons. Cela lui permet ainsi d’exprimer une grande précision dans un nombre minimal de mots, et lui donne également une grande liberté quant à l’ordre des mots dans la phrase. En revanche, cela implique également un système complexe de déclinaisons qu'il faut mémoriser.
 
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 + V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
