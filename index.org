@@ -1,10 +1,12 @@
-#+TITLE: Ressources grammaticales de la Langue Divine V2
-#+SUBTITLE: Développement en cours
+#+TITLE: Ressources grammaticales de la Langue Divine
 #+AUTHOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
 #+LaTeX_CLASS_OPTIONS: [a4paper]
-#+OPTIONS: toc:nil
 src_latex{\newpage}
 
-[[file:grammaire.html][Grammaire de la langue divine]] ([[file:grammaire.pdf][pdf]])
+[[file:hjalpi-old/index.html][Hjalpi’ Verniculaire (développement suspendu)]]
+
+[[file:hjalpi/index.html][Langue Divine Originelle (en cours)]]
+
+[[file:draconian/auto-generated-draft.html][Draconien (en cours)]]

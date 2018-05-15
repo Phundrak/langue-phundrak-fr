@@ -1,0 +1,233 @@
+#+TITLE: Cas grammaticaux de la Langue Divine
+#+AUTHOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+src_latex{\newpage}
+
+Grammatical states marques with a star ( * ) are grammatical states that do not exist *as declensions* in the Divine Language.
+
+* Chart for review for the basic cases
+
+| /        | <         |             |           |             |
+|          | interior  | surface     | adjacency | state       |
+|----------+-----------+-------------+-----------+-------------|
+| /from/   | Elative   | Delative    | Ablative  | Excessive   |
+| /at/in/  | Inessive  | Superessive | Adessive  | Essive      |
+| /(in)to/ | Illative  | Sublative   | Allative  | Translative |
+| /via/    | Perlative | Prolative   |           |             |
+
+src_latex{\newpage}
+
+* Location
+
+- Adessive case ADE /iŗ-/ :: adjacent location
+Example: near/at/by the house, /íŗmén/
+- Antessive case ANTE /vwo-/ :: anterior location
+Example: before the house, /vwómén/
+- Apudessive case APUD /ne-/ :: location next to something
+Example: next to the house, /némén/
+- Inessive case /-ŕo-/ :: inside something
+Example: inside the house, /méŕón/
+- Intrative case ITRT /-fu-/ :: between something
+Example: between the houses, /méfún/
+- Locative case LOC /la-/ :: location (general case)
+Example: at/on/in the house, /lámén/
+- Pertingent case /ma-/ :: in contact with something
+Example: touching the house, /mámén/
+- Postessive case POSTE /-uß/ :: posterior location
+Example: behind the house, /ménúß/
+- Subessive case SUBE /nwo-/ :: under something
+Example: under/below the house, /nwómén/
+- Superessive case SUPE /ßta-/ :: on the surface
+Example: on (top of) the house, /ßtámén/
+
+src_latex{\newpage}
+
+* Motion from
+
+- Ablative case ABL /li-/ :: movement away from something
+Example: away from the house, /límén/
+- Delative case DEL /ßa-/ :: movement from the surface
+Example: from (the top of) the house, /ßámén/
+- *Egressive case EGRE :: marking the beginning of a movement or time
+Example: beginning from the house
+- Elative case ELA /-ykń/ :: out of something
+Example: out of the house, /ménýkń/
+- Initiative case INITI /-akļ/ :: starting point of an action
+Example: beginning from the house, /ménákļ/
+
+src_latex{\newpage}
+
+* Motion to
+
+- Allative case ALL /-li-/ ::
+  - *in Hungarian and in Finnish: movement to (the adjacency of). Example: to the house
+  - in Estonian and in Finnish: movement onto something. Example: onto the house, /mélín/
+
+- Illative case ILL /-ën-/ :: movement into something
+Example: into the house, /mênén/
+- Lative case LAT /-la/ :: movement to something (general case)
+Example: to/into the house, /ménlá/
+- Sublative case SUBL /-iţ/ :: movement onto the surface or below something
+Example: on(to) the house / under the house, /méníţ/
+- Terminative case TERM /-aen/ :: marking the end of a movement or time
+Example: as far as the house, /ménáén/
+
+src_latex{\newpage}
+
+* Motion via
+
+- Perlative case PER /žu-/ :: movement through or along
+Example: through/along the house, /žúmén/
+- Prolative case PROL /še-/ :: movement using a surface or way (= prosecutive case, vialis case)
+Example: by way of/through the house, /šémén/
+
+src_latex{\newpage}
+
+* Time
+
+- Accusative case ACC /-źu/ :: indicating duration of time known as the *accusative of duration of time*
+Example: for many years, /łaižegźu/
+- Essive case ESS /-oiþyd-/ :: used for specifying days and dates when something happens
+Example: on the first day of the week, /žóíþýdójorém/
+- Limitative case LIMIT /-amp/ :: specifying a deadline
+Example: by the first day of the week, /žójorémámp/
+- Temporal case TEMP /-igni/ :: specifying a time
+Example: at seven o’clock, /ţuheol ţupńtwan ţéálnatigni/ (GEN-hour GEN-seven precise-TEMP, at the precise hour of seven)
+
+src_latex{\newpage}
+
+* Morphosyntactic alignment
+
+- Absolutive case (1) ABS /-a/ :: patient, experiencer; subject of an intransitive verb and direct object of a transitive verb. *In the divine language, the absolutive case is only used for the subject of an intransitive verb.*
+Example: he pushed the *door* and *it* opened, /kjaŗa/ (door)
+- *Absolutive case (2) ABS :: patient, involuntary experiencer
+Example: he pushed the *door* and *it* opened; *he* slipped
+- *Absolutive case (3) ABS :: patient, experiencer; instrument
+Example: he pushed the *door* with his *hand* and *it* opened
+- *Accusative case (1) :: patient
+Example: he pushed the *door* and it opened
+- Accusative case (2) ACC /-vo/ :: direct object of a transitive verb
+Example: I see *her*, /kjeŗvo/
+- Agentive case AGE /te-/ :: agent, specifies or asks about /who/ or /what/; specific agent that is subset of a
+general topic or subject. Equivalent to the -ga particle in Japanese
+Example: it was *she* who committed the crime; as for him, his *head* hurts, /tekjeŗ/, /tegar/
+- Ergative case ERG /-jo/ :: agent; subject of a transitive verb
+Example: *he* pushed the door and it opened
+- *Ergative-genitive case EGN :: agent, possession
+Example: *he* pushed the door and it opened; *her* dog
+- Instructive INSTRUCTIVE /-eň/ :: means, answers question /how?/
+Example: by the means of the houses, /ménéň/
+- Instrumental INS/INSTR /-dļ/ :: instrument, answers question /using which thing?/
+Example: with the house, /méndļ/
+- *Instrumental-comitative case :: instrument, in company of something
+Example: with the house
+- *Nominative case (1) :: agent, experiencer; subject of a transitive or intransitive verb
+Example: *he* pushed the door and *it* opened
+- *Nominative case (2) :: agent; voluntary experiencer
+Example: *he* pushed the door and it opened; *she* paused
+- Nominative case NOM (3) /pa-/ :: In the divine language, the person linked to the word; transforms a verbal group into a nominal group
+Example: horseman, /panael/ (the man linked to horses, implied riding horses)
+- *Objective case (1) OBJ :: direct or indirect object of verb
+Example: I saw *her*; I gave *her* the book
+- *Objective/Oblique (2) :: direct or indirect object of verb or object of preposition; a catch-all case for any situation except nominative or genitive
+Example: I saw *her*; I gave *her* the book; with *her*
+- Oblique case OBL /-ŗeß/ :: all-round case; any situation except nominative or vocative. In the divine language, is used to quote the element
+Example: concerning the house, /ménŗéß/
+- Intransitive case INTR /-ai/ :: the subject of an intransitive verb or the logical complement of a transitive verb (= passive or patient case)
+Example: the *door* opened, /mělai/
+- Pegative case PEG /ey-/ :: agent in a clause with a dative argument
+Example: *he* gave the book to him, /eykjaŗ/
+
+src_latex{\newpage}
+
+* Relation
+
+- Ablative case /łe-/ :: all-round indirect case
+Example: concerning the house, /łémén/
+- Aversive case EVIT /-ńþ-/ :: avoiding or fear
+Example: avoiding the house, /mńþén/
+- *Benefactive case BEN :: for, for the benefit of, intended for
+Example: for the house
+- Causal case CAUS /-oby/ :: because, because of
+Example: because of the house, /ménóbý/
+- *Causal-final case :: efficient or final cause
+Example: for a house
+- Comitative case COM /-ðei-/ :: in company of something
+Example: with the house, /méðéín/
+- Dative case DAT /-at-/ :: shows directon or recipient
+Example: for/to the house, /mátén/
+- Distributive case DISTR /xelje-/ :: distribution by piece
+Example: per house, /xéljémén/
+- Distributive-temporal case /-be/ :: how often something happens
+Example: on Sundays, /ðúbémbé/
+- Genitive case GEN /ţu-/ :: shows relationship, possesssion
+Example: of the house; the house’s, /ţúmén/
+- *Ornative case :: endowment with something
+Example: equipped with a house
+- *Possessed case POSS :: possession by something
+Example: the house is owned by someone
+- Privative case /ei-/ :: lacking something (in general)
+Example: without a houses, /éímén/
+- Semplative case /-ŗwo/ :: similarity to something
+Example: that tree is *like a house*, /ménŗwó/
+- Sociative case /to-/ :: along with something, together with something
+Example: with the house, /tómén/
+
+src_latex{\newpage}
+
+* Semantics
+
+- Partitive case PTV/PART /-ili’-/ :: used for amounts
+Example: three (of the) houses, /mílí’én/
+- *Prepositional case PREP :: when certain prepositions precede the noun
+
+#  LocalWords:  éímén ménŗwó tómén
+
+#  LocalWords:  ðúbémbé
+
+#  LocalWords:  xéljémén
+
+#  LocalWords:  mátén
+
+#  LocalWords:  méðéín
+
+#  LocalWords:  mńþén
+- *Postpositional case POST :: when certain preposition follows the noun
+Example: in/on/about the house
+- Vocative case VOC /-wa/ :: used for addressing someone, with or without a preposition
+Example: Hey, father! O father! Father!, /pánámwá/
+
+src_latex{\newpage}
+
+* State
+
+- Abessive case ABE/ABESS /e-/ :: the lack of something, a particular thing
+Example: without the house, /émén/
+- Adverbial case ADV /-ei/ :: being as something
+Example: as a house, /ménéí/
+- Comparative case COMP /-oit/ :: similarity with something
+Example: similar to the house, compared to the house, /ménóít/
+- Equative case /-ńt/ :: comparison with something
+Example: like the house, /ménńt/
+- Essive case /-oiþyd-/ :: temporary state of being, general use (essive-formal or essive-modal undefined, or both)
+Example: as the house, /móíþýdén/
+- Essive-formal case /-ëd/ :: marking a condition as a quality (a kind of shape)
+Example: as a house, /ménêd/
+- Essive-modal case /-u’ug/ :: marking a condition as a quality (a way of being)
+Example: as a house, /ménú’úg/
+- *Exessive case :: marking a transition from a condition
+Example: from being a house (i.e., “it stops being a house”)
+- *Formal case :: marking a condition as a quality
+Example: as a house
+- Identical case /-etur/ :: showing that something is identical
+Example: being identical to the house, /ménétúr/
+- Orientative case ORI /fo-/ :: oriented towards something
+Example: turned towards the house, /fómén/
+- Revertive case /-ňo-/ :: backwards to something
+Example: against the house, /méňón/
+- Translative case TRANSL /-in/ :: change of a condition into another
+Example: (turning) into a house, /ménín/
+
+#  LocalWords: ménákļ mélín ménýkń ßámén límén ßtámén nwómén ménúß mámén lámén méfún méŕón némén vwómén íŗmén ménŗéß mělai eykjaŗ panael méndļ ménéň tegar tekjeŗ kjeŗvo kjaŗa experiencer mênén ménlá méníţ ménáén žúmén šémén łailźu žóíþýdójorém ţuheol ţupńtwan ga ţéálnatigni žójorémámp émén ménéí ménóít ménńt móíþýdén ménêd úg ménú ménétúr fómén méňón ménín pánámwá én mílí łaižegźu

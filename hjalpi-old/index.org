@@ -1,0 +1,17 @@
+#+TITLE: Ressources grammaticales du Hjalpi’ Verniculaire
+#+SUBTITLE: Développement suspendu
+#+AUTHOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+src_latex{\newpage}
+
+[[file:grammaire.html][Grammaire]] ([[file:grammaire.pdf][pdf]])
+
+[[file:grammaire_2.html][Grammaire V2]] ([[file:grammaire_2.pdf][pdf]])
+
+[[file:dictionnaire.html][Dictionnaire]] ([[file:dictionnaire.pdf][pdf]])
+
+[[file:cas_grammaticaux.html][Cas grammaticaux]] ([[file:cas_grammaticaux.pdf][pdf]])
+
+[[file:cas_grammaticaux_2.html][Cas grammaticaux V2]] ([[file:cas_grammaticaux_2.pdf][pdf]])

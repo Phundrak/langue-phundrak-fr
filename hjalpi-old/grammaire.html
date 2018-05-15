@@ -1,0 +1,2648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<!-- 2018-05-15 mar. 19:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grammaire du Hjalpi’ verniculaire</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Lucien Cartier-Tilet" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Grammaire du Hjalpi’ verniculaire</h1>
+<div id="table-of-contents">
+<h2>Table des matières</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org397be22">1. Abréviations</a></li>
+<li><a href="#orgba9230b">2. Prononciation et structure sonore</a>
+<ul>
+<li><a href="#org73ae73c">2.1. Les lettres : romanisation, translittération et écriture simplifiée</a>
+<ul>
+<li><a href="#orgb06e96e">2.1.1. Romanisation</a></li>
+<li><a href="#orgdd5859f">2.1.2. Translittération</a></li>
+<li><a href="#org18a52ef">2.1.3. Écriture simplifiée</a></li>
+</ul>
+</li>
+<li><a href="#org7427936">2.2. Les sons</a>
+<ul>
+<li><a href="#orgdfc4d34">2.2.1. Les voyelles</a></li>
+<li><a href="#org8defb24">2.2.2. Les consonnes</a></li>
+</ul>
+</li>
+<li><a href="#org7428433">2.3. Son long, son court</a></li>
+<li><a href="#orgb09074d">2.4. Les diphtongues</a></li>
+<li><a href="#org2363385">2.5. Les syllabes</a></li>
+<li><a href="#org6ef7e83">2.6. Les tons et l’accentuation</a></li>
+<li><a href="#org2a3fb60">2.7. L’harmonie</a>
+<ul>
+<li><a href="#org57a3607">2.7.1. L’harmonie des voyelles</a></li>
+<li><a href="#org0d79411">2.7.2. L’harmonie des consonnes</a></li>
+</ul>
+</li>
+<li><a href="#orgc26c0b2">2.8. Assimilation</a></li>
+</ul>
+</li>
+<li><a href="#orgfe15754">3. Les noms</a>
+<ul>
+<li><a href="#orge17ee49">3.1. Genre, nombre et type de nom</a>
+<ul>
+<li><a href="#org6089fd3">3.1.1. Genre</a></li>
+<li><a href="#orgb0f06c5">3.1.2. Nombre</a></li>
+<li><a href="#orgc64ee03">3.1.3. Types de noms</a></li>
+</ul>
+</li>
+<li><a href="#orgcd44a98">3.2. Pronoms</a></li>
+</ul>
+</li>
+<li><a href="#orge274d64">4. Temps</a></li>
+<li><a href="#org38ddb07">5. Les verbes</a>
+<ul>
+<li><a href="#org46f6d7d">5.1. Conjugaison</a>
+<ul>
+<li><a href="#org5bb76d0">5.1.1. Objectif, subjectif</a></li>
+<li><a href="#orgcd2d800">5.1.2. Progressif</a></li>
+<li><a href="#org0aa33b6">5.1.3. Présent de l’indicatif</a></li>
+<li><a href="#orgcfaaa55">5.1.4. Futur proche</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org009a729">6. Niveaux de politesse</a></li>
+<li><a href="#org4e4abba">7. Annexes</a>
+<ul>
+<li><a href="#org0368bb3">7.1. Annexe A</a>
+<ul>
+<li><a href="#org47e0ea1">7.1.1. Les Voyelles</a></li>
+<li><a href="#org2e06cfd">7.1.2. Les Consonnes</a></li>
+</ul>
+</li>
+<li><a href="#orga8b878b">7.2. Annexe B</a>
+<ul>
+<li><a href="#orgc2ac352">7.2.1. Harmonie des voyelles</a></li>
+<li><a href="#orgb1bf8ef">7.2.2. Harmonie des consonnes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga72867b">8. Vrac</a></li>
+</ul>
+</div>
+</div>
+<p>
+
+</p>
+
+<div id="outline-container-org397be22" class="outline-2">
+<h2 id="org397be22"><span class="section-number-2">1</span> Abréviations</h2>
+<div class="outline-text-2" id="text-1">
+<dl class="org-dl">
+<dt>n.</dt><dd>nom</dd>
+<dt>rmq.</dt><dd>remarque</dd>
+<dt>rom.</dt><dd>romanisation</dd>
+<dt>trans.</dt><dd>translittération</dd>
+<dt>v.</dt><dd>verbe</dd>
+</dl>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgba9230b" class="outline-2">
+<h2 id="orgba9230b"><span class="section-number-2">2</span> Prononciation et structure sonore</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-org73ae73c" class="outline-3">
+<h3 id="org73ae73c"><span class="section-number-3">2.1</span> Les lettres : romanisation, translittération et écriture simplifiée</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Le Hjalpi’ dispose de trente et une consonnes et dix-huit voyelles, soit un total de quarante-neuf phonèmes simples tous représentés par un graphème unique lors de la romanisation ainsi que dans l’alphabet d’origine.
+</p>
+</div>
+
+<div id="outline-container-orgb06e96e" class="outline-4">
+<h4 id="orgb06e96e"><span class="section-number-4">2.1.1</span> Romanisation</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+Dans la romanisation de la langue, chaque lettre correspond à un unique son, et chaque son correspond à une unique lettre. Il s’agit d’une notation phonétique simple à lire et fidèle à la prononciation, similaire à la translittération, mais ne respectant pas l’orthographe de la langue. Cela vient du fait que certaines lettres se côtoyant change de prononciation, se fusionnant ou influençant la prononciation de l’autre lettre.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdd5859f" class="outline-4">
+<h4 id="orgdd5859f"><span class="section-number-4">2.1.2</span> Translittération</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+La translittération à l’inverse est extrêmement fidèle à l’orthographe des mots, retranscrivant caractère pour caractère les lettres dans l’alphabet latin. Cependant, un lecteur non avertit des règles de lecture et d’accord des sons ne prononcera pas correctement certaines liaisons entre certaines sonorités.
+</p>
+
+<p>
+La seule différence entre les deux modes de transcription en alphabet latin est donc la façon d’écrire tel qu’on entend la langue à l’oral, ou bien telle qu’elle est écrite. Dans les deux cas, une certaine graphie latine représentera le même son, et écrire un mot en accord avec la prononciation dans le Hjalpi’ sera considéré comme preuve d’un manque de connaissance de l’orthographe, mais considéré cependant comme étant bon.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org18a52ef" class="outline-4">
+<h4 id="org18a52ef"><span class="section-number-4">2.1.3</span> Écriture simplifiée</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+Comme le titre de ce sous-chapitre l’indique, il existe également un moyen d’écrire de manière simplifiée la langue, afin qu’elle soit à peu près lisible pour les personnes non averties. Cette écriture simplifiée peut changer selon la langue du contexte, que ce soit le Français, l’Anglais, le Japonais, le Russe ou autre, étant donné que chacune de ces langues a sa propre façon de représenter les sons avec les lettres ou symboles qui lui sont disponibles. Généralement, dans la version Française de cet ouvrage, si j’utilise l’écriture simplifiée je préférerai la notation française, mais si je le traduit dans une autre langue (sans doute l’Anglais), je m’efforcerai à changer cela afin de suivre les règles de phonétique de la langue de Shakespeare.
+</p>
+
+<p>
+En revanche, dans mes autres ouvrages plus romanciers et autre, j’utiliserai plutôt la simplification anglophone, afin d’éviter des conflits de traduction dans où le cas où cela pourrait se produire.
+</p>
+
+<p>
+Voici un tableau qui peut être utilisé afin d’obtenir une écriture simplifiée de le Hjalpi’ pour des locuteurs Français :
+</p>
+
+<p>
+Pour les consonnes :
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">latin majuscule</th>
+<th scope="col" class="org-left">latin minuscule</th>
+<th scope="col" class="org-left">simplifié pour le Français</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">J</td>
+<td class="org-left">j</td>
+<td class="org-left">y</td>
+</tr>
+
+<tr>
+<td class="org-left">W</td>
+<td class="org-left">w</td>
+<td class="org-left">w</td>
+</tr>
+
+<tr>
+<td class="org-left">R</td>
+<td class="org-left">r</td>
+<td class="org-left">rr</td>
+</tr>
+
+<tr>
+<td class="org-left">Ł</td>
+<td class="org-left">ł</td>
+<td class="org-left">lh</td>
+</tr>
+
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">l</td>
+<td class="org-left">l</td>
+</tr>
+
+<tr>
+<td class="org-left">M</td>
+<td class="org-left">m</td>
+<td class="org-left">m</td>
+</tr>
+
+<tr>
+<td class="org-left">N</td>
+<td class="org-left">n</td>
+<td class="org-left">n</td>
+</tr>
+
+<tr>
+<td class="org-left">Ň</td>
+<td class="org-left">ň</td>
+<td class="org-left">ng</td>
+</tr>
+
+<tr>
+<td class="org-left">V</td>
+<td class="org-left">v</td>
+<td class="org-left">v</td>
+</tr>
+
+<tr>
+<td class="org-left">Ð</td>
+<td class="org-left">ð</td>
+<td class="org-left">dh / v</td>
+</tr>
+
+<tr>
+<td class="org-left">Z</td>
+<td class="org-left">z</td>
+<td class="org-left">z</td>
+</tr>
+
+<tr>
+<td class="org-left">Ź</td>
+<td class="org-left">ź</td>
+<td class="org-left">j</td>
+</tr>
+
+<tr>
+<td class="org-left">Ž</td>
+<td class="org-left">ž</td>
+<td class="org-left">jh</td>
+</tr>
+
+<tr>
+<td class="org-left">F</td>
+<td class="org-left">f</td>
+<td class="org-left">f</td>
+</tr>
+
+<tr>
+<td class="org-left">Þ</td>
+<td class="org-left">þ</td>
+<td class="org-left">th / f</td>
+</tr>
+
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">s</td>
+<td class="org-left">s</td>
+</tr>
+
+<tr>
+<td class="org-left">ß</td>
+<td class="org-left">ß</td>
+<td class="org-left">ch</td>
+</tr>
+
+<tr>
+<td class="org-left">Š</td>
+<td class="org-left">š</td>
+<td class="org-left">sh</td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">x</td>
+<td class="org-left">rh</td>
+</tr>
+
+<tr>
+<td class="org-left">Ŗ</td>
+<td class="org-left">ŗ</td>
+<td class="org-left">r</td>
+</tr>
+
+<tr>
+<td class="org-left">H</td>
+<td class="org-left">h</td>
+<td class="org-left">h</td>
+</tr>
+
+<tr>
+<td class="org-left">Ŕ</td>
+<td class="org-left">ŕ</td>
+<td class="org-left">r</td>
+</tr>
+
+<tr>
+<td class="org-left">B</td>
+<td class="org-left">b</td>
+<td class="org-left">b</td>
+</tr>
+
+<tr>
+<td class="org-left">D</td>
+<td class="org-left">d</td>
+<td class="org-left">d</td>
+</tr>
+
+<tr>
+<td class="org-left">Ď</td>
+<td class="org-left">ď</td>
+<td class="org-left">dr</td>
+</tr>
+
+<tr>
+<td class="org-left">G</td>
+<td class="org-left">g</td>
+<td class="org-left">g</td>
+</tr>
+
+<tr>
+<td class="org-left">P</td>
+<td class="org-left">p</td>
+<td class="org-left">p</td>
+</tr>
+
+<tr>
+<td class="org-left">T</td>
+<td class="org-left">t</td>
+<td class="org-left">t</td>
+</tr>
+
+<tr>
+<td class="org-left">Ţ</td>
+<td class="org-left">ţ</td>
+<td class="org-left">tr</td>
+</tr>
+
+<tr>
+<td class="org-left">K</td>
+<td class="org-left">k</td>
+<td class="org-left">k</td>
+</tr>
+
+<tr>
+<td class="org-left">'</td>
+<td class="org-left">'</td>
+<td class="org-left">g</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+Pour les voyelles :
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">latin majuscule</th>
+<th scope="col" class="org-left">latin minuscule</th>
+<th scope="col" class="org-left">simplifié pour le Français</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">a</td>
+<td class="org-left">a</td>
+</tr>
+
+<tr>
+<td class="org-left">Á</td>
+<td class="org-left">á</td>
+<td class="org-left">a</td>
+</tr>
+
+<tr>
+<td class="org-left">Ë</td>
+<td class="org-left">ë</td>
+<td class="org-left">eu</td>
+</tr>
+
+<tr>
+<td class="org-left">Ê</td>
+<td class="org-left">ê</td>
+<td class="org-left">eu</td>
+</tr>
+
+<tr>
+<td class="org-left">Ě</td>
+<td class="org-left">ě</td>
+<td class="org-left">eu</td>
+</tr>
+
+<tr>
+<td class="org-left">Ö</td>
+<td class="org-left">ö</td>
+<td class="org-left">eur</td>
+</tr>
+
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">i</td>
+<td class="org-left">i</td>
+</tr>
+
+<tr>
+<td class="org-left">Í</td>
+<td class="org-left">í</td>
+<td class="org-left">i</td>
+</tr>
+
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">e</td>
+<td class="org-left">é</td>
+</tr>
+
+<tr>
+<td class="org-left">É</td>
+<td class="org-left">é</td>
+<td class="org-left">è</td>
+</tr>
+
+<tr>
+<td class="org-left">O</td>
+<td class="org-left">o</td>
+<td class="org-left">o</td>
+</tr>
+
+<tr>
+<td class="org-left">Ó</td>
+<td class="org-left">ó</td>
+<td class="org-left">au</td>
+</tr>
+
+<tr>
+<td class="org-left">Y</td>
+<td class="org-left">y</td>
+<td class="org-left">u</td>
+</tr>
+
+<tr>
+<td class="org-left">Ý</td>
+<td class="org-left">ý</td>
+<td class="org-left">u</td>
+</tr>
+
+<tr>
+<td class="org-left">U</td>
+<td class="org-left">u</td>
+<td class="org-left">ou</td>
+</tr>
+
+<tr>
+<td class="org-left">Ú</td>
+<td class="org-left">ú</td>
+<td class="org-left">ou</td>
+</tr>
+
+<tr>
+<td class="org-left">Ń</td>
+<td class="org-left">ń</td>
+<td class="org-left">ng</td>
+</tr>
+
+<tr>
+<td class="org-left">Ļ</td>
+<td class="org-left">ļ</td>
+<td class="org-left">ll</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+À titre indicatif, voici le même tableau pour l’écriture simplifiée anglophone :
+</p>
+
+<p>
+Pour les voyelles :
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">latin majuscule</th>
+<th scope="col" class="org-left">latin minuscule</th>
+<th scope="col" class="org-left">simplifié pour le Français</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">a</td>
+<td class="org-left">ah</td>
+</tr>
+
+<tr>
+<td class="org-left">Á</td>
+<td class="org-left">á</td>
+<td class="org-left">a</td>
+</tr>
+
+<tr>
+<td class="org-left">Ë</td>
+<td class="org-left">ë</td>
+<td class="org-left">oh</td>
+</tr>
+
+<tr>
+<td class="org-left">Ê</td>
+<td class="org-left">ê</td>
+<td class="org-left">ö</td>
+</tr>
+
+<tr>
+<td class="org-left">Ě</td>
+<td class="org-left">ě</td>
+<td class="org-left">ö</td>
+</tr>
+
+<tr>
+<td class="org-left">Ö</td>
+<td class="org-left">ö</td>
+<td class="org-left">or</td>
+</tr>
+
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">i</td>
+<td class="org-left">ii</td>
+</tr>
+
+<tr>
+<td class="org-left">Í</td>
+<td class="org-left">í</td>
+<td class="org-left">i</td>
+</tr>
+
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">e</td>
+<td class="org-left">eh</td>
+</tr>
+
+<tr>
+<td class="org-left">É</td>
+<td class="org-left">é</td>
+<td class="org-left">e</td>
+</tr>
+
+<tr>
+<td class="org-left">O</td>
+<td class="org-left">o</td>
+<td class="org-left">oh</td>
+</tr>
+
+<tr>
+<td class="org-left">Ó</td>
+<td class="org-left">ó</td>
+<td class="org-left">o</td>
+</tr>
+
+<tr>
+<td class="org-left">Y</td>
+<td class="org-left">y</td>
+<td class="org-left">üh</td>
+</tr>
+
+<tr>
+<td class="org-left">Ý</td>
+<td class="org-left">ý</td>
+<td class="org-left">ü</td>
+</tr>
+
+<tr>
+<td class="org-left">U</td>
+<td class="org-left">u</td>
+<td class="org-left">uu</td>
+</tr>
+
+<tr>
+<td class="org-left">Ú</td>
+<td class="org-left">ú</td>
+<td class="org-left">u</td>
+</tr>
+
+<tr>
+<td class="org-left">Ń</td>
+<td class="org-left">ń</td>
+<td class="org-left">ng</td>
+</tr>
+
+<tr>
+<td class="org-left">Ļ</td>
+<td class="org-left">ļ</td>
+<td class="org-left">ll</td>
+</tr>
+</tbody>
+</table>
+<p>
+
+Pour les consonnes :
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">latin majuscule</th>
+<th scope="col" class="org-left">latin minuscule</th>
+<th scope="col" class="org-left">simplifié pour le Français</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">J</td>
+<td class="org-left">j</td>
+<td class="org-left">y</td>
+</tr>
+
+<tr>
+<td class="org-left">W</td>
+<td class="org-left">w</td>
+<td class="org-left">w</td>
+</tr>
+
+<tr>
+<td class="org-left">R</td>
+<td class="org-left">r</td>
+<td class="org-left">rr</td>
+</tr>
+
+<tr>
+<td class="org-left">Ł</td>
+<td class="org-left">ł</td>
+<td class="org-left">lh</td>
+</tr>
+
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">l</td>
+<td class="org-left">l</td>
+</tr>
+
+<tr>
+<td class="org-left">M</td>
+<td class="org-left">m</td>
+<td class="org-left">m</td>
+</tr>
+
+<tr>
+<td class="org-left">N</td>
+<td class="org-left">n</td>
+<td class="org-left">n</td>
+</tr>
+
+<tr>
+<td class="org-left">Ň</td>
+<td class="org-left">ň</td>
+<td class="org-left">ng</td>
+</tr>
+
+<tr>
+<td class="org-left">V</td>
+<td class="org-left">v</td>
+<td class="org-left">v</td>
+</tr>
+
+<tr>
+<td class="org-left">Ð</td>
+<td class="org-left">ð</td>
+<td class="org-left">dh</td>
+</tr>
+
+<tr>
+<td class="org-left">Z</td>
+<td class="org-left">z</td>
+<td class="org-left">z</td>
+</tr>
+
+<tr>
+<td class="org-left">Ź</td>
+<td class="org-left">ź</td>
+<td class="org-left">zh</td>
+</tr>
+
+<tr>
+<td class="org-left">Ž</td>
+<td class="org-left">ž</td>
+<td class="org-left">zhh</td>
+</tr>
+
+<tr>
+<td class="org-left">F</td>
+<td class="org-left">f</td>
+<td class="org-left">f</td>
+</tr>
+
+<tr>
+<td class="org-left">Þ</td>
+<td class="org-left">þ</td>
+<td class="org-left">th</td>
+</tr>
+
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">s</td>
+<td class="org-left">s</td>
+</tr>
+
+<tr>
+<td class="org-left">ß</td>
+<td class="org-left">ß</td>
+<td class="org-left">sh</td>
+</tr>
+
+<tr>
+<td class="org-left">Š</td>
+<td class="org-left">š</td>
+<td class="org-left">shh</td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">x</td>
+<td class="org-left">rh</td>
+</tr>
+
+<tr>
+<td class="org-left">Ŗ</td>
+<td class="org-left">ŗ</td>
+<td class="org-left">rr</td>
+</tr>
+
+<tr>
+<td class="org-left">H</td>
+<td class="org-left">h</td>
+<td class="org-left">h</td>
+</tr>
+
+<tr>
+<td class="org-left">Ŕ</td>
+<td class="org-left">ŕ</td>
+<td class="org-left">r</td>
+</tr>
+
+<tr>
+<td class="org-left">B</td>
+<td class="org-left">b</td>
+<td class="org-left">b</td>
+</tr>
+
+<tr>
+<td class="org-left">D</td>
+<td class="org-left">d</td>
+<td class="org-left">d</td>
+</tr>
+
+<tr>
+<td class="org-left">Ď</td>
+<td class="org-left">ď</td>
+<td class="org-left">dr</td>
+</tr>
+
+<tr>
+<td class="org-left">G</td>
+<td class="org-left">g</td>
+<td class="org-left">g</td>
+</tr>
+
+<tr>
+<td class="org-left">P</td>
+<td class="org-left">p</td>
+<td class="org-left">p</td>
+</tr>
+
+<tr>
+<td class="org-left">T</td>
+<td class="org-left">t</td>
+<td class="org-left">t</td>
+</tr>
+
+<tr>
+<td class="org-left">Ţ</td>
+<td class="org-left">ţ</td>
+<td class="org-left">tr</td>
+</tr>
+
+<tr>
+<td class="org-left">K</td>
+<td class="org-left">k</td>
+<td class="org-left">k</td>
+</tr>
+
+<tr>
+<td class="org-left">'</td>
+<td class="org-left">'</td>
+<td class="org-left">g</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Les changements sont assez subtiles, mais elles ont tout de même leur importance, et je suis sûr que d’autres langues verront des changements bien plus radicaux.
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7427936" class="outline-3">
+<h3 id="org7427936"><span class="section-number-3">2.2</span> Les sons</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Vous avez en <a href="#org0368bb3">annexe A</a> la correspondance entre la graphie latine et les sonorités de la langue. Notez que dans ce tableau, la phonétique IPA sera notée au côté de la phonétique X-SAMPA, mais cette dernière sera préférée tout au long de cet ouvrage et non la phonétique IPA.
+</p>
+</div>
+
+<div id="outline-container-orgdfc4d34" class="outline-4">
+<h4 id="orgdfc4d34"><span class="section-number-4">2.2.1</span> Les voyelles</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<dl class="org-dl">
+<dt><code>[a:]</code> (a)</dt><dd>il s’agit du son <code>[a]</code> naturel prononcé en Français, comme dans le mot « pattes ». Il est nécessairement long.</dd>
+<dt><code>[A]</code> (á)</dt><dd>il s’agit d’un son plus ouvert et plus court que le <code>[a]</code>, un peu comme dans « pâtes » tel qu’encore prononcé dans l’ouest de la France.</dd>
+<dt><code>[2:]</code> (ë)</dt><dd>il s’agit exactement de la même voyelle que dans le mot « deux », mais nécessairement long.</dd>
+<dt><code>[9]</code> (ê)</dt><dd>il s’agit exactement de la même voyelle que dans le mot « neuf », mais nécessairement court.</dd>
+<dt><code>[@]</code> (ě)</dt><dd>il s’agit d’un son similaire à <code>[2]</code> ou à <code>[9]</code>, mais très peu discernable, voire parfois ellipsé ou ajouté pour faciliter la prononciation, un peu similaire à la voyelle dans le mot « le » en Français lorsque l’on parle rapidement. Il s’agit de la seule voyelle qui peut ne pas être notée à l’écrit. Cette voyelle est nécessairement courte. Avec <code>[l0]</code> et <code>[n0]</code>, <code>[@]</code> fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.</dd>
+<dt><code>[i:]</code> (i)</dt><dd>il s’agit exactement du même « i » qu’en Français, cependant nécessairement long.</dd>
+<dt><code>[I]</code> (í)</dt><dd>il s’agit de la même voyelle que dans le mot « this » en Anglais : un « i » plus ouvert que le <code>[i]</code>. Il est également nécessairement court.</dd>
+<dt><code>[e:]</code> (e)</dt><dd>il s’agit du « é » standard Français, comme dans le mot « été », cependant nécessairement long.</dd>
+<dt><code>[E]</code> (e)</dt><dd>il s’agit du « è » standard Français, comme dans le mot « laid », cependant nécessairement court.</dd>
+<dt><code>[o:]</code> (o)</dt><dd>il s’agit du « o » fermé standard Français, comme dans le mot « eau », cependant nécessairement long.</dd>
+<dt><code>[O]</code> (o)</dt><dd>il s’agit du « o » ouvert standard Français, comme dans le mot « tonne », cependant nécessairement court.</dd>
+<dt><code>[y:]</code> (y)</dt><dd>il s’agit du « u » standard Français, comme dans le mot « lune », cependant nécessairement long.</dd>
+<dt><code>[Y]</code> (ý)</dt><dd>il s’agit d’un <code>[y]</code> ouvert tel qu’on peut le trouver en Allemand, cependant nécessairement court.</dd>
+<dt><code>[u:]</code> (u)</dt><dd>il s’agit du « ou » standard Français, comme dans le mot « boule », cependant nécessairement long.</dd>
+<dt><code>[U]</code> (ú)</dt><dd>il s’agit du « ou » ouvert que l’on peut par exemple retrouver dans des mots Anglais tels que « boot », cependant nécessairement court.</dd>
+<dt><code>[n0]</code> (ń)</dt><dd>il s’agit de la consonne <code>[n]</code> utilisée en tant que voyelle. Avec <code>[@]</code> et <code>[l0]</code>, <code>[n0]</code> fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.</dd>
+<dt><code>[l0]</code> (ļ)</dt><dd>il s’agit de la consonne <code>[l]</code> utilisée en tant que voyelle. Avec <code>[@]</code> et <code>[n0]</code>, <code>[l0]</code> fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.</dd>
+</dl>
+
+<p>
+On remarque qu’à l’exception de <code>[@]</code>, <code>[n0]</code> et <code>[l0]</code>, chaque voyelle est présente avec deux équivalents : sa version longue et fermée, ou bien courte et ouverte. Le seul cas où une voyelle fermée n’est pas longue est le cas où elle est utilisée dans une diphtongue, tel que <code>[ai]</code>. À moins qu’elles soient explicitement dans une diphtongue, les voyelles longues sont toujours des voyelles longues pures et non des diphtongues et ne se terminent pas avec un son similaire à <code>[j]</code> ou <code>[w]</code> ; <code>[e:]</code> ne se prononcera donc jamais <code>[e:j]</code>, sauf s’il est explicitement suivit par une consonne <code>[j]</code>.
+</p>
+
+<p>
+Lorsque deux voyelles ne sont séparées par aucune consonne et se trouvent au sein d’un même mot, elles fusionnent en une diphtongue selon les règles décrites dans le sous-chapitre <a href="#orgb09074d">Les diphtongues</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8defb24" class="outline-4">
+<h4 id="org8defb24"><span class="section-number-4">2.2.2</span> Les consonnes</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<dl class="org-dl">
+<dt><code>[j]</code> (j)</dt><dd>cette consonne est prononcée comme un « y » en Français, ou comme le « ille » dans « paille »</dd>
+<dt><code>[w]</code> (w)</dt><dd>cette consonne est prononcée comme un « w » standard en Français.</dd>
+<dt><code>[r]</code> (r)</dt><dd>il s’agit ici du « r » roulé Espagnol ou Italien. Il peut être roulé plusieurs fois, mais il a plutôt tendance à rester bref.</dd>
+<dt><code>[K]</code> (ł)</dt><dd>il s’agit ici d’un <code>[l]</code> sourd (dans lequel on ne fait pas vibrer nos cordes vocales) auquel une expiration est ajoutée, tel que le « lh » tibétain.</dd>
+<dt><code>[l]</code> (l)</dt><dd>il s’agit du « l » standard en Français. Le « l » se rallonge et tend à se rapprocher de la voyelle <code>[l0]</code> lorsqu’elle se situe seule entre deux voyelles et tend à former un triphone (voire plus) avec lesdites voyelles. Exemple: <code>ála</code> aura tendance à se prononcer <code>[Al0a]</code> plutôt que <code>[A:la]</code>.</dd>
+<dt><code>[m]</code> (m)</dt><dd>il s’agit du « m » standard en Français.</dd>
+<dt><code>[n]</code> (n)</dt><dd>il s’agit du « n » standard en Français.  Le « n » se rallonge et tend à se rapprocher de la voyelle <code>[n0]</code> lorsqu’elle se situe seule entre deux voyelles et tend à former un triphone (voire plus) avec lesdites voyelles. Exemple: <code>ýnê</code> aura tendance à se prononcer <code>[Yn09:]</code> plutôt que <code>[Y:n9:]</code>.</dd>
+<dt><code>[N]</code> (ň)</dt><dd>il s’agit du « n » nasalisé, tel que le « ng » en Anglais comme dans « parking ».</dd>
+<dt><code>[v]</code> (v)</dt><dd>il s’agit du « v » standard en Français.</dd>
+<dt><code>[D]</code> (ð)</dt><dd>il s’agit du « th » voisé (où on utilise nos cordes vocales) en Anglais tel que dans « this ».</dd>
+<dt><code>[z]</code> (z)</dt><dd>il s’agit du « z » standard en Français.</dd>
+<dt><code>[Z]</code> (ž)</dt><dd>il s’agit du « j » standard en Français.</dd>
+<dt><code>[f]</code> (f)</dt><dd>il s’agit du « f » standard en Français.</dd>
+<dt><code>[T]</code> (þ)</dt><dd>il s’agit du « th » sourd (où l’on n’utilise pas nos cordes vocales) en Anglais tel que dans « think ».</dd>
+<dt><code>[s]</code> (s)</dt><dd>il s’agit du « s » standard en Français, toujours prononcé comme un « s » et jamais comme un « z ». Cependant, sa prononciation peut se rapprocher du <code>[s\]</code> dans sa prononciation plutôt que du <code>[s]</code> pur. Ce défaut de prononciation est plutôt présent dans les niveaux de politesse élevés, et disparaît lors des niveaux de politesse standard et plus bas.</dd>
+<dt><code>[S]</code> (ß)</dt><dd>il s’agit du son « ch » standard en Français, tel que dans « chat ».</dd>
+<dt><code>[x]</code> (x)</dt><dd>il s’agit du même son « j » qu’en Espagnol, un « r » sourd et guttural.</dd>
+<dt><code>[R]</code> (ŗ)</dt><dd>il s’agit du « r » Français.</dd>
+<dt><code>[h]</code> (h)</dt><dd>il s’agit du son « h » tel qu’on peut le retrouver en Anglais comme dans « house ». Lorsqu’il se trouve cependant seul entre deux voyelles, il a tendance d’être prononcé <code>[h\]</code> dans le registre courant et familier, mais reste un <code>[h]</code> pur dans les registres plus soutenus.</dd>
+</dl>
+
+<p>
+Le reste des lettres <i>b</i>, <i>d</i>, <i>g</i>, <i>p</i>, <i>t</i> et <i>k</i> ont également la même sonorité que leur sonorité de base en Français, sans être modifiés par une voyelle (comme le <i>g</i> peut l’être près d’un <i>i</i> en Français). Aucune consonne n’est prononcée avec aspiration, hormis pour le <code>[K]</code> et le <code>[h]</code>, à moins que la consonne ne soit explicitement suivie par un <code>[h]</code>.
+</p>
+
+<p>
+Lorsqu’un mot (hormis les verbes) se termine avec une voyelle et que le mot suivant (hormis les verbes) débute avec une consonne ou inversement, cette dernière aura tendance à s’allonger afin de créer une liaison entre les mots. Exemples :
+</p>
+<ul class="org-ul">
+<li>éló tráhin (trans.) &rarr; élontráhin (rom.)</li>
+</ul>
+<p>
+Rmq. : Ici, le <i>h</i> de <i>tráhin</i> est prononcé comme un <code>[h\]</code> et non comme un <code>[h]</code> du fait des deux voyelles l’entourant, comme indiqué plus haut.
+</p>
+<ul class="org-ul">
+<li>ðro lwéín (trans.) &rarr; ðrollwéín (rom.)</li>
+<li>télýßí halmár (trans.) &rarr; télýßíhhalmár (rom.)</li>
+<li>tiryð astret (trans) &rarr; tiryððastret</li>
+</ul>
+
+<p>
+Le Hjalpi’, à l’instar du Sanskrit, a tendance à agglutiner les mots ensemble, mais à la stricte condition que le mot ne soit pas un verbe. De même, seuls les groupes de même type (nominaux, adjectifs, …) s’agglutinent entre eux.
+</p>
+
+<p>
+Lorsqu’un mot se termine avec une voyelle et que le mot suivant commence également avec une voyelle, afin d’éviter toute confusion avec une diphtongue (voir le sous-chapitre <a href="#orgb09074d">Les diphtongues</a>), une consonne « ’ » <code>[?]</code> est ajoutée à l’oral afin de séparer les deux mots. Le ton de la première syllabe du second mot sera alors clairement montant, afin de différencier également avec deux voyelles au sein d’un même mot également séparées par la consonne « ’ ».
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7428433" class="outline-3">
+<h3 id="org7428433"><span class="section-number-3">2.3</span> Son long, son court</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+La différence entre les sons longs et courts est très souvent utilisée en langue divine, bien qu’elle ne soit pas la seule marque pour différencier les voyelles longues des voyelles courtes, comme mentionné dans le sous-chapitre <a href="#orgdfc4d34">Les voyelles</a>. Ainsi, le mot <i>mérik</i> aura une signification différente du mot <i>merik</i> ou <i>merík</i>. Chacun des sons, longs ou courts, peuvent se retrouver dans à peu près n’importe quelle position dans le mot, cependant un mot contiendra en règle générale soit des voyelles courtes, soit des voyelles longues ; on a donc peu de chances de rencontrer les mots <i>mérik</i> ou <i>merík</i>, cependant <i>mérík</i> ou <i>merik</i> sont beaucoup plus probables.
+</p>
+
+<p>
+Ces quatre mots ci-dessus ont donc une prononciation et une signification différente, et il est donc important de les distinguer entre eux.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb09074d" class="outline-3">
+<h3 id="orgb09074d"><span class="section-number-3">2.4</span> Les diphtongues</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Les règles de diphtongues dans le Hjalpi’ sont très simples : hormis les voyelles <code>[@]</code>, <code>[l0]</code> et <code>[n0]</code>, toutes les voyelles peuvent créer une diphtongue à la condition que les deux consonnes soient de la même longueur et soient toutes deux fermées ou ouvertes. Par exemple, les diphtongues « ei » et « éí » sont autorisés, en revanche « éi » ou « eí » ne le sont pas.
+</p>
+
+<p>
+Bien que rien ne l’en empêche, les diphtongues sont généralement d’abord composées d’abord d’une voyelle plus ouverte vers une voyelle plus fermée, ou vers une voyelle de même ouverture (au sens phonétique du terme). Par exemple, la diphtongues <i>áý</i> sera plus courante que la diphtongue <i>ýá</i>, cette dernière ayant une sonorité quelque peut étrange.
+</p>
+
+<p>
+Il faut également noter que les voyelles longues perdent leur longueur du fait de la diphtongue, et « éí » se prononcera par exemple <code>[EI]= ; la prononciation =[E:I:]</code> reste cependant correcte et reste la prononciation à adopter dans un registre soutenu.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2363385" class="outline-3">
+<h3 id="org2363385"><span class="section-number-3">2.5</span> Les syllabes</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+Une syllabe est formée au moins d’une voyelle seule, au mieux de trois consonnes, une diphtongue puis deux consonnes. Il peut y avoir jusqu’à quatre consonnes entre deux voyelles d’un même mot, et seule la dernière consonne appartient à la seconde syllabe, la ou les consonnes précédentes appartenant à la syllabe précédente.
+</p>
+
+<p>
+S’il n’y a qu’une seule consonne entre deux voyelles d’un même mot, et la consonne appartient à la seconde syllabe.
+</p>
+
+<p>
+Par exemple :
+</p>
+<ul class="org-ul">
+<li>Éló &rarr; É-ló</li>
+<li>Télýßí &rarr; té-lý-ßí</li>
+<li>Þarkskeið &rarr; þarks-keið</li>
+<li>tráhín &rarr; trá-hín</li>
+</ul>
+
+<p>
+Il est tout de même nécessaire de noter que les semi-consonnes <code>j</code> et <code>w</code> sont comptées comme faisant partie du groupe voyelle que du groupe consonne lors de la découpe des syllabes. Par exemple :
+</p>
+<ul class="org-ul">
+<li>Nalyám &rarr; na-lyám</li>
+<li>drýntweŗ &rarr; drýn-tweŗ</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6ef7e83" class="outline-3">
+<h3 id="org6ef7e83"><span class="section-number-3">2.6</span> Les tons et l’accentuation</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Du fait de sa nature agglutinante, le Hjalpi’ pose l’accentuation du mot sur la racine du mot et jamais sur les éléments agglutinés autour de la racine.
+</p>
+
+<p>
+L’intonation dans les phrases affirmatives est généralement descendante et remonte pour les accentuations sur les mots et remonte significativement (en général à la hauteur d’origine) lorsque l’on rencontre un sujet ou un verbe. Considéré individuellement, l’accentuation d’un mot se fait sur la première voyelle racine du mot. Ainsi, le mot non modifié <i>pńtwan</i> (sept) aura son accent sur la voyelle <i>ń</i>, de même pour <i>ţéálnat</i> (précision temporelle) qui sera accentué sur <i>éá</i>. Pour les noms propres cependant, l’accent porte sur l’ensemble des voyelles racines du nom en lui-même (c’est à dire les voyelles ne venant pas de déclinaisons). Par exemple, le prénom <i>Meréð</i> décliné au comitatif (<i>avec Meréð</i>) devient <i>Meðeiréð</i>, se prononçant ["me:.Dei."rED] ; à l’accusatif, <i>Meréðvo</i> (Meréð étant l’objet direct d’un verbe transitif) se prononcera ["me:."rE.vO] (le <i>ð</i> s’est ellipsé en faveur du <i>v</i>, voir le sous-chapitre <a href="#orgc26c0b2">Assimilation</a>) ; au génitif, <i>ţuMeréð</i> se prononcera [t`u."me:."rED].
+</p>
+
+<p>
+Pour ce qui est des phrases interrogatives et exclamatives, les deux dernières voyelles sont allongées (même dans le cas d’une voyelle ouverte), et dans le cas de l’exclamative on reste sur la même hauteur pour cette dernière voyelle, et dans le cas de l’interrogative la hauteur de la voyelle baisse puis remonte. Dans les phrases négatives, le ton de la phrase monte jusqu’à la négation où le ton redescend à nouveau.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2a3fb60" class="outline-3">
+<h3 id="org2a3fb60"><span class="section-number-3">2.7</span> L’harmonie</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+Dans le Hjalpi’, il existe deux types d’harmonies qui coexistent afin d’avoir des mots phonétiquement harmoniques : l’harmonie des voyelles et l’harmonie des consonnes. Chacune de ces harmonies se divise en plusieurs harmonies, la première primant sur la dernière.
+</p>
+</div>
+
+<div id="outline-container-org57a3607" class="outline-4">
+<h4 id="org57a3607"><span class="section-number-4">2.7.1</span> L’harmonie des voyelles</h4>
+<div class="outline-text-4" id="text-2-7-1">
+<p>
+L’harmonie des voyelles se divise en trois harmonies, la première étant considérée comme étant plus importante que la dernière. Voici les trois harmonies des voyelles :
+</p>
+
+<ol class="org-ol">
+<li>La première harmonie des voyelles est celle de l’ouverture des voyelles. Parmi les voyelles ouvertes/longues et fermées/courtes, il y a tout de même une différentiation entre voyelles ouvertes ou fermée.</li>
+
+<li>La seconde harmonie des voyelles est celle qui concerne les voyelles arrondies ou non ; cela signifie qu’une voyelle « e » aura plus de chances de partager le mot avec les voyelles « i », « y » ou « a » qu’avec des voyelles « o » ou « u ».</li>
+
+<li>Dans chaque mot, une certaine harmonie est respectée avec le choix des voyelles longues et voyelles courtes, comme expliqué dans le sous chapitre <a href="#org7428433">Son long, son court</a>. Il s’agit de l’harmonie la plus importante au sein du mot. Il s’agit de la troisième et dernière harmonie des voyelles.</li>
+</ol>
+
+<p>
+Dans beaucoup de cas grammaticaux, la voyelle des particules ou agglomérats grammaticaux n’est pas prédéfinie et on utilisera alors la voyelle majeure du mot principal (soit la première voyelle de la dernière syllabe du mot racine).<br />
+<br />
+Vous pourrez retrouver en <a href="#orgc2ac352">annexe B</a> un graphe représentant l’appartenance des voyelles à leurs différentes familles harmoniques.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0d79411" class="outline-4">
+<h4 id="org0d79411"><span class="section-number-4">2.7.2</span> L’harmonie des consonnes</h4>
+<div class="outline-text-4" id="text-2-7-2">
+<p>
+Il existe quelques règles harmoniques pour les consonnes. Comme pour les voyelles, les premières harmonies consonantiques sont considérées comme étant les plus importantes, les dernières étant considérées comme moindres.
+</p>
+<ol class="org-ol">
+<li>Toute consonne est autorisée avant la voyelle</li>
+<li>Les consonnes <code>ň</code>, <code>š</code>, <code>ž</code>, <code>ţ</code>, <code>ď</code>, <code>ð</code> et <code>ł</code> ne peuvent s’associer avec une autre consonne au sein d’une même syllabe</li>
+<li>Les consonnes <code>w</code>, <code>h</code>, <code>ł</code> et <code>j</code> ne sont pas autorisées après la voyelle au sein d’une même syllabe</li>
+<li>Les consonnes fricatives ne peuvent s’associer en fin de syllabe</li>
+<li>La consonne <code>x</code> ne peut être qu’en première position en début de mot</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc26c0b2" class="outline-3">
+<h3 id="orgc26c0b2"><span class="section-number-3">2.8</span> Assimilation</h3>
+<div class="outline-text-3" id="text-2-8">
+<p>
+Comme dit précédemment, il est possible que certaines sonorités influencent d’autres sonorités. Le premier cas vu est celui des diphtongue où les voyelles longues perdent leur longueur lorsqu’elles s’assemblent en diphone voire parfois en triphone lors de l’association de mots. Cependant, il existe aussi des cas de modification de la prononciation de consonnes en fonction d’autres consonnes lorsque des mots se côtoient.
+</p>
+
+<p>
+Bien qu’il soit impossible de tout lister dans des règles exhaustives du fait des diverses exceptions, voici les grandes lignes du fonctionnement d’une assimilation :
+</p>
+<ul class="org-ul">
+<li>Lorsqu’une consonne quelconque unique termine la première syllabe et que la première consonne de la syllabe suivante est une fricative, la consonne terminant la syllabe se voise si la fricative est voisée, et se dévoise si la fricative est sourde. Ainsi, <i>merjoð pöl</i> (trans.) se prononcera <i>merjoð böl</i> (rom.).</li>
+<li>Ce cas ci-dessus s’applique également si la consonne terminant la première syllabe est une fricative et qu’une seule consonne non fricative commence la syllabe suivante. Ainsi, <i>derék vetron</i> (trans.) se prononcera <i>derég vedron</i> (rom.). Le <code>t</code> de <i>vetron</i> a également été voisé, voir plus bas.</li>
+<li>Si deux fricatives terminent et commencent respectivement la première et la seconde syllabe, alors si l’une des deux fricatives est voisée, l’autre le devient également. Dans certains cas, la fricative la plus proche du bilabial s’ellipse en faveur de la fricative la plus gutturale. Ainsi, <i>ďóréþ fyl2ŕ</i> (trans.) se prononcera <i>ďóréfyl2ŕ</i> (rom.).</li>
+<li>Dans les trois cas précédents, si un schwa (<code>ě</code> <code>[@]</code>) se situe entre ces deux consonnes, il peut s’ellipser et laisser agir les trois règle précédentes.</li>
+<li>Une fricative suivie d’un <code>r</code> se gutturalise, et le <code>r</code> s’ellipse. Par exemple, un <code>fr</code> se prononcera comme un <code>T</code>, un <code>zr</code> se prononcera comme un <code>ź</code>, et un <code>x</code> se prononcera comme un <code>ŗ</code>. Exemples :
+<ul class="org-ul">
+<li>Ďóréþ śetra (trans.) &rarr; Ďóréšeďa (rom.)</li>
+<li>bńdyv þéýn (trans.) &rarr; bńdyséýn (rom.)</li>
+<li>ßítĺf xeţ (trans.) &rarr; ßítĺŗeţ (rom.)</li>
+</ul></li>
+<li>Lorsqu’une seule consonne sourde se trouve dans un mot avec deux consonnes voisées ou plus, la consonne sourde se voise. Exemple : <i>derék vetron</i> (trans.) devient <i>dérég vetron</i> (rom.).</li>
+<li>Lorsqu’un <code>ł</code> est suivit d’une semi-consonne <code>j</code> ou <code>w</code>, la consonne <code>ł</code> s’ellipse et dévoise la semi-consonne, se prononçant respectivement un <code>[Cj]</code> et un <code>[hw]</code>.</li>
+</ul>
+
+<p>
+
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfe15754" class="outline-2">
+<h2 id="orgfe15754"><span class="section-number-2">3</span> Les noms</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-orge17ee49" class="outline-3">
+<h3 id="orge17ee49"><span class="section-number-3">3.1</span> Genre, nombre et type de nom</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-org6089fd3" class="outline-4">
+<h4 id="org6089fd3"><span class="section-number-4">3.1.1</span> Genre</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+Le Hjalpi’ dispose de cinq genres au total : le divin, le neutre, le masculin, le féminin et l’inanimé. Le divin n’est utilisé que pour désigner des êtres divins, et est utilisé aussi bien par les autres divins que par les mortels s’adressant à des divins. Les trois suivants ne s’utilisent que pour les êtres vivants animés, et pour le reste le genre inanimé sera utilisé. Les genres masculins et féminins ne s’emploient que si l’ensemble des sujets mentionnés (y compris s’il ne s’agit que d’un seul individu) est du même sexe ; en revanche s’il y a un mélange des deux sexes, alors le neutre sera préféré. Il en va de même si le sexe de l’individu (humain ou non) est inconnu. Ce genre neutre est par ailleurs le genre par défaut pour les êtres animés.
+</p>
+
+<p>
+Le genre se marque
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb0f06c5" class="outline-4">
+<h4 id="orgb0f06c5"><span class="section-number-4">3.1.2</span> Nombre</h4>
+</div>
+
+<div id="outline-container-orgc64ee03" class="outline-4">
+<h4 id="orgc64ee03"><span class="section-number-4">3.1.3</span> Types de noms</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<p>
+Il existe trois types de noms :
+</p>
+<ul class="org-ul">
+<li>les noms communs (arbre, lapin, rivière,&#x2026;)</li>
+<li>les noms abstraits (maladie, froid, joie,&#x2026;)</li>
+<li>les noms propres (Meréð, Xošńf, Kjölß,&#x2026;)</li>
+</ul>
+
+<p>
+Il s’agit des même types de nom que ce que l’on peut retrouver en Français. Les noms communs sont tous comptables mais peuvent également tous être traités comme des nom-comptables afin de signifier des quantités vagues. En revanche, les noms abstraits ne sont pas comptables. Les noms propres désignent des lieux, des personnes ainsi que des noms de culture ou de langue, et se marquent en alphabet latin avec une majuscule à la première lettre du nom (lettres venant des déclinaisons exclues).
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcd44a98" class="outline-3">
+<h3 id="orgcd44a98"><span class="section-number-3">3.2</span> Pronoms</h3>
+<div class="outline-text-3" id="text-3-2">
+<table id="orge0e8295" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">personne</th>
+<th scope="col" class="org-left">singulier</th>
+<th scope="col" class="org-left">double</th>
+<th scope="col" class="org-left">triple</th>
+<th scope="col" class="org-left">pluriel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">neutre</td>
+<td class="org-left">1ère inclusif</td>
+<td class="org-left">×</td>
+<td class="org-left">žag</td>
+<td class="org-left">žaň</td>
+<td class="org-left">xak</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusif</td>
+<td class="org-left">kjaŗ</td>
+<td class="org-left">ŕaf</td>
+<td class="org-left">ŕaz</td>
+<td class="org-left">tat</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2</td>
+<td class="org-left">ďaßt</td>
+<td class="org-left">sad</td>
+<td class="org-left">sal</td>
+<td class="org-left">łas</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3</td>
+<td class="org-left">mal</td>
+<td class="org-left">tað</td>
+<td class="org-left">tap</td>
+<td class="org-left">maþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">masculin</td>
+<td class="org-left">1ère  inclusif</td>
+<td class="org-left">×</td>
+<td class="org-left">žog</td>
+<td class="org-left">žoň</td>
+<td class="org-left">xok</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère  exclusif</td>
+<td class="org-left">kjoŗ</td>
+<td class="org-left">ŕof</td>
+<td class="org-left">ŕoz</td>
+<td class="org-left">tot</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ère</td>
+<td class="org-left">ďoßt</td>
+<td class="org-left">sod</td>
+<td class="org-left">sol</td>
+<td class="org-left">łos</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ère</td>
+<td class="org-left">mol</td>
+<td class="org-left">toð</td>
+<td class="org-left">top</td>
+<td class="org-left">moþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">féminin</td>
+<td class="org-left">1ère  inclusif</td>
+<td class="org-left">×</td>
+<td class="org-left">žeg</td>
+<td class="org-left">žeň</td>
+<td class="org-left">xek</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère  exclusif</td>
+<td class="org-left">kjeŗ</td>
+<td class="org-left">ŕef</td>
+<td class="org-left">ŕez</td>
+<td class="org-left">tet</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ère</td>
+<td class="org-left">ďeßt</td>
+<td class="org-left">sed</td>
+<td class="org-left">sel</td>
+<td class="org-left">łes</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ère</td>
+<td class="org-left">mel</td>
+<td class="org-left">teð</td>
+<td class="org-left">tep</td>
+<td class="org-left">meþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">inanimé</td>
+<td class="org-left">1ère  inclusif</td>
+<td class="org-left">×</td>
+<td class="org-left">žug</td>
+<td class="org-left">žuň</td>
+<td class="org-left">xuk</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère  exclusif</td>
+<td class="org-left">×</td>
+<td class="org-left">ŕuf</td>
+<td class="org-left">ŕuz</td>
+<td class="org-left">tut</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ère</td>
+<td class="org-left">×</td>
+<td class="org-left">sud</td>
+<td class="org-left">sul</td>
+<td class="org-left">łus</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ère</td>
+<td class="org-left">mul</td>
+<td class="org-left">tuð</td>
+<td class="org-left">tup</td>
+<td class="org-left">muþ</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge274d64" class="outline-2">
+<h2 id="orge274d64"><span class="section-number-2">4</span> Temps</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Il y a sept temps :
+</p>
+<ul class="org-ul">
+<li>Passé lointain (passé divin)</li>
+<li>Passé (passé humain)</li>
+<li>Passé proche</li>
+<li>Présent</li>
+<li>Futur proche</li>
+<li>Futur (futur humain)</li>
+<li>Futur lointain (futur divin)</li>
+</ul>
+
+<p>
+Le passé et le futur proches indiquent tous deux un temps immédiat pouvant aller respectivement jusqu’à la veille ou au lendemain. Le futur et le passé humains désignent des amplitudes de temps allant jusqu’à da dizaine de millénaire. À partir de la dizaine de millénaire, il s’agit de passé ou de futur divin.
+</p>
+
+<p>
+Décomposition en action ponctuelle, habituelle, s’étalant sur le temps (en cours, future, terminée)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org38ddb07" class="outline-2">
+<h2 id="org38ddb07"><span class="section-number-2">5</span> Les verbes</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Il y a deux groupes de verbes :
+</p>
+<ul class="org-ul">
+<li>Les verbes se terminant par <i>-ëm</i> à l’infinitif</li>
+<li>Les verbes se terminant par <i>-ýþ</i> à l’infinitif</li>
+</ul>
+
+
+<p>
+Terminaisons :
+</p>
+<ul class="org-ul">
+<li>ëm</li>
+<li>ýþ</li>
+</ul>
+</div>
+
+<div id="outline-container-org46f6d7d" class="outline-3">
+<h3 id="org46f6d7d"><span class="section-number-3">5.1</span> Conjugaison</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+La conjugaison en genre et en nombre se fait suivant le sujet du verbe.
+</p>
+</div>
+
+<div id="outline-container-org5bb76d0" class="outline-4">
+<h4 id="org5bb76d0"><span class="section-number-4">5.1.1</span> Objectif, subjectif</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+Il y a trois modes de connaissance lors de la conjugaison, seul le verbe être/avoir a une forme séparée pour les trois modes.
+</p>
+
+<p>
+Le trois modes sont l’objectif, le subjectif certain et le subjectif incertain. L’objectif sert à énoncer des faits connus comme étant vrais, détachés de sentiments, d’interprétation ou d’attachements personnels, alors que le subjectif dépend du locuteur. Le subjectif certain permet d’afficher les convictions du locuteur sur un sujet subjectif, tandis que le subjectif incertain montre que le locuteur n’est pas sûr pour ce qui est de son affirmation.
+</p>
+
+<table id="org10e8f8e" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">objectif</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ŗevëm</td>
+</tr>
+
+<tr>
+<td class="org-left">subjectif</td>
+<td class="org-left">certain</td>
+<td class="org-left">neßëm</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">incertain</td>
+<td class="org-left">doŕëm</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Par défaut, les phrases sans marqueur spécifique sont objectives, cependant il s’agit d’une objectivité faible du fait de l’absence de marqueur la marquant. Afin d’utiliser la subjectivité ou une objectivité forte, il est nécessaire d’utiliser un marqueur spécifique qui agira en tant qu’auxiliaire qui sera conjugué à la place du verbe.
+</p>
+
+<dl class="org-dl">
+<dt>Objectif</dt><dd>ňa’úþ</dd>
+<dt>Subjectif certain</dt><dd>te’ýþ</dd>
+<dt>Subjectif incertain</dt><dd>pu’ýþ</dd>
+</dl>
+
+<p>
+Les verbes conjugués avec les auxiliaires voient leur terminaison remplacée suivant la grille ci-dessous :
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">-ëm</th>
+<th scope="col" class="org-left">ýþ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">objectif</td>
+<td class="org-left">oŗë</td>
+<td class="org-left">oŗy</td>
+</tr>
+
+<tr>
+<td class="org-left">subjectif certain</td>
+<td class="org-left">eŗë</td>
+<td class="org-left">eŗy</td>
+</tr>
+
+<tr>
+<td class="org-left">subjectif incertain</td>
+<td class="org-left">uŗë</td>
+<td class="org-left">uŗë</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Ainsi, <i>emþíkúlól</i> (<i>il est en train de tomber</i>) est objectif, mais on n’insiste pas sur l’objectivité de la phrase, tandis que <i>emþíkúlúŗê pu’ol</i> est subjectif incertain et se traduirait par « je pense qu’il est en train de tomber » ou « il est peut-être en train de tomber ».
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgcd2d800" class="outline-4">
+<h4 id="orgcd2d800"><span class="section-number-4">5.1.2</span> Progressif</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<ul class="org-ul">
+<li>Le progressif (l’action étant en train de s’écouler mais non terminée) se marque avec le préfixe <i>em-</i> (équivalent du <i>-ing</i> en anglais).</li>
+<li>Le progressif futur (l’action progressive encore non commencée) se marque avec le préfixe <i>eß-</i>.</li>
+<li>Le progressif passé (l’action progressive terminée) se marque avec le suffixe <i>-andy</i>. Ces deux dernières formes au présent</li>
+</ul>
+
+<p>
+Les deux derniers peuvent être utilisés pour représenter respectivement le passé proche progressif et le futur proche progressif.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0aa33b6" class="outline-4">
+<h4 id="org0aa33b6"><span class="section-number-4">5.1.3</span> Présent de l’indicatif</h4>
+<div class="outline-text-4" id="text-5-1-3">
+<ul class="org-ul">
+<li>Verbes en <i>-ëm</i></li>
+</ul>
+
+<p>
+Les verbes en <i>-ëm</i> se conjuguent en remplaçant la terminaison en <i>-ëm</i> par la voyelle du pronom correspondant mutée selon la table ci-dessous et en apposant après la voyelle mutée la terminaison consonnantique du pronom.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">voyelle du pronom</th>
+<th scope="col" class="org-left">voyelle mutée</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">a</td>
+<td class="org-left">oa</td>
+</tr>
+
+<tr>
+<td class="org-left">o</td>
+<td class="org-left">uo</td>
+</tr>
+
+<tr>
+<td class="org-left">e</td>
+<td class="org-left">ëe</td>
+</tr>
+
+<tr>
+<td class="org-left">u</td>
+<td class="org-left">ou</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Ainsi, avec le verbe <i>ďýílnákêm</i> (courir), on obtient la conjugaison suivante :
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">nombre</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">genre</th>
+<th scope="col" class="org-left">personne</th>
+<th scope="col" class="org-left">singulier</th>
+<th scope="col" class="org-left">double</th>
+<th scope="col" class="org-left">triple</th>
+<th scope="col" class="org-left">pluriel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">neutre</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">ďýílnákóág</td>
+<td class="org-left">ďýílnákóáň</td>
+<td class="org-left">ďýílnákóák</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">ďýílnákóáŗ</td>
+<td class="org-left">ďýílnákóáf</td>
+<td class="org-left">ďýílnákóáz</td>
+<td class="org-left">ďýílnákóát</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">ďýílnákóáßt</td>
+<td class="org-left">ďýílnákóád</td>
+<td class="org-left">ďýílnákóál</td>
+<td class="org-left">ďýílnákóás</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">ďýílnákóál</td>
+<td class="org-left">ďýílnákóáð</td>
+<td class="org-left">ďýílnákóáp</td>
+<td class="org-left">ďýílnákóáþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">masculin</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">ďýílnákúóg</td>
+<td class="org-left">ďýílnákúóň</td>
+<td class="org-left">ďýílnákúók</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">ďýílnákúóŗ</td>
+<td class="org-left">ďýílnákúóf</td>
+<td class="org-left">ďýílnákúóz</td>
+<td class="org-left">ďýílnákúót</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">ďýílnákúóßt</td>
+<td class="org-left">ďýílnákúód</td>
+<td class="org-left">ďýílnákúól</td>
+<td class="org-left">ďýílnákúós</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">ďýílnákúól</td>
+<td class="org-left">ďýílnákúóð</td>
+<td class="org-left">ďýílnákúóp</td>
+<td class="org-left">ďýílnákúóþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">féminin</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">ďýílnákêég</td>
+<td class="org-left">ďýílnákêéň</td>
+<td class="org-left">ďýílnákêék</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">ďýílnákêéŗ</td>
+<td class="org-left">ďýílnákêéf</td>
+<td class="org-left">ďýílnákêéz</td>
+<td class="org-left">ďýílnákêét</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">ďýílnákêéßt</td>
+<td class="org-left">ďýílnákêéd</td>
+<td class="org-left">ďýílnákêél</td>
+<td class="org-left">ďýílnákêés</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">ďýílnákêél</td>
+<td class="org-left">ďýílnákêéð</td>
+<td class="org-left">ďýílnákêép</td>
+<td class="org-left">ďýílnákêéþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">inanimé</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">ďýílnákóúg</td>
+<td class="org-left">ďýílnákóúň</td>
+<td class="org-left">ďýílnákóúk</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">ďýílnákóúf</td>
+<td class="org-left">ďýílnákóúz</td>
+<td class="org-left">ďýílnákóút</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">X</td>
+<td class="org-left">ďýílnákóúd</td>
+<td class="org-left">ďýílnákóúl</td>
+<td class="org-left">ďýílnákóús</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">ďýílnákóúl</td>
+<td class="org-left">ďýílnákóúð</td>
+<td class="org-left">ďýílnákóúp</td>
+<td class="org-left">ďýílnákóúþ</td>
+</tr>
+</tbody>
+</table>
+
+<ul class="org-ul">
+<li>Verbes en <i>-ýþ</i></li>
+</ul>
+
+<p>
+Pour les verbes en <i>-ýþ</i>, il suffit de remplacer la terminaison en <i>-ëm</i> par le pronom sans les consonnes précédant la voyelle. Exemple avec le verbe <i>þíkúlúþ</i> (tomber) :
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">nombre</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">genre</td>
+<td class="org-left">personne</td>
+<td class="org-left">singulier</td>
+<td class="org-left">double</td>
+<td class="org-left">triple</td>
+<td class="org-left">pluriel</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">neutre</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">þíkúlág</td>
+<td class="org-left">þíkúláň</td>
+<td class="org-left">þíkúlák</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">þíkúláŗ</td>
+<td class="org-left">þíkúláf</td>
+<td class="org-left">þíkúláz</td>
+<td class="org-left">þíkúlát</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">þíkúláßt</td>
+<td class="org-left">þíkúlád</td>
+<td class="org-left">þíkúlál</td>
+<td class="org-left">þíkúlás</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">þíkúlál</td>
+<td class="org-left">þíkúláð</td>
+<td class="org-left">þíkúláp</td>
+<td class="org-left">þíkúláþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">masculin</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">þíkúlóg</td>
+<td class="org-left">þíkúlóň</td>
+<td class="org-left">þíkúlók</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">þíkúlóŗ</td>
+<td class="org-left">þíkúlóf</td>
+<td class="org-left">þíkúlóz</td>
+<td class="org-left">þíkúlót</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">þíkúlóßt</td>
+<td class="org-left">þíkúlód</td>
+<td class="org-left">þíkúlól</td>
+<td class="org-left">þíkúlós</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">þíkúlól</td>
+<td class="org-left">þíkúlóð</td>
+<td class="org-left">þíkúlóp</td>
+<td class="org-left">þíkúlóþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">féminin</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">þíkúlég</td>
+<td class="org-left">þíkúléň</td>
+<td class="org-left">þíkúlék</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">þíkúléŗ</td>
+<td class="org-left">þíkúléf</td>
+<td class="org-left">þíkúléz</td>
+<td class="org-left">þíkúlét</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">þíkúléßt</td>
+<td class="org-left">þíkúléd</td>
+<td class="org-left">þíkúlél</td>
+<td class="org-left">þíkúlés</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">þíkúlél</td>
+<td class="org-left">þíkúléð</td>
+<td class="org-left">þíkúlép</td>
+<td class="org-left">þíkúléþ</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">inanimé</td>
+<td class="org-left">1ère inclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">þíkúlúg</td>
+<td class="org-left">þíkúlúň</td>
+<td class="org-left">þíkúlúk</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1ère exclusive</td>
+<td class="org-left">X</td>
+<td class="org-left">þíkúlúf</td>
+<td class="org-left">þíkúlúz</td>
+<td class="org-left">þíkúlút</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2ème</td>
+<td class="org-left">X</td>
+<td class="org-left">þíkúlúd</td>
+<td class="org-left">þíkúlúl</td>
+<td class="org-left">þíkúlús</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3ème</td>
+<td class="org-left">þíkúlúl</td>
+<td class="org-left">þíkúlúð</td>
+<td class="org-left">þíkúlúp</td>
+<td class="org-left">þíkúlúþ</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgcfaaa55" class="outline-4">
+<h4 id="orgcfaaa55"><span class="section-number-4">5.1.4</span> Futur proche</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org009a729" class="outline-2">
+<h2 id="org009a729"><span class="section-number-2">6</span> Niveaux de politesse</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Cinq niveaux de politesse qui se reflètent dans les verbes et les titres utilisés, ainsi que l’humilifique utilisé pour soi-même, les divins n’utilisent pas d’humilifique en temps normal (sauf s’ils s’adressent au Dieu Créateur, auquel cas ils utilisent l’humilifique absolu. Entre eux, les divins utilisent l’honorifique humain pour s’adresser à un autre divin, utilisent le familier pour s’adresser à un humain, et l’honorifique divin pour s’adresser au Dieu Créateur.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Niveau de politesse</th>
+<th scope="col" class="org-left">Niveau d’humilifique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Honorifique divin</td>
+<td class="org-left">Humilifique absolu</td>
+</tr>
+
+<tr>
+<td class="org-left">Honorifique humain</td>
+<td class="org-left">Humilifique de politesse</td>
+</tr>
+
+<tr>
+<td class="org-left">Politesse standard</td>
+<td class="org-left">Humilifique standard</td>
+</tr>
+
+<tr>
+<td class="org-left">Familier</td>
+<td class="org-left">Absence d’humilifique</td>
+</tr>
+
+<tr>
+<td class="org-left">Vulgaire</td>
+<td class="org-left">Honorifique (divers selon le niveau de vulgarité)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org4e4abba" class="outline-2">
+<h2 id="org4e4abba"><span class="section-number-2">7</span> Annexes</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-org0368bb3" class="outline-3">
+<h3 id="org0368bb3"><span class="section-number-3">7.1</span> Annexe A</h3>
+<div class="outline-text-3" id="text-7-1">
+</div><div id="outline-container-org47e0ea1" class="outline-4">
+<h4 id="org47e0ea1"><span class="section-number-4">7.1.1</span> Les Voyelles</h4>
+<div class="outline-text-4" id="text-7-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">latin majuscule</th>
+<th scope="col" class="org-left">latin minuscule</th>
+<th scope="col" class="org-left">X-SAMPA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">a</td>
+<td class="org-left"><code>[a:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Á</td>
+<td class="org-left">á</td>
+<td class="org-left"><code>[A]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ë</td>
+<td class="org-left">ë</td>
+<td class="org-left"><code>[2:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ê</td>
+<td class="org-left">ê</td>
+<td class="org-left"><code>[9]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ě</td>
+<td class="org-left">ě</td>
+<td class="org-left"><code>[@]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ö</td>
+<td class="org-left">ö</td>
+<td class="org-left"><code>[@`]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">i</td>
+<td class="org-left"><code>[i:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Í</td>
+<td class="org-left">í</td>
+<td class="org-left"><code>[I]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">e</td>
+<td class="org-left"><code>[e:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">É</td>
+<td class="org-left">é</td>
+<td class="org-left"><code>[E]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">O</td>
+<td class="org-left">o</td>
+<td class="org-left"><code>[o:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ó</td>
+<td class="org-left">ó</td>
+<td class="org-left"><code>[O]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Y</td>
+<td class="org-left">y</td>
+<td class="org-left"><code>[y:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ý</td>
+<td class="org-left">ý</td>
+<td class="org-left"><code>[Y]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">U</td>
+<td class="org-left">u</td>
+<td class="org-left"><code>[u:]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ú</td>
+<td class="org-left">ú</td>
+<td class="org-left"><code>[U]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ń</td>
+<td class="org-left">ń</td>
+<td class="org-left"><code>[n0]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ļ</td>
+<td class="org-left">ļ</td>
+<td class="org-left"><code>[l0]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org2e06cfd" class="outline-4">
+<h4 id="org2e06cfd"><span class="section-number-4">7.1.2</span> Les Consonnes</h4>
+<div class="outline-text-4" id="text-7-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">latin majuscule</th>
+<th scope="col" class="org-left">latin minuscule</th>
+<th scope="col" class="org-left">X-SAMPA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">J</td>
+<td class="org-left">j</td>
+<td class="org-left">l=[j]=</td>
+</tr>
+
+<tr>
+<td class="org-left">W</td>
+<td class="org-left">w</td>
+<td class="org-left"><code>[w]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">R</td>
+<td class="org-left">r</td>
+<td class="org-left"><code>[r]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ł</td>
+<td class="org-left">ł</td>
+<td class="org-left"><code>[K]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">l</td>
+<td class="org-left"><code>[l]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">M</td>
+<td class="org-left">m</td>
+<td class="org-left"><code>[m]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">N</td>
+<td class="org-left">n</td>
+<td class="org-left"><code>[n]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ň</td>
+<td class="org-left">ň</td>
+<td class="org-left"><code>[N]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">V</td>
+<td class="org-left">v</td>
+<td class="org-left"><code>[v]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ð</td>
+<td class="org-left">ð</td>
+<td class="org-left"><code>[D]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Z</td>
+<td class="org-left">z</td>
+<td class="org-left"><code>[z]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ź</td>
+<td class="org-left">ź</td>
+<td class="org-left"><code>[Z]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ž</td>
+<td class="org-left">ž</td>
+<td class="org-left"><code>[j\]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">F</td>
+<td class="org-left">f</td>
+<td class="org-left"><code>[f]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Þ</td>
+<td class="org-left">þ</td>
+<td class="org-left"><code>[T]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">s</td>
+<td class="org-left"><code>[s]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">ß</td>
+<td class="org-left">ß</td>
+<td class="org-left"><code>[S]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Š</td>
+<td class="org-left">š</td>
+<td class="org-left"><code>[C]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">x</td>
+<td class="org-left"><code>[x]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ŗ</td>
+<td class="org-left">ŗ</td>
+<td class="org-left"><code>[R]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">H</td>
+<td class="org-left">h</td>
+<td class="org-left"><code>[h]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ŕ</td>
+<td class="org-left">ŕ</td>
+<td class="org-left"><code>[r\]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">B</td>
+<td class="org-left">b</td>
+<td class="org-left"><code>[b]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">D</td>
+<td class="org-left">d</td>
+<td class="org-left"><code>[d]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ď</td>
+<td class="org-left">ď</td>
+<td class="org-left"><code>[d`]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">G</td>
+<td class="org-left">g</td>
+<td class="org-left"><code>[g]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">P</td>
+<td class="org-left">p</td>
+<td class="org-left"><code>[p]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">T</td>
+<td class="org-left">t</td>
+<td class="org-left"><code>[t]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">Ţ</td>
+<td class="org-left">ţ</td>
+<td class="org-left"><code>[t`]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">K</td>
+<td class="org-left">k</td>
+<td class="org-left"><code>[k]</code></td>
+</tr>
+
+<tr>
+<td class="org-left">'</td>
+<td class="org-left">'</td>
+<td class="org-left"><code>[?]</code></td>
+</tr>
+</tbody>
+</table>
+<p>
+
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga8b878b" class="outline-3">
+<h3 id="orga8b878b"><span class="section-number-3">7.2</span> Annexe B</h3>
+<div class="outline-text-3" id="text-7-2">
+</div><div id="outline-container-orgc2ac352" class="outline-4">
+<h4 id="orgc2ac352"><span class="section-number-4">7.2.1</span> Harmonie des voyelles</h4>
+</div>
+<div id="outline-container-orgb1bf8ef" class="outline-4">
+<h4 id="orgb1bf8ef"><span class="section-number-4">7.2.2</span> Harmonie des consonnes</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga72867b" class="outline-2">
+<h2 id="orga72867b"><span class="section-number-2">8</span> Vrac</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Auteur: Lucien Cartier-Tilet</p>
+<p class="date">Created: 2018-05-15 mar. 19:31</p>
+<p class="validation"></p>
+</div>
+</body>
+</html>

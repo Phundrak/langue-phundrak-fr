@@ -1,0 +1,582 @@
+#+TITLE: Grammaire du Hjalpi’ verniculaire
+#+AUTHOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+src_latex{\newpage}
+
+* Abréviations
+
+- n. :: nom
+- rmq. :: remarque
+- rom. :: romanisation
+- trans. :: translittération
+- v. :: verbe
+
+src_latex{\newpage}
+
+* Prononciation et structure sonore
+** Les lettres : romanisation, translittération et écriture simplifiée
+
+Le Hjalpi’ dispose de trente et une consonnes et dix-huit voyelles, soit un total de quarante-neuf phonèmes simples tous représentés par un graphème unique lors de la romanisation ainsi que dans l’alphabet d’origine.
+
+*** Romanisation
+
+Dans la romanisation de la langue, chaque lettre correspond à un unique son, et chaque son correspond à une unique lettre. Il s’agit d’une notation phonétique simple à lire et fidèle à la prononciation, similaire à la translittération, mais ne respectant pas l’orthographe de la langue. Cela vient du fait que certaines lettres se côtoyant change de prononciation, se fusionnant ou influençant la prononciation de l’autre lettre.
+
+*** Translittération
+
+La translittération à l’inverse est extrêmement fidèle à l’orthographe des mots, retranscrivant caractère pour caractère les lettres dans l’alphabet latin. Cependant, un lecteur non avertit des règles de lecture et d’accord des sons ne prononcera pas correctement certaines liaisons entre certaines sonorités.
+
+La seule différence entre les deux modes de transcription en alphabet latin est donc la façon d’écrire tel qu’on entend la langue à l’oral, ou bien telle qu’elle est écrite. Dans les deux cas, une certaine graphie latine représentera le même son, et écrire un mot en accord avec la prononciation dans le Hjalpi’ sera considéré comme preuve d’un manque de connaissance de l’orthographe, mais considéré cependant comme étant bon.
+
+*** Écriture simplifiée
+
+Comme le titre de ce sous-chapitre l’indique, il existe également un moyen d’écrire de manière simplifiée la langue, afin qu’elle soit à peu près lisible pour les personnes non averties. Cette écriture simplifiée peut changer selon la langue du contexte, que ce soit le Français, l’Anglais, le Japonais, le Russe ou autre, étant donné que chacune de ces langues a sa propre façon de représenter les sons avec les lettres ou symboles qui lui sont disponibles. Généralement, dans la version Française de cet ouvrage, si j’utilise l’écriture simplifiée je préférerai la notation française, mais si je le traduit dans une autre langue (sans doute l’Anglais), je m’efforcerai à changer cela afin de suivre les règles de phonétique de la langue de Shakespeare.
+
+En revanche, dans mes autres ouvrages plus romanciers et autre, j’utiliserai plutôt la simplification anglophone, afin d’éviter des conflits de traduction dans où le cas où cela pourrait se produire.
+
+Voici un tableau qui peut être utilisé afin d’obtenir une écriture simplifiée de le Hjalpi’ pour des locuteurs Français :
+
+Pour les consonnes :
+| / | <>              | <>              | <>                         |
+|---+-----------------+-----------------+----------------------------|
+|   | latin majuscule | latin minuscule | simplifié pour le Français |
+|---+-----------------+-----------------+----------------------------|
+|   | J               | j               | y                          |
+|   | W               | w               | w                          |
+|   | R               | r               | rr                         |
+|   | Ł               | ł               | lh                         |
+|   | L               | l               | l                          |
+|   | M               | m               | m                          |
+|   | N               | n               | n                          |
+|   | Ň               | ň               | ng                         |
+|   | V               | v               | v                          |
+|   | Ð               | ð               | dh / v                     |
+|   | Z               | z               | z                          |
+|   | Ź               | ź               | j                          |
+|   | Ž               | ž               | jh                         |
+|   | F               | f               | f                          |
+|   | Þ               | þ               | th / f                     |
+|   | S               | s               | s                          |
+|   | ß               | ß               | ch                         |
+|   | Š               | š               | sh                         |
+|   | X               | x               | rh                         |
+|   | Ŗ               | ŗ               | r                          |
+|   | H               | h               | h                          |
+|   | Ŕ               | ŕ               | r                          |
+|   | B               | b               | b                          |
+|   | D               | d               | d                          |
+|   | Ď               | ď               | dr                         |
+|   | G               | g               | g                          |
+|   | P               | p               | p                          |
+|   | T               | t               | t                          |
+|   | Ţ               | ţ               | tr                         |
+|   | K               | k               | k                          |
+|   | '               | '               | g                          |
+|---+-----------------+-----------------+----------------------------|
+src_latex{\newpage}
+Pour les voyelles :
+| / | <>              | <>              | <>                         |
+|---+-----------------+-----------------+----------------------------|
+|   | latin majuscule | latin minuscule | simplifié pour le Français |
+|---+-----------------+-----------------+----------------------------|
+|   | A               | a               | a                          |
+|   | Á               | á               | a                          |
+|   | Ë               | ë               | eu                         |
+|   | Ê               | ê               | eu                         |
+|   | Ě               | ě               | eu                         |
+|   | Ö               | ö               | eur                        |
+|   | I               | i               | i                          |
+|   | Í               | í               | i                          |
+|   | E               | e               | é                          |
+|   | É               | é               | è                          |
+|   | O               | o               | o                          |
+|   | Ó               | ó               | au                         |
+|   | Y               | y               | u                          |
+|   | Ý               | ý               | u                          |
+|   | U               | u               | ou                         |
+|   | Ú               | ú               | ou                         |
+|   | Ń               | ń               | ng                         |
+|   | Ļ               | ļ               | ll                         |
+|---+-----------------+-----------------+----------------------------|
+
+À titre indicatif, voici le même tableau pour l’écriture simplifiée anglophone :
+
+Pour les voyelles :
+| / | <>              | <>              | <>                         |
+|---+-----------------+-----------------+----------------------------|
+|   | latin majuscule | latin minuscule | simplifié pour le Français |
+|---+-----------------+-----------------+----------------------------|
+|   | A               | a               | ah                         |
+|   | Á               | á               | a                          |
+|   | Ë               | ë               | oh                         |
+|   | Ê               | ê               | ö                          |
+|   | Ě               | ě               | ö                          |
+|   | Ö               | ö               | or                         |
+|   | I               | i               | ii                         |
+|   | Í               | í               | i                          |
+|   | E               | e               | eh                         |
+|   | É               | é               | e                          |
+|   | O               | o               | oh                         |
+|   | Ó               | ó               | o                          |
+|   | Y               | y               | üh                         |
+|   | Ý               | ý               | ü                          |
+|   | U               | u               | uu                         |
+|   | Ú               | ú               | u                          |
+|   | Ń               | ń               | ng                         |
+|   | Ļ               | ļ               | ll                         |
+|---+-----------------+-----------------+----------------------------|
+src_latex{\newpage}
+Pour les consonnes :
+| / | <>              | <>              | <>                         |
+|---+-----------------+-----------------+----------------------------|
+|   | latin majuscule | latin minuscule | simplifié pour le Français |
+|---+-----------------+-----------------+----------------------------|
+|   | J               | j               | y                          |
+|   | W               | w               | w                          |
+|   | R               | r               | rr                         |
+|   | Ł               | ł               | lh                         |
+|   | L               | l               | l                          |
+|   | M               | m               | m                          |
+|   | N               | n               | n                          |
+|   | Ň               | ň               | ng                         |
+|   | V               | v               | v                          |
+|   | Ð               | ð               | dh                         |
+|   | Z               | z               | z                          |
+|   | Ź               | ź               | zh                         |
+|   | Ž               | ž               | zhh                        |
+|   | F               | f               | f                          |
+|   | Þ               | þ               | th                         |
+|   | S               | s               | s                          |
+|   | ß               | ß               | sh                         |
+|   | Š               | š               | shh                        |
+|   | X               | x               | rh                         |
+|   | Ŗ               | ŗ               | rr                         |
+|   | H               | h               | h                          |
+|   | Ŕ               | ŕ               | r                          |
+|   | B               | b               | b                          |
+|   | D               | d               | d                          |
+|   | Ď               | ď               | dr                         |
+|   | G               | g               | g                          |
+|   | P               | p               | p                          |
+|   | T               | t               | t                          |
+|   | Ţ               | ţ               | tr                         |
+|   | K               | k               | k                          |
+|   | '               | '               | g                          |
+|---+-----------------+-----------------+----------------------------|
+
+Les changements sont assez subtiles, mais elles ont tout de même leur importance, et je suis sûr que d’autres langues verront des changements bien plus radicaux.
+
+src_latex{\newpage}
+** Les sons
+
+Vous avez en [[*Annexe A][annexe A]] la correspondance entre la graphie latine et les sonorités de la langue. Notez que dans ce tableau, la phonétique IPA sera notée au côté de la phonétique X-SAMPA, mais cette dernière sera préférée tout au long de cet ouvrage et non la phonétique IPA.
+
+*** Les voyelles
+
+- =[a:]= (a) :: il s’agit du son =[a]= naturel prononcé en Français, comme dans le mot « pattes ». Il est nécessairement long.
+- =[A]= (á) :: il s’agit d’un son plus ouvert et plus court que le =[a]=, un peu comme dans « pâtes » tel qu’encore prononcé dans l’ouest de la France.
+- =[2:]= (ë) :: il s’agit exactement de la même voyelle que dans le mot « deux », mais nécessairement long.
+- =[9]= (ê) :: il s’agit exactement de la même voyelle que dans le mot « neuf », mais nécessairement court.
+- =[@]= (ě) :: il s’agit d’un son similaire à =[2]= ou à =[9]=, mais très peu discernable, voire parfois ellipsé ou ajouté pour faciliter la prononciation, un peu similaire à la voyelle dans le mot « le » en Français lorsque l’on parle rapidement. Il s’agit de la seule voyelle qui peut ne pas être notée à l’écrit. Cette voyelle est nécessairement courte. Avec =[l0]= et =[n0]=, =[@]= fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.
+- =[i:]= (i) :: il s’agit exactement du même « i » qu’en Français, cependant nécessairement long.
+- =[I]= (í) :: il s’agit de la même voyelle que dans le mot « this » en Anglais : un « i » plus ouvert que le =[i]=. Il est également nécessairement court.
+- =[e:]= (e) :: il s’agit du « é » standard Français, comme dans le mot « été », cependant nécessairement long.
+- =[E]= (e) :: il s’agit du « è » standard Français, comme dans le mot « laid », cependant nécessairement court.
+- =[o:]= (o) :: il s’agit du « o » fermé standard Français, comme dans le mot « eau », cependant nécessairement long.
+- =[O]= (o) :: il s’agit du « o » ouvert standard Français, comme dans le mot « tonne », cependant nécessairement court.
+- =[y:]= (y) :: il s’agit du « u » standard Français, comme dans le mot « lune », cependant nécessairement long.
+- =[Y]= (ý) :: il s’agit d’un =[y]= ouvert tel qu’on peut le trouver en Allemand, cependant nécessairement court.
+- =[u:]= (u) :: il s’agit du « ou » standard Français, comme dans le mot « boule », cependant nécessairement long.
+- =[U]= (ú) :: il s’agit du « ou » ouvert que l’on peut par exemple retrouver dans des mots Anglais tels que « boot », cependant nécessairement court.
+- =[n0]= (ń) :: il s’agit de la consonne =[n]= utilisée en tant que voyelle. Avec =[@]= et =[l0]=, =[n0]= fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.
+- =[l0]= (ļ) :: il s’agit de la consonne =[l]= utilisée en tant que voyelle. Avec =[@]= et =[n0]=, =[l0]= fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.
+
+On remarque qu’à l’exception de =[@]=, =[n0]= et =[l0]=, chaque voyelle est présente avec deux équivalents : sa version longue et fermée, ou bien courte et ouverte. Le seul cas où une voyelle fermée n’est pas longue est le cas où elle est utilisée dans une diphtongue, tel que =[ai]=. À moins qu’elles soient explicitement dans une diphtongue, les voyelles longues sont toujours des voyelles longues pures et non des diphtongues et ne se terminent pas avec un son similaire à =[j]= ou =[w]= ; =[e:]= ne se prononcera donc jamais =[e:j]=, sauf s’il est explicitement suivit par une consonne =[j]=.
+
+Lorsque deux voyelles ne sont séparées par aucune consonne et se trouvent au sein d’un même mot, elles fusionnent en une diphtongue selon les règles décrites dans le sous-chapitre [[*Les diphtongues][Les diphtongues]].
+
+*** Les consonnes
+
+- =[j]= (j) :: cette consonne est prononcée comme un « y » en Français, ou comme le « ille » dans « paille »
+- =[w]= (w) :: cette consonne est prononcée comme un « w » standard en Français.
+- =[r]= (r) :: il s’agit ici du « r » roulé Espagnol ou Italien. Il peut être roulé plusieurs fois, mais il a plutôt tendance à rester bref.
+- =[K]= (ł) :: il s’agit ici d’un =[l]= sourd (dans lequel on ne fait pas vibrer nos cordes vocales) auquel une expiration est ajoutée, tel que le « lh » tibétain.
+- =[l]= (l) :: il s’agit du « l » standard en Français. Le « l » se rallonge et tend à se rapprocher de la voyelle =[l0]= lorsqu’elle se situe seule entre deux voyelles et tend à former un triphone (voire plus) avec lesdites voyelles. Exemple: ~ála~ aura tendance à se prononcer =[Al0a]= plutôt que =[A:la]=.
+- =[m]= (m) :: il s’agit du « m » standard en Français.
+- =[n]= (n) :: il s’agit du « n » standard en Français.  Le « n » se rallonge et tend à se rapprocher de la voyelle =[n0]= lorsqu’elle se situe seule entre deux voyelles et tend à former un triphone (voire plus) avec lesdites voyelles. Exemple: ~ýnê~ aura tendance à se prononcer =[Yn09:]= plutôt que =[Y:n9:]=.
+- =[N]= (ň) :: il s’agit du « n » nasalisé, tel que le « ng » en Anglais comme dans « parking ».
+- =[v]= (v) :: il s’agit du « v » standard en Français.
+- =[D]= (ð) :: il s’agit du « th » voisé (où on utilise nos cordes vocales) en Anglais tel que dans « this ».
+- =[z]= (z) :: il s’agit du « z » standard en Français.
+- =[Z]= (ž) :: il s’agit du « j » standard en Français.
+- =[f]= (f) :: il s’agit du « f » standard en Français.
+- =[T]= (þ) :: il s’agit du « th » sourd (où l’on n’utilise pas nos cordes vocales) en Anglais tel que dans « think ».
+- =[s]= (s) :: il s’agit du « s » standard en Français, toujours prononcé comme un « s » et jamais comme un « z ». Cependant, sa prononciation peut se rapprocher du =[s\]= dans sa prononciation plutôt que du =[s]= pur. Ce défaut de prononciation est plutôt présent dans les niveaux de politesse élevés, et disparaît lors des niveaux de politesse standard et plus bas.
+- =[S]= (ß) :: il s’agit du son « ch » standard en Français, tel que dans « chat ».
+- =[x]= (x) :: il s’agit du même son « j » qu’en Espagnol, un « r » sourd et guttural.
+- =[R]= (ŗ) :: il s’agit du « r » Français.
+- =[h]= (h) :: il s’agit du son « h » tel qu’on peut le retrouver en Anglais comme dans « house ». Lorsqu’il se trouve cependant seul entre deux voyelles, il a tendance d’être prononcé =[h\]= dans le registre courant et familier, mais reste un =[h]= pur dans les registres plus soutenus.
+
+Le reste des lettres /b/, /d/, /g/, /p/, /t/ et /k/ ont également la même sonorité que leur sonorité de base en Français, sans être modifiés par une voyelle (comme le /g/ peut l’être près d’un /i/ en Français). Aucune consonne n’est prononcée avec aspiration, hormis pour le =[K]= et le =[h]=, à moins que la consonne ne soit explicitement suivie par un =[h]=.
+
+Lorsqu’un mot (hormis les verbes) se termine avec une voyelle et que le mot suivant (hormis les verbes) débute avec une consonne ou inversement, cette dernière aura tendance à s’allonger afin de créer une liaison entre les mots. Exemples :
+- éló tráhin (trans.) \rightarrow élontráhin (rom.)
+Rmq. : Ici, le /h/ de /tráhin/ est prononcé comme un =[h\]= et non comme un =[h]= du fait des deux voyelles l’entourant, comme indiqué plus haut.
+- ðro lwéín (trans.) \rightarrow ðrollwéín (rom.)
+- télýßí halmár (trans.) \rightarrow télýßíhhalmár (rom.)
+- tiryð astret (trans) \rightarrow tiryððastret
+
+Le Hjalpi’, à l’instar du Sanskrit, a tendance à agglutiner les mots ensemble, mais à la stricte condition que le mot ne soit pas un verbe. De même, seuls les groupes de même type (nominaux, adjectifs, …) s’agglutinent entre eux.
+
+Lorsqu’un mot se termine avec une voyelle et que le mot suivant commence également avec une voyelle, afin d’éviter toute confusion avec une diphtongue (voir le sous-chapitre [[*Les diphtongues][Les diphtongues]]), une consonne « ’ » =[?]= est ajoutée à l’oral afin de séparer les deux mots. Le ton de la première syllabe du second mot sera alors clairement montant, afin de différencier également avec deux voyelles au sein d’un même mot également séparées par la consonne « ’ ».
+
+** Son long, son court
+
+La différence entre les sons longs et courts est très souvent utilisée en langue divine, bien qu’elle ne soit pas la seule marque pour différencier les voyelles longues des voyelles courtes, comme mentionné dans le sous-chapitre [[*Les voyelles][Les voyelles]]. Ainsi, le mot /mérik/ aura une signification différente du mot /merik/ ou /merík/. Chacun des sons, longs ou courts, peuvent se retrouver dans à peu près n’importe quelle position dans le mot, cependant un mot contiendra en règle générale soit des voyelles courtes, soit des voyelles longues ; on a donc peu de chances de rencontrer les mots /mérik/ ou /merík/, cependant /mérík/ ou /merik/ sont beaucoup plus probables.
+
+Ces quatre mots ci-dessus ont donc une prononciation et une signification différente, et il est donc important de les distinguer entre eux.
+
+** Les diphtongues
+
+Les règles de diphtongues dans le Hjalpi’ sont très simples : hormis les voyelles =[@]=, =[l0]= et =[n0]=, toutes les voyelles peuvent créer une diphtongue à la condition que les deux consonnes soient de la même longueur et soient toutes deux fermées ou ouvertes. Par exemple, les diphtongues « ei » et « éí » sont autorisés, en revanche « éi » ou « eí » ne le sont pas.
+
+Bien que rien ne l’en empêche, les diphtongues sont généralement d’abord composées d’abord d’une voyelle plus ouverte vers une voyelle plus fermée, ou vers une voyelle de même ouverture (au sens phonétique du terme). Par exemple, la diphtongues /áý/ sera plus courante que la diphtongue /ýá/, cette dernière ayant une sonorité quelque peut étrange.
+
+Il faut également noter que les voyelles longues perdent leur longueur du fait de la diphtongue, et « éí » se prononcera par exemple =[EI]= ; la prononciation =[E:I:]= reste cependant correcte et reste la prononciation à adopter dans un registre soutenu.
+
+** Les syllabes
+
+Une syllabe est formée au moins d’une voyelle seule, au mieux de trois consonnes, une diphtongue puis deux consonnes. Il peut y avoir jusqu’à quatre consonnes entre deux voyelles d’un même mot, et seule la dernière consonne appartient à la seconde syllabe, la ou les consonnes précédentes appartenant à la syllabe précédente.
+
+S’il n’y a qu’une seule consonne entre deux voyelles d’un même mot, et la consonne appartient à la seconde syllabe.
+
+Par exemple :
+- Éló \rightarrow É-ló
+- Télýßí \rightarrow té-lý-ßí
+- Þarkskeið \rightarrow þarks-keið
+- tráhín \rightarrow trá-hín
+
+Il est tout de même nécessaire de noter que les semi-consonnes ~j~ et ~w~ sont comptées comme faisant partie du groupe voyelle que du groupe consonne lors de la découpe des syllabes. Par exemple :
+- Nalyám \rightarrow na-lyám
+- drýntweŗ \rightarrow drýn-tweŗ
+
+** Les tons et l’accentuation
+
+Du fait de sa nature agglutinante, le Hjalpi’ pose l’accentuation du mot sur la racine du mot et jamais sur les éléments agglutinés autour de la racine.
+
+L’intonation dans les phrases affirmatives est généralement descendante et remonte pour les accentuations sur les mots et remonte significativement (en général à la hauteur d’origine) lorsque l’on rencontre un sujet ou un verbe. Considéré individuellement, l’accentuation d’un mot se fait sur la première voyelle racine du mot. Ainsi, le mot non modifié /pńtwan/ (sept) aura son accent sur la voyelle /ń/, de même pour /ţéálnat/ (précision temporelle) qui sera accentué sur /éá/. Pour les noms propres cependant, l’accent porte sur l’ensemble des voyelles racines du nom en lui-même (c’est à dire les voyelles ne venant pas de déclinaisons). Par exemple, le prénom /Meréð/ décliné au comitatif (/avec Meréð/) devient /Meðeiréð/, se prononçant ["me:.Dei."rED] ; à l’accusatif, /Meréðvo/ (Meréð étant l’objet direct d’un verbe transitif) se prononcera ["me:."rE.vO] (le /ð/ s’est ellipsé en faveur du /v/, voir le sous-chapitre [[*Assimilation][Assimilation]]) ; au génitif, /ţuMeréð/ se prononcera [t`u."me:."rED].
+
+Pour ce qui est des phrases interrogatives et exclamatives, les deux dernières voyelles sont allongées (même dans le cas d’une voyelle ouverte), et dans le cas de l’exclamative on reste sur la même hauteur pour cette dernière voyelle, et dans le cas de l’interrogative la hauteur de la voyelle baisse puis remonte. Dans les phrases négatives, le ton de la phrase monte jusqu’à la négation où le ton redescend à nouveau.
+
+** L’harmonie
+
+Dans le Hjalpi’, il existe deux types d’harmonies qui coexistent afin d’avoir des mots phonétiquement harmoniques : l’harmonie des voyelles et l’harmonie des consonnes. Chacune de ces harmonies se divise en plusieurs harmonies, la première primant sur la dernière.
+
+*** L’harmonie des voyelles
+
+L’harmonie des voyelles se divise en trois harmonies, la première étant considérée comme étant plus importante que la dernière. Voici les trois harmonies des voyelles :
+
+1. La première harmonie des voyelles est celle de l’ouverture des voyelles. Parmi les voyelles ouvertes/longues et fermées/courtes, il y a tout de même une différentiation entre voyelles ouvertes ou fermée.
+
+2. La seconde harmonie des voyelles est celle qui concerne les voyelles arrondies ou non ; cela signifie qu’une voyelle « e » aura plus de chances de partager le mot avec les voyelles « i », « y » ou « a » qu’avec des voyelles « o » ou « u ».
+
+3. Dans chaque mot, une certaine harmonie est respectée avec le choix des voyelles longues et voyelles courtes, comme expliqué dans le sous chapitre [[*Son long, son court][Son long, son court]]. Il s’agit de l’harmonie la plus importante au sein du mot. Il s’agit de la troisième et dernière harmonie des voyelles.
+
+Dans beaucoup de cas grammaticaux, la voyelle des particules ou agglomérats grammaticaux n’est pas prédéfinie et on utilisera alors la voyelle majeure du mot principal (soit la première voyelle de la dernière syllabe du mot racine).\\
+\\
+Vous pourrez retrouver en [[*Harmonie des voyelles][annexe B]] un graphe représentant l’appartenance des voyelles à leurs différentes familles harmoniques.
+
+*** L’harmonie des consonnes
+
+Il existe quelques règles harmoniques pour les consonnes. Comme pour les voyelles, les premières harmonies consonantiques sont considérées comme étant les plus importantes, les dernières étant considérées comme moindres.
+1. Toute consonne est autorisée avant la voyelle
+2. Les consonnes ~ň~, ~š~, ~ž~, ~ţ~, ~ď~, ~ð~ et ~ł~ ne peuvent s’associer avec une autre consonne au sein d’une même syllabe
+3. Les consonnes ~w~, ~h~, ~ł~ et ~j~ ne sont pas autorisées après la voyelle au sein d’une même syllabe
+4. Les consonnes fricatives ne peuvent s’associer en fin de syllabe
+5. La consonne ~x~ ne peut être qu’en première position en début de mot
+
+** Assimilation
+
+Comme dit précédemment, il est possible que certaines sonorités influencent d’autres sonorités. Le premier cas vu est celui des diphtongue où les voyelles longues perdent leur longueur lorsqu’elles s’assemblent en diphone voire parfois en triphone lors de l’association de mots. Cependant, il existe aussi des cas de modification de la prononciation de consonnes en fonction d’autres consonnes lorsque des mots se côtoient.
+
+Bien qu’il soit impossible de tout lister dans des règles exhaustives du fait des diverses exceptions, voici les grandes lignes du fonctionnement d’une assimilation :
+- Lorsqu’une consonne quelconque unique termine la première syllabe et que la première consonne de la syllabe suivante est une fricative, la consonne terminant la syllabe se voise si la fricative est voisée, et se dévoise si la fricative est sourde. Ainsi, /merjoð pöl/ (trans.) se prononcera /merjoð böl/ (rom.).
+- Ce cas ci-dessus s’applique également si la consonne terminant la première syllabe est une fricative et qu’une seule consonne non fricative commence la syllabe suivante. Ainsi, /derék vetron/ (trans.) se prononcera /derég vedron/ (rom.). Le ~t~ de /vetron/ a également été voisé, voir plus bas.
+- Si deux fricatives terminent et commencent respectivement la première et la seconde syllabe, alors si l’une des deux fricatives est voisée, l’autre le devient également. Dans certains cas, la fricative la plus proche du bilabial s’ellipse en faveur de la fricative la plus gutturale. Ainsi, /ďóréþ fyl2ŕ/ (trans.) se prononcera /ďóréfyl2ŕ/ (rom.).
+- Dans les trois cas précédents, si un schwa (~ě~ =[@]=) se situe entre ces deux consonnes, il peut s’ellipser et laisser agir les trois règle précédentes.
+- Une fricative suivie d’un ~r~ se gutturalise, et le ~r~ s’ellipse. Par exemple, un ~fr~ se prononcera comme un ~T~, un ~zr~ se prononcera comme un ~ź~, et un ~x~ se prononcera comme un ~ŗ~. Exemples :
+  - Ďóréþ śetra (trans.) \rightarrow Ďóréšeďa (rom.)
+  - bńdyv þéýn (trans.) \rightarrow bńdyséýn (rom.)
+  - ßítĺf xeţ (trans.) \rightarrow ßítĺŗeţ (rom.)
+- Lorsqu’une seule consonne sourde se trouve dans un mot avec deux consonnes voisées ou plus, la consonne sourde se voise. Exemple : /derék vetron/ (trans.) devient /dérég vetron/ (rom.).
+- Lorsqu’un ~ł~ est suivit d’une semi-consonne ~j~ ou ~w~, la consonne ~ł~ s’ellipse et dévoise la semi-consonne, se prononçant respectivement un =[Cj]= et un =[hw]=.
+
+src_latex{\newpage}
+
+* Les noms
+** Genre, nombre et type de nom
+*** Genre
+Le Hjalpi’ dispose de cinq genres au total : le divin, le neutre, le masculin, le féminin et l’inanimé. Le divin n’est utilisé que pour désigner des êtres divins, et est utilisé aussi bien par les autres divins que par les mortels s’adressant à des divins. Les trois suivants ne s’utilisent que pour les êtres vivants animés, et pour le reste le genre inanimé sera utilisé. Les genres masculins et féminins ne s’emploient que si l’ensemble des sujets mentionnés (y compris s’il ne s’agit que d’un seul individu) est du même sexe ; en revanche s’il y a un mélange des deux sexes, alors le neutre sera préféré. Il en va de même si le sexe de l’individu (humain ou non) est inconnu. Ce genre neutre est par ailleurs le genre par défaut pour les êtres animés.
+
+Le genre se marque
+
+*** Nombre
+
+*** Types de noms
+
+Il existe trois types de noms :
+- les noms communs (arbre, lapin, rivière,...)
+- les noms abstraits (maladie, froid, joie,...)
+- les noms propres (Meréð, Xošńf, Kjölß,...)
+
+Il s’agit des même types de nom que ce que l’on peut retrouver en Français. Les noms communs sont tous comptables mais peuvent également tous être traités comme des nom-comptables afin de signifier des quantités vagues. En revanche, les noms abstraits ne sont pas comptables. Les noms propres désignent des lieux, des personnes ainsi que des noms de culture ou de langue, et se marquent en alphabet latin avec une majuscule à la première lettre du nom (lettres venant des déclinaisons exclues).
+
+** Pronoms
+
+#+NAME: pronoms
+| /        | <              | <         |        |        |         |
+|          | personne       | singulier | double | triple | pluriel |
+|----------+----------------+-----------+--------+--------+---------|
+| neutre   | 1ère inclusif  | ×         | žag    | žaň    | xak     |
+|          | 1ère exclusif  | kjaŗ      | ŕaf    | ŕaz    | tat     |
+|          | 2              | ďaßt      | sad    | sal    | łas     |
+|          | 3              | mal       | tað    | tap    | maþ     |
+|----------+----------------+-----------+--------+--------+---------|
+| masculin | 1ère  inclusif | ×         | žog    | žoň    | xok     |
+|          | 1ère  exclusif | kjoŗ      | ŕof    | ŕoz    | tot     |
+|          | 2ère           | ďoßt      | sod    | sol    | łos     |
+|          | 3ère           | mol       | toð    | top    | moþ     |
+|----------+----------------+-----------+--------+--------+---------|
+| féminin  | 1ère  inclusif | ×         | žeg    | žeň    | xek     |
+|          | 1ère  exclusif | kjeŗ      | ŕef    | ŕez    | tet     |
+|          | 2ère           | ďeßt      | sed    | sel    | łes     |
+|          | 3ère           | mel       | teð    | tep    | meþ     |
+|----------+----------------+-----------+--------+--------+---------|
+| inanimé  | 1ère  inclusif | ×         | žug    | žuň    | xuk     |
+|          | 1ère  exclusif | ×         | ŕuf    | ŕuz    | tut     |
+|          | 2ère           | ×         | sud    | sul    | łus     |
+|          | 3ère           | mul       | tuð    | tup    | muþ     |
+
+* Temps
+
+Il y a sept temps :
+- Passé lointain (passé divin)
+- Passé (passé humain)
+- Passé proche
+- Présent
+- Futur proche
+- Futur (futur humain)
+- Futur lointain (futur divin)
+
+Le passé et le futur proches indiquent tous deux un temps immédiat pouvant aller respectivement jusqu’à la veille ou au lendemain. Le futur et le passé humains désignent des amplitudes de temps allant jusqu’à da dizaine de millénaire. À partir de la dizaine de millénaire, il s’agit de passé ou de futur divin.
+
+Décomposition en action ponctuelle, habituelle, s’étalant sur le temps (en cours, future, terminée)
+
+* Les verbes
+
+Il y a deux groupes de verbes :
+- Les verbes se terminant par /-ëm/ à l’infinitif
+- Les verbes se terminant par /-ýþ/ à l’infinitif
+
+
+Terminaisons :
+- ëm
+- ýþ
+
+** Conjugaison
+
+La conjugaison en genre et en nombre se fait suivant le sujet du verbe.
+
+*** Objectif, subjectif
+
+Il y a trois modes de connaissance lors de la conjugaison, seul le verbe être/avoir a une forme séparée pour les trois modes.
+
+Le trois modes sont l’objectif, le subjectif certain et le subjectif incertain. L’objectif sert à énoncer des faits connus comme étant vrais, détachés de sentiments, d’interprétation ou d’attachements personnels, alors que le subjectif dépend du locuteur. Le subjectif certain permet d’afficher les convictions du locuteur sur un sujet subjectif, tandis que le subjectif incertain montre que le locuteur n’est pas sûr pour ce qui est de son affirmation.
+
+#+NAME: objectivité
+| /         | >         |       |
+| objectif  |           | ŗevëm |
+| subjectif | certain   | neßëm |
+|           | incertain | doŕëm |
+
+Par défaut, les phrases sans marqueur spécifique sont objectives, cependant il s’agit d’une objectivité faible du fait de l’absence de marqueur la marquant. Afin d’utiliser la subjectivité ou une objectivité forte, il est nécessaire d’utiliser un marqueur spécifique qui agira en tant qu’auxiliaire qui sera conjugué à la place du verbe.
+
+- Objectif :: ňa’úþ
+- Subjectif certain :: te’ýþ
+- Subjectif incertain :: pu’ýþ
+
+Les verbes conjugués avec les auxiliaires voient leur terminaison remplacée suivant la grille ci-dessous :
+
+| /                   | <   | <   |
+|                     | -ëm | ýþ  |
+|---------------------+-----+-----|
+| objectif            | oŗë | oŗy |
+| subjectif certain   | eŗë | eŗy |
+| subjectif incertain | uŗë | uŗë |
+
+Ainsi, /emþíkúlól/ (/il est en train de tomber/) est objectif, mais on n’insiste pas sur l’objectivité de la phrase, tandis que /emþíkúlúŗê pu’ol/ est subjectif incertain et se traduirait par « je pense qu’il est en train de tomber » ou « il est peut-être en train de tomber ».
+
+*** Progressif
+
+- Le progressif (l’action étant en train de s’écouler mais non terminée) se marque avec le préfixe /em-/ (équivalent du /-ing/ en anglais).
+- Le progressif futur (l’action progressive encore non commencée) se marque avec le préfixe /eß-/.
+- Le progressif passé (l’action progressive terminée) se marque avec le suffixe /-andy/. Ces deux dernières formes au présent
+
+Les deux derniers peuvent être utilisés pour représenter respectivement le passé proche progressif et le futur proche progressif.
+
+*** Présent de l’indicatif
+
+- Verbes en /-ëm/
+
+Les verbes en /-ëm/ se conjuguent en remplaçant la terminaison en /-ëm/ par la voyelle du pronom correspondant mutée selon la table ci-dessous et en apposant après la voyelle mutée la terminaison consonnantique du pronom.
+
+| voyelle du pronom | voyelle mutée |
+|-------------------+---------------|
+| a                 | oa            |
+| o                 | uo            |
+| e                 | ëe            |
+| u                 | ou            |
+
+Ainsi, avec le verbe /ďýílnákêm/ (courir), on obtient la conjugaison suivante :
+
+| /        | <              | <           | <          | <          | <          |
+|          |                | nombre      |            |            |            |
+| genre    | personne       | singulier   | double     | triple     | pluriel    |
+|----------+----------------+-------------+------------+------------+------------|
+| neutre   | 1ère inclusive | X           | ďýílnákóág | ďýílnákóáň | ďýílnákóák |
+|          | 1ère exclusive | ďýílnákóáŗ  | ďýílnákóáf | ďýílnákóáz | ďýílnákóát |
+|          | 2ème           | ďýílnákóáßt | ďýílnákóád | ďýílnákóál | ďýílnákóás |
+|          | 3ème           | ďýílnákóál  | ďýílnákóáð | ďýílnákóáp | ďýílnákóáþ |
+|----------+----------------+-------------+------------+------------+------------|
+| masculin | 1ère inclusive | X           | ďýílnákúóg | ďýílnákúóň | ďýílnákúók |
+|          | 1ère exclusive | ďýílnákúóŗ  | ďýílnákúóf | ďýílnákúóz | ďýílnákúót |
+|          | 2ème           | ďýílnákúóßt | ďýílnákúód | ďýílnákúól | ďýílnákúós |
+|          | 3ème           | ďýílnákúól  | ďýílnákúóð | ďýílnákúóp | ďýílnákúóþ |
+|----------+----------------+-------------+------------+------------+------------|
+| féminin  | 1ère inclusive | X           | ďýílnákêég | ďýílnákêéň | ďýílnákêék |
+|          | 1ère exclusive | ďýílnákêéŗ  | ďýílnákêéf | ďýílnákêéz | ďýílnákêét |
+|          | 2ème           | ďýílnákêéßt | ďýílnákêéd | ďýílnákêél | ďýílnákêés |
+|          | 3ème           | ďýílnákêél  | ďýílnákêéð | ďýílnákêép | ďýílnákêéþ |
+|----------+----------------+-------------+------------+------------+------------|
+| inanimé  | 1ère inclusive | X           | ďýílnákóúg | ďýílnákóúň | ďýílnákóúk |
+|          | 1ère exclusive | X           | ďýílnákóúf | ďýílnákóúz | ďýílnákóút |
+|          | 2ème           | X           | ďýílnákóúd | ďýílnákóúl | ďýílnákóús |
+|          | 3ème           | ďýílnákóúl  | ďýílnákóúð | ďýílnákóúp | ďýílnákóúþ |
+|----------+----------------+-------------+------------+------------+------------|
+
+- Verbes en /-ýþ/
+
+Pour les verbes en /-ýþ/, il suffit de remplacer la terminaison en /-ëm/ par le pronom sans les consonnes précédant la voyelle. Exemple avec le verbe /þíkúlúþ/ (tomber) :
+
+| /        | <                       | <         | <       | <       | <       |
+|          |                         | nombre    |         |         |         |
+|----------+-------------------------+-----------+---------+---------+---------|
+| genre    | personne                | singulier | double  | triple  | pluriel |
+|----------+-------------------------+-----------+---------+---------+---------|
+| neutre   | 1ère inclusive | X         | þíkúlág | þíkúláň | þíkúlák |
+|          | 1ère exclusive | þíkúláŗ   | þíkúláf | þíkúláz | þíkúlát |
+|          | 2ème           | þíkúláßt  | þíkúlád | þíkúlál | þíkúlás |
+|          | 3ème           | þíkúlál   | þíkúláð | þíkúláp | þíkúláþ |
+|----------+-------------------------+-----------+---------+---------+---------|
+| masculin | 1ère inclusive | X         | þíkúlóg | þíkúlóň | þíkúlók |
+|          | 1ère exclusive | þíkúlóŗ   | þíkúlóf | þíkúlóz | þíkúlót |
+|          | 2ème           | þíkúlóßt  | þíkúlód | þíkúlól | þíkúlós |
+|          | 3ème           | þíkúlól   | þíkúlóð | þíkúlóp | þíkúlóþ |
+|----------+-------------------------+-----------+---------+---------+---------|
+| féminin  | 1ère inclusive | X         | þíkúlég | þíkúléň | þíkúlék |
+|          | 1ère exclusive | þíkúléŗ   | þíkúléf | þíkúléz | þíkúlét |
+|          | 2ème           | þíkúléßt  | þíkúléd | þíkúlél | þíkúlés |
+|          | 3ème           | þíkúlél   | þíkúléð | þíkúlép | þíkúléþ |
+|----------+-------------------------+-----------+---------+---------+---------|
+| inanimé  | 1ère inclusive | X         | þíkúlúg | þíkúlúň | þíkúlúk |
+|          | 1ère exclusive | X         | þíkúlúf | þíkúlúz | þíkúlút |
+|          | 2ème           | X         | þíkúlúd | þíkúlúl | þíkúlús |
+|          | 3ème           | þíkúlúl   | þíkúlúð | þíkúlúp | þíkúlúþ |
+
+*** Futur proche
+
+* Niveaux de politesse
+
+Cinq niveaux de politesse qui se reflètent dans les verbes et les titres utilisés, ainsi que l’humilifique utilisé pour soi-même, les divins n’utilisent pas d’humilifique en temps normal (sauf s’ils s’adressent au Dieu Créateur, auquel cas ils utilisent l’humilifique absolu. Entre eux, les divins utilisent l’honorifique humain pour s’adresser à un autre divin, utilisent le familier pour s’adresser à un humain, et l’honorifique divin pour s’adresser au Dieu Créateur.
+
+| Niveau de politesse | Niveau d’humilifique                              |
+|---------------------+---------------------------------------------------|
+| Honorifique divin   | Humilifique absolu                                |
+| Honorifique humain  | Humilifique de politesse                          |
+| Politesse standard  | Humilifique standard                              |
+| Familier            | Absence d’humilifique                             |
+| Vulgaire            | Honorifique (divers selon le niveau de vulgarité) |
+
+* Annexes
+** Annexe A
+*** Les Voyelles
+| / | <>              | <>              | <>      |
+|---+-----------------+-----------------+---------|
+|   | latin majuscule | latin minuscule | X-SAMPA |
+|---+-----------------+-----------------+---------|
+|   | A               | a               | =[a:]=  |
+|   | Á               | á               | =[A]=   |
+|   | Ë               | ë               | =[2:]=  |
+|   | Ê               | ê               | =[9]=   |
+|   | Ě               | ě               | =[@]=   |
+|   | Ö               | ö               | =[@`]=  |
+|   | I               | i               | =[i:]=  |
+|   | Í               | í               | =[I]=   |
+|   | E               | e               | =[e:]=  |
+|   | É               | é               | =[E]=   |
+|   | O               | o               | =[o:]=  |
+|   | Ó               | ó               | =[O]=   |
+|   | Y               | y               | =[y:]=  |
+|   | Ý               | ý               | =[Y]=   |
+|   | U               | u               | =[u:]=  |
+|   | Ú               | ú               | =[U]=   |
+|   | Ń               | ń               | =[n0]=  |
+|   | Ļ               | ļ               | =[l0]=  |
+|---+-----------------+-----------------+---------|
+
+*** Les Consonnes
+| / | <>              | <>              | <>      |
+|---+-----------------+-----------------+---------|
+|   | latin majuscule | latin minuscule | X-SAMPA |
+|---+-----------------+-----------------+---------|
+|   | J               | j               | l=[j]=  |
+|   | W               | w               | =[w]=   |
+|   | R               | r               | =[r]=   |
+|   | Ł               | ł               | =[K]=   |
+|   | L               | l               | =[l]=   |
+|   | M               | m               | =[m]=   |
+|   | N               | n               | =[n]=   |
+|   | Ň               | ň               | =[N]=   |
+|   | V               | v               | =[v]=   |
+|   | Ð               | ð               | =[D]=   |
+|   | Z               | z               | =[z]=   |
+|   | Ź               | ź               | =[Z]=   |
+|   | Ž               | ž               | =[j\]=  |
+|   | F               | f               | =[f]=   |
+|   | Þ               | þ               | =[T]=   |
+|   | S               | s               | =[s]=   |
+|   | ß               | ß               | =[S]=   |
+|   | Š               | š               | =[C]=   |
+|   | X               | x               | =[x]=   |
+|   | Ŗ               | ŗ               | =[R]=   |
+|   | H               | h               | =[h]=   |
+|   | Ŕ               | ŕ               | =[r\]=  |
+|   | B               | b               | =[b]=   |
+|   | D               | d               | =[d]=   |
+|   | Ď               | ď               | =[d`]=  |
+|   | G               | g               | =[g]=   |
+|   | P               | p               | =[p]=   |
+|   | T               | t               | =[t]=   |
+|   | Ţ               | ţ               | =[t`]=  |
+|   | K               | k               | =[k]=   |
+|   | '               | '               | =[?]=   |
+|---+-----------------+-----------------+---------|
+src_latex{\newpage}
+
+** Annexe B
+*** Harmonie des voyelles
+*** Harmonie des consonnes
+
+* Vrac
