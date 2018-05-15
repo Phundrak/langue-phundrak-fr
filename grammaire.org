@@ -95,8 +95,11 @@ Le « ĺ » est la consonne « l » (la même que le « l » frança
 
 *** Allophones
 Il existe relativement peu d’allophones parmi les voyelles de la langue divine, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} _[[*Consonnes syllabiques][Consonnes syllabiques]]_, est ~[l=]~. Cependant, cette voyelle peut également être prononcée ~[m=]~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~[J=]~ ou ~[m']~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/.
+- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} _[[*Consonnes syllabiques][Consonnes syllabiques]]_, est ~[n=]~. Cependant, cette voyelle peut également être prononcée ~[m=]~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~[J=]~ ou ~[m']~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/.
+~/n=/>[m=]/_p,b,w~
+~/n=/>[J=]/_i,í,j~
 - Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée ~[l'=]~.
+~/l=/>[l'=]/_i,í,j~
 
 ** Consonnes
 En plus d’un important inventaire de voyelle, la langue divine dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
@@ -166,10 +169,16 @@ Abréviations :
 
 *** Allophones
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
-- La prononciation standard du /f/ et /v/ sont respectivement ~[f]~ et ~[v]~, cependant il arrive également qu’ils soient respectivement prononcés ~[p\]~ et ~[B]~, en particulier entre deux voyelles.
-- Le ~[h\]~ est considéré comme étant un allophone du /h/, dont la prononciation standard est le ~[h]~. Cet allophone se produit en particulier entre deux voyelles, mais également entre une consonne voisée et une voyelle.
-- Le /ŗ/ a pour prononciation standard le /R/, il arrive cependant qu’il soit également prononcé ~[R\]~, en particulier entre deux voyelles.
-- Le /x/ est habituellement prononcé /X/, cependant il arrive qu’il soit prononcé /x/ lorsqu’il est en contact avec une consonne fricative autre que le /h/ et le /ŗ/.
+- La prononciation standard du /f/ et /v/ sont respectivement ~[f]~ et ~[v]~, cependant il arrive également qu’ils soient respectivement prononcés ~[p\]~ et ~[B]~ entre deux voyelles.
+~/f/>[p\]/V_V~
+~/v/>[B]/V_V~
+- Le ~[h\]~ est considéré comme étant un allophone du /h/, dont la prononciation standard est le ~[h]~. Cet allophone se produit entre deux voyelles et entre une consonne voisée et une voyelle ou une voyelle et une consonne voisée.
+~/h/>[h\]/V_V~ (~V~ signifiant ici « voyelle » ou « consonne voisée »)
+- Le /ŗ/ a pour prononciation standard le /R/, cependant il est généralement prononcé ~[R\]~ entre deux voyelles.
+~/R/>[R\]/V_V~
+- Le /x/ est habituellement prononcé /X/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde autre que le /h/ et le /ŗ/.
+~/X/>[x]/F_~
+~/X/>[x]/_F~ (~F~ représentant toute fricative sourde autre que le /h/ et le /ŗ/)
 
 ** Accentuation
 
