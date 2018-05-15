@@ -5,8 +5,8 @@
 #+LaTeX_CLASS_OPTIONS: [a4paper]
 src_latex{\newpage}
 
-[[file:hjalpi-old/index.html][Hjalpi’ Verniculaire (développement suspendu)]]
+[[file:hjalpi/index.html][Hjalpi’ Originel (en cours)]]
 
-[[file:hjalpi/index.html][Langue Divine Originelle (en cours)]]
+[[file:hjalpi-old/index.html][Hjalpi’ Verniculaire (développement suspendu)]]
 
 [[file:draconian/auto-generated-draft.html][Draconien (en cours)]]
