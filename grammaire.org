@@ -230,7 +230,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |---+----------------------+--------+--------+--------+--------+--------+--------+--------+---------|
 |   | abessif              |        |        |        |        |        |        |        |         |
 |   | ablatif              |        |        |        |        |        |        |        |         |
-|   | ablatif              |        |        |        |        |        |        |        |         |
 |   | absolutif            |        |        |        |        |        |        |        |         |
 |   | accusatif            |        |        |        |        |        |        |        |         |
 |   | accusatif temporel   |        |        |        |        |        |        |        |         |
@@ -252,7 +251,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | equatif              |        |        |        |        |        |        |        |         |
 |   | ergatif              |        |        |        |        |        |        |        |         |
 |   | ergatif-genitif      |        |        |        |        |        |        |        |         |
-|   | essif                |        |        |        |        |        |        |        |         |
 |   | essif                |        |        |        |        |        |        |        |         |
 |   | essif-formel         |        |        |        |        |        |        |        |         |
 |   | essif-modal          |        |        |        |        |        |        |        |         |
@@ -295,7 +293,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |---+----------------------+--------+---------+--------+---------+--------+---------+--------+--------|
 |   | abessif              |        |         |        |         |        |         |        |        |
 |   | ablatif              |        |         |        |         |        |         |        |        |
-|   | ablatif              |        |         |        |         |        |         |        |        |
 |   | absolutif            |        |         |        |         |        |         |        |        |
 |   | accusatif            |        |         |        |         |        |         |        |        |
 |   | accusatif temporel   |        |         |        |         |        |         |        |        |
@@ -317,7 +314,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | equatif              |        |         |        |         |        |         |        |        |
 |   | ergatif              |        |         |        |         |        |         |        |        |
 |   | ergatif-genitif      |        |         |        |         |        |         |        |        |
-|   | essif                |        |         |        |         |        |         |        |        |
 |   | essif                |        |         |        |         |        |         |        |        |
 |   | essif-formel         |        |         |        |         |        |         |        |        |
 |   | essif-modal          |        |         |        |         |        |         |        |        |
@@ -360,7 +356,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |---+----------------------+--------+--------|
 |   | abessif              |        |        |
 |   | ablatif              |        |        |
-|   | ablatif              |        |        |
 |   | absolutif            |        |        |
 |   | accusatif            |        |        |
 |   | accusatif temporel   |        |        |
@@ -382,7 +377,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | equatif              |        |        |
 |   | ergatif              |        |        |
 |   | ergatif-genitif      |        |        |
-|   | essif                |        |        |
 |   | essif                |        |        |
 |   | essif-formel         |        |        |
 |   | essif-modal          |        |        |
