@@ -4,9 +4,14 @@
 #+SETUPFILE: theme-readtheorg.setup
 #+LaTeX_CLASS_OPTIONS: [a4paper]
 src_latex{\newpage}
+#+HTML: <a href="https://github.com/Phundrak/langue-phundrak-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub!"></a>
+
+* Hjalpi’
 
 [[file:hjalpi/index.html][Hjalpi’ Originel (en cours)]]
 
 [[file:hjalpi-old/index.html][Hjalpi’ Verniculaire (développement suspendu)]]
+
+* Autre
 
 [[file:draconian/auto-generated-draft.html][Draconien (en cours)]]
