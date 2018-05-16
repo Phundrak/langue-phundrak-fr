@@ -33,7 +33,7 @@ src_latex{\newpage}
 - gén (n.) :: acte
 * Ö
 * H
-- haljip (n.) :: dieu
+- hjalp (n.) :: dieu
 - heol (n.) :: heure
 * I
 * Í
