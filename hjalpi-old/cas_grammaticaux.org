@@ -4,6 +4,7 @@
 #+SETUPFILE: theme-readtheorg.setup
 #+OPTIONS: toc:nil
 #+LaTeX_CLASS_OPTIONS: [a5paper]
+#+HTML: <a href="https://github.com/Phundrak/langue-phundrak-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub!"></a>
 src_latex{\newpage}
 
 Le Hjalpi’ verniculaire (je m’y référerai plus tard comme « Hjalpi’ » uniquement) est une langue ergative (le sujet du verbe intransitif et du verbe transitif ne sont pas confondus) (comme le tibétain)
