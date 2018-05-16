@@ -92,7 +92,7 @@ Le « ĺ » est la consonne « l » (la même que le « l » frança
 
 *** Allophones
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} _[[*Consonnes syllabiques][Consonnes syllabiques]]_, est ~[n=]~. Cependant, cette voyelle peut également être prononcée ~[m=]~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~[J=]~ ou ~[m']~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/.
+- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} _[[Consonnes syllabiques][Consonnes syllabiques]]_, est ~[n=]~. Cependant, cette voyelle peut également être prononcée ~[m=]~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~[J=]~ ou ~[m']~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/.
 ~/n=/>[m=]/_p,b,w~
 ~/n=/>[J=]/_i,í,j~
 - Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée ~[l'=]~.
@@ -137,8 +137,8 @@ Abréviations :
 - ~[b]~ : B b
 - ~[t]~ : T t
 - ~[d]~ : D d
-- ~[t`]~ : Ť ť
-- ~[d`]~ : Ď ď
+- ~[t`]~ : Ţ ţ
+- ~[d`]~ : Ḑ ḑ
 - ~[k]~ : K k
 - ~[g]~ : G g
 - ~[?]~ : ' '
@@ -152,7 +152,7 @@ Abréviations :
 - ~[D]~ : Ð ð
 - ~[s]~ : S s
 - ~[z]~ : Z z
-- ~[S]~ : ß ß
+- ~[S]~ : ẞ ß
 - ~[C]~ : Š š
 - ~[j\]~ : Ž ž
 - ~[X]~ : X x
@@ -183,6 +183,14 @@ L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
 
 ** Romanisation et translittération
+La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
+
+Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différence entre romanisation et translittération est en Tibétain. Nous avons des termes Tibétain romanisés “dorje”, “chorten” ou encore “yak” en anglais dont une de leur translittération possible respective est “rdo rje”, “mchod brten” et “gyag”. Bien évidemment, toute personne n’ayant aucune notion de translittération du Tibétain et/ou de son orthographe peut être confuse quant à ce qu’ils viennent de lire, et c’est tout naturel : leur but est de savoir précisément comment écrire ces mots, et une personne sachant écrire en tibétain pourra, en ayant lu ces exemples, écrire les mots sans faute si je n’en ai pas fait non plus à la rédaction de cet ouvrage.
+
+Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans [[Consonnes][Consonnes]] et [[Voyelles][Voyelles]]), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
+
+
+
 * Noms
 ** Genres
 Le Hjalpi’ dispose d’un système de genre composé de neuf éléments :
