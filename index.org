@@ -8,10 +8,10 @@ src_latex{\newpage}
 
 * Hjalpi’
 
-[[file:hjalpi/index.html][Hjalpi’ Originel (en cours)]]
+🔵 [[file:hjalpi/index.html][Hjalpi’ Originel]] (en cours)
 
-[[file:hjalpi-old/index.html][Hjalpi’ Verniculaire (développement suspendu)]]
+🔴 [[file:hjalpi-old/index.html][Hjalpi’ Verniculaire]] (développement suspendu)
 
 * Autre
 
-[[file:draconian/auto-generated-draft.html][Draconien (en cours)]]
+[[file:draconian/auto-generated-draft.html][Draconien]] (en cours)
