@@ -1,0 +1,9 @@
+#+AUTHOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LATEX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: %!TEX TS-program = xelatex
+#+LATEX_HEADER: %!TEX encoding = UTF-8 Unicode
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,10in}]{geometry}\setromanfont[Numbers=Uppercase]{Charis SIL}
+#+HTML: <a href="https://github.com/Phundrak/langue-phundrak-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub!"></a>
