@@ -1,7 +1,5 @@
 #+TITLE: Grammaire du Hjalpi’
 #+INCLUDE: "../headers.org"
-# #+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
-# #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=green,pdfborderstyle={/S/U/W 1}}
 src_latex{\newpage}
 
 * Introduction

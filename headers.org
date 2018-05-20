@@ -6,3 +6,5 @@
 #+LATEX_HEADER: %!TEX TS-program = xelatex
 #+LATEX_HEADER: %!TEX encoding = UTF-8 Unicode
 #+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,10in}]{geometry}\setromanfont[Numbers=Uppercase]{Charis SIL}
+#+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
