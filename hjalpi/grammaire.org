@@ -261,28 +261,28 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 | / | <>                   | >       | >        | >       | >       | >      | >       | >       | >       | >       | >       |
 |   |                      | 1s      | 1p       | 2s      | 2p      | 3s     | 3p      | 4s      | 4p      | 5s      | 5p      |
 |---+----------------------+---------+----------+---------+---------+--------+---------+---------+---------+---------+---------|
-|   | abessif              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-  | e(dl)-  | e(ň)-   | e(t)-   | e(st)-  | e(ßt)-  |
-|   | ablatif              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-  | ĺ(ž)-   | li(ß)-  | li(ź)-  | li(ß)-  | li(ź)-  |
-|   | absolutif            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a | -(ts)a  | -(t)a   | -(š)a   | -(p)a   | -(v)a   |
-|   | accusatif            | -vo     | -vwo     | -vu     | -vwu    | -vo    | -vo     | -(e)vo  | -(e)vo  | -(e)vo  | -(e)vo  |
-|   | accusatif temporel   | -źu     | -źu      | -źu     | -źu     | -źoy   | -źou    | -(a)źu  | -(e)źu  | -(u)źu  | -(ai)źu |
-|   | adessif              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)- | ix(e)-  | iź(a)-  | iź(ei)- | iź(a)-  | iź(ei)- |
+|   | [[*Abessif][abessif]]              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-  | e(dl)-  | e(ň)-   | e(t)-   | e(st)-  | e(ßt)-  |
+|   | [[*Ablatif][ablatif]]              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-  | ĺ(ž)-   | li(ß)-  | li(ź)-  | li(ß)-  | li(ź)-  |
+|   | [[*Absolutif][absolutif]]            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a | -(ts)a  | -(t)a   | -(š)a   | -(p)a   | -(v)a   |
+|   | [[*Accusatif][accusatif]]            | -vo     | -vwo     | -vu     | -vwu    | -vo    | -vo     | -(e)vo  | -(e)vo  | -(e)vo  | -(e)vo  |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -źu     | -źu      | -źu     | -źu     | -źoy   | -źou    | -(a)źu  | -(e)źu  | -(u)źu  | -(ai)źu |
+|   | [[*Adessif][adessif]]              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)- | ix(e)-  | iź(a)-  | iź(ei)- | iź(a)-  | iź(ei)- |
 |   | adverbial            |         |          |         |         |        |         |         |         |         |         |
 |   | agentif              |         |          |         |         |        |         |         |         |         |         |
-|   | allatif              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-   | -li-    | -li(s)- | -li(ź)- | -li(z)- | -li(š)- |
+|   | [[*Allatif][allatif]]              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-   | -li-    | -li(s)- | -li(ź)- | -li(z)- | -li(š)- |
 |   | antessif             |         |          |         |         |        |         |         |         |         |         |
 |   | apudessif            |         |          |         |         |        |         |         |         |         |         |
 |   | aversif              |         |          |         |         |        |         |         |         |         |         |
-|   | causal               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y | -(b)y   | -(o)by  | -(o)by  | -(o)by  | -(o)by  |
+|   | [[*Causal][causal]]               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y | -(b)y   | -(o)by  | -(o)by  | -(o)by  | -(o)by  |
 |   | comitatif            |         |          |         |         |        |         |         |         |         |         |
 |   | comparatif           |         |          |         |         |        |         |         |         |         |         |
 |   | datif                |         |          |         |         |        |         |         |         |         |         |
-|   | delatif              |         |          |         |         |        |         |         |         |         |         |
-|   | distributif          |         |          |         |         |        |         |         |         |         |         |
+|   | [[*Distributif][distributif]]          | xe(l)-  | xe(l)-   | xe(l)-  | xe(l)-  | ŗe(j)- | ŗe(j)-  | he(l)-  | he(l)-  | he(l)-  | he(l)-  |
 |   | distributif-temporel |         |          |         |         |        |         |         |         |         |         |
+|   | [[*Délatif][délatif]]              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)- | ß(a)-   | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   |
 |   | elatif               |         |          |         |         |        |         |         |         |         |         |
 |   | equatif              |         |          |         |         |        |         |         |         |         |         |
-|   | ergatif              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo | -(u)jo  | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  |
+|   | [[*Ergatif][ergatif]]              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo | -(u)jo  | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  |
 |   | ergatif-génitif      |         |          |         |         |        |         |         |         |         |         |
 |   | essif                |         |          |         |         |        |         |         |         |         |         |
 |   | essif-formel         |         |          |         |         |        |         |         |         |         |         |
@@ -290,7 +290,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | exessif              |         |          |         |         |        |         |         |         |         |         |
 |   | génitif              |         |          |         |         |        |         |         |         |         |         |
 |   | identique            |         |          |         |         |        |         |         |         |         |         |
-|   | illatif              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-   | -(p)òn- | -(s)òn- | -(s)en- | -(s)en- | -(s)an- |
+|   | [[*Illatif][illatif]]              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-   | -(p)òn- | -(s)òn- | -(s)en- | -(s)en- | -(s)an- |
 |   | inessif              |         |          |         |         |        |         |         |         |         |         |
 |   | initiatif            |         |          |         |         |        |         |         |         |         |         |
 |   | instructif           |         |          |         |         |        |         |         |         |         |         |
@@ -300,8 +300,8 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | limitatif            |         |          |         |         |        |         |         |         |         |         |
 |   | locatif              |         |          |         |         |        |         |         |         |         |         |
 |   | nominal              |         |          |         |         |        |         |         |         |         |         |
-|   | nominatif            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-  | p(a)-   | pa(n)-  | pa(ń)-  | pń-     | pń-     |
-|   | oblique              |         |          |         |         |        |         |         |         |         |         |
+|   | [[*Nominatif][nominatif]]            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-  | p(a)-   | pa(n)-  | pa(ń)-  | pń-     | pń-     |
+|   | [[*Oblique][oblique]]              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß | -(x)eß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  |
 |   | orientatif           |         |          |         |         |        |         |         |         |         |         |
 |   | partitif             |         |          |         |         |        |         |         |         |         |         |
 |   | pegatif              |         |          |         |         |        |         |         |         |         |         |
@@ -324,28 +324,28 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 | / | <>                   | >        | >        | >       | >       | >        | >       | >       | >       |
 |   |                      | 6s       | 6p       | 7s      | 7p      | 8s       | 8p      | 9s      | 9b      |
 |---+----------------------+----------+----------+---------+---------+----------+---------+---------+---------|
-|   | abessif              | e(nt)-   | e(ňt)-   | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-  | e(ňt)-  |
-|   | ablatif              | li(s)-   | li(z)-   | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-   | ĺ(v)-   |
-|   | absolutif            | -(st)a   | -(ž)a    | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a   | -(ž)a   |
-|   | accusatif            | -(a)vo   | -(a)vo   | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy     | -vy     |
-|   | accusatif temporel   | -(i)źu   | -(u)źu   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu  | -(o)źu  |
-|   | adessif              | iź(a)-   | iź(ei)-  | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-  | iŗ(e)-  |
+|   | [[*Abessif][abessif]]              | e(nt)-   | e(ňt)-   | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-  | e(ňt)-  |
+|   | [[*Ablatif][ablatif]]              | li(s)-   | li(z)-   | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-   | ĺ(v)-   |
+|   | [[*Absolutif][absolutif]]            | -(st)a   | -(ž)a    | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a   | -(ž)a   |
+|   | [[*Accusatif][accusatif]]            | -(a)vo   | -(a)vo   | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy     | -vy     |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -(i)źu   | -(u)źu   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu  | -(o)źu  |
+|   | [[*Adessif][adessif]]              | iź(a)-   | iź(ei)-  | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-  | iŗ(e)-  |
 |   | adverbial            |          |          |         |         |          |         |         |         |
 |   | agentif              |          |          |         |         |          |         |         |         |
-|   | allatif              | -li(x)-  | -li(x)-  | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ- | -(l)ið- |
+|   | [[*Allatif][allatif]]              | -li(x)-  | -li(x)-  | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ- | -(l)ið- |
 |   | antessif             |          |          |         |         |          |         |         |         |
 |   | apudessif            |          |          |         |         |          |         |         |         |
 |   | aversif              |          |          |         |         |          |         |         |         |
-|   | causal               | -(o)bu   | -(o)bu   | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy     | -vy     |
+|   | [[*Causal][causal]]               | -(o)bu   | -(o)bu   | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy     | -vy     |
 |   | comitatif            |          |          |         |         |          |         |         |         |
 |   | comparatif           |          |          |         |         |          |         |         |         |
 |   | datif                |          |          |         |         |          |         |         |         |
-|   | delatif              |          |          |         |         |          |         |         |         |
-|   | distributif          |          |          |         |         |          |         |         |         |
+|   | [[*Distributif][distributif]]          | ha(l)-   | ha(l)-   | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-  | še(l)-  |
 |   | distributif-temporel |          |          |         |         |          |         |         |         |
+|   | [[*Délatif][délatif]]              | ž(a)-    | ž(a)-    | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-  | ße(l)-  |
 |   | elatif               |          |          |         |         |          |         |         |         |
 |   | equatif              |          |          |         |         |          |         |         |         |
-|   | ergatif              | -(mj)o   | -(lj)o   | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo  | -(u)jo  |
+|   | [[*Ergatif][ergatif]]              | -(mj)o   | -(lj)o   | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo  | -(u)jo  |
 |   | ergatif-génitif      |          |          |         |         |          |         |         |         |
 |   | essif                |          |          |         |         |          |         |         |         |
 |   | essif-formel         |          |          |         |         |          |         |         |         |
@@ -353,7 +353,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | exessif              |          |          |         |         |          |         |         |         |
 |   | génitif              |          |          |         |         |          |         |         |         |
 |   | identique            |          |          |         |         |          |         |         |         |
-|   | illatif              | -(ps)òn- | -(ps)en- | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn- | -(ŕ)en- |
+|   | [[*Illatif][illatif]]              | -(ps)òn- | -(ps)en- | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn- | -(ŕ)en- |
 |   | inessif              |          |          |         |         |          |         |         |         |
 |   | initiatif            |          |          |         |         |          |         |         |         |
 |   | instructif           |          |          |         |         |          |         |         |         |
@@ -363,8 +363,8 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | limitatif            |          |          |         |         |          |         |         |         |
 |   | locatif              |          |          |         |         |          |         |         |         |
 |   | nominal              |          |          |         |         |          |         |         |         |
-|   | nominatif            | pa(m)-   | pa-      | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-     | pa-     |
-|   | oblique              |          |          |         |         |          |         |         |         |
+|   | [[*Nominatif][nominatif]]            | pa(m)-   | pa-      | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-     | pa-     |
+|   | [[*Oblique][oblique]]              | -(ŗ)ef   | -(ŗ)òß   | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß | -(x)oiß |
 |   | orientatif           |          |          |         |         |          |         |         |         |
 |   | partitif             |          |          |         |         |          |         |         |         |
 |   | pegatif              |          |          |         |         |          |         |         |         |
@@ -397,6 +397,10 @@ Le cas adessif est utilisé pour exprimer un lieu adjacent au nom décliné. Exe
 Afin de décrire un déplacement depuis un point dans un lieu ouvert, le cas ablatif peut être utilisé pour décliner ledit point pour le marquer en tant que tel. Exemples :
 - /ĺmén/ : depuis l’extérieur de la maison
 - /liÐbńo/ : depuis l’extérieur de Ðbńo, depuis l’extérieur de la ville
+
+*** Délatif
+Le cas délatif exprime un déplacement ou mouvement depuis la surface d’un lieu ou d’un objet.
+- /
 
 ** Déplacement vers un point
 *** Allatif
@@ -433,11 +437,22 @@ Le cas nominatif marque le sujet des verbes transitifs et intransitifs (l’agen
 - *Je* dors.
 - *Je* lis un livre.
 
+*** Oblique
+Le cas oblique sert à citer l’élément décliné, mettant le terme décliné à l’oblique comme entre guillemets. L’oblique peut également se marquer après le verbe d’une phrase ou proposition afin de marquer la citation, tel que la particule « to » en japonais ou « zhes » en tibétain. Dans le dernier cas, le verbe ne sera pas décliné, mais on lui accolera la particule « ŗeß ».
+- Elle m’a dit *« je viens demain »*.
+- Il m’a dit *qu’il l’a vu hier*.
+- Ce n’était pas un *« accident »*, comme il le dit.
+
 ** Relation
 *** Causal
 Le cas causal permet de marquer la raison de l’action exprimée par le verbe principal de la phrase ou de la proposition (similaire à la particule grammaticale « kara » en japonais). Exemples :
 - /hjalpi’váruby/ : du fait de la langue Hjalpi’
 - /pánámóbý/ : du fait du père
+
+*** Distributif
+Le cas distributif indique une distribution égale entre les éléments déterminés. En français, il s’agit l’équivalent du « par » comme dans « il n’y a *par commune* qu’une seule mairie ».
+- /šereòm/ : par livre
+- /háðenmóíl/ : par individu
 
 ** Sémantique
 ** État
