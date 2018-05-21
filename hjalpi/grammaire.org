@@ -400,7 +400,8 @@ Afin de décrire un déplacement depuis un point dans un lieu ouvert, le cas abl
 
 *** Délatif
 Le cas délatif exprime un déplacement ou mouvement depuis la surface d’un lieu ou d’un objet.
-- /
+- /ßémén/ : depuis le toit de la maison
+- /ßeraòmm/ : depuis la couverture du livre / depuis la surface d’un livre ouvert
 
 ** Déplacement vers un point
 *** Allatif
