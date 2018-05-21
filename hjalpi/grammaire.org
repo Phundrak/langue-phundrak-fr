@@ -258,131 +258,195 @@ Notez également que la ou les voyelles présentée dans le tableau s’accorde 
 
 Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans [[*Genres][Genres]], le super-singulier (tel que décrit dans [[*Nombre][Nombre]]) est représenté par « s » et le pluriel par « p ».
 
-| / | <>                   | >       | >        | >       | >       | >      | >       | >       | >       | >       | >       |
-|   |                      | 1s      | 1p       | 2s      | 2p      | 3s     | 3p      | 4s      | 4p      | 5s      | 5p      |
-|---+----------------------+---------+----------+---------+---------+--------+---------+---------+---------+---------+---------|
-|   | [[*Abessif][abessif]]              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-  | e(dl)-  | e(ň)-   | e(t)-   | e(st)-  | e(ßt)-  |
-|   | [[*Ablatif][ablatif]]              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-  | ĺ(ž)-   | li(ß)-  | li(ź)-  | li(ß)-  | li(ź)-  |
-|   | [[*Absolutif][absolutif]]            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a | -(ts)a  | -(t)a   | -(š)a   | -(p)a   | -(v)a   |
-|   | [[*Accusatif][accusatif]]            | -vo     | -vwo     | -vu     | -vwu    | -vo    | -vo     | -(e)vo  | -(e)vo  | -(e)vo  | -(e)vo  |
-|   | [[*Accusatif temporel][accusatif temporel]]   | -źu     | -źu      | -źu     | -źu     | -źoy   | -źou    | -(a)źu  | -(e)źu  | -(u)źu  | -(ai)źu |
-|   | [[*Adessif][adessif]]              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)- | ix(e)-  | iź(a)-  | iź(ei)- | iź(a)-  | iź(ei)- |
-|   | adverbial            |         |          |         |         |        |         |         |         |         |         |
-|   | agentif              |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Allatif][allatif]]              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-   | -li-    | -li(s)- | -li(ź)- | -li(z)- | -li(š)- |
-|   | antessif             |         |          |         |         |        |         |         |         |         |         |
-|   | apudessif            |         |          |         |         |        |         |         |         |         |         |
-|   | aversif              |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Causal][causal]]               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y | -(b)y   | -(o)by  | -(o)by  | -(o)by  | -(o)by  |
-|   | comitatif            |         |          |         |         |        |         |         |         |         |         |
-|   | comparatif           |         |          |         |         |        |         |         |         |         |         |
-|   | datif                |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Distributif][distributif]]          | xe(l)-  | xe(l)-   | xe(l)-  | xe(l)-  | ŗe(j)- | ŗe(j)-  | he(l)-  | he(l)-  | he(l)-  | he(l)-  |
-|   | distributif-temporel |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Délatif][délatif]]              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)- | ß(a)-   | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   |
-|   | elatif               |         |          |         |         |        |         |         |         |         |         |
-|   | equatif              |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Ergatif][ergatif]]              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo | -(u)jo  | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  |
-|   | ergatif-génitif      |         |          |         |         |        |         |         |         |         |         |
-|   | essif                |         |          |         |         |        |         |         |         |         |         |
-|   | essif-formel         |         |          |         |         |        |         |         |         |         |         |
-|   | essif-modal          |         |          |         |         |        |         |         |         |         |         |
-|   | exessif              |         |          |         |         |        |         |         |         |         |         |
-|   | génitif              |         |          |         |         |        |         |         |         |         |         |
-|   | identique            |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Illatif][illatif]]              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-   | -(p)òn- | -(s)òn- | -(s)en- | -(s)en- | -(s)an- |
-|   | inessif              |         |          |         |         |        |         |         |         |         |         |
-|   | initiatif            |         |          |         |         |        |         |         |         |         |         |
-|   | instructif           |         |          |         |         |        |         |         |         |         |         |
-|   | instrumental         |         |          |         |         |        |         |         |         |         |         |
-|   | intratif             |         |          |         |         |        |         |         |         |         |         |
-|   | latif                |         |          |         |         |        |         |         |         |         |         |
-|   | limitatif            |         |          |         |         |        |         |         |         |         |         |
-|   | locatif              |         |          |         |         |        |         |         |         |         |         |
-|   | nominal              |         |          |         |         |        |         |         |         |         |         |
-|   | [[*Nominatif][nominatif]]            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-  | p(a)-   | pa(n)-  | pa(ń)-  | pń-     | pń-     |
-|   | [[*Oblique][oblique]]              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß | -(x)eß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  |
-|   | orientatif           |         |          |         |         |        |         |         |         |         |         |
-|   | partitif             |         |          |         |         |        |         |         |         |         |         |
-|   | pegatif              |         |          |         |         |        |         |         |         |         |         |
-|   | perlatif             |         |          |         |         |        |         |         |         |         |         |
-|   | pertingent           |         |          |         |         |        |         |         |         |         |         |
-|   | postessif            |         |          |         |         |        |         |         |         |         |         |
-|   | privatif             |         |          |         |         |        |         |         |         |         |         |
-|   | prolatif             |         |          |         |         |        |         |         |         |         |         |
-|   | revertif             |         |          |         |         |        |         |         |         |         |         |
-|   | semplatif            |         |          |         |         |        |         |         |         |         |         |
-|   | sociatif             |         |          |         |         |        |         |         |         |         |         |
-|   | subessif             |         |          |         |         |        |         |         |         |         |         |
-|   | sublatif             |         |          |         |         |        |         |         |         |         |         |
-|   | superessif           |         |          |         |         |        |         |         |         |         |         |
-|   | temporel             |         |          |         |         |        |         |         |         |         |         |
-|   | terminatif           |         |          |         |         |        |         |         |         |         |         |
-|   | translatif           |         |          |         |         |        |         |         |         |         |         |
-|   | vocatif              |         |          |         |         |        |         |         |         |         |         |
+| / | <>                   | >       | >        | >       | >       | >       | >       |
+|   |                      | 1s      | 1p       | 2s      | 2p      | 3s      | 3p      |
+|---+----------------------+---------+----------+---------+---------+---------+---------|
+|   | [[*Abessif][abessif]]              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-   | e(dl)-  |
+|   | [[*Ablatif][ablatif]]              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-   | ĺ(ž)-   |
+|   | [[*Absolutif][absolutif]]            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a  | -(ts)a  |
+|   | [[*Accusatif][accusatif]]            | -vo     | -vwo     | -vu     | -vwu    | -vo     | -vo     |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -źu     | -źu      | -źu     | -źu     | -źoy    | -źou    |
+|   | [[*Adessif][adessif]]              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)-  | ix(e)-  |
+|   | adverbial            |         |          |         |         |         |         |
+|   | agentif              |         |          |         |         |         |         |
+|   | [[*Allatif][allatif]]              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
+|   | antessif             |         |          |         |         |         |         |
+|   | apudessif            |         |          |         |         |         |         |
+|   | aversif              |         |          |         |         |         |         |
+|   | [[*Causal][causal]]               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y  | -(b)y   |
+|   | comitatif            |         |          |         |         |         |         |
+|   | comparatif           |         |          |         |         |         |         |
+|   | datif                |         |          |         |         |         |         |
+|   | [[*Distributif][distributif]]          | xe(l)-  | xe(l)-   | xe(l)-  | xe(l)-  | ŗe(j)-  | ŗe(j)-  |
+|   | distributif-temporel |         |          |         |         |         |         |
+|   | [[*Délatif][délatif]]              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
+|   | [[*Élatif][élatif]]               | -(a)ły  | -(e)ły   | -(a)ły  | -(a)łu  | -(e)ły  | -(e)ły  |
+|   | équatif              |         |          |         |         |         |         |
+|   | [[*Ergatif][ergatif]]              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo  | -(u)jo  |
+|   | ergatif-génitif      |         |          |         |         |         |         |
+|   | [[*Essif][essif]]                | -(þ)yd- | -(þ)yd-  | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- |
+|   | [[*Essif-formel][essif-formel]]         | -(ò)ţ   | -(ò)d    | -(o)d   | -(o)ḑ   | -(ò)d   | -(ò)ň   |
+|   | [[*Essif-modal][essif-modal]]          | -(’)uix | -(’)uix  | -’yiŗ   | -(’)yiŗ | -(’)uŗ  | -(’)uiŗ |
+|   | excessif             |         |          |         |         |         |         |
+|   | génitif              |         |          |         |         |         |         |
+|   | identique            |         |          |         |         |         |         |
+|   | [[*Illatif][illatif]]              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
+|   | inessif              |         |          |         |         |         |         |
+|   | initiatif            |         |          |         |         |         |         |
+|   | instructif           |         |          |         |         |         |         |
+|   | instrumental         |         |          |         |         |         |         |
+|   | intratif             |         |          |         |         |         |         |
+|   | latif                |         |          |         |         |         |         |
+|   | limitatif            |         |          |         |         |         |         |
+|   | locatif              |         |          |         |         |         |         |
+|   | nominal              |         |          |         |         |         |         |
+|   | [[*Nominatif][nominatif]]            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
+|   | [[*Oblique][oblique]]              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß  | -(x)eß  |
+|   | orientatif           |         |          |         |         |         |         |
+|   | partitif             |         |          |         |         |         |         |
+|   | pégatif              |         |          |         |         |         |         |
+|   | perlatif             |         |          |         |         |         |         |
+|   | pertingent           |         |          |         |         |         |         |
+|   | postessif            |         |          |         |         |         |         |
+|   | privatif             |         |          |         |         |         |         |
+|   | prolatif             |         |          |         |         |         |         |
+|   | révertif             |         |          |         |         |         |         |
+|   | semplatif            |         |          |         |         |         |         |
+|   | sociatif             |         |          |         |         |         |         |
+|   | subessif             |         |          |         |         |         |         |
+|   | sublatif             |         |          |         |         |         |         |
+|   | superessif           |         |          |         |         |         |         |
+|   | temporel             |         |          |         |         |         |         |
+|   | terminatif           |         |          |         |         |         |         |
+|   | translatif           |         |          |         |         |         |         |
+|   | vocatif              |         |          |         |         |         |         |
 
-| / | <>                   | >        | >        | >       | >       | >        | >       | >       | >       |
-|   |                      | 6s       | 6p       | 7s      | 7p      | 8s       | 8p      | 9s      | 9b      |
-|---+----------------------+----------+----------+---------+---------+----------+---------+---------+---------|
-|   | [[*Abessif][abessif]]              | e(nt)-   | e(ňt)-   | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-  | e(ňt)-  |
-|   | [[*Ablatif][ablatif]]              | li(s)-   | li(z)-   | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-   | ĺ(v)-   |
-|   | [[*Absolutif][absolutif]]            | -(st)a   | -(ž)a    | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a   | -(ž)a   |
-|   | [[*Accusatif][accusatif]]            | -(a)vo   | -(a)vo   | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy     | -vy     |
-|   | [[*Accusatif temporel][accusatif temporel]]   | -(i)źu   | -(u)źu   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu  | -(o)źu  |
-|   | [[*Adessif][adessif]]              | iź(a)-   | iź(ei)-  | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-  | iŗ(e)-  |
-|   | adverbial            |          |          |         |         |          |         |         |         |
-|   | agentif              |          |          |         |         |          |         |         |         |
-|   | [[*Allatif][allatif]]              | -li(x)-  | -li(x)-  | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ- | -(l)ið- |
-|   | antessif             |          |          |         |         |          |         |         |         |
-|   | apudessif            |          |          |         |         |          |         |         |         |
-|   | aversif              |          |          |         |         |          |         |         |         |
-|   | [[*Causal][causal]]               | -(o)bu   | -(o)bu   | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy     | -vy     |
-|   | comitatif            |          |          |         |         |          |         |         |         |
-|   | comparatif           |          |          |         |         |          |         |         |         |
-|   | datif                |          |          |         |         |          |         |         |         |
-|   | [[*Distributif][distributif]]          | ha(l)-   | ha(l)-   | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-  | še(l)-  |
-|   | distributif-temporel |          |          |         |         |          |         |         |         |
-|   | [[*Délatif][délatif]]              | ž(a)-    | ž(a)-    | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-  | ße(l)-  |
-|   | elatif               |          |          |         |         |          |         |         |         |
-|   | equatif              |          |          |         |         |          |         |         |         |
-|   | [[*Ergatif][ergatif]]              | -(mj)o   | -(lj)o   | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo  | -(u)jo  |
-|   | ergatif-génitif      |          |          |         |         |          |         |         |         |
-|   | essif                |          |          |         |         |          |         |         |         |
-|   | essif-formel         |          |          |         |         |          |         |         |         |
-|   | essif-modal          |          |          |         |         |          |         |         |         |
-|   | exessif              |          |          |         |         |          |         |         |         |
-|   | génitif              |          |          |         |         |          |         |         |         |
-|   | identique            |          |          |         |         |          |         |         |         |
-|   | [[*Illatif][illatif]]              | -(ps)òn- | -(ps)en- | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn- | -(ŕ)en- |
-|   | inessif              |          |          |         |         |          |         |         |         |
-|   | initiatif            |          |          |         |         |          |         |         |         |
-|   | instructif           |          |          |         |         |          |         |         |         |
-|   | instrumental         |          |          |         |         |          |         |         |         |
-|   | intratif             |          |          |         |         |          |         |         |         |
-|   | latif                |          |          |         |         |          |         |         |         |
-|   | limitatif            |          |          |         |         |          |         |         |         |
-|   | locatif              |          |          |         |         |          |         |         |         |
-|   | nominal              |          |          |         |         |          |         |         |         |
-|   | [[*Nominatif][nominatif]]            | pa(m)-   | pa-      | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-     | pa-     |
-|   | [[*Oblique][oblique]]              | -(ŗ)ef   | -(ŗ)òß   | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß | -(x)oiß |
-|   | orientatif           |          |          |         |         |          |         |         |         |
-|   | partitif             |          |          |         |         |          |         |         |         |
-|   | pegatif              |          |          |         |         |          |         |         |         |
-|   | perlatif             |          |          |         |         |          |         |         |         |
-|   | pertingent           |          |          |         |         |          |         |         |         |
-|   | postessif            |          |          |         |         |          |         |         |         |
-|   | privatif             |          |          |         |         |          |         |         |         |
-|   | prolatif             |          |          |         |         |          |         |         |         |
-|   | revertif             |          |          |         |         |          |         |         |         |
-|   | semplatif            |          |          |         |         |          |         |         |         |
-|   | sociatif             |          |          |         |         |          |         |         |         |
-|   | subessif             |          |          |         |         |          |         |         |         |
-|   | sublatif             |          |          |         |         |          |         |         |         |
-|   | superessif           |          |          |         |         |          |         |         |         |
-|   | temporel             |          |          |         |         |          |         |         |         |
-|   | terminatif           |          |          |         |         |          |         |         |         |
-|   | translatif           |          |          |         |         |          |         |         |         |
-|   | vocatif              |          |          |         |         |          |         |         |         |
+| / | <>                   | >       | >       | >       | >       | >        | >        |
+|   |                      | 4s      | 4p      | 5s      | 5p      | 6s       | 6p       |
+|---+----------------------+---------+---------+---------+---------+----------+----------|
+|   | [[*Abessif][abessif]]              | e(ň)-   | e(t)-   | e(st)-  | e(ßt)-  | e(nt)-   | e(ňt)-   |
+|   | [[*Ablatif][ablatif]]              | li(ß)-  | li(ź)-  | li(ß)-  | li(ź)-  | li(s)-   | li(z)-   |
+|   | [[*Absolutif][absolutif]]            | -(t)a   | -(š)a   | -(p)a   | -(v)a   | -(st)a   | -(ž)a    |
+|   | [[*Accusatif][accusatif]]            | -(e)vo  | -(e)vo  | -(e)vo  | -(e)vo  | -(a)vo   | -(a)vo   |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -(a)źu  | -(e)źu  | -(u)źu  | -(ai)źu | -(i)źu   | -(u)źu   |
+|   | [[*Adessif][adessif]]              | iź(a)-  | iź(ei)- | iź(a)-  | iź(ei)- | iź(a)-   | iź(ei)-  |
+|   | adverbial            |         |         |         |         |          |          |
+|   | agentif              |         |         |         |         |          |          |
+|   | [[*Allatif][allatif]]              | -li(s)- | -li(ź)- | -li(z)- | -li(š)- | -li(x)-  | -li(x)-  |
+|   | antessif             |         |         |         |         |          |          |
+|   | apudessif            |         |         |         |         |          |          |
+|   | aversif              |         |         |         |         |          |          |
+|   | [[*Causal][causal]]               | -(o)by  | -(o)by  | -(o)by  | -(o)by  | -(o)bu   | -(o)bu   |
+|   | comitatif            |         |         |         |         |          |          |
+|   | comparatif           |         |         |         |         |          |          |
+|   | datif                |         |         |         |         |          |          |
+|   | [[*Distributif][distributif]]          | he(l)-  | he(l)-  | he(l)-  | he(l)-  | ha(l)-   | ha(l)-   |
+|   | distributif-temporel |         |         |         |         |          |          |
+|   | [[*Délatif][délatif]]              | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   | ž(a)-    | ž(a)-    |
+|   | [[*Élatif][élatif]]               | -(ł)y   | -(ł)y   | -(ł)y   | -(ł)yi  | -(ł)u    | -(ł)yi   |
+|   | équatif              |         |         |         |         |          |          |
+|   | [[*Ergatif][ergatif]]              | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  | -(mj)o   | -(lj)o   |
+|   | ergatif-génitif      |         |         |         |         |          |          |
+|   | [[*Essif][essif]]                | -(þ)yḑ- | -(þ)yḑ- | -(ð)yţ- | -(ð)yţ- | -(þ)ud-  | -(þ)ud-  |
+|   | [[*Essif-formel][essif-formel]]         | -(ţ)òd  | -(ţ)ed  | -(ţ)òd  | -òd     | -(ò)d    | ò(d)-    |
+|   | [[*Essif-modal][essif-modal]]          | -(’)uŗ  | -(’)uŗ  | -’u     | -(’)yŗ  | -(’)yiŗ  | -(’)yŗ   |
+|   | excessif             |         |         |         |         |          |          |
+|   | génitif              |         |         |         |         |          |          |
+|   | identique            |         |         |         |         |          |          |
+|   | [[*Illatif][illatif]]              | -(s)òn- | -(s)en- | -(s)en- | -(s)an- | -(ps)òn- | -(ps)en- |
+|   | inessif              |         |         |         |         |          |          |
+|   | initiatif            |         |         |         |         |          |          |
+|   | instructif           |         |         |         |         |          |          |
+|   | instrumental         |         |         |         |         |          |          |
+|   | intratif             |         |         |         |         |          |          |
+|   | latif                |         |         |         |         |          |          |
+|   | limitatif            |         |         |         |         |          |          |
+|   | locatif              |         |         |         |         |          |          |
+|   | nominal              |         |         |         |         |          |          |
+|   | [[*Nominatif][nominatif]]            | pa(n)-  | pa(ń)-  | pń-     | pń-     | pa(m)-   | pa-      |
+|   | [[*Oblique][oblique]]              | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   |
+|   | orientatif           |         |         |         |         |          |          |
+|   | partitif             |         |         |         |         |          |          |
+|   | pégatif              |         |         |         |         |          |          |
+|   | perlatif             |         |         |         |         |          |          |
+|   | pertingent           |         |         |         |         |          |          |
+|   | postessif            |         |         |         |         |          |          |
+|   | privatif             |         |         |         |         |          |          |
+|   | prolatif             |         |         |         |         |          |          |
+|   | révertif             |         |         |         |         |          |          |
+|   | semplatif            |         |         |         |         |          |          |
+|   | sociatif             |         |         |         |         |          |          |
+|   | subessif             |         |         |         |         |          |          |
+|   | sublatif             |         |         |         |         |          |          |
+|   | superessif           |         |         |         |         |          |          |
+|   | temporel             |         |         |         |         |          |          |
+|   | terminatif           |         |         |         |         |          |          |
+|   | translatif           |         |         |         |         |          |          |
+|   | vocatif              |         |         |         |         |          |          |
+
+
+| / | <>                   | >       | >       | >        | >       | >         | >         |
+|   |                      | 7s      | 7p      | 8s       | 8p      | 9s        | 9p        |
+|---+----------------------+---------+---------+----------+---------+-----------+-----------|
+|   | [[*Abessif][abessif]]              | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-    | e(ňt)-    |
+|   | [[*Ablatif][ablatif]]              | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-     | ĺ(v)-     |
+|   | [[*Absolutif][absolutif]]            | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a     | -(ž)a     |
+|   | [[*Accusatif][accusatif]]            | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy       | -vy       |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu    | -(o)źu    |
+|   | [[*Adessif][adessif]]              | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-    | iŗ(e)-    |
+|   | adverbial            |         |         |          |         |           |           |
+|   | agentif              |         |         |          |         |           |           |
+|   | [[*Allatif][allatif]]              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
+|   | antessif             |         |         |          |         |           |           |
+|   | apudessif            |         |         |          |         |           |           |
+|   | aversif              |         |         |          |         |           |           |
+|   | [[*Causal][causal]]               | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy       | -vy       |
+|   | comitatif            |         |         |          |         |           |           |
+|   | comparatif           |         |         |          |         |           |           |
+|   | datif                |         |         |          |         |           |           |
+|   | [[*Distributif][distributif]]          | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-    | še(l)-    |
+|   | distributif-temporel |         |         |          |         |           |           |
+|   | [[*Délatif][délatif]]              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
+|   | [[*Élatif][élatif]]               | -ły     | -(a)ły  | -(ł)ay   | -(ł)ey  | -(ł)ay    | -łay      |
+|   | équatif              |         |         |          |         |           |           |
+|   | [[*Ergatif][ergatif]]              | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo    | -(u)jo    |
+|   | ergatif-génitif      |         |         |          |         |           |           |
+|   | [[*Essif][essif]]                | -þy(d)- | -þy(d)- | -þy(d)-  | -þy(d)- | -(oi)þyd- | -(oi)þyd- |
+|   | [[*Essif-formel][essif-formel]]         | -òd     | -(ò)ns  | -òd      | -òts    | -(ò)ß     | -(ò)ßt    |
+|   | [[*Essif-modal][essif-modal]]          | -(’)uŗ  | -(’)u   | -(’)u    | -(’)ust | -(’)uŗ    | -(’)uŗ    |
+|   | excessif             |         |         |          |         |           |           |
+|   | génitif              |         |         |          |         |           |           |
+|   | identique            |         |         |          |         |           |           |
+|   | [[*Illatif][illatif]]              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
+|   | inessif              |         |         |          |         |           |           |
+|   | initiatif            |         |         |          |         |           |           |
+|   | instructif           |         |         |          |         |           |           |
+|   | instrumental         |         |         |          |         |           |           |
+|   | intratif             |         |         |          |         |           |           |
+|   | latif                |         |         |          |         |           |           |
+|   | limitatif            |         |         |          |         |           |           |
+|   | locatif              |         |         |          |         |           |           |
+|   | nominal              |         |         |          |         |           |           |
+|   | [[*Nominatif][nominatif]]            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
+|   | [[*Oblique][oblique]]              | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß   | -(x)oiß   |
+|   | orientatif           |         |         |          |         |           |           |
+|   | partitif             |         |         |          |         |           |           |
+|   | pégatif              |         |         |          |         |           |           |
+|   | perlatif             |         |         |          |         |           |           |
+|   | pertingent           |         |         |          |         |           |           |
+|   | postessif            |         |         |          |         |           |           |
+|   | privatif             |         |         |          |         |           |           |
+|   | prolatif             |         |         |          |         |           |           |
+|   | révertif             |         |         |          |         |           |           |
+|   | semplatif            |         |         |          |         |           |           |
+|   | sociatif             |         |         |          |         |           |           |
+|   | subessif             |         |         |          |         |           |           |
+|   | sublatif             |         |         |          |         |           |           |
+|   | superessif           |         |         |          |         |           |           |
+|   | temporel             |         |         |          |         |           |           |
+|   | terminatif           |         |         |          |         |           |           |
+|   | translatif           |         |         |          |         |           |           |
+|   | vocatif              |         |         |          |         |           |           |
 src_latex{\newpage}
 Ci-dessous, chaque cas grammatical sera expliqué ainsi que son utilisation dans le Hjalpi’.
 
@@ -403,6 +467,12 @@ Le cas délatif exprime un déplacement ou mouvement depuis la surface d’un li
 - /ßémén/ : depuis le toit de la maison
 - /ßeraòmm/ : depuis la couverture du livre / depuis la surface d’un livre ouvert
 
+*** Élatif
+Le cas élatif exprime un mouvement ou la provenance de quelque chose depuis l’intérieur du lieu ou de l’objet décliné.
+- /ménay/ : depuis l’intérieur de la maison
+- /nareły/ : depuis la rivière (sous-entendu dans l’eau)
+
+Cas intéressant, l’élatif peut également être utilisé pour ce qui est des citations de livres ou tout autre support écrit. Ainsi, on peut utiliser /raòmay/ (« depuis l’intérieur du livre ») pour citer un passage du livre dont il est question.
 ** Déplacement vers un point
 *** Allatif
 L’allatif permet de marquer le lieu ou le point sur lequel se produit un mouvement. /Attention à l’irrégularité du placement de la déclinaison pour le genre inanimé !/ Exemple :
@@ -418,6 +488,9 @@ L’illatif permet de marquer le lieu à l’intérieur du quel s’effectue un 
 *** Accusatif temporel
 Le cas accusatif, dans un contexte de temporalité, sert à désigner une durée de temps. À ne pas confondre avec le cas [[*Accusatif][accusatif]] d’alignement morphosyntaxique.
 - J’ai dormi *durant sept heures*.
+*** Essif-temporel
+L’essif-temporel se comporte et se décline exactement comme l’[[*Essif][essif]], mais sert dans ce cas à déterminer une date ou un temps durant lequel une action se déroule.
+- /ðúdúbém/ : lors du septième jour de la semaine
 
 ** Alignement Morphosyntaxique
 *** Absolutif
@@ -461,6 +534,17 @@ Le cas distributif indique une distribution égale entre les éléments détermi
 Le cas abessif est un cas grammatical exprimant l’absence de l’élément décliné. L’équivalent en français est « sans X ». Exemple dans quelques langues naturelles :
 - « sans parler »
 - « excepté » (sans prendre dans le nombre)
+
+*** Essif
+L’essif exprime un état temporaire ou une qualité temporaire. Il s’agit du cas général pouvant se spécialiser en [[*Essif-formel][essif-formel]] pour déterminer une qualité, ou en [[*Essif-modal][essif-modal]] pour un état. Il peut également être utilisé pour des questions temporelles, voir [[*Essif-temporel][Essif-temporel]].
+- /hjydalpel/ : en qualité de dieux, en tant que dieux (/hjalp/ étant au singulatif)
+- /moiþydén/ : en tant que maison
+
+*** Essif-formel
+L’essif-formel est une spécialisation de l’[[*Essif][essif]] permettant d’exprimer une qualité physique.
+
+*** Essif-modal
+L’essif-formel est une spécialisation de l’[[*Essif][essif]] permettant d’exprimer l’état du sujet ou de l’agent (dans les phrases ou propositions nominatives), ou le sujet ou le patient (dans les phrases ou propositions ergatives).
 
 * Adjectifs
 * Adverbes
