@@ -288,7 +288,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | [[*Essif-formel][essif-formel]]         | -(ò)ţ   | -(ò)d    | -(o)d   | -(o)ḑ   | -(ò)d   | -(ò)ň   |
 |   | [[*Essif-modal][essif-modal]]          | -(’)uix | -(’)uix  | -’yiŗ   | -(’)yiŗ | -(’)uŗ  | -(’)uiŗ |
 |   | excessif             |         |          |         |         |         |         |
-|   | génitif              |         |          |         |         |         |         |
+|   | [[*Génitif][génitif]]              | ţ(y)-   | ţ(u)-    | ţ(y)-   | ţ(y)-   | ţ(y)-   | ţ(yi)-  |
 |   | identique            |         |          |         |         |         |         |
 |   | [[*Illatif][illatif]]              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
 |   | inessif              |         |          |         |         |         |         |
@@ -351,7 +351,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | [[*Essif-formel][essif-formel]]         | -(ţ)òd  | -(ţ)ed  | -(ţ)òd  | -òd     | -(ò)d    | ò(d)-    |
 |   | [[*Essif-modal][essif-modal]]          | -(’)uŗ  | -(’)uŗ  | -’u     | -(’)yŗ  | -(’)yiŗ  | -(’)yŗ   |
 |   | excessif             |         |         |         |         |          |          |
-|   | génitif              |         |         |         |         |          |          |
+|   | [[*Génitif][génitif]]              | ţy-     | ţy-     | ţy(i)-  | ţy-     | ţ(eu)-   | ţo(y)-   |
 |   | identique            |         |         |         |         |          |          |
 |   | [[*Illatif][illatif]]              | -(s)òn- | -(s)en- | -(s)en- | -(s)an- | -(ps)òn- | -(ps)en- |
 |   | inessif              |         |         |         |         |          |          |
@@ -415,7 +415,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | [[*Essif-formel][essif-formel]]         | -òd     | -(ò)ns  | -òd      | -òts    | -(ò)ß     | -(ò)ßt    |
 |   | [[*Essif-modal][essif-modal]]          | -(’)uŗ  | -(’)u   | -(’)u    | -(’)ust | -(’)uŗ    | -(’)uŗ    |
 |   | excessif             |         |         |          |         |           |           |
-|   | génitif              |         |         |          |         |           |           |
+|   | [[*Génitif][génitif]]              | ţy-     | ţ(u)-   | ţ(u)-    | ţu-     | ţ(y)-     | ţ(u)-     |
 |   | identique            |         |         |          |         |           |           |
 |   | [[*Illatif][illatif]]              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
 |   | inessif              |         |         |          |         |           |           |
@@ -527,6 +527,11 @@ Le cas causal permet de marquer la raison de l’action exprimée par le verbe p
 Le cas distributif indique une distribution égale entre les éléments déterminés. En français, il s’agit l’équivalent du « par » comme dans « il n’y a *par commune* qu’une seule mairie ».
 - /šereòm/ : par livre
 - /háðenmóíl/ : par individu
+
+*** Génitif
+Le génitif est utilisé afin de marquer un complément de nom ou une appartenance, similairement à la particule « no » japonaise ou au « ’s » anglais. Le complément de nom porte la déclinaison et se situe avant le nom.
+- /ţýmén raòm/ : le livre de la maison
+- /ţynarat hjalp/ : le dieu des deux rivières
 
 ** Sémantique
 ** État
