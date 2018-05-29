@@ -1,9 +1,5 @@
 #+TITLE: Ressources grammaticales du Zöhæň
-<<<<<<< HEAD
 #+INCLUDE: "~/org/headers.org"
-=======
-#+INCLUDE: "../headers.org"
->>>>>>> afd7f45963c127702d78efa578915db31a43944e
 src_latex{\newpage}
 
 * Grammaire

@@ -11,8 +11,5 @@
 * Draconian
 
 🔵 [[file:draconian/auto-generated-draft.html][Łijökken]] (en cours)
-<<<<<<< HEAD
 
-=======
->>>>>>> afd7f45963c127702d78efa578915db31a43944e
 🔵 [[file:draconian-2/index.html][Zöhæň]] (en cours)
