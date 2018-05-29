@@ -1,5 +1,7 @@
-#+TITLE: Grammaire du Hjalpi’
-#+INCLUDE: "../headers.org"
+#+TITLE: Grammaire du Zöhæň
+#+INCLUDE:"../headers.org"
+
+
 src_latex{\newpage}
 
 * Introduction
@@ -21,17 +23,17 @@ Les dragons et autres reptiles n’ont pas de voyelles, d’où l’absence tota
 
 ** Consonnes
 
-| /                   |     |      |       |       |    |      |     |     |    |
-|                     | de  | al   | pa    | re    | ap | pa   | ve  | uv  | gl |
-|---------------------+-----+------+-------+-------+----+------+-----+-----+----|
-|---------------------+-----+------+-------+-------+----+------+-----+-----+----|
-| stop                |     | t    |       | d`    |    |      | k g | q G |    |
-| nasal               |     | n    |       |       |    | J    | N   |     |    |
-| affricate           |     |      | tS dZ |       |    |      |     |     |    |
-| fricative           | T D | z    | S Z   | s` z` | s\ | ç j\ |     | X R | h  |
-| approximant         |     | r\   |       |       |    | j    |     |     |    |
-| lateral fricative   |     | K K\ |       |       |    |      |     |     |    |
-| lateral approximant |     | l    |       |       |    |      |     |     |    |
+| /                   |        |          |              |           |               |         |       |        |         |
+|                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+| stop                |        | t        |              | d`        |               |         | k g   | q G    |         |
+| nasal               |        | n        |              |           |               | J       | N     |        |         |
+| affricate           |        |          | tS dZ        |           |               |         |       |        |         |
+| fricative           | T D    | z        | S Z          | s` z`     | s\            | ç j\    |       | X R    | h       |
+| approximant         |        | r\       |              |           |               | j       |       |        |         |
+| lateral fricative   |        | K K\     |              |           |               |         |       |        |         |
+| lateral approximant |        | l        |              |           |               |         |       |        |         |
 
 ** Accentuation
 Deuxième syllabe d’un mot

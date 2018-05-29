@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
-<!-- 2018-05-21 lun. 16:40 -->
+<!-- 2018-05-30 mer. 00:53 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Grammaire du Hjalpi’</title>
@@ -68,6 +68,7 @@
   pre.src-fortran:before { content: 'Fortran'; }
   pre.src-gnuplot:before { content: 'gnuplot'; }
   pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
   pre.src-js:before { content: 'Javascript'; }
   pre.src-latex:before { content: 'LaTeX'; }
@@ -179,18 +180,23 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="readtheorg.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
 <script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2017 Free Software Foundation, Inc.
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -239,109 +245,107 @@ for the JavaScript code in this tag.
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org6a680dd">1. Introduction</a></li>
-<li><a href="#org78febc1">2. Phonologie</a>
+<li><a href="#org9347001">1. Introduction</a></li>
+<li><a href="#orgbb7873e">2. Phonologie</a>
 <ul>
-<li><a href="#orge23f2f7">2.1. Voyelles</a>
+<li><a href="#org449122a">2.1. Voyelles</a>
 <ul>
-<li><a href="#orgbe484fe">2.1.1. Voyelles courtes</a></li>
-<li><a href="#org5223706">2.1.2. Voyelles longues</a></li>
-<li><a href="#orgf534269">2.1.3. Consonnes syllabiques</a></li>
-<li><a href="#org8bb1c87">2.1.4. Diphtongues</a></li>
-<li><a href="#orgf0f9bfb">2.1.5. Allophones</a></li>
+<li><a href="#org8087cd4">2.1.1. Voyelles courtes</a></li>
+<li><a href="#org1790f9c">2.1.2. Voyelles longues</a></li>
+<li><a href="#orgad56d9b">2.1.3. Consonnes syllabiques</a></li>
+<li><a href="#org98e8939">2.1.4. Diphtongues</a></li>
+<li><a href="#org71267cd">2.1.5. Allophones</a></li>
 </ul>
 </li>
-<li><a href="#orgd5a5298">2.2. Consonnes</a>
+<li><a href="#org50b71b7">2.2. Consonnes</a>
 <ul>
-<li><a href="#org3fa13cf">2.2.1. Allophones</a></li>
+<li><a href="#orgea988ba">2.2.1. Allophones</a></li>
 </ul>
 </li>
-<li><a href="#org73fb7b7">2.3. Accentuation</a></li>
-<li><a href="#orgb560401">2.4. Romanisation et translittération</a></li>
+<li><a href="#org9773c8c">2.3. Accentuation</a></li>
+<li><a href="#orgf0057e3">2.4. Romanisation et translittération</a></li>
 </ul>
 </li>
-<li><a href="#orgba78615">3. Noms</a>
+<li><a href="#org7ed3aa1">3. Noms</a>
 <ul>
-<li><a href="#org156de9e">3.1. Genres</a></li>
-<li><a href="#orgca9c196">3.2. Nombre</a></li>
+<li><a href="#orgc1784ae">3.1. Genres</a></li>
+<li><a href="#orga2ea9d2">3.2. Nombre</a></li>
 </ul>
 </li>
-<li><a href="#org73c86e0">4. Cas grammaticaux</a>
+<li><a href="#orgf7668be">4. Cas grammaticaux</a>
 <ul>
-<li><a href="#org2db9ce7">4.1. Lieu</a>
+<li><a href="#org0ceb22e">4.1. Lieu</a>
 <ul>
-<li><a href="#orgd12c724">4.1.1. Adessif</a></li>
+<li><a href="#org3c2d688">4.1.1. Adessif</a></li>
 </ul>
 </li>
-<li><a href="#orgcb0e1c2">4.2. Déplacement depuis un point</a>
+<li><a href="#org014d507">4.2. Déplacement depuis un point</a>
 <ul>
-<li><a href="#orgd3032b8">4.2.1. Ablatif</a></li>
-<li><a href="#org87809fc">4.2.2. Délatif</a></li>
-<li><a href="#org5825999">4.2.3. Élatif</a></li>
+<li><a href="#orgbd1938a">4.2.1. Ablatif</a></li>
+<li><a href="#orgc1ada66">4.2.2. Délatif</a></li>
+<li><a href="#org9d60e3c">4.2.3. Élatif</a></li>
 </ul>
 </li>
-<li><a href="#org9c26731">4.3. Déplacement vers un point</a>
+<li><a href="#orge2b78f8">4.3. Déplacement vers un point</a>
 <ul>
-<li><a href="#orgb030a81">4.3.1. Allatif</a></li>
-<li><a href="#orge6d9c05">4.3.2. Illatif</a></li>
+<li><a href="#orgaa72f19">4.3.1. Allatif</a></li>
+<li><a href="#orgc6fa1aa">4.3.2. Illatif</a></li>
 </ul>
 </li>
-<li><a href="#org291f978">4.4. Déplacement via un point</a></li>
-<li><a href="#orgc0783c1">4.5. Temporalité</a>
+<li><a href="#orge075bc1">4.4. Déplacement via un point</a></li>
+<li><a href="#org295b559">4.5. Temporalité</a>
 <ul>
-<li><a href="#orgbcec63b">4.5.1. Accusatif temporel</a></li>
-<li><a href="#org664e09f">4.5.2. Essif-temporel</a></li>
+<li><a href="#org1e28673">4.5.1. Accusatif temporel</a></li>
+<li><a href="#org326fe8d">4.5.2. Essif-temporel</a></li>
 </ul>
 </li>
-<li><a href="#orgc4acc8c">4.6. Alignement Morphosyntaxique</a>
+<li><a href="#org2822436">4.6. Alignement Morphosyntaxique</a>
 <ul>
-<li><a href="#org139fe51">4.6.1. Absolutif</a></li>
-<li><a href="#orgab6bced">4.6.2. Accusatif</a></li>
-<li><a href="#org1afbd52">4.6.3. Ergatif</a></li>
-<li><a href="#org2f3cd93">4.6.4. Nominatif</a></li>
-<li><a href="#orgf24a833">4.6.5. Oblique</a></li>
+<li><a href="#orgf1fdd2a">4.6.1. Absolutif</a></li>
+<li><a href="#org04feafe">4.6.2. Accusatif</a></li>
+<li><a href="#orgd373411">4.6.3. Ergatif</a></li>
+<li><a href="#orgf594d5e">4.6.4. Nominatif</a></li>
+<li><a href="#orgc2841f9">4.6.5. Oblique</a></li>
 </ul>
 </li>
-<li><a href="#orgdb63620">4.7. Relation</a>
+<li><a href="#orgbcb0423">4.7. Relation</a>
 <ul>
-<li><a href="#org4fb049f">4.7.1. Causal</a></li>
-<li><a href="#orgb6d3170">4.7.2. Distributif</a></li>
-<li><a href="#orgf6891bf">4.7.3. Génitif</a></li>
+<li><a href="#orgb469b16">4.7.1. Causal</a></li>
+<li><a href="#org7a92d7f">4.7.2. Distributif</a></li>
+<li><a href="#org6833240">4.7.3. Génitif</a></li>
 </ul>
 </li>
-<li><a href="#org0889a70">4.8. Sémantique</a></li>
-<li><a href="#orge4db4aa">4.9. État</a>
+<li><a href="#org8dee595">4.8. Sémantique</a></li>
+<li><a href="#orgc2980ba">4.9. État</a>
 <ul>
-<li><a href="#org3b0316c">4.9.1. Abessif</a></li>
-<li><a href="#org30e545d">4.9.2. Essif</a></li>
-<li><a href="#orgf0601e5">4.9.3. Essif-formel</a></li>
-<li><a href="#org8a7114f">4.9.4. Essif-modal</a></li>
+<li><a href="#org7c12b06">4.9.1. Abessif</a></li>
+<li><a href="#org4be269b">4.9.2. Essif</a></li>
+<li><a href="#org17c0d65">4.9.3. Essif-formel</a></li>
+<li><a href="#orgadd04b4">4.9.4. Essif-modal</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org66b28d8">5. Adjectifs</a></li>
-<li><a href="#orgd4da766">6. Adverbes</a></li>
-<li><a href="#org4befe5f">7. Verbes</a></li>
-<li><a href="#orgecc9f21">8. Pronoms et déterminants</a></li>
-<li><a href="#orgd07cc82">9. Nombres</a>
+<li><a href="#org8090557">5. Adjectifs</a></li>
+<li><a href="#org5f1f4da">6. Adverbes</a></li>
+<li><a href="#org74195a0">7. Verbes</a></li>
+<li><a href="#orge4f972d">8. Pronoms et déterminants</a></li>
+<li><a href="#orgcb02750">9. Nombres</a>
 <ul>
-<li><a href="#org84e8aad">9.1. Nombres Cardinaux</a></li>
-<li><a href="#org174bca3">9.2. Nombres Ordinaux</a></li>
+<li><a href="#org024f2e9">9.1. Nombres Cardinaux</a></li>
+<li><a href="#org6feb283">9.2. Nombres Ordinaux</a></li>
 </ul>
 </li>
-<li><a href="#orga77f3a8">10. Interjections</a></li>
-<li><a href="#org3641375">11. Interrogation</a></li>
-<li><a href="#orgd013c03">12. Syntaxe</a></li>
+<li><a href="#orgaafd49d">10. Interjections</a></li>
+<li><a href="#orgdee5a23">11. Interrogation</a></li>
+<li><a href="#org2e79204">12. Syntaxe</a></li>
 </ul>
 </div>
 </div>
-<p>
 
-</p>
 
-<div id="outline-container-org6a680dd" class="outline-2">
-<h2 id="org6a680dd"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-org9347001" class="outline-2">
+<h2 id="org9347001"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
@@ -353,14 +357,15 @@ Cette langue sera également utilisée pour créer d’autres langues qui auront
 </div>
 </div>
 
-<div id="outline-container-org78febc1" class="outline-2">
-<h2 id="org78febc1"><span class="section-number-2">2</span> Phonologie</h2>
+<div id="outline-container-orgbb7873e" class="outline-2">
+<h2 id="orgbb7873e"><span class="section-number-2">2</span> Phonologie</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-orge23f2f7" class="outline-3">
-<h3 id="orge23f2f7"><span class="section-number-3">2.1</span> Voyelles</h3>
+</div>
+<div id="outline-container-org449122a" class="outline-3">
+<h3 id="org449122a"><span class="section-number-3">2.1</span> Voyelles</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
-Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans <a href="#org8bb1c87">Diphtongues</a>). Voici la liste des voyelles utilisées dans le Hjalpi’ :
+Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans <a href="#org98e8939">Diphtongues</a>). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 </p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -482,8 +487,8 @@ On peut remarquer que, à l’exception de <i>ǒ</i>, <i>ń</i> et <i>ĺ</i>, to
 </p>
 </div>
 
-<div id="outline-container-orgbe484fe" class="outline-4">
-<h4 id="orgbe484fe"><span class="section-number-4">2.1.1</span> Voyelles courtes</h4>
+<div id="outline-container-org8087cd4" class="outline-4">
+<h4 id="org8087cd4"><span class="section-number-4">2.1.1</span> Voyelles courtes</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <ul class="org-ul">
 <li><code>/A/</code> : á</li>
@@ -536,8 +541,8 @@ Cette voyelle est un équivalent du « ou » Français ouvert, telle que l�
 </div>
 </div>
 
-<div id="outline-container-org5223706" class="outline-4">
-<h4 id="org5223706"><span class="section-number-4">2.1.2</span> Voyelles longues</h4>
+<div id="outline-container-org1790f9c" class="outline-4">
+<h4 id="org1790f9c"><span class="section-number-4">2.1.2</span> Voyelles longues</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <ul class="org-ul">
 <li><code>/a:/</code> : a</li>
@@ -589,8 +594,8 @@ Cette voyelle est la même que le « ou » français, à la différence que 
 </p>
 </div>
 </div>
-<div id="outline-container-orgf534269" class="outline-4">
-<h4 id="orgf534269"><span class="section-number-4">2.1.3</span> Consonnes syllabiques</h4>
+<div id="outline-container-orgad56d9b" class="outline-4">
+<h4 id="orgad56d9b"><span class="section-number-4">2.1.3</span> Consonnes syllabiques</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <ul class="org-ul">
 <li><code>/n=/</code> : ń</li>
@@ -608,18 +613,18 @@ Le « ĺ » est la consonne « l » (la même que le « l » frança
 </div>
 </div>
 
-<div id="outline-container-org8bb1c87" class="outline-4">
-<h4 id="org8bb1c87"><span class="section-number-4">2.1.4</span> Diphtongues</h4>
+<div id="outline-container-org98e8939" class="outline-4">
+<h4 id="org98e8939"><span class="section-number-4">2.1.4</span> Diphtongues</h4>
 </div>
 
-<div id="outline-container-orgf0f9bfb" class="outline-4">
-<h4 id="orgf0f9bfb"><span class="section-number-4">2.1.5</span> Allophones</h4>
+<div id="outline-container-org71267cd" class="outline-4">
+<h4 id="org71267cd"><span class="section-number-4">2.1.5</span> Allophones</h4>
 <div class="outline-text-4" id="text-2-1-5">
 <p>
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
 </p>
 <ul class="org-ul">
-<li>La prononciation standard du « ń », comme mentionné ci-dessus dans  <a href="#orgf534269">Consonnes syllabiques</a>, est <code>/n=/</code>. Cependant, cette voyelle peut également être prononcée <code>/m=/</code> si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en <code>/J=/</code> ou <code>/m'/</code> si le « ń » est adjacent à une des voyelles <i>i</i> ou <i>í</i>, ou bien la consonne <i>j</i>.</li>
+<li>La prononciation standard du « ń », comme mentionné ci-dessus dans <a href="#orgad56d9b">Consonnes syllabiques</a>, est <code>/n=/</code>. Cependant, cette voyelle peut également être prononcée <code>/m=/</code> si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en <code>/J=/</code> ou <code>/m'/</code> si le « ń » est adjacent à une des voyelles <i>i</i> ou <i>í</i>, ou bien la consonne <i>j</i>.</li>
 </ul>
 <p>
 <code>/n=/&gt;[m=]/_p,b,w</code>
@@ -635,8 +640,8 @@ Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, ce
 </div>
 </div>
 
-<div id="outline-container-orgd5a5298" class="outline-3">
-<h3 id="orgd5a5298"><span class="section-number-3">2.2</span> Consonnes</h3>
+<div id="outline-container-org50b71b7" class="outline-3">
+<h3 id="org50b71b7"><span class="section-number-3">2.2</span> Consonnes</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
@@ -1093,8 +1098,8 @@ Abréviations :
 </ul>
 </div>
 
-<div id="outline-container-org3fa13cf" class="outline-4">
-<h4 id="org3fa13cf"><span class="section-number-4">2.2.1</span> Allophones</h4>
+<div id="outline-container-orgea988ba" class="outline-4">
+<h4 id="orgea988ba"><span class="section-number-4">2.2.1</span> Allophones</h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
@@ -1129,8 +1134,8 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
 </div>
 </div>
 
-<div id="outline-container-org73fb7b7" class="outline-3">
-<h3 id="org73fb7b7"><span class="section-number-3">2.3</span> Accentuation</h3>
+<div id="outline-container-org9773c8c" class="outline-3">
+<h3 id="org9773c8c"><span class="section-number-3">2.3</span> Accentuation</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
@@ -1139,8 +1144,8 @@ Pour ce qui est de l’accentuation des phrases, le ton est généralement tomba
 </div>
 </div>
 
-<div id="outline-container-orgb560401" class="outline-3">
-<h3 id="orgb560401"><span class="section-number-3">2.4</span> Romanisation et translittération</h3>
+<div id="outline-container-orgf0057e3" class="outline-3">
+<h3 id="orgf0057e3"><span class="section-number-3">2.4</span> Romanisation et translittération</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
@@ -1151,7 +1156,7 @@ Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différe
 </p>
 
 <p>
-Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans <a href="#orgd5a5298">Consonnes</a> et <a href="#orge23f2f7">Voyelles</a>), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
+Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans <a href="#org50b71b7">Consonnes</a> et <a href="#org449122a">Voyelles</a>), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
 </p>
 
 <p>
@@ -1269,11 +1274,12 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 </div>
 </div>
 
-<div id="outline-container-orgba78615" class="outline-2">
-<h2 id="orgba78615"><span class="section-number-2">3</span> Noms</h2>
+<div id="outline-container-org7ed3aa1" class="outline-2">
+<h2 id="org7ed3aa1"><span class="section-number-2">3</span> Noms</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-org156de9e" class="outline-3">
-<h3 id="org156de9e"><span class="section-number-3">3.1</span> Genres</h3>
+</div>
+<div id="outline-container-orgc1784ae" class="outline-3">
+<h3 id="orgc1784ae"><span class="section-number-3">3.1</span> Genres</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Le Hjalpi’ dispose d’un système de genre composé de neuf éléments :
@@ -1296,8 +1302,8 @@ Le genre est intrinsèque à tout nom, en revanche la majorité des éléments g
 </div>
 </div>
 
-<div id="outline-container-orgca9c196" class="outline-3">
-<h3 id="orgca9c196"><span class="section-number-3">3.2</span> Nombre</h3>
+<div id="outline-container-orga2ea9d2" class="outline-3">
+<h3 id="orga2ea9d2"><span class="section-number-3">3.2</span> Nombre</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 Le Hjalpi’ dispose d’un système de nombre des noms plutôt évolué, avec un total de cinq nombres :
@@ -1373,8 +1379,8 @@ Comme précisé ci-dessus, le singulatif permet de regrouper des éléments semb
 </div>
 </div>
 
-<div id="outline-container-org73c86e0" class="outline-2">
-<h2 id="org73c86e0"><span class="section-number-2">4</span> Cas grammaticaux</h2>
+<div id="outline-container-orgf7668be" class="outline-2">
+<h2 id="orgf7668be"><span class="section-number-2">4</span> Cas grammaticaux</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Le Hjalpi’ est une langue très riche en cas grammaticaux et en déclinaisons. Cela lui permet ainsi d’exprimer une grande précision dans un nombre minimal de mots, et lui donne également une grande liberté quant à l’ordre des mots dans la phrase. En revanche, cela implique également un système complexe de déclinaisons qu'il faut mémoriser.
@@ -1397,7 +1403,7 @@ Notez également que la ou les voyelles présentée dans le tableau s’accorde 
 </p>
 
 <p>
-Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans <a href="#org156de9e">Genres</a>, le super-singulier (tel que décrit dans <a href="#orgca9c196">Nombre</a>) est représenté par « s » et le pluriel par « p ».
+Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans <a href="#orgc1784ae">Genres</a>, le super-singulier (tel que décrit dans <a href="#orga2ea9d2">Nombre</a>) est représenté par « s » et le pluriel par « p ».
 </p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -1443,7 +1449,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </thead>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org3b0316c">abessif</a></td>
+<td class="org-left"><a href="#org7c12b06">abessif</a></td>
 <td class="org-left">e(m)-</td>
 <td class="org-left">e(ň)-</td>
 <td class="org-left">e(n)-</td>
@@ -1453,7 +1459,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgd3032b8">ablatif</a></td>
+<td class="org-left"><a href="#orgbd1938a">ablatif</a></td>
 <td class="org-left">l(i)-</td>
 <td class="org-left">l(e)-</td>
 <td class="org-left">li(s)-</td>
@@ -1463,7 +1469,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org139fe51">absolutif</a></td>
+<td class="org-left"><a href="#orgf1fdd2a">absolutif</a></td>
 <td class="org-left">-(ts)a</td>
 <td class="org-left">-(ts)a</td>
 <td class="org-left">-(tß)a</td>
@@ -1473,7 +1479,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgab6bced">accusatif</a></td>
+<td class="org-left"><a href="#org04feafe">accusatif</a></td>
 <td class="org-left">-vo</td>
 <td class="org-left">-vwo</td>
 <td class="org-left">-vu</td>
@@ -1483,7 +1489,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgbcec63b">accusatif temporel</a></td>
+<td class="org-left"><a href="#org1e28673">accusatif temporel</a></td>
 <td class="org-left">-źu</td>
 <td class="org-left">-źu</td>
 <td class="org-left">-źu</td>
@@ -1493,7 +1499,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgd12c724">adessif</a></td>
+<td class="org-left"><a href="#org3c2d688">adessif</a></td>
 <td class="org-left">ix(a)-</td>
 <td class="org-left">ix(e)-</td>
 <td class="org-left">ix(a)-</td>
@@ -1523,7 +1529,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgb030a81">allatif</a></td>
+<td class="org-left"><a href="#orgaa72f19">allatif</a></td>
 <td class="org-left">-li(ß)-</td>
 <td class="org-left">-li(ts)-</td>
 <td class="org-left">-li(ð)-</td>
@@ -1563,7 +1569,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org4fb049f">causal</a></td>
+<td class="org-left"><a href="#orgb469b16">causal</a></td>
 <td class="org-left">-(o)by</td>
 <td class="org-left">-(o)bu</td>
 <td class="org-left">-(u)by</td>
@@ -1603,7 +1609,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgb6d3170">distributif</a></td>
+<td class="org-left"><a href="#org7a92d7f">distributif</a></td>
 <td class="org-left">xe(l)-</td>
 <td class="org-left">xe(l)-</td>
 <td class="org-left">xe(l)-</td>
@@ -1623,7 +1629,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org87809fc">délatif</a></td>
+<td class="org-left"><a href="#orgc1ada66">délatif</a></td>
 <td class="org-left">ß(a)-</td>
 <td class="org-left">ß(e)-</td>
 <td class="org-left">ß(e)-</td>
@@ -1633,7 +1639,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org5825999">élatif</a></td>
+<td class="org-left"><a href="#org9d60e3c">élatif</a></td>
 <td class="org-left">-(a)ły</td>
 <td class="org-left">-(e)ły</td>
 <td class="org-left">-(a)ły</td>
@@ -1653,7 +1659,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org1afbd52">ergatif</a></td>
+<td class="org-left"><a href="#orgd373411">ergatif</a></td>
 <td class="org-left">-(u)jo</td>
 <td class="org-left">-(y)jo</td>
 <td class="org-left">-(í)jo</td>
@@ -1673,7 +1679,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org30e545d">essif</a></td>
+<td class="org-left"><a href="#org4be269b">essif</a></td>
 <td class="org-left">-(þ)yd-</td>
 <td class="org-left">-(þ)yd-</td>
 <td class="org-left">-(þ)ud-</td>
@@ -1683,7 +1689,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf0601e5">essif-formel</a></td>
+<td class="org-left"><a href="#org17c0d65">essif-formel</a></td>
 <td class="org-left">-(ò)ţ</td>
 <td class="org-left">-(ò)d</td>
 <td class="org-left">-(o)d</td>
@@ -1693,7 +1699,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org8a7114f">essif-modal</a></td>
+<td class="org-left"><a href="#orgadd04b4">essif-modal</a></td>
 <td class="org-left">-(’)uix</td>
 <td class="org-left">-(’)uix</td>
 <td class="org-left">-’yiŗ</td>
@@ -1713,7 +1719,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf6891bf">génitif</a></td>
+<td class="org-left"><a href="#org6833240">génitif</a></td>
 <td class="org-left">ţ(y)-</td>
 <td class="org-left">ţ(u)-</td>
 <td class="org-left">ţ(y)-</td>
@@ -1733,7 +1739,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orge6d9c05">illatif</a></td>
+<td class="org-left"><a href="#orgc6fa1aa">illatif</a></td>
 <td class="org-left">-(p)òn-</td>
 <td class="org-left">-(p)on-</td>
 <td class="org-left">-(f)òn-</td>
@@ -1833,7 +1839,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org2f3cd93">nominatif</a></td>
+<td class="org-left"><a href="#orgf594d5e">nominatif</a></td>
 <td class="org-left">p(a)-</td>
 <td class="org-left">p(e)-</td>
 <td class="org-left">p(a)-</td>
@@ -1843,7 +1849,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf24a833">oblique</a></td>
+<td class="org-left"><a href="#orgc2841f9">oblique</a></td>
 <td class="org-left">-(ŗ)eß</td>
 <td class="org-left">-(ŗ)eßt</td>
 <td class="org-left">-(ŗ)ef</td>
@@ -2077,7 +2083,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </thead>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org3b0316c">abessif</a></td>
+<td class="org-left"><a href="#org7c12b06">abessif</a></td>
 <td class="org-left">e(ň)-</td>
 <td class="org-left">e(t)-</td>
 <td class="org-left">e(st)-</td>
@@ -2087,7 +2093,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgd3032b8">ablatif</a></td>
+<td class="org-left"><a href="#orgbd1938a">ablatif</a></td>
 <td class="org-left">li(ß)-</td>
 <td class="org-left">li(ź)-</td>
 <td class="org-left">li(ß)-</td>
@@ -2097,7 +2103,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org139fe51">absolutif</a></td>
+<td class="org-left"><a href="#orgf1fdd2a">absolutif</a></td>
 <td class="org-left">-(t)a</td>
 <td class="org-left">-(š)a</td>
 <td class="org-left">-(p)a</td>
@@ -2107,7 +2113,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgab6bced">accusatif</a></td>
+<td class="org-left"><a href="#org04feafe">accusatif</a></td>
 <td class="org-left">-(e)vo</td>
 <td class="org-left">-(e)vo</td>
 <td class="org-left">-(e)vo</td>
@@ -2117,7 +2123,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgbcec63b">accusatif temporel</a></td>
+<td class="org-left"><a href="#org1e28673">accusatif temporel</a></td>
 <td class="org-left">-(a)źu</td>
 <td class="org-left">-(e)źu</td>
 <td class="org-left">-(u)źu</td>
@@ -2127,7 +2133,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgd12c724">adessif</a></td>
+<td class="org-left"><a href="#org3c2d688">adessif</a></td>
 <td class="org-left">iź(a)-</td>
 <td class="org-left">iź(ei)-</td>
 <td class="org-left">iź(a)-</td>
@@ -2157,7 +2163,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgb030a81">allatif</a></td>
+<td class="org-left"><a href="#orgaa72f19">allatif</a></td>
 <td class="org-left">-li(s)-</td>
 <td class="org-left">-li(ź)-</td>
 <td class="org-left">-li(z)-</td>
@@ -2197,7 +2203,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org4fb049f">causal</a></td>
+<td class="org-left"><a href="#orgb469b16">causal</a></td>
 <td class="org-left">-(o)by</td>
 <td class="org-left">-(o)by</td>
 <td class="org-left">-(o)by</td>
@@ -2237,7 +2243,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgb6d3170">distributif</a></td>
+<td class="org-left"><a href="#org7a92d7f">distributif</a></td>
 <td class="org-left">he(l)-</td>
 <td class="org-left">he(l)-</td>
 <td class="org-left">he(l)-</td>
@@ -2257,7 +2263,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org87809fc">délatif</a></td>
+<td class="org-left"><a href="#orgc1ada66">délatif</a></td>
 <td class="org-left">š(a)-</td>
 <td class="org-left">š(e)-</td>
 <td class="org-left">ž(a)-</td>
@@ -2267,7 +2273,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org5825999">élatif</a></td>
+<td class="org-left"><a href="#org9d60e3c">élatif</a></td>
 <td class="org-left">-(ł)y</td>
 <td class="org-left">-(ł)y</td>
 <td class="org-left">-(ł)y</td>
@@ -2287,7 +2293,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org1afbd52">ergatif</a></td>
+<td class="org-left"><a href="#orgd373411">ergatif</a></td>
 <td class="org-left">-(ò)jo</td>
 <td class="org-left">-(y)jo</td>
 <td class="org-left">-(lj)o</td>
@@ -2307,7 +2313,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org30e545d">essif</a></td>
+<td class="org-left"><a href="#org4be269b">essif</a></td>
 <td class="org-left">-(þ)yḑ-</td>
 <td class="org-left">-(þ)yḑ-</td>
 <td class="org-left">-(ð)yţ-</td>
@@ -2317,7 +2323,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf0601e5">essif-formel</a></td>
+<td class="org-left"><a href="#org17c0d65">essif-formel</a></td>
 <td class="org-left">-(ţ)òd</td>
 <td class="org-left">-(ţ)ed</td>
 <td class="org-left">-(ţ)òd</td>
@@ -2327,7 +2333,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org8a7114f">essif-modal</a></td>
+<td class="org-left"><a href="#orgadd04b4">essif-modal</a></td>
 <td class="org-left">-(’)uŗ</td>
 <td class="org-left">-(’)uŗ</td>
 <td class="org-left">-’u</td>
@@ -2347,7 +2353,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf6891bf">génitif</a></td>
+<td class="org-left"><a href="#org6833240">génitif</a></td>
 <td class="org-left">ţy-</td>
 <td class="org-left">ţy-</td>
 <td class="org-left">ţy(i)-</td>
@@ -2367,7 +2373,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orge6d9c05">illatif</a></td>
+<td class="org-left"><a href="#orgc6fa1aa">illatif</a></td>
 <td class="org-left">-(s)òn-</td>
 <td class="org-left">-(s)en-</td>
 <td class="org-left">-(s)en-</td>
@@ -2467,7 +2473,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org2f3cd93">nominatif</a></td>
+<td class="org-left"><a href="#orgf594d5e">nominatif</a></td>
 <td class="org-left">pa(n)-</td>
 <td class="org-left">pa(ń)-</td>
 <td class="org-left">pń-</td>
@@ -2477,7 +2483,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf24a833">oblique</a></td>
+<td class="org-left"><a href="#orgc2841f9">oblique</a></td>
 <td class="org-left">-(ŗ)ef</td>
 <td class="org-left">-(ŗ)òß</td>
 <td class="org-left">-(ŗ)ef</td>
@@ -2712,7 +2718,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </thead>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org3b0316c">abessif</a></td>
+<td class="org-left"><a href="#org7c12b06">abessif</a></td>
 <td class="org-left">e-</td>
 <td class="org-left">e(s)-</td>
 <td class="org-left">e-</td>
@@ -2722,7 +2728,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgd3032b8">ablatif</a></td>
+<td class="org-left"><a href="#orgbd1938a">ablatif</a></td>
 <td class="org-left">lń(d)-</td>
 <td class="org-left">lń(d)-</td>
 <td class="org-left">ĺ(z)-</td>
@@ -2732,7 +2738,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org139fe51">absolutif</a></td>
+<td class="org-left"><a href="#orgf1fdd2a">absolutif</a></td>
 <td class="org-left">-(r)a</td>
 <td class="org-left">-(r)a</td>
 <td class="org-left">-(x)a</td>
@@ -2742,7 +2748,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgab6bced">accusatif</a></td>
+<td class="org-left"><a href="#org04feafe">accusatif</a></td>
 <td class="org-left">-(u)vo</td>
 <td class="org-left">-(u)vo</td>
 <td class="org-left">-vu</td>
@@ -2752,7 +2758,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgbcec63b">accusatif temporel</a></td>
+<td class="org-left"><a href="#org1e28673">accusatif temporel</a></td>
 <td class="org-left">-(o)źu</td>
 <td class="org-left">-(o)źu</td>
 <td class="org-left">-(o)źu</td>
@@ -2762,7 +2768,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgd12c724">adessif</a></td>
+<td class="org-left"><a href="#org3c2d688">adessif</a></td>
 <td class="org-left">iź(a)-</td>
 <td class="org-left">iź(ei)-</td>
 <td class="org-left">iŗ(a)-</td>
@@ -2792,7 +2798,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgb030a81">allatif</a></td>
+<td class="org-left"><a href="#orgaa72f19">allatif</a></td>
 <td class="org-left">-li(ŗ)-</td>
 <td class="org-left">-li(ŗ)-</td>
 <td class="org-left">-li(þt)-</td>
@@ -2832,7 +2838,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org4fb049f">causal</a></td>
+<td class="org-left"><a href="#orgb469b16">causal</a></td>
 <td class="org-left">-(o)vu</td>
 <td class="org-left">-(e)vy</td>
 <td class="org-left">-(e)vy</td>
@@ -2872,7 +2878,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgb6d3170">distributif</a></td>
+<td class="org-left"><a href="#org7a92d7f">distributif</a></td>
 <td class="org-left">hei(l)-</td>
 <td class="org-left">hea(l)-</td>
 <td class="org-left">hea(l)-</td>
@@ -2892,7 +2898,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org87809fc">délatif</a></td>
+<td class="org-left"><a href="#orgc1ada66">délatif</a></td>
 <td class="org-left">ß(eu)-</td>
 <td class="org-left">ß(eu)-</td>
 <td class="org-left">ß(a)-</td>
@@ -2902,7 +2908,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org5825999">élatif</a></td>
+<td class="org-left"><a href="#org9d60e3c">élatif</a></td>
 <td class="org-left">-ły</td>
 <td class="org-left">-(a)ły</td>
 <td class="org-left">-(ł)ay</td>
@@ -2922,7 +2928,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org1afbd52">ergatif</a></td>
+<td class="org-left"><a href="#orgd373411">ergatif</a></td>
 <td class="org-left">-jo</td>
 <td class="org-left">-jo</td>
 <td class="org-left">-(o)jo</td>
@@ -2942,7 +2948,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org30e545d">essif</a></td>
+<td class="org-left"><a href="#org4be269b">essif</a></td>
 <td class="org-left">-þy(d)-</td>
 <td class="org-left">-þy(d)-</td>
 <td class="org-left">-þy(d)-</td>
@@ -2952,7 +2958,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf0601e5">essif-formel</a></td>
+<td class="org-left"><a href="#org17c0d65">essif-formel</a></td>
 <td class="org-left">-òd</td>
 <td class="org-left">-(ò)ns</td>
 <td class="org-left">-òd</td>
@@ -2962,7 +2968,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org8a7114f">essif-modal</a></td>
+<td class="org-left"><a href="#orgadd04b4">essif-modal</a></td>
 <td class="org-left">-(’)uŗ</td>
 <td class="org-left">-(’)u</td>
 <td class="org-left">-(’)u</td>
@@ -2982,7 +2988,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf6891bf">génitif</a></td>
+<td class="org-left"><a href="#org6833240">génitif</a></td>
 <td class="org-left">ţy-</td>
 <td class="org-left">ţ(u)-</td>
 <td class="org-left">ţ(u)-</td>
@@ -3002,7 +3008,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orge6d9c05">illatif</a></td>
+<td class="org-left"><a href="#orgc6fa1aa">illatif</a></td>
 <td class="org-left">-òn-</td>
 <td class="org-left">-(v)òn-</td>
 <td class="org-left">-(ŕ)òn-</td>
@@ -3102,7 +3108,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org2f3cd93">nominatif</a></td>
+<td class="org-left"><a href="#orgf594d5e">nominatif</a></td>
 <td class="org-left">pa(l)-</td>
 <td class="org-left">pa(l)-</td>
 <td class="org-left">pa(ß)-</td>
@@ -3112,7 +3118,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf24a833">oblique</a></td>
+<td class="org-left"><a href="#orgc2841f9">oblique</a></td>
 <td class="org-left">-(x)eß</td>
 <td class="org-left">-(x)eß</td>
 <td class="org-left">-(x)eß</td>
@@ -3302,17 +3308,18 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 </tr>
 </tbody>
 </table>
-<p>
 
+<p>
 Ci-dessous, chaque cas grammatical sera expliqué ainsi que son utilisation dans le Hjalpi’.
 </p>
 </div>
 
-<div id="outline-container-org2db9ce7" class="outline-3">
-<h3 id="org2db9ce7"><span class="section-number-3">4.1</span> Lieu</h3>
+<div id="outline-container-org0ceb22e" class="outline-3">
+<h3 id="org0ceb22e"><span class="section-number-3">4.1</span> Lieu</h3>
 <div class="outline-text-3" id="text-4-1">
-</div><div id="outline-container-orgd12c724" class="outline-4">
-<h4 id="orgd12c724"><span class="section-number-4">4.1.1</span> Adessif</h4>
+</div>
+<div id="outline-container-org3c2d688" class="outline-4">
+<h4 id="org3c2d688"><span class="section-number-4">4.1.1</span> Adessif</h4>
 <div class="outline-text-4" id="text-4-1-1">
 <p>
 Le cas adessif est utilisé pour exprimer un lieu adjacent au nom décliné. Exemples :
@@ -3325,11 +3332,12 @@ Le cas adessif est utilisé pour exprimer un lieu adjacent au nom décliné. Exe
 </div>
 </div>
 
-<div id="outline-container-orgcb0e1c2" class="outline-3">
-<h3 id="orgcb0e1c2"><span class="section-number-3">4.2</span> Déplacement depuis un point</h3>
+<div id="outline-container-org014d507" class="outline-3">
+<h3 id="org014d507"><span class="section-number-3">4.2</span> Déplacement depuis un point</h3>
 <div class="outline-text-3" id="text-4-2">
-</div><div id="outline-container-orgd3032b8" class="outline-4">
-<h4 id="orgd3032b8"><span class="section-number-4">4.2.1</span> Ablatif</h4>
+</div>
+<div id="outline-container-orgbd1938a" class="outline-4">
+<h4 id="orgbd1938a"><span class="section-number-4">4.2.1</span> Ablatif</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <p>
 Afin de décrire un déplacement depuis un point dans un lieu ouvert, le cas ablatif peut être utilisé pour décliner ledit point pour le marquer en tant que tel. Exemples :
@@ -3341,8 +3349,8 @@ Afin de décrire un déplacement depuis un point dans un lieu ouvert, le cas abl
 </div>
 </div>
 
-<div id="outline-container-org87809fc" class="outline-4">
-<h4 id="org87809fc"><span class="section-number-4">4.2.2</span> Délatif</h4>
+<div id="outline-container-orgc1ada66" class="outline-4">
+<h4 id="orgc1ada66"><span class="section-number-4">4.2.2</span> Délatif</h4>
 <div class="outline-text-4" id="text-4-2-2">
 <p>
 Le cas délatif exprime un déplacement ou mouvement depuis la surface d’un lieu ou d’un objet.
@@ -3354,8 +3362,8 @@ Le cas délatif exprime un déplacement ou mouvement depuis la surface d’un li
 </div>
 </div>
 
-<div id="outline-container-org5825999" class="outline-4">
-<h4 id="org5825999"><span class="section-number-4">4.2.3</span> Élatif</h4>
+<div id="outline-container-org9d60e3c" class="outline-4">
+<h4 id="org9d60e3c"><span class="section-number-4">4.2.3</span> Élatif</h4>
 <div class="outline-text-4" id="text-4-2-3">
 <p>
 Le cas élatif exprime un mouvement ou la provenance de quelque chose depuis l’intérieur du lieu ou de l’objet décliné.
@@ -3371,11 +3379,12 @@ Cas intéressant, l’élatif peut également être utilisé pour ce qui est des
 </div>
 </div>
 </div>
-<div id="outline-container-org9c26731" class="outline-3">
-<h3 id="org9c26731"><span class="section-number-3">4.3</span> Déplacement vers un point</h3>
+<div id="outline-container-orge2b78f8" class="outline-3">
+<h3 id="orge2b78f8"><span class="section-number-3">4.3</span> Déplacement vers un point</h3>
 <div class="outline-text-3" id="text-4-3">
-</div><div id="outline-container-orgb030a81" class="outline-4">
-<h4 id="orgb030a81"><span class="section-number-4">4.3.1</span> Allatif</h4>
+</div>
+<div id="outline-container-orgaa72f19" class="outline-4">
+<h4 id="orgaa72f19"><span class="section-number-4">4.3.1</span> Allatif</h4>
 <div class="outline-text-4" id="text-4-3-1">
 <p>
 L’allatif permet de marquer le lieu ou le point sur lequel se produit un mouvement. <i>Attention à l’irrégularité du placement de la déclinaison pour le genre inanimé !</i> Exemple :
@@ -3386,8 +3395,8 @@ L’allatif permet de marquer le lieu ou le point sur lequel se produit un mouve
 </div>
 </div>
 
-<div id="outline-container-orge6d9c05" class="outline-4">
-<h4 id="orge6d9c05"><span class="section-number-4">4.3.2</span> Illatif</h4>
+<div id="outline-container-orgc6fa1aa" class="outline-4">
+<h4 id="orgc6fa1aa"><span class="section-number-4">4.3.2</span> Illatif</h4>
 <div class="outline-text-4" id="text-4-3-2">
 <p>
 L’illatif permet de marquer le lieu à l’intérieur du quel s’effectue un mouvement ou déplacement. Exemple :
@@ -3400,28 +3409,29 @@ L’illatif permet de marquer le lieu à l’intérieur du quel s’effectue un 
 </div>
 </div>
 
-<div id="outline-container-org291f978" class="outline-3">
-<h3 id="org291f978"><span class="section-number-3">4.4</span> Déplacement via un point</h3>
+<div id="outline-container-orge075bc1" class="outline-3">
+<h3 id="orge075bc1"><span class="section-number-3">4.4</span> Déplacement via un point</h3>
 </div>
-<div id="outline-container-orgc0783c1" class="outline-3">
-<h3 id="orgc0783c1"><span class="section-number-3">4.5</span> Temporalité</h3>
+<div id="outline-container-org295b559" class="outline-3">
+<h3 id="org295b559"><span class="section-number-3">4.5</span> Temporalité</h3>
 <div class="outline-text-3" id="text-4-5">
-</div><div id="outline-container-orgbcec63b" class="outline-4">
-<h4 id="orgbcec63b"><span class="section-number-4">4.5.1</span> Accusatif temporel</h4>
+</div>
+<div id="outline-container-org1e28673" class="outline-4">
+<h4 id="org1e28673"><span class="section-number-4">4.5.1</span> Accusatif temporel</h4>
 <div class="outline-text-4" id="text-4-5-1">
 <p>
-Le cas accusatif, dans un contexte de temporalité, sert à désigner une durée de temps. À ne pas confondre avec le cas <a href="#orgab6bced">accusatif</a> d’alignement morphosyntaxique.
+Le cas accusatif, dans un contexte de temporalité, sert à désigner une durée de temps. À ne pas confondre avec le cas <a href="#org04feafe">accusatif</a> d’alignement morphosyntaxique.
 </p>
 <ul class="org-ul">
 <li>J’ai dormi <b>durant sept heures</b>.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org664e09f" class="outline-4">
-<h4 id="org664e09f"><span class="section-number-4">4.5.2</span> Essif-temporel</h4>
+<div id="outline-container-org326fe8d" class="outline-4">
+<h4 id="org326fe8d"><span class="section-number-4">4.5.2</span> Essif-temporel</h4>
 <div class="outline-text-4" id="text-4-5-2">
 <p>
-L’essif-temporel se comporte et se décline exactement comme l’<a href="#org30e545d">essif</a>, mais sert dans ce cas à déterminer une date ou un temps durant lequel une action se déroule.
+L’essif-temporel se comporte et se décline exactement comme l’<a href="#org4be269b">essif</a>, mais sert dans ce cas à déterminer une date ou un temps durant lequel une action se déroule.
 </p>
 <ul class="org-ul">
 <li><i>ðúdúbém</i> : lors du septième jour de la semaine</li>
@@ -3430,14 +3440,15 @@ L’essif-temporel se comporte et se décline exactement comme l’<a href="#org
 </div>
 </div>
 
-<div id="outline-container-orgc4acc8c" class="outline-3">
-<h3 id="orgc4acc8c"><span class="section-number-3">4.6</span> Alignement Morphosyntaxique</h3>
+<div id="outline-container-org2822436" class="outline-3">
+<h3 id="org2822436"><span class="section-number-3">4.6</span> Alignement Morphosyntaxique</h3>
 <div class="outline-text-3" id="text-4-6">
-</div><div id="outline-container-org139fe51" class="outline-4">
-<h4 id="org139fe51"><span class="section-number-4">4.6.1</span> Absolutif</h4>
+</div>
+<div id="outline-container-orgf1fdd2a" class="outline-4">
+<h4 id="orgf1fdd2a"><span class="section-number-4">4.6.1</span> Absolutif</h4>
 <div class="outline-text-4" id="text-4-6-1">
 <p>
-<b>Ergatif</b> Le cas absolutif marque de sujet des verbes transitif et l’objet des verbes intransitif (le patient) dans une phrase ou dans une proposition ergative. En opposition au cas <a href="#org1afbd52">ergatif</a>, il peut être également assumé par les cas <a href="#orgab6bced">accusatif</a> ou <a href="#org2f3cd93">nominatif</a> dans les phrases ou propositions nominatives.
+<b>Ergatif</b> Le cas absolutif marque de sujet des verbes transitif et l’objet des verbes intransitif (le patient) dans une phrase ou dans une proposition ergative. En opposition au cas <a href="#orgd373411">ergatif</a>, il peut être également assumé par les cas <a href="#org04feafe">accusatif</a> ou <a href="#orgf594d5e">nominatif</a> dans les phrases ou propositions nominatives.
 </p>
 <ul class="org-ul">
 <li><b>Je</b> dors.</li>
@@ -3446,11 +3457,11 @@ L’essif-temporel se comporte et se décline exactement comme l’<a href="#org
 </div>
 </div>
 
-<div id="outline-container-orgab6bced" class="outline-4">
-<h4 id="orgab6bced"><span class="section-number-4">4.6.2</span> Accusatif</h4>
+<div id="outline-container-org04feafe" class="outline-4">
+<h4 id="org04feafe"><span class="section-number-4">4.6.2</span> Accusatif</h4>
 <div class="outline-text-4" id="text-4-6-2">
 <p>
-<b>Nominatif</b> L’accusatif permet de marquer l’objet d’un verbe transitif (le patient) dans les phrases ou propositions nominatives, et s’oppose au cas <a href="#org2f3cd93">nominatif</a>. L’accusatif peut être assumé par le cas <a href="#org139fe51">absolutif</a> dans les phrases ergatives.
+<b>Nominatif</b> L’accusatif permet de marquer l’objet d’un verbe transitif (le patient) dans les phrases ou propositions nominatives, et s’oppose au cas <a href="#orgf594d5e">nominatif</a>. L’accusatif peut être assumé par le cas <a href="#orgf1fdd2a">absolutif</a> dans les phrases ergatives.
 </p>
 <ul class="org-ul">
 <li>Je lis <b>un livre</b>.</li>
@@ -3458,11 +3469,11 @@ L’essif-temporel se comporte et se décline exactement comme l’<a href="#org
 </div>
 </div>
 
-<div id="outline-container-org1afbd52" class="outline-4">
-<h4 id="org1afbd52"><span class="section-number-4">4.6.3</span> Ergatif</h4>
+<div id="outline-container-orgd373411" class="outline-4">
+<h4 id="orgd373411"><span class="section-number-4">4.6.3</span> Ergatif</h4>
 <div class="outline-text-4" id="text-4-6-3">
 <p>
-Le cas ergatif marque le sujet des verbes transitifs (l’agent) dans une phrase ou proposition ergative et s’oppose à l’<a href="#org139fe51">absolutif</a>. Il peut être assumé par le cas <a href="#org2f3cd93">nominatif</a> dans les phrases ou propositions nominatives.
+Le cas ergatif marque le sujet des verbes transitifs (l’agent) dans une phrase ou proposition ergative et s’oppose à l’<a href="#orgf1fdd2a">absolutif</a>. Il peut être assumé par le cas <a href="#orgf594d5e">nominatif</a> dans les phrases ou propositions nominatives.
 </p>
 <ul class="org-ul">
 <li><b>Je</b> lis un livre.</li>
@@ -3470,11 +3481,11 @@ Le cas ergatif marque le sujet des verbes transitifs (l’agent) dans une phrase
 </div>
 </div>
 
-<div id="outline-container-org2f3cd93" class="outline-4">
-<h4 id="org2f3cd93"><span class="section-number-4">4.6.4</span> Nominatif</h4>
+<div id="outline-container-orgf594d5e" class="outline-4">
+<h4 id="orgf594d5e"><span class="section-number-4">4.6.4</span> Nominatif</h4>
 <div class="outline-text-4" id="text-4-6-4">
 <p>
-Le cas nominatif marque le sujet des verbes transitifs et intransitifs (l’agent) dans une phrase ou proposition nominative, et s’oppose au cas <a href="#orgab6bced">accusatif</a>. Il peut être assumé par les cas <a href="#org1afbd52">ergatif</a> et <a href="#org139fe51">absolutif</a> dans les phrases ou propositions ergatives.
+Le cas nominatif marque le sujet des verbes transitifs et intransitifs (l’agent) dans une phrase ou proposition nominative, et s’oppose au cas <a href="#org04feafe">accusatif</a>. Il peut être assumé par les cas <a href="#orgd373411">ergatif</a> et <a href="#orgf1fdd2a">absolutif</a> dans les phrases ou propositions ergatives.
 </p>
 <ul class="org-ul">
 <li><b>Je</b> dors.</li>
@@ -3483,8 +3494,8 @@ Le cas nominatif marque le sujet des verbes transitifs et intransitifs (l’agen
 </div>
 </div>
 
-<div id="outline-container-orgf24a833" class="outline-4">
-<h4 id="orgf24a833"><span class="section-number-4">4.6.5</span> Oblique</h4>
+<div id="outline-container-orgc2841f9" class="outline-4">
+<h4 id="orgc2841f9"><span class="section-number-4">4.6.5</span> Oblique</h4>
 <div class="outline-text-4" id="text-4-6-5">
 <p>
 Le cas oblique sert à citer l’élément décliné, mettant le terme décliné à l’oblique comme entre guillemets. L’oblique peut également se marquer après le verbe d’une phrase ou proposition afin de marquer la citation, tel que la particule « to » en japonais ou « zhes » en tibétain. Dans le dernier cas, le verbe ne sera pas décliné, mais on lui accolera la particule « ŗeß ».
@@ -3498,11 +3509,12 @@ Le cas oblique sert à citer l’élément décliné, mettant le terme décliné
 </div>
 </div>
 
-<div id="outline-container-orgdb63620" class="outline-3">
-<h3 id="orgdb63620"><span class="section-number-3">4.7</span> Relation</h3>
+<div id="outline-container-orgbcb0423" class="outline-3">
+<h3 id="orgbcb0423"><span class="section-number-3">4.7</span> Relation</h3>
 <div class="outline-text-3" id="text-4-7">
-</div><div id="outline-container-org4fb049f" class="outline-4">
-<h4 id="org4fb049f"><span class="section-number-4">4.7.1</span> Causal</h4>
+</div>
+<div id="outline-container-orgb469b16" class="outline-4">
+<h4 id="orgb469b16"><span class="section-number-4">4.7.1</span> Causal</h4>
 <div class="outline-text-4" id="text-4-7-1">
 <p>
 Le cas causal permet de marquer la raison de l’action exprimée par le verbe principal de la phrase ou de la proposition (similaire à la particule grammaticale « kara » en japonais). Exemples :
@@ -3514,8 +3526,8 @@ Le cas causal permet de marquer la raison de l’action exprimée par le verbe p
 </div>
 </div>
 
-<div id="outline-container-orgb6d3170" class="outline-4">
-<h4 id="orgb6d3170"><span class="section-number-4">4.7.2</span> Distributif</h4>
+<div id="outline-container-org7a92d7f" class="outline-4">
+<h4 id="org7a92d7f"><span class="section-number-4">4.7.2</span> Distributif</h4>
 <div class="outline-text-4" id="text-4-7-2">
 <p>
 Le cas distributif indique une distribution égale entre les éléments déterminés. En français, il s’agit l’équivalent du « par » comme dans « il n’y a <b>par commune</b> qu’une seule mairie ».
@@ -3527,8 +3539,8 @@ Le cas distributif indique une distribution égale entre les éléments détermi
 </div>
 </div>
 
-<div id="outline-container-orgf6891bf" class="outline-4">
-<h4 id="orgf6891bf"><span class="section-number-4">4.7.3</span> Génitif</h4>
+<div id="outline-container-org6833240" class="outline-4">
+<h4 id="org6833240"><span class="section-number-4">4.7.3</span> Génitif</h4>
 <div class="outline-text-4" id="text-4-7-3">
 <p>
 Le génitif est utilisé afin de marquer un complément de nom ou une appartenance, similairement à la particule « no » japonaise ou au « ’s » anglais. Le complément de nom porte la déclinaison et se situe avant le nom.
@@ -3541,14 +3553,15 @@ Le génitif est utilisé afin de marquer un complément de nom ou une appartenan
 </div>
 </div>
 
-<div id="outline-container-org0889a70" class="outline-3">
-<h3 id="org0889a70"><span class="section-number-3">4.8</span> Sémantique</h3>
+<div id="outline-container-org8dee595" class="outline-3">
+<h3 id="org8dee595"><span class="section-number-3">4.8</span> Sémantique</h3>
 </div>
-<div id="outline-container-orge4db4aa" class="outline-3">
-<h3 id="orge4db4aa"><span class="section-number-3">4.9</span> État</h3>
+<div id="outline-container-orgc2980ba" class="outline-3">
+<h3 id="orgc2980ba"><span class="section-number-3">4.9</span> État</h3>
 <div class="outline-text-3" id="text-4-9">
-</div><div id="outline-container-org3b0316c" class="outline-4">
-<h4 id="org3b0316c"><span class="section-number-4">4.9.1</span> Abessif</h4>
+</div>
+<div id="outline-container-org7c12b06" class="outline-4">
+<h4 id="org7c12b06"><span class="section-number-4">4.9.1</span> Abessif</h4>
 <div class="outline-text-4" id="text-4-9-1">
 <p>
 Le cas abessif est un cas grammatical exprimant l’absence de l’élément décliné. L’équivalent en français est « sans X ». Exemple dans quelques langues naturelles :
@@ -3560,11 +3573,11 @@ Le cas abessif est un cas grammatical exprimant l’absence de l’élément dé
 </div>
 </div>
 
-<div id="outline-container-org30e545d" class="outline-4">
-<h4 id="org30e545d"><span class="section-number-4">4.9.2</span> Essif</h4>
+<div id="outline-container-org4be269b" class="outline-4">
+<h4 id="org4be269b"><span class="section-number-4">4.9.2</span> Essif</h4>
 <div class="outline-text-4" id="text-4-9-2">
 <p>
-L’essif exprime un état temporaire ou une qualité temporaire. Il s’agit du cas général pouvant se spécialiser en <a href="#orgf0601e5">essif-formel</a> pour déterminer une qualité, ou en <a href="#org8a7114f">essif-modal</a> pour un état. Il peut également être utilisé pour des questions temporelles, voir <a href="#org664e09f">Essif-temporel</a>.
+L’essif exprime un état temporaire ou une qualité temporaire. Il s’agit du cas général pouvant se spécialiser en <a href="#org17c0d65">essif-formel</a> pour déterminer une qualité, ou en <a href="#orgadd04b4">essif-modal</a> pour un état. Il peut également être utilisé pour des questions temporelles, voir <a href="#org326fe8d">Essif-temporel</a>.
 </p>
 <ul class="org-ul">
 <li><i>hjydalpel</i> : en qualité de dieux, en tant que dieux (<i>hjalp</i> étant au singulatif)</li>
@@ -3573,63 +3586,64 @@ L’essif exprime un état temporaire ou une qualité temporaire. Il s’agit du
 </div>
 </div>
 
-<div id="outline-container-orgf0601e5" class="outline-4">
-<h4 id="orgf0601e5"><span class="section-number-4">4.9.3</span> Essif-formel</h4>
+<div id="outline-container-org17c0d65" class="outline-4">
+<h4 id="org17c0d65"><span class="section-number-4">4.9.3</span> Essif-formel</h4>
 <div class="outline-text-4" id="text-4-9-3">
 <p>
-L’essif-formel est une spécialisation de l’<a href="#org30e545d">essif</a> permettant d’exprimer une qualité physique.
+L’essif-formel est une spécialisation de l’<a href="#org4be269b">essif</a> permettant d’exprimer une qualité physique.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org8a7114f" class="outline-4">
-<h4 id="org8a7114f"><span class="section-number-4">4.9.4</span> Essif-modal</h4>
+<div id="outline-container-orgadd04b4" class="outline-4">
+<h4 id="orgadd04b4"><span class="section-number-4">4.9.4</span> Essif-modal</h4>
 <div class="outline-text-4" id="text-4-9-4">
 <p>
-L’essif-formel est une spécialisation de l’<a href="#org30e545d">essif</a> permettant d’exprimer l’état du sujet ou de l’agent (dans les phrases ou propositions nominatives), ou le sujet ou le patient (dans les phrases ou propositions ergatives).
+L’essif-formel est une spécialisation de l’<a href="#org4be269b">essif</a> permettant d’exprimer l’état du sujet ou de l’agent (dans les phrases ou propositions nominatives), ou le sujet ou le patient (dans les phrases ou propositions ergatives).
 </p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org66b28d8" class="outline-2">
-<h2 id="org66b28d8"><span class="section-number-2">5</span> Adjectifs</h2>
+<div id="outline-container-org8090557" class="outline-2">
+<h2 id="org8090557"><span class="section-number-2">5</span> Adjectifs</h2>
 </div>
-<div id="outline-container-orgd4da766" class="outline-2">
-<h2 id="orgd4da766"><span class="section-number-2">6</span> Adverbes</h2>
+<div id="outline-container-org5f1f4da" class="outline-2">
+<h2 id="org5f1f4da"><span class="section-number-2">6</span> Adverbes</h2>
 </div>
-<div id="outline-container-org4befe5f" class="outline-2">
-<h2 id="org4befe5f"><span class="section-number-2">7</span> Verbes</h2>
+<div id="outline-container-org74195a0" class="outline-2">
+<h2 id="org74195a0"><span class="section-number-2">7</span> Verbes</h2>
 </div>
-<div id="outline-container-orgecc9f21" class="outline-2">
-<h2 id="orgecc9f21"><span class="section-number-2">8</span> Pronoms et déterminants</h2>
+<div id="outline-container-orge4f972d" class="outline-2">
+<h2 id="orge4f972d"><span class="section-number-2">8</span> Pronoms et déterminants</h2>
 </div>
-<div id="outline-container-orgd07cc82" class="outline-2">
-<h2 id="orgd07cc82"><span class="section-number-2">9</span> Nombres</h2>
+<div id="outline-container-orgcb02750" class="outline-2">
+<h2 id="orgcb02750"><span class="section-number-2">9</span> Nombres</h2>
 <div class="outline-text-2" id="text-9">
-</div><div id="outline-container-org84e8aad" class="outline-3">
-<h3 id="org84e8aad"><span class="section-number-3">9.1</span> Nombres Cardinaux</h3>
 </div>
-<div id="outline-container-org174bca3" class="outline-3">
-<h3 id="org174bca3"><span class="section-number-3">9.2</span> Nombres Ordinaux</h3>
+<div id="outline-container-org024f2e9" class="outline-3">
+<h3 id="org024f2e9"><span class="section-number-3">9.1</span> Nombres Cardinaux</h3>
+</div>
+<div id="outline-container-org6feb283" class="outline-3">
+<h3 id="org6feb283"><span class="section-number-3">9.2</span> Nombres Ordinaux</h3>
 </div>
 </div>
-<div id="outline-container-orga77f3a8" class="outline-2">
-<h2 id="orga77f3a8"><span class="section-number-2">10</span> Interjections</h2>
+<div id="outline-container-orgaafd49d" class="outline-2">
+<h2 id="orgaafd49d"><span class="section-number-2">10</span> Interjections</h2>
 </div>
-<div id="outline-container-org3641375" class="outline-2">
-<h2 id="org3641375"><span class="section-number-2">11</span> Interrogation</h2>
+<div id="outline-container-orgdee5a23" class="outline-2">
+<h2 id="orgdee5a23"><span class="section-number-2">11</span> Interrogation</h2>
 </div>
-<div id="outline-container-orgd013c03" class="outline-2">
-<h2 id="orgd013c03"><span class="section-number-2">12</span> Syntaxe</h2>
+<div id="outline-container-org2e79204" class="outline-2">
+<h2 id="org2e79204"><span class="section-number-2">12</span> Syntaxe</h2>
 <div class="outline-text-2" id="text-12">
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Auteur: Lucien Cartier-Tilet</p>
-<p class="date">Created: 2018-05-21 lun. 16:40</p>
+<p class="date">Created: 2018-05-30 mer. 00:53</p>
 <p class="validation"></p>
 </div>
 </body>

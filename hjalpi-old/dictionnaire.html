@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
-<!-- 2018-05-21 lun. 15:08 -->
+<!-- 2018-05-30 mer. 00:53 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dictionnaire Hjalpi’ Verniculaire - Français</title>
@@ -68,6 +68,7 @@
   pre.src-fortran:before { content: 'Fortran'; }
   pre.src-gnuplot:before { content: 'gnuplot'; }
   pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
   pre.src-js:before { content: 'Javascript'; }
   pre.src-latex:before { content: 'LaTeX'; }
@@ -179,18 +180,23 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
 <script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2017 Free Software Foundation, Inc.
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -239,68 +245,66 @@ for the JavaScript code in this tag.
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org86cf58a">1. A</a></li>
-<li><a href="#org1b54328">2. Á</a></li>
-<li><a href="#orgb0ec3de">3. B</a></li>
-<li><a href="#orgd3a67e0">4. D</a></li>
-<li><a href="#orgfc755d5">5. Ď</a></li>
-<li><a href="#org81a8286">6. Ð</a></li>
-<li><a href="#org33d327d">7. E</a></li>
-<li><a href="#orgac4c1e9">8. É</a></li>
-<li><a href="#org4953fb8">9. Ë</a></li>
-<li><a href="#org57e9e5d">10. Ê</a></li>
-<li><a href="#orgbc3f435">11. Ě</a></li>
-<li><a href="#org704b5f0">12. F</a></li>
-<li><a href="#orge078cdb">13. G</a></li>
-<li><a href="#org4b99194">14. Ö</a></li>
-<li><a href="#org44359d3">15. H</a></li>
-<li><a href="#orgfaa532a">16. I</a></li>
-<li><a href="#orga46a9ae">17. Í</a></li>
-<li><a href="#orga968362">18. J</a></li>
-<li><a href="#orgab9141f">19. K</a></li>
-<li><a href="#org66561d1">20. L</a></li>
-<li><a href="#org720383d">21. Ļ</a></li>
-<li><a href="#org348dcba">22. Ł</a></li>
-<li><a href="#orgd783f15">23. M</a></li>
-<li><a href="#org2ec049c">24. N</a></li>
-<li><a href="#org3818047">25. Ň</a></li>
-<li><a href="#orge4a1dca">26. Ń</a></li>
-<li><a href="#org4529967">27. O</a></li>
-<li><a href="#orga20f132">28. Ó</a></li>
-<li><a href="#orgb830b96">29. P</a></li>
-<li><a href="#org4dd35fd">30. R</a></li>
-<li><a href="#org6af72d1">31. Ŗ</a></li>
-<li><a href="#orga2378d4">32. Ŕ</a></li>
-<li><a href="#org7fa117f">33. S</a></li>
-<li><a href="#orgaf4239a">34. ß</a></li>
-<li><a href="#org868e7b1">35. T</a></li>
-<li><a href="#orgd65edc6">36. Ţ</a></li>
-<li><a href="#orgf9aed49">37. Þ</a></li>
-<li><a href="#orgec3c33e">38. U</a></li>
-<li><a href="#orgf323c04">39. Ú</a></li>
-<li><a href="#orgc344c9e">40. V</a></li>
-<li><a href="#org2584466">41. W</a></li>
-<li><a href="#org32c20d3">42. X</a></li>
-<li><a href="#orgbc4d165">43. Y</a></li>
-<li><a href="#org189c8e9">44. Ý</a></li>
-<li><a href="#orgaa77e4c">45. Z</a></li>
-<li><a href="#org0380c0e">46. Ź</a></li>
-<li><a href="#org456e6ba">47. Ž</a></li>
+<li><a href="#org3bdc498">1. A</a></li>
+<li><a href="#orge09f430">2. Á</a></li>
+<li><a href="#org653c386">3. B</a></li>
+<li><a href="#orgf6b7575">4. D</a></li>
+<li><a href="#org3cbe34b">5. Ď</a></li>
+<li><a href="#org55d0d8d">6. Ð</a></li>
+<li><a href="#orgee1fb0b">7. E</a></li>
+<li><a href="#org583d13f">8. É</a></li>
+<li><a href="#org6943ea6">9. Ë</a></li>
+<li><a href="#orgebb8925">10. Ê</a></li>
+<li><a href="#org96e19d1">11. Ě</a></li>
+<li><a href="#org6498967">12. F</a></li>
+<li><a href="#org9aa27eb">13. G</a></li>
+<li><a href="#org2f8f39b">14. Ö</a></li>
+<li><a href="#orgcc923db">15. H</a></li>
+<li><a href="#orgae483c0">16. I</a></li>
+<li><a href="#orgb12555b">17. Í</a></li>
+<li><a href="#org7e58f8c">18. J</a></li>
+<li><a href="#org5a57d14">19. K</a></li>
+<li><a href="#orge234e1a">20. L</a></li>
+<li><a href="#orged60c73">21. Ļ</a></li>
+<li><a href="#org0f6cbf9">22. Ł</a></li>
+<li><a href="#orgbba6536">23. M</a></li>
+<li><a href="#orge25d7f9">24. N</a></li>
+<li><a href="#orgf5b5f03">25. Ň</a></li>
+<li><a href="#org67546d2">26. Ń</a></li>
+<li><a href="#org168b457">27. O</a></li>
+<li><a href="#org2d04fe2">28. Ó</a></li>
+<li><a href="#orga99e181">29. P</a></li>
+<li><a href="#org539f77d">30. R</a></li>
+<li><a href="#orgd7df0ab">31. Ŗ</a></li>
+<li><a href="#org38362c2">32. Ŕ</a></li>
+<li><a href="#org839058c">33. S</a></li>
+<li><a href="#org9a96c5c">34. ß</a></li>
+<li><a href="#org4137274">35. T</a></li>
+<li><a href="#org21d37cc">36. Ţ</a></li>
+<li><a href="#orgfdae3e5">37. Þ</a></li>
+<li><a href="#orgcafd143">38. U</a></li>
+<li><a href="#org247d6b8">39. Ú</a></li>
+<li><a href="#org1f21621">40. V</a></li>
+<li><a href="#org3c4ab35">41. W</a></li>
+<li><a href="#org55f6905">42. X</a></li>
+<li><a href="#orgb5d722f">43. Y</a></li>
+<li><a href="#orgf33ad65">44. Ý</a></li>
+<li><a href="#org2c102dc">45. Z</a></li>
+<li><a href="#org7a675af">46. Ź</a></li>
+<li><a href="#org9202e74">47. Ž</a></li>
 </ul>
 </div>
 </div>
-<p>
 
-</p>
 
-<div id="outline-container-org86cf58a" class="outline-2">
-<h2 id="org86cf58a"><span class="section-number-2">1</span> A</h2>
+<div id="outline-container-org3bdc498" class="outline-2">
+<h2 id="org3bdc498"><span class="section-number-2">1</span> A</h2>
 </div>
-<div id="outline-container-org1b54328" class="outline-2">
-<h2 id="org1b54328"><span class="section-number-2">2</span> Á</h2>
+<div id="outline-container-orge09f430" class="outline-2">
+<h2 id="orge09f430"><span class="section-number-2">2</span> Á</h2>
 </div>
-<div id="outline-container-orgb0ec3de" class="outline-2">
-<h2 id="orgb0ec3de"><span class="section-number-2">3</span> B</h2>
+<div id="outline-container-org653c386" class="outline-2">
+<h2 id="org653c386"><span class="section-number-2">3</span> B</h2>
 <div class="outline-text-2" id="text-3">
 <dl class="org-dl">
 <dt>bém (n.)</dt><dd>jour</dd>
@@ -308,8 +312,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgd3a67e0" class="outline-2">
-<h2 id="orgd3a67e0"><span class="section-number-2">4</span> D</h2>
+<div id="outline-container-orgf6b7575" class="outline-2">
+<h2 id="orgf6b7575"><span class="section-number-2">4</span> D</h2>
 <div class="outline-text-2" id="text-4">
 <dl class="org-dl">
 <dt>denmóíl (n.)</dt><dd>personne, individu</dd>
@@ -317,8 +321,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgfc755d5" class="outline-2">
-<h2 id="orgfc755d5"><span class="section-number-2">5</span> Ď</h2>
+<div id="outline-container-org3cbe34b" class="outline-2">
+<h2 id="org3cbe34b"><span class="section-number-2">5</span> Ď</h2>
 <div class="outline-text-2" id="text-5">
 <dl class="org-dl">
 <dt>ďaßt (pron.)</dt><dd>pronom neutre de la seconde personne du singulier</dd>
@@ -327,8 +331,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org81a8286" class="outline-2">
-<h2 id="org81a8286"><span class="section-number-2">6</span> Ð</h2>
+<div id="outline-container-org55d0d8d" class="outline-2">
+<h2 id="org55d0d8d"><span class="section-number-2">6</span> Ð</h2>
 <div class="outline-text-2" id="text-6">
 <dl class="org-dl">
 <dt>ðap (n.)</dt><dd>addition</dd>
@@ -338,26 +342,26 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org33d327d" class="outline-2">
-<h2 id="org33d327d"><span class="section-number-2">7</span> E</h2>
+<div id="outline-container-orgee1fb0b" class="outline-2">
+<h2 id="orgee1fb0b"><span class="section-number-2">7</span> E</h2>
 </div>
-<div id="outline-container-orgac4c1e9" class="outline-2">
-<h2 id="orgac4c1e9"><span class="section-number-2">8</span> É</h2>
+<div id="outline-container-org583d13f" class="outline-2">
+<h2 id="org583d13f"><span class="section-number-2">8</span> É</h2>
 </div>
-<div id="outline-container-org4953fb8" class="outline-2">
-<h2 id="org4953fb8"><span class="section-number-2">9</span> Ë</h2>
+<div id="outline-container-org6943ea6" class="outline-2">
+<h2 id="org6943ea6"><span class="section-number-2">9</span> Ë</h2>
 </div>
-<div id="outline-container-org57e9e5d" class="outline-2">
-<h2 id="org57e9e5d"><span class="section-number-2">10</span> Ê</h2>
+<div id="outline-container-orgebb8925" class="outline-2">
+<h2 id="orgebb8925"><span class="section-number-2">10</span> Ê</h2>
 </div>
-<div id="outline-container-orgbc3f435" class="outline-2">
-<h2 id="orgbc3f435"><span class="section-number-2">11</span> Ě</h2>
+<div id="outline-container-org96e19d1" class="outline-2">
+<h2 id="org96e19d1"><span class="section-number-2">11</span> Ě</h2>
 </div>
-<div id="outline-container-org704b5f0" class="outline-2">
-<h2 id="org704b5f0"><span class="section-number-2">12</span> F</h2>
+<div id="outline-container-org6498967" class="outline-2">
+<h2 id="org6498967"><span class="section-number-2">12</span> F</h2>
 </div>
-<div id="outline-container-orge078cdb" class="outline-2">
-<h2 id="orge078cdb"><span class="section-number-2">13</span> G</h2>
+<div id="outline-container-org9aa27eb" class="outline-2">
+<h2 id="org9aa27eb"><span class="section-number-2">13</span> G</h2>
 <div class="outline-text-2" id="text-13">
 <dl class="org-dl">
 <dt>gar (n.)</dt><dd>tête</dd>
@@ -365,11 +369,11 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org4b99194" class="outline-2">
-<h2 id="org4b99194"><span class="section-number-2">14</span> Ö</h2>
+<div id="outline-container-org2f8f39b" class="outline-2">
+<h2 id="org2f8f39b"><span class="section-number-2">14</span> Ö</h2>
 </div>
-<div id="outline-container-org44359d3" class="outline-2">
-<h2 id="org44359d3"><span class="section-number-2">15</span> H</h2>
+<div id="outline-container-orgcc923db" class="outline-2">
+<h2 id="orgcc923db"><span class="section-number-2">15</span> H</h2>
 <div class="outline-text-2" id="text-15">
 <dl class="org-dl">
 <dt>hjalp (n.)</dt><dd>dieu</dd>
@@ -377,14 +381,14 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgfaa532a" class="outline-2">
-<h2 id="orgfaa532a"><span class="section-number-2">16</span> I</h2>
+<div id="outline-container-orgae483c0" class="outline-2">
+<h2 id="orgae483c0"><span class="section-number-2">16</span> I</h2>
 </div>
-<div id="outline-container-orga46a9ae" class="outline-2">
-<h2 id="orga46a9ae"><span class="section-number-2">17</span> Í</h2>
+<div id="outline-container-orgb12555b" class="outline-2">
+<h2 id="orgb12555b"><span class="section-number-2">17</span> Í</h2>
 </div>
-<div id="outline-container-orga968362" class="outline-2">
-<h2 id="orga968362"><span class="section-number-2">18</span> J</h2>
+<div id="outline-container-org7e58f8c" class="outline-2">
+<h2 id="org7e58f8c"><span class="section-number-2">18</span> J</h2>
 <div class="outline-text-2" id="text-18">
 <dl class="org-dl">
 <dt>jaom (n.)</dt><dd>astre</dd>
@@ -392,8 +396,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgab9141f" class="outline-2">
-<h2 id="orgab9141f"><span class="section-number-2">19</span> K</h2>
+<div id="outline-container-org5a57d14" class="outline-2">
+<h2 id="org5a57d14"><span class="section-number-2">19</span> K</h2>
 <div class="outline-text-2" id="text-19">
 <dl class="org-dl">
 <dt>kjaŗ (pron.)</dt><dd>pronom neutre de la troisième personne du singulier</dd>
@@ -404,19 +408,19 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org66561d1" class="outline-2">
-<h2 id="org66561d1"><span class="section-number-2">20</span> L</h2>
+<div id="outline-container-orge234e1a" class="outline-2">
+<h2 id="orge234e1a"><span class="section-number-2">20</span> L</h2>
 <div class="outline-text-2" id="text-20">
 <dl class="org-dl">
 <dt>lúb (n.)</dt><dd>air</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org720383d" class="outline-2">
-<h2 id="org720383d"><span class="section-number-2">21</span> Ļ</h2>
+<div id="outline-container-orged60c73" class="outline-2">
+<h2 id="orged60c73"><span class="section-number-2">21</span> Ļ</h2>
 </div>
-<div id="outline-container-org348dcba" class="outline-2">
-<h2 id="org348dcba"><span class="section-number-2">22</span> Ł</h2>
+<div id="outline-container-org0f6cbf9" class="outline-2">
+<h2 id="org0f6cbf9"><span class="section-number-2">22</span> Ł</h2>
 <div class="outline-text-2" id="text-22">
 <dl class="org-dl">
 <dt>łail (n.)</dt><dd>années</dd>
@@ -428,8 +432,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgd783f15" class="outline-2">
-<h2 id="orgd783f15"><span class="section-number-2">23</span> M</h2>
+<div id="outline-container-orgbba6536" class="outline-2">
+<h2 id="orgbba6536"><span class="section-number-2">23</span> M</h2>
 <div class="outline-text-2" id="text-23">
 <dl class="org-dl">
 <dt>mal (pron.)</dt><dd>pronom neutre de la troisième personne du singulier</dd>
@@ -446,8 +450,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org2ec049c" class="outline-2">
-<h2 id="org2ec049c"><span class="section-number-2">24</span> N</h2>
+<div id="outline-container-orge25d7f9" class="outline-2">
+<h2 id="orge25d7f9"><span class="section-number-2">24</span> N</h2>
 <div class="outline-text-2" id="text-24">
 <dl class="org-dl">
 <dt>nael (n.)</dt><dd>cheval</dd>
@@ -456,25 +460,25 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org3818047" class="outline-2">
-<h2 id="org3818047"><span class="section-number-2">25</span> Ň</h2>
+<div id="outline-container-orgf5b5f03" class="outline-2">
+<h2 id="orgf5b5f03"><span class="section-number-2">25</span> Ň</h2>
 <div class="outline-text-2" id="text-25">
 <dl class="org-dl">
 <dt>ňam (n.)</dt><dd>ouest</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orge4a1dca" class="outline-2">
-<h2 id="orge4a1dca"><span class="section-number-2">26</span> Ń</h2>
+<div id="outline-container-org67546d2" class="outline-2">
+<h2 id="org67546d2"><span class="section-number-2">26</span> Ń</h2>
 </div>
-<div id="outline-container-org4529967" class="outline-2">
-<h2 id="org4529967"><span class="section-number-2">27</span> O</h2>
+<div id="outline-container-org168b457" class="outline-2">
+<h2 id="org168b457"><span class="section-number-2">27</span> O</h2>
 </div>
-<div id="outline-container-orga20f132" class="outline-2">
-<h2 id="orga20f132"><span class="section-number-2">28</span> Ó</h2>
+<div id="outline-container-org2d04fe2" class="outline-2">
+<h2 id="org2d04fe2"><span class="section-number-2">28</span> Ó</h2>
 </div>
-<div id="outline-container-orgb830b96" class="outline-2">
-<h2 id="orgb830b96"><span class="section-number-2">29</span> P</h2>
+<div id="outline-container-orga99e181" class="outline-2">
+<h2 id="orga99e181"><span class="section-number-2">29</span> P</h2>
 <div class="outline-text-2" id="text-29">
 <dl class="org-dl">
 <dt>pánám (n.)</dt><dd>père</dd>
@@ -484,24 +488,24 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org4dd35fd" class="outline-2">
-<h2 id="org4dd35fd"><span class="section-number-2">30</span> R</h2>
+<div id="outline-container-org539f77d" class="outline-2">
+<h2 id="org539f77d"><span class="section-number-2">30</span> R</h2>
 <div class="outline-text-2" id="text-30">
 <dl class="org-dl">
 <dt>raëm (n.)</dt><dd>livre</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org6af72d1" class="outline-2">
-<h2 id="org6af72d1"><span class="section-number-2">31</span> Ŗ</h2>
+<div id="outline-container-orgd7df0ab" class="outline-2">
+<h2 id="orgd7df0ab"><span class="section-number-2">31</span> Ŗ</h2>
 <div class="outline-text-2" id="text-31">
 <dl class="org-dl">
 <dt>revëm (v.)</dt><dd>être (objectif)</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orga2378d4" class="outline-2">
-<h2 id="orga2378d4"><span class="section-number-2">32</span> Ŕ</h2>
+<div id="outline-container-org38362c2" class="outline-2">
+<h2 id="org38362c2"><span class="section-number-2">32</span> Ŕ</h2>
 <div class="outline-text-2" id="text-32">
 <dl class="org-dl">
 <dt>ŕaf (pron.)</dt><dd>pronom neutre de la première personne exclusive double</dd>
@@ -515,8 +519,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org7fa117f" class="outline-2">
-<h2 id="org7fa117f"><span class="section-number-2">33</span> S</h2>
+<div id="outline-container-org839058c" class="outline-2">
+<h2 id="org839058c"><span class="section-number-2">33</span> S</h2>
 <div class="outline-text-2" id="text-33">
 <dl class="org-dl">
 <dt>sad (pron.)</dt><dd>pronom neutre de la seconde personne double</dd>
@@ -530,11 +534,11 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgaf4239a" class="outline-2">
-<h2 id="orgaf4239a"><span class="section-number-2">34</span> ß</h2>
+<div id="outline-container-org9a96c5c" class="outline-2">
+<h2 id="org9a96c5c"><span class="section-number-2">34</span> ß</h2>
 </div>
-<div id="outline-container-org868e7b1" class="outline-2">
-<h2 id="org868e7b1"><span class="section-number-2">35</span> T</h2>
+<div id="outline-container-org4137274" class="outline-2">
+<h2 id="org4137274"><span class="section-number-2">35</span> T</h2>
 <div class="outline-text-2" id="text-35">
 <dl class="org-dl">
 <dt>tað (pron.)</dt><dd>pronom neutre de la troisième personne double</dd>
@@ -552,8 +556,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgd65edc6" class="outline-2">
-<h2 id="orgd65edc6"><span class="section-number-2">36</span> Ţ</h2>
+<div id="outline-container-org21d37cc" class="outline-2">
+<h2 id="org21d37cc"><span class="section-number-2">36</span> Ţ</h2>
 <div class="outline-text-2" id="text-36">
 <dl class="org-dl">
 <dt>ţáýbŕibžág (adj.)</dt><dd>douloureux</dd>
@@ -561,25 +565,25 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgf9aed49" class="outline-2">
-<h2 id="orgf9aed49"><span class="section-number-2">37</span> Þ</h2>
+<div id="outline-container-orgfdae3e5" class="outline-2">
+<h2 id="orgfdae3e5"><span class="section-number-2">37</span> Þ</h2>
 </div>
-<div id="outline-container-orgec3c33e" class="outline-2">
-<h2 id="orgec3c33e"><span class="section-number-2">38</span> U</h2>
+<div id="outline-container-orgcafd143" class="outline-2">
+<h2 id="orgcafd143"><span class="section-number-2">38</span> U</h2>
 </div>
-<div id="outline-container-orgf323c04" class="outline-2">
-<h2 id="orgf323c04"><span class="section-number-2">39</span> Ú</h2>
+<div id="outline-container-org247d6b8" class="outline-2">
+<h2 id="org247d6b8"><span class="section-number-2">39</span> Ú</h2>
 </div>
-<div id="outline-container-orgc344c9e" class="outline-2">
-<h2 id="orgc344c9e"><span class="section-number-2">40</span> V</h2>
+<div id="outline-container-org1f21621" class="outline-2">
+<h2 id="org1f21621"><span class="section-number-2">40</span> V</h2>
 <div class="outline-text-2" id="text-40">
 <dl class="org-dl">
 <dt>vár (n.)</dt><dd>langue (linguistique)</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org2584466" class="outline-2">
-<h2 id="org2584466"><span class="section-number-2">41</span> W</h2>
+<div id="outline-container-org3c4ab35" class="outline-2">
+<h2 id="org3c4ab35"><span class="section-number-2">41</span> W</h2>
 <div class="outline-text-2" id="text-41">
 <dl class="org-dl">
 <dt>wan (n.)</dt><dd>pied / deux</dd>
@@ -591,8 +595,8 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-org32c20d3" class="outline-2">
-<h2 id="org32c20d3"><span class="section-number-2">42</span> X</h2>
+<div id="outline-container-org55f6905" class="outline-2">
+<h2 id="org55f6905"><span class="section-number-2">42</span> X</h2>
 <div class="outline-text-2" id="text-42">
 <dl class="org-dl">
 <dt>xak (pron.)</dt><dd>pronom neutre de la première personne inclusive du pluriel</dd>
@@ -602,25 +606,25 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgbc4d165" class="outline-2">
-<h2 id="orgbc4d165"><span class="section-number-2">43</span> Y</h2>
+<div id="outline-container-orgb5d722f" class="outline-2">
+<h2 id="orgb5d722f"><span class="section-number-2">43</span> Y</h2>
 </div>
-<div id="outline-container-org189c8e9" class="outline-2">
-<h2 id="org189c8e9"><span class="section-number-2">44</span> Ý</h2>
+<div id="outline-container-orgf33ad65" class="outline-2">
+<h2 id="orgf33ad65"><span class="section-number-2">44</span> Ý</h2>
 </div>
-<div id="outline-container-orgaa77e4c" class="outline-2">
-<h2 id="orgaa77e4c"><span class="section-number-2">45</span> Z</h2>
+<div id="outline-container-org2c102dc" class="outline-2">
+<h2 id="org2c102dc"><span class="section-number-2">45</span> Z</h2>
 <div class="outline-text-2" id="text-45">
 <dl class="org-dl">
 <dt>zelðeg (n.)</dt><dd>sud</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org0380c0e" class="outline-2">
-<h2 id="org0380c0e"><span class="section-number-2">46</span> Ź</h2>
+<div id="outline-container-org7a675af" class="outline-2">
+<h2 id="org7a675af"><span class="section-number-2">46</span> Ź</h2>
 </div>
-<div id="outline-container-org456e6ba" class="outline-2">
-<h2 id="org456e6ba"><span class="section-number-2">47</span> Ž</h2>
+<div id="outline-container-org9202e74" class="outline-2">
+<h2 id="org9202e74"><span class="section-number-2">47</span> Ž</h2>
 <div class="outline-text-2" id="text-47">
 <dl class="org-dl">
 <dt>žag (pron.)</dt><dd>pronom neutre de la première personne inclusive double</dd>
@@ -640,7 +644,7 @@ for the JavaScript code in this tag.
 </div>
 <div id="postamble" class="status">
 <p class="author">Auteur: Lucien Cartier-Tilet</p>
-<p class="date">Created: 2018-05-21 lun. 15:08</p>
+<p class="date">Created: 2018-05-30 mer. 00:53</p>
 <p class="validation"></p>
 </div>
 </body>

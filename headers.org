@@ -1,6 +1,6 @@
 #+AUTHOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
-#+SETUPFILE: theme-readtheorg.setup
+#+SETUPFILE: theme-bigblow.setup
 #+LATEX_CLASS: article
 #+LaTeX_CLASS_OPTIONS: [a4paper]
 #+LATEX_HEADER: %!TEX TS-program = xelatex
