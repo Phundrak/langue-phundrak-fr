@@ -6,6 +6,6 @@ src_latex{\newpage}
 
 [[file:grammaire.html][Grammaire du Hjalpi’]] ([[file:grammaire.pdf][pdf]])
 
-* Lexique
+* Glossaire
 
 * Autre

@@ -2,7 +2,7 @@
 #+INCLUDE: "headers.org"
 #+HTML: <a href="https://github.com/Phundrak/langue-phundrak-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub!"></a>
 
-* Hjalpi’
+* Divine languages
 
 🔵 [[file:hjalpi/index.html][Hjalpi’ Originel]] (en cours)
 
@@ -10,6 +10,6 @@
 
 * Draconian
 
-🔵 [[file:draconian/auto-generated-draft.html][Łijökken]] (en cours)
+🔵 [[file:lijokken/auto-generated-draft.html][Łijökken]] (en cours)
 
-🔵 [[file:draconian-2/index.html][Zöhæň]] (en cours)
+🔵 [[file:zohaen/index.html][Zöhæň]] (en cours)

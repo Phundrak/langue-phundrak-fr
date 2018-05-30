@@ -1,7 +1,5 @@
 #+TITLE: Grammaire du Zöhæň
 #+INCLUDE:"../headers.org"
-
-
 src_latex{\newpage}
 
 * Introduction
@@ -15,11 +13,22 @@ Les dragons et autres reptiles n’ont pas de voyelles, d’où l’absence tota
 | / | >         |       |            |         |      |
 |   |           | front | near-front | central | back |
 |---+-----------+-------+------------+---------+------|
+|---+-----------+-------+------------+---------+------|
 |   | high      | i     |            |       1 | M    |
 |   | near-high |       | I          |         |      |
 |   | high-mid  | e     |            |      @\ |      |
 |   | low-mid   |       |            |       3 | V    |
 |   | low       | a     |            |         | A    |
+
+| / | >         |       |            |         |      |
+|   |           | front | near-front | central | back |
+|---+-----------+-------+------------+---------+------|
+|---+-----------+-------+------------+---------+------|
+|   | high      | i     |            | í       | u    |
+|   | near-high |       | ì          |         |      |
+|   | high-mid  | e     |            | y       |      |
+|   | low-mid   |       |            | ë       | o    |
+|   | low       | æ     |            |         | a    |
 
 ** Consonnes
 
@@ -33,6 +42,18 @@ Les dragons et autres reptiles n’ont pas de voyelles, d’où l’absence tota
 | fricative           | T D    | z        | S Z          | s` z`     | s\            | ç j\    |       | X R    | h       |
 | approximant         |        | r\       |              |           |               | j       |       |        |         |
 | lateral fricative   |        | K K\     |              |           |               |         |       |        |         |
+| lateral approximant |        | l        |              |           |               |         |       |        |         |
+
+| /                   |        |          |              |           |               |         |       |        |         |
+|                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+| stop                |        | t        |              | d         |               |         | k g   | q ǵ    |         |
+| nasal               |        | n        |              |           |               | ń       | ň     |        |         |
+| affricate           |        |          | cs cz        |           |               |         |       |        |         |
+| fricative           | þ ð    | z        | S Z          | š ž       | s             | ś ź     |       | x r    | h       |
+| approximant         |        | ŕ        |              |           |               | j       |       |        |         |
+| lateral fricative   |        | ł ļ      |              |           |               |         |       |        |         |
 | lateral approximant |        | l        |              |           |               |         |       |        |         |
 
 ** Accentuation
