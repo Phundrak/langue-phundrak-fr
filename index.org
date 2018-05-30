@@ -10,6 +10,6 @@
 
 * Draconian
 
-🔵 [[file:lijokken/auto-generated-draft.html][Łijökken]] (en cours)
+🔵 [[file:lijokken/index.html][Łijökken]] (en cours)
 
 🔵 [[file:zohaen/index.html][Zöhæň]] (en cours)
