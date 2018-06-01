@@ -2,10 +2,6 @@
 #+INCLUDE: "../headers.org"
 src_latex{\newpage}
 
-* Grammaire
-
 [[file:grammaire.html][Grammaire du Hjalpi’]] ([[file:grammaire.pdf][pdf]])
 
-* Glossaire
-
-* Autre
+[[file:grammaire-old.html][Ancienne version de la gramaire]] ([[file:grammaire-old.pdf][pdf]])

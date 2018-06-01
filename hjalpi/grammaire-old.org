@@ -1,6 +1,6 @@
 #+TITLE: Grammaire du Hjalpi’
 #+INCLUDE: "../headers.org"
-src_latex{\newpage}
+#+OPTIONS: toc:nil
 
 * Introduction
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
@@ -25,7 +25,7 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
-|   | fermées     | ~i:~ / ~y:~  | ~u:~         |
+|   | fermées     | ~i:~ / ~y:~ | ~u:~         |
 |   | pré-fermées | ~I~ / ~Y~   | ~U~          |
 |   | mi-fermées  | ~e:~ / ~2:~ | ~o:~         |
 |   | mi-ouvertes | ~E~ / ~9~   | ~O~          |
@@ -33,7 +33,7 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 
 
 
-Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur ~/n=/~ et ~/l=/~.
+Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur ~n=~ et ~l=~.
 
 On peut remarquer que, à l’exception de /ǒ/, /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ n’aura pas la même signification que /þrán/. En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
@@ -81,7 +81,6 @@ Cette voyelle est la même que le « u » français, à la différence que l
 
 - ~/u:/~ : u
 Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
-
 *** Consonnes syllabiques
 - ~/n=/~ : ń
 Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé ~/bVtn=/~.
@@ -89,11 +88,20 @@ Le « ń » est la consonne « n » (la même que le « n » standar
 - ~/l=/~ : ĺ
 Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé ~/bOtl=/~, avec le ~/U/~ qui est omis et le ~/l/~ devenant syllabique.
 
-*** TODO Diphtongues
+*** Diphtongues
+
+*** Allophones
+Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
+- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} [[Consonnes syllabiques][Consonnes syllabiques]], est ~/n=/~. Cependant, cette voyelle peut également être prononcée ~/m=/~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~/J=/~ ou ~/m'/~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/.
+~/n=/>[m=]/_p,b,w~
+~/n=/>[J=]/_i,í,j~
+- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée ~/l'=/~.
+~/l=/>[l'=]/_i,í,j~
 
 ** Consonnes
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
 
+Consonnes translittérées :
 | / | >    |   | > |    | > |   | > |   | > |    | > |   | > |   | > |   | > |    | > |    | > |   | > |
 |   |      | b |   | ld |   | d |   | a |   | pa |   | r |   | p |   | v |   | uv |   | ph |   | g |   |
 |---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
@@ -135,7 +143,6 @@ Phonétique X-SAMPA :
 |---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
 |   | sv   | ~w~ |     |     |     |     |     |      |     |      |      |      |      |     |      |     |     |     |     |    |   |     |   |
 
-
 Abréviations :
 | b  | bilabial        |   | pl   | plosif             |
 | ld | labio-dental    |   | n    | nasal              |
@@ -148,11 +155,54 @@ Abréviations :
 | ph | pharyngal       |   |      |                    |
 | g  | glottal         |   |      |                    |
 
+- ~/p/~ : P p
+- ~/b/~ : B b
+- ~/t/~ : T t
+- ~/d/~ : D d
+- ~/t`/~ : Ţ ţ
+- ~/d`/~ : Ḑ ḑ
+- ~/k/~ : K k
+- ~/g/~ : G g
+- ~/?/~ : ' '
+- ~/m/~ : M m
+- ~/n/~ : N n
+- ~/N/~ : Ň ň
+- ~/r/~ : R r
+- ~/f/~ : F f
+- ~/v/~ : V v
+- ~/T/~ : Þ þ
+- ~/D/~ : Ð ð
+- ~/s/~ : S s
+- ~/z/~ : Z z
+- ~/S/~ : ẞ ß
+- ~/C/~ : Š š
+- ~/j\/~ : Ž ž
+- ~/X/~ : X x
+- ~/R/~ : Ŗ ŗ
+- ~/h/~ : H h
+- ~/K/~ : Ł ł
+- ~/r\/~ : Ŕ ŕ
+- ~/j/~ : J j
+- ~/l/~ : L l
+- ~/w/~ : W w
+
+*** Allophones
+Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
+- La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles.
+~/f/>[p\]/V_V~
+~/v/>[B]/V_V~
+- Le ~/h\/~ est considéré comme étant un allophone du /h/, dont la prononciation standard est le ~/h/~. Cet allophone se produit entre deux voyelles et entre une consonne voisée et une voyelle ou une voyelle et une consonne voisée.
+~/h/>[h\]/V_V~ (~V~ signifiant ici « voyelle » ou « consonne voisée »)
+- Le /ŗ/ a pour prononciation standard le /R/, cependant il est généralement prononcé ~/R\/~ entre deux voyelles.
+~/R/>[R\]/V_V~
+- Le /x/ est habituellement prononcé /X/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde autre que le /h/ et le /ŗ/.
+~/X/>[x]/F_~
+~/X/>[x]/_F~ (~F~ représentant toute fricative sourde autre que le /h/ et le /ŗ/)
+
 ** Accentuation
 
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
-*** TODO Ajouter des exemples
 
 ** Romanisation et translittération
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
@@ -161,7 +211,7 @@ Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différe
 
 Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans [[Consonnes][Consonnes]] et [[Voyelles][Voyelles]]), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
 
-Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittération, et sa romanisation francophone. Pour un équivalent anglophone, se référer à la version anglophone de cet ouvrage si cette dernière existe.
+Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittération, et sa romanisation francophone. Pour un équivalent anglophone, se référer à la version anglophone de cet ouvrage si celle-ci existe.
 
 | / | >       | >      |      |
 |   | phonème | trans. | rom. |
@@ -181,105 +231,43 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | ~a:~    | a      | a    |
 |   | ~A~     | á      | a    |
 
-| / | >       | >      |      |   | >       | >      |      |
-|   | phonème | trans. | rom. |   | phonème | trans. | rom. |
-|---+---------+--------+------+---+---------+--------+------|
-|   | ~p~     | p      | p    |   | ~b~     | b      | b    |
-|   | ~t~     | t      | t    |   | ~d~     | d      | d    |
-|   | ~t`~    | ţ      | tr   |   | ~d`~    | ḑ      | dr   |
-|   | ~k~     | k      | k    |   | ~g~     | g      | g    |
-|   | ~f~     | f      | f    |   | ~v~     | v      | v    |
-|   | ~T~     | þ      | th   |   | ~D~     | ð      | dh   |
-|   | ~s~     | s      | s    |   | ~z~     | z      | z    |
-|   | ~S~     | ß      | sh   |   | ~Z~     | ź      | j    |
-|   | ~s\~    | š      | sh   |   | ~z\~    | ž      | jh   |
-|   | ~m~     | m      | m    |   | ~n~     | n      | n    |
-|   | ~N~     | ň      | ng   |   | ~?~     | ’      | ’    |
-|   | ~r~     | r      | r    |   | ~h~     | h      | h    |
-|   | ~X~     | x      | rh   |   | ~R~     | r      | r    |
-|   | ~K~     | ł      | lh   |   | ~r\~    | r      | r    |
-|   | ~l~     | l      | l    |   | ~j~     | j      | y    |
-|   | ~w~     | w      | w    |   |         |        |      |
+* Noms
+** Genres
+Le Hjalpi’ dispose d’un système de genre composé de neuf éléments :
+1. divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin.
+2. mental : se réfère à tout élément non physique ou concept, comme des pensées ou un événement. Les lieux physiques et temporels sont également classifiés dans le genre mental.
+3. liquide : se réfère, comme son nom l’indique, à tout liquide, et en particulier à l’eau, mais ne couvre pas tous les fluides (l’air n’est pas considéré comme un liquide, malgré le fait que ce soit un fluide).
+4. masculin : se réfère à tout mâle biologique humain ou semi-humain.
+6. féminin : se réfère à toute femelle biologique humaine ou semi-humaine.
+7. neutre : se réfère à groupe d’humain et/ou de semi-humains, ou bien à un humain ou semi-humain dont le sexe biologique est inconnu du locuteur. Se réfère aussi à tout membre du corps humain.
+8. animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain, ou membre d’animaux.
+9. végétal : se réfère à toute plante ou végétal.
+10. inanimé : se réfère à tout élément minéral ou physique ne rentrant pas dans les catégories précédentes.
 
-*** TODO Ajouter des exemples
+Le genre est intrinsèque à tout nom, en revanche la majorité des éléments grammaticaux (comme les noms démonstratifs, pronoms, déclinaisons) et les verbes entre autres s’accordent en genre.
 
-* Phonologie dérivationnelle
-Le Hjalpi’ est une langue riche en dérivation phonétiques du fait de sa grammaire agglutinative et fusionnelle. Les noms changent selon leur nombre, leur rôle au sein de la phrase (leur cas grammatical), les verbes s’accordent en genre et en nombre, selon l’objectivité, le mode ou l’un des nombreux temps de la phrase ou de la proposition. L’utilisation de chacun de ces éléments sera traité dans le chapitre traitant de la [[*Syntaxe][syntaxe]]. Le chapitre actuel servira principalement de référence condensée pour savoir comment accorder les divers éléments entre eux.
+** Nombre
+Le Hjalpi’ dispose d’un système de nombre des noms plutôt évolué, avec un total de cinq nombres :
 
-Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dans les règles formelles :
-- ~C~ = consonne
-- ~V~ = voyelle
-- ~N~ = nasale
-- ~F~ = fricative
-- ~P~ = consonne labiale
-- ~L~ = voyelle longue
-- ~S~ = voyelle courte
-- ~#~ = limite d’un mot
-- ~Ø~ = silencieux, muet, rien
+| / | >          | >           |                                               |
+|   | nombre     | déclinaison | description                                   |
+|---+------------+-------------+-----------------------------------------------|
+|   | singulier  | /           | un élément unique                             |
+|   | singulatif | -(e)l       | un groupe indénombrable d’éléments semblables |
+|   | duel       | -(a)t       | deux éléments                                 |
+|   | triel      | -(e)þ       | trois éléments                                |
+|   | pluriel    | -(o)st      | quatre éléments ou plus                       |
 
-** Allophonie
-En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones des-dits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[*Accord des voyelles][accords des voyelles]] ou les [[*Accord des consonnes][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
+À moins d’une contre-indication dans le dictionnaire, les noms ne portent pas en eux de nombre de façon intrinsèque, mais peuvent porter leur propriété de dénombrable ou non. Dans tous les cas, *le nombre par défaut n’est pas marqué sur le nom*, les autres si, et son marquage est prioritaire sur toute autre modification grammaticale du mot racine.
 
-*** Voyelles
-Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} [[Consonnes syllabiques][Consonnes syllabiques]], est ~/n=/~. Cependant, cette voyelle peut également être prononcée ~/m=/~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~/J=/~ ou ~/m'/~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
-  - ~/n=/ > [m=] / _P~
-  - ~/n=/ > [m=] / P_~
-  - ~/n=/ > [J=] / _I~
-  - ~/n=/ > [J=] / I_~
-- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée ~/l'=/~.
-  - ~/l=/ > [l'=] / _I~
-- Une voyelle ou un groupe de voyelles placé devant une consonne nasale se nasalise.
-  - ~V > [+nasal] / _N~
+Un nom dénombrable a pour nombre par défaut le singulier. Tout nom dénombrable peut également être mis à l’indénombrable via le singulatif si on ne connais pas le nombre d’éléments de ce nom dont il est question. En revanche, dès que l’on peut mettre un nombre sur la quantité d’éléments, même s’il n’est qu’approximatif voire même faux, le mot se met au duel en cas de deux éléments, au triel pour trois éléments et au pluriel pour quatre éléments ou plus. Les mots indénombrables ne connaissent que le singulatif et ne peuvent être mis à un autre nombre.
 
-*** Consonnes
-Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
-- La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
-  - ~/f/ > [p\,B] / V_V~
-  - ~/f/ > [p\,B] / #_V~
-  - ~/v/ > [p\,B] / V_V~
-  - ~/v/ > [p\,B] / #_V~
-- Le ~/h\/~ est considéré comme étant un allophone du /h/, dont la prononciation standard est le ~/h/~. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /í/ ou /j/ (notés ~I~), le /h/ se palatalise en un ~/C/~. Similairement, un ~[h\]~ obtenu grâce au premières règles ci-dessous change en ~[j\]~.
-  - ~/h/ > [h\] / V_V~
-  - ~/h/ > [h\] / #_V~
-  - ~/h/ > [C] / _I~
-  - ~/h/ > [C] / I_~
-  - ~[h\] > [j\] / _I~
-  - ~[h\] > [j\] / I_~
-- Le /ŗ/ a pour prononciation standard le /R/, cependant il est généralement prononcé ~/R\/~ entre deux voyelles et/ou consonne voisée (notées ~V~).
-  - ~/R/ > [R\] / V_V~
-- Le /x/ est habituellement prononcé ~/X/~, cependant il est prononcé ~/x/~ lorsqu’il est en contact avec une consonne fricative sourde (notée ~FS~).
-  - ~/X/ > [x] / FS_~
-  - ~/X/ > [x] / _FS~
-- Une consonne nasale devient silencieuse si elle est précédée d’une voyelle et suivie d’une consonne ou d’un silence. Cela fait suite à la nasalisation de la voyelle précédente.
-  - ~N > Ø / V_C~
-  - ~N > Ø / V_#~
-- Si deux consonnes fricatives toutes deux voisées ou sourdes se suivent successivement, même entre deux mots distincts, la première fricative devient silencieuse.
-  - ~F > Ø / _F~
-- Si une consonne fricative voisée (notée ~FV~) est précédée par une fricative sourde (notée ~FS~), elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
-  - ~FS > [+voisée] / FV_~
-  - ~FV > [+sourde] / FS_~
+Le singulier, le singulatif, le duel et le triel sont parfois regroupé dans le super-singulier pour certaines utilisations grammaticales, le pluriel restant à part.
+Comme précisé ci-dessus, le singulatif permet de regrouper des éléments semblables non dénombrés. Ainsi, « du sucre » ou « des arbres » sera au nombre singulatif.
 
-** Accord des voyelles
+* Cas grammaticaux
+Le Hjalpi’ est une langue très riche en cas grammaticaux et en déclinaisons. Cela lui permet ainsi d’exprimer une grande précision dans un nombre minimal de mots, et lui donne également une grande liberté quant à l’ordre des mots dans la phrase. En revanche, cela implique également un système complexe de déclinaisons qu'il faut mémoriser.
 
-L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
-
-1. Les deux voyelles sont fusionnées en une diphtongue.
-2. Si la première voyelle est une diphtongue, alors le second phonème est remplacé par la seconde voyelle après que cette dernière ait été accordée en longueur à la longueur de premier phonème de la diphtongue. Si la seconde voyelle était également une diphtongue, alors elle perd son second phonème.
-3. Si le second phonème de la diphtongue est plus ouvert que le premier, alors il est refermé afin d’être au moins aussi fermé que le premier phonème.
-4. Si le premier phonème de la diphtongue est une voyelle postérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :
-| / | >                 |                 |
-|   | phonème d’origine | nouveau phonème |
-|---+-------------------+-----------------|
-|   | u                 | y               |
-|   | ú                 | ý               |
-|   | o                 | ò               |
-|   | ó                 | ö               |
-|   | á                 | a               |
-
-** Accord des consonnes
-** Déclinaisons
-*** TODO Ajouter les liens internes
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 + V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
 + C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
@@ -288,44 +276,43 @@ Les déclinaisons se présentent sous la forme de particules (préfixes, infixes
 + -(C)V :: le suffixe est (ou commence par) une voyelle, il se placera donc à la fin du mot racine. Si ce dernier se termine par une voyelle, la consonne C sera ajoutée entre le mot racine et le suffixe.
 + -(V)C :: le suffixe est (ou commence par) une consonne, il se placera donc à la fin du mot racine. Si ce dernier se termine par une consonne, la voyelle V sera ajoutée entre le mot racine et le suffixe.
 
-Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[*Accord des voyelles][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[*Accord des consonnes][l’accord des consonnes]] ci-dessus.
+Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes.
 
-Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans *Genres*, le super-singulier (tel que décrit dans *Nombre*) est représenté par « s » et le pluriel par « p ».
-
+Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans [[*Genres][Genres]], le super-singulier (tel que décrit dans [[*Nombre][Nombre]]) est représenté par « s » et le pluriel par « p ».
 
 | / | <>                   | >       | >        | >       | >       | >       | >       |
 |   |                      | 1s      | 1p       | 2s      | 2p      | 3s      | 3p      |
 |---+----------------------+---------+----------+---------+---------+---------+---------|
-|   | abessif              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-   | e(dl)-  |
-|   | ablatif              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-   | ĺ(ž)-   |
-|   | absolutif            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a  | -(ts)a  |
-|   | accusatif            | -vo     | -vwo     | -vu     | -vwu    | -vo     | -vo     |
-|   | accusatif-temporel   | -źu     | -źu      | -źu     | -źu     | -źoy    | -źou    |
-|   | adessif              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)-  | ix(e)-  |
+|   | [[*Abessif][abessif]]              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-   | e(dl)-  |
+|   | [[*Ablatif][ablatif]]              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-   | ĺ(ž)-   |
+|   | [[*Absolutif][absolutif]]            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a  | -(ts)a  |
+|   | [[*Accusatif][accusatif]]            | -vo     | -vwo     | -vu     | -vwu    | -vo     | -vo     |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -źu     | -źu      | -źu     | -źu     | -źoy    | -źou    |
+|   | [[*Adessif][adessif]]              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)-  | ix(e)-  |
 |   | adverbial            |         |          |         |         |         |         |
 |   | agentif              |         |          |         |         |         |         |
-|   | allatif              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
+|   | [[*Allatif][allatif]]              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
 |   | antessif             |         |          |         |         |         |         |
 |   | apudessif            |         |          |         |         |         |         |
 |   | aversif              |         |          |         |         |         |         |
-|   | causal               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y  | -(b)y   |
+|   | [[*Causal][causal]]               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y  | -(b)y   |
 |   | comitatif            |         |          |         |         |         |         |
 |   | comparatif           |         |          |         |         |         |         |
 |   | datif                |         |          |         |         |         |         |
-|   | distributif          | xe(l)-  | xe(l)-   | xe(l)-  | xe(l)-  | ŗe(j)-  | ŗe(j)-  |
+|   | [[*Distributif][distributif]]          | xe(l)-  | xe(l)-   | xe(l)-  | xe(l)-  | ŗe(j)-  | ŗe(j)-  |
 |   | distributif-temporel |         |          |         |         |         |         |
-|   | délatif              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
-|   | élatif               | -(a)ły  | -(e)ły   | -(a)ły  | -(a)łu  | -(e)ły  | -(e)ły  |
+|   | [[*Délatif][délatif]]              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
+|   | [[*Élatif][élatif]]               | -(a)ły  | -(e)ły   | -(a)ły  | -(a)łu  | -(e)ły  | -(e)ły  |
 |   | équatif              |         |          |         |         |         |         |
-|   | ergatif              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo  | -(u)jo  |
+|   | [[*Ergatif][ergatif]]              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo  | -(u)jo  |
 |   | ergatif-génitif      |         |          |         |         |         |         |
-|   | essif                | -(þ)yd- | -(þ)yd-  | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- |
-|   | essif-formel         | -(ò)ţ   | -(ò)d    | -(o)d   | -(o)ḑ   | -(ò)d   | -(ò)ň   |
-|   | essif-modal          | -(’)uix | -(’)uix  | -’yiŗ   | -(’)yiŗ | -(’)uŗ  | -(’)uiŗ |
+|   | [[*Essif][essif]]                | -(þ)yd- | -(þ)yd-  | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- |
+|   | [[*Essif-formel][essif-formel]]         | -(ò)ţ   | -(ò)d    | -(o)d   | -(o)ḑ   | -(ò)d   | -(ò)ň   |
+|   | [[*Essif-modal][essif-modal]]          | -(’)uix | -(’)uix  | -’yiŗ   | -(’)yiŗ | -(’)uŗ  | -(’)uiŗ |
 |   | excessif             |         |          |         |         |         |         |
-|   | génitif              | ţ(y)-   | ţ(u)-    | ţ(y)-   | ţ(y)-   | ţ(y)-   | ţ(yi)-  |
+|   | [[*Génitif][génitif]]              | ţ(y)-   | ţ(u)-    | ţ(y)-   | ţ(y)-   | ţ(y)-   | ţ(yi)-  |
 |   | identique            |         |          |         |         |         |         |
-|   | illatif              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
+|   | [[*Illatif][illatif]]              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
 |   | inessif              |         |          |         |         |         |         |
 |   | initiatif            |         |          |         |         |         |         |
 |   | instructif           |         |          |         |         |         |         |
@@ -335,8 +322,8 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | limitatif            |         |          |         |         |         |         |
 |   | locatif              |         |          |         |         |         |         |
 |   | nominal              |         |          |         |         |         |         |
-|   | nominatif            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
-|   | oblique              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß  | -(x)eß  |
+|   | [[*Nominatif][nominatif]]            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
+|   | [[*Oblique][oblique]]              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß  | -(x)eß  |
 |   | orientatif           |         |          |         |         |         |         |
 |   | partitif             |         |          |         |         |         |         |
 |   | pégatif              |         |          |         |         |         |         |
@@ -359,36 +346,36 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 | / | <>                   | >       | >       | >       | >       | >        | >        |
 |   |                      | 4s      | 4p      | 5s      | 5p      | 6s       | 6p       |
 |---+----------------------+---------+---------+---------+---------+----------+----------|
-|   | abessif              | e(ň)-   | e(t)-   | e(st)-  | e(ßt)-  | e(nt)-   | e(ňt)-   |
-|   | ablatif              | li(ß)-  | li(ź)-  | li(ß)-  | li(ź)-  | li(s)-   | li(z)-   |
-|   | absolutif            | -(t)a   | -(š)a   | -(p)a   | -(v)a   | -(st)a   | -(ž)a    |
-|   | accusatif            | -(e)vo  | -(e)vo  | -(e)vo  | -(e)vo  | -(a)vo   | -(a)vo   |
-|   | accusatif-temporel   | -(a)źu  | -(e)źu  | -(u)źu  | -(ai)źu | -(i)źu   | -(u)źu   |
-|   | adessif              | iź(a)-  | iź(ei)- | iź(a)-  | iź(ei)- | iź(a)-   | iź(ei)-  |
+|   | [[*Abessif][abessif]]              | e(ň)-   | e(t)-   | e(st)-  | e(ßt)-  | e(nt)-   | e(ňt)-   |
+|   | [[*Ablatif][ablatif]]              | li(ß)-  | li(ź)-  | li(ß)-  | li(ź)-  | li(s)-   | li(z)-   |
+|   | [[*Absolutif][absolutif]]            | -(t)a   | -(š)a   | -(p)a   | -(v)a   | -(st)a   | -(ž)a    |
+|   | [[*Accusatif][accusatif]]            | -(e)vo  | -(e)vo  | -(e)vo  | -(e)vo  | -(a)vo   | -(a)vo   |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -(a)źu  | -(e)źu  | -(u)źu  | -(ai)źu | -(i)źu   | -(u)źu   |
+|   | [[*Adessif][adessif]]              | iź(a)-  | iź(ei)- | iź(a)-  | iź(ei)- | iź(a)-   | iź(ei)-  |
 |   | adverbial            |         |         |         |         |          |          |
 |   | agentif              |         |         |         |         |          |          |
-|   | allatif              | -li(s)- | -li(ź)- | -li(z)- | -li(š)- | -li(x)-  | -li(x)-  |
+|   | [[*Allatif][allatif]]              | -li(s)- | -li(ź)- | -li(z)- | -li(š)- | -li(x)-  | -li(x)-  |
 |   | antessif             |         |         |         |         |          |          |
 |   | apudessif            |         |         |         |         |          |          |
 |   | aversif              |         |         |         |         |          |          |
-|   | causal               | -(o)by  | -(o)by  | -(o)by  | -(o)by  | -(o)bu   | -(o)bu   |
+|   | [[*Causal][causal]]               | -(o)by  | -(o)by  | -(o)by  | -(o)by  | -(o)bu   | -(o)bu   |
 |   | comitatif            |         |         |         |         |          |          |
 |   | comparatif           |         |         |         |         |          |          |
 |   | datif                |         |         |         |         |          |          |
-|   | distributif          | he(l)-  | he(l)-  | he(l)-  | he(l)-  | ha(l)-   | ha(l)-   |
+|   | [[*Distributif][distributif]]          | he(l)-  | he(l)-  | he(l)-  | he(l)-  | ha(l)-   | ha(l)-   |
 |   | distributif-temporel |         |         |         |         |          |          |
-|   | délatif              | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   | ž(a)-    | ž(a)-    |
-|   | élatif               | -(ł)y   | -(ł)y   | -(ł)y   | -(ł)yi  | -(ł)u    | -(ł)yi   |
+|   | [[*Délatif][délatif]]              | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   | ž(a)-    | ž(a)-    |
+|   | [[*Élatif][élatif]]               | -(ł)y   | -(ł)y   | -(ł)y   | -(ł)yi  | -(ł)u    | -(ł)yi   |
 |   | équatif              |         |         |         |         |          |          |
-|   | ergatif              | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  | -(mj)o   | -(lj)o   |
+|   | [[*Ergatif][ergatif]]              | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  | -(mj)o   | -(lj)o   |
 |   | ergatif-génitif      |         |         |         |         |          |          |
-|   | essif                | -(þ)yḑ- | -(þ)yḑ- | -(ð)yţ- | -(ð)yţ- | -(þ)ud-  | -(þ)ud-  |
-|   | essif-temporel       | -(ţ)òd  | -(ţ)ed  | -(ţ)òd  | -òd     | -(ò)d    | ò(d)-    |
-|   | essif-modal          | -(’)uŗ  | -(’)uŗ  | -’u     | -(’)yŗ  | -(’)yiŗ  | -(’)yŗ   |
+|   | [[*Essif][essif]]                | -(þ)yḑ- | -(þ)yḑ- | -(ð)yţ- | -(ð)yţ- | -(þ)ud-  | -(þ)ud-  |
+|   | [[*Essif-formel][essif-formel]]         | -(ţ)òd  | -(ţ)ed  | -(ţ)òd  | -òd     | -(ò)d    | ò(d)-    |
+|   | [[*Essif-modal][essif-modal]]          | -(’)uŗ  | -(’)uŗ  | -’u     | -(’)yŗ  | -(’)yiŗ  | -(’)yŗ   |
 |   | excessif             |         |         |         |         |          |          |
-|   | génitif              | ţy-     | ţy-     | ţy(i)-  | ţy-     | ţ(eu)-   | ţo(y)-   |
+|   | [[*Génitif][génitif]]              | ţy-     | ţy-     | ţy(i)-  | ţy-     | ţ(eu)-   | ţo(y)-   |
 |   | identique            |         |         |         |         |          |          |
-|   | illatif              | -(s)òn- | -(s)en- | -(s)en- | -(s)an- | -(ps)òn- | -(ps)en- |
+|   | [[*Illatif][illatif]]              | -(s)òn- | -(s)en- | -(s)en- | -(s)an- | -(ps)òn- | -(ps)en- |
 |   | inessif              |         |         |         |         |          |          |
 |   | initiatif            |         |         |         |         |          |          |
 |   | instructif           |         |         |         |         |          |          |
@@ -398,8 +385,8 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | limitatif            |         |         |         |         |          |          |
 |   | locatif              |         |         |         |         |          |          |
 |   | nominal              |         |         |         |         |          |          |
-|   | nominatif            | pa(n)-  | pa(ń)-  | pń-     | pń-     | pa(m)-   | pa-      |
-|   | oblique                 | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   |
+|   | [[*Nominatif][nominatif]]            | pa(n)-  | pa(ń)-  | pń-     | pń-     | pa(m)-   | pa-      |
+|   | [[*Oblique][oblique]]              | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   |
 |   | orientatif           |         |         |         |         |          |          |
 |   | partitif             |         |         |         |         |          |          |
 |   | pégatif              |         |         |         |         |          |          |
@@ -423,36 +410,36 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 | / | <>                   | >       | >       | >        | >       | >         | >         |
 |   |                      | 7s      | 7p      | 8s       | 8p      | 9s        | 9p        |
 |---+----------------------+---------+---------+----------+---------+-----------+-----------|
-|   | abessif              | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-    | e(ňt)-    |
-|   | ablatif              | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-     | ĺ(v)-     |
-|   | absolutif            | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a     | -(ž)a     |
-|   | accusatif            | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy       | -vy       |
-|   | accusatif-temporel   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu    | -(o)źu    |
-|   | adessif              | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-    | iŗ(e)-    |
+|   | [[*Abessif][abessif]]              | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-    | e(ňt)-    |
+|   | [[*Ablatif][ablatif]]              | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-     | ĺ(v)-     |
+|   | [[*Absolutif][absolutif]]            | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a     | -(ž)a     |
+|   | [[*Accusatif][accusatif]]            | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy       | -vy       |
+|   | [[*Accusatif temporel][accusatif temporel]]   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu    | -(o)źu    |
+|   | [[*Adessif][adessif]]              | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-    | iŗ(e)-    |
 |   | adverbial            |         |         |          |         |           |           |
 |   | agentif              |         |         |          |         |           |           |
-|   | allatif              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
+|   | [[*Allatif][allatif]]              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
 |   | antessif             |         |         |          |         |           |           |
 |   | apudessif            |         |         |          |         |           |           |
 |   | aversif              |         |         |          |         |           |           |
-|   | causal               | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy       | -vy       |
+|   | [[*Causal][causal]]               | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy       | -vy       |
 |   | comitatif            |         |         |          |         |           |           |
 |   | comparatif           |         |         |          |         |           |           |
 |   | datif                |         |         |          |         |           |           |
-|   | distributif          | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-    | še(l)-    |
+|   | [[*Distributif][distributif]]          | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-    | še(l)-    |
 |   | distributif-temporel |         |         |          |         |           |           |
-|   | délatif              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
-|   | élatif               | -ły     | -(a)ły  | -(ł)ay   | -(ł)ey  | -(ł)ay    | -łay      |
+|   | [[*Délatif][délatif]]              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
+|   | [[*Élatif][élatif]]               | -ły     | -(a)ły  | -(ł)ay   | -(ł)ey  | -(ł)ay    | -łay      |
 |   | équatif              |         |         |          |         |           |           |
-|   | ergatif              | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo    | -(u)jo    |
+|   | [[*Ergatif][ergatif]]              | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo    | -(u)jo    |
 |   | ergatif-génitif      |         |         |          |         |           |           |
-|   | essif                | -þy(d)- | -þy(d)- | -þy(d)-  | -þy(d)- | -(oi)þyd- | -(oi)þyd- |
-|   | essif-temporel       | -òd     | -(ò)ns  | -òd      | -òts    | -(ò)ß     | -(ò)ßt    |
-|   | essif-modal          | -(’)uŗ  | -(’)u   | -(’)u    | -(’)ust | -(’)uŗ    | -(’)uŗ    |
+|   | [[*Essif][essif]]                | -þy(d)- | -þy(d)- | -þy(d)-  | -þy(d)- | -(oi)þyd- | -(oi)þyd- |
+|   | [[*Essif-formel][essif-formel]]         | -òd     | -(ò)ns  | -òd      | -òts    | -(ò)ß     | -(ò)ßt    |
+|   | [[*Essif-modal][essif-modal]]          | -(’)uŗ  | -(’)u   | -(’)u    | -(’)ust | -(’)uŗ    | -(’)uŗ    |
 |   | excessif             |         |         |          |         |           |           |
-|   | génitif              | ţy-     | ţ(u)-   | ţ(u)-    | ţu-     | ţ(y)-     | ţ(u)-     |
+|   | [[*Génitif][génitif]]              | ţy-     | ţ(u)-   | ţ(u)-    | ţu-     | ţ(y)-     | ţ(u)-     |
 |   | identique            |         |         |          |         |           |           |
-|   | illatif              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
+|   | [[*Illatif][illatif]]              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
 |   | inessif              |         |         |          |         |           |           |
 |   | initiatif            |         |         |          |         |           |           |
 |   | instructif           |         |         |          |         |           |           |
@@ -462,8 +449,8 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | limitatif            |         |         |          |         |           |           |
 |   | locatif              |         |         |          |         |           |           |
 |   | nominal              |         |         |          |         |           |           |
-|   | nominatif            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
-|   | oblique              | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß   | -(x)oiß   |
+|   | [[*Nominatif][nominatif]]            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
+|   | [[*Oblique][oblique]]              | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß   | -(x)oiß   |
 |   | orientatif           |         |         |          |         |           |           |
 |   | partitif             |         |         |          |         |           |           |
 |   | pégatif              |         |         |          |         |           |           |
@@ -483,10 +470,118 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | translatif           |         |         |          |         |           |           |
 |   | vocatif              |         |         |          |         |           |           |
 src_latex{\newpage}
+Ci-dessous, chaque cas grammatical sera expliqué ainsi que son utilisation dans le Hjalpi’.
 
+** Lieu
+*** Adessif
+Le cas adessif est utilisé pour exprimer un lieu adjacent au nom décliné. Exemples :
+- /ixÐbńo/ : à côté de Dbńo
+- /íŗmén/ : près de la maison
 
+** Déplacement depuis un point
+*** Ablatif
+Afin de décrire un déplacement depuis un point dans un lieu ouvert, le cas ablatif peut être utilisé pour décliner ledit point pour le marquer en tant que tel. Exemples :
+- /ĺmén/ : depuis l’extérieur de la maison
+- /liÐbńo/ : depuis l’extérieur de Ðbńo, depuis l’extérieur de la ville
+
+*** Délatif
+Le cas délatif exprime un déplacement ou mouvement depuis la surface d’un lieu ou d’un objet.
+- /ßémén/ : depuis le toit de la maison
+- /ßeraòmm/ : depuis la couverture du livre / depuis la surface d’un livre ouvert
+
+*** Élatif
+Le cas élatif exprime un mouvement ou la provenance de quelque chose depuis l’intérieur du lieu ou de l’objet décliné.
+- /ménay/ : depuis l’intérieur de la maison
+- /nareły/ : depuis la rivière (sous-entendu dans l’eau)
+
+Cas intéressant, l’élatif peut également être utilisé pour ce qui est des citations de livres ou tout autre support écrit. Ainsi, on peut utiliser /raòmay/ (« depuis l’intérieur du livre ») pour citer un passage du livre dont il est question.
+** Déplacement vers un point
+*** Allatif
+L’allatif permet de marquer le lieu ou le point sur lequel se produit un mouvement. /Attention à l’irrégularité du placement de la déclinaison pour le genre inanimé !/ Exemple :
+- /riþaòm/ : un déplacement ou un mouvement se fait sur un livre
+
+*** Illatif
+L’illatif permet de marquer le lieu à l’intérieur du quel s’effectue un mouvement ou déplacement. Exemple :
+- /ménén/ : à l’intérieur de la maison
+- /nònarat/ : dans deux rivière
+
+** Déplacement via un point
+** Temporalité
+*** Accusatif temporel
+Le cas accusatif, dans un contexte de temporalité, sert à désigner une durée de temps. À ne pas confondre avec le cas [[*Accusatif][accusatif]] d’alignement morphosyntaxique.
+- J’ai dormi *durant sept heures*.
+*** Essif-temporel
+L’essif-temporel se comporte et se décline exactement comme l’[[*Essif][essif]], mais sert dans ce cas à déterminer une date ou un temps durant lequel une action se déroule.
+- /ðúdúbém/ : lors du septième jour de la semaine
+
+** Alignement Morphosyntaxique
+*** Absolutif
+*Ergatif* Le cas absolutif marque de sujet des verbes transitif et l’objet des verbes intransitif (le patient) dans une phrase ou dans une proposition ergative. En opposition au cas [[*Ergatif][ergatif]], il peut être également assumé par les cas [[*Accusatif][accusatif]] ou [[*Nominatif][nominatif]] dans les phrases ou propositions nominatives.
+- *Je* dors.
+- Je lis *un livre*.
+
+*** Accusatif
+*Nominatif* L’accusatif permet de marquer l’objet d’un verbe transitif (le patient) dans les phrases ou propositions nominatives, et s’oppose au cas [[*Nominatif][nominatif]]. L’accusatif peut être assumé par le cas [[*Absolutif][absolutif]] dans les phrases ergatives.
+- Je lis *un livre*.
+
+*** Ergatif
+Le cas ergatif marque le sujet des verbes transitifs (l’agent) dans une phrase ou proposition ergative et s’oppose à l’[[*Absolutif][absolutif]]. Il peut être assumé par le cas [[*Nominatif][nominatif]] dans les phrases ou propositions nominatives.
+- *Je* lis un livre.
+
+*** Nominatif
+Le cas nominatif marque le sujet des verbes transitifs et intransitifs (l’agent) dans une phrase ou proposition nominative, et s’oppose au cas [[*Accusatif][accusatif]]. Il peut être assumé par les cas [[*Ergatif][ergatif]] et [[*Absolutif][absolutif]] dans les phrases ou propositions ergatives.
+- *Je* dors.
+- *Je* lis un livre.
+
+*** Oblique
+Le cas oblique sert à citer l’élément décliné, mettant le terme décliné à l’oblique comme entre guillemets. L’oblique peut également se marquer après le verbe d’une phrase ou proposition afin de marquer la citation, tel que la particule « to » en japonais ou « zhes » en tibétain. Dans le dernier cas, le verbe ne sera pas décliné, mais on lui accolera la particule « ŗeß ».
+- Elle m’a dit *« je viens demain »*.
+- Il m’a dit *qu’il l’a vu hier*.
+- Ce n’était pas un *« accident »*, comme il le dit.
+
+** Relation
+*** Causal
+Le cas causal permet de marquer la raison de l’action exprimée par le verbe principal de la phrase ou de la proposition (similaire à la particule grammaticale « kara » en japonais). Exemples :
+- /hjalpi’váruby/ : du fait de la langue Hjalpi’
+- /pánámóbý/ : du fait du père
+
+*** Distributif
+Le cas distributif indique une distribution égale entre les éléments déterminés. En français, il s’agit l’équivalent du « par » comme dans « il n’y a *par commune* qu’une seule mairie ».
+- /šereòm/ : par livre
+- /háðenmóíl/ : par individu
+
+*** Génitif
+Le génitif est utilisé afin de marquer un complément de nom ou une appartenance, similairement à la particule « no » japonaise ou au « ’s » anglais. Le complément de nom porte la déclinaison et se situe avant le nom.
+- /ţýmén raòm/ : le livre de la maison
+- /ţynarat hjalp/ : le dieu des deux rivières
+
+** Sémantique
+** État
+*** Abessif
+Le cas abessif est un cas grammatical exprimant l’absence de l’élément décliné. L’équivalent en français est « sans X ». Exemple dans quelques langues naturelles :
+- « sans parler »
+- « excepté » (sans prendre dans le nombre)
+
+*** Essif
+L’essif exprime un état temporaire ou une qualité temporaire. Il s’agit du cas général pouvant se spécialiser en [[*Essif-formel][essif-formel]] pour déterminer une qualité, ou en [[*Essif-modal][essif-modal]] pour un état. Il peut également être utilisé pour des questions temporelles, voir [[*Essif-temporel][Essif-temporel]].
+- /hjydalpel/ : en qualité de dieux, en tant que dieux (/hjalp/ étant au singulatif)
+- /moiþydén/ : en tant que maison
+
+*** Essif-formel
+L’essif-formel est une spécialisation de l’[[*Essif][essif]] permettant d’exprimer une qualité physique.
+
+*** Essif-modal
+L’essif-formel est une spécialisation de l’[[*Essif][essif]] permettant d’exprimer l’état du sujet ou de l’agent (dans les phrases ou propositions nominatives), ou le sujet ou le patient (dans les phrases ou propositions ergatives).
+
+* Adjectifs
+* Adverbes
+* Verbes
+* Pronoms et déterminants
+* Nombres
+** Nombres Cardinaux
+** Nombres Ordinaux
+* Interjections
+* Interrogation
 * Syntaxe
-* Champs sémantiques et pragmatismes
-* Système d’écriture
-* Exemples
-* Glossaire
+
+#  LocalWords:  super-singulier non-arrondie pré-fermée Ðbńo
