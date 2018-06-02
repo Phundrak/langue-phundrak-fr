@@ -2,9 +2,11 @@
 #+LANGUAGE: fr
 #+SETUPFILE: theme-bigblow.setup
 #+LATEX_CLASS: article
-#+LaTeX_CLASS_OPTIONS: [a4paper]
-#+LATEX_HEADER: %!TEX TS-program = xelatex
-#+LATEX_HEADER: %!TEX encoding = UTF-8 Unicode
+#+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
 #+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,10in}]{geometry}\setromanfont[Numbers=Uppercase]{Charis SIL}
 #+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+#+OPTIONS: toc:nil
+src_latex{\newpage}
+#+TOC: headlines
+src_latex{\newpage}

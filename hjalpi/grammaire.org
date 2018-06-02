@@ -1,6 +1,5 @@
 #+TITLE: Grammaire du Hjalpi’
 #+INCLUDE: "../headers.org"
-src_latex{\newpage}
 
 * Introduction
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
@@ -277,9 +276,9 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | ó                 | ö               |
 |   | á                 | a               |
 
-** Accord des consonnes
+** TODO Accord des consonnes
 ** Déclinaisons
-*** TODO Ajouter les liens internes
+*** TODO Ajouter les liens internes et terminer le tableau
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 + V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
 + C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
@@ -399,7 +398,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | locatif              |         |         |         |         |          |          |
 |   | nominal              |         |         |         |         |          |          |
 |   | nominatif            | pa(n)-  | pa(ń)-  | pń-     | pń-     | pa(m)-   | pa-      |
-|   | oblique                 | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   |
+|   | oblique              | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   |
 |   | orientatif           |         |         |         |         |          |          |
 |   | partitif             |         |         |         |         |          |          |
 |   | pégatif              |         |         |         |         |          |          |
@@ -490,3 +489,115 @@ src_latex{\newpage}
 * Système d’écriture
 * Exemples
 * Glossaire
+
+Abréviations :
+- 1 : genre divin
+- 2 : genre mental
+- 3 : genre liquide
+- 4 : genre masculin
+- 5 : genre féminin
+- 6 : genre neutre
+- 7 : genre animal
+- 8 : genre végétal
+- 9 : genre inanimé
+- adj. : adjectif
+- ind. : indénombrable
+- n. : nom
+- pron. : pronom
+- vi. : verbe intransitif
+- vt : verbe transitif
+
+** Actions physiques
+- kļnyþ (v.) :: casser, briser
+** Amour
+** Animaux
+- nael (n.7) :: cheval
+** Art
+- raòm (n.9) :: livre
+** Astronomie
+- jaom (n.1) :: astre
+** Bâtiments
+- mén (n.9) :: maison (bâtiment)
+** Commerce
+** Conflits
+** Conteneurs
+** Corps
+- gar (n.6) :: tête
+- pńt (n.6) :: main
+- wan (n.6) :: pied
+** Couleurs
+- ðúr (adj.) :: argent (couleur)
+** Dimensions
+** Direction
+- ňam (n.2) :: ouest
+- watßúd (n.2) :: nord
+- wémšal (n.2) :: est (direction)
+- zelðeg (n.2) :: sud
+** Eau
+** Effort
+** Éléments
+** Émotions
+- feŗan (n.2) :: tristesse
+** Évaluation
+- ’eßtef (adj.) :: mauvais
+** Événements
+- gén (n.2) :: acte, action
+** Existence
+** Famille
+- ánám (n.6) :: parent
+- mánám (n.5) :: mère, maman
+- pánám (n.4) :: père, papa
+** Forme
+** Gouvernement
+** Grammaire
+- pöb (pron. interrogatif) :: quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
+*** Pronoms interrogatifs
+**** Temps
+- pejb (pron. interrogatif essif) :: quand, à quel moment. /pöb/ décliné à l’essif.
+- pöémp (pron. interrogatif limitatif) :: jusqu’à quand. /pöb/ décliné au limitatif.
+- pövwó (pron. interrogatif accusatif) :: sur quelle durée, pendent combien de temps. /pöb/ décliné à l’accusatif.
+
+** Guerre
+- wóúl (n.2) :: attaque
+** Légal
+** Lieux
+** Lumière
+** Mental
+** Mesures
+** Métaux
+** Mouvement
+- jĺšek (n.9) :: chemin, voie
+- wyhakòm (vt.) :: quitter, partir
+** Nature
+** Nombres
+** Nourriture
+** Outils
+** Parole
+- vár (n.2) :: langue (linguistique), langage, parole
+** Péchés
+** Physique
+** Possession
+** Religion
+- hjalp (n.1) :: dieu céleste
+- melex (n.1) :: dieu terrestre
+** Savoir
+- bóljòluþ (vt.) :: savoir
+- wanmjöd (n.2) :: savoir, connaissance
+** Sensations
+- feŗtef (n.2) :: douleur. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
+- núótöm (vt.) :: voir
+** Sexe
+** Société
+** Substances
+- lúb (n.9) :: air
+** Temps
+- bém (n.2) :: jour (cycle temporel)
+- heol (n.2) :: heure
+- łail (n.2) :: année
+- ţealnat (adj.) :: précision temporelle, précis.
+*** Jours de la semaine
+- ðúbém (n.2) :: septième jour de la semaine / jour d’agent. Étymologie : /ðúr/ + /bém/
+** Travail
+** Végétaux
+** Vêtements
+** Vie et santé
