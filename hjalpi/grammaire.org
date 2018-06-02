@@ -19,120 +19,120 @@ Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la maj
 |   | mi-ouvertes | é / ö       | ó            |
 |   | ouvertes    | a           | á            |
 
-Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en X-SAMPA :
+Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en IPA :
 
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
-|   | fermées     | ~i:~ / ~y:~  | ~u:~         |
-|   | pré-fermées | ~I~ / ~Y~   | ~U~          |
-|   | mi-fermées  | ~e:~ / ~2:~ | ~o:~         |
-|   | mi-ouvertes | ~E~ / ~9~   | ~O~          |
-|   | ouvertes    | ~a:~        | ~A~          |
+|   | fermées     | iː / yː     | uː           |
+|   | pré-fermées | ɪ / ʏ       | ʊ            |
+|   | mi-fermées  | eː / øː     | oː           |
+|   | mi-ouvertes | ɛ / œ       | ɔ            |
+|   | ouvertes    | aː          | ɑ            |
 
 
 
-Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur ~/n=/~ et ~/l=/~.
+Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ǒ/, /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ n’aura pas la même signification que /þrán/. En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
+On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ ( /θraːn/ ) n’aura pas la même signification que /þrán/ ( /θrɑn/ ). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
 *** Voyelles courtes
 
-- ~/A/~ : á
+-  /ɑ/ : á
 Le /á/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
 
-- ~/9/~ : ö
+-  /œ/ : ö
 Il s’agit ici du son « eu » tel qu’on le retrouve en français tel que dans le mot « neuf ».
 
-- ~/I/~ : í
+-  /ɪ/ : í
 Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ». Il s’agit de la voyelle pré-fermée antérieure non-arrondie.
 
-- ~/E/~ : é
+-  /ɛ/ : é
 Nous avons ici la voyelle « è » que l’on retrouve en français par exemple dans le mot « cette ».
 
-- ~/O/~ : ó
+-  /ɔ/ : ó
 Il s’agit du « o » ouvert, que l’on retrouve en français dans le mot « sort » par exemple.
 
-- ~/Y/~ : ý
+-  /ʏ/ : ý
 Cette voyelle est un équivalent du « u » français ouvert, que l’on peut retrouver en Allemand comme dans « Müller » par exemple. Il s’agit de la voyelle antérieure pré-fermée arrondie.
 
-- ~/U/~ : ú
+-  /ʊ/ : ú
 Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
 
 *** Voyelles longues
-- ~/a:/~ : a
+-  /aː/ : a
 Cette voyelle est le « a » que l’on peut retrouver dans le français tel que dans « patte », à la différence que le « a » de le Hjalpi’ est prononcé un peu plus longuement que le « a » français.
 
-- ~/2:/~ : ò
+-  /øː/ : ò
 Cette voyelle est la même que le « eu » français que l’on retrouve dans le mot « deux », à la différence que le « ò » divin est prononcé un peu plus longuement que le « eu » français.
 
-- ~/i:/~ : i
+-  /iː/ : i
 Cette voyelle est la même que le « i » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
 
-- ~/e:/~ : e
+-  /eː/ : e
 Cette voyelle est la même que le « é » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
 
-- ~/o:/~ : o
+-  /oː/ : o
 Cette voyelle est la même que le « o » français comme dans « eau », à la différence que le « o » de le Hjalpi’ est prononcé un peu plus longuement que le « o » français.
 
-- ~/y:/~ : y
+-  /yː/ : y
 Cette voyelle est la même que le « u » français, à la différence que le « u » de le Hjalpi’ est prononcé un peu plus longuement que le « u » français.
 
-- ~/u:/~ : u
+-  /uː/ : u
 Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
 
 *** Consonnes syllabiques
-- ~/n=/~ : ń
-Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé ~/bVtn=/~.
+-  /n̩/ : ń
+Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé  /bʌtn̩/.
 
-- ~/l=/~ : ĺ
-Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé ~/bOtl=/~, avec le ~/U/~ qui est omis et le ~/l/~ devenant syllabique.
+-  /l̩/ : ĺ
+Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
 
 *** TODO Diphtongues
 
 ** Consonnes
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
 
-| / | >    |   | > |    | > |   | > |   | > |    | > |   | > |   | > |   | > |    | > |    | > |   | > |
-|   |      | b |   | ld |   | d |   | a |   | pa |   | r |   | p |   | v |   | uv |   | ph |   | g |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | pl   | p | b |    |   |   |   | t | d |    |   | ţ | ḑ |   |   | k | g |    |   |    |   | ' |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | n    |   | m |    |   |   |   |   | n |    |   |   |   |   |   |   | ň |    |   |    |   |   |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | t    |   |   |    |   |   |   |   | r |    |   |   |   |   |   |   |   |    |   |    |   |   |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | afr  |   |   | f  | v | þ | ð | s | z | ß  | ź |   |   | š | ž |   |   | x  | ŗ |    |   | h |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | lafr |   |   |    |   |   |   | ł |   |    |   |   |   |   |   |   |   |    |   |    |   |   |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | apr  |   |   |    |   |   |   | ŕ |   |    |   |   |   |   | j |   |   |    |   |    |   |   |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | lapr |   |   |    |   |   |   | l |   |    |   |   |   |   |   |   |   |    |   |    |   |   |   |
-|---+------+---+---+----+---+---+---+---+---+----+---+---+---+---+---+---+---+----+---+----+---+---+---|
-|   | sv   | w |   |    |   |   |   |   |   |    |   |   |   |   |   |   |   |    |   |    |   |   |   |
+| / | >    | >   | >   | >   | >   | >   | >   | >   | >   | >   | [ |
+|   |      | b   | ld  | d   | a   | pa  | r   | p   | v   | uv  | g |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | pl   | p b |     |     | t d |     | ţ ḑ |     | k g |     | ' |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | n    | m   |     |     | n   |     |     |     | ň   |     |   |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | t    |     |     |     | r   |     |     |     |     |     |   |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | afr  |     | f v | þ ð | s z | ß ź |     | š ž |     | x ŗ | h |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | lafr |     |     |     | ł   |     |     |     |     |     |   |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | apr  |     |     |     | ŕ   |     |     | j   |     |     |   |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | lapr |     |     |     | l   |     |     |     |     |     |   |
+|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
+|   | sv   | w   |     |     |     |     |     |     |     |     |   |
 
-Phonétique X-SAMPA :
-| / | >    |     | >   |     | >   |     | >   |      | >   |      | >    |      | >    |     | >    |     | >   |     | >   |    | > |     | > |
-|   |      | b   |     | ld  |     | d   |     | a    |     | pa   |      | r    |      | p   |      | v   |     | uv  |     | ph |   | g   |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | pl   | ~p~ | ~b~ |     |     |     |     | ~t~  | ~d~ |      |      | ~t`~ | ~d`~ |     |      | ~k~ | ~g~ |     |     |    |   | ~?~ |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | n    |     | ~m~ |     |     |     |     |      | ~n~ |      |      |      |      |     |      |     | ~N~ |     |     |    |   |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | t    |     |     |     |     |     |     |      | r   |      |      |      |      |     |      |     |     |     |     |    |   |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | afr  |     |     | ~f~ | ~v~ | ~T~ | ~D~ | ~s~  | ~z~ | ~s`~ | ~z`~ |      |      | ~C~ | ~j\~ |     |     | ~x~ | ~R~ |    |   | ~h~ |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | lafr |     |     |     |     |     |     | ~K~  |     |      |      |      |      |     |      |     |     |     |     |    |   |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | apr  |     |     |     |     |     |     | ~r\~ |     |      |      |      |      |     | j    |     |     |     |     |    |   |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | lapr |     |     |     |     |     |     | ~l~  |     |      |      |      |      |     |      |     |     |     |     |    |   |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+------+-----+------+------+------+------+-----+------+-----+-----+-----+-----+----+---+-----+---|
-|   | sv   | ~w~ |     |     |     |     |     |      |     |      |      |      |      |     |      |     |     |     |     |    |   |     |   |
+Phonétique IPA :
+| / | >    | >    | >     | >    | >    | >   | >    | >    | >    | >     | > |
+|   |      | b    | ld    | d    | a    | pa  | r    | p    | v    | uv    | g |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | pl   | p  b |       |      | t  d |     | ʈ  ɖ |      | k  ɡ |       | ʔ |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | n    | m    |       |      | n    |     |      |      | ŋ    |       |   |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | t    |      |       |      | r    |     |      |      |      |       |   |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | afr  |      | f   v | θ  ð | s  z | ʃ ʒ |      | ç  ʝ |      | χ   ʁ | h |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | lafr |      |       |      | ɬ    |     |      |      |      |       |   |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | apr  |      |       |      | ɹ    |     |      | j    |      |       |   |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | lapr |      |       |      | l    |     |      |      |      |       |   |
+|---+------+------+-------+------+------+-----+------+------+------+-------+---|
+|   | sv   | w    |       |      |      |     |      |      |      |       |   |
 
 
 Abréviations :
@@ -144,7 +144,6 @@ Abréviations :
 | r  | rétroflexe      |   | lafr | fricatif latéral   |
 | v  | velaire         |   | apr  | aproximant         |
 | uv | uvulaire        |   | lapr | aproximant latéral |
-| ph | pharyngal       |   |      |                    |
 | g  | glottal         |   |      |                    |
 
 ** Accentuation
@@ -165,40 +164,40 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 | / | >       | >      |      |
 |   | phonème | trans. | rom. |
 |---+---------+--------+------|
-|   | ~i:~    | i      | i    |
-|   | ~y:~    | y      | u    |
-|   | ~u:~    | u      | ou   |
-|   | ~I~     | í      | i    |
-|   | ~Y~     | ý      | u    |
-|   | ~U~     | ú      | ou   |
-|   | ~e:~    | e      | é    |
-|   | ~2:~    | ò      | e    |
-|   | ~o:~    | o      | o    |
-|   | ~E~     | é      | è    |
-|   | ~9~     | ö      | eu   |
-|   | ~O~     | ó      | au   |
-|   | ~a:~    | a      | a    |
-|   | ~A~     | á      | a    |
+|   | iː      | i      | i    |
+|   | yː      | y      | u    |
+|   | uː      | u      | ou   |
+|   | ɪ       | í      | i    |
+|   | ʏ       | ý      | u    |
+|   | ʊ       | ú      | ou   |
+|   | eː      | e      | é    |
+|   | øː      | ò      | e    |
+|   | oː      | o      | o    |
+|   | ɛ       | é      | è    |
+|   | œ       | ö      | eu   |
+|   | ɔ       | ó      | au   |
+|   | aː      | a      | a    |
+|   | ɑ       | á      | a    |
 
-| / | >       | >      |      |   | >       | >      |      |
-|   | phonème | trans. | rom. |   | phonème | trans. | rom. |
-|---+---------+--------+------+---+---------+--------+------|
-|   | ~p~     | p      | p    |   | ~b~     | b      | b    |
-|   | ~t~     | t      | t    |   | ~d~     | d      | d    |
-|   | ~t`~    | ţ      | tr   |   | ~d`~    | ḑ      | dr   |
-|   | ~k~     | k      | k    |   | ~g~     | g      | g    |
-|   | ~f~     | f      | f    |   | ~v~     | v      | v    |
-|   | ~T~     | þ      | th   |   | ~D~     | ð      | dh   |
-|   | ~s~     | s      | s    |   | ~z~     | z      | z    |
-|   | ~S~     | ß      | sh   |   | ~Z~     | ź      | j    |
-|   | ~s\~    | š      | sh   |   | ~z\~    | ž      | jh   |
-|   | ~m~     | m      | m    |   | ~n~     | n      | n    |
-|   | ~N~     | ň      | ng   |   | ~?~     | ’      | ’    |
-|   | ~r~     | r      | r    |   | ~h~     | h      | h    |
-|   | ~X~     | x      | rh   |   | ~R~     | r      | r    |
-|   | ~K~     | ł      | lh   |   | ~r\~    | r      | r    |
-|   | ~l~     | l      | l    |   | ~j~     | j      | y    |
-|   | ~w~     | w      | w    |   |         |        |      |
+| / | >       | >      |      | <> | >       | >      |      |
+|   | phhhonème | trans. | rom. |    | phonème | trans. | rom. |
+|---+---------+--------+------+----+---------+--------+------|
+|   | p       | p      | p    |    | b       | b      | b    |
+|   | t       | t      | t    |    | d       | d      | d    |
+|   | ʈ       | ţ      | tr   |    | ɖ       | ḑ      | dr   |
+|   | k       | k      | k    |    | ɡ       | g      | g    |
+|   | f       | f      | f    |    | v       | v      | v    |
+|   | θ       | þ      | th   |    | ð       | ð      | dh   |
+|   | s       | s      | s    |    | z       | z      | z    |
+|   | ʃ       | ß      | sh   |    | ʒ       | ź      | j    |
+|   | ç       | š      | sh   |    | ʝ       | ž      | jh   |
+|   | m       | m      | m    |    | n       | n      | n    |
+|   | ŋ       | ň      | ng   |    | ʔ       | ’      | ’    |
+|   | r       | r      | r    |    | h       | h      | h    |
+|   | χ       | x      | rh   |    | ʁ       | r      | r    |
+|   | ɬ       | ł      | lh   |    | ɹ       | r      | r    |
+|   | l       | l      | l    |    | j       | j      | y    |
+|   | w       | w      | w    |    |         |        |      |
 
 *** TODO Ajouter des exemples
 
@@ -221,43 +220,45 @@ En Hjalpi’, il existe de nombreuses règles sur la modification de prononciati
 
 *** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} [[Consonnes syllabiques][Consonnes syllabiques]], est ~/n=/~. Cependant, cette voyelle peut également être prononcée ~/m=/~ si le « ń » est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en ~/J=/~ ou ~/m'/~ si le « ń » est adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
-  - ~/n=/ > [m=] / _P~
-  - ~/n=/ > [m=] / P_~
-  - ~/n=/ > [J=] / _I~
-  - ~/n=/ > [J=] / I_~
-- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée ~/l'=/~.
-  - ~/l=/ > [l'=] / _I~
+- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} [[Consonnes syllabiques][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
+  -  /n̩/ > [m̩] / _P
+  -  /n̩/ > [m̩] / P_
+  -  /n̩/ > [ɲ̩] / _I
+  -  /n̩/ > [ɲ̩] / I_
+  -  /n̩/ > [m̩ʲ] / P_ I
+  -  /n̩/ > [m̩ʲ] / I_ P
+- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée /l̩ʲ/.
+  -  /l̩/ > [l̩ʲ] / _I
 - Une voyelle ou un groupe de voyelles placé devant une consonne nasale se nasalise.
-  - ~V > [+nasal] / _N~
+  - V > [+nasal] / _N
 
 *** Consonnes
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
 - La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
-  - ~/f/ > [p\,B] / V_V~
-  - ~/f/ > [p\,B] / #_V~
-  - ~/v/ > [p\,B] / V_V~
-  - ~/v/ > [p\,B] / #_V~
-- Le ~/h\/~ est considéré comme étant un allophone du /h/, dont la prononciation standard est le ~/h/~. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /í/ ou /j/ (notés ~I~), le /h/ se palatalise en un ~/C/~. Similairement, un ~[h\]~ obtenu grâce au premières règles ci-dessous change en ~[j\]~.
-  - ~/h/ > [h\] / V_V~
-  - ~/h/ > [h\] / #_V~
-  - ~/h/ > [C] / _I~
-  - ~/h/ > [C] / I_~
-  - ~[h\] > [j\] / _I~
-  - ~[h\] > [j\] / I_~
-- Le /ŗ/ a pour prononciation standard le /R/, cependant il est généralement prononcé ~/R\/~ entre deux voyelles et/ou consonne voisée (notées ~V~).
-  - ~/R/ > [R\] / V_V~
-- Le /x/ est habituellement prononcé ~/X/~, cependant il est prononcé ~/x/~ lorsqu’il est en contact avec une consonne fricative sourde (notée ~FS~).
-  - ~/X/ > [x] / FS_~
-  - ~/X/ > [x] / _FS~
+  -  /f/ > [ɸ,β] / V_ V
+  -  /f/ > [ɸ,β] / V_ V
+  -  /v/ > [ɸ,β] / V_ V
+  -  /v/ > [ɸ,β] / V_ V
+- Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /í/ ou /j/ (notés ~I~), le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
+  -  /h/ > [ɦ] / V_ V
+  -  /h/ > [ɦ] / #_ V
+  -  /h/ > [ç] / _I
+  -  /h/ > [ç] / I_
+  -  [ɦ] > [ʝ] / _I
+  -  [ɦ] > [ʝ] / I_
+- Le /ŗ/ a pour prononciation standard le /ʁ/, cependant il est généralement prononcé /ʀ/ entre deux voyelles et/ou consonne voisée (notées ~V~).
+  -  /ʁ/ > [ʀ] / V_ V
+- Le /x/ est habituellement prononcé /χ/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde (notée ~FS~).
+  -  /χ/ > [x] / FS_
+  -  /χ/ > [x] / _FS
 - Une consonne nasale devient silencieuse si elle est précédée d’une voyelle et suivie d’une consonne ou d’un silence. Cela fait suite à la nasalisation de la voyelle précédente.
-  - ~N > Ø / V_C~
-  - ~N > Ø / V_#~
+  - N > Ø / V_ C
+  - N > Ø / V_ #
 - Si deux consonnes fricatives toutes deux voisées ou sourdes se suivent successivement, même entre deux mots distincts, la première fricative devient silencieuse.
-  - ~F > Ø / _F~
+  - F > Ø / _F
 - Si une consonne fricative voisée (notée ~FV~) est précédée par une fricative sourde (notée ~FS~), elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
-  - ~FS > [+voisée] / FV_~
-  - ~FV > [+sourde] / FS_~
+  - FS > [+voisée] / FV_
+  - FV > [+sourde] / FS_
 
 ** Accord des voyelles
 
@@ -482,7 +483,6 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | translatif           |         |         |          |         |           |           |
 |   | vocatif              |         |         |          |         |           |           |
 src_latex{\newpage}
-
 
 * Syntaxe
 * Champs sémantiques et pragmatismes
