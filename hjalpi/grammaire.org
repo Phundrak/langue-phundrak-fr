@@ -2,6 +2,7 @@
 #+INCLUDE: "../headers.org"
 
 * Introduction
+
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
 
 Cette langue sera également utilisée pour créer d’autres langues qui auront évolué depuis la langue divine en des langues (me paraissant) beaucoup plus simples afin de créer des langues pour les mortels.
@@ -305,16 +306,16 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | adverbial            |         |          |         |         |         |         |
 |   | agentif              |         |          |         |         |         |         |
 |   | allatif              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
-|   | antessif             |         |          |         |         |         |         |
-|   | apudessif            |         |          |         |         |         |         |
+|   | antessif             | vwo(n)- | vw(o)-   | v(o)-   | vw(o)-  | vwo-    | vo-     |
+|   | apudessif            | þ(e)-   | ð(e)-    | ð(e)-   | ðe-     | þ(e)-   | ð(e)-   |
 |   | aversif              |         |          |         |         |         |         |
 |   | causal               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y  | -(b)y   |
 |   | comitatif            |         |          |         |         |         |         |
 |   | comparatif           |         |          |         |         |         |         |
 |   | datif                |         |          |         |         |         |         |
+|   | délatif              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
 |   | distributif          | xe(l)-  | xe(l)-   | xe(l)-  | xe(l)-  | ŗe(j)-  | ŗe(j)-  |
 |   | distributif-temporel |         |          |         |         |         |         |
-|   | délatif              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
 |   | élatif               | -(a)ły  | -(e)ły   | -(a)ły  | -(a)łu  | -(e)ły  | -(e)ły  |
 |   | équatif              |         |          |         |         |         |         |
 |   | ergatif              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo  | -(u)jo  |
@@ -326,33 +327,33 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | génitif              | ţ(y)-   | ţ(u)-    | ţ(y)-   | ţ(y)-   | ţ(y)-   | ţ(yi)-  |
 |   | identique            |         |          |         |         |         |         |
 |   | illatif              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
-|   | inessif              |         |          |         |         |         |         |
-|   | initiatif            |         |          |         |         |         |         |
+|   | inessif              | -(a)ŕo- | -(e)ŕo-  | -ŕo(n)- | -(ń)ŕo- | -(a)ŕo- | -ŕo-    |
+|   | initiatif            | -(a)kĺ  | -(k)ĺ    | -(e)kĺ  | -(a)kĺ  | -(k)ĺ   | -(k)ĺ   |
 |   | instructif           |         |          |         |         |         |         |
 |   | instrumental         |         |          |         |         |         |         |
-|   | intratif             |         |          |         |         |         |         |
-|   | latif                |         |          |         |         |         |         |
+|   | intratif             | -fu(þ)- | -fu(ð)-  | -fu(ð)- | -fu(ð)- | -fy(þ)- | -fy(ð)- |
+|   | latif                | -(l)a   | -(l)ei   | -(l)òĺ  | -(l)e   | -(l)au  | -(l)ĺ   |
 |   | limitatif            |         |          |         |         |         |         |
-|   | locatif              |         |          |         |         |         |         |
+|   | locatif              | l(a)-   | l(e)-    | l(i)-   | l(e)-   | le(þ)-  | l(e)-   |
 |   | nominal              |         |          |         |         |         |         |
 |   | nominatif            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
 |   | oblique              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß  | -(x)eß  |
 |   | orientatif           |         |          |         |         |         |         |
 |   | partitif             |         |          |         |         |         |         |
 |   | pégatif              |         |          |         |         |         |         |
-|   | perlatif             |         |          |         |         |         |         |
-|   | pertingent           |         |          |         |         |         |         |
-|   | postessif            |         |          |         |         |         |         |
+|   | perlatif             | ž(u)-   | ž(y)-    | ž(u)-   | š(u)-   | š(y)-   | ž(u)-   |
+|   | pertingent           | m(a)-   | m(a)-    | m(a)-   | m(e)-   | mj(a)-  | mj(e)-  |
+|   | postessif            | -(u)ß   | -(u)ßt   | -(y)ß   | -(y)ž   | -(u)š   | -(u)št  |
 |   | privatif             |         |          |         |         |         |         |
-|   | prolatif             |         |          |         |         |         |         |
+|   | prolatif             | š(a)-   | š(a)-    | š(e)-   | š(ae)-  | ž(a)-   | š(ay)-  |
 |   | révertif             |         |          |         |         |         |         |
 |   | semplatif            |         |          |         |         |         |         |
 |   | sociatif             |         |          |         |         |         |         |
-|   | subessif             |         |          |         |         |         |         |
-|   | sublatif             |         |          |         |         |         |         |
-|   | superessif           |         |          |         |         |         |         |
+|   | subessif             | ň(o)-   | ň(wo)-   | n(o)-   | n(wo)-  | ň(o)-   | ň(o)-   |
+|   | sublatif             | -(i)ţ   | -(i)ţ    | -(e)ţ   | -(i)ḑ   | -(i)ţ   | -(i)nţ  |
+|   | superessif           | tß(a)-  | tß(ań)-) | tß(ai)- | tßau-   | tß(e)-  | tß(a)-  |
 |   | temporel             |         |          |         |         |         |         |
-|   | terminatif           |         |          |         |         |         |         |
+|   | terminatif           | -(ae)n  | -(ae)ň   | -(þ)aen | -(ð)aen | -(þ)aeň | -(ae)m  |
 |   | translatif           |         |          |         |         |         |         |
 |   | vocatif              |         |          |         |         |         |         |
 
@@ -368,16 +369,16 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | adverbial            |         |         |         |         |          |          |
 |   | agentif              |         |         |         |         |          |          |
 |   | allatif              | -li(s)- | -li(ź)- | -li(z)- | -li(š)- | -li(x)-  | -li(x)-  |
-|   | antessif             |         |         |         |         |          |          |
-|   | apudessif            |         |         |         |         |          |          |
+|   | antessif             | we-     | w(e)-   | w(o)-   | w(e)-   | v(e)-    | v(wo)-   |
+|   | apudessif            | þe(n)-  | þ(e)-   | v(e)-   | ve(n)-  | þ(e)-    | ð(e)-    |
 |   | aversif              |         |         |         |         |          |          |
 |   | causal               | -(o)by  | -(o)by  | -(o)by  | -(o)by  | -(o)bu   | -(o)bu   |
 |   | comitatif            |         |         |         |         |          |          |
 |   | comparatif           |         |         |         |         |          |          |
 |   | datif                |         |         |         |         |          |          |
+|   | délatif              | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   | ž(a)-    | ž(a)-    |
 |   | distributif          | he(l)-  | he(l)-  | he(l)-  | he(l)-  | ha(l)-   | ha(l)-   |
 |   | distributif-temporel |         |         |         |         |          |          |
-|   | délatif              | š(a)-   | š(e)-   | ž(a)-   | ž(e)-   | ž(a)-    | ž(a)-    |
 |   | élatif               | -(ł)y   | -(ł)y   | -(ł)y   | -(ł)yi  | -(ł)u    | -(ł)yi   |
 |   | équatif              |         |         |         |         |          |          |
 |   | ergatif              | -(ò)jo  | -(y)jo  | -(lj)o  | -(lj)o  | -(mj)o   | -(lj)o   |
@@ -389,33 +390,33 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | génitif              | ţy-     | ţy-     | ţy(i)-  | ţy-     | ţ(eu)-   | ţo(y)-   |
 |   | identique            |         |         |         |         |          |          |
 |   | illatif              | -(s)òn- | -(s)en- | -(s)en- | -(s)an- | -(ps)òn- | -(ps)en- |
-|   | inessif              |         |         |         |         |          |          |
-|   | initiatif            |         |         |         |         |          |          |
+|   | inessif              | -(e)ŕo- | -(a)ŕo- | -(e)ŕo- | -ŕo-    | -ŕo-     | -(a)ŕo-  |
+|   | initiatif            | -(e)kĺ  | -(e)kń  | -(a)kĺ  | -(ei)kń | -akĺ     | -ekĺ     |
 |   | instructif           |         |         |         |         |          |          |
 |   | instrumental         |         |         |         |         |          |          |
-|   | intratif             |         |         |         |         |          |          |
-|   | latif                |         |         |         |         |          |          |
+|   | intratif             | -fu(þ)- | -fy-    | -fy(ð)- | -fy(ð)- | -fu(ð)-  | -þy(ð)-  |
+|   | latif                | -(l)ń   | -(l)a   | -(l)a   | -le     | -la      | -la      |
 |   | limitatif            |         |         |         |         |          |          |
-|   | locatif              |         |         |         |         |          |          |
+|   | locatif              | l(e)-   | l(e)-   | lj(a)-  | l(a)-   | ła-      | ł(a)-    |
 |   | nominal              |         |         |         |         |          |          |
 |   | nominatif            | pa(n)-  | pa(ń)-  | pń-     | pń-     | pa(m)-   | pa-      |
 |   | oblique              | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   |
 |   | orientatif           |         |         |         |         |          |          |
 |   | partitif             |         |         |         |         |          |          |
 |   | pégatif              |         |         |         |         |          |          |
-|   | perlatif             |         |         |         |         |          |          |
-|   | pertingent           |         |         |         |         |          |          |
-|   | postessif            |         |         |         |         |          |          |
+|   | perlatif             | š(ui)-  | ž(ui)-  | š(eu)-  | š(ey)-  | š(oy)-   | ž(ou)-   |
+|   | pertingent           | m(e)-   | m(e)-   | m(a)-   | m(e)-   | mj(ò)-   | mj(e)-   |
+|   | postessif            | -(u)š   | -(u)ß   | -(u)ß   | -(u)þ   | -(u)ž    | -(y)š    |
 |   | privatif             |         |         |         |         |          |          |
-|   | prolatif             |         |         |         |         |          |          |
+|   | prolatif             | ša-     | š(e)-   | š(e)-   | ž(a)-   | š(e)-    | še-      |
 |   | révertif             |         |         |         |         |          |          |
 |   | semplatif            |         |         |         |         |          |          |
 |   | sociatif             |         |         |         |         |          |          |
-|   | subessif             |         |         |         |         |          |          |
-|   | sublatif             |         |         |         |         |          |          |
-|   | superessif           |         |         |         |         |          |          |
+|   | subessif             | nw(o)-  | n(we)-  | ň(e)-   | ň(o)-   | ne-      | ňe-      |
+|   | sublatif             | -(i)fţ  | -(i)þţ  | -(e)nţ  | -(eu)ţ  | -(a)ţ    | -(i)nţ   |
+|   | superessif           | ßt(e)-  | tß(ei)- | tß(e)-  | št(a)-  | ßt(a)-   | ßt(a)-   |
 |   | temporel             |         |         |         |         |          |          |
-|   | terminatif           |         |         |         |         |          |          |
+|   | terminatif           | -(ae)n  | -aem    | -aeň    | -aem    | -(ae)nz  | ae(ň)-   |
 |   | translatif           |         |         |         |         |          |          |
 |   | vocatif              |         |         |         |         |          |          |
 
@@ -432,16 +433,16 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | adverbial            |         |         |          |         |           |           |
 |   | agentif              |         |         |          |         |           |           |
 |   | allatif              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
-|   | antessif             |         |         |          |         |           |           |
-|   | apudessif            |         |         |          |         |           |           |
+|   | antessif             | vw(o)-  | v(u)-   | v(u)-    | v(u)-   | vw(o)-    | vu-       |
+|   | apudessif            | ð(ei)-  | ðe(m)-  | f(e)-    | fe-     | vei-      | fei-      |
 |   | aversif              |         |         |          |         |           |           |
 |   | causal               | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy       | -vy       |
 |   | comitatif            |         |         |          |         |           |           |
 |   | comparatif           |         |         |          |         |           |           |
 |   | datif                |         |         |          |         |           |           |
+|   | délatif              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
 |   | distributif          | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-    | še(l)-    |
 |   | distributif-temporel |         |         |          |         |           |           |
-|   | délatif              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
 |   | élatif               | -ły     | -(a)ły  | -(ł)ay   | -(ł)ey  | -(ł)ay    | -łay      |
 |   | équatif              |         |         |          |         |           |           |
 |   | ergatif              | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo    | -(u)jo    |
@@ -453,33 +454,33 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | génitif              | ţy-     | ţ(u)-   | ţ(u)-    | ţu-     | ţ(y)-     | ţ(u)-     |
 |   | identique            |         |         |          |         |           |           |
 |   | illatif              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
-|   | inessif              |         |         |          |         |           |           |
-|   | initiatif            |         |         |          |         |           |           |
+|   | inessif              | -(o)ŕo- | -(a)ŕo- | -(a)ŕo-  | -(u)ŕo- | -(e)ŕo-   | -(a)ŕo-   |
+|   | initiatif            | -(a)kĺ  | -(e)kń  | ak(ĺ)-   | k(ń)-   | -(k)ĺ     | -(k)ń     |
 |   | instructif           |         |         |          |         |           |           |
 |   | instrumental         |         |         |          |         |           |           |
-|   | intratif             |         |         |          |         |           |           |
-|   | latif                |         |         |          |         |           |           |
+|   | intratif             | -(f)yþ- | -fu-    | -fi(ŕ)-  | -fe(ŕ)- | -fu(ð)-   | -fu(þ)-   |
+|   | latif                | -(a)la  | -(e)la  | -(l)e    | -(l)ai  | -(l)ae    | -la       |
 |   | limitatif            |         |         |          |         |           |           |
-|   | locatif              |         |         |          |         |           |           |
+|   | locatif              | l(au)-  | l(ai)-  | l(a)-    | la-     | ĺ-        | l(e)-     |
 |   | nominal              |         |         |          |         |           |           |
 |   | nominatif            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
 |   | oblique              | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß   | -(x)oiß   |
 |   | orientatif           |         |         |          |         |           |           |
 |   | partitif             |         |         |          |         |           |           |
 |   | pégatif              |         |         |          |         |           |           |
-|   | perlatif             |         |         |          |         |           |           |
-|   | pertingent           |         |         |          |         |           |           |
-|   | postessif            |         |         |          |         |           |           |
+|   | perlatif             | ž(u)-   | ž(e)-   | ž(u)-    | ž(u)-   | š(y)-     | ž(u)-     |
+|   | pertingent           | m(e)-   | m(u)-   | m(a)-    | m(o)-   | m(e)-     | m(e)-     |
+|   | postessif            | -(u)ß   | -(u)ź   | -(y)ź    | -(y)ž   | -(y)tß    | -(y)ßt    |
 |   | privatif             |         |         |          |         |           |           |
-|   | prolatif             |         |         |          |         |           |           |
+|   | prolatif             | š(a)-   | šei-    | še-      | š(a)-   | š(ey)-    | ž(e)-     |
 |   | révertif             |         |         |          |         |           |           |
 |   | semplatif            |         |         |          |         |           |           |
 |   | sociatif             |         |         |          |         |           |           |
-|   | subessif             |         |         |          |         |           |           |
-|   | sublatif             |         |         |          |         |           |           |
-|   | superessif           |         |         |          |         |           |           |
+|   | subessif             | ňe-     | ňo-     | nw(a)-   | n(wa)-  | n(a)-     | na-       |
+|   | sublatif             | -(i)ţ   | -(i)ßţ  | -(i)šţ   | -(i)ţ   | -(r)iţ    | -iţ       |
+|   | superessif           | tß(ao)- | tß(ae)- | tßa-     | ßta-    | ßt-(e)    | tß(a)-    |
 |   | temporel             |         |         |          |         |           |           |
-|   | terminatif           |         |         |          |         |           |           |
+|   | terminatif           | -(ae)n  | -(ae)n  | -(ae)m   | -ae     | -(ai)n    | -(ai)ň    |
 |   | translatif           |         |         |          |         |           |           |
 |   | vocatif              |         |         |          |         |           |           |
 src_latex{\newpage}
@@ -508,7 +509,7 @@ Abréviations :
 - vt : verbe transitif
 
 ** Actions physiques
-- kļnyþ (v.) :: casser, briser
+- kĺnyþ (v.) :: casser, briser
 ** Amour
 ** Animaux
 - nael (n.7) :: cheval
