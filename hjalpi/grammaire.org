@@ -1,8 +1,8 @@
 #+TITLE: Grammaire du Hjalpi’
 #+INCLUDE: "../headers.org"
 
-* Introduction
-
+* TODO Introduction
+# Ajouter un peu de détails
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
 
 Cette langue sera également utilisée pour créer d’autres langues qui auront évolué depuis la langue divine en des langues (me paraissant) beaucoup plus simples afin de créer des langues pour les mortels.
@@ -11,6 +11,7 @@ Cette langue sera également utilisée pour créer d’autres langues qui auront
 ** Voyelles
 Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans [[*Diphtongues][Diphtongues]]). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 
+#+CAPTION: Voyelles du Hjalpi’
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
@@ -22,6 +23,7 @@ Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la maj
 
 Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en IPA :
 
+#+CAPTION: Voyelles du Hjalpi’ (IPA)
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
@@ -91,9 +93,11 @@ Le « ĺ » est la consonne « l » (la même que le « l » frança
 
 *** TODO Diphtongues
 
-** Consonnes
+** DONE Consonnes
+   CLOSED: [2018-06-03 dim. 18:56]
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
 
+#+CAPTION: Consonnes du Hjalpi’
 | / | >    | >   | >   | >   | >   | >   | >   | >   | >   | >   | [ |
 |   |      | b   | ld  | d   | a   | pa  | r   | p   | v   | uv  | g |
 |---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
@@ -114,7 +118,7 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 |---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
 |   | sv   | w   |     |     |     |     |     |     |     |     |   |
 
-Phonétique IPA :
+#+CAPTION: Consonnes du Hjalpi’ (IPA)
 | / | >    | >    | >     | >    | >    | >   | >    | >    | >    | >     | > |
 |   |      | b    | ld    | d    | a    | pa  | r    | p    | v    | uv    | g |
 |---+------+------+-------+------+------+-----+------+------+------+-------+---|
@@ -147,13 +151,13 @@ Abréviations :
 | uv | uvulaire        |   | lapr | aproximant latéral |
 | g  | glottal         |   |      |                    |
 
-** Accentuation
-
+** TODO Accentuation
+# Ajouter des exemples
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
-*** TODO Ajouter des exemples
 
-** Romanisation et translittération
+** TODO Romanisation et translittération
+# Ajouter des exemples
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
 
 Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différence entre romanisation et translittération est en Tibétain. Nous avons des termes Tibétain romanisés “dorje”, “chorten” ou encore “yak” en anglais dont une de leur translittération possible respective est “rdo rje”, “mchod brten” et “gyag”. Bien évidemment, toute personne n’ayant aucune notion de translittération du Tibétain et/ou de son orthographe peut être confuse quant à ce qu’ils viennent de lire, et c’est tout naturel : leur but est de savoir précisément comment écrire ces mots, et une personne sachant écrire en tibétain pourra, en ayant lu ces exemples, écrire les mots sans faute si je n’en ai pas fait non plus à la rédaction de cet ouvrage. Comme je l’ai indiqué, il s’agit dans cet exemple d’une romanisation anglophone ; en effet, la romanisation dépend de la langue du lecteur. Étant donné que ce dernier doit pouvoir se forger une idée de la prononciation du mot étranger, il faut utiliser les conventions de lecture de l’alphabet de sa propre langue afin d’approcher au mieux la prononciation originale. Ainsi, “dorje” en anglais pourrait être écrit « dordjé » en français, “chorten” pourrait être écrit « tchortène » (« yak » garde la même orthographe dans les deux langues, et est même dans les dictionnaires anglophones et francophones).
@@ -162,6 +166,7 @@ Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) 
 
 Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittération, et sa romanisation francophone. Pour un équivalent anglophone, se référer à la version anglophone de cet ouvrage si cette dernière existe.
 
+#+CAPTION: Translittération des voyelles du Hjalpi’
 | / | >       | >      |      |
 |   | phonème | trans. | rom. |
 |---+---------+--------+------|
@@ -180,8 +185,9 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | aː      | a      | a    |
 |   | ɑ       | á      | a    |
 
+#+CAPTION: Translittération des consonnes du Hjalpi’
 | / | >       | >      |      | <> | >       | >      |      |
-|   | phhhonème | trans. | rom. |    | phonème | trans. | rom. |
+|   | phonème | trans. | rom. |    | phonème | trans. | rom. |
 |---+---------+--------+------+----+---------+--------+------|
 |   | p       | p      | p    |    | b       | b      | b    |
 |   | t       | t      | t    |    | d       | d      | d    |
@@ -200,8 +206,6 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | l       | l      | l    |    | j       | j      | y    |
 |   | w       | w      | w    |    |         |        |      |
 
-*** TODO Ajouter des exemples
-
 * Phonologie dérivationnelle
 Le Hjalpi’ est une langue riche en dérivation phonétiques du fait de sa grammaire agglutinative et fusionnelle. Les noms changent selon leur nombre, leur rôle au sein de la phrase (leur cas grammatical), les verbes s’accordent en genre et en nombre, selon l’objectivité, le mode ou l’un des nombreux temps de la phrase ou de la proposition. L’utilisation de chacun de ces éléments sera traité dans le chapitre traitant de la [[*Syntaxe][syntaxe]]. Le chapitre actuel servira principalement de référence condensée pour savoir comment accorder les divers éléments entre eux.
 
@@ -217,7 +221,7 @@ Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dan
 - ~Ø~ = silencieux, muet, rien
 
 ** Allophonie
-En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones des-dits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[*Accord des voyelles][accords des voyelles]] ou les [[*Accord des consonnes][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
+En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[*Accord des voyelles][accords des voyelles]] ou les [[*Accord des consonnes][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
 
 *** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
@@ -261,8 +265,9 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
   - FS > [+voisée] / FV_
   - FV > [+sourde] / FS_
 
-** Accord des voyelles
-
+*** TODO Exemples
+** TODO Accord des voyelles
+# Ajouter des exemples
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
 
 1. Les deux voyelles sont fusionnées en une diphtongue.
@@ -279,8 +284,8 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | á                 | a               |
 
 ** TODO Accord des consonnes
-** Déclinaisons
-*** TODO Ajouter les liens internes et terminer le tableau
+** TODO Déclinaisons
+# Ajouter les liens internes et terminer le tableau
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 + V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
 + C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
@@ -292,7 +297,7 @@ Les déclinaisons se présentent sous la forme de particules (préfixes, infixes
 Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[*Accord des voyelles][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[*Accord des consonnes][l’accord des consonnes]] ci-dessus.
 
 Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans *Genres*, le super-singulier (tel que décrit dans *Nombre*) est représenté par « s » et le pluriel par « p ».
-
+src_latex{\newpage}
 
 | / | <>                   | >       | >        | >       | >       | >       | >       |
 |   |                      | 1s      | 1p       | 2s      | 2p      | 3s      | 3p      |
@@ -333,7 +338,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | instrumental         |         |          |         |         |         |         |
 |   | intratif             | -fu(þ)- | -fu(ð)-  | -fu(ð)- | -fu(ð)- | -fy(þ)- | -fy(ð)- |
 |   | latif                | -(l)a   | -(l)ei   | -(l)òĺ  | -(l)e   | -(l)au  | -(l)ĺ   |
-|   | limitatif            |         |          |         |         |         |         |
+|   | limitatif            | -(ò)mp  | -(e)mp   | -(ò)mp  | -(ò)mp  | -(ò)mp  | -(ò)mp  |
 |   | locatif              | l(a)-   | l(e)-    | l(i)-   | l(e)-   | le(þ)-  | l(e)-   |
 |   | nominal              |         |          |         |         |         |         |
 |   | nominatif            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
@@ -396,7 +401,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | instrumental         |         |         |         |         |          |          |
 |   | intratif             | -fu(þ)- | -fy-    | -fy(ð)- | -fy(ð)- | -fu(ð)-  | -þy(ð)-  |
 |   | latif                | -(l)ń   | -(l)a   | -(l)a   | -le     | -la      | -la      |
-|   | limitatif            |         |         |         |         |          |          |
+|   | limitatif            | -(ò)mp  | -(ò)mp  | -(ò)mp  | -(ò)mp  | -(e)mp   | -(ò)mp   |
 |   | locatif              | l(e)-   | l(e)-   | lj(a)-  | l(a)-   | ła-      | ł(a)-    |
 |   | nominal              |         |         |         |         |          |          |
 |   | nominatif            | pa(n)-  | pa(ń)-  | pń-     | pń-     | pa(m)-   | pa-      |
@@ -460,7 +465,7 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | instrumental         |         |         |          |         |           |           |
 |   | intratif             | -(f)yþ- | -fu-    | -fi(ŕ)-  | -fe(ŕ)- | -fu(ð)-   | -fu(þ)-   |
 |   | latif                | -(a)la  | -(e)la  | -(l)e    | -(l)ai  | -(l)ae    | -la       |
-|   | limitatif            |         |         |          |         |           |           |
+|   | limitatif            | -(a)mp  | -(a)mp  | -(a)mp   | -(a)mp  | -(ò)mp    | -(ò)mp    |
 |   | locatif              | l(au)-  | l(ai)-  | l(a)-    | la-     | ĺ-        | l(e)-     |
 |   | nominal              |         |         |          |         |           |           |
 |   | nominatif            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
@@ -485,10 +490,10 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 |   | vocatif              |         |         |          |         |           |           |
 src_latex{\newpage}
 
-* Syntaxe
-* Champs sémantiques et pragmatismes
-* Système d’écriture
-* Exemples
+* TODO Syntaxe
+* TODO Champs sémantiques et pragmatismes
+* TODO Système d’écriture
+* TODO Exemples
 * Glossaire
 
 Abréviations :
