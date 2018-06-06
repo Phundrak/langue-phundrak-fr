@@ -266,7 +266,7 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
 
 *** TODO Exemples
 
-
+- raòm ::  /raøm/ est prononcé [rãø̃]
 
 ** TODO Accord des voyelles
 # Ajouter des exemples
@@ -523,9 +523,9 @@ Abréviations :
 ** Animaux
 - nael ::  /nael/ (n.7) cheval
 ** Art
-- raòm ::  /raøm/ (n.9) livre
+- raòm ::  /rãø̃/ (n.9) livre
 ** Astronomie
-- jaom ::  /jaom/ (n.1) astre
+- jaom ::  /jãõ/ (n.1) astre
 ** Bâtiments
 - mén ::  /mɛn/ (n.9) maison (bâtiment)
 ** Commerce
@@ -534,41 +534,41 @@ Abréviations :
 ** Corps
 - gar ::  /ɡaːr/ (n.6) tête
 - pńt ::  /pn̩t/ (n.6) main
-- wan ::  /waːn/ (n.6) pied
+- wan ::  /wãː/ (n.6) pied
 ** Couleurs
 - ðúr ::  /ðʊr/ (adj.) argent (couleur)
 ** Dimensions
 ** Direction
-- ňam ::  /ŋaːm/ (n.2) ouest
+- ňam ::  /ŋãː/ (n.2) ouest
 - watßúd ::  /waːtʃʊd/ (n.2) nord
-- wémšal ::  /wɛmçaːl/ (n.2) est (direction)
+- wémšal ::  /wɛ̃çaːl/ (n.2) est (direction)
 - zelðeg ::  /zeːlðeːɡ/ (n.2) sud
 ** Eau
 ** Effort
 ** Éléments
 ** Émotions
-- feŗan (n.2) :: tristesse
+- feŗan ::  /feːʁãː/ (n.2) tristesse
 ** Évaluation
-- ’eßtef (adj.) :: mauvais
+- ’eßtef ::  /ʔeːʃteːf/ (adj.) mauvais
 ** Événements
-- gén (n.2) :: acte, action
+- gén ::  /ɡɛ̃/ (n.2) acte, action
 ** Existence
 ** Famille
-- ánám (n.6) :: parent
-- mánám (n.5) :: mère, maman
-- pánám (n.4) :: père, papa
+- ánám ::  /ɑ̃nɑ̃/ (n.6) parent
+- mánám ::  /mɑ̃nɑ̃/ (n.5) mère, maman
+- pánám ::  /pɑ̃nɑ̃/ (n.4) père, papa
 ** Forme
 ** Gouvernement
 ** Grammaire
 - pöb (pron. interrogatif) :: quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
 *** Pronoms interrogatifs
 **** Temps
-- pejb (pron. interrogatif essif) :: quand, à quel moment. /pöb/ décliné à l’essif.
-- pöémp (pron. interrogatif limitatif) :: jusqu’à quand. /pöb/ décliné au limitatif.
-- pövwó (pron. interrogatif accusatif) :: sur quelle durée, pendent combien de temps. /pöb/ décliné à l’accusatif.
+- pejb ::  /pejb/ (pron. interr. essif) quand, à quel moment. /pöb/ décliné à l’essif.
+- pöémp ::  /pœ̃ɛ̃p/ (pron. interrogatif limitatif) jusqu’à quand. /pöb/ décliné au limitatif.
+- pövwó ::  /pœvwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. /pöb/ décliné à l’accusatif.
 
 ** Guerre
-- wóúl (n.2) :: attaque
+- wóúl ::  /wɔʊl/ (n.2) attaque
 ** Légal
 ** Lieux
 ** Lumière
@@ -576,37 +576,37 @@ Abréviations :
 ** Mesures
 ** Métaux
 ** Mouvement
-- jĺšek (n.9) :: chemin, voie
-- wyhakòm (vt.) :: quitter, partir
+- jĺšek ::  /jl̩çeːk/ (n.9) chemin, voie
+- wyhakòm ::  /wyːhaːkø̃/ (vt.) quitter, partir
 ** Nature
 ** Nombres
 ** Nourriture
 ** Outils
 ** Parole
-- vár (n.2) :: langue (linguistique), langage, parole
+- vár ::  /vɑr/ (n.2) langue (linguistique), langage, parole
 ** Péchés
 ** Physique
 ** Possession
 ** Religion
-- hjalp (n.1) :: dieu céleste
-- melex (n.1) :: dieu terrestre
+- hjalp ::  /hjaːlp/ (n.1) dieu céleste
+- melex ::  /meːleːχ/ (n.1) dieu terrestre
 ** Savoir
-- bóljòluþ (vt.) :: savoir
-- wanmjöd (n.2) :: savoir, connaissance
+- bóljòluþ ::  /bɔljøːluːθ/ (vt.) savoir
+- wanmjöd ::  /wãːmjœd/ savoir, connaissance
 ** Sensations
-- feŗtef (n.2) :: douleur. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
-- núótöm (vt.) :: voir
+- feŗtef ::  /feːʁeːf/ (n.2) douleur. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
+- núótöm ::  /nʊɔtœ̃/ (vt.) voir
 ** Sexe
 ** Société
 ** Substances
-- lúb (n.9) :: air
+- lúb ::  /lʊb/ (n.9) air
 ** Temps
-- bém (n.2) :: jour (cycle temporel)
-- heol (n.2) :: heure
-- łail (n.2) :: année
-- ţealnat (adj.) :: précision temporelle, précis.
+- bém ::  /bɛ̃/ (n.2) jour (cycle temporel)
+- heol ::  /heol/ (n.2) heure
+- łail ::  /ɬail/ (n.2) année
+- ţealnat ::  /ʈealnaːt/ (adj.) précision temporelle, précis.
 *** Jours de la semaine
-- ðúbém (n.2) :: septième jour de la semaine / jour d’agent. Étymologie : /ðúr/ + /bém/
+- ðúbém ::  /ðʊbɛ̃/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /ðúr/ + /bém/
 ** Travail
 ** Végétaux
 ** Vêtements
