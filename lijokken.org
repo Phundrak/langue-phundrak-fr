@@ -1,0 +1,12 @@
+#+TITLE: Ressources grammaticales du Łijökken
+#+INCLUDE: "headers.org"
+src_latex{\newpage}
+
+* Grammaire
+
+[[file:lijokken-grammaire.html][Grammaire du Łijökken]] ([[file:lijokken-grammaire.pdf][pdf]])
+
+* Glossaire
+
+[[file:lijokken-glossaire.html][Glossaire du Łijökken]] ([[file:lijokken-glossaire.pdf][pdf]])
+

@@ -3,12 +3,12 @@
 
 * Langues divines
 
-🔵 [[file:hjalpi/index.html][Hjalpi’ Originel]] (en cours)
+🔵 [[file:hjalpi.html][Hjalpi’ Originel]] (en cours)
 
-🔴 [[file:hjalpi-old/index.html][Hjalpi’ Vernaculaire]] (développement suspendu)
+🔴 [[file:old-hjalpi.html][Hjalpi’ Vernaculaire]] (développement suspendu)
 
 * Langues draconiennes
 
-🔵 [[file:lijokken/index.html][Łijökken]] (en cours)
+🔵 [[file:lijokken.html][Łijökken]] (en cours)
 
-🔵 [[file:zohaen/index.html][Zöhæň]] (en cours)
+🔵 [[file:zohaen.html][Zöhæň]] (en cours)

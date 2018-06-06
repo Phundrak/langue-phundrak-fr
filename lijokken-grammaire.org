@@ -1,0 +1,75 @@
+#+TITLE: Grammaire du Łijökken
+#+INCLUDE:"headers.org"
+src_latex{\newpage}
+
+* Introduction
+Le Łijökken est une langue draconienne, parlée principalement par les races draconiennes mineures.
+
+Les dragons et autres reptiles n’ont pas de voyelles, d’où l’absence totale de voyelles arrondies et de consonnes labiales.
+
+* Phonologie
+** Voyelles
+
+| / | >         |       |            |         |      |
+|   |           | front | near-front | central | back |
+|---+-----------+-------+------------+---------+------|
+|---+-----------+-------+------------+---------+------|
+|   | high      | i     |            |       1 | M    |
+|   | near-high |       | I          |         |      |
+|   | high-mid  | e     |            |      @\ |      |
+|   | low-mid   |       |            |       3 | V    |
+|   | low       | a     |            |         | A    |
+
+| / | >         |       |            |         |      |
+|   |           | front | near-front | central | back |
+|---+-----------+-------+------------+---------+------|
+|---+-----------+-------+------------+---------+------|
+|   | high      | i     |            | í       | u    |
+|   | near-high |       | ì          |         |      |
+|   | high-mid  | e     |            | y       |      |
+|   | low-mid   |       |            | ë       | o    |
+|   | low       | æ     |            |         | a    |
+
+** Consonnes
+
+| /                   |        |          |              |           |               |         |       |        |         |
+|                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+| stop                |        | t        |              | d`        |               |         | k g   | q G    |         |
+| nasal               |        | n        |              |           |               | J       | N     |        |         |
+| affricate           |        |          | tS dZ        |           |               |         |       |        |         |
+| fricative           | T D    | z        | S Z          | s` z`     | s\            | ç j\    |       | X R    | h       |
+| approximant         |        | r\       |              |           |               | j       |       |        |         |
+| lateral fricative   |        | K K\     |              |           |               |         |       |        |         |
+| lateral approximant |        | l        |              |           |               |         |       |        |         |
+
+| /                   |        |          |              |           |               |         |       |        |         |
+|                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+| stop                |        | t        |              | d         |               |         | k g   | q ǵ    |         |
+| nasal               |        | n        |              |           |               | ń       | ň     |        |         |
+| affricate           |        |          | cs cz        |           |               |         |       |        |         |
+| fricative           | þ ð    | z        | S Z          | š ž       | s             | ś ź     |       | x r    | h       |
+| approximant         |        | ŕ        |              |           |               | j       |       |        |         |
+| lateral fricative   |        | ł ļ      |              |           |               |         |       |        |         |
+| lateral approximant |        | l        |              |           |               |         |       |        |         |
+
+** Accentuation
+Deuxième syllabe d’un mot
+
+** Règles phonologiques
+
+- ~k > s` / _i~
+- ~t / r / _a~
+- ~g > h / _h~
+- ~t > ? / V_V~
+- ~N > w / [stop]_[stop]~
+- ~eN > y / _#~
+- ~{k,g} > [+palatal] / _E~
+- ~T > s / _k~
+- ~n > N / #_~
+- ~q > h / _#~
+- ~l > d` / _{C,#}~
+- ~d` > D / _[fricative]~

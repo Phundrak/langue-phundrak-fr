@@ -1,0 +1,7 @@
+#+TITLE: Ressources grammaticales du Hjalpi’ Originel
+#+INCLUDE: "headers.org"
+src_latex{\newpage}
+
+[[file:hjalpi-grammaire.html][Grammaire du Hjalpi’]] ([[file:hjalpi-grammaire.pdf][pdf]])
+
+[[file:hjalpi-grammaire-old.html][Ancienne version de la gramaire]] ([[file:hjalpi-grammaire-old.pdf][pdf]])
