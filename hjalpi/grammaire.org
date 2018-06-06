@@ -265,14 +265,19 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
   - FV > [+sourde] / FS_
 
 *** TODO Exemples
+
+
+
 ** TODO Accord des voyelles
 # Ajouter des exemples
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
 
 1. Les deux voyelles sont fusionnées en une diphtongue.
-2. Si la première voyelle est une diphtongue, alors le second phonème est remplacé par la seconde voyelle après que cette dernière ait été accordée en longueur à la longueur de premier phonème de la diphtongue. Si la seconde voyelle était également une diphtongue, alors elle perd son second phonème.
-3. Si le second phonème de la diphtongue est plus ouvert que le premier, alors il est refermé afin d’être au moins aussi fermé que le premier phonème.
-4. Si le premier phonème de la diphtongue est une voyelle postérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :
+2. Si l’un des deux phonèmes est une consonne syllabique /ń/ ou /ĺ/, alors celle-ci reste inchangée.
+3. Si la première voyelle est une diphtongue, alors le second phonème est remplacé par la seconde voyelle après que cette dernière ait été accordée en longueur à la longueur de premier phonème de la diphtongue.
+4. Si la seconde voyelle était également une diphtongue, alors elle perd son second phonème.
+5. Si le second phonème de la diphtongue est plus ouvert que le premier, alors il est refermé afin d’être au moins aussi fermé que le premier phonème.
+6. Si le premier phonème de la diphtongue est une voyelle postérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :
 | / | >                 |                 |
 |   | phonème d’origine | nouveau phonème |
 |---+-------------------+-----------------|
@@ -284,7 +289,7 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 
 ** TODO Accord des consonnes
 ** TODO Déclinaisons
-# Ajouter les liens internes et terminer le tableau
+# Ajouter les liens internes
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 + V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
 + C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.

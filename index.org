@@ -1,14 +1,13 @@
 #+TITLE: Ressources grammaticales des langues construites de P’undrak
 #+INCLUDE: "headers.org"
-#+HTML: <a href="https://github.com/Phundrak/langue-phundrak-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub!"></a>
 
-* Divine languages
+* Langues divines
 
 🔵 [[file:hjalpi/index.html][Hjalpi’ Originel]] (en cours)
 
-🔴 [[file:hjalpi-old/index.html][Hjalpi’ Verniculaire]] (développement suspendu)
+🔴 [[file:hjalpi-old/index.html][Hjalpi’ Vernaculaire]] (développement suspendu)
 
-* Draconian
+* Langues draconiennes
 
 🔵 [[file:lijokken/index.html][Łijökken]] (en cours)
 
