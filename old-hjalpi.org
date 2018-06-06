@@ -5,7 +5,7 @@ src_latex{\newpage}
 
 [[file:old-hjalpi-grammaire.html][Grammaire]] ([[file:old-hjalpi-grammaire.pdf][pdf]])
 
-[[file:old-hjalpi-grammaire_2.html][Grammaire V2]] ([[file:old-hjalpi-grammaire-2.pdf][pdf]])
+[[file:old-hjalpi-grammaire-2.html][Grammaire V2]] ([[file:old-hjalpi-grammaire-2.pdf][pdf]])
 
 [[file:old-hjalpi-dictionnaire.html][Dictionnaire]] ([[file:old-hjalpi-dictionnaire.pdf][pdf]])
 
