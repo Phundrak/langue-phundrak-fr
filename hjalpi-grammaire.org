@@ -8,8 +8,8 @@ Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. 
 Cette langue sera également utilisée pour créer d’autres langues qui auront évolué depuis la langue divine en des langues (me paraissant) beaucoup plus simples afin de créer des langues pour les mortels.
 
 * Phonologie
-** Voyelles
-Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans [[*Diphtongues][Diphtongues]]). Voici la liste des voyelles utilisées dans le Hjalpi’ :
+** <<phon-voyelles>>Voyelles
+Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans [[phon-diphtongues][Diphtongues]]). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 
 #+CAPTION: Voyelles du Hjalpi’
 | / | >           |             |              |
@@ -37,7 +37,7 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ ( /θraːn/ ) n’aura pas la même signification que /þrán/ ( /θrɑn/ ). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
+On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/  /θrãː/ n’aura pas la même signification que /þrán/  /θrɑ̃/ (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
 *** Voyelles courtes
 
@@ -84,16 +84,16 @@ Cette voyelle est la même que le « u » français, à la différence que l
 -  /uː/ : u
 Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
 
-*** Consonnes syllabiques
+*** <<cons-syll>>Consonnes syllabiques
 -  /n̩/ : ń
 Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé  /bʌtn̩/.
 
 -  /l̩/ : ĺ
 Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
 
-*** TODO Diphtongues
+*** TODO <<phon-diphtongues>>Diphtongues
 
-** Consonnes
+** <<phon-consonnes>>Consonnes
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
 
 #+CAPTION: Consonnes du Hjalpi’
@@ -161,7 +161,7 @@ La romanisation et la translittération d’une langue sont deux choses très di
 
 Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différence entre romanisation et translittération est en Tibétain. Nous avons des termes Tibétain romanisés “dorje”, “chorten” ou encore “yak” en anglais dont une de leur translittération possible respective est “rdo rje”, “mchod brten” et “gyag”. Bien évidemment, toute personne n’ayant aucune notion de translittération du Tibétain et/ou de son orthographe peut être confuse quant à ce qu’ils viennent de lire, et c’est tout naturel : leur but est de savoir précisément comment écrire ces mots, et une personne sachant écrire en tibétain pourra, en ayant lu ces exemples, écrire les mots sans faute si je n’en ai pas fait non plus à la rédaction de cet ouvrage. Comme je l’ai indiqué, il s’agit dans cet exemple d’une romanisation anglophone ; en effet, la romanisation dépend de la langue du lecteur. Étant donné que ce dernier doit pouvoir se forger une idée de la prononciation du mot étranger, il faut utiliser les conventions de lecture de l’alphabet de sa propre langue afin d’approcher au mieux la prononciation originale. Ainsi, “dorje” en anglais pourrait être écrit « dordjé » en français, “chorten” pourrait être écrit « tchortène » (« yak » garde la même orthographe dans les deux langues, et est même dans les dictionnaires anglophones et francophones).
 
-Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans [[Consonnes][Consonnes]] et [[Voyelles][Voyelles]]), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
+Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans [[phon-consonnes][Consonnes]] et [[phon-voyelles][Voyelles]]), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
 
 Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittération, et sa romanisation francophone. Pour un équivalent anglophone, se référer à la version anglophone de cet ouvrage si cette dernière existe.
 
@@ -219,12 +219,12 @@ Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dan
 - ~#~ = limite d’un mot
 - ~Ø~ = silencieux, muet, rien
 
-** Allophonie
-En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[*Accord des voyelles][accords des voyelles]] ou les [[*Accord des consonnes][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
+** <<allophonie>>Allophonie
+En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[deriv-accord-voy][accords des voyelles]] ou les [[deriv-accord-cons][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
 
 *** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans src_latex{\newline} [[Consonnes syllabiques][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
+- La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
   -  /n̩/ > [m̩] / _P
   -  /n̩/ > [m̩] / P_
   -  /n̩/ > [ɲ̩] / _I
@@ -268,7 +268,7 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
 
 - raòm ::  /raøm/ est prononcé [rãø̃]
 
-** TODO Accord des voyelles
+** TODO <<deriv-accord-voy>>Accord des voyelles
 # Ajouter des exemples
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
 
@@ -287,7 +287,7 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | ó                 | ö               |
 |   | á                 | a               |
 
-** TODO Accord des consonnes
+** TODO <<deriv-accord-cons>>Accord des consonnes
 ** TODO Déclinaisons
 # Ajouter les liens internes
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
@@ -298,7 +298,7 @@ Les déclinaisons se présentent sous la forme de particules (préfixes, infixes
 + -(C)V :: le suffixe est (ou commence par) une voyelle, il se placera donc à la fin du mot racine. Si ce dernier se termine par une voyelle, la consonne C sera ajoutée entre le mot racine et le suffixe.
 + -(V)C :: le suffixe est (ou commence par) une consonne, il se placera donc à la fin du mot racine. Si ce dernier se termine par une consonne, la voyelle V sera ajoutée entre le mot racine et le suffixe.
 
-Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[*Accord des voyelles][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[*Accord des consonnes][l’accord des consonnes]] ci-dessus.
+Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[deriv-accord-voy][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[deriv-accord-cons][l’accord des consonnes]] ci-dessus.
 
 Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans *Genres*, le super-singulier (tel que décrit dans *Nombre*) est représenté par « s » et le pluriel par « p ».
 src_latex{\newpage}
@@ -527,7 +527,7 @@ Abréviations :
 ** Astronomie
 - jaom ::  /jãõ/ (n.1) astre
 ** Bâtiments
-- mén ::  /mɛn/ (n.9) maison (bâtiment)
+- mén ::  /mɛ̃/ (n.9) maison (bâtiment)
 ** Commerce
 ** Conflits
 ** Conteneurs
@@ -594,7 +594,7 @@ Abréviations :
 - bóljòluþ ::  /bɔljøːluːθ/ (vt.) savoir
 - wanmjöd ::  /wãːmjœd/ savoir, connaissance
 ** Sensations
-- feŗtef ::  /feːʁeːf/ (n.2) douleur. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
+- feŗtef ::  /feːʁeːf/ (n.2) douleur mentale, dépression. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
 - núótöm ::  /nʊɔtœ̃/ (vt.) voir
 ** Sexe
 ** Société
