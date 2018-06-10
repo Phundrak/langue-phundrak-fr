@@ -47,7 +47,7 @@ h4,h5,h6{
 html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
-    font-size:100%;
+    font-size:110%;
     height:100%;
     overflow-x:hidden;
 }
@@ -74,7 +74,7 @@ body{
 }
 
 p{
-    font-size:110%;
+    font-size:inherit;
     line-height:24px;
     margin:0px 0px 24px 0px;
 }
