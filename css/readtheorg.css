@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @font-face {
-    font-family: "CharisSIL";
-    src:url("../fonts/CharisSILR.ttf");
+    font-family: "DoulosSIL";
+    src:url("../fonts/DoulosSIL-R.woff");
 }
 
 h1,h2,h3,h4,h5,h6,legend{
@@ -55,7 +55,7 @@ html{
 body{
     background:#edf0f2;
     color:#404040;
-    font-family:"CharisSIL","Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+    font-family:"DoulosSIL","Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
     font-weight:normal;
     min-height:100%;
     overflow-x:hidden;
@@ -74,7 +74,7 @@ body{
 }
 
 p{
-    font-size:16px;
+    font-size:110%;
     line-height:24px;
     margin:0px 0px 24px 0px;
 }
@@ -983,13 +983,14 @@ footer p{
 
 #content .sidebar .sidebar-title{
     display:block;
-    font-family:"CharisSIL","Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+    font-family:"DoulosSIL","Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
     font-weight:bold;
     background:#e1e4e5;
     padding:6px 12px;
     margin:-24px;
     margin-bottom:24px;
-    font-size:100%}
+    font-size:120%
+}
 
 #content .highlighted{
     background:#F1C40F;
