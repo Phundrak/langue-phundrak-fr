@@ -359,7 +359,7 @@ td{
     vertical-align:top}
 
 table td,table th{
-    font-size:90%;
+    font-size:inherit;
     margin:0;
     overflow:visible;
     padding:8px 16px;
