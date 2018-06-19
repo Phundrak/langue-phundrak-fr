@@ -3,26 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
-<!-- 2018-06-19 mar. 17:25 -->
+<!-- 2018-06-20 mer. 00:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Grammaire du Hjalpi’</title>
-<!-- 2018-06-19 mar. 14:30 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="Lucien Cartier-Tilet" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Lucien Cartier-Tilet" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -49,27 +53,111 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -89,6 +177,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="css/htmlize.css"/>
@@ -102,7 +191,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -147,114 +236,119 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Grammaire du Hjalpi’</h1>
+<p>
+
+</p>
 <div id="table-of-contents">
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd569f91">1. <span class="todo TODO">TODO</span> Introduction</a></li>
-<li><a href="#org6c5fb7b">2. Phonologie</a>
+<li><a href="#org5c5229c">1. <span class="todo TODO">TODO</span> Introduction</a></li>
+<li><a href="#org098e21b">2. Phonologie</a>
 <ul>
-<li><a href="#org215d0eb">2.1. Voyelles</a>
+<li><a href="#org8602845">2.1. Voyelles</a>
 <ul>
-<li><a href="#org6e81db4">2.1.1. Voyelles courtes</a></li>
-<li><a href="#org1a59627">2.1.2. Voyelles longues</a></li>
-<li><a href="#orgb4b5eb4">2.1.3. Consonnes syllabiques</a></li>
-<li><a href="#orga805009">2.1.4. <span class="todo TODO">TODO</span> Diphtongues</a></li>
+<li><a href="#orge2eb1b6">2.1.1. Voyelles courtes</a></li>
+<li><a href="#org9a92d9d">2.1.2. Voyelles longues</a></li>
+<li><a href="#org527137f">2.1.3. Consonnes syllabiques</a></li>
+<li><a href="#orgea5ce93">2.1.4. <span class="todo TODO">TODO</span> Diphtongues</a></li>
 </ul>
 </li>
-<li><a href="#org93a848d">2.2. Consonnes</a></li>
-<li><a href="#org4e23043">2.3. <span class="todo TODO">TODO</span> Accentuation</a></li>
-<li><a href="#org02de3b9">2.4. <span class="todo TODO">TODO</span> Romanisation et translittération</a></li>
+<li><a href="#org8542fc8">2.2. Consonnes</a></li>
+<li><a href="#org273fa1c">2.3. <span class="todo TODO">TODO</span> Accentuation</a></li>
+<li><a href="#org4f4983d">2.4. <span class="todo TODO">TODO</span> Romanisation et translittération</a></li>
 </ul>
 </li>
-<li><a href="#org20211cb">3. Phonologie dérivationnelle</a>
+<li><a href="#org2ff387e">3. Phonologie dérivationnelle</a>
 <ul>
-<li><a href="#org176a162">3.1. Allophonie</a>
+<li><a href="#orgc9b647a">3.1. Allophonie</a>
 <ul>
-<li><a href="#orgb4d2b0a">3.1.1. Voyelles</a></li>
-<li><a href="#org5bc004e">3.1.2. Consonnes</a></li>
-<li><a href="#org83eac6c">3.1.3. <span class="todo TODO">TODO</span> Exemples</a></li>
+<li><a href="#org7a787bb">3.1.1. Voyelles</a></li>
+<li><a href="#org562d917">3.1.2. Consonnes</a></li>
+<li><a href="#org5a12c0b">3.1.3. <span class="todo TODO">TODO</span> Exemples</a></li>
 </ul>
 </li>
-<li><a href="#org3ddb45c">3.2. <span class="todo TODO">TODO</span> Accord des voyelles</a></li>
-<li><a href="#org6316ca0">3.3. <span class="todo TODO">TODO</span> Accord des consonnes</a></li>
-<li><a href="#org9991a55">3.4. <span class="todo TODO">TODO</span> Déclinaisons</a></li>
+<li><a href="#org6188640">3.2. <span class="todo TODO">TODO</span> Accord des voyelles</a></li>
+<li><a href="#orge82f6cc">3.3. <span class="todo TODO">TODO</span> Accord des consonnes</a></li>
+<li><a href="#orga0be503">3.4. <span class="todo TODO">TODO</span> Déclinaisons</a></li>
 </ul>
 </li>
-<li><a href="#orge9487b5">4. <span class="todo TODO">TODO</span> Syntaxe</a></li>
-<li><a href="#org393bd2f">5. <span class="todo TODO">TODO</span> Champs sémantiques et pragmatismes</a></li>
-<li><a href="#orga1d7b53">6. <span class="todo TODO">TODO</span> Système d’écriture</a></li>
-<li><a href="#orgce200ca">7. <span class="todo TODO">TODO</span> Exemples</a></li>
-<li><a href="#orgc90d671">8. Glossaire</a>
+<li><a href="#orgbc48bdd">4. <span class="todo TODO">TODO</span> Syntaxe</a></li>
+<li><a href="#org2b0c71e">5. <span class="todo TODO">TODO</span> Champs sémantiques et pragmatismes</a></li>
+<li><a href="#org96b2b5e">6. <span class="todo TODO">TODO</span> Système d’écriture</a></li>
+<li><a href="#orgb4d9f86">7. <span class="todo TODO">TODO</span> Exemples</a></li>
+<li><a href="#orgedfe776">8. Glossaire</a>
 <ul>
-<li><a href="#orgfda8e86">8.1. Actions physiques</a></li>
-<li><a href="#org1b4fac4">8.2. Amour</a></li>
-<li><a href="#org68115d7">8.3. Animaux</a></li>
-<li><a href="#org78da5ac">8.4. Art</a></li>
-<li><a href="#org25aafb1">8.5. Astronomie</a></li>
-<li><a href="#org87dbee1">8.6. Bâtiments</a></li>
-<li><a href="#org3c5d0c6">8.7. Commerce</a></li>
-<li><a href="#org3c7e478">8.8. Conflits</a></li>
-<li><a href="#orgca90839">8.9. Conteneurs</a></li>
-<li><a href="#orgcbb4185">8.10. Corps</a></li>
-<li><a href="#org2b3532f">8.11. Couleurs</a></li>
-<li><a href="#orgc450935">8.12. Dimensions</a></li>
-<li><a href="#orgb1add08">8.13. Direction</a></li>
-<li><a href="#org8dec7e3">8.14. Eau</a></li>
-<li><a href="#org9d56d48">8.15. Effort</a></li>
-<li><a href="#org4b14022">8.16. Éléments</a></li>
-<li><a href="#org7f3d741">8.17. Émotions</a></li>
-<li><a href="#org5a206be">8.18. Évaluation</a></li>
-<li><a href="#org734e26c">8.19. Événements</a></li>
-<li><a href="#orga65c9c5">8.20. Existence</a></li>
-<li><a href="#orgd746cc6">8.21. Famille</a></li>
-<li><a href="#org18fbd40">8.22. Forme</a></li>
-<li><a href="#org788c071">8.23. Gouvernement</a></li>
-<li><a href="#org12090b6">8.24. Grammaire</a>
+<li><a href="#orge67cbfc">8.1. Actions physiques</a></li>
+<li><a href="#orge41da1b">8.2. Amour</a></li>
+<li><a href="#org4a3210d">8.3. Animaux</a></li>
+<li><a href="#org7571072">8.4. Art</a></li>
+<li><a href="#org77e488d">8.5. Astronomie</a></li>
+<li><a href="#org0b5809f">8.6. Bâtiments</a></li>
+<li><a href="#orgd1a5b40">8.7. Commerce</a></li>
+<li><a href="#org472927d">8.8. Conflits</a></li>
+<li><a href="#orgd349b05">8.9. Conteneurs</a></li>
+<li><a href="#org74fb079">8.10. Corps</a></li>
+<li><a href="#org9edf7d8">8.11. Couleurs</a></li>
+<li><a href="#org52e1de9">8.12. Dimensions</a></li>
+<li><a href="#orgaaf9714">8.13. Direction</a></li>
+<li><a href="#orgedd5a84">8.14. Eau</a></li>
+<li><a href="#org34f678e">8.15. Effort</a></li>
+<li><a href="#orgbd9d6f9">8.16. Éléments</a></li>
+<li><a href="#orgc60cf6e">8.17. Émotions</a></li>
+<li><a href="#org8a6760c">8.18. Évaluation</a></li>
+<li><a href="#orgc314e41">8.19. Événements</a></li>
+<li><a href="#org14be482">8.20. Existence</a></li>
+<li><a href="#orgdaf7017">8.21. Famille</a></li>
+<li><a href="#org2c315e6">8.22. Forme</a></li>
+<li><a href="#orgc82b09b">8.23. Gouvernement</a></li>
+<li><a href="#orgd205952">8.24. Grammaire</a>
 <ul>
-<li><a href="#orgb4edb97">8.24.1. Pronoms interrogatifs</a></li>
+<li><a href="#orgd6cb610">8.24.1. Pronoms interrogatifs</a></li>
 </ul>
 </li>
-<li><a href="#org3e3ca57">8.25. Guerre</a></li>
-<li><a href="#org5ad8c27">8.26. Légal</a></li>
-<li><a href="#orgc018827">8.27. Lieux</a></li>
-<li><a href="#org3b34317">8.28. Lumière</a></li>
-<li><a href="#orgadf1bd5">8.29. Mental</a></li>
-<li><a href="#orge76606f">8.30. Mesures</a></li>
-<li><a href="#org0031d06">8.31. Métaux</a></li>
-<li><a href="#org2c95fb6">8.32. Mouvement</a></li>
-<li><a href="#org4df7a69">8.33. Nature</a></li>
-<li><a href="#org44e4fb7">8.34. Nombres</a></li>
-<li><a href="#org20dd4d5">8.35. Nourriture</a></li>
-<li><a href="#org04ed640">8.36. Outils</a></li>
-<li><a href="#orgcde6ca9">8.37. Parole</a></li>
-<li><a href="#org275191b">8.38. Péchés</a></li>
-<li><a href="#org0965ec6">8.39. Physique</a></li>
-<li><a href="#org21f97f8">8.40. Possession</a></li>
-<li><a href="#orgeac693c">8.41. Religion</a></li>
-<li><a href="#orge8af818">8.42. Savoir</a></li>
-<li><a href="#orga27280d">8.43. Sensations</a></li>
-<li><a href="#org2c5b4c7">8.44. Sexe</a></li>
-<li><a href="#orgb21addf">8.45. Société</a></li>
-<li><a href="#org7e83583">8.46. Substances</a></li>
-<li><a href="#org18b2cb1">8.47. Temps</a>
+<li><a href="#org1a06285">8.25. Guerre</a></li>
+<li><a href="#org71a3591">8.26. Légal</a></li>
+<li><a href="#orge837c46">8.27. Lieux</a></li>
+<li><a href="#org08ef203">8.28. Lumière</a></li>
+<li><a href="#org10ddb14">8.29. Mental</a></li>
+<li><a href="#org85cdfd9">8.30. Mesures</a></li>
+<li><a href="#org555f023">8.31. Métaux</a></li>
+<li><a href="#orgceb91b8">8.32. Mouvement</a></li>
+<li><a href="#orgf3b37a0">8.33. Nature</a></li>
+<li><a href="#org4a34ce8">8.34. Nombres</a></li>
+<li><a href="#orgbf5bda1">8.35. Nourriture</a></li>
+<li><a href="#org204bf77">8.36. Outils</a></li>
+<li><a href="#org4d5d284">8.37. Parole</a></li>
+<li><a href="#org9657c38">8.38. Péchés</a></li>
+<li><a href="#org415bb06">8.39. Physique</a></li>
+<li><a href="#org1f05f59">8.40. Possession</a></li>
+<li><a href="#orgc89fa91">8.41. Religion</a></li>
+<li><a href="#org09adfe8">8.42. Savoir</a></li>
+<li><a href="#org50b8b7b">8.43. Sensations</a></li>
+<li><a href="#orgf5b9899">8.44. Sexe</a></li>
+<li><a href="#org2c85f2c">8.45. Société</a></li>
+<li><a href="#org6b66b09">8.46. Substances</a></li>
+<li><a href="#orgdf3b4e1">8.47. Temps</a>
 <ul>
-<li><a href="#org8d95d4f">8.47.1. Jours de la semaine</a></li>
+<li><a href="#orgccab7a6">8.47.1. Jours de la semaine</a></li>
 </ul>
 </li>
-<li><a href="#orgaae0db0">8.48. Travail</a></li>
-<li><a href="#orgff041de">8.49. Végétaux</a></li>
-<li><a href="#orgc60a226">8.50. Vêtements</a></li>
-<li><a href="#orgaf9df36">8.51. Vie et santé</a></li>
+<li><a href="#org35fc00d">8.48. Travail</a></li>
+<li><a href="#org69432a5">8.49. Végétaux</a></li>
+<li><a href="#orgbe92501">8.50. Vêtements</a></li>
+<li><a href="#org1601976">8.51. Vie et santé</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
+<p>
 
+</p>
 
-<div id="outline-container-orgd569f91" class="outline-2">
-<h2 id="orgd569f91"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Introduction</h2>
+<div id="outline-container-org5c5229c" class="outline-2">
+<h2 id="org5c5229c"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
@@ -266,65 +360,65 @@ Cette langue sera également utilisée pour créer d’autres langues qui auront
 </div>
 </div>
 
-<div id="outline-container-org6c5fb7b" class="outline-2">
-<h2 id="org6c5fb7b"><span class="section-number-2">2</span> Phonologie</h2>
+<div id="outline-container-org098e21b" class="outline-2">
+<h2 id="org098e21b"><span class="section-number-2">2</span> Phonologie</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org215d0eb" class="outline-3">
-<h3 id="org215d0eb"><span class="section-number-3">2.1</span> <a id="org71203fb"></a>Voyelles</h3>
+<div id="outline-container-org8602845" class="outline-3">
+<h3 id="org8602845"><span class="section-number-3">2.1</span> <a id="orgaec0ccb"></a>Voyelles</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
-Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans <a href="#orgb1c34bd">Diphtongues</a>). Voici la liste des voyelles utilisées dans le Hjalpi’ :
+Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans <a href="#orge1d4d45">Diphtongues</a>). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 </p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 1 :</span> Voyelles du Hjalpi’</caption>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">antérieures</th>
-<th scope="col" class="left">postérieures</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">antérieures</th>
+<th scope="col" class="org-left">postérieures</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">fermées</td>
-<td class="left">i / y</td>
-<td class="left">u</td>
+<td class="org-left">fermées</td>
+<td class="org-left">i / y</td>
+<td class="org-left">u</td>
 </tr>
 
 <tr>
-<td class="left">pré-fermées</td>
-<td class="left">í / ý</td>
-<td class="left">ú</td>
+<td class="org-left">pré-fermées</td>
+<td class="org-left">í / ý</td>
+<td class="org-left">ú</td>
 </tr>
 
 <tr>
-<td class="left">mi-fermées</td>
-<td class="left">e / ò</td>
-<td class="left">o</td>
+<td class="org-left">mi-fermées</td>
+<td class="org-left">e / ò</td>
+<td class="org-left">o</td>
 </tr>
 
 <tr>
-<td class="left">mi-ouvertes</td>
-<td class="left">é / ö</td>
-<td class="left">ó</td>
+<td class="org-left">mi-ouvertes</td>
+<td class="org-left">é / ö</td>
+<td class="org-left">ó</td>
 </tr>
 
 <tr>
-<td class="left">ouvertes</td>
-<td class="left">a</td>
-<td class="left">á</td>
+<td class="org-left">ouvertes</td>
+<td class="org-left">a</td>
+<td class="org-left">á</td>
 </tr>
 </tbody>
 </table>
@@ -337,50 +431,50 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le <i>ń</i> et l
 <caption class="t-above"><span class="table-number">Tableau 2 :</span> Voyelles du Hjalpi’ (IPA)</caption>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">antérieures</th>
-<th scope="col" class="left">postérieures</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">antérieures</th>
+<th scope="col" class="org-left">postérieures</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">fermées</td>
-<td class="left">iː / yː</td>
-<td class="left">uː</td>
+<td class="org-left">fermées</td>
+<td class="org-left">iː / yː</td>
+<td class="org-left">uː</td>
 </tr>
 
 <tr>
-<td class="left">pré-fermées</td>
-<td class="left">ɪ / ʏ</td>
-<td class="left">ʊ</td>
+<td class="org-left">pré-fermées</td>
+<td class="org-left">ɪ / ʏ</td>
+<td class="org-left">ʊ</td>
 </tr>
 
 <tr>
-<td class="left">mi-fermées</td>
-<td class="left">eː / øː</td>
-<td class="left">oː</td>
+<td class="org-left">mi-fermées</td>
+<td class="org-left">eː / øː</td>
+<td class="org-left">oː</td>
 </tr>
 
 <tr>
-<td class="left">mi-ouvertes</td>
-<td class="left">ɛ / œ</td>
-<td class="left">ɔ</td>
+<td class="org-left">mi-ouvertes</td>
+<td class="org-left">ɛ / œ</td>
+<td class="org-left">ɔ</td>
 </tr>
 
 <tr>
-<td class="left">ouvertes</td>
-<td class="left">aː</td>
-<td class="left">ɑ</td>
+<td class="org-left">ouvertes</td>
+<td class="org-left">aː</td>
+<td class="org-left">ɑ</td>
 </tr>
 </tbody>
 </table>
@@ -392,64 +486,57 @@ Avec le <i>ń</i> et le <i>ĺ</i> ayant respectivement pour valeur /n̩/ et�
 </p>
 
 <p>
-On peut remarquer que, à l’exception de <i>ń</i> et <i>ĺ</i>, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, <i>þran</i>  /θrãː/ n’aura pas la même signification que <i>þrán</i>  /θrɑ̃/ (pour l’explication de la prononciation, voir <a href="#org4248722">l’allophonie</a>). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
+On peut remarquer que, à l’exception de <i>ń</i> et <i>ĺ</i>, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, <i>þran</i>  /θrãː/ n’aura pas la même signification que <i>þrán</i>  /θrɑ̃/ (pour l’explication de la prononciation, voir <a href="#org792895b">l’allophonie</a>). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 </p>
 </div>
 
-<div id="outline-container-org6e81db4" class="outline-4">
-<h4 id="org6e81db4"><span class="section-number-4">2.1.1</span> Voyelles courtes</h4>
+<div id="outline-container-orge2eb1b6" class="outline-4">
+<h4 id="orge2eb1b6"><span class="section-number-4">2.1.1</span> Voyelles courtes</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <ul class="org-ul">
-<li> /ɑ/ : á
-</li>
+<li> /ɑ/ : á</li>
 </ul>
 <p>
 Le <i>á</i> est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
 </p>
 
 <ul class="org-ul">
-<li> /œ/ : ö
-</li>
+<li> /œ/ : ö</li>
 </ul>
 <p>
 Il s’agit ici du son « eu » tel qu’on le retrouve en français tel que dans le mot « neuf ».
 </p>
 
 <ul class="org-ul">
-<li> /ɪ/ : í
-</li>
+<li> /ɪ/ : í</li>
 </ul>
 <p>
 Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ». Il s’agit de la voyelle pré-fermée antérieure non-arrondie.
 </p>
 
 <ul class="org-ul">
-<li> /ɛ/ : é
-</li>
+<li> /ɛ/ : é</li>
 </ul>
 <p>
 Nous avons ici la voyelle « è » que l’on retrouve en français par exemple dans le mot « cette ».
 </p>
 
 <ul class="org-ul">
-<li> /ɔ/ : ó
-</li>
+<li> /ɔ/ : ó</li>
 </ul>
 <p>
 Il s’agit du « o » ouvert, que l’on retrouve en français dans le mot « sort » par exemple.
 </p>
 
 <ul class="org-ul">
-<li> /ʏ/ : ý
-</li>
+<li> /ʏ/ : ý</li>
 </ul>
 <p>
 Cette voyelle est un équivalent du « u » français ouvert, que l’on peut retrouver en Allemand comme dans « Müller » par exemple. Il s’agit de la voyelle antérieure pré-fermée arrondie.
 </p>
 
 <ul class="org-ul">
-<li> /ʊ/ : ú
-</li>
+<li> /ʊ/ : ú</li>
 </ul>
 <p>
 Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
@@ -457,60 +544,53 @@ Cette voyelle est un équivalent du « ou » Français ouvert, telle que l�
 </div>
 </div>
 
-<div id="outline-container-org1a59627" class="outline-4">
-<h4 id="org1a59627"><span class="section-number-4">2.1.2</span> Voyelles longues</h4>
+<div id="outline-container-org9a92d9d" class="outline-4">
+<h4 id="org9a92d9d"><span class="section-number-4">2.1.2</span> Voyelles longues</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <ul class="org-ul">
-<li> /aː/ : a
-</li>
+<li> /aː/ : a</li>
 </ul>
 <p>
 Cette voyelle est le « a » que l’on peut retrouver dans le français tel que dans « patte », à la différence que le « a » de le Hjalpi’ est prononcé un peu plus longuement que le « a » français.
 </p>
 
 <ul class="org-ul">
-<li> /øː/ : ò
-</li>
+<li> /øː/ : ò</li>
 </ul>
 <p>
 Cette voyelle est la même que le « eu » français que l’on retrouve dans le mot « deux », à la différence que le « ò » divin est prononcé un peu plus longuement que le « eu » français.
 </p>
 
 <ul class="org-ul">
-<li> /iː/ : i
-</li>
+<li> /iː/ : i</li>
 </ul>
 <p>
 Cette voyelle est la même que le « i » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
 </p>
 
 <ul class="org-ul">
-<li> /eː/ : e
-</li>
+<li> /eː/ : e</li>
 </ul>
 <p>
 Cette voyelle est la même que le « é » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
 </p>
 
 <ul class="org-ul">
-<li> /oː/ : o
-</li>
+<li> /oː/ : o</li>
 </ul>
 <p>
 Cette voyelle est la même que le « o » français comme dans « eau », à la différence que le « o » de le Hjalpi’ est prononcé un peu plus longuement que le « o » français.
 </p>
 
 <ul class="org-ul">
-<li> /yː/ : y
-</li>
+<li> /yː/ : y</li>
 </ul>
 <p>
 Cette voyelle est la même que le « u » français, à la différence que le « u » de le Hjalpi’ est prononcé un peu plus longuement que le « u » français.
 </p>
 
 <ul class="org-ul">
-<li> /uː/ : u
-</li>
+<li> /uː/ : u</li>
 </ul>
 <p>
 Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
@@ -518,20 +598,18 @@ Cette voyelle est la même que le « ou » français, à la différence que 
 </div>
 </div>
 
-<div id="outline-container-orgb4b5eb4" class="outline-4">
-<h4 id="orgb4b5eb4"><span class="section-number-4">2.1.3</span> <a id="orgc3681c8"></a>Consonnes syllabiques</h4>
+<div id="outline-container-org527137f" class="outline-4">
+<h4 id="org527137f"><span class="section-number-4">2.1.3</span> <a id="orgf451d2d"></a>Consonnes syllabiques</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <ul class="org-ul">
-<li> /n̩/ : ń
-</li>
+<li> /n̩/ : ń</li>
 </ul>
 <p>
 Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé  /bʌtn̩/.
 </p>
 
 <ul class="org-ul">
-<li> /l̩/ : ĺ
-</li>
+<li> /l̩/ : ĺ</li>
 </ul>
 <p>
 Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
@@ -539,13 +617,13 @@ Le « ĺ » est la consonne « l » (la même que le « l » frança
 </div>
 </div>
 
-<div id="outline-container-orga805009" class="outline-4">
-<h4 id="orga805009"><span class="section-number-4">2.1.4</span> <span class="todo TODO">TODO</span> <a id="orgb1c34bd"></a>Diphtongues</h4>
+<div id="outline-container-orgea5ce93" class="outline-4">
+<h4 id="orgea5ce93"><span class="section-number-4">2.1.4</span> <span class="todo TODO">TODO</span> <a id="orge1d4d45"></a>Diphtongues</h4>
 </div>
 </div>
 
-<div id="outline-container-org93a848d" class="outline-3">
-<h3 id="org93a848d"><span class="section-number-3">2.2</span> <a id="org589ebf7"></a>Consonnes</h3>
+<div id="outline-container-org8542fc8" class="outline-3">
+<h3 id="org8542fc8"><span class="section-number-3">2.2</span> <a id="org37c5135"></a>Consonnes</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
@@ -555,181 +633,181 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 <caption class="t-above"><span class="table-number">Tableau 3 :</span> Consonnes du Hjalpi’</caption>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">b</th>
-<th scope="col" class="left">ld</th>
-<th scope="col" class="left">d</th>
-<th scope="col" class="left">a</th>
-<th scope="col" class="left">pa</th>
-<th scope="col" class="left">r</th>
-<th scope="col" class="left">p</th>
-<th scope="col" class="left">v</th>
-<th scope="col" class="left">uv</th>
-<th scope="col" class="left">g</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">b</th>
+<th scope="col" class="org-left">ld</th>
+<th scope="col" class="org-left">d</th>
+<th scope="col" class="org-left">a</th>
+<th scope="col" class="org-left">pa</th>
+<th scope="col" class="org-left">r</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">v</th>
+<th scope="col" class="org-left">uv</th>
+<th scope="col" class="org-left">g</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">pl</td>
-<td class="left">p b</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">t d</td>
-<td class="left">&#xa0;</td>
-<td class="left">ţ ḑ</td>
-<td class="left">&#xa0;</td>
-<td class="left">k g</td>
-<td class="left">&#xa0;</td>
-<td class="left">'</td>
+<td class="org-left">pl</td>
+<td class="org-left">p b</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">t d</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ţ ḑ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">k g</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">'</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">n</td>
-<td class="left">m</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">n</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">ň</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">n</td>
+<td class="org-left">m</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">n</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ň</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">t</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">r</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">t</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">r</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">afr</td>
-<td class="left">&#xa0;</td>
-<td class="left">f v</td>
-<td class="left">þ ð</td>
-<td class="left">s z</td>
-<td class="left">ß ź</td>
-<td class="left">&#xa0;</td>
-<td class="left">š ž</td>
-<td class="left">&#xa0;</td>
-<td class="left">x ŗ</td>
-<td class="left">h</td>
+<td class="org-left">afr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">f v</td>
+<td class="org-left">þ ð</td>
+<td class="org-left">s z</td>
+<td class="org-left">ß ź</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">š ž</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">x ŗ</td>
+<td class="org-left">h</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">lafr</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">ł</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">lafr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ł</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">apr</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">ŕ</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">j</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">apr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ŕ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">j</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">lapr</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">l</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">lapr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">l</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">sv</td>
-<td class="left">w</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">sv</td>
+<td class="org-left">w</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
@@ -738,181 +816,181 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 <caption class="t-above"><span class="table-number">Tableau 4 :</span> Consonnes du Hjalpi’ (IPA)</caption>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">b</th>
-<th scope="col" class="left">ld</th>
-<th scope="col" class="left">d</th>
-<th scope="col" class="left">a</th>
-<th scope="col" class="left">pa</th>
-<th scope="col" class="left">r</th>
-<th scope="col" class="left">p</th>
-<th scope="col" class="left">v</th>
-<th scope="col" class="left">uv</th>
-<th scope="col" class="left">g</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">b</th>
+<th scope="col" class="org-left">ld</th>
+<th scope="col" class="org-left">d</th>
+<th scope="col" class="org-left">a</th>
+<th scope="col" class="org-left">pa</th>
+<th scope="col" class="org-left">r</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">v</th>
+<th scope="col" class="org-left">uv</th>
+<th scope="col" class="org-left">g</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">pl</td>
-<td class="left">p  b</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">t  d</td>
-<td class="left">&#xa0;</td>
-<td class="left">ʈ  ɖ</td>
-<td class="left">&#xa0;</td>
-<td class="left">k  ɡ</td>
-<td class="left">&#xa0;</td>
-<td class="left">ʔ</td>
+<td class="org-left">pl</td>
+<td class="org-left">p  b</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">t  d</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ʈ  ɖ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">k  ɡ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ʔ</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">n</td>
-<td class="left">m</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">n</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">ŋ</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">n</td>
+<td class="org-left">m</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">n</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ŋ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">t</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">r</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">t</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">r</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">afr</td>
-<td class="left">&#xa0;</td>
-<td class="left">f   v</td>
-<td class="left">θ  ð</td>
-<td class="left">s  z</td>
-<td class="left">ʃ ʒ</td>
-<td class="left">&#xa0;</td>
-<td class="left">ç  ʝ</td>
-<td class="left">&#xa0;</td>
-<td class="left">χ   ʁ</td>
-<td class="left">h</td>
+<td class="org-left">afr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">f   v</td>
+<td class="org-left">θ  ð</td>
+<td class="org-left">s  z</td>
+<td class="org-left">ʃ ʒ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ç  ʝ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">χ   ʁ</td>
+<td class="org-left">h</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">lafr</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">ɬ</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">lafr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ɬ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">apr</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">ɹ</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">j</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">apr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ɹ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">j</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">lapr</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">l</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">lapr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">l</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="left">sv</td>
-<td class="left">w</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">sv</td>
+<td class="org-left">w</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
@@ -925,95 +1003,95 @@ Abréviations :
 
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 
-<col  class="left" />
+<col  class="org-left" />
 
-<col  class="left" />
+<col  class="org-left" />
 
-<col  class="left" />
+<col  class="org-left" />
 
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <tbody>
 <tr>
-<td class="left">b</td>
-<td class="left">bilabial</td>
-<td class="left">&#xa0;</td>
-<td class="left">pl</td>
-<td class="left">plosif</td>
+<td class="org-left">b</td>
+<td class="org-left">bilabial</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">pl</td>
+<td class="org-left">plosif</td>
 </tr>
 
 <tr>
-<td class="left">ld</td>
-<td class="left">labio-dental</td>
-<td class="left">&#xa0;</td>
-<td class="left">n</td>
-<td class="left">nasal</td>
+<td class="org-left">ld</td>
+<td class="org-left">labio-dental</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">n</td>
+<td class="org-left">nasal</td>
 </tr>
 
 <tr>
-<td class="left">d</td>
-<td class="left">dental</td>
-<td class="left">&#xa0;</td>
-<td class="left">t</td>
-<td class="left">trill</td>
+<td class="org-left">d</td>
+<td class="org-left">dental</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">t</td>
+<td class="org-left">trill</td>
 </tr>
 
 <tr>
-<td class="left">a</td>
-<td class="left">alvéolaire</td>
-<td class="left">&#xa0;</td>
-<td class="left">sv</td>
-<td class="left">semi-voyelle</td>
+<td class="org-left">a</td>
+<td class="org-left">alvéolaire</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">sv</td>
+<td class="org-left">semi-voyelle</td>
 </tr>
 
 <tr>
-<td class="left">pa</td>
-<td class="left">post-alvéolaire</td>
-<td class="left">&#xa0;</td>
-<td class="left">afr</td>
-<td class="left">fricatif</td>
+<td class="org-left">pa</td>
+<td class="org-left">post-alvéolaire</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">afr</td>
+<td class="org-left">fricatif</td>
 </tr>
 
 <tr>
-<td class="left">r</td>
-<td class="left">rétroflexe</td>
-<td class="left">&#xa0;</td>
-<td class="left">lafr</td>
-<td class="left">fricatif latéral</td>
+<td class="org-left">r</td>
+<td class="org-left">rétroflexe</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">lafr</td>
+<td class="org-left">fricatif latéral</td>
 </tr>
 
 <tr>
-<td class="left">v</td>
-<td class="left">velaire</td>
-<td class="left">&#xa0;</td>
-<td class="left">apr</td>
-<td class="left">aproximant</td>
+<td class="org-left">v</td>
+<td class="org-left">velaire</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">apr</td>
+<td class="org-left">aproximant</td>
 </tr>
 
 <tr>
-<td class="left">uv</td>
-<td class="left">uvulaire</td>
-<td class="left">&#xa0;</td>
-<td class="left">lapr</td>
-<td class="left">aproximant latéral</td>
+<td class="org-left">uv</td>
+<td class="org-left">uvulaire</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">lapr</td>
+<td class="org-left">aproximant latéral</td>
 </tr>
 
 <tr>
-<td class="left">g</td>
-<td class="left">glottal</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">g</td>
+<td class="org-left">glottal</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
-<div id="outline-container-org4e23043" class="outline-3">
-<h3 id="org4e23043"><span class="section-number-3">2.3</span> <span class="todo TODO">TODO</span> Accentuation</h3>
+<div id="outline-container-org273fa1c" class="outline-3">
+<h3 id="org273fa1c"><span class="section-number-3">2.3</span> <span class="todo TODO">TODO</span> Accentuation</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
@@ -1022,8 +1100,8 @@ Pour ce qui est de l’accentuation des phrases, le ton est généralement tomba
 </div>
 </div>
 
-<div id="outline-container-org02de3b9" class="outline-3">
-<h3 id="org02de3b9"><span class="section-number-3">2.4</span> <span class="todo TODO">TODO</span> Romanisation et translittération</h3>
+<div id="outline-container-org4f4983d" class="outline-3">
+<h3 id="org4f4983d"><span class="section-number-3">2.4</span> <span class="todo TODO">TODO</span> Romanisation et translittération</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
@@ -1034,7 +1112,7 @@ Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différe
 </p>
 
 <p>
-Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans <a href="#org589ebf7">Consonnes</a> et <a href="#org71203fb">Voyelles</a>), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
+Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans <a href="#org37c5135">Consonnes</a> et <a href="#orgaec0ccb">Voyelles</a>), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
 </p>
 
 <p>
@@ -1045,106 +1123,106 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 <caption class="t-above"><span class="table-number">Tableau 5 :</span> Translittération des voyelles du Hjalpi’</caption>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">phonème</th>
-<th scope="col" class="left">trans.</th>
-<th scope="col" class="left">rom.</th>
+<th scope="col" class="org-left">phonème</th>
+<th scope="col" class="org-left">trans.</th>
+<th scope="col" class="org-left">rom.</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">iː</td>
-<td class="left">i</td>
-<td class="left">i</td>
+<td class="org-left">iː</td>
+<td class="org-left">i</td>
+<td class="org-left">i</td>
 </tr>
 
 <tr>
-<td class="left">yː</td>
-<td class="left">y</td>
-<td class="left">u</td>
+<td class="org-left">yː</td>
+<td class="org-left">y</td>
+<td class="org-left">u</td>
 </tr>
 
 <tr>
-<td class="left">uː</td>
-<td class="left">u</td>
-<td class="left">ou</td>
+<td class="org-left">uː</td>
+<td class="org-left">u</td>
+<td class="org-left">ou</td>
 </tr>
 
 <tr>
-<td class="left">ɪ</td>
-<td class="left">í</td>
-<td class="left">i</td>
+<td class="org-left">ɪ</td>
+<td class="org-left">í</td>
+<td class="org-left">i</td>
 </tr>
 
 <tr>
-<td class="left">ʏ</td>
-<td class="left">ý</td>
-<td class="left">u</td>
+<td class="org-left">ʏ</td>
+<td class="org-left">ý</td>
+<td class="org-left">u</td>
 </tr>
 
 <tr>
-<td class="left">ʊ</td>
-<td class="left">ú</td>
-<td class="left">ou</td>
+<td class="org-left">ʊ</td>
+<td class="org-left">ú</td>
+<td class="org-left">ou</td>
 </tr>
 
 <tr>
-<td class="left">eː</td>
-<td class="left">e</td>
-<td class="left">é</td>
+<td class="org-left">eː</td>
+<td class="org-left">e</td>
+<td class="org-left">é</td>
 </tr>
 
 <tr>
-<td class="left">øː</td>
-<td class="left">ò</td>
-<td class="left">e</td>
+<td class="org-left">øː</td>
+<td class="org-left">ò</td>
+<td class="org-left">e</td>
 </tr>
 
 <tr>
-<td class="left">oː</td>
-<td class="left">o</td>
-<td class="left">o</td>
+<td class="org-left">oː</td>
+<td class="org-left">o</td>
+<td class="org-left">o</td>
 </tr>
 
 <tr>
-<td class="left">ɛ</td>
-<td class="left">é</td>
-<td class="left">è</td>
+<td class="org-left">ɛ</td>
+<td class="org-left">é</td>
+<td class="org-left">è</td>
 </tr>
 
 <tr>
-<td class="left">œ</td>
-<td class="left">ö</td>
-<td class="left">eu</td>
+<td class="org-left">œ</td>
+<td class="org-left">ö</td>
+<td class="org-left">eu</td>
 </tr>
 
 <tr>
-<td class="left">ɔ</td>
-<td class="left">ó</td>
-<td class="left">au</td>
+<td class="org-left">ɔ</td>
+<td class="org-left">ó</td>
+<td class="org-left">au</td>
 </tr>
 
 <tr>
-<td class="left">aː</td>
-<td class="left">a</td>
-<td class="left">a</td>
+<td class="org-left">aː</td>
+<td class="org-left">a</td>
+<td class="org-left">a</td>
 </tr>
 
 <tr>
-<td class="left">ɑ</td>
-<td class="left">á</td>
-<td class="left">a</td>
+<td class="org-left">ɑ</td>
+<td class="org-left">á</td>
+<td class="org-left">a</td>
 </tr>
 </tbody>
 </table>
@@ -1153,202 +1231,202 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 <caption class="t-above"><span class="table-number">Tableau 6 :</span> Translittération des consonnes du Hjalpi’</caption>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">phonème</th>
-<th scope="col" class="left">trans.</th>
-<th scope="col" class="left">rom.</th>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">phonème</th>
-<th scope="col" class="left">trans.</th>
-<th scope="col" class="left">rom.</th>
+<th scope="col" class="org-left">phonème</th>
+<th scope="col" class="org-left">trans.</th>
+<th scope="col" class="org-left">rom.</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">phonème</th>
+<th scope="col" class="org-left">trans.</th>
+<th scope="col" class="org-left">rom.</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">p</td>
-<td class="left">p</td>
-<td class="left">p</td>
-<td class="left">&#xa0;</td>
-<td class="left">b</td>
-<td class="left">b</td>
-<td class="left">b</td>
+<td class="org-left">p</td>
+<td class="org-left">p</td>
+<td class="org-left">p</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">b</td>
+<td class="org-left">b</td>
+<td class="org-left">b</td>
 </tr>
 
 <tr>
-<td class="left">t</td>
-<td class="left">t</td>
-<td class="left">t</td>
-<td class="left">&#xa0;</td>
-<td class="left">d</td>
-<td class="left">d</td>
-<td class="left">d</td>
+<td class="org-left">t</td>
+<td class="org-left">t</td>
+<td class="org-left">t</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">d</td>
+<td class="org-left">d</td>
+<td class="org-left">d</td>
 </tr>
 
 <tr>
-<td class="left">ʈ</td>
-<td class="left">ţ</td>
-<td class="left">tr</td>
-<td class="left">&#xa0;</td>
-<td class="left">ɖ</td>
-<td class="left">ḑ</td>
-<td class="left">dr</td>
+<td class="org-left">ʈ</td>
+<td class="org-left">ţ</td>
+<td class="org-left">tr</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ɖ</td>
+<td class="org-left">ḑ</td>
+<td class="org-left">dr</td>
 </tr>
 
 <tr>
-<td class="left">k</td>
-<td class="left">k</td>
-<td class="left">k</td>
-<td class="left">&#xa0;</td>
-<td class="left">ɡ</td>
-<td class="left">g</td>
-<td class="left">g</td>
+<td class="org-left">k</td>
+<td class="org-left">k</td>
+<td class="org-left">k</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ɡ</td>
+<td class="org-left">g</td>
+<td class="org-left">g</td>
 </tr>
 
 <tr>
-<td class="left">f</td>
-<td class="left">f</td>
-<td class="left">f</td>
-<td class="left">&#xa0;</td>
-<td class="left">v</td>
-<td class="left">v</td>
-<td class="left">v</td>
+<td class="org-left">f</td>
+<td class="org-left">f</td>
+<td class="org-left">f</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">v</td>
+<td class="org-left">v</td>
+<td class="org-left">v</td>
 </tr>
 
 <tr>
-<td class="left">θ</td>
-<td class="left">þ</td>
-<td class="left">th</td>
-<td class="left">&#xa0;</td>
-<td class="left">ð</td>
-<td class="left">ð</td>
-<td class="left">dh</td>
+<td class="org-left">θ</td>
+<td class="org-left">þ</td>
+<td class="org-left">th</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ð</td>
+<td class="org-left">ð</td>
+<td class="org-left">dh</td>
 </tr>
 
 <tr>
-<td class="left">s</td>
-<td class="left">s</td>
-<td class="left">s</td>
-<td class="left">&#xa0;</td>
-<td class="left">z</td>
-<td class="left">z</td>
-<td class="left">z</td>
+<td class="org-left">s</td>
+<td class="org-left">s</td>
+<td class="org-left">s</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">z</td>
+<td class="org-left">z</td>
+<td class="org-left">z</td>
 </tr>
 
 <tr>
-<td class="left">ʃ</td>
-<td class="left">ß</td>
-<td class="left">sh</td>
-<td class="left">&#xa0;</td>
-<td class="left">ʒ</td>
-<td class="left">ź</td>
-<td class="left">j</td>
+<td class="org-left">ʃ</td>
+<td class="org-left">ß</td>
+<td class="org-left">sh</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ʒ</td>
+<td class="org-left">ź</td>
+<td class="org-left">j</td>
 </tr>
 
 <tr>
-<td class="left">ç</td>
-<td class="left">š</td>
-<td class="left">sh</td>
-<td class="left">&#xa0;</td>
-<td class="left">ʝ</td>
-<td class="left">ž</td>
-<td class="left">jh</td>
+<td class="org-left">ç</td>
+<td class="org-left">š</td>
+<td class="org-left">sh</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ʝ</td>
+<td class="org-left">ž</td>
+<td class="org-left">jh</td>
 </tr>
 
 <tr>
-<td class="left">m</td>
-<td class="left">m</td>
-<td class="left">m</td>
-<td class="left">&#xa0;</td>
-<td class="left">n</td>
-<td class="left">n</td>
-<td class="left">n</td>
+<td class="org-left">m</td>
+<td class="org-left">m</td>
+<td class="org-left">m</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">n</td>
+<td class="org-left">n</td>
+<td class="org-left">n</td>
 </tr>
 
 <tr>
-<td class="left">ŋ</td>
-<td class="left">ň</td>
-<td class="left">ng</td>
-<td class="left">&#xa0;</td>
-<td class="left">ʔ</td>
-<td class="left">’</td>
-<td class="left">’</td>
+<td class="org-left">ŋ</td>
+<td class="org-left">ň</td>
+<td class="org-left">ng</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ʔ</td>
+<td class="org-left">’</td>
+<td class="org-left">’</td>
 </tr>
 
 <tr>
-<td class="left">r</td>
-<td class="left">r</td>
-<td class="left">r</td>
-<td class="left">&#xa0;</td>
-<td class="left">h</td>
-<td class="left">h</td>
-<td class="left">h</td>
+<td class="org-left">r</td>
+<td class="org-left">r</td>
+<td class="org-left">r</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">h</td>
+<td class="org-left">h</td>
+<td class="org-left">h</td>
 </tr>
 
 <tr>
-<td class="left">χ</td>
-<td class="left">x</td>
-<td class="left">rh</td>
-<td class="left">&#xa0;</td>
-<td class="left">ʁ</td>
-<td class="left">r</td>
-<td class="left">r</td>
+<td class="org-left">χ</td>
+<td class="org-left">x</td>
+<td class="org-left">rh</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ʁ</td>
+<td class="org-left">r</td>
+<td class="org-left">r</td>
 </tr>
 
 <tr>
-<td class="left">ɬ</td>
-<td class="left">ł</td>
-<td class="left">lh</td>
-<td class="left">&#xa0;</td>
-<td class="left">ɹ</td>
-<td class="left">r</td>
-<td class="left">r</td>
+<td class="org-left">ɬ</td>
+<td class="org-left">ł</td>
+<td class="org-left">lh</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ɹ</td>
+<td class="org-left">r</td>
+<td class="org-left">r</td>
 </tr>
 
 <tr>
-<td class="left">l</td>
-<td class="left">l</td>
-<td class="left">l</td>
-<td class="left">&#xa0;</td>
-<td class="left">j</td>
-<td class="left">j</td>
-<td class="left">y</td>
+<td class="org-left">l</td>
+<td class="org-left">l</td>
+<td class="org-left">l</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">j</td>
+<td class="org-left">j</td>
+<td class="org-left">y</td>
 </tr>
 
 <tr>
-<td class="left">w</td>
-<td class="left">w</td>
-<td class="left">w</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
-<td class="left">&#xa0;</td>
+<td class="org-left">w</td>
+<td class="org-left">w</td>
+<td class="org-left">w</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
@@ -1356,87 +1434,67 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 </div>
 </div>
 
-<div id="outline-container-org20211cb" class="outline-2">
-<h2 id="org20211cb"><span class="section-number-2">3</span> Phonologie dérivationnelle</h2>
+<div id="outline-container-org2ff387e" class="outline-2">
+<h2 id="org2ff387e"><span class="section-number-2">3</span> Phonologie dérivationnelle</h2>
 <div class="outline-text-2" id="text-3">
 <p>
-Le Hjalpi’ est une langue riche en dérivation phonétiques du fait de sa grammaire agglutinative et fusionnelle. Les noms changent selon leur nombre, leur rôle au sein de la phrase (leur cas grammatical), les verbes s’accordent en genre et en nombre, selon l’objectivité, le mode ou l’un des nombreux temps de la phrase ou de la proposition. L’utilisation de chacun de ces éléments sera traité dans le chapitre traitant de la <a href="#orge9487b5">syntaxe</a>. Le chapitre actuel servira principalement de référence condensée pour savoir comment accorder les divers éléments entre eux.
+Le Hjalpi’ est une langue riche en dérivation phonétiques du fait de sa grammaire agglutinative et fusionnelle. Les noms changent selon leur nombre, leur rôle au sein de la phrase (leur cas grammatical), les verbes s’accordent en genre et en nombre, selon l’objectivité, le mode ou l’un des nombreux temps de la phrase ou de la proposition. L’utilisation de chacun de ces éléments sera traité dans le chapitre traitant de la <a href="#orgbc48bdd">syntaxe</a>. Le chapitre actuel servira principalement de référence condensée pour savoir comment accorder les divers éléments entre eux.
 </p>
 
 <p>
 Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dans les règles formelles :
 </p>
 <ul class="org-ul">
-<li><code>C</code> = consonne
-</li>
-<li><code>V</code> = voyelle
-</li>
-<li><code>N</code> = nasale
-</li>
-<li><code>F</code> = fricative
-</li>
-<li><code>P</code> = consonne labiale
-</li>
-<li><code>L</code> = voyelle longue
-</li>
-<li><code>S</code> = voyelle courte
-</li>
-<li><code>#</code> = limite d’un mot
-</li>
-<li><code>Ø</code> = silencieux, muet, rien
-</li>
+<li><code>C</code> = consonne</li>
+<li><code>V</code> = voyelle</li>
+<li><code>N</code> = nasale</li>
+<li><code>F</code> = fricative</li>
+<li><code>P</code> = consonne labiale</li>
+<li><code>L</code> = voyelle longue</li>
+<li><code>S</code> = voyelle courte</li>
+<li><code>#</code> = limite d’un mot</li>
+<li><code>Ø</code> = silencieux, muet, rien</li>
 </ul>
 </div>
 
-<div id="outline-container-org176a162" class="outline-3">
-<h3 id="org176a162"><span class="section-number-3">3.1</span> <a id="org4248722"></a>Allophonie</h3>
+<div id="outline-container-orgc9b647a" class="outline-3">
+<h3 id="orgc9b647a"><span class="section-number-3">3.1</span> <a id="org792895b"></a>Allophonie</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
-En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les <a href="#org519dba0">accords des voyelles</a> ou les <a href="#org1b63057">accords des consonnes</a> s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
+En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les <a href="#org574d4b7">accords des voyelles</a> ou les <a href="#orgf06028e">accords des consonnes</a> s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
 </p>
 </div>
 
-<div id="outline-container-orgb4d2b0a" class="outline-4">
-<h4 id="orgb4d2b0a"><span class="section-number-4">3.1.1</span> Voyelles</h4>
+<div id="outline-container-org7a787bb" class="outline-4">
+<h4 id="org7a787bb"><span class="section-number-4">3.1.1</span> Voyelles</h4>
 <div class="outline-text-4" id="text-3-1-1">
 <p>
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
 </p>
 <ul class="org-ul">
-<li>La prononciation standard du « ń », comme mentionné ci-dessus dans <a href="#orgc3681c8">Consonnes syllabiques</a>, est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le <i>ń</i> est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le <i>ń</i> est également adjacent à une des voyelles <i>i</i> ou <i>í</i>, ou bien la consonne <i>j</i> (notées <code>I</code>).
+<li>La prononciation standard du « ń », comme mentionné ci-dessus dans <a href="#orgf451d2d">Consonnes syllabiques</a>, est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le <i>ń</i> est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le <i>ń</i> est également adjacent à une des voyelles <i>i</i> ou <i>í</i>, ou bien la consonne <i>j</i> (notées <code>I</code>).
 <ul class="org-ul">
-<li> /n̩/ &gt; [m̩] / _P
-</li>
-<li> /n̩/ &gt; [m̩] / P_
-</li>
-<li> /n̩/ &gt; [ɲ̩] / _I
-</li>
-<li> /n̩/ &gt; [ɲ̩] / I_
-</li>
-<li> /n̩/ &gt; [m̩ʲ] / P<sub> I</sub>
-</li>
-<li> /n̩/ &gt; [m̩ʲ] / I<sub> P</sub>
-</li>
-</ul>
-</li>
+<li> /n̩/ &gt; [m̩] / _P</li>
+<li> /n̩/ &gt; [m̩] / P_</li>
+<li> /n̩/ &gt; [ɲ̩] / _I</li>
+<li> /n̩/ &gt; [ɲ̩] / I_</li>
+<li> /n̩/ &gt; [m̩ʲ] / P_ I</li>
+<li> /n̩/ &gt; [m̩ʲ] / I_ P</li>
+</ul></li>
 <li>Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles <i>i</i> ou <i>í</i> ou bien la consonne <i>j</i>, et donc être prononcée /l̩ʲ/.
 <ul class="org-ul">
-<li> /l̩/ &gt; [l̩ʲ] / _I
-</li>
-</ul>
-</li>
+<li> /l̩/ &gt; [l̩ʲ] / _I</li>
+</ul></li>
 <li>Une voyelle ou un groupe de voyelles placé devant une consonne nasale se nasalise.
 <ul class="org-ul">
-<li>V &gt; [+nasal] / _N
-</li>
-</ul>
-</li>
+<li>V &gt; [+nasal] / _N</li>
+</ul></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5bc004e" class="outline-4">
-<h4 id="org5bc004e"><span class="section-number-4">3.1.2</span> Consonnes</h4>
+<div id="outline-container-org562d917" class="outline-4">
+<h4 id="org562d917"><span class="section-number-4">3.1.2</span> Consonnes</h4>
 <div class="outline-text-4" id="text-3-1-2">
 <p>
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
@@ -1460,18 +1518,13 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
 </ul></li>
 <li>Le <i>ŗ</i> a pour prononciation standard le /ʁ/, cependant il est généralement prononcé /ʀ/ entre deux voyelles et/ou consonne voisée (notées <code>V</code>).
 <ul class="org-ul">
-<li> /ʁ/ &gt; [ʀ] / V<sub> V</sub>
-</li>
-</ul>
-</li>
+<li> /ʁ/ &gt; [ʀ] / V_ V</li>
+</ul></li>
 <li>Le <i>x</i> est habituellement prononcé /χ/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde (notée <code>FS</code>).
 <ul class="org-ul">
-<li> /χ/ &gt; [x] / FS_
-</li>
-<li> /χ/ &gt; [x] / _FS
-</li>
-</ul>
-</li>
+<li> /χ/ &gt; [x] / FS_</li>
+<li> /χ/ &gt; [x] / _FS</li>
+</ul></li>
 <li>Une consonne nasale devient silencieuse si elle est précédée d’une voyelle et suivie d’une consonne ou d’un silence. Cela fait suite à la nasalisation de la voyelle précédente.
 <ul class="org-ul">
 <li>N &gt; Ø / V_ #</li>
@@ -1479,753 +1532,735 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
 </ul></li>
 <li>Si deux consonnes fricatives toutes deux voisées ou sourdes se suivent successivement, même entre deux mots distincts, la première fricative devient silencieuse.
 <ul class="org-ul">
-<li>F &gt; Ø / _F
-</li>
-</ul>
-</li>
+<li>F &gt; Ø / _F</li>
+</ul></li>
 <li>Si une consonne fricative voisée (notée <code>FV</code>) est précédée par une fricative sourde (notée <code>FS</code>), elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
 <ul class="org-ul">
-<li>FS &gt; [+voisée] / FV_
-</li>
-<li>FV &gt; [+sourde] / FS_
-</li>
-</ul>
-</li>
+<li>FS &gt; [+voisée] / FV_</li>
+<li>FV &gt; [+sourde] / FS_</li>
+</ul></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org83eac6c" class="outline-4">
-<h4 id="org83eac6c"><span class="section-number-4">3.1.3</span> <span class="todo TODO">TODO</span> Exemples</h4>
+<div id="outline-container-org5a12c0b" class="outline-4">
+<h4 id="org5a12c0b"><span class="section-number-4">3.1.3</span> <span class="todo TODO">TODO</span> Exemples</h4>
 <div class="outline-text-4" id="text-3-1-3">
 <dl class="org-dl">
-<dt> raòm </dt><dd> /raøm/ est prononcé [rãø̃]
-</dd>
+<dt>raòm</dt><dd> /raøm/ est prononcé [rãø̃]</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org3ddb45c" class="outline-3">
-<h3 id="org3ddb45c"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> <a id="org519dba0"></a>Accord des voyelles</h3>
+<div id="outline-container-org6188640" class="outline-3">
+<h3 id="org6188640"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> <a id="org574d4b7"></a>Accord des voyelles</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
 </p>
 
 <ol class="org-ol">
-<li>Les deux voyelles sont fusionnées en une diphtongue.
-</li>
-<li>Si l’un des deux phonèmes est une consonne syllabique <i>ń</i> ou <i>ĺ</i>, alors celle-ci reste inchangée.
-</li>
-<li>Si la première voyelle est une diphtongue, alors le second phonème est remplacé par la seconde voyelle après que cette dernière ait été accordée en longueur à la longueur de premier phonème de la diphtongue.
-</li>
-<li>Si la seconde voyelle était également une diphtongue, alors elle perd son second phonème.
-</li>
-<li>Si le second phonème de la diphtongue est plus ouvert que le premier, alors il est refermé afin d’être au moins aussi fermé que le premier phonème.
-</li>
-<li>Si le premier phonème de la diphtongue est une voyelle postérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :
-</li>
+<li>Les deux voyelles sont fusionnées en une diphtongue.</li>
+<li>Si l’un des deux phonèmes est une consonne syllabique <i>ń</i> ou <i>ĺ</i>, alors celle-ci reste inchangée.</li>
+<li>Si la première voyelle est une diphtongue, alors le second phonème est remplacé par la seconde voyelle après que cette dernière ait été accordée en longueur à la longueur de premier phonème de la diphtongue.</li>
+<li>Si la seconde voyelle était également une diphtongue, alors elle perd son second phonème.</li>
+<li>Si le second phonème de la diphtongue est plus ouvert que le premier, alors il est refermé afin d’être au moins aussi fermé que le premier phonème.</li>
+<li>Si le premier phonème de la diphtongue est une voyelle postérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :</li>
 </ol>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">phonème d’origine</th>
-<th scope="col" class="left">nouveau phonème</th>
+<th scope="col" class="org-left">phonème d’origine</th>
+<th scope="col" class="org-left">nouveau phonème</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">u</td>
-<td class="left">y</td>
+<td class="org-left">u</td>
+<td class="org-left">y</td>
 </tr>
 
 <tr>
-<td class="left">ú</td>
-<td class="left">ý</td>
+<td class="org-left">ú</td>
+<td class="org-left">ý</td>
 </tr>
 
 <tr>
-<td class="left">o</td>
-<td class="left">ò</td>
+<td class="org-left">o</td>
+<td class="org-left">ò</td>
 </tr>
 
 <tr>
-<td class="left">ó</td>
-<td class="left">ö</td>
+<td class="org-left">ó</td>
+<td class="org-left">ö</td>
 </tr>
 
 <tr>
-<td class="left">á</td>
-<td class="left">a</td>
+<td class="org-left">á</td>
+<td class="org-left">a</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
-<div id="outline-container-org6316ca0" class="outline-3">
-<h3 id="org6316ca0"><span class="section-number-3">3.3</span> <span class="todo TODO">TODO</span> <a id="org1b63057"></a>Accord des consonnes</h3>
+<div id="outline-container-orge82f6cc" class="outline-3">
+<h3 id="orge82f6cc"><span class="section-number-3">3.3</span> <span class="todo TODO">TODO</span> <a id="orgf06028e"></a>Accord des consonnes</h3>
 </div>
-<div id="outline-container-org9991a55" class="outline-3">
-<h3 id="org9991a55"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> Déclinaisons</h3>
+<div id="outline-container-orga0be503" class="outline-3">
+<h3 id="orga0be503"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> Déclinaisons</h3>
 <div class="outline-text-3" id="text-3-4">
 <p>
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 </p>
 <dl class="org-dl">
-<dt> V(C)- </dt><dd>le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
-</dd>
-<dt> C(V)- </dt><dd>le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
-</dd>
-<dt> -C<sub>1</sub>V(C<sub>2</sub>)- </dt><dd>l’infixe commence par consonne, il se placera donc à la fin du mot racine, entre la dernière voyelle et la dernière consonne du mot racine. Si le mot racine se termine par une voyelle, l’ensemble C<sub>1</sub>VC<sub>2</sub> agira comme un suffixe.
-</dd>
-<dt> -(C<sub>1</sub>)VC<sub>2</sub>- </dt><dd>l’infixe commence par une voyelle, il se placera donc au début du mot racine, entre la première consonne et la première voyelle. Si le mot racine commence par une voyelle, l’ensemble C<sub>1</sub>VC<sub>2</sub> agira comme un préfixe.
-</dd>
-<dt> -(C)V </dt><dd>le suffixe est (ou commence par) une voyelle, il se placera donc à la fin du mot racine. Si ce dernier se termine par une voyelle, la consonne C sera ajoutée entre le mot racine et le suffixe.
-</dd>
-<dt> -(V)C </dt><dd>le suffixe est (ou commence par) une consonne, il se placera donc à la fin du mot racine. Si ce dernier se termine par une consonne, la voyelle V sera ajoutée entre le mot racine et le suffixe.
-</dd>
+<dt>V(C)-</dt><dd>le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.</dd>
+<dt>C(V)-</dt><dd>le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.</dd>
+<dt>-C<sub>1</sub>V(C<sub>2</sub>)-</dt><dd>l’infixe commence par consonne, il se placera donc à la fin du mot racine, entre la dernière voyelle et la dernière consonne du mot racine. Si le mot racine se termine par une voyelle, l’ensemble C<sub>1</sub>VC<sub>2</sub> agira comme un suffixe.</dd>
+<dt>-(C<sub>1</sub>)VC<sub>2</sub>-</dt><dd>l’infixe commence par une voyelle, il se placera donc au début du mot racine, entre la première consonne et la première voyelle. Si le mot racine commence par une voyelle, l’ensemble C<sub>1</sub>VC<sub>2</sub> agira comme un préfixe.</dd>
+<dt>-(C)V</dt><dd>le suffixe est (ou commence par) une voyelle, il se placera donc à la fin du mot racine. Si ce dernier se termine par une voyelle, la consonne C sera ajoutée entre le mot racine et le suffixe.</dd>
+<dt>-(V)C</dt><dd>le suffixe est (ou commence par) une consonne, il se placera donc à la fin du mot racine. Si ce dernier se termine par une consonne, la voyelle V sera ajoutée entre le mot racine et le suffixe.</dd>
 </dl>
 
 <p>
-Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur <i>mén</i> via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à <a href="#org519dba0">l’accord des voyelles</a> ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à <a href="#org1b63057">l’accord des consonnes</a> ci-dessus.
+Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur <i>mén</i> via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à <a href="#org574d4b7">l’accord des voyelles</a> ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à <a href="#orgf06028e">l’accord des consonnes</a> ci-dessus.
 </p>
 
 <p>
 Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans <b>Genres</b>, le super-singulier (tel que décrit dans <b>Nombre</b>) est représenté par « s » et le pluriel par « p ».
+
 </p>
 
-
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">1s</th>
-<th scope="col" class="left">1p</th>
-<th scope="col" class="left">2s</th>
-<th scope="col" class="left">2p</th>
-<th scope="col" class="left">3s</th>
-<th scope="col" class="left">3p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">1s</th>
+<th scope="col" class="org-left">1p</th>
+<th scope="col" class="org-left">2s</th>
+<th scope="col" class="org-left">2p</th>
+<th scope="col" class="org-left">3s</th>
+<th scope="col" class="org-left">3p</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">abessif</td>
-<td class="left">e(m)-</td>
-<td class="left">e(ň)-</td>
-<td class="left">e(n)-</td>
-<td class="left">e(n)-</td>
-<td class="left">e(l)-</td>
-<td class="left">e(dl)-</td>
+<td class="org-left">abessif</td>
+<td class="org-left">e(m)-</td>
+<td class="org-left">e(ň)-</td>
+<td class="org-left">e(n)-</td>
+<td class="org-left">e(n)-</td>
+<td class="org-left">e(l)-</td>
+<td class="org-left">e(dl)-</td>
 </tr>
 
 <tr>
-<td class="left">ablatif</td>
-<td class="left">l(i)-</td>
-<td class="left">l(e)-</td>
-<td class="left">li(s)-</td>
-<td class="left">le(ž)-</td>
-<td class="left">l(i)-</td>
-<td class="left">ĺ(ž)-</td>
+<td class="org-left">ablatif</td>
+<td class="org-left">l(i)-</td>
+<td class="org-left">l(e)-</td>
+<td class="org-left">li(s)-</td>
+<td class="org-left">le(ž)-</td>
+<td class="org-left">l(i)-</td>
+<td class="org-left">ĺ(ž)-</td>
 </tr>
 
 <tr>
-<td class="left">absolutif</td>
-<td class="left">-(ts)a</td>
-<td class="left">-(ts)a</td>
-<td class="left">-(tß)a</td>
-<td class="left">-(tß)a</td>
-<td class="left">-(ts)a</td>
-<td class="left">-(ts)a</td>
+<td class="org-left">absolutif</td>
+<td class="org-left">-(ts)a</td>
+<td class="org-left">-(ts)a</td>
+<td class="org-left">-(tß)a</td>
+<td class="org-left">-(tß)a</td>
+<td class="org-left">-(ts)a</td>
+<td class="org-left">-(ts)a</td>
 </tr>
 
 <tr>
-<td class="left">accusatif</td>
-<td class="left">-vo</td>
-<td class="left">-vwo</td>
-<td class="left">-vu</td>
-<td class="left">-vwu</td>
-<td class="left">-vo</td>
-<td class="left">-vo</td>
+<td class="org-left">accusatif</td>
+<td class="org-left">-vo</td>
+<td class="org-left">-vwo</td>
+<td class="org-left">-vu</td>
+<td class="org-left">-vwu</td>
+<td class="org-left">-vo</td>
+<td class="org-left">-vo</td>
 </tr>
 
 <tr>
-<td class="left">accusatif-temporel</td>
-<td class="left">-źu</td>
-<td class="left">-źu</td>
-<td class="left">-źu</td>
-<td class="left">-źu</td>
-<td class="left">-źoy</td>
-<td class="left">-źou</td>
+<td class="org-left">accusatif-temporel</td>
+<td class="org-left">-źu</td>
+<td class="org-left">-źu</td>
+<td class="org-left">-źu</td>
+<td class="org-left">-źu</td>
+<td class="org-left">-źoy</td>
+<td class="org-left">-źou</td>
 </tr>
 
 <tr>
-<td class="left">adessif</td>
-<td class="left">ix(a)-</td>
-<td class="left">ix(e)-</td>
-<td class="left">ix(a)-</td>
-<td class="left">ix(e)-</td>
-<td class="left">ix(a)-</td>
-<td class="left">ix(e)-</td>
+<td class="org-left">adessif</td>
+<td class="org-left">ix(a)-</td>
+<td class="org-left">ix(e)-</td>
+<td class="org-left">ix(a)-</td>
+<td class="org-left">ix(e)-</td>
+<td class="org-left">ix(a)-</td>
+<td class="org-left">ix(e)-</td>
 </tr>
 
 <tr>
-<td class="left">adverbial</td>
-<td class="left">-ei</td>
-<td class="left">-ey</td>
-<td class="left">-ei</td>
-<td class="left">-ei</td>
-<td class="left">-ey</td>
-<td class="left">-ey</td>
+<td class="org-left">adverbial</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-ey</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-ey</td>
+<td class="org-left">-ey</td>
 </tr>
 
 <tr>
-<td class="left">agentif</td>
-<td class="left">t(e)-</td>
-<td class="left">t(e)-</td>
-<td class="left">e(t)-</td>
-<td class="left">ţ(e)-</td>
-<td class="left">t(e)-</td>
-<td class="left">ţ(e)-</td>
+<td class="org-left">agentif</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">e(t)-</td>
+<td class="org-left">ţ(e)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">ţ(e)-</td>
 </tr>
 
 <tr>
-<td class="left">allatif</td>
-<td class="left">-li(ß)-</td>
-<td class="left">-li(ts)-</td>
-<td class="left">-li(ð)-</td>
-<td class="left">-li(ð)-</td>
-<td class="left">-li-</td>
-<td class="left">-li-</td>
+<td class="org-left">allatif</td>
+<td class="org-left">-li(ß)-</td>
+<td class="org-left">-li(ts)-</td>
+<td class="org-left">-li(ð)-</td>
+<td class="org-left">-li(ð)-</td>
+<td class="org-left">-li-</td>
+<td class="org-left">-li-</td>
 </tr>
 
 <tr>
-<td class="left">antessif</td>
-<td class="left">vwo(n)-</td>
-<td class="left">vw(o)-</td>
-<td class="left">v(o)-</td>
-<td class="left">vw(o)-</td>
-<td class="left">vwo-</td>
-<td class="left">vo-</td>
+<td class="org-left">antessif</td>
+<td class="org-left">vwo(n)-</td>
+<td class="org-left">vw(o)-</td>
+<td class="org-left">v(o)-</td>
+<td class="org-left">vw(o)-</td>
+<td class="org-left">vwo-</td>
+<td class="org-left">vo-</td>
 </tr>
 
 <tr>
-<td class="left">apudessif</td>
-<td class="left">þ(e)-</td>
-<td class="left">ð(e)-</td>
-<td class="left">ð(e)-</td>
-<td class="left">ðe-</td>
-<td class="left">þ(e)-</td>
-<td class="left">ð(e)-</td>
+<td class="org-left">apudessif</td>
+<td class="org-left">þ(e)-</td>
+<td class="org-left">ð(e)-</td>
+<td class="org-left">ð(e)-</td>
+<td class="org-left">ðe-</td>
+<td class="org-left">þ(e)-</td>
+<td class="org-left">ð(e)-</td>
 </tr>
 
 <tr>
-<td class="left">aversif</td>
-<td class="left">ł(e)-</td>
-<td class="left">ł(e)-</td>
-<td class="left">ła-</td>
-<td class="left">ł(e)-</td>
-<td class="left">ł(e)-</td>
-<td class="left">ła-</td>
+<td class="org-left">aversif</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ła-</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ła-</td>
 </tr>
 
 <tr>
-<td class="left">causal</td>
-<td class="left">-(o)by</td>
-<td class="left">-(o)bu</td>
-<td class="left">-(u)by</td>
-<td class="left">-(o)by</td>
-<td class="left">-(ob)y</td>
-<td class="left">-(b)y</td>
+<td class="org-left">causal</td>
+<td class="org-left">-(o)by</td>
+<td class="org-left">-(o)bu</td>
+<td class="org-left">-(u)by</td>
+<td class="org-left">-(o)by</td>
+<td class="org-left">-(ob)y</td>
+<td class="org-left">-(b)y</td>
 </tr>
 
 <tr>
-<td class="left">comitatif</td>
-<td class="left">-ðai-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðai-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðey-</td>
+<td class="org-left">comitatif</td>
+<td class="org-left">-ðai-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðai-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðey-</td>
 </tr>
 
 <tr>
-<td class="left">comparatif</td>
-<td class="left">-(oi)r</td>
-<td class="left">-(oi)r</td>
-<td class="left">-(oi)r</td>
-<td class="left">-(oi)ţ</td>
-<td class="left">-(oi)r</td>
-<td class="left">-(oi)t</td>
+<td class="org-left">comparatif</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-(oi)ţ</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-(oi)t</td>
 </tr>
 
 <tr>
-<td class="left">datif</td>
-<td class="left">-at-</td>
-<td class="left">-et-</td>
-<td class="left">-at-</td>
-<td class="left">-at-</td>
-<td class="left">-at-</td>
-<td class="left">-aţ-</td>
+<td class="org-left">datif</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-et-</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-aţ-</td>
 </tr>
 
 <tr>
-<td class="left">délatif</td>
-<td class="left">ß(a)-</td>
-<td class="left">ß(e)-</td>
-<td class="left">ß(e)-</td>
-<td class="left">ß(e)-</td>
-<td class="left">ß(ai)-</td>
-<td class="left">ß(a)-</td>
+<td class="org-left">délatif</td>
+<td class="org-left">ß(a)-</td>
+<td class="org-left">ß(e)-</td>
+<td class="org-left">ß(e)-</td>
+<td class="org-left">ß(e)-</td>
+<td class="org-left">ß(ai)-</td>
+<td class="org-left">ß(a)-</td>
 </tr>
 
 <tr>
-<td class="left">distributif</td>
-<td class="left">xe(š)-</td>
-<td class="left">xe(l)-</td>
-<td class="left">xe(ž)-</td>
-<td class="left">xe(l)-</td>
-<td class="left">ŗe(š)-</td>
-<td class="left">ŗe(ž)-</td>
+<td class="org-left">distributif</td>
+<td class="org-left">xe(š)-</td>
+<td class="org-left">xe(l)-</td>
+<td class="org-left">xe(ž)-</td>
+<td class="org-left">xe(l)-</td>
+<td class="org-left">ŗe(š)-</td>
+<td class="org-left">ŗe(ž)-</td>
 </tr>
 
 <tr>
-<td class="left">distributif-temporel</td>
-<td class="left">-be</td>
-<td class="left">-be</td>
-<td class="left">-ve</td>
-<td class="left">-be</td>
-<td class="left">-va</td>
-<td class="left">-fe</td>
+<td class="org-left">distributif-temporel</td>
+<td class="org-left">-be</td>
+<td class="org-left">-be</td>
+<td class="org-left">-ve</td>
+<td class="org-left">-be</td>
+<td class="org-left">-va</td>
+<td class="org-left">-fe</td>
 </tr>
 
 <tr>
-<td class="left">élatif</td>
-<td class="left">-(a)ły</td>
-<td class="left">-(e)ły</td>
-<td class="left">-(a)ły</td>
-<td class="left">-(a)łu</td>
-<td class="left">-(e)ły</td>
-<td class="left">-(e)ły</td>
+<td class="org-left">élatif</td>
+<td class="org-left">-(a)ły</td>
+<td class="org-left">-(e)ły</td>
+<td class="org-left">-(a)ły</td>
+<td class="org-left">-(a)łu</td>
+<td class="org-left">-(e)ły</td>
+<td class="org-left">-(e)ły</td>
 </tr>
 
 <tr>
-<td class="left">équatif</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ĺ)t</td>
-<td class="left">-(ń)st</td>
-<td class="left">-(ń)ft</td>
+<td class="org-left">équatif</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ĺ)t</td>
+<td class="org-left">-(ń)st</td>
+<td class="org-left">-(ń)ft</td>
 </tr>
 
 <tr>
-<td class="left">ergatif</td>
-<td class="left">-(u)jo</td>
-<td class="left">-(y)jo</td>
-<td class="left">-(í)jo</td>
-<td class="left">-(é)jo</td>
-<td class="left">-(u)jo</td>
-<td class="left">-(u)jo</td>
+<td class="org-left">ergatif</td>
+<td class="org-left">-(u)jo</td>
+<td class="org-left">-(y)jo</td>
+<td class="org-left">-(í)jo</td>
+<td class="org-left">-(é)jo</td>
+<td class="org-left">-(u)jo</td>
+<td class="org-left">-(u)jo</td>
 </tr>
 
 <tr>
-<td class="left">essif</td>
-<td class="left">-(þ)yd-</td>
-<td class="left">-(þ)yd-</td>
-<td class="left">-(þ)ud-</td>
-<td class="left">-(þ)ud-</td>
-<td class="left">-(þ)yd-</td>
-<td class="left">-(þ)ud-</td>
+<td class="org-left">essif</td>
+<td class="org-left">-(þ)yd-</td>
+<td class="org-left">-(þ)yd-</td>
+<td class="org-left">-(þ)ud-</td>
+<td class="org-left">-(þ)ud-</td>
+<td class="org-left">-(þ)yd-</td>
+<td class="org-left">-(þ)ud-</td>
 </tr>
 
 <tr>
-<td class="left">essif-formel</td>
-<td class="left">-(ò)ţ</td>
-<td class="left">-(ò)d</td>
-<td class="left">-(o)d</td>
-<td class="left">-(o)ḑ</td>
-<td class="left">-(ò)d</td>
-<td class="left">-(ò)ň</td>
+<td class="org-left">essif-formel</td>
+<td class="org-left">-(ò)ţ</td>
+<td class="org-left">-(ò)d</td>
+<td class="org-left">-(o)d</td>
+<td class="org-left">-(o)ḑ</td>
+<td class="org-left">-(ò)d</td>
+<td class="org-left">-(ò)ň</td>
 </tr>
 
 <tr>
-<td class="left">essif-modal</td>
-<td class="left">-(’)uix</td>
-<td class="left">-(’)uix</td>
-<td class="left">-’yiŗ</td>
-<td class="left">-(’)yiŗ</td>
-<td class="left">-(’)uŗ</td>
-<td class="left">-(’)uiŗ</td>
+<td class="org-left">essif-modal</td>
+<td class="org-left">-(’)uix</td>
+<td class="org-left">-(’)uix</td>
+<td class="org-left">-’yiŗ</td>
+<td class="org-left">-(’)yiŗ</td>
+<td class="org-left">-(’)uŗ</td>
+<td class="org-left">-(’)uiŗ</td>
 </tr>
 
 <tr>
-<td class="left">excessif</td>
-<td class="left">-ex</td>
-<td class="left">-ex</td>
-<td class="left">-eŗ</td>
-<td class="left">-ex</td>
-<td class="left">-ix</td>
-<td class="left">-ex</td>
+<td class="org-left">excessif</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-eŗ</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-ix</td>
+<td class="org-left">-ex</td>
 </tr>
 
 <tr>
-<td class="left">génitif</td>
-<td class="left">ţ(y)-</td>
-<td class="left">ţ(u)-</td>
-<td class="left">ţ(y)-</td>
-<td class="left">ţ(y)-</td>
-<td class="left">ţ(y)-</td>
-<td class="left">ţ(yi)-</td>
+<td class="org-left">génitif</td>
+<td class="org-left">ţ(y)-</td>
+<td class="org-left">ţ(u)-</td>
+<td class="org-left">ţ(y)-</td>
+<td class="org-left">ţ(y)-</td>
+<td class="org-left">ţ(y)-</td>
+<td class="org-left">ţ(yi)-</td>
 </tr>
 
 <tr>
-<td class="left">identique</td>
-<td class="left">-(e)tyr</td>
-<td class="left">-(a)tur</td>
-<td class="left">-(a)tyr</td>
-<td class="left">-(e)tur</td>
-<td class="left">-(e)tur</td>
-<td class="left">-tyr</td>
+<td class="org-left">identique</td>
+<td class="org-left">-(e)tyr</td>
+<td class="org-left">-(a)tur</td>
+<td class="org-left">-(a)tyr</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-tyr</td>
 </tr>
 
 <tr>
-<td class="left">illatif</td>
-<td class="left">-(p)òn-</td>
-<td class="left">-(p)on-</td>
-<td class="left">-(f)òn-</td>
-<td class="left">-(f)on-</td>
-<td class="left">-òn-</td>
-<td class="left">-(p)òn-</td>
+<td class="org-left">illatif</td>
+<td class="org-left">-(p)òn-</td>
+<td class="org-left">-(p)on-</td>
+<td class="org-left">-(f)òn-</td>
+<td class="org-left">-(f)on-</td>
+<td class="org-left">-òn-</td>
+<td class="org-left">-(p)òn-</td>
 </tr>
 
 <tr>
-<td class="left">inessif</td>
-<td class="left">-(a)ŕo-</td>
-<td class="left">-(e)ŕo-</td>
-<td class="left">-ŕo(n)-</td>
-<td class="left">-(ń)ŕo-</td>
-<td class="left">-(a)ŕo-</td>
-<td class="left">-ŕo-</td>
+<td class="org-left">inessif</td>
+<td class="org-left">-(a)ŕo-</td>
+<td class="org-left">-(e)ŕo-</td>
+<td class="org-left">-ŕo(n)-</td>
+<td class="org-left">-(ń)ŕo-</td>
+<td class="org-left">-(a)ŕo-</td>
+<td class="org-left">-ŕo-</td>
 </tr>
 
 <tr>
-<td class="left">initiatif</td>
-<td class="left">-(a)kĺ</td>
-<td class="left">-(k)ĺ</td>
-<td class="left">-(e)kĺ</td>
-<td class="left">-(a)kĺ</td>
-<td class="left">-(k)ĺ</td>
-<td class="left">-(k)ĺ</td>
+<td class="org-left">initiatif</td>
+<td class="org-left">-(a)kĺ</td>
+<td class="org-left">-(k)ĺ</td>
+<td class="org-left">-(e)kĺ</td>
+<td class="org-left">-(a)kĺ</td>
+<td class="org-left">-(k)ĺ</td>
+<td class="org-left">-(k)ĺ</td>
 </tr>
 
 <tr>
-<td class="left">instructif</td>
-<td class="left">-(e)ň</td>
-<td class="left">-(e)ň</td>
-<td class="left">-(a)ň</td>
-<td class="left">-eň</td>
-<td class="left">-(e)ň</td>
-<td class="left">-(a)ň</td>
+<td class="org-left">instructif</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-(a)ň</td>
+<td class="org-left">-eň</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-(a)ň</td>
 </tr>
 
 <tr>
-<td class="left">instrumental</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(ḑ)ĺ</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(ḑ)ĺ</td>
+<td class="org-left">instrumental</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(ḑ)ĺ</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(ḑ)ĺ</td>
 </tr>
 
 <tr>
-<td class="left">intratif</td>
-<td class="left">-fu(þ)-</td>
-<td class="left">-fu(ð)-</td>
-<td class="left">-fu(ð)-</td>
-<td class="left">-fu(ð)-</td>
-<td class="left">-fy(þ)-</td>
-<td class="left">-fy(ð)-</td>
+<td class="org-left">intratif</td>
+<td class="org-left">-fu(þ)-</td>
+<td class="org-left">-fu(ð)-</td>
+<td class="org-left">-fu(ð)-</td>
+<td class="org-left">-fu(ð)-</td>
+<td class="org-left">-fy(þ)-</td>
+<td class="org-left">-fy(ð)-</td>
 </tr>
 
 <tr>
-<td class="left">latif</td>
-<td class="left">-(l)a</td>
-<td class="left">-(l)ei</td>
-<td class="left">-(l)òĺ</td>
-<td class="left">-(l)e</td>
-<td class="left">-(l)au</td>
-<td class="left">-(l)ĺ</td>
+<td class="org-left">latif</td>
+<td class="org-left">-(l)a</td>
+<td class="org-left">-(l)ei</td>
+<td class="org-left">-(l)òĺ</td>
+<td class="org-left">-(l)e</td>
+<td class="org-left">-(l)au</td>
+<td class="org-left">-(l)ĺ</td>
 </tr>
 
 <tr>
-<td class="left">limitatif</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(e)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
+<td class="org-left">limitatif</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(e)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
 </tr>
 
 <tr>
-<td class="left">locatif</td>
-<td class="left">l(a)-</td>
-<td class="left">l(e)-</td>
-<td class="left">l(i)-</td>
-<td class="left">l(e)-</td>
-<td class="left">le(þ)-</td>
-<td class="left">l(e)-</td>
+<td class="org-left">locatif</td>
+<td class="org-left">l(a)-</td>
+<td class="org-left">l(e)-</td>
+<td class="org-left">l(i)-</td>
+<td class="org-left">l(e)-</td>
+<td class="org-left">le(þ)-</td>
+<td class="org-left">l(e)-</td>
 </tr>
 
 <tr>
-<td class="left">nominal</td>
-<td class="left">-(eu)s</td>
-<td class="left">-(eu)ß</td>
-<td class="left">-(eu)s</td>
-<td class="left">-(eu)ßt</td>
-<td class="left">-(eu)st</td>
-<td class="left">-(eu)s</td>
+<td class="org-left">nominal</td>
+<td class="org-left">-(eu)s</td>
+<td class="org-left">-(eu)ß</td>
+<td class="org-left">-(eu)s</td>
+<td class="org-left">-(eu)ßt</td>
+<td class="org-left">-(eu)st</td>
+<td class="org-left">-(eu)s</td>
 </tr>
 
 <tr>
-<td class="left">nominatif</td>
-<td class="left">p(a)-</td>
-<td class="left">p(e)-</td>
-<td class="left">p(a)-</td>
-<td class="left">p(e)-</td>
-<td class="left">p(a)-</td>
-<td class="left">p(a)-</td>
+<td class="org-left">nominatif</td>
+<td class="org-left">p(a)-</td>
+<td class="org-left">p(e)-</td>
+<td class="org-left">p(a)-</td>
+<td class="org-left">p(e)-</td>
+<td class="org-left">p(a)-</td>
+<td class="org-left">p(a)-</td>
 </tr>
 
 <tr>
-<td class="left">oblique</td>
-<td class="left">-(ŗ)eß</td>
-<td class="left">-(ŗ)eßt</td>
-<td class="left">-(ŗ)ef</td>
-<td class="left">-(ŗ)eft</td>
-<td class="left">-(ŗ)eß</td>
-<td class="left">-(x)eß</td>
+<td class="org-left">oblique</td>
+<td class="org-left">-(ŗ)eß</td>
+<td class="org-left">-(ŗ)eßt</td>
+<td class="org-left">-(ŗ)ef</td>
+<td class="org-left">-(ŗ)eft</td>
+<td class="org-left">-(ŗ)eß</td>
+<td class="org-left">-(x)eß</td>
 </tr>
 
 <tr>
-<td class="left">orientatif</td>
-<td class="left">f(o)-</td>
-<td class="left">f(o)-</td>
-<td class="left">f(u)-</td>
-<td class="left">f(o)-</td>
-<td class="left">þ(o)-</td>
-<td class="left">f(o)-</td>
+<td class="org-left">orientatif</td>
+<td class="org-left">f(o)-</td>
+<td class="org-left">f(o)-</td>
+<td class="org-left">f(u)-</td>
+<td class="org-left">f(o)-</td>
+<td class="org-left">þ(o)-</td>
+<td class="org-left">f(o)-</td>
 </tr>
 
 <tr>
-<td class="left">partitif</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-’y(l)-</td>
-<td class="left">-’u(l)-</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-’i(l)-</td>
+<td class="org-left">partitif</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-’y(l)-</td>
+<td class="org-left">-’u(l)-</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-’i(l)-</td>
 </tr>
 
 <tr>
-<td class="left">pégatif</td>
-<td class="left">ey-</td>
-<td class="left">eu-</td>
-<td class="left">ey-</td>
-<td class="left">ey-</td>
-<td class="left">eu-</td>
-<td class="left">ei-</td>
+<td class="org-left">pégatif</td>
+<td class="org-left">ey-</td>
+<td class="org-left">eu-</td>
+<td class="org-left">ey-</td>
+<td class="org-left">ey-</td>
+<td class="org-left">eu-</td>
+<td class="org-left">ei-</td>
 </tr>
 
 <tr>
-<td class="left">perlatif</td>
-<td class="left">ž(u)-</td>
-<td class="left">ž(y)-</td>
-<td class="left">ž(u)-</td>
-<td class="left">š(u)-</td>
-<td class="left">š(y)-</td>
-<td class="left">ž(u)-</td>
+<td class="org-left">perlatif</td>
+<td class="org-left">ž(u)-</td>
+<td class="org-left">ž(y)-</td>
+<td class="org-left">ž(u)-</td>
+<td class="org-left">š(u)-</td>
+<td class="org-left">š(y)-</td>
+<td class="org-left">ž(u)-</td>
 </tr>
 
 <tr>
-<td class="left">pertingent</td>
-<td class="left">m(a)-</td>
-<td class="left">m(a)-</td>
-<td class="left">m(a)-</td>
-<td class="left">m(e)-</td>
-<td class="left">mj(a)-</td>
-<td class="left">mj(e)-</td>
+<td class="org-left">pertingent</td>
+<td class="org-left">m(a)-</td>
+<td class="org-left">m(a)-</td>
+<td class="org-left">m(a)-</td>
+<td class="org-left">m(e)-</td>
+<td class="org-left">mj(a)-</td>
+<td class="org-left">mj(e)-</td>
 </tr>
 
 <tr>
-<td class="left">postessif</td>
-<td class="left">-(u)ß</td>
-<td class="left">-(u)ßt</td>
-<td class="left">-(y)ß</td>
-<td class="left">-(y)ž</td>
-<td class="left">-(u)š</td>
-<td class="left">-(u)št</td>
+<td class="org-left">postessif</td>
+<td class="org-left">-(u)ß</td>
+<td class="org-left">-(u)ßt</td>
+<td class="org-left">-(y)ß</td>
+<td class="org-left">-(y)ž</td>
+<td class="org-left">-(u)š</td>
+<td class="org-left">-(u)št</td>
 </tr>
 
 <tr>
-<td class="left">privatif</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
-<td class="left">eń-</td>
-<td class="left">ež-</td>
-<td class="left">ei-</td>
-<td class="left">éĺ-</td>
+<td class="org-left">privatif</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">eń-</td>
+<td class="org-left">ež-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">éĺ-</td>
 </tr>
 
 <tr>
-<td class="left">prolatif</td>
-<td class="left">š(a)-</td>
-<td class="left">š(a)-</td>
-<td class="left">š(e)-</td>
-<td class="left">š(ae)-</td>
-<td class="left">ž(a)-</td>
-<td class="left">š(ay)-</td>
+<td class="org-left">prolatif</td>
+<td class="org-left">š(a)-</td>
+<td class="org-left">š(a)-</td>
+<td class="org-left">š(e)-</td>
+<td class="org-left">š(ae)-</td>
+<td class="org-left">ž(a)-</td>
+<td class="org-left">š(ay)-</td>
 </tr>
 
 <tr>
-<td class="left">révertif</td>
-<td class="left">-ňo</td>
-<td class="left">-ňò</td>
-<td class="left">-ňò</td>
-<td class="left">-ňò</td>
-<td class="left">-ňe</td>
-<td class="left">-ňò</td>
+<td class="org-left">révertif</td>
+<td class="org-left">-ňo</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňe</td>
+<td class="org-left">-ňò</td>
 </tr>
 
 <tr>
-<td class="left">semplatif</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)we</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-ŗwo</td>
+<td class="org-left">semplatif</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)we</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-ŗwo</td>
 </tr>
 
 <tr>
-<td class="left">sociatif</td>
-<td class="left">t(o)-</td>
-<td class="left">t(e)-</td>
-<td class="left">t(o)-</td>
-<td class="left">t(o)-</td>
-<td class="left">ţ(o)-</td>
-<td class="left">te-</td>
+<td class="org-left">sociatif</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">ţ(o)-</td>
+<td class="org-left">te-</td>
 </tr>
 
 <tr>
-<td class="left">subessif</td>
-<td class="left">ň(o)-</td>
-<td class="left">ň(wo)-</td>
-<td class="left">n(o)-</td>
-<td class="left">n(wo)-</td>
-<td class="left">ň(o)-</td>
-<td class="left">ň(o)-</td>
+<td class="org-left">subessif</td>
+<td class="org-left">ň(o)-</td>
+<td class="org-left">ň(wo)-</td>
+<td class="org-left">n(o)-</td>
+<td class="org-left">n(wo)-</td>
+<td class="org-left">ň(o)-</td>
+<td class="org-left">ň(o)-</td>
 </tr>
 
 <tr>
-<td class="left">sublatif</td>
-<td class="left">-(i)ţ</td>
-<td class="left">-(i)ţ</td>
-<td class="left">-(e)ţ</td>
-<td class="left">-(i)ḑ</td>
-<td class="left">-(i)ţ</td>
-<td class="left">-(i)nţ</td>
+<td class="org-left">sublatif</td>
+<td class="org-left">-(i)ţ</td>
+<td class="org-left">-(i)ţ</td>
+<td class="org-left">-(e)ţ</td>
+<td class="org-left">-(i)ḑ</td>
+<td class="org-left">-(i)ţ</td>
+<td class="org-left">-(i)nţ</td>
 </tr>
 
 <tr>
-<td class="left">superessif</td>
-<td class="left">tß(a)-</td>
-<td class="left">tß(ań)-)</td>
-<td class="left">tß(ai)-</td>
-<td class="left">tßau-</td>
-<td class="left">tß(e)-</td>
-<td class="left">tß(a)-</td>
+<td class="org-left">superessif</td>
+<td class="org-left">tß(a)-</td>
+<td class="org-left">tß(ań)-)</td>
+<td class="org-left">tß(ai)-</td>
+<td class="org-left">tßau-</td>
+<td class="org-left">tß(e)-</td>
+<td class="org-left">tß(a)-</td>
 </tr>
 
 <tr>
-<td class="left">temporel</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(i)mi</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(i)nji</td>
+<td class="org-left">temporel</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(i)mi</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(i)nji</td>
 </tr>
 
 <tr>
-<td class="left">terminatif</td>
-<td class="left">-(ae)n</td>
-<td class="left">-(ae)ň</td>
-<td class="left">-(þ)aen</td>
-<td class="left">-(ð)aen</td>
-<td class="left">-(þ)aeň</td>
-<td class="left">-(ae)m</td>
+<td class="org-left">terminatif</td>
+<td class="org-left">-(ae)n</td>
+<td class="org-left">-(ae)ň</td>
+<td class="org-left">-(þ)aen</td>
+<td class="org-left">-(ð)aen</td>
+<td class="org-left">-(þ)aeň</td>
+<td class="org-left">-(ae)m</td>
 </tr>
 
 <tr>
-<td class="left">translatif</td>
-<td class="left">-(i)n</td>
-<td class="left">-(i)n</td>
-<td class="left">-(y)n</td>
-<td class="left">-(e)n</td>
-<td class="left">-in</td>
-<td class="left">-(i)n</td>
+<td class="org-left">translatif</td>
+<td class="org-left">-(i)n</td>
+<td class="org-left">-(i)n</td>
+<td class="org-left">-(y)n</td>
+<td class="org-left">-(e)n</td>
+<td class="org-left">-in</td>
+<td class="org-left">-(i)n</td>
 </tr>
 
 <tr>
-<td class="left">vocatif</td>
-<td class="left">-wa</td>
-<td class="left">-we</td>
-<td class="left">-wa</td>
-<td class="left">-wa</td>
-<td class="left">-we</td>
-<td class="left">-(d)wa</td>
+<td class="org-left">vocatif</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-we</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-we</td>
+<td class="org-left">-(d)wa</td>
 </tr>
 </tbody>
 </table>
@@ -2234,622 +2269,622 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">4s</th>
-<th scope="col" class="left">4p</th>
-<th scope="col" class="left">5s</th>
-<th scope="col" class="left">5p</th>
-<th scope="col" class="left">6s</th>
-<th scope="col" class="left">6p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">4s</th>
+<th scope="col" class="org-left">4p</th>
+<th scope="col" class="org-left">5s</th>
+<th scope="col" class="org-left">5p</th>
+<th scope="col" class="org-left">6s</th>
+<th scope="col" class="org-left">6p</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">abessif</td>
-<td class="left">e(ň)-</td>
-<td class="left">e(t)-</td>
-<td class="left">e(st)-</td>
-<td class="left">e(ßt)-</td>
-<td class="left">e(nt)-</td>
-<td class="left">e(ňt)-</td>
+<td class="org-left">abessif</td>
+<td class="org-left">e(ň)-</td>
+<td class="org-left">e(t)-</td>
+<td class="org-left">e(st)-</td>
+<td class="org-left">e(ßt)-</td>
+<td class="org-left">e(nt)-</td>
+<td class="org-left">e(ňt)-</td>
 </tr>
 
 <tr>
-<td class="left">ablatif</td>
-<td class="left">li(ß)-</td>
-<td class="left">li(ź)-</td>
-<td class="left">li(ß)-</td>
-<td class="left">li(ź)-</td>
-<td class="left">li(s)-</td>
-<td class="left">li(z)-</td>
+<td class="org-left">ablatif</td>
+<td class="org-left">li(ß)-</td>
+<td class="org-left">li(ź)-</td>
+<td class="org-left">li(ß)-</td>
+<td class="org-left">li(ź)-</td>
+<td class="org-left">li(s)-</td>
+<td class="org-left">li(z)-</td>
 </tr>
 
 <tr>
-<td class="left">absolutif</td>
-<td class="left">-(t)a</td>
-<td class="left">-(š)a</td>
-<td class="left">-(p)a</td>
-<td class="left">-(v)a</td>
-<td class="left">-(st)a</td>
-<td class="left">-(ž)a</td>
+<td class="org-left">absolutif</td>
+<td class="org-left">-(t)a</td>
+<td class="org-left">-(š)a</td>
+<td class="org-left">-(p)a</td>
+<td class="org-left">-(v)a</td>
+<td class="org-left">-(st)a</td>
+<td class="org-left">-(ž)a</td>
 </tr>
 
 <tr>
-<td class="left">accusatif</td>
-<td class="left">-(e)vo</td>
-<td class="left">-(e)vo</td>
-<td class="left">-(e)vo</td>
-<td class="left">-(e)vo</td>
-<td class="left">-(a)vo</td>
-<td class="left">-(a)vo</td>
+<td class="org-left">accusatif</td>
+<td class="org-left">-(e)vo</td>
+<td class="org-left">-(e)vo</td>
+<td class="org-left">-(e)vo</td>
+<td class="org-left">-(e)vo</td>
+<td class="org-left">-(a)vo</td>
+<td class="org-left">-(a)vo</td>
 </tr>
 
 <tr>
-<td class="left">accusatif-temporel</td>
-<td class="left">-(a)źu</td>
-<td class="left">-(e)źu</td>
-<td class="left">-(u)źu</td>
-<td class="left">-(ai)źu</td>
-<td class="left">-(i)źu</td>
-<td class="left">-(u)źu</td>
+<td class="org-left">accusatif-temporel</td>
+<td class="org-left">-(a)źu</td>
+<td class="org-left">-(e)źu</td>
+<td class="org-left">-(u)źu</td>
+<td class="org-left">-(ai)źu</td>
+<td class="org-left">-(i)źu</td>
+<td class="org-left">-(u)źu</td>
 </tr>
 
 <tr>
-<td class="left">adessif</td>
-<td class="left">iź(a)-</td>
-<td class="left">iź(ei)-</td>
-<td class="left">iź(a)-</td>
-<td class="left">iź(ei)-</td>
-<td class="left">iź(a)-</td>
-<td class="left">iź(ei)-</td>
+<td class="org-left">adessif</td>
+<td class="org-left">iź(a)-</td>
+<td class="org-left">iź(ei)-</td>
+<td class="org-left">iź(a)-</td>
+<td class="org-left">iź(ei)-</td>
+<td class="org-left">iź(a)-</td>
+<td class="org-left">iź(ei)-</td>
 </tr>
 
 <tr>
-<td class="left">adverbial</td>
-<td class="left">-ei</td>
-<td class="left">-ai</td>
-<td class="left">-ai</td>
-<td class="left">-ei</td>
-<td class="left">-eu</td>
-<td class="left">-ey</td>
+<td class="org-left">adverbial</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-ai</td>
+<td class="org-left">-ai</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-eu</td>
+<td class="org-left">-ey</td>
 </tr>
 
 <tr>
-<td class="left">agentif</td>
-<td class="left">t(e)-</td>
-<td class="left">t(e)-</td>
-<td class="left">t(e)-</td>
-<td class="left">e(t)-</td>
-<td class="left">t(e)-</td>
-<td class="left">t(e)-</td>
+<td class="org-left">agentif</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">e(t)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">t(e)-</td>
 </tr>
 
 <tr>
-<td class="left">allatif</td>
-<td class="left">-li(s)-</td>
-<td class="left">-li(ź)-</td>
-<td class="left">-li(z)-</td>
-<td class="left">-li(š)-</td>
-<td class="left">-li(x)-</td>
-<td class="left">-li(x)-</td>
+<td class="org-left">allatif</td>
+<td class="org-left">-li(s)-</td>
+<td class="org-left">-li(ź)-</td>
+<td class="org-left">-li(z)-</td>
+<td class="org-left">-li(š)-</td>
+<td class="org-left">-li(x)-</td>
+<td class="org-left">-li(x)-</td>
 </tr>
 
 <tr>
-<td class="left">antessif</td>
-<td class="left">we-</td>
-<td class="left">w(e)-</td>
-<td class="left">w(o)-</td>
-<td class="left">w(e)-</td>
-<td class="left">v(e)-</td>
-<td class="left">v(wo)-</td>
+<td class="org-left">antessif</td>
+<td class="org-left">we-</td>
+<td class="org-left">w(e)-</td>
+<td class="org-left">w(o)-</td>
+<td class="org-left">w(e)-</td>
+<td class="org-left">v(e)-</td>
+<td class="org-left">v(wo)-</td>
 </tr>
 
 <tr>
-<td class="left">apudessif</td>
-<td class="left">þe(n)-</td>
-<td class="left">þ(e)-</td>
-<td class="left">v(e)-</td>
-<td class="left">ve(n)-</td>
-<td class="left">þ(e)-</td>
-<td class="left">ð(e)-</td>
+<td class="org-left">apudessif</td>
+<td class="org-left">þe(n)-</td>
+<td class="org-left">þ(e)-</td>
+<td class="org-left">v(e)-</td>
+<td class="org-left">ve(n)-</td>
+<td class="org-left">þ(e)-</td>
+<td class="org-left">ð(e)-</td>
 </tr>
 
 <tr>
-<td class="left">aversif</td>
-<td class="left">ł(e)-</td>
-<td class="left">ła-</td>
-<td class="left">la-</td>
-<td class="left">ł(e)-</td>
-<td class="left">ła-</td>
-<td class="left">ł(e)-</td>
+<td class="org-left">aversif</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ła-</td>
+<td class="org-left">la-</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ła-</td>
+<td class="org-left">ł(e)-</td>
 </tr>
 
 <tr>
-<td class="left">causal</td>
-<td class="left">-(o)by</td>
-<td class="left">-(o)by</td>
-<td class="left">-(o)by</td>
-<td class="left">-(o)by</td>
-<td class="left">-(o)bu</td>
-<td class="left">-(o)bu</td>
+<td class="org-left">causal</td>
+<td class="org-left">-(o)by</td>
+<td class="org-left">-(o)by</td>
+<td class="org-left">-(o)by</td>
+<td class="org-left">-(o)by</td>
+<td class="org-left">-(o)bu</td>
+<td class="org-left">-(o)bu</td>
 </tr>
 
 <tr>
-<td class="left">comitatif</td>
-<td class="left">-ðeń-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðei(n)-</td>
-<td class="left">-ðey-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðey-</td>
+<td class="org-left">comitatif</td>
+<td class="org-left">-ðeń-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðei(n)-</td>
+<td class="org-left">-ðey-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðey-</td>
 </tr>
 
 <tr>
-<td class="left">comparatif</td>
-<td class="left">-(oi)t</td>
-<td class="left">-(oi)ţ</td>
-<td class="left">-oir</td>
-<td class="left">-er</td>
-<td class="left">-(oi)r</td>
-<td class="left">-oit</td>
+<td class="org-left">comparatif</td>
+<td class="org-left">-(oi)t</td>
+<td class="org-left">-(oi)ţ</td>
+<td class="org-left">-oir</td>
+<td class="org-left">-er</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-oit</td>
 </tr>
 
 <tr>
-<td class="left">datif</td>
-<td class="left">-at-</td>
-<td class="left">-aţ-</td>
-<td class="left">-aţ-</td>
-<td class="left">-aţ-</td>
-<td class="left">-et-</td>
-<td class="left">-(v)et-</td>
+<td class="org-left">datif</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-aţ-</td>
+<td class="org-left">-aţ-</td>
+<td class="org-left">-aţ-</td>
+<td class="org-left">-et-</td>
+<td class="org-left">-(v)et-</td>
 </tr>
 
 <tr>
-<td class="left">délatif</td>
-<td class="left">š(a)-</td>
-<td class="left">š(e)-</td>
-<td class="left">ž(a)-</td>
-<td class="left">ž(e)-</td>
-<td class="left">ž(a)-</td>
-<td class="left">ž(a)-</td>
+<td class="org-left">délatif</td>
+<td class="org-left">š(a)-</td>
+<td class="org-left">š(e)-</td>
+<td class="org-left">ž(a)-</td>
+<td class="org-left">ž(e)-</td>
+<td class="org-left">ž(a)-</td>
+<td class="org-left">ž(a)-</td>
 </tr>
 
 <tr>
-<td class="left">distributif</td>
-<td class="left">he(l)-</td>
-<td class="left">he(l)-</td>
-<td class="left">he(l)-</td>
-<td class="left">he(l)-</td>
-<td class="left">ha(l)-</td>
-<td class="left">ha(l)-</td>
+<td class="org-left">distributif</td>
+<td class="org-left">he(l)-</td>
+<td class="org-left">he(l)-</td>
+<td class="org-left">he(l)-</td>
+<td class="org-left">he(l)-</td>
+<td class="org-left">ha(l)-</td>
+<td class="org-left">ha(l)-</td>
 </tr>
 
 <tr>
-<td class="left">distributif-temporel</td>
-<td class="left">-be</td>
-<td class="left">-ba</td>
-<td class="left">-ba</td>
-<td class="left">-ve</td>
-<td class="left">-ve</td>
-<td class="left">-va</td>
+<td class="org-left">distributif-temporel</td>
+<td class="org-left">-be</td>
+<td class="org-left">-ba</td>
+<td class="org-left">-ba</td>
+<td class="org-left">-ve</td>
+<td class="org-left">-ve</td>
+<td class="org-left">-va</td>
 </tr>
 
 <tr>
-<td class="left">élatif</td>
-<td class="left">-(ł)y</td>
-<td class="left">-(ł)y</td>
-<td class="left">-(ł)y</td>
-<td class="left">-(ł)yi</td>
-<td class="left">-(ł)u</td>
-<td class="left">-(ł)yi</td>
+<td class="org-left">élatif</td>
+<td class="org-left">-(ł)y</td>
+<td class="org-left">-(ł)y</td>
+<td class="org-left">-(ł)y</td>
+<td class="org-left">-(ł)yi</td>
+<td class="org-left">-(ł)u</td>
+<td class="org-left">-(ł)yi</td>
 </tr>
 
 <tr>
-<td class="left">équatif</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ń)ḑ</td>
-<td class="left">-(ń)ţ</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ĺ)ḑ</td>
-<td class="left">-(ń)ţ</td>
+<td class="org-left">équatif</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ń)ḑ</td>
+<td class="org-left">-(ń)ţ</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ĺ)ḑ</td>
+<td class="org-left">-(ń)ţ</td>
 </tr>
 
 <tr>
-<td class="left">ergatif</td>
-<td class="left">-(ò)jo</td>
-<td class="left">-(y)jo</td>
-<td class="left">-(lj)o</td>
-<td class="left">-(lj)o</td>
-<td class="left">-(mj)o</td>
-<td class="left">-(lj)o</td>
+<td class="org-left">ergatif</td>
+<td class="org-left">-(ò)jo</td>
+<td class="org-left">-(y)jo</td>
+<td class="org-left">-(lj)o</td>
+<td class="org-left">-(lj)o</td>
+<td class="org-left">-(mj)o</td>
+<td class="org-left">-(lj)o</td>
 </tr>
 
 <tr>
-<td class="left">essif</td>
-<td class="left">-(þ)yḑ-</td>
-<td class="left">-(þ)yḑ-</td>
-<td class="left">-(ð)yţ-</td>
-<td class="left">-(ð)yţ-</td>
-<td class="left">-(þ)ud-</td>
-<td class="left">-(þ)ud-</td>
+<td class="org-left">essif</td>
+<td class="org-left">-(þ)yḑ-</td>
+<td class="org-left">-(þ)yḑ-</td>
+<td class="org-left">-(ð)yţ-</td>
+<td class="org-left">-(ð)yţ-</td>
+<td class="org-left">-(þ)ud-</td>
+<td class="org-left">-(þ)ud-</td>
 </tr>
 
 <tr>
-<td class="left">essif-temporel</td>
-<td class="left">-(ţ)òd</td>
-<td class="left">-(ţ)ed</td>
-<td class="left">-(ţ)òd</td>
-<td class="left">-òd</td>
-<td class="left">-(ò)d</td>
-<td class="left">ò(d)-</td>
+<td class="org-left">essif-temporel</td>
+<td class="org-left">-(ţ)òd</td>
+<td class="org-left">-(ţ)ed</td>
+<td class="org-left">-(ţ)òd</td>
+<td class="org-left">-òd</td>
+<td class="org-left">-(ò)d</td>
+<td class="org-left">ò(d)-</td>
 </tr>
 
 <tr>
-<td class="left">essif-modal</td>
-<td class="left">-(’)uŗ</td>
-<td class="left">-(’)uŗ</td>
-<td class="left">-’u</td>
-<td class="left">-(’)yŗ</td>
-<td class="left">-(’)yiŗ</td>
-<td class="left">-(’)yŗ</td>
+<td class="org-left">essif-modal</td>
+<td class="org-left">-(’)uŗ</td>
+<td class="org-left">-(’)uŗ</td>
+<td class="org-left">-’u</td>
+<td class="org-left">-(’)yŗ</td>
+<td class="org-left">-(’)yiŗ</td>
+<td class="org-left">-(’)yŗ</td>
 </tr>
 
 <tr>
-<td class="left">excessif</td>
-<td class="left">-ex</td>
-<td class="left">-eŕ</td>
-<td class="left">-ex</td>
-<td class="left">-aŗ</td>
-<td class="left">-ex</td>
-<td class="left">-eŗ</td>
+<td class="org-left">excessif</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-eŕ</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-aŗ</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-eŗ</td>
 </tr>
 
 <tr>
-<td class="left">génitif</td>
-<td class="left">ţy-</td>
-<td class="left">ţy-</td>
-<td class="left">ţy(i)-</td>
-<td class="left">ţy-</td>
-<td class="left">ţ(eu)-</td>
-<td class="left">ţo(y)-</td>
+<td class="org-left">génitif</td>
+<td class="org-left">ţy-</td>
+<td class="org-left">ţy-</td>
+<td class="org-left">ţy(i)-</td>
+<td class="org-left">ţy-</td>
+<td class="org-left">ţ(eu)-</td>
+<td class="org-left">ţo(y)-</td>
 </tr>
 
 <tr>
-<td class="left">identique</td>
-<td class="left">-tur</td>
-<td class="left">-(e)tur</td>
-<td class="left">-(a)tur</td>
-<td class="left">-(e)tur</td>
-<td class="left">-tyr</td>
-<td class="left">-tyr</td>
+<td class="org-left">identique</td>
+<td class="org-left">-tur</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-(a)tur</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-tyr</td>
+<td class="org-left">-tyr</td>
 </tr>
 
 <tr>
-<td class="left">illatif</td>
-<td class="left">-(s)òn-</td>
-<td class="left">-(s)en-</td>
-<td class="left">-(s)en-</td>
-<td class="left">-(s)an-</td>
-<td class="left">-(ps)òn-</td>
-<td class="left">-(ps)en-</td>
+<td class="org-left">illatif</td>
+<td class="org-left">-(s)òn-</td>
+<td class="org-left">-(s)en-</td>
+<td class="org-left">-(s)en-</td>
+<td class="org-left">-(s)an-</td>
+<td class="org-left">-(ps)òn-</td>
+<td class="org-left">-(ps)en-</td>
 </tr>
 
 <tr>
-<td class="left">inessif</td>
-<td class="left">-(e)ŕo-</td>
-<td class="left">-(a)ŕo-</td>
-<td class="left">-(e)ŕo-</td>
-<td class="left">-ŕo-</td>
-<td class="left">-ŕo-</td>
-<td class="left">-(a)ŕo-</td>
+<td class="org-left">inessif</td>
+<td class="org-left">-(e)ŕo-</td>
+<td class="org-left">-(a)ŕo-</td>
+<td class="org-left">-(e)ŕo-</td>
+<td class="org-left">-ŕo-</td>
+<td class="org-left">-ŕo-</td>
+<td class="org-left">-(a)ŕo-</td>
 </tr>
 
 <tr>
-<td class="left">initiatif</td>
-<td class="left">-(e)kĺ</td>
-<td class="left">-(e)kń</td>
-<td class="left">-(a)kĺ</td>
-<td class="left">-(ei)kń</td>
-<td class="left">-akĺ</td>
-<td class="left">-ekĺ</td>
+<td class="org-left">initiatif</td>
+<td class="org-left">-(e)kĺ</td>
+<td class="org-left">-(e)kń</td>
+<td class="org-left">-(a)kĺ</td>
+<td class="org-left">-(ei)kń</td>
+<td class="org-left">-akĺ</td>
+<td class="org-left">-ekĺ</td>
 </tr>
 
 <tr>
-<td class="left">instructif</td>
-<td class="left">-(e)ň</td>
-<td class="left">-eň</td>
-<td class="left">-aň</td>
-<td class="left">-(e)ň</td>
-<td class="left">-(ea)ň</td>
-<td class="left">-(e)ň</td>
+<td class="org-left">instructif</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-eň</td>
+<td class="org-left">-aň</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-(ea)ň</td>
+<td class="org-left">-(e)ň</td>
 </tr>
 
 <tr>
-<td class="left">instrumental</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(ţ)ĺ</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-ḑĺ</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(d)ń</td>
+<td class="org-left">instrumental</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(ţ)ĺ</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-ḑĺ</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(d)ń</td>
 </tr>
 
 <tr>
-<td class="left">intratif</td>
-<td class="left">-fu(þ)-</td>
-<td class="left">-fy-</td>
-<td class="left">-fy(ð)-</td>
-<td class="left">-fy(ð)-</td>
-<td class="left">-fu(ð)-</td>
-<td class="left">-þy(ð)-</td>
+<td class="org-left">intratif</td>
+<td class="org-left">-fu(þ)-</td>
+<td class="org-left">-fy-</td>
+<td class="org-left">-fy(ð)-</td>
+<td class="org-left">-fy(ð)-</td>
+<td class="org-left">-fu(ð)-</td>
+<td class="org-left">-þy(ð)-</td>
 </tr>
 
 <tr>
-<td class="left">latif</td>
-<td class="left">-(l)ń</td>
-<td class="left">-(l)a</td>
-<td class="left">-(l)a</td>
-<td class="left">-le</td>
-<td class="left">-la</td>
-<td class="left">-la</td>
+<td class="org-left">latif</td>
+<td class="org-left">-(l)ń</td>
+<td class="org-left">-(l)a</td>
+<td class="org-left">-(l)a</td>
+<td class="org-left">-le</td>
+<td class="org-left">-la</td>
+<td class="org-left">-la</td>
 </tr>
 
 <tr>
-<td class="left">limitatif</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(e)mp</td>
-<td class="left">-(ò)mp</td>
+<td class="org-left">limitatif</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(e)mp</td>
+<td class="org-left">-(ò)mp</td>
 </tr>
 
 <tr>
-<td class="left">locatif</td>
-<td class="left">l(e)-</td>
-<td class="left">l(e)-</td>
-<td class="left">lj(a)-</td>
-<td class="left">l(a)-</td>
-<td class="left">ła-</td>
-<td class="left">ł(a)-</td>
+<td class="org-left">locatif</td>
+<td class="org-left">l(e)-</td>
+<td class="org-left">l(e)-</td>
+<td class="org-left">lj(a)-</td>
+<td class="org-left">l(a)-</td>
+<td class="org-left">ła-</td>
+<td class="org-left">ł(a)-</td>
 </tr>
 
 <tr>
-<td class="left">nominal</td>
-<td class="left">-(eu)s</td>
-<td class="left">-(eo)ß</td>
-<td class="left">-eus</td>
-<td class="left">-eušt</td>
-<td class="left">-eus</td>
-<td class="left">-(eu)ß</td>
+<td class="org-left">nominal</td>
+<td class="org-left">-(eu)s</td>
+<td class="org-left">-(eo)ß</td>
+<td class="org-left">-eus</td>
+<td class="org-left">-eušt</td>
+<td class="org-left">-eus</td>
+<td class="org-left">-(eu)ß</td>
 </tr>
 
 <tr>
-<td class="left">nominatif</td>
-<td class="left">pa(n)-</td>
-<td class="left">pa(ń)-</td>
-<td class="left">pń-</td>
-<td class="left">pń-</td>
-<td class="left">pa(m)-</td>
-<td class="left">pa-</td>
+<td class="org-left">nominatif</td>
+<td class="org-left">pa(n)-</td>
+<td class="org-left">pa(ń)-</td>
+<td class="org-left">pń-</td>
+<td class="org-left">pń-</td>
+<td class="org-left">pa(m)-</td>
+<td class="org-left">pa-</td>
 </tr>
 
 <tr>
-<td class="left">oblique</td>
-<td class="left">-(ŗ)ef</td>
-<td class="left">-(ŗ)òß</td>
-<td class="left">-(ŗ)ef</td>
-<td class="left">-(ŗ)òß</td>
-<td class="left">-(ŗ)ef</td>
-<td class="left">-(ŗ)òß</td>
+<td class="org-left">oblique</td>
+<td class="org-left">-(ŗ)ef</td>
+<td class="org-left">-(ŗ)òß</td>
+<td class="org-left">-(ŗ)ef</td>
+<td class="org-left">-(ŗ)òß</td>
+<td class="org-left">-(ŗ)ef</td>
+<td class="org-left">-(ŗ)òß</td>
 </tr>
 
 <tr>
-<td class="left">orientatif</td>
-<td class="left">f(o)-</td>
-<td class="left">v(o)-</td>
-<td class="left">þ(o)-</td>
-<td class="left">ð(o)-</td>
-<td class="left">þ(o)-</td>
-<td class="left">þo-</td>
+<td class="org-left">orientatif</td>
+<td class="org-left">f(o)-</td>
+<td class="org-left">v(o)-</td>
+<td class="org-left">þ(o)-</td>
+<td class="org-left">ð(o)-</td>
+<td class="org-left">þ(o)-</td>
+<td class="org-left">þo-</td>
 </tr>
 
 <tr>
-<td class="left">partitif</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-’il-</td>
-<td class="left">-’il(y)-</td>
-<td class="left">-ili(’)-</td>
-<td class="left">-’i(ł)-</td>
-<td class="left">-’e(ł)-</td>
+<td class="org-left">partitif</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-’il-</td>
+<td class="org-left">-’il(y)-</td>
+<td class="org-left">-ili(’)-</td>
+<td class="org-left">-’i(ł)-</td>
+<td class="org-left">-’e(ł)-</td>
 </tr>
 
 <tr>
-<td class="left">pégatif</td>
-<td class="left">ey-</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
-<td class="left">eu-</td>
-<td class="left">ey-</td>
-<td class="left">eu-</td>
+<td class="org-left">pégatif</td>
+<td class="org-left">ey-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">eu-</td>
+<td class="org-left">ey-</td>
+<td class="org-left">eu-</td>
 </tr>
 
 <tr>
-<td class="left">perlatif</td>
-<td class="left">š(ui)-</td>
-<td class="left">ž(ui)-</td>
-<td class="left">š(eu)-</td>
-<td class="left">š(ey)-</td>
-<td class="left">š(oy)-</td>
-<td class="left">ž(ou)-</td>
+<td class="org-left">perlatif</td>
+<td class="org-left">š(ui)-</td>
+<td class="org-left">ž(ui)-</td>
+<td class="org-left">š(eu)-</td>
+<td class="org-left">š(ey)-</td>
+<td class="org-left">š(oy)-</td>
+<td class="org-left">ž(ou)-</td>
 </tr>
 
 <tr>
-<td class="left">pertingent</td>
-<td class="left">m(e)-</td>
-<td class="left">m(e)-</td>
-<td class="left">m(a)-</td>
-<td class="left">m(e)-</td>
-<td class="left">mj(ò)-</td>
-<td class="left">mj(e)-</td>
+<td class="org-left">pertingent</td>
+<td class="org-left">m(e)-</td>
+<td class="org-left">m(e)-</td>
+<td class="org-left">m(a)-</td>
+<td class="org-left">m(e)-</td>
+<td class="org-left">mj(ò)-</td>
+<td class="org-left">mj(e)-</td>
 </tr>
 
 <tr>
-<td class="left">postessif</td>
-<td class="left">-(u)š</td>
-<td class="left">-(u)ß</td>
-<td class="left">-(u)ß</td>
-<td class="left">-(u)þ</td>
-<td class="left">-(u)ž</td>
-<td class="left">-(y)š</td>
+<td class="org-left">postessif</td>
+<td class="org-left">-(u)š</td>
+<td class="org-left">-(u)ß</td>
+<td class="org-left">-(u)ß</td>
+<td class="org-left">-(u)þ</td>
+<td class="org-left">-(u)ž</td>
+<td class="org-left">-(y)š</td>
 </tr>
 
 <tr>
-<td class="left">privatif</td>
-<td class="left">ei-</td>
-<td class="left">ae-</td>
-<td class="left">eiḑ-</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
+<td class="org-left">privatif</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ae-</td>
+<td class="org-left">eiḑ-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
 </tr>
 
 <tr>
-<td class="left">prolatif</td>
-<td class="left">ša-</td>
-<td class="left">š(e)-</td>
-<td class="left">š(e)-</td>
-<td class="left">ž(a)-</td>
-<td class="left">š(e)-</td>
-<td class="left">še-</td>
+<td class="org-left">prolatif</td>
+<td class="org-left">ša-</td>
+<td class="org-left">š(e)-</td>
+<td class="org-left">š(e)-</td>
+<td class="org-left">ž(a)-</td>
+<td class="org-left">š(e)-</td>
+<td class="org-left">še-</td>
 </tr>
 
 <tr>
-<td class="left">révertif</td>
-<td class="left">-ňò</td>
-<td class="left">-ňò</td>
-<td class="left">-ňoe</td>
-<td class="left">-ňò</td>
-<td class="left">-ňò</td>
-<td class="left">-ňe</td>
+<td class="org-left">révertif</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňoe</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňe</td>
 </tr>
 
 <tr>
-<td class="left">semplatif</td>
-<td class="left">-ŗwe</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-ŗwo</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-ŗwo</td>
-<td class="left">-ŗwe</td>
+<td class="org-left">semplatif</td>
+<td class="org-left">-ŗwe</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-ŗwo</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-ŗwo</td>
+<td class="org-left">-ŗwe</td>
 </tr>
 
 <tr>
-<td class="left">sociatif</td>
-<td class="left">t(o)-</td>
-<td class="left">t(e)-</td>
-<td class="left">ţe-</td>
-<td class="left">t(o)-</td>
-<td class="left">to-</td>
-<td class="left">ţo-</td>
+<td class="org-left">sociatif</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">ţe-</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">to-</td>
+<td class="org-left">ţo-</td>
 </tr>
 
 <tr>
-<td class="left">subessif</td>
-<td class="left">nw(o)-</td>
-<td class="left">n(we)-</td>
-<td class="left">ň(e)-</td>
-<td class="left">ň(o)-</td>
-<td class="left">ne-</td>
-<td class="left">ňe-</td>
+<td class="org-left">subessif</td>
+<td class="org-left">nw(o)-</td>
+<td class="org-left">n(we)-</td>
+<td class="org-left">ň(e)-</td>
+<td class="org-left">ň(o)-</td>
+<td class="org-left">ne-</td>
+<td class="org-left">ňe-</td>
 </tr>
 
 <tr>
-<td class="left">sublatif</td>
-<td class="left">-(i)fţ</td>
-<td class="left">-(i)þţ</td>
-<td class="left">-(e)nţ</td>
-<td class="left">-(eu)ţ</td>
-<td class="left">-(a)ţ</td>
-<td class="left">-(i)nţ</td>
+<td class="org-left">sublatif</td>
+<td class="org-left">-(i)fţ</td>
+<td class="org-left">-(i)þţ</td>
+<td class="org-left">-(e)nţ</td>
+<td class="org-left">-(eu)ţ</td>
+<td class="org-left">-(a)ţ</td>
+<td class="org-left">-(i)nţ</td>
 </tr>
 
 <tr>
-<td class="left">superessif</td>
-<td class="left">ßt(e)-</td>
-<td class="left">tß(ei)-</td>
-<td class="left">tß(e)-</td>
-<td class="left">št(a)-</td>
-<td class="left">ßt(a)-</td>
-<td class="left">ßt(a)-</td>
+<td class="org-left">superessif</td>
+<td class="org-left">ßt(e)-</td>
+<td class="org-left">tß(ei)-</td>
+<td class="org-left">tß(e)-</td>
+<td class="org-left">št(a)-</td>
+<td class="org-left">ßt(a)-</td>
+<td class="org-left">ßt(a)-</td>
 </tr>
 
 <tr>
-<td class="left">temporel</td>
-<td class="left">-(y)ňni</td>
-<td class="left">-(ň)ne</td>
-<td class="left">-eňni</td>
-<td class="left">-(i)mji</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(iň)ni</td>
+<td class="org-left">temporel</td>
+<td class="org-left">-(y)ňni</td>
+<td class="org-left">-(ň)ne</td>
+<td class="org-left">-eňni</td>
+<td class="org-left">-(i)mji</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(iň)ni</td>
 </tr>
 
 <tr>
-<td class="left">terminatif</td>
-<td class="left">-(ae)n</td>
-<td class="left">-aem</td>
-<td class="left">-aeň</td>
-<td class="left">-aem</td>
-<td class="left">-(ae)nz</td>
-<td class="left">ae(ň)-</td>
+<td class="org-left">terminatif</td>
+<td class="org-left">-(ae)n</td>
+<td class="org-left">-aem</td>
+<td class="org-left">-aeň</td>
+<td class="org-left">-aem</td>
+<td class="org-left">-(ae)nz</td>
+<td class="org-left">ae(ň)-</td>
 </tr>
 
 <tr>
-<td class="left">translatif</td>
-<td class="left">-(i)n</td>
-<td class="left">-(y)m</td>
-<td class="left">-(i)ň</td>
-<td class="left">-(i)n</td>
-<td class="left">-(i)m</td>
-<td class="left">-(i)n</td>
+<td class="org-left">translatif</td>
+<td class="org-left">-(i)n</td>
+<td class="org-left">-(y)m</td>
+<td class="org-left">-(i)ň</td>
+<td class="org-left">-(i)n</td>
+<td class="org-left">-(i)m</td>
+<td class="org-left">-(i)n</td>
 </tr>
 
 <tr>
-<td class="left">vocatif</td>
-<td class="left">-wa</td>
-<td class="left">-ja</td>
-<td class="left">-je</td>
-<td class="left">-v(w)e</td>
-<td class="left">-va</td>
-<td class="left">-ve</td>
+<td class="org-left">vocatif</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-ja</td>
+<td class="org-left">-je</td>
+<td class="org-left">-v(w)e</td>
+<td class="org-left">-va</td>
+<td class="org-left">-ve</td>
 </tr>
 </tbody>
 </table>
@@ -2859,647 +2894,649 @@ Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le ca
 
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 
 <colgroup>
-<col  class="left" />
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="left">&#xa0;</th>
-<th scope="col" class="left">7s</th>
-<th scope="col" class="left">7p</th>
-<th scope="col" class="left">8s</th>
-<th scope="col" class="left">8p</th>
-<th scope="col" class="left">9s</th>
-<th scope="col" class="left">9p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">7s</th>
+<th scope="col" class="org-left">7p</th>
+<th scope="col" class="org-left">8s</th>
+<th scope="col" class="org-left">8p</th>
+<th scope="col" class="org-left">9s</th>
+<th scope="col" class="org-left">9p</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="left">abessif</td>
-<td class="left">e-</td>
-<td class="left">e(s)-</td>
-<td class="left">e-</td>
-<td class="left">e(ňt)-</td>
-<td class="left">e(mt)-</td>
-<td class="left">e(ňt)-</td>
+<td class="org-left">abessif</td>
+<td class="org-left">e-</td>
+<td class="org-left">e(s)-</td>
+<td class="org-left">e-</td>
+<td class="org-left">e(ňt)-</td>
+<td class="org-left">e(mt)-</td>
+<td class="org-left">e(ňt)-</td>
 </tr>
 
 <tr>
-<td class="left">ablatif</td>
-<td class="left">lń(d)-</td>
-<td class="left">lń(d)-</td>
-<td class="left">ĺ(z)-</td>
-<td class="left">ĺ(z)-</td>
-<td class="left">ĺ(v)-</td>
-<td class="left">ĺ(v)-</td>
+<td class="org-left">ablatif</td>
+<td class="org-left">lń(d)-</td>
+<td class="org-left">lń(d)-</td>
+<td class="org-left">ĺ(z)-</td>
+<td class="org-left">ĺ(z)-</td>
+<td class="org-left">ĺ(v)-</td>
+<td class="org-left">ĺ(v)-</td>
 </tr>
 
 <tr>
-<td class="left">absolutif</td>
-<td class="left">-(r)a</td>
-<td class="left">-(r)a</td>
-<td class="left">-(x)a</td>
-<td class="left">-(š)a</td>
-<td class="left">-(ŗ)a</td>
-<td class="left">-(ž)a</td>
+<td class="org-left">absolutif</td>
+<td class="org-left">-(r)a</td>
+<td class="org-left">-(r)a</td>
+<td class="org-left">-(x)a</td>
+<td class="org-left">-(š)a</td>
+<td class="org-left">-(ŗ)a</td>
+<td class="org-left">-(ž)a</td>
 </tr>
 
 <tr>
-<td class="left">accusatif</td>
-<td class="left">-(u)vo</td>
-<td class="left">-(u)vo</td>
-<td class="left">-vu</td>
-<td class="left">-vu</td>
-<td class="left">-vy</td>
-<td class="left">-vy</td>
+<td class="org-left">accusatif</td>
+<td class="org-left">-(u)vo</td>
+<td class="org-left">-(u)vo</td>
+<td class="org-left">-vu</td>
+<td class="org-left">-vu</td>
+<td class="org-left">-vy</td>
+<td class="org-left">-vy</td>
 </tr>
 
 <tr>
-<td class="left">accusatif-temporel</td>
-<td class="left">-(o)źu</td>
-<td class="left">-(o)źu</td>
-<td class="left">-(o)źu</td>
-<td class="left">-(o)źu</td>
-<td class="left">-(o)źu</td>
-<td class="left">-(o)źu</td>
+<td class="org-left">accusatif-temporel</td>
+<td class="org-left">-(o)źu</td>
+<td class="org-left">-(o)źu</td>
+<td class="org-left">-(o)źu</td>
+<td class="org-left">-(o)źu</td>
+<td class="org-left">-(o)źu</td>
+<td class="org-left">-(o)źu</td>
 </tr>
 
 <tr>
-<td class="left">adessif</td>
-<td class="left">iź(a)-</td>
-<td class="left">iź(ei)-</td>
-<td class="left">iŗ(a)-</td>
-<td class="left">iŗ(a)-</td>
-<td class="left">iŗ(e)-</td>
-<td class="left">iŗ(e)-</td>
+<td class="org-left">adessif</td>
+<td class="org-left">iź(a)-</td>
+<td class="org-left">iź(ei)-</td>
+<td class="org-left">iŗ(a)-</td>
+<td class="org-left">iŗ(a)-</td>
+<td class="org-left">iŗ(e)-</td>
+<td class="org-left">iŗ(e)-</td>
 </tr>
 
 <tr>
-<td class="left">adverbial</td>
-<td class="left">-ei</td>
-<td class="left">-ei</td>
-<td class="left">-ei</td>
-<td class="left">-(r)ei</td>
-<td class="left">-(ei)r</td>
-<td class="left">-(ey)r</td>
+<td class="org-left">adverbial</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-(r)ei</td>
+<td class="org-left">-(ei)r</td>
+<td class="org-left">-(ey)r</td>
 </tr>
 
 <tr>
-<td class="left">agentif</td>
-<td class="left">t(e)-</td>
-<td class="left">t(e)-</td>
-<td class="left">e(t)-</td>
-<td class="left">a(t)-</td>
-<td class="left">te-</td>
-<td class="left">t(e)-</td>
+<td class="org-left">agentif</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">t(e)-</td>
+<td class="org-left">e(t)-</td>
+<td class="org-left">a(t)-</td>
+<td class="org-left">te-</td>
+<td class="org-left">t(e)-</td>
 </tr>
 
 <tr>
-<td class="left">allatif</td>
-<td class="left">-li(ŗ)-</td>
-<td class="left">-li(ŗ)-</td>
-<td class="left">-li(þt)-</td>
-<td class="left">-li(v)-</td>
-<td class="left">-(l)iþ-</td>
-<td class="left">-(l)ið-</td>
+<td class="org-left">allatif</td>
+<td class="org-left">-li(ŗ)-</td>
+<td class="org-left">-li(ŗ)-</td>
+<td class="org-left">-li(þt)-</td>
+<td class="org-left">-li(v)-</td>
+<td class="org-left">-(l)iþ-</td>
+<td class="org-left">-(l)ið-</td>
 </tr>
 
 <tr>
-<td class="left">antessif</td>
-<td class="left">vw(o)-</td>
-<td class="left">v(u)-</td>
-<td class="left">v(u)-</td>
-<td class="left">v(u)-</td>
-<td class="left">vw(o)-</td>
-<td class="left">vu-</td>
+<td class="org-left">antessif</td>
+<td class="org-left">vw(o)-</td>
+<td class="org-left">v(u)-</td>
+<td class="org-left">v(u)-</td>
+<td class="org-left">v(u)-</td>
+<td class="org-left">vw(o)-</td>
+<td class="org-left">vu-</td>
 </tr>
 
 <tr>
-<td class="left">apudessif</td>
-<td class="left">ð(ei)-</td>
-<td class="left">ðe(m)-</td>
-<td class="left">f(e)-</td>
-<td class="left">fe-</td>
-<td class="left">vei-</td>
-<td class="left">fei-</td>
+<td class="org-left">apudessif</td>
+<td class="org-left">ð(ei)-</td>
+<td class="org-left">ðe(m)-</td>
+<td class="org-left">f(e)-</td>
+<td class="org-left">fe-</td>
+<td class="org-left">vei-</td>
+<td class="org-left">fei-</td>
 </tr>
 
 <tr>
-<td class="left">aversif</td>
-<td class="left">ł(e)-</td>
-<td class="left">ł(e)-</td>
-<td class="left">ła-</td>
-<td class="left">l(e)-</td>
-<td class="left">ł(e)-</td>
-<td class="left">ł(e)-</td>
+<td class="org-left">aversif</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ła-</td>
+<td class="org-left">l(e)-</td>
+<td class="org-left">ł(e)-</td>
+<td class="org-left">ł(e)-</td>
 </tr>
 
 <tr>
-<td class="left">causal</td>
-<td class="left">-(o)vu</td>
-<td class="left">-(e)vy</td>
-<td class="left">-(e)vy</td>
-<td class="left">-(e)vy</td>
-<td class="left">-vy</td>
-<td class="left">-vy</td>
+<td class="org-left">causal</td>
+<td class="org-left">-(o)vu</td>
+<td class="org-left">-(e)vy</td>
+<td class="org-left">-(e)vy</td>
+<td class="org-left">-(e)vy</td>
+<td class="org-left">-vy</td>
+<td class="org-left">-vy</td>
 </tr>
 
 <tr>
-<td class="left">comitatif</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðeu-</td>
-<td class="left">-ðei-</td>
-<td class="left">-ðeu-</td>
-<td class="left">-ðeu-</td>
+<td class="org-left">comitatif</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðeu-</td>
+<td class="org-left">-ðei-</td>
+<td class="org-left">-ðeu-</td>
+<td class="org-left">-ðeu-</td>
 </tr>
 
 <tr>
-<td class="left">comparatif</td>
-<td class="left">-(oi)r</td>
-<td class="left">-(oi)r</td>
-<td class="left">-or</td>
-<td class="left">-(oi)r</td>
-<td class="left">-oiŗ</td>
-<td class="left">-(oi)ŗ</td>
+<td class="org-left">comparatif</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-or</td>
+<td class="org-left">-(oi)r</td>
+<td class="org-left">-oiŗ</td>
+<td class="org-left">-(oi)ŗ</td>
 </tr>
 
 <tr>
-<td class="left">datif</td>
-<td class="left">-at-</td>
-<td class="left">-et-</td>
-<td class="left">-ast-</td>
-<td class="left">-aþ-</td>
-<td class="left">-at-</td>
-<td class="left">-et-</td>
+<td class="org-left">datif</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-et-</td>
+<td class="org-left">-ast-</td>
+<td class="org-left">-aþ-</td>
+<td class="org-left">-at-</td>
+<td class="org-left">-et-</td>
 </tr>
 
 <tr>
-<td class="left">délatif</td>
-<td class="left">ß(eu)-</td>
-<td class="left">ß(eu)-</td>
-<td class="left">ß(a)-</td>
-<td class="left">ß(a)-</td>
-<td class="left">ßa(l)-</td>
-<td class="left">ße(l)-</td>
+<td class="org-left">délatif</td>
+<td class="org-left">ß(eu)-</td>
+<td class="org-left">ß(eu)-</td>
+<td class="org-left">ß(a)-</td>
+<td class="org-left">ß(a)-</td>
+<td class="org-left">ßa(l)-</td>
+<td class="org-left">ße(l)-</td>
 </tr>
 
 <tr>
-<td class="left">distributif</td>
-<td class="left">hei(l)-</td>
-<td class="left">hea(l)-</td>
-<td class="left">hea(l)-</td>
-<td class="left">hea(l)-</td>
-<td class="left">še(l)-</td>
-<td class="left">še(l)-</td>
+<td class="org-left">distributif</td>
+<td class="org-left">hei(l)-</td>
+<td class="org-left">hea(l)-</td>
+<td class="org-left">hea(l)-</td>
+<td class="org-left">hea(l)-</td>
+<td class="org-left">še(l)-</td>
+<td class="org-left">še(l)-</td>
 </tr>
 
 <tr>
-<td class="left">distributif-temporel</td>
-<td class="left">-(b)e</td>
-<td class="left">-be</td>
-<td class="left">-bei</td>
-<td class="left">-(b)ei</td>
-<td class="left">-be</td>
-<td class="left">-be</td>
+<td class="org-left">distributif-temporel</td>
+<td class="org-left">-(b)e</td>
+<td class="org-left">-be</td>
+<td class="org-left">-bei</td>
+<td class="org-left">-(b)ei</td>
+<td class="org-left">-be</td>
+<td class="org-left">-be</td>
 </tr>
 
 <tr>
-<td class="left">élatif</td>
-<td class="left">-ły</td>
-<td class="left">-(a)ły</td>
-<td class="left">-(ł)ay</td>
-<td class="left">-(ł)ey</td>
-<td class="left">-(ł)ay</td>
-<td class="left">-łay</td>
+<td class="org-left">élatif</td>
+<td class="org-left">-ły</td>
+<td class="org-left">-(a)ły</td>
+<td class="org-left">-(ł)ay</td>
+<td class="org-left">-(ł)ey</td>
+<td class="org-left">-(ł)ay</td>
+<td class="org-left">-łay</td>
 </tr>
 
 <tr>
-<td class="left">équatif</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ń)t</td>
-<td class="left">-ńt</td>
-<td class="left">-(ń)t</td>
-<td class="left">-(ń)t</td>
-<td class="left">-ńt</td>
+<td class="org-left">équatif</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-ńt</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-(ń)t</td>
+<td class="org-left">-ńt</td>
 </tr>
 
 <tr>
-<td class="left">ergatif</td>
-<td class="left">-jo</td>
-<td class="left">-jo</td>
-<td class="left">-(o)jo</td>
-<td class="left">-(e)jo</td>
-<td class="left">-(u)jo</td>
-<td class="left">-(u)jo</td>
+<td class="org-left">ergatif</td>
+<td class="org-left">-jo</td>
+<td class="org-left">-jo</td>
+<td class="org-left">-(o)jo</td>
+<td class="org-left">-(e)jo</td>
+<td class="org-left">-(u)jo</td>
+<td class="org-left">-(u)jo</td>
 </tr>
 
 <tr>
-<td class="left">essif</td>
-<td class="left">-þy(d)-</td>
-<td class="left">-þy(d)-</td>
-<td class="left">-þy(d)-</td>
-<td class="left">-þy(d)-</td>
-<td class="left">-(oi)þyd-</td>
-<td class="left">-(oi)þyd-</td>
+<td class="org-left">essif</td>
+<td class="org-left">-þy(d)-</td>
+<td class="org-left">-þy(d)-</td>
+<td class="org-left">-þy(d)-</td>
+<td class="org-left">-þy(d)-</td>
+<td class="org-left">-(oi)þyd-</td>
+<td class="org-left">-(oi)þyd-</td>
 </tr>
 
 <tr>
-<td class="left">essif-temporel</td>
-<td class="left">-òd</td>
-<td class="left">-(ò)ns</td>
-<td class="left">-òd</td>
-<td class="left">-òts</td>
-<td class="left">-(ò)ß</td>
-<td class="left">-(ò)ßt</td>
+<td class="org-left">essif-temporel</td>
+<td class="org-left">-òd</td>
+<td class="org-left">-(ò)ns</td>
+<td class="org-left">-òd</td>
+<td class="org-left">-òts</td>
+<td class="org-left">-(ò)ß</td>
+<td class="org-left">-(ò)ßt</td>
 </tr>
 
 <tr>
-<td class="left">essif-modal</td>
-<td class="left">-(’)uŗ</td>
-<td class="left">-(’)u</td>
-<td class="left">-(’)u</td>
-<td class="left">-(’)ust</td>
-<td class="left">-(’)uŗ</td>
-<td class="left">-(’)uŗ</td>
+<td class="org-left">essif-modal</td>
+<td class="org-left">-(’)uŗ</td>
+<td class="org-left">-(’)u</td>
+<td class="org-left">-(’)u</td>
+<td class="org-left">-(’)ust</td>
+<td class="org-left">-(’)uŗ</td>
+<td class="org-left">-(’)uŗ</td>
 </tr>
 
 <tr>
-<td class="left">excessif</td>
-<td class="left">-ex</td>
-<td class="left">-(e)x</td>
-<td class="left">-(a)x</td>
-<td class="left">-ex</td>
-<td class="left">-eŕ</td>
-<td class="left">-ex</td>
+<td class="org-left">excessif</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-(e)x</td>
+<td class="org-left">-(a)x</td>
+<td class="org-left">-ex</td>
+<td class="org-left">-eŕ</td>
+<td class="org-left">-ex</td>
 </tr>
 
 <tr>
-<td class="left">génitif</td>
-<td class="left">ţy-</td>
-<td class="left">ţ(u)-</td>
-<td class="left">ţ(u)-</td>
-<td class="left">ţu-</td>
-<td class="left">ţ(y)-</td>
-<td class="left">ţ(u)-</td>
+<td class="org-left">génitif</td>
+<td class="org-left">ţy-</td>
+<td class="org-left">ţ(u)-</td>
+<td class="org-left">ţ(u)-</td>
+<td class="org-left">ţu-</td>
+<td class="org-left">ţ(y)-</td>
+<td class="org-left">ţ(u)-</td>
 </tr>
 
 <tr>
-<td class="left">identique</td>
-<td class="left">-(e)tur</td>
-<td class="left">-(e)tur</td>
-<td class="left">-(t)ur</td>
-<td class="left">-tur</td>
-<td class="left">-(e)tur</td>
-<td class="left">-(o)tur</td>
+<td class="org-left">identique</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-(t)ur</td>
+<td class="org-left">-tur</td>
+<td class="org-left">-(e)tur</td>
+<td class="org-left">-(o)tur</td>
 </tr>
 
 <tr>
-<td class="left">illatif</td>
-<td class="left">-òn-</td>
-<td class="left">-(v)òn-</td>
-<td class="left">-(ŕ)òn-</td>
-<td class="left">-(ŕ)òn-</td>
-<td class="left">-(ŕ)òn-</td>
-<td class="left">-(ŕ)en-</td>
+<td class="org-left">illatif</td>
+<td class="org-left">-òn-</td>
+<td class="org-left">-(v)òn-</td>
+<td class="org-left">-(ŕ)òn-</td>
+<td class="org-left">-(ŕ)òn-</td>
+<td class="org-left">-(ŕ)òn-</td>
+<td class="org-left">-(ŕ)en-</td>
 </tr>
 
 <tr>
-<td class="left">inessif</td>
-<td class="left">-(o)ŕo-</td>
-<td class="left">-(a)ŕo-</td>
-<td class="left">-(a)ŕo-</td>
-<td class="left">-(u)ŕo-</td>
-<td class="left">-(e)ŕo-</td>
-<td class="left">-(a)ŕo-</td>
+<td class="org-left">inessif</td>
+<td class="org-left">-(o)ŕo-</td>
+<td class="org-left">-(a)ŕo-</td>
+<td class="org-left">-(a)ŕo-</td>
+<td class="org-left">-(u)ŕo-</td>
+<td class="org-left">-(e)ŕo-</td>
+<td class="org-left">-(a)ŕo-</td>
 </tr>
 
 <tr>
-<td class="left">initiatif</td>
-<td class="left">-(a)kĺ</td>
-<td class="left">-(e)kń</td>
-<td class="left">ak(ĺ)-</td>
-<td class="left">k(ń)-</td>
-<td class="left">-(k)ĺ</td>
-<td class="left">-(k)ń</td>
+<td class="org-left">initiatif</td>
+<td class="org-left">-(a)kĺ</td>
+<td class="org-left">-(e)kń</td>
+<td class="org-left">ak(ĺ)-</td>
+<td class="org-left">k(ń)-</td>
+<td class="org-left">-(k)ĺ</td>
+<td class="org-left">-(k)ń</td>
 </tr>
 
 <tr>
-<td class="left">instructif</td>
-<td class="left">-eň</td>
-<td class="left">-eňt</td>
-<td class="left">-(e)ňz</td>
-<td class="left">-(e)ň</td>
-<td class="left">-(e)ň</td>
-<td class="left">-(e)ňt</td>
+<td class="org-left">instructif</td>
+<td class="org-left">-eň</td>
+<td class="org-left">-eňt</td>
+<td class="org-left">-(e)ňz</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-(e)ň</td>
+<td class="org-left">-(e)ňt</td>
 </tr>
 
 <tr>
-<td class="left">instrumental</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(d)ń</td>
-<td class="left">-(ḑ)ń</td>
-<td class="left">-(d)ĺ</td>
-<td class="left">-(d)ĺ</td>
+<td class="org-left">instrumental</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(d)ń</td>
+<td class="org-left">-(ḑ)ń</td>
+<td class="org-left">-(d)ĺ</td>
+<td class="org-left">-(d)ĺ</td>
 </tr>
 
 <tr>
-<td class="left">intratif</td>
-<td class="left">-(f)yþ-</td>
-<td class="left">-fu-</td>
-<td class="left">-fi(ŕ)-</td>
-<td class="left">-fe(ŕ)-</td>
-<td class="left">-fu(ð)-</td>
-<td class="left">-fu(þ)-</td>
+<td class="org-left">intratif</td>
+<td class="org-left">-(f)yþ-</td>
+<td class="org-left">-fu-</td>
+<td class="org-left">-fi(ŕ)-</td>
+<td class="org-left">-fe(ŕ)-</td>
+<td class="org-left">-fu(ð)-</td>
+<td class="org-left">-fu(þ)-</td>
 </tr>
 
 <tr>
-<td class="left">latif</td>
-<td class="left">-(a)la</td>
-<td class="left">-(e)la</td>
-<td class="left">-(l)e</td>
-<td class="left">-(l)ai</td>
-<td class="left">-(l)ae</td>
-<td class="left">-la</td>
+<td class="org-left">latif</td>
+<td class="org-left">-(a)la</td>
+<td class="org-left">-(e)la</td>
+<td class="org-left">-(l)e</td>
+<td class="org-left">-(l)ai</td>
+<td class="org-left">-(l)ae</td>
+<td class="org-left">-la</td>
 </tr>
 
 <tr>
-<td class="left">limitatif</td>
-<td class="left">-(a)mp</td>
-<td class="left">-(a)mp</td>
-<td class="left">-(a)mp</td>
-<td class="left">-(a)mp</td>
-<td class="left">-(ò)mp</td>
-<td class="left">-(ò)mp</td>
+<td class="org-left">limitatif</td>
+<td class="org-left">-(a)mp</td>
+<td class="org-left">-(a)mp</td>
+<td class="org-left">-(a)mp</td>
+<td class="org-left">-(a)mp</td>
+<td class="org-left">-(ò)mp</td>
+<td class="org-left">-(ò)mp</td>
 </tr>
 
 <tr>
-<td class="left">locatif</td>
-<td class="left">l(au)-</td>
-<td class="left">l(ai)-</td>
-<td class="left">l(a)-</td>
-<td class="left">la-</td>
-<td class="left">ĺ-</td>
-<td class="left">l(e)-</td>
+<td class="org-left">locatif</td>
+<td class="org-left">l(au)-</td>
+<td class="org-left">l(ai)-</td>
+<td class="org-left">l(a)-</td>
+<td class="org-left">la-</td>
+<td class="org-left">ĺ-</td>
+<td class="org-left">l(e)-</td>
 </tr>
 
 <tr>
-<td class="left">nominal</td>
-<td class="left">-(eu)s</td>
-<td class="left">-(eu)ß</td>
-<td class="left">-(eu)s</td>
-<td class="left">-(ei)š</td>
-<td class="left">-(eu)s</td>
-<td class="left">-(eu)st</td>
+<td class="org-left">nominal</td>
+<td class="org-left">-(eu)s</td>
+<td class="org-left">-(eu)ß</td>
+<td class="org-left">-(eu)s</td>
+<td class="org-left">-(ei)š</td>
+<td class="org-left">-(eu)s</td>
+<td class="org-left">-(eu)st</td>
 </tr>
 
 <tr>
-<td class="left">nominatif</td>
-<td class="left">pa(l)-</td>
-<td class="left">pa(l)-</td>
-<td class="left">pa(ß)-</td>
-<td class="left">pe(ß)-</td>
-<td class="left">pa-</td>
-<td class="left">pa-</td>
+<td class="org-left">nominatif</td>
+<td class="org-left">pa(l)-</td>
+<td class="org-left">pa(l)-</td>
+<td class="org-left">pa(ß)-</td>
+<td class="org-left">pe(ß)-</td>
+<td class="org-left">pa-</td>
+<td class="org-left">pa-</td>
 </tr>
 
 <tr>
-<td class="left">oblique</td>
-<td class="left">-(x)eß</td>
-<td class="left">-(x)eß</td>
-<td class="left">-(x)eß</td>
-<td class="left">-(x)eß</td>
-<td class="left">-(x)uiß</td>
-<td class="left">-(x)oiß</td>
+<td class="org-left">oblique</td>
+<td class="org-left">-(x)eß</td>
+<td class="org-left">-(x)eß</td>
+<td class="org-left">-(x)eß</td>
+<td class="org-left">-(x)eß</td>
+<td class="org-left">-(x)uiß</td>
+<td class="org-left">-(x)oiß</td>
 </tr>
 
 <tr>
-<td class="left">orientatif</td>
-<td class="left">f(o)-</td>
-<td class="left">f(u)-</td>
-<td class="left">f(o)-</td>
-<td class="left">vo-</td>
-<td class="left">þo-</td>
-<td class="left">fo-</td>
+<td class="org-left">orientatif</td>
+<td class="org-left">f(o)-</td>
+<td class="org-left">f(u)-</td>
+<td class="org-left">f(o)-</td>
+<td class="org-left">vo-</td>
+<td class="org-left">þo-</td>
+<td class="org-left">fo-</td>
 </tr>
 
 <tr>
-<td class="left">partitif</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-gi(l)-</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-ki(l)-</td>
-<td class="left">-’i(l)-</td>
-<td class="left">-’i(l)-</td>
+<td class="org-left">partitif</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-gi(l)-</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-ki(l)-</td>
+<td class="org-left">-’i(l)-</td>
+<td class="org-left">-’i(l)-</td>
 </tr>
 
 <tr>
-<td class="left">pégatif</td>
-<td class="left">eu-</td>
-<td class="left">ey-</td>
-<td class="left">ey-</td>
-<td class="left">ey-</td>
-<td class="left">ei-</td>
-<td class="left">ey-</td>
+<td class="org-left">pégatif</td>
+<td class="org-left">eu-</td>
+<td class="org-left">ey-</td>
+<td class="org-left">ey-</td>
+<td class="org-left">ey-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ey-</td>
 </tr>
 
 <tr>
-<td class="left">perlatif</td>
-<td class="left">ž(u)-</td>
-<td class="left">ž(e)-</td>
-<td class="left">ž(u)-</td>
-<td class="left">ž(u)-</td>
-<td class="left">š(y)-</td>
-<td class="left">ž(u)-</td>
+<td class="org-left">perlatif</td>
+<td class="org-left">ž(u)-</td>
+<td class="org-left">ž(e)-</td>
+<td class="org-left">ž(u)-</td>
+<td class="org-left">ž(u)-</td>
+<td class="org-left">š(y)-</td>
+<td class="org-left">ž(u)-</td>
 </tr>
 
 <tr>
-<td class="left">pertingent</td>
-<td class="left">m(e)-</td>
-<td class="left">m(u)-</td>
-<td class="left">m(a)-</td>
-<td class="left">m(o)-</td>
-<td class="left">m(e)-</td>
-<td class="left">m(e)-</td>
+<td class="org-left">pertingent</td>
+<td class="org-left">m(e)-</td>
+<td class="org-left">m(u)-</td>
+<td class="org-left">m(a)-</td>
+<td class="org-left">m(o)-</td>
+<td class="org-left">m(e)-</td>
+<td class="org-left">m(e)-</td>
 </tr>
 
 <tr>
-<td class="left">postessif</td>
-<td class="left">-(u)ß</td>
-<td class="left">-(u)ź</td>
-<td class="left">-(y)ź</td>
-<td class="left">-(y)ž</td>
-<td class="left">-(y)tß</td>
-<td class="left">-(y)ßt</td>
+<td class="org-left">postessif</td>
+<td class="org-left">-(u)ß</td>
+<td class="org-left">-(u)ź</td>
+<td class="org-left">-(y)ź</td>
+<td class="org-left">-(y)ž</td>
+<td class="org-left">-(y)tß</td>
+<td class="org-left">-(y)ßt</td>
 </tr>
 
 <tr>
-<td class="left">privatif</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
-<td class="left">ei-</td>
-<td class="left">eń-</td>
-<td class="left">eń-</td>
+<td class="org-left">privatif</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">ei-</td>
+<td class="org-left">eń-</td>
+<td class="org-left">eń-</td>
 </tr>
 
 <tr>
-<td class="left">prolatif</td>
-<td class="left">š(a)-</td>
-<td class="left">šei-</td>
-<td class="left">še-</td>
-<td class="left">š(a)-</td>
-<td class="left">š(ey)-</td>
-<td class="left">ž(e)-</td>
+<td class="org-left">prolatif</td>
+<td class="org-left">š(a)-</td>
+<td class="org-left">šei-</td>
+<td class="org-left">še-</td>
+<td class="org-left">š(a)-</td>
+<td class="org-left">š(ey)-</td>
+<td class="org-left">ž(e)-</td>
 </tr>
 
 <tr>
-<td class="left">révertif</td>
-<td class="left">-ňo</td>
-<td class="left">-ňo</td>
-<td class="left">-ňò</td>
-<td class="left">-ňo</td>
-<td class="left">-(ň)ò</td>
-<td class="left">-ňo</td>
+<td class="org-left">révertif</td>
+<td class="org-left">-ňo</td>
+<td class="org-left">-ňo</td>
+<td class="org-left">-ňò</td>
+<td class="org-left">-ňo</td>
+<td class="org-left">-(ň)ò</td>
+<td class="org-left">-ňo</td>
 </tr>
 
 <tr>
-<td class="left">semplatif</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)we</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)wo</td>
-<td class="left">-(ŗ)wo</td>
+<td class="org-left">semplatif</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)we</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)wo</td>
+<td class="org-left">-(ŗ)wo</td>
 </tr>
 
 <tr>
-<td class="left">sociatif</td>
-<td class="left">te-</td>
-<td class="left">t(o)-</td>
-<td class="left">t(o)-</td>
-<td class="left">to-</td>
-<td class="left">t(o)-</td>
-<td class="left">t(o)-</td>
+<td class="org-left">sociatif</td>
+<td class="org-left">te-</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">to-</td>
+<td class="org-left">t(o)-</td>
+<td class="org-left">t(o)-</td>
 </tr>
 
 <tr>
-<td class="left">subessif</td>
-<td class="left">ňe-</td>
-<td class="left">ňo-</td>
-<td class="left">nw(a)-</td>
-<td class="left">n(wa)-</td>
-<td class="left">n(a)-</td>
-<td class="left">na-</td>
+<td class="org-left">subessif</td>
+<td class="org-left">ňe-</td>
+<td class="org-left">ňo-</td>
+<td class="org-left">nw(a)-</td>
+<td class="org-left">n(wa)-</td>
+<td class="org-left">n(a)-</td>
+<td class="org-left">na-</td>
 </tr>
 
 <tr>
-<td class="left">sublatif</td>
-<td class="left">-(i)ţ</td>
-<td class="left">-(i)ßţ</td>
-<td class="left">-(i)šţ</td>
-<td class="left">-(i)ţ</td>
-<td class="left">-(r)iţ</td>
-<td class="left">-iţ</td>
+<td class="org-left">sublatif</td>
+<td class="org-left">-(i)ţ</td>
+<td class="org-left">-(i)ßţ</td>
+<td class="org-left">-(i)šţ</td>
+<td class="org-left">-(i)ţ</td>
+<td class="org-left">-(r)iţ</td>
+<td class="org-left">-iţ</td>
 </tr>
 
 <tr>
-<td class="left">superessif</td>
-<td class="left">tß(ao)-</td>
-<td class="left">tß(ae)-</td>
-<td class="left">tßa-</td>
-<td class="left">ßta-</td>
-<td class="left">ßt-(e)</td>
-<td class="left">tß(a)-</td>
+<td class="org-left">superessif</td>
+<td class="org-left">tß(ao)-</td>
+<td class="org-left">tß(ae)-</td>
+<td class="org-left">tßa-</td>
+<td class="org-left">ßta-</td>
+<td class="org-left">ßt-(e)</td>
+<td class="org-left">tß(a)-</td>
 </tr>
 
 <tr>
-<td class="left">temporel</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(e)ňni</td>
-<td class="left">-(i)ňni</td>
-<td class="left">-(y)ňni</td>
-<td class="left">-iňni</td>
+<td class="org-left">temporel</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(e)ňni</td>
+<td class="org-left">-(i)ňni</td>
+<td class="org-left">-(y)ňni</td>
+<td class="org-left">-iňni</td>
 </tr>
 
 <tr>
-<td class="left">terminatif</td>
-<td class="left">-(ae)n</td>
-<td class="left">-(ae)n</td>
-<td class="left">-(ae)m</td>
-<td class="left">-ae</td>
-<td class="left">-(ai)n</td>
-<td class="left">-(ai)ň</td>
+<td class="org-left">terminatif</td>
+<td class="org-left">-(ae)n</td>
+<td class="org-left">-(ae)n</td>
+<td class="org-left">-(ae)m</td>
+<td class="org-left">-ae</td>
+<td class="org-left">-(ai)n</td>
+<td class="org-left">-(ai)ň</td>
 </tr>
 
 <tr>
-<td class="left">translatif</td>
-<td class="left">-(i)n</td>
-<td class="left">-(i)n</td>
-<td class="left">-in</td>
-<td class="left">-iň</td>
-<td class="left">-iň</td>
-<td class="left">-iň</td>
+<td class="org-left">translatif</td>
+<td class="org-left">-(i)n</td>
+<td class="org-left">-(i)n</td>
+<td class="org-left">-in</td>
+<td class="org-left">-iň</td>
+<td class="org-left">-iň</td>
+<td class="org-left">-iň</td>
 </tr>
 
 <tr>
-<td class="left">vocatif</td>
-<td class="left">-wa</td>
-<td class="left">-wa</td>
-<td class="left">-wein</td>
-<td class="left">-wa</td>
-<td class="left">-wa</td>
-<td class="left">-weŕ</td>
+<td class="org-left">vocatif</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-wein</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-wa</td>
+<td class="org-left">-weŕ</td>
 </tr>
 </tbody>
 </table>
+<p>
+
+</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orge9487b5" class="outline-2">
-<h2 id="orge9487b5"><span class="section-number-2">4</span> <span class="todo TODO">TODO</span> Syntaxe</h2>
+<div id="outline-container-orgbc48bdd" class="outline-2">
+<h2 id="orgbc48bdd"><span class="section-number-2">4</span> <span class="todo TODO">TODO</span> Syntaxe</h2>
 </div>
-<div id="outline-container-org393bd2f" class="outline-2">
-<h2 id="org393bd2f"><span class="section-number-2">5</span> <span class="todo TODO">TODO</span> Champs sémantiques et pragmatismes</h2>
+<div id="outline-container-org2b0c71e" class="outline-2">
+<h2 id="org2b0c71e"><span class="section-number-2">5</span> <span class="todo TODO">TODO</span> Champs sémantiques et pragmatismes</h2>
 </div>
-<div id="outline-container-orga1d7b53" class="outline-2">
-<h2 id="orga1d7b53"><span class="section-number-2">6</span> <span class="todo TODO">TODO</span> Système d’écriture</h2>
+<div id="outline-container-org96b2b5e" class="outline-2">
+<h2 id="org96b2b5e"><span class="section-number-2">6</span> <span class="todo TODO">TODO</span> Système d’écriture</h2>
 </div>
-<div id="outline-container-orgce200ca" class="outline-2">
-<h2 id="orgce200ca"><span class="section-number-2">7</span> <span class="todo TODO">TODO</span> Exemples</h2>
+<div id="outline-container-orgb4d9f86" class="outline-2">
+<h2 id="orgb4d9f86"><span class="section-number-2">7</span> <span class="todo TODO">TODO</span> Exemples</h2>
 </div>
-<div id="outline-container-orgc90d671" class="outline-2">
-<h2 id="orgc90d671"><span class="section-number-2">8</span> Glossaire</h2>
+<div id="outline-container-orgedfe776" class="outline-2">
+<h2 id="orgedfe776"><span class="section-number-2">8</span> Glossaire</h2>
 <div class="outline-text-2" id="text-8">
 <dl class="org-dl">
-<dt> clef </dt><dd> /prononciation/ <i>élément de langage.</i> Définition(s)
-</dd>
+<dt>clef</dt><dd> /prononciation/ <i>élément de langage.</i> Définition(s)</dd>
 </dl>
 <p>
 Définition
@@ -3509,379 +3546,326 @@ Définition
 Abréviations :
 </p>
 <ul class="org-ul">
-<li>1 : genre divin
-</li>
-<li>2 : genre mental
-</li>
-<li>3 : genre liquide
-</li>
-<li>4 : genre masculin
-</li>
-<li>5 : genre féminin
-</li>
-<li>6 : genre neutre
-</li>
-<li>7 : genre animal
-</li>
-<li>8 : genre végétal
-</li>
-<li>9 : genre inanimé
-</li>
-<li>adj. : adjectif
-</li>
-<li>ind. : indénombrable
-</li>
-<li>n. : nom
-</li>
-<li>pron. : pronom
-</li>
-<li>vi. : verbe intransitif
-</li>
-<li>vt : verbe transitif
-</li>
+<li>1 : genre divin</li>
+<li>2 : genre mental</li>
+<li>3 : genre liquide</li>
+<li>4 : genre masculin</li>
+<li>5 : genre féminin</li>
+<li>6 : genre neutre</li>
+<li>7 : genre animal</li>
+<li>8 : genre végétal</li>
+<li>9 : genre inanimé</li>
+<li>adj. : adjectif</li>
+<li>ind. : indénombrable</li>
+<li>n. : nom</li>
+<li>pron. : pronom</li>
+<li>vi. : verbe intransitif</li>
+<li>vt : verbe transitif</li>
 </ul>
 </div>
 
-<div id="outline-container-orgfda8e86" class="outline-3">
-<h3 id="orgfda8e86"><span class="section-number-3">8.1</span> Actions physiques</h3>
+<div id="outline-container-orge67cbfc" class="outline-3">
+<h3 id="orge67cbfc"><span class="section-number-3">8.1</span> Actions physiques</h3>
 <div class="outline-text-3" id="text-8-1">
 <dl class="org-dl">
-<dt> kĺnyþ </dt><dd> /kl̩nyːθ/ (v.) casser, briser
-</dd>
+<dt>kĺnyþ</dt><dd> /kl̩nyːθ/ (v.) casser, briser</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org1b4fac4" class="outline-3">
-<h3 id="org1b4fac4"><span class="section-number-3">8.2</span> Amour</h3>
+<div id="outline-container-orge41da1b" class="outline-3">
+<h3 id="orge41da1b"><span class="section-number-3">8.2</span> Amour</h3>
 </div>
-<div id="outline-container-org68115d7" class="outline-3">
-<h3 id="org68115d7"><span class="section-number-3">8.3</span> Animaux</h3>
+<div id="outline-container-org4a3210d" class="outline-3">
+<h3 id="org4a3210d"><span class="section-number-3">8.3</span> Animaux</h3>
 <div class="outline-text-3" id="text-8-3">
 <dl class="org-dl">
-<dt> nael </dt><dd> /nael/ (n.7) cheval
-</dd>
+<dt>nael</dt><dd> /nael/ (n.7) cheval</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org78da5ac" class="outline-3">
-<h3 id="org78da5ac"><span class="section-number-3">8.4</span> Art</h3>
+<div id="outline-container-org7571072" class="outline-3">
+<h3 id="org7571072"><span class="section-number-3">8.4</span> Art</h3>
 <div class="outline-text-3" id="text-8-4">
 <dl class="org-dl">
-<dt> raòm </dt><dd> /rãø̃/ (n.9) livre
-</dd>
+<dt>raòm</dt><dd> /rãø̃/ (n.9) livre</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org25aafb1" class="outline-3">
-<h3 id="org25aafb1"><span class="section-number-3">8.5</span> Astronomie</h3>
+<div id="outline-container-org77e488d" class="outline-3">
+<h3 id="org77e488d"><span class="section-number-3">8.5</span> Astronomie</h3>
 <div class="outline-text-3" id="text-8-5">
 <dl class="org-dl">
-<dt> jaom </dt><dd> /jãõ/ (n.1) astre
-</dd>
+<dt>jaom</dt><dd> /jãõ/ (n.1) astre</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org87dbee1" class="outline-3">
-<h3 id="org87dbee1"><span class="section-number-3">8.6</span> Bâtiments</h3>
+<div id="outline-container-org0b5809f" class="outline-3">
+<h3 id="org0b5809f"><span class="section-number-3">8.6</span> Bâtiments</h3>
 <div class="outline-text-3" id="text-8-6">
 <dl class="org-dl">
-<dt> mén </dt><dd> /mɛ̃/ (n.9) maison (bâtiment)
-</dd>
+<dt>mén</dt><dd> /mɛ̃/ (n.9) maison (bâtiment)</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org3c5d0c6" class="outline-3">
-<h3 id="org3c5d0c6"><span class="section-number-3">8.7</span> Commerce</h3>
+<div id="outline-container-orgd1a5b40" class="outline-3">
+<h3 id="orgd1a5b40"><span class="section-number-3">8.7</span> Commerce</h3>
 </div>
-<div id="outline-container-org3c7e478" class="outline-3">
-<h3 id="org3c7e478"><span class="section-number-3">8.8</span> Conflits</h3>
+<div id="outline-container-org472927d" class="outline-3">
+<h3 id="org472927d"><span class="section-number-3">8.8</span> Conflits</h3>
 </div>
-<div id="outline-container-orgca90839" class="outline-3">
-<h3 id="orgca90839"><span class="section-number-3">8.9</span> Conteneurs</h3>
+<div id="outline-container-orgd349b05" class="outline-3">
+<h3 id="orgd349b05"><span class="section-number-3">8.9</span> Conteneurs</h3>
 </div>
-<div id="outline-container-orgcbb4185" class="outline-3">
-<h3 id="orgcbb4185"><span class="section-number-3">8.10</span> Corps</h3>
+<div id="outline-container-org74fb079" class="outline-3">
+<h3 id="org74fb079"><span class="section-number-3">8.10</span> Corps</h3>
 <div class="outline-text-3" id="text-8-10">
 <dl class="org-dl">
-<dt> gar </dt><dd> /ɡaːr/ (n.6) tête
-</dd>
-<dt> pńt </dt><dd> /pn̩t/ (n.6) main
-</dd>
-<dt> wan </dt><dd> /wãː/ (n.6) pied
-</dd>
+<dt>gar</dt><dd> /ɡaːr/ (n.6) tête</dd>
+<dt>pńt</dt><dd> /pn̩t/ (n.6) main</dd>
+<dt>wan</dt><dd> /wãː/ (n.6) pied</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org2b3532f" class="outline-3">
-<h3 id="org2b3532f"><span class="section-number-3">8.11</span> Couleurs</h3>
+<div id="outline-container-org9edf7d8" class="outline-3">
+<h3 id="org9edf7d8"><span class="section-number-3">8.11</span> Couleurs</h3>
 <div class="outline-text-3" id="text-8-11">
 <dl class="org-dl">
-<dt> ðúr </dt><dd> /ðʊr/ (adj.) argent (couleur)
-</dd>
+<dt>ðúr</dt><dd> /ðʊr/ (adj.) argent (couleur)</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orgc450935" class="outline-3">
-<h3 id="orgc450935"><span class="section-number-3">8.12</span> Dimensions</h3>
+<div id="outline-container-org52e1de9" class="outline-3">
+<h3 id="org52e1de9"><span class="section-number-3">8.12</span> Dimensions</h3>
 </div>
-<div id="outline-container-orgb1add08" class="outline-3">
-<h3 id="orgb1add08"><span class="section-number-3">8.13</span> Direction</h3>
+<div id="outline-container-orgaaf9714" class="outline-3">
+<h3 id="orgaaf9714"><span class="section-number-3">8.13</span> Direction</h3>
 <div class="outline-text-3" id="text-8-13">
 <dl class="org-dl">
-<dt> ňam </dt><dd> /ŋãː/ (n.2) ouest
-</dd>
-<dt> watßúd </dt><dd> /waːtʃʊd/ (n.2) nord
-</dd>
-<dt> wémšal </dt><dd> /wɛ̃çaːl/ (n.2) est (direction)
-</dd>
-<dt> zelðeg </dt><dd> /zeːlðeːɡ/ (n.2) sud
-</dd>
+<dt>ňam</dt><dd> /ŋãː/ (n.2) ouest</dd>
+<dt>watßúd</dt><dd> /waːtʃʊd/ (n.2) nord</dd>
+<dt>wémšal</dt><dd> /wɛ̃çaːl/ (n.2) est (direction)</dd>
+<dt>zelðeg</dt><dd> /zeːlðeːɡ/ (n.2) sud</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org8dec7e3" class="outline-3">
-<h3 id="org8dec7e3"><span class="section-number-3">8.14</span> Eau</h3>
+<div id="outline-container-orgedd5a84" class="outline-3">
+<h3 id="orgedd5a84"><span class="section-number-3">8.14</span> Eau</h3>
 </div>
-<div id="outline-container-org9d56d48" class="outline-3">
-<h3 id="org9d56d48"><span class="section-number-3">8.15</span> Effort</h3>
+<div id="outline-container-org34f678e" class="outline-3">
+<h3 id="org34f678e"><span class="section-number-3">8.15</span> Effort</h3>
 </div>
-<div id="outline-container-org4b14022" class="outline-3">
-<h3 id="org4b14022"><span class="section-number-3">8.16</span> Éléments</h3>
+<div id="outline-container-orgbd9d6f9" class="outline-3">
+<h3 id="orgbd9d6f9"><span class="section-number-3">8.16</span> Éléments</h3>
 </div>
-<div id="outline-container-org7f3d741" class="outline-3">
-<h3 id="org7f3d741"><span class="section-number-3">8.17</span> Émotions</h3>
+<div id="outline-container-orgc60cf6e" class="outline-3">
+<h3 id="orgc60cf6e"><span class="section-number-3">8.17</span> Émotions</h3>
 <div class="outline-text-3" id="text-8-17">
 <dl class="org-dl">
-<dt> feŗan </dt><dd> /feːʁãː/ (n.2) tristesse
-</dd>
+<dt>feŗan</dt><dd> /feːʁãː/ (n.2) tristesse</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org5a206be" class="outline-3">
-<h3 id="org5a206be"><span class="section-number-3">8.18</span> Évaluation</h3>
+<div id="outline-container-org8a6760c" class="outline-3">
+<h3 id="org8a6760c"><span class="section-number-3">8.18</span> Évaluation</h3>
 <div class="outline-text-3" id="text-8-18">
 <dl class="org-dl">
-<dt> ’eßtef </dt><dd> /ʔeːʃteːf/ (adj.) mauvais
-</dd>
+<dt>’eßtef</dt><dd> /ʔeːʃteːf/ (adj.) mauvais</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org734e26c" class="outline-3">
-<h3 id="org734e26c"><span class="section-number-3">8.19</span> Événements</h3>
+<div id="outline-container-orgc314e41" class="outline-3">
+<h3 id="orgc314e41"><span class="section-number-3">8.19</span> Événements</h3>
 <div class="outline-text-3" id="text-8-19">
 <dl class="org-dl">
-<dt> gén </dt><dd> /ɡɛ̃/ (n.2) acte, action
-</dd>
+<dt>gén</dt><dd> /ɡɛ̃/ (n.2) acte, action</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orga65c9c5" class="outline-3">
-<h3 id="orga65c9c5"><span class="section-number-3">8.20</span> Existence</h3>
+<div id="outline-container-org14be482" class="outline-3">
+<h3 id="org14be482"><span class="section-number-3">8.20</span> Existence</h3>
 </div>
-<div id="outline-container-orgd746cc6" class="outline-3">
-<h3 id="orgd746cc6"><span class="section-number-3">8.21</span> Famille</h3>
+<div id="outline-container-orgdaf7017" class="outline-3">
+<h3 id="orgdaf7017"><span class="section-number-3">8.21</span> Famille</h3>
 <div class="outline-text-3" id="text-8-21">
 <dl class="org-dl">
-<dt> ánám </dt><dd> /ɑ̃nɑ̃/ (n.6) parent
-</dd>
-<dt> mánám </dt><dd> /mɑ̃nɑ̃/ (n.5) mère, maman
-</dd>
-<dt> pánám </dt><dd> /pɑ̃nɑ̃/ (n.4) père, papa
-</dd>
+<dt>ánám</dt><dd> /ɑ̃nɑ̃/ (n.6) parent</dd>
+<dt>mánám</dt><dd> /mɑ̃nɑ̃/ (n.5) mère, maman</dd>
+<dt>pánám</dt><dd> /pɑ̃nɑ̃/ (n.4) père, papa</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org18fbd40" class="outline-3">
-<h3 id="org18fbd40"><span class="section-number-3">8.22</span> Forme</h3>
+<div id="outline-container-org2c315e6" class="outline-3">
+<h3 id="org2c315e6"><span class="section-number-3">8.22</span> Forme</h3>
 </div>
-<div id="outline-container-org788c071" class="outline-3">
-<h3 id="org788c071"><span class="section-number-3">8.23</span> Gouvernement</h3>
+<div id="outline-container-orgc82b09b" class="outline-3">
+<h3 id="orgc82b09b"><span class="section-number-3">8.23</span> Gouvernement</h3>
 </div>
-<div id="outline-container-org12090b6" class="outline-3">
-<h3 id="org12090b6"><span class="section-number-3">8.24</span> Grammaire</h3>
+<div id="outline-container-orgd205952" class="outline-3">
+<h3 id="orgd205952"><span class="section-number-3">8.24</span> Grammaire</h3>
 <div class="outline-text-3" id="text-8-24">
 <dl class="org-dl">
-<dt> pöb (pron. interrogatif) </dt><dd>quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
-</dd>
+<dt>pöb (pron. interrogatif)</dt><dd>quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.</dd>
 </dl>
 </div>
-<div id="outline-container-orgb4edb97" class="outline-4">
-<h4 id="orgb4edb97"><span class="section-number-4">8.24.1</span> Pronoms interrogatifs</h4>
+<div id="outline-container-orgd6cb610" class="outline-4">
+<h4 id="orgd6cb610"><span class="section-number-4">8.24.1</span> Pronoms interrogatifs</h4>
 <div class="outline-text-4" id="text-8-24-1">
 </div>
 <ol class="org-ol">
-<li><a id="org1041538"></a>Temps<br />
+<li><a id="org8603a68"></a>Temps<br />
 <div class="outline-text-5" id="text-8-24-1-1">
 <dl class="org-dl">
-<dt> pejb </dt><dd> /pejb/ (pron. interr. essif) quand, à quel moment. <i>pöb</i> décliné à l’essif.
-</dd>
-<dt> pöémp </dt><dd> /pœ̃ɛ̃p/ (pron. interrogatif limitatif) jusqu’à quand. <i>pöb</i> décliné au limitatif.
-</dd>
-<dt> pövwó </dt><dd> /pœvwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. <i>pöb</i> décliné à l’accusatif.
-</dd>
+<dt>pejb</dt><dd> /pejb/ (pron. interr. essif) quand, à quel moment. <i>pöb</i> décliné à l’essif.</dd>
+<dt>pöémp</dt><dd> /pœ̃ɛ̃p/ (pron. interrogatif limitatif) jusqu’à quand. <i>pöb</i> décliné au limitatif.</dd>
+<dt>pövwó</dt><dd> /pœvwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. <i>pöb</i> décliné à l’accusatif.</dd>
 </dl>
 </div>
-</li></ol>
+</li>
+</ol>
 </div>
 </div>
 
-<div id="outline-container-org3e3ca57" class="outline-3">
-<h3 id="org3e3ca57"><span class="section-number-3">8.25</span> Guerre</h3>
+<div id="outline-container-org1a06285" class="outline-3">
+<h3 id="org1a06285"><span class="section-number-3">8.25</span> Guerre</h3>
 <div class="outline-text-3" id="text-8-25">
 <dl class="org-dl">
-<dt> wóúl </dt><dd> /wɔʊl/ (n.2) attaque
-</dd>
+<dt>wóúl</dt><dd> /wɔʊl/ (n.2) attaque</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org5ad8c27" class="outline-3">
-<h3 id="org5ad8c27"><span class="section-number-3">8.26</span> Légal</h3>
+<div id="outline-container-org71a3591" class="outline-3">
+<h3 id="org71a3591"><span class="section-number-3">8.26</span> Légal</h3>
 </div>
-<div id="outline-container-orgc018827" class="outline-3">
-<h3 id="orgc018827"><span class="section-number-3">8.27</span> Lieux</h3>
+<div id="outline-container-orge837c46" class="outline-3">
+<h3 id="orge837c46"><span class="section-number-3">8.27</span> Lieux</h3>
 </div>
-<div id="outline-container-org3b34317" class="outline-3">
-<h3 id="org3b34317"><span class="section-number-3">8.28</span> Lumière</h3>
+<div id="outline-container-org08ef203" class="outline-3">
+<h3 id="org08ef203"><span class="section-number-3">8.28</span> Lumière</h3>
 </div>
-<div id="outline-container-orgadf1bd5" class="outline-3">
-<h3 id="orgadf1bd5"><span class="section-number-3">8.29</span> Mental</h3>
+<div id="outline-container-org10ddb14" class="outline-3">
+<h3 id="org10ddb14"><span class="section-number-3">8.29</span> Mental</h3>
 </div>
-<div id="outline-container-orge76606f" class="outline-3">
-<h3 id="orge76606f"><span class="section-number-3">8.30</span> Mesures</h3>
+<div id="outline-container-org85cdfd9" class="outline-3">
+<h3 id="org85cdfd9"><span class="section-number-3">8.30</span> Mesures</h3>
 </div>
-<div id="outline-container-org0031d06" class="outline-3">
-<h3 id="org0031d06"><span class="section-number-3">8.31</span> Métaux</h3>
+<div id="outline-container-org555f023" class="outline-3">
+<h3 id="org555f023"><span class="section-number-3">8.31</span> Métaux</h3>
 </div>
-<div id="outline-container-org2c95fb6" class="outline-3">
-<h3 id="org2c95fb6"><span class="section-number-3">8.32</span> Mouvement</h3>
+<div id="outline-container-orgceb91b8" class="outline-3">
+<h3 id="orgceb91b8"><span class="section-number-3">8.32</span> Mouvement</h3>
 <div class="outline-text-3" id="text-8-32">
 <dl class="org-dl">
-<dt> jĺšek </dt><dd> /jl̩çeːk/ (n.9) chemin, voie
-</dd>
-<dt> wyhakòm </dt><dd> /wyːhaːkø̃/ (vt.) quitter, partir
-</dd>
+<dt>jĺšek</dt><dd> /jl̩çeːk/ (n.9) chemin, voie</dd>
+<dt>wyhakòm</dt><dd> /wyːhaːkø̃/ (vt.) quitter, partir</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org4df7a69" class="outline-3">
-<h3 id="org4df7a69"><span class="section-number-3">8.33</span> Nature</h3>
+<div id="outline-container-orgf3b37a0" class="outline-3">
+<h3 id="orgf3b37a0"><span class="section-number-3">8.33</span> Nature</h3>
 </div>
-<div id="outline-container-org44e4fb7" class="outline-3">
-<h3 id="org44e4fb7"><span class="section-number-3">8.34</span> Nombres</h3>
+<div id="outline-container-org4a34ce8" class="outline-3">
+<h3 id="org4a34ce8"><span class="section-number-3">8.34</span> Nombres</h3>
 </div>
-<div id="outline-container-org20dd4d5" class="outline-3">
-<h3 id="org20dd4d5"><span class="section-number-3">8.35</span> Nourriture</h3>
+<div id="outline-container-orgbf5bda1" class="outline-3">
+<h3 id="orgbf5bda1"><span class="section-number-3">8.35</span> Nourriture</h3>
 </div>
-<div id="outline-container-org04ed640" class="outline-3">
-<h3 id="org04ed640"><span class="section-number-3">8.36</span> Outils</h3>
+<div id="outline-container-org204bf77" class="outline-3">
+<h3 id="org204bf77"><span class="section-number-3">8.36</span> Outils</h3>
 </div>
-<div id="outline-container-orgcde6ca9" class="outline-3">
-<h3 id="orgcde6ca9"><span class="section-number-3">8.37</span> Parole</h3>
+<div id="outline-container-org4d5d284" class="outline-3">
+<h3 id="org4d5d284"><span class="section-number-3">8.37</span> Parole</h3>
 <div class="outline-text-3" id="text-8-37">
 <dl class="org-dl">
-<dt> vár </dt><dd> /vɑr/ (n.2) langue (linguistique), langage, parole
-</dd>
+<dt>vár</dt><dd> /vɑr/ (n.2) langue (linguistique), langage, parole</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org275191b" class="outline-3">
-<h3 id="org275191b"><span class="section-number-3">8.38</span> Péchés</h3>
+<div id="outline-container-org9657c38" class="outline-3">
+<h3 id="org9657c38"><span class="section-number-3">8.38</span> Péchés</h3>
 </div>
-<div id="outline-container-org0965ec6" class="outline-3">
-<h3 id="org0965ec6"><span class="section-number-3">8.39</span> Physique</h3>
+<div id="outline-container-org415bb06" class="outline-3">
+<h3 id="org415bb06"><span class="section-number-3">8.39</span> Physique</h3>
 </div>
-<div id="outline-container-org21f97f8" class="outline-3">
-<h3 id="org21f97f8"><span class="section-number-3">8.40</span> Possession</h3>
+<div id="outline-container-org1f05f59" class="outline-3">
+<h3 id="org1f05f59"><span class="section-number-3">8.40</span> Possession</h3>
 </div>
-<div id="outline-container-orgeac693c" class="outline-3">
-<h3 id="orgeac693c"><span class="section-number-3">8.41</span> Religion</h3>
+<div id="outline-container-orgc89fa91" class="outline-3">
+<h3 id="orgc89fa91"><span class="section-number-3">8.41</span> Religion</h3>
 <div class="outline-text-3" id="text-8-41">
 <dl class="org-dl">
-<dt> hjalp </dt><dd> /hjaːlp/ (n.1) dieu céleste
-</dd>
-<dt> melex </dt><dd> /meːleːχ/ (n.1) dieu terrestre
-</dd>
+<dt>hjalp</dt><dd> /hjaːlp/ (n.1) dieu céleste</dd>
+<dt>melex</dt><dd> /meːleːχ/ (n.1) dieu terrestre</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orge8af818" class="outline-3">
-<h3 id="orge8af818"><span class="section-number-3">8.42</span> Savoir</h3>
+<div id="outline-container-org09adfe8" class="outline-3">
+<h3 id="org09adfe8"><span class="section-number-3">8.42</span> Savoir</h3>
 <div class="outline-text-3" id="text-8-42">
 <dl class="org-dl">
-<dt> bóljòluþ </dt><dd> /bɔljøːluːθ/ (vt.) savoir
-</dd>
-<dt> wanmjöd </dt><dd> /wãːmjœd/ savoir, connaissance
-</dd>
+<dt>bóljòluþ</dt><dd> /bɔljøːluːθ/ (vt.) savoir</dd>
+<dt>wanmjöd</dt><dd> /wãːmjœd/ savoir, connaissance</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orga27280d" class="outline-3">
-<h3 id="orga27280d"><span class="section-number-3">8.43</span> Sensations</h3>
+<div id="outline-container-org50b8b7b" class="outline-3">
+<h3 id="org50b8b7b"><span class="section-number-3">8.43</span> Sensations</h3>
 <div class="outline-text-3" id="text-8-43">
 <dl class="org-dl">
-<dt> feŗtef </dt><dd> /feːʁeːf/ (n.2) douleur mentale, dépression. Étymologie : <i>feŗan</i> + <i>’eßtef</i>, une <i>tristesse mauvaise</i>
-</dd>
-<dt> núótöm </dt><dd> /nʊɔtœ̃/ (vt.) voir
-</dd>
+<dt>feŗtef</dt><dd> /feːʁeːf/ (n.2) douleur mentale, dépression. Étymologie : <i>feŗan</i> + <i>’eßtef</i>, une <i>tristesse mauvaise</i></dd>
+<dt>núótöm</dt><dd> /nʊɔtœ̃/ (vt.) voir</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org2c5b4c7" class="outline-3">
-<h3 id="org2c5b4c7"><span class="section-number-3">8.44</span> Sexe</h3>
+<div id="outline-container-orgf5b9899" class="outline-3">
+<h3 id="orgf5b9899"><span class="section-number-3">8.44</span> Sexe</h3>
 </div>
-<div id="outline-container-orgb21addf" class="outline-3">
-<h3 id="orgb21addf"><span class="section-number-3">8.45</span> Société</h3>
+<div id="outline-container-org2c85f2c" class="outline-3">
+<h3 id="org2c85f2c"><span class="section-number-3">8.45</span> Société</h3>
 </div>
-<div id="outline-container-org7e83583" class="outline-3">
-<h3 id="org7e83583"><span class="section-number-3">8.46</span> Substances</h3>
+<div id="outline-container-org6b66b09" class="outline-3">
+<h3 id="org6b66b09"><span class="section-number-3">8.46</span> Substances</h3>
 <div class="outline-text-3" id="text-8-46">
 <dl class="org-dl">
-<dt> lúb </dt><dd> /lʊb/ (n.9) air
-</dd>
+<dt>lúb</dt><dd> /lʊb/ (n.9) air</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org18b2cb1" class="outline-3">
-<h3 id="org18b2cb1"><span class="section-number-3">8.47</span> Temps</h3>
+<div id="outline-container-orgdf3b4e1" class="outline-3">
+<h3 id="orgdf3b4e1"><span class="section-number-3">8.47</span> Temps</h3>
 <div class="outline-text-3" id="text-8-47">
 <dl class="org-dl">
-<dt> bém </dt><dd> /bɛ̃/ (n.2) jour (cycle temporel)
-</dd>
-<dt> heol </dt><dd> /heol/ (n.2) heure
-</dd>
-<dt> łail </dt><dd> /ɬail/ (n.2) année
-</dd>
-<dt> ţealnat </dt><dd> /ʈealnaːt/ (adj.) précision temporelle, précis.
-</dd>
+<dt>bém</dt><dd> /bɛ̃/ (n.2) jour (cycle temporel)</dd>
+<dt>heol</dt><dd> /heol/ (n.2) heure</dd>
+<dt>łail</dt><dd> /ɬail/ (n.2) année</dd>
+<dt>ţealnat</dt><dd> /ʈealnaːt/ (adj.) précision temporelle, précis.</dd>
 </dl>
 </div>
-<div id="outline-container-org8d95d4f" class="outline-4">
-<h4 id="org8d95d4f"><span class="section-number-4">8.47.1</span> Jours de la semaine</h4>
+<div id="outline-container-orgccab7a6" class="outline-4">
+<h4 id="orgccab7a6"><span class="section-number-4">8.47.1</span> Jours de la semaine</h4>
 <div class="outline-text-4" id="text-8-47-1">
 <dl class="org-dl">
-<dt> ðúbém </dt><dd> /ðʊbɛ̃/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : <i>ðúr</i> + <i>bém</i>
-</dd>
+<dt>ðúbém</dt><dd> /ðʊbɛ̃/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : <i>ðúr</i> + <i>bém</i></dd>
 </dl>
 </div>
 </div>
 </div>
-<div id="outline-container-orgaae0db0" class="outline-3">
-<h3 id="orgaae0db0"><span class="section-number-3">8.48</span> Travail</h3>
+<div id="outline-container-org35fc00d" class="outline-3">
+<h3 id="org35fc00d"><span class="section-number-3">8.48</span> Travail</h3>
 </div>
-<div id="outline-container-orgff041de" class="outline-3">
-<h3 id="orgff041de"><span class="section-number-3">8.49</span> Végétaux</h3>
+<div id="outline-container-org69432a5" class="outline-3">
+<h3 id="org69432a5"><span class="section-number-3">8.49</span> Végétaux</h3>
 </div>
-<div id="outline-container-orgc60a226" class="outline-3">
-<h3 id="orgc60a226"><span class="section-number-3">8.50</span> Vêtements</h3>
+<div id="outline-container-orgbe92501" class="outline-3">
+<h3 id="orgbe92501"><span class="section-number-3">8.50</span> Vêtements</h3>
 </div>
-<div id="outline-container-orgaf9df36" class="outline-3">
-<h3 id="orgaf9df36"><span class="section-number-3">8.51</span> Vie et santé</h3>
+<div id="outline-container-org1601976" class="outline-3">
+<h3 id="org1601976"><span class="section-number-3">8.51</span> Vie et santé</h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Auteur: Lucien Cartier-Tilet</p>
-<p class="date">Created: 2018-06-19 mar. 17:25</p>
+<p class="date">Created: 2018-06-20 mer. 00:59</p>
 <p class="validation"></p>
 </div>
 </body>
