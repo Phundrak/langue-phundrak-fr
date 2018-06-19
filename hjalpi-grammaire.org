@@ -239,13 +239,13 @@ Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, ce
 *** Consonnes
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
 - La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
+  -  /f/ > [ɸ,β] / #_ V
   -  /f/ > [ɸ,β] / V_ V
-  -  /f/ > [ɸ,β] / V_ V
-  -  /v/ > [ɸ,β] / V_ V
+  -  /v/ > [ɸ,β] / #_ V
   -  /v/ > [ɸ,β] / V_ V
 - Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /í/ ou /j/ (notés ~I~), le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
-  -  /h/ > [ɦ] / V_ V
   -  /h/ > [ɦ] / #_ V
+  -  /h/ > [ɦ] / V_ V
   -  /h/ > [ç] / _I
   -  /h/ > [ç] / I_
   -  [ɦ] > [ʝ] / _I
