@@ -66,8 +66,8 @@ body{
     height:100%;
     /* margin:auto; */
     margin-left:300px;
-    /* max-width:1400px; */
-    overflow:auto;
+    max-width:900px;
+    overflow-x:auto !important;
     overflow-y: hidden;
     min-height:100%;
     padding:1.618em 3.236em;
@@ -231,12 +231,14 @@ dl dd{
 
 @media screen and (max-width: 768px){
     .tablet-hide{
-        display:none}
+        display:none
+    }
 }
 
 @media screen and (max-width: 480px){
     .mobile-hide{
-        display:none}
+        display:none
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -244,10 +246,12 @@ dl dd{
 
 @media screen and (max-width: 768px){
     #content{
-        margin-left:0}
+        margin-left:0
+    }
 
     #content #content{
-        padding:1.618em}
+        padding:1.618em
+    }
 
     #content.shift{
         position:fixed;
@@ -255,7 +259,8 @@ dl dd{
         left:85%;
         top:0;
         height:100%;
-        overflow:hidden}
+        overflow:hidden
+    }
 }
 
 @media screen and (min-width: 1400px){
@@ -1094,4 +1099,5 @@ h2.footnotes{
     /* padding: 10px 20px 10px 60px; */
     padding: 9px 12px;
     margin-bottom: 24px;
-    font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+    font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
+}

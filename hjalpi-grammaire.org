@@ -8,6 +8,12 @@ Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. 
 Cette langue sera également utilisée pour créer d’autres langues qui auront évolué depuis la langue divine en des langues (me paraissant) beaucoup plus simples afin de créer des langues pour les mortels.
 
 * Phonologie
+Dans cette ouvrage, j’utiliserai principalement la translittération des mots, expressions et phrases du Hjalpi’ pour illustrer mes propos, exemples et explications de la grammaire de cette langue. Toutefois, il est important de savoir comment correctement prononcer le Hjalpi’, et pour cela j’utiliserai l’alphabet phonétique international afin de retranscrire la prononciation correcte du Hjalpi’. Il est important de relever les deux styles différents de transcription phonétique qui seront utilisés dans cet ouvrage :
+-  /transcription large/ :: ce type de transcription ne prend pas en compte les divers cas d’allophonie présents en Hjalpi’ et retranscrit individuellement chaque symbole ayant une signification phonétique dans son orthographe translittérée.
+- [transcription rapprochée] :: ce style de transcription prend en compte les changements de prononciation dû aux modifications entre phonèmes. Cela représente donc la prononciation réelle des locuteurs, qui n’est pas représentée de manière exacte par la translittération du Hjalpi’.
+
+Généralement, j’utiliserai la transcription large lorsque j’aurai besoin de transcrire de façon phonétique des éléments de langage, à moins que je souhaite que vous, le lecteur, portiez votre attention sur un élément particulier de la prononciation de la langue divine, auquel cas j’userai de la transcription rapprochée, comme lors de la discussion sur l’[[allophonie][allophonie]]. La prononciation des mots du [[glossaire][glossaire]] sera notée en transcription large.
+
 ** <<phon-voyelles>>Voyelles
 Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans [[phon-diphtongues][Diphtongues]]). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 
@@ -37,7 +43,7 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/  /θrãː/ n’aura pas la même signification que /þrán/  /θrɑ̃/ (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
+On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θrãː] n’aura pas la même signification que /þrán/  [θrɑ̃] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
 *** Voyelles courtes
 
@@ -97,58 +103,46 @@ Le « ĺ » est la consonne « l » (la même que le « l » frança
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
 
 #+CAPTION: Consonnes du Hjalpi’
-| / | >    | >   | >   | >   | >   | >   | >   | >   | >   | >   | [ |
-|   |      | b   | ld  | d   | a   | pa  | r   | p   | v   | uv  | g |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | pl   | p b |     |     | t d |     | ţ ḑ |     | k g |     | ' |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | n    | m   |     |     | n   |     |     |     | ň   |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | t    |     |     |     | r   |     |     |     |     |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | afr  |     | f v | þ ð | s z | ß ź |     | š ž |     | x ŗ | h |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | lafr |     |     |     | ł   |     |     |     |     |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | apr  |     |     |     | ŕ   |     |     | j   |     |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | lapr |     |     |     | l   |     |     |     |     |     |   |
-|---+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+---|
-|   | sv   | w   |     |     |     |     |     |     |     |     |   |
+| / | >             | >      | >          | >     | >    | >         | >      | >      | >       | >        | >       |
+|   |               | bilab. | lab.-dent. | dent. | alv. | pal.-alv. | rétro. | palat. | vélaire | uvulaire | glottal |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | nasal         | m      |            |       | n    |           |        |        | ň       |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | occlusif      | p b    |            |       | t d  |           | ţ ḑ    |        | k g     |          | '       |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | fricatif      |        | f v        | þ ð   | s z  | ß ź       |        | š ž    |         | x ŗ      | h       |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | spirante      |        |            |       | ŕ    |           |        | j      |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | roulé         |        |            |       | r    |           |        |        |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | fric.-lat.    |        |            |       | ł    |           |        |        |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | spir.-lat.    |        |            |       | l    |           |        |        |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | semi-voyelles | w      |            |       |      |           |        |        |         |          |         |
 
 #+CAPTION: Consonnes du Hjalpi’ (IPA)
-| / | >    | >    | >     | >    | >    | >   | >    | >    | >    | >     | > |
-|   |      | b    | ld    | d    | a    | pa  | r    | p    | v    | uv    | g |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | pl   | p  b |       |      | t  d |     | ʈ  ɖ |      | k  ɡ |       | ʔ |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | n    | m    |       |      | n    |     |      |      | ŋ    |       |   |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | t    |      |       |      | r    |     |      |      |      |       |   |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | afr  |      | f   v | θ  ð | s  z | ʃ ʒ |      | ç  ʝ |      | χ   ʁ | h |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | lafr |      |       |      | ɬ    |     |      |      |      |       |   |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | apr  |      |       |      | ɹ    |     |      | j    |      |       |   |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | lapr |      |       |      | l    |     |      |      |      |       |   |
-|---+------+------+-------+------+------+-----+------+------+------+-------+---|
-|   | sv   | w    |       |      |      |     |      |      |      |       |   |
-
-
-Abréviations :
-| b  | bilabial        |   | pl   | plosif             |
-| ld | labio-dental    |   | n    | nasal              |
-| d  | dental          |   | t    | trill              |
-| a  | alvéolaire      |   | sv   | semi-voyelle       |
-| pa | post-alvéolaire |   | afr  | fricatif           |
-| r  | rétroflexe      |   | lafr | fricatif latéral   |
-| v  | velaire         |   | apr  | aproximant         |
-| uv | uvulaire        |   | lapr | aproximant latéral |
-| g  | glottal         |   |      |                    |
+| / | >             | >      | >          | >     | >    | >         | >      | >      | >       | >        | >       |
+|   |               | bilab. | lab.-dent. | dent. | alv. | pal.-alv. | rétro. | palat. | vélaire | uvulaire | glottal |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | nasal         | m      |            |       | n    |           |        |        | ŋ       |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | occlusif      | p  b   |            |       | t  d |           | ʈ  ɖ   |        | k  ɡ    |          | ʔ       |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | fricatif      |        | f   v      | θ  ð  | s  z | ʃ ʒ       |        | ç  ʝ   |         | χ   ʁ    | h       |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | spirante      |        |            |       | ɹ    |           |        | j      |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | roulé         |        |            |       | r    |           |        |        |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | fric.-lat.    |        |            |       | ɬ    |           |        |        |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | spir.-lat.    |        |            |       | l    |           |        |        |         |          |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
+|   | semi-voyelles | w      |            |       |      |           |        |        |         |          |         |
 
 ** TODO Accentuation
 # Ajouter des exemples
@@ -225,44 +219,44 @@ En Hjalpi’, il existe de nombreuses règles sur la modification de prononciati
 *** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
 - La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
-  -  /n̩/ > [m̩] / _P
-  -  /n̩/ > [m̩] / P_
-  -  /n̩/ > [ɲ̩] / _I
-  -  /n̩/ > [ɲ̩] / I_
-  -  /n̩/ > [m̩ʲ] / P_ I
-  -  /n̩/ > [m̩ʲ] / I_ P
+ -  /n̩/ > [m̩] / _P
+ -  /n̩/ > [m̩] / P_
+ -  /n̩/ > [ɲ̩] / _I
+ -  /n̩/ > [ɲ̩] / I_
+ -  /n̩/ > [m̩ʲ] / P_ I
+ -  /n̩/ > [m̩ʲ] / I_ P
 - Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée /l̩ʲ/.
-  -  /l̩/ > [l̩ʲ] / _I
+ -  /l̩/ > [l̩ʲ] / _I
 - Une voyelle ou un groupe de voyelles placé devant une consonne nasale se nasalise.
-  - V > [+nasal] / _N
+ - V > [+nasal] / _N
 
 *** Consonnes
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
 - La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
-  -  /f/ > [ɸ,β] / #_ V
-  -  /f/ > [ɸ,β] / V_ V
-  -  /v/ > [ɸ,β] / #_ V
-  -  /v/ > [ɸ,β] / V_ V
+ -  /f/ > [ɸ] / #_ V
+ -  /f/ > [ɸ] / V_ V
+ -  /v/ > [β] / #_ V
+ -  /v/ > [β] / V_ V
 - Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /í/ ou /j/ (notés ~I~), le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
-  -  /h/ > [ɦ] / #_ V
-  -  /h/ > [ɦ] / V_ V
-  -  /h/ > [ç] / _I
-  -  /h/ > [ç] / I_
-  -  [ɦ] > [ʝ] / _I
-  -  [ɦ] > [ʝ] / I_
+ -  /h/ > [ɦ] / #_ V
+ -  /h/ > [ɦ] / V_ V
+ -  /h/ > [ç] / _I
+ -  /h/ > [ç] / I_
+ -  [ɦ] > [ʝ] / _I
+ -  [ɦ] > [ʝ] / I_
 - Le /ŗ/ a pour prononciation standard le /ʁ/, cependant il est généralement prononcé /ʀ/ entre deux voyelles et/ou consonne voisée (notées ~V~).
-  -  /ʁ/ > [ʀ] / V_ V
+ -  /ʁ/ > [ʀ] / V_ V
 - Le /x/ est habituellement prononcé /χ/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde (notée ~FS~).
-  -  /χ/ > [x] / FS_
-  -  /χ/ > [x] / _FS
+ -  /χ/ > [x] / FS_
+ -  /χ/ > [x] / _FS
 - Une consonne nasale devient silencieuse si elle est précédée d’une voyelle et suivie d’une consonne ou d’un silence. Cela fait suite à la nasalisation de la voyelle précédente.
-  - N > Ø / V_ #
-  - N > Ø / V_ C
+ - N > Ø / V_ #
+ - N > Ø / V_ C
 - Si deux consonnes fricatives toutes deux voisées ou sourdes se suivent successivement, même entre deux mots distincts, la première fricative devient silencieuse.
-  - F > Ø / _F
+ - F > Ø / _F
 - Si une consonne fricative voisée (notée ~FV~) est précédée par une fricative sourde (notée ~FS~), elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
-  - FS > [+voisée] / FV_
-  - FV > [+sourde] / FS_
+ - FS > [+voisée] / FV_
+ - FV > [+sourde] / FS_
 
 *** TODO Exemples
 
@@ -288,7 +282,13 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | á                 | a               |
 
 ** TODO <<deriv-accord-cons>>Accord des consonnes
-** TODO Déclinaisons
+** Phonotaxes
+*** Attaque
+*** Rime
+**** Noyau syllabique
+**** Coda
+
+** TODO <<decl-morph-decl>>Déclinaisons
 # Ajouter les liens internes
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
 + V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
@@ -484,20 +484,140 @@ src_latex{\newpage}
 |   | sociatif             | te-     | t(o)-   | t(o)-    | to-     | t(o)-     | t(o)-     |
 |   | subessif             | ňe-     | ňo-     | nw(a)-   | n(wa)-  | n(a)-     | na-       |
 |   | sublatif             | -(i)ţ   | -(i)ßţ  | -(i)šţ   | -(i)ţ   | -(r)iţ    | -iţ       |
-|   | superessif           | tß(ao)- | tß(ae)- | tßa-     | ßta-    | ßt-(e)    | tß(a)-    |
+|   | superessif           | tß(ao)- | tß(ae)- | tßa-     | ßta-    | ßt(e)-    | tß(a)-    |
 |   | temporel             | -(i)ňni | -(i)ňni | -(e)ňni  | -(i)ňni | -(y)ňni   | -iňni     |
 |   | terminatif           | -(ae)n  | -(ae)n  | -(ae)m   | -ae     | -(ai)n    | -(ai)ň    |
 |   | translatif           | -(i)n   | -(i)n   | -in      | -iň     | -iň       | -iň       |
 |   | vocatif              | -wa     | -wa     | -wein    | -wa     | -wa       | -weŕ      |
 src_latex{\newpage}
 
+* TODO Morphologie
+** Noms
+*** Genre
+Le Hjalpi’ est une langue riche en genres grammaticaux, étant donné qu’elle dispose de *neuf genres* différents
+1. Genre divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin. Il se réfère également à ce qui fait partie de leur domaine, que ce soit leurs Demeures ou leurs Œuvres majeures, tels que les Tours ou le Temps.
+2. Genre mental : se réfère à tout élément non physique ou concept, comme des pensées ou des couleurs. Les lieux physiques et temporels sont également classifiés dans le genre mental. Bien que le temps en lui-même soit considéré comme étant du genre divin, les événements sont considérés comme étant des éléments mentaux.
+3. Genre liquide : se réfère, comme son nom l’indique, à tout liquide, et en particulier à l’eau, mais ne couvre pas tous les fluides ; par exemple, l’air n’est pas considéré comme un liquide, malgré le fait que ce soit un fluide.
+4. Genre masculin humain : se réfère à tout être humain ou semi-humain mâle, ou à un groupe à prédominance numérique ou de puissance masculine.
+5. Genre féminin humain : se réfère à tout être humain ou semi-humain femelle, ou à un groupe à prédominance numérique ou de puissance féminine.
+6. Genre neutre humain : se réfère à tout être humain ou semi-humain dont on ne connaît pas le sexe biologique, ou si un groupe n’a pas de prédominance numérique ou de puissance masculine ou féminine.
+7. Genre animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain et étant animé.
+8. Genre végétal : se réfère à tout être mortel n’étant pas un humain ou semi-humain, ou membre d’animaux.
+9. Genre inanimé : se réfère à tout être non-vivant n’étant pas inclus par les trois premiers genres.
+
+Le genre est inclus sémantiquement dans chaque nom commun du Hjalpi’, en revanche la majorité des éléments rattachés au nom s’accorderont en genre, ainsi que les verbes suivant si le nom influe la conjugaison du verbe.
+
+Le Hjalpi’ dispose également de *quatre sur-genres*, regroupant les genres en catégories qui sont utilisées dans certains contexte, comme pour la déclinaison ou la conjugaison des verbes.
+1. Le sur-genre supérieur : rassemble les genres divin et mental
+2. Le sur-genre humain : rassemble les genres humains (masculin, féminin et neutre)
+3. Le sur-genre vivant : rassemble les genres du vivant non-humain (animal et végétal)
+4. Le sur-genre inanimé : rassemble les genres liquide et inanimé
+
+Une déclinaison des éléments humains neutres est possible, auquel cas on peut décliner ainsi l’élément dont on souhaite changer le genre :
+| / | >        |             |
+|   | genre    | déclinaison |
+|---+----------+-------------|
+|   | masculin | -e          |
+|   | féminin  | -am         |
+
+Ce genre de déclinaison est en général utilisé pour les mots se référant à un être humain dont le genre syntaxique est neutre, mais que l’humain référé est d’un genre connu. Par exemple, si l’on parle de plusieurs personnes de nombre inconnu (donc singulatif, voir les [[morpho-nom-nombre][Nombres]]) mais que la majorité des individus est de genre féminin, alors on déclinera /ðenmóíl/ (individu/personne) en /ðenmóílelam/ (personne.sf.5g). La déclinaison en féminin s’affixe à la déclinaison au singulatif du fait qu’il s’agit du groupe qui prend le genre féminin, indiquant que le groupe n’est pas uniquement mais majoritairement féminin. Si le groupe n’est composé que de femmes, alors /ðenmóíl/ se déclinera en /ðenmóílamel/ (personne.5g.sf).
+
+*** <<morpho-nom-nombre>>Nombre
+En plus d’avoir une riche quantité de genres, le Hjalpi’ dispose également de cinq nombres distincts qui se marquent par une déclinaison du nom ou de l’élément accordé en nombre (hormis le verbe).
+
+| / | >          | >           |                                    |
+|   | nombre     | déclinaison | description                        |
+|---+------------+-------------+------------------------------------|
+|   | singulier  | (aucune)    | élément unique                     |
+|   | singulatif | -el         | ensemble d’éléments semblables     |
+|   | duel       | -(a)t       | deux éléments semblables           |
+|   | triel      | -(e)þ       | trois éléments semblables          |
+|   | pluriel    | -(o)st      | quatre éléments semblables ou plus |
+
+Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des éléments semblables et est une alternative au singulier ou pluriel dans le cas où l’élément dont il est question est indénombrable ou éligible au pluriel mais le locuteur n’a pas d’idée précise du nombre d’éléments présents dans le groupe.
+
+*** Déclinaisons
+Suivant le rôle du nom dans la phrase, il est possible de le décliner à l’un des nombreux cas grammaticaux qu’offre le Hjalpi’. Dans cette section, j’expliquerai simplement la signification brève de chacune de ces déclinaisons. Pour un détail de comment décliner les noms, veuillez vous référer au [[decl-morph-decl][chapitre dédié]]. Je regrouperai ici les déclinaison par catégorie. Chaque cas sera présenté de la manières suivante :
+- Cas grammatical (/ABBRÉVIATION/) :: définition
+
+**** Lieu
+- Cas adessif (/ADE/) :: indique un lieu adjacent à l’élément.
+Exemple : iŗeménóst (ADE-maison-pl.) à côté des maisons
+
+- Cas antessif (/ANTE/) :: indique un lieu antérieur à l’élément.
+Exemple : vwomén (ANTE-maison) avant la maison / devant la maison
+
+- Cas apudessif (/APU/) :: indique un lieu à côté, proche de l’élément. L’élément n’est pas adjacent au lieu, auquel cas il faudrait utiliser le cas adessif.
+Exemple : veimén (APU-maison) à côté de la maison
+
+- Cas inessif (/INE/) :: indique un lieu à l’intérieur de l’élément.
+Exemple : mérón (<INE>maison) dans la maison
+
+- Cas intratif (/INTRT/) :: indique un lieu entre des éléments. L’élément décliné ne peut être singulier.
+Exemple : ménelń (maison-d.-INTRT) entre deux maisons.
+
+- Cas locatif (/LOC/) :: indique que l’élément décliné est le lieu indiqué (usage général).
+Exemple : ĺmén (LOC-maison) à la maison (sans précision)
+
+- Cas pertingent (/PERT/) :: indique un contact avec un lieu.
+Exemple : memén (PERT-maison) en contact avec la maison
+
+- Cas postessif (/POSTE/) :: indique un lieu postérieur à l’élément.
+Exemple : ménýßt (maison-POSTE) après la maison.
+
+- Cas subessif (/SUBE/) :: indique un lieu sous l’élément.
+Exemple : namén (SUBE-maison) sous la maison
+
+- Cas superessif (/SUPE/) :: indique un lieu sous l’élément.
+Exemple : ßtemén (SUPE-maison) sur la maison / sur le toit de la maison (impliqué)\\
+\\
+**** Mouvement depuis un élément
+- Cas ablatif (/ABL/) :: indique un déplacement s’éloignant de l’élément.
+Exemple : Je pars de Ðbńo
+| né           | liÐbńovu     | wyhakéís                         |
+| je(NOM-1s6G) | ABL-Ðbńo-ACC | quitter(présent indicatif 1s2SG) |
+
+- Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
+Exemple : La mouche s’envola (volontairement) du livre (sous entendu de sa couverture)
+| proböléntí                                | ßaraòm    | paŗevir    |
+| s’envoler-(NOM passé moyen parfait 3s3SG) | DEL-livre | NOM-mouche |
+
+- Cas élatif (/ELA/) :: déplacement depuis l’intérieur de l’élément.
+Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis une page / l’intérieur du livre, le livré étant ouvert)
+| proböléntí                                | raòmey    | paŗevir    |
+| s’envoler-(NOM passé moyen parfait 3s3SG) | livre-ELA | NOM-mouche |
+
+- Cas initiatif (/INIT/) :: indique le point de départ d’une action (cas général)
+Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
+| etrjáléís                            | Ðbńokĺ    | né           |
+| voyager(NOM présent indicatif 1s2SG) | Ðbńo-INIT | je(NOM-1s6G) |
+
+**** Mouvement vers un élément
+- Cas allatif (/ALL/) :: indique un mouvement vers les environs de l’élément (cas général), n’indique pas nécessairement de finalité ou de point précis.
+Exemple : Je voyage vers Ðbńo (pas nécessairement à Ðbńo même).
+| etrjáléís                            | Ðbńoðil   | né           |
+| voyager(NOM présent indicatif 1s2SG) | Ðbńo<ALL> | je(NOM-1s6G) |
+
+- Cas illatif (/ILL/) :: mouvement vers l’intérieur de l’élément, n’indique pas nécessairement de finalité.
+Exemple : La mouche vole vers la maison (sous entendu, elle va y rentrer)
+| eŕbölay                             | monén       | paŗevir    |
+| voler-(NOM présent indicatif 3s3SG) | <ILL>maison | NOM-mouche |
+
+- Cas latif (/LAT/) :: mouvement vers l’élément (cas général), n’indique pas nécessairement de finalité.
+Exemple : Je pars de Notń pour Ðbńo.
+| né           | Ðbńolòĺ  | liNotńvu     | wyhakéís                         |
+| je(NOM-1s6G) | Ðbńo-LAT | ABL-Notń-ACC | quitter(présent indicatif 1s2SG) |
+
+- Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
+
+** Verbes
 * TODO Syntaxe
 * TODO Champs sémantiques et pragmatismes
 * TODO Système d’écriture
-* TODO Exemples
-* Glossaire
+src_latex{\newpage}
+* <<glossaire>>Glossaire
 
-- clef ::  /prononciation/ /élément de langage./ Définition(s)
+- clef ::  /transcription large/ /élément de langage./ Définition(s)
 Définition
 
 Abréviations :
@@ -517,55 +637,58 @@ Abréviations :
 - vi. : verbe intransitif
 - vt : verbe transitif
 
+** À trier
+
 ** Actions physiques
-- kĺnyþ ::  /kl̩nyːθ/ (v.) casser, briser
+- kĺnyþ ::  /kl̩.nyːθ/ (vt.) casser, briser
 ** Amour
 ** Animaux
 - nael ::  /nael/ (n.7) cheval
+- ŗevír ::  /ʁeː.vɪr/ (n.7) mouche
 ** Art
-- raòm ::  /rãø̃/ (n.9) livre
+- raòm ::  /raøm/ (n.9) livre
 ** Astronomie
-- jaom ::  /jãõ/ (n.1) astre
+- jaom ::  /jaom/ (n.1) astre
 ** Bâtiments
-- mén ::  /mɛ̃/ (n.9) maison (bâtiment)
+- mén ::  /mɛn/ (n.9) maison (bâtiment)
 ** Commerce
 ** Conflits
 ** Conteneurs
 ** Corps
 - gar ::  /ɡaːr/ (n.6) tête
 - pńt ::  /pn̩t/ (n.6) main
-- wan ::  /wãː/ (n.6) pied
+- wan ::  /waːn/ (n.6) pied
 ** Couleurs
 - ðúr ::  /ðʊr/ (adj.) argent (couleur)
 ** Dimensions
 ** Direction
-- ňam ::  /ŋãː/ (n.2) ouest
-- watßúd ::  /waːtʃʊd/ (n.2) nord
-- wémšal ::  /wɛ̃çaːl/ (n.2) est (direction)
-- zelðeg ::  /zeːlðeːɡ/ (n.2) sud
+- ňam ::  /ŋaːm/ (n.2) ouest
+- watßúd ::  /waːt.ʃʊd/ (n.2) nord
+- wémšal ::  /wɛm.çaːl/ (n.2) est (direction)
+- zelðeg ::  /zeːl.ðeːɡ/ (n.2) sud
 ** Eau
 ** Effort
 ** Éléments
 ** Émotions
-- feŗan ::  /feːʁãː/ (n.2) tristesse
+- feŗan ::  /feː.ʁaːn/ (n.2) tristesse
 ** Évaluation
-- ’eßtef ::  /ʔeːʃteːf/ (adj.) mauvais
+- ’eßtef ::  /ʔeːʃ.teːf/ (adj.) mauvais
 ** Événements
-- gén ::  /ɡɛ̃/ (n.2) acte, action
+- gén ::  /ɡɛn/ (n.2) acte, action
 ** Existence
 ** Famille
-- ánám ::  /ɑ̃nɑ̃/ (n.6) parent
-- mánám ::  /mɑ̃nɑ̃/ (n.5) mère, maman
-- pánám ::  /pɑ̃nɑ̃/ (n.4) père, papa
+- ánám ::  /ɑ.nɑm/ (n.6) parent
+- mánám ::  /mɑ.nɑm/ (n.5) mère, maman
+- pánám ::  /pɑ.nɑm/ (n.4) père, papa
 ** Forme
 ** Gouvernement
 ** Grammaire
-- pöb (pron. interrogatif) :: quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
+- pöb ::  /pœb/ (pron. interrogatif) quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
 *** Pronoms interrogatifs
 **** Temps
 - pejb ::  /pejb/ (pron. interr. essif) quand, à quel moment. /pöb/ décliné à l’essif.
-- pöémp ::  /pœ̃ɛ̃p/ (pron. interrogatif limitatif) jusqu’à quand. /pöb/ décliné au limitatif.
-- pövwó ::  /pœvwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. /pöb/ décliné à l’accusatif.
+- pöémp ::  /pœɛmp/ (pron. interrogatif limitatif) jusqu’à quand. /pöb/ décliné au limitatif.
+- pövwó ::  /pœ.vwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. /pöb/ décliné à l’accusatif.
 
 ** Guerre
 - wóúl ::  /wɔʊl/ (n.2) attaque
@@ -576,8 +699,13 @@ Abréviations :
 ** Mesures
 ** Métaux
 ** Mouvement
-- jĺšek ::  /jl̩çeːk/ (n.9) chemin, voie
-- wyhakòm ::  /wyːhaːkø̃/ (vt.) quitter, partir
+- etrjálòm ::  /et.rjɑ.lʏθ/ (vi.) voyager
+- eŕbölýþ ::  /eɹ.bœ.lʏθ/ (vi.) voler (dans le airs)
+- jĺšek ::  /jl̩.çeːk/ (n.9) chemin, voie
+- probölýþ ::  /proː.bœ.lʏþ/ (vi.) s’envoler
+Exemple : Proböléntí paŗevir. La mouche s’envola.
+- wyhakòm ::  /wyː.haː.køːm/ (vt.) quitter, partir.
+Exemple : Né liÐbńovu wyhakéís. Je pars de Ðbńo.
 ** Nature
 ** Nombres
 ** Nourriture
@@ -589,25 +717,26 @@ Abréviations :
 ** Possession
 ** Religion
 - hjalp ::  /hjaːlp/ (n.1) dieu céleste
-- melex ::  /meːleːχ/ (n.1) dieu terrestre
+- melex ::  /meː.leːχ/ (n.1) dieu terrestre
 ** Savoir
-- bóljòluþ ::  /bɔljøːluːθ/ (vt.) savoir
-- wanmjöd ::  /wãːmjœd/ savoir, connaissance
+- bóljòluþ ::  /bɔ.ljøː.luːθ/ (vt.) savoir
+- wanmjöd ::  /waːn.mjœd/ savoir, connaissance
 ** Sensations
-- feŗtef ::  /feːʁeːf/ (n.2) douleur mentale, dépression. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
-- núótöm ::  /nʊɔtœ̃/ (vt.) voir
+- feŗtef ::  /feːʁ.teːf/ (n.2) douleur mentale, dépression. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
+- núótöm ::  /nʊɔ.tœm/ (vt.) voir
 ** Sexe
 ** Société
 ** Substances
 - lúb ::  /lʊb/ (n.9) air
 ** Temps
-- bém ::  /bɛ̃/ (n.2) jour (cycle temporel)
+- bém ::  /bɛm/ (n.2) jour (cycle temporel)
 - heol ::  /heol/ (n.2) heure
 - łail ::  /ɬail/ (n.2) année
 - ţealnat ::  /ʈealnaːt/ (adj.) précision temporelle, précis.
 *** Jours de la semaine
-- ðúbém ::  /ðʊbɛ̃/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /ðúr/ + /bém/
+- ðúbém ::  /ðʊ.bɛm/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /ðúr/ + /bém/
 ** Travail
 ** Végétaux
 ** Vêtements
 ** Vie et santé
+- ðenmóíl ::  /ðeːn.mɔɪl/ (n.6) personne, individu
