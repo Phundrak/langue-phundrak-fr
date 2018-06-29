@@ -313,7 +313,6 @@ src_latex{\newpage}
 |   | accusatif-temporel   | -źu     | -źu      | -źu     | -źu     | -źoy    | -źou    |
 |   | adessif              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)-  | ix(e)-  |
 |   | adverbial            | -ei     | -ey      | -ei     | -ei     | -ey     | -ey     |
-|   | agentif              | t(e)-   | t(e)-    | e(t)-   | ţ(e)-   | t(e)-   | ţ(e)-   |
 |   | allatif              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
 |   | antessif             | vwo(n)- | vw(o)-   | v(o)-   | vw(o)-  | vwo-    | vo-     |
 |   | apudessif            | þ(e)-   | ð(e)-    | ð(e)-   | ðe-     | þ(e)-   | ð(e)-   |
@@ -376,7 +375,6 @@ src_latex{\newpage}
 |   | accusatif-temporel   | -(a)źu  | -(e)źu  | -(u)źu   | -(ai)źu  | -(i)źu   | -(u)źu   |
 |   | adessif              | iź(a)-  | iź(ei)- | iź(a)-   | iź(ei)-  | iź(a)-   | iź(ei)-  |
 |   | adverbial            | -ei     | -ai     | -ai      | -ei      | -eu      | -ey      |
-|   | agentif              | t(e)-   | t(e)-   | t(e)-    | e(t)-    | t(e)-    | t(e)-    |
 |   | allatif              | -li(s)- | -li(ź)- | -li(z)-  | -li(š)-  | -li(x)-  | -li(x)-  |
 |   | antessif             | we-     | w(e)-   | w(o)-    | w(e)-    | v(e)-    | v(wo)-   |
 |   | apudessif            | þe(n)-  | þ(e)-   | v(e)-    | ve(n)-   | þ(e)-    | ð(e)-    |
@@ -440,7 +438,6 @@ src_latex{\newpage}
 |   | accusatif-temporel   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu    | -(o)źu    |
 |   | adessif              | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-    | iŗ(e)-    |
 |   | adverbial            | -ei     | -ei     | -ei      | -(r)ei  | -(ei)r    | -(ey)r    |
-|   | agentif              | t(e)-   | t(e)-   | e(t)-    | a(t)-   | te-       | t(e)-     |
 |   | allatif              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
 |   | antessif             | vw(o)-  | v(u)-   | v(u)-    | v(u)-   | vw(o)-    | vu-       |
 |   | apudessif            | ð(ei)-  | ðe(m)-  | f(e)-    | fe-     | vei-      | fei-      |
@@ -577,8 +574,8 @@ Exemple : ßtemén (SUPE-maison) sur la maison / sur le toit de la maison (impl
 **** Mouvement depuis un élément
 - Cas ablatif (/ABL/) :: indique un déplacement s’éloignant de l’élément.
 Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
-| néét          | wyhakéís                         | liÐbńovu     | né           |
-| moi(BEN-1s6G) | quitter(présent indicatif 1s2SG) | ABL-Ðbńo-ACC | je(NOM-1s6G) |
+| wyhakéís                      | liÐbńovu     | né       |
+| quitter(NOM prés-indic 1s2SG) | ABL-Ðbńo-ACC | 1s6G.NOM |
 
 - Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu de sa couverture)
@@ -592,41 +589,81 @@ Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis u
 
 - Cas initiatif (/INIT/) :: indique le point de départ d’une action (cas général)
 Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
-| etrjáléís                            | Ðbńokĺ    | né           |
-| voyager(NOM présent indicatif 1s2SG) | Ðbńo-INIT | je(NOM-1s6G) |
+| etrjáléís                     | Ðbńokĺ    | né       |
+| voyager(NOM prés-indic 1s2SG) | Ðbńo-INIT | 1s6G.NOM |
 
 **** Mouvement vers un élément
 - Cas allatif (/ALL/) :: indique un mouvement vers les environs de l’élément (cas général), n’indique pas nécessairement de finalité ou de point précis.
 Exemple : Je voyage vers Ðbńo (pas nécessairement à Ðbńo même).
-| etrjáléís                            | Ðbńoðil   | né           |
-| voyager(NOM présent indicatif 1s2SG) | Ðbńo<ALL> | je(NOM-1s6G) |
+| etrjáléís                     | Ðbńoðil   | né       |
+| voyager(NOM prés-indic 1s2SG) | Ðbńo<ALL> | 1s6G.NOM |
 
 - Cas illatif (/ILL/) :: mouvement vers l’intérieur de l’élément, n’indique pas nécessairement de finalité.
 Exemple : La mouche vole vers la maison (sous entendu, elle va y rentrer)
-| eŕbölay                             | monén       | paŗevir    |
-| voler-(NOM présent indicatif 3s3SG) | <ILL>maison | NOM-mouche |
+| eŕbölay                      | monén       | paŗevir    |
+| voler-(NOM prés-indic 3s3SG) | <ILL>maison | NOM-mouche |
 
 - Cas latif (/LAT/) :: mouvement vers l’élément (cas général), n’indique pas nécessairement de finalité.
 Exemple : Je pars de Notń pour Ðbńo.
-| néét         | wyhakéís                         | liNotńvu     | Ðbńolòĺ  | né           |
-| je(BEN-1s6G) | quitter(présent indicatif 1s2SG) | ABL-Notń-ACC | Ðbńo-LAT | je(NOM-1s6G) |
+| wyhakéís                      | liNotńvu     | Ðbńolòĺ  | né       |
+| quitter(NOM prés-indic 1s2SG) | ABL-Notń-ACC | Ðbńo-LAT | 1s6G.NOM |
 
 - Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
-Exemple : La mouche vers le livre. (sous-entendu, la couverture)
-| eŕbölay                             | raòmiţ     | paŗevir    |
-| voler-(NOM présent indicatif 3s3SG) | livre-SUBL | NOM-mouche |
+Exemple : La mouche vole vers le livre. (sous-entendu, la couverture)
+| eŕbölay                      | raòmiţ     | paŗevir    |
+| voler-(NOM prés-indic 3s3SG) | livre-SUBL | NOM-mouche |
 
 - Cas terminatif (/TERM/) :: le mouvement a pour but l’élément.
 Exemple : Je voyage jusqu’à Ðbńo.
-| etrjáléís                            | Ðbńoþaen  | né           |
-| voyager(NOM présent indicatif 1s2SG) | Ðbńo-TERM | je(NOM-1s6G) |
+| etrjáléís                     | Ðbńoþaen  | né           |
+| voyager(NOM prés-indic 1s2SG) | Ðbńo-TERM | je(NOM-1s6G) |
 
 **** Déplacement via un élément
 - Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
 Exemple : Je voyage le long de la rivière.
-| etrjáléís                            | šyłánt                 | né           |
-| voyager(NOM présent indicatif 1s2SG) | PERL-(rivière mineure) | je(NOM-1s6G) |
+| etrjáléís                     | šyłánt                 | né           |
+| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | je(NOM-1s6G) |
 
+- Cas prolatif (/PROL/) :: mouvement en utilisant l’élément ou sur sa surface.
+Exemple : Je navigue sur l’océan côtier.
+| ’elḑökay                       | šielt               | né           |
+| naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | je(NOM-1s6G) |
+
+**** Temps
+- Cas accusatif-temporel (/ATEMP/) :: indication d’une durée de temps, peut remplacer l’accusatif d’une proposition nominative-accusative avec un verbe transitif.
+Exemple : J’ai dormis sept heures.
+| ’oherénté                              | heolí’            | pńtwánźu   | né           |
+| dormir-(NOM passé moyen parfait 1s2SG) | heure(mesure)-GEN | sept-ATEMP | je(NOM-1s6G) |
+
+- Cas essif (/ESS/) :: l’élément indique la date où le moment où un événement se produit.
+Exemple : Je dors habituellement à sept heures.
+| ’oheroméis                   | hebéómi’  | pudńtwán  | né           |
+| dormir(NOM prés-habit 1s2SG) | heure-GEN | <ESS>sept | je(NOM-1s6G) |
+
+- Cas limitatif (/LIMIT/) :: l’élément indique une limite dans le temps.
+Exemple : Je dors habituellement jusqu’à sept heures.
+| ’oheroméis                   | hebéómi’  | pńtwánòmp  | né           |
+| dormir(NOM prés-habit 1s2SG) | heure-GEN | sept-LIMIT | je(NOM-1s6G) |
+
+- Cas temporel (/TEMP/) :: l’élément désigne un moment (cas général).
+Exemple : à sept heures
+| hebéómi’  | pńtwániňni |
+| heure-GEN | sept-TEMP  |
+
+**** Alignement morphosyntaxique
+- <<cas-abs>>Cas absolutif (/ABS/) :: indique le patient d’un verbe transitif ou le sujet d’un verbe intransitif dans une proposition ergative. S’oppose à l’[[cas-erg][ergatif]].
+Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
+| néí      | nweţuŗa  | kĺnéínté                              |
+| 1s6G.ERG | vase-ABS | briser(ERG passé moyen parfait 1s2SG) |
+
+- <<cas-acc>>Cas accusatif (/ACC/) :: indique le patient d’un verbe transitif dans une proposition nominative. S’oppose au nominatif.
+Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
+| né       | nweţuvy  | kĺnénté                               |
+| 1s6G.NOM | vase-ACC | briser(NOM passé moyen parfait 1s2SG) |
+
+- <<cas-erg>>Cas ergatif (/ERG/) :: S’oppose à l’[[cas-abs][absolutif]].
+
+- <<cas-nom>>Cas nominatif (/NOM/) :: S’oppose à l’[[cas-acc][accusatif]].
 
 ** Verbes
 * TODO Syntaxe
@@ -659,6 +696,7 @@ Abréviations :
 
 ** Actions physiques
 - kĺnyþ ::  /kl̩.nyːθ/ (vt.) casser, briser
+- ’oheryþ ::  /?o:.he:.ry:þ/ (vi.) dormir
 ** Amour
 ** Animaux
 - nael ::  /nael/ (n.7) cheval
@@ -666,7 +704,8 @@ Abréviations :
 ** Art
 - raòm ::  /raøm/ (n.9) livre
 ** Astronomie
-- jaom ::  /jaom/ (n.1) astre
+- <<glos-béóm>>béóm ::  /bɛɔm/ (n.1) Soleil. Étymologie : /[[glos-b%C3%A9m][bém]]/ + /[[gloss-jaom][jaom]]/, astre du jour
+- <<gloss-jaom>>jaom ::  /jaom/ (n.1) astre
 ** Bâtiments
 - mén ::  /mɛn/ (n.9) maison (bâtiment)
 ** Commerce
@@ -674,10 +713,10 @@ Abréviations :
 ** Conteneurs
 ** Corps
 - gar ::  /ɡaːr/ (n.6) tête
-- pńt ::  /pn̩t/ (n.6) main
-- wan ::  /waːn/ (n.6) pied
+- <<glos-pńt>>pńt ::  /pn̩t/ (n.6) main
+- <<glos-wán>>wán ::  /waːn/ (n.6) pied
 ** Couleurs
-- ðúr ::  /ðʊr/ (adj.) argent (couleur)
+- <<glos-ðúr>>ðúr ::  /ðʊr/ (adj.) argent (couleur)
 ** Dimensions
 ** Direction
 - ňam ::  /ŋaːm/ (n.2) ouest
@@ -685,13 +724,13 @@ Abréviations :
 - wémšal ::  /wɛm.çaːl/ (n.2) est (direction)
 - zelðeg ::  /zeːl.ðeːɡ/ (n.2) sud
 ** Eau
-- ánd ::  /ɑnd/ (n.3) rivière, cours d’eau dans lequel s’est jeté une autre rivière, mais ammenée à se jeter elle-même dans un autre cours d’eau
+- ánd ::  /ɑnd/ (n.3) rivière majeure, cours d’eau dans lequel s’est jeté une autre rivière, mais ammenée à se jeter elle-même dans un autre cours d’eau
 - hanḑ ::  /haːnɖ/ (n.3) fleuve mineur, cours d’eau n’ayant aucun confluent se jetant directement dans la mer ou l’océan
-- ielt ::  /ielt/ (n.3) océan, vaste étendue d’eau au contact des côtes
-- łánt ::  /ɬɑt/ (n.3) rivière ou ruisseau, cours d’eau dans lequel ne s’est jeté aucun autre cours d’eau mais ammené à se jeter dans un autre cours d’eau
-- omd ::  /oːmd/ (n.3) océan, vaste étendue d’eau n’étant pas au contact des côtes
+- ielt ::  /ielt/ (n.3) océan côtier, vaste étendue d’eau au contact des côtes
+- łánt ::  /ɬɑt/ (n.3) rivière mineure ou ruisseau, cours d’eau dans lequel ne s’est jeté aucun autre cours d’eau mais ammené à se jeter dans un autre cours d’eau
+- omd ::  /oːmd/ (n.3) océan non-côtier, vaste étendue d’eau n’étant pas au contact des côtes
 - vilţ ::  /viːlʈ/ (n.3) fleuve majeur, cours d’eau ayant reçu d’autre cours d’eau et se jetant directement dans la mer ou l’océan
-- ’élḑ ::  /ɛlɖ/ (n.3) mer, petite étendue d’eau connectée à d’autres mers ou océans, ou région d’océan côtier
+- ’élḑ ::  /ʔɛlɖ/ (n.3) mer, petite étendue d’eau connectée à d’autres mers ou océans, ou région d’océan côtier
 ** Effort
 ** Éléments
 ** Émotions
@@ -731,8 +770,10 @@ Abréviations :
 Exemple : Proböléntí paŗevir. La mouche s’envola.
 - wyhakòm ::  /wyː.haː.køːm/ (vt.) quitter, partir.
 Exemple : Né liÐbńovu wyhakéís. Je pars de Ðbńo.
+- ’elḑökýþ ::  /ʔeːlɖœkʏθ/ (vi.) naviguer
 ** Nature
 ** Nombres
+- pńtwán ::  /pn̩twɑn/ (nbrc) sept. Étymologie : /[[glos-p%C5%84t][pńt]]/ + /[[glos-w%C3%A1n][wán]]/
 ** Nourriture
 ** Outils
 ** Parole
@@ -754,12 +795,13 @@ Exemple : Né liÐbńovu wyhakéís. Je pars de Ðbńo.
 ** Substances
 - lúb ::  /lʊb/ (n.9) air
 ** Temps
-- bém ::  /bɛm/ (n.2) jour (cycle temporel)
-- heol ::  /heol/ (n.2) heure
-- łail ::  /ɬail/ (n.2) année
+- <<glos-bém>>bém ::  /bɛm/ (n.2) jour (mesure de temps)
+- hebéóm ::  /heːbɛɔm/ (n.2) heure (repère de temps). Étymologie : /[[glos-heol][heol]]/ + /[[glos-b%C3%A9%C3%B3m][béóm]]/ l’heure par le Soleil
+- <<glos-heol>>heol ::  /heol/ (n.2) heure (mesure de temps)
+- łail ::  /ɬail/ (n.2) année (mesure de temps)
 - ţealnat ::  /ʈealnaːt/ (adj.) précision temporelle, précis.
 *** Jours de la semaine
-- ðúbém ::  /ðʊ.bɛm/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /ðúr/ + /bém/
+- ðúbém ::  /ðʊ.bɛm/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /[[glos-%C3%B0%C3%BAr][ðúr]]/ + /[[glos-b%C3%A9m][bém]]/
 ** Travail
 ** Végétaux
 ** Vêtements
