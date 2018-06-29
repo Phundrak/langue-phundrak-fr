@@ -318,6 +318,7 @@ src_latex{\newpage}
 |   | antessif             | vwo(n)- | vw(o)-   | v(o)-   | vw(o)-  | vwo-    | vo-     |
 |   | apudessif            | þ(e)-   | ð(e)-    | ð(e)-   | ðe-     | þ(e)-   | ð(e)-   |
 |   | aversif              | ł(e)-   | ł(e)-    | ła-     | ł(e)-   | ł(e)-   | ła-     |
+|   | bénéfactif           | -at     | -et      | -at     | -at     | -at     | -aţ     |
 |   | causal               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y  | -(b)y   |
 |   | comitatif            | -ðai-   | -ðei-    | -ðei-   | -ðai-   | -ðei-   | -ðey-   |
 |   | comparatif           | -(oi)r  | -(oi)r   | -(oi)r  | -(oi)ţ  | -(oi)r  | -(oi)t  |
@@ -380,6 +381,7 @@ src_latex{\newpage}
 |   | antessif             | we-     | w(e)-   | w(o)-    | w(e)-    | v(e)-    | v(wo)-   |
 |   | apudessif            | þe(n)-  | þ(e)-   | v(e)-    | ve(n)-   | þ(e)-    | ð(e)-    |
 |   | aversif              | ł(e)-   | ła-     | la-      | ł(e)-    | ła-      | ł(e)-    |
+|   | bénéfactif           | -at     | -aţ     | -aţ      | -aţ      | -et      | -(v)et   |
 |   | causal               | -(o)by  | -(o)by  | -(o)by   | -(o)by   | -(o)bu   | -(o)bu   |
 |   | comitatif            | -ðeń-   | -ðei-   | -ðei(n)- | -ðey-    | -ðei-    | -ðey-    |
 |   | comparatif           | -(oi)t  | -(oi)ţ  | -oir     | -er      | -(oi)r   | -oit     |
@@ -443,6 +445,7 @@ src_latex{\newpage}
 |   | antessif             | vw(o)-  | v(u)-   | v(u)-    | v(u)-   | vw(o)-    | vu-       |
 |   | apudessif            | ð(ei)-  | ðe(m)-  | f(e)-    | fe-     | vei-      | fei-      |
 |   | aversif              | ł(e)-   | ł(e)-   | ła-      | l(e)-   | ł(e)-     | ł(e)-     |
+|   | bénéfactif           | -at     | -et     | -ast     | -aþ     | -at       | -et       |
 |   | causal               | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy       | -vy       |
 |   | comitatif            | -ðei-   | -ðei-   | -ðeu-    | -ðei-   | -ðeu-     | -ðeu-     |
 |   | comparatif           | -(oi)r  | -(oi)r  | -or      | -(oi)r  | -oiŗ      | -(oi)ŗ    |
@@ -573,9 +576,9 @@ Exemple : ßtemén (SUPE-maison) sur la maison / sur le toit de la maison (impl
 \\
 **** Mouvement depuis un élément
 - Cas ablatif (/ABL/) :: indique un déplacement s’éloignant de l’élément.
-Exemple : Je pars de Ðbńo
-| né           | liÐbńovu     | wyhakéís                         |
-| je(NOM-1s6G) | ABL-Ðbńo-ACC | quitter(présent indicatif 1s2SG) |
+Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
+| néét          | wyhakéís                         | liÐbńovu     | né           |
+| moi(BEN-1s6G) | quitter(présent indicatif 1s2SG) | ABL-Ðbńo-ACC | je(NOM-1s6G) |
 
 - Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu de sa couverture)
@@ -605,10 +608,25 @@ Exemple : La mouche vole vers la maison (sous entendu, elle va y rentrer)
 
 - Cas latif (/LAT/) :: mouvement vers l’élément (cas général), n’indique pas nécessairement de finalité.
 Exemple : Je pars de Notń pour Ðbńo.
-| né           | Ðbńolòĺ  | liNotńvu     | wyhakéís                         |
-| je(NOM-1s6G) | Ðbńo-LAT | ABL-Notń-ACC | quitter(présent indicatif 1s2SG) |
+| néét         | wyhakéís                         | liNotńvu     | Ðbńolòĺ  | né           |
+| je(BEN-1s6G) | quitter(présent indicatif 1s2SG) | ABL-Notń-ACC | Ðbńo-LAT | je(NOM-1s6G) |
 
 - Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
+Exemple : La mouche vers le livre. (sous-entendu, la couverture)
+| eŕbölay                             | raòmiţ     | paŗevir    |
+| voler-(NOM présent indicatif 3s3SG) | livre-SUBL | NOM-mouche |
+
+- Cas terminatif (/TERM/) :: le mouvement a pour but l’élément.
+Exemple : Je voyage jusqu’à Ðbńo.
+| etrjáléís                            | Ðbńoþaen  | né           |
+| voyager(NOM présent indicatif 1s2SG) | Ðbńo-TERM | je(NOM-1s6G) |
+
+**** Déplacement via un élément
+- Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
+Exemple : Je voyage le long de la rivière.
+| etrjáléís                            | šyłánt                 | né           |
+| voyager(NOM présent indicatif 1s2SG) | PERL-(rivière mineure) | je(NOM-1s6G) |
+
 
 ** Verbes
 * TODO Syntaxe
@@ -632,7 +650,7 @@ Abréviations :
 - 9 : genre inanimé
 - adj. : adjectif
 - ind. : indénombrable
-- n. : nom
+- n.X : nom du Xème genre
 - pron. : pronom
 - vi. : verbe intransitif
 - vt : verbe transitif
@@ -667,6 +685,13 @@ Abréviations :
 - wémšal ::  /wɛm.çaːl/ (n.2) est (direction)
 - zelðeg ::  /zeːl.ðeːɡ/ (n.2) sud
 ** Eau
+- ánd ::  /ɑnd/ (n.3) rivière, cours d’eau dans lequel s’est jeté une autre rivière, mais ammenée à se jeter elle-même dans un autre cours d’eau
+- hanḑ ::  /haːnɖ/ (n.3) fleuve mineur, cours d’eau n’ayant aucun confluent se jetant directement dans la mer ou l’océan
+- ielt ::  /ielt/ (n.3) océan, vaste étendue d’eau au contact des côtes
+- łánt ::  /ɬɑt/ (n.3) rivière ou ruisseau, cours d’eau dans lequel ne s’est jeté aucun autre cours d’eau mais ammené à se jeter dans un autre cours d’eau
+- omd ::  /oːmd/ (n.3) océan, vaste étendue d’eau n’étant pas au contact des côtes
+- vilţ ::  /viːlʈ/ (n.3) fleuve majeur, cours d’eau ayant reçu d’autre cours d’eau et se jetant directement dans la mer ou l’océan
+- ’élḑ ::  /ɛlɖ/ (n.3) mer, petite étendue d’eau connectée à d’autres mers ou océans, ou région d’océan côtier
 ** Effort
 ** Éléments
 ** Émotions
