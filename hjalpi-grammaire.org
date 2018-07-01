@@ -580,12 +580,12 @@ Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
 - Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu de sa couverture)
 | proböléntí                                | ßaraòm    | paŗevir    |
-| s’envoler-(NOM passé moyen parfait 3s3SG) | DEL-livre | NOM-mouche |
+| s’envoler-(NOM passé m p 3s3SG) | DEL-livre | NOM-mouche |
 
 - Cas élatif (/ELA/) :: déplacement depuis l’intérieur de l’élément.
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis une page / l’intérieur du livre, le livré étant ouvert)
 | proböléntí                                | raòmey    | paŗevir    |
-| s’envoler-(NOM passé moyen parfait 3s3SG) | livre-ELA | NOM-mouche |
+| s’envoler-(NOM passé m p 3s3SG) | livre-ELA | NOM-mouche |
 
 - Cas initiatif (/INIT/) :: indique le point de départ d’une action (cas général)
 Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
@@ -633,7 +633,7 @@ Exemple : Je navigue sur l’océan côtier.
 - Cas accusatif-temporel (/ATEMP/) :: indication d’une durée de temps, peut remplacer l’accusatif d’une proposition nominative-accusative avec un verbe transitif.
 Exemple : J’ai dormis sept heures.
 | ’oherénté                              | heolí’            | pńtwánźu   | né           |
-| dormir-(NOM passé moyen parfait 1s2SG) | heure(mesure)-GEN | sept-ATEMP | je(NOM-1s6G) |
+| dormir-(NOM passé m p 1s2SG) | heure(mesure)-GEN | sept-ATEMP | je(NOM-1s6G) |
 
 - Cas essif (/ESS/) :: l’élément indique la date où le moment où un événement se produit.
 Exemple : Je dors habituellement à sept heures.
@@ -653,17 +653,39 @@ Exemple : à sept heures
 **** Alignement morphosyntaxique
 - <<cas-abs>>Cas absolutif (/ABS/) :: indique le patient d’un verbe transitif ou le sujet d’un verbe intransitif dans une proposition ergative. S’oppose à l’[[cas-erg][ergatif]].
 Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
-| néí      | nweţuŗa  | kĺnéínté                              |
-| 1s6G.ERG | vase-ABS | briser(ERG passé moyen parfait 1s2SG) |
+| néí      | nweţuŗa  | kĺnéínté                    |
+| 1s6G.ERG | vase-ABS | briser(ERG passé m p 1s2SG) |
 
 - <<cas-acc>>Cas accusatif (/ACC/) :: indique le patient d’un verbe transitif dans une proposition nominative. S’oppose au nominatif.
 Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
-| né       | nweţuvy  | kĺnénté                               |
-| 1s6G.NOM | vase-ACC | briser(NOM passé moyen parfait 1s2SG) |
+| kĺnénté                     | nweţuvy  | né       |
+| briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
 
-- <<cas-erg>>Cas ergatif (/ERG/) :: S’oppose à l’[[cas-abs][absolutif]].
+- <<cas-erg>>Cas ergatif (/ERG/) :: indique l’agent d’un verbe transitif dans une proposition ergative. S’oppose à l’[[cas-abs][absolutif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
+Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
+| néí      | nweţuŗa  | kĺnéínté                    |
+| 1s6G.ERG | vase-ABS | briser(ERG passé m p 1s2SG) |
 
-- <<cas-nom>>Cas nominatif (/NOM/) :: S’oppose à l’[[cas-acc][accusatif]].
+- Cas instructif (/INSTRUCTIVE/) :: indique le moyen employé, répond à la question /comment ?/.
+
+- Cas instrumental (/INSTR/) :: indique l’instrument utilisé, répond à la question /au moyen de quel objet ?/.
+
+- <<cas-nom>>Cas nominatif (/NOM/) :: indique le sujet d’un verbe intransitif ou l’agent d’un verbe transitif dans une proposition nominative. S’oppose à l’[[cas-acc][accusatif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
+Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
+| kĺnénté                     | nweţuvy  | né       |
+| briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
+
+- Cas oblique (/OBL/) :: marque le verbe, indique la proposition comme étant une citation. Les sous-propositions n’ont pas besoin d’être marquée. Remplace l’[[cas-acc][accusatif]] dans les propositions nominatives, et l’[[cas-abs][absolutif]] dans les propositions ergatives.
+Exemple : j’ai dis que j’ai cassé (involontairement) le vase.
+| ŗeðénté                   | kĺnéntéŗòß                  | nweţuŗa  | né       | né       |
+| dire(NOM passé m p 1s2SG) | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM | 1s6G.NOM |
+
+- <<cas-peg>>Cas pégatif (/PEG/) :: agent dans une proposition ayant un argument datif. Peut remplacer le [[cas-nom][nominatif]] et l’[[cas-erg][ergatif]].
+
+**** Relation
+- Cas aversif (/EVIT/) :: indique que l’élément est évité ou craint.
+
+- Cas bénéfactif (/BEN/) :: indique la personne ou le concept motivant une proposition d’un verbe d’action. S’il est omis à la première personne, on assume que le bénéfacteur est le sujet ou l’agent ; à la seconde ou à la troisième personne, on assume que le bénéfacteur est inconnu.
 
 ** Verbes
 * TODO Syntaxe
@@ -693,6 +715,7 @@ Abréviations :
 - vt : verbe transitif
 
 ** À trier
+- ŗeðyþ :: (vt.) dire
 
 ** Actions physiques
 - kĺnyþ ::  /kl̩.nyːθ/ (vt.) casser, briser
