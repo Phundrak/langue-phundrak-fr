@@ -353,61 +353,62 @@ src_latex{\newpage}
 |   |                      | 1s      | 1p       | 2s      | 2p      | 3s      | 3p      |
 |---+----------------------+---------+----------+---------+---------+---------+---------|
 |   | abessif              | e(m)-   | e(ň)-    | e(n)-   | e(n)-   | e(l)-   | e(dl)-  |
-|   | ablatif              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-   | ĺ(ž)-   |
-|   | absolutif            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a  | -(ts)a  |
-|   | accusatif            | -vo     | -vwo     | -vu     | -vwu    | -vo     | -vo     |
-|   | accusatif-temporel   | -źu     | -źu      | -źu     | -źu     | -źoy    | -źou    |
-|   | adessif              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)-  | ix(e)-  |
+|   | [[cas-abl][ablatif]]              | l(i)-   | l(e)-    | li(s)-  | le(ž)-  | l(i)-   | ĺ(ž)-   |
+|   | [[cas-abs][absolutif]]            | -(ts)a  | -(ts)a   | -(tß)a  | -(tß)a  | -(ts)a  | -(ts)a  |
+|   | [[cas-acc][accusatif]]            | -vo     | -vwo     | -vu     | -vwu    | -vo     | -vo     |
+|   | [[cas-atemp][accusatif-temporel]]   | -źu     | -źu      | -źu     | -źu     | -źoy    | -źou    |
+|   | [[cas-ade][adessif]]              | ix(a)-  | ix(e)-   | ix(a)-  | ix(e)-  | ix(a)-  | ix(e)-  |
 |   | adverbial            | -ei     | -ey      | -ei     | -ei     | -ey     | -ey     |
-|   | allatif              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
-|   | antessif             | vwo(n)- | vw(o)-   | v(o)-   | vw(o)-  | vwo-    | vo-     |
-|   | apudessif            | þ(e)-   | ð(e)-    | ð(e)-   | ðe-     | þ(e)-   | ð(e)-   |
-|   | aversif              | ł(e)-   | ł(e)-    | ła-     | ł(e)-   | ł(e)-   | ła-     |
-|   | bénéfactif           | -at     | -et      | -at     | -at     | -at     | -aţ     |
+|   | [[cas-all][allatif]]              | -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-    |
+|   | [[cas-ante][antessif]]             | vwo(n)- | vw(o)-   | v(o)-   | vw(o)-  | vwo-    | vo-     |
+|   | [[cas-apu][apudessif]]            | þ(e)-   | ð(e)-    | ð(e)-   | ðe-     | þ(e)-   | ð(e)-   |
+|   | [[cas-evit][aversif]]              | ł(e)-   | ł(e)-    | ła-     | ł(e)-   | ł(e)-   | ła-     |
+|   | [[cas-ben][bénéfactif]]           | -at     | -et      | -at     | -at     | -at     | -aţ     |
 |   | causal               | -(o)by  | -(o)bu   | -(u)by  | -(o)by  | -(ob)y  | -(b)y   |
-|   | comitatif            | -ðai-   | -ðei-    | -ðei-   | -ðai-   | -ðei-   | -ðey-   |
+|   | [[cas-com][comitatif]]            | -ðai-   | -ðei-    | -ðei-   | -ðai-   | -ðei-   | -ðey-   |
 |   | comparatif           | -(oi)r  | -(oi)r   | -(oi)r  | -(oi)ţ  | -(oi)r  | -(oi)t  |
-|   | datif                | -at-    | -et-     | -at-    | -at-    | -at-    | -aţ-    |
-|   | délatif              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
-|   | distributif          | xe(š)-  | xe(l)-   | xe(ž)-  | xe(l)-  | ŗe(š)-  | ŗe(ž)-  |
-|   | distributif-temporel | -be     | -be      | -ve     | -be     | -va     | -fe     |
-|   | élatif               | -(a)ły  | -(e)ły   | -(a)ły  | -(a)łu  | -(e)ły  | -(e)ły  |
+|   | [[cas-dat][datif]]                | -at-    | -et-     | -at-    | -at-    | -at-    | -aţ-    |
+|   | [[cas-del][délatif]]              | ß(a)-   | ß(e)-    | ß(e)-   | ß(e)-   | ß(ai)-  | ß(a)-   |
+|   | [[cas-dat][distributif]]          | xe(š)-  | xe(l)-   | xe(ž)-  | xe(l)-  | ŗe(š)-  | ŗe(ž)-  |
+|   | [[cas-distemp][distributif-temporel]] | -be     | -be      | -ve     | -be     | -va     | -fe     |
+|   | [[cas-ela][élatif]]               | -(a)ły  | -(e)ły   | -(a)ły  | -(a)łu  | -(e)ły  | -(e)ły  |
 |   | équatif              | -(ń)t   | -(ń)t    | -(ń)t   | -(ĺ)t   | -(ń)st  | -(ń)ft  |
-|   | ergatif              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo  | -(u)jo  |
-|   | essif                | -(þ)yd- | -(þ)yd-  | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- |
+|   | [[cas-erg][ergatif]]              | -(u)jo  | -(y)jo   | -(í)jo  | -(é)jo  | -(u)jo  | -(u)jo  |
+|   | [[cas-ess][essif]]                | -(þ)yd- | -(þ)yd-  | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- |
 |   | essif-formel         | -(ò)ţ   | -(ò)d    | -(o)d   | -(o)ḑ   | -(ò)d   | -(ò)ň   |
 |   | essif-modal          | -(’)uix | -(’)uix  | -’yiŗ   | -(’)yiŗ | -(’)uŗ  | -(’)uiŗ |
 |   | excessif             | -ex     | -ex      | -eŗ     | -ex     | -ix     | -ex     |
-|   | génitif              | ţ(y)-   | ţ(u)-    | ţ(y)-   | ţ(y)-   | ţ(y)-   | ţ(yi)-  |
+|   | [[cas-gen][génitif]]              | ţ(y)-   | ţ(u)-    | ţ(y)-   | ţ(y)-   | ţ(y)-   | ţ(yi)-  |
 |   | identique            | -(e)tyr | -(a)tur  | -(a)tyr | -(e)tur | -(e)tur | -tyr    |
-|   | illatif              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
-|   | inessif              | -(a)ŕo- | -(e)ŕo-  | -ŕo(n)- | -(ń)ŕo- | -(a)ŕo- | -ŕo-    |
-|   | initiatif            | -(a)kĺ  | -(k)ĺ    | -(e)kĺ  | -(a)kĺ  | -(k)ĺ   | -(k)ĺ   |
-|   | instructif           | -(e)ň   | -(e)ň    | -(a)ň   | -eň     | -(e)ň   | -(a)ň   |
-|   | instrumental         | -(d)ĺ   | -(d)ĺ    | -(d)ĺ   | -(ḑ)ĺ   | -(d)ĺ   | -(ḑ)ĺ   |
-|   | intratif             | -fu(þ)- | -fu(ð)-  | -fu(ð)- | -fu(ð)- | -fy(þ)- | -fy(ð)- |
-|   | latif                | -(l)a   | -(l)ei   | -(l)òĺ  | -(l)e   | -(l)au  | -(l)ĺ   |
-|   | limitatif            | -(ò)mp  | -(e)mp   | -(ò)mp  | -(ò)mp  | -(ò)mp  | -(ò)mp  |
-|   | locatif              | l(a)-   | l(e)-    | l(i)-   | l(e)-   | le(þ)-  | l(e)-   |
+|   | [[cas-ill][illatif]]              | -(p)òn- | -(p)on-  | -(f)òn- | -(f)on- | -òn-    | -(p)òn- |
+|   | [[cas-ine][inessif]]              | -(a)ŕo- | -(e)ŕo-  | -ŕo(n)- | -(ń)ŕo- | -(a)ŕo- | -ŕo-    |
+|   | [[cas-init][initiatif]]            | -(a)kĺ  | -(k)ĺ    | -(e)kĺ  | -(a)kĺ  | -(k)ĺ   | -(k)ĺ   |
+|   | [[cas-instructive][instructif]]           | -(e)ň   | -(e)ň    | -(a)ň   | -eň     | -(e)ň   | -(a)ň   |
+|   | [[cas-instr][instrumental]]         | -(d)ĺ   | -(d)ĺ    | -(d)ĺ   | -(ḑ)ĺ   | -(d)ĺ   | -(ḑ)ĺ   |
+|   | [[cas-intrt][intratif]]             | -fu(þ)- | -fu(ð)-  | -fu(ð)- | -fu(ð)- | -fy(þ)- | -fy(ð)- |
+|   | [[cas-lat][latif]]                | -(l)a   | -(l)ei   | -(l)òĺ  | -(l)e   | -(l)au  | -(l)ĺ   |
+|   | [[cas-limit][limitatif]]            | -(ò)mp  | -(e)mp   | -(ò)mp  | -(ò)mp  | -(ò)mp  | -(ò)mp  |
+|   | [[cas-loc][locatif]]              | l(a)-   | l(e)-    | l(i)-   | l(e)-   | le(þ)-  | l(e)-   |
 |   | nominal              | -(eu)s  | -(eu)ß   | -(eu)s  | -(eu)ßt | -(eu)st | -(eu)s  |
-|   | nominatif            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
-|   | oblique              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß  | -(x)eß  |
+|   | [[cas-nom][nominatif]]            | p(a)-   | p(e)-    | p(a)-   | p(e)-   | p(a)-   | p(a)-   |
+|   | [[cas-obl][oblique]]              | -(ŗ)eß  | -(ŗ)eßt  | -(ŗ)ef  | -(ŗ)eft | -(ŗ)eß  | -(x)eß  |
 |   | orientatif           | f(o)-   | f(o)-    | f(u)-   | f(o)-   | þ(o)-   | f(o)-   |
-|   | partitif             | -’i(l)- | -’i(l)-  | -’y(l)- | -’u(l)- | -’i(l)- | -’i(l)- |
-|   | pégatif              | ey-     | eu-      | ey-     | ey-     | eu-     | ei-     |
-|   | perlatif             | ž(u)-   | ž(y)-    | ž(u)-   | š(u)-   | š(y)-   | ž(u)-   |
-|   | pertingent           | m(a)-   | m(a)-    | m(a)-   | m(e)-   | mj(a)-  | mj(e)-  |
-|   | postessif            | -(u)ß   | -(u)ßt   | -(y)ß   | -(y)ž   | -(u)š   | -(u)št  |
-|   | privatif             | ei-     | ei-      | eń-     | ež-     | ei-     | éĺ-     |
-|   | prolatif             | š(a)-   | š(a)-    | š(e)-   | š(ae)-  | ž(a)-   | š(ay)-  |
+|   | [[cas-ptv][partitif]]             | -’i(l)- | -’i(l)-  | -’y(l)- | -’u(l)- | -’i(l)- | -’i(l)- |
+|   | [[cas-peg][pégatif]]              | ey-     | eu-      | ey-     | ey-     | eu-     | ei-     |
+|   | [[cas-per][perlatif]]             | ž(u)-   | ž(y)-    | ž(u)-   | š(u)-   | š(y)-   | ž(u)-   |
+|   | [[cas-pert][pertingent]]           | m(a)-   | m(a)-    | m(a)-   | m(e)-   | mj(a)-  | mj(e)-  |
+|   | [[cas-poss][possessif]]            | -ţy     | -ţy      | -(i)ţy  | -ţy     | -(eu)ţ  | -(y)ţ   |
+|   | [[cas-poste][postessif]]            | -(u)ß   | -(u)ßt   | -(y)ß   | -(y)ž   | -(u)š   | -(u)št  |
+|   | [[cas-priv][privatif]]             | ei-     | ei-      | eń-     | ež-     | ei-     | éĺ-     |
+|   | [[cas-prol][prolatif]]             | š(a)-   | š(a)-    | š(e)-   | š(ae)-  | ž(a)-   | š(ay)-  |
 |   | révertif             | -ňo     | -ňò      | -ňò     | -ňò     | -ňe     | -ňò     |
-|   | semplatif            | -(ŗ)wo  | -(ŗ)wo   | -(ŗ)we  | -(ŗ)wo  | -(ŗ)wo  | -ŗwo    |
-|   | sociatif             | t(o)-   | t(e)-    | t(o)-   | t(o)-   | ţ(o)-   | te-     |
-|   | subessif             | ň(o)-   | ň(wo)-   | n(o)-   | n(wo)-  | ň(o)-   | ň(o)-   |
-|   | sublatif             | -(i)ţ   | -(i)ţ    | -(e)ţ   | -(i)ḑ   | -(i)ţ   | -(i)nţ  |
-|   | superessif           | tß(a)-  | tß(ań)-) | tß(ai)- | tßau-   | tß(e)-  | tß(a)-  |
-|   | temporel             | -(i)ňni | -(i)ňni  | -(i)ňni | -(i)mi  | -(i)ňni | -(i)nji |
-|   | terminatif           | -(ae)n  | -(ae)ň   | -(þ)aen | -(ð)aen | -(þ)aeň | -(ae)m  |
+|   | [[cas-sempl][semplatif]]            | -(ŗ)wo  | -(ŗ)wo   | -(ŗ)we  | -(ŗ)wo  | -(ŗ)wo  | -ŗwo    |
+|   | [[cas-soc][sociatif]]             | t(o)-   | t(e)-    | t(o)-   | t(o)-   | ţ(o)-   | te-     |
+|   | [[cas-sube][subessif]]             | ň(o)-   | ň(wo)-   | n(o)-   | n(wo)-  | ň(o)-   | ň(o)-   |
+|   | [[cas-subl][sublatif]]             | -(i)ţ   | -(i)ţ    | -(e)ţ   | -(i)ḑ   | -(i)ţ   | -(i)nţ  |
+|   | [[cas-supe][superessif]]           | tß(a)-  | tß(ań)-) | tß(ai)- | tßau-   | tß(e)-  | tß(a)-  |
+|   | [[cas-temp][temporel]]             | -(i)ňni | -(i)ňni  | -(i)ňni | -(i)mi  | -(i)ňni | -(i)nji |
+|   | [[cas-term][terminatif]]           | -(ae)n  | -(ae)ň   | -(þ)aen | -(ð)aen | -(þ)aeň | -(ae)m  |
 |   | translatif           | -(i)n   | -(i)n    | -(y)n   | -(e)n   | -in     | -(i)n   |
 |   | vocatif              | -wa     | -we      | -wa     | -wa     | -we     | -(d)wa  |
 
@@ -415,61 +416,62 @@ src_latex{\newpage}
 |   |                      | 4s      | 4p      | 5s       | 5p       | 6s       | 6p       |
 |---+----------------------+---------+---------+----------+----------+----------+----------|
 |   | abessif              | e(ň)-   | e(t)-   | e(st)-   | e(ßt)-   | e(nt)-   | e(ňt)-   |
-|   | ablatif              | li(ß)-  | li(ź)-  | li(ß)-   | li(ź)-   | li(s)-   | li(z)-   |
-|   | absolutif            | -(t)a   | -(š)a   | -(p)a    | -(v)a    | -(st)a   | -(ž)a    |
-|   | accusatif            | -(e)vo  | -(e)vo  | -(e)vo   | -(e)vo   | -(a)vo   | -(a)vo   |
-|   | accusatif-temporel   | -(a)źu  | -(e)źu  | -(u)źu   | -(ai)źu  | -(i)źu   | -(u)źu   |
-|   | adessif              | iź(a)-  | iź(ei)- | iź(a)-   | iź(ei)-  | iź(a)-   | iź(ei)-  |
+|   | [[cas-abl][ablatif]]              | li(ß)-  | li(ź)-  | li(ß)-   | li(ź)-   | li(s)-   | li(z)-   |
+|   | [[cas-abs][absolutif]]            | -(t)a   | -(š)a   | -(p)a    | -(v)a    | -(st)a   | -(ž)a    |
+|   | [[cas-acc][accusatif]]            | -(e)vo  | -(e)vo  | -(e)vo   | -(e)vo   | -(a)vo   | -(a)vo   |
+|   | [[cas-atemp][accusatif-temporel]]   | -(a)źu  | -(e)źu  | -(u)źu   | -(ai)źu  | -(i)źu   | -(u)źu   |
+|   | [[cas-ade][adessif]]              | iź(a)-  | iź(ei)- | iź(a)-   | iź(ei)-  | iź(a)-   | iź(ei)-  |
 |   | adverbial            | -ei     | -ai     | -ai      | -ei      | -eu      | -ey      |
-|   | allatif              | -li(s)- | -li(ź)- | -li(z)-  | -li(š)-  | -li(x)-  | -li(x)-  |
-|   | antessif             | we-     | w(e)-   | w(o)-    | w(e)-    | v(e)-    | v(wo)-   |
-|   | apudessif            | þe(n)-  | þ(e)-   | v(e)-    | ve(n)-   | þ(e)-    | ð(e)-    |
-|   | aversif              | ł(e)-   | ła-     | la-      | ł(e)-    | ła-      | ł(e)-    |
-|   | bénéfactif           | -at     | -aţ     | -aţ      | -aţ      | -et      | -(v)et   |
+|   | [[cas-all][allatif]]              | -li(s)- | -li(ź)- | -li(z)-  | -li(š)-  | -li(x)-  | -li(x)-  |
+|   | [[cas-ante][antessif]]             | we-     | w(e)-   | w(o)-    | w(e)-    | v(e)-    | v(wo)-   |
+|   | [[cas-apu][apudessif]]            | þe(n)-  | þ(e)-   | v(e)-    | ve(n)-   | þ(e)-    | ð(e)-    |
+|   | [[cas-evit][aversif]]              | ł(e)-   | ła-     | la-      | ł(e)-    | ła-      | ł(e)-    |
+|   | [[cas-ben][bénéfactif]]           | -at     | -aţ     | -aţ      | -aţ      | -et      | -(v)et   |
 |   | causal               | -(o)by  | -(o)by  | -(o)by   | -(o)by   | -(o)bu   | -(o)bu   |
-|   | comitatif            | -ðeń-   | -ðei-   | -ðei(n)- | -ðey-    | -ðei-    | -ðey-    |
+|   | [[cas-com][comitatif]]            | -ðeń-   | -ðei-   | -ðei(n)- | -ðey-    | -ðei-    | -ðey-    |
 |   | comparatif           | -(oi)t  | -(oi)ţ  | -oir     | -er      | -(oi)r   | -oit     |
-|   | datif                | -at-    | -aţ-    | -aţ-     | -aţ-     | -et-     | -(v)et-  |
-|   | délatif              | š(a)-   | š(e)-   | ž(a)-    | ž(e)-    | ž(a)-    | ž(a)-    |
-|   | distributif          | he(l)-  | he(l)-  | he(l)-   | he(l)-   | ha(l)-   | ha(l)-   |
-|   | distributif-temporel | -be     | -ba     | -ba      | -ve      | -ve      | -va      |
+|   | [[cas-dat][datif]]                | -at-    | -aţ-    | -aţ-     | -aţ-     | -et-     | -(v)et-  |
+|   | [[cas-del][délatif]]              | š(a)-   | š(e)-   | ž(a)-    | ž(e)-    | ž(a)-    | ž(a)-    |
+|   | [[cas-dat][distributif]]          | he(l)-  | he(l)-  | he(l)-   | he(l)-   | ha(l)-   | ha(l)-   |
+|   | [[cas-distemp][distributif-temporel]] | -be     | -ba     | -ba      | -ve      | -ve      | -va      |
 |   | élatif               | -(ł)y   | -(ł)y   | -(ł)y    | -(ł)yi   | -(ł)u    | -(ł)yi   |
 |   | équatif              | -(ń)t   | -(ń)ḑ   | -(ń)ţ    | -(ń)t    | -(ĺ)ḑ    | -(ń)ţ    |
-|   | ergatif              | -(ò)jo  | -(y)jo  | -(lj)o   | -(lj)o   | -(mj)o   | -(lj)o   |
-|   | essif                | -(þ)yḑ- | -(þ)yḑ- | -(ð)yţ-  | -(ð)yţ-  | -(þ)ud-  | -(þ)ud-  |
+|   | [[cas-erg][ergatif]]              | -(ò)jo  | -(y)jo  | -(lj)o   | -(lj)o   | -(mj)o   | -(lj)o   |
+|   | [[cas-ess][essif]]                | -(þ)yḑ- | -(þ)yḑ- | -(ð)yţ-  | -(ð)yţ-  | -(þ)ud-  | -(þ)ud-  |
 |   | essif-temporel       | -(ţ)òd  | -(ţ)ed  | -(ţ)òd   | -òd      | -(ò)d    | ò(d)-    |
 |   | essif-modal          | -(’)uŗ  | -(’)uŗ  | -’u      | -(’)yŗ   | -(’)yiŗ  | -(’)yŗ   |
 |   | excessif             | -ex     | -eŕ     | -ex      | -aŗ      | -ex      | -eŗ      |
-|   | génitif              | ţy-     | ţy-     | ţy(i)-   | ţy-      | ţ(eu)-   | ţo(y)-   |
+|   | [[cas-gen][génitif]]              | ţy-     | ţy-     | ţy(i)-   | ţy-      | ţ(eu)-   | ţo(y)-   |
 |   | identique            | -tur    | -(e)tur | -(a)tur  | -(e)tur  | -tyr     | -tyr     |
-|   | illatif              | -(s)òn- | -(s)en- | -(s)en-  | -(s)an-  | -(ps)òn- | -(ps)en- |
-|   | inessif              | -(e)ŕo- | -(a)ŕo- | -(e)ŕo-  | -ŕo-     | -ŕo-     | -(a)ŕo-  |
-|   | initiatif            | -(e)kĺ  | -(e)kń  | -(a)kĺ   | -(ei)kń  | -akĺ     | -ekĺ     |
-|   | instructif           | -(e)ň   | -eň     | -aň      | -(e)ň    | -(ea)ň   | -(e)ň    |
-|   | instrumental         | -(d)ĺ   | -(ţ)ĺ   | -(d)ĺ    | -ḑĺ      | -(d)ĺ    | -(d)ń    |
-|   | intratif             | -fu(þ)- | -fy-    | -fy(ð)-  | -fy(ð)-  | -fu(ð)-  | -þy(ð)-  |
-|   | latif                | -(l)ń   | -(l)a   | -(l)a    | -le      | -la      | -la      |
-|   | limitatif            | -(ò)mp  | -(ò)mp  | -(ò)mp   | -(ò)mp   | -(e)mp   | -(ò)mp   |
-|   | locatif              | l(e)-   | l(e)-   | lj(a)-   | l(a)-    | ła-      | ł(a)-    |
+|   | [[cas-ill][illatif]]              | -(s)òn- | -(s)en- | -(s)en-  | -(s)an-  | -(ps)òn- | -(ps)en- |
+|   | [[cas-ine][inessif]]              | -(e)ŕo- | -(a)ŕo- | -(e)ŕo-  | -ŕo-     | -ŕo-     | -(a)ŕo-  |
+|   | [[cas-init][initiatif]]            | -(e)kĺ  | -(e)kń  | -(a)kĺ   | -(ei)kń  | -akĺ     | -ekĺ     |
+|   | [[cas-instructive][instructif]]           | -(e)ň   | -eň     | -aň      | -(e)ň    | -(ea)ň   | -(e)ň    |
+|   | [[cas-instr][instrumental]]         | -(d)ĺ   | -(ţ)ĺ   | -(d)ĺ    | -ḑĺ      | -(d)ĺ    | -(d)ń    |
+|   | [[cas-intrt][intratif]]             | -fu(þ)- | -fy-    | -fy(ð)-  | -fy(ð)-  | -fu(ð)-  | -þy(ð)-  |
+|   | [[cas-lat][latif]]                | -(l)ń   | -(l)a   | -(l)a    | -le      | -la      | -la      |
+|   | [[cas-limit][limitatif]]            | -(ò)mp  | -(ò)mp  | -(ò)mp   | -(ò)mp   | -(e)mp   | -(ò)mp   |
+|   | [[cas-loc][locatif]]              | l(e)-   | l(e)-   | lj(a)-   | l(a)-    | ła-      | ł(a)-    |
 |   | nominal              | -(eu)s  | -(eo)ß  | -eus     | -eušt    | -eus     | -(eu)ß   |
-|   | nominatif            | pa(n)-  | pa(ń)-  | pń-      | pń-      | pa(m)-   | pa-      |
-|   | oblique              | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   | -(ŗ)ef   | -(ŗ)òß   |
+|   | [[cas-nom][nominatif]]            | pa(n)-  | pa(ń)-  | pń-      | pń-      | pa(m)-   | pa-      |
+|   | [[cas-obl][oblique]]              | -(ŗ)ef  | -(ŗ)òß  | -(ŗ)ef   | -(ŗ)òß   | -(ŗ)ef   | -(ŗ)òß   |
 |   | orientatif           | f(o)-   | v(o)-   | þ(o)-    | ð(o)-    | þ(o)-    | þo-      |
-|   | partitif             | -’i(l)- | -’il-   | -’il(y)- | -ili(’)- | -’i(ł)-  | -’e(ł)-  |
-|   | pégatif              | ey-     | ei-     | ei-      | eu-      | ey-      | eu-      |
-|   | perlatif             | š(ui)-  | ž(ui)-  | š(eu)-   | š(ey)-   | š(oy)-   | ž(ou)-   |
-|   | pertingent           | m(e)-   | m(e)-   | m(a)-    | m(e)-    | mj(ò)-   | mj(e)-   |
-|   | postessif            | -(u)š   | -(u)ß   | -(u)ß    | -(u)þ    | -(u)ž    | -(y)š    |
-|   | privatif             | ei-     | ae-     | eiḑ-     | ei-      | ei-      | ei-      |
-|   | prolatif             | ša-     | š(e)-   | š(e)-    | ž(a)-    | š(e)-    | še-      |
+|   | [[cas-ptv][partitif]]             | -’i(l)- | -’il-   | -’il(y)- | -ili(’)- | -’i(ł)-  | -’e(ł)-  |
+|   | [[cas-peg][pégatif]]              | ey-     | ei-     | ei-      | eu-      | ey-      | eu-      |
+|   | [[cas-per][perlatif]]             | š(ui)-  | ž(ui)-  | š(eu)-   | š(ey)-   | š(oy)-   | ž(ou)-   |
+|   | [[cas-pert][pertingent]]           | m(e)-   | m(e)-   | m(a)-    | m(e)-    | mj(ò)-   | mj(e)-   |
+|   | [[cas-poss][possessif]]            | -eţy    | -eţy    | -(i)ţy   | -oţy     | -(e)uţ   | -(o)iţ   |
+|   | [[cas-poste][postessif]]            | -(u)š   | -(u)ß   | -(u)ß    | -(u)þ    | -(u)ž    | -(y)š    |
+|   | [[cas-priv][privatif]]             | ei-     | ae-     | eiḑ-     | ei-      | ei-      | ei-      |
+|   | [[cas-prol][prolatif]]             | ša-     | š(e)-   | š(e)-    | ž(a)-    | š(e)-    | še-      |
 |   | révertif             | -ňò     | -ňò     | -ňoe     | -ňò      | -ňò      | -ňe      |
-|   | semplatif            | -ŗwe    | -(ŗ)wo  | -ŗwo     | -(ŗ)wo   | -ŗwo     | -ŗwe     |
-|   | sociatif             | t(o)-   | t(e)-   | ţe-      | t(o)-    | to-      | ţo-      |
-|   | subessif             | nw(o)-  | n(we)-  | ň(e)-    | ň(o)-    | ne-      | ňe-      |
-|   | sublatif             | -(i)fţ  | -(i)þţ  | -(e)nţ   | -(eu)ţ   | -(a)ţ    | -(i)nţ   |
-|   | superessif           | ßt(e)-  | tß(ei)- | tß(e)-   | št(a)-   | ßt(a)-   | ßt(a)-   |
-|   | temporel             | -(y)ňni | -(ň)ne  | -eňni    | -(i)mji  | -(i)ňni  | -(iň)ni  |
-|   | terminatif           | -(ae)n  | -aem    | -aeň     | -aem     | -(ae)nz  | ae(ň)-   |
+|   | [[cas-sempl][semplatif]]            | -ŗwe    | -(ŗ)wo  | -ŗwo     | -(ŗ)wo   | -ŗwo     | -ŗwe     |
+|   | [[cas-soc][sociatif]]             | t(o)-   | t(e)-   | ţe-      | t(o)-    | to-      | ţo-      |
+|   | [[cas-sube][subessif]]             | nw(o)-  | n(we)-  | ň(e)-    | ň(o)-    | ne-      | ňe-      |
+|   | [[cas-subl][sublatif]]             | -(i)fţ  | -(i)þţ  | -(e)nţ   | -(eu)ţ   | -(a)ţ    | -(i)nţ   |
+|   | [[cas-supe][superessif]]           | ßt(e)-  | tß(ei)- | tß(e)-   | št(a)-   | ßt(a)-   | ßt(a)-   |
+|   | [[cas-temp][temporel]]             | -(y)ňni | -(ň)ne  | -eňni    | -(i)mji  | -(i)ňni  | -(iň)ni  |
+|   | [[cas-term][terminatif]]           | -(ae)n  | -aem    | -aeň     | -aem     | -(ae)nz  | ae(ň)-   |
 |   | translatif           | -(i)n   | -(y)m   | -(i)ň    | -(i)n    | -(i)m    | -(i)n    |
 |   | vocatif              | -wa     | -ja     | -je      | -v(w)e   | -va      | -ve      |
 
@@ -478,61 +480,62 @@ src_latex{\newpage}
 |   |                      | 7s      | 7p      | 8s       | 8p      | 9s        | 9p        |
 |---+----------------------+---------+---------+----------+---------+-----------+-----------|
 |   | abessif              | e-      | e(s)-   | e-       | e(ňt)-  | e(mt)-    | e(ňt)-    |
-|   | ablatif              | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-     | ĺ(v)-     |
-|   | absolutif            | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a     | -(ž)a     |
-|   | accusatif            | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy       | -vy       |
-|   | accusatif-temporel   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu    | -(o)źu    |
-|   | adessif              | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-    | iŗ(e)-    |
+|   | [[cas-abl][ablatif]]              | lń(d)-  | lń(d)-  | ĺ(z)-    | ĺ(z)-   | ĺ(v)-     | ĺ(v)-     |
+|   | [[cas-abs][absolutif]]            | -(r)a   | -(r)a   | -(x)a    | -(š)a   | -(ŗ)a     | -(ž)a     |
+|   | [[cas-acc][accusatif]]            | -(u)vo  | -(u)vo  | -vu      | -vu     | -vy       | -vy       |
+|   | [[cas-atemp][accusatif-temporel]]   | -(o)źu  | -(o)źu  | -(o)źu   | -(o)źu  | -(o)źu    | -(o)źu    |
+|   | [[cas-ade][adessif]]              | iź(a)-  | iź(ei)- | iŗ(a)-   | iŗ(a)-  | iŗ(e)-    | iŗ(e)-    |
 |   | adverbial            | -ei     | -ei     | -ei      | -(r)ei  | -(ei)r    | -(ey)r    |
-|   | allatif              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
-|   | antessif             | vw(o)-  | v(u)-   | v(u)-    | v(u)-   | vw(o)-    | vu-       |
-|   | apudessif            | ð(ei)-  | ðe(m)-  | f(e)-    | fe-     | vei-      | fei-      |
-|   | aversif              | ł(e)-   | ł(e)-   | ła-      | l(e)-   | ł(e)-     | ł(e)-     |
-|   | bénéfactif           | -at     | -et     | -ast     | -aþ     | -at       | -et       |
+|   | [[cas-all][allatif]]              | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ-   | -(l)ið-   |
+|   | [[cas-ante][antessif]]             | vw(o)-  | v(u)-   | v(u)-    | v(u)-   | vw(o)-    | vu-       |
+|   | [[cas-apu][apudessif]]            | ð(ei)-  | ðe(m)-  | f(e)-    | fe-     | vei-      | fei-      |
+|   | [[cas-evit][aversif]]              | ł(e)-   | ł(e)-   | ła-      | l(e)-   | ł(e)-     | ł(e)-     |
+|   | [[cas-ben][bénéfactif]]           | -at     | -et     | -ast     | -aþ     | -at       | -et       |
 |   | causal               | -(o)vu  | -(e)vy  | -(e)vy   | -(e)vy  | -vy       | -vy       |
-|   | comitatif            | -ðei-   | -ðei-   | -ðeu-    | -ðei-   | -ðeu-     | -ðeu-     |
+|   | [[cas-com][comitatif]]            | -ðei-   | -ðei-   | -ðeu-    | -ðei-   | -ðeu-     | -ðeu-     |
 |   | comparatif           | -(oi)r  | -(oi)r  | -or      | -(oi)r  | -oiŗ      | -(oi)ŗ    |
-|   | datif                | -at-    | -et-    | -ast-    | -aþ-    | -at-      | -et-      |
-|   | délatif              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
-|   | distributif          | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-    | še(l)-    |
-|   | distributif-temporel | -(b)e   | -be     | -bei     | -(b)ei  | -be       | -be       |
+|   | [[cas-dat][datif]]                | -at-    | -et-    | -ast-    | -aþ-    | -at-      | -et-      |
+|   | [[cas-del][délatif]]              | ß(eu)-  | ß(eu)-  | ß(a)-    | ß(a)-   | ßa(l)-    | ße(l)-    |
+|   | [[cas-dat][distributif]]          | hei(l)- | hea(l)- | hea(l)-  | hea(l)- | še(l)-    | še(l)-    |
+|   | [[cas-distemp][distributif-temporel]] | -(b)e   | -be     | -bei     | -(b)ei  | -be       | -be       |
 |   | élatif               | -ły     | -(a)ły  | -(ł)ay   | -(ł)ey  | -(ł)ay    | -łay      |
 |   | équatif              | -(ń)t   | -(ń)t   | -ńt      | -(ń)t   | -(ń)t     | -ńt       |
-|   | ergatif              | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo    | -(u)jo    |
-|   | essif                | -þy(d)- | -þy(d)- | -þy(d)-  | -þy(d)- | -(oi)þyd- | -(oi)þyd- |
+|   | [[cas-erg][ergatif]]              | -jo     | -jo     | -(o)jo   | -(e)jo  | -(u)jo    | -(u)jo    |
+|   | [[cas-ess][essif]]                | -þy(d)- | -þy(d)- | -þy(d)-  | -þy(d)- | -(oi)þyd- | -(oi)þyd- |
 |   | essif-temporel       | -òd     | -(ò)ns  | -òd      | -òts    | -(ò)ß     | -(ò)ßt    |
 |   | essif-modal          | -(’)uŗ  | -(’)u   | -(’)u    | -(’)ust | -(’)uŗ    | -(’)uŗ    |
 |   | excessif             | -ex     | -(e)x   | -(a)x    | -ex     | -eŕ       | -ex       |
-|   | génitif              | ţy-     | ţ(u)-   | ţ(u)-    | ţu-     | ţ(y)-     | ţ(u)-     |
+|   | [[cas-gen][génitif]]              | ţy-     | ţ(u)-   | ţ(u)-    | ţu-     | ţ(y)-     | ţ(u)-     |
 |   | identique            | -(e)tur | -(e)tur | -(t)ur   | -tur    | -(e)tur   | -(o)tur   |
-|   | illatif              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
-|   | inessif              | -(o)ŕo- | -(a)ŕo- | -(a)ŕo-  | -(u)ŕo- | -(e)ŕo-   | -(a)ŕo-   |
-|   | initiatif            | -(a)kĺ  | -(e)kń  | ak(ĺ)-   | k(ń)-   | -(k)ĺ     | -(k)ń     |
-|   | instructif           | -eň     | -eňt    | -(e)ňz   | -(e)ň   | -(e)ň     | -(e)ňt    |
-|   | instrumental         | -(d)ĺ   | -(d)ĺ   | -(d)ń    | -(ḑ)ń   | -(d)ĺ     | -(d)ĺ     |
-|   | intratif             | -(f)yþ- | -fu-    | -fi(ŕ)-  | -fe(ŕ)- | -fu(ð)-   | -fu(þ)-   |
-|   | latif                | -(a)la  | -(e)la  | -(l)e    | -(l)ai  | -(l)ae    | -la       |
-|   | limitatif            | -(a)mp  | -(a)mp  | -(a)mp   | -(a)mp  | -(ò)mp    | -(ò)mp    |
-|   | locatif              | l(au)-  | l(ai)-  | l(a)-    | la-     | ĺ-        | l(e)-     |
+|   | [[cas-ill][illatif]]              | -òn-    | -(v)òn- | -(ŕ)òn-  | -(ŕ)òn- | -(ŕ)òn-   | -(ŕ)en-   |
+|   | [[cas-ine][inessif]]              | -(o)ŕo- | -(a)ŕo- | -(a)ŕo-  | -(u)ŕo- | -(e)ŕo-   | -(a)ŕo-   |
+|   | [[cas-init][initiatif]]            | -(a)kĺ  | -(e)kń  | ak(ĺ)-   | k(ń)-   | -(k)ĺ     | -(k)ń     |
+|   | [[cas-instructive][instructif]]           | -eň     | -eňt    | -(e)ňz   | -(e)ň   | -(e)ň     | -(e)ňt    |
+|   | [[cas-instr][instrumental]]         | -(d)ĺ   | -(d)ĺ   | -(d)ń    | -(ḑ)ń   | -(d)ĺ     | -(d)ĺ     |
+|   | [[cas-intrt][intratif]]             | -(f)yþ- | -fu-    | -fi(ŕ)-  | -fe(ŕ)- | -fu(ð)-   | -fu(þ)-   |
+|   | [[cas-lat][latif]]                | -(a)la  | -(e)la  | -(l)e    | -(l)ai  | -(l)ae    | -la       |
+|   | [[cas-limit][limitatif]]            | -(a)mp  | -(a)mp  | -(a)mp   | -(a)mp  | -(ò)mp    | -(ò)mp    |
+|   | [[cas-loc][locatif]]              | l(au)-  | l(ai)-  | l(a)-    | la-     | ĺ-        | l(e)-     |
 |   | nominal              | -(eu)s  | -(eu)ß  | -(eu)s   | -(ei)š  | -(eu)s    | -(eu)st   |
-|   | nominatif            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
-|   | oblique              | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß   | -(x)oiß   |
+|   | [[cas-nom][nominatif]]            | pa(l)-  | pa(l)-  | pa(ß)-   | pe(ß)-  | pa-       | pa-       |
+|   | [[cas-obl][oblique]]              | -(x)eß  | -(x)eß  | -(x)eß   | -(x)eß  | -(x)uiß   | -(x)oiß   |
 |   | orientatif           | f(o)-   | f(u)-   | f(o)-    | vo-     | þo-       | fo-       |
-|   | partitif             | -’i(l)- | -gi(l)- | -’i(l)-  | -ki(l)- | -’i(l)-   | -’i(l)-   |
-|   | pégatif              | eu-     | ey-     | ey-      | ey-     | ei-       | ey-       |
-|   | perlatif             | ž(u)-   | ž(e)-   | ž(u)-    | ž(u)-   | š(y)-     | ž(u)-     |
-|   | pertingent           | m(e)-   | m(u)-   | m(a)-    | m(o)-   | m(e)-     | m(e)-     |
-|   | postessif            | -(u)ß   | -(u)ź   | -(y)ź    | -(y)ž   | -(y)tß    | -(y)ßt    |
-|   | privatif             | ei-     | ei-     | ei-      | ei-     | eń-       | eń-       |
-|   | prolatif             | š(a)-   | šei-    | še-      | š(a)-   | š(ey)-    | ž(e)-     |
+|   | [[cas-ptv][partitif]]             | -’i(l)- | -gi(l)- | -’i(l)-  | -ki(l)- | -’i(l)-   | -’i(l)-   |
+|   | [[cas-peg][pégatif]]              | eu-     | ey-     | ey-      | ey-     | ei-       | ey-       |
+|   | [[cas-per][perlatif]]             | ž(u)-   | ž(e)-   | ž(u)-    | ž(u)-   | š(y)-     | ž(u)-     |
+|   | [[cas-pert][pertingent]]           | m(e)-   | m(u)-   | m(a)-    | m(o)-   | m(e)-     | m(e)-     |
+|   | [[cas-poss][possessif]]            | -(ţ)y   | -(e)ţy  | -iţy     | -ţy     | -yţ       | -iţ       |
+|   | [[cas-poste][postessif]]            | -(u)ß   | -(u)ź   | -(y)ź    | -(y)ž   | -(y)tß    | -(y)ßt    |
+|   | [[cas-priv][privatif]]             | ei-     | ei-     | ei-      | ei-     | eń-       | eń-       |
+|   | [[cas-prol][prolatif]]             | š(a)-   | šei-    | še-      | š(a)-   | š(ey)-    | ž(e)-     |
 |   | révertif             | -ňo     | -ňo     | -ňò      | -ňo     | -(ň)ò     | -ňo       |
-|   | semplatif            | -(ŗ)wo  | -(ŗ)wo  | -(ŗ)we   | -(ŗ)wo  | -(ŗ)wo    | -(ŗ)wo    |
-|   | sociatif             | te-     | t(o)-   | t(o)-    | to-     | t(o)-     | t(o)-     |
-|   | subessif             | ňe-     | ňo-     | nw(a)-   | n(wa)-  | n(a)-     | na-       |
-|   | sublatif             | -(i)ţ   | -(i)ßţ  | -(i)šţ   | -(i)ţ   | -(r)iţ    | -iţ       |
-|   | superessif           | tß(ao)- | tß(ae)- | tßa-     | ßta-    | ßt(e)-    | tß(a)-    |
-|   | temporel             | -(i)ňni | -(i)ňni | -(e)ňni  | -(i)ňni | -(y)ňni   | -iňni     |
-|   | terminatif           | -(ae)n  | -(ae)n  | -(ae)m   | -ae     | -(ai)n    | -(ai)ň    |
+|   | [[cas-sempl][semplatif]]            | -(ŗ)wo  | -(ŗ)wo  | -(ŗ)we   | -(ŗ)wo  | -(ŗ)wo    | -(ŗ)wo    |
+|   | [[cas-soc][sociatif]]             | te-     | t(o)-   | t(o)-    | to-     | t(o)-     | t(o)-     |
+|   | [[cas-sube][subessif]]             | ňe-     | ňo-     | nw(a)-   | n(wa)-  | n(a)-     | na-       |
+|   | [[cas-subl][sublatif]]             | -(i)ţ   | -(i)ßţ  | -(i)šţ   | -(i)ţ   | -(r)iţ    | -iţ       |
+|   | [[cas-supe][superessif]]           | tß(ao)- | tß(ae)- | tßa-     | ßta-    | ßt(e)-    | tß(a)-    |
+|   | [[cas-temp][temporel]]             | -(i)ňni | -(i)ňni | -(e)ňni  | -(i)ňni | -(y)ňni   | -iňni     |
+|   | [[cas-term][terminatif]]           | -(ae)n  | -(ae)n  | -(ae)m   | -ae     | -(ai)n    | -(ai)ň    |
 |   | translatif           | -(i)n   | -(i)n   | -in      | -iň     | -iň       | -iň       |
 |   | vocatif              | -wa     | -wa     | -wein    | -wa     | -wa       | -weŕ      |
 src_latex{\newpage}
@@ -551,8 +554,8 @@ Exemple : iŗeménóst (ADE-maison-pl.) à côté des maisons
 - <<cas-ante>>Cas antessif (/ANTE/) :: indique un lieu antérieur à l’élément.
 Exemple : vwomén (ANTE-maison) avant la maison / devant la maison
 
-Exemple : veimén (APU-maison) à côté de la maison
 - <<cas-apu>>Cas apudessif (/APU/) :: indique un lieu à côté, proche de l’élément. L’élément n’est pas adjacent au lieu, auquel cas il faudrait utiliser le cas adessif.
+Exemple : veimén (APU-maison) à côté de la maison
 
 - <<cas-ine>>Cas inessif (/INE/) :: indique un lieu à l’intérieur de l’élément.
 Exemple : mérón (<INE>maison) dans la maison
@@ -619,35 +622,35 @@ Exemple : La mouche vole vers le livre. (sous-entendu, la couverture)
 
 - <<cas-term>>Cas terminatif (/TERM/) :: le mouvement a pour but l’élément.
 Exemple : Je voyage jusqu’à Ðbńo.
-| etrjáléís                     | Ðbńoþaen  | né           |
-| voyager(NOM prés-indic 1s2SG) | Ðbńo-TERM | je(NOM-1s6G) |
+| etrjáléís                     | Ðbńoþaen  | né       |
+| voyager(NOM prés-indic 1s2SG) | Ðbńo-TERM | 1s6G-NOM |
 
 **** Déplacement via un élément
 - <<cas-per>>Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
 Exemple : Je voyage le long de la rivière.
-| etrjáléís                     | šyłánt                 | né           |
-| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | je(NOM-1s6G) |
+| etrjáléís                     | šyłánt                 | né       |
+| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | 1s6G-NOM |
 
 - <<cas-prol>>Cas prolatif (/PROL/) :: mouvement en utilisant l’élément ou sur sa surface.
 Exemple : Je navigue sur l’océan côtier.
-| ’elḑökay                       | šielt               | né           |
-| naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | je(NOM-1s6G) |
+| ’elḑökay                       | šielt               | né       |
+| naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | 1s6G-NOM |
 
 **** Temps
 - <<cas-atemp>>Cas accusatif-temporel (/ATEMP/) :: indication d’une durée de temps, peut remplacer l’accusatif d’une proposition nominative-accusative avec un verbe transitif.
 Exemple : J’ai dormis sept heures.
-| ’oherénté                    | heolí’            | pńtwánźu   | né           |
-| dormir-(NOM passé m p 1s2SG) | heure(mesure)-GEN | sept-ATEMP | je(NOM-1s6G) |
+| ’oherénté                    | heolí’            | pńtwánźu   | né       |
+| dormir-(NOM passé m p 1s2SG) | heure(mesure)-GEN | sept-ATEMP | 1s6G-NOM |
 
 - <<cas-ess>>Cas essif (/ESS/) :: l’élément indique la date où le moment où un événement se produit.
 Exemple : Je dors habituellement à sept heures.
-| ’oheroméis                   | hebéómi’  | pudńtwán  | né           |
-| dormir(NOM prés-habit 1s2SG) | heure-GEN | <ESS>sept | je(NOM-1s6G) |
+| ’oheroméis                   | hebéómi’  | pudńtwán  | né       |
+| dormir(NOM prés-habit 1s2SG) | heure-GEN | <ESS>sept | 1s6G-NOM |
 
 - <<cas-limit>>Cas limitatif (/LIMIT/) :: l’élément indique une limite dans le temps.
 Exemple : Je dors habituellement jusqu’à sept heures.
-| ’oheroméis                   | hebéómi’  | pńtwánòmp  | né           |
-| dormir(NOM prés-habit 1s2SG) | heure-GEN | sept-LIMIT | je(NOM-1s6G) |
+| ’oheroméis                   | hebéómi’  | pńtwánòmp  | né       |
+| dormir(NOM prés-habit 1s2SG) | heure-GEN | sept-LIMIT | 1s6G-NOM |
 
 - <<cas-temp>>Cas temporel (/TEMP/) :: l’élément désigne un moment (cas général).
 Exemple : à sept heures
@@ -672,19 +675,21 @@ Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
 | néí      | nweţuŗa  | kĺnéínté                          |
 | 1s6G.ERG | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
-- Cas instructif (/INSTRUCTIVE/) :: indique le moyen employé, répond à la question /comment ?/.
+- <<cas-instructive>>Cas instructif (/INSTRUCTIVE/) :: indique le moyen employé, répond à la question /comment ?/.
 Exemple : J’ai brisé le vase en tombant. (comme je suis tombé, sous-entendu involontairement, j’ai brisé le vase)
 | néí      | žybdinobyente                    | nweţuŗa  | kĺnéínté                          |
 | 1s6G.ERG | tomber(ERG pas. moy. pft. 1s2SG) | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
-- Cas instrumental (/INSTR/) :: indique l’instrument utilisé, répond à la question /au moyen de quel objet ?/.
+- <<cas-instr>>Cas instrumental (/INSTR/) :: indique l’instrument utilisé, répond à la question /au moyen de quel objet ?/.
+| néí      | pńtédń             | nweţuŗa  | kĺnéínté                          |
+| 1s6G.ERG | pied.POSS-6s.INSTR | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
 - <<cas-nom>>Cas nominatif (/NOM/) :: indique le sujet d’un verbe intransitif ou l’agent d’un verbe transitif dans une proposition nominative. S’oppose à l’[[cas-acc][accusatif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
 Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
 | kĺnénté                     | nweţuvy  | né       |
 | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
 
-- Cas oblique (/OBL/) :: marque le verbe, indique la proposition comme étant une citation. Les sous-propositions n’ont pas besoin d’être marquée. Remplace l’[[cas-acc][accusatif]] dans les propositions nominatives, et l’[[cas-abs][absolutif]] dans les propositions ergatives.
+- <<cas-obl>>Cas oblique (/OBL/) :: marque le verbe, indique la proposition comme étant une citation. Les sous-propositions n’ont pas besoin d’être marquée. Remplace l’[[cas-acc][accusatif]] dans les propositions nominatives, et l’[[cas-abs][absolutif]] dans les propositions ergatives.
 Exemple : j’ai dis que j’ai cassé (involontairement) le vase.
 | ŗeðénté                   | kĺnéntéŗòß                  | nweţuŗa  | né       |
 | dire(NOM passé m p 1s2SG) | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
@@ -694,35 +699,38 @@ Exemple : j’ai dis que j’ai cassé (involontairement) le vase.
 **** Relation
 - <<cas-evit>>Cas aversif (/EVIT/) :: indique que l’élément est évité ou craint.
 Exemple : Je navigue sur l’océan côtier tout en évitant Notń.
-| ’elḑökay                       | łaNotń    | šielt               | né           |
-| naviguer(NOM prés-indic 1s2SG) | EVIT-Notń | PROL-(océan côtier) | je(NOM-1s6G) |
+| ’elḑökay                       | łaNotń    | šielt               | né       |
+| naviguer(NOM prés-indic 1s2SG) | EVIT-Notń | PROL-(océan côtier) | 1s6G-NOM |
 
 - <<cas-ben>>Cas bénéfactif (/BEN/) :: indique la personne ou le concept motivant une proposition d’un verbe d’action. S’il est omis à la première personne, on assume que le bénéfacteur est le sujet ou l’agent ; à la seconde ou à la troisième personne, on assume que le bénéfacteur est inconnu.
 Exemple : Je navigue sur l’océan côtier (l’action est motivée par ou due à Mérian).
-| Merianaţ   | ’elḑökay                       | šielt               | né           |
-| Merian-BEN | naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | je(NOM-1s6G) |
+| Merianaţ   | ’elḑökay                       | šielt               | né       |
+| Merian-BEN | naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | 1s6G-NOM |
 
 - <<cas-com>>Cas comitatif (/COM/) :: indique un accompagnement par l’élément décliné, comparable au « avec » ou « et » en Français. L’action doit être partagée entre le sujet ou agent de la proposition et l’élément décliné, c’est à dire que l’élément est souvent un compagnon dans la situation (sans conotation positive ou négative).
 Exemple : Je voyage le long de la rivière accompagné de Romur. (Romur et moi partageons l’expérience du voyage).
-| etrjáléís                     | šyłánt                 | Romyðeńr   | né           |
-| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | <COM>Romyr | je(NOM-1s6G) |
+| etrjáléís                     | šyłánt                 | Romyðeńr   | né       |
+| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | <COM>Romyr | 1s6G-NOM |
 
 - <<cas-dat>>Cas datif (/DAT/) :: élément recevant ou direction de l’action vers l’élément.
+Exemple : Je crie (par colère) sur mon voisin.
+| ţýbýmáý                     | ketipŕým    | né       |
+| crier(NOM prés-indic 1s2SG) | <DAT>voisin | 1s6G-NOM |
 
 - <<cas-distributif>>Cas Distributif (/DISTR/) :: Marque une distribution équitable entre les éléments déclinés. Comparable au cas [[cas-distemp][distributif-temporel]].
 
-- <<cas-gen>>Cas génitif (/GEN/) :: montre une relation entre deux éléments, l’élément décliné définit l’élément situé immédiatement après.
+- <<cas-gen>>Cas génitif (/GEN/) :: montre une relation entre deux éléments, l’élément décliné définit l’élément situé immédiatement après. Attention, contrairement à certaines langues, le génitif de dénote pas la possession de l’élément ; pour cela, il faut utiliser le [[cas-poss][possessif]].
 
-- <<cas-poss>>Cas possessif (/POSS/) :: indique que l’élément est la propriété ou appartient à l’élément suivant immédiatement l’élément décliné.
+- <<cas-poss>>Cas possessif (/POSS/) :: marque l’élément comme le propriétaire de l’élément suivant immédiatement l’élément décliné. Il n’est pas utile de décliner l’élément (voire même de placer l’élément dans la phrase) si l’élément propriété est également décliné avec les déclinaisons possessives.
 
-- <<cas-priv>>Cas prifatif (/PRIV/) :: indique un manque de l’élément décliné. Ce manque n’a aucune conotation positive ou négative.
+- <<cas-priv>>Cas prifatif (/PRIV/) :: indique un manque ou une absence de l’élément décliné. Ce manque n’a aucune conotation positive ou négative.
 
 - <<cas-sempl>>Cas semplatif (/SEMPL/) :: indique une similitude entre le sujet/expérienceur ou l’agent de la proposition et le ou les éléments déclinés.
 
 - <<cas-soc>>Cas sociatif (/SOC/) :: indique que la situation de la proposition s’est déroulée avec l’agent ou le sujet étant avec l’élément décliné. L’élément n’a pas à partager la situation avec l’agent/sujet.
 Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne peuvent partager l’expérience dû au fait qu’elles soient inanimées et ne sont certainement pas mon moyen de voyage)
-| etrjáléís                     | šyłánt                 | tovyelegot   | né           |
-| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | SOC-jumelles | je(NOM-1s6G) |
+| etrjáléís                     | šyłánt                 | tovyelegot   | né       |
+| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | SOC-jumelles | 1s6G-NOM |
 
 **** Sémantiques
 - <<cas-ptv>>Cas partitif (/PTV/) :: s’utilise pour indiquer une quantité de l’élément donné s’il s’agit de désigner un sous-groupe, sans spécifier d’identité ou bien de marquer une partie uniquement de l’élément décliné.
@@ -753,11 +761,13 @@ Abréviations :
 - vt : verbe transitif
 
 ** À trier
+- kipŕým :: (n.6) voisin
 - ŗeðyþ :: (vt.) dire
 - vyelegot :: (n.9) jumelles (instrument)
 
 ** Actions physiques
 - kĺnyþ ::  /kl̩.nyːθ/ (vt.) casser, briser
+- ţýbýmýþ ::  /ʈʏ.bʏ.mʏθ/ (vi.) crier par colère, par rage
 - žybdinyþ ::  /ʐyːb.diː.nyːθ/ (vi.) tomber
 - ’oheryþ ::  /?o:.he:.ry:þ/ (vi.) dormir
 ** Amour
@@ -826,8 +836,8 @@ Abréviations :
 ** Mesures
 ** Métaux
 ** Mouvement
-- etrjálòm ::  /et.rjɑ.lʏθ/ (vi.) voyager
-- eŕbölýþ ::  /eɹ.bœ.lʏθ/ (vi.) voler (dans le airs)
+- etrjálòm ::  /eːt.rjɑ.lʏθ/ (vi.) voyager
+- eŕbölýþ ::  /eːɹ.bœ.lʏθ/ (vi.) voler (dans le airs)
 - jĺšek ::  /jl̩.çeːk/ (n.9) chemin, voie
 - probölýþ ::  /proː.bœ.lʏþ/ (vi.) s’envoler
 Exemple : Proböléntí paŗevir. La mouche s’envola.
