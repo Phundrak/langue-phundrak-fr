@@ -1,7 +1,7 @@
 #+TITLE: Grammaire du Hjalpi’
 #+INCLUDE: "headers.org"
 
-* TODO Introduction
+* Introduction
 # Ajouter un peu de détails
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
 
@@ -97,7 +97,7 @@ Le « ń » est la consonne « n » (la même que le « n » standar
 -  /l̩/ : ĺ
 Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
 
-*** TODO <<phon-diphtongues>>Diphtongues
+*** <<phon-diphtongues>>Diphtongues
 
 ** <<phon-consonnes>>Consonnes
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
@@ -144,12 +144,12 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
 |   | semi-voyelles | w      |            |       |      |           |        |        |         |          |         |
 
-** TODO Accentuation
+** Accentuation
 # Ajouter des exemples
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
 
-** TODO Romanisation et translittération
+** Romanisation et translittération
 # Ajouter des exemples
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
 
@@ -214,6 +214,7 @@ Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dan
 - ~Ø~ = silencieux, muet, rien
 
 ** <<allophonie>>Allophonie
+
 En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[deriv-accord-voy][accords des voyelles]] ou les [[deriv-accord-cons][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
 
 *** Voyelles
@@ -258,12 +259,12 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
  - FS > [+voisée] / FV_
  - FV > [+sourde] / FS_
 
-*** TODO Exemples
+*** Exemples
 
 - raòm ::  /raøm/ est prononcé [rãø̃]
 
-** TODO <<deriv-accord-voy>>Accord des voyelles
-# Ajouter des exemples
+** <<deriv-accord-voy>>Accord des voyelles
+
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
 
 1. Les deux voyelles sont fusionnées en une diphtongue.
@@ -271,7 +272,7 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 3. Si la première voyelle est une diphtongue, alors le second phonème est remplacé par la seconde voyelle après que cette dernière ait été accordée en longueur à la longueur de premier phonème de la diphtongue.
 4. Si la seconde voyelle était également une diphtongue, alors elle perd son second phonème.
 5. Si le second phonème de la diphtongue est plus ouvert que le premier, alors il est refermé afin d’être au moins aussi fermé que le premier phonème.
-6. Si le premier phonème de la diphtongue est une voyelle postérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :
+6. Si le premier phonème de la diphtongue est une voyelle antérieure, alors elle devient son équivalent phonétique postérieur selon la table suivante :
 | / | >                 |                 |
 |   | phonème d’origine | nouveau phonème |
 |---+-------------------+-----------------|
@@ -281,26 +282,71 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | ó                 | ö               |
 |   | á                 | a               |
 
-** TODO <<deriv-accord-cons>>Accord des consonnes
+** <<deriv-accord-cons>>Accord des consonnes
 ** Phonotaxes
 *** Attaque
 *** Rime
 **** Noyau syllabique
 **** Coda
 
-** TODO <<decl-morph-decl>>Déclinaisons
-# Ajouter les liens internes
+* Morphologie
+** Noms
+*** <<morpho-nom-genre>>Genre
+Le Hjalpi’ est une langue riche en genres grammaticaux, étant donné qu’elle dispose de *neuf genres* différents
+1. Genre divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin. Il se réfère également à ce qui fait partie de leur domaine, que ce soit leurs Demeures ou leurs Œuvres majeures, tels que les Tours ou le Temps.
+2. Genre mental : se réfère à tout élément non physique ou concept, comme des pensées ou des couleurs. Les lieux physiques et temporels sont également classifiés dans le genre mental. Bien que le temps en lui-même soit considéré comme étant du genre divin, les événements sont considérés comme étant des éléments mentaux.
+3. Genre liquide : se réfère, comme son nom l’indique, à tout liquide, et en particulier à l’eau, mais ne couvre pas tous les fluides ; par exemple, l’air n’est pas considéré comme un liquide, malgré le fait que ce soit un fluide.
+4. Genre masculin humain : se réfère à tout être humain ou semi-humain mâle, ou à un groupe à prédominance numérique ou de puissance masculine.
+5. Genre féminin humain : se réfère à tout être humain ou semi-humain femelle, ou à un groupe à prédominance numérique ou de puissance féminine.
+6. Genre neutre humain : se réfère à tout être humain ou semi-humain dont on ne connaît pas le sexe biologique, ou si un groupe n’a pas de prédominance numérique ou de puissance masculine ou féminine.
+7. Genre animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain et étant animé.
+8. Genre végétal : se réfère à tout être mortel n’étant pas un humain ou semi-humain, ou membre d’animaux.
+9. Genre inanimé : se réfère à tout être non-vivant n’étant pas inclus par les trois premiers genres.
+
+Le genre est inclus sémantiquement dans chaque nom commun du Hjalpi’, en revanche la majorité des éléments rattachés au nom s’accorderont en genre, ainsi que les verbes suivant si le nom influe la conjugaison du verbe.
+
+Le Hjalpi’ dispose également de *quatre sur-genres*, regroupant les genres en catégories qui sont utilisées dans certains contexte, comme pour la déclinaison ou la conjugaison des verbes.
+1. Le sur-genre supérieur : rassemble les genres divin et mental
+2. Le sur-genre humain : rassemble les genres humains (masculin, féminin et neutre)
+3. Le sur-genre vivant : rassemble les genres du vivant non-humain (animal et végétal)
+4. Le sur-genre inanimé : rassemble les genres liquide et inanimé
+
+Une déclinaison des éléments humains neutres est possible, auquel cas on peut décliner ainsi l’élément dont on souhaite changer le genre :
+| / | >        |             |
+|   | genre    | déclinaison |
+|---+----------+-------------|
+|   | masculin | -e          |
+|   | féminin  | -am         |
+
+Ce genre de déclinaison est en général utilisé pour les mots se référant à un être humain dont le genre syntaxique est neutre, mais que l’humain référé est d’un genre connu. Par exemple, si l’on parle de plusieurs personnes de nombre inconnu (donc singulatif, voir les [[morpho-nom-nombre][Nombres]]) mais que la majorité des individus est de genre féminin, alors on déclinera /ðenmóíl/ (individu/personne) en /ðenmóílelam/ (personne.sf.5g). La déclinaison en féminin s’affixe à la déclinaison au singulatif du fait qu’il s’agit du groupe qui prend le genre féminin, indiquant que le groupe n’est pas uniquement mais majoritairement féminin. Si le groupe n’est composé que de femmes, alors /ðenmóíl/ se déclinera en /ðenmóílamel/ (personne.5g.sf).
+
+*** <<morpho-nom-nombre>>Nombre
+En plus d’avoir une riche quantité de genres, le Hjalpi’ dispose également de cinq nombres distincts qui se marquent par une déclinaison du nom ou de l’élément accordé en nombre (hormis le verbe).
+
+| / | >          | >           |                                    |
+|   | nombre     | déclinaison | description                        |
+|---+------------+-------------+------------------------------------|
+|   | singulier  | (aucune)    | élément unique                     |
+|   | singulatif | -el         | ensemble d’éléments semblables     |
+|   | duel       | -(a)t       | deux éléments semblables           |
+|   | triel      | -(e)þ       | trois éléments semblables          |
+|   | pluriel    | -(o)st      | quatre éléments semblables ou plus |
+
+Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des éléments semblables et est une alternative au singulier ou pluriel dans le cas où l’élément dont il est question est indénombrable ou éligible au pluriel mais le locuteur n’a pas d’idée précise du nombre d’éléments présents dans le groupe.
+
+Pour des raisons grammaticales il existe également un sur-nombre, le /super-singulier/ qui regroupe tous les nombres qui ne sont pas le pluriel. Le super-singulier est utile notamment pour les différentes déclinaisons possibles.
+
+*** <<decl-morph-decl>>Déclinaisons
+
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Voici un exemple d’utilisation. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
-+ V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
-+ C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
-+ -C_{1}V(C_2)- :: l’infixe commence par consonne, il se placera donc à la fin du mot racine, entre la dernière voyelle et la dernière consonne du mot racine. Si le mot racine se termine par une voyelle, l’ensemble C_{1}VC_2 agira comme un suffixe.
-+ -(C_{1})VC_2- :: l’infixe commence par une voyelle, il se placera donc au début du mot racine, entre la première consonne et la première voyelle. Si le mot racine commence par une voyelle, l’ensemble C_{1}VC_2 agira comme un préfixe.
-+ -(C)V :: le suffixe est (ou commence par) une voyelle, il se placera donc à la fin du mot racine. Si ce dernier se termine par une voyelle, la consonne C sera ajoutée entre le mot racine et le suffixe.
-+ -(V)C :: le suffixe est (ou commence par) une consonne, il se placera donc à la fin du mot racine. Si ce dernier se termine par une consonne, la voyelle V sera ajoutée entre le mot racine et le suffixe.
+- V(C)- :: le préfixe est (ou fini par) une voyelle V, il se rajoute donc au début du mot racine. Si ce dernier commence avec une voyelle, la consonne C est rajoutée entre la voyelle V et le mot racine.
+- C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
+- -C_{1}V(C_{2})- :: l’infixe commence par consonne, il se placera donc à la fin du mot racine, entre la dernière voyelle et la dernière consonne du mot racine. Si le mot racine se termine par une voyelle, l’ensemble C_{1}VC_{2} agira comme un suffixe.
+- -(C_{1})VC_{2}- :: l’infixe commence par une voyelle, il se placera donc au début du mot racine, entre la première consonne et la première voyelle. Si le mot racine commence par une voyelle, l’ensemble C_{1}VC_{2} agira comme un préfixe.
 
-Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[deriv-accord-voy][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[deriv-accord-cons][l’accord des consonnes]] ci-dessus.
+Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[deriv-accord-voy][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[deriv-accord-cons][l’accord des consonnes]], idem pour [[deriv-accord-voy][l’accord des voyelles]].
 
-Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans *Genres*, le super-singulier (tel que décrit dans *Nombre*) est représenté par « s » et le pluriel par « p ».
+Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans [[morpho-nom-genre][Genre]], le super-singulier (tel que décrit dans [[morpho-nom-nombre][Nombre]]) est représenté par « s » et le pluriel par « p ». Bien que la déclinaison soit différente suivant la pluralité du nom et son genre, la déclinaison du nom se fait après l’avoir accordé en genre et en nombre afin d’assurer une certaine redondance de l’information, en particulier concernant le nombre, le super-singulier ne portant pas assez d’information selon le standard du Hjalpi’.
 src_latex{\newpage}
 
 | / | <>                   | >       | >        | >       | >       | >       | >       |
@@ -491,164 +537,124 @@ src_latex{\newpage}
 |   | vocatif              | -wa     | -wa     | -wein    | -wa     | -wa       | -weŕ      |
 src_latex{\newpage}
 
-* TODO Morphologie
+** Verbes
+* Syntaxe
 ** Noms
-*** Genre
-Le Hjalpi’ est une langue riche en genres grammaticaux, étant donné qu’elle dispose de *neuf genres* différents
-1. Genre divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin. Il se réfère également à ce qui fait partie de leur domaine, que ce soit leurs Demeures ou leurs Œuvres majeures, tels que les Tours ou le Temps.
-2. Genre mental : se réfère à tout élément non physique ou concept, comme des pensées ou des couleurs. Les lieux physiques et temporels sont également classifiés dans le genre mental. Bien que le temps en lui-même soit considéré comme étant du genre divin, les événements sont considérés comme étant des éléments mentaux.
-3. Genre liquide : se réfère, comme son nom l’indique, à tout liquide, et en particulier à l’eau, mais ne couvre pas tous les fluides ; par exemple, l’air n’est pas considéré comme un liquide, malgré le fait que ce soit un fluide.
-4. Genre masculin humain : se réfère à tout être humain ou semi-humain mâle, ou à un groupe à prédominance numérique ou de puissance masculine.
-5. Genre féminin humain : se réfère à tout être humain ou semi-humain femelle, ou à un groupe à prédominance numérique ou de puissance féminine.
-6. Genre neutre humain : se réfère à tout être humain ou semi-humain dont on ne connaît pas le sexe biologique, ou si un groupe n’a pas de prédominance numérique ou de puissance masculine ou féminine.
-7. Genre animal : se réfère à tout être mortel n’étant pas un humain ou semi-humain et étant animé.
-8. Genre végétal : se réfère à tout être mortel n’étant pas un humain ou semi-humain, ou membre d’animaux.
-9. Genre inanimé : se réfère à tout être non-vivant n’étant pas inclus par les trois premiers genres.
-
-Le genre est inclus sémantiquement dans chaque nom commun du Hjalpi’, en revanche la majorité des éléments rattachés au nom s’accorderont en genre, ainsi que les verbes suivant si le nom influe la conjugaison du verbe.
-
-Le Hjalpi’ dispose également de *quatre sur-genres*, regroupant les genres en catégories qui sont utilisées dans certains contexte, comme pour la déclinaison ou la conjugaison des verbes.
-1. Le sur-genre supérieur : rassemble les genres divin et mental
-2. Le sur-genre humain : rassemble les genres humains (masculin, féminin et neutre)
-3. Le sur-genre vivant : rassemble les genres du vivant non-humain (animal et végétal)
-4. Le sur-genre inanimé : rassemble les genres liquide et inanimé
-
-Une déclinaison des éléments humains neutres est possible, auquel cas on peut décliner ainsi l’élément dont on souhaite changer le genre :
-| / | >        |             |
-|   | genre    | déclinaison |
-|---+----------+-------------|
-|   | masculin | -e          |
-|   | féminin  | -am         |
-
-Ce genre de déclinaison est en général utilisé pour les mots se référant à un être humain dont le genre syntaxique est neutre, mais que l’humain référé est d’un genre connu. Par exemple, si l’on parle de plusieurs personnes de nombre inconnu (donc singulatif, voir les [[morpho-nom-nombre][Nombres]]) mais que la majorité des individus est de genre féminin, alors on déclinera /ðenmóíl/ (individu/personne) en /ðenmóílelam/ (personne.sf.5g). La déclinaison en féminin s’affixe à la déclinaison au singulatif du fait qu’il s’agit du groupe qui prend le genre féminin, indiquant que le groupe n’est pas uniquement mais majoritairement féminin. Si le groupe n’est composé que de femmes, alors /ðenmóíl/ se déclinera en /ðenmóílamel/ (personne.5g.sf).
-
-*** <<morpho-nom-nombre>>Nombre
-En plus d’avoir une riche quantité de genres, le Hjalpi’ dispose également de cinq nombres distincts qui se marquent par une déclinaison du nom ou de l’élément accordé en nombre (hormis le verbe).
-
-| / | >          | >           |                                    |
-|   | nombre     | déclinaison | description                        |
-|---+------------+-------------+------------------------------------|
-|   | singulier  | (aucune)    | élément unique                     |
-|   | singulatif | -el         | ensemble d’éléments semblables     |
-|   | duel       | -(a)t       | deux éléments semblables           |
-|   | triel      | -(e)þ       | trois éléments semblables          |
-|   | pluriel    | -(o)st      | quatre éléments semblables ou plus |
-
-Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des éléments semblables et est une alternative au singulier ou pluriel dans le cas où l’élément dont il est question est indénombrable ou éligible au pluriel mais le locuteur n’a pas d’idée précise du nombre d’éléments présents dans le groupe.
-
 *** Déclinaisons
 Suivant le rôle du nom dans la phrase, il est possible de le décliner à l’un des nombreux cas grammaticaux qu’offre le Hjalpi’. Dans cette section, j’expliquerai simplement la signification brève de chacune de ces déclinaisons. Pour un détail de comment décliner les noms, veuillez vous référer au [[decl-morph-decl][chapitre dédié]]. Je regrouperai ici les déclinaison par catégorie. Chaque cas sera présenté de la manières suivante :
 - Cas grammatical (/ABBRÉVIATION/) :: définition
 
 **** Lieu
-- Cas adessif (/ADE/) :: indique un lieu adjacent à l’élément.
+- <<cas-ade>>Cas adessif (/ADE/) :: indique un lieu adjacent à l’élément.
 Exemple : iŗeménóst (ADE-maison-pl.) à côté des maisons
 
-- Cas antessif (/ANTE/) :: indique un lieu antérieur à l’élément.
+- <<cas-ante>>Cas antessif (/ANTE/) :: indique un lieu antérieur à l’élément.
 Exemple : vwomén (ANTE-maison) avant la maison / devant la maison
 
-- Cas apudessif (/APU/) :: indique un lieu à côté, proche de l’élément. L’élément n’est pas adjacent au lieu, auquel cas il faudrait utiliser le cas adessif.
 Exemple : veimén (APU-maison) à côté de la maison
+- <<cas-apu>>Cas apudessif (/APU/) :: indique un lieu à côté, proche de l’élément. L’élément n’est pas adjacent au lieu, auquel cas il faudrait utiliser le cas adessif.
 
-- Cas inessif (/INE/) :: indique un lieu à l’intérieur de l’élément.
+- <<cas-ine>>Cas inessif (/INE/) :: indique un lieu à l’intérieur de l’élément.
 Exemple : mérón (<INE>maison) dans la maison
 
-- Cas intratif (/INTRT/) :: indique un lieu entre des éléments. L’élément décliné ne peut être singulier.
-Exemple : ménelń (maison-d.-INTRT) entre deux maisons.
+- <<cas-intrt>>Cas intratif (/INTRT/) :: indique un lieu entre des éléments. L’élément décliné ne peut être singulier.
+Exemple : ménatĺ (maison.duel.INTRT) entre deux maisons.
 
-- Cas locatif (/LOC/) :: indique que l’élément décliné est le lieu indiqué (usage général).
+- <<cas-loc>>Cas locatif (/LOC/) :: indique que l’élément décliné est le lieu indiqué (usage général).
 Exemple : ĺmén (LOC-maison) à la maison (sans précision)
 
-- Cas pertingent (/PERT/) :: indique un contact avec un lieu.
+- <<cas-pert>>Cas pertingent (/PERT/) :: indique un contact avec un lieu.
 Exemple : memén (PERT-maison) en contact avec la maison
 
-- Cas postessif (/POSTE/) :: indique un lieu postérieur à l’élément.
+- <<cas-poste>>Cas postessif (/POSTE/) :: indique un lieu postérieur à l’élément.
 Exemple : ménýßt (maison-POSTE) après la maison.
 
-- Cas subessif (/SUBE/) :: indique un lieu sous l’élément.
+- <<cas-sube>>Cas subessif (/SUBE/) :: indique un lieu sous l’élément.
 Exemple : namén (SUBE-maison) sous la maison
 
-- Cas superessif (/SUPE/) :: indique un lieu sous l’élément.
+- <<cas-supe>>Cas superessif (/SUPE/) :: indique un lieu sous l’élément.
 Exemple : ßtemén (SUPE-maison) sur la maison / sur le toit de la maison (impliqué)\\
 \\
 **** Mouvement depuis un élément
-- Cas ablatif (/ABL/) :: indique un déplacement s’éloignant de l’élément.
+- <<cas-abl>>Cas ablatif (/ABL/) :: indique un déplacement s’éloignant de l’élément.
 Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
 | wyhakéís                      | liÐbńovu     | né       |
 | quitter(NOM prés-indic 1s2SG) | ABL-Ðbńo-ACC | 1s6G.NOM |
 
-- Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
-Exemple : La mouche s’envola (volontairement) du livre (sous entendu de sa couverture)
+- <<cas-del>>Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
+Exemple : La mouche s’envola (volontairement) du livre (de l’extérieur du livre, sous entendu de sa couverture)
 | proböléntí                                | ßaraòm    | paŗevir    |
 | s’envoler-(NOM passé m p 3s3SG) | DEL-livre | NOM-mouche |
 
-- Cas élatif (/ELA/) :: déplacement depuis l’intérieur de l’élément.
+- <<cas-ela>>Cas élatif (/ELA/) :: déplacement depuis l’intérieur de l’élément.
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis une page / l’intérieur du livre, le livré étant ouvert)
-| proböléntí                                | raòmey    | paŗevir    |
+| proböléntí                      | raòmey    | paŗevir    |
 | s’envoler-(NOM passé m p 3s3SG) | livre-ELA | NOM-mouche |
 
-- Cas initiatif (/INIT/) :: indique le point de départ d’une action (cas général)
+- <<cas-init>>Cas initiatif (/INIT/) :: indique le point de départ d’une action (cas général)
 Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
 | etrjáléís                     | Ðbńokĺ    | né       |
 | voyager(NOM prés-indic 1s2SG) | Ðbńo-INIT | 1s6G.NOM |
 
 **** Mouvement vers un élément
-- Cas allatif (/ALL/) :: indique un mouvement vers les environs de l’élément (cas général), n’indique pas nécessairement de finalité ou de point précis.
-Exemple : Je voyage vers Ðbńo (pas nécessairement à Ðbńo même).
+- <<cas-all>>Cas allatif (/ALL/) :: indique un mouvement vers les environs de l’élément (cas général), n’indique pas nécessairement de finalité ou de point précis.
+Exemple : Je voyage vers Ðbńo (sans nécessairement aller à Ðbńo même).
 | etrjáléís                     | Ðbńoðil   | né       |
 | voyager(NOM prés-indic 1s2SG) | Ðbńo<ALL> | 1s6G.NOM |
 
-- Cas illatif (/ILL/) :: mouvement vers l’intérieur de l’élément, n’indique pas nécessairement de finalité.
+- <<cas-ill>>Cas illatif (/ILL/) :: mouvement vers l’intérieur de l’élément, n’indique pas nécessairement de finalité.
 Exemple : La mouche vole vers la maison (sous entendu, elle va y rentrer)
 | eŕbölay                      | monén       | paŗevir    |
 | voler-(NOM prés-indic 3s3SG) | <ILL>maison | NOM-mouche |
 
-- Cas latif (/LAT/) :: mouvement vers l’élément (cas général), n’indique pas nécessairement de finalité.
+- <<cas-lat>>Cas latif (/LAT/) :: mouvement vers l’élément (cas général), n’indique pas nécessairement de finalité.
 Exemple : Je pars de Notń pour Ðbńo.
 | wyhakéís                      | liNotńvu     | Ðbńolòĺ  | né       |
 | quitter(NOM prés-indic 1s2SG) | ABL-Notń-ACC | Ðbńo-LAT | 1s6G.NOM |
 
-- Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
+- <<cas-subl>>Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
 Exemple : La mouche vole vers le livre. (sous-entendu, la couverture)
 | eŕbölay                      | raòmiţ     | paŗevir    |
 | voler-(NOM prés-indic 3s3SG) | livre-SUBL | NOM-mouche |
 
-- Cas terminatif (/TERM/) :: le mouvement a pour but l’élément.
+- <<cas-term>>Cas terminatif (/TERM/) :: le mouvement a pour but l’élément.
 Exemple : Je voyage jusqu’à Ðbńo.
 | etrjáléís                     | Ðbńoþaen  | né           |
 | voyager(NOM prés-indic 1s2SG) | Ðbńo-TERM | je(NOM-1s6G) |
 
 **** Déplacement via un élément
-- Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
+- <<cas-per>>Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
 Exemple : Je voyage le long de la rivière.
 | etrjáléís                     | šyłánt                 | né           |
 | voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | je(NOM-1s6G) |
 
-- Cas prolatif (/PROL/) :: mouvement en utilisant l’élément ou sur sa surface.
+- <<cas-prol>>Cas prolatif (/PROL/) :: mouvement en utilisant l’élément ou sur sa surface.
 Exemple : Je navigue sur l’océan côtier.
 | ’elḑökay                       | šielt               | né           |
 | naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | je(NOM-1s6G) |
 
 **** Temps
-- Cas accusatif-temporel (/ATEMP/) :: indication d’une durée de temps, peut remplacer l’accusatif d’une proposition nominative-accusative avec un verbe transitif.
+- <<cas-atemp>>Cas accusatif-temporel (/ATEMP/) :: indication d’une durée de temps, peut remplacer l’accusatif d’une proposition nominative-accusative avec un verbe transitif.
 Exemple : J’ai dormis sept heures.
-| ’oherénté                              | heolí’            | pńtwánźu   | né           |
+| ’oherénté                    | heolí’            | pńtwánźu   | né           |
 | dormir-(NOM passé m p 1s2SG) | heure(mesure)-GEN | sept-ATEMP | je(NOM-1s6G) |
 
-- Cas essif (/ESS/) :: l’élément indique la date où le moment où un événement se produit.
+- <<cas-ess>>Cas essif (/ESS/) :: l’élément indique la date où le moment où un événement se produit.
 Exemple : Je dors habituellement à sept heures.
 | ’oheroméis                   | hebéómi’  | pudńtwán  | né           |
 | dormir(NOM prés-habit 1s2SG) | heure-GEN | <ESS>sept | je(NOM-1s6G) |
 
-- Cas limitatif (/LIMIT/) :: l’élément indique une limite dans le temps.
+- <<cas-limit>>Cas limitatif (/LIMIT/) :: l’élément indique une limite dans le temps.
 Exemple : Je dors habituellement jusqu’à sept heures.
 | ’oheroméis                   | hebéómi’  | pńtwánòmp  | né           |
 | dormir(NOM prés-habit 1s2SG) | heure-GEN | sept-LIMIT | je(NOM-1s6G) |
 
-- Cas temporel (/TEMP/) :: l’élément désigne un moment (cas général).
+- <<cas-temp>>Cas temporel (/TEMP/) :: l’élément désigne un moment (cas général).
 Exemple : à sept heures
 | hebéómi’  | pńtwániňni |
 | heure-GEN | sept-TEMP  |
+
+- <<cas-distemp>>Cas distributif-temporel (/DISTEMP/) :: Similaire au [[cas-distributif][cas distributif]], montrant une répétition temporelle se produisant à chaque élément temporel décliné.
 
 **** Alignement morphosyntaxique
 - <<cas-abs>>Cas absolutif (/ABS/) :: indique le patient d’un verbe transitif ou le sujet d’un verbe intransitif dans une proposition ergative. S’oppose à l’[[cas-erg][ergatif]].
@@ -663,10 +669,13 @@ Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
 
 - <<cas-erg>>Cas ergatif (/ERG/) :: indique l’agent d’un verbe transitif dans une proposition ergative. S’oppose à l’[[cas-abs][absolutif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
 Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
-| néí      | nweţuŗa  | kĺnéínté                    |
-| 1s6G.ERG | vase-ABS | briser(ERG passé m p 1s2SG) |
+| néí      | nweţuŗa  | kĺnéínté                          |
+| 1s6G.ERG | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
 - Cas instructif (/INSTRUCTIVE/) :: indique le moyen employé, répond à la question /comment ?/.
+Exemple : J’ai brisé le vase en tombant. (comme je suis tombé, sous-entendu involontairement, j’ai brisé le vase)
+| néí      | žybdinobyente                    | nweţuŗa  | kĺnéínté                          |
+| 1s6G.ERG | tomber(ERG pas. moy. pft. 1s2SG) | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
 - Cas instrumental (/INSTR/) :: indique l’instrument utilisé, répond à la question /au moyen de quel objet ?/.
 
@@ -677,20 +686,49 @@ Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
 
 - Cas oblique (/OBL/) :: marque le verbe, indique la proposition comme étant une citation. Les sous-propositions n’ont pas besoin d’être marquée. Remplace l’[[cas-acc][accusatif]] dans les propositions nominatives, et l’[[cas-abs][absolutif]] dans les propositions ergatives.
 Exemple : j’ai dis que j’ai cassé (involontairement) le vase.
-| ŗeðénté                   | kĺnéntéŗòß                  | nweţuŗa  | né       | né       |
-| dire(NOM passé m p 1s2SG) | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM | 1s6G.NOM |
+| ŗeðénté                   | kĺnéntéŗòß                  | nweţuŗa  | né       |
+| dire(NOM passé m p 1s2SG) | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
 
 - <<cas-peg>>Cas pégatif (/PEG/) :: agent dans une proposition ayant un argument datif. Peut remplacer le [[cas-nom][nominatif]] et l’[[cas-erg][ergatif]].
 
 **** Relation
-- Cas aversif (/EVIT/) :: indique que l’élément est évité ou craint.
+- <<cas-evit>>Cas aversif (/EVIT/) :: indique que l’élément est évité ou craint.
+Exemple : Je navigue sur l’océan côtier tout en évitant Notń.
+| ’elḑökay                       | łaNotń    | šielt               | né           |
+| naviguer(NOM prés-indic 1s2SG) | EVIT-Notń | PROL-(océan côtier) | je(NOM-1s6G) |
 
-- Cas bénéfactif (/BEN/) :: indique la personne ou le concept motivant une proposition d’un verbe d’action. S’il est omis à la première personne, on assume que le bénéfacteur est le sujet ou l’agent ; à la seconde ou à la troisième personne, on assume que le bénéfacteur est inconnu.
+- <<cas-ben>>Cas bénéfactif (/BEN/) :: indique la personne ou le concept motivant une proposition d’un verbe d’action. S’il est omis à la première personne, on assume que le bénéfacteur est le sujet ou l’agent ; à la seconde ou à la troisième personne, on assume que le bénéfacteur est inconnu.
+Exemple : Je navigue sur l’océan côtier (l’action est motivée par ou due à Mérian).
+| Merianaţ   | ’elḑökay                       | šielt               | né           |
+| Merian-BEN | naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | je(NOM-1s6G) |
 
-** Verbes
-* TODO Syntaxe
-* TODO Champs sémantiques et pragmatismes
-* TODO Système d’écriture
+- <<cas-com>>Cas comitatif (/COM/) :: indique un accompagnement par l’élément décliné, comparable au « avec » ou « et » en Français. L’action doit être partagée entre le sujet ou agent de la proposition et l’élément décliné, c’est à dire que l’élément est souvent un compagnon dans la situation (sans conotation positive ou négative).
+Exemple : Je voyage le long de la rivière accompagné de Romur. (Romur et moi partageons l’expérience du voyage).
+| etrjáléís                     | šyłánt                 | Romyðeńr   | né           |
+| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | <COM>Romyr | je(NOM-1s6G) |
+
+- <<cas-dat>>Cas datif (/DAT/) :: élément recevant ou direction de l’action vers l’élément.
+
+- <<cas-distributif>>Cas Distributif (/DISTR/) :: Marque une distribution équitable entre les éléments déclinés. Comparable au cas [[cas-distemp][distributif-temporel]].
+
+- <<cas-gen>>Cas génitif (/GEN/) :: montre une relation entre deux éléments, l’élément décliné définit l’élément situé immédiatement après.
+
+- <<cas-poss>>Cas possessif (/POSS/) :: indique que l’élément est la propriété ou appartient à l’élément suivant immédiatement l’élément décliné.
+
+- <<cas-priv>>Cas prifatif (/PRIV/) :: indique un manque de l’élément décliné. Ce manque n’a aucune conotation positive ou négative.
+
+- <<cas-sempl>>Cas semplatif (/SEMPL/) :: indique une similitude entre le sujet/expérienceur ou l’agent de la proposition et le ou les éléments déclinés.
+
+- <<cas-soc>>Cas sociatif (/SOC/) :: indique que la situation de la proposition s’est déroulée avec l’agent ou le sujet étant avec l’élément décliné. L’élément n’a pas à partager la situation avec l’agent/sujet.
+Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne peuvent partager l’expérience dû au fait qu’elles soient inanimées et ne sont certainement pas mon moyen de voyage)
+| etrjáléís                     | šyłánt                 | tovyelegot   | né           |
+| voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | SOC-jumelles | je(NOM-1s6G) |
+
+**** Sémantiques
+- <<cas-ptv>>Cas partitif (/PTV/) :: s’utilise pour indiquer une quantité de l’élément donné s’il s’agit de désigner un sous-groupe, sans spécifier d’identité ou bien de marquer une partie uniquement de l’élément décliné.
+
+* Champs sémantiques et pragmatismes
+* Système d’écriture
 src_latex{\newpage}
 * <<glossaire>>Glossaire
 
@@ -716,9 +754,11 @@ Abréviations :
 
 ** À trier
 - ŗeðyþ :: (vt.) dire
+- vyelegot :: (n.9) jumelles (instrument)
 
 ** Actions physiques
 - kĺnyþ ::  /kl̩.nyːθ/ (vt.) casser, briser
+- žybdinyþ ::  /ʐyːb.diː.nyːθ/ (vi.) tomber
 - ’oheryþ ::  /?o:.he:.ry:þ/ (vi.) dormir
 ** Amour
 ** Animaux
