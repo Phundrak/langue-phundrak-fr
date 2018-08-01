@@ -6,14 +6,15 @@ Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. 
 
 Cette langue sera également utilisée pour créer d’autres langues qui auront évolué depuis la langue divine en des langues (me paraissant) beaucoup plus simples afin de créer des langues pour les mortels.
 
-* Phonologie
+* Sons et système d’écriture
+** Phonologie
 Dans cet ouvrage, j’utiliserai principalement la translittération des mots, expressions et phrases du Hjalpi’ pour illustrer mes propos, exemples et explications de la grammaire de cette langue. Toutefois, il est important de savoir comment correctement prononcer le Hjalpi’, et pour cela j’utiliserai l’alphabet phonétique international afin de retranscrire la prononciation correcte du Hjalpi’. Il est important de relever les deux styles différents de transcription phonétique qui seront utilisés dans cet ouvrage :
 -  /transcription large/ :: ce type de transcription ne prend pas en compte les divers cas d’allophonie présents en Hjalpi’ et retranscrit individuellement chaque symbole ayant une signification phonétique dans son orthographe translittérée.
 - [transcription rapprochée] :: ce style de transcription prend en compte les changements de prononciation dû aux modifications entre phonèmes. Cela représente donc la prononciation réelle des locuteurs, qui n’est pas représentée de manière exacte par la translittération du Hjalpi’.
 
 Généralement, j’utiliserai la transcription large lorsque j’aurai besoin de transcrire de façon phonétique des éléments de langage, à moins que je souhaite que vous, le lecteur, portiez votre attention sur un élément particulier de la prononciation de la langue divine, auquel cas j’userai de la transcription rapprochée, comme lors de la discussion sur l’[[allophonie][allophonie]]. La prononciation des mots du [[glossaire][glossaire]] sera notée en transcription large.
 
-** <<phon-voyelles>>Voyelles
+*** <<phon-voyelles>>Voyelles
 Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans [[phon-diphtongues][Diphtongues]]). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 
 #+CAPTION: Voyelles du Hjalpi’
@@ -42,7 +43,7 @@ Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
 On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θrãː] n’aura pas la même signification que /þrán/  [θrɑ̃] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
-*** Voyelles courtes
+**** Voyelles courtes
 
 -  /ɑ/ : á
 Le /á/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
@@ -65,7 +66,7 @@ Cette voyelle est un équivalent du « u » français ouvert, que l’on peu
 -  /ʊ/ : ú
 Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
 
-*** Voyelles longues
+**** Voyelles longues
 -  /aː/ : a
 Cette voyelle est le « a » que l’on peut retrouver dans le français tel que dans « patte », à la différence que le « a » de le Hjalpi’ est prononcé un peu plus longuement que le « a » français.
 
@@ -87,16 +88,16 @@ Cette voyelle est la même que le « u » français, à la différence que l
 -  /uː/ : u
 Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
 
-*** <<cons-syll>>Consonnes syllabiques
+**** <<cons-syll>>Consonnes syllabiques
 -  /n̩/ : ń
 Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé  /bʌtn̩/.
 
 -  /l̩/ : ĺ
 Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
 
-*** <<phon-diphtongues>>Diphtongues
+**** <<phon-diphtongues>>Diphtongues
 
-** <<phon-consonnes>>Consonnes
+*** <<phon-consonnes>>Consonnes
 En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
 
 #+CAPTION: Consonnes du Hjalpi’
@@ -141,11 +142,11 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+----------+---------|
 |   | semi-voyelles | w      |            |       |      |           |        |        |         |          |         |
 
-** Accentuation
+*** Accentuation
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
 
-** Romanisation et translittération
+*** Romanisation et translittération
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
 
 Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différence entre romanisation et translittération est en Tibétain. Nous avons des termes Tibétain romanisés “dorje”, “chorten” ou encore “yak” en anglais dont une de leur translittération possible respective est “rdo rje”, “mchod brten” et “gyag”. Bien évidemment, toute personne n’ayant aucune notion de translittération du Tibétain et/ou de son orthographe peut être confuse quant à ce qu’ils viennent de lire, et c’est tout naturel : leur but est de savoir précisément comment écrire ces mots, et une personne sachant écrire en tibétain pourra, en ayant lu ces exemples, écrire les mots sans faute si je n’en ai pas fait non plus à la rédaction de cet ouvrage. Comme je l’ai indiqué, il s’agit dans cet exemple d’une romanisation anglophone ; en effet, la romanisation dépend de la langue du lecteur. Étant donné que ce dernier doit pouvoir se forger une idée de la prononciation du mot étranger, il faut utiliser les conventions de lecture de l’alphabet de sa propre langue afin d’approcher au mieux la prononciation originale. Ainsi, “dorje” en anglais pourrait être écrit « dordjé » en français, “chorten” pourrait être écrit « tchortène » (« yak » garde la même orthographe dans les deux langues, et est même dans les dictionnaires anglophones et francophones).
@@ -194,9 +195,7 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | l       | l      | l    |    | j       | j      | y    |
 |   | w       | w      | w    |    |         |        |      |
 
-* Phonologie dérivationnelle
-Le Hjalpi’ est une langue riche en dérivation phonétiques du fait de sa grammaire agglutinative et fusionnelle. Les noms changent selon leur nombre, leur rôle au sein de la phrase (leur cas grammatical), les verbes s’accordent en genre et en nombre, selon l’objectivité, le mode ou l’un des nombreux temps de la phrase ou de la proposition. L’utilisation de chacun de ces éléments sera traité dans le chapitre traitant de la [[*Syntaxe][syntaxe]]. Le chapitre actuel servira principalement de référence condensée pour savoir comment accorder les divers éléments entre eux.
-
+** Phonologie dérivationnelle
 Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dans les règles formelles :
 - ~C~ = consonne
 - ~V~ = voyelle
@@ -208,10 +207,10 @@ Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dan
 - ~#~ = limite d’un mot
 - ~Ø~ = silencieux, muet, rien
 
-** <<allophonie>>Allophonie
+*** <<allophonie>>Allophonie
 En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[deriv-accord-voy][accords des voyelles]] ou les [[deriv-accord-cons][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
 
-*** Voyelles
+**** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
 - La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
  -  /n̩/ > [m̩] / _P
@@ -225,7 +224,7 @@ Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, ce
 - Une voyelle ou un groupe de voyelles placé devant une consonne nasale se nasalise.
  - V > [+nasal] / _N
 
-*** Consonnes
+**** Consonnes
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
 - La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
  -  /f/ > [ɸ] / #_ V
@@ -253,10 +252,10 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
  - FS > [+voisée] / FV_
  - FV > [+sourde] / FS_
 
-*** Exemples
+**** Exemples
 - raòm ::  /raøm/ est prononcé [rãø̃]
 
-** <<deriv-accord-voy>>Accord des voyelles
+*** <<deriv-accord-voy>>Accord des voyelles
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
 
 1. Les deux voyelles sont fusionnées en une diphtongue.
@@ -274,17 +273,18 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | ó                 | ö               |
 |   | á                 | a               |
 
-** <<deriv-accord-cons>>Accord des consonnes
-** Phonotaxes
-*** Attaque
-*** Rime
-**** Noyau syllabique
-**** Coda
+*** <<deriv-accord-cons>>Accord des consonnes
+*** Phonotaxes
+**** Attaque
+**** Rime
+***** Noyau syllabique
+***** Coda
 
-* Morphologie
-* Noms
-** Sémantique
-** <<morpho-nom-genre>>Genre
+** Système d’écriture
+* Éléments de la phrase
+** Noms
+*** Articles
+*** <<morpho-nom-genre>>Genre
 Le Hjalpi’ est une langue riche en genres grammaticaux, étant donné qu’elle dispose de *neuf genres* différents
 1. Genre divin : se réfère à toute personne considérée comme divine, que ce soit par les Divins ou par les mortels (humains comme non humains). Aucune distinction n’est faite selon leur sexe biologique. Les méduses, du fait d’être une icône divine, sont considérées étant également du genre divin. Il se réfère également à ce qui fait partie de leur domaine, que ce soit leurs Demeures ou leurs Œuvres majeures, tels que les Tours ou le Temps.
 2. Genre mental : se réfère à tout élément non physique ou concept, comme des pensées ou des couleurs. Les lieux physiques et temporels sont également classifiés dans le genre mental. Bien que le temps en lui-même soit considéré comme étant du genre divin, les événements sont considérés comme étant des éléments mentaux.
@@ -312,7 +312,11 @@ Une déclinaison des éléments humains neutres est possible, auquel cas on peut
 |   | féminin  | -am         |
 
 Ce genre de déclinaison est en général utilisé pour les mots se référant à un être humain dont le genre syntaxique est neutre, mais que l’humain référé est d’un genre connu. Par exemple, si l’on parle de plusieurs personnes de nombre inconnu (donc singulatif, voir les [[morpho-nom-nombre][Nombres]]) mais que la majorité des individus est de genre féminin, alors on déclinera /ðenmóíl/ (individu/personne) en /ðenmóílelam/ (personne.sf.5g). La déclinaison en féminin s’affixe à la déclinaison au singulatif du fait qu’il s’agit du groupe qui prend le genre féminin, indiquant que le groupe n’est pas uniquement mais majoritairement féminin. Si le groupe n’est composé que de femmes, alors /ðenmóíl/ se déclinera en /ðenmóílamel/ (personne.5g.sf).
-** <<morpho-nom-nombre>>Nombre
+
+Il est également possible de changer le genre d’un sujet de phrase (agent nominatif, patient ergatif ou expérienceur) en accordant le reste de la phrase suivant le genre que l’on veut lui donner. Ainsi, pour déifier le chat de la phrase « Ce chat se comporte comme un dieu céleste », on peut dire :
+| se.comporter-1SG.gnomique.obj.certain | dieu.celeste-EQU.1s | chat-NOM.1s | ce.1s |
+
+*** <<morpho-nom-nombre>>Nombre
 En plus d’avoir une riche quantité de genres, le Hjalpi’ dispose également de cinq nombres distincts qui se marquent par une déclinaison du nom ou de l’élément accordé en nombre (hormis le verbe).
 
 | / | >          | >           |                                    |
@@ -324,9 +328,10 @@ En plus d’avoir une riche quantité de genres, le Hjalpi’ dispose également
 |   | triel      | -(e)þ       | trois éléments semblables          |
 |   | pluriel    | -(o)st      | quatre éléments semblables ou plus |
 
-Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des éléments semblables et est une alternative au singulier ou pluriel dans le cas où l’élément dont il est question est indénombrable ou éligible au pluriel mais le locuteur n’a pas d’idée précise du nombre d’éléments présents dans le groupe.
+Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des éléments semblables et est une alternative au singulier ou pluriel dans le cas où l’élément est indénombrable ou éligible au pluriel mais le locuteur n’a pas d’idée précise du nombre d’éléments présents dans le groupe (exemples en français : « de la farine », « des gens »).
 
-Pour des raisons grammaticales il existe également un sur-nombre, le /super-singulier/ qui regroupe tous les nombres qui ne sont pas le pluriel. Le super-singulier est utile notamment pour les différentes déclinaisons possibles.
+Pour des raisons grammaticales il existe également un sur-nombre, le /super-singulier/ qui regroupe tous les nombres qui ne sont pas le pluriel. Le super-singulier est utile notamment pour les déclinaisons qui distinguent uniquement le super-singulier et le pluriel.
+
 ** <<decl-morph-decl>>Déclinaisons
 Suivant le rôle du nom dans la phrase, il est possible de le décliner à l’un des nombreux cas grammaticaux qu’offre le Hjalpi’. Dans cette section, j’expliquerai simplement la signification brève de chacune de ces déclinaisons. Pour un détail de comment décliner les noms, veuillez vous référer au [[decl-morph-decl][chapitre dédié]]. Je regrouperai ici les déclinaison par catégorie. Chaque cas sera présenté de la manières suivante :
 - Cas grammatical (/ABBRÉVIATION/) :: définition
@@ -340,8 +345,9 @@ Les déclinaisons se présentent sous la forme de particules (préfixes, infixes
 - C(V)- :: le préfixe est (ou fini par) une consonne, il se rajoute donc au début du mot racine. Si ce dernier commence avec une consonne, la voyelle (V) est rajoutée entre la consonne C et le mot racine.
 - -C_{1}V(C_{2})- :: l’infixe commence par consonne, il se placera donc à la fin du mot racine, entre la dernière voyelle et la dernière consonne du mot racine. Si le mot racine se termine par une voyelle, l’ensemble C_{1}VC_{2} agira comme un suffixe.
 - -(C_{1})VC_{2}- :: l’infixe commence par une voyelle, il se placera donc au début du mot racine, entre la première consonne et la première voyelle. Si le mot racine commence par une voyelle, l’ensemble C_{1}VC_{2} agira comme un préfixe.
+Notez que la déclinaison se produit avant l’accord en genre et en nombre de l’élément décliné, et après application de [[deriv-accord-voy][l’accord des voyelles]] et de [[deriv-accord-cons][l’accord des consonnes]] de l’élément. Notez également que la ou les voyelles présentée dans les tableaux s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[deriv-accord-voy][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[deriv-accord-cons][l’accord des consonnes]], idem pour [[deriv-accord-voy][l’accord des voyelles]].
 
-Notez également que la ou les voyelles présentée dans le tableau s’accorde en ouverture et longueur avec la voyelle du mot racine sur laquelle porte l’accent. Ainsi, ajouts de voyelles sur /mén/ via des déclinaisons s’accorderont en voyelles longues et ouvertes. Si la juxtaposition de deux voyelles est obligatoire, se référer à [[deriv-accord-voy][l’accord des voyelles]] ci-dessus. Si la juxtaposition de deux consonnes est obligatoire, se référer à [[deriv-accord-cons][l’accord des consonnes]], idem pour [[deriv-accord-voy][l’accord des voyelles]].
+Le nombre représente le [[morpho-nom-genre][genre]] de l’élément décliné, le /s/ et le /p/ représentent respectivement le super-singulier et le pluriel, comme décrits dans les [[morpho-nom-nombre][nombres des noms]].
 
 *** Lieu
 - <<cas-ade>>Cas adessif (/ADE/) :: indique un lieu adjacent à l’élément.
@@ -609,6 +615,13 @@ Exemple : J’ai brisé (involontairement) le vase avec mon pied (avec un coup 
 | néí      | pńtédń             | nweţuŗa  | kĺnéínté                          |
 | 1s6G.ERG | pied.POSS-6s.INSTR | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
+- <<cas-nomin>>Cas nominal (/NOMIN/) :: indique que l’élément décliné doit être considéré comme un nom dérivé de l’élément décliné, généralement traduisible à peu près par « /celui qui .../ ». Notez que le genre du resultat est le genre humain si ledit résultat décrit un humain, peu importe le genre d’origine, par défaut neutre.
+| 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p     | 5s      | 5p    |
+| -(eu)s | -(eu)ß | -(eu)s | -(eu)ßt | -(eu)st | -(eu)s | -(eu)s | -(eo)ß | -eus    | -eušt |
+|        | 6s     | 6p     | 7s      | 7p      | 8s     | 8p     | 9s     | 9p      |       |
+|        | -eus   | -(eu)ß | -(eu)s  | -(eu)ß  | -(eu)s | -(ei)š | -(eu)s | -(eu)st |       |
+Exemple : un cavalier (genre humain neutre) : naeleus (cheval-NOMIN)
+
 - <<cas-nom>>Cas nominatif (/NOM/) :: indique le sujet d’un verbe intransitif ou l’agent d’un verbe transitif dans une proposition nominative. S’oppose à l’[[cas-acc][accusatif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
 | 1s    | 1p     | 2s    | 2p     | 3s     | 3p     | 4s     | 4p     | 5s  | 5p  |
 | p(a)- | p(e)-  | p(a)- | p(e)-  | p(a)-  | p(a)-  | pa(n)- | pa(ń)- | pń- | pń- |
@@ -791,21 +804,29 @@ Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne 
 
 
 
-
-Voici ci-dessous un tableau exposant la forme de chaque déclinaison selon le cas grammatical et le genre/nombre. Le numéro se réfère au numéro du genre tel que décrit dans [[morpho-nom-genre][Genre]], le super-singulier (tel que décrit dans [[morpho-nom-nombre][Nombre]]) est représenté par « s » et le pluriel par « p ». Bien que la déclinaison soit différente suivant la pluralité du nom et son genre, la déclinaison du nom se fait après l’avoir accordé en genre et en nombre afin d’assurer une certaine redondance de l’information, en particulier concernant le nombre, le super-singulier ne portant pas assez d’information selon le standard du Hjalpi’.
-src_latex{\newpage}
-
-# |         | 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p      | 5s   | 5p    |
-# | nominal | -(eu)s | -(eu)ß | -(eu)s | -(eu)ßt | -(eu)st | -(eu)s | -(eu)s | -(eo)ß  | -eus | -eušt |
-# |         | 6s     | 6p     | 7s     | 7p      | 8s      | 8p     | 9s     | 9p      |      |       |
-# |         | -eus   | -(eu)ß | -(eu)s | -(eu)ß  | -(eu)s  | -(ei)š | -(eu)s | -(eu)st |      |       |
+| 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p     | 5s      | 5p    |
+| -(eu)s | -(eu)ß | -(eu)s | -(eu)ßt | -(eu)st | -(eu)s | -(eu)s | -(eo)ß | -eus    | -eušt |
+|        | 6s     | 6p     | 7s      | 7p      | 8s     | 8p     | 9s     | 9p      |       |
+|        | -eus   | -(eu)ß | -(eu)s  | -(eu)ß  | -(eu)s | -(ei)š | -(eu)s | -(eu)st |       |
 
 src_latex{\newpage}
 
-* Syntaxe
-* Verbes
-* Champs sémantiques et pragmatismes
-* Système d’écriture
+** Pronoms
+** Adjectifs
+** Adverbes
+** Verbes
+*** Temps
+*** Aspects
+*** Modes
+** Formation d’un mot
+** Conjonctions
+** Chiffres et nombres
+** Interjections
+* Structure des phrases
+** Phrase et ordre des mots
+** Constructions de phrases complexes
+** Constructions spéciales
+
 src_latex{\newpage}
 * <<glossaire>>Glossaire
 
