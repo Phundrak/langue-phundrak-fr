@@ -44,7 +44,6 @@ Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θrãː] n’aura pas la même signification que /þrán/  [θrɑ̃] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
 **** Voyelles courtes
-
 -  /ɑ/ : á
 Le /á/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
 
@@ -337,7 +336,7 @@ Pour des raisons grammaticales il existe également un sur-nombre, le /super-sin
 ** Adverbes
 ** Verbes
 *** <<verbes-temps>>Temps
-Il existe techniquement huit temps en Hjalpi’, considérés tous comme étant distincs les uns des autres :
+Il existe techniquement sept temps en Hjalpi’, considérés tous comme étant distincts les uns des autres :
 - Le *passé lointain* et le *futur lointain* sont associés à des temps à échelle d’une civilisation et au delà de temps à échelle d’une vie humaine. Ainsi, si un événement quelconque est mentionné comme s’étant passé il y a plus d’une soixantaine d’années, les locuteurs du Hjalpi’ s’y référeront au moyen du passé lointain, et à l’inverse, un événement qui se produira dans un siècle sera référé au moyen du futur lointain.
 - Le *passé moyen* et le *futur moyen*, plus souvent appelés respectivement *passé* et *futur*, se réfèrent à des événements à échelle d’une vie humaine, c’est à dire à plus ou moins une soixantaine d’années dans le passé ou dans le futur.
 - Les deux temps précédents n’empiètent cependant pas sur le *passé proche* et le *futur proche*, qui se réfèrent à des événements se produisant de deux jours dans le passé à deux jours dans le futur. Ils sont aussi utilisés pour des événements imminents ou venant de se produire.
@@ -345,7 +344,7 @@ Il existe techniquement huit temps en Hjalpi’, considérés tous comme étant 
 
 Chacun de ces temps se marquent via la conjugaison des verbes.
 
-Il y a également deux temps utilisés uniquement par les dieux (célestes comme terrestres) qui sont le *passé divin* et le *futur divin*, chacun ayant pour limite la création du monde et sa fin avec lesquels ils se réfèrent à des événements dans des temps plus lointains que ceux situés dans la même ère civilisée que le locuteur, c’est à dire des événements se produisant à environ dix mille ans du temps de locution. Ces temps divins se marquent par une double conjugaison du verbe au temps lointain correspondant. Les mortels n’ayant pas la même notion du temps que les divins utiliseront à la place les temps lointains, à l’exception d’universitaires ayant eu le privilège d’avoir pu converser avec un divin, l’impact du contact avec ces derniers permettant un changement radical de la vision des mortels dans la vision du monde. Cependant, l’utilisation des temps divins reste tout de même rare même parmis ces universitaires et est considéré comme étant plutôt pédant lorsqu’il est utilisé par un mortel.
+Il y a également deux temps utilisés uniquement par les dieux (célestes comme terrestres) qui sont le *passé divin* et le *futur divin*, chacun ayant pour limite la création du monde et sa fin avec lesquels ils se réfèrent à des événements dans des temps plus lointains que ceux situés dans la même ère civilisée que le locuteur, c’est à dire des événements se produisant à environ dix mille ans du temps de locution. Ces temps divins se marquent par une double conjugaison du verbe au temps lointain correspondant. Les mortels n’ayant pas la même notion du temps que les divins utiliseront à la place les temps lointains, à l’exception d’universitaires ayant eu le privilège d’avoir pu converser avec un divin, l’impact du contact avec ces derniers permettant un changement radical de la vision des mortels dans la vision du monde. Cependant, l’utilisation des temps divins reste tout de même rare même parmi ces universitaires et est considéré comme étant plutôt pédant lorsqu’il est utilisé par un mortel.
 
 Dans le Hjalpi’, le temps est visualisé comme une pluie tombante, ou plutôt comme le cycle de l’éther avec le ciel représentant le passé lointain, tombant jusqu’à l’arrière de la tête du locuteur (passé moyen), allant sur son épaule droite (passé proche), dans la tête du locuteur (présent), sur son épaule gauche (futur proche), devant son visage (futur moyen) puis dans le sol (futur lointain). On peut voir dans cette visualisation du temps que les dieux sont considérés comme étant les êtres à l’origine du monde, résidants dans les cieux, et leur bénédiction tombant sur les mortels et passant en eux avant qu’ils fassent face au futur qui va se joindre au sol et au monde, comme ce à quoi chaque mortel est destiné. Pour les divins, cette visualisation commence aux confins de l’espace, en dehors de l’univers d’où vient le Dieu Créateur, représentant lui-même le passé pour les divins, et le futur divin se situant au centre du monde où résident les flammes qui y mettront fin lors de l’arrivée de la fin des temps.
 
@@ -354,20 +353,25 @@ Dans le Hjalpi’, le temps est visualisé comme une pluie tombante, ou plutôt 
 
 *** <<verbe-cert>>Certainté
 Le Hjalpi’ dispose d’un concept de certainté et est omniprésent dans les verbes. En effet, la véracité et vérifiabilité des dires du locuteur est très importante pour les divins, et ce premier doit en toutes circonstances statuer de l’état de ses affirmations, et cela se fait via la conjugaison du verbe. Il existe quatre niveaux de certainté :
-- certainté objective forte :: Le locuteur affirme que sa proposition est vraie sans nécessairement avoir personnellement vérifié cette affirmation par lui-même, mais il implique que cela est une vérité générale ou absolue. Par exemple, dans notre monde, la phrase « Il y a des yaks au Tibet » serait une phrase à certainté objective forte, il s’agit d’une verité générale qui ne sera normalement pas remise en question.
+- certainté objective forte :: Le locuteur affirme que sa proposition est vraie sans nécessairement avoir personnellement vérifié cette affirmation par lui-même, mais il implique que cela est une vérité générale ou absolue. Par exemple, dans notre monde, la phrase « Il y a des yaks au Tibet » serait une phrase à certainté objective forte, il s’agit d’une vérité générale qui ne sera normalement pas remise en question.
 - certainté objective relative :: Le locuteur fait part d’une vérité vérifiée par lui-même ou dont il est certain sans qu’il s’agisse nécessairement d’une vérité générale ou absolue. Ainsi, on peut affirmer avec une objectivité relative « J’habite au quatrième étage de mon immeuble », j’affirme que cela est vrai et objectif sans pour autant que ce soit une vérité générale (je n’y habiterai pas toujours, et ce n’est pas une connaissance commune non plus).
 - certainté subjective forte :: Le locuteur émet une opinion qu’il considère comme étant généralement partagée par son ou ses interlocuteurs. Par exemple, un parisien pourra dire en subjectivité forte à un autre parisien qu’il fait froid lorsqu’en plein milieu de l’hiver il fait -5°C à Paris, ce avec quoi l’autre parisien sera généralement d’accord ; en revanche un Canadien, un Russe ou un habitant des pays Scandinaves pourra montrer son désaccord. Le locuteur peut permettre de partager également des informations dont le locuteur est relativement sûr mais pas entièrement, l’empêchant d’utiliser une certainté objective.
 - certainté subjective relative :: Le locuteur émet une opinion qui lui est propre et qui ne sera pas forcément partagée par son interlocuteur. Ce degré de certainté est utilisé pour partager des opinions qui ont un caractère plus personnel. Par exemple, si le locuteur dit « Je n’aime pas la menthe », il le dira avec une subjectivité relative, ne s’attendant pas forcément à voir son opinion partagée ou non par son interlocuteur. Cela peut être aussi utilisé pour partager une information dont le locuteur n’est pas sûr, ou bien pour partager des souvenirs dont le locuteur peut se permettre de douter.
 
 Le degré de certainté est marqué avec la conjugaison du verbe.
 
-Il est tout à fait possible pour le locuteur d’utiliser volontairement un degré de certainté erroné afin d’appuyer le message de sa phrase, d’y mettre une emphase. Par exemple, quelqu’un qui parle d’un restaurant uppé dans la ville à son ami qui vient d’arriver peut tout à fait lui dire que ce restaurant est excellent tout en utilisant l’objectif fort afin de sous entendre qu’il s’agit d’une opinion largement partagée, voire même d’une véritée générale dans la ville. À contrario, un locuteur qui doute d’une vérité générale utilisera une subjectivité relative afin de démettre cette vérité générale vers une simple opinion ; c’est ce qu’aurais pu faire Gallilée avec la phrase « la Terre est plate », remettant ainsi en doute cette véritée générale de l’époque (qui, par ailleurs, n’était crue que par le bas peuple, les personnes cultivées savaient que la Terre est ronde). Cependant, attention à l’abus d’utilisation erronée du degré de subjectivité, les personnes qui en abusent sont souvent vus comme étant des hypocrites ou des manipulateurs par leurs pairs.
+Il est tout à fait possible pour le locuteur d’utiliser volontairement un degré de certainté erroné afin d’appuyer le message de sa phrase, d’y mettre une emphase. Par exemple, quelqu’un qui parle d’un restaurant huppé dans la ville à son ami qui vient d’arriver peut tout à fait lui dire que ce restaurant est excellent tout en utilisant l’objectif fort afin de sous entendre qu’il s’agit d’une opinion largement partagée, voire même d’une vérité générale dans la ville. À contrario, un locuteur qui doute d’une vérité générale utilisera une subjectivité relative afin de démettre cette vérité générale vers une simple opinion ; c’est ce qu’aurais pu faire Galilée avec la phrase « la Terre est plate », remettant ainsi en doute cette vérité générale de l’époque (qui, par ailleurs, n’était crue que par le bas peuple, les personnes cultivées savaient que la Terre est ronde). Cependant, attention à l’abus d’utilisation erronée du degré de subjectivité, les personnes qui en abusent sont souvent vus comme étant des hypocrites ou des manipulateurs par leurs pairs.
 
 *** Aspects
 Bien que le [[verbes-temps][temps]] et le [[verbe-cert][degré de certainté]] donnent déjà quelques informations sur le verbe et l’événement décrit, beaucoup d’autres informations manquent toujours : l’événement se répète-il, parle-t-on du processus de l’événement où de l’événement en tant qu’objet ? Ces questions sont répondues par les aspects du verbe que je listerai ici. Notez que différents aspects peuvent être utilisés en simultané.
 
 **** Perfectif et imperfectif
+Le *perfectif* et *l’imperfectif* sont deux aspects omniprésents avec les verbes ; l’un de ces deux aspects est obligatoire. Ces deux aspects s’opposent dans leur représentation du verbe, le perfectif décrivant l’événement comme un objet, comme un tout, alors que l’imperfectif le décrit comme un processus. On peut retrouver un exemple de cette opposition en Français avec les phrases « Henri IV régna vingt et un ans » (phrase perfective) et « Henri IV régnait vingt et un ans » (phrase imperfective). Ainsi, si l’on souhaite considérer un événement comme un processus, ou afin de mettre en place un décors pour d’autres éléments, on utilisera l’aspect perfectif du verbe ; à contrario, ce sera l’imperfectif qui sera utilisé pour considérer un événement comme un tout, comme par exemple comparer le règne de Henri IV à celui d’un autre monarque.
+
+En Hjalpi’, l’aspect par défaut entre ces deux aspects est l’imperfectif, qui n’est pas marqué. L’imperfectif est également le seul aspect autorisé lors de l’utilisation du présent. Si on souhaite passer un verbe au perfectif, il faudra le marquer au moyen d’une conjugaison différente de la conjugaison par défaut (utilisée donc pour l’imperfectif).
+
 **** Complétif et incomplétif
+Ces aspects permettent de porter l’accent sur le fait que l’action ou l’événement soit arrivé, arrive ou arrivera à son terme de façon certaine ou non. Par défaut, tous les verbes sont incomplétifs (sauf exceptions notées dans leur définition dans le [[glossaire][glossaire]]), cependant passer le verbe au complétif permet de changer son sens afin d’exprimer le fait que l’événement arrive à son terme. Ainsi, le verbe /eŕbölýþ/ (voler dans les airs) mis au complétif prend la signification « se poser » ou « atterrir ».
 **** Inceptif
 **** Habituel, fréquentatif et itératif
 **** Implicatif
@@ -382,7 +386,7 @@ Bien que le [[verbes-temps][temps]] et le [[verbe-cert][degré de certainté]] d
 *** Valence du verbe
 **** Réflexif
 **** Réciproque
-**** Passif et anti-passif
+**** Passif et antipassif
 **** Causatif
 *** Impersonnalité
 # 1excl.singulier
@@ -392,7 +396,7 @@ Suivant le rôle du nom dans la phrase, il est possible de le décliner à l’u
 - Cas grammatical (/ABBRÉVIATION/) :: définition
 | morphologie |
 Exemple en français
-| exemple | hjalpi’     |
+| exemple | en Hjalpi’  |
 | détail  | grammatical |
 
 Les déclinaisons se présentent sous la forme de particules (préfixes, infixes et suffixes) à ajouter au mot racine. Notez que la partie entre parenthèse peut ne pas être spécifiée, auquel cas il faudra se référer à l’harmonisation des voyelles ou des consonnes selon le cas si une voyelle est accolée à une autre voyelle, de même pour les consonnes.
@@ -495,7 +499,7 @@ Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
 |       | 6s    | 6p    | 7s     | 7p     | 8s    | 8p    | 9s     | 9p     |       |
 |       | ž(a)- | ž(a)- | ß(eu)- | ß(eu)- | ß(a)- | ß(a)- | ßa(l)- | ße(l)- |       |
 Exemple : La mouche s’envola (volontairement) du livre (de l’extérieur du livre, sous entendu de sa couverture)
-| proböléntí                                | ßaraòm    | paŗevir    |
+| proböléntí                      | ßaraòm    | paŗevir    |
 | s’envoler-(NOM passé m p 3s3SG) | DEL-livre | NOM-mouche |
 
 - <<cas-ela>>Cas élatif (/ELA/) :: déplacement depuis l’intérieur de l’élément.
