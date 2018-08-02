@@ -1,11 +1,12 @@
 #+AUTHOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
-#+LATEX_CLASS: article
+#+LATEX_CLASS: book
 #+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
 #+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,10in}]{geometry}\setromanfont[Numbers=Uppercase]{Charis SIL}
 #+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+#+OPTIONS: H:4
 #+OPTIONS: toc:nil
 src_latex{\newpage}
 #+TOC: headlines
