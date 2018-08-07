@@ -349,7 +349,10 @@ Il y a également deux temps utilisés uniquement par les dieux (célestes comme
 Dans le Hjalpi’, le temps est visualisé comme une pluie tombante, ou plutôt comme le cycle de l’éther avec le ciel représentant le passé lointain, tombant jusqu’à l’arrière de la tête du locuteur (passé moyen), allant sur son épaule droite (passé proche), dans la tête du locuteur (présent), sur son épaule gauche (futur proche), devant son visage (futur moyen) puis dans le sol (futur lointain). On peut voir dans cette visualisation du temps que les dieux sont considérés comme étant les êtres à l’origine du monde, résidants dans les cieux, et leur bénédiction tombant sur les mortels et passant en eux avant qu’ils fassent face au futur qui va se joindre au sol et au monde, comme ce à quoi chaque mortel est destiné. Pour les divins, cette visualisation commence aux confins de l’espace, en dehors de l’univers d’où vient le Dieu Créateur, représentant lui-même le passé pour les divins, et le futur divin se situant au centre du monde où résident les flammes qui y mettront fin lors de l’arrivée de la fin des temps.
 
 **** Temps antérieurs
+Chaque passé dispose d’un *passé antérieur* se référant à une date antérieure au narratif. Cette conjugaison se faisant à l’aide d’un auxilliaire, la conjugaison déterminera le passé relatif au temps de narration, le participe du verbe indiquant le temps d’origine. Aussi connu sous le nom de *plus-que-parfait*. Un équivalent existe également pour les événements antérieurs à un futur de narration : le *futur antérieur*, applicable de la même façon à tous les futurs.
+
 **** Temps postérieurs
+Inversement, le *passé postérieur* permet d’exprimer une situation future au passé d’énonciation, de même que le *futur postérieur*. Leur marque se porte également sur l’auxilliaire et le participe du verbe racine.
 
 *** <<verbe-cert>>Certainté
 Le Hjalpi’ dispose d’un concept de certainté et est omniprésent dans les verbes. En effet, la véracité et vérifiabilité des dires du locuteur est très importante pour les divins, et ce premier doit en toutes circonstances statuer de l’état de ses affirmations, et cela se fait via la conjugaison du verbe. Il existe quatre niveaux de certainté :
@@ -387,20 +390,52 @@ Le *fréquentatif* permet de marquer une action répétée irrégulièrement. Il
 *L’implicatif* permet de marquer la situation comme ayant un impact sur le temps utilisé ou sur un temps ultérieur. Par défaut, les verbes ne sont pas implicatifs, cependant des exceptions signalées comme telles dans le [[glossaire][glossaire]] existent et peuvent être modifiées en *non-implicatif*. Ces deux aspects se marquent par une déclinaison de la racine du verbe.
 
 **** Rétrospectif
-Un aspect parfait d’un verbe implique une situation du passé ou du futur avec des conséquences ou implications présentes (généralement marqué également à l’implicatif)
+Un aspect parfait d’un verbe implique une situation du passé ou du futur avec des conséquences ou implications présentes (généralement marqué également à l’implicatif). On peut également utiliser les termes *retrospectifs* pour les éléments passés et *prospectif* pour les éléments futurs. Il existe avec cet aspect plusieurs types de parfait :
+- Parfait de Résultat :: les implications ou conséquences sont toujours d’actualité pour les verbes passés, marqués par la conjugaison.
+- Parfait exprienciel :: cet aspect inplique que la situation s’est déjà produite au moins une fois par le passé, ou se produira au moins une fois avant le temps utilisé. Il est marqué par la déclinaison de la racine du verbe.
+- Parfait de percistence :: il permet de marquer le passage d’une situation d’un temps à un autre, notamment la continuité depuis le passé jusqu’au présent. Exeple : « j’ai comencé à travailleur sur le Hjalpi’ originel en début 2018 » (sous-entendu, je suis à l’heure actuelle).
+- Parfait de récence :: cet aspect ne peut être utilisé que lors de l’utilisation du passé proche afin de mettre en valeur la récence de la situation. Il ne peut s’utiliser que pour faire référence à une situation s’étant produite deux heures avant le temps présent tout au plus. Ce parfait se marque par une déclinaison de la racine du verbe.
 
 **** Progressif
+Le progressif marque une situation en cours, que ce soit dans le passé, présent ou futur. Il peut être utilisé pour emphaser le processus ou pour porter la signification d’une situation temporaire. Il peut également permettre de marquer une progression, même si cette dernière est délimitée dans le temps par un perfectif. Cela est marqué par un auxilliaire utilisé avec le verbe décliné au progressif, l’auxilliaire étant porteur du temps d’origine du verbe, de son aspect et de son mode.
+
+**** Découpage du temps
+***** Gnomique
+Le temps gnomique permet d’exprimer une situation universellement vraie. Un temps gnomique ne peut être utilisé qu’avec une certainté objective, forte ou faible.
+
+***** <<verbe-dec-ponct>>Ponctuel
+Le ponctuel est un aspect permettant d’exprimer une situation qui ne dure qu’un instant. Cet aspect se marque par la conjugaison du verbe.
+
+***** Délimitatif
+Similairement au [[verbe-dec-ponct][ponctuel]], de délimitatif se réfère à une situation courte dans le temps, et se marque par le ponctuel associé au progressif.
+
+***** Duratif
+Le duratif et une emphase sur une action qui s’étend dans un temps unique. Le duratif s’utilise pour exprimer le progressif perfectif, et se marque comme le progressif avec l’auxilliaire conjugué avec un aspect perfectif.
+
 **** Télique et atélique
+Une activité *télique* est une activité ayant un but, qu’il s’agisse d’un produit ou d’’un accomplissement. Une activité n’ayant pas de résultat est *atélique*. La télicité d’une action est inclue dans la sémantique des verbes, mais une inversion de télicité peut aussi être marquée par l’ajout d’une particule précédant le verbe (généralement il s’agit de rendre le verbe télique). Par exemple, en français « persuader » est un verbe télique, car cette activité est en réalité généralement la tentative de persuation d’une personne, avec pour but que cette personne soit persuadée. En rendant « persuader » atélique, « avoir persuadé quelqu’un » ne veut pas forcément dire que la personne a été persuadée, mais que l’on a tout de même tenté de la persuader.
+
 *** Modes
-*** Découpage du temps
-**** Ponctuel
-**** Délimitatif
-**** Duratif
+
 *** Valence du verbe
-**** Réflexif
-**** Réciproque
+La valence d’un verbe est le nombre d’arguments que ce dernier peut prendre. Les verbes intransitifs prennent au moins en argument un expérienceur, les verbes transitifs prennent au moins un agent et un patient. Si le verbe est également un verbe d’action, il prendra également en argument un bénéfactaire, bien qu’il soit souvent omis s’il est inconnu (ce qui est souvent le cas lorsque le locuteur ne parle pas à la première personne) ou s’il est identique avec l’expérienceur, l’agent nominatif ou le patient ergatif. Il est d’ailleurs également possible d’élipser l’agent nominatif ou le patient ergatif d’une phrase si le contexte permet aux locuteurs de les déduire aisément. En français cela donnerait quelque chose comme ceci : « Tu sais ce qu’a fait Éreþ hier ? A couru pendant quatre heures d’affilées pour Tama ».
+
+Il est également possible de réduire ou d’augmenter la valence d’un verbe selon plusieurs procédés décrits ci-dessous.
+
 **** Passif et antipassif
+La voix passive et anti-passife permet d’ellipser un élément cœur de la proposition si le contexte le rend suffisamment évident. Il est également possible de transformer un verbe en un adjectif au patient, permettant d’ellipser l’agent dans certains cas, notamment : l’agent était un pronom impersonnel. Par exemple, en français à la palce de dire « on boit de la bière ici » on peut dire « la bière est bue ici ».
+
+Le passif et l’antipassif permettent également l’inversion de l’agent et du patient, permettant d’ellipser l’agent dans les phrases nominatives et le patient dans les phrases ergatives.
+
+**** Réflexif
+La voix réflexive permet d’unifier l’agent et le patient d’une phrase et permet effectivement d’élipser le patient nominatif ou l’agent ergatif en modifiant le verbe de verbe transitif à verbe intransitif via une inflexion de la racine dudit verbe.
+
+**** Réciproque
+La voix réciproque permet quant à elle d’exprimer une action à double-sens entre l’agent et le patient, promouvant ce dernier en agent de la phrase nominative ou l’agent en patient d’une phrase ergative. Cela perrmet ainsi d’ignorer le patient ou l’agent de la phrase selon le cas. Le réciproque à l’instar du réflexif se marque par une inflexion de la racine du verbe.
+
 **** Causatif
+Le causatif ajoute un argument au verbe : l’élémant causant l’événement. Dans la phrase « Tama a fait se lever le soldat », Tama est responsable du fait que le soldat se soit levé, ainsi le verbe gagnee l’aspect causatif en plus de son aspect réflexif.
+
 *** Impersonnalité
 # 1excl.singulier
 
