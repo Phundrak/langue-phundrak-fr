@@ -47,7 +47,7 @@ h4,h5,h6{
 html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
-    font-size:100%;
+    font-size:105%;
     height:100%;
     overflow-x:hidden;
 }
@@ -1100,4 +1100,8 @@ h2.footnotes{
     padding: 9px 12px;
     margin-bottom: 24px;
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
+}
+
+li, p, dd {
+    text-align: justify;
 }
