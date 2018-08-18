@@ -22,10 +22,10 @@ Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la maj
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
 |   | fermées     | i / y       | u            |
-|   | pré-fermées | í / ý       | ú            |
-|   | mi-fermées  | e / ò       | o            |
-|   | mi-ouvertes | é / ö       | ó            |
-|   | ouvertes    | a           | á            |
+|   | pré-fermées | ì / ů       | ù            |
+|   | mi-fermées  | e / ø       | o            |
+|   | mi-ouvertes | é / œ       | ø            |
+|   | ouvertes    | a           | å            |
 
 Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en IPA :
 
@@ -41,36 +41,36 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θrãː] n’aura pas la même signification que /þrán/  [θrɑ̃] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
+On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θrãː] n’aura pas la même signification que /þrån/  [θrɑ̃] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
 
 **** Voyelles courtes
--  /ɑ/ : á
-Le /á/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
+-  /ɑ/ : å
+Le /å/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
 
--  /œ/ : ö
+-  /œ/ : œ
 Il s’agit ici du son « eu » tel qu’on le retrouve en français tel que dans le mot « neuf ».
 
--  /ɪ/ : í
+-  /ɪ/ : ì
 Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ». Il s’agit de la voyelle pré-fermée antérieure non-arrondie.
 
--  /ɛ/ : é
+-  /ɛ/ : è
 Nous avons ici la voyelle « è » que l’on retrouve en français par exemple dans le mot « cette ».
 
--  /ɔ/ : ó
+-  /ɔ/ : ø
 Il s’agit du « o » ouvert, que l’on retrouve en français dans le mot « sort » par exemple.
 
--  /ʏ/ : ý
+-  /ʏ/ : ů
 Cette voyelle est un équivalent du « u » français ouvert, que l’on peut retrouver en Allemand comme dans « Müller » par exemple. Il s’agit de la voyelle antérieure pré-fermée arrondie.
 
--  /ʊ/ : ú
+-  /ʊ/ : ù
 Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
 
 **** Voyelles longues
 -  /aː/ : a
 Cette voyelle est le « a » que l’on peut retrouver dans le français tel que dans « patte », à la différence que le « a » de le Hjalpi’ est prononcé un peu plus longuement que le « a » français.
 
--  /øː/ : ò
-Cette voyelle est la même que le « eu » français que l’on retrouve dans le mot « deux », à la différence que le « ò » divin est prononcé un peu plus longuement que le « eu » français.
+-  /øː/ : ø
+Cette voyelle est la même que le « eu » français que l’on retrouve dans le mot « deux », à la différence que le « ø » divin est prononcé un peu plus longuement que le « eu » français.
 
 -  /iː/ : i
 Cette voyelle est la même que le « i » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
@@ -104,17 +104,17 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 |   |               | bilab. | lab.-dent. | dent. | alv. | pal.-alv. | rétro. | palat. | vélaire | uvul. | glottal |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | nasal         | m      |            |       | n    |           |        |        | ň       |       |         |
+|   | nasal         | m      |            |       | n    |           |        |        | ng      |       |         |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | occlusif      | p b    |            |       | t d  |           | ţ ḑ    |        | k g     |       | '       |
+|   | occlusif      | p b    |            |       | t d  |           | ŧ đ    |        | k g     |       | '       |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | fricatif      |        | f v        | þ ð   | s z  | ß ź       |        | š ž    |         | x ŗ   | h       |
+|   | fricatif      |        | f v        | þ ð   | s z  | sh zh     |        | ch jh  |         | qh rh | h       |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
 |   | spirante      |        |            |       | ŕ    |           |        | j      |         |       |         |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
 |   | roulé         |        |            |       | r    |           |        |        |         |       |         |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | fric.-lat.    |        |            |       | ł    |           |        |        |         |       |         |
+|   | fric.-lat.    |        |            |       | lh   |           |        |        |         |       |         |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
 |   | spir.-lat.    |        |            |       | l    |           |        |        |         |       |         |
 |---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
@@ -145,7 +145,8 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
 
-*** Romanisation et translittération
+*** TODO Romanisation et translittération
+# À retravailler
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
 
 Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différence entre romanisation et translittération est en Tibétain. Nous avons des termes Tibétain romanisés “dorje”, “chorten” ou encore “yak” en anglais dont une de leur translittération possible respective est “rdo rje”, “mchod brten” et “gyag”. Bien évidemment, toute personne n’ayant aucune notion de translittération du Tibétain et/ou de son orthographe peut être confuse quant à ce qu’ils viennent de lire, et c’est tout naturel : leur but est de savoir précisément comment écrire ces mots, et une personne sachant écrire en tibétain pourra, en ayant lu ces exemples, écrire les mots sans faute si je n’en ai pas fait non plus à la rédaction de cet ouvrage. Comme je l’ai indiqué, il s’agit dans cet exemple d’une romanisation anglophone ; en effet, la romanisation dépend de la langue du lecteur. Étant donné que ce dernier doit pouvoir se forger une idée de la prononciation du mot étranger, il faut utiliser les conventions de lecture de l’alphabet de sa propre langue afin d’approcher au mieux la prononciation originale. Ainsi, “dorje” en anglais pourrait être écrit « dordjé » en français, “chorten” pourrait être écrit « tchortène » (« yak » garde la même orthographe dans les deux langues, et est même dans les dictionnaires anglophones et francophones).
@@ -161,17 +162,17 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | iː      | i      | i    |
 |   | yː      | y      | u    |
 |   | uː      | u      | ou   |
-|   | ɪ       | í      | i    |
-|   | ʏ       | ý      | u    |
-|   | ʊ       | ú      | ou   |
+|   | ɪ       | ì      | i    |
+|   | ʏ       | ů      | u    |
+|   | ʊ       | ù      | ou   |
 |   | eː      | e      | é    |
-|   | øː      | ò      | e    |
+|   | øː      | ø      | e    |
 |   | oː      | o      | o    |
 |   | ɛ       | é      | è    |
 |   | œ       | ö      | eu   |
-|   | ɔ       | ó      | au   |
+|   | ɔ       | ò      | au   |
 |   | aː      | a      | a    |
-|   | ɑ       | á      | a    |
+|   | ɑ       | å      | a    |
 
 #+CAPTION: Translittération des consonnes du Hjalpi’
 | / | >       | >      |      | <> | >       | >      |      |
@@ -179,80 +180,72 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |---+---------+--------+------+----+---------+--------+------|
 |   | p       | p      | p    |    | b       | b      | b    |
 |   | t       | t      | t    |    | d       | d      | d    |
-|   | ʈ       | ţ      | tr   |    | ɖ       | ḑ      | dr   |
+|   | ʈ       | ŧ      | tr   |    | ɖ       | đ      | dr   |
 |   | k       | k      | k    |    | ɡ       | g      | g    |
 |   | f       | f      | f    |    | v       | v      | v    |
 |   | θ       | þ      | th   |    | ð       | ð      | dh   |
 |   | s       | s      | s    |    | z       | z      | z    |
-|   | ʃ       | ß      | sh   |    | ʒ       | ź      | j    |
-|   | ç       | š      | sh   |    | ʝ       | ž      | jh   |
+|   | ʃ       | sh      | sh   |    | ʒ       | zh      | j    |
+|   | ç       | ch      | sh   |    | ʝ       | jh      | jh   |
 |   | m       | m      | m    |    | n       | n      | n    |
-|   | ŋ       | ň      | ng   |    | ʔ       | ’      | ’    |
+|   | ŋ       | ng      | ng   |    | ʔ       | ’      | ’    |
 |   | r       | r      | r    |    | h       | h      | h    |
 |   | χ       | x      | rh   |    | ʁ       | r      | r    |
-|   | ɬ       | ł      | lh   |    | ɹ       | r      | r    |
+|   | ɬ       | lh      | lh   |    | ɹ       | r      | r    |
 |   | l       | l      | l    |    | j       | j      | y    |
 |   | w       | w      | w    |    |         |        |      |
 
 ** Phonologie dérivationnelle
 Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dans les règles formelles :
+- ~#~ = limite d’un mot
+- ~Ø~ = silencieux / muet
 - ~C~ = consonne
-- ~V~ = voyelle
-- ~N~ = nasale
-- ~F~ = fricative
+- ~F~ = consonne fricative
+- ~N~ = consonne nasale
 - ~P~ = consonne labiale
+- ~V~ = voyelle
 - ~L~ = voyelle longue
 - ~S~ = voyelle courte
-- ~#~ = limite d’un mot
-- ~Ø~ = silencieux, muet, rien
 
 *** <<allophonie>>Allophonie
 En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[deriv-accord-voy][accords des voyelles]] ou les [[deriv-accord-cons][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
 
 **** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /í/, ou bien la consonne /j/ (notées ~I~).
+- La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /ì/, ou bien la consonne /j/.
  -  /n̩/ > [m̩] / _P
  -  /n̩/ > [m̩] / P_
- -  /n̩/ > [ɲ̩] / _I
- -  /n̩/ > [ɲ̩] / I_
- -  /n̩/ > [m̩ʲ] / P_ I
- -  /n̩/ > [m̩ʲ] / I_ P
-- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /í/ ou bien la consonne /j/, et donc être prononcée /l̩ʲ/.
+ -  /n̩/ > [ɲ̩] / _{iː,ɪ,j}
+ -  /n̩/ > [ɲ̩] / {iː,ɪ,j}_
+ -  /n̩/ > [m̩ʲ] / P_ {iː,ɪ,j}
+ -  /n̩/ > [m̩ʲ] / {iː,ɪ,j}_ P
+- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /ì/ ou bien la consonne /j/, et donc être prononcée /l̩ʲ/.
  -  /l̩/ > [l̩ʲ] / _I
-- Une voyelle ou un groupe de voyelles placé devant une consonne nasale se nasalise.
- - V > [+nasal] / _N
 
 **** Consonnes
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
 - La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
- -  /f/ > [ɸ] / #_ V
- -  /f/ > [ɸ] / V_ V
- -  /v/ > [β] / #_ V
- -  /v/ > [β] / V_ V
-- Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /í/ ou /j/ (notés ~I~), le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
- -  /h/ > [ɦ] / #_ V
- -  /h/ > [ɦ] / V_ V
+ -  /f/ > [ɸ] / {#,V}_ V
+ -  /v/ > [β] / {#,V}_ V
+- Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /ì/ ou /j/ (notés ~I~), le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
+ -  /h/ > [ɦ] / {#,V}_ V
  -  /h/ > [ç] / _I
  -  /h/ > [ç] / I_
  -  [ɦ] > [ʝ] / _I
  -  [ɦ] > [ʝ] / I_
-- Le /ŗ/ a pour prononciation standard le /ʁ/, cependant il est généralement prononcé /ʀ/ entre deux voyelles et/ou consonne voisée (notées ~V~).
+- Le /rh/ a pour prononciation standard le /ʁ/, cependant il est généralement prononcé /ʀ/ entre deux voyelles et/ou consonne voisée (notées ~V~).
  -  /ʁ/ > [ʀ] / V_ V
-- Le /x/ est habituellement prononcé /χ/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde (notée ~FS~).
- -  /χ/ > [x] / FS_
- -  /χ/ > [x] / _FS
-- Une consonne nasale devient silencieuse si elle est précédée d’une voyelle et suivie d’une consonne ou d’un silence. Cela fait suite à la nasalisation de la voyelle précédente.
- - N > Ø / V_ #
- - N > Ø / V_ C
+- Le /x/ est habituellement prononcé /χ/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde.
+ -  /χ/ > [x] / F[-voix]_
+ -  /χ/ > [x] / _F[-voix]
 - Si deux consonnes fricatives toutes deux voisées ou sourdes se suivent successivement, même entre deux mots distincts, la première fricative devient silencieuse.
- - F > Ø / _F
+ - F[+voix] > Ø / _F[+voix]
+ - F[-voix] > Ø / _F[-voix]
 - Si une consonne fricative voisée (notée ~FV~) est précédée par une fricative sourde (notée ~FS~), elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
- - FS > [+voisée] / FV_
- - FV > [+sourde] / FS_
+ - F[-voix] > [+voix] / F[+voix]_
+ - F[+voix] > [-voix] / F[-voix]_
 
 **** Exemples
-- raòm ::  /raøm/ est prononcé [rãø̃]
 
 *** <<deriv-accord-voy>>Accord des voyelles
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
@@ -267,10 +260,10 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | phonème d’origine | nouveau phonème |
 |---+-------------------+-----------------|
 |   | u                 | y               |
-|   | ú                 | ý               |
-|   | o                 | ò               |
-|   | ó                 | ö               |
-|   | á                 | a               |
+|   | ù                 | ů               |
+|   | o                 | ø               |
+|   | ø                 | œ               |
+|   | å                 | a               |
 
 *** <<deriv-accord-cons>>Accord des consonnes
 *** Phonotaxes
@@ -310,7 +303,7 @@ Une déclinaison des éléments humains neutres est possible, auquel cas on peut
 |   | masculin | -e          |
 |   | féminin  | -am         |
 
-Ce genre de déclinaison est en général utilisé pour les mots se référant à un être humain dont le genre syntaxique est neutre, mais que l’humain référé est d’un genre connu. Par exemple, si l’on parle de plusieurs personnes de nombre inconnu (donc singulatif, voir les [[morpho-nom-nombre][Nombres]]) mais que la majorité des individus est de genre féminin, alors on déclinera /ðenmóíl/ (individu/personne) en /ðenmóílelam/ (personne.sf.5g). La déclinaison en féminin s’affixe à la déclinaison au singulatif du fait qu’il s’agit du groupe qui prend le genre féminin, indiquant que le groupe n’est pas uniquement mais majoritairement féminin. Si le groupe n’est composé que de femmes, alors /ðenmóíl/ se déclinera en /ðenmóílamel/ (personne.5g.sf).
+Ce genre de déclinaison est en général utilisé pour les mots se référant à un être humain dont le genre syntaxique est neutre, mais que l’humain référé est d’un genre connu. Par exemple, si l’on parle de plusieurs personnes de nombre inconnu (donc singulatif, voir les [[morpho-nom-nombre][Nombres]]) mais que la majorité des individus est de genre féminin, alors on déclinera /ðenmøìl/ (individu/personne) en /ðenmøìlelam/ (personne.sf.5g). La déclinaison en féminin s’affixe à la déclinaison au singulatif du fait qu’il s’agit du groupe qui prend le genre féminin, indiquant que le groupe n’est pas uniquement mais majoritairement féminin. Si le groupe n’est composé que de femmes, alors /ðenmøìl/ se déclinera en /ðenmøìlamel/ (personne.5g.sf).
 
 Il est également possible de changer le genre d’un sujet de phrase (agent nominatif, patient ergatif ou expérienceur) en accordant le reste de la phrase suivant le genre que l’on veut lui donner. Ainsi, pour déifier le chat de la phrase « Ce chat se comporte comme un dieu céleste », on peut dire :
 | se.comporter-1SG.gnomique.obj.certain | dieu.celeste-EQU.1s | chat-NOM.1s | ce.1s |
@@ -374,10 +367,10 @@ Le *perfectif* et *l’imperfectif* sont deux aspects omniprésents avec les ver
 En Hjalpi’, l’aspect par défaut entre ces deux aspects est l’imperfectif, qui n’est pas marqué. L’imperfectif est également le seul aspect autorisé lors de l’utilisation du présent. Si on souhaite passer un verbe au perfectif, il faudra le marquer au moyen d’une conjugaison différente de la conjugaison par défaut (utilisée donc pour l’imperfectif).
 
 **** Complétif et incomplétif
-Ces aspects permettent de porter l’accent sur le fait que l’action ou l’événement soit arrivé, arrive ou arrivera à son terme de façon certaine ou non. Par défaut, tous les verbes sont incomplétifs (sauf exceptions notées dans leur définition dans le [[glossaire][glossaire]]), cependant passer le verbe au complétif permet de changer son sens afin d’exprimer le fait que l’événement arrive à son terme. Ainsi, le verbe /eŕbölýþ/ (voler dans les airs) mis au complétif prend la signification « se poser » ou « atterrir » avec l’attention portée sur la fin de l’événement qu’était le vol, et non sur le fait d’être sur le sol. Le complétif est marqué par une déclinaison de la racine du verbe.
+Ces aspects permettent de porter l’accent sur le fait que l’action ou l’événement soit arrivé, arrive ou arrivera à son terme de façon certaine ou non. Par défaut, tous les verbes sont incomplétifs (sauf exceptions notées dans leur définition dans le [[glossaire][glossaire]]), cependant passer le verbe au complétif permet de changer son sens afin d’exprimer le fait que l’événement arrive à son terme. Ainsi, le verbe /eŕbœlůþ/ (voler dans les airs) mis au complétif prend la signification « se poser » ou « atterrir » avec l’attention portée sur la fin de l’événement qu’était le vol, et non sur le fait d’être sur le sol. Le complétif est marqué par une déclinaison de la racine du verbe.
 
 **** Inceptif
-L’inceptif porte l’attention sur le début de l’événement décrit par le verbe. Ainsi, le verbe /eŕbölyþ/ décliné à l’inceptif prend la signification « décoller », avec l’attention portée sur le fait de commencer à voler, et non sur le fait de ne plus être au sol. L’inceptif est par défaut absent des verbes et doit être marqué lorsqu’un verbe a une valeur inceptive (sauf exceptions notées dans le [[glossaire][glossaire]]) À l’instar du complétif, l’inceptif est également marqué par une déclinaison de la racine du verbe.
+L’inceptif porte l’attention sur le début de l’événement décrit par le verbe. Ainsi, le verbe /eŕbœlůþ/ décliné à l’inceptif prend la signification « décoller », avec l’attention portée sur le fait de commencer à voler, et non sur le fait de ne plus être au sol. L’inceptif est par défaut absent des verbes et doit être marqué lorsqu’un verbe a une valeur inceptive (sauf exceptions notées dans le [[glossaire][glossaire]]) À l’instar du complétif, l’inceptif est également marqué par une déclinaison de la racine du verbe.
 
 **** Habituel, fréquentatif et itératif
 Ces aspects du verbe marquent tous trois un événement se répétant dans le temps. *L’habituel* permet de marquer une emphase sur une situation caractéristique du temps employé, son nom est d’ailleurs assez explicatif. Il se marque par une conjugaison du verbe par un auxiliaire.
@@ -458,12 +451,12 @@ Le nombre représente le [[morpho-nom-genre][genre]] de l’élément décliné,
 
 *** Lieu
 - <<cas-ade>>Cas adessif (/ADE/) :: indique un lieu adjacent à l’élément.
-| 1s     | 1p     | 2s      | 2p     | 3s      | 3p     | 4s     | 4p      | 5s     | 5p      |
-| ix(a)- | ix(e)- | ix(a)-  | ix(e)- | ix(a)-  | ix(e)- | iź(a)- | iź(ei)- | iź(a)- | iź(ei)- |
-|        | 6s     | 6p      | 7s     | 7p      | 8s     | 8p     | 9s      | 9p     |         |
-|        | iź(a)- | iź(ei)- | iź(a)- | iź(ei)- | iŗ(a)- | iŗ(a)- | iŗ(e)-  | iŗ(e)- |         |
+| 1s      | 1p      | 2s       | 2p      | 3s       | 3p      | 4s      | 4p       | 5s      | 5p       |
+| iqh(a)- | iqh(e)- | iqh(a)-  | iqh(e)- | iqh(a)-  | iqh(e)- | izh(a)- | izh(ei)- | izh(a)- | izh(ei)- |
+|         | 6s      | 6p       | 7s      | 7p       | 8s      | 8p      | 9s       | 9p      |          |
+|         | izh(a)- | izh(ei)- | izh(a)- | izh(ei)- | irh(a)- | irh(a)- | irh(e)-  | irh(e)- |          |
 Exemple : La rivière (majeure) est à côté des maisons.
-| ándjo           | iŗménél               | reveanis                                      |
+| åndjo           | irfmènèl              | reveanis                                      |
 | rivière.majeure | ADE-maison-singulatif | être.certain.objectif-présent.indicatif.3s1SG |
 
 - <<cas-ante>>Cas antessif (/ANTE/) :: indique un lieu antérieur à l’élément.
@@ -471,92 +464,92 @@ Exemple : La rivière (majeure) est à côté des maisons.
 | vwo(n)- | vw(o)- | v(o)-  | vw(o)- | vwo-  | vo-   | we-   | w(e)-  | w(o)- | w(e)- |
 |         | 6s     | 6p     | 7s     | 7p    | 8s    | 8p    | 9s     | 9p    |       |
 |         | v(e)-  | v(wo)- | vw(o)- | v(u)- | v(u)- | v(u)- | vw(o)- | vu-   |       |
-Exemple : vwomén (ANTE-maison) avant la maison / devant la maison
+Exemple : vwomèn (ANTE-maison) avant la maison / devant la maison
 
 - <<cas-apu>>Cas apudessif (/APU/) :: indique un lieu à côté, proche de l’élément. L’élément n’est pas adjacent au lieu, auquel cas il faudrait utiliser le cas adessif.
 | 1s    | 1p    | 2s    | 2p     | 3s     | 3p    | 4s     | 4p    | 5s    | 5p     |
 | þ(e)- | ð(e)- | ð(e)- | ðe-    | þ(e)-  | ð(e)- | þe(n)- | þ(e)- | v(e)- | ve(n)- |
 |       | 6s    | 6p    | 7s     | 7p     | 8s    | 8p     | 9s    | 9p    |        |
 |       | þ(e)- | ð(e)- | ð(ei)- | ðe(m)- | f(e)- | fe-    | vei-  | fei-  |        |
-Exemple : veimén (APU-maison) à côté de la maison
+Exemple : veimèn (APU-maison) à côté de la maison
 
 - <<cas-ine>>Cas inessif (/INE/) :: indique un lieu à l’intérieur de l’élément.
 | 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s      | 5p   |
 | -(a)ŕo- | -(e)ŕo- | -ŕo(n)- | -(ń)ŕo- | -(a)ŕo- | -ŕo-    | -(e)ŕo- | -(a)ŕo- | -(e)ŕo- | -ŕo- |
 |         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p      |      |
 |         | -ŕo-    | -(a)ŕo- | -(o)ŕo- | -(a)ŕo- | -(a)ŕo- | -(u)ŕo- | -(e)ŕo- | -(a)ŕo- |      |
-Exemple : mérón (<INE>maison) dans la maison
+Exemple : mèrøn (<INE>maison) dans la maison
 
 - <<cas-intrt>>Cas intratif (/INTRT/) :: indique un lieu entre des éléments. L’élément décliné ne peut être singulier.
 | 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s      | 5p      |
 | -fu(þ)- | -fu(ð)- | -fu(ð)- | -fu(ð)- | -fy(þ)- | -fy(ð)- | -fu(þ)- | -fy-    | -fy(ð)- | -fy(ð)- |
 |         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p      |         |
 |         | -fu(ð)- | -þy(ð)- | -(f)yþ- | -fu-    | -fi(ŕ)- | -fe(ŕ)- | -fu(ð)- | -fu(þ)- |         |
-Exemple : ménatĺ (maison.duel.INTRT) entre deux maisons.
+Exemple : mènåfùt (maison.duel.INTRT) entre deux maisons.
 
 - <<cas-loc>>Cas locatif (/LOC/) :: indique que l’élément décliné est le lieu indiqué (usage général).
-| 1s    | 1p    | 2s    | 2p     | 3s     | 3p    | 4s    | 4p    | 5s     | 5p    |
-| l(a)- | l(e)- | l(i)- | l(e)-  | le(þ)- | l(e)- | l(e)- | l(e)- | lj(a)- | l(a)- |
-|       | 6s    | 6p    | 7s     | 7p     | 8s    | 8p    | 9s    | 9p     |       |
-|       | ła-   | ł(a)- | l(au)- | l(ai)- | l(a)- | la-   | ĺ-    | l(e)-  |       |
+| 1s    | 1p    | 2s     | 2p     | 3s     | 3p    | 4s    | 4p    | 5s     | 5p    |
+| l(a)- | l(e)- | l(i)-  | l(e)-  | le(þ)- | l(e)- | l(e)- | l(e)- | lj(a)- | l(a)- |
+|       | 6s    | 6p     | 7s     | 7p     | 8s    | 8p    | 9s    | 9p     |       |
+|       | lha-  | lh(a)- | l(au)- | l(ai)- | l(a)- | la-   | ĺ-    | l(e)-  |       |
 Exemple : Il est à la maison (sans précision du lieu précis)
-| òt       | ĺména          | neßòis                                         |
+| øt       | ĺmènå          | neshøis                                        |
 | 3s6G-ERG | LOC-maison-ABS | être.subjectif.certain-présent.indicatif.3s2SG |
 
 - <<cas-pert>>Cas pertingent (/PERT/) :: indique un contact avec un lieu.
 | 1s    | 1p     | 2s     | 2p    | 3s     | 3p     | 4s    | 4p    | 5s    | 5p    |
 | m(a)- | m(a)-  | m(a)-  | m(e)- | mj(a)- | mj(e)- | m(e)- | m(e)- | m(a)- | m(e)- |
 |       | 6s     | 6p     | 7s    | 7p     | 8s     | 8p    | 9s    | 9p    |       |
-|       | mj(ò)- | mj(e)- | m(e)- | m(u)-  | m(a)-  | m(o)- | m(e)- | m(e)- |       |
-Exemple : memén (PERT-maison) en contact avec la maison
+|       | mj(ø)- | mj(e)- | m(e)- | m(u)-  | m(a)-  | m(o)- | m(e)- | m(e)- |       |
+Exemple : memèn (PERT-maison) en contact avec la maison
 
 - <<cas-poste>>Cas postessif (/POSTE/) :: indique un lieu postérieur à l’élément.
-Exemple : ménýßt (maison-POSTE) après la maison.
-| 1s    | 1p     | 2s    | 2p    | 3s    | 3p     | 4s    | 4p     | 5s     | 5p    |
-| -(u)ß | -(u)ßt | -(y)ß | -(y)ž | -(u)š | -(u)št | -(u)š | -(u)ß  | -(u)ß  | -(u)þ |
-|       | 6s     | 6p    | 7s    | 7p    | 8s     | 8p    | 9s     | 9p     |       |
-|       | -(u)ž  | -(y)š | -(u)ß | -(u)ź | -(y)ź  | -(y)ž | -(y)tß | -(y)ßt |       |
+Exemple : ménůsht (maison-POSTE) après la maison.
+| 1s     | 1p      | 2s     | 2p     | 3s     | 3p      | 4s     | 4p      | 5s      | 5p    |
+| -(u)sh | -(u)sht | -(y)sh | -(y)jh | -(u)ch | -(u)cht | -(u)ch | -(u)sh  | -(u)sh  | -(u)þ |
+|        | 6s      | 6p     | 7s     | 7p     | 8s      | 8p     | 9s      | 9p      |       |
+|        | -(u)jh  | -(y)ch | -(u)sh | -(u)zh | -(y)zh  | -(y)jh | -(y)tsh | -(y)sht |       |
 
 - <<cas-sube>>Cas subessif (/SUBE/) :: indique un lieu sous l’élément.
-| 1s    | 1p     | 2s    | 2p     | 3s    | 3p     | 4s     | 4p     | 5s    | 5p    |
-| ň(o)- | ň(wo)- | n(o)- | n(wo)- | ň(o)- | ň(o)-  | nw(o)- | n(we)- | ň(e)- | ň(o)- |
-|       | 6s     | 6p    | 7s     | 7p    | 8s     | 8p     | 9s     | 9p    |       |
-|       | ne-    | ňe-   | ňe-    | ňo-   | nw(a)- | n(wa)- | n(a)-  | na-   |       |
-Exemple : namén (SUBE-maison) sous la maison
+| 1s     | 1p      | 2s    | 2p     | 3s     | 3p     | 4s     | 4p     | 5s     | 5p     |
+| ng(o)- | ng(wo)- | n(o)- | n(wo)- | ng(o)- | ng(o)- | nw(o)- | n(we)- | ng(e)- | ng(o)- |
+|        | 6s      | 6p    | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |        |
+|        | ne-     | nge-  | nge-   | ngo-   | nw(a)- | n(wa)- | n(a)-  | na-    |        |
+Exemple : namèn (SUBE-maison) sous la maison
 
 - <<cas-supe>>Cas superessif (/SUPE/) :: indique un lieu sous l’élément.
-| 1s     | 1p      | 2s      | 2p      | 3s      | 3p     | 4s     | 4p      | 5s     | 5p     |
-| tß(a)- | tß(ań)- | tß(ai)- | tßau-   | tß(e)-  | tß(a)- | ßt(e)- | tß(ei)- | tß(e)- | št(a)- |
-|        | 6s      | 6p      | 7s      | 7p      | 8s     | 8p     | 9s      | 9p     |        |
-|        | ßt(a)-  | ßt(a)-  | tß(ao)- | tß(ae)- | tßa-   | ßta-   | ßt(e)-  | tß(a)- |        |
-Exemple : ßtemén (SUPE-maison) sur la maison / sur le toit de la maison (impliqué)
+| 1s      | 1p       | 2s       | 2p       | 3s       | 3p      | 4s      | 4p       | 5s      | 5p      |
+| tsh(a)- | tsh(ań)- | tsh(ai)- | tshau-   | tsh(e)-  | tsh(a)- | sht(e)- | tsh(ei)- | tsh(e)- | cht(a)- |
+|         | 6s       | 6p       | 7s       | 7p       | 8s      | 8p      | 9s       | 9p      |         |
+|         | sht(a)-  | sht(a)-  | tsh(ao)- | tsh(ae)- | tsha-   | shta-   | sht(e)-  | tsh(a)- |         |
+Exemple : shtemèn (SUPE-maison) sur la maison / sur le toit de la maison (impliqué)
 
 *** Mouvement depuis un élément
 - <<cas-abl>>Cas ablatif (/ABL/) :: indique un déplacement s’éloignant de l’élément.
-| 1s    | 1p     | 2s     | 2p     | 3s     | 3p    | 4s     | 4p     | 5s     | 5p     |
-| l(i)- | l(e)-  | li(s)- | le(ž)- | l(i)-  | ĺ(ž)- | li(ß)- | li(ź)- | li(ß)- | li(ź)- |
-|       | 6s     | 6p     | 7s     | 7p     | 8s    | 8p     | 9s     | 9p     |        |
-|       | li(s)- | li(z)- | lń(d)- | lń(d)- | ĺ(z)- | ĺ(z)-  | ĺ(v)-  | ĺ(v)-  |        |
+| 1s    | 1p     | 2s     | 2p      | 3s     | 3p     | 4s      | 4p      | 5s      | 5p      |
+| l(i)- | l(e)-  | li(s)- | le(jh)- | l(i)-  | ĺ(jh)- | li(sh)- | li(zh)- | li(sh)- | li(zh)- |
+|       | 6s     | 6p     | 7s      | 7p     | 8s     | 8p      | 9s      | 9p      |         |
+|       | li(s)- | li(z)- | lń(d)-  | lń(d)- | ĺ(z)-  | ĺ(z)-   | ĺ(v)-   | ĺ(v)-   |         |
 Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
-| wyhakéís                      | liÐbńovu     | né       |
+| wyhakèìs                      | liÐbńovu     | nè       |
 | quitter(NOM prés-indic 1s2SG) | ABL-Ðbńo-ACC | 1s6G.NOM |
 
 - <<cas-del>>Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
-| 1s    | 1p    | 2s    | 2p     | 3s     | 3p    | 4s    | 4p     | 5s     | 5p    |
-| ß(a)- | ß(e)- | ß(e)- | ß(e)-  | ß(ai)- | ß(a)- | š(a)- | š(e)-  | ž(a)-  | ž(e)- |
-|       | 6s    | 6p    | 7s     | 7p     | 8s    | 8p    | 9s     | 9p     |       |
-|       | ž(a)- | ž(a)- | ß(eu)- | ß(eu)- | ß(a)- | ß(a)- | ßa(l)- | ße(l)- |       |
+| 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p      | 5s      | 5p     |
+| sh(a)- | sh(e)- | sh(e)- | sh(e)-  | sh(ai)- | sh(a)- | ch(a)- | ch(e)-  | jh(a)-  | jh(e)- |
+|        | 6s     | 6p     | 7s      | 7p      | 8s     | 8p     | 9s      | 9p      |        |
+|        | jh(a)- | jh(a)- | sh(eu)- | sh(eu)- | sh(a)- | sh(a)- | sha(l)- | she(l)- |        |
 Exemple : La mouche s’envola (volontairement) du livre (de l’extérieur du livre, sous entendu de sa couverture)
-| proböléntí                      | ßaraòm    | paŗevir    |
+| probœlèntì                      | sharaøm   | parhevir   |
 | s’envoler-(NOM passé m p 3s3SG) | DEL-livre | NOM-mouche |
 
 - <<cas-ela>>Cas élatif (/ELA/) :: déplacement depuis l’intérieur de l’élément.
-| 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s    | 5p     |
-| -(a)ły | -(e)ły | -(a)ły | -(a)łu | -(e)ły | -(e)ły | -(ł)y  | -(ł)y  | -(ł)y | -(ł)yi |
-|        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p    |        |
-|        | -(ł)u  | -(ł)yi | -ły    | -(a)ły | -(ł)ay | -(ł)ey | -(ł)ay | -łay  |        |
+| 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s     | 5p      |
+| -(a)lhy | -(e)lhy | -(a)lhy | -(a)lhu | -(e)lhy | -(e)lhy | -(lh)y  | -(lh)y  | -(lh)y | -(lh)yi |
+|         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p     |         |
+|         | -(lh)u  | -(lh)yi | -lhy    | -(a)lhy | -(lh)ay | -(lh)ey | -(lh)ay | -lhay  |         |
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis une page / l’intérieur du livre, le livré étant ouvert)
-| proböléntí                      | raòmey    | paŗevir    |
+| probœlèntì                      | raømey    | parhevir   |
 | s’envoler-(NOM passé m p 3s3SG) | livre-ELA | NOM-mouche |
 
 - <<cas-init>>Cas initiatif (/INIT/) :: indique le point de départ d’une action (cas général)
@@ -565,110 +558,110 @@ Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis u
 |        | 6s    | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |         |
 |        | -akĺ  | -ekĺ   | -(a)kĺ | -(e)kń | ak(ĺ)- | k(ń)-  | -(k)ĺ  | -(k)ń  |         |
 Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
-| etrjáléís                     | Ðbńokĺ    | né       |
+| etrjålèìs                     | Ðbńokĺ    | nè       |
 | voyager(NOM prés-indic 1s2SG) | Ðbńo-INIT | 1s6G.NOM |
 
 *** Mouvement vers un élément
 - <<cas-all>>Cas allatif (/ALL/) :: indique un mouvement vers les environs de l’élément (cas général), n’indique pas nécessairement de finalité ou de point précis.
-| 1s      | 1p       | 2s      | 2p      | 3s      | 3p       | 4s      | 4p      | 5s      | 5p      |
-| -li(ß)- | -li(ts)- | -li(ð)- | -li(ð)- | -li-    | -li-     | -li(s)- | -li(ź)- | -li(z)- | -li(š)- |
-|         | 6s       | 6p      | 7s      | 7p      | 8s       | 8p      | 9s      | 9p      |         |
-|         | -li(x)-  | -li(x)- | -li(ŗ)- | -li(ŗ)- | -li(þt)- | -li(v)- | -(l)iþ- | -(l)ið- |         |
+| 1s       | 1p       | 2s      | 2p       | 3s       | 3p       | 4s      | 4p       | 5s      | 5p       |
+| -li(sh)- | -li(ts)- | -li(ð)- | -li(ð)-  | -li-     | -li-     | -li(s)- | -li(zh)- | -li(z)- | -li(ch)- |
+|          | 6s       | 6p      | 7s       | 7p       | 8s       | 8p      | 9s       | 9p      |          |
+|          | -li(x)-  | -li(x)- | -li(rh)- | -li(rh)- | -li(þt)- | -li(v)- | -(l)iþ-  | -(l)ið- |          |
 Exemple : Je voyage vers Ðbńo (sans nécessairement aller à Ðbńo même).
-| etrjáléís                     | Ðbńoðil   | né       |
+| etrjålèìs                     | Ðbńoðil   | nè       |
 | voyager(NOM prés-indic 1s2SG) | Ðbńo<ALL> | 1s6G.NOM |
 
 - <<cas-ill>>Cas illatif (/ILL/) :: mouvement vers l’intérieur de l’élément, n’indique pas nécessairement de finalité.
 | 1s      | 1p       | 2s       | 2p      | 3s      | 3p      | 4s      | 4p      | 5s      | 5p      |
-| -(p)òn- | -(p)on-  | -(f)òn-  | -(f)on- | -òn-    | -(p)òn- | -(s)òn- | -(s)en- | -(s)en- | -(s)an- |
+| -(p)øn- | -(p)on-  | -(f)øn-  | -(f)on- | -øn-    | -(p)øn- | -(s)øn- | -(s)en- | -(s)en- | -(s)an- |
 |         | 6s       | 6p       | 7s      | 7p      | 8s      | 8p      | 9s      | 9p      |         |
-|         | -(ps)òn- | -(ps)en- | -òn-    | -(v)òn- | -(ŕ)òn- | -(ŕ)òn- | -(ŕ)òn- | -(ŕ)en- |         |
+|         | -(ps)øn- | -(ps)en- | -øn-    | -(v)øn- | -(ŕ)øn- | -(ŕ)øn- | -(ŕ)øn- | -(ŕ)en- |         |
 Exemple : La mouche vole vers la maison (sous entendu, elle va y rentrer)
-| eŕbölay                      | monén       | paŗevir    |
+| eŕbœlay                      | monèn       | parhevir   |
 | voler-(NOM prés-indic 3s3SG) | <ILL>maison | NOM-mouche |
 
 - <<cas-lat>>Cas latif (/LAT/) :: mouvement vers l’élément (cas général), n’indique pas nécessairement de finalité.
 | 1s    | 1p     | 2s     | 2p     | 3s     | 3p    | 4s     | 4p     | 5s    | 5p  |
-| -(l)a | -(l)ei | -(l)òĺ | -(l)e  | -(l)au | -(l)ĺ | -(l)ń  | -(l)a  | -(l)a | -le |
+| -(l)a | -(l)ei | -(l)øĺ | -(l)e  | -(l)au | -(l)ĺ | -(l)ń  | -(l)a  | -(l)a | -le |
 |       | 6s     | 6p     | 7s     | 7p     | 8s    | 8p     | 9s     | 9p    |     |
 |       | -la    | -la    | -(a)la | -(e)la | -(l)e | -(l)ai | -(l)ae | -la   |     |
 Exemple : Je pars de Notń pour Ðbńo.
-| wyhakéís                      | liNotńvu     | Ðbńolòĺ  | né       |
+| wyhakèìs                      | liNotńvu     | Ðbńoløĺ  | nè       |
 | quitter(NOM prés-indic 1s2SG) | ABL-Notń-ACC | Ðbńo-LAT | 1s6G.NOM |
 
 - <<cas-subl>>Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
-| 1s | 1p    | 2s     | 2p    | 3s     | 3p     | 4s     | 4p     | 5s     | 5p     |        |
-|    | -(i)ţ | -(i)ţ  | -(e)ţ | -(i)ḑ  | -(i)ţ  | -(i)nţ | -(i)fţ | -(i)þţ | -(e)nţ | -(eu)ţ |
-|    | 6s    | 6p     | 7s    | 7p     | 8s     | 8p     | 9s     | 9p     |        |        |
-|    | -(a)ţ | -(i)nţ | -(i)ţ | -(i)ßţ | -(i)šţ | -(i)ţ  | -(r)iţ | -iţ    |        |        |
+| 1s | 1p    | 2s     | 2p    | 3s      | 3p      | 4s     | 4p     | 5s     | 5p     |        |
+|    | -(i)ŧ | -(i)ŧ  | -(e)ŧ | -(i)đ   | -(i)ŧ   | -(i)nŧ | -(i)fŧ | -(i)þŧ | -(e)nŧ | -(eu)ŧ |
+|    | 6s    | 6p     | 7s    | 7p      | 8s      | 8p     | 9s     | 9p     |        |        |
+|    | -(a)ŧ | -(i)nŧ | -(i)ŧ | -(i)shŧ | -(i)chŧ | -(i)ŧ  | -(r)iŧ | -iŧ    |        |        |
 Exemple : La mouche vole vers le livre. (sous-entendu, la couverture)
-| eŕbölay                      | raòmiţ     | paŗevir    |
+| eŕbœlay                      | raømiŧ     | parhevir   |
 | voler-(NOM prés-indic 3s3SG) | livre-SUBL | NOM-mouche |
 
 - <<cas-term>>Cas terminatif (/TERM/) :: le mouvement a pour but l’élément.
-| 1s     | 1p      | 2s      | 2p      | 3s      | 3p     | 4s     | 4p     | 5s     | 5p   |
-| -(ae)n | -(ae)ň  | -(þ)aen | -(ð)aen | -(þ)aeň | -(ae)m | -(ae)n | -aem   | -aeň   | -aem |
-|        | 6s      | 6p      | 7s      | 7p      | 8s     | 8p     | 9s     | 9p     |      |
-|        | -(ae)nz | ae(ň)-  | -(ae)n  | -(ae)n  | -(ae)m | -ae    | -(ai)n | -(ai)ň |      |
+| 1s     | 1p      | 2s      | 2p      | 3s       | 3p     | 4s     | 4p     | 5s      | 5p   |
+| -(ae)n | -(ae)ng | -(þ)aen | -(ð)aen | -(þ)aeng | -(ae)m | -(ae)n | -aem   | -aeng   | -aem |
+|        | 6s      | 6p      | 7s      | 7p       | 8s     | 8p     | 9s     | 9p      |      |
+|        | -(ae)nz | ae(ng)- | -(ae)n  | -(ae)n   | -(ae)m | -ae    | -(ai)n | -(ai)ng |      |
 Exemple : Je voyage jusqu’à Ðbńo.
-| etrjáléís                     | Ðbńoþaen  | né       |
+| etrjålèìs                     | Ðbńoþaen  | nè       |
 | voyager(NOM prés-indic 1s2SG) | Ðbńo-TERM | 1s6G-NOM |
 
 *** Déplacement via un élément
 - <<cas-per>>Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
-| 1s    | 1p     | 2s     | 2p    | 3s    | 3p    | 4s     | 4p     | 5s     | 5p     |
-| ž(u)- | ž(y)-  | ž(u)-  | š(u)- | š(y)- | ž(u)- | š(ui)- | ž(ui)- | š(eu)- | š(ey)- |
-|       | 6s     | 6p     | 7s    | 7p    | 8s    | 8p     | 9s     | 9p     |        |
-|       | š(oy)- | ž(ou)- | ž(u)- | ž(e)- | ž(u)- | ž(u)-  | š(y)-  | ž(u)-  |        |
+| 1s     | 1p      | 2s      | 2p     | 3s     | 3p     | 4s      | 4p      | 5s      | 5p      |
+| jh(u)- | jh(y)-  | jh(u)-  | ch(u)- | ch(y)- | jh(u)- | ch(ui)- | jh(ui)- | ch(eu)- | ch(ey)- |
+|        | 6s      | 6p      | 7s     | 7p     | 8s     | 8p      | 9s      | 9p      |         |
+|        | ch(oy)- | jh(ou)- | jh(u)- | jh(e)- | jh(u)- | jh(u)-  | ch(y)-  | jh(u)-  |         |
 Exemple : Je voyage le long de la rivière.
-| etrjáléís                     | šyłánt                 | né       |
+| etrjålèìs                     | chylhånt               | nè       |
 | voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | 1s6G-NOM |
 
 - <<cas-prol>>Cas prolatif (/PROL/) :: mouvement en utilisant l’élément ou sur sa surface.
-| 1s    | 1p    | 2s    | 2p     | 3s    | 3p     | 4s    | 4p     | 5s    | 5p    |
-| š(a)- | š(a)- | š(e)- | š(ae)- | ž(a)- | š(ay)- | ša-   | š(e)-  | š(e)- | ž(a)- |
-|       | 6s    | 6p    | 7s     | 7p    | 8s     | 8p    | 9s     | 9p    |       |
-|       | š(e)- | še-   | š(a)-  | šei-  | še-    | š(a)- | š(ey)- | ž(e)- |       |
+| 1s     | 1p     | 2s     | 2p      | 3s     | 3p      | 4s     | 4p      | 5s     | 5p     |
+| ch(a)- | ch(a)- | ch(e)- | ch(ae)- | jh(a)- | ch(ay)- | cha-   | ch(e)-  | ch(e)- | jh(a)- |
+|        | 6s     | 6p     | 7s      | 7p     | 8s      | 8p     | 9s      | 9p     |        |
+|        | ch(e)- | che-   | ch(a)-  | chei-  | che-    | ch(a)- | ch(ey)- | jh(e)- |        |
 Exemple : Je navigue sur l’océan côtier.
-| ’elḑökay                       | šielt               | né       |
+| ’elđœkay                       | chielt              | nè       |
 | naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | 1s6G-NOM |
 
 *** Temps
 - <<cas-atemp>>Cas accusatif-temporel (/ATEMP/) :: indication d’une durée de temps, peut remplacer l’accusatif d’une proposition nominative-accusative avec un verbe transitif.
-| 1s  | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s     | 5p      |
-| -źu | -źu    | -źu    | -źu    | -źoy   | -źou   | -(a)źu | -(e)źu | -(u)źu | -(ai)źu |
-|     | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |         |
-|     | -(i)źu | -(u)źu | -(o)źu | -(o)źu | -(o)źu | -(o)źu | -(o)źu | -(o)źu |         |
+| 1s   | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s      | 5p       |
+| -zhu | -zhu    | -zhu    | -zhu    | -zhoy   | -zhou   | -(a)zhu | -(e)zhu | -(u)zhu | -(ai)zhu |
+|      | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p      |          |
+|      | -(i)zhu | -(u)zhu | -(o)zhu | -(o)zhu | -(o)zhu | -(o)zhu | -(o)zhu | -(o)zhu |          |
 Exemple : J’ai dormis sept heures.
-| ’oherénté                    | heolí’            | pńtwánźu   | né       |
+| ’oherèntè                    | heolì’            | pńtwånzhu  | nè       |
 | dormir-(NOM passé m p 1s2SG) | heure(mesure)-GEN | sept-ATEMP | 1s6G-NOM |
 
 - <<cas-ess>>Cas essif (/ESS/) :: l’élément indique la date où le moment où un événement se produit.
 | 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p        | 5s        | 5p      |
-| -(þ)yd- | -(þ)yd- | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- | -(þ)yḑ- | -(þ)yḑ-   | -(ð)yţ-   | -(ð)yţ- |
+| -(þ)yd- | -(þ)yd- | -(þ)ud- | -(þ)ud- | -(þ)yd- | -(þ)ud- | -(þ)yđ- | -(þ)yđ-   | -(ð)yŧ-   | -(ð)yŧ- |
 |         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s        | 9p        |         |
 |         | -(þ)ud- | -(þ)ud- | -þy(d)- | -þy(d)- | -þy(d)- | -þy(d)- | -(oi)þyd- | -(oi)þyd- |         |
 Exemple : Je dors habituellement à sept heures.
-| ’oheroméis                   | hebéómi’  | pudńtwán  | né       |
+| ’oheroméis                   | hebéòmi’  | pudńtwån  | né       |
 | dormir(NOM prés-habit 1s2SG) | heure-GEN | <ESS>sept | 1s6G-NOM |
 
 - <<cas-limit>>Cas limitatif (/LIMIT/) :: l’élément indique une limite dans le temps.
 | 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s     | 5p     |
-| -(ò)mp | -(e)mp | -(ò)mp | -(ò)mp | -(ò)mp | -(ò)mp | -(ò)mp | -(ò)mp | -(ò)mp | -(ò)mp |
+| -(ø)mp | -(e)mp | -(ø)mp | -(ø)mp | -(ø)mp | -(ø)mp | -(ø)mp | -(ø)mp | -(ø)mp | -(ø)mp |
 |        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |        |
-|        | -(e)mp | -(ò)mp | -(a)mp | -(a)mp | -(a)mp | -(a)mp | -(ò)mp | -(ò)mp |        |
+|        | -(e)mp | -(ø)mp | -(a)mp | -(a)mp | -(a)mp | -(a)mp | -(ø)mp | -(ø)mp |        |
 Exemple : Je dors habituellement jusqu’à sept heures.
-| ’oheroméis                   | hebéómi’  | pńtwánòmp  | né       |
+| ’oheroméis                   | hebéòmi’  | pńtwånømp  | né       |
 | dormir(NOM prés-habit 1s2SG) | heure-GEN | sept-LIMIT | 1s6G-NOM |
 
 - <<cas-temp>>Cas temporel (/TEMP/) :: l’élément désigne un moment (cas général).
-| 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s    | 5p      |
-| -(i)ňni | -(i)ňni | -(i)ňni | -(i)mi  | -(i)ňni | -(i)nji | -(y)ňni | -(ň)ne  | -eňni | -(i)mji |
-|         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p    |         |
-|         | -(i)ňni | -(iň)ni | -(i)ňni | -(i)ňni | -(e)ňni | -(i)ňni | -(y)ňni | -iňni |         |
+| 1s       | 1p       | 2s       | 2p       | 3s       | 3p       | 4s       | 4p       | 5s     | 5p      |
+| -(i)ngni | -(i)ngni | -(i)ngni | -(i)mi   | -(i)ngni | -(i)nji  | -(y)ngni | -(ng)ne  | -engni | -(i)mji |
+|          | 6s       | 6p       | 7s       | 7p       | 8s       | 8p       | 9s       | 9p     |         |
+|          | -(i)ngni | -(ing)ni | -(i)ngni | -(i)ngni | -(e)ngni | -(i)ngni | -(y)ngni | -ingni |         |
 Exemple : à sept heures
-| hebéómi’  | pńtwániňni |
-| heure-GEN | sept-TEMP  |
+| hebèòmi’  | pńtwåningni  |
+| heure-GEN | sept-TEMP   |
 
 - <<cas-distemp>>Cas distributif-temporel (/DISTEMP/) :: Similaire au [[cas-distributif][cas distributif]], montrant une répétition temporelle se produisant à chaque élément temporel décliné.
 | 1s  | 1p  | 2s  | 2p    | 3s  | 3p   | 4s     | 4p  | 5s  | 5p  |
@@ -678,12 +671,12 @@ Exemple : à sept heures
 
 *** Alignement morphosyntaxique
 - <<cas-abs>>Cas absolutif (/ABS/) :: indique le patient d’un verbe transitif ou le sujet d’un verbe intransitif dans une proposition ergative. S’oppose à l’[[cas-erg][ergatif]].
-| 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s    | 4p    | 5s    | 5p    |
-| -(ts)a | -(ts)a | -(tß)a | -(tß)a | -(ts)a | -(ts)a | -(t)a | -(š)a | -(p)a | -(v)a |
-|        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p    | 9s    | 9p    |       |
-|        | -(st)a | -(ž)a  | -(r)a  | -(r)a  | -(x)a  | -(š)a | -(ŗ)a | -(ž)a |       |
+| 1s     | 1p     | 2s      | 2p      | 3s     | 3p     | 4s     | 4p     | 5s     | 5p    |
+| -(ts)a | -(ts)a | -(tsh)a | -(tsh)a | -(ts)a | -(ts)a | -(t)a  | -(ch)a | -(p)a  | -(v)a |
+|        | 6s     | 6p      | 7s      | 7p     | 8s     | 8p     | 9s     | 9p     |       |
+|        | -(st)a | -(jh)a  | -(r)a   | -(r)a  | -(qh)a | -(ch)a | -(rh)a | -(jh)a |       |
 Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
-| néí      | nweţuŗa  | kĺnéínté                    |
+| nèì      | nweŧurha | kĺnèìntè                    |
 | 1s6G.ERG | vase-ABS | briser(ERG passé m p 1s2SG) |
 
 - <<cas-acc>>Cas accusatif (/ACC/) :: indique le patient d’un verbe transitif dans une proposition nominative. S’oppose au nominatif.
@@ -692,59 +685,59 @@ Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
 |     | 6s     | 6p     | 7s     | 7p     | 8s  | 8p     | 9s     | 9p     |        |
 |     | -(a)vo | -(a)vo | -(u)vo | -(u)vo | -vu | -vu    | -vy    | -vy    |        |
 Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
-| kĺnénté                     | nweţuvy  | né       |
+| kĺnèntè                     | nweŧuvy  | nè       |
 | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
 
 - <<cas-erg>>Cas ergatif (/ERG/) :: indique l’agent d’un verbe transitif dans une proposition ergative. S’oppose à l’[[cas-abs][absolutif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
 | 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s     | 5p     |
-| -(u)jo | -(y)jo | -(í)jo | -(é)jo | -(u)jo | -(u)jo | -(ò)jo | -(y)jo | -(lj)o | -(lj)o |
+| -(u)jo | -(y)jo | -(ì)jo | -(é)jo | -(u)jo | -(u)jo | -(ø)jo | -(y)jo | -(lj)o | -(lj)o |
 |        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |        |
 |        | -(mj)o | -(lj)o | -jo    | -jo    | -(o)jo | -(e)jo | -(u)jo | -(u)jo |        |
 Exemple : J’ai brisé le vase. (action sous-entendue comme involontaire)
-| néí      | nweţuŗa  | kĺnéínté                          |
+| nèì      | nweŧurha | kĺnèìntè                          |
 | 1s6G.ERG | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
 - <<cas-instructive>>Cas instructif (/INSTRUCTIVE/) :: indique le moyen employé, répond à la question /comment ?/.
-| 1s    | 1p     | 2s    | 2p  | 3s    | 3p     | 4s    | 4p    | 5s     | 5p    |
-| -(e)ň | -(e)ň  | -(a)ň | -eň | -(e)ň | -(a)ň  | -(e)ň | -eň   | -aň    | -(e)ň |
-|       | 6s     | 6p    | 7s  | 7p    | 8s     | 8p    | 9s    | 9p     |       |
-|       | -(ea)ň | -(e)ň | -eň | -eňt  | -(e)ňz | -(e)ň | -(e)ň | -(e)ňt |       |
+| 1s     | 1p      | 2s     | 2p   | 3s     | 3p      | 4s     | 4p     | 5s      | 5p     |
+| -(e)ng | -(e)ng  | -(a)ng | -eng | -(e)ng | -(a)ng  | -(e)ng | -eng   | -ang    | -(e)ng |
+|        | 6s      | 6p     | 7s   | 7p     | 8s      | 8p     | 9s     | 9p      |        |
+|        | -(ea)ng | -(e)ng | -eng | -engt  | -(e)ngz | -(e)ng | -(e)ng | -(e)ngt |        |
 Exemple : J’ai brisé le vase en tombant. (comme je suis tombé, sous-entendu involontairement, j’ai brisé le vase)
-| néí      | žybdinobyente                    | nweţuŗa  | kĺnéínté                          |
+| nèì      | jhybdinobyente                   | nweŧurha | kĺnèìntè                          |
 | 1s6G.ERG | tomber(ERG pas. moy. pft. 1s2SG) | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
 - <<cas-instr>>Cas instrumental (/INSTR/) :: indique l’instrument utilisé, répond à la question /au moyen de quel objet ?/.
 | 1s    | 1p    | 2s    | 2p    | 3s    | 3p    | 4s    | 4p    | 5s    | 5p  |
-| -(d)ĺ | -(d)ĺ | -(d)ĺ | -(ḑ)ĺ | -(d)ĺ | -(ḑ)ĺ | -(d)ĺ | -(ţ)ĺ | -(d)ĺ | -ḑĺ |
+| -(d)ĺ | -(d)ĺ | -(d)ĺ | -(đ)ĺ | -(d)ĺ | -(đ)ĺ | -(d)ĺ | -(ŧ)ĺ | -(d)ĺ | -đĺ |
 |       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p    |     |
-|       | -(d)ĺ | -(d)ń | -(d)ĺ | -(d)ĺ | -(d)ń | -(ḑ)ń | -(d)ĺ | -(d)ĺ |     |
+|       | -(d)ĺ | -(d)ń | -(d)ĺ | -(d)ĺ | -(d)ń | -(đ)ń | -(d)ĺ | -(d)ĺ |     |
 Exemple : J’ai brisé (involontairement) le vase avec mon pied (avec un coup de pied).
-| néí      | pńtédń             | nweţuŗa  | kĺnéínté                          |
+| nèì      | pńtèdń             | nweŧurha | kĺnèìntè                          |
 | 1s6G.ERG | pied.POSS-6s.INSTR | vase-ABS | briser(ERG passé moy. pft. 1s2SG) |
 
 - <<cas-nomin>>Cas nominal (/NOMIN/) :: indique que l’élément décliné doit être considéré comme un nom dérivé de l’élément décliné, généralement traduisible à peu près par « /celui qui .../ ». Notez que le genre du resultat est le genre humain si ledit résultat décrit un humain, peu importe le genre d’origine, par défaut neutre.
-| 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p     | 5s      | 5p    |
-| -(eu)s | -(eu)ß | -(eu)s | -(eu)ßt | -(eu)st | -(eu)s | -(eu)s | -(eo)ß | -eus    | -eušt |
-|        | 6s     | 6p     | 7s      | 7p      | 8s     | 8p     | 9s     | 9p      |       |
-|        | -eus   | -(eu)ß | -(eu)s  | -(eu)ß  | -(eu)s | -(ei)š | -(eu)s | -(eu)st |       |
+| 1s     | 1p      | 2s      | 2p       | 3s      | 3p     | 4s      | 4p      | 5s      | 5p     |
+| -(eu)s | -(eu)sh | -(eu)s  | -(eu)sht | -(eu)st | -(eu)s | -(eu)s  | -(eo)sh | -eus    | -eucht |
+|        | 6s      | 6p      | 7s       | 7p      | 8s     | 8p      | 9s      | 9p      |        |
+|        | -eus    | -(eu)sh | -(eu)s   | -(eu)sh | -(eu)s | -(ei)ch | -(eu)s  | -(eu)st |        |
 Exemple : un cavalier (genre humain neutre) : naeleus (cheval-NOMIN)
 
 - <<cas-nom>>Cas nominatif (/NOM/) :: indique le sujet d’un verbe intransitif ou l’agent d’un verbe transitif dans une proposition nominative. S’oppose à l’[[cas-acc][accusatif]]. Peut-être remplacé par le [[cas-peg][pégatif]].
-| 1s    | 1p     | 2s    | 2p     | 3s     | 3p     | 4s     | 4p     | 5s  | 5p  |
-| p(a)- | p(e)-  | p(a)- | p(e)-  | p(a)-  | p(a)-  | pa(n)- | pa(ń)- | pń- | pń- |
-|       | 6s     | 6p    | 7s     | 7p     | 8s     | 8p     | 9s     | 9p  |     |
-|       | pa(m)- | pa-   | pa(l)- | pa(l)- | pa(ß)- | pe(ß)- | pa-    | pa- |     |
+| 1s    | 1p     | 2s    | 2p     | 3s     | 3p      | 4s      | 4p     | 5s  | 5p  |
+| p(a)- | p(e)-  | p(a)- | p(e)-  | p(a)-  | p(a)-   | pa(n)-  | pa(ń)- | pń- | pń- |
+|       | 6s     | 6p    | 7s     | 7p     | 8s      | 8p      | 9s     | 9p  |     |
+|       | pa(m)- | pa-   | pa(l)- | pa(l)- | pa(sh)- | pe(sh)- | pa-    | pa- |     |
 Exemple : J’ai brisé le vase. (action sous-entendue comme volontaire)
-| kĺnénté                     | nweţuvy  | né       |
+| kĺnèntè                     | nweŧuvy  | nè       |
 | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
 
 - <<cas-obl>>Cas oblique (/OBL/) :: marque le verbe, indique la proposition comme étant une citation. Les sous-propositions n’ont pas besoin d’être marquée. Remplace l’[[cas-acc][accusatif]] dans les propositions nominatives, et l’[[cas-abs][absolutif]] dans les propositions ergatives.
-| 1s     | 1p      | 2s     | 2p      | 3s     | 3p     | 4s     | 4p      | 5s      | 5p     |
-| -(ŗ)eß | -(ŗ)eßt | -(ŗ)ef | -(ŗ)eft | -(ŗ)eß | -(x)eß | -(ŗ)ef | -(ŗ)òß  | -(ŗ)ef  | -(ŗ)òß |
-|        | 6s      | 6p     | 7s      | 7p     | 8s     | 8p     | 9s      | 9p      |        |
-|        | -(ŗ)ef  | -(ŗ)òß | -(x)eß  | -(x)eß | -(x)eß | -(x)eß | -(x)uiß | -(x)oiß |        |
+| 1s       | 1p        | 2s       | 2p       | 3s       | 3p       | 4s       | 4p        | 5s        | 5p       |
+| -(rh)esh | -(rh)esht | -(rh)ef  | -(rh)eft | -(rh)esh | -(qh)esh | -(rh)ef  | -(rh)øsh  | -(rh)ef   | -(rh)øsh |
+|          | 6s        | 6p       | 7s       | 7p       | 8s       | 8p       | 9s        | 9p        |          |
+|          | -(rh)ef   | -(rh)øsh | -(qh)esh | -(qh)esh | -(qh)esh | -(qh)esh | -(qh)uish | -(qh)oish |          |
 Exemple : j’ai dis que j’ai cassé (involontairement) le vase.
-| ŗeðénté                   | kĺnéntéŗòß                  | nweţuŗa  | né       |
+| rheðèntè                  | kĺnèntèrhøsh                | nweŧurha | nè       |
 | dire(NOM passé m p 1s2SG) | briser(NOM passé m p 1s2SG) | vase-ACC | 1s6G.NOM |
 
 - <<cas-peg>>Cas pégatif (/PEG/) :: Remplace le [[cas-nom][nominatif]] et l’[[cas-erg][ergatif]] dans une proposition ayant un argument datif.
@@ -755,21 +748,21 @@ Exemple : j’ai dis que j’ai cassé (involontairement) le vase.
 
 *** Relation
 - <<cas-evit>>Cas aversif (/EVIT/) :: indique que l’élément est évité ou craint.
-| 1s    | 1p    | 2s    | 2p    | 3s    | 3p  | 4s    | 4p    | 5s    | 5p    |
-| ł(e)- | ł(e)- | ła-   | ł(e)- | ł(e)- | ła- | ł(e)- | ła-   | la-   | ł(e)- |
-|       | 6s    | 6p    | 7s    | 7p    | 8s  | 8p    | 9s    | 9p    |       |
-|       | ła-   | ł(e)- | ł(e)- | ł(e)- | ła- | l(e)- | ł(e)- | ł(e)- |       |
+| 1s     | 1p     | 2s     | 2p     | 3s     | 3p   | 4s     | 4p     | 5s     | 5p     |
+| lh(e)- | lh(e)- | lha-   | lh(e)- | lh(e)- | lha- | lh(e)- | lha-   | la-    | lh(e)- |
+|        | 6s     | 6p     | 7s     | 7p     | 8s   | 8p     | 9s     | 9p     |        |
+|        | lha-   | lh(e)- | lh(e)- | lh(e)- | lha- | l(e)-  | lh(e)- | lh(e)- |        |
 Exemple : Je navigue sur l’océan côtier tout en évitant Notń.
-| ’elḑökay                       | łaNotń    | šielt               | né       |
+| ’elđœkay                       | lhaNotń   | chielt              | nè       |
 | naviguer(NOM prés-indic 1s2SG) | EVIT-Notń | PROL-(océan côtier) | 1s6G-NOM |
 
 - <<cas-ben>>Cas bénéfactif (/BEN/) :: indique la personne ou le concept motivant une proposition d’un verbe d’action. S’il est omis à la première personne, on assume que le bénéfacteur est le sujet ou l’agent ; à la seconde ou à la troisième personne, on assume que le bénéfacteur est inconnu.
 | 1s  | 1p  | 2s     | 2p  | 3s  | 3p   | 4s  | 4p  | 5s  | 5p  |
-| -at | -et | -at    | -at | -at | -aţ  | -at | -aţ | -aţ | -aţ |
+| -at | -et | -at    | -at | -at | -aŧ  | -at | -aŧ | -aŧ | -aŧ |
 |     | 6s  | 6p     | 7s  | 7p  | 8s   | 8p  | 9s  | 9p  |     |
 |     | -et | -(v)et | -at | -et | -ast | -aþ | -at | -et |     |
 Exemple : Je navigue sur l’océan côtier (l’action est motivée par ou due à Mérian).
-| Merianaţ   | ’elḑökay                       | šielt               | né       |
+| Merianaŧ   | ’elđœkay                       | chielt              | nè       |
 | Merian-BEN | naviguer(NOM prés-indic 1s2SG) | PROL-(océan côtier) | 1s6G-NOM |
 
 - <<cas-caus>>Cas causal :: indique la cause d’une proposition
@@ -784,63 +777,63 @@ Exemple : Je navigue sur l’océan côtier (l’action est motivée par ou due
 |       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p       |       |
 |       | -ðei- | -ðey- | -ðei- | -ðei- | -ðeu- | -ðei- | -ðeu- | -ðeu-    |       |
 Exemple : Je voyage le long de la rivière accompagné de Romur. (Romur et moi partageons l’expérience du voyage).
-| etrjáléís                     | šyłánt                 | Romyðeńr   | né       |
+| etrjålèìs                     | chylhånt               | Romyðeńr   | nè       |
 | voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | <COM>Romyr | 1s6G-NOM |
 
 - <<cas-dat>>Cas datif (/DAT/) :: élément recevant ou direction de l’action vers l’élément.
 | 1s   | 1p   | 2s      | 2p   | 3s   | 3p    | 4s   | 4p   | 5s   | 5p   |
-| -at- | -et- | -at-    | -at- | -at- | -aţ-  | -at- | -aţ- | -aţ- | -aţ- |
+| -at- | -et- | -at-    | -at- | -at- | -aŧ-  | -at- | -aŧ- | -aŧ- | -aŧ- |
 |      | 6s   | 6p      | 7s   | 7p   | 8s    | 8p   | 9s   | 9p   |      |
 |      | -et- | -(v)et- | -at- | -et- | -ast- | -aþ- | -at- | -et- |      |
 Exemple : Je crie (par colère) sur mon voisin.
-| ţýbýmáý                     | ketipŕým    | né       |
+| ŧůbůmåů                     | ketipŕům    | nè       |
 | crier(NOM prés-indic 1s2SG) | <DAT>voisin | 1s6G-NOM |
 
 - <<cas-distributif>>Cas Distributif (/DISTR/) :: Marque une distribution équitable entre les éléments déclinés. Comparable au cas [[cas-distemp][distributif-temporel]].
-| 1s     | 1p     | 2s     | 2p      | 3s      | 3p      | 4s      | 4p     | 5s     | 5p     |
-| xe(š)- | xe(l)- | xe(ž)- | xe(l)-  | ŗe(š)-  | ŗe(ž)-  | he(l)-  | he(l)- | he(l)- | he(l)- |
-|        | 6s     | 6p     | 7s      | 7p      | 8s      | 8p      | 9s     | 9p     |        |
-|        | ha(l)- | ha(l)- | hei(l)- | hea(l)- | hea(l)- | hea(l)- | še(l)- | še(l)- |        |
+| 1s       | 1p      | 2s       | 2p      | 3s       | 3p       | 4s      | 4p      | 5s      | 5p     |
+| qhe(ch)- | qhe(l)- | qhe(jh)- | qhe(l)- | rhe(ch)- | rhe(jh)- | he(l)-  | he(l)-  | he(l)-  | he(l)- |
+|          | 6s      | 6p       | 7s      | 7p       | 8s       | 8p      | 9s      | 9p      |        |
+|          | ha(l)-  | ha(l)-   | hei(l)- | hea(l)-  | hea(l)-  | hea(l)- | che(l)- | che(l)- |        |
 
 - <<cas-gen>>Cas génitif (/GEN/) :: montre une relation entre deux éléments, l’élément décliné définit l’élément situé immédiatement après. Attention, contrairement à certaines langues, le génitif de dénote pas la possession de l’élément ; pour cela, il faut utiliser le [[cas-poss][possessif]].
 | 1s    | 1p     | 2s     | 2p    | 3s    | 3p     | 4s  | 4p    | 5s     | 5p  |
-| ţ(y)- | ţ(u)-  | ţ(y)-  | ţ(y)- | ţ(y)- | ţ(yi)- | ţy- | ţy-   | ţy(i)- | ţy- |
+| ŧ(y)- | ŧ(u)-  | ŧ(y)-  | ŧ(y)- | ŧ(y)- | ŧ(yi)- | ŧy- | ŧy-   | ŧy(i)- | ŧy- |
 |       | 6s     | 6p     | 7s    | 7p    | 8s     | 8p  | 9s    | 9p     |     |
-|       | ţ(eu)- | ţo(y)- | ţy-   | ţ(u)- | ţ(u)-  | ţu- | ţ(y)- | ţ(u)-  |     |
+|       | ŧ(eu)- | ŧo(y)- | ŧy-   | ŧ(u)- | ŧ(u)-  | ŧu- | ŧ(y)- | ŧ(u)-  |     |
 
 - <<cas-poss>>Cas possessif (/POSS/) :: marque l’élément comme le propriétaire de l’élément suivant immédiatement l’élément décliné. Il n’est pas utile de décliner l’élément (voire même de placer l’élément dans la phrase) si l’élément propriété est également décliné avec les déclinaisons possessives.
 | 1s  | 1p     | 2s     | 2p    | 3s     | 3p    | 4s   | 4p   | 5s     | 5p   |
-| -ţy | -ţy    | -(i)ţy | -ţy   | -(eu)ţ | -(y)ţ | -eţy | -eţy | -(i)ţy | -oţy |
+| -ŧy | -ŧy    | -(i)ŧy | -ŧy   | -(eu)ŧ | -(y)ŧ | -eŧy | -eŧy | -(i)ŧy | -oŧy |
 |     | 6s     | 6p     | 7s    | 7p     | 8s    | 8p   | 9s   | 9p     |      |
-|     | -(e)uţ | -(o)iţ | -(ţ)y | -(e)ţy | -iţy  | -ţy  | -yţ  | -iţ    |      |
+|     | -(e)uŧ | -(o)iŧ | -(ŧ)y | -(e)ŧy | -iŧy  | -ŧy  | -yŧ  | -iŧ    |      |
 
 - <<cas-priv>>Cas privatif (/PRIV/) :: indique un manque ou une absence de l’élément décliné. Ce manque n’a aucune conotation positive ou négative.
-| 1s  | 1p  | 2s  | 2p  | 3s  | 3p  | 4s  | 4p  | 5s   | 5p  |
-| ei- | ei- | eń- | ež- | ei- | éĺ- | ei- | ae- | eiḑ- | ei- |
-|     | 6s  | 6p  | 7s  | 7p  | 8s  | 8p  | 9s  | 9p   |     |
-|     | ei- | ei- | ei- | ei- | ei- | ei- | eń- | eń-  |     |
+| 1s  | 1p  | 2s  | 2p   | 3s  | 3p  | 4s  | 4p  | 5s   | 5p  |
+| ei- | ei- | eń- | ejh- | ei- | éĺ- | ei- | ae- | eiđ- | ei- |
+|     | 6s  | 6p  | 7s   | 7p  | 8s  | 8p  | 9s  | 9p   |     |
+|     | ei- | ei- | ei-  | ei- | ei- | ei- | eń- | eń-  |     |
 
 - <<cas-sempl>>Cas semplatif (/SEMPL/) :: indique une similitude entre le sujet/expérienceur ou l’agent de la proposition et le ou les éléments déclinés.
-| 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s     | 5p     |
-| -(ŗ)wo | -(ŗ)wo | -(ŗ)we | -(ŗ)wo | -(ŗ)wo | -ŗwo   | -ŗwe   | -(ŗ)wo | -ŗwo   | -(ŗ)wo |
-|        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |        |
-|        | -ŗwo   | -ŗwe   | -(ŗ)wo | -(ŗ)wo | -(ŗ)we | -(ŗ)wo | -(ŗ)wo | -(ŗ)wo |        |
+| 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s      | 5p      |
+| -(rh)wo | -(rh)wo | -(rh)we | -(rh)wo | -(rh)wo | -rhwo   | -rhwe   | -(rh)wo | -rhwo   | -(rh)wo |
+|         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p      |         |
+|         | -rhwo   | -rhwe   | -(rh)wo | -(rh)wo | -(rh)we | -(rh)wo | -(rh)wo | -(rh)wo |         |
 
 - <<cas-soc>>Cas sociatif (/SOC/) :: indique que la situation de la proposition s’est déroulée avec l’agent ou le sujet étant avec l’élément décliné. L’élément n’a pas à partager la situation avec l’agent/sujet.
 | 1s    | 1p    | 2s    | 2p    | 3s    | 3p    | 4s    | 4p    | 5s    | 5p    |
-| t(o)- | t(e)- | t(o)- | t(o)- | ţ(o)- | te-   | t(o)- | t(e)- | ţe-   | t(o)- |
+| t(o)- | t(e)- | t(o)- | t(o)- | ŧ(o)- | te-   | t(o)- | t(e)- | ŧe-   | t(o)- |
 |       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p    |       |
-|       | to-   | ţo-   | te-   | t(o)- | t(o)- | to-   | t(o)- | t(o)- |       |
+|       | to-   | ŧo-   | te-   | t(o)- | t(o)- | to-   | t(o)- | t(o)- |       |
 Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne peuvent partager l’expérience dû au fait qu’elles soient inanimées et ne sont certainement pas mon moyen de voyage)
-| etrjáléís                     | šyłánt                 | tovyelegot   | né       |
+| etrjålèìs                     | chylhånt               | tovyelegot   | nè       |
 | voyager(NOM prés-indic 1s2SG) | PERL-(rivière mineure) | SOC-jumelles | 1s6G-NOM |
 
 *** Sémantiques
 - <<cas-ptv>>Cas partitif (/PTV/) :: s’utilise pour indiquer une quantité de l’élément donné s’il s’agit de désigner un sous-groupe, sans spécifier d’identité ou bien de marquer une partie uniquement de l’élément décliné.
-| 1s      | 1p      | 2s      | 2p      | 3s      | 3p      | 4s      | 4p      | 5s       | 5p       |
-| -’i(l)- | -’i(l)- | -’y(l)- | -’u(l)- | -’i(l)- | -’i(l)- | -’i(l)- | -’il-   | -’il(y)- | -ili(’)- |
-|         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p       |          |
-|         | -’i(ł)- | -’e(ł)- | -’i(l)- | -gi(l)- | -’i(l)- | -ki(l)- | -’i(l)- | -’i(l)-  |          |
+| 1s      | 1p       | 2s       | 2p      | 3s      | 3p      | 4s      | 4p      | 5s       | 5p       |
+| -’i(l)- | -’i(l)-  | -’y(l)-  | -’u(l)- | -’i(l)- | -’i(l)- | -’i(l)- | -’il-   | -’il(y)- | -ili(’)- |
+|         | 6s       | 6p       | 7s      | 7p      | 8s      | 8p      | 9s      | 9p       |          |
+|         | -’i(lh)- | -’e(lh)- | -’i(l)- | -gi(l)- | -’i(l)- | -ki(l)- | -’i(l)- | -’i(l)-  |          |
 
 - <<cas-voc>>Cas vocatif (/VOC/) :: permet de s’adresser à quelqu’un en déclinant l’expression ou le nom utilisé pour s’y adresser.
 | 1s  | 1p  | 2s  | 2p  | 3s  | 3p     | 4s  | 4p  | 5s   | 5p     |
@@ -850,10 +843,10 @@ Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne 
 
 *** État
 - <<cas-abe>>Cas abessif (/ABE/) :: signale l’abscence que quelque chose en particulier
-| 1s    | 1p     | 2s     | 2p    | 3s    | 3p     | 4s     | 4p     | 5s     | 5p     |
-| e(m)- | e(ň)-  | e(n)-  | e(n)- | e(l)- | e(dl)- | e(ň)-  | e(t)-  | e(st)- | e(ßt)- |
-|       | 6s     | 6p     | 7s    | 7p    | 8s     | 8p     | 9s     | 9p     |        |
-|       | e(nt)- | e(ňt)- | e-    | e(s)- | e-     | e(ňt)- | e(mt)- | e(ňt)- |        |
+| 1s    | 1p     | 2s      | 2p    | 3s    | 3p     | 4s      | 4p     | 5s      | 5p      |
+| e(m)- | e(ng)- | e(n)-   | e(n)- | e(l)- | e(dl)- | e(ng)-  | e(t)-  | e(st)-  | e(sht)- |
+|       | 6s     | 6p      | 7s    | 7p    | 8s     | 8p      | 9s     | 9p      |         |
+|       | e(nt)- | e(ngt)- | e-    | e(s)- | e-     | e(ngt)- | e(mt)- | e(ngt)- |         |
 
 - <<cas-adv>>Cas adverbial (/ADV/) :: transforme un nom en adverbe
 | 1s  | 1p  | 2s  | 2p  | 3s  | 3p  | 4s     | 4p     | 5s     | 5p  |
@@ -862,34 +855,34 @@ Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne 
 |     | -eu | -ey | -ei | -ei | -ei | -(r)ei | -(ei)r | -(ey)r |     |
 
 - <<cas-comp>>Cas comparatif (/COMP/) :: indique une similarité de l’élément décliné avec l’élément nominatif ou absolutif de la proposition.
-| 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s     | 5p  |
-| -(oi)r | -(oi)r | -(oi)r | -(oi)ţ | -(oi)r | -(oi)t | -(oi)t | -(oi)ţ | -oir   | -er |
-|        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |     |
-|        | -(oi)r | -oit   | -(oi)r | -(oi)r | -or    | -(oi)r | -oiŗ   | -(oi)ŗ |     |
+| 1s     | 1p     | 2s     | 2p     | 3s     | 3p     | 4s     | 4p     | 5s      | 5p  |
+| -(oi)r | -(oi)r | -(oi)r | -(oi)ŧ | -(oi)r | -(oi)t | -(oi)t | -(oi)ŧ | -oir    | -er |
+|        | 6s     | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p      |     |
+|        | -(oi)r | -oit   | -(oi)r | -(oi)r | -or    | -(oi)r | -oirh  | -(oi)rh |     |
 
 - <<cas-equ>>Cas équatif (/EQU/) :: indique une comparaison entre l’élément décliné et l’élément nominatif ou absolutif de la proposition.
 | 1s    | 1p    | 2s    | 2p    | 3s     | 3p     | 4s    | 4p    | 5s    | 5p    |
-| -(ń)t | -(ń)t | -(ń)t | -(ĺ)t | -(ń)st | -(ń)ft | -(ń)t | -(ń)ḑ | -(ń)ţ | -(ń)t |
+| -(ń)t | -(ń)t | -(ń)t | -(ĺ)t | -(ń)st | -(ń)ft | -(ń)t | -(ń)đ | -(ń)ŧ | -(ń)t |
 |       | 6s    | 6p    | 7s    | 7p     | 8s     | 8p    | 9s    | 9p    |       |
-|       | -(ĺ)ḑ | -(ń)ţ | -(ń)t | -(ń)t  | -ńt    | -(ń)t | -(ń)t | -ńt   |       |
+|       | -(ĺ)đ | -(ń)ŧ | -(ń)t | -(ń)t  | -ńt    | -(ń)t | -(ń)t | -ńt   |       |
 
 - <<cas-exe>>Cas exessif (/EXE/) :: Marque une transition de condition depuis l’élément décliné
-| 1s  | 1p  | 2s  | 2p  | 3s    | 3p    | 4s  | 4p  | 5s  | 5p  |
-| -ex | -ex | -eŗ | -ex | -ix   | -ex   | -ex | -eŕ | -ex | -aŗ |
-|     | 6s  | 6p  | 7s  | 7p    | 8s    | 8p  | 9s  | 9p  |     |
-|     | -ex | -eŗ | -ex | -(e)x | -(a)x | -ex | -eŕ | -ex |     |
+| 1s   | 1p   | 2s   | 2p   | 3s     | 3p     | 4s   | 4p  | 5s   | 5p   |
+| -eqh | -eqh | -erh | -eqh | -iqh   | -eqh   | -eqh | -eŕ | -eqh | -arh |
+|      | 6s   | 6p   | 7s   | 7p     | 8s     | 8p   | 9s  | 9p   |      |
+|      | -eqh | -erh | -eqh | -(e)qh | -(a)qh | -eqh | -eŕ | -eqh |      |
 
 - <<cas-ess-form>>Cas essif formel (/ESSF/) :: indique un état d’être temporaire, une condition qualitative physique
-| 1s    | 1p    | 2s    | 2p    | 3s     | 3p    | 4s     | 4p     | 5s     | 5p  |
-| -(ò)ţ | -(ò)d | -(o)d | -(o)ḑ | -(ò)d  | -(ò)ň | -(ţ)òd | -(ţ)ed | -(ţ)òd | -òd |
-|       | 6s    | 6p    | 7s    | 7p     | 8s    | 8p     | 9s     | 9p     |     |
-|       | -(ò)d | ò(d)- | -òd   | -(ò)ns | -òd   | -òts   | -(ò)ß  | -(ò)ßt |     |
+| 1s    | 1p    | 2s    | 2p    | 3s     | 3p     | 4s     | 4p     | 5s      | 5p  |
+| -(ø)ŧ | -(ø)d | -(o)d | -(o)đ | -(ø)d  | -(ø)ng | -(ŧ)ød | -(ŧ)ed | -(ŧ)ød  | -ød |
+|       | 6s    | 6p    | 7s    | 7p     | 8s     | 8p     | 9s     | 9p      |     |
+|       | -(ø)d | ø(d)- | -ød   | -(ø)ns | -ød    | -øts   | -(ø)sh | -(ø)sht |     |
 
 - <<cas-ess-mod>>Cas essif modal (/ESSM/) :: indique un état d’être temporaire, une condition qualitative non-physique
-| 1s      | 1p      | 2s     | 2p      | 3s     | 3p      | 4s      | 4p     | 5s     | 5p     |
-| -(’)uix | -(’)uix | -’yiŗ  | -(’)yiŗ | -(’)uŗ | -(’)uiŗ | -(’)uŗ  | -(’)uŗ | -’u    | -(’)yŗ |
-|         | 6s      | 6p     | 7s      | 7p     | 8s      | 8p      | 9s     | 9p     |        |
-|         | -(’)yiŗ | -(’)yŗ | -(’)uŗ  | -(’)u  | -(’)u   | -(’)ust | -(’)uŗ | -(’)uŗ |        |
+| 1s      | 1p       | 2s      | 2p       | 3s      | 3p       | 4s      | 4p      | 5s      | 5p      |
+| -(’)uix | -(’)uix  | -’yirh  | -(’)yirh | -(’)urh | -(’)uirh | -(’)urh | -(’)urh | -’u     | -(’)yrh |
+|         | 6s       | 6p      | 7s       | 7p      | 8s       | 8p      | 9s      | 9p      |         |
+|         | -(’)yirh | -(’)yrh | -(’)urh  | -(’)u   | -(’)u    | -(’)ust | -(’)urh | -(’)urh |         |
 
 - <<cas-ide>>Cas identique (/IDE/) :: indique que l’élément décliné est identique (en certains points ou en totalité) avec l’élément nominatif ou absolutif de la proposition.
 | 1s      | 1p      | 2s      | 2p      | 3s      | 3p     | 4s   | 4p      | 5s      | 5p      |
@@ -904,17 +897,17 @@ Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne 
 |       | þ(o)- | þo-   | f(o)- | f(u)- | f(o)- | vo-   | þo-   | fo-   |       |
 
 - <<cas-transl>>Cas translatif (/TRANS/) :: indique un changement, une transition d’état vers l’élément décliné.
-| 1s    | 1p    | 2s    | 2p    | 3s    | 3p    | 4s    | 4p    | 5s    | 5p    |
-| -(i)n | -(i)n | -(y)n | -(e)n | -in   | -(i)n | -(i)n | -(y)m | -(i)ň | -(i)n |
-|       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p    |       |
-|       | -(i)m | -(i)n | -(i)n | -(i)n | -in   | -iň   | -iň   | -iň   |       |
+| 1s    | 1p    | 2s    | 2p    | 3s    | 3p    | 4s    | 4p    | 5s     | 5p    |
+| -(i)n | -(i)n | -(y)n | -(e)n | -in   | -(i)n | -(i)n | -(y)m | -(i)ng | -(i)n |
+|       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p     |       |
+|       | -(i)m | -(i)n | -(i)n | -(i)n | -in   | -ing  | -ing  | -ing   |       |
 
 
 
-| 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p     | 5s      | 5p    |
-| -(eu)s | -(eu)ß | -(eu)s | -(eu)ßt | -(eu)st | -(eu)s | -(eu)s | -(eo)ß | -eus    | -eušt |
-|        | 6s     | 6p     | 7s      | 7p      | 8s     | 8p     | 9s     | 9p      |       |
-|        | -eus   | -(eu)ß | -(eu)s  | -(eu)ß  | -(eu)s | -(ei)š | -(eu)s | -(eu)st |       |
+# | 1s     | 1p      | 2s      | 2p       | 3s      | 3p     | 4s      | 4p      | 5s      | 5p     |
+# | -(eu)s | -(eu)sh | -(eu)s  | -(eu)sht | -(eu)st | -(eu)s | -(eu)s  | -(eo)sh | -eus    | -eucht |
+# |        | 6s      | 6p      | 7s       | 7p      | 8s     | 8p      | 9s      | 9p      |        |
+# |        | -eus    | -(eu)sh | -(eu)s   | -(eu)sh | -(eu)s | -(ei)ch | -(eu)s  | -(eu)st |        |
 
 src_latex{\newpage}
 ** Formation d’un mot
@@ -942,76 +935,73 @@ Abréviations :
 - vt : verbe transitif
 
 ** À trier
-- kipŕým :: (n.6) voisin
-- ŗeðyþ :: (vt.) dire
-- vyelegot :: (n.9) jumelles (instrument)
 
 ** Actions physiques
-- kĺnyþ ::  /kl̩.nyːθ/ (vt.) casser, briser
-- ţýbýmýþ ::  /ʈʏ.bʏ.mʏθ/ (vi.) crier par colère, par rage
-- žybdinyþ ::  /ʐyːb.diː.nyːθ/ (vi.) tomber
-- ’oheryþ ::  /?o:.he:.ry:þ/ (vi.) dormir
+- kĺnyþ :: /kl̩.nyːθ/ (vt.) casser, briser
+- ŧůbůmůþ :: /ʈʏ.bʏ.mʏθ/ (vi.) crier par colère, par rage
+- jhybdinyþ :: /ʐyːb.diː.nyːθ/ (vi.) tomber
+- ’oheryþ :: /ʔo:.he:.ry:þ/ (vi.) dormir
 ** Amour
 ** Animaux
-- nael ::  /nael/ (n.7) cheval
-- ŗevír ::  /ʁeː.vɪr/ (n.7) mouche
+- nael :: /nael/ (n.7) cheval
+- rhevìr :: /ʁeː.vɪr/ (n.7) mouche
 ** Art
-- raòm ::  /raøm/ (n.9) livre
+- raøm :: /raøm/ (n.9) livre
 ** Astronomie
-- <<glos-béóm>>béóm ::  /bɛɔm/ (n.1) Soleil. Étymologie : /[[glos-b%C3%A9m][bém]]/ + /[[gloss-jaom][jaom]]/, astre du jour
-- <<gloss-jaom>>jaom ::  /jaom/ (n.1) astre
+- <<glos-bèòm>>bèòm ::  /bɛɔm/ (n.1) Soleil. Étymologie : /[[glos-bèm][bèm]]/ + /[[gloss-jaom][jaom]]/, astre du jour
+- <<gloss-jaom>>jaom :: /jaom/ (n.1) astre
 ** Bâtiments
-- mén ::  /mɛn/ (n.9) maison (bâtiment)
+- mèn :: /mɛn/ (n.9) maison (bâtiment)
 ** Commerce
 ** Conflits
 ** Conteneurs
 ** Corps
-- gar ::  /ɡaːr/ (n.6) tête
-- <<glos-pńt>>pńt ::  /pn̩t/ (n.6) main
-- <<glos-wán>>wán ::  /waːn/ (n.6) pied
+- gar :: /ɡaːr/ (n.6) tête
+- <<glos-pńt>>pńt :: /pn̩t/ (n.6) main
+- <<glos-wån>>wån :: /waːn/ (n.6) pied
 ** Couleurs
-- <<glos-ðúr>>ðúr ::  /ðʊr/ (adj.) argent (couleur)
+- <<glos-ðùr>>ðùr :: /ðʊr/ (adj.) argent (couleur)
 ** Dimensions
 ** Direction
-- ňam ::  /ŋaːm/ (n.2) ouest
-- watßúd ::  /waːt.ʃʊd/ (n.2) nord
-- wémšal ::  /wɛm.çaːl/ (n.2) est (direction)
-- zelðeg ::  /zeːl.ðeːɡ/ (n.2) sud
+- ngam :: /ŋaːm/ (n.2) ouest
+- watshùd :: /waːt.ʃʊd/ (n.2) nord
+- wèmchal :: /wɛm.çaːl/ (n.2) est (direction)
+- zelðeg :: /zeːl.ðeːɡ/ (n.2) sud
 ** Eau
-- ánd ::  /ɑnd/ (n.3) rivière majeure, cours d’eau dans lequel s’est jeté une autre rivière, mais ammenée à se jeter elle-même dans un autre cours d’eau
-- hanḑ ::  /haːnɖ/ (n.3) fleuve mineur, cours d’eau n’ayant aucun confluent se jetant directement dans la mer ou l’océan
-- ielt ::  /ielt/ (n.3) océan côtier, vaste étendue d’eau au contact des côtes
-- łánt ::  /ɬɑt/ (n.3) rivière mineure ou ruisseau, cours d’eau dans lequel ne s’est jeté aucun autre cours d’eau mais ammené à se jeter dans un autre cours d’eau
-- omd ::  /oːmd/ (n.3) océan non-côtier, vaste étendue d’eau n’étant pas au contact des côtes
-- vilţ ::  /viːlʈ/ (n.3) fleuve majeur, cours d’eau ayant reçu d’autre cours d’eau et se jetant directement dans la mer ou l’océan
-- ’élḑ ::  /ʔɛlɖ/ (n.3) mer, petite étendue d’eau connectée à d’autres mers ou océans, ou région d’océan côtier
+- ånd :: /ɑnd/ (n.3) rivière majeure, cours d’eau dans lequel s’est jeté une autre rivière, mais ammenée à se jeter elle-même dans un autre cours d’eau
+- hanđ :: /haːnɖ/ (n.3) fleuve mineur, cours d’eau n’ayant aucun confluent se jetant directement dans la mer ou l’océan
+- ielt :: /ielt/ (n.3) océan côtier, vaste étendue d’eau au contact des côtes
+- lhånt :: /ɬɑt/ (n.3) rivière mineure ou ruisseau, cours d’eau dans lequel ne s’est jeté aucun autre cours d’eau mais ammené à se jeter dans un autre cours d’eau
+- omd :: /oːmd/ (n.3) océan non-côtier, vaste étendue d’eau n’étant pas au contact des côtes
+- vilŧ :: /viːlʈ/ (n.3) fleuve majeur, cours d’eau ayant reçu d’autre cours d’eau et se jetant directement dans la mer ou l’océan
+- ’èlđ :: /ʔɛlɖ/ (n.3) mer, petite étendue d’eau connectée à d’autres mers ou océans, ou région d’océan côtier
 ** Effort
 ** Éléments
 ** Émotions
-- feŗan ::  /feː.ʁaːn/ (n.2) tristesse
+- ferhan :: /feː.ʁaːn/ (n.2) tristesse
 ** Évaluation
-- ’eßtef ::  /ʔeːʃ.teːf/ (adj.) mauvais
+- ’eshtef :: /ʔeːʃ.teːf/ (adj.) mauvais
 ** Événements
-- gén ::  /ɡɛn/ (n.2) acte, action
+- gèn :: /ɡɛn/ (n.2) acte, action
 ** Existence
-- neßòm ::  /neːʃøːm/ (vt.) être (subjectif certain)
-- revòm ::  /reːvøːm/ (vt.) être (objectif certain)
+- neshøm :: /neː.ʃøːm/ (vt.) être (subjectif certain)
+- revøm :: /reː.vøːm/ (vt.) être (objectif certain)
 ** Famille
-- ánám ::  /ɑ.nɑm/ (n.6) parent
-- mánám ::  /mɑ.nɑm/ (n.5) mère, maman
-- pánám ::  /pɑ.nɑm/ (n.4) père, papa
+- ånåm :: /ɑ.nɑm/ (n.6) parent
+- månåm :: /mɑ.nɑm/ (n.5) mère, maman
+- pånåm :: /pɑ.nɑm/ (n.4) père, papa
 ** Forme
 ** Gouvernement
 ** Grammaire
-- pöb ::  /pœb/ (pron. interrogatif) quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
+- pœb :: /pœb/ (pron. interrogatif) quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
 *** Pronoms interrogatifs
 **** Temps
-- pejb ::  /pejb/ (pron. interr. essif) quand, à quel moment. /pöb/ décliné à l’essif.
-- pöémp ::  /pœɛmp/ (pron. interrogatif limitatif) jusqu’à quand. /pöb/ décliné au limitatif.
-- pövwó ::  /pœ.vwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. /pöb/ décliné à l’accusatif.
+- pejb ::  /pejb/ (pron. interr. essif) quand, à quel moment. /pœb/ décliné à l’essif.
+- pœèmp ::  /pœɛmp/ (pron. interrogatif limitatif) jusqu’à quand. /pœb/ décliné au limitatif.
+- pœvwò ::  /pœ.vwɔ/ (pron. interrogatif accusatif) sur quelle durée, pendent combien de temps. /pœb/ décliné à l’accusatif.
 
 ** Guerre
-- wóúl ::  /wɔʊl/ (n.2) attaque
+- wòùl :: /wɔʊl/ (n.2) attaque
 ** Légal
 ** Lieux
 ** Lumière
@@ -1019,47 +1009,50 @@ Abréviations :
 ** Mesures
 ** Métaux
 ** Mouvement
-- etrjálòm ::  /eːt.rjɑ.lʏθ/ (vi.) voyager
-- eŕbölýþ ::  /eːɹ.bœ.lʏθ/ (vi.) voler (dans le airs)
-- jĺšek ::  /jl̩.çeːk/ (n.9) chemin, voie
-- probölýþ ::  /proː.bœ.lʏþ/ (vi.) s’envoler
-Exemple : Proböléntí paŗevir. La mouche s’envola.
-- wyhakòm ::  /wyː.haː.køːm/ (vt.) quitter, partir.
-Exemple : Né liÐbńovu wyhakéís. Je pars de Ðbńo.
-- ’elḑökýþ ::  /ʔeːlɖœkʏθ/ (vi.) naviguer
+- etrjåløm :: /eː.trjɑ.lʏθ/ (vi.) voyager
+- eŕbœlůþ :: /eːɹ.bœ.lʏθ/ (vi.) voler (dans le airs)
+- jĺchek :: /jl̩.çeːk/ (n.9) chemin, voie
+- probœlůþ :: /proː.bœ.lʏþ/ (vi.) s’envoler
+Exemple : Probœlèntì parhevir. La mouche s’envola.
+- wyhakøm :: /wyː.haː.køːm/ (vt.) quitter, partir.
+Exemple : Nè liÐbńovu wyhakèìs. Je pars de Ðbńo.
+- ’elđœkůþ :: /ʔeːl.ɖœ.kʏθ/ (vi.) naviguer
 ** Nature
 ** Nombres
-- pńtwán ::  /pn̩twɑn/ (nbrc) sept. Étymologie : /[[glos-p%C5%84t][pńt]]/ + /[[glos-w%C3%A1n][wán]]/
+- pńtwån ::  /pn̩.twɑn/ (nbrc) sept. Étymologie : /[[glos-p%C5%84t][pńt]]/ + /[[glos-wån][wån]]/
 ** Nourriture
 ** Outils
+- vyelegot :: /vye.leː.ɡoːt/ (n.9) jumelles (instrument)
 ** Parole
-- vár ::  /vɑr/ (n.2) langue (linguistique), langage, parole
+- rheðyþ :: /ʁeː.ðyːθ/ (vt.) dire
+- vår :: /vɑr/ (n.2) langue (linguistique), langage, parole
 ** Péchés
 ** Physique
 ** Possession
 ** Religion
-- hjalp ::  /hjaːlp/ (n.1) dieu céleste
-- melex ::  /meː.leːχ/ (n.1) dieu terrestre
+- hjalp :: /hjaːlp/ (n.1) dieu céleste
+- melex :: /meː.leːχ/ (n.1) dieu terrestre
 ** Savoir
-- bóljòluþ ::  /bɔ.ljøː.luːθ/ (vt.) savoir
-- wanmjöd ::  /waːn.mjœd/ savoir, connaissance
+- bòljøluþ :: /bɔ.ljøː.luːθ/ (vt.) savoir
+- wanmjœd ::  /waːn.mjœd/ (n.2) savoir, connaissance
 ** Sensations
-- feŗtef ::  /feːʁ.teːf/ (n.2) douleur mentale, dépression. Étymologie : /feŗan/ + /’eßtef/, une /tristesse mauvaise/
-- núótöm ::  /nʊɔ.tœm/ (vt.) voir
+- ferhtef ::  /feːʁ.teːf/ (n.2) douleur mentale, dépression. Étymologie : /ferhan/ + /’eshtef/, une /tristesse mauvaise/
+- nùòtœm :: /nʊɔ.tœm/ (vt.) voir
 ** Sexe
 ** Société
+- kipŕům :: /kiː.pɹʏm/ (n.6) voisin
 ** Substances
-- lúb ::  /lʊb/ (n.9) air
+- lùb :: /lʊb/ (n.9) air
 ** Temps
-- <<glos-bém>>bém ::  /bɛm/ (n.2) jour (mesure de temps)
-- hebéóm ::  /heːbɛɔm/ (n.2) heure (repère de temps). Étymologie : /[[glos-heol][heol]]/ + /[[glos-b%C3%A9%C3%B3m][béóm]]/ l’heure par le Soleil
-- <<glos-heol>>heol ::  /heol/ (n.2) heure (mesure de temps)
-- łail ::  /ɬail/ (n.2) année (mesure de temps)
-- ţealnat ::  /ʈealnaːt/ (adj.) précision temporelle, précis.
+- <<glos-bèm>>bèm :: /bɛm/ (n.2) jour (mesure de temps)
+- hebèòm ::  /heː.bɛɔm/ (n.2) heure (repère de temps). Étymologie : /[[glos-heol][heol]]/ + /[[glos-bèòm][bèòm]]/ l’heure par le Soleil
+- <<glos-heol>>heol :: /heol/ (n.2) heure (mesure de temps)
+- lhail :: /ɬail/ (n.2) année (mesure de temps)
+- ŧealnat :: /ʈeal.naːt/ (adj.) précision temporelle, précis.
 *** Jours de la semaine
-- ðúbém ::  /ðʊ.bɛm/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /[[glos-%C3%B0%C3%BAr][ðúr]]/ + /[[glos-b%C3%A9m][bém]]/
+- ðùbèm ::  /ðʊ.bɛm/ (n.2) septième jour de la semaine / jour d’agent. Étymologie : /[[glos-ðùr][ðùr]]/ + /[[glos-bèm][bèm]]/
 ** Travail
 ** Végétaux
 ** Vêtements
 ** Vie et santé
-- ðenmóíl ::  /ðeːn.mɔɪl/ (n.6) personne, individu
+- ðenmòìl :: /ðeːn.mɔɪl/ (n.6) personne, individu
