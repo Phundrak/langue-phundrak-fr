@@ -145,8 +145,7 @@ En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également 
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
 
-*** TODO Romanisation et translittération
-# À retravailler
+*** Romanisation et translittération
 La romanisation et la translittération d’une langue sont deux choses très différentes ; en effet, la première a pour but de représenter de façon grossière la prononciation de la langue avec l’alphabet latin, sans se soucier de l’orthographe exacte, tandis que la translittération a pour but de reproduire de manière précise l’orthographe de la langue transcrite, sans se soucier de savoir si le lecteur saura prononcer correctement la transcription s’il n’a pas été initié avant à la langue transcrite.
 
 Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différence entre romanisation et translittération est en Tibétain. Nous avons des termes Tibétain romanisés “dorje”, “chorten” ou encore “yak” en anglais dont une de leur translittération possible respective est “rdo rje”, “mchod brten” et “gyag”. Bien évidemment, toute personne n’ayant aucune notion de translittération du Tibétain et/ou de son orthographe peut être confuse quant à ce qu’ils viennent de lire, et c’est tout naturel : leur but est de savoir précisément comment écrire ces mots, et une personne sachant écrire en tibétain pourra, en ayant lu ces exemples, écrire les mots sans faute si je n’en ai pas fait non plus à la rédaction de cet ouvrage. Comme je l’ai indiqué, il s’agit dans cet exemple d’une romanisation anglophone ; en effet, la romanisation dépend de la langue du lecteur. Étant donné que ce dernier doit pouvoir se forger une idée de la prononciation du mot étranger, il faut utiliser les conventions de lecture de l’alphabet de sa propre langue afin d’approcher au mieux la prononciation originale. Ainsi, “dorje” en anglais pourrait être écrit « dordjé » en français, “chorten” pourrait être écrit « tchortène » (« yak » garde la même orthographe dans les deux langues, et est même dans les dictionnaires anglophones et francophones).
@@ -168,8 +167,8 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | eː      | e      | é    |
 |   | øː      | ø      | e    |
 |   | oː      | o      | o    |
-|   | ɛ       | é      | è    |
-|   | œ       | ö      | eu   |
+|   | ɛ       | è      | è    |
+|   | œ       | œ      | eu   |
 |   | ɔ       | ò      | au   |
 |   | aː      | a      | a    |
 |   | ɑ       | å      | a    |
@@ -185,13 +184,13 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | f       | f      | f    |    | v       | v      | v    |
 |   | θ       | þ      | th   |    | ð       | ð      | dh   |
 |   | s       | s      | s    |    | z       | z      | z    |
-|   | ʃ       | sh      | sh   |    | ʒ       | zh      | j    |
-|   | ç       | ch      | sh   |    | ʝ       | jh      | jh   |
+|   | ʃ       | sh     | sh   |    | ʒ       | zh     | j    |
+|   | ç       | ch     | ch   |    | ʝ       | jh     | jh   |
 |   | m       | m      | m    |    | n       | n      | n    |
-|   | ŋ       | ng      | ng   |    | ʔ       | ’      | ’    |
+|   | ŋ       | ng     | ng   |    | ʔ       | ’      | ’    |
 |   | r       | r      | r    |    | h       | h      | h    |
-|   | χ       | x      | rh   |    | ʁ       | r      | r    |
-|   | ɬ       | lh      | lh   |    | ɹ       | r      | r    |
+|   | χ       | qh     | qh   |    | ʁ       | rh     | rh   |
+|   | ɬ       | lh     | lh   |    | ɹ       | ŕ      | r    |
 |   | l       | l      | l    |    | j       | j      | y    |
 |   | w       | w      | w    |    |         |        |      |
 
