@@ -24,7 +24,7 @@ Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la maj
 |   | fermées     | i / y       | u            |
 |   | pré-fermées | ì / ů       | ù            |
 |   | mi-fermées  | e / ø       | o            |
-|   | mi-ouvertes | é / œ       | ø            |
+|   | mi-ouvertes | è / œ       | ø            |
 |   | ouvertes    | a           | å            |
 
 Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en IPA :
@@ -41,17 +41,17 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte-courte/fermée-longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θrãː] n’aura pas la même signification que /þrån/  [θrɑ̃] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture-longueur.
+On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte courte / fermée longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θraːn] n’aura pas la même signification que /þrån/  [θrɑn] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture/longueur.
 
 **** Voyelles courtes
 -  /ɑ/ : å
-Le /å/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non-arrondie.
+Le /å/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non arrondie.
 
 -  /œ/ : œ
 Il s’agit ici du son « eu » tel qu’on le retrouve en français tel que dans le mot « neuf ».
 
 -  /ɪ/ : ì
-Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ». Il s’agit de la voyelle pré-fermée antérieure non-arrondie.
+Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ». Il s’agit de la voyelle pré-fermée antérieure non arrondie.
 
 -  /ɛ/ : è
 Nous avons ici la voyelle « è » que l’on retrouve en français par exemple dans le mot « cette ».
@@ -62,6 +62,8 @@ Il s’agit du « o » ouvert, que l’on retrouve en français dans le mot 
 -  /ʏ/ : ů
 Cette voyelle est un équivalent du « u » français ouvert, que l’on peut retrouver en Allemand comme dans « Müller » par exemple. Il s’agit de la voyelle antérieure pré-fermée arrondie.
 
+
+#  LocalWords:  this Müller hit book button bottle
 -  /ʊ/ : ù
 Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
 
@@ -193,6 +195,11 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | ɬ       | lh     | lh   |    | ɹ       | ŕ      | r    |
 |   | l       | l      | l    |    | j       | j      | y    |
 |   | w       | w      | w    |    |         |        |      |
+** Phonotaxes
+*** Attaque
+*** Rime
+**** Noyau syllabique
+**** Coda
 
 ** Phonologie dérivationnelle
 Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dans les règles formelles :
@@ -265,11 +272,6 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 |   | å                 | a               |
 
 *** <<deriv-accord-cons>>Accord des consonnes
-*** Phonotaxes
-**** Attaque
-**** Rime
-***** Noyau syllabique
-***** Coda
 
 ** Système d’écriture
 * Éléments de la phrase
@@ -346,19 +348,8 @@ Chaque passé dispose d’un *passé antérieur* se référant à une date anté
 **** Temps postérieurs
 Inversement, le *passé postérieur* permet d’exprimer une situation future au passé d’énonciation, de même que le *futur postérieur*. Leur marque se porte également sur l’auxilliaire et le participe du verbe racine.
 
-*** <<verbe-cert>>Certainté
-Le Hjalpi’ dispose d’un concept de certainté et est omniprésent dans les verbes. En effet, la véracité et vérifiabilité des dires du locuteur est très importante pour les divins, et ce premier doit en toutes circonstances statuer de l’état de ses affirmations, et cela se fait via la conjugaison du verbe. Il existe quatre niveaux de certainté :
-- certainté objective forte :: Le locuteur affirme que sa proposition est vraie sans nécessairement avoir personnellement vérifié cette affirmation par lui-même, mais il implique que cela est une vérité générale ou absolue. Par exemple, dans notre monde, la phrase « Il y a des yaks au Tibet » serait une phrase à certainté objective forte, il s’agit d’une vérité générale qui ne sera normalement pas remise en question.
-- certainté objective relative :: Le locuteur fait part d’une vérité vérifiée par lui-même ou dont il est certain sans qu’il s’agisse nécessairement d’une vérité générale ou absolue. Ainsi, on peut affirmer avec une objectivité relative « J’habite au quatrième étage de mon immeuble », j’affirme que cela est vrai et objectif sans pour autant que ce soit une vérité générale (je n’y habiterai pas toujours, et ce n’est pas une connaissance commune non plus).
-- certainté subjective forte :: Le locuteur émet une opinion qu’il considère comme étant généralement partagée par son ou ses interlocuteurs. Par exemple, un parisien pourra dire en subjectivité forte à un autre parisien qu’il fait froid lorsqu’en plein milieu de l’hiver il fait -5°C à Paris, ce avec quoi l’autre parisien sera généralement d’accord ; en revanche un Canadien, un Russe ou un habitant des pays Scandinaves pourra montrer son désaccord. Le locuteur peut permettre de partager également des informations dont le locuteur est relativement sûr mais pas entièrement, l’empêchant d’utiliser une certainté objective.
-- certainté subjective relative :: Le locuteur émet une opinion qui lui est propre et qui ne sera pas forcément partagée par son interlocuteur. Ce degré de certainté est utilisé pour partager des opinions qui ont un caractère plus personnel. Par exemple, si le locuteur dit « Je n’aime pas la menthe », il le dira avec une subjectivité relative, ne s’attendant pas forcément à voir son opinion partagée ou non par son interlocuteur. Cela peut être aussi utilisé pour partager une information dont le locuteur n’est pas sûr, ou bien pour partager des souvenirs dont le locuteur peut se permettre de douter.
-
-Le degré de certainté est marqué avec la conjugaison du verbe.
-
-Il est tout à fait possible pour le locuteur d’utiliser volontairement un degré de certainté erroné afin d’appuyer le message de sa phrase, d’y mettre une emphase. Par exemple, quelqu’un qui parle d’un restaurant huppé dans la ville à son ami qui vient d’arriver peut tout à fait lui dire que ce restaurant est excellent tout en utilisant l’objectif fort afin de sous entendre qu’il s’agit d’une opinion largement partagée, voire même d’une vérité générale dans la ville. À contrario, un locuteur qui doute d’une vérité générale utilisera une subjectivité relative afin de démettre cette vérité générale vers une simple opinion ; c’est ce qu’aurais pu faire Galilée avec la phrase « la Terre est plate », remettant ainsi en doute cette vérité générale de l’époque (qui, par ailleurs, n’était crue que par le bas peuple, les personnes cultivées savaient que la Terre est ronde). Cependant, attention à l’abus d’utilisation erronée du degré de subjectivité, les personnes qui en abusent sont souvent vus comme étant des hypocrites ou des manipulateurs par leurs pairs.
-
 *** Aspects
-Bien que le [[verbes-temps][temps]] et le [[verbe-cert][degré de certainté]] donnent déjà quelques informations sur le verbe et l’événement décrit, beaucoup d’autres informations manquent toujours : l’événement se répète-il, parle-t-on du processus de l’événement où de l’événement en tant qu’objet ? Ces questions sont répondues par les aspects du verbe que je listerai ici. Notez que différents aspects peuvent être utilisés en simultané.
+Bien que le [[verbes-temps][temps]] et le [[verbe-cert][degré de certaineté]] donnent déjà quelques informations sur le verbe et l’événement décrit, beaucoup d’autres informations manquent toujours : l’événement se répète-il, parle-t-on du processus de l’événement où de l’événement en tant qu’objet ? Ces questions sont répondues par les aspects du verbe que je listerai ici. Notez que différents aspects peuvent être utilisés en simultané.
 
 **** Perfectif et imperfectif
 Le *perfectif* et *l’imperfectif* sont deux aspects omniprésents avec les verbes ; l’un de ces deux aspects est obligatoire. Ces deux aspects s’opposent dans leur représentation du verbe, le perfectif décrivant l’événement comme un objet, comme un tout, alors que l’imperfectif le décrit comme un processus. On peut retrouver un exemple de cette opposition en Français avec les phrases « Henri IV régna vingt et un ans » (phrase perfective) et « Henri IV régnait vingt et un ans » (phrase imperfective). Ainsi, si l’on souhaite considérer un événement comme un processus, ou afin de mettre en place un décors pour d’autres éléments, on utilisera l’aspect perfectif du verbe ; à contrario, ce sera l’imperfectif qui sera utilisé pour considérer un événement comme un tout, comme par exemple comparer le règne de Henri IV à celui d’un autre monarque.
@@ -393,7 +384,7 @@ Le progressif marque une situation en cours, que ce soit dans le passé, présen
 
 **** Découpage du temps
 ***** Gnomique
-Le temps gnomique permet d’exprimer une situation universellement vraie. Un temps gnomique ne peut être utilisé qu’avec une certainté objective, forte ou faible.
+Le temps gnomique permet d’exprimer une situation universellement vraie. Un temps gnomique ne peut être utilisé qu’avec une certaineté objective, forte ou faible.
 
 ***** <<verbe-dec-ponct>>Ponctuel
 Le ponctuel est un aspect permettant d’exprimer une situation qui ne dure qu’un instant. Cet aspect se marque par la conjugaison du verbe.
@@ -408,6 +399,57 @@ Le duratif et une emphase sur une action qui s’étend dans un temps unique. Le
 Une activité *télique* est une activité ayant un but, qu’il s’agisse d’un produit ou d’’un accomplissement. Une activité n’ayant pas de résultat est *atélique*. La télicité d’une action est inclue dans la sémantique des verbes, mais une inversion de télicité peut aussi être marquée par l’ajout d’une particule précédant le verbe (généralement il s’agit de rendre le verbe télique). Par exemple, en français « persuader » est un verbe télique, car cette activité est en réalité généralement la tentative de persuation d’une personne, avec pour but que cette personne soit persuadée. En rendant « persuader » atélique, « avoir persuadé quelqu’un » ne veut pas forcément dire que la personne a été persuadée, mais que l’on a tout de même tenté de la persuader.
 
 *** Modes
+<<verbe-cert>>Avant de commencer à se renseigner sur les modes, il faut savoir que le Hjalpi’ dispose d’un concept de certaineté et est omniprésent dans les verbes. En effet, la véracité et vérifiabilité des dires du locuteur est très importante pour les divins, et ce premier doit en toutes circonstances statuer de l’état de ses affirmations, et cela se fait via la conjugaison du verbe. Il existe quatre niveaux de certaineté :
+- certaineté objective forte :: Le locuteur fait part d’une vérité objective vérifiée par lui-même ou dont il est certain sans qu’il s’agisse nécessairement d’une vérité générale ou absolue. Ainsi, on peut affirmer avec une objectivité faible « J’habite au quatrième étage de mon immeuble », j’affirme que cela est vrai et objectif sans pour autant que ce soit une vérité générale (je n’y habiterai pas toujours, et ce n’est pas une connaissance commune non plus).
+- certaineté objective faible :: Le locuteur affirme que sa proposition est vraie sans nécessairement avoir personnellement vérifié cette affirmation par lui-même, mais il implique que cela est une vérité générale ou absolue. Par exemple, dans notre monde, la phrase « Il y a des yaks au Tibet » serait une phrase à certaineté objective forte, il s’agit d’une vérité générale qui ne sera normalement pas remise en question.
+- certaineté subjective forte :: Le locuteur émet une opinion qui peut être partagée ou non avec son interlocuteur. Par exemple, un parisien pourra dire en subjectivité forte à un autre parisien qu’il fait froid lorsqu’en plein milieu de l’hiver il fait -5°C à Paris, ce avec quoi l’autre parisien pourrait être d’accord, en revanche un Canadien, un Russe ou un habitant des pays Scandinaves pourra montrer son désaccord ; ici l’interlocuteur peut vérifier ce que le locuteur a énoncé comme étant vrai ou faux, mais la conclusion sera uniquement subjective et n’invalidera donc pas nécessairement l’énoncée initiale. Le locuteur peut permettre de partager également des informations dont le locuteur est relativement sûr mais pas entièrement, l’empêchant d’utiliser une certaineté objective.
+- certaineté subjective faible :: Le locuteur émet une opinion qui lui est propre et qui ne peut être partagé par son interlocuteur. Ce degré de certaineté est utilisé pour partager des opinions qui ont un caractère uniquement personnel et donc invérifiable par quelqu’un d’autre que le locuteur. Par exemple, si le locuteur dit « Je n’aime pas la menthe », il le dira avec une subjectivité relative et il est donc impossible pour un interlocuteur de vérifier ou non s’il s’agit de la vérité. Cela peut être aussi utilisé pour partager une information dont le locuteur n’est pas sûr, ou bien pour partager des souvenirs dont le locuteur peut se permettre de douter.
+
+Il est tout à fait possible pour le locuteur d’utiliser volontairement un degré de certaineté erroné afin d’appuyer le message de sa phrase, d’y mettre une emphase. Par exemple, quelqu’un qui parle d’un restaurant huppé dans la ville à son ami qui vient d’arriver peut tout à fait lui dire que ce restaurant est excellent tout en utilisant l’objectif fort afin de sous entendre qu’il s’agit d’une opinion largement partagée, voire même d’une vérité générale dans la ville. À contrario, un locuteur qui doute d’une vérité générale utilisera une subjectivité relative afin de démettre cette vérité générale vers une simple opinion ; c’est ce qu’aurais pu faire Galilée avec la phrase « la Terre est plate », remettant ainsi en doute cette vérité générale de l’époque (qui, par ailleurs, n’était crue que par le bas peuple, les personnes cultivées savaient que la Terre est ronde). Cependant, attention à l’abus d’utilisation erronée du degré de subjectivité, les personnes qui en abusent sont souvent vus comme étant des hypocrites ou des manipulateurs par leurs pairs.
+
+Les modes que nous verrons ci-dessous ont chacun une degré de certaineté par défaut qui n’est pas marqué à la conjugaison du verbe. Cependant, pour certains modes il est possible de changer de façon explicite ce degré de certaineté ; nous verrons cela au cas par cas ci-dessous.
+
+**** <<mode-ind>>Indicatif
+Le mode indicatif est un mode dit « réel », cela signifie donc qu’il est utilisé afin de décrire des événements s’étant déjà produit, se produisant ou allant se produire, ou bien leur négation. Pour faire court, on dit donc que le mode indicatif permet de réaliser des phrases déclaratives. L’indicatif ne supporte que les degrés de certaineté faible, le degré de certaineté par défaut étant l’objectif faible ; le subjectif faible doit donc être marqué explicitement à la conjugaison.
+
+Exemple : Il y a des yaks au Tibet (connaissance générale, mais je n’en suis pas témoin direct)
+| yak-SG-ABS | LOC-Tibet | existe-3sg.3SG.ERG.INDIC |
+
+**** Énergique
+Ce mode est un mode très similaire à [[mode-ind][l’indicatif]] à la différence près des degrés de certaineté supportés. En effet, l’énergique supporte les degrés de certaineté forts, que l’indicatif ne supporte pas. Mis à part cette différence de degré de certaineté et de conjugaison de l’indicatif et de l’énergique, leur utilisation est identique. Le degré de certaineté par défaut de l’énergique est l’objectif fort, le subjectif fort doit donc être marqué à la conjugaison.
+
+Exemple : Il y a des montagnes en France (connaissance générale et j’ai constaté par moi-même que c’est effectivement le cas)
+| montagne-SG-ERG | LOC-France | existe-3sg.3SG.ERG.ENERG |
+
+**** Subjonctif
+Le mode subjonctif est généralement utilisé pour les événements imaginaires ou hypothétiques qui ne conviennent pas aux autres modes.
+
+**** Conditionnel
+Le conditionnel permet d’exprimer un événement qui ne peut se produire selon certaines conditions
+
+**** Optatif
+
+**** Impératif
+L’impératif est un mode permettant de donner des ordres.
+
+**** Potentiel
+Le potentiel est un mode indiquant la capacité à effectuer une action. Ainsi, une phrase telle que « Je peux parler en Hjalpi’ » en français se traduit par :
+| parler-1s.2SG.ERG.POTENT | dieu.céleste-GEN-ABS | 1s4G.ERG |
+Remarquez ici l’usage de l’ergatif, en Hjalpi’ le fait de disposer d’une capacité est considéré comme étant une situation passive ; en revanche, acquérir cette capacité peut être soit actif (utilisation donc du nominatif) soit passif (utilisation de l’ergatif).
+
+Le degré de certaineté par défaut du potentiel est le subjectif fort.
+
+**** Hypothétique
+
+**** Interrogatif
+
+**** Gérondif
+
+**** Participe
+
+**** Infinitif
+
+**** Changer la certaineté d’un mode
 
 *** Valence du verbe
 La valence d’un verbe est le nombre d’arguments que ce dernier peut prendre. Les verbes intransitifs prennent au moins en argument un expérienceur, les verbes transitifs prennent au moins un agent et un patient. Si le verbe est également un verbe d’action, il prendra également en argument un bénéfactaire, bien qu’il soit souvent omis s’il est inconnu (ce qui est souvent le cas lorsque le locuteur ne parle pas à la première personne) ou s’il est identique avec l’expérienceur, l’agent nominatif ou le patient ergatif. Il est d’ailleurs également possible d’élipser l’agent nominatif ou le patient ergatif d’une phrase si le contexte permet aux locuteurs de les déduire aisément. En français cela donnerait quelque chose comme ceci : « Tu sais ce qu’a fait Éreþ hier ? A couru pendant quatre heures d’affilées pour Tama ».
@@ -915,6 +957,11 @@ src_latex{\newpage}
 ** Interjections
 * Structure des phrases
 ** Phrase et ordre des mots
+
+# Beneficiaire-Verbe-Patient-Oblique-Agent
+# Agent-Patient-Oblique-Verbe
+# Verbe-Oblique-Expérienceur
+
 ** Constructions de phrases complexes
 ** Constructions spéciales
 
