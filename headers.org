@@ -6,6 +6,7 @@
 #+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,9.5in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
 #+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+#+LATEX_HEADER: \usepackage{multicol}
 #+OPTIONS: H:4
 #+OPTIONS: toc:nil
 src_latex{\newpage}
