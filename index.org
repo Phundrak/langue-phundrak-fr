@@ -3,7 +3,7 @@
 
 * Langues divines
 
-🔵 [[file:hjalpi.html][Hjalpi’ Originel]] (en cours)
+🔵 [[file:hjalpi.html][Hjalpi’ Originel]] ([[file:hjalpi.pdf][pdf]])
 
 🔴 [[file:old-hjalpi.html][Hjalpi’ Vernaculaire]] (développement suspendu)
 

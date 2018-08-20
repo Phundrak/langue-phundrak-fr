@@ -6,7 +6,7 @@ else
     project_root=$1
 fi
 
-rm -rf *~ auto _minted* *.tex *.aux *.log *.toc *.out index.pdf headers.pdf headers.html lijokken.pdf hjalpi.pdf old-hjapi.pdf zohaen.pdf
+rm -rf *~ auto _minted* *.tex *.aux *.log *.toc *.out index.pdf headers.pdf headers.html lijokken.pdf old-hjapi.pdf zohaen.pdf
 for filename in *; do
     if [[ -d $filename ]]; then
         cd $filename
