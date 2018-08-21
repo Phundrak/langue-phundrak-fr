@@ -3,15 +3,15 @@
 
 * Langues divines
 
-🔵 [[file:hjalpi.html][Hjalpi’ Originel]] ([[file:hjalpi.pdf][pdf]])
+🔵 [[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[file:langue.phundrak.fr/hjalpi/index.pdf][pdf]])
 
-🔴 [[file:old-hjalpi.html][Hjalpi’ Vernaculaire]] (développement suspendu)
+🔴 [[https://langue.phundrak.fr/old-hjalpi][Hjalpi’ Vernaculaire]] (développement suspendu)
 
 * Langues draconiennes
 
-🔵 [[file:lijokken.html][Łijökken]] (en cours)
+🔵 [[https://langue.phundrak.fr/lijokken][Łijökken]] (en cours)
 
-🔵 [[file:zohaen.html][Zöhæň]] (en cours)
+🔵 [[https://langue.phundrak.fr/zohaen][Zöhæň]] (en cours)
 
 
 [[https://phundrak.fr/privacy-policy.html][Privacy and Cookie Policy]]
