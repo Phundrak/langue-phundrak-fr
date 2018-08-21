@@ -149,8 +149,8 @@ src_latex{\end{multicols}}
 * Sons et système d’écriture
 ** Phonologie
 Dans cet ouvrage, j’utiliserai principalement la translittération des mots, expressions et phrases du Hjalpi’ pour illustrer mes propos, exemples et explications de la grammaire de cette langue. Toutefois, il est important de savoir comment correctement prononcer le Hjalpi’, et pour cela j’utiliserai l’alphabet phonétique international afin de retranscrire la prononciation correcte du Hjalpi’. Il est important de relever les deux styles différents de transcription phonétique qui seront utilisés dans cet ouvrage :
--  /transcription large/ : ce type de transcription ne prend pas en compte les divers cas d’allophonie présents en Hjalpi’ et retranscrit individuellement chaque symbole ayant une signification phonétique dans son orthographe translittérée.
-- [transcription rapprochée] : ce style de transcription prend en compte les changements de prononciation dû aux modifications entre phonèmes. Cela représente donc la prononciation réelle des locuteurs, qui n’est pas représentée de manière exacte par la translittération du Hjalpi’.
+-  /transcription large/ :: ce type de transcription ne prend pas en compte les divers cas d’allophonie présents en Hjalpi’ et retranscrit individuellement chaque symbole ayant une signification phonétique dans son orthographe translittérée.
+- [transcription rapprochée] :: ce style de transcription prend en compte les changements de prononciation dû aux modifications entre phonèmes. Cela représente donc la prononciation réelle des locuteurs, qui n’est pas représentée de manière exacte par la translittération du Hjalpi’.
 
 Généralement, j’utiliserai la transcription large lorsque j’aurai besoin de transcrire de façon phonétique des éléments de langage, à moins que je souhaite que vous, le lecteur, portiez votre attention sur un élément particulier de la prononciation de la langue divine, auquel cas j’userai de la transcription rapprochée, comme lors de la discussion sur l’[[allophonie][allophonie]]. La prononciation des mots du [[glossaire][glossaire]] sera notée en transcription large.
 
@@ -162,10 +162,10 @@ Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la maj
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
 |   | fermées     | i / y       | u            |
-|   | pré-fermées | ì / ů       | ù            |
+|   | pré-fermées | ì / ĩ / ů   | ù / ũ        |
 |   | mi-fermées  | e / ø       | o            |
-|   | mi-ouvertes | è / œ       | ø            |
-|   | ouvertes    | a           | å            |
+|   | mi-ouvertes | è / œ       | ò            |
+|   | ouvertes    | a           | å / ã        |
 
 Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en IPA :
 
@@ -174,72 +174,60 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
 |   | fermées     | iː / yː     | uː           |
-|   | pré-fermées | ɪ / ʏ       | ʊ            |
+|   | pré-fermées | ɪ / ɪ̃ / ʏ   | ʊ / ʊ̃        |
 |   | mi-fermées  | eː / øː     | oː           |
 |   | mi-ouvertes | ɛ / œ       | ɔ            |
-|   | ouvertes    | aː          | ɑ            |
+|   | ouvertes    | aː          | ɑ / ɑ̃        |
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte courte / fermée longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θraːn] n’aura pas la même signification que /þrån/  [θrɑn] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture/longueur.
+On peut remarquer que, à l’exception de /ĩ/, /ũ/, /ã/, /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte courte / fermée longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θraːn] n’aura pas la même signification que /þrån/  [θrɑn] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture/longueur.
 
 **** Voyelles courtes
--  /ɑ/ : å
-Le /å/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ». Il s’agit de la voyelle ouverte antérieure non arrondie.
+ - /ɑ/ å :: Le /å/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ».
 
--  /œ/ : œ
-Il s’agit ici du son « eu » tel qu’on le retrouve en français tel que dans le mot « neuf ».
+ -  /ɑ̃/ ã :: Le /ã/ est l’équivalent nasal de la lettre /å/, que l’on retrouve souvent en français avec la graphie « an » ou « en », comme dans « pendant ».
 
--  /ɪ/ : ì
-Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ». Il s’agit de la voyelle pré-fermée antérieure non arrondie.
+ -  /œ/ œ :: Il s’agit ici du son « eu » tel qu’on le retrouve en français tel que dans le mot « neuf ».
 
--  /ɛ/ : è
-Nous avons ici la voyelle « è » que l’on retrouve en français par exemple dans le mot « cette ».
+ -  /ɪ/ ì :: Cette voyelle est une voyelle se situant entre le son « i » et le son « e » ; on peut le retrouver en anglais dans des mots tels que « hit » ou « this ».
 
--  /ɔ/ : ø
-Il s’agit du « o » ouvert, que l’on retrouve en français dans le mot « sort » par exemple.
+ - /ɪ̃/ ĩ :: Il s’agit de la même voyelle que le /ì/ à la différence près que celle-ci est nasalisée. On la retrouve à quelques occasions en anglais en tant qu’allophone comme dans le terme « women » [wɪ̃mə̃n].
 
--  /ʏ/ : ů
-Cette voyelle est un équivalent du « u » français ouvert, que l’on peut retrouver en Allemand comme dans « Müller » par exemple. Il s’agit de la voyelle antérieure pré-fermée arrondie.
+ -  /ɛ/ è :: Nous avons ici la voyelle « è » que l’on retrouve en français par exemple dans le mot « cette ».
 
+ -  /ɔ/ ø :: Il s’agit du « o » ouvert, que l’on retrouve en français dans le mot « sort » par exemple.
 
-#  LocalWords:  this Müller hit book button bottle
--  /ʊ/ : ù
-Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
+ -  /ʏ/ ů :: Cette voyelle est un équivalent du « u » français ouvert, que l’on peut retrouver en Allemand comme dans « Müller » par exemple.
+
+ -  /ʊ/ ù :: Cette voyelle est un équivalent du « ou » Français ouvert, telle que l’on peut la retrouver dans le mot « book » en Anglais britannique.
+
+ -  /ʊ̃/ ũ :: Il s’agit du /ù/ nasalisé. Cette voyelle peut notamment se retrouver dans la langue africaine Guéré.
 
 **** Voyelles longues
--  /aː/ : a
-Cette voyelle est le « a » que l’on peut retrouver dans le français tel que dans « patte », à la différence que le « a » de le Hjalpi’ est prononcé un peu plus longuement que le « a » français.
+-  /aː/ a :: Cette voyelle est le « a » que l’on peut retrouver dans le français tel que dans « patte », à la différence que le « a » de le Hjalpi’ est prononcé un peu plus longuement que le « a » français.
 
--  /øː/ : ø
-Cette voyelle est la même que le « eu » français que l’on retrouve dans le mot « deux », à la différence que le « ø » divin est prononcé un peu plus longuement que le « eu » français.
+-  /øː/ ø :: Cette voyelle est la même que le « eu » français que l’on retrouve dans le mot « deux », à la différence que le « ø » divin est prononcé un peu plus longuement que le « eu » français.
 
--  /iː/ : i
-Cette voyelle est la même que le « i » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
+-  /iː/ i :: Cette voyelle est la même que le « i » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
 
--  /eː/ : e
-Cette voyelle est la même que le « é » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
+-  /eː/ e :: Cette voyelle est la même que le « é » français, à la différence que le « i » de le Hjalpi’ est prononcé un peu plus longuement que le « i » français.
 
--  /oː/ : o
-Cette voyelle est la même que le « o » français comme dans « eau », à la différence que le « o » de le Hjalpi’ est prononcé un peu plus longuement que le « o » français.
+-  /oː/ o :: Cette voyelle est la même que le « o » français comme dans « eau », à la différence que le « o » de le Hjalpi’ est prononcé un peu plus longuement que le « o » français.
 
--  /yː/ : y
-Cette voyelle est la même que le « u » français, à la différence que le « u » de le Hjalpi’ est prononcé un peu plus longuement que le « u » français.
+-  /yː/ y :: Cette voyelle est la même que le « u » français, à la différence que le « u » de le Hjalpi’ est prononcé un peu plus longuement que le « u » français.
 
--  /uː/ : u
-Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
+-  /uː/ u :: Cette voyelle est la même que le « ou » français, à la différence que le « ou » de le Hjalpi’ est prononcé un peu plus longuement que le « ou » français.
 
 **** <<cons-syll>>Consonnes syllabiques
--  /n̩/ : ń
-Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé  /bʌtn̩/.
+-  /n̩/ ń :: Le « ń » est la consonne « n » (la même que le « n » standard français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « button » qui peut être prononcé  /bʌtn̩/.
 
--  /l̩/ : ĺ
-Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
+-  /l̩/ ĺ :: Le « ĺ » est la consonne « l » (la même que le « l » français), mais considérée et prononcée comme une voyelle, tel qu’on peut l’entendre dans certains mots anglais comme dans « bottle » qui peut être prononcé  /bɔtl̩/, avec le /ʊ/ qui est omis et le  /l/ devenant syllabique.
 
 **** <<phon-diphtongues>>Diphtongues
 
 *** <<phon-consonnes>>Consonnes
-En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes assez important. Voici ci-dessous lesdites consonnes :
+En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes relativement important. Voici ci-dessous lesdites consonnes :
 
 #+CAPTION: Consonnes du Hjalpi’
 | / | >             | >      | >          | >     | >    | >         | >      | >      | >       | >     | >       |
@@ -414,6 +402,7 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 *** <<deriv-accord-cons>>Accord des consonnes
 
 ** Système d’écriture
+
 * Éléments de la phrase
 ** Noms
 *** <<noms-articles>>Articles
@@ -1246,3 +1235,4 @@ Exemple : Nè liÐbńovu wyhakèìs. Je pars de Ðbńo.
 ** Vêtements
 ** Vie et santé
 - ðenmòìl :: /ðeːn.mɔɪl/ (n.6) personne, individu
+#  LocalWords:  phon-diphtongues phon-consonnes this Müller hit book button bottle Guéré bʌtn̩ bʌtn̩ cons-syll excl.singulier
