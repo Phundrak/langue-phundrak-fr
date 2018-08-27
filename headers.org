@@ -1,4 +1,6 @@
 #+AUTHOR: Lucien Cartier-Tilet
+#+EMAIL: phundrak@phundrak.fr
+#+CREATOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
 #+LATEX_CLASS: book

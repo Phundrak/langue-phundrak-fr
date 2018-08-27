@@ -154,6 +154,53 @@ Dans cet ouvrage, j’utiliserai principalement la translittération des mots, e
 
 Généralement, j’utiliserai la transcription large lorsque j’aurai besoin de transcrire de façon phonétique des éléments de langage, à moins que je souhaite que vous, le lecteur, portiez votre attention sur un élément particulier de la prononciation de la langue divine, auquel cas j’userai de la transcription rapprochée, comme lors de la discussion sur l’[[allophonie][allophonie]]. La prononciation des mots du [[glossaire][glossaire]] sera notée en transcription large.
 
+*** <<phon-consonnes>>Consonnes
+En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes relativement important. Voici ci-dessous lesdites consonnes :
+
+#+CAPTION: Consonnes du Hjalpi’
+| / | >             | >      | >          | >     | >    | >         | >      | >      | >       | >     | >       |
+|   |               | bilab. | lab.-dent. | dent. | alv. | pal.-alv. | rétro. | palat. | vélaire | uvul. | glottal |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | nasal         | m      |            |       | n    |           |        |        | ng      |       |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | occlusif      | p b    |            |       | t d  |           | ŧ đ    |        | k g     |       | '       |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | fricatif      |        | f v        | þ ð   | s z  | sh zh     |        | ch jh  |         | qh rh | h       |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | spirante      |        |            |       | ŕ    |           |        | j      |         |       |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | roulé         |        |            |       | r    |           |        |        |         |       |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | fric.-lat.    |        |            |       | lh   |           |        |        |         |       |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | spir.-lat.    |        |            |       | l    |           |        |        |         |       |         |
+|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
+|   | semi-voyelles | w      |            |       |      |           |        |        |         |       |         |
+
+#+CAPTION: Consonnes du Hjalpi’ (IPA)
+| / | >             | >       | >          | >     | >        | >         | >      | >      | >       | >     | >       |
+|   |               | bilab.  | lab.-dent. | dent. | alv.     | pal.-alv. | rétro. | palat. | vélaire | uvul. | glottal |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | nasal         | m [m̩ʲ]  |            |       | n n̩      |           |        | [ɲ̩]    | ŋ       |       |         |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | occlusif      | p  b    |            |       | t  d     |           | ʈ  ɖ   |        | k  ɡ    |       | ʔ       |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | fricatif      | [ɸ] [β] | f   v      | θ  ð  | s  z     | ʃ ʒ       |        | ç  ʝ   | [x] [ɣ] | χ   ʁ | h [ɦ]   |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | spirante      |         |            |       | ɹ        |           |        | j      |         |       |         |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | roulé         |         |            |       | r        |           |        |        |         |       |         |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | fric.-lat.    |         |            |       | ɬ        |           |        |        |         |       |         |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | spir.-lat.    |         |            |       | l l̩ [l̩ʲ] |           |        |        |         |       |         |
+|---+---------------+---------+------------+-------+----------+-----------+--------+--------+---------+-------+---------|
+|   | semi-voyelles | w       |            |       |          |           |        |        |         |       |         |
+
+Les consonnes entre crochet sont des allophones d’autres phonèmes, tel qu’expliqué dans [[allophonie][Allophonie]]. Il est aussi à noter que les consonnes /n̩/ et /l̩/ sont toutes deux des consonnes dites syllabiques et appartenant donc aux [[phon-voyelles][voyelles]].
+
 *** <<phon-voyelles>>Voyelles
 Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la majorité des langues existantes dans notre monde, avec dix-sept voyelles simples, et quelques autres diphtongues (discutées plus bas dans [[phon-diphtongues][Diphtongues]]). Voici la liste des voyelles utilisées dans le Hjalpi’ :
 
@@ -181,7 +228,7 @@ Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
-On peut remarquer que, à l’exception de /ĩ/, /ũ/, /ã/, /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte courte / fermée longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θraːn] n’aura pas la même signification que /þrån/  [θrɑn] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture/longueur.
+On peut remarquer que, à l’exception de /ĩ/, /ũ/, /ã/, /ń/ et /ĺ/, toutes les voyelles ont un couple ouverte courte vs. fermée longue. Dans les mots racine (c’est à dire non altérés par une quelconque règle grammaticale), la distinction revêt une importance capitale, porteuse de sens et de distinction de certains mots entre eux. Ainsi, /þran/ [θraːn] n’aura pas la même signification que /þrån/  [θrɑn] (pour l’explication de la prononciation, voir [[allophonie][l’allophonie]]). En revanche, comme on le verra plus tard, les addition grammaticales verront leurs voyelles s’accorder avec les voyelles du mot racine en ouverture/longueur.
 
 **** Voyelles courtes
  - /ɑ/ å :: Le /å/ est une voyelle ressemblant au « â » que l’on retrouve en français dans des mots tels que « pâte ».
@@ -226,51 +273,6 @@ On peut remarquer que, à l’exception de /ĩ/, /ũ/, /ã/, /ń/ et /ĺ/, toute
 
 **** <<phon-diphtongues>>Diphtongues
 
-*** <<phon-consonnes>>Consonnes
-En plus d’un important inventaire de voyelle, le Hjalpi’ dispose également d’un inventaire de consonnes relativement important. Voici ci-dessous lesdites consonnes :
-
-#+CAPTION: Consonnes du Hjalpi’
-| / | >             | >      | >          | >     | >    | >         | >      | >      | >       | >     | >       |
-|   |               | bilab. | lab.-dent. | dent. | alv. | pal.-alv. | rétro. | palat. | vélaire | uvul. | glottal |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | nasal         | m      |            |       | n    |           |        |        | ng      |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | occlusif      | p b    |            |       | t d  |           | ŧ đ    |        | k g     |       | '       |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | fricatif      |        | f v        | þ ð   | s z  | sh zh     |        | ch jh  |         | qh rh | h       |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | spirante      |        |            |       | ŕ    |           |        | j      |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | roulé         |        |            |       | r    |           |        |        |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | fric.-lat.    |        |            |       | lh   |           |        |        |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | spir.-lat.    |        |            |       | l    |           |        |        |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | semi-voyelles | w      |            |       |      |           |        |        |         |       |         |
-
-#+CAPTION: Consonnes du Hjalpi’ (IPA)
-| / | >             | >      | >          | >     | >    | >         | >      | >      | >       | >     | >       |
-|   |               | bilab. | lab.-dent. | dent. | alv. | pal.-alv. | rétro. | palat. | vélaire | uvul. | glottal |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | nasal         | m      |            |       | n    |           |        |        | ŋ       |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | occlusif      | p  b   |            |       | t  d |           | ʈ  ɖ   |        | k  ɡ    |       | ʔ       |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | fricatif      |        | f   v      | θ  ð  | s  z | ʃ ʒ       |        | ç  ʝ   |         | χ   ʁ | h       |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | spirante      |        |            |       | ɹ    |           |        | j      |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | roulé         |        |            |       | r    |           |        |        |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | fric.-lat.    |        |            |       | ɬ    |           |        |        |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | spir.-lat.    |        |            |       | l    |           |        |        |         |       |         |
-|---+---------------+--------+------------+-------+------+-----------+--------+--------+---------+-------+---------|
-|   | semi-voyelles | w      |            |       |      |           |        |        |         |       |         |
-
 *** Accentuation
 L’accentuation des mots en langue divine porte sur l’avant-dernière voyelle racine si le mot racine dispose de deux syllabes ou plus, sur la voyelle racine unique sinon. L’accentuation des mots étant régulière, elle n’est pas marquée par l’orthographe et la translittération de la langue.
 Pour ce qui est de l’accentuation des phrases, le ton est généralement tombant, avec le terme que le locuteur estime le plus important de la phrase bénéficiant d’une remontée du ton sur ce terme précisément. Si le locuteur estime que le terme est très important, alors il peut même le prononcer avec une voix de tête, voire étirer de manière exagérée la première syllabe racine du terme. Un verbe interrogatif bénéficie nécessairement de la remontée du ton de la phrase sur ce terme, tandis qu’une phrase exclamative voit son ton recommencer à descendre à partir de la même hauteur que celle du début de phrase. Une phrase affirmative continue la descente de ton jusqu’à la dernière syllabe racine qui bénéficie d’une accentuation.
@@ -283,8 +285,7 @@ Pour moi le meilleur exemple que je puisse donner pour ce qui est de la différe
 Ainsi, dans mon (ou mes ?) livre(s ?) qui s’adressera (s’adresseront ?) à un public général, j’utiliserai des romanisation de la langue divine si je souhaite que le lecteur ait une idée de la prononciation du mot ou de la phrase qu’il vient de rencontrer –et à l’inverse, si je souhaite être plus graphique, j’utiliserai soit la translittération, soit l’écriture native du Hjalpi’. Toujours est-il que dans cette référence grammaticale, je n’utiliserai que de la translittération (les graphèmes et lettres correspondantes furent décrites dans [[phon-consonnes][Consonnes]] et [[phon-voyelles][Voyelles]]), et ne ferai usage de la romanisation que dans ce chapitre où j’explique ci-dessous le processus de l’écriture du Hjalpi en romanisation.
 
 Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittération, et sa romanisation francophone. Pour un équivalent anglophone, se référer à la version anglophone de cet ouvrage si cette dernière existe.
-
-#+CAPTION: Translittération des voyelles du Hjalpi’
+src_latex{\newpage}
 | / | >       | >      |      |
 |   | phonème | trans. | rom. |
 |---+---------+--------+------|
@@ -303,7 +304,6 @@ Voici ci-dessous un tableau avec chaque phonème du Hjalpi’, sa translittérat
 |   | aː      | a      | a    |
 |   | ɑ       | å      | a    |
 
-#+CAPTION: Translittération des consonnes du Hjalpi’
 | / | >       | >      |      | <> | >       | >      |      |
 |   | phonème | trans. | rom. |    | phonème | trans. | rom. |
 |---+---------+--------+------+----+---------+--------+------|
@@ -337,49 +337,55 @@ Ci-dessous se trouve une liste d’abréviations que l’on trouvera souvent dan
 - ~F~ = consonne fricative
 - ~N~ = consonne nasale
 - ~P~ = consonne labiale
+- ~S~ = consonne plosive
 - ~V~ = voyelle
 - ~L~ = voyelle longue
 - ~S~ = voyelle courte
 
 *** <<allophonie>>Allophonie
-En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[deriv-accord-voy][accords des voyelles]] ou les [[deriv-accord-cons][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous.
+En Hjalpi’, il existe de nombreuses règles sur la modification de prononciation de phonèmes selon leur emplacement au sein d’un mot et leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Ces règles sont les dernières règles à s’appliquer sur la modification de prononciation des mots, les autres règles comme les [[deriv-accord-voy][accords des voyelles]] ou les [[deriv-accord-cons][accords des consonnes]] s’appliquant avant les règles d’allophonie. Ces règles s’appliquent dans leur ordre d’apparition ci-dessous. Attention, la consonne /’/ (/ʔ/ ) est considérée comme étant transparente pour ce qui est de l’allophonie, ainsi les règles suivantes s’appliquent comme si cette consonne était inexistante et insonore.
 
 **** Voyelles
 Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, cependant on peut en relever certains comme suit :
-- La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle peut également être prononcée /m̩/ si le /ń/ est précédé et/ou suivi par une consonne bilabiale, et il peut être palatalisé en /ɲ̩/ ou /m̩ʲ/ si le /ń/ est également adjacent à une des voyelles /i/ ou /ì/, ou bien la consonne /j/.
- -  /n̩/ > [m̩] / _P
- -  /n̩/ > [m̩] / P_
- -  /n̩/ > [ɲ̩] / _{iː,ɪ,j}
- -  /n̩/ > [ɲ̩] / {iː,ɪ,j}_
- -  /n̩/ > [m̩ʲ] / P_ {iː,ɪ,j}
- -  /n̩/ > [m̩ʲ] / {iː,ɪ,j}_ P
-- Le « ĺ » peut également être palatalisé en cas d’adjacence à une des voyelles /i/ ou /ì/ ou bien la consonne /j/, et donc être prononcée /l̩ʲ/.
- -  /l̩/ > [l̩ʲ] / _I
+- La prononciation standard du « ń », comme mentionné ci-dessus dans [[cons-syll][Consonnes syllabiques]], est /n̩/. Cependant, cette voyelle se prononce [m̩] si le /ń/ est précédé ou suivi par une consonne bilabiale, il se palatalise en [ɲ̩] si le /ń/ est également adjacent à une des voyelles /i/ ou /ì/, ou bien la consonne /j/, et si les deux cas sont vérifiés vrais en même temps, le /ń/ sera prononcé [m̩ʲ].
+ - /n̩/ > [m̩] / P_  | _ P
+ - /n̩/ > [ɲ̩] / {iː,ɪ,j}_  | _ {iː,ɪ,j}
+ - /n̩/ > [m̩ʲ] / P_ {iː,ɪ,j} | {iː,ɪ,j}_ P
+| wańmjœd     | /wan̩.mjœd/       | [wam̩.mjœd]       |
+| letńja      | /leː.tn̩.jaː/     | [leː.tɲ̩.jaː]     |
+| rhepń ìltìþ | /ʁeː.pn̩.ɪl.tɪθ/  | [ʁeː.pm̩ʲ.ɪl.tɪθ] |
+- Le « ĺ » également se palataliseen cas d’adjacence à une des voyelles /i/ ou /ì/ ou bien la consonne /j/, et donc se prononce [l̩ʲ] dans ce cas.
+ - /l̩/ > [l̩ʲ] / _ I
+| jĺchek | /jl̩.çeːk/  | [jl̩ʲ.çeːk] |
 
 **** Consonnes
 Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononciations alternatives à la prononciation exacte mentionnée plus haut, sans que cela n’affecte le sens des mots ou le sens d’une phrase.
-- La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/p\/~ et ~/B/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
- -  /f/ > [ɸ] / {#,V}_ V
- -  /v/ > [β] / {#,V}_ V
-- Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /ì/ ou /j/ (notés ~I~), le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
- -  /h/ > [ɦ] / {#,V}_ V
- -  /h/ > [ç] / _I
- -  /h/ > [ç] / I_
- -  [ɦ] > [ʝ] / _I
- -  [ɦ] > [ʝ] / I_
-- Le /rh/ a pour prononciation standard le /ʁ/, cependant il est généralement prononcé /ʀ/ entre deux voyelles et/ou consonne voisée (notées ~V~).
- -  /ʁ/ > [ʀ] / V_ V
-- Le /x/ est habituellement prononcé /χ/, cependant il est prononcé /x/ lorsqu’il est en contact avec une consonne fricative sourde.
- -  /χ/ > [x] / F[-voix]_
- -  /χ/ > [x] / _F[-voix]
-- Si deux consonnes fricatives toutes deux voisées ou sourdes se suivent successivement, même entre deux mots distincts, la première fricative devient silencieuse.
- - F[+voix] > Ø / _F[+voix]
- - F[-voix] > Ø / _F[-voix]
-- Si une consonne fricative voisée (notée ~FV~) est précédée par une fricative sourde (notée ~FS~), elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
- - F[-voix] > [+voix] / F[+voix]_
- - F[+voix] > [-voix] / F[-voix]_
-
-**** Exemples
+- La prononciation standard du /f/ et /v/ sont respectivement ~/f/~ et ~/v/~, cependant il arrive également qu’ils soient respectivement prononcés ~/ɸ/~ et ~/β/~ entre deux voyelles, ou en début de mot si immédiatement suivis d’une voyelle ou d’une semi-consonne (également notée ~V~).
+  - /f/ > [ɸ] / {#,V}_ V
+  - /v/ > [β] / {#,V}_ V
+| fenrũd   | /feːn.rʊ̃d/      | [ɸeːn.rʊ̃d]    |
+| vyelogot | /vye.loː.ɡoːt/  | [βye.loː.ɡoːt] |
+- Le  /ɦ/ est considéré comme étant un allophone du  /h/. Cet allophone se produit entre deux voyelles, en début de mot immédiatement suivit d’une voyelle, entre une consonne voisée et une voyelle, ou une voyelle et une consonne voisée. En revanche, au contact du /i/, /ì/ ou /j/, le  /h/ se palatalise en un  /ç/. Similairement, un  /ɦ/ obtenu grâce au premières règles ci-dessous change en  /ʝ/.
+  - /h/ > [ɦ] / {#,V}_ V
+  - /h/ > [ç] / _ {i,ɪ,j} | {i,ɪ,j}_ 
+  - [ɦ] > [ʝ] / _ {i,ɪ,j} | {i,ɪ,j}_ 
+| wyhakuþ | /wyː.haː.kyːθ/  | [wyː.ɦaː.kyːθ] |
+| hjalp   | /hjalp/         | [çjalp]        |
+| nehja   | /neː.hjaː/      | [neː.ʝja]      |
+- Le /x/ et le /rh/ sont habituellement prononcés /χ/ et /ʁ/ respectivement, cependant ils sont avancés en consonnes velaires /x/  et /ɣ/ respectivement lorsqu’ils sont en contact avec une consonne fricative.
+  - /{χ,ʁ}/ > [+vélaire] / F_  | _ F
+| naqhfèn        | /naːχ.fɛnd/             | [naːx.fɛnd]            |
+| ŧeleþ qhuljů   | /ʈeː.leːθ.χuː.ljʏ/      | [ʈeː.leːθ.xuː.ljʏ]     |
+| elekorh þurènt | /eː.leː.koːɣ.θyː.rɛnt/  | [eː.leː.koːɣ.θyː.rɛnt] |
+| đùvùzh rhev    | /ɖʊ.vʊʒ.ʁev/            | [ɖʊ.vʊʒ.ɣev]           |
+- Si une consonne fricative voisée est précédée par une fricative sourde, elle devient elle-même sourde. À l’inverse, si une fricative sourde est précédée par une fricative voisée, la première devient également voisée.
+  - F[-son] > [+son] / F[+son]_ 
+  - F[+son] > [-son] / F[-son]_ 
+| echvènd  | /eːç.vɛnd/  | [eːç̬.vɛnd] |
+| auzshèìd | /auz.ʃɛɪd/  | [auz̥.ʃɛɪd] |
+- Si deux plosives se suivent, la première a une désocclusion inaudible.
+  - S > [-release] / _ S
+| edtĩ | /ed.tɪ̃/  | [eːd̚.tɪ̃] |
 
 *** <<deriv-accord-voy>>Accord des voyelles
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
@@ -455,6 +461,259 @@ Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des élémen
 Pour des raisons grammaticales il existe également un sur-nombre, le *super-singulier* qui regroupe tous les nombres qui ne sont pas le pluriel. Le super-singulier est utile notamment pour les déclinaisons qui distinguent uniquement le super-singulier et le pluriel.
 
 ** Pronoms
+
+*Note : en construction*
+
+Nominatif :
+| /     | <    |      |      |      |      |     |      |      |      |
+|       | SAC  | ABST | LIQ  | M    | F    | N   | ANML | PLNT | INAN |
+|-------+------+------+------+------+------+-----+------+------+------|
+| 1S    | lhè  | /    | jhò  | ngè  | njè  | nè  | /    | /    | /    |
+| 1iS   | lhò  | /    | chò  | nwœ  | nje  | nå  | /    | /    | /    |
+| 2S    | lhy  | /    | jhy  | ngœ  | njy  | ny  | /    | /    | /    |
+| 3S    | lhã  | tã   | jhã  | nwã  | nã   | mã  | vã   | ŕã   | qhã  |
+| 1SGV  | lèqh | tèþ  | chòþ | ngèl | njèm | nèl | vèn  | lèsh | qhèŕ |
+| 1iSGV | lòqh | tòch | chœð | lwœ  | ljè  | la  | fòl  | rò   | lèrh |
+| 2SGV  | lhyl | tych | shyl | nyel | njym | nĩ  | þyl  | ŕyl  | rhyl |
+| 3SGV  | lãqh | tãþ  | zhãl | ngãl | njũl | mãl | fãl  | lã   | qhãl |
+| 1DU   | tlhè | /    | shtè | nœt  | nœt  | nœt | /    | /    | /    |
+| 1iDU  | tlhò | /    | chtè | ngœt | njò  | ètń | /    | /    | /    |
+| 2DU   |      |      |      |      |      |     |      |      |      |
+| 3DU   | lhãt | ŧãn  | zhãt | ngãd | njãt | ngã | tãv  | ŕãt  | qhã  |
+| 1TRI  |      | /    |      |      |      |     | /    | /    | /    |
+| 1iTRI |      | /    |      |      |      |     | /    | /    | /    |
+| 2TRI  |      |      |      |      |      |     |      |      |      |
+| 3TRI  |      |      |      |      |      |     |      |      |      |
+| 1PL   |      | /    |      |      |      |     | /    | /    | /    |
+| 1iPL  |      | /    |      |      |      |     | /    | /    | /    |
+| 2PL   |      |      |      |      |      |     |      |      |      |
+| 3PL   |      |      |      |      |      |     |      |      |      |
+
+Accusatif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Ergatif :
+| /     | <   |      |     |   |   |     |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N   | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+-----+------+------+------|
+| 1S    |     | /    |     |   |   | nèì | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |     | /    | /    | /    |
+| 2S    |     |      |     |   |   |     |      |      |      |
+| 3S    |     |      |     |   |   |     |      |      |      |
+| 1SGV  |     | /    |     |   |   |     | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |     | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |     |      |      |      |
+| 3SGV  |     |      |     |   |   |     |      |      |      |
+| 1DU   |     | /    |     |   |   |     | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |     | /    | /    | /    |
+| 2DU   |     |      |     |   |   |     |      |      |      |
+| 3DU   |     |      |     |   |   |     |      |      |      |
+| 1TRI  |     | /    |     |   |   |     | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |     | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |     |      |      |      |
+| 3TRI  |     |      |     |   |   |     |      |      |      |
+| 1PL   |     | /    |     |   |   |     | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |     | /    | /    | /    |
+| 2PL   |     |      |     |   |   |     |      |      |      |
+| 3PL   |     |      |     |   |   |     |      |      |      |
+
+Absolutif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Pégatif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Datif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Causatif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Possessif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Sociatif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
+Vocatif :
+| /     | <   |      |     |   |   |   |      |      |      |
+|       | SAC | ABST | LIQ | M | F | N | ANML | PLNT | INAN |
+|-------+-----+------+-----+---+---+---+------+------+------|
+| 1S    |     | /    |     |   |   |   | /    | /    | /    |
+| 1iS   |     | /    |     |   |   |   | /    | /    | /    |
+| 2S    |     |      |     |   |   |   |      |      |      |
+| 3S    |     |      |     |   |   |   |      |      |      |
+| 1SGV  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iSGV |     | /    |     |   |   |   | /    | /    | /    |
+| 2SGV  |     |      |     |   |   |   |      |      |      |
+| 3SGV  |     |      |     |   |   |   |      |      |      |
+| 1DU   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iDU  |     | /    |     |   |   |   | /    | /    | /    |
+| 2DU   |     |      |     |   |   |   |      |      |      |
+| 3DU   |     |      |     |   |   |   |      |      |      |
+| 1TRI  |     | /    |     |   |   |   | /    | /    | /    |
+| 1iTRI |     | /    |     |   |   |   | /    | /    | /    |
+| 2TRI  |     |      |     |   |   |   |      |      |      |
+| 3TRI  |     |      |     |   |   |   |      |      |      |
+| 1PL   |     | /    |     |   |   |   | /    | /    | /    |
+| 1iPL  |     | /    |     |   |   |   | /    | /    | /    |
+| 2PL   |     |      |     |   |   |   |      |      |      |
+| 3PL   |     |      |     |   |   |   |      |      |      |
+
 ** Adjectifs
 ** Adverbes
 ** Verbes
@@ -950,8 +1209,8 @@ Exemple : Je navigue sur l’océan côtier (l’action est motivée par ou due
 |       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p       |       |
 |       | -ðei- | -ðey- | -ðei- | -ðei- | -ðeu- | -ðei- | -ðeu- | -ðeu-    |       |
 Exemple : Je voyage le long de la rivière accompagné de Romur. (Romur et moi partageons l’expérience du voyage).
-| etrjålèìs                     | chylhånt               | Romyðeńr   | nè       |
-| voyager(NOM prés-indic 1sHUM) | PERL-(rivière mineure) | <COM>Romyr | 1s6G-NOM |
+| etrjål-èìs              | chy-lhånt            | Romy<ðei>r | nè       |
+| voyager-1S.HUM.NOM.PRES | PERL-rivière.mineure | Romyr<COM> | 1S.N.NOM |
 
 - <<cas-dat>>Cas datif (/DAT/) :: élément recevant ou direction de l’action vers l’élément.
 | 1s   | 1p   | 2s      | 2p   | 3s   | 3p    | 4s   | 4p   | 5s   | 5p   |
@@ -959,8 +1218,8 @@ Exemple : Je voyage le long de la rivière accompagné de Romur. (Romur et moi 
 |      | 6s   | 6p      | 7s   | 7p   | 8s    | 8p   | 9s   | 9p   |      |
 |      | -et- | -(v)et- | -at- | -et- | -ast- | -aþ- | -at- | -et- |      |
 Exemple : Je crie (par colère) sur mon voisin.
-| ŧůbůmåů                     | ketipŕům    | nè       |
-| crier(NOM prés-indic 1sHUM) | <DAT>voisin | 1s6G-NOM |
+| ŧůbům-åů              | k<aŧ>ipŕům  | nè       |
+| crier-1S.HUM.NOM.PRES | <DAT>voisin | 1S.N.NOM |
 
 - <<cas-distributif>>Cas Distributif (/DISTR/) :: Marque une distribution équitable entre les éléments déclinés. Comparable au cas [[cas-distemp][distributif-temporel]].
 | 1s       | 1p      | 2s       | 2p      | 3s       | 3p       | 4s      | 4p      | 5s      | 5p     |
@@ -998,8 +1257,8 @@ Exemple : Je crie (par colère) sur mon voisin.
 |       | 6s    | 6p    | 7s    | 7p    | 8s    | 8p    | 9s    | 9p    |       |
 |       | to-   | ŧo-   | te-   | t(o)- | t(o)- | to-   | t(o)- | t(o)- |       |
 Exemple : Je voyage le long de la rivière avec mes jumelles. (Les jumelles ne peuvent partager l’expérience dû au fait qu’elles soient inanimées et ne sont certainement pas mon moyen de voyage)
-| etrjålèìs                     | chylhånt               | tovyelegot   | nè       |
-| voyager(NOM prés-indic 1sHUM) | PERL-(rivière mineure) | SOC-jumelles | 1s6G-NOM |
+| etrjål-èìs              | chy-lhånt            | to-vyelegot  | nè       |
+| voyager-1S.HUM.NOM.PRES | PERL-rivière.mineure | SOC-jumelles | 1S.N.NOM |
 
 *** Sémantiques
 - <<cas-ptv>>Cas partitif (/PTV/) :: s’utilise pour indiquer une quantité de l’élément donné s’il s’agit de désigner un sous-groupe, sans spécifier d’identité ou bien de marquer une partie uniquement de l’élément décliné.
@@ -1213,7 +1472,7 @@ Exemple : Nè liÐbńovu wyhakèìs. Je pars de Ðbńo.
 - melex :: /meː.leːχ/ (n.1) dieu terrestre
 ** Savoir
 - bòljøluþ :: /bɔ.ljøː.luːθ/ (vt.) savoir
-- wanmjœd ::  /waːn.mjœd/ (n.2) savoir, connaissance
+- wańmjœd ::  /waːn̩.mjœd/ (n.2) savoir, connaissance
 ** Sensations
 - ferhtef ::  /feːʁ.teːf/ (n.2) douleur mentale, dépression. Étymologie : /ferhan/ + /’eshtef/, une /tristesse mauvaise/
 - nùòtœm :: /nʊɔ.tœm/ (vt.) voir
