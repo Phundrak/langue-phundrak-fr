@@ -355,7 +355,7 @@ Il existe relativement peu d’allophones parmi les voyelles de le Hjalpi’, ce
 | letńja      | /leː.tn̩.jaː/     | [leː.tɲ̩.jaː]     |
 | rhepń ìltìþ | /ʁeː.pn̩.ɪl.tɪθ/  | [ʁeː.pm̩ʲ.ɪl.tɪθ] |
 - Le « ĺ » également se palataliseen cas d’adjacence à une des voyelles /i/ ou /ì/ ou bien la consonne /j/, et donc se prononce [l̩ʲ] dans ce cas.
- - /l̩/ > [l̩ʲ] / _ I
+ - /l̩/ > [l̩ʲ] / {iː,ɪ,j}_  | _ {iː,ɪ,j}
 | jĺchek | /jl̩.çeːk/  | [jl̩ʲ.çeːk] |
 
 **** Consonnes
