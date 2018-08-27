@@ -5,7 +5,7 @@
 
 🔵 [[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[file:hjalpi/index.pdf][pdf]])
 
-🔴 [[https://langue.phundrak.fr/old-hjalpi][Hjalpi’ Vernaculaire]] (développement suspendu)
+🔴 [[https://langue.phundrak.fr/old-hjalpi][Hjalpi’ Vernaculaire]] (développement abandonné)
 
 * Langues draconiennes
 
