@@ -107,7 +107,7 @@ src_latex{\begin{multicols}{2}}
 - PAS :: passé moyen ([[verbes-temps][temps]])
 - PASS :: passif ([[verbes-valence][voix]])
 - PCP :: [[mode-pcp][participe]] ([[verbes-modes][mode]])
-- PDIS :: passé distant
+- PDIS :: passé distant ([[verbes-temps][temps]])
 - PEG :: [[cas-peg][pégatif]] ([[decl-morph-decl][cas]])
 - PER :: [[cas-per][perlatif]] ([[decl-morph-decl][cas]])
 - PERT :: [[cas-pert][pertingent]] ([[decl-morph-decl][cas]])
@@ -410,7 +410,7 @@ L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom
 ** Système d’écriture
 
 * Éléments de la phrase
-** Noms
+** <<noms>>Noms
 *** <<noms-articles>>Articles
 *** <<morpho-nom-genre>>Genre
 Le Hjalpi’ est une langue riche en genres grammaticaux, étant donné qu’elle dispose de *neuf genres* différents
@@ -427,7 +427,7 @@ Le Hjalpi’ est une langue riche en genres grammaticaux, étant donné qu’ell
 Le genre est inclus sémantiquement dans chaque nom commun du Hjalpi’, en revanche la majorité des éléments rattachés au nom s’accorderont en genre, ainsi que les verbes suivant si le nom influe la conjugaison du verbe.
 
 <<nom-sur-genre>>Le Hjalpi’ dispose également de *quatre sur-genres*, regroupant les genres en catégories qui sont utilisées dans certains contexte, comme pour la déclinaison ou la conjugaison des verbes.
-1. Le sur-genre sacré (/SAC/) : rassemble les genres divin et mental
+1. Le sur-genre spirituel (/SPIR/) : rassemble les genres divin et mental
 2. Le sur-genre humain (/HUM/) : rassemble les genres humains (masculin, féminin et neutre)
 3. Le sur-genre non-humain (/NHUM/) : rassemble les genres du vivant non-humain (animal et végétal)
 4. Le sur-genre inanimé (/IN/) : rassemble les genres liquide et inanimé
@@ -460,34 +460,34 @@ Le singulatif, comme décrit ci-dessus, est utilisé pour regrouper des élémen
 
 Pour des raisons grammaticales il existe également un sur-nombre, le *super-singulier* qui regroupe tous les nombres qui ne sont pas le pluriel. Le super-singulier est utile notamment pour les déclinaisons qui distinguent uniquement le super-singulier et le pluriel.
 
-** Pronoms
+** <<pronoms>>Pronoms
 
 *Note : en construction*
 
 Nominatif :
-| /     | <    |      |      |      |      |     |      |      |      |
-|       | SAC  | ABST | LIQ  | M    | F    | N   | ANML | PLNT | INAN |
-|-------+------+------+------+------+------+-----+------+------+------|
-| 1S    | lhè  | /    | jhò  | ngè  | njè  | nè  | /    | /    | /    |
-| 1iS   | lhò  | /    | chò  | nwœ  | nje  | nå  | /    | /    | /    |
-| 2S    | lhy  | /    | jhy  | ngœ  | njy  | ny  | /    | /    | /    |
-| 3S    | lhã  | tã   | jhã  | nwã  | nã   | mã  | vã   | ŕã   | qhã  |
-| 1SGV  | lèqh | tèþ  | chòþ | ngèl | njèm | nèl | vèn  | lèsh | qhèŕ |
-| 1iSGV | lòqh | tòch | chœð | lwœ  | ljè  | la  | fòl  | rò   | lèrh |
-| 2SGV  | lhyl | tych | shyl | nyel | njym | nĩ  | þyl  | ŕyl  | rhyl |
-| 3SGV  | lãqh | tãþ  | zhãl | ngãl | njũl | mãl | fãl  | lã   | qhãl |
-| 1DU   | tlhè | /    | shtè | nœt  | nœt  | nœt | /    | /    | /    |
-| 1iDU  | tlhò | /    | chtè | ngœt | njò  | ètń | /    | /    | /    |
-| 2DU   |      |      |      |      |      |     |      |      |      |
-| 3DU   | lhãt | ŧãn  | zhãt | ngãd | njãt | ngã | tãv  | ŕãt  | qhã  |
-| 1TRI  |      | /    |      |      |      |     | /    | /    | /    |
-| 1iTRI |      | /    |      |      |      |     | /    | /    | /    |
-| 2TRI  |      |      |      |      |      |     |      |      |      |
-| 3TRI  |      |      |      |      |      |     |      |      |      |
-| 1PL   |      | /    |      |      |      |     | /    | /    | /    |
-| 1iPL  |      | /    |      |      |      |     | /    | /    | /    |
-| 2PL   |      |      |      |      |      |     |      |      |      |
-| 3PL   |      |      |      |      |      |     |      |      |      |
+| /     | <    |      |      |      |       |      |      |      |      |
+|       | SAC  | ABST | LIQ  | M    | F     | N    | ANML | PLNT | INAN |
+|-------+------+------+------+------+-------+------+------+------+------|
+| 1S    | lhè  | /    | jhò  | ngè  | njè   | nè   | /    | /    | /    |
+| 1iS   | lhò  | /    | chò  | nwœ  | nje   | nå   | /    | /    | /    |
+| 2S    | lhy  | ty   | jhy  | ngœ  | njy   | ny   | fay  | ly   | rhy  |
+| 3S    | lhã  | tã   | jhã  | nwã  | nã    | mã   | vã   | ŕã   | qhã  |
+| 1SGV  | lèqh | tèþ  | chòþ | ngèl | njèm  | nèl  | vèn  | lèsh | qhèŕ |
+| 1iSGV | lòqh | tòch | chœð | lwœ  | ljè   | la   | fòl  | rò   | lèrh |
+| 2SGV  | lhyl | tych | shyl | nyel | njym  | nĩ   | þyl  | ŕyl  | rhyl |
+| 3SGV  | lãqh | tãþ  | zhãl | ngãl | njũl  | mãl  | fãl  | lã   | qhãl |
+| 1DU   | tlhè | /    | shtè | nœt  | nœt   | nœt  | /    | /    | /    |
+| 1iDU  | tlhò | /    | chtè | ngœt | njò   | ètń  | /    | /    | /    |
+| 2DU   | lhůŧ | typ  | zhyt | tyng | njyd  | ůtń  | fãŧ  | lyđ  | trhy |
+| 3DU   | lhãt | ŧãn  | zhãt | ngãd | njãt  | ngã  | tãv  | ŕãt  | qhã  |
+| 1TRI  | èlþ  | /    | þò   | èmð  | njènt | ngjè | /    | /    | /    |
+| 1iTRI | lhòð | /    | ðœ   | œnð  | njeþ  | ngøl | /    | /    | /    |
+| 2TRI  |      |      |      |      |       |      |      |      |      |
+| 3TRI  |      |      |      |      |       |      |      |      |      |
+| 1PL   |      | /    |      |      |       |      | /    | /    | /    |
+| 1iPL  |      | /    |      |      |       |      | /    | /    | /    |
+| 2PL   |      |      |      |      |       |      |      |      |      |
+| 3PL   |      |      |      |      |       |      |      |      |      |
 
 Accusatif :
 | /     | <   |      |     |   |   |   |      |      |      |
@@ -714,9 +714,9 @@ Vocatif :
 | 2PL   |     |      |     |   |   |   |      |      |      |
 | 3PL   |     |      |     |   |   |   |      |      |      |
 
-** Adjectifs
-** Adverbes
-** Verbes
+** <<adjectifs>>Adjectifs
+** <<adverbes>>Adverbes
+** <<verbes>>Verbes
 *** <<verbes-temps>>Temps
 Il existe techniquement sept temps en Hjalpi’, considérés tous comme étant distincts les uns des autres :
 - Le *passé lointain* et le *futur lointain* sont associés à des temps à échelle d’une civilisation et au delà de temps à échelle d’une vie humaine. Ainsi, si un événement quelconque est mentionné comme s’étant passé il y a plus d’une soixantaine d’années, les locuteurs du Hjalpi’ s’y référeront au moyen du passé lointain, et à l’inverse, un événement qui se produira dans un siècle sera référé au moyen du futur lointain.
@@ -737,54 +737,207 @@ Chaque passé dispose d’un *passé antérieur* se référant à une date anté
 Inversement, le *passé postérieur* permet d’exprimer une situation future au passé d’énonciation, de même que le *futur postérieur*. Leur marque se porte également sur l’auxilliaire et le participe du verbe racine.
 
 *** <<verbes-aspects>>Aspects
-Bien que le [[verbes-temps][temps]] et le [[verbe-cert][degré de certaineté]] donnent déjà quelques informations sur le verbe et l’événement décrit, beaucoup d’autres informations manquent toujours : l’événement se répète-il, parle-t-on du processus de l’événement où de l’événement en tant qu’objet ? Ces questions sont répondues par les aspects du verbe que je listerai ici. Notez que différents aspects peuvent être utilisés en simultané.
 
-**** Perfectif et imperfectif
-Le *perfectif* et *l’imperfectif* sont deux aspects omniprésents avec les verbes ; l’un de ces deux aspects est obligatoire. Ces deux aspects s’opposent dans leur représentation du verbe, le perfectif décrivant l’événement comme un objet, comme un tout, alors que l’imperfectif le décrit comme un processus. On peut retrouver un exemple de cette opposition en Français avec les phrases « Henri IV régna vingt et un ans » (phrase perfective) et « Henri IV régnait vingt et un ans » (phrase imperfective). Ainsi, si l’on souhaite considérer un événement comme un processus, ou afin de mettre en place un décors pour d’autres éléments, on utilisera l’aspect perfectif du verbe ; à contrario, ce sera l’imperfectif qui sera utilisé pour considérer un événement comme un tout, comme par exemple comparer le règne de Henri IV à celui d’un autre monarque.
+Bien que le choix du temps nous permet de situer dans ce dernier quand un état ou une action se produit, nous n’avons aucune idée, uniquement avec cette information, de la façon avec laquelle cette action ou cet état se réfère à ce temps ; est-ce une action qui s’étale dans le temps ou est-ce instantané, considérons-nous cet événement ou cet état comme un processus ou comme un événement ? Ces nuances et subtilités sont apportées par les aspects que nous traiterons ci-dessous.
 
-En Hjalpi’, l’aspect par défaut entre ces deux aspects est l’imperfectif, qui n’est pas marqué. L’imperfectif est également le seul aspect autorisé lors de l’utilisation du présent. Si on souhaite passer un verbe au perfectif, il faudra le marquer au moyen d’une conjugaison différente de la conjugaison par défaut (utilisée donc pour l’imperfectif).
+Tableaux ci-dessous juste pour moi le temps de la construction de ce chapitre.
 
-**** Complétif et incomplétif
-Ces aspects permettent de porter l’accent sur le fait que l’action ou l’événement soit arrivé, arrive ou arrivera à son terme de façon certaine ou non. Par défaut, tous les verbes sont incomplétifs (sauf exceptions notées dans leur définition dans le [[glossaire][glossaire]]), cependant passer le verbe au complétif permet de changer son sens afin d’exprimer le fait que l’événement arrive à son terme. Ainsi, le verbe /eŕbœlůþ/ (voler dans les airs) mis au complétif prend la signification « se poser » ou « atterrir » avec l’attention portée sur la fin de l’événement qu’était le vol, et non sur le fait d’être sur le sol. Le complétif est marqué par une déclinaison de la racine du verbe.
+FDIS :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  | X   | X    | X   | X    |
+| PERF  |     |      |     |      |
+| PERP  |     |      | X   | X    |
+| INCEP |     |      | X   | X    |
+| TERM  |     |      | X   | X    |
+| PUNCT |     | X    |     | X    |
+| DUR   |     |      |     |      |
+| ITER  |     |      | X   |      |
+| HAB   |     |      | X   | X    |
+| PROG  |     |      |     | X    |
 
-**** Inceptif
-L’inceptif porte l’attention sur le début de l’événement décrit par le verbe. Ainsi, le verbe /eŕbœlůþ/ décliné à l’inceptif prend la signification « décoller », avec l’attention portée sur le fait de commencer à voler, et non sur le fait de ne plus être au sol. L’inceptif est par défaut absent des verbes et doit être marqué lorsqu’un verbe a une valeur inceptive (sauf exceptions notées dans le [[glossaire][glossaire]]) À l’instar du complétif, l’inceptif est également marqué par une déclinaison de la racine du verbe.
+FUT :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  | X   | X    | X   | X    |
+| PERF  |     |      |     |      |
+| PERP  |     |      | X   | X    |
+| INCEP |     |      | X   | X    |
+| TERM  |     |      | X   | X    |
+| PUNCT |     | X    |     | X    |
+| DUR   |     |      |     |      |
+| ITER  |     |      | X   |      |
+| HAB   |     |      | X   | X    |
+| PROG  |     |      |     | X    |
 
-**** Habituel, fréquentatif et itératif
-Ces aspects du verbe marquent tous trois un événement se répétant dans le temps. *L’habituel* permet de marquer une emphase sur une situation caractéristique du temps employé, son nom est d’ailleurs assez explicatif. Il se marque par une conjugaison du verbe par un auxiliaire.
+FNEA :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  | X   | X    | X   | X    |
+| PERF  |     |      |     |      |
+| PERP  |     |      | X   | X    |
+| INCEP |     |      | X   | X    |
+| TERM  |     |      | X   | X    |
+| PUNCT | X   | X    | X   | X    |
+| DUR   | X   | X    | X   | X    |
+| ITER  |     |      | X   |      |
+| HAB   |     |      | X   | X    |
+| PROG  |     |      |     | X    |
 
-Le *fréquentatif* permet de marquer une action répétée irrégulièrement. Il se marque par une déclinaison de la racine du verbe.
+PRES :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  | X   | X    | X   | X    |
+| PERF  | X   | X    | X   | X    |
+| PERP  | X   |      | X   | X    |
+| INCEP | X   |      | X   | X    |
+| TERM  | X   |      | X   | X    |
+| PUNCT | X   | X    |     | X    |
+| DUR   | X   |      |     |      |
+| ITER  | X   |      | X   |      |
+| HAB   | X   |      | X   | X    |
+| PROG  | X   |      |     | X    |
 
-*L’itératif* à l’inverse permet de marquer une action répétée régulièrement sur une période donnée, il marque des actions divisées en instances séparées et répétées régulièrement. Cet aspect est marqué par une déclinaison de la racine du verbe, et va souvent de paire avec le [[cas-distemp][distributif-temporel]].
+PNEA :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  |     |      |     |      |
+| PERF  |     |      |     |      |
+| PERP  |     |      |     |      |
+| INCEP |     |      |     |      |
+| TERM  |     |      |     |      |
+| PUNCT | X   | X    | X   | X    |
+| DUR   | X   | X    | X   | X    |
+| ITER  |     |      | X   |      |
+| HAB   |     |      | X   | X    |
+| PROG  |     |      |     | X    |
 
-**** Implicatif
-*L’implicatif* permet de marquer la situation comme ayant un impact sur le temps utilisé ou sur un temps ultérieur. Par défaut, les verbes ne sont pas implicatifs, cependant des exceptions signalées comme telles dans le [[glossaire][glossaire]] existent et peuvent être modifiées en *non-implicatif*. Ces deux aspects se marquent par une déclinaison de la racine du verbe.
+PAS :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  |     |      |     |      |
+| PERF  |     |      |     |      |
+| PERP  |     |      |     |      |
+| INCEP |     |      |     |      |
+| TERM  |     |      |     |      |
+| PUNCT |     | X    |     | X    |
+| DUR   |     |      |     |      |
+| ITER  |     |      | X   |      |
+| HAB   |     |      | X   | X    |
+| PROG  |     |      |     | X    |
 
-**** Rétrospectif
-Un aspect parfait d’un verbe implique une situation du passé ou du futur avec des conséquences ou implications présentes (généralement marqué également à l’implicatif). On peut également utiliser les termes *retrospectifs* pour les éléments passés et *prospectif* pour les éléments futurs. Il existe avec cet aspect plusieurs types de parfait :
-- Parfait de Résultat :: les implications ou conséquences sont toujours d’actualité pour les verbes passés, marqués par la conjugaison.
-- Parfait exprienciel :: cet aspect inplique que la situation s’est déjà produite au moins une fois par le passé, ou se produira au moins une fois avant le temps utilisé. Il est marqué par la déclinaison de la racine du verbe.
-- Parfait de percistence :: il permet de marquer le passage d’une situation d’un temps à un autre, notamment la continuité depuis le passé jusqu’au présent. Exeple : « j’ai comencé à travailleur sur le Hjalpi’ originel en début 2018 » (sous-entendu, je suis à l’heure actuelle).
-- Parfait de récence :: cet aspect ne peut être utilisé que lors de l’utilisation du passé proche afin de mettre en valeur la récence de la situation. Il ne peut s’utiliser que pour faire référence à une situation s’étant produite deux heures avant le temps présent tout au plus. Ce parfait se marque par une déclinaison de la racine du verbe.
+PDIS :
+| /     | <   | <    | <   | <    |
+|       | PFV | IPFV | HAB | PROG |
+|-------+-----+------+-----+------|
+| DISC  |     |      |     |      |
+| PERF  |     |      |     |      |
+| PERP  |     |      |     |      |
+| INCEP |     |      |     |      |
+| TERM  |     |      |     |      |
+| PUNCT |     | X    |     | X    |
+| DUR   |     |      |     |      |
+| ITER  |     |      | X   |      |
+| HAB   |     |      | X   | X    |
+| PROG  |     |      |     | X    |
 
-**** Progressif
-Le progressif marque une situation en cours, que ce soit dans le passé, présent ou futur. Il peut être utilisé pour emphaser le processus ou pour porter la signification d’une situation temporaire. Il peut également permettre de marquer une progression, même si cette dernière est délimitée dans le temps par un perfectif. Cela est marqué par un auxilliaire utilisé avec le verbe décliné au progressif, l’auxilliaire étant porteur du temps d’origine du verbe, de son aspect et de son mode.
 
-**** Découpage du temps
-***** Gnomique
-Le temps gnomique permet d’exprimer une situation universellement vraie. Un temps gnomique ne peut être utilisé qu’avec une certaineté objective, forte ou faible.
+**** Perfectif (PFV) et imperfectif (IPFV) (aspects primaires)
 
-***** <<verbe-dec-ponct>>Ponctuel
-Le ponctuel est un aspect permettant d’exprimer une situation qui ne dure qu’un instant. Cet aspect se marque par la conjugaison du verbe.
+Le perfectif et l’imperfectif permettent une distinction fondamentale en Hjalpi’ sur l’action ou le verbe dont il est question, et leur présence dans le verbe est obligatoire ; un verbe est soit perfectif soit imperfectif. Il s’agit d’aspects primaires, donc pouvant être utilisés seuls dans un verbe, ainsi un verbe peut être uniquement perfectif ou imperfectif. Cela implique également que l’on peut leur rajouter un second aspect, appelé « sous-aspect ».
 
-***** Délimitatif
-Similairement au [[verbe-dec-ponct][ponctuel]], de délimitatif se réfère à une situation courte dans le temps, et se marque par le ponctuel associé au progressif.
+Un verbe imperfectif considérera l’événement ou l’état comme étant un processus, doté d’un début, d’une continuation et d’une fin. Il est généralement utilisé afin de mettre en place le décors et le contexte d’un autre événement ou état qui sera généralement perfectif. À l’inverse, le perfectif permet de considérer l’événement comme étant un objet étant un point unique que l’on pourra comparer avec d’autres objets similaires. Pour un exemple, comparez en français « Henri IV régnais vingt et un ans » à « Henri IV régna vingt et un ans ». La première phrase permet une introduction à ce qu’il s’est passé durant le reigne d’Henri IV, alors que la seconde permet plutôt de comparer le reigne du souverain en lui-même à celui d’un autre.
 
-***** Duratif
-Le duratif et une emphase sur une action qui s’étend dans un temps unique. Le duratif s’utilise pour exprimer le progressif perfectif, et se marque comme le progressif avec l’auxilliaire conjugué avec un aspect perfectif.
+L’imperfectif est l’aspect par défaut de tous les verbes, peu importe le temps, tandis que le perfectif doit être marqué au passé ou au futur ; il ne peut également pas être utilisé dans le temps présent.
 
-**** Télique et atélique
-Une activité *télique* est une activité ayant un but, qu’il s’agisse d’un produit ou d’’un accomplissement. Une activité n’ayant pas de résultat est *atélique*. La télicité d’une action est inclue dans la sémantique des verbes, mais une inversion de télicité peut aussi être marquée par l’ajout d’une particule précédant le verbe (généralement il s’agit de rendre le verbe télique). Par exemple, en français « persuader » est un verbe télique, car cette activité est en réalité généralement la tentative de persuation d’une personne, avec pour but que cette personne soit persuadée. En rendant « persuader » atélique, « avoir persuadé quelqu’un » ne veut pas forcément dire que la personne a été persuadée, mais que l’on a tout de même tenté de la persuader.
+**** Habituel (HAB) (aspect médian)
+
+L’aspect habituel marque la caractéristique habituelle, normale du verbe. Cet aspect est un aspect médian, ce qui signifie qu’il peut agir soit en tant qu’aspect primaire, soit en tant que sous-aspect.
+
+**** Progressif (PROG) (aspect médian)
+
+Le progressif marque une action comme étant en cours d’exécution ou un état actuel inhabituel.
+
+**** Discontinu (DISC) (sous-aspect)
+
+Le discontinu est un sous-aspect ; cela implique qu’il ne peut être utilisé qu’en conjonction avec un aspect primaire ou médian. Le discontinu indique que l’événement ou l’état décrit par le verbe n’a plus d’impact sur les temps suivants.
+
+Cet aspect ne peut être utilisé qu’avec les temps passés.
+
+**** Parfait (PERF) et Parfait de Persistance (PERP) (sous-aspect)
+
+Le parfait indique que l’état ou l’événement indiqué via le verbe a une incidence sur le temps présent. Par définition, il ne peut donc pas être utilisé au présent.
+
+Le parfait de persistance indique que l’état ou l’événement est toujours d’actualité au temps présent. Il n’est compatible qu’avec les temps passés.
+
+**** Inceptif (INCEP) et Terminatif (TERM) (sous-aspect)
+
+L’inceptif marque le début d’un état ou d’un événement au moyen du verbe, tandis que le terminatif indique leur fin. Ainsi, « voler » (dans le sens de planer) à l’inceptif peut prendre pour signification « décoller » tandis qu’au terminatif il prendra le sens de « atterrir », avec à chaque fois l’accent mis sur l’action de voler en soit.
+
+**** Ponctuel (PUNCT) et Duratif (DUR) (sous-aspect)
+Le ponctuel permet d’indiquer qu’un état ou un événement était court et s’est produit une seule fois, ou bien, il n’est question que d’une seule occurence de l’état ou de l’événement.
+
+À l’inverse, le duratif permet d’indiquer que l’état ou l’événement se prolonge dans le temps.
+
+**** Itératif (ITER) (sous-aspect)
+
+L’itératif et le fréquentatif, bien que similaires, ont une fonction bien différente et définie. L’itératif permet d’indiquer une action répétée à intervals réguliers. Ainsi, pour dire « frapper à la porte » il faudra utiliser le verbe « frapper » (qui n’implique qu’un seul coup) qui aura pour aspect l’itératif. Exemple : « Je frappe à la porte »
+| frapper-1S.HUM.PRES.ITER.NOM | <DAT>porte | 1S.M.NOM |
+
+# Bien que le [[verbes-temps][temps]] et le [[verbe-cert][degré de certaineté]] donnent déjà quelques informations sur le verbe et l’événement décrit, beaucoup d’autres informations manquent toujours : l’événement se répète-il, parle-t-on du processus de l’événement où de l’événement en tant qu’objet ? Ces questions sont répondues par les aspects du verbe que je listerai ici. Notez que différents aspects peuvent être utilisés en simultané.
+
+# **** Perfectif et imperfectif
+# Le *perfectif* et *l’imperfectif* sont deux aspects omniprésents avec les verbes ; l’un de ces deux aspects est obligatoire. Ces deux aspects s’opposent dans leur représentation du verbe, le perfectif décrivant l’événement comme un objet, comme un tout, alors que l’imperfectif le décrit comme un processus. On peut retrouver un exemple de cette opposition en Français avec les phrases « Henri IV régna vingt et un ans » (phrase perfective) et « Henri IV régnait vingt et un ans » (phrase imperfective). Ainsi, si l’on souhaite considérer un événement comme un processus, ou afin de mettre en place un décors pour d’autres éléments, on utilisera l’aspect perfectif du verbe ; à contrario, ce sera l’imperfectif qui sera utilisé pour considérer un événement comme un tout, comme par exemple comparer le règne de Henri IV à celui d’un autre monarque.
+
+# En Hjalpi’, l’aspect par défaut entre ces deux aspects est l’imperfectif, qui n’est pas marqué. L’imperfectif est également le seul aspect autorisé lors de l’utilisation du présent. Si on souhaite passer un verbe au perfectif, il faudra le marquer au moyen d’une conjugaison différente de la conjugaison par défaut (utilisée donc pour l’imperfectif).
+
+# **** Complétif et incomplétif
+# Ces aspects permettent de porter l’accent sur le fait que l’action ou l’événement soit arrivé, arrive ou arrivera à son terme de façon certaine ou non. Par défaut, tous les verbes sont incomplétifs (sauf exceptions notées dans leur définition dans le [[glossaire][glossaire]]), cependant passer le verbe au complétif permet de changer son sens afin d’exprimer le fait que l’événement arrive à son terme. Ainsi, le verbe /eŕbœlůþ/ (voler dans les airs) mis au complétif prend la signification « se poser » ou « atterrir » avec l’attention portée sur la fin de l’événement qu’était le vol, et non sur le fait d’être sur le sol. Le complétif est marqué par une déclinaison de la racine du verbe.
+
+# **** Inceptif
+# L’inceptif porte l’attention sur le début de l’événement décrit par le verbe. Ainsi, le verbe /eŕbœlůþ/ décliné à l’inceptif prend la signification « décoller », avec l’attention portée sur le fait de commencer à voler, et non sur le fait de ne plus être au sol. L’inceptif est par défaut absent des verbes et doit être marqué lorsqu’un verbe a une valeur inceptive (sauf exceptions notées dans le [[glossaire][glossaire]]) À l’instar du complétif, l’inceptif est également marqué par une déclinaison de la racine du verbe.
+
+# **** Habituel, fréquentatif et itératif
+# Ces aspects du verbe marquent tous trois un événement se répétant dans le temps. *L’habituel* permet de marquer une emphase sur une situation caractéristique du temps employé, son nom est d’ailleurs assez explicatif. Il se marque par une conjugaison du verbe par un auxiliaire.
+
+# Le *fréquentatif* permet de marquer une action répétée irrégulièrement. Il se marque par une déclinaison de la racine du verbe.
+
+# *L’itératif* à l’inverse permet de marquer une action répétée régulièrement sur une période donnée, il marque des actions divisées en instances séparées et répétées régulièrement. Cet aspect est marqué par une déclinaison de la racine du verbe, et va souvent de paire avec le [[cas-distemp][distributif-temporel]].
+
+# **** Implicatif
+# *L’implicatif* permet de marquer la situation comme ayant un impact sur le temps utilisé ou sur un temps ultérieur. Par défaut, les verbes ne sont pas implicatifs, cependant des exceptions signalées comme telles dans le [[glossaire][glossaire]] existent et peuvent être modifiées en *non-implicatif*. Ces deux aspects se marquent par une déclinaison de la racine du verbe.
+
+# **** Rétrospectif
+# Un aspect parfait d’un verbe implique une situation du passé ou du futur avec des conséquences ou implications présentes (généralement marqué également à l’implicatif). On peut également utiliser les termes *retrospectifs* pour les éléments passés et *prospectif* pour les éléments futurs. Il existe avec cet aspect plusieurs types de parfait :
+# - Parfait de Résultat :: les implications ou conséquences sont toujours d’actualité pour les verbes passés, marqués par la conjugaison.
+# - Parfait exprienciel :: cet aspect inplique que la situation s’est déjà produite au moins une fois par le passé, ou se produira au moins une fois avant le temps utilisé. Il est marqué par la déclinaison de la racine du verbe.
+# - Parfait de percistence :: il permet de marquer le passage d’une situation d’un temps à un autre, notamment la continuité depuis le passé jusqu’au présent. Exeple : « j’ai comencé à travailleur sur le Hjalpi’ originel en début 2018 » (sous-entendu, je suis à l’heure actuelle).
+# - Parfait de récence :: cet aspect ne peut être utilisé que lors de l’utilisation du passé proche afin de mettre en valeur la récence de la situation. Il ne peut s’utiliser que pour faire référence à une situation s’étant produite deux heures avant le temps présent tout au plus. Ce parfait se marque par une déclinaison de la racine du verbe.
+
+# **** Progressif
+# Le progressif marque une situation en cours, que ce soit dans le passé, présent ou futur. Il peut être utilisé pour emphaser le processus ou pour porter la signification d’une situation temporaire. Il peut également permettre de marquer une progression, même si cette dernière est délimitée dans le temps par un perfectif. Cela est marqué par un auxilliaire utilisé avec le verbe décliné au progressif, l’auxilliaire étant porteur du temps d’origine du verbe, de son aspect et de son mode.
+
+# **** Découpage du temps
+# ***** Gnomique
+# Le temps gnomique permet d’exprimer une situation universellement vraie. Un temps gnomique ne peut être utilisé qu’avec une certaineté objective, forte ou faible.
+
+# ***** <<verbe-dec-ponct>>Ponctuel
+# Le ponctuel est un aspect permettant d’exprimer une situation qui ne dure qu’un instant. Cet aspect se marque par la conjugaison du verbe.
+
+# ***** Délimitatif
+# Similairement au [[verbe-dec-ponct][ponctuel]], de délimitatif se réfère à une situation courte dans le temps, et se marque par le ponctuel associé au progressif.
+
+# ***** Duratif
+# Le duratif et une emphase sur une action qui s’étend dans un temps unique. Le duratif s’utilise pour exprimer le progressif perfectif, et se marque comme le progressif avec l’auxilliaire conjugué avec un aspect perfectif.
+
+# **** Télique et atélique
+# Une activité *télique* est une activité ayant un but, qu’il s’agisse d’un produit ou d’’un accomplissement. Une activité n’ayant pas de résultat est *atélique*. La télicité d’une action est inclue dans la sémantique des verbes, mais une inversion de télicité peut aussi être marquée par l’ajout d’une particule précédant le verbe (généralement il s’agit de rendre le verbe télique). Par exemple, en français « persuader » est un verbe télique, car cette activité est en réalité généralement la tentative de persuation d’une personne, avec pour but que cette personne soit persuadée. En rendant « persuader » atélique, « avoir persuadé quelqu’un » ne veut pas forcément dire que la personne a été persuadée, mais que l’on a tout de même tenté de la persuader.
 
 *** <<verbes-modes>>Modes
 <<verbe-cert>>Avant de commencer à se renseigner sur les modes, il faut savoir que le Hjalpi’ dispose d’un concept de certaineté et est omniprésent dans les verbes. En effet, la véracité et vérifiabilité des dires du locuteur est très importante pour les divins, et ce premier doit en toutes circonstances statuer de l’état de ses affirmations, et cela se fait via la conjugaison du verbe. Il existe quatre niveaux de certaineté :
@@ -861,7 +1014,7 @@ La voix réciproque permet quant à elle d’exprimer une action à double-sens 
 **** Causatif
 Le causatif ajoute un argument au verbe : l’élémant causant l’événement. Dans la phrase « Tama a fait se lever le soldat », Tama est responsable du fait que le soldat se soit levé, ainsi le verbe gagnee l’aspect causatif en plus de son aspect réflexif.
 
-*** Impersonnalité
+*** <<impersonnalité>>Impersonnalité
 # 1excl.singulier
 
 ** <<decl-morph-decl>>Déclinaisons
@@ -981,7 +1134,7 @@ Exemple : La mouche s’envola (volontairement) du livre (de l’extérieur du 
 |         | 6s      | 6p      | 7s      | 7p      | 8s      | 8p      | 9s      | 9p     |         |
 |         | -(lh)u  | -(lh)yi | -lhy    | -(a)lhy | -(lh)ay | -(lh)ey | -(lh)ay | -lhay  |         |
 Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis une page / l’intérieur du livre, le livré étant ouvert)
-| probœl-èntì                    | raøm-ey   | par-hevir  |
+| probœl-èntì                    | raøm-ey   | pa-rhevir  |
 | s’envoler-3S.NHUM.NOM.PNEA.PFV | livre-ELA | NOM-mouche |
 
 - <<cas-initi>>Cas initiatif (/INITI/) :: indique le point de départ d’une action (cas général)
