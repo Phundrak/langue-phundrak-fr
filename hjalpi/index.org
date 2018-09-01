@@ -872,7 +872,8 @@ Le progressif marque une action comme étant en cours d’exécution ou un état
 **** Discontinu (DISC) (sous-aspect)
 
 Le discontinu est un sous-aspect ; cela implique qu’il ne peut être utilisé qu’en conjonction avec un aspect primaire ou médian. Le discontinu indique que l’événement ou l’état décrit par le verbe n’a plus d’impact sur les temps suivants. Exemple : J’ai commencé à travailler sur la première version du Hjalpi’ en début 2017.
-| construire-1S.HUM.NOM.PAS.DISC.INCEP | <ESS>2017-GEN-année | hjalp-GEN-ACC | 1er-GEN-POSS-version | 1S.M.NOM |
+| construire-1S.HUM.NOM.PAS.DISC.INCEP | <ESS>2017-GEN-année | hjalp-GEN-ACC |
+| 1er-GEN-POSS-version                 | 1S.M.NOM            |               |
 
 Cet aspect ne peut être utilisé qu’avec les temps passés.
 
@@ -917,7 +918,7 @@ Il est tout à fait possible pour le locuteur d’utiliser volontairement un deg
 Les modes que nous verrons ci-dessous ont chacun une degré de certaineté par défaut qui n’est pas marqué à la conjugaison du verbe. Cependant, pour certains modes il est possible de changer de façon explicite ce degré de certaineté ; nous verrons cela au cas par cas ci-dessous. Le mode par défaut des verbes (et donc qui n’est pas marqué) est l’indicatif.
 
 **** <<mode-ind>>Indicatif /IND/
-Le mode indicatif est un mode dit « réel », cela signifie donc qu’il est utilisé afin de décrire des événements s’étant déjà produit, se produisant ou allant se produire, ou bien leur négation. Pour faire court, on dit donc que le mode indicatif permet de réaliser des phrases déclaratives. L’indicatif ne supporte que les degrés de certaineté faible, le degré de certaineté par défaut étant l’objectif faible ; le subjectif faible doit donc être marqué explicitement à la conjugaison.
+Le mode indicatif est un mode dit « réel », cela signifie donc qu’il est utilisé afin de décrire des événements s’étant déjà produit, se produisant ou allant se produire, ou bien leur négation. Pour faire court, on dit donc que le mode indicatif permet de réaliser des phrases déclaratives. L’indicatif ne supporte que les degrés de certaineté faible, le degré de certaineté par défaut étant l’objectif faible ; le subjectif faible doit donc être marqué explicitement à la conjugaison. Comme précisé plus haut, l’indicatif est le mode par défaut, ainsi il n’est pas marqué.
 
 Exemple : Il y a des yaks au Tibet (connaissance générale, mais je n’en suis pas témoin direct)
 | yak-SGV-ABS | LOC-Tibet | existe-3SGV.IN.ERG |
@@ -935,7 +936,7 @@ Le mode subjonctif est généralement utilisé pour les événements imaginaires
 Le conditionnel permet d’exprimer un événement qui ne peut se produire selon certaines conditions exprimées dans la partie oblique de la phrase. Ces conditions peuvent être inclusives ou exclusives, auquel cas ils seront présentés ensemble séparés par les conjonctions de coordination adéquates.
 
 Exemple : Je mangerai des pommes si j’en achète.
-| manger-1S.HUM.NOM.COND.FNEA | pomme-SGV-ACC | acheter-1S.2SG.NOM.PRES | pomme-SGV-ACC | 1s.N.NOM |
+| manger-1S.HUM.NOM.COND.FNEA | pomme-SGV-ACC | acheter-1S.2SG.NOM.HP | 3SGV.NHUM.ACC | 1s.N.NOM |
 
 **** <<mode-opt>>Optatif /OPT/
 
@@ -950,10 +951,17 @@ Remarquez ici l’usage de l’ergatif, en Hjalpi’ le fait de disposer d’une
 Le degré de certaineté par défaut du potentiel est le subjectif fort.
 
 **** <<mode-hp>>Hypothétique /HP/
+Le mode hypothétique permet marquer une supposition ou croyance émise par le locuteur. Il est également utilisé pour poser des conditions pour la réalisation d’un événement ou d’un état à la façon du « si » en Français.
+Exemple : Je pense qu’il est arrivé à ðbńo (littéralement « Il est peut-être arrivé à ðbńo »).
+| arriver-3S.HUM.NOM.PNEA.HP.PFV | <ALL>ðbńo | 3S.N.NOM |
+Je viendrai s’il fait beau (litt. « À la supposition qu’il fasse beau, je viens »).
+| venir-1S.HUM.NOM.FUT | être.OBJS-3S.SPIR.ERG | temps-ERG | 1S.N.NOM |
 
 **** <<mode-q>>Interrogatif /Q/
+Le mode interrogatif, comme son nom l’indique, permet au locuteur de formuler une question absolue. La création de questions relatives se fait au moyen de particule syntaxique /fochùl/ décrite dans le chapitre sur la [[simple-sentence][construction de phrases simples]].
 
 **** <<mode-grv>>Gérondif /GRV/
+Le gérondif est une fore de verbe permettant d’utiliser ce dernier comme un adjectif. En Hjalpi’, il n’est pas marqué par une conjugaison spéciale ni par une paraphrase syntaxique mais par une déclinaison du verbe conjugé de la même façon que le verbe de la proposition puis décliné au [[cas-gen][génitif]]. Il se place en tête d’oblique dans la proposition.
 
 **** <<mode-pcp>>Participe /PCP/
 
@@ -1081,9 +1089,9 @@ Exemple : shte-mèn (SUPE-maison) sur la maison / sur le toit de la maison (imp
 | l(i)- | l(e)-  | li(s)- | le(jh)- | l(i)-  | ĺ(jh)- | li(sh)- | li(zh)- | li(sh)- | li(zh)- |
 |       | 6s     | 6p     | 7s      | 7p     | 8s     | 8p      | 9s      | 9p      |         |
 |       | li(s)- | li(z)- | lń(d)-  | lń(d)- | ĺ(z)-  | ĺ(z)-   | ĺ(v)-   | ĺ(v)-   |         |
-Exemple : Je pars de Ðbńo. (décision motivée par moi-même)
-| wyhak-èìs               | li-Ðbńo-vu   | nè       |
-| quitter-1S.HUM.NOM.PRES | ABL-Ðbńo-ACC | 1S.N.NOM |
+Exemple : Je pars de ðbńo. (décision motivée par moi-même)
+| wyhak-èìs               | li-ðbńo-vu   | nè       |
+| quitter-1S.HUM.NOM.PRES | ABL-ðbńo-ACC | 1S.N.NOM |
 
 - <<cas-del>>Cas délatif (/DEL/) :: déplacement depuis la surface de l’élément.
 | 1s     | 1p     | 2s     | 2p      | 3s      | 3p     | 4s     | 4p      | 5s      | 5p     |
@@ -1108,9 +1116,9 @@ Exemple : La mouche s’envola (volontairement) du livre (sous entendu depuis u
 | -(a)kĺ | -(k)ĺ | -(e)kĺ | -(a)kĺ | -(k)ĺ  | -(k)ĺ  | -(e)kĺ | -(e)kń | -(a)kĺ | -(ei)kń |
 |        | 6s    | 6p     | 7s     | 7p     | 8s     | 8p     | 9s     | 9p     |         |
 |        | -akĺ  | -ekĺ   | -(a)kĺ | -(e)kń | ak(ĺ)- | k(ń)-  | -(k)ĺ  | -(k)ń  |         |
-Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
-| etrjål-èìs              | Ðbńo-kĺ    | nè       |
-| voyager-1S.HUM.NOM.PRES | Ðbńo-INITI | 1S.N.NOM |
+Exemple : Je voyage depuis ðbńo (sous-entendu, Ðbńo était de point de départ du voyage)
+| etrjål-èìs              | ðbńo-kĺ    | nè       |
+| voyager-1S.HUM.NOM.PRES | ðbńo-INITI | 1S.N.NOM |
 
 *** Mouvement vers un élément
 - <<cas-all>>Cas allatif (/ALL/) :: indique un mouvement vers les environs de l’élément (cas général), n’indique pas nécessairement de finalité ou de point précis.
@@ -1118,9 +1126,9 @@ Exemple : Je voyage depuis Ðbńo (sous-entendu, Ðbńo était de point de dép
 | -li(sh)- | -li(ts)- | -li(ð)- | -li(ð)-  | -li-     | -li-     | -li(s)- | -li(zh)- | -li(z)- | -li(ch)- |
 |          | 6s       | 6p      | 7s       | 7p       | 8s       | 8p      | 9s       | 9p      |          |
 |          | -li(x)-  | -li(x)- | -li(rh)- | -li(rh)- | -li(þt)- | -li(v)- | -(l)iþ-  | -(l)ið- |          |
-Exemple : Je voyage vers Ðbńo (sans nécessairement aller à Ðbńo même).
-| etrjål-èìs              | Ðbńo-lið | nè       |
-| voyager-1S.HUM.NOM.PRES | Ðbńo-ALL | 1S.N.NOM |
+Exemple : Je voyage vers ðbńo (sans nécessairement aller à Ðbńo même).
+| etrjål-èìs              | ðbńo-lið | nè       |
+| voyager-1S.HUM.NOM.PRES | ðbńo-ALL | 1S.N.NOM |
 
 - <<cas-ill>>Cas illatif (/ILL/) :: mouvement vers l’intérieur de l’élément, n’indique pas nécessairement de finalité.
 | 1s      | 1p       | 2s       | 2p      | 3s      | 3p      | 4s      | 4p      | 5s      | 5p      |
@@ -1136,9 +1144,9 @@ Exemple : La mouche vole vers la maison (sous entendu, elle va y rentrer)
 | -(l)a | -(l)ei | -(l)øĺ | -(l)e  | -(l)au | -(l)ĺ | -(l)ń  | -(l)a  | -(l)a | -le |
 |       | 6s     | 6p     | 7s     | 7p     | 8s    | 8p     | 9s     | 9p    |     |
 |       | -la    | -la    | -(a)la | -(e)la | -(l)e | -(l)ai | -(l)ae | -la   |     |
-Exemple : Je pars de Notń pour Ðbńo.
-| wyhak-èìs               | li-Notń-vu   | Ðbńo-løĺ | nè       |
-| quitter.1S.HUM.NOM.PRES | ABL-Notń-ACC | Ðbńo-LAT | 1S.N.NOM |
+Exemple : Je pars de Notń pour ðbńo.
+| wyhak-èìs               | li-Notń-vu   | ðbńo-løĺ | nè       |
+| quitter.1S.HUM.NOM.PRES | ABL-Notń-ACC | ðbńo-LAT | 1S.N.NOM |
 
 - <<cas-subl>>Cas sublatif (/SUBL/) :: mouvement vers la surface de l’élément.
 | 1s | 1p    | 2s     | 2p    | 3s      | 3p      | 4s     | 4p     | 5s     | 5p     |        |
@@ -1154,9 +1162,9 @@ Exemple : La mouche vole vers le livre. (sous-entendu, la couverture)
 | -(ae)n | -(ae)ng | -(þ)aen | -(ð)aen | -(þ)aeng | -(ae)m | -(ae)n | -aem   | -aeng   | -aem |
 |        | 6s      | 6p      | 7s      | 7p       | 8s     | 8p     | 9s     | 9p      |      |
 |        | -(ae)nz | ae(ng)- | -(ae)n  | -(ae)n   | -(ae)m | -ae    | -(ai)n | -(ai)ng |      |
-Exemple : Je voyage jusqu’à Ðbńo.
-| etrjål-èìs              | Ðbńo-þaen | nè       |
-| voyager-1S.HUM.NOM.PRES | Ðbńo-TERM | 1S.N.NOM |
+Exemple : Je voyage jusqu’à ðbńo.
+| etrjål-èìs              | ðbńo-þaen | nè       |
+| voyager-1S.HUM.NOM.PRES | ðbńo-TERM | 1S.N.NOM |
 
 *** Déplacement via un élément
 - <<cas-per>>Cas perlatif (/PER/) :: mouvement au travers ou le long de l’élément.
@@ -1468,7 +1476,7 @@ src_latex{\newpage}
 ** Chiffres et nombres
 ** Interjections
 * Structure des phrases
-** Phrase et ordre des mots
+** <<simple-sentence>>Phrases simples et ordre des mots
 
 # Beneficiaire-Verbe-Patient-Oblique-Agent
 # Agent-Patient-Oblique-Verbe
@@ -1551,6 +1559,7 @@ Abréviations :
 ** Forme
 ** Gouvernement
 ** Grammaire
+- fochùl :: /foː.çʊl/ (particule) particule interrogative utilisée pour la formation de questions relatives. Voir [[simple-sentence][construction de phrases simples]].
 - pœb :: /pœb/ (pron. interrogatif) quoi, idée générale d’élément. Peut être décliné afin d’obtenir des questionnements plus précis.
 *** Pronoms interrogatifs
 **** Temps
@@ -1573,7 +1582,7 @@ Abréviations :
 - probœlůþ :: /proː.bœ.lʏþ/ (vi.) s’envoler
 Exemple : Probœlèntì parhevir. La mouche s’envola.
 - wyhakøm :: /wyː.haː.køːm/ (vt.) quitter, partir.
-Exemple : Nè liÐbńovu wyhakèìs. Je pars de Ðbńo.
+Exemple : Nè liðbńovu wyhakèìs. Je pars de ðbńo.
 - ’elđœkůþ :: /ʔeːl.ɖœ.kʏθ/ (vi.) naviguer
 ** Nature
 ** Nombres
