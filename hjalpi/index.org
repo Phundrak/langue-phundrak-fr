@@ -1,5 +1,5 @@
-#+TITLE: Grammaire du Hjalpi’
 #+INCLUDE: "../headers.org"
+#+TITLE: Grammaire du Hjalpi’
 
 * Introduction
 Le Hjalpi’ est la langue parlée par les dieux dans l’univers de mon roman. La langue dont je présente ci-dessous la grammaire n’est cependant pas réellement la langue divine mais la représente ; en effet, le Hjalpi’ a été imaginée comme étant bien trop complexe pour être entièrement apprise par un humain, l’élaboration de phrases simples requière quelques années d’études déjà. Bien évidemment, il est impossible pour un humain de créer une telle langue, mais je reste toujours dans cette optique de création de langue complexe, et le résultat me paraîtra complexe mais il se peut que pour certains (du fait des langues qu’ils maîtrisent déjà) n’aient pas cette impression.
@@ -462,7 +462,7 @@ Pour des raisons grammaticales il existe également un sur-nombre, le *super-sin
 
 ** <<pronoms>>Pronoms
 
-*Note : en construction*
+*** TODO En construction, à remplir et organiser
 
 Nominatif :
 | /     | <    |      |      |      |       |      |      |      |      |
@@ -482,8 +482,8 @@ Nominatif :
 | 3DU   | lhãt | ŧãn  | zhãt | ngãd | njãt  | ngã  | tãv  | ŕãt  | qhã  |
 | 1TRI  | èlþ  | /    | þò   | èmð  | njènt | ngjè | /    | /    | /    |
 | 1iTRI | lhòð | /    | ðœ   | œnð  | njeþ  | ngøl | /    | /    | /    |
-| 2TRI  |      |      |      |      |       |      |      |      |      |
-| 3TRI  |      |      |      |      |       |      |      |      |      |
+| 2TRI  | ðyl  | ŧyþ  | sýþ  | ngey | njeð  | þy   | fèð  | lheþ | qhøþ |
+| 3TRI  | þãŕ  | tãð  | chãð | ngat | tĩnj  | neð  | vãs  | ãlf  | ach  |
 | 1PL   |      | /    |      |      |       |      | /    | /    | /    |
 | 1iPL  |      | /    |      |      |       |      | /    | /    | /    |
 | 2PL   |      |      |      |      |       |      |      |      |      |
@@ -936,12 +936,16 @@ Le mode subjonctif est généralement utilisé pour les événements imaginaires
 Le conditionnel permet d’exprimer un événement qui ne peut se produire selon certaines conditions exprimées dans la partie oblique de la phrase. Ces conditions peuvent être inclusives ou exclusives, auquel cas ils seront présentés ensemble séparés par les conjonctions de coordination adéquates.
 
 Exemple : Je mangerai des pommes si j’en achète.
-| manger-1S.HUM.NOM.COND.FNEA | pomme-SGV-ACC | acheter-1S.2SG.NOM.HP | 3SGV.NHUM.ACC | 1s.N.NOM |
+| manger-1S.HUM.NOM.COND.FNEA | pomme-SGV-ACC | acheter-1S.2SG.NOM.HP | 3SGV.NHUM.ACC | 1S.N.NOM |
 
 **** <<mode-opt>>Optatif /OPT/
+Le mode optatif indique un souhait ou un espoir.
+
+Exemple : Je souhaite manger une pomme.
+| manger-1S.HUM.NOM.OPT | pomme-ACC | 1S.N.NOM |
 
 **** <<mode-imp>>Impératif /IMP/
-L’impératif est un mode permettant de donner des ordres.
+L’impératif est un mode permettant de donner des ordres. Il ne supporte que la première personne inclusive non-singulier et la seconde personne.
 
 **** <<mode-pot>>Potentiel /POT/
 Le potentiel est un mode indiquant la capacité à effectuer une action. Ainsi, une phrase telle que « Je peux parler en Hjalpi’ » en français se traduit par :
@@ -958,14 +962,20 @@ Je viendrai s’il fait beau (litt. « À la supposition qu’il fasse beau, j
 | venir-1S.HUM.NOM.FUT | être.OBJS-3S.SPIR.ERG | temps-ERG | 1S.N.NOM |
 
 **** <<mode-q>>Interrogatif /Q/
-Le mode interrogatif, comme son nom l’indique, permet au locuteur de formuler une question absolue. La création de questions relatives se fait au moyen de particule syntaxique /fochùl/ décrite dans le chapitre sur la [[simple-sentence][construction de phrases simples]].
+Le mode interrogatif, comme son nom l’indique, permet au locuteur de formuler une question. La création de questions relatives se fait également au moyen de particule syntaxique /fochùl/ décrite dans le chapitre sur la [[simple-sentence][construction de phrases simples]] qui s’ajoutera après le verbe mis au mode interrogatif.
 
 **** <<mode-grv>>Gérondif /GRV/
 Le gérondif est une fore de verbe permettant d’utiliser ce dernier comme un adjectif. En Hjalpi’, il n’est pas marqué par une conjugaison spéciale ni par une paraphrase syntaxique mais par une déclinaison du verbe conjugé de la même façon que le verbe de la proposition puis décliné au [[cas-gen][génitif]]. Il se place en tête d’oblique dans la proposition.
 
 **** <<mode-pcp>>Participe /PCP/
+La forme participe d’un verbe n’est disponible que pour quelques verbes, appelés auxilliaires, notés ci-dessous :
+- /il faut que je travaille dessus/
+
+Ces verbes permettent de conjuguer d’autres verbes ainsi qu’eux-mêmes aux temps, aspects et modes qui requièrent une conjugaison avec auxilliaire. Dans un langage peu formel, il est possible de nominaliser le verbe initial et de placer après son auxilliaire conjugué à la place du verbe initial, cependant cela est généralement considéré comme étant une marque de fénéantise et est mal vu par les Hjalpel.
 
 **** <<mode-inf>>Infinitif /INF/
+
+La forme infinitive d’un verbe est sa forme non conjuguée trouvée dans le dictionnaire.
 
 **** <<mode-cert>>Changer la certaineté d’un mode
 
