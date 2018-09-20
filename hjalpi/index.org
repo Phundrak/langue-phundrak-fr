@@ -971,7 +971,9 @@ Le gérondif est une fore de verbe permettant d’utiliser ce dernier comme un a
 La forme participe d’un verbe n’est disponible que pour quelques verbes, appelés auxilliaires, notés ci-dessous :
 - /il faut que je travaille dessus/
 
-Ces verbes permettent de conjuguer d’autres verbes ainsi qu’eux-mêmes aux temps, aspects et modes qui requièrent une conjugaison avec auxilliaire. Dans un langage peu formel, il est possible de nominaliser le verbe initial et de placer après son auxilliaire conjugué à la place du verbe initial, cependant cela est généralement considéré comme étant une marque de fénéantise et est mal vu par les Hjalpel.
+Ces verbes permettent de conjuguer d’autres verbes ainsi qu’eux-mêmes aux temps, aspects et modes qui requièrent une conjugaison avec auxilliaire. Dans un langage peu formel, il est possible de nominaliser le verbe initial et de placer après son auxilliaire conjugué à la place du verbe initial, cependant cela est généralement considéré comme étant une marque de fénéantise et est mal vu par les Hjalpel. Cependant, il sera parfois nécessaire d’utiliser un auxilliaire pour certaines conjugaison de l’auxilliaire initial dans le cas de la conjugaison totale par auxilliaires.
+
+Le mode participe ne peut supporter que les aspects primaires et médians, permettant ainsi la conjugaison d’un verbe alliant un aspect primaire ou médian à un sous-aspect ou aspect médian, commme par exemple le perfectif discontinu.
 
 **** <<mode-inf>>Infinitif /INF/
 
@@ -998,8 +1000,9 @@ La voix réciproque permet quant à elle d’exprimer une action à double-sens 
 **** Causatif
 Le causatif ajoute un argument au verbe : l’élémant causant l’événement. Dans la phrase « Tama a fait se lever le soldat », Tama est responsable du fait que le soldat se soit levé, ainsi le verbe gagnee l’aspect causatif en plus de son aspect réflexif.
 
-*** <<impersonnalité>>Impersonnalité
+*** TODO <<impersonnalité>>Impersonnalité
 # 1excl.singulier
+L’impersonnalité est généralement utilisée au moyen de la première personne du singulier inclusive.
 
 ** <<decl-morph-decl>>Déclinaisons
 Suivant le rôle du nom dans la phrase, il est possible de le décliner à l’un des nombreux cas grammaticaux qu’offre le Hjalpi’. Dans cette section, j’expliquerai simplement la signification brève de chacune de ces déclinaisons. Pour un détail de comment décliner les noms, veuillez vous référer au [[decl-morph-decl][chapitre dédié]]. Je regrouperai ici les déclinaison par catégorie. Chaque cas sera présenté de la manières suivante :
