@@ -386,6 +386,10 @@ Plusieurs de ces consonnes disposent d’allophones, c’est à dire de prononci
 - Si deux plosives se suivent, la première a une désocclusion inaudible.
   - S > [-release] / _ S
 | edtĩ | /ed.tɪ̃/  | [eːd̚.tɪ̃] |
+- Si un /r/ est entouré par deux voyelles ou une voyelle et un silence, la consonne devient alors battue.
+  - /r/ > [ɾ] / {#,V}_ {#,V}
+| Ereþ   | e.reθ   | e.ɾeθ   |
+| Merian | me.rian | me.ɾian |
 
 *** <<deriv-accord-voy>>Accord des voyelles
 L’accord des voyelles a lieu principalement lors de la déclinaison d’un nom ou de la conjugaison d’un verbe, lors d’un cas où la juxtaposition d’une voyelle à une autre est obligatoire. Cela donne alors lieu à un accord des voyelles.
@@ -962,7 +966,7 @@ Je viendrai s’il fait beau (litt. « À la supposition qu’il fasse beau, j
 | venir-1S.HUM.NOM.FUT | être.OBJS-3S.SPIR.ERG | temps-ERG | 1S.N.NOM |
 
 **** <<mode-q>>Interrogatif /Q/
-Le mode interrogatif, comme son nom l’indique, permet au locuteur de formuler une question. La création de questions relatives se fait également au moyen de particule syntaxique /fochùl/ décrite dans le chapitre sur la [[simple-sentence][construction de phrases simples]] qui s’ajoutera après le verbe mis au mode interrogatif.
+Le mode interrogatif, comme son nom l’indique, permet au locuteur de formuler une question. La création de questions relatives se fait également au moyen de particule syntaxique /fochúl/ décrite dans le chapitre sur la [[simple-sentence][construction de phrases simples]] qui s’ajoutera après le verbe mis au mode interrogatif.
 
 **** <<mode-grv>>Gérondif /GRV/
 Le gérondif est une fore de verbe permettant d’utiliser ce dernier comme un adjectif. En Hjalpi’, il n’est pas marqué par une conjugaison spéciale ni par une paraphrase syntaxique mais par une déclinaison du verbe conjugé de la même façon que le verbe de la proposition puis décliné au [[cas-gen][génitif]]. Il se place en tête d’oblique dans la proposition.
@@ -1563,8 +1567,10 @@ Abréviations :
 ** Événements
 - gèn :: /ɡɛn/ (n.2) acte, action
 ** Existence
-- neshøm :: /neː.ʃøːm/ (vt.) être (subjectif certain)
-- revøm :: /reː.vøːm/ (vt.) être (objectif certain)
+- neshøm :: /neː.ʃøːm/ (vt.) être (subjectif fort)
+- revøm :: /reː.vøːm/ (vt.) être (objectif fort)
+- qhachøm :: /χaː.çøːm/ (vt.) être (subjectif faible)
+- ŧelyþ :: /ʈeː.lyːθ/ (vt.) être (objectif faible)
 ** Famille
 - ånåm :: /ɑ.nɑm/ (n.6) parent
 - månåm :: /mɑ.nɑm/ (n.5) mère, maman
@@ -1622,6 +1628,7 @@ Exemple : Nè liðbńovu wyhakèìs. Je pars de ðbńo.
 ** Sexe
 ** Société
 - kipŕům :: /kiː.pɹʏm/ (n.6) voisin
+- ŧaménœm :: /ʈaː.mɛ.nœm/ (vt.) accepter, être d’accord
 ** Substances
 - lùb :: /lʊb/ (n.9) air
 ** Temps
