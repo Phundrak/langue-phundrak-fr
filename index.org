@@ -3,7 +3,7 @@
 
 * Langues divines
 
-[[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[file:hjalpi/index.pdf][pdf]])
+[[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[file:hjalpi/hjapli.pdf][pdf]])
 
 * Langues draconiennes
 
