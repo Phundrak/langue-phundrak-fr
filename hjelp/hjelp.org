@@ -1,0 +1,119 @@
+#+INCLUDE: "../headers.org"
+#+LATEX_CLASS: article
+#+TITLE: Une Grammmaire du Hjelp
+
+* Introduction
+Le Hjelp est une langue construite représentant symboliquement la langue orale et écrite utilisée par les dieux célestes de l’univers de mon roman, les Hjalpel. Cela signifie que, bien que le Hjalp soit une langue /de facto/ réelle de part cette grammaire et au moins mon utilisation de cette langue dans mes ouvrages, elle n’est pas réellement la langue telle que je l’imagine pour les dieux célestes ; en effet, j’imagine la langue réelle des Hjalpel comme étant une langue d’une extraordinaire complexité, mais extrêmement concise, représentant l’esprit des dieux célestes. Apprendre cette langue, dans mon univers littéraire, prend plusieurs années d’études pour un humain afin de pouvoir ne serait-ce que commencer à former des phrases rudimentaires avec un vocabulaire limité, et les meilleurs ont un niveau tout de même faible ; selon le Cadre Européen Eommun de Référence pour les Langues (CECRL) à l’heure où j’écris ces lignes, cela équivaut à un niveau A2.
+
+Fort heureusement pour ceux qui se montreraient intéressé par le Hjelp, et malheureusement pour moi, créer une langue d’un tel niveau de complexité est littéralement impossible, considérant ne serait-ce que la difficulté théorique pour l’apprendre. Cependant, cela ne m’empêchera pas d’essayer de créer une langue complexe et concise du mieux que je peux, et j’essaierai d’imiter avec cette langue l’esthétique de la langue théorique des Hjalpel.
+
+J’utiliserai, comme indiqué plus haut, cette langue dans mes ouvrages littéraires concernant l’univers lié à cette langue, mais je l’utiliserai également pour des consructions d’autres langues qui descendront du Hjelp. Ces nouvelles langues, tel que le Melexeq, la langue de certains dieux terrestres, seront beaucoup plus simples. Les langues divines terrestres garderont un certain degré de complexité du fait du peuple la parlant en lui-même, et les langues descendant du Hjelp utilisées par les mortels seront d’un niveau de complexité similaire aux langues naturelles que l’on peut trouver dans notre monde.
+
+Cette grammaire n’est pas un ouvrage destiné à l’apprentissage du Hjelp (peut-être en écrirai-je un destiné à cette application) mais s’addresse plus à mon propre besoin d’avoir une grammaire de référence pour le Hjelp et suppose donc que le lecteur a un minimum de connaissances linguistiques, bien que certains concepts seront expliqués dans leur chapitre ou paragraphe dédié.
+
+src_latex{\newpage}
+* Phonologie
+
+** Notes sur la translittération et la romanisation du Hjelp
+
+Le Hjelp est une langue disposant d’un système d’écriture qui lui est unique, et par conséquent ne peut pas être aisément reproduisible par ordinateur, encore moins dans du texte comme celui-ci, à moins d’insérer des images dessinées au préalable. De plus, de par sa nature idéographique, le lecteur n’aura aucune idée de la façon dont les mots se prononcent, hors il est important de pouvoir partager l’aspect phonétique de cette langue afin d’assurer une bonne compréhension de ce document. Ainsi, j’utiliserai pour la quasi-totalité de cette grammaire une translittération du Hjelp, visant à renvoyer une prononciation proche de la réalité. Ainsi, la majorité des sons seront représentés par un unique caractère, à l’exception de quelques sons représentés par deux comme nous le verrons ci-dessous.
+
+Pour des raisons d’esthétisme, le Hjelp dispose également d’un système de romanisation. Ce système repose sur moins de caractères comportant des accents et autres diacritiques mais permet une approche peut-être plus simple de la prononciation de la langue pour les non-linguistes. L’approche de la prononciation du Hjelp changeant selon la ou les langues parlées par le lecteur, la romanisation peut également changer en fonction de la langue cible. Ainsi, les francophones pourront retranscrire « qhø₃ð » comme « reuv » tandis que les anglophones le rentranscriront « rhoth ». Cette romanisation ne sera présente que dans le point suivant ([[*Inventaire phon%C3%A9tique]]) afin de donner une référence de lecture du Hjelp dans mes textes littéraires, cependant elle ne sera absolument pas utilisée dans ce document du fait du manque d’information qu’elle partage, contrairement à la translittération qui reste constante selon la langue du lecteur et transmet toutes les informations phonétiques (ou presque, c.f. la section [[*Allophonie]] sur l’allophonie) dont on a besoin.
+
+Quelques fois, la translittération ne suffira pas, en particulier dans ce chapitre, pour exprimer avec détail la prononciation de certains mots ou de certaines phrases ; je devrai donc utiliser l’alphabet phonétique international (IPA, /International Phonetic Alphabet/) afin de pouvoir donner la prononciation de façon beaucoup plus précise que la translittération qui peut parfois ne pas être exacte (à nouveau, c.f. la section [[*Allophonie]] sur l’allophonie).
+
+** Inventaire phonétique
+*** Les consonnes
+
+Le Hjelp est une langue disposant d’un très large panel de consonnes. Voici ci-dessous le tableau des consonnes du Hjelp, translittéré puis en IPA.
+
+#+CAPTION: Consonnes du Hjelp (translittération)
+|            | nasal | occlusif | fricatif | spirant | roulé | fric-lat | spir-lat | semi-vow |
+|------------+-------+----------+----------+---------+-------+----------+----------+----------|
+| bilabial   | m     | p b      |          |         |       |          |          | w        |
+| lab-dent   |       |          | f v      |         |       |          |          |          |
+| dental     |       |          | þ ð      |         |       |          |          |          |
+| alvéolaire | n ń   | t d      | s z      | ŕ       | r     | lh       | l ĺ      |          |
+| pal-alv    |       |          | sh zh    |         |       |          |          |          |
+| rétroflexe |       | ŧ đ      |          |         |       |          |          |          |
+| palatal    |       |          | ch jh    | j       |       |          |          |          |
+| vélaire    | ng    | k g      |          |         |       |          |          |          |
+| uvulaire   |       |          | qh rh    |         |       |          |          |          |
+| glottal    |       | ’        | h        |         |       |          |          |          |
+| /          | <     | <        | <        | <       | <     | <        | <        | <        |
+
+#+CAPTION: Consonnes du Hjelp (IPA)
+|            | nasal      | occlusif | fricatif | spirant | battu | fric-lat | spir-lat | semi-vow |
+|------------+------------+----------+----------+---------+-------+----------+----------+----------|
+| bilabial   | m [m̩] [m̩ʲ] | p b      | [ɸ] [β]  |         |       |          |          | w        |
+| lab-dent   |            |          | f v      |         |       |          |          |          |
+| dental     |            |          | θ ð      |         |       |          |          |          |
+| alvéolaire | n n̩        | t d      | s z      | ŕ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |          |
+| pal-alv    |            |          | ʃ ʒ      |         |       |          |          |          |
+| rétroflexe |            | ʈ ɖ      |          |         |       |          |          |          |
+| palatal    | [ɲ̩]        |          | ç ʝ      | j       |       |          |          |          |
+| vélaire    | ŋ          | k g      | [x] [ɣ]  |         |       |          |          |          |
+| uvulaire   |            |          | χ ʁ      |         |       |          |          |          |
+| glottal    |            | ʔ        | h [ɦ]    |         |       |          |          |          |
+| /          | <          | <        | <        | <       | <     | <        | <        | <        |
+
+On peut remarquer une grande complexité au niveau des consonnes occlusives et fricatives, avec également un bon nombre de consonnes alvéolaires. Presque toutes les consonnes occlusives et fricatives sont par ailleurs dotées de leur équivalent voisé ou sourd, à l’exception des deux consonnes glottales. À noter que les phonèmes du tableau IPA entre crochets sont des allophones et n’ont pas de représentation qui leur est propre. Il est également à noter la présence de <ń> et <ĺ> qui sont toutes deux des consonnes syllabiques ; cela signifie qu’elles ne sont pas considérées comme des consonnes mais comme des voyelles à part entière au même titre que celles que nous verrons ci-dessous.
+
+*** Les voyelles
+À l’instar des consonnes, le Hjelp dispose d’un inventaire phonétique très large, contenant un total de 23 voyelles simples, incluant le <ń> et le <ĺ> présentés ci-dessus. Les voici ci-dessous translittérées et en IPA.
+
+#+CAPTION: Voyelles du Hjelp (translittération)
+| / | >           |               |              |
+|   |             | antérieures   | postérieures |
+|---+-------------+---------------+--------------|
+|   | fermées     | i / y         | u            |
+|   | pré-fermées | ì / ĩ / ů     | ù / ũ        |
+|   | mi-fermées  | e / é / ø / ö | o / õ        |
+|   | mi-ouvertes | è / œ / ô     | ò            |
+|   | ouvertes    | a             | å / ã        |
+
+#+CAPTION: Voyelles du Hjelp (IPA)
+| / | >           |                   |              |
+|   |             | antérieures       | postérieures |
+|---+-------------+-------------------+--------------|
+|   | fermées     | iː / yː           | uː           |
+|   | pré-fermées | ɪ / ɪ̃ / ʏ         | ʊ / ʊ̃        |
+|   | mi-fermées  | eː / ẽː / øː / ø̃ː | oː / õː      |
+|   | mi-ouvertes | ɛ / œ / œ̃         | ɔ            |
+|   | ouvertes    | aː                | ɑ / ɑ̃        |
+
+** Les Diphtongues
+
+Les diphtongues en Hjelp sont très libres, dans le sens où toute voyelle peut s’associer avec une autre afin de créer une diphtongue, à la condition qu’il ne s’agisse pas deux fois de la même voyelle. Lors de l’association de deux voyelles, si l’une des voyelles est longue, alors elle perd cette qualité et devient courte. En Hjelp, la voyelle se maintenant durant un allongement de la diphtongue est la première des deux, la seconde restant courte peu importe la situation.
+
+La marque tonale associée au diphone ne se marquera que sur la seconde voyelle, la diphtongue étant considérée en Hjelp comme étant une seule et unique voyelle. Il se peut que dans certains cas deux voyelles syllabiques se suivent sans former de diphtongue ensemble, auquel cas la marque tonale marquera la séparation des deux syllabes. Dans le cas où la première syllabe est sur le ton neutre, il sera obligatoire de le marquer explicitement à l’écrit, tel que dans *qhlö₄te₁ů₂ntrhae₂lf*. Pour plus de détails sur les tons du Hjelp, voir la section sur les sept tons ([[*Les sept tons]]).
+
+** Les Triphtongues
+
+À l’instar des diphtongues ([[*Les Diphtongues]]), le Hjelp est extrêmement permissif quand aux triphtongues, interdisant uniquement les successions immédiates de deux voyelles identiques. À nouveau, comme pour les diphtongues, la dernière voyelle reste courte ; la première voyelle est également courte, la longueur de la triphtongue étant supporté par la seconde voyelle la composant, telle la première voyelle des diphtongues.
+
+À nouveau, la dernière voyelle de la triphtongue est celle qui supporte la marque tonale à l’écrit, et afin d’éviter une confusion entre une triphtongue et une voyelle simple accolée à une diphtongue, la marque tonale servira à les dissocier.
+
+** Les sept tons
+** L’accentuation
+** Allophonie
+** Phonotaxes
+
+src_latex{\newpage}
+* Morphologie
+
+src_latex{\newpage}
+* Syntaxe
+
+src_latex{\newpage}
+* Système d’écriture
+
+src_latex{\newpage}
+* Lexique
+
+Le Hjelp étant une langue évoluant en permanence, je ne peux donner de lexique fixe dans ce document, cependant un dictionnaire en ligne est actuellement en cours de développement qui contiendra tous les mots de la langue et les traduira vers le français et l’anglais avec les détails nécessaires à une bonne compréhension des termes, les subtilités qu’ils induisent ainsi que leur étymologie s’ils en ont une.
+
+src_latex{\newpage}
+* Annexes
+
+** Annexe A : Abbréviations

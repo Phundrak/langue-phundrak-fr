@@ -3,7 +3,9 @@
 
 * Langues divines
 
-[[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[https://langue.phundrak.fr/hjalpi/hjalpi.pdf][version pdf]])
+[[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[https://langue.phundrak.fr/hjalpi/hjalpi.pdf][version PDF]])
+
+[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp/hjelp.pdf][version PDF]]) (remplacement futur du Hjalpi’)
 
 * Langues draconiennes
 
