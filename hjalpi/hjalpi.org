@@ -210,21 +210,21 @@ Le Hjalpi’ dispose d’un inventaire de voyelle très large comparé à la maj
 |---+-------------+-------------+--------------|
 |   | fermées     | i / y       | u            |
 |   | pré-fermées | ì / ĩ / ů   | ù / ũ        |
-|   | mi-fermées  | e / ø       | o            |
+|   | mi-fermées  | e / é / ø   | o / õ        |
 |   | mi-ouvertes | è / œ       | ò            |
 |   | ouvertes    | a           | å / ã        |
 
 Le Hjalpi’ dispose également de deux consonnes syllabiques, le /ń/ et le /ĺ/, qui sont respectivement le /n/ et le /l/ prononcés comme des voyelles. Voici ci-dessous le même tableau, avec chaque voyelle remplacée par sa valeur phonétique en IPA :
 
 #+CAPTION: Voyelles du Hjalpi’ (IPA)
-| / | >           |             |              |
-|   |             | antérieures | postérieures |
-|---+-------------+-------------+--------------|
-|   | fermées     | iː / yː     | uː           |
-|   | pré-fermées | ɪ / ɪ̃ / ʏ   | ʊ / ʊ̃        |
-|   | mi-fermées  | eː / øː     | oː           |
-|   | mi-ouvertes | ɛ / œ       | ɔ            |
-|   | ouvertes    | aː          | ɑ / ɑ̃        |
+| / | >           |              |              |
+|   |             | antérieures  | postérieures |
+|---+-------------+--------------+--------------|
+|   | fermées     | iː / yː      | uː           |
+|   | pré-fermées | ɪ / ɪ̃ / ʏ    | ʊ / ʊ̃        |
+|   | mi-fermées  | eː / ẽː / øː | oː / õː      |
+|   | mi-ouvertes | ɛ / œ        | ɔ            |
+|   | ouvertes    | aː           | ɑ / ɑ̃        |
 
 Avec le /ń/ et le /ĺ/ ayant respectivement pour valeur /n̩/ et /l̩/.
 
@@ -325,6 +325,39 @@ src_latex{\newpage}
 |   | w       | w      | w    |    |         |        |      |
 ** Phonotaxes
 *** Attaque
+| / | > |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   |   | r | ɬ | l | m | n | ŋ | v | ð | z | ʒ | ʝ | ʁ | f | θ | s | ʃ | ç | χ | h | b | d | ɖ | ɡ | p | t | ʈ | k | ʔ |
+|---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+|   | r |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ɬ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | l |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | m |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | n |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ŋ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | v |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ð |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | z |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ʒ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ʝ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ʁ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | f |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | θ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | s |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ʃ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ç |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | χ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | h |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | b |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | d |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ɖ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ɡ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | p |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | t |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ʈ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | k |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|   | ʔ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+
+
 *** Rime
 **** Noyau syllabique
 **** Coda
@@ -747,7 +780,6 @@ Inversement, le *passé postérieur* permet d’exprimer une situation future au
 Bien que le choix du temps nous permet de situer dans ce dernier quand un état ou une action se produit, nous n’avons aucune idée, uniquement avec cette information, de la façon avec laquelle cette action ou cet état se réfère à ce temps ; est-ce une action qui s’étale dans le temps ou est-ce instantané, considérons-nous cet événement ou cet état comme un processus ou comme un événement ? Ces nuances et subtilités sont apportées par les aspects que nous traiterons ci-dessous.
 
 Tableaux ci-dessous juste pour moi le temps de la construction de ce chapitre.
-
 src_latex{\newpage\begin{multicols}{2}}
 | /     | <   | <    | <   | <    |
 | FNEA  | PFV | IPFV | HAB | PROG |
@@ -853,15 +885,15 @@ src_latex{\newpage}
 
 Le perfectif et l’imperfectif permettent une distinction fondamentale en Hjalpi’ sur l’action ou le verbe dont il est question, et leur présence dans le verbe est obligatoire ; un verbe est soit perfectif soit imperfectif. Il s’agit d’aspects primaires, donc pouvant être utilisés seuls dans un verbe, ainsi un verbe peut être uniquement perfectif ou imperfectif. Cela implique également que l’on peut leur rajouter un second aspect, appelé « sous-aspect ».
 
-Un verbe imperfectif considérera l’événement ou l’état comme étant un processus, doté d’un début, d’une continuation et d’une fin. Il est généralement utilisé afin de mettre en place le décors et le contexte d’un autre événement ou état qui sera généralement perfectif. À l’inverse, le perfectif permet de considérer l’événement comme étant un objet étant un point unique que l’on pourra comparer avec d’autres objets similaires. Exemples :
-Henri IV régnais vingt et un ans.
-| reigner-1S.HUM.ERG.PDIS.TRANS.IPFV | 21-GEN-année-PL-ACC.TEMP  | 4-GEN-Henri-ERG |
-Henri IV régna vingt et un ans.
-| reigner-1S.HUM.ERG.PDIS.TRANS.PFV | 21-GEN-année-PL-ACC.TEMP  | 4-GEN-Henri-ERG |
+Un verbe imperfectif considérera l’événement ou l’état comme étant un processus, doté d’un début, d’une continuation et d’une fin. Il est généralement utilisé afin de mettre en place le décors et le contexte d’un autre événement ou état qui sera généralement perfectif. À l’inverse, le perfectif permet de considérer l’événement comme étant un objet étant un point unique que l’on pourra comparer avec d’autres objets similaires. Selon Bernard Comrie dans son ouvrage /Aspect/ (version de 2001), « la perfectivité indique la vision d’une situation comme un tout, sans distinction des diverses phases séparées qui crééent une situation ; alors de l’imperfectif fait essentiellement attention à la structure interne de la situation. » Exemples :
+Terovei régnais vingt et un ans.
+| reigner-1S.HUM.ERG.PDIS.TRANS.IPFV | 21-GEN-année-PL-ACC.TEMP | Terovei-ERG |
+Terovei régna vingt et un ans.
+| reigner-1S.HUM.ERG.PDIS.TRANS.PFV | 21-GEN-année-PL-ACC.TEMP | Terovei-ERG |
 
-La première phrase permet une introduction à ce qu’il s’est passé durant le reigne d’Henri IV, alors que la seconde permet plutôt de comparer le reigne du souverain en lui-même à celui d’un autre.
+La première phrase permet une introduction à ce qu’il s’est passé durant le reigne d’Henri IV, alors que la seconde permet plutôt de comparer le reigne du souverain en lui-même à celui d’un autre. On peut également considérer que dans la première phrases, on voit le reigne comme étant unique, une entité qui dura 21 ans, alors que dans la seconde phrase, durant 21 ans et à n’importe quel moment de cette période, Terovei régnais.
 
-L’imperfectif est l’aspect par défaut de tous les verbes, peu importe le temps, tandis que le perfectif doit être marqué au passé ou au futur ; il ne peut également pas être utilisé dans le temps présent.
+L’imperfectif est l’aspect par défaut de tous les verbes, peu importe le temps, tandis que le perfectif doit être marqué au passé ou au futur ; il ne peut également pas être utilisé dans le temps présent du fait de la nature instantanée et volatile de ce dernier.
 
 **** Habituel (HAB) (aspect médian)
 
@@ -986,7 +1018,7 @@ La forme infinitive d’un verbe est sa forme non conjuguée trouvée dans le di
 **** <<mode-cert>>Changer la certaineté d’un mode
 
 *** <<verbes-valence>>Valence du verbe
-La valence d’un verbe est le nombre d’arguments que ce dernier peut prendre. Les verbes intransitifs prennent au moins en argument un expérienceur, les verbes transitifs prennent au moins un agent et un patient. Si le verbe est également un verbe d’action, il prendra également en argument un bénéfactaire, bien qu’il soit souvent omis s’il est inconnu (ce qui est souvent le cas lorsque le locuteur ne parle pas à la première personne) ou s’il est identique avec l’expérienceur, l’agent nominatif ou le patient ergatif. Il est d’ailleurs également possible d’élipser l’agent nominatif ou le patient ergatif d’une phrase si le contexte permet aux locuteurs de les déduire aisément. En français cela donnerait quelque chose comme ceci : « Tu sais ce qu’a fait Éreþ hier ? A couru pendant quatre heures d’affilées pour Tama ».
+La valence d’un verbe est le nombre d’arguments que ce dernier peut prendre. Les verbes intransitifs prennent au moins en argument un expérienceur, les verbes transitifs prennent au moins un agent et un patient. Si le verbe est également un verbe transitif d’action il prendra également un argument supplémentaire, le bénéfactaire, bien qu’il soit souvent omis s’il est inconnu, ce qui est souvent le cas lorsque le locuteur ne parle pas à la première personne, ou s’il est identique avec l’expérienceur, l’agent nominatif, ou le patient ergatif. Il est d’ailleurs également possible d’élipser l’agent nominatif ou le patient ergatif d’une phrase si le contexte permet aux locuteurs de les déduire aisément. En français cela donnerait quelque chose comme ceci : « Tu sais ce qu’a fait Éreþ hier ? A couru pendant quatre heures d’affilées pour Tama ».
 
 Il est également possible de réduire ou d’augmenter la valence d’un verbe selon plusieurs procédés décrits ci-dessous.
 
