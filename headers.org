@@ -9,6 +9,8 @@
 #+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
 #+LATEX_HEADER: \usepackage{multicol}
+#+HTML_HEAD: <link rel="shortcut icon" href="https://langue.phundrak.fr/favicon.ico" type="image/x-icon" />
+#+HTML_HEAD: <meta property="og:image" content="https://langue.phundrak.fr/img/rich_preview.jpg" />
 #+OPTIONS: H:4
 #+OPTIONS: toc:nil
 src_latex{\newpage}

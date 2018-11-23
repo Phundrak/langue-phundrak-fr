@@ -1,17 +1,20 @@
-#+TITLE: Ressources grammaticales des langues construites de P’undrak
+#+TITLE: Langues construites de P’undrak
 #+INCLUDE: "headers.org"
+#+HTML_HEAD: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
+#+HTML_HEAD: <meta property="og:title" content="Langues construites de P’undrak" />
+#+HTML_HEAD: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
 
 * Langues divines
 
-[[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[https://langue.phundrak.fr/hjalpi/hjalpi.pdf][version PDF]])
+[[https://langue.phundrak.fr/hjalpi][Hjalpi’ Originel]] ([[https://langue.phundrak.fr/hjalpi/hjalpi.pdf][pdf]])
 
-[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp/hjelp.pdf][version PDF]]) (remplacement futur du Hjalpi’)
+[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp/hjelp.pdf][pdf]]) (remplacement futur du Hjalpi’)
 
 * Langues draconiennes
 
-[[https://langue.phundrak.fr/lijokken][Łijökken]] (en cours)
+[[https://langue.phundrak.fr/lijokken][Łijökken]] ([[https:///langue.phundrak.fr/lijokken/lijokken-grammaire.org][pdf]], en cours)
 
-[[https://langue.phundrak.fr/zohaen][Zöhæň]] (en cours)
+[[https://langue.phundrak.fr/zohaen][Zöhæň]] ([[https://langue.phundrak.fr/zohaen/zohaen-grammaire.pdf][pdf]], en cours)
 
 * Langues humaines
 

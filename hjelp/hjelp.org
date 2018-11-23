@@ -4,8 +4,6 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
-#+HTML_HEAD: <link rel="shortcut icon" href="https://langue.phundrak.fr/favicon.ico" type="image/x-icon" />
-#+HTML_HEAD: <meta property="og:image" content="https://langue.phundrak.fr/img/rich_preview.jpg" />
 
 * Introduction
 Le Hjelp est une langue construite représentant symboliquement la langue orale et écrite utilisée par les dieux célestes de l’univers de mon roman, les Hjalpel. Cela signifie que, bien que le Hjalp soit une langue /de facto/ réelle de part cette grammaire et au moins mon utilisation de cette langue dans mes ouvrages, elle n’est pas réellement la langue telle que je l’imagine pour les dieux célestes ; en effet, j’imagine la langue réelle des Hjalpel comme étant une langue d’une extraordinaire complexité, mais extrêmement concise, représentant l’esprit des dieux célestes. Apprendre cette langue, dans mon univers littéraire, prend plusieurs années d’études pour un humain afin de pouvoir ne serait-ce que commencer à former des phrases rudimentaires avec un vocabulaire limité, et les meilleurs ont un niveau tout de même faible ; selon le Cadre Européen Eommun de Référence pour les Langues (CECRL) à l’heure où j’écris ces lignes, cela équivaut à un niveau A2.
