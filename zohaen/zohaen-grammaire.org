@@ -1,5 +1,4 @@
 #+TITLE: Grammaire du Zöhæň
-#+INCLUDE:"../headers.org"
 #+INCLUDE: "../headers.org"
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue draconienne du Zöhæň" />
 #+HTML_HEAD: <meta property="og:title" content="Ressources grammaticales du Zöhæň" />
