@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
-#+HTML_HEAD: <meta name="twitter:card" content="Grammaire détaillée de la langue construite du Hjelp" />
+#+HTML_HEAD: <meta name="twitter:card" content="hjelp" />
 #+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
 * Introduction
