@@ -2,6 +2,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @font-face {
     font-family: "DoulosSIL";
+    font-display: swap;
     src:url("../fonts/DoulosSIL-R.woff");
 }
 
