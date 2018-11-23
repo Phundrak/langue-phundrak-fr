@@ -6,13 +6,33 @@
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
 
 * Introduction
-Le Hjelp est une langue construite représentant symboliquement la langue orale et écrite utilisée par les dieux célestes de l’univers de mon roman, les Hjalpel. Cela signifie que, bien que le Hjalp soit une langue /de facto/ réelle de part cette grammaire et au moins mon utilisation de cette langue dans mes ouvrages, elle n’est pas réellement la langue telle que je l’imagine pour les dieux célestes ; en effet, j’imagine la langue réelle des Hjalpel comme étant une langue d’une extraordinaire complexité, mais extrêmement concise, représentant l’esprit des dieux célestes. Apprendre cette langue, dans mon univers littéraire, prend plusieurs années d’études pour un humain afin de pouvoir ne serait-ce que commencer à former des phrases rudimentaires avec un vocabulaire limité, et les meilleurs ont un niveau tout de même faible ; selon le Cadre Européen Eommun de Référence pour les Langues (CECRL) à l’heure où j’écris ces lignes, cela équivaut à un niveau A2.
+Le Hjelp est une langue construite représentant symboliquement la langue orale et écrite utilisée par les dieux célestes de l’univers de mon roman, les Hjalpel. Cela signifie que, bien que le Hjalp soit une langue /de facto/ réelle de part cette grammaire et au moins mon utilisation de cette langue dans mes ouvrages, elle n’est pas réellement la langue telle que je l’imagine pour les dieux célestes ; en effet, j’imagine la langue réelle des Hjalpel comme étant une langue d’une extraordinaire complexité, mais extrêmement concise, représentant l’esprit des dieux célestes. Je me référerais ainsi par « Hjelp théorique » au Hjelp tel qu’imaginé dans mon univers littéraire, et par « Hjelp construit » ou tout simplement « Hjelp » la langue présentée dans ce document.
 
 Fort heureusement pour ceux qui se montreraient intéressé par le Hjelp, et malheureusement pour moi, créer une langue d’un tel niveau de complexité est littéralement impossible, considérant ne serait-ce que la difficulté théorique pour l’apprendre. Cependant, cela ne m’empêchera pas d’essayer de créer une langue complexe et concise du mieux que je peux, et j’essaierai d’imiter avec cette langue l’esthétique de la langue théorique des Hjalpel.
+
+Le Hjelp est une langue construite dite /à priori/, c’est à dire qu’elle ne se base sur aucune langue naturelle. Sa grammaire a quelques inspirations de diverses langues telles que le Français, le Tibétain, le Japonais, le Finnois ou le Hongrois, cependant aucune partie majeure de leur grammaire n’est intégrée au Hjelp, et son lexique est entièrement construit de manière indépendante de toute langue naturelle.
 
 J’utiliserai, comme indiqué plus haut, cette langue dans mes ouvrages littéraires concernant l’univers lié à cette langue, mais je l’utiliserai également pour des consructions d’autres langues qui descendront du Hjelp. Ces nouvelles langues, tel que le Melexeq, la langue de certains dieux terrestres, seront beaucoup plus simples. Les langues divines terrestres garderont un certain degré de complexité du fait du peuple la parlant en lui-même, et les langues descendant du Hjelp utilisées par les mortels seront d’un niveau de complexité similaire aux langues naturelles que l’on peut trouver dans notre monde.
 
 Cette grammaire n’est pas un ouvrage destiné à l’apprentissage du Hjelp (peut-être en écrirai-je un destiné à cette application) mais s’addresse plus à mon propre besoin d’avoir une grammaire de référence pour le Hjelp et suppose donc que le lecteur a un minimum de connaissances linguistiques, bien que certains concepts seront expliqués dans leur chapitre ou paragraphe dédié.
+
+** Quelques précisions sur le Hjelp théorique
+
+Comme dit plus haut, le Hjelp théorique est une langue extrêmement complexe parlée par les Hjalpel dans mon univers littéraire. Apprendre cette langue prend plusieurs années d’études pour un humain afin de pouvoir ne serait-ce que commencer à former des phrases rudimentaires avec un vocabulaire limité, et les meilleurs ont un niveau tout de même faible ; selon le Cadre Européen Commun de Référence pour les Langues (CECRL) à l’heure où j’écris ces lignes, cela équivaut à un niveau A2.
+
+Cette difficulté d’apprentissage de la langue est liée à la nature des Hjalpel et des dieux de façon générale dans mon univers : ils existent en dehors de la réalité, et leur parole sont une manifestation en soit de la réalité, exprimant toute sa complexité, sa subtilité. Comprendre parfaitement cette langue revient à comprendre parfaitement la réalité, d’où le niveau très bas même des meilleurs universitaires et étudiants du Hjelp théorique.
+
+Le Hjalpel théorique étant une expression de la réalité en elle-même, tout élément qui est créé à un instant t entre à ce moment-là dans le domaine de la réalité qui se propage alors dans le passé, et un mot émerge alors naturellement en Hjelp théorique, ayant aux yeux des mortels existé depuis toujours mais n’ayant été découvert que récemment.
+
+À l’inverse du passé et du présent, le futur ne reste qu’hypothétique dans cet univers, et bien qu’il puisse être prévu et prévisible aux yeux des divins, il est tout à fait possible de l’altérer si un dieux interfère avec la réalité, si un mortel fait usage de son libre arbitre (en effectuant une action réfléchie) ou en faisant usage de la magie. Ainsi, les éléments futurs ne font pas encore partie de la réalité et n’ont donc pas d’expression dans le présent. Attention, du moment qu’un concept est possible dans le futur, ce concept a été créé dans le présent de la personne (mortelle ou divine) y ayant pensé et entre donc dans le domaine de la réalité.
+
+Je pense que vous comprenez maintenant pourquoi il est impossible pour moi en tant qu’auteur et simple mortel de réellement créer le Hjelp théorique.
+
+* Lexique
+
+Le Hjelp est une langue se basant sur le principe des racine consonantales, la grammaire étant exprimée quasiment uniquement via les voyelles. Du fait de ses très riches déclinaisons, et malgré son nombre limité de racines lexicales, le Hjelp peut exprimer un très grand nombre de différent mots, tous basés sur la même racine.
+
+Afin de respecter la philosophie du Hjelp théorique, tous les mots de son lexique sont des mots ayant été créés soit /à priori/, soit à partir d’autres mots du Hjelp. Ainsi, le Hjelp n’est qu’une langue source dans la génétique des langues de mon univers linguistique et n’emprunte ainsi jamais à d’autre langues.
 
 src_latex{\newpage}
 * Phonologie
