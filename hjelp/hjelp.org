@@ -115,7 +115,7 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - đ :: Il s’agit d’un <d> prononcé de façon rétroflexe et peut être trouvé dans des langues telles que le Norvégien dans « varde » [ʋɑɖːə] ou en Sicilien dans « coḍḍu » [kɔɖːu]. Il s’agit de la consonne occlusive rétroflexe voisée [ɖ].
 - ŕ :: Ce <r> est une consonne signature de l’Anglais tel que dans « red » [ɹɛd], ainsi qu’en Allemand Autrichien standard « Rebe » [ɹeːbɛ] ou en Tagalog dans « parang » [paɹaŋ]. Cette consonne est la consonne alvéolaire approximante voisée [ɹ].
 - ŧ :: Cette consonne est l’équivalent sourd de la consonne <đ>. Elle se retrouve dans certaines langues telles que le Javanais dans « bathang » [baʈaŋ], en Norvégien « kort » [koʈː] ou en Suédois « karta » [kʰɑːʈa]. Il s’agit donc de la consonne occlusive rétroflexe sourde [ʈ].
-- ’ :: La consonne <’> est une consonne que l’on retrouve en Anglais Général Américain dans « button » [bɐʔn̩], en Danois avec « hånd » [hʌ̹nʔ] ou encore en Hawaiien avec « ’ele’ele_» [ˈʔɛlɛˈʔɛlɛ]. Il s’agit donc de la consonne occlusive glottale sourde [ʔ].
+- ’ :: La consonne <’> est une consonne que l’on retrouve en Anglais Général Américain dans « button » [bɐʔn̩], en Danois avec « hånd » [hʌ̹nʔ] ou encore en Hawaiien avec « ’ele’ele » [ˈʔɛlɛˈʔɛlɛ]. Il s’agit donc de la consonne occlusive glottale sourde [ʔ].
 
 
 *** Les voyelles
