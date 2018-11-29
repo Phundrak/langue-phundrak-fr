@@ -36,7 +36,6 @@ Afin de respecter la philosophie du Hjelp théorique, tous les mots de son lexiq
 
 src_latex{\newpage}
 * Phonologie
-
 ** Notes sur la translittération et la romanisation du Hjelp
 
 Le Hjelp est une langue disposant d’un système d’écriture qui lui est unique, et par conséquent ne peut pas être aisément reproduisible par ordinateur, encore moins dans du texte comme celui-ci, à moins d’insérer des images dessinées au préalable. De plus, de par sa nature idéographique, le lecteur n’aura aucune idée de la façon dont les mots se prononcent, hors il est important de pouvoir partager l’aspect phonétique de cette langue afin d’assurer une bonne compréhension de ce document. Ainsi, j’utiliserai pour la quasi-totalité de cette grammaire une translittération du Hjelp, visant à renvoyer une prononciation proche de la réalité. Ainsi, la majorité des sons seront représentés par un unique caractère, à l’exception de quelques sons représentés par deux comme nous le verrons ci-dessous.
@@ -86,37 +85,37 @@ Le Hjelp est une langue disposant d’un très large panel de consonnes. Voici c
 On peut remarquer une grande complexité au niveau des consonnes occlusives et fricatives, avec également un bon nombre de consonnes alvéolaires. Presque toutes les consonnes occlusives et fricatives sont par ailleurs dotées de leur équivalent voisé ou sourd, à l’exception des deux consonnes glottales. À noter que les phonèmes du tableau IPA entre crochets sont des allophones et n’ont pas de représentation qui leur est propre. Il est également à noter la présence de <ń> et <ĺ> qui sont toutes deux des consonnes syllabiques ; cela signifie qu’elles ne sont pas considérées comme des consonnes mais comme des voyelles à part entière au même titre que celles que nous verrons ci-dessous.
 
 Voici ci-dessous une description individuelle de chaque consonne :
-- b :: Il s’agit du <b> standard dont disposent le Français ou l’Anglais, une consonne bilabiale occlusive voisée [b].
+- b :: Il s’agit du <b> standard dont disposent le Français dans « bonbon » [bɔ̃bɔ̃] ou l’Anglais believe [bɪlɪv], une consonne bilabiale occlusive voisée [b].
 - ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt]. Il s’agit d’une consonne fricative palatale sourde [ç].
-- d :: Ce
-- f ::
-- g ::
-- h ::
-- j ::
-- jh ::
-- k ::
-- l ::
-- lh ::
-- m ::
-- n ::
-- ng ::
-- p ::
-- qh ::
-- r ::
-- rh ::
-- s ::
-- sh ::
-- t ::
-- v ::
-- w ::
-- z ::
-- zh ::
-- ð ::
-- þ ::
-- đ ::
-- ŕ ::
-- ŧ ::
-- ’ ::
+- d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
+- f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
+- g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
+- h :: Le <h> représente l’aspiration effectuée dans certaines langues comme l’Anglais dans « had » [hæd]. Il s’agit d’une consonne glottale sourde [h].
+- j :: Le <j> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
+- jh :: Le <jh> est l’équivalent voisé de <ch>. On retrouve cette consonne en Italien comme dans « figlio » [fiʝːo] ou en Russe avec яма [ˈʝämə]. Il s’agit donc d’une consonne fricative palatale voisée [ʝ].
+- k :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
+- l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Attention à ne pas le confondre avec le « l sombre » anglais que l’ont peut retrouver par exemple dans « feel » [fiːɫ]. Le <l> du Hjelp est donc une consonne alvéolaire spirante-latérale voisée [l].
+- lh :: Ce <l> est en quelques sortes un équivalent non-voisé du <l> présenté ci-dessous. Il se retrouve en Groënlandais dans le mot « illu » [iɬːu] ou en Norvégien de Trøndersk « tatl » ou « tasl » [tʰaɬ]. Il s’agit donc d’une consonne alvéolaire latérale fricative sourde [ɬ].
+- m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
+- n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
+- ng :: Cette consonne se retrouve en Anglais dans des termes tels que « singer » [sɪŋɚ] ou « king » [kʰɪŋ], et on le retrouve à quelques occasion en Français comme dans « camping » [kɑ̃piŋ]. Il s’agit donc d’une consonne nasale vélaire voisée [ŋ].
+- p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
+- qh :: Il s’agit d’une consonne que l’on retrouve en Français comme dans « proche » [pχɔʃ], en Allemand « Dach » [daχ] ou en Kabyle « axxam » [aχχam]. Il s’agit donc d’une voyelle fricative uvulaire sourde [χ].
+- r :: Ce <r> peut être retrouvé en Scots « bricht » [brɪçt], en Espagnol « perro » [pe̞ro̞] ou encore en Portugais avec « ratu » [rato]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
+- rh :: Cette consonne est l’équivalent voisé de <qh>, que l’on peut retrouver en Français « rester » [ʁɛste], en Dannois « rød » [ʁ̞œ̠ð̠], en Allemand strandard « Rost » [ʁɔst] ou encore en Luxembourgeois « Kugel » [ˈkʰuːʁəl]. Il s’agit donc d’une voyelle fricative uvulaire voisée [ʁ].
+- s :: Ce <s> est le <s> standard alvéolaire que l’on retrouve dans des langues tels qu’en Anglais « sit » [sɪtʰ], en Portugais « caço » [kasu] ou en Estonien « sõna » [sɤnɑ]. Attention, le <s> français tel que dans « façade » [fäs̪äd̪] est dentalisé, contrairement au <s> du Hjelp qui est donc une consonne fricative alvéolaire sourde [s].
+- sh :: Cette consonne peut se retrouver dans des langues telles que le Français « cher » [ʃɛʁ], en Anglais « sheep » [ʃiːpʰ] ou en Breton « chadenn » [ʃadeñ]. Il s’agit donc d’une consonne fricative post-alvéolaire sourde [ʃ].
+- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Hjelp est la consonne occlusive alvéolaire sourde [t].
+- v :: Le <v> du Hjelp peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
+- w :: Le <w> est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].
+- z :: Ce <z> est la contrepartie voisée du <s>. On le retrouve dans des langues tels que l’Anglais dans « zoo » [zuː], en Esperanto dans « kuzo » [kuzo] ou en Japonais dans « zenbu » [zembɯ]. Attention, en Français le [z] est dentalisé en [z̪] et est donc différent du <z> du Hjelp qui est une consonne fricative alvéolaire voisée [z].
+- zh :: Ce <zh> est la contrepartie voisée du <sh>. Il peut être retrouvé en Français dans « jour » [ʒuʁ], en Navajo « łizh » [ɬiʒ] ou en Corse avec « ghjesgia » [jeːʒa]. Il s’agit donc de la consonne fricative post-alvéolaire voisée [ʒ].
+- ð :: Cette consonne <ð> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
+- þ :: Il s’agit de la contrepartie sourde de <ð> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
+- đ :: Il s’agit d’un <d> prononcé de façon rétroflexe et peut être trouvé dans des langues telles que le Norvégien dans « varde » [ʋɑɖːə] ou en Sicilien dans « coḍḍu » [kɔɖːu]. Il s’agit de la consonne occlusive rétroflexe voisée [ɖ].
+- ŕ :: Ce <r> est une consonne signature de l’Anglais tel que dans « red » [ɹɛd], ainsi qu’en Allemand Autrichien standard « Rebe » [ɹeːbɛ] ou en Tagalog dans « parang » [paɹaŋ]. Cette consonne est la consonne alvéolaire approximante voisée [ɹ].
+- ŧ :: Cette consonne est l’équivalent sourd de la consonne <đ>. Elle se retrouve dans certaines langues telles que le Javanais dans « bathang » [baʈaŋ], en Norvégien « kort » [koʈː] ou en Suédois « karta » [kʰɑːʈa]. Il s’agit donc de la consonne occlusive rétroflexe sourde [ʈ].
+- ’ :: La consonne <’> est une consonne que l’on retrouve en Anglais Général Américain dans « button » [bɐʔn̩], en Danois avec « hånd » [hʌ̹nʔ] ou encore en Hawaiien avec « ’ele’ele_» [ˈʔɛlɛˈʔɛlɛ]. Il s’agit donc de la consonne occlusive glottale sourde [ʔ].
 
 
 *** Les voyelles
