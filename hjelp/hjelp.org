@@ -117,7 +117,6 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - ŧ :: Cette consonne est l’équivalent sourd de la consonne <đ>. Elle se retrouve dans certaines langues telles que le Javanais dans « bathang » [baʈaŋ], en Norvégien « kort » [koʈː] ou en Suédois « karta » [kʰɑːʈa]. Il s’agit donc de la consonne occlusive rétroflexe sourde [ʈ].
 - ’ :: La consonne <’> est une consonne que l’on retrouve en Anglais Général Américain dans « button » [bɐʔn̩], en Danois avec « hånd » [hʌ̹nʔ] ou encore en Hawaiien avec « ’ele’ele » [ˈʔɛlɛˈʔɛlɛ]. Il s’agit donc de la consonne occlusive glottale sourde [ʔ].
 
-
 *** Les voyelles
 À l’instar des consonnes, le Hjelp dispose d’un inventaire phonétique très large, contenant un total de 23 voyelles simples, incluant le <ń> et le <ĺ> présentés ci-dessus. Les voici ci-dessous translittérées et en IPA.
 
@@ -139,9 +138,32 @@ Voici ci-dessous une description individuelle de chaque consonne :
 |   | pré-fermées | ɪ / ɪ̃ / ʏ         | ʊ / ʊ̃        |
 |   | mi-fermées  | eː / ẽː / øː / ø̃ː | oː / õː      |
 |   | mi-ouvertes | ɛ / œ / œ̃         | ɔ            |
-|   | ouvertes    | aː                | ɑ / ɑ̃        |
+|   | ouvertes    | aː                | ɒ / ɒ̃        |
 
 On remarque ci-dessus une complexité particulièrement importante au niveau des voyelles mi-fermées antérieures ainsi qu’une abscence de voyelles centrales. La majorité des voyelles sont dans une paire ouverte et courte ou fermée et longue, tels que le <i> et le <ì> ou le <a> et le <å>. Plusieurs voyelles ont également leur équivalent nasalisé, tels que le <ī>, <ö> et <ô>.
+
+Voici ci-dessous la description de chacune de ces voyelles :
+- a :: Il s’agit de la voyelle antérieure ouverte longue non-arrondie [aː].
+- e :: Il s’agit de la voyelle antérieure mi-fermée longue non-arrondie [eː].
+- i :: On peut retrouver cette voyelle en Anglais comme dans « free » [fɹiː] ou « ív » [iːv] en Hongrois. Il s’agit de la voyelle antérieure fermée longue non-arrondie [iː].
+- o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [oː].
+- u :: On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs]. Il s’agit de la voyelle postérieure fermée longue arrondie [uː].
+- y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ] et un Hongrois avec « tű » [t̪yː]. Il s’agit de la voyelle antérieure fermée longue arrondie [yː].
+- ã :: Il s’agit de la voyelle postérieure ouverte nasale arrondie [ɒ̃].
+- å :: Il s’agit de la voyelle postérieure ouverte arrondie [ɒ].
+- è :: Il s’agit de la voyelle antérieure mi-ouverte non-arrondie [ɛ].
+- é :: Il s’agit de la voyelle antérieure mi-fermée nasale non-arrondie [ẽː].
+- ì :: Il s’agit de la voyelle antérieure pré-fermée non-arrondie [ɪ].
+- ò :: Il s’agit de la voyelle postérieure mi-ouverte arrondie [ɔ].
+- ô :: Il s’agit de la voyelle antérieure mi-ouverte nasalisée arrondie [œ̃].
+- õ :: Il s’agit de la voyelle postérieure mi-fermée nasalisée longue arrondie [õː].
+- ö :: Il s’agit de la voyelle antérieure mi-fermée nasalisée longue arrondie [ø̃ː].
+- ø :: Il s’agit de la voyelle antérieure mi-fermée longue arrondie [øː].
+- ù :: Il s’agit de la voyelle postérieure pré-fermée arrondie [ʊ].
+- ĩ :: Il s’agit de la voyelle antérieure pré-fermée non-arrondie [ɪ̃].
+- œ :: Il s’agit de la voyelle antérieure mi-ouverte arrondie [œ].
+- ũ :: Il s’agit de la voyelle postérieure pré-fermée nasalisée arrondie [ʊ̃].
+- ů :: Il s’agit de la voyelle antérieure pré-ferée arrondie [ʏ].
 
 ** Diphtongues
 
