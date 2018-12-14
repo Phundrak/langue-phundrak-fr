@@ -73,7 +73,7 @@ Le Hjelp est une langue disposant d’un très large panel de consonnes. Voici c
 | bilabial   | m [m̩] [m̩ʲ] | p b      | [ɸ] [β]  |         |       |          |          | w        |
 | lab-dent   |            |          | f v      |         |       |          |          |          |
 | dental     |            |          | θ ð      |         |       |          |          |          |
-| alvéolaire | n n̩        | t d      | s z      | ŕ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |          |
+| alvéolaire | n n̩        | t d      | s z      | ɹ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |          |
 | pal-alv    |            |          | ʃ ʒ      |         |       |          |          |          |
 | rétroflexe |            | ʈ ɖ      |          |         |       |          |          |          |
 | palatal    | [ɲ̩]        |          | ç ʝ      | j       |       |          |          |          |
