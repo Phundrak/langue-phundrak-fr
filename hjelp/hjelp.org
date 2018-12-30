@@ -205,15 +205,64 @@ Voici ci-dessous la description de chacune de ces voyelles :
 *** Voyelles
 Il existe peu de règles en Hjelp concernant les voyelles, et elles concernent exclusivement les consonne syllabiques tel que vous pourrez le constater ci-dessous.
 
-- La prononciation standard du <ń>, comme mentionné ci-dessus dans le chapitre [[*Les voyelles]] sur les voyelles, est le ​/n̩/. Cependant, cette voyelle peut voir sa prononciation se métamorphoser en [m̩], [ɲ̩] et [m̩ʲ]. La première métamorphose se produit si le <ń> est en contact direct avec une consonne bilabiale. La seconde se produit dans le cas où le <ń> est en contact direct avec les voyelles fermées ou pré-fermées antérieures, soit <i>, <y>, <ì>, <ĩ> et <ů>, ou bien avec la consonne <j>. Dans le cas où les conditions de la première et de la seconde métamorphose sont vraies pour la même voyelle <ń>, la troisième métamorphose se produit et le <ń> sera prononcé comme un [m̩ʲ].
+- La prononciation standard du <ń>, comme mentionné ci-dessus dans le chapitre [[*Les voyelles]] sur les voyelles, est le [n̩]. Cependant, cette voyelle peut voir sa prononciation se métamorphoser en [m̩], [ɲ̩] et [m̩ʲ]. La première métamorphose se produit si le <ń> est en contact direct avec une consonne bilabiale. La seconde se produit dans le cas où le <ń> est en contact direct avec les voyelles fermées ou pré-fermées antérieures, soit <i>, <y>, <ì>, <ĩ> et <ů>, ou bien avec la consonne <j>. Dans le cas où les conditions de la première et de la seconde métamorphose sont vraies pour la même voyelle <ń>, la troisième métamorphose se produit et le <ń> sera prononcé comme un [m̩ʲ].
 
   - ​/n̩/ > [m̩] / P​_ | _​P
   - ​/n̩/ > [ɲ̩] / {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
   - ​/n̩/ > [m̩ʲ] / P​_​{iː,yː,ɪ,ɪ̃,ʏ} | {iː,yː,ɪ,ɪ̃,ʏ}​_​P
 
-- Le <ĺ> subit une métamorphose similaire lors d’un contact avec les voyelles fermées et pré-fermées antérieures <i>, <y>, <ì>, <ĩ> et <ů> et se réalise alors comme un [l̩ʲ].
+- Le <ĺ>, dont la prononciation standard est le [l̩], subit une métamorphose similaire lors d’un contact avec les voyelles fermées et pré-fermées antérieures <i>, <y>, <ì>, <ĩ> et <ů> et se réalise alors comme un [l̩ʲ].
 
   - ​/l̩/ > [l̩ʲ] / {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
+
+*** Consonnes
+Contrairement aux voyelles, le Hjelp est assez riche en allophonie concernant les consonnes.
+
+- La prononciation standard du <f> et du <v> est respectivement [f] et [v]. Cependant, les deux voient leur prononciation se changer en [ɸ] et [β] lorsque ces consonnes se retrouvent entre deux voyelles ou semi-consonne, ou en fin de mot et précédées par une voyelle.
+
+  - ​/f/ > [ɸ] / {V,j,w}​_{#,V,j,w}
+  - ​/v/ > [β] / {V,j,w}​_{#,V,j,w}
+
+| te_{4}fũ_{3}d | ​/teː_{4}.fʊ̃_{3}d/          | [teː_{4}.ɸʊ̃_{3}d]          |
+| vyelo_{2}tov  | ​/vye_{1}.loː_{2}.toː_{1}v/ | [vye_{1}.loː_{2}.toː_{1}β] |
+
+- Le <h> a pour prononciation standard le [h], cependant il peut également être prononcé comme un [ɦ]. Cet allophone se produit entre deux voyelles, semi-consonne (les deux catégories seront notées <V> ci-dessous) ou consonne voisée. En revanche, au contact d’une voyelle fermée ou semi-fermée antérieure, le <h> se réalise comme un [ç], et si les conditions pour la réalisation d’un [ɦ] et d’un [ç] se rencontre, un [ʝ] sera produit.
+
+  - ​/h/ > [ɦ] > {C[+voix],V}​_{C[+voix],V}
+  - ​/h/ > [ç] > {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
+  - ​/h/ > [ʝ] > {iː,yː,ɪ,ɪ̃,ʏ}​_{C[+voix],V} | {C[+voix],V}_​{iː,yː,ɪ,ɪ̃,ʏ}
+
+| wyhakuþ | ​/wyː.haː.kyːθ/ | [wyː.ɦaː.kyːθ] |
+| hjalp   | ​/hjaːlp/       | [çjaːlp]       |
+| nehja   | ​/neː.hjaː/     | [neː.ʝjaː]     |
+
+- le <x> et le <rh> sont habituellement respectivement prononcés [χ] et [ʁ], cepedant ils sont avancés en consonnes vélaires [x] et [ɣ] respectivement lorsqu’ils sont en contact avec une consonne fricative.
+
+  - ​/χ,ʁ/ > [+vélaire] / F​_ | _​F
+
+| naqhfèn        | ​/naːχ.fɛn/             | [naːx.fɛn]             |
+| elekorh þurènt | ​/eː.leː.koːʁ.θuː.rɛnt/ | [eː.leː.koːɣ.θuː.ɾɛnt] |
+
+- Si deux fricative de voisement différent se succèdent immédiatement, la qualité vocalique de la seconde fricative est appliquée à la première. Ainsi, si une fricative sourde suit une fricative voisée, elle devient sourde ; si une fricative voisée suit une fricative sourde, elle devient voisée.
+  - F[-son] > [+son] / F[+son]_
+  - F[+son] > [-son] / F[-son]_
+
+| echvènd  | ​/eːç.vɛnd/ | [eːç̬.vɛnd] |
+| auzshèìd | ​/auz.ʃɛɪd/ | [auz̥.ʃɛɪd] |
+
+- Si deux consonnes plosives ou plus se succèdent, seule la dernière a une désocclusion audible. Si une ou plusieurs consonnes plosives est entourée de consonnes plosives, cette consonne ne sera pas prononcée.
+
+  - S > [-occlusion] / _S
+  - S > Ø / S​_​S
+
+| edtø | ​/eːd.tøː/ | [eːd̚.tøː] |
+
+- Si un <r> se situe entre deux voyelles ou se situe en fin de mot et est précédé par une voyelle, la consonne devient alors battue.
+
+  - ​/r/ > [ɾ] > V​_​{#,V}
+
+| Ereþ | ​/eː.reːθ/ | [eː.ɾeːθ] |
+| nůr  | ​/nʏr/     | [nʏɾ]     |
 
 ** Phonotaxes
 
