@@ -6,6 +6,8 @@
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
 
+# ideas: https://twitter.com/Phundrak/status/1079046235011584001
+
 * Avant-propos
   La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française du droit d’auteur et apparient entièrement et totalement à son auteur.
 
