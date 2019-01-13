@@ -354,8 +354,8 @@ Voici ci-dessous le tableau des nombres, genrés ou non.
 | / | >    |    |     |      |    |     |    |
 |   |      | S  | SGV | SGVU | DU | TRI | PL |
 |---+------+----+-----+------+----+-----+----|
-|   | Ø    | ń  | ĺ   | at   | aŕ | arh | ab |
-|   | SAC  | èn | èl  | èt   | èŕ | erh | èb |
+|   | Ø    |    | ĺ   | at   | aŕ | arh | ab |
+|   | SAC  | ń  | el  | èt   | èŕ | erh | èb |
 |   | ABST | œn | œl  | øt   | œŕ | œrh | øb |
 |   | LIQ  | ãn | ãl  | ãt   | ãŕ | ãrh | ãb |
 |   | M    | ôn | ôl  | ôt   | ôŕ | ôrh | ôb |
