@@ -1,0 +1,71 @@
+#+INCLUDE: "../headers.org"
+#+LaTeX_HEADER: \usepackage{indentfirst}
+#+LATEX_CLASS: article
+#+TITLE: Une Grammaire du Mattér
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
+
+* Avant-propos
+La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents.
+
+Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]].
+
+src_latex{\newpage}
+* Introduction
+Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique.
+
+Cette langue est un projet à part de mon univers littéraire et fut créé dans le cadre de mes études, pour mon cours d’ingénieurie des langues, enseigné par Ana Pappa, en troisième année de licence, à l’Université Paris 8. Je ne sais pas encore si j’en ferai autre chose que d’une langue-jouet.
+
+src_latex{\newpage}
+* Description du lexique
+
+src_latex{\newpage}
+* Phonologie
+** Inventaire phonétique
+Comme mentionné en introduction (§[[*Introduction]]), Le Mettér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
+
+*** Consonnes
+*** Voyelles
+** Notes sur la romanisation du Mattér
+** Diphtonges
+** Allophonie
+** Phonotaxes
+
+src_latex{\newpage}
+* Morphologie
+** Noms
+** Déterminants
+** Adjectifs
+** Pronoms
+** Verbes
+** Conjonctions
+** Adverbes
+** Prépositions
+
+src_latex{\newpage}
+* Syntaxe
+
+src_latex{\newpage}
+* Morphosyntaxe
+
+src_latex{\newpage}
+* Sémantiques
+
+src_latex{\newpage}
+* Pragmatique
+
+src_latex{\newpage}
+* Phraséologie
+
+src_latex{\newpage}
+* Synchronie et diachronie
+
+src_latex{\newpage}
+* Système d’écriture
+
+src_latex{\newpage}
+* Glossaire
+
+src_latex{\newpage}
+* Annexes
