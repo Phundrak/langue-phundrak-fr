@@ -367,9 +367,10 @@ Voici ci-dessous le tableau des nombres, genrés ou non.
 
 *** Déclinaisons
 
-** Pronoms
-** Adjectifs et Verbes
-** Adverbes
+** Déterminants
+** Adjectifs et adverbes
+** Verbes
+** Conjonctions
 
 src_latex{\newpage}
 * Syntaxe
