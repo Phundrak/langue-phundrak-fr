@@ -69,7 +69,6 @@ body{
     max-width:900px;
     overflow-x:auto !important;
     overflow-y: hidden;
-    min-height:100%;
     padding:1.618em 3.236em;
 }
 
