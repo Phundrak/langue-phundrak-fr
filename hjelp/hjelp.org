@@ -59,40 +59,42 @@ src_latex{\newpage}
     Le Hjelp est une langue disposant d’un très large panel de consonnes. Voici ci-dessous le tableau des consonnes du Hjelp, translittéré puis en IPA.
 
 #+CAPTION: Consonnes du Hjelp (translittération)
-|            | nasal | occlusif | fricatif | spirant | roulé | fric-lat | spir-lat | semi-vow |
-|------------+-------+----------+----------+---------+-------+----------+----------+----------|
-| bilabial   | m     | p b      |          |         |       |          |          | w        |
-| lab-dent   |       |          | f v      |         |       |          |          |          |
-| dental     |       |          | þ ð      |         |       |          |          |          |
-| alvéolaire | n ń   | t d      | s z      | ŕ       | r     | lh       | l ĺ      |          |
-| pal-alv    |       |          | sh zh    |         |       |          |          |          |
-| rétroflexe |       | ŧ đ      |          |         |       |          |          |          |
-| palatal    |       |          | ch jh    | j       |       |          |          |          |
-| vélaire    | ng    | k g      |          |         |       |          |          |          |
-| uvulaire   |       |          | qh rh    |         |       |          |          |          |
-| glottal    |       | ’        | h        |         |       |          |          |          |
-| /          | <     | <        | <        | <       | <     | <        | <        | <        |
+|            | nasal | occlusif | fricatif | spirant | roulé | fric-lat | spir-lat |
+|------------+-------+----------+----------+---------+-------+----------+----------|
+| bilabial   | m     | p b      |          |         |       |          |          |
+| lab-dent   |       |          | f v      |         |       |          |          |
+| dental     |       |          | þ ð      |         |       |          |          |
+| alvéolaire | n ń   | t d      | s z      | ŕ       | r     | lh       | l ĺ      |
+| pal-alv    |       |          | sh zh    |         |       |          |          |
+| rétroflexe |       | ŧ đ      |          |         |       |          |          |
+| palatal    |       |          | ch jh    | j       |       |          |          |
+| lab-vel    |       |          |          | w       |       |          |          |
+| vélaire    | ng    | k g      |          |         |       |          |          |
+| uvulaire   |       |          | qh rh    |         |       |          |          |
+| glottal    |       | ’        | h        |         |       |          |          |
+| /          | <     | <        | <        | <       | <     | <        | <        |
 
 #+CAPTION: Consonnes du Hjelp (IPA)
-|            | nasal      | occlusif | fricatif | spirant | battu | fric-lat | spir-lat | semi-vow |
-|------------+------------+----------+----------+---------+-------+----------+----------+----------|
-| bilabial   | m [m̩] [m̩ʲ] | p b      | [ɸ] [β]  |         |       |          |          | w        |
-| lab-dent   |            |          | f v      |         |       |          |          |          |
-| dental     |            |          | θ ð      |         |       |          |          |          |
-| alvéolaire | n n̩        | t d      | s z      | ɹ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |          |
-| pal-alv    |            |          | ʃ ʒ      |         |       |          |          |          |
-| rétroflexe |            | ʈ ɖ      |          |         |       |          |          |          |
-| palatal    | [ɲ̩]        |          | ç ʝ      | j       |       |          |          |          |
-| vélaire    | ŋ          | k g      | [x] [ɣ]  |         |       |          |          |          |
-| uvulaire   |            |          | χ ʁ      |         |       |          |          |          |
-| glottal    |            | ʔ        | h [ɦ]    |         |       |          |          |          |
-| /          | <          | <        | <        | <       | <     | <        | <        | <        |
+|            | nasal      | occlusif | fricatif | spirant | battu | fric-lat | spir-lat |
+|------------+------------+----------+----------+---------+-------+----------+----------|
+| bilabial   | m [m̩] [m̩ʲ] | p b      | [ɸ] [β]  |         |       |          |          |
+| lab-dent   |            |          | f v      |         |       |          |          |
+| dental     |            |          | θ ð      |         |       |          |          |
+| alvéolaire | n n̩        | t d      | s z      | ɹ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |
+| pal-alv    |            |          | ʃ ʒ      |         |       |          |          |
+| rétroflexe |            | ʈ ɖ      |          |         |       |          |          |
+| palatal    | [ɲ̩]        |          | ç ʝ      | j       |       |          |          |
+| lab-vel    |            |          |          | w       |       |          |          |
+| vélaire    | ŋ          | k g      | [x] [ɣ]  |         |       |          |          |
+| uvulaire   |            |          | χ ʁ      |         |       |          |          |
+| glottal    |            | ʔ        | h [ɦ]    |         |       |          |          |
+| /          | <          | <        | <        | <       | <     | <        | <        |
 
     On peut remarquer une grande complexité au niveau des consonnes occlusives et fricatives, avec également un bon nombre de consonnes alvéolaires. Presque toutes les consonnes occlusives et fricatives sont par ailleurs dotées de leur équivalent voisé ou sourd, à l’exception des deux consonnes glottales. À noter que les phonèmes du tableau IPA entre crochets sont des allophones et n’ont pas de représentation qui leur est propre. Il est également à noter la présence de <ń> et <ĺ> qui sont toutes deux des consonnes syllabiques ; cela signifie qu’elles ne sont pas considérées comme des consonnes mais comme des voyelles à part entière au même titre que celles que nous verrons ci-dessous.
 
 Voici ci-dessous une description individuelle de chaque consonne :
 - b :: Il s’agit du <b> standard dont disposent le Français dans « bonbon » [bɔ̃bɔ̃] ou l’Anglais « believe » [bɪlɪv], une consonne bilabiale occlusive voisée [b].
-- ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt]. Il s’agit d’une consonne fricative palatale sourde [ç].
+- ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt] ou en Anglais Britannique dans « hue » [çʉː]. Il s’agit d’une consonne fricative palatale sourde [ç].
 - d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
 - f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
 - g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
