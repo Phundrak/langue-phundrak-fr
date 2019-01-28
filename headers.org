@@ -12,7 +12,7 @@
 #+HTML_DOCTYPE: html5
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
-#+HTML_HEAD: <meta property="og:image" content="https://langue.phundrak.fr/img/rich_preview.jpg" />
+#+HTML_HEAD: <meta property="og:image" content="https://langue.phundrak.fr/img/rich_preview.png" />
 #+HTML_HEAD: <meta name="twitter:card" content="summary" />
 #+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
