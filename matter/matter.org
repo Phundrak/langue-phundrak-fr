@@ -7,9 +7,7 @@
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
 
 * Avant-propos
-La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents.
-
-Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]].
+La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
 
 src_latex{\newpage}
 * Introduction
