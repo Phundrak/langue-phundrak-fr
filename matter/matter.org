@@ -128,7 +128,7 @@ Concernant les consonnes, différentes règles s’appliquent selon la situation
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter jusqu’à deux consonnes ou aucune.
 - Le /​j/ ne peut être suivi par un /​i/.
 - Le /​w/ ne peut être suivi par une voyelle postérieure.
-- Les fricatives, occlusives et nasales peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.
+- Les fricatives et occlusives peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.
 - Les friccatives peuvent être suivies par une occlusive, par un /​r/ ou un /​l/.
 - Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.
 
