@@ -369,7 +369,7 @@ src_latex{\newpage}
 - tere :: (nn) tour, haut monument
 - urby :: (nn) ville
 - velt :: (nn) monde, la Terre
-θ
+
 src_latex{\newpage}
 * Annexes
 
