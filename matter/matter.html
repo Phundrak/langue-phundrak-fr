@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<!-- 2019-02-11 lun. 20:52 -->
+<!-- 2019-02-12 mar. 10:03 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Une Grammaire du Mattér</title>
@@ -159,6 +159,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -198,7 +211,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -250,50 +263,51 @@ for the JavaScript code in this tag.
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge5168b0">1. Avant-propos</a></li>
-<li><a href="#org5652878">2. Introduction</a></li>
-<li><a href="#org6722395">3. Description du lexique</a></li>
-<li><a href="#org66320dd">4. Phonologie</a>
+<li><a href="#org8cf1ddd">1. Avant-propos</a></li>
+<li><a href="#org1d24d64">2. Introduction</a></li>
+<li><a href="#org4fe02c7">3. Description du lexique</a></li>
+<li><a href="#org305fa64">4. Phonologie</a>
 <ul>
-<li><a href="#org4e63277">4.1. Notes sur la romanisation du Mattér</a></li>
-<li><a href="#org61550a3">4.2. Inventaire phonétique</a>
+<li><a href="#orge754ee8">4.1. Notes sur la romanisation du Mattér</a></li>
+<li><a href="#org1c40cc8">4.2. Inventaire phonétique</a>
 <ul>
-<li><a href="#org13230e4">4.2.1. Consonnes</a></li>
-<li><a href="#org7faf51b">4.2.2. Voyelles</a></li>
-<li><a href="#org0bdba6b">4.2.3. Diphtonges</a></li>
+<li><a href="#org44810e3">4.2.1. Consonnes</a></li>
+<li><a href="#orgaf5adf2">4.2.2. Voyelles</a></li>
+<li><a href="#org21fb6aa">4.2.3. Diphtonges</a></li>
 </ul>
 </li>
-<li><a href="#org1ef25d8">4.3. Allophonie</a></li>
-<li><a href="#org8f3971a">4.4. Phonotaxes</a>
+<li><a href="#orgd008b9d">4.3. Allophonie</a></li>
+<li><a href="#orgd72b824">4.4. Phonotaxes</a>
 <ul>
-<li><a href="#org20249ee">4.4.1. Attaque</a></li>
-<li><a href="#orgd1bc416">4.4.2. Coda</a></li>
+<li><a href="#org7aa73b5">4.4.1. Attaque</a></li>
+<li><a href="#org178b203">4.4.2. Coda</a></li>
+<li><a href="#org819b7a4">4.4.3. Inter-syllabe</a></li>
 </ul>
 </li>
-<li><a href="#org550caee">4.5. Accentuation</a></li>
+<li><a href="#org5774142">4.5. Accentuation</a></li>
 </ul>
 </li>
-<li><a href="#org57056b0">5. Morphologie</a>
+<li><a href="#org196d692">5. Morphologie</a>
 <ul>
-<li><a href="#org6b285eb">5.1. Noms</a></li>
-<li><a href="#orgdbfe0ea">5.2. Déterminants</a></li>
-<li><a href="#org634d25d">5.3. Adjectifs</a></li>
-<li><a href="#org7eef26b">5.4. Pronoms</a></li>
-<li><a href="#orgba1b3b2">5.5. Verbes</a></li>
-<li><a href="#org0556199">5.6. Conjonctions</a></li>
-<li><a href="#org1771b53">5.7. Adverbes</a></li>
-<li><a href="#org89a7afd">5.8. Prépositions</a></li>
+<li><a href="#org893060f">5.1. Noms</a></li>
+<li><a href="#org2cb0a6c">5.2. Déterminants</a></li>
+<li><a href="#org5f1b271">5.3. Adjectifs</a></li>
+<li><a href="#org88c2cda">5.4. Pronoms</a></li>
+<li><a href="#org6e06e16">5.5. Verbes</a></li>
+<li><a href="#orgb6671d9">5.6. Conjonctions</a></li>
+<li><a href="#org531eea7">5.7. Adverbes</a></li>
+<li><a href="#org669d49d">5.8. Prépositions</a></li>
 </ul>
 </li>
-<li><a href="#org4fbddf6">6. Syntaxe</a></li>
-<li><a href="#org8d3521c">7. Morphosyntaxe</a></li>
-<li><a href="#org45cf4bb">8. Sémantiques</a></li>
-<li><a href="#orgf1503b5">9. Pragmatique</a></li>
-<li><a href="#org4ce96e4">10. Phraséologie</a></li>
-<li><a href="#orgefdef6d">11. Synchronie et diachronie</a></li>
-<li><a href="#org6147c8a">12. Système d’écriture</a></li>
-<li><a href="#org6fa5c8f">13. Glossaire</a></li>
-<li><a href="#org5b7354a">14. Annexes</a></li>
+<li><a href="#org00ddf89">6. Syntaxe</a></li>
+<li><a href="#orgaacb30d">7. Morphosyntaxe</a></li>
+<li><a href="#org7848409">8. Sémantiques</a></li>
+<li><a href="#orgfb5d7b1">9. Pragmatique</a></li>
+<li><a href="#org62fb824">10. Phraséologie</a></li>
+<li><a href="#orga5fcf3e">11. Synchronie et diachronie</a></li>
+<li><a href="#orgecbd84a">12. Système d’écriture</a></li>
+<li><a href="#org7cf6ddc">13. Glossaire</a></li>
+<li><a href="#orga5ab576">14. Annexes</a></li>
 </ul>
 </div>
 </div>
@@ -301,8 +315,8 @@ for the JavaScript code in this tag.
 
 </p>
 
-<div id="outline-container-orge5168b0" class="outline-2">
-<h2 id="orge5168b0"><span class="section-number-2">1</span> Avant-propos</h2>
+<div id="outline-container-org8cf1ddd" class="outline-2">
+<h2 id="org8cf1ddd"><span class="section-number-2">1</span> Avant-propos</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse <a href="https://langue.phundrak.fr/matter/">https://langue.phundrak.fr/matter/</a> et au format PDF à l’adresse <a href="https://langue.phundrak.fr/matter/matter.pdf">https://langue.phundrak.fr/matter/matter.pdf</a>. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, <a href="https://phundrak.fr">https://phundrak.fr</a>. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
@@ -313,8 +327,8 @@ La redistribution ou vente de ce document sont strictement interdits. Ce documen
 </p>
 </div>
 </div>
-<div id="outline-container-org5652878" class="outline-2">
-<h2 id="org5652878"><span class="section-number-2">2</span> Introduction</h2>
+<div id="outline-container-org1d24d64" class="outline-2">
+<h2 id="org1d24d64"><span class="section-number-2">2</span> Introduction</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique.
@@ -329,40 +343,40 @@ Cette langue est un projet à part de mon univers littéraire et fut créé dans
 </p>
 </div>
 </div>
-<div id="outline-container-org6722395" class="outline-2">
-<h2 id="org6722395"><span class="section-number-2">3</span> Description du lexique</h2>
+<div id="outline-container-org4fe02c7" class="outline-2">
+<h2 id="org4fe02c7"><span class="section-number-2">3</span> Description du lexique</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org66320dd" class="outline-2">
-<h2 id="org66320dd"><span class="section-number-2">4</span> Phonologie</h2>
+<div id="outline-container-org305fa64" class="outline-2">
+<h2 id="org305fa64"><span class="section-number-2">4</span> Phonologie</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org4e63277" class="outline-3">
-<h3 id="org4e63277"><span class="section-number-3">4.1</span> Notes sur la romanisation du Mattér</h3>
+<div id="outline-container-orge754ee8" class="outline-3">
+<h3 id="orge754ee8"><span class="section-number-3">4.1</span> Notes sur la romanisation du Mattér</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
-Comme vous avez pu vous en rendre compte aux chapitres §<a href="#org13230e4">4.2.1</a> et §<a href="#org7faf51b">4.2.2</a>, le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (<i>International Phonetic Alphabet</i>), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§<a href="#org1ef25d8">4.3</a>) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation.
+Comme vous avez pu vous en rendre compte aux chapitres §<a href="#org44810e3">4.2.1</a> et §<a href="#orgaf5adf2">4.2.2</a>, le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (<i>International Phonetic Alphabet</i>), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§<a href="#orgd008b9d">4.3</a>) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org61550a3" class="outline-3">
-<h3 id="org61550a3"><span class="section-number-3">4.2</span> Inventaire phonétique</h3>
+<div id="outline-container-org1c40cc8" class="outline-3">
+<h3 id="org1c40cc8"><span class="section-number-3">4.2</span> Inventaire phonétique</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
-Comme mentionné en introduction (§<a href="#org5652878">2</a>), le Mattér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
+Comme mentionné en introduction (§<a href="#org1d24d64">2</a>), le Mattér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
 </p>
 </div>
 
-<div id="outline-container-org13230e4" class="outline-4">
-<h4 id="org13230e4"><span class="section-number-4">4.2.1</span> Consonnes</h4>
+<div id="outline-container-org44810e3" class="outline-4">
+<h4 id="org44810e3"><span class="section-number-4">4.2.1</span> Consonnes</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <p>
-Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §<a href="#org4e63277">4.1</a> concernant la translittération).
+Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §<a href="#orge754ee8">4.1</a> concernant la translittération).
 </p>
 
 <table>
@@ -601,13 +615,13 @@ Voici ci-dessous une description individuelle de chaque consonne :
 </dl>
 
 <p>
-Les consonnes nasales, occlusives ainsi que le <i>​l</i> peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le &lt;tt&gt; de &lt;Mattér&gt; sera prononcé <i>​tː</i>, et &lt;Mattér&gt; sera prononcé <i>​'mat:er</i>.
+Les consonnes nasales, occlusives ainsi que le /​l/ peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le &lt;tt&gt; de &lt;Mattér&gt; sera prononcé /​tː/, et &lt;Mattér&gt; sera prononcé /​'mat:er/.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org7faf51b" class="outline-4">
-<h4 id="org7faf51b"><span class="section-number-4">4.2.2</span> Voyelles</h4>
+<div id="outline-container-orgaf5adf2" class="outline-4">
+<h4 id="orgaf5adf2"><span class="section-number-4">4.2.2</span> Voyelles</h4>
 <div class="outline-text-4" id="text-4-2-2">
 <p>
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
@@ -723,11 +737,11 @@ Voici ci-dessous la description de chacune de ces voyelles :
 </div>
 </div>
 
-<div id="outline-container-org0bdba6b" class="outline-4">
-<h4 id="org0bdba6b"><span class="section-number-4">4.2.3</span> Diphtonges</h4>
+<div id="outline-container-org21fb6aa" class="outline-4">
+<h4 id="org21fb6aa"><span class="section-number-4">4.2.3</span> Diphtonges</h4>
 <div class="outline-text-4" id="text-4-2-3">
 <p>
-Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « <i>I</i> » prononcé <i>aɪ​</i>. Voici la liste des diphtongues existant en Hjelp :
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « <i>I</i> » prononcé /aɪ​/. Voici la liste des diphtongues existant en Hjelp :
 </p>
 <table>
 
@@ -739,52 +753,52 @@ Les diphtongues sont des associations de voyelles considérées dans une langue 
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left"><i>​ɛi</i></td>
-<td class="org-left"><i>​ai</i></td>
+<td class="org-left">/​ɛi/</td>
+<td class="org-left">/​ai/</td>
 </tr>
 
 <tr>
-<td class="org-left"><i>​ea</i></td>
-<td class="org-left"><i>​ae</i></td>
+<td class="org-left">/​ea/</td>
+<td class="org-left">/​ae/</td>
 </tr>
 
 <tr>
-<td class="org-left"><i>​eu</i></td>
-<td class="org-left"><i>​au</i></td>
+<td class="org-left">/​eu/</td>
+<td class="org-left">/​au/</td>
 </tr>
 
 <tr>
-<td class="org-left"><i>​ou</i></td>
+<td class="org-left">/​ou/</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 
 <p>
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du <i>​ɛi</i> qui est écrit &lt;ei&gt;. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un &lt;a&gt; après un &lt;e&gt;, la diphtongue &lt;ea&gt; se produira naturellement, comme pour la forme nominative de &lt;ilen&gt; (<i>tour</i>) qui devient &lt;ileant&gt; dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du /​ɛi/ qui est écrit &lt;ei&gt;. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un &lt;a&gt; après un &lt;e&gt;, la diphtongue &lt;ea&gt; se produira naturellement, comme pour la forme nominative de &lt;ilen&gt; (<i>tour</i>) qui devient &lt;ileant&gt; dans sa forme accusative.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org1ef25d8" class="outline-3">
-<h3 id="org1ef25d8"><span class="section-number-3">4.3</span> Allophonie</h3>
+<div id="outline-container-orgd008b9d" class="outline-3">
+<h3 id="orgd008b9d"><span class="section-number-3">4.3</span> Allophonie</h3>
 <div class="outline-text-3" id="text-4-3">
 <p>
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
 </p>
 <ul class="org-ul">
-<li>Le <i>​i</i> peut également se prononcer <i>​ɪ</i> dans certains cas, comme dans les diphones, devant un <i>​ç</i>, <i>​j</i>, <i>​w</i> ou <i>​l</i>.</li>
-<li>Le <i>​l</i> se transforme en « &lt;l&gt; sombre » <i>​ɫ</i> en fin de syllabe, en particulier avant une pause ou un silence.</li>
+<li>Le /​i/ peut également se prononcer /​ɪ/ dans certains cas, comme dans les diphones, devant un /​ç/, /​j/, /​w/ ou /​l/.</li>
+<li>Le /​l/ se transforme en « &lt;l&gt; sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8f3971a" class="outline-3">
-<h3 id="org8f3971a"><span class="section-number-3">4.4</span> Phonotaxes</h3>
+<div id="outline-container-orgd72b824" class="outline-3">
+<h3 id="orgd72b824"><span class="section-number-3">4.4</span> Phonotaxes</h3>
 <div class="outline-text-3" id="text-4-4">
 <p>
-Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§<a href="#org0bdba6b">4.2.3</a>) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
+Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que &lt;jchkwufrwt&gt; ou &lt;nkwej&gt; ne sont pas possibles tandis que des mots tels que &lt;éljond&gt; ou &lt;yndest&gt; le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§<a href="#org21fb6aa">4.2.3</a>) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
 </p>
 
 <p>
@@ -792,44 +806,52 @@ Concernant les consonnes, différentes règles s’appliquent selon la situation
 </p>
 </div>
 
-<div id="outline-container-org20249ee" class="outline-4">
-<h4 id="org20249ee"><span class="section-number-4">4.4.1</span> Attaque</h4>
+<div id="outline-container-org7aa73b5" class="outline-4">
+<h4 id="org7aa73b5"><span class="section-number-4">4.4.1</span> Attaque</h4>
 <div class="outline-text-4" id="text-4-4-1">
 <p>
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter jusqu’à deux consonnes ou aucune.
 </p>
 <ul class="org-ul">
-<li>Le <i>​j</i> ne peut être suivi par un <i>​i</i>.</li>
-<li>Le <i>​w</i> ne peut être suivi par une voyelle postérieure.</li>
-<li>Les fricatives et occlusives peuvent être suivies par un <i>​r</i> ou un <i>​l</i>, ou par une semi-voyelle.</li>
-<li>Les friccatives peuvent être suivies par une occlusive, par un <i>​r</i> ou un <i>​l</i>.</li>
-<li>Les occlusives peuvent être suivies par une fricative, par un <i>​r</i> ou un <i>​l</i>.</li>
+<li>Le /​j/ ne peut être suivi par un /​i/.</li>
+<li>Le /​w/ ne peut être suivi par une voyelle postérieure.</li>
+<li>Les fricatives et occlusives peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.</li>
+<li>Les friccatives peuvent être suivies par une occlusive, par un /​r/ ou un /​l/.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd1bc416" class="outline-4">
-<h4 id="orgd1bc416"><span class="section-number-4">4.4.2</span> Coda</h4>
+<div id="outline-container-org178b203" class="outline-4">
+<h4 id="org178b203"><span class="section-number-4">4.4.2</span> Coda</h4>
 <div class="outline-text-4" id="text-4-4-2">
 <p>
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
 </p>
 <ul class="org-ul">
-<li>Les semi-consonnes <i>​j</i> et <i>​w</i> ne peuvent se situer dans le coda.</li>
-<li>Les consonnes <i>​r</i> et <i>​l</i> ne peuvent être suivies que par une consonne nasale.</li>
+<li>Les semi-consonnes /​j/ et /​w/ ne peuvent se situer dans le coda.</li>
+<li>Les consonnes /​r/ et /​l/ ne peuvent être suivies que par une consonne nasale.</li>
 <li>Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.</li>
 <li>Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.</li>
 </ul>
+</div>
+</div>
 
+<div id="outline-container-org819b7a4" class="outline-4">
+<h4 id="org819b7a4"><span class="section-number-4">4.4.3</span> Inter-syllabe</h4>
+<div class="outline-text-4" id="text-4-4-3">
 <p>
-Ainsi, des mots tels que &lt;jchkwufjt&gt; ou &lt;nkjew&gt; ne sont pas possibles tandis que des mots tels que &lt;éljond&gt; ou &lt;yndest&gt; le sont.
+Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
 </p>
+<ul class="org-ul">
+<li>Toutes les règles de l’attaque (§<a href="#org7aa73b5">4.4.1</a>) sont applicables.</li>
+<li>Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.</li>
+</ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org550caee" class="outline-3">
-<h3 id="org550caee"><span class="section-number-3">4.5</span> Accentuation</h3>
+<div id="outline-container-org5774142" class="outline-3">
+<h3 id="org5774142"><span class="section-number-3">4.5</span> Accentuation</h3>
 <div class="outline-text-3" id="text-4-5">
 <p>
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
@@ -841,33 +863,33 @@ Le Mattér est une langue dont l’accentuation est assez simple à suivre étan
 </div>
 </div>
 </div>
-<div id="outline-container-org57056b0" class="outline-2">
-<h2 id="org57056b0"><span class="section-number-2">5</span> Morphologie</h2>
+<div id="outline-container-org196d692" class="outline-2">
+<h2 id="org196d692"><span class="section-number-2">5</span> Morphologie</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org6b285eb" class="outline-3">
-<h3 id="org6b285eb"><span class="section-number-3">5.1</span> Noms</h3>
+<div id="outline-container-org893060f" class="outline-3">
+<h3 id="org893060f"><span class="section-number-3">5.1</span> Noms</h3>
 </div>
-<div id="outline-container-orgdbfe0ea" class="outline-3">
-<h3 id="orgdbfe0ea"><span class="section-number-3">5.2</span> Déterminants</h3>
+<div id="outline-container-org2cb0a6c" class="outline-3">
+<h3 id="org2cb0a6c"><span class="section-number-3">5.2</span> Déterminants</h3>
 </div>
-<div id="outline-container-org634d25d" class="outline-3">
-<h3 id="org634d25d"><span class="section-number-3">5.3</span> Adjectifs</h3>
+<div id="outline-container-org5f1b271" class="outline-3">
+<h3 id="org5f1b271"><span class="section-number-3">5.3</span> Adjectifs</h3>
 </div>
-<div id="outline-container-org7eef26b" class="outline-3">
-<h3 id="org7eef26b"><span class="section-number-3">5.4</span> Pronoms</h3>
+<div id="outline-container-org88c2cda" class="outline-3">
+<h3 id="org88c2cda"><span class="section-number-3">5.4</span> Pronoms</h3>
 </div>
-<div id="outline-container-orgba1b3b2" class="outline-3">
-<h3 id="orgba1b3b2"><span class="section-number-3">5.5</span> Verbes</h3>
+<div id="outline-container-org6e06e16" class="outline-3">
+<h3 id="org6e06e16"><span class="section-number-3">5.5</span> Verbes</h3>
 </div>
-<div id="outline-container-org0556199" class="outline-3">
-<h3 id="org0556199"><span class="section-number-3">5.6</span> Conjonctions</h3>
+<div id="outline-container-orgb6671d9" class="outline-3">
+<h3 id="orgb6671d9"><span class="section-number-3">5.6</span> Conjonctions</h3>
 </div>
-<div id="outline-container-org1771b53" class="outline-3">
-<h3 id="org1771b53"><span class="section-number-3">5.7</span> Adverbes</h3>
+<div id="outline-container-org531eea7" class="outline-3">
+<h3 id="org531eea7"><span class="section-number-3">5.7</span> Adverbes</h3>
 </div>
-<div id="outline-container-org89a7afd" class="outline-3">
-<h3 id="org89a7afd"><span class="section-number-3">5.8</span> Prépositions</h3>
+<div id="outline-container-org669d49d" class="outline-3">
+<h3 id="org669d49d"><span class="section-number-3">5.8</span> Prépositions</h3>
 <div class="outline-text-3" id="text-5-8">
 <p>
 
@@ -875,64 +897,64 @@ Le Mattér est une langue dont l’accentuation est assez simple à suivre étan
 </div>
 </div>
 </div>
-<div id="outline-container-org4fbddf6" class="outline-2">
-<h2 id="org4fbddf6"><span class="section-number-2">6</span> Syntaxe</h2>
+<div id="outline-container-org00ddf89" class="outline-2">
+<h2 id="org00ddf89"><span class="section-number-2">6</span> Syntaxe</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org8d3521c" class="outline-2">
-<h2 id="org8d3521c"><span class="section-number-2">7</span> Morphosyntaxe</h2>
+<div id="outline-container-orgaacb30d" class="outline-2">
+<h2 id="orgaacb30d"><span class="section-number-2">7</span> Morphosyntaxe</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org45cf4bb" class="outline-2">
-<h2 id="org45cf4bb"><span class="section-number-2">8</span> Sémantiques</h2>
+<div id="outline-container-org7848409" class="outline-2">
+<h2 id="org7848409"><span class="section-number-2">8</span> Sémantiques</h2>
 <div class="outline-text-2" id="text-8">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-orgf1503b5" class="outline-2">
-<h2 id="orgf1503b5"><span class="section-number-2">9</span> Pragmatique</h2>
+<div id="outline-container-orgfb5d7b1" class="outline-2">
+<h2 id="orgfb5d7b1"><span class="section-number-2">9</span> Pragmatique</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org4ce96e4" class="outline-2">
-<h2 id="org4ce96e4"><span class="section-number-2">10</span> Phraséologie</h2>
+<div id="outline-container-org62fb824" class="outline-2">
+<h2 id="org62fb824"><span class="section-number-2">10</span> Phraséologie</h2>
 <div class="outline-text-2" id="text-10">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-orgefdef6d" class="outline-2">
-<h2 id="orgefdef6d"><span class="section-number-2">11</span> Synchronie et diachronie</h2>
+<div id="outline-container-orga5fcf3e" class="outline-2">
+<h2 id="orga5fcf3e"><span class="section-number-2">11</span> Synchronie et diachronie</h2>
 <div class="outline-text-2" id="text-11">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org6147c8a" class="outline-2">
-<h2 id="org6147c8a"><span class="section-number-2">12</span> Système d’écriture</h2>
+<div id="outline-container-orgecbd84a" class="outline-2">
+<h2 id="orgecbd84a"><span class="section-number-2">12</span> Système d’écriture</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org6fa5c8f" class="outline-2">
-<h2 id="org6fa5c8f"><span class="section-number-2">13</span> Glossaire</h2>
+<div id="outline-container-org7cf6ddc" class="outline-2">
+<h2 id="org7cf6ddc"><span class="section-number-2">13</span> Glossaire</h2>
 <div class="outline-text-2" id="text-13">
 <dl class="org-dl">
 <dt>ile</dt><dd>(nn) tour</dd>
@@ -942,15 +964,15 @@ Le Mattér est une langue dont l’accentuation est assez simple à suivre étan
 </p>
 </div>
 </div>
-<div id="outline-container-org5b7354a" class="outline-2">
-<h2 id="org5b7354a"><span class="section-number-2">14</span> Annexes</h2>
+<div id="outline-container-orga5ab576" class="outline-2">
+<h2 id="orga5ab576"><span class="section-number-2">14</span> Annexes</h2>
 <div class="outline-text-2" id="text-14">
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Auteur: Lucien Cartier-Tilet</p>
-<p class="date">Created: 2019-02-11 lun. 20:52</p>
+<p class="date">Created: 2019-02-12 mar. 10:03</p>
 <p class="validation"></p>
 </div>
 </body>

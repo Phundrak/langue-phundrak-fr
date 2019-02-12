@@ -120,7 +120,7 @@ Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l�
 - Le /​l/ se transforme en « <l> sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence.
 
 ** Phonotaxes
-Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
+Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
 
 Concernant les consonnes, différentes règles s’appliquent selon la situation dans la syllabe.
 
@@ -130,7 +130,6 @@ L’attaque est la première partie de la syllabe, les premières consonnes la c
 - Le /​w/ ne peut être suivi par une voyelle postérieure.
 - Les fricatives et occlusives peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.
 - Les friccatives peuvent être suivies par une occlusive, par un /​r/ ou un /​l/.
-- Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.
 
 *** Coda
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
@@ -139,7 +138,10 @@ Le coda (la seconde partie consonnantique de la syllabe la terminant) est compos
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 
-Ainsi, des mots tels que <jchkwufjt> ou <nkjew> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont.
+*** Inter-syllabe
+Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
+- Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
+- Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.
 
 ** Accentuation
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
