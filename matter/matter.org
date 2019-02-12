@@ -356,7 +356,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 |   |      1 0000 0000 | mollen  |
 |   | 1 0000 0000 0000 | vreljen |
 
-Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les nombres nommés <anrad> et plus grands sont suffixés à un nombre plus petit qui les multiplie. Ainsi, le nombre <1789> se traduirait par <onnén achteig theananrad tansen>, et <2345 6789> (ou <23 456 789> selon la typographie française) se traduirait par <onnén achteig theananrad chcaectansen ar dheif fro dheanrad twétansan deten>. Remarquez que la traduction littérale est « 6789 et 2345 0000 ». Entre chaque groupe de quatre chiffre, un <ar> (« et ») est ajouté afin de séparer les groupes.
+Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les nombres nommés <anrad> et plus grands sont suffixés à un nombre plus petit qui les multiplie. Ainsi, le nombre <1789> se traduirait par <onnén achteig theananrad tansen>, et <2345 6789> (ou <23 456 789> selon la typographie française) se traduirait par <onnén achteig theananrad chcaectansen ar dheif fro dheanrad twétansan deten>. Remarquez que la traduction littérale est « 6789 et 2345 0000 ». Entre chaque groupe de quatre chiffre, un <ar> (« et ») est ajouté afin de séparer les groupes. Indiquer un multiplicateur de un est considéré comme inutile, ainsi les termes tels que <deten>, <mollen> et <vreljen> se suffisent à eux-même pour signifier <1 0000>, <1 0000 0000> et <1 0000 0000 0000> respectivement.
 
 src_latex{\newpage}
 * Système d’écriture
