@@ -135,7 +135,7 @@ L’attaque est la première partie de la syllabe, les premières consonnes la c
 *** Coda
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
 - Les semi-consonnes /​j/ et /​w/ ne peuvent se situer dans le coda.
-- Les consonnes /​r/ et /​l/ ne peuvent être suivies que par une consonne nasale.
+- Les consonnes /​r/ et /​l/ peuvent être suivies par une consonne nasale ou fricative.
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 
@@ -302,7 +302,45 @@ Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose p
 Les adjectifs
 
 ** Pronoms
+Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
+
+- Première personne :
+| /         | <>        |           |       |         |
+|           | nominatif | accusatif | datif | génitif |
+|-----------+-----------+-----------+-------+---------|
+| singulier | çeg       | çent      | çeidh | çyn     |
+| paucal    | thi       | thid      | thidh | thyn    |
+| pluriel   | non       | nound     | nonth | nun     |
+
+- Seconde personne :
+| /         | <>        |           |       |         |         |
+|           | nominatif | accusatif | datif | génitif | vocatif |
+|-----------+-----------+-----------+-------+---------+---------|
+| singulier | du        | daun      | dudh  | dyn     | edin    |
+| paucal    |           |           |       |         |         |
+| pluriel   |           |           |       |         |         |
+
+- Troisième personne :
+| /                    | <>        |           |       |         |         |
+|                      | nominatif | accusatif | datif | génitif | vocatif |
+|----------------------+-----------+-----------+-------+---------+---------|
+| singulier neutre     |           |           |       |         |         |
+| singulier masculin   |           |           |       |         |         |
+| singulier féminin    |           |           |       |         |         |
+| singulier non-humain |           |           |       |         |         |
+| paucal neutre        |           |           |       |         |         |
+| paucal masculin      |           |           |       |         |         |
+| paucal féminin       |           |           |       |         |         |
+| paucal non-humain    |           |           |       |         |         |
+| pluriel neutre       |           |           |       |         |         |
+| pluriel masculin     |           |           |       |         |         |
+| pluriel féminin      |           |           |       |         |         |
+| pluriel non-humain   |           |           |       |         |         |
+
 ** Verbes
+
+temp : être passé perfectif : vath
+
 ** Conjonctions
 ** Adverbes
 ** Prépositions
@@ -365,6 +403,11 @@ src_latex{\newpage}
 * Glossaire
 
 - ar :: (conj.) et
+- brydh :: (nn) naissance
+- brydhdeg :: (nn) jour de naissance, anniversaire
+- daeg :: (nn) jour
+- gaern :: (nn) année
+- menyth :: (nn) mois
 - norm :: (nn) nombre, numéro (ordinal)
 - tere :: (nn) tour, haut monument
 - urby :: (nn) ville
