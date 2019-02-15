@@ -39,6 +39,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | palatal       |       |          | ç        | j       |       |                  |
 | labio-velaire |       |          |          | w       |       |                  |
 | vélaire       |       | k g      |          |         |       |                  |
+| glottal       |       |          | h        |         |       |                  |
 | /             | <     | <        | <        | <       | <     | <                |
 
 #+CAPTION: Consonnes du Hjelp (translittération)
@@ -50,6 +51,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | palatal       |       |          | ch       | j       |       |                  |
 | labio-velaire |       |          |          | w       |       |                  |
 | vélaire       |       | k g      |          |         |       |                  |
+| glottal       |       |          | h        |         |       |                  |
 | /             | <     | <        | <        | <       | <     | <                |
 
 On peut remarquer que la large majorité des consonnes se situe entre les points d’articulation alvéolaire et bilabial, et toutes les consonnes occlusives ou fricatives disposent de leur contrepartie sourde ou voisée.
@@ -60,6 +62,7 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
 - f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
 - g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
+- h :: Il s’agit de la même consonne que le [h] que l’on retrouve en Anglais, tel que dans « high » [haɪ̯] ou en Allemand « Hass » [has]. Il s’agit donc de la consonne friccative glottale sourde [h].
 - j :: Le <j> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
 - k :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
 - l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Le <l> du Hjelp est donc une consonne alvéolaire spirante-latérale voisée [l].
@@ -117,8 +120,9 @@ Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont c
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
-- Le /​i/ peut également se prononcer /​ɪ/ dans certains cas, comme dans les diphones, devant un /​ç/, /​j/, /​w/ ou /​l/.
-- Le /​l/ se transforme en « <l> sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence.
+- Le /​i/ peut également se prononcer /​ɪ/ dans certains cas, comme dans les diphones, devant un /​ç/, /​j/, /​w/ ou /​l/, selon le locuteur. Exemple : <neich> /​nɛiç/ [nɛɪç]
+- Le /​l/ se transforme en « <l> sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> /​mael/ [maeɫ]
+- Le /​h/ se transforme en /​ç/ s’il est suivi par un /​j/, un /​e/ ou un /​i/. Exemple : <hét> /​het/ [çet]
 
 ** Phonotaxes
 Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
@@ -316,26 +320,26 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | /         | <>        |           |       |         |         |
 |           | nominatif | accusatif | datif | génitif | vocatif |
 |-----------+-----------+-----------+-------+---------+---------|
-| singulier | du        | daun      | dudh  | dyn     | edin    |
-| paucal    |           |           |       |         |         |
-| pluriel   |           |           |       |         |         |
+| singulier | du        | daun      | dudh  | dyn     | udy     |
+| paucal    | im        | eint      | dhi   | nim     | eny     |
+| pluriel   | min       | meint     | minth | meun    | miny    |
 
 - Troisième personne :
-| /                    | <>        |           |       |         |         |
-|                      | nominatif | accusatif | datif | génitif | vocatif |
-|----------------------+-----------+-----------+-------+---------+---------|
-| singulier neutre     |           |           |       |         |         |
-| singulier masculin   |           |           |       |         |         |
-| singulier féminin    |           |           |       |         |         |
-| singulier non-humain |           |           |       |         |         |
-| paucal neutre        |           |           |       |         |         |
-| paucal masculin      |           |           |       |         |         |
-| paucal féminin       |           |           |       |         |         |
-| paucal non-humain    |           |           |       |         |         |
-| pluriel neutre       |           |           |       |         |         |
-| pluriel masculin     |           |           |       |         |         |
-| pluriel féminin      |           |           |       |         |         |
-| pluriel non-humain   |           |           |       |         |         |
+| /                    | <>        |           |        |         |         |
+|                      | nominatif | accusatif | datif  | génitif | vocatif |
+|----------------------+-----------+-----------+--------+---------+---------|
+| singulier neutre     | hé        | hét       | heth   | hén     | yhé     |
+| singulier masculin   | hae       | haed      | haedh  | haen    | yhae    |
+| singulier féminin    | hou       | hound     | hudh   | houn    | yhou    |
+| singulier non-humain | hit       | hint      | hith   | him     | yhi     |
+| paucal neutre        | hei       | heit      | heith  | hein    | yhei    |
+| paucal masculin      | tha       | thad      | thaidh | than    | ytha    |
+| paucal féminin       | thu       | thunt     | thou   | thun    | ythu    |
+| paucal non-humain    | hou       | hot       | hoth   | dho     | ydhou   |
+| pluriel neutre       | hea       | hint      | heath  | heam    | heathy  |
+| pluriel masculin     | tha       | that      | thaidh | than    | thaidhy |
+| pluriel féminin      | thu       | thunt     | thou   | thun    | ythu    |
+| pluriel non-humain   | hou       | hout      | houth  | dho     | houthy  |
 
 ** Verbes
 
