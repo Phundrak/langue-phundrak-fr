@@ -21,7 +21,9 @@ src_latex{\newpage}
 src_latex{\newpage}
 * Phonologie
 ** Notes sur la romanisation du Mattér
-Comme vous avez pu vous en rendre compte aux chapitres §[[*Consonnes]] et §[[*Voyelles]], le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (/International Phonetic Alphabet/), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[*Allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation.
+Comme vous avez pu vous en rendre compte aux chapitres §[[*Consonnes]] et §[[*Voyelles]], le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (/International Phonetic Alphabet/), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[*Allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique générale, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique rapprochée sera nécessaire pour avoir la prononciation exacte.
+
+La transcription phonétique générale sera ​/entre barres obliques/, la transcription phonétique rapprochée sera [entre crochets] tandis que des éléments translittérés du Mattér seront <entre chevrons>.
 
 ** Inventaire phonétique
 Comme mentionné en introduction (§[[*Introduction]]), le Mattér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
@@ -48,19 +50,19 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | alvéolaire    | n     | t d      | th dh    |         | r     | l                |
 | palatal       |       |          | ch       | j       |       |                  |
 | labio-velaire |       |          |          | w       |       |                  |
-| vélaire       |       | k g      |          |         |       |                  |
+| vélaire       |       | c g      |          |         |       |                  |
 | /             | <     | <        | <        | <       | <     | <                |
 
 On peut remarquer que la large majorité des consonnes se situe entre les points d’articulation alvéolaire et bilabial, et toutes les consonnes occlusives ou fricatives disposent de leur contrepartie sourde ou voisée.
 
 Voici ci-dessous une description individuelle de chaque consonne :
 - b :: Il s’agit du <b> standard dont disposent le Français dans « bonbon » [bɔ̃bɔ̃] ou l’Anglais « believe » [bɪlɪv], une consonne bilabiale occlusive voisée [b].
+- c :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
 - ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt] ou en Anglais Britannique dans « hue » [çʉː]. Il s’agit d’une consonne fricative palatale sourde [ç].
 - d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
 - f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
 - g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
 - j :: Le <j> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
-- k :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
 - l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Le <l> du Hjelp est donc une consonne alvéolaire spirante-latérale voisée [l].
 - m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
 - n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
@@ -106,18 +108,18 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ], en Hongrois avec « tű » [t̪yː] ou tout simplement en Français dans « lune » [lyn]. Il s’agit de la voyelle antérieure fermée arrondie [y].
 
 *** Diphtonges
-Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé /aɪ​/. Voici la liste des diphtongues existant en Hjelp :
-| /​ɛi/ | /​ai/ |
-| /​ea/ | /​ae/ |
-| /​eu/ | /​au/ |
-| /​ou/ |      |
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « ​/I/ » prononcé ​/aɪ/. Voici la liste des diphtongues existant en Hjelp :
+| ​/ɛi/ | ​/ai/ |
+| ​/ea/ | ​/ae/ |
+| ​/eu/ | ​/au/ |
+| ​/ou/ |      |
 
 Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du /​ɛi/ qui est écrit <ei>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <ilen> (/tour/) qui devient <ileant> dans sa forme accusative.
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
-- Le /​i/ peut également se prononcer /​ɪ/ dans certains cas, comme dans les diphones, devant un /​ç/, /​j/, /​w/ ou /​l/.
-- Le /​l/ se transforme en « <l> sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence.
+- Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/.
+- Le ​/l/ se transforme en « <l> sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence.
 
 ** Phonotaxes
 Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
@@ -126,16 +128,16 @@ Concernant les consonnes, différentes règles s’appliquent selon la situation
 
 *** Attaque
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter jusqu’à deux consonnes ou aucune.
-- Le /​j/ ne peut être suivi par un /​i/.
-- Le /​w/ ne peut être suivi par une voyelle postérieure.
-- Les fricatives et occlusives peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.
-- Les friccatives peuvent être suivies par une occlusive, par un /​r/ ou un /​l/.
-- Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.
+- Le [j] ne peut être suivi par un ​/i/.
+- Le ​/w/ ne peut être suivi par une voyelle postérieure ou.
+- Les fricatives et occlusives peuvent être suivies par un ​/r/ ou un ​/l/, ou par une semi-voyelle.
+- Les friccatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.
+- Les occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
 
 *** Coda
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
-- Les semi-consonnes /​j/ et /​w/ ne peuvent se situer dans le coda.
-- Les consonnes /​r/ et /​l/ ne peuvent être suivies que par une consonne nasale.
+- Les semi-consonnes ​/j/ et ​/w/ ne peuvent se situer dans le coda.
+- Les consonnes ​/r/ et ​/l/ ne peuvent être suivies que par une consonne nasale.
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 
@@ -182,5 +184,78 @@ src_latex{\newpage}
 - ile :: (nn) tour
 src_latex{\newpage}
 * Annexes
+** Règles de génération de mots
+Le Mattér étant une langue-jouet, j’utiliserai occasionnellement le GenWord^{3} afin de créer du nouveau vocabulaire. Voici les paramètres utilisés pour cela :
+#+BEGIN_SRC text
+  --CATS--
+  N=mn
+  P=pbtdkg
+  F=fvþðç
+  R=rl
+  C=nmpbtdkgfvþðçrl
+  D=pbtdkgfvþðç
+  J=j
+  W=w
+  A=aeé
+  U=iouy
+  V=aeéyiou
+  --REWRITE--
+  þ||th
+  ð||dh
+  ç||ch
+  k||c
+  --MONO--
+
+  --MID--
+
+  --INIT--
+  CV
+  CVC
+  CVR
+  CVPF
+  CVFP
+  CVFR
+  CVPR
+  DRV
+  DRVC
+  DRVR
+  DRVFP
+  DRVPF
+  DRVPR
+  DRVFR
+  CJA
+  CWA
+  CJAC
+  CWAC
+  CJAR
+  CWAR
+  CJA
+  CWA
+  CJAFP
+  CWAFP
+  CJAPF
+  CWAPF
+  CJAFR
+  CWAFR
+  FPVPR
+  PFVPR
+  FPV
+  FPVC
+  PFVC
+  FPVR
+  PFVR
+  PFVFP
+  PFVFR
+  PFVPF
+  PFVPR
+  FPVFP
+  FPVFR
+  FPVPF
+  FPVPR
+  --FINAL--
+
+  --FLAGS--
+  1 0 monoMostly dropoffMolasses
+#+END_SRC
 
 #  LocalWords:  Pappa langue-jouet
