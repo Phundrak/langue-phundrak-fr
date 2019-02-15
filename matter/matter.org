@@ -17,6 +17,7 @@ Cette langue est un projet à part de mon univers littéraire et fut créé dans
 
 src_latex{\newpage}
 * Description du lexique
+Le lexique du Mattér sera largement inspiré par des racines nordiques (Suédois, Norvégien, Danois), germaniques (Allemand principalement) et du Vieil Anglais, ainsi qu’occasionellement du Latin.
 
 src_latex{\newpage}
 * Phonologie
@@ -40,6 +41,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | palatal       |       |          | ç        | j       |       |                  |
 | labio-velaire |       |          |          | w       |       |                  |
 | vélaire       |       | k g      |          |         |       |                  |
+| glottal       |       |          | h        |         |       |                  |
 | /             | <     | <        | <        | <       | <     | <                |
 
 #+CAPTION: Consonnes du Hjelp (translittération)
@@ -50,7 +52,8 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | alvéolaire    | n     | t d      | th dh    |         | r     | l                |
 | palatal       |       |          | ch       | j       |       |                  |
 | labio-velaire |       |          |          | w       |       |                  |
-| vélaire       |       | c g      |          |         |       |                  |
+| vélaire       |       | k g      |          |         |       |                  |
+| glottal       |       |          | h        |         |       |                  |
 | /             | <     | <        | <        | <       | <     | <                |
 
 On peut remarquer que la large majorité des consonnes se situe entre les points d’articulation alvéolaire et bilabial, et toutes les consonnes occlusives ou fricatives disposent de leur contrepartie sourde ou voisée.
@@ -62,6 +65,7 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
 - f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
 - g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
+- h :: Il s’agit de la même consonne que le [h] que l’on retrouve en Anglais, tel que dans « high » [haɪ̯] ou en Allemand « Hass » [has]. Il s’agit donc de la consonne friccative glottale sourde [h].
 - j :: Le <j> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
 - l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Le <l> du Hjelp est donc une consonne alvéolaire spirante-latérale voisée [l].
 - m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
@@ -114,45 +118,235 @@ Les diphtongues sont des associations de voyelles considérées dans une langue 
 | ​/eu/ | ​/au/ |
 | ​/ou/ |      |
 
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du /​ɛi/ qui est écrit <ei>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <ilen> (/tour/) qui devient <ileant> dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du /​ɛi/ qui est écrit <ei>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
-- Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/.
-- Le ​/l/ se transforme en « <l> sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence.
+- Le /​i/ peut également se prononcer /​ɪ/ dans certains cas, comme dans les diphones, devant un /​ç/, /​j/, /​w/ ou /​l/, selon le locuteur. Exemple : <neich> /​nɛiç/ [nɛɪç]
+- Le /​l/ se transforme en « <l> sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> /​mael/ [maeɫ]
+- Le /​h/ se transforme en /​ç/ s’il est suivi par un /​j/, un /​e/ ou un /​i/. Exemple : <hét> /​het/ [çet]
 
 ** Phonotaxes
-Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
+Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
 
 Concernant les consonnes, différentes règles s’appliquent selon la situation dans la syllabe.
 
 *** Attaque
-L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter jusqu’à deux consonnes ou aucune.
-- Le [j] ne peut être suivi par un ​/i/.
-- Le ​/w/ ne peut être suivi par une voyelle postérieure ou.
-- Les fricatives et occlusives peuvent être suivies par un ​/r/ ou un ​/l/, ou par une semi-voyelle.
-- Les friccatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.
-- Les occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
+L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter d’aucune consonne à deux consonnes ne contenant pas de semi-voyelle, trois avec une semi-voyelle comme consonne finale.
+- Le /​j/ ne peut être suivi par un /​i/.
+- Le /​w/ ne peut être suivi par une voyelle postérieure.
+- Les fricatives et occlusives peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.
+- Les friccatives peuvent être suivies par une occlusive, par un /​r/ ou un /​l/.
 
 *** Coda
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
-- Les semi-consonnes ​/j/ et ​/w/ ne peuvent se situer dans le coda.
-- Les consonnes ​/r/ et ​/l/ ne peuvent être suivies que par une consonne nasale.
+- Les semi-consonnes /​j/ et /​w/ ne peuvent se situer dans le coda.
+- Les consonnes /​r/ et /​l/ peuvent être suivies par une consonne nasale ou fricative.
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 
-Ainsi, des mots tels que <jchkwufjt> ou <nkjew> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont.
+*** Inter-syllabe
+Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
+- Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
+- Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.
 
 ** Accentuation
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
 
 src_latex{\newpage}
 * Morphologie
+La morphologie d’une langue est l’étude de la formation des mots de façon individuelle, de l’aspect et de la modification de ces mots afin de signifier des changements de sens. Pour ce qui est de l’organisation des mots, se référer au chapitre sur la syntaxe (§[[*Syntaxe]]).
+
+Le Mattér est une langue à morphologie principalement agglutinatif puis synthétique ; cela signifie que le changement des mots va principalement s’opérer via des syllabes uniques affixées au mot, chacune portant potentiellement plusieurs significations.
+
+** Genre
+Ce chapitre sur le genre n’est pas un chapitre de morphologie en soit, mais il est important de connaître les genres en vigueur dans le Mattér afin de pouvoir étudier le reste de sa grammaire.
+
+Le Mattér est une langue dont le genre est relativement peu significatif, où seuls les humains ont un genre et influence les éléments influençables, notamment les déterminants, adjectifs et verbes. Le Mattér dispose ainsi de quatre genres :
+- Neutre (~N~)
+- Masculin (~M~)
+- Féminin (~F~)
+- Non-humain (~NHUM~)
+
+Ainsi, pour les éléments genrés de la langue, le genre est soit connu, auquel cas le masculin ou le féminin seront utilisés, ou bien il sera inconnu auquel cas le neutre sera de vigueur. Pour tous les éléments non-genrés, le genre non-humain sera appliqué. Il arrive cependant que, par affection, un locuteur genre un animal ou un objet ; dans le cas d’un animal, le genre sera accordé à son sexe biologique, et l’objet sera assimilé au genre neutre.
+
 ** Noms
+Les noms en Mattér servent généralement à se référer à des entités, des concepts ou bien des objets. Ils sont composés d’au moins une syllabe à laquelle peuvent s’ajoute des suffixes.
+
+Voici la structure globale d’un nom :
+| / | <>     | >           | >         | >      |
+|---+--------+-------------+-----------+--------|
+|   | racine | déclinaison | possessif | nombre |
+|---+--------+-------------+-----------+--------|
+
+
+*** Nombre
+Le Mattér est une langue comportant trois nombres : le singulier, le paucal et le pluriel.
+- singulier :: permet de se référer à un élément unique
+- paucal :: permet de se référer à entre deux et six éléments, comporte une conotation de « peu d’éléments »
+- pluriel :: permet de se référer à plus de six éléments, comporte une conotation de « beaucoup ».
+
+Voici la liste des suffixes du Mattér afin de marquer le nombre :
+| / | <>        | >            |
+|   | nombre    | suffixe      |
+|---+-----------+--------------|
+|   | singulier | /non marqué/ |
+|   | paucal    | -(e)t        |
+|   | pluriel   | -(a)th       |
+|---+-----------+--------------|
+La voyelle entre parenthèse est omise lorsque le nombre s’accole à un mot se terminant déjà par une voyelle.
+
+Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation respectivement de « peu » et de « beaucoup ». Ainsi, il n’est pas rare pour les locuteurs de cette langue de transgresser la règle de séparation des deux à « 6 » afin de partager un jugement personnel sur la quantité décrite.
+
+Les éléments indénombrables sont au singulier par défaut, mais à nouveau les locuteurs peuvent émettre un jugement personnel de quantité de ces éléments en les mettant au paucal ou au pluriel.
+
+*** Déclinaisons
+Selon son rôle dans la phrase, les noms en Mattér se présentent sous une forme différente via leur déclinaison. Huit déclinaisons existent en Mattér :
+- le nominatif
+- l’accusatif
+- le datif
+- le locatif
+- l’ablatif
+- le limitatif
+- le génitif
+- le vocatif
+
+Le nominatif permet de marquer de manière générale le ou les sujets des verbes transitifs et intransitifs du Mattér. À l’inverse, l’accusatif permet de marquer le ou les objets des verbes transitifs. Le datif permet généralement de marquer ce à quoi on se réfère généralement en Français par « complément d’objet indirect ». Par exemple, en Français la phrase « j’ai offert un cadeau à ma sœur » comporte ces trois éléments, « je » qui est l’élément nominatif, « ma sœur » qui est l’élément datif et « un cadeau » qui est l’élément accusatif.
+
+Le locatif, l’ablatif et le limitatif sont généralement utilisé pour se référer à des lieux, le locatif se référent au lieu directement, l’ablatif se référant à un point de départ et le limitatif à une limite. Ces trois derniers peuvent également se référer à des éléments temporels. Par exemple, dans la phrase « Je fais une escale à Paris dans mon voyage de Lyon à Bruxelles », « Paris » est l’élément locatif, « Lyon » l’élément ablatif et « Bruxelles » l’élément limitatif.
+
+Le génitif permet de marquer une relation entre deux éléments, l’élément décliné étant l’élément possessif ou bien marqué par l’élément le précédant. Par exemple, dans la phrase « j’ai retrouvé le livre de mon père », « mon père » serait décliné au génitif, tandis que « le livre » serait décliné à l’accusatif.
+
+Enfin, le vocatif permet de s’adresser à quelqu’un ou quelque chose, en attirant son attention. Dans la phrase « Monsieur, pourriez-vous m’aider ? », « Monsieur » serait décliné au vocatif.
+
+Voici la table des suffixes à ajouter selon la déclinaison du mot :
+| / | <>              | >           |
+|   | cas grammatical | déclinaison |
+|---+-----------------+-------------|
+|   | nominatif       | -(e)n       |
+|   | accusatif       | -ant        |
+|   | datif           | -ith        |
+|   | locatif         | -(o)ch      |
+|   | ablatif         | -(r)ac      |
+|   | limitatif       | -ém         |
+|   | génitif         | -un         |
+|   | vocatif         | -y          |
+Les éléments entre parenthèse sont facultatifs selon le contexte précédant la déclinaison ; si une voyelle est entre parenthèse, elle sera omise si la déclinaison est déjà précédée par une voyelle, de même s’il s’agit d’une consonne entre parenthèse dans le cas de la déclinaison précédée par une consonne.
+
+Ainsi, <tere> (« tour ») se déclinera ainsi :
+| / | <>              | >           | >                     |
+|   | cas grammatical | déclinaison | signification         |
+|---+-----------------+-------------+-----------------------|
+|   | nominatif       | teren       | tour (sujet)          |
+|   | accusatif       | tereant     | tour (objet)          |
+|   | datif           | tereith     | tour (objet indirect) |
+|   | locatif         | terech      | à la tour             |
+|   | ablatif         | tererac     | depuis la tour        |
+|   | limitatif       | tereém      | jusqu’à la tour       |
+|   | génitif         | tereun      | de la tour            |
+|   | vocatif         | terey       | Oh, tour !            |
+
+On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
+| / | <>              | >           | >                           |
+|   | cas grammatical | déclinaison | signification               |
+|---+-----------------+-------------+-----------------------------|
+|   | nominatif       | velten      | monde (sujet)               |
+|   | accusatif       | veltant     | monde (objet)               |
+|   | datif           | veltith     | monde (objet indirect)      |
+|   | locatif         | veltoch     | dans le monde (à sa surace) |
+|   | ablatif         | veltac      | depuis le monde             |
+|   | limitatif       | veltém      | jusqu’au monde              |
+|   | génitif         | veltun      | du monde                    |
+|   | vocatif         | velty       | Oh Monde !                  |
+
 ** Déterminants
+Le Mattér dispose de quatre catégories de déterminants :
+- les articles définis
+- les déterminants démonstratifs
+- les déterminants interrogatifs
+- les déterminants ordinaux
+
+Les articles indéfinis n’existent pas en Mattér, et les déterminants indéfinis sont considérés comme étant des adjectifs et sont utilisés comme tels. Quant aux déterminants cardinaux, il s’agit simplement des nombres tels que décrits dans le chapitre dédié (§[[*Nombres]]).
+
+*** Articles définis
+Les articles définis servent à indiquer un élément précis, contrairement à un élément général désigné lors de l’absence d’article défini. Ainsi en Français, on utilise « le », « la » ou « les » comme articles définis. En revanche, le Mattér aura une absence de déterminants là où le Français dispose d’articles indéfinis. Comme on peut le voir ci-dessous, l’article défini s’accorde en genre et en nombre au nom auquel il est attaché.
+| / | <         | <     | <>      |
+|   | nombre    | genre | article |
+|---+-----------+-------+---------|
+|   | singulier | N     | a       |
+|   | singulier | M     | é       |
+|   | singulier | F     | al      |
+|   | singulier | NHUM  | en      |
+|   | paucal    | N,M,F | od      |
+|   | paucal    | NHUM  | yt      |
+|   | pluriel   | N,M,F | eth     |
+|   | pluriel   | NHUM  | ev      |
+
+Ainsi, « la tour » se traduira par <an teren> (au nominatif), « les chats » (peu de chats) se traduira <od cetenet> (genre neutre, paucal), « des villes » (nombreuses) se traduira <el urbyneth>.
+
+*** Déterminants démonstratifs
+Le déterminant démonstratif du Mattér a une fonction très similaire au déterminant démonstratif du Français, tels que « ce », « cet », « cette » et « ces ». De même que pour les articles définis, ils s’accordent en nombre, mais également selon la distance, allant de visible proche à invisible en passant par visible éloigné.
+| / | <        | <         | <>      |
+|   | distance | nombre    | article |
+|---+----------+-----------+---------|
+|   | proche   | singulier | an      |
+|   | proche   | paucal    | at      |
+|   | proche   | pluriel   | adh     |
+|   | éloigné  | singulier | em      |
+|   | éloigné  | paucal    | ed      |
+|   | éloigné  | pluriel   | edh     |
+|   | lointain | singulier | un      |
+|   | lointain | paucal    | ut      |
+|   | lointain | pluriel   | udh     |
+
+*** Déterminants interrogatifs
+
+*** Déterminants ordinaux
+Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose pas de déterminants cardinaux, ou plutôt il s’agit simplement du nombre approprié placé à l’emplacement du déterminant tel que défini plus tard dans le chapitre sur la syntaxe approprié (§[[*Syntaxe]]). Dans le cas des nombres cardinaux, il s’agit d’ajouter en suffixe au numéro le terme <norm> auquel un article défini accordé en genre et en nombre est également suffixé. Ainsi, pour le terme « premier » au singulier masculin, nous obtiendrons
+
 ** Adjectifs
+Les adjectifs
+
 ** Pronoms
+Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
+
+- Première personne :
+| /         | <>        |           |       |         |
+|           | nominatif | accusatif | datif | génitif |
+|-----------+-----------+-----------+-------+---------|
+| singulier | çeg       | çent      | çeidh | çyn     |
+| paucal    | thi       | thid      | thidh | thyn    |
+| pluriel   | non       | nound     | nonth | nun     |
+
+- Seconde personne :
+| /         | <>        |           |       |         |         |
+|           | nominatif | accusatif | datif | génitif | vocatif |
+|-----------+-----------+-----------+-------+---------+---------|
+| singulier | du        | daun      | dudh  | dyn     | udy     |
+| paucal    | im        | eint      | dhi   | nim     | eny     |
+| pluriel   | min       | meint     | minth | meun    | miny    |
+
+- Troisième personne :
+| /                    | <>        |           |        |         |         |
+|                      | nominatif | accusatif | datif  | génitif | vocatif |
+|----------------------+-----------+-----------+--------+---------+---------|
+| singulier neutre     | hé        | hét       | heth   | hén     | yhé     |
+| singulier masculin   | hae       | haed      | haedh  | haen    | yhae    |
+| singulier féminin    | hou       | hound     | hudh   | houn    | yhou    |
+| singulier non-humain | hit       | hint      | hith   | him     | yhi     |
+| paucal neutre        | hei       | heit      | heith  | hein    | yhei    |
+| paucal masculin      | tha       | thad      | thaidh | than    | ytha    |
+| paucal féminin       | thu       | thunt     | thou   | thun    | ythu    |
+| paucal non-humain    | hou       | hot       | hoth   | dho     | ydhou   |
+| pluriel neutre       | hea       | hint      | heath  | heam    | heathy  |
+| pluriel masculin     | tha       | that      | thaidh | than    | thaidhy |
+| pluriel féminin      | thu       | thunt     | thou   | thun    | ythu    |
+| pluriel non-humain   | hou       | hout      | houth  | dho     | houthy  |
+
 ** Verbes
+
+temp : être passé perfectif : vath
+
 ** Conjonctions
 ** Adverbes
 ** Prépositions
@@ -176,12 +370,55 @@ src_latex{\newpage}
 * Synchronie et diachronie
 
 src_latex{\newpage}
+* Nombres
+Le Mattér est une langue comptant en base dix et prenant en compte l’existance du zéro. Cependant, contrairement au Français, le Mattér tend à grouper les dizaines de milliers ensemble plutôt que les milliers. Ainsi, nous avons les termes suivants :
+| / |               <> | >       |
+|   |           nombre | terme   |
+|---+------------------+---------|
+|   |                0 | nyn     |
+|   |                1 | aen     |
+|   |                2 | twéa    |
+|   |                3 | dhe     |
+|   |                4 | fro     |
+|   |                5 | dheif   |
+|   |                6 | chcaec  |
+|   |                7 | thean   |
+|   |                8 | acht    |
+|   |                9 | onnén   |
+|   |               10 | dran    |
+|   |               20 | tjeg    |
+|   |               30 | dhjea   |
+|   |               40 | frje    |
+|   |               50 | dheig   |
+|   |               60 | chcjag  |
+|   |               70 | thjeg   |
+|   |               80 | achteig |
+|   |               90 | onneg   |
+|   |              100 | anrad   |
+|   |             1000 | tansen  |
+|   |           1 0000 | deten   |
+|   |      1 0000 0000 | mollen  |
+|   | 1 0000 0000 0000 | vreljen |
+
+Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les nombres nommés <anrad> et plus grands sont suffixés à un nombre plus petit qui les multiplie. Ainsi, le nombre <1789> se traduirait par <onnén achteig theananrad tansen>, et <2345 6789> (ou <23 456 789> selon la typographie française) se traduirait par <onnén achteig theananrad chcaectansen ar dheif fro dheanrad twétansan deten>. Remarquez que la traduction littérale est « 6789 et 2345 0000 ». Entre chaque groupe de quatre chiffre, un <ar> (« et ») est ajouté afin de séparer les groupes. Indiquer un multiplicateur de un est considéré comme inutile, ainsi les termes tels que <deten>, <mollen> et <vreljen> se suffisent à eux-même pour signifier <1 0000>, <1 0000 0000> et <1 0000 0000 0000> respectivement.
+
+src_latex{\newpage}
 * Système d’écriture
 
 src_latex{\newpage}
 * Glossaire
 
-- ile :: (nn) tour
+- ar :: (conj.) et
+- brydh :: (nn) naissance
+- brydhdeg :: (nn) jour de naissance, anniversaire
+- daeg :: (nn) jour
+- gaern :: (nn) année
+- menyth :: (nn) mois
+- norm :: (nn) nombre, numéro (ordinal)
+- tere :: (nn) tour, haut monument
+- urby :: (nn) ville
+- velt :: (nn) monde, la Terre
+
 src_latex{\newpage}
 * Annexes
 ** Règles de génération de mots
