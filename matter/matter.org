@@ -1,10 +1,12 @@
 #+INCLUDE: "../headers.org"
-#+LaTeX_HEADER: \usepackage{indentfirst}
+#+LaTeX_HEADER: \usepackage{indentfirst}\usepackage{allrunes}
 #+LATEX_CLASS: article
 #+TITLE: Une Grammaire du Mattér
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+MACRO: if-latex-else (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "$1" "$2"))
+#+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 
 * Avant-propos
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
@@ -52,7 +54,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | alvéolaire    | n     | t d      | th dh    |         | r     | l                |
 | palatal       |       |          | ch       | j       |       |                  |
 | labio-velaire |       |          |          | w       |       |                  |
-| vélaire       |       | k g      |          |         |       |                  |
+| vélaire       |       | c g      |          |         |       |                  |
 | glottal       |       |          | h        |         |       |                  |
 | /             | <     | <        | <        | <       | <     | <                |
 
@@ -322,7 +324,7 @@ Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de l
 | génitif   | a raedhun vagenun   | en raedhunet vagenunet   | yt raedhuneth vagenuneth   |
 | vocatif   | a raedhy vageny     | en raedhyet vagenuet     | yt raedhyeth vagenyeth     |
 
-Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, <
+Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
 ** Pronoms
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
@@ -368,7 +370,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 Généralement parlant, le présent sert aux locuteurs du Mattér à se référer à des actions ou descriptions ou autre se passant lors de la locution de la phrase ou à se réferer à un passé ou futur immédiat, pouvant s’étendre jusqu’à une journée complète avant ou après le temps immédiat de locution. Par exemple, la phrase <mergoch, cinnemoch thi gache> (« demain, nous (paucal) allons au cinéma ») contient le verbe <o gach> conjugué à la première personne du paucal, cependant le sens porté par la phrase est comme quoi l’action d’aller au cinéma prendra lieu dans le futur, en l’occurence le jour suivant le moment de locution. Cepedant la proximité entre ce dernier et le moment de l’action en elle-même permet au locuteur d’utiliser le présent. En revanche, s’il souhaite exprimer la même action comme s’effectuant la semaine suivante, le futur sera utilisé : <nutht vococh, cinnemoch thi y gachatth>. Remarquez par ailleurs l’utilisation du locatif pour <morg> (« demain ») et <nutht voc> (« semaine prochaine ») pour signifier le temps durant lequel l’action s’exécutera.
 
 *** Aspects
-Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects perfectif et imperfectif. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §[[*Modes]]), le ~V~ représentant la racine du verbe :
+Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects *perfectif* et *imperfectif*. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §[[*Modes]]), le ~V~ représentant la racine du verbe :
 
 #+caption: Conjugaison du perfectif de l’indicatif
 | /    | <>    | >     |
@@ -398,7 +400,9 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 | 2P   | Vent  | Var     | y Vat   |
 | 3P   | Ven   | Vér     | y Vat   |
 
-En revanche, les trois temps disposent d’un aspect commun : le progressif qui s’emploie grâce à l’utilisation des verbes <o ber> ou <o gjer> comme auxilliaires conjugué selon le temps et l’aspect perfectif ou imperfectif voulu, tandis que le verbe principal prend <-ande> comme terminaison.
+Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou postérieurs du passé et du futur s’effectuent en utilisant soit le participe passé ou futur du verbe et en utilisant le verbe modal <o ber> pour les verbes d’états et <o gjer> pour les verbes d’action qui sera conjugué au passé ou au futur selon s’il s’agit respectivement d’un temps antérieur ou postérieur. Ainsi,
+
+En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> ou <o gjer> comme auxilliaires conjugué selon le temps et l’aspect perfectif ou imperfectif voulu, tandis que le verbe principal prend <-ande> comme terminaison.
 
 *** Modes
 
@@ -433,10 +437,58 @@ En revanche, les trois temps disposent d’un aspect commun : le progressif qui
 
 *** Verbe avoir <o hab>
 **** Perfectif
+| /    | <>    | >     |
+|      | passé | futur |
+|------+-------+-------|
+| 1S   |       |       |
+| 2S   |       |       |
+| 3S   |       |       |
+| 1PAU |       |       |
+| 2PAU |       |       |
+| 3PAU |       |       |
+| 1P   |       |       |
+| 2P   |       |       |
+| 3P   |       |       |
 **** Imperfectif
+| /    | <>    | >       | >     |
+|      | passé | présent | futur |
+|------+-------+---------+-------|
+| 1S   |       |         |       |
+| 2S   |       |         |       |
+| 3S   |       |         |       |
+| 1PAU |       |         |       |
+| 2PAU |       |         |       |
+| 3PAU |       |         |       |
+| 1P   |       |         |       |
+| 2P   |       |         |       |
+| 3P   |       |         |       |
 *** Verbe faire <o gjer>
 **** Perfectif
+| /    | <>    | >     |
+|      | passé | futur |
+|------+-------+-------|
+| 1S   |       |       |
+| 2S   |       |       |
+| 3S   |       |       |
+| 1PAU |       |       |
+| 2PAU |       |       |
+| 3PAU |       |       |
+| 1P   |       |       |
+| 2P   |       |       |
+| 3P   |       |       |
 **** Imperfectif
+| /    | <>    | >       | >     |
+|      | passé | présent | futur |
+|------+-------+---------+-------|
+| 1S   |       |         |       |
+| 2S   |       |         |       |
+| 3S   |       |         |       |
+| 1PAU |       |         |       |
+| 2PAU |       |         |       |
+| 3PAU |       |         |       |
+| 1P   |       |         |       |
+| 2P   |       |         |       |
+| 3P   |       |         |       |
 ** Conjonctions
 ** Adverbes
 ** Prépositions
@@ -494,6 +546,47 @@ Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et 
 
 src_latex{\newpage}
 * Système d’écriture
+Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
+| /                     | <                                      |
+| phonème (transcrit)   | rune                                   |
+|-----------------------+----------------------------------------|
+| f                     | {{{if-latex-else(\\textara{f},ᚠ)}}}    |
+| u                     | {{{if-latex-else(\\textara{u},ᚢ)}}}    |
+| th                    | {{{if-latex-else(\\textara{þ},ᚦ)}}}    |
+| o                     | {{{if-latex-else(\\textara{o},ᚩ)}}}    |
+| r                     | {{{if-latex-else(\\textara{r},ᚱ)}}}    |
+| c                     | {{{if-latex-else(\\textara{c},ᚳ)}}}    |
+| g                     | {{{if-latex-else(\\textara{g},ᚷ)}}}    |
+| w                     | {{{if-latex-else(\\textara{w},ᚹ)}}}    |
+| h                     | {{{if-latex-else(\\textara{h},ᚻ)}}}    |
+| ch                    | {{{if-latex-else(\\textara{I},ᛇ)}}}    |
+| n                     | {{{if-latex-else(\\textara{n},ᚾ)}}}    |
+| i                     | {{{if-latex-else(\\textara{i},ᛁ)}}}    |
+| j                     | {{{if-latex-else(\\textara{j},ᛄ)}}}    |
+| p                     | {{{if-latex-else(\\textara{p},ᛈ)}}}    |
+| dh                    | {{{if-latex-else(\\textara{s},ᛋ)}}}    |
+| v                     | {{{if-latex-else(\\textara{\\ng},ᛝ)}}} |
+| t                     | {{{if-latex-else(\\textara{t},ᛏ)}}}    |
+| b                     | {{{if-latex-else(\\textara{b},ᛒ)}}}    |
+| e                     | {{{if-latex-else(\\textara{e},ᛖ)}}}    |
+| m                     | {{{if-latex-else(\\textara{m},ᛗ)}}}    |
+| l                     | {{{if-latex-else(\\textara{l},ᛚ)}}}    |
+| d                     | {{{if-latex-else(\\textara{d},ᛞ)}}}    |
+| é                     | {{{if-latex-else(\\textara{\\oe},ᛟ)}}} |
+| a                     | {{{if-latex-else(\\textara{a},ᚪ)}}}    |
+| y                     | {{{if-latex-else(\\textara{y},ᚣ)}}}    |
+| ae                    | {{{if-latex-else(\\textara{æ},ᚫ)}}}    |
+| ea                    | {{{if-latex-else(\\textara{\\ea},ᛠ)}}} |
+| séparateur de mots    | {{{if-latex-else(\\textara{.},᛫)}}}    |
+| marquer de pauses     | {{{if-latex-else(\\textara{:},᛬)}}}    |
+| séparateur de phrases | {{{if-latex-else(\\textara{*},᛭)}}}     |
+
+Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème. Cet alphabet est généralement utilisé lors d’écritures horizontales de droite à gauche et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
+
+Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :{{{newline}}}
+Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newline}}}
+Mattér (transcrit) : morgoch, gyrnegac thcyrmém, thi y ficjanur.{{{newline}}}
+Mattér (runes) : {{{if-latex-else(\\textara{morgoI:gyrnegac.þcyrm\\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
 
 src_latex{\newpage}
 * Glossaire
@@ -502,14 +595,20 @@ src_latex{\newpage}
 - brydh :: (nn) naissance
 - brydhdeg :: (nn) jour de naissance, anniversaire
 - daeg :: (nn) jour
+- ficjan :: (nn) poisson
 - gaern :: (nn) année
 - galm :: (adj) vieux, ancien
+- gyrneg :: (nn) moment du lever de soleil, matin
 - maend :: (adj) beaucoup
 - menyth :: (nn) mois
+- morg :: (adv) demain
 - nethty :: (adj) prochain, suivant
 - norm :: (nn) nombre, numéro (ordinal)
+- o ficjan :: (v) pêcher
+- o thpich :: (v) manger
 - smoz :: (adj) petit
 - tere :: (nn) tour, haut monument
+- thcyrm :: (nn) crépuscule, moment du coucher de soleil
 - urby :: (nn) ville
 - velt :: (nn) monde, la Terre
 - vend :: (adj) peu, un peu
@@ -517,78 +616,5 @@ src_latex{\newpage}
 
 src_latex{\newpage}
 * Annexes
-** Règles de génération de mots
-Le Mattér étant une langue-jouet, j’utiliserai occasionnellement le GenWord^{3} afin de créer du nouveau vocabulaire. Voici les paramètres utilisés pour cela :
-#+BEGIN_SRC text
-  --CATS--
-  N=mn
-  P=pbtdkg
-  F=fvþðç
-  R=rl
-  C=nmpbtdkgfvþðçrl
-  D=pbtdkgfvþðç
-  J=j
-  W=w
-  A=aeé
-  U=iouy
-  V=aeéyiou
-  --REWRITE--
-  þ||th
-  ð||dh
-  ç||ch
-  k||c
-  --MONO--
-
-  --MID--
-
-  --INIT--
-  CV
-  CVC
-  CVR
-  CVPF
-  CVFP
-  CVFR
-  CVPR
-  DRV
-  DRVC
-  DRVR
-  DRVFP
-  DRVPF
-  DRVPR
-  DRVFR
-  CJA
-  CWA
-  CJAC
-  CWAC
-  CJAR
-  CWAR
-  CJA
-  CWA
-  CJAFP
-  CWAFP
-  CJAPF
-  CWAPF
-  CJAFR
-  CWAFR
-  FPVPR
-  PFVPR
-  FPV
-  FPVC
-  PFVC
-  FPVR
-  PFVR
-  PFVFP
-  PFVFR
-  PFVPF
-  PFVPR
-  FPVFP
-  FPVFR
-  FPVPF
-  FPVPR
-  --FINAL--
-
-  --FLAGS--
-  1 0 monoMostly dropoffMolasses
-#+END_SRC
 
 #  LocalWords:  Pappa langue-jouet
