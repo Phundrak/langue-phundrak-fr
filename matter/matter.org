@@ -1,12 +1,33 @@
-#+INCLUDE: "../headers.org"
-#+LaTeX_HEADER: \usepackage{indentfirst}\usepackage{allrunes}
-#+LATEX_CLASS: article
 #+TITLE: Une Grammaire du Mattér
+#+AUTHOR: Lucien Cartier-Tilet
+#+EMAIL: phundrak@phundrak.fr
+#+CREATOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LATEX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={4.5in,7.0in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
+#+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LaTeX_HEADER: \usepackage{indentfirst}\usepackage{allrunes}
+#+HTML_DOCTYPE: html5
+#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
+#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
+#+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
+#+HTML_HEAD: <meta name="twitter:card" content="summary" />
+#+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
+#+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
 #+MACRO: if-latex-else (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "$1" "$2"))
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
+#+OPTIONS: H:4
+#+OPTIONS: toc:nil
+src_latex{\newpage}
+#+TOC: headlines
+src_latex{\newpage}
 
 * Avant-propos
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
@@ -35,28 +56,28 @@ Comme mentionné en introduction (§[[*Introduction]]), le Mattér est une langu
 Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §[[*Notes sur la romanisation du Matt%C3%A9r]] concernant la translittération).
 
 #+CAPTION: Consonnes du Hjelp (IPA)
-|                         | nasal | occlusif | fricatif | spirant | battu | spirant-lattéral |
-|-------------------------+-------+----------+----------+---------+-------+------------------|
-| bilabial                | m     | p b      |          |         |       |                  |
-| labio-dental            |       |          | f v      |         |       |                  |
-| alvéolaire              | n     | t d      | θ ð      |         | r     | l                |
-| palatal                 |       |          | ç        | j       |       |                  |
-| labio-velaire           |       |          |          | w       |       |                  |
-| vélaire                 |       | k g      |          |         |       |                  |
-| glottal                 |       |          | h        |         |       |                  |
-| /                       | <     | <        | <        | <       | <     | <                |
+|               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
+|---------------+-------+----------+----------+---------+-------+-------------|
+| bilabial      | m     | p b      |          |         |       |             |
+| labio-dental  |       |          | f v      |         |       |             |
+| alvéolaire    | n     | t d      | θ ð      |         | r     | l           |
+| palatal       |       |          | ç        | j       |       |             |
+| labio-velaire |       |          |          | w       |       |             |
+| vélaire       |       | k g      |          |         |       |             |
+| glottal       |       |          | h        |         |       |             |
+| /             | <     | <        | <        | <       | <     | <           |
 
 #+CAPTION: Consonnes du Hjelp (translittération)
-|               | nasal | occlusif | fricatif | spirant | battu | spirant-lattéral |
-|---------------+-------+----------+----------+---------+-------+------------------|
-| bilabial      | m     | p b      |          |         |       |                  |
-| labio-dental  |       |          | f v      |         |       |                  |
-| alvéolaire    | n     | t d      | th dh    |         | r     | l                |
-| palatal       |       |          | ch       | j       |       |                  |
-| labio-velaire |       |          |          | w       |       |                  |
-| vélaire       |       | c g      |          |         |       |                  |
-| glottal       |       |          | h        |         |       |                  |
-| /             | <     | <        | <        | <       | <     | <                |
+|               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
+|---------------+-------+----------+----------+---------+-------+-------------|
+| bilabial      | m     | p b      |          |         |       |             |
+| labio-dental  |       |          | f v      |         |       |             |
+| alvéolaire    | n     | t d      | th dh    |         | r     | l           |
+| palatal       |       |          | ch       | j       |       |             |
+| labio-velaire |       |          |          | w       |       |             |
+| vélaire       |       | c g      |          |         |       |             |
+| glottal       |       |          | h        |         |       |             |
+| /             | <     | <        | <        | <       | <     | <           |
 
 On peut remarquer que la large majorité des consonnes se situe entre les points d’articulation alvéolaire et bilabial, et toutes les consonnes occlusives ou fricatives disposent de leur contrepartie sourde ou voisée.
 
@@ -192,13 +213,12 @@ Le Mattér est une langue comportant trois nombres : le singulier, le paucal et
 - pluriel :: permet de se référer à plus de six éléments, comporte une conotation de « beaucoup ».
 
 Voici la liste des suffixes du Mattér afin de marquer le nombre :
-| / | <>        | >            |
-|   | nombre    | suffixe      |
-|---+-----------+--------------|
-|   | singulier | /non marqué/ |
-|   | paucal    | -(e)t        |
-|   | pluriel   | -(a)th       |
-|---+-----------+--------------|
+| /         | <            |
+| nombre    | suffixe      |
+|-----------+--------------|
+| singulier | /non marqué/ |
+| paucal    | -(e)t        |
+| pluriel   | -(a)th       |
 La voyelle entre parenthèse est omise lorsque le nombre s’accole à un mot se terminant déjà par une voyelle.
 
 Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation respectivement de « peu » et de « beaucoup ». Ainsi, il n’est pas rare pour les locuteurs de cette langue de transgresser la règle de séparation des deux à « 6 » afin de partager un jugement personnel sur la quantité décrite.
@@ -225,44 +245,44 @@ Le génitif permet de marquer une relation entre deux éléments, l’élément 
 Enfin, le vocatif permet de s’adresser à quelqu’un ou quelque chose, en attirant son attention. Dans la phrase « Monsieur, pourriez-vous m’aider ? », « Monsieur » serait décliné au vocatif.
 
 Voici la table des suffixes à ajouter selon la déclinaison du mot :
-| / | <>              | >           |
-|   | cas grammatical | déclinaison |
-|---+-----------------+-------------|
-|   | nominatif       | -(e)n       |
-|   | accusatif       | -ant        |
-|   | datif           | -ith        |
-|   | locatif         | -(o)ch      |
-|   | ablatif         | -(r)ac      |
-|   | limitatif       | -ém         |
-|   | génitif         | -un         |
-|   | vocatif         | -y          |
+| /               | <           |
+| cas grammatical | déclinaison |
+|-----------------+-------------|
+| nominatif       | -(e)n       |
+| accusatif       | -ant        |
+| datif           | -ith        |
+| locatif         | -(o)ch      |
+| ablatif         | -(r)ac      |
+| limitatif       | -ém         |
+| génitif         | -un         |
+| vocatif         | -y          |
 Les éléments entre parenthèse sont facultatifs selon le contexte précédant la déclinaison ; si une voyelle est entre parenthèse, elle sera omise si la déclinaison est déjà précédée par une voyelle, de même s’il s’agit d’une consonne entre parenthèse dans le cas de la déclinaison précédée par une consonne.
 
 Ainsi, <tere> (« tour ») se déclinera ainsi :
-| / | <>              | >           | >                     |
-|   | cas grammatical | déclinaison | signification         |
-|---+-----------------+-------------+-----------------------|
-|   | nominatif       | teren       | tour (sujet)          |
-|   | accusatif       | tereant     | tour (objet)          |
-|   | datif           | tereith     | tour (objet indirect) |
-|   | locatif         | terech      | à la tour             |
-|   | ablatif         | tererac     | depuis la tour        |
-|   | limitatif       | tereém      | jusqu’à la tour       |
-|   | génitif         | tereun      | de la tour            |
-|   | vocatif         | terey       | Oh, tour !            |
+| /               | <>          |                       |
+| cas grammatical | déclinaison | signification         |
+|-----------------+-------------+-----------------------|
+| nominatif       | teren       | tour (sujet)          |
+| accusatif       | tereant     | tour (objet)          |
+| datif           | tereith     | tour (objet indirect) |
+| locatif         | terech      | à la tour             |
+| ablatif         | tererac     | depuis la tour        |
+| limitatif       | tereém      | jusqu’à la tour       |
+| génitif         | tereun      | de la tour            |
+| vocatif         | terey       | Oh, tour !            |
 
 On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
-| / | <>              | >           | >                           |
-|   | cas grammatical | déclinaison | signification               |
-|---+-----------------+-------------+-----------------------------|
-|   | nominatif       | velten      | monde (sujet)               |
-|   | accusatif       | veltant     | monde (objet)               |
-|   | datif           | veltith     | monde (objet indirect)      |
-|   | locatif         | veltoch     | dans le monde (à sa surace) |
-|   | ablatif         | veltac      | depuis le monde             |
-|   | limitatif       | veltém      | jusqu’au monde              |
-|   | génitif         | veltun      | du monde                    |
-|   | vocatif         | velty       | Oh Monde !                  |
+| /               | <>          |                             |
+| cas grammatical | déclinaison | signification               |
+|-----------------+-------------+-----------------------------|
+| nominatif       | velten      | monde (sujet)               |
+| accusatif       | veltant     | monde (objet)               |
+| datif           | veltith     | monde (objet indirect)      |
+| locatif         | veltoch     | dans le monde (à sa surace) |
+| ablatif         | veltac      | depuis le monde             |
+| limitatif       | veltém      | jusqu’au monde              |
+| génitif         | veltun      | du monde                    |
+| vocatif         | velty       | Oh Monde !                  |
 
 ** Déterminants
 Le Mattér dispose de quatre catégories de déterminants :
@@ -312,17 +332,38 @@ Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose p
 ** Adjectifs
 Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison, à l’exception du nominatif où seul le nombre est marqué. Voici un tableau d’exemple d’accord de <raedh> (« rouge ») avec <vagen> (« voiture »).
 
-| /         | <>                  | >                        | >                          |
-|           | singulier           | paucal                   | pluriel                    |
-|-----------+---------------------+--------------------------+----------------------------|
-| nominatif | a raedh vagenen     | en raedhet vagenenet     | yt raedheth vageneneth     |
-| accusatif | a raedhant vagenant | en raedhantet vagenantet | yt raedhanteth vagenanteth |
-| datif     | a raedhith vagenith | en raedhithet vagenithet | yt raedhitheth vagenitheth |
-| locatif   | a raedhoch vagenoch | en raedhochet vagenochet | yt raedhocheth vagenocheth |
-| ablatif   | a raedhac vagenac   | en raedhacet vagenacet   | yt raedhaceth vagenaceth   |
-| limitatif | a raedhém vageném   | en raedhémet vagenémet   | yt raedhémeth vagenémeth   |
-| génitif   | a raedhun vagenun   | en raedhunet vagenunet   | yt raedhuneth vagenuneth   |
-| vocatif   | a raedhy vageny     | en raedhyet vagenuet     | yt raedhyeth vagenyeth     |
+Singulier :
+| /         | <                   |
+| nominatif | a raedh vagenen     |
+| accusatif | a raedhant vagenant |
+| datif     | a raedhith vagenith |
+| locatif   | a raedhoch vagenoch |
+| ablatif   | a raedhac vagenac   |
+| limitatif | a raedhém vageném   |
+| génitif   | a raedhun vagenun   |
+| vocatif   | a raedhy vageny     |
+
+Paucal :
+| /         | <                       |
+| nominatif | en raedhet vagenenet     |
+| accusatif | en raedhantet vagenantet |
+| datif     | en raedhithet vagenithet |
+| locatif   | en raedhochet vagenochet |
+| ablatif   | en raedhacet vagenacet   |
+| limitatif | en raedhémet vagenémet   |
+| génitif   | en raedhunet vagenunet   |
+| vocatif   | en raedhyet vagenuet     |
+
+Pluriel :
+| /         | <                          |
+| nominatif | yt raedheth vageneneth     |
+| accusatif | yt raedhanteth vagenanteth |
+| datif     | yt raedhitheth vagenitheth |
+| locatif   | yt raedhocheth vagenocheth |
+| ablatif   | yt raedhaceth vagenaceth   |
+| limitatif | yt raedhémeth vagenémeth   |
+| génitif   | yt raedhuneth vagenuneth   |
+| vocatif   | yt raedhyeth vagenyeth     |
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
@@ -330,7 +371,7 @@ Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en 
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 
 - Première personne :
-| /         | <>        | >         | >     | >       |
+| /         | <>        | >         | >     |         |
 |           | nominatif | accusatif | datif | génitif |
 |-----------+-----------+-----------+-------+---------|
 | singulier | çeg       | çent      | çeidh | çyn     |
@@ -338,7 +379,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | pluriel   | non       | nound     | nonth | nun     |
 
 - Seconde personne :
-| /         | <>        | >         | >     | >       | >       |
+| /         | <>        | >         | >     | >       |         |
 |           | nominatif | accusatif | datif | génitif | vocatif |
 |-----------+-----------+-----------+-------+---------+---------|
 | singulier | du        | daun      | dudh  | dyn     | udy     |
@@ -346,21 +387,21 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | pluriel   | min       | meint     | minth | meun    | miny    |
 
 - Troisième personne :
-| /                    | <>        | >         | >      | >       | >       |
-|                      | nominatif | accusatif | datif  | génitif | vocatif |
-|----------------------+-----------+-----------+--------+---------+---------|
-| singulier neutre     | hé        | hét       | heth   | hén     | yhé     |
-| singulier masculin   | hae       | haed      | haedh  | haen    | yhae    |
-| singulier féminin    | hou       | hound     | hudh   | houn    | yhou    |
-| singulier non-humain | hit       | hint      | hith   | him     | yhi     |
-| paucal neutre        | hei       | heit      | heith  | hein    | yhei    |
-| paucal masculin      | tha       | thad      | thaidh | than    | ytha    |
-| paucal féminin       | thu       | thunt     | thou   | thun    | ythu    |
-| paucal non-humain    | hou       | hot       | hoth   | dho     | ydhou   |
-| pluriel neutre       | hea       | hint      | heath  | heam    | heathy  |
-| pluriel masculin     | tha       | that      | thaidh | than    | thaidhy |
-| pluriel féminin      | thu       | thunt     | thou   | thun    | ythu    |
-| pluriel non-humain   | hou       | hout      | houth  | dho     | houthy  |
+| /             | <>        | >         | >      | >       |         |
+|               | nominatif | accusatif | datif  | génitif | vocatif |
+|---------------+-----------+-----------+--------+---------+---------|
+| sg neutre     | hé        | hét       | heth   | hén     | yhé     |
+| sg masculin   | hae       | haed      | haedh  | haen    | yhae    |
+| sg féminin    | hou       | hound     | hudh   | houn    | yhou    |
+| sg non-humain | hit       | hint      | hith   | him     | yhi     |
+| pau neutre    | hei       | heit      | heith  | hein    | yhei    |
+| pau masculin  | tha       | thad      | thaidh | than    | ytha    |
+| pau féminin   | thu       | thunt     | thou   | thun    | ythu    |
+| pau neutre    | hou       | hot       | hoth   | dho     | ydhou   |
+| pl neutre     | hea       | hint      | heath  | heam    | heathy  |
+| pl masculin   | tha       | that      | thaidh | than    | thaidhy |
+| pl féminin    | thu       | thunt     | thou   | thun    | ythu    |
+| pl non-humain | hou       | hout      | houth  | dho     | houthy  |
 
 ** Verbes
 
@@ -373,7 +414,7 @@ Généralement parlant, le présent sert aux locuteurs du Mattér à se référe
 Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects *perfectif* et *imperfectif*. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §[[*Modes]]), le ~V~ représentant la racine du verbe :
 
 #+caption: Conjugaison du perfectif de l’indicatif
-| /    | <>    | >     |
+| /    | <>    |       |
 |      | passé | futur |
 |------+-------+-------|
 | 1S   | Vo    | y Vo  |
@@ -387,7 +428,7 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 | 3P   | Von   | y Von |
 
 #+caption: Conjugaison de l’imperfectif de l’indicatif
-| /    | <>    | >       | >       |
+| /    | <>    | >       |         |
 |      | passé | présent | futur   |
 |------+-------+---------+---------|
 | 1S   | Ver   | Ve      | y V     |
@@ -408,7 +449,7 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 
 *** Verbe être <o ber>
 **** Perfectif
-| /    | <>    | >       |
+| /    | <>    |         |
 |      | passé | futur   |
 |------+-------+---------|
 | 1S   | ver   | y ver   |
@@ -422,7 +463,7 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 3P   | veaen | y veaen |
 
 **** Imperfectif
-| /    | <>        | >       | >         |
+| /    | <>        | >       |           |
 |      | passé     | présent | futur     |
 |------+-----------+---------+-----------|
 | 1S   | e vath    | be      | u be      |
@@ -437,7 +478,7 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 
 *** Verbe avoir <o hab>
 **** Perfectif
-| /    | <>    | >     |
+| /    | <>    |       |
 |      | passé | futur |
 |------+-------+-------|
 | 1S   |       |       |
@@ -450,7 +491,7 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 2P   |       |       |
 | 3P   |       |       |
 **** Imperfectif
-| /    | <>    | >       | >     |
+| /    | <>    | >       |       |
 |      | passé | présent | futur |
 |------+-------+---------+-------|
 | 1S   |       |         |       |
@@ -464,7 +505,7 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 3P   |       |         |       |
 *** Verbe faire <o gjer>
 **** Perfectif
-| /    | <>    | >     |
+| /    | <>    |       |
 |      | passé | futur |
 |------+-------+-------|
 | 1S   |       |       |
@@ -477,7 +518,7 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 2P   |       |       |
 | 3P   |       |       |
 **** Imperfectif
-| /    | <>    | >       | >     |
+| /    | <>    | >       |       |
 |      | passé | présent | futur |
 |------+-------+---------+-------|
 | 1S   |       |         |       |
@@ -579,7 +620,7 @@ Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Vo
 | ea                    | {{{if-latex-else(\\textara{\\ea},ᛠ)}}} |
 | séparateur de mots    | {{{if-latex-else(\\textara{.},᛫)}}}    |
 | marquer de pauses     | {{{if-latex-else(\\textara{:},᛬)}}}    |
-| séparateur de phrases | {{{if-latex-else(\\textara{*},᛭)}}}     |
+| séparateur de phrases | {{{if-latex-else(\\textara{*},᛭)}}}    |
 
 Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème. Cet alphabet est généralement utilisé lors d’écritures horizontales de droite à gauche et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
 
@@ -588,6 +629,18 @@ Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newlin
 Mattér (transcrit) : morgoch, gyrnegac thcyrmém, thi y ficjanur.{{{newline}}}
 Mattér (runes) : {{{if-latex-else(\\textara{morgoI:gyrnegac.þcyrm\\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
 
+Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
+| /                      | <                    |
+| caractère translittéré | caractère alternatif |
+|------------------------+----------------------|
+| th                     | Þ - þ                |
+| dh                     | Ð - ð                |
+| ch                     | Ȝ - ȝ                |
+| ae                     | Æ - æ                |
+# C-x 8 RET 21C ou 21D pour Ȝ et ȝ
+
+Ainsi, des mots tels que <brydh> ou <thpich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
+
 src_latex{\newpage}
 * Glossaire
 
@@ -595,10 +648,15 @@ src_latex{\newpage}
 - brydh :: (nn) naissance
 - brydhdeg :: (nn) jour de naissance, anniversaire
 - daeg :: (nn) jour
+- eppel :: (nn) pomme
 - ficjan :: (nn) poisson
 - gaern :: (nn) année
 - galm :: (adj) vieux, ancien
 - gyrneg :: (nn) moment du lever de soleil, matin
+- je :: (adv, inform.) ouais
+- jea :: (adv) oui
+- ne :: (adv, inform.) nan
+- nea :: (adv) non
 - maend :: (adj) beaucoup
 - menyth :: (nn) mois
 - morg :: (adv) demain
