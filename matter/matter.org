@@ -437,45 +437,46 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 
 *** Verbe avoir <o hab>
 **** Perfectif
-| /    | <>    | >     |
-|      | passé | futur |
-|------+-------+-------|
-| 1S   |       |       |
-| 2S   |       |       |
-| 3S   |       |       |
-| 1PAU |       |       |
-| 2PAU |       |       |
-| 3PAU |       |       |
-| 1P   |       |       |
-| 2P   |       |       |
-| 3P   |       |       |
+| /    | <>    | >       |
+|      | passé | futur   |
+|------+-------+---------|
+| 1S   | her   | hery    |
+| 2S   | het   | hety    |
+| 3S   | heath | y heath |
+| 1PAU | hedh  | hedhy   |
+| 2PAU | hedht | hety    |
+| 3PAU | hetth | hety    |
+| 1P   | hein  | y hein  |
+| 2P   | heit  | heity   |
+| 3P   | haent | y haent |
+
 **** Imperfectif
-| /    | <>    | >       | >     |
-|      | passé | présent | futur |
-|------+-------+---------+-------|
-| 1S   |       |         |       |
-| 2S   |       |         |       |
-| 3S   |       |         |       |
-| 1PAU |       |         |       |
-| 2PAU |       |         |       |
-| 3PAU |       |         |       |
-| 1P   |       |         |       |
-| 2P   |       |         |       |
-| 3P   |       |         |       |
+| /    | <>       | >       | >         |
+|      | passé    | présent | futur     |
+|------+----------+---------+-----------|
+| 1S   | e hath   | habe    | u habe    |
+| 2S   | ae hat   | hatht   | u habetht |
+| 3S   | ea hath  | hat     | ou hat    |
+| 1PAU | e hatth  | habeth  | u habeth  |
+| 2PAU | e hart   | hatth   | o hatth   |
+| 3PAU | ea harth | habean  | ou haben  |
+| 1P   | ae hat   | haber   | u harbe   |
+| 2P   | ae haeth | haberth | y hardh   |
+| 3P   | ei harth | habet   | u hebet   |
 *** Verbe faire <o gjer>
 **** Perfectif
-| /    | <>    | >     |
-|      | passé | futur |
-|------+-------+-------|
-| 1S   |       |       |
-| 2S   |       |       |
-| 3S   |       |       |
-| 1PAU |       |       |
-| 2PAU |       |       |
-| 3PAU |       |       |
-| 1P   |       |       |
-| 2P   |       |       |
-| 3P   |       |       |
+| /    | <>      | >         |
+|      | passé   | futur     |
+|------+---------+-----------|
+| 1S   | gjer    | y gjer    |
+| 2S   | gjeret  | y gjeret  |
+| 3S   | gjeth   | y gjeth   |
+| 1PAU | gjardh  | y gjarth  |
+| 2PAU | gjenth  | y gjent   |
+| 3PAU | gjetth  | y gjetth  |
+| 1P   | gjerein | y gjerein |
+| 2P   | gjereat | y gjereat |
+| 3P   | gjeraen | y gjerean |
 **** Imperfectif
 | /    | <>    | >       | >     |
 |      | passé | présent | futur |
