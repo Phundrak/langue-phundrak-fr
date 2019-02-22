@@ -672,7 +672,6 @@ Abréviations :
 - adv : adverbe
 - ind : indénombrable
 - n : nom
-- nom : nom
 - pau : paucal
 - pl : pluriel
 - pron : pronom
