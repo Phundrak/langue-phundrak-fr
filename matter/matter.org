@@ -101,7 +101,7 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - dh :: Cette consonne <th> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
 - th :: Il s’agit de la contrepartie sourde de <dh> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
 
-Les consonnes nasales, occlusives ainsi que le /​l/ peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé /​tː/, et <Mattér> sera prononcé /​'mat:er/.
+Les consonnes nasales, occlusives ainsi que le ​/l/ peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé ​/tː/, et <Mattér> sera prononcé ​/'mat:er/.
 
 *** Voyelles
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
@@ -141,13 +141,16 @@ Les diphtongues sont des associations de voyelles considérées dans une langue 
 | ​/eu/ | ​/au/ |
 | ​/ou/ |      |
 
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du /​ɛi/ qui est écrit <ei>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du ​/ɛi/ qui est écrit <ei>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
-- Le /​i/ peut également se prononcer /​ɪ/ dans certains cas, comme dans les diphones, devant un /​ç/, /​j/, /​w/ ou /​l/, selon le locuteur. Exemple : <neich> /​nɛiç/ [nɛɪç]
-- Le /​l/ se transforme en « <l> sombre » /​ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> /​mael/ [maeɫ]
-- Le /​h/ se transforme en /​ç/ s’il est suivi par un /​j/, un /​e/ ou un /​i/. Exemple : <hét> /​het/ [çet]
+- Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/, selon le locuteur. Exemple : <neich> ​/nɛiç/ [nɛɪç]
+- S’il est suivi d’une voyelle dans le même mot, le ​/i/ se transorme en la semi-consonne ​/j/.
+- Le ​/l/ se transforme en « <l> sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> ​/mael/ [maeɫ]
+- Le ​/h/ se transforme en ​/ç/ s’il est suivi par un ​/j/, un ​/e/ ou un ​/i/. Exemple : <hét> ​/het/ [çet]
+- Si un ​/ɛ/ suit un ​/e/, alors le ​/ɛ/ devient un ​/e/.
+- Si un ​/e/ suit un ​/ɛ/, alors le ​/e/ devient un ​/ɛ/.
 
 ** Phonotaxes
 Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
@@ -156,25 +159,28 @@ Concernant les consonnes, différentes règles s’appliquent selon la situation
 
 *** Attaque
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter d’aucune consonne à deux consonnes ne contenant pas de semi-voyelle, trois avec une semi-voyelle comme consonne finale.
-- Le /​j/ ne peut être suivi par un /​i/.
-- Le /​w/ ne peut être suivi par une voyelle postérieure.
-- Les fricatives et occlusives peuvent être suivies par un /​r/ ou un /​l/, ou par une semi-voyelle.
-- Les friccatives peuvent être suivies par une occlusive, par un /​r/ ou un /​l/.
+- Le ​/j/ ne peut être suivi par un ​/i/.
+- Le ​/w/ ne peut être suivi par une voyelle postérieure.
+- Les fricatives et occlusives peuvent être suivies par un ​/r/ ou un ​/l/, ou par une semi-voyelle.
+- Les friccatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.
+- Le ​/h/ ne peut être suivi que par un ​/j/ ou un ​/w/ et ne peut pas suivre une autre consonne.
 
 *** Coda
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
-- Les semi-consonnes /​j/ et /​w/ ne peuvent se situer dans le coda.
-- Les consonnes /​r/ et /​l/ peuvent être suivies par une consonne nasale, occlusive ou fricative.
+- Les semi-consonnes ​/j/ et ​/w/ ne peuvent se situer dans le coda.
+- Les consonnes ​/r/ et ​/l/ peuvent être suivies par une consonne nasale, occlusive ou fricative.
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 - Les nasales peuvent êtres suivies par une occlusive ou une fricative.
 - Les occlusives sourdes peuvent être suivies par un <th>.
 - Les occlusives voisées peuvent être suivies par un <dh>.
+- Le ​/h/ ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
 Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
 - Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
-- Les occlusives peuvent être suivies par une fricative, par un /​r/ ou un /​l/.
+- Les occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
+- Le ​​/h/, tel que dans l’attaque, ne peut s’associer qu’avec le ​/j/ ou le ​/w/ qui le suivent.
 
 ** Accentuation
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
@@ -245,24 +251,24 @@ Le génitif permet de marquer une relation entre deux éléments, l’élément 
 Enfin, le vocatif permet de s’adresser à quelqu’un ou quelque chose, en attirant son attention. Dans la phrase « Monsieur, pourriez-vous m’aider ? », « Monsieur » serait décliné au vocatif.
 
 Voici la table des suffixes à ajouter selon la déclinaison du mot :
-| /               | <           |
-| cas grammatical | déclinaison |
-|-----------------+-------------|
-| nominatif       | -(e)n       |
-| accusatif       | -ant        |
-| datif           | -ith        |
-| locatif         | -(o)ch      |
-| ablatif         | -(r)ac      |
-| limitatif       | -ém         |
-| génitif         | -un         |
-| vocatif         | -y          |
+| /               | <            |
+| cas grammatical | déclinaison  |
+|-----------------+--------------|
+| nominatif       | /non marqué/ |
+| accusatif       | -ant         |
+| datif           | -ith         |
+| locatif         | -(o)ch       |
+| ablatif         | -(r)ac       |
+| limitatif       | -ém          |
+| génitif         | -un          |
+| vocatif         | -y           |
 Les éléments entre parenthèse sont facultatifs selon le contexte précédant la déclinaison ; si une voyelle est entre parenthèse, elle sera omise si la déclinaison est déjà précédée par une voyelle, de même s’il s’agit d’une consonne entre parenthèse dans le cas de la déclinaison précédée par une consonne.
 
 Ainsi, <tere> (« tour ») se déclinera ainsi :
 | /               | <>          |                       |
 | cas grammatical | déclinaison | signification         |
 |-----------------+-------------+-----------------------|
-| nominatif       | teren       | tour (sujet)          |
+| nominatif       | tere        | tour (sujet)          |
 | accusatif       | tereant     | tour (objet)          |
 | datif           | tereith     | tour (objet indirect) |
 | locatif         | terech      | à la tour             |
@@ -275,7 +281,7 @@ On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
 | /               | <>          |                             |
 | cas grammatical | déclinaison | signification               |
 |-----------------+-------------+-----------------------------|
-| nominatif       | velten      | monde (sujet)               |
+| nominatif       | velte       | monde (sujet)               |
 | accusatif       | veltant     | monde (objet)               |
 | datif           | veltith     | monde (objet indirect)      |
 | locatif         | veltoch     | dans le monde (à sa surace) |
@@ -330,40 +336,40 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose pas de déterminants cardinaux, ou plutôt il s’agit simplement du nombre approprié placé à l’emplacement du déterminant tel que défini plus tard dans le chapitre sur la syntaxe approprié (§[[*Syntaxe]]). Dans le cas des nombres cardinaux, il s’agit d’ajouter en suffixe au numéro le terme <norm> auquel un article défini accordé en genre et en nombre est également suffixé. Ainsi, pour le terme « premier » au singulier masculin, nous obtiendrons
 
 ** Adjectifs
-Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison, à l’exception du nominatif où seul le nombre est marqué. Voici un tableau d’exemple d’accord de <raedh> (« rouge ») avec <vagen> (« voiture »).
+Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de <raedh> (« rouge ») avec <wachen> (« voiture »).
 
 Singulier :
-| /         | <                   |
-| nominatif | a raedh vagenen     |
-| accusatif | a raedhant vagenant |
-| datif     | a raedhith vagenith |
-| locatif   | a raedhoch vagenoch |
-| ablatif   | a raedhac vagenac   |
-| limitatif | a raedhém vageném   |
-| génitif   | a raedhun vagenun   |
-| vocatif   | a raedhy vageny     |
+| /         | <                    |
+| nominatif | a raedh wachen       |
+| accusatif | a raedhant wachenant |
+| datif     | a raedhith wachenith |
+| locatif   | a raedhoch wachenoch |
+| ablatif   | a raedhac wachenac   |
+| limitatif | a raedhém wacheném   |
+| génitif   | a raedhun wachenun   |
+| vocatif   | a raedhy wacheny     |
 
 Paucal :
-| /         | <                       |
-| nominatif | en raedhet vagenenet     |
-| accusatif | en raedhantet vagenantet |
-| datif     | en raedhithet vagenithet |
-| locatif   | en raedhochet vagenochet |
-| ablatif   | en raedhacet vagenacet   |
-| limitatif | en raedhémet vagenémet   |
-| génitif   | en raedhunet vagenunet   |
-| vocatif   | en raedhyet vagenuet     |
+| /         | <                         |
+| nominatif | en raedhet wachenet       |
+| accusatif | en raedhantet wachenantet |
+| datif     | en raedhithet wachenithet |
+| locatif   | en raedhochet wachenochet |
+| ablatif   | en raedhacet wachenacet   |
+| limitatif | en raedhémet wachenémet   |
+| génitif   | en raedhunet wachenunet   |
+| vocatif   | en raedhyet wachenuet     |
 
 Pluriel :
-| /         | <                          |
-| nominatif | yt raedheth vageneneth     |
-| accusatif | yt raedhanteth vagenanteth |
-| datif     | yt raedhitheth vagenitheth |
-| locatif   | yt raedhocheth vagenocheth |
-| ablatif   | yt raedhaceth vagenaceth   |
-| limitatif | yt raedhémeth vagenémeth   |
-| génitif   | yt raedhuneth vagenuneth   |
-| vocatif   | yt raedhyeth vagenyeth     |
+| /         | <                           |
+| nominatif | yt raedheth wacheneth       |
+| accusatif | yt raedhanteth wachenanteth |
+| datif     | yt raedhitheth wachenitheth |
+| locatif   | yt raedhocheth wachenocheth |
+| ablatif   | yt raedhaceth wachenaceth   |
+| limitatif | yt raedhémeth wachenémeth   |
+| génitif   | yt raedhuneth wachenuneth   |
+| vocatif   | yt raedhyeth wachenyeth     |
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
@@ -371,12 +377,12 @@ Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en 
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 
 - Première personne :
-| /         | <>        | >         | >     |         |
-|           | nominatif | accusatif | datif | génitif |
-|-----------+-----------+-----------+-------+---------|
-| singulier | çeg       | çent      | çeidh | çyn     |
-| paucal    | thi       | thid      | thidh | thyn    |
-| pluriel   | non       | nound     | nonth | nun     |
+| /         | <>        | >         | >      |         |
+|           | nominatif | accusatif | datif  | génitif |
+|-----------+-----------+-----------+--------+---------|
+| singulier | cheg      | chent     | cheidh | chyn    |
+| paucal    | thi       | thid      | thidh  | thyn    |
+| pluriel   | non       | nound     | nonth  | nun     |
 
 - Seconde personne :
 | /         | <>        | >         | >     | >       |         |
@@ -638,41 +644,195 @@ Le Mattér peut également être écrit avec les caractères romains comme fait 
 | th                     | Þ - þ                |
 | dh                     | Ð - ð                |
 | ch                     | Ȝ - ȝ                |
+| w                      | Ƿ - ƿ                |
+| j                      | I - i                |
 | ae                     | Æ - æ                |
-# C-x 8 RET 21C ou 21D pour Ȝ et ȝ
+# C-x 8 RET 21C ou 21D pour Ȝ et ȝ, 1bf ou 1f7 pour ƿ - Ƿ
 
 Ainsi, des mots tels que <brydh> ou <thpich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
+Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
+
+| /                | <     | <                                           |
+| translittération | latin | runique                                     |
+|------------------+-------+---------------------------------------------|
+| brydh            | bryð  | {{{if-latex-else(\\textara{brys},ᛒᚱᚣᛋ)}}}   |
+| thpich           | þpiȝ  | {{{if-latex-else(\\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
+| jea              | iea   | {{{if-latex-else(\\textara{j\\ea},ᛄᛠ)}}}    |
+| maend            | mænd  | {{{if-latex-else(\\textara{mænd},ᛗᚫᚾᛞ)}}}   |
+| nethty           | neþty | {{{if-latex-else(\\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
+| wachen           | ƿaȝen | {{{if-latex-else(\\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
 
 src_latex{\newpage}
 * Glossaire
 
-- ar :: (conj.) et
-- brydh :: (nn) naissance
-- brydhdeg :: (nn) jour de naissance, anniversaire
-- daeg :: (nn) jour
-- eppel :: (nn) pomme
-- ficjan :: (nn) poisson
-- gaern :: (nn) année
-- galm :: (adj) vieux, ancien
-- gyrneg :: (nn) moment du lever de soleil, matin
-- je :: (adv, inform.) ouais
-- jea :: (adv) oui
-- ne :: (adv, inform.) nan
-- nea :: (adv) non
-- maend :: (adj) beaucoup
-- menyth :: (nn) mois
-- morg :: (adv) demain
-- nethty :: (adj) prochain, suivant
-- norm :: (nn) nombre, numéro (ordinal)
-- o ficjan :: (v) pêcher
-- o thpich :: (v) manger
-- smoz :: (adj) petit
-- tere :: (nn) tour, haut monument
-- thcyrm :: (nn) crépuscule, moment du coucher de soleil
-- urby :: (nn) ville
-- velt :: (nn) monde, la Terre
-- vend :: (adj) peu, un peu
-- voc :: (nn) semaine
+- mot en Mattér :: ​/phonétique/ (élément de langage) Définition(s)
+
+Abréviations :
+- adj : adjectif
+- adv : adverbe
+- ind : indénombrable
+- n : nom
+- nom : nom
+- pau : paucal
+- pl : pluriel
+- pron : pronom
+- sg : singulier
+- v : verbe
+
+** Actions physiques
+
+** Amour
+
+** Animaux
+- ficjan :: ​/ˈfikjan/ (n) poisson
+- o ficjan :: ​/o ˈfikjan/ (v) pêcher
+
+** Art
+
+** Astronomie
+
+** Bâtiments
+*** La ville
+- urby :: ​/ˈurby/ (n) ville
+*** Les types de bâtiments
+- tere :: ​/ˈtɛrɛ/ (n) tour, haut monument
+
+** Commerce
+
+** Conflits
+
+** Conteneurs
+
+** Corps
+
+** Couleurs
+
+** Dimensions
+*** Taille
+- smodh :: ​/smoð/ (adj) petit
+
+*** Quantifieurs
+- maend :: ​/maend/ (adj) beaucoup
+- vend :: ​/vend/ (adj) peu, un peu
+
+** Direction
+
+** Eau
+
+** Effort
+
+** Éléments
+
+** Émotions
+
+** Évaluation
+
+** Événements
+
+** Existence
+
+** Famille
+
+** Forme
+
+** Gouvernement
+
+** Grammaire
+*** Conjonctions
+- ar :: ​/ar/ (conj) et
+- aen :: ​/aen/ (conj) et, mais
+- og :: ​/oɡ/ (conj) et, cependant, toujours est-il que
+- men :: ​/mɛn/ (conj) mais
+- dhea :: ​/ðea/ (conj) mais, introduit une question
+- némmé :: ​/nemːe/ (conj) excepté, à moins que
+
+*** Prépositions
+- tél :: ​/tel/ (prep) pour, afin
+- thiv :: ​/θiv/ (prep) pour la raison de, du fait de.
+
+** Guerre
+
+** Légal
+
+** Lieux
+
+** Lumière
+
+** Mental
+
+** Mesures
+
+** Métaux
+
+** Mouvements
+
+** Nature
+- velt :: ​/vɛlt/ (n) monde, la Terre
+
+** Nombres
+- norm :: ​/norm/ (n) nombre, numéro (ordinal)
+- al :: ​/al/ (adj) tout, tous
+
+** Nourriture
+- o thpich :: ​/o θpiç/ (v) manger
+
+** Outils
+- wachen :: ​/ˈwaçɛn/ (n) voiture
+
+** Parole
+- o seg :: ​/o sɛɡ/ (v) dire
+
+** Péchés
+
+** Physique
+
+** Possession
+
+** Religion
+
+** Savoir
+- o cyn :: ​/o kyn/ (v) savoir
+- o sjea :: ​/o sjea/ (v) connaître, savoir superficiellement
+- o vitté :: ​/o ˈvitːe/ (v) savoir, connaître, être conscient de
+En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
+
+** Sensations
+
+** Sexe
+
+** Société
+*** Relations sociales
+- je :: ​/jɛ/ (adv, inform.) ouais
+- jea :: ​/jea/ (adv) oui
+- ne :: ​/nɛ/ (adv, inform.) nan
+- nea :: ​/nea/ (adv) non
+
+** Substances
+
+** Temps
+- daeg :: ​/daeɡ/ (n) jour
+- gaern :: ​/ɡaern/ (n) année
+- galm :: ​/ɡalm/ (adj) vieux, ancien
+- gyrneg :: ​/ˈɡyrnɛɡ/ (n) moment du lever de soleil, matin
+- menyth :: ​/ˈmɛnyθ/ (n) mois
+- morg :: ​/morɡ/ (adv) demain
+- nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
+- thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
+- voc :: ​/vok/ (n) semaine
+
+** Travail
+
+** Végétaux
+*** Fruits
+- eppel :: ​/ˈɛpːɛl/ (n) pomme
+
+** Vêtements
+
+** Vie et santé
+- brydh :: ​/bryð/ (n) naissance
+- brydhdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/brydh/ + /deg/)
+
+** À trier
 
 src_latex{\newpage}
 * Annexes
