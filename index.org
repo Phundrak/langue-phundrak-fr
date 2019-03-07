@@ -8,7 +8,7 @@
 
 [[https://langue.phundrak.fr/hjalpi][Hjalpi’]] ([[https://langue.phundrak.fr/hjalpi/hjalpi.pdf][pdf]])
 
-[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp/hjelp.pdf][pdf]]) (remplacement du Hjalpi’)
+[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp/hjelp.pdf][pdf]], [[https://langue.phundrak.fr/hjelp/hjelp.epub][epub]], [[https://langue.phundrak.fr/hjelp/hjelp.mobi][mobi]]) (remplacement du Hjalpi’)
 
 * Langues draconiennes
 
@@ -20,4 +20,4 @@
 
 Enánon (à venir)
 
-[[https://langue.phundrak.fr/matter][Mattér]] ([[https://langue.phundrak.fr/matter/matter.pdf][pdf]])
+[[https://langue.phundrak.fr/matter][Mattér]] ([[https://langue.phundrak.fr/matter/matter.pdf][pdf]], [[https://langue.phundrak.fr/matter/matter.epub][epub]], [[https://langue.phundrak.fr/matter/matter.mobi][mobi]])
