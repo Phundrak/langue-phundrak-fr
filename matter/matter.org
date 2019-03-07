@@ -148,6 +148,7 @@ Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l�
 - Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/, selon le locuteur. Exemple : <neich> ​/nɛiç/ [nɛɪç]
 - S’il est suivi d’une voyelle dans le même mot, le ​/i/ se transorme en la semi-consonne ​/j/.
 - Le ​/l/ se transforme en « <l> sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> ​/mael/ [maeɫ]
+- Le ​/lː/ se prononce ​/ɫː/ dans toutes ses occurences.
 - Le ​/h/ se transforme en ​/ç/ s’il est suivi par un ​/j/, un ​/e/ ou un ​/i/. Exemple : <hét> ​/het/ [çet]
 - Si un ​/ɛ/ suit un ​/e/, alors le ​/ɛ/ devient un ​/e/.
 - Si un ​/e/ suit un ​/ɛ/, alors le ​/e/ devient un ​/ɛ/.
@@ -181,6 +182,7 @@ Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-
 - Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
 - Les occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
 - Le ​​/h/, tel que dans l’attaque, ne peut s’associer qu’avec le ​/j/ ou le ​/w/ qui le suivent.
+- Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.
 
 ** Accentuation
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
