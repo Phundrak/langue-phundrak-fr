@@ -742,6 +742,11 @@ Abréviations :
 - o ficjan :: ​/o ˈfikjan/ (v) pêcher
 
 ** Art
+*** Écriture
+- breif :: ​/brɛɪf/ (n) lettre, missive
+- géren :: ​/ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
+- rittan :: ​/ˈritːa/ (v) écrire, graver des runes
+- ryn :: ​/ryn/ (n) rune, lettre alphabétique
 
 ** Astronomie
 
@@ -760,7 +765,7 @@ Abréviations :
 ** Corps
 
 ** Couleurs
-
+- raedh :: ​/raeð/ (adj) rouge
 ** Dimensions
 *** Taille
 - smodh :: ​/smoð/ (adj) petit
