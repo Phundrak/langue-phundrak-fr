@@ -196,7 +196,7 @@ Le Mattér est une langue à morphologie principalement agglutinatif puis synth�
 ** Genre
 Ce chapitre sur le genre n’est pas un chapitre de morphologie en soit, mais il est important de connaître les genres en vigueur dans le Mattér afin de pouvoir étudier le reste de sa grammaire.
 
-Le Mattér est une langue dont le genre est relativement peu significatif, où seuls les humains ont un genre et influence les éléments influençables, notamment les déterminants, adjectifs et verbes. Le Mattér dispose ainsi de quatre genres :
+Le Mattér est une langue dont le genre est relativement peu significatif, où seuls les humains ont un genre et influence les éléments influençables, notamment les pronoms, déterminants et adjectifs. Le Mattér dispose ainsi de quatre genres :
 - Neutre (~N~)
 - Masculin (~M~)
 - Féminin (~F~)
@@ -449,11 +449,29 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 | 2P   | Vent  | Var     | y Vat   |
 | 3P   | Ven   | Vér     | y Vat   |
 
-Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou postérieurs du passé et du futur s’effectuent en utilisant soit le participe passé ou futur du verbe et en utilisant le verbe modal <o ber> pour les verbes d’états et <o gjer> pour les verbes d’action qui sera conjugué au passé ou au futur selon s’il s’agit respectivement d’un temps antérieur ou postérieur. Ainsi,
+Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou postérieurs du passé et du futur s’effectuent en utilisant soit le participe passé ou futur du verbe et en utilisant le verbe modal <o ber> pour les verbes d’états et <o gjer> pour les verbes d’action qui sera conjugué au passé ou au futur selon s’il s’agit respectivement d’un temps antérieur ou postérieur.
 
-En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> ou <o gjer> comme auxilliaires conjugué selon le temps et l’aspect perfectif ou imperfectif voulu, tandis que le verbe principal prend <-ande> comme terminaison.
+En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> ou <o gjer> comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §[[*Participes]]). Exemple :{{{newline}}}
+Français : J’étais en train de manger une pomme rouge.{{{newline}}}
+Mattér : cheg e gjéth thpichand raedhant eppelant
+
+Français : Vous êtes tous deux en train de pêcher.{{{newline}}}
+Mattér : im gjéta ficjanand{{{newline}}}
+
+Français : Elles seront en train d’écrire des lettres.
+Mattér : thu y gjér gérenand breifantath
 
 *** Modes
+**** Participes
+| /                    | <       |
+| type de participe    | forme   |
+|----------------------+---------|
+| participe passé      | V(dh)et |
+| participe présent    | V(o)ta  |
+| participe futur      | V(é)tér |
+| participe progressif | Vand    |
+
+Participes irréguliers :
 
 *** Verbe être <o ber>
 **** Perfectif
@@ -484,6 +502,14 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 2P   | ea vaerth | therth  | u therdh  |
 | 3P   | ei varth  | thet    | ou thetth |
 
+**** Participe
+| /                 | <     |
+| type de participe | forme |
+|-------------------+-------|
+| participe passé   | bet   |
+| participe présent | bote  |
+| participe futur   | bétér |
+
 *** Verbe avoir <o hab>
 **** Perfectif
 | /    | <>    |         |
@@ -512,6 +538,15 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 1P   | ae hat   | haber   | u harbe   |
 | 2P   | ae haeth | haberth | y hardh   |
 | 3P   | ei harth | habet   | u hebet   |
+
+**** Participe
+| /                 | <     |
+| type de participe | forme |
+|-------------------+-------|
+| participe passé   | haet  |
+| participe présent | hat   |
+| participe futur   | hater |
+
 *** Verbe faire <o gjer>
 **** Perfectif
 | /    | <>      |           |
@@ -528,28 +563,42 @@ En revanche, les trois temps disposent d’un aspect commun : *le progressif* q
 | 3P   | gjeraen | y gjerean |
 
 **** Imperfectif
-| /    | <>    | >       |       |
-|      | passé | présent | futur |
-|------+-------+---------+-------|
-| 1S   |       |         |       |
-| 2S   |       |         |       |
-| 3S   |       |         |       |
-| 1PAU |       |         |       |
-| 2PAU |       |         |       |
-| 3PAU |       |         |       |
-| 1P   |       |         |       |
-| 2P   |       |         |       |
-| 3P   |       |         |       |
-** Conjonctions
+| /    | <>        | >       |          |
+|      | passé     | présent | futur    |
+|------+-----------+---------+----------|
+| 1S   | e gjéth   | gjere   | u gjere  |
+| 2S   | ae gjét   | gjei    | y gjeit  |
+| 3S   | ei gjéth  | gjea    | y gjeath |
+| 1PAU | e gjétth  | gjét    | u gjét   |
+| 2PAU | e gjért   | gjéta   | y gjérta |
+| 3PAU | ea gjétth | gjaet   | y gjaeth |
+| 1P   | ei gjeath | gjern   | y gjeath |
+| 2P   | e gjeath  | gjerar  | y gjerar |
+| 3P   | e gjérth  | gjér    | y gjér   |
+
+**** Participe
+| /                 | <      |
+| type de participe | forme  |
+|-------------------+--------|
+| participe passé   | get    |
+| participe présent | gethte |
+| participe futur   | gér    |
+
 ** Adverbes
+
 ** Prépositions
 
 src_latex{\newpage}
 * Syntaxe
-
+** Groupe nominal
+** Groupe verbal
+** Propositions simples
+** Négations
+** Questions
+** Conjonctions et Coordination de propositions
 src_latex{\newpage}
 * Morphosyntaxe
-
+** Citation
 src_latex{\newpage}
 * Sémantiques
 
