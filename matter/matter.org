@@ -681,8 +681,27 @@ Participes irréguliers :
 src_latex{\newpage}
 * Syntaxe
 ** Groupe nominal
+Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smodh eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smodh » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
+
+Mattér : Hit galmant wachenant beith.{{{newline}}}
+Français : C’est une vieille voiture.
+
+Mattér : Hit wachenant galmant beith.{{{newline}}}
+Français : C’est une voiture à mon avis vieille.
+
 ** Groupe verbal
 ** Propositions simples
+L’ordre préféré en Mattér est <sujet>-<objet>-<oblique>-<verbe>, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
+
+Mattér : Fadhérych breifant cheidh gjea gérenand.{{{newline}}}
+Français : Mon père est en train de m’écrire une lettre.
+
+Mattér : Breifant fadhérych cheidh gjea gérenand.{{{newline}}}
+Français : C’est une lettre que mon père est en train de m’écrire.
+
+Mattér : Cheidh fadhérych breifant gjea gérenand.{{{newline}}}
+Français : C’est à moi que mon père est en train d’écrire une lettre.
+
 ** Négations
 ** Questions
 ** Conjonctions et Coordination de propositions
