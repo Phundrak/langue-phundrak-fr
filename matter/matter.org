@@ -219,7 +219,6 @@ Voici la structure globale d’un nom :
 |   | racine | déclinaison | possessif | nombre |
 |---+--------+-------------+-----------+--------|
 
-
 *** Nombre
 Le Mattér est une langue comportant trois nombres : le singulier, le paucal et le pluriel.
 - singulier :: permet de se référer à un élément unique
@@ -301,6 +300,18 @@ On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
 | limitatif       | veltém      | jusqu’au monde              |
 | génitif         | veltun      | du monde                    |
 | vocatif         | velty       | Oh Monde !                  |
+
+*** Possessif
+En mattér, il est possible d’indiquer la possession d’une personne du mot auquel est ajouté un possessif. Voici la table des suffixes possessifs du Mattér :
+#+CAPTION:Suffixes possessifs
+| /             | <         | <      | <       |
+|               | singulier | paucal | pluriel |
+|---------------+-----------+--------+---------|
+| 1ère personne | -ych      | -yth   | -yn     |
+| 2ème personne | -(d)yn    | -(i)m  | -(e)nu  |
+| 3ème personne | -én       | -an    | -eath   |
+
+Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par « chyn hyth », ou bien « hythyn ». La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
 
 ** Déterminants
 Le Mattér dispose de quatre catégories de déterminants :
@@ -390,6 +401,8 @@ Pluriel :
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
+La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil thtorant ficjanant gjea thpichand ». On sait que l’adjectif <mekkil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <thtor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant thtorant ficjanant gjea thpichand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil thtor ficjanant gjea thpichand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
+
 ** Pronoms
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 
@@ -468,7 +481,7 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 
 Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou postérieurs du passé et du futur s’effectuent en utilisant soit le participe passé ou futur du verbe et en utilisant le verbe modal <o ber> pour les verbes d’états et <o gjer> pour les verbes d’action qui sera conjugué au passé ou au futur selon s’il s’agit respectivement d’un temps antérieur ou postérieur.
 
-En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> ou <o gjer> comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §[[*Participes]]). Exemple :{{{newline}}}
+En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> (verbes d’état) ou <o gjer> (verbes d’action) comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §[[*Participes]]). Exemple :{{{newline}}}
 Français : J’étais en train de manger une pomme rouge.{{{newline}}}
 Mattér : cheg e gjéth thpichand raedhant eppelant
 
