@@ -464,7 +464,51 @@ Français : Elles seront en train d’écrire des lettres.
 Mattér : thu y gjér gérenand breifantath
 
 *** Modes
+**** Infinitif
+C’est dans ce mode que vous verrez les verbes dans le dictionnaire. Il s’agit de la base de chaque verbe, précédé par un <o> marquant l’infinitif. Dans cette forme, le verbe peut être manipulé dans la phrase comme un nom commun, mais il peut également être utilisé afin de donner des instructions de façon polie, comme par exemple dans un manuel ou dans une recette, comme cela peut être le cas en Français.
+
+**** Impératif
+En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à son interlocuteur, mais également à un tiers, comme on pourrait le comprendre en Français dans la phrase « Qu’il le fasse ! ». Il ne s’applique donc qu’au présent, ainsi qu’à la deuxième et troisième personne (singulier, paucal et pluriel). Voici la conjugaison des verbes à l’impératif :
+
+#+CAPTION:Conjugaison des verbes régulier à l’impératif
+| /         | <                 | <                  |
+| nombre    | deuxième personne | troisième personne |
+|-----------+-------------------+--------------------|
+| singulier | V(a)ge            | V(e)get            |
+| paucal    | V(a)gér           | V(e)gent           |
+| pluriel   | V(e)gi            | V(e)geat           |
+
+Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas où l’apposition de la terminaison créé une suite de consonne interdite par les règles de phonotaxes (voir §[[*Phonotaxes]]). Voici par exemple la conjugaison respectivement de <o seg> « dire » et <o thpich> « manger » à l’impératif :
+
+#+CAPTION:Conjugaison de <o seg> à l’impératif
+| /         | <                 | <                  |
+| nombre    | deuxième personne | troisième personne |
+|-----------+-------------------+--------------------|
+| singulier | segge             | segget             |
+| paucal    | seggér            | seggent            |
+| pluriel   | seggi             | seggeat            |
+
+#+CAPTION:Conjugaison de <o thpich> à l’impératif
+| /         | <                 | <                  |
+| nombre    | deuxième personne | troisième personne |
+|-----------+-------------------+--------------------|
+| singulier | thpichege         | thpicheget         |
+| paucal    | thpichegér        | thpichegent        |
+| pluriel   | thpichegi         | thpichegeat        |
+
+Comme à leur habitude, les trois verbes <o ber>, <o hab> et <o gjer> ont leur propre forme que vous retrouverez dans leurs chapitres respectifs (§[[*Verbe %C3%AAtre <o ber>]], §[[*Verbe avoir <o hab>]] et §[[*Verbe faire <o gjer>]]).
+
+Il est également possible pour le locuteur d’accentuer l’ordre en mettant le verbe au participe présent et en le précédant par le verbe <o gjer> conjugué à l’impératif. Exemple avec <o ficjan> :
+#+CAPTION:Conjugaison à l’impératif fort de <o ficjan>
+| /         | <                 | <                  |
+| nombre    | deuxième personne | troisième personne |
+|-----------+-------------------+--------------------|
+| singulier | jeg ficjanta      | gjet ficjanta      |
+| paucal    | jége ficjanta     | gjégent ficjanta   |
+| pluriel   | jegi ficjanta     | gjeag ficjanta     |
+
 **** Participes
+#+CAPTION:Participes réguliers
 | /                    | <       |
 | type de participe    | forme   |
 |----------------------+---------|
