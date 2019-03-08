@@ -829,6 +829,7 @@ Abréviations :
 ** Éléments
 
 ** Émotions
+- lycce :: ​/ˈlykːɛ/ (adj) joyeux, content
 
 ** Évaluation
 
@@ -951,6 +952,7 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - menyth :: ​/ˈmɛnyθ/ (n) mois
 - morg :: ​/morɡ/ (adv) demain
 - nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
+- tebyr :: ​/'tɛbyr/ (v) passer (du temps)
 - thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
 - voc :: ​/vok/ (n) semaine
 
