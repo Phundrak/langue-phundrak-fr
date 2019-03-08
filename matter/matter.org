@@ -163,7 +163,8 @@ L’attaque est la première partie de la syllabe, les premières consonnes la c
 - Le ​/j/ ne peut être suivi par un ​/i/.
 - Le ​/w/ ne peut être suivi par une voyelle postérieure.
 - Les fricatives et occlusives peuvent être suivies par un ​/r/ ou un ​/l/, ou par une semi-voyelle.
-- Les friccatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.
+- Les fricatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.
+- Le ​/ç/ ne peut être suivi par une occlusive voisée.
 - Le ​/h/ ne peut être suivi que par un ​/j/ ou un ​/w/ et ne peut pas suivre une autre consonne.
 
 *** Coda
@@ -180,7 +181,8 @@ Le coda (la seconde partie consonnantique de la syllabe la terminant) est compos
 *** Inter-syllabe
 Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
 - Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
-- Les occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
+- Les consonnes occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
+- Les consonnes bilabiales peuvent être suivies par des occlusives voisées.
 - Le ​​/h/, tel que dans l’attaque, ne peut s’associer qu’avec le ​/j/ ou le ​/w/ qui le suivent.
 - Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.
 
