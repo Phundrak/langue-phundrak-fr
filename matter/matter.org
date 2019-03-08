@@ -818,6 +818,7 @@ Abréviations :
 ** Amour
 
 ** Animaux
+- bern :: ​/bɛrn/ (n) ours
 - ficjan :: ​/ˈfikjan/ (n) poisson
 - o ficjan :: ​/o ˈfikjan/ (v) pêcher
 
@@ -835,6 +836,7 @@ Abréviations :
 - urby :: ​/ˈurby/ (n) ville
 *** Les types de bâtiments
 - tere :: ​/ˈtɛrɛ/ (n) tour, haut monument
+- hyth :: ​/hyθ/ (n) maison (bâtiment)
 
 ** Commerce
 
@@ -849,6 +851,8 @@ Abréviations :
 ** Dimensions
 *** Taille
 - smodh :: ​/smoð/ (adj) petit
+- thtor :: ​/θtor/ (adj) gros, grand, de grande taille, large
+- mekkil :: ​/mekːil/ (adj) grand, imposant, puissant, fort
 
 *** Quantifieurs
 - maend :: ​/maend/ (adj) beaucoup
@@ -872,7 +876,8 @@ Abréviations :
 ** Existence
 
 ** Famille
-
+- fadhér :: ​/ˈfaðer/ (n) père
+- madhér :: ​/ˈmaðer/ (n) mère
 ** Forme
 
 ** Gouvernement
