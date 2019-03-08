@@ -55,7 +55,7 @@ Comme mentionné en introduction (§[[*Introduction]]), le Mattér est une langu
 *** Consonnes
 Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §[[*Notes sur la romanisation du Matt%C3%A9r]] concernant la translittération).
 
-#+CAPTION: Consonnes du Hjelp (IPA)
+#+CAPTION: Consonnes du Mattér (IPA)
 |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
 |---------------+-------+----------+----------+---------+-------+-------------|
 | bilabial      | m     | p b      |          |         |       |             |
@@ -67,7 +67,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | glottal       |       |          | h        |         |       |             |
 | /             | <     | <        | <        | <       | <     | <           |
 
-#+CAPTION: Consonnes du Hjelp (translittération)
+#+CAPTION: Consonnes du Mattér (translittération)
 |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
 |---------------+-------+----------+----------+---------+-------+-------------|
 | bilabial      | m     | p b      |          |         |       |             |
@@ -105,7 +105,7 @@ Les consonnes nasales, occlusives ainsi que le ​/l/ peuvent être doublées, a
 
 *** Voyelles
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
-#+CAPTION: Voyelles du Hjelp (IPA)
+#+CAPTION: Voyelles du Mattér (IPA)
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
@@ -114,7 +114,7 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 |   | mi-ouvertes | ɛ           |              |
 |   | ouvertes    | a           |              |
 
-#+CAPTION: Voyelles du Hjelp (translittération)
+#+CAPTION: Voyelles du Mattér (translittération)
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
@@ -136,6 +136,8 @@ Voici ci-dessous la description de chacune de ces voyelles :
 
 *** Diphtonges
 Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « ​/I/ » prononcé ​/aɪ/. Voici la liste des diphtongues existant en Hjelp :
+
+#+CAPTION:Diphtongues du Mattér
 | ​/ɛi/ | ​/ai/ |
 | ​/ea/ | ​/ae/ |
 | ​/eu/ | ​/au/ |
@@ -210,6 +212,8 @@ Ainsi, pour les éléments genrés de la langue, le genre est soit connu, auquel
 Les noms en Mattér servent généralement à se référer à des entités, des concepts ou bien des objets. Ils sont composés d’au moins une syllabe à laquelle peuvent s’ajoute des suffixes.
 
 Voici la structure globale d’un nom :
+
+#+CAPTION:Structure d’un nom en Mattér
 | / | <>     | >           | >         | >      |
 |---+--------+-------------+-----------+--------|
 |   | racine | déclinaison | possessif | nombre |
@@ -223,6 +227,7 @@ Le Mattér est une langue comportant trois nombres : le singulier, le paucal et
 - pluriel :: permet de se référer à plus de six éléments, comporte une conotation de « beaucoup ».
 
 Voici la liste des suffixes du Mattér afin de marquer le nombre :
+#+CAPTION:Inflexion des nom en nombres
 | /         | <            |
 | nombre    | suffixe      |
 |-----------+--------------|
@@ -255,6 +260,7 @@ Le génitif permet de marquer une relation entre deux éléments, l’élément 
 Enfin, le vocatif permet de s’adresser à quelqu’un ou quelque chose, en attirant son attention. Dans la phrase « Monsieur, pourriez-vous m’aider ? », « Monsieur » serait décliné au vocatif.
 
 Voici la table des suffixes à ajouter selon la déclinaison du mot :
+#+CAPTION:Déclinaison des noms par cas grammaticaux
 | /               | <            |
 | cas grammatical | déclinaison  |
 |-----------------+--------------|
@@ -269,6 +275,7 @@ Voici la table des suffixes à ajouter selon la déclinaison du mot :
 Les éléments entre parenthèse sont facultatifs selon le contexte précédant la déclinaison ; si une voyelle est entre parenthèse, elle sera omise si la déclinaison est déjà précédée par une voyelle, de même s’il s’agit d’une consonne entre parenthèse dans le cas de la déclinaison précédée par une consonne.
 
 Ainsi, <tere> (« tour ») se déclinera ainsi :
+#+CAPTION:Déclinaison de <tere> selon ses cas grammaticaux
 | /               | <>          |                       |
 | cas grammatical | déclinaison | signification         |
 |-----------------+-------------+-----------------------|
@@ -282,6 +289,7 @@ Ainsi, <tere> (« tour ») se déclinera ainsi :
 | vocatif         | terey       | Oh, tour !            |
 
 On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
+#+CAPTION:Déclinaison de <velt> selon ses cas grammaticaux
 | /               | <>          |                             |
 | cas grammatical | déclinaison | signification               |
 |-----------------+-------------+-----------------------------|
@@ -305,6 +313,7 @@ Les articles indéfinis n’existent pas en Mattér, et les déterminants indéf
 
 *** Articles définis
 Les articles définis servent à indiquer un élément précis, contrairement à un élément général désigné lors de l’absence d’article défini. Ainsi en Français, on utilise « le », « la » ou « les » comme articles définis. En revanche, le Mattér aura une absence de déterminants là où le Français dispose d’articles indéfinis. Comme on peut le voir ci-dessous, l’article défini s’accorde en genre et en nombre au nom auquel il est attaché.
+#+CAPTION:Articles définis du Mattér
 | / | <         | <      | <>      |
 |   | nombre    | genre  | article |
 |---+-----------+--------+---------|
@@ -321,6 +330,7 @@ Ainsi, « la tour » se traduira par <an teren> (au nominatif), « les chats�
 
 *** Déterminants démonstratifs
 Le déterminant démonstratif du Mattér a une fonction très similaire au déterminant démonstratif du Français, tels que « ce », « cet », « cette » et « ces ». De même que pour les articles définis, ils s’accordent en nombre, mais également selon la distance, allant de visible proche à invisible en passant par visible éloigné.
+#+CAPTION:Déterminants démonstratifs du Mattér
 | / | <        | <         | <>      |
 |   | distance | nombre    | article |
 |---+----------+-----------+---------|
@@ -343,6 +353,7 @@ Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose p
 Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de <raedh> (« rouge ») avec <wachen> (« voiture »).
 
 Singulier :
+#+CAPTION:Exemple de déclinaison d’adjectif au singulier
 | /         | <                    |
 | nominatif | a raedh wachen       |
 | accusatif | a raedhant wachenant |
@@ -354,6 +365,7 @@ Singulier :
 | vocatif   | a raedhy wacheny     |
 
 Paucal :
+#+CAPTION:Exemple de déclinaison d’adjectif au paucal
 | /         | <                         |
 | nominatif | en raedhet wachenet       |
 | accusatif | en raedhantet wachenantet |
@@ -365,6 +377,7 @@ Paucal :
 | vocatif   | en raedhyet wachenuet     |
 
 Pluriel :
+#+CAPTION:Exemple de déclinaison d’adjectif au pluriel
 | /         | <                           |
 | nominatif | yt raedheth wacheneth       |
 | accusatif | yt raedhanteth wachenanteth |
@@ -381,6 +394,7 @@ Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en 
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 
 - Première personne :
+#+CAPTION:Pronoms de la première personne
 | /         | <>        | >         | >      |         |
 |           | nominatif | accusatif | datif  | génitif |
 |-----------+-----------+-----------+--------+---------|
@@ -389,6 +403,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | pluriel   | non       | nound     | nonth  | nun     |
 
 - Seconde personne :
+#+CAPTION:Pronoms de la seconde personne
 | /         | <>        | >         | >     | >       |         |
 |           | nominatif | accusatif | datif | génitif | vocatif |
 |-----------+-----------+-----------+-------+---------+---------|
@@ -397,6 +412,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | pluriel   | min       | meint     | minth | meun    | miny    |
 
 - Troisième personne :
+#+CAPTION:Pronoms de la troisième personne
 | /             | <>        | >         | >      | >       |         |
 |               | nominatif | accusatif | datif  | génitif | vocatif |
 |---------------+-----------+-----------+--------+---------+---------|
@@ -422,7 +438,6 @@ Généralement parlant, le présent sert aux locuteurs du Mattér à se référe
 
 *** Aspects
 Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects *perfectif* et *imperfectif*. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §[[*Modes]]), le ~V~ représentant la racine du verbe :
-
 #+caption: Conjugaison du perfectif de l’indicatif
 | /    | <>    |       |
 |      | passé | futur |
@@ -521,6 +536,7 @@ Participes irréguliers :
 
 *** Verbe être <o ber>
 **** Perfectif
+#+CAPTION:Perfectif de <o ber>
 | /    | <>    |         |
 |      | passé | futur   |
 |------+-------+---------|
@@ -535,6 +551,7 @@ Participes irréguliers :
 | 3P   | veaen | y veaen |
 
 **** Imperfectif
+#+CAPTION:Imperfectif de <o ber>
 | /    | <>        | >       |           |
 |      | passé     | présent | futur     |
 |------+-----------+---------+-----------|
@@ -549,6 +566,7 @@ Participes irréguliers :
 | 3P   | ei varth  | thet    | ou thetth |
 
 **** Participe
+#+CAPTION:Participes de <o ber>
 | /                 | <     |
 | type de participe | forme |
 |-------------------+-------|
@@ -558,6 +576,7 @@ Participes irréguliers :
 
 *** Verbe avoir <o hab>
 **** Perfectif
+#+CAPTION:Perfectif de <o hab>
 | /    | <>    |         |
 |      | passé | futur   |
 |------+-------+---------|
@@ -572,6 +591,7 @@ Participes irréguliers :
 | 3P   | haent | y haent |
 
 **** Imperfectif
+#+CAPTION:Imperfectif de <o hab>
 | /    | <>       | >       |           |
 |      | passé    | présent | futur     |
 |------+----------+---------+-----------|
@@ -586,6 +606,7 @@ Participes irréguliers :
 | 3P   | ei harth | habet   | u hebet   |
 
 **** Participe
+#+CAPTION:Participes de <o hab>
 | /                 | <     |
 | type de participe | forme |
 |-------------------+-------|
@@ -595,40 +616,50 @@ Participes irréguliers :
 
 *** Verbe faire <o gjer>
 **** Perfectif
-| /    | <>      |           |
-|      | passé   | futur     |
-|------+---------+-----------|
-| 1S   | gjer    | y gjer    |
-| 2S   | gjeret  | y gjeret  |
-| 3S   | gjeth   | y gjeth   |
-| 1PAU | gjardh  | y gjarth  |
-| 2PAU | gjenth  | y gjent   |
-| 3PAU | gjetth  | y gjetth  |
-| 1P   | gjerein | y gjerein |
-| 2P   | gjereat | y gjereat |
-| 3P   | gjeraen | y gjerean |
+#+CAPTION:Perfectif de <o gjer>
+| /    | <>      |          |
+|      | passé   | futur    |
+|------+---------+----------|
+| 1S   | jer     | y jer    |
+| 2S   | jeret   | y jeret  |
+| 3S   | gjeth   | y jeth   |
+| 1PAU | jardh   | y jarth  |
+| 2PAU | jenth   | y jent   |
+| 3PAU | gjetth  | y jetth  |
+| 1P   | jerein  | y jerein |
+| 2P   | gjereat | y jereat |
+| 3P   | gjeraen | y jerean |
 
 **** Imperfectif
-| /    | <>        | >       |          |
-|      | passé     | présent | futur    |
-|------+-----------+---------+----------|
-| 1S   | e gjéth   | gjere   | u gjere  |
-| 2S   | ae gjét   | gjei    | y gjeit  |
-| 3S   | ei gjéth  | gjea    | y gjeath |
-| 1PAU | e gjétth  | gjét    | u gjét   |
-| 2PAU | e gjért   | gjéta   | y gjérta |
-| 3PAU | ea gjétth | gjaet   | y gjaeth |
-| 1P   | ei gjeath | gjern   | y gjeath |
-| 2P   | e gjeath  | gjerar  | y gjerar |
-| 3P   | e gjérth  | gjér    | y gjér   |
+#+CAPTION:Imperfectif de <o gjer>
+| /    | <>        | >       |         |
+|      | passé     | présent | futur   |
+|------+-----------+---------+---------|
+| 1S   | e jéth    | jere    | u jere  |
+| 2S   | ae jét    | jei     | y jeit  |
+| 3S   | ei gjéth  | gjea    | y jeath |
+| 1PAU | e jétth   | jét     | u jét   |
+| 2PAU | e jért    | gjéta   | y jérta |
+| 3PAU | ea gjétth | jaet    | y jaeth |
+| 1P   | ei jeath  | jern    | y jeath |
+| 2P   | e gjeath  | gjerar  | y jerar |
+| 3P   | e gjérth  | gjér    | y jér   |
 
 **** Participe
+#+CAPTION:Participes de <o gjer>
 | /                 | <      |
 | type de participe | forme  |
 |-------------------+--------|
 | participe passé   | get    |
 | participe présent | gethte |
 | participe futur   | gér    |
+**** Impératif
+| /         | <                 | <                  |
+| nombre    | deuxième personne | troisième personne |
+|-----------+-------------------+--------------------|
+| singulier | jeg               | gjet               |
+| paucal    | jége              | gjégent            |
+| pluriel   | jegi              | gjeag              |
 
 ** Adverbes
 
@@ -660,6 +691,7 @@ src_latex{\newpage}
 src_latex{\newpage}
 * Nombres
 Le Mattér est une langue comptant en base dix et prenant en compte l’existance du zéro. Cependant, contrairement au Français, le Mattér tend à grouper les dizaines de milliers ensemble plutôt que les milliers. Ainsi, nous avons les termes suivants :
+#+CAPTION:Nombres en Mattér
 |                 / |                < | <       |
 | notation standard |  notation Mattér | terme   |
 |-------------------+------------------+---------|
@@ -697,6 +729,7 @@ Typographiquement parlant, les multiplicateurs s’agglomèrent avec l’éléme
 src_latex{\newpage}
 * Système d’écriture
 Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
+#+CAPTION:Runes du Mattér
 | /                     | <                                      |
 | phonème (transcrit)   | rune                                   |
 |-----------------------+----------------------------------------|
@@ -739,6 +772,7 @@ Mattér (transcrit) : morgoch, gyrnegac thcyrmém, thi y ficjanur.{{{newline}}}
 Mattér (runes) : {{{if-latex-else(\\textara{morgoI:gyrnegac.þcyrm\\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
 
 Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
+#+CAPTION:Caractères latins du Mattér
 | /                      | <                    |
 | caractère translittéré | caractère alternatif |
 |------------------------+----------------------|
@@ -752,7 +786,7 @@ Le Mattér peut également être écrit avec les caractères romains comme fait 
 
 Ainsi, des mots tels que <brydh> ou <thpich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
-
+#+CAPTION:Exemples d’écritures native du Mattér
 | /                | <     | <                                           |
 | translittération | latin | runique                                     |
 |------------------+-------+---------------------------------------------|
