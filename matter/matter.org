@@ -779,6 +779,9 @@ Français : C’est à moi que mon père est en train d’écrire une lettre.
 
 ** Négations
 ** Questions
+** Propositions plus complexes
+*** Clauses relatives
+
 ** Conjonctions et Coordination de propositions
 src_latex{\newpage}
 * Morphosyntaxe
@@ -926,11 +929,16 @@ Abréviations :
 
 ** Animaux
 - bern :: ​/bɛrn/ (n) ours
+- cat :: ​/kat/ (n) chat
 - ficjan :: ​/ˈfikjan/ (n) poisson
 - o ficjan :: ​/o ˈfikjan/ (v) pêcher
+- hynd :: ​/hynd/ (n) chien
+- gyjen :: ​/ɡyjɛn/ (v) aboyer (animaux, chiens)
 
 ** Art
+- wen :: ​/wɛn/ beau, joli
 *** Écriture
+- bokké :: /ˈbokːe/ (n) livre
 - breif :: ​/brɛɪf/ (n) lettre, missive
 - géren :: ​/ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
 - rittan :: ​/ˈritːa/ (v) écrire, graver des runes
@@ -939,6 +947,7 @@ Abréviations :
 ** Astronomie
 
 ** Bâtiments
+- flytten :: ​/flytːɛn/ (v) déménager
 *** La ville
 - urby :: ​/ˈurby/ (n) ville
 *** Les types de bâtiments
@@ -946,7 +955,7 @@ Abréviations :
 - hyth :: ​/hyθ/ (n) maison (bâtiment)
 
 ** Commerce
-
+- saelle :: /ˈsaelːɛ/ (v) vendre, donner à quelqu’un
 ** Conflits
 
 ** Conteneurs
@@ -957,7 +966,7 @@ Abréviations :
 - raedh :: ​/raeð/ (adj) rouge
 ** Dimensions
 *** Taille
-- smodh :: ​/smoð/ (adj) petit
+- smodh :: ​/smoð/ (adj) petit, étroit
 - thtor :: ​/θtor/ (adj) gros, grand, de grande taille, large
 - mekkil :: ​/mekːil/ (adj) grand, imposant, puissant, fort
 
@@ -975,6 +984,8 @@ Abréviations :
 
 ** Émotions
 - lycce :: ​/ˈlykːɛ/ (adj) joyeux, content
+- wilja :: /ˈwilja/ (v) vouloir, avoir envie de
+- wille :: /ˈwilːɛ/ (n) souhait, désir
 
 ** Évaluation
 
@@ -983,8 +994,15 @@ Abréviations :
 ** Existence
 
 ** Famille
+- brudhyr :: ​/ˈbruðyr/ (n) frère
 - fadhér :: ​/ˈfaðer/ (n) père
+- fobror :: ​/ˈfobror/ (n) oncle paternel
+- fostyr :: ​/ˈfostyr/ (n) tante paternelle
 - madhér :: ​/ˈmaðer/ (n) mère
+- maebror :: ​/ˈmaebror/ (n) oncle maternel
+- mastyr :: ​/ˈmastyr/ (n) tante maternelle
+- syster :: ​/ˈsystɛr/ (n) sœur
+
 ** Forme
 
 ** Gouvernement
@@ -1003,7 +1021,7 @@ Abréviations :
 - thiv :: ​/θiv/ (prep) pour la raison de, du fait de.
 
 ** Guerre
-
+- laette :: ​/ˈlaetːɛ/ perdre, se rendre, abandonner
 ** Légal
 
 ** Lieux
@@ -1017,7 +1035,9 @@ Abréviations :
 ** Métaux
 
 ** Mouvements
-- commén :: ​/komːen/ (v) venir, arriver
+- o commén :: ​/o komːen/ (v) venir, arriver
+- o ga :: /o ɡa/ (v) aller
+- o ljegga :: /o ˈljeɡːa/ (v) aller à travers champs, sans suivre de chemin, errer
 ** Nature
 - velt :: ​/vɛlt/ (n) monde, la Terre
 
@@ -1091,17 +1111,19 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 ** Substances
 
 ** Temps
-- daeg :: ​/daeɡ/ (n) jour
-- gaern :: ​/ɡaern/ (n) année
-- galm :: ​/ɡalm/ (adj) vieux, ancien
-- gyrneg :: ​/ˈɡyrnɛɡ/ (n) moment du lever de soleil, matin
-- menyth :: ​/ˈmɛnyθ/ (n) mois
-- morg :: ​/morɡ/ (adv) demain
-- nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
-- nu :: ​/nu/ (adv) maintenant, tout de suite
-- tebyr :: ​/'tɛbyr/ (v) passer (du temps)
-- thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
-- voc :: ​/vok/ (n) semaine
+ - altidh :: ​/altið/ (adv) tout le temps
+ - daeg :: ​/daeɡ/ (n) jour
+ - gaern :: ​/ɡaern/ (n) année
+ - galm :: ​/ɡalm/ (adj) vieux, ancien
+ - gyrneg :: ​/ˈɡyrnɛɡ/ (n) moment du lever de soleil, matin
+ - menyth :: ​/ˈmɛnyθ/ (n) mois
+ - morg :: ​/morɡ/ (adv) demain
+ - nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
+ - nu :: ​/nu/ (adv) maintenant, tout de suite
+ - tebyr :: ​/'tɛbyr/ (v) passer (du temps)
+ - tidh :: ​/tið/ (n) temps
+ - thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
+ - voc :: ​/vok/ (n) semaine
 
 ** Travail
 
@@ -1114,8 +1136,12 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 ** Vie et santé
 - brydh :: ​/bryð/ (n) naissance
 - brydhdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/brydh/ + /deg/)
+- bwén :: ​/bwen/ (v) vivre, habiter
 
 ** À trier
+- tynne :: ​/ˈtynːɛ/ (v) perdre quelque chose
+- meth :: ​/mɛθ/ (n) homme, personne
+- gaet :: ​/ɡaet/ (n) rue, allée
 
 src_latex{\newpage}
 * Annexes
