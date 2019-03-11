@@ -508,6 +508,8 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 | 2P   | Vent  | Var     | y Vat   |
 | 3P   | Ven   | Vér     | y Vat   |
 
+Les terminaisons après les ~V~ s’accollent au verbe, excepté la voyelle si elle se répète. Par exemple, <tynne> se conjugera <tunner> à la première personne du singulier.
+
 Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou postérieurs du passé et du futur s’effectuent en utilisant soit le participe passé ou futur du verbe et en utilisant le verbe modal <o ber> pour les verbes d’états et <o gjer> pour les verbes d’action qui sera conjugué au passé ou au futur selon s’il s’agit respectivement d’un temps antérieur ou postérieur.
 
 En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> (verbes d’état) ou <o gjer> (verbes d’action) comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §[[*Participes]]). Exemple :{{{newline}}}
@@ -761,6 +763,8 @@ Mattér : Hit wachenant galmant beith.{{{newline}}}
 Français : C’est une voiture à mon avis vieille.
 
 ** Groupe verbal
+Du fait de leur conjugaison portant pleinement l’information du nombre et du genre, le pronom du sujet n’est généralement pas utilisé. Son utilisation, placé avant le verbe, permet de placer une emphase sur le sujet.
+
 ** Propositions simples
 L’ordre préféré en Mattér est <sujet>-<objet>-<oblique>-<adverbes>-<verbe>, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
 
