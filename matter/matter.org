@@ -496,44 +496,78 @@ Mattér : thu y gjér gérenand breifantath
 C’est dans ce mode que vous verrez les verbes dans le dictionnaire. Il s’agit de la base de chaque verbe, précédé par un <o> marquant l’infinitif. Dans cette forme, le verbe peut être manipulé dans la phrase comme un nom commun, mais il peut également être utilisé afin de donner des instructions de façon polie, comme par exemple dans un manuel ou dans une recette, comme cela peut être le cas en Français.
 
 **** Impératif
-En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à son interlocuteur, mais également à un tiers, comme on pourrait le comprendre en Français dans la phrase « Qu’il le fasse ! ». Il ne s’applique donc qu’au présent, ainsi qu’à la deuxième et troisième personne (singulier, paucal et pluriel). Voici la conjugaison des verbes à l’impératif :
-
+En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à son interlocuteur. Il ne s’applique donc qu’au présent, ainsi qu’à la deuxième personne (singulier, paucal et pluriel). Voici la conjugaison des verbes à l’impératif :
 #+CAPTION:Conjugaison des verbes régulier à l’impératif
-| /         | <                 | <                  |
-| nombre    | deuxième personne | troisième personne |
-|-----------+-------------------+--------------------|
-| singulier | V(a)ge            | V(e)get            |
-| paucal    | V(a)gér           | V(e)gent           |
-| pluriel   | V(e)gi            | V(e)geat           |
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | V(a)ge      |
+| paucal    | V(a)gér     |
+| pluriel   | V(e)gi      |
 
 Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas où l’apposition de la terminaison créé une suite de consonne interdite par les règles de phonotaxes (voir §[[*Phonotaxes]]). Voici par exemple la conjugaison respectivement de <o seg> « dire » et <o thpich> « manger » à l’impératif :
-
 #+CAPTION:Conjugaison de <o seg> à l’impératif
-| /         | <                 | <                  |
-| nombre    | deuxième personne | troisième personne |
-|-----------+-------------------+--------------------|
-| singulier | segge             | segget             |
-| paucal    | seggér            | seggent            |
-| pluriel   | seggi             | seggeat            |
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | segge       |
+| paucal    | seggér      |
+| pluriel   | seggi       |
 
 #+CAPTION:Conjugaison de <o thpich> à l’impératif
-| /         | <                 | <                  |
-| nombre    | deuxième personne | troisième personne |
-|-----------+-------------------+--------------------|
-| singulier | thpichege         | thpicheget         |
-| paucal    | thpichegér        | thpichegent        |
-| pluriel   | thpichegi         | thpichegeat        |
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | thpichege   |
+| paucal    | thpichegér  |
+| pluriel   | thpichegi   |
 
-Comme à leur habitude, les trois verbes <o ber>, <o hab> et <o gjer> ont leur propre forme que vous retrouverez dans leurs chapitres respectifs (§[[*Verbe %C3%AAtre <o ber>]], §[[*Verbe avoir <o hab>]] et §[[*Verbe faire <o gjer>]]).
+Le verbe <o gjer> a sa propre forme que vous retrouverez dans leurs chapitres respectifs (§[[*Verbe faire <o gjer>]]). Les verbes <o hab> et <o ber> sont réguliers.
 
 Il est également possible pour le locuteur d’accentuer l’ordre en mettant le verbe au participe présent et en le précédant par le verbe <o gjer> conjugué à l’impératif. Exemple avec <o ficjan> :
 #+CAPTION:Conjugaison à l’impératif fort de <o ficjan>
-| /         | <                 | <                  |
-| nombre    | deuxième personne | troisième personne |
-|-----------+-------------------+--------------------|
-| singulier | jeg ficjanta      | gjet ficjanta      |
-| paucal    | jége ficjanta     | gjégent ficjanta   |
-| pluriel   | jegi ficjanta     | gjeag ficjanta     |
+| /         | <                 |
+| nombre    | conjugaison       |
+|-----------+-------------------|
+| singulier | jeg ficjanta      |
+| paucal    | jége ficjanta     |
+| pluriel   | jegi ficjanta     |
+
+**** Jussif
+Le Jussif est un mode très similaire à l’impératif décrit ci-dessus, permettant de donner des ordres à une personne tierce n’étant généralement pas présente lors de la conversation. En français, la phrase utilisant le subjonctif « qu’il vienne maintenant » se traduira par du jussif en Mattér, « nu comménge ». Le jussif ne s’applique donc qu’au présent et à la troisième personne. Voici son tableau de conjugaison :
+#+CAPTION:Conjugaison des verbes régulier au jussif
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | V(e)get     |
+| paucal    | V(e)gent    |
+| pluriel   | V(e)geat    |
+
+Voici deux exemples de conjugaison au jussif avec <o seg> et <o thpich> :
+#+CAPTION:Conjugaison de <o seg> à l’impératif
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | segget      |
+| paucal    | seggent     |
+| pluriel   | seggeat     |
+
+#+CAPTION:Conjugaison de <o thpich> à l’impératif
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | thpicheget  |
+| paucal    | thpichegent |
+| pluriel   | thpichegeat |
+
+À l’instar de l’impératif, <o gjer> a sa propre conjugaison au jussif, et il est possible d’accentuer l’ordre donné via l’utilisation de <o gjer> en auxilliaire conjugué au jussif du verbe qui lui est en participe présent.Exemple avec <o ficjan> :
+#+CAPTION:Conjugaison au jussif fort de <o ficjan>
+| /         | <                |
+| nombre    | conjugaison      |
+|-----------+------------------|
+| singulier | gjet ficjanta    |
+| paucal    | gjégent ficjanta |
+| pluriel   | gjeag ficjanta   |
 
 **** Participes
 #+CAPTION:Participes réguliers
@@ -667,12 +701,20 @@ Participes irréguliers :
 | participe présent | gethte |
 | participe futur   | gér    |
 **** Impératif
-| /         | <                 | <                  |
-| nombre    | deuxième personne | troisième personne |
-|-----------+-------------------+--------------------|
-| singulier | jeg               | gjet               |
-| paucal    | jége              | gjégent            |
-| pluriel   | jegi              | gjeag              |
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | jeg         |
+| paucal    | jége        |
+| pluriel   | jegi        |
+
+**** Jussif
+| /         | <           |
+| nombre    | conjugaison |
+|-----------+-------------|
+| singulier | gjet        |
+| paucal    | gjégent     |
+| pluriel   | gjeag       |
 
 ** Adverbes
 
@@ -691,7 +733,7 @@ Français : C’est une voiture à mon avis vieille.
 
 ** Groupe verbal
 ** Propositions simples
-L’ordre préféré en Mattér est <sujet>-<objet>-<oblique>-<verbe>, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
+L’ordre préféré en Mattér est <sujet>-<objet>-<oblique>-<adverbes>-<verbe>, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
 
 Mattér : Fadhérych breifant cheidh gjea gérenand.{{{newline}}}
 Français : Mon père est en train de m’écrire une lettre.
@@ -942,7 +984,7 @@ Abréviations :
 ** Métaux
 
 ** Mouvements
-
+- commén :: ​/komːen/ (v) venir, arriver
 ** Nature
 - velt :: ​/vɛlt/ (n) monde, la Terre
 
@@ -1023,6 +1065,7 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - menyth :: ​/ˈmɛnyθ/ (n) mois
 - morg :: ​/morɡ/ (adv) demain
 - nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
+- nu :: ​/nu/ (adv) maintenant, tout de suite
 - tebyr :: ​/'tɛbyr/ (v) passer (du temps)
 - thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
 - voc :: ​/vok/ (n) semaine
