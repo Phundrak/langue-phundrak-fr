@@ -442,6 +442,35 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | pl féminin    | thu       | thunt     | thou   | thun    | ythu    |
 | pl non-humain | hou       | hout      | houth  | dho     | houthy  |
 
+** Pronoms relatifs
+Les pronoms relatifs introduisent en Mattér une clause relative (abordées au chapitre §[[*Clauses relatives]]). Du fait de sa proximité avec les langues germaniques, les clauses relatives changent selon leur cas grammatical et leur genre, cepedant seule la dualité humain/non-humain est exprimée sur ce dernier point et le nombre n’est pas indiqué, comme on peut le voir ci-dessous :
+| /         | <      | <          |
+|           | humain | non-humain |
+|-----------+--------+------------|
+| nominatif | dja    | va         |
+| accusatif | djén   | vén        |
+| datif     | djédh  | véth       |
+| locatif   | dech   | vach       |
+| ablatif   | duc    | vuc        |
+| limitatif | dym    | vym        |
+| génitif   | dy     | vy         |
+L’accord du genre se fait selon la phrase nominale définie tandis que le cas grammatical représente la relation de la clause relative auprès de la phrase nominale. Exemples :
+
+Français : « Mon oncle (maternel) qui est grand est en ville. »{{{newline}}}
+Mattér : « Maebrorych dja mekkilant beith urbych beith. »
+
+Français : « La ville où j’habite est belle. »{{{newline}}}
+Mattér : « A urby vach bwéne wenant beith. »
+
+Français : « J’ai perdu le livre que je voulais vendre. »{{{newline}}}
+Mattér : « A bokkéant vén wiljaer saelle tynner »
+
+Français : « L’homme dont le chien aboyait tout le temps déménage. »{{{newline}}}
+Mattér : « É meth dy a hynd altidh gyjener flyttene. »
+
+Français : « La rue jusqu’à laquelle on va est étroite. »{{{newline}}}
+Mattér : « É gaet dym gaern smothant beith. »
+
 ** Verbes
 
 *** Temps
