@@ -355,12 +355,36 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 |   | lointain | paucal    | ut      |
 |   | lointain | pluriel   | udh     |
 
-*** Déterminants interrogatifs
+*** Outils interrogatifs
+Les outils interrogatifs servent à s’enquérir d’une information sur un sujet. Le Mattér dispose des termes suivants :
+| /                  | <                       | <          |
+| domaine            | français                | outil      |
+|--------------------+-------------------------+------------|
+| sujet              | qui                     | fe         |
+| objet              | quoi                    | fent       |
+| datif              | à qui                   | feth       |
+| locatif            | où                      | fech       |
+| ablatif            | depuis où               | fec        |
+| limitatif          | jusqu’où                | fém        |
+| génitif            | de qui                  | fon        |
+| but                | pourquoi, dans quel but | feren      |
+| temporel           | quand                   | fertidh    |
+| temporel ablatif   | depuis quand            | fertidhoch |
+| temporel limitatif | jusqu’à quand           | fertidhac  |
+| instrumental       | comment                 | ferden     |
+| raison             | pour quelle raison      | ferve      |
+| choix              | lequel                  | fervid     |
 
 *** Déterminants ordinaux
 Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose pas de déterminants cardinaux, ou plutôt il s’agit simplement du nombre approprié placé à l’emplacement du déterminant tel que défini plus tard dans le chapitre sur la syntaxe approprié (§[[*Syntaxe]]). Dans le cas des nombres cardinaux, il s’agit d’ajouter en suffixe au numéro le terme <norm> auquel un article défini accordé en genre et en nombre est également suffixé. Ainsi, pour le terme « premier » au singulier masculin, nous obtiendrons
 
 ** Adjectifs
+
+| /        | <>         | >           |
+|----------+------------+-------------|
+| adjectif | comparatif | déclinaison |
+|----------+------------+-------------|
+
 Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de <raedh> (« rouge ») avec <wachen> (« voiture »).
 
 Singulier :
@@ -401,7 +425,21 @@ Pluriel :
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
-La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil thtorant ficjanant gjea thpichand ». On sait que l’adjectif <mekkil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <thtor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant thtorant ficjanant gjea thpichand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil thtor ficjanant gjea thpichand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
+La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil thtorant ficjanant gjea etanand ». On sait que l’adjectif <mekkil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <thtor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant thtorant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil thtor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
+
+*** Comparatifs
+**** Mélioratif
+ Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe *-ere*. Ainsi, « cette voiture est plus rapide » se traduira par « an thcortere wachen beith »
+
+**** Péjoratif
+À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe *-othe*. Ainsi, « cette voiture est moins rapide » se traduira par « an thcortethe wachen beith ».
+
+**** Superlatifs positifs et négatifs
+Contrairement au mélioratif et au péjoratif qui sont tous deux des moyen comparatifs relatifs à un autre élément, les superlatifs positifs et négatifs se réfèrent à un jugement de valeur sensé être absolu, respectivement le meilleur ou le pire élément.
+
+Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe *-ethte*, tandis qu’il faut ajouter le suffixe *-orto*. Ainsi, « la voiture la plus rapide » se traduira par « an tchortethe wachen beith », et « la voiture la moins rapide se traduira par « an thcortorto wachen beith ».
+
+Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement <bethte> et <borto>.
 
 ** Pronoms
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
@@ -472,7 +510,6 @@ Français : « La rue jusqu’à laquelle on va est étroite. »{{{newline}}}
 Mattér : « É gaet dym gaern smothant beith. »
 
 ** Verbes
-
 *** Temps
 À l’exception des verbes <o ber> (être), <o hab> (avoir) et <o gjer> (faire), la conjugaison des verbes en Mattér est très régulière. Trois temps principaux existent : le passé, le présent et le futur, cepedant il est possible d’exprimer du passé antérieur (passé dans un temps de locution passé), du passé postérieur (futur dans un temps de locution passé), du futur antérieur (passé dans un temps de locution futur) et du futur postérieur (futur dans un temps de locution futur).
 
@@ -514,7 +551,7 @@ Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou pos
 
 En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> (verbes d’état) ou <o gjer> (verbes d’action) comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §[[*Participes]]). Exemple :{{{newline}}}
 Français : J’étais en train de manger une pomme rouge.{{{newline}}}
-Mattér : cheg e gjéth thpichand raedhant eppelant
+Mattér : cheg e gjéth etanand raedhant eppelant
 
 Français : Vous êtes tous deux en train de pêcher.{{{newline}}}
 Mattér : im gjéta ficjanand{{{newline}}}
@@ -536,7 +573,7 @@ En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à s
 | paucal    | V(a)gér     |
 | pluriel   | V(e)gi      |
 
-Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas où l’apposition de la terminaison créé une suite de consonne interdite par les règles de phonotaxes (voir §[[*Phonotaxes]]). Voici par exemple la conjugaison respectivement de <o seg> « dire » et <o thpich> « manger » à l’impératif :
+Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas où l’apposition de la terminaison créé une suite de consonne interdite par les règles de phonotaxes (voir §[[*Phonotaxes]]). Voici par exemple la conjugaison respectivement de <o seg> « dire » et <o etan> « manger » à l’impératif :
 #+CAPTION:Conjugaison de <o seg> à l’impératif
 | /         | <           |
 | nombre    | conjugaison |
@@ -545,13 +582,13 @@ Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas
 | paucal    | seggér      |
 | pluriel   | seggi       |
 
-#+CAPTION:Conjugaison de <o thpich> à l’impératif
+#+CAPTION:Conjugaison de <o etan> à l’impératif
 | /         | <           |
 | nombre    | conjugaison |
 |-----------+-------------|
-| singulier | thpichege   |
-| paucal    | thpichegér  |
-| pluriel   | thpichegi   |
+| singulier | etanege     |
+| paucal    | etanegér    |
+| pluriel   | etanegi     |
 
 Le verbe <o gjer> a sa propre forme que vous retrouverez dans leurs chapitres respectifs (§[[*Verbe faire <o gjer>]]). Les verbes <o hab> et <o ber> sont réguliers.
 
@@ -574,7 +611,7 @@ Le Jussif est un mode très similaire à l’impératif décrit ci-dessus, perme
 | paucal    | V(e)gent    |
 | pluriel   | V(e)geat    |
 
-Voici deux exemples de conjugaison au jussif avec <o seg> et <o thpich> :
+Voici deux exemples de conjugaison au jussif avec <o seg> et <o etan> :
 #+CAPTION:Conjugaison de <o seg> à l’impératif
 | /         | <           |
 | nombre    | conjugaison |
@@ -583,13 +620,13 @@ Voici deux exemples de conjugaison au jussif avec <o seg> et <o thpich> :
 | paucal    | seggent     |
 | pluriel   | seggeat     |
 
-#+CAPTION:Conjugaison de <o thpich> à l’impératif
+#+CAPTION:Conjugaison de <o etan> à l’impératif
 | /         | <           |
 | nombre    | conjugaison |
 |-----------+-------------|
-| singulier | thpicheget  |
-| paucal    | thpichegent |
-| pluriel   | thpichegeat |
+| singulier | etaneget    |
+| paucal    | etanegent   |
+| pluriel   | etanegeat   |
 
 À l’instar de l’impératif, <o gjer> a sa propre conjugaison au jussif, et il est possible d’accentuer l’ordre donné via l’utilisation de <o gjer> en auxilliaire conjugué au jussif du verbe qui lui est en participe présent.Exemple avec <o ficjan> :
 #+CAPTION:Conjugaison au jussif fort de <o ficjan>
@@ -752,6 +789,17 @@ Participes irréguliers :
 ** Prépositions
 
 src_latex{\newpage}
+** Nominalisation
+La nominalisation est un outils permettant l’utilisation d’un mot n’étant pas un nom (verbe ou adjectif) comme s’il s’agissait d’un nom. Le Mattér marque la nominalisation par des suffixes.
+*** Acteur *-ear*
+On peut obtenir un nom à partir d’un verbe désignant une personne ayant un rapport à cet élément dérivé ou effectuant l’action du verbe dérivé. Ainsi, on a <ficjanear> qui désigne un pêcheur, <gérenear> qui désigne un écrivain, <rittanear> un graveur de runes, etc…
+
+*** Acte *-yri*
+On peut également transformer un verbe d’action afin de se référer à l’acte qu’il représente en lui-même. Ainsi, <ficjanyri> désigne la pêche, <gérenyri> désigne le travail d’écriture et <rittanyri> désigne le travail de gravure de runes.
+
+*** Nominalisation d’adjectifs *-enth*
+Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, <alenth> signifie « totalité », <galmenth> signifie « ancienneté » et <gemmelenth> signifie « vieilesse ».
+
 * Syntaxe
 ** Groupe nominal
 Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smodh eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smodh » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
@@ -933,21 +981,21 @@ Abréviations :
 - ficjan :: ​/ˈfikjan/ (n) poisson
 - o ficjan :: ​/o ˈfikjan/ (v) pêcher
 - hynd :: ​/hynd/ (n) chien
-- o gyjen :: ​/ɡyjɛn/ (v) aboyer (animaux, chiens)
+- o gyjen :: ​/o ɡyjɛn/ (v) aboyer (animaux, chiens)
 
 ** Art
 - wen :: ​/wɛn/ beau, joli
 *** Écriture
 - bokké :: /ˈbokːe/ (n) livre
 - breif :: ​/brɛɪf/ (n) lettre, missive
-- o géren :: ​/ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
-- o rittan :: ​/ˈritːa/ (v) écrire, graver des runes
+- o géren :: ​/o ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
+- o rittan :: ​/o ˈritːa/ (v) écrire, graver des runes
 - ryn :: ​/ryn/ (n) rune, lettre alphabétique
 
 ** Astronomie
 
 ** Bâtiments
-- o flytten :: ​/flytːɛn/ (v) déménager
+- o flytten :: ​/o flytːɛn/ (v) déménager
 *** La ville
 - urby :: ​/ˈurby/ (n) ville
 *** Les types de bâtiments
@@ -955,7 +1003,7 @@ Abréviations :
 - hyth :: ​/hyθ/ (n) maison (bâtiment)
 
 ** Commerce
-- o saelle :: /ˈsaelːɛ/ (v) vendre, donner à quelqu’un
+- o saelle :: /o ˈsaelːɛ/ (v) vendre, donner à quelqu’un
 ** Conflits
 
 ** Conteneurs
@@ -984,7 +1032,7 @@ Abréviations :
 
 ** Émotions
 - lycce :: ​/ˈlykːɛ/ (adj) joyeux, content
-- o wilja :: /ˈwilja/ (v) vouloir, avoir envie de
+- o wilja :: /o ˈwilja/ (v) vouloir, avoir envie de
 - wille :: /ˈwilːɛ/ (n) souhait, désir
 
 ** Évaluation
@@ -1036,8 +1084,9 @@ Abréviations :
 
 ** Mouvements
 - o commén :: ​/o komːen/ (v) venir, arriver
-- o ga :: /o ɡa/ (v) aller
+- o ga :: ​/o ɡa/ (v) aller
 - o ljegga :: /o ˈljeɡːa/ (v) aller à travers champs, sans suivre de chemin, errer
+- thcort :: ​/θkort/ (adj) rapide
 ** Nature
 - velt :: ​/vɛlt/ (n) monde, la Terre
 
@@ -1075,7 +1124,8 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 |  1 0000 0000 0000 | vreljen |
 
 ** Nourriture
-- o thpich :: ​/o θpiç/ (v) manger
+- o thpich :: ​/o θpiç/ (v) (vulgaire) manger, bouffer
+- o etan :: ​/o ɛtan/ (v) manger
 
 ** Outils
 - wachen :: ​/ˈwaçɛn/ (n) voiture
@@ -1120,7 +1170,7 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
  - morg :: ​/morɡ/ (adv) demain
  - nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
  - nu :: ​/nu/ (adv) maintenant, tout de suite
- - o tebyr :: ​/'tɛbyr/ (v) passer (du temps)
+ - o tebyr :: ​/o 'tɛbyr/ (v) passer (du temps)
  - tidh :: ​/tið/ (n) temps
  - thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
  - voc :: ​/vok/ (n) semaine
@@ -1136,12 +1186,15 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 ** Vie et santé
 - brydh :: ​/bryð/ (n) naissance
 - brydhdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/brydh/ + /deg/)
-- o bwén :: ​/bwen/ (v) vivre, habiter
+- o bwén :: ​/o bwen/ (v) vivre, habiter
+- gemmel :: ​/ɡɛmːɛl/ (adj) vieux, âgé
+<Gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer « tweg gaern gemmel be » (litt. « je suis vieux de vingt ans »).
 
 ** À trier
-- o tynne :: ​/ˈtynːɛ/ (v) perdre quelque chose
+- o tynne :: ​/o ˈtynːɛ/ (v) perdre quelque chose
 - meth :: ​/mɛθ/ (n) homme, personne
 - gaet :: ​/ɡaet/ (n) rue, allée
+- méllém :: ​/melːem/ (adv) entre (deux personnes)
 
 src_latex{\newpage}
 * Annexes
