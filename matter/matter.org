@@ -933,21 +933,21 @@ Abréviations :
 - ficjan :: ​/ˈfikjan/ (n) poisson
 - o ficjan :: ​/o ˈfikjan/ (v) pêcher
 - hynd :: ​/hynd/ (n) chien
-- gyjen :: ​/ɡyjɛn/ (v) aboyer (animaux, chiens)
+- o gyjen :: ​/ɡyjɛn/ (v) aboyer (animaux, chiens)
 
 ** Art
 - wen :: ​/wɛn/ beau, joli
 *** Écriture
 - bokké :: /ˈbokːe/ (n) livre
 - breif :: ​/brɛɪf/ (n) lettre, missive
-- géren :: ​/ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
-- rittan :: ​/ˈritːa/ (v) écrire, graver des runes
+- o géren :: ​/ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
+- o rittan :: ​/ˈritːa/ (v) écrire, graver des runes
 - ryn :: ​/ryn/ (n) rune, lettre alphabétique
 
 ** Astronomie
 
 ** Bâtiments
-- flytten :: ​/flytːɛn/ (v) déménager
+- o flytten :: ​/flytːɛn/ (v) déménager
 *** La ville
 - urby :: ​/ˈurby/ (n) ville
 *** Les types de bâtiments
@@ -955,7 +955,7 @@ Abréviations :
 - hyth :: ​/hyθ/ (n) maison (bâtiment)
 
 ** Commerce
-- saelle :: /ˈsaelːɛ/ (v) vendre, donner à quelqu’un
+- o saelle :: /ˈsaelːɛ/ (v) vendre, donner à quelqu’un
 ** Conflits
 
 ** Conteneurs
@@ -984,7 +984,7 @@ Abréviations :
 
 ** Émotions
 - lycce :: ​/ˈlykːɛ/ (adj) joyeux, content
-- wilja :: /ˈwilja/ (v) vouloir, avoir envie de
+- o wilja :: /ˈwilja/ (v) vouloir, avoir envie de
 - wille :: /ˈwilːɛ/ (n) souhait, désir
 
 ** Évaluation
@@ -1120,7 +1120,7 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
  - morg :: ​/morɡ/ (adv) demain
  - nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
  - nu :: ​/nu/ (adv) maintenant, tout de suite
- - tebyr :: ​/'tɛbyr/ (v) passer (du temps)
+ - o tebyr :: ​/'tɛbyr/ (v) passer (du temps)
  - tidh :: ​/tið/ (n) temps
  - thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
  - voc :: ​/vok/ (n) semaine
@@ -1136,10 +1136,10 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 ** Vie et santé
 - brydh :: ​/bryð/ (n) naissance
 - brydhdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/brydh/ + /deg/)
-- bwén :: ​/bwen/ (v) vivre, habiter
+- o bwén :: ​/bwen/ (v) vivre, habiter
 
 ** À trier
-- tynne :: ​/ˈtynːɛ/ (v) perdre quelque chose
+- o tynne :: ​/ˈtynːɛ/ (v) perdre quelque chose
 - meth :: ​/mɛθ/ (n) homme, personne
 - gaet :: ​/ɡaet/ (n) rue, allée
 
