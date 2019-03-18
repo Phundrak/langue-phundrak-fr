@@ -34,9 +34,9 @@ La redistribution ou vente de ce document sont strictement interdits. Ce documen
 
 src_latex{\newpage}
 * Introduction
-Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique.
+Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique. Le Mattér est une langue principalement agglutinative à tendance majoritaire aux suffixes, avec comme exception les verbes qui ont une tendance principalement fusionelle. Cette langue est également une langue marquant les phrases adpositionnelles plutôt que ses adpositions.
 
-Cette langue est un projet à part de mon univers littéraire et fut créé dans le cadre de mes études, pour mon cours d’ingénierie des langues, enseigné par Ana Pappa, en troisième année de licence, à l’Université Paris 8. Je ne sais pas encore si j’en ferai autre chose que d’une langue-jouet.
+Cette langue est un projet à part de mon univers littéraire et fut créé dans le cadre de mes études, pour mon cours d’ingénierie des langues, enseigné par Anna Pappa, en troisième année de licence, à l’Université Paris 8. Je ne sais pas encore si j’en ferai autre chose que d’une langue-jouet.
 
 src_latex{\newpage}
 * Description du lexique
@@ -60,7 +60,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 |---------------+-------+----------+----------+---------+-------+-------------|
 | bilabial      | m     | p b      |          |         |       |             |
 | labio-dental  |       |          | f v      |         |       |             |
-| alvéolaire    | n     | t d      | θ ð      |         | r     | l           |
+| alvéolaire    | n     | t d      | θ ð      |         | ɾ     | l           |
 | palatal       |       |          | ç        | j       |       |             |
 | labio-velaire |       |          |          | w       |       |             |
 | vélaire       |       | k g      |          |         |       |             |
@@ -72,7 +72,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 |---------------+-------+----------+----------+---------+-------+-------------|
 | bilabial      | m     | p b      |          |         |       |             |
 | labio-dental  |       |          | f v      |         |       |             |
-| alvéolaire    | n     | t d      | th dh    |         | r     | l           |
+| alvéolaire    | n     | t d      | s z      |         | r     | l           |
 | palatal       |       |          | ch       | j       |       |             |
 | labio-velaire |       |          |          | w       |       |             |
 | vélaire       |       | c g      |          |         |       |             |
@@ -94,25 +94,25 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
 - n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
 - p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
-- r :: Ce <r> peut être retrouvé en Scots « bricht » [brɪçt], en Espagnol « perro » [pe̞ro̞] ou encore en Portugais avec « ratu » [rato]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
+- r :: Ce <r> peut être retrouvé en Espagnol « caro » [ˈkaɾo̞], en Catalan « mira » [ˈmiɾə] ou encore en Anglais  dans « three » [θɾiː]. Il s’agit d’une consonne alvéolaire roulée voisée [ɾ]. Par convention, on notera phonétiquement le [ɾ] par un [r].
+- s :: Attention, il ne s’agit pas de l’équivalent du <s> français ! Il s’agit de la contrepartie sourde de <z> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
 - t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Hjelp est la consonne occlusive alvéolaire sourde [t].
 - v :: Le <v> du Hjelp peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
 - w :: Le <w> est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].
-- dh :: Cette consonne <th> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
-- th :: Il s’agit de la contrepartie sourde de <dh> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
+- z :: Attention, il ne s’agit pas de l’équivalent du <z> français ! Cette consonne <z> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
 
 Les consonnes nasales, occlusives ainsi que le ​/l/ peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé ​/tː/, et <Mattér> sera prononcé ​/'mat:er/.
 
 *** Voyelles
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
 #+CAPTION: Voyelles du Mattér (IPA)
-| / | >           |             |              |
-|   |             | antérieures | postérieures |
-|---+-------------+-------------+--------------|
-|   | fermées     | i / y       | u            |
-|   | mi-fermées  | e           | o            |
-|   | mi-ouvertes | ɛ           |              |
-|   | ouvertes    | a           |              |
+| / | >           |             |        |              |
+|   |             | antérieures | milieu | postérieures |
+|---+-------------+-------------+--------+--------------|
+|   | fermées     | i / y       |        | u            |
+|   | mi-fermées  | e           | [ə]    | o            |
+|   | mi-ouvertes | ɛ           |        |              |
+|   | ouvertes    | a           |        |              |
 
 #+CAPTION: Voyelles du Mattér (translittération)
 | / | >           |             |              |
@@ -123,7 +123,7 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 |   | mi-ouvertes | e           |              |
 |   | ouvertes    | a           |              |
 
-Les voyelles du Mattér montrent une plus grande complexité parmi les voyelles antérieures et les voyelles fermées.
+On peut constater que le Mattér est une langue disposant d’une complexité modeste concernant ses cinq voyelles antérieures et d’une simplicité apparente concernant ses deux voyelles postérieures. On notera également que le ​/ə/ est noté entre crochets du fait de sa situation en Mattér en tant qu’allophone (voir le chapitre §[[*Allophonie]]) et jamais en tant que voyelle existant par elle-même. Cela implique également son absence du tableau de translittération.
 
 Voici ci-dessous la description de chacune de ces voyelles :
 - a :: Il s’agit de la voyelle antérieure ouverte non-arrondie [a] que l’on retrouve dans « patte » [pat] en Français.
@@ -133,6 +133,7 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [o] que l’on peut retrouver dans « hôtel » [o.tɛl].
 - u :: On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs] ou en Français dans « tout » [t̪u]. Il s’agit de la voyelle postérieure fermée arrondie [u].
 - y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ], en Hongrois avec « tű » [t̪yː] ou tout simplement en Français dans « lune » [lyn]. Il s’agit de la voyelle antérieure fermée arrondie [y].
+- ​/ə/ :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
 *** Diphtonges
 Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « ​/I/ » prononcé ​/aɪ/. Voici la liste des diphtongues existant en Hjelp :
@@ -143,17 +144,20 @@ Les diphtongues sont des associations de voyelles considérées dans une langue 
 | ​/eu/ | ​/au/ |
 | ​/ou/ |      |
 
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du ​/ɛi/ qui est écrit <ei>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du ​/ei/ qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
+- S’il est suivi d’une voyelle dans le même mot, le ​/i/ se transorme en la semi-consonne ​/j/. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> soit une clitique accolée à <tere>.
 - Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/, selon le locuteur. Exemple : <neich> ​/nɛiç/ [nɛɪç]
-- S’il est suivi d’une voyelle dans le même mot, le ​/i/ se transorme en la semi-consonne ​/j/.
+- Le ​/a/ non accentué et placé dans une syllabe n’étant pas la dernière d’un mot se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu.
+- Si un ​/ɛ/ suit un ​/e/ et vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : <tereém> se prononce [tɛɾreːm]
+- Si un ​/e/ suit un ​/ɛ/, alors le ​/e/ devient un ​/ɛ/.
 - Le ​/l/ se transforme en « <l> sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> ​/mael/ [maeɫ]
 - Le ​/lː/ se prononce ​/ɫː/ dans toutes ses occurences.
 - Le ​/h/ se transforme en ​/ç/ s’il est suivi par un ​/j/, un ​/e/ ou un ​/i/. Exemple : <hét> ​/het/ [çet]
-- Si un ​/ɛ/ suit un ​/e/, alors le ​/ɛ/ devient un ​/e/.
-- Si un ​/e/ suit un ​/ɛ/, alors le ​/e/ devient un ​/ɛ/.
+- Si le ​/h/ se trouve entre deux voyelles, il se produira comme un [ɦ].
+- Le ​/ɾ/ se prononcera ​/r/ au contact d’une autre consonne, excepté pour ​/w/ et ​/j/.
 
 ** Phonotaxes
 Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
@@ -176,8 +180,8 @@ Le coda (la seconde partie consonnantique de la syllabe la terminant) est compos
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 - Les nasales peuvent êtres suivies par une occlusive ou une fricative.
-- Les occlusives sourdes peuvent être suivies par un <th>.
-- Les occlusives voisées peuvent être suivies par un <dh>.
+- Les occlusives sourdes peuvent être suivies par un <s>.
+- Les occlusives voisées peuvent être suivies par un <z>.
 - Le ​/h/ ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
@@ -189,7 +193,8 @@ Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-
 - Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.
 
 ** Accentuation
-Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
+Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de deux syllabes ou plus : l’accent principal porte sur la première syllabe. Pour les mots de trois syllabes, un accent secondaire, moins important que le premier, portera sur la troisième syllabe, et pour les mots de quatre syllabes ou plus il portera sur l’avant-dernière syllabe.
+Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, une modification supra-segmentale de l’accentuation habituelle s’effectuera : l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée. Cela déplacera également l’accent secondaire sur la première syllabe si le mot contient au moins trois syllabes.
 
 src_latex{\newpage}
 * Morphologie
@@ -219,23 +224,25 @@ Voici la structure globale d’un nom :
 |   | racine | déclinaison | possessif | nombre |
 |---+--------+-------------+-----------+--------|
 
+Comme on peut le voir ci-dessus, un nom est donc composé au moins de sa racine, à laquelle peuvent s’accoler des clitiques de déclinaison selon le cas grammatical du mot, de possession pour marquer son appartenance à un acteur de la phrase, ainsi que de nombre selon la quantité du nom dont il est question.
+
 *** Nombre
 Le Mattér est une langue comportant trois nombres : le singulier, le paucal et le pluriel.
 - singulier :: permet de se référer à un élément unique
 - paucal :: permet de se référer à entre deux et six éléments, comporte une conotation de « peu d’éléments »
 - pluriel :: permet de se référer à plus de six éléments, comporte une conotation de « beaucoup ».
 
-Voici la liste des suffixes du Mattér afin de marquer le nombre :
+Voici la liste des clitiques du Mattér afin de marquer le nombre :
 #+CAPTION:Inflexion des nom en nombres
 | /         | <            |
 | nombre    | suffixe      |
 |-----------+--------------|
 | singulier | /non marqué/ |
 | paucal    | -(e)t        |
-| pluriel   | -(a)th       |
+| pluriel   | -(a)s        |
 La voyelle entre parenthèse est omise lorsque le nombre s’accole à un mot se terminant déjà par une voyelle.
 
-Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation respectivement de « peu » et de « beaucoup ». Ainsi, il n’est pas rare pour les locuteurs de cette langue de transgresser la règle de séparation des deux à « 6 » afin de partager un jugement personnel sur la quantité décrite.
+Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation respectivement de « peu » et de « beaucoup ». Ainsi, il n’est pas rare pour les locuteurs de cette langue de transgresser la règle de séparation des deux à six afin de partager un jugement personnel sur la quantité décrite.
 
 Les éléments indénombrables sont au singulier par défaut, mais à nouveau les locuteurs peuvent émettre un jugement personnel de quantité de ces éléments en les mettant au paucal ou au pluriel.
 
@@ -258,14 +265,14 @@ Le génitif permet de marquer une relation entre deux éléments, l’élément 
 
 Enfin, le vocatif permet de s’adresser à quelqu’un ou quelque chose, en attirant son attention. Dans la phrase « Monsieur, pourriez-vous m’aider ? », « Monsieur » serait décliné au vocatif.
 
-Voici la table des suffixes à ajouter selon la déclinaison du mot :
+Voici la table des clitiques à ajouter selon la déclinaison du mot :
 #+CAPTION:Déclinaison des noms par cas grammaticaux
 | /               | <            |
 | cas grammatical | déclinaison  |
 |-----------------+--------------|
 | nominatif       | /non marqué/ |
 | accusatif       | -ant         |
-| datif           | -ith         |
+| datif           | -is          |
 | locatif         | -(o)ch       |
 | ablatif         | -(r)ac       |
 | limitatif       | -ém          |
@@ -280,7 +287,7 @@ Ainsi, <tere> (« tour ») se déclinera ainsi :
 |-----------------+-------------+-----------------------|
 | nominatif       | tere        | tour (sujet)          |
 | accusatif       | tereant     | tour (objet)          |
-| datif           | tereith     | tour (objet indirect) |
+| datif           | tereis      | tour (objet indirect) |
 | locatif         | terech      | à la tour             |
 | ablatif         | tererac     | depuis la tour        |
 | limitatif       | tereém      | jusqu’à la tour       |
@@ -294,7 +301,7 @@ On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
 |-----------------+-------------+-----------------------------|
 | nominatif       | velte       | monde (sujet)               |
 | accusatif       | veltant     | monde (objet)               |
-| datif           | veltith     | monde (objet indirect)      |
+| datif           | veltis      | monde (objet indirect)      |
 | locatif         | veltoch     | dans le monde (à sa surace) |
 | ablatif         | veltac      | depuis le monde             |
 | limitatif       | veltém      | jusqu’au monde              |
@@ -302,16 +309,16 @@ On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
 | vocatif         | velty       | Oh Monde !                  |
 
 *** Possessif
-En mattér, il est possible d’indiquer la possession d’une personne du mot auquel est ajouté un possessif. Voici la table des suffixes possessifs du Mattér :
+En mattér, il est possible d’indiquer la possession d’une personne du mot auquel est ajouté un possessif. Voici la table des clitiques possessives du Mattér :
 #+CAPTION:Suffixes possessifs
 | /             | <         | <      | <       |
 |               | singulier | paucal | pluriel |
 |---------------+-----------+--------+---------|
-| 1ère personne | -ych      | -yth   | -yn     |
+| 1ère personne | -ych      | -ys    | -yn     |
 | 2ème personne | -(d)yn    | -(i)m  | -(e)nu  |
-| 3ème personne | -én       | -an    | -eath   |
+| 3ème personne | -én       | -an    | -eas    |
 
-Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par « chyn hyth », ou bien « hythyn ». La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
+Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par « chyn hys », ou bien « hysyn ». La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
 
 ** Déterminants
 Le Mattér dispose de quatre catégories de déterminants :
@@ -334,10 +341,10 @@ Les articles définis servent à indiquer un élément précis, contrairement à
 |   | singulier | NHUM   | en      |
 |   | paucal    | N,M,F  | od      |
 |   | paucal    | NHUM   | yt      |
-|   | pluriel   | N,M,F  | eth     |
+|   | pluriel   | N,M,F  | es      |
 |   | pluriel   | NHUM   | ev      |
 
-Ainsi, « la tour » se traduira par <an teren> (au nominatif), « les chats » (peu de chats) se traduira <od cetenet> (genre neutre, paucal), « des villes » (nombreuses) se traduira <el urbyneth>.
+Ainsi, « la tour » se traduira par <an teren> (au nominatif), « les chats » (peu de chats) se traduira <od cetenet> (genre neutre, paucal), « des villes » (nombreuses) se traduira <el urbynes>.
 
 *** Déterminants démonstratifs
 Le déterminant démonstratif du Mattér a une fonction très similaire au déterminant démonstratif du Français, tels que « ce », « cet », « cette » et « ces ». De même que pour les articles définis, ils s’accordent en nombre, mais également selon la distance, allant de visible proche à invisible en passant par visible éloigné.
@@ -347,13 +354,13 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 |---+----------+-----------+---------|
 |   | proche   | singulier | an      |
 |   | proche   | paucal    | at      |
-|   | proche   | pluriel   | adh     |
+|   | proche   | pluriel   | az      |
 |   | éloigné  | singulier | em      |
 |   | éloigné  | paucal    | ed      |
-|   | éloigné  | pluriel   | edh     |
+|   | éloigné  | pluriel   | ez      |
 |   | lointain | singulier | un      |
 |   | lointain | paucal    | ut      |
-|   | lointain | pluriel   | udh     |
+|   | lointain | pluriel   | uz      |
 
 *** Outils interrogatifs
 Les outils interrogatifs servent à s’enquérir d’une information sur un sujet. Le Mattér dispose des termes suivants :
@@ -362,15 +369,15 @@ Les outils interrogatifs servent à s’enquérir d’une information sur un suj
 |--------------------+-------------------------+------------|
 | sujet              | qui                     | fe         |
 | objet              | quoi                    | fent       |
-| datif              | à qui                   | feth       |
+| datif              | à qui                   | fes        |
 | locatif            | où                      | fech       |
 | ablatif            | depuis où               | fec        |
 | limitatif          | jusqu’où                | fém        |
 | génitif            | de qui                  | fon        |
 | but                | pourquoi, dans quel but | feren      |
-| temporel           | quand                   | fertidh    |
-| temporel ablatif   | depuis quand            | fertidhoch |
-| temporel limitatif | jusqu’à quand           | fertidhac  |
+| temporel           | quand                   | fertiz     |
+| temporel ablatif   | depuis quand            | fertizoch  |
+| temporel limitatif | jusqu’à quand           | fertizac   |
 | instrumental       | comment                 | ferden     |
 | raison             | pour quelle raison      | ferve      |
 | choix              | lequel                  | fervid     |
@@ -385,100 +392,100 @@ Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose p
 | adjectif | comparatif | déclinaison |
 |----------+------------+-------------|
 
-Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de <raedh> (« rouge ») avec <wachen> (« voiture »).
+Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de <raez> (« rouge ») avec <wachen> (« voiture »).
 
 Singulier :
 #+CAPTION:Exemple de déclinaison d’adjectif au singulier
 | /         | <                    |
-| nominatif | a raedh wachen       |
-| accusatif | a raedhant wachenant |
-| datif     | a raedhith wachenith |
-| locatif   | a raedhoch wachenoch |
-| ablatif   | a raedhac wachenac   |
-| limitatif | a raedhém wacheném   |
-| génitif   | a raedhun wachenun   |
-| vocatif   | a raedhy wacheny     |
+| nominatif | a raez wachen        |
+| accusatif | a raezant wachenant |
+| datif     | a raezis wachenis   |
+| locatif   | a raezoch wachenoch |
+| ablatif   | a raezac wachenac   |
+| limitatif | a raezém wacheném   |
+| génitif   | a raezun wachenun   |
+| vocatif   | a raezy wacheny     |
 
 Paucal :
 #+CAPTION:Exemple de déclinaison d’adjectif au paucal
 | /         | <                         |
-| nominatif | en raedhet wachenet       |
-| accusatif | en raedhantet wachenantet |
-| datif     | en raedhithet wachenithet |
-| locatif   | en raedhochet wachenochet |
-| ablatif   | en raedhacet wachenacet   |
-| limitatif | en raedhémet wachenémet   |
-| génitif   | en raedhunet wachenunet   |
-| vocatif   | en raedhyet wachenuet     |
+| nominatif | en raezet wachenet       |
+| accusatif | en raezantet wachenantet |
+| datif     | en raeziset wacheniset   |
+| locatif   | en raezochet wachenochet |
+| ablatif   | en raezacet wachenacet   |
+| limitatif | en raezémet wachenémet   |
+| génitif   | en raezunet wachenunet   |
+| vocatif   | en raezyet wachenuet     |
 
 Pluriel :
 #+CAPTION:Exemple de déclinaison d’adjectif au pluriel
-| /         | <                           |
-| nominatif | yt raedheth wacheneth       |
-| accusatif | yt raedhanteth wachenanteth |
-| datif     | yt raedhitheth wachenitheth |
-| locatif   | yt raedhocheth wachenocheth |
-| ablatif   | yt raedhaceth wachenaceth   |
-| limitatif | yt raedhémeth wachenémeth   |
-| génitif   | yt raedhuneth wachenuneth   |
-| vocatif   | yt raedhyeth wachenyeth     |
+| /         | <                        |
+| nominatif | yt raezes wachenes       |
+| accusatif | yt raezantes wachenantes |
+| datif     | yt raezises wachenises   |
+| locatif   | yt raezoches wachenoches |
+| ablatif   | yt raezaces wachenaces   |
+| limitatif | yt raezémes wachenémes   |
+| génitif   | yt raezunes wachenunes   |
+| vocatif   | yt raezyes wachenyes     |
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
-La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil thtorant ficjanant gjea etanand ». On sait que l’adjectif <mekkil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <thtor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant thtorant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil thtor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
+La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil storant ficjanant gjea etanand ». On sait que l’adjectif <mekkil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <stor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant storant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil stor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
 
 *** Comparatifs
 **** Mélioratif
- Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe *-ere*. Ainsi, « cette voiture est plus rapide » se traduira par « an thcortere wachen beith »
+ Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe *-ere*. Ainsi, « cette voiture est plus rapide » se traduira par « an scortere wachen beis »
 
 **** Péjoratif
-À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe *-othe*. Ainsi, « cette voiture est moins rapide » se traduira par « an thcortethe wachen beith ».
+À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe *-ose*. Ainsi, « cette voiture est moins rapide » se traduira par « an scortese wachen beis ».
 
 **** Superlatifs positifs et négatifs
 Contrairement au mélioratif et au péjoratif qui sont tous deux des moyen comparatifs relatifs à un autre élément, les superlatifs positifs et négatifs se réfèrent à un jugement de valeur sensé être absolu, respectivement le meilleur ou le pire élément.
 
-Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe *-ethte*, tandis qu’il faut ajouter le suffixe *-orto*. Ainsi, « la voiture la plus rapide » se traduira par « an tchortethe wachen beith », et « la voiture la moins rapide se traduira par « an thcortorto wachen beith ».
+Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe *-este*, tandis qu’il faut ajouter le suffixe *-orto*. Ainsi, « la voiture la plus rapide » se traduira par « an tchortese wachen beis », et « la voiture la moins rapide se traduira par « an scortorto wachen beis ».
 
-Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement <bethte> et <borto>.
+Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement <beste> et <borto>.
 
 ** Pronoms
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 
 - Première personne :
 #+CAPTION:Pronoms de la première personne
-| /         | <>        | >         | >      |         |
-|           | nominatif | accusatif | datif  | génitif |
-|-----------+-----------+-----------+--------+---------|
-| singulier | cheg      | chent     | cheidh | chyn    |
-| paucal    | thi       | thid      | thidh  | thyn    |
-| pluriel   | non       | nound     | nonth  | nun     |
+| /         | <>        | >         | >     |         |
+|           | nominatif | accusatif | datif | génitif |
+|-----------+-----------+-----------+-------+---------|
+| singulier | cheg      | chent     | cheiz | chyn    |
+| paucal    | si        | sid       | siz   | syn     |
+| pluriel   | non       | nound     | nons  | nun     |
 
 - Seconde personne :
 #+CAPTION:Pronoms de la seconde personne
 | /         | <>        | >         | >     | >       |         |
 |           | nominatif | accusatif | datif | génitif | vocatif |
 |-----------+-----------+-----------+-------+---------+---------|
-| singulier | du        | daun      | dudh  | dyn     | udy     |
-| paucal    | im        | eint      | dhi   | nim     | eny     |
-| pluriel   | min       | meint     | minth | meun    | miny    |
+| singulier | du        | daun      | duz   | dyn     | udy     |
+| paucal    | im        | eint      | zi    | nim     | eny     |
+| pluriel   | min       | meint     | mins  | meun    | miny    |
 
 - Troisième personne :
 #+CAPTION:Pronoms de la troisième personne
-| /             | <>        | >         | >      | >       |         |
-|               | nominatif | accusatif | datif  | génitif | vocatif |
-|---------------+-----------+-----------+--------+---------+---------|
-| sg neutre     | hé        | hét       | heth   | hén     | yhé     |
-| sg masculin   | hae       | haed      | haedh  | haen    | yhae    |
-| sg féminin    | hou       | hound     | hudh   | houn    | yhou    |
-| sg non-humain | hit       | hint      | hith   | him     | yhi     |
-| pau neutre    | hei       | heit      | heith  | hein    | yhei    |
-| pau masculin  | tha       | thad      | thaidh | than    | ytha    |
-| pau féminin   | thu       | thunt     | thou   | thun    | ythu    |
-| pau neutre    | hou       | hot       | hoth   | dho     | ydhou   |
-| pl neutre     | hea       | hint      | heath  | heam    | heathy  |
-| pl masculin   | tha       | that      | thaidh | than    | thaidhy |
-| pl féminin    | thu       | thunt     | thou   | thun    | ythu    |
-| pl non-humain | hou       | hout      | houth  | dho     | houthy  |
+| /             | <>        | >         | >     | >       |         |
+|               | nominatif | accusatif | datif | génitif | vocatif |
+|---------------+-----------+-----------+-------+---------+---------|
+| sg neutre     | hé        | hét       | hes   | hén     | yhé     |
+| sg masculin   | hae       | haed      | haez  | haen    | yhae    |
+| sg féminin    | hou       | hound     | huz   | houn    | yhou    |
+| sg non-humain | hit       | hint      | his   | him     | yhi     |
+| pau neutre    | hei       | heit      | heis  | hein    | yhei    |
+| pau masculin  | sa        | sad       | saiz  | san     | ysa     |
+| pau féminin   | su        | sunt      | sou   | sun     | ysu     |
+| pau neutre    | hou       | hot       | hos   | zo      | yzou    |
+| pl neutre     | hea       | hint      | heas  | heam    | heasy   |
+| pl masculin   | sa        | sat       | saiz  | san     | saizy   |
+| pl féminin    | su        | sunt      | sou   | sun     | ysu     |
+| pl non-humain | hou       | hout      | hous  | zo      | housy   |
 
 ** Pronoms relatifs
 Les pronoms relatifs introduisent en Mattér une clause relative (abordées au chapitre §[[*Clauses relatives]]). Du fait de sa proximité avec les langues germaniques, les clauses relatives changent selon leur cas grammatical et leur genre, cepedant seule la dualité humain/non-humain est exprimée sur ce dernier point et le nombre n’est pas indiqué, comme on peut le voir ci-dessous :
@@ -487,7 +494,7 @@ Les pronoms relatifs introduisent en Mattér une clause relative (abordées au c
 |-----------+--------+------------|
 | nominatif | dja    | va         |
 | accusatif | djén   | vén        |
-| datif     | djédh  | véth       |
+| datif     | djéz   | vés        |
 | locatif   | dech   | vach       |
 | ablatif   | duc    | vuc        |
 | limitatif | dym    | vym        |
@@ -495,25 +502,25 @@ Les pronoms relatifs introduisent en Mattér une clause relative (abordées au c
 L’accord du genre se fait selon la phrase nominale définie tandis que le cas grammatical représente la relation de la clause relative auprès de la phrase nominale. Exemples :
 
 Français : « Mon oncle (maternel) qui est grand est en ville. »{{{newline}}}
-Mattér : « Maebrorych dja mekkilant beith urbych beith. »
+Mattér : « Maebrorych dja mekkilant beis urbych beis. »
 
 Français : « La ville où j’habite est belle. »{{{newline}}}
-Mattér : « A urby vach bwéne wenant beith. »
+Mattér : « A urby vach bwéne wenant beis. »
 
 Français : « J’ai perdu le livre que je voulais vendre. »{{{newline}}}
 Mattér : « A bokkéant vén wiljaer saelle tynner »
 
 Français : « L’homme dont le chien aboyait tout le temps déménage. »{{{newline}}}
-Mattér : « É meth dy a hynd altidh gyjener flyttene. »
+Mattér : « É mes dy a hynd altiz gyjener flyttene. »
 
 Français : « La rue jusqu’à laquelle on va est étroite. »{{{newline}}}
-Mattér : « É gaet dym gaern smothant beith. »
+Mattér : « É gaet dym gaern smosant beis. »
 
 ** Verbes
 *** Temps
 À l’exception des verbes <o ber> (être), <o hab> (avoir) et <o gjer> (faire), la conjugaison des verbes en Mattér est très régulière. Trois temps principaux existent : le passé, le présent et le futur, cepedant il est possible d’exprimer du passé antérieur (passé dans un temps de locution passé), du passé postérieur (futur dans un temps de locution passé), du futur antérieur (passé dans un temps de locution futur) et du futur postérieur (futur dans un temps de locution futur).
 
-Généralement parlant, le présent sert aux locuteurs du Mattér à se référer à des actions ou descriptions ou autre se passant lors de la locution de la phrase ou à se réferer à un passé ou futur immédiat, pouvant s’étendre jusqu’à une journée complète avant ou après le temps immédiat de locution. Par exemple, la phrase <mergoch, cinnemoch thi gache> (« demain, nous (paucal) allons au cinéma ») contient le verbe <o gach> conjugué à la première personne du paucal, cependant le sens porté par la phrase est comme quoi l’action d’aller au cinéma prendra lieu dans le futur, en l’occurence le jour suivant le moment de locution. Cepedant la proximité entre ce dernier et le moment de l’action en elle-même permet au locuteur d’utiliser le présent. En revanche, s’il souhaite exprimer la même action comme s’effectuant la semaine suivante, le futur sera utilisé : <nutht vococh, cinnemoch thi y gachatth>. Remarquez par ailleurs l’utilisation du locatif pour <morg> (« demain ») et <nutht voc> (« semaine prochaine ») pour signifier le temps durant lequel l’action s’exécutera.
+Généralement parlant, le présent sert aux locuteurs du Mattér à se référer à des actions ou descriptions ou autre se passant lors de la locution de la phrase ou à se réferer à un passé ou futur immédiat, pouvant s’étendre jusqu’à une journée complète avant ou après le temps immédiat de locution. Par exemple, la phrase <mergoch, cinnemoch si gache> (« demain, nous (paucal) allons au cinéma ») contient le verbe <o gach> conjugué à la première personne du paucal, cependant le sens porté par la phrase est comme quoi l’action d’aller au cinéma prendra lieu dans le futur, en l’occurence le jour suivant le moment de locution. Cepedant la proximité entre ce dernier et le moment de l’action en elle-même permet au locuteur d’utiliser le présent. En revanche, s’il souhaite exprimer la même action comme s’effectuant la semaine suivante, le futur sera utilisé : <nust vococh, cinnemoch si y gachats>. Remarquez par ailleurs l’utilisation du locatif pour <morg> (« demain ») et <nust voc> (« semaine prochaine ») pour signifier le temps durant lequel l’action s’exécutera.
 
 *** Aspects
 Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects *perfectif* et *imperfectif*. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §[[*Modes]]), le ~V~ représentant la racine du verbe :
@@ -532,18 +539,18 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 | 3P   | Von   | y Von |
 
 #+caption: Conjugaison de l’imperfectif de l’indicatif
-| /    | <>    | >       |         |
-|      | passé | présent | futur   |
-|------+-------+---------+---------|
-| 1S   | Ver   | Ve      | y V     |
-| 2S   | Vet   | Vei     | y Vei   |
-| 3S   | Ver   | Vea     | y Ve    |
-| 1PAU | Vedh  | Vet     | y Va    |
-| 2PAU | Veth  | Vaet    | y Vath  |
-| 3PAU | Verdh | Vaet    | y Va    |
-| 1P   | Ven   | Vern    | y Vatth |
-| 2P   | Vent  | Var     | y Vat   |
-| 3P   | Ven   | Vér     | y Vat   |
+| /    | <>    | >       |        |
+|      | passé | présent | futur  |
+|------+-------+---------+--------|
+| 1S   | Ver   | Ve      | y V    |
+| 2S   | Vet   | Vei     | y Vei  |
+| 3S   | Ver   | Vea     | y Ve   |
+| 1PAU | Vez   | Vet     | y Va   |
+| 2PAU | Ves   | Vaet    | y Vas  |
+| 3PAU | Verz  | Vaet    | y Va   |
+| 1P   | Ven   | Vern    | y Vats |
+| 2P   | Vent  | Var     | y Vat  |
+| 3P   | Ven   | Vér     | y Vat  |
 
 Les terminaisons après les ~V~ s’accollent au verbe, excepté la voyelle si elle se répète. Par exemple, <tynne> se conjugera <tunner> à la première personne du singulier.
 
@@ -551,13 +558,13 @@ Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou pos
 
 En revanche, les trois temps disposent d’un aspect commun : *le progressif* qui s’emploie grâce à l’utilisation des verbes <o ber> (verbes d’état) ou <o gjer> (verbes d’action) comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §[[*Participes]]). Exemple :{{{newline}}}
 Français : J’étais en train de manger une pomme rouge.{{{newline}}}
-Mattér : cheg e gjéth etanand raedhant eppelant
+Mattér : cheg e gjés etanand raezant eppelant
 
 Français : Vous êtes tous deux en train de pêcher.{{{newline}}}
 Mattér : im gjéta ficjanand{{{newline}}}
 
 Français : Elles seront en train d’écrire des lettres.
-Mattér : thu y gjér gérenand breifantath
+Mattér : su y gjér gérenand breifantas
 
 *** Modes
 **** Infinitif
@@ -642,7 +649,7 @@ Voici deux exemples de conjugaison au jussif avec <o seg> et <o etan> :
 | /                    | <       |
 | type de participe    | forme   |
 |----------------------+---------|
-| participe passé      | V(dh)et |
+| participe passé      | V(z)et  |
 | participe présent    | V(o)ta  |
 | participe futur      | V(é)tér |
 | participe progressif | Vand    |
@@ -657,28 +664,28 @@ Participes irréguliers :
 |------+-------+---------|
 | 1S   | ver   | y ver   |
 | 2S   | vet   | y vet   |
-| 3S   | vath  | y vath  |
-| 1PAU | vedh  | y vedh  |
-| 2PAU | venth | y venth |
-| 3PAU | vatth | y vatth |
+| 3S   | vas   | y vas   |
+| 1PAU | vez   | y vez   |
+| 2PAU | vens  | y vens  |
+| 3PAU | vats  | y vats  |
 | 1P   | vein  | y vein  |
 | 2P   | veat  | y veat  |
 | 3P   | veaen | y veaen |
 
 **** Imperfectif
 #+CAPTION:Imperfectif de <o ber>
-| /    | <>        | >       |           |
-|      | passé     | présent | futur     |
-|------+-----------+---------+-----------|
-| 1S   | e vath    | be      | u be      |
-| 2S   | ea vart   | betht   | u betht   |
-| 3S   | ei vart   | beith   | ou beidh  |
-| 1PAU | e vatht   | erth    | u erdh    |
-| 2PAU | ea vart   | erth    | o erdh    |
-| 3PAU | ei varth  | aith    | ou aidh   |
-| 1P   | e vaeth   | ther    | u ther    |
-| 2P   | ea vaerth | therth  | u therdh  |
-| 3P   | ei varth  | thet    | ou thetth |
+| /    | <>       | >       |         |
+|      | passé    | présent | futur   |
+|------+----------+---------+---------|
+| 1S   | e vas    | be      | u be    |
+| 2S   | ea vart  | best    | u best  |
+| 3S   | ei vart  | beis    | ou beiz |
+| 1PAU | e vast   | ers     | u erz   |
+| 2PAU | ea vart  | ers     | o erz   |
+| 3PAU | ei vars  | ais     | ou aiz  |
+| 1P   | e vaes   | ser     | u ser   |
+| 2P   | ea vaers | sers    | u serz  |
+| 3P   | ei vars  | set     | ou sets |
 
 **** Participe
 #+CAPTION:Participes de <o ber>
@@ -697,28 +704,28 @@ Participes irréguliers :
 |------+-------+---------|
 | 1S   | her   | hery    |
 | 2S   | het   | hety    |
-| 3S   | heath | y heath |
-| 1PAU | hedh  | hedhy   |
-| 2PAU | hedht | hety    |
-| 3PAU | hetth | hety    |
+| 3S   | heas  | y heas  |
+| 1PAU | hez   | hezy    |
+| 2PAU | hezt  | hety    |
+| 3PAU | hets  | hety    |
 | 1P   | hein  | y hein  |
 | 2P   | heit  | heity   |
 | 3P   | haent | y haent |
 
 **** Imperfectif
 #+CAPTION:Imperfectif de <o hab>
-| /    | <>       | >       |           |
-|      | passé    | présent | futur     |
-|------+----------+---------+-----------|
-| 1S   | e hath   | habe    | u habe    |
-| 2S   | ae hat   | hatht   | u habetht |
-| 3S   | ea hath  | hat     | ou hat    |
-| 1PAU | e hatth  | habeth  | u habeth  |
-| 2PAU | e hart   | hatth   | o hatth   |
-| 3PAU | ea harth | habean  | ou haben  |
-| 1P   | ae hat   | haber   | u harbe   |
-| 2P   | ae haeth | haberth | y hardh   |
-| 3P   | ei harth | habet   | u hebet   |
+| /    | <>      | >       |          |
+|      | passé   | présent | futur    |
+|------+---------+---------+----------|
+| 1S   | e has   | habe    | u habe   |
+| 2S   | ae hat  | hast    | u habest |
+| 3S   | ea has  | hat     | ou hat   |
+| 1PAU | e hats  | habes   | u habes  |
+| 2PAU | e hart  | hats    | o hats   |
+| 3PAU | ea hars | habean  | ou haben |
+| 1P   | ae hat  | haber   | u harbe  |
+| 2P   | ae haes | habers  | y harz   |
+| 3P   | ei hars | habet   | u hebet  |
 
 **** Participe
 #+CAPTION:Participes de <o hab>
@@ -737,37 +744,38 @@ Participes irréguliers :
 |------+---------+----------|
 | 1S   | jer     | y jer    |
 | 2S   | jeret   | y jeret  |
-| 3S   | gjeth   | y jeth   |
-| 1PAU | jardh   | y jarth  |
-| 2PAU | jenth   | y jent   |
-| 3PAU | gjetth  | y jetth  |
+| 3S   | gjes    | y jes    |
+| 1PAU | jarz    | y jars   |
+| 2PAU | jens    | y jent   |
+| 3PAU | gjets   | y jets   |
 | 1P   | jerein  | y jerein |
 | 2P   | gjereat | y jereat |
 | 3P   | gjeraen | y jerean |
 
 **** Imperfectif
 #+CAPTION:Imperfectif de <o gjer>
-| /    | <>        | >       |         |
-|      | passé     | présent | futur   |
-|------+-----------+---------+---------|
-| 1S   | e jéth    | jere    | u jere  |
-| 2S   | ae jét    | jei     | y jeit  |
-| 3S   | ei gjéth  | gjea    | y jeath |
-| 1PAU | e jétth   | jét     | u jét   |
-| 2PAU | e jért    | gjéta   | y jérta |
-| 3PAU | ea gjétth | jaet    | y jaeth |
-| 1P   | ei jeath  | jern    | y jeath |
-| 2P   | e gjeath  | gjerar  | y jerar |
-| 3P   | e gjérth  | gjér    | y jér   |
+| /    | <>       | >       |         |
+|      | passé    | présent | futur   |
+|------+----------+---------+---------|
+| 1S   | e jés    | jere    | u jere  |
+| 2S   | ae jét   | jei     | y jeit  |
+| 3S   | ei gjés  | gjea    | y jeas  |
+| 1PAU | e jéts   | jét     | u jét   |
+| 2PAU | e jért   | gjéta   | y jérta |
+| 3PAU | ea gjéts | jaet    | y jaes  |
+| 1P   | ei jeas  | jern    | y jeas  |
+| 2P   | e gjeas  | gjerar  | y jerar |
+| 3P   | e gjérs  | gjér    | y jér   |
 
 **** Participe
 #+CAPTION:Participes de <o gjer>
-| /                 | <      |
-| type de participe | forme  |
-|-------------------+--------|
-| participe passé   | get    |
-| participe présent | gethte |
-| participe futur   | gér    |
+| /                 | <     |
+| type de participe | forme |
+|-------------------+-------|
+| participe passé   | get   |
+| participe présent | geste |
+| participe futur   | gér   |
+
 **** Impératif
 | /         | <           |
 | nombre    | conjugaison |
@@ -797,17 +805,17 @@ On peut obtenir un nom à partir d’un verbe désignant une personne ayant un r
 *** Acte *-yri*
 On peut également transformer un verbe d’action afin de se référer à l’acte qu’il représente en lui-même. Ainsi, <ficjanyri> désigne la pêche, <gérenyri> désigne le travail d’écriture et <rittanyri> désigne le travail de gravure de runes.
 
-*** Nominalisation d’adjectifs *-enth*
-Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, <alenth> signifie « totalité », <galmenth> signifie « ancienneté » et <gemmelenth> signifie « vieilesse ».
+*** Nominalisation d’adjectifs *-ens*
+Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, <alens> signifie « totalité », <galmens> signifie « ancienneté » et <gemmelents> signifie « vieilesse ».
 
 * Syntaxe
 ** Groupe nominal
-Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smodh eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smodh » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
+Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smoz eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smoz » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
 
-Mattér : Hit galmant wachenant beith.{{{newline}}}
+Mattér : Hit galmant wachenant beis.{{{newline}}}
 Français : C’est une vieille voiture.
 
-Mattér : Hit wachenant galmant beith.{{{newline}}}
+Mattér : Hit wachenant galmant beis.{{{newline}}}
 Français : C’est une voiture à mon avis vieille.
 
 ** Groupe verbal
@@ -816,13 +824,13 @@ Du fait de leur conjugaison portant pleinement l’information du nombre et du g
 ** Propositions simples
 L’ordre préféré en Mattér est <sujet>-<objet>-<oblique>-<adverbes>-<verbe>, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
 
-Mattér : Fadhérych breifant cheidh gjea gérenand.{{{newline}}}
+Mattér : Fazérych breifant cheiz gjea gérenand.{{{newline}}}
 Français : Mon père est en train de m’écrire une lettre.
 
-Mattér : Breifant fadhérych cheidh gjea gérenand.{{{newline}}}
+Mattér : Breifant fazérych cheiz gjea gérenand.{{{newline}}}
 Français : C’est une lettre que mon père est en train de m’écrire.
 
-Mattér : Cheidh fadhérych breifant gjea gérenand.{{{newline}}}
+Mattér : Cheiz fazérych breifant gjea gérenand.{{{newline}}}
 Français : C’est à moi que mon père est en train d’écrire une lettre.
 
 ** Négations
@@ -856,31 +864,31 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 |                 0 |                0 | nyn     |
 |                 1 |                1 | aen     |
 |                 2 |                2 | twéa    |
-|                 3 |                3 | dhe     |
+|                 3 |                3 | ze      |
 |                 4 |                4 | fro     |
-|                 5 |                5 | dheif   |
+|                 5 |                5 | zeif    |
 |                 6 |                6 | chcaec  |
-|                 7 |                7 | thean   |
+|                 7 |                7 | sean    |
 |                 8 |                8 | acht    |
 |                 9 |                9 | onnén   |
 |                10 |               10 | dran    |
 |                20 |               20 | tjeg    |
-|                30 |               30 | dhjea   |
+|                30 |               30 | zjea    |
 |                40 |               40 | frje    |
-|                50 |               50 | dheig   |
+|                50 |               50 | zeig    |
 |                60 |               60 | chcjag  |
-|                70 |               70 | thjeg   |
+|                70 |               70 | sjeg    |
 |                80 |               80 | achteig |
 |                90 |               90 | onneg   |
 |               100 |              100 | anrad   |
-|             1 000 |             1000 | tanthen |
+|             1 000 |             1000 | tansen  |
 |            10 000 |           1 0000 | deten   |
 |       100 000 000 |      1 0000 0000 | mollen  |
 | 1 000 000 000 000 | 1 0000 0000 0000 | vreljen |
 
-Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les termes <anrad>, <tathen>, <deten>, <mollen> et <vreljen> peuvent être multipliés par un nombre inférieur le précédant. Par exemple, pour exprimer « 600 », on dira <chaecanred>. Indiquer un multiplicateur de un est considéré comme inutile, ainsi les termes tels que <deten>, <mollen> et <vreljen> se suffisent à eux-même pour signifier <1 0000>, <1 0000 0000> et <1 0000 0000 0000> respectivement. Par conséquence, le nombre 1789 se traduirait par <onnén achteig theananrad tanthen>.
+Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les termes <anrad>, <tansen>, <deten>, <mollen> et <vreljen> peuvent être multipliés par un nombre inférieur le précédant. Par exemple, pour exprimer « 600 », on dira <chaecanred>. Indiquer un multiplicateur de un est considéré comme inutile, ainsi les termes tels que <deten>, <mollen> et <vreljen> se suffisent à eux-même pour signifier <1 0000>, <1 0000 0000> et <1 0000 0000 0000> respectivement. Par conséquence, le nombre 1789 se traduirait par <onnén achteig seananrad tansen>.
 
-Les termes <anrad>, <tathen>, <deten>, <mollen> et <vreljen> doivent également être précédés par <ar> lors d’un risque de confusion entre un nombre et leur multiplieur, de 1 à 10 pour <anrad et tanthen>, et de 1 à 999 pour <deten>, <mollen> et <vreljen>. Ainsi, <achtanred> signifie 800, alors que <acht ar anred> signifie 108, <onnénanrad deten> signifie 900 0000 (ou 9 000 000) alors que <onnénanrad ar deten> signifie 1 0900 (ou 10 900). Si aucune confusion n’est possible, le <ar> sera ommis. 1 2345 6890 (123 456 890) s’exprime donc <dran achteig theananred chceactanthan ar dheif frje dheanrad twéatanthen deten ar mollen>.
+Les termes <anrad>, <tasen>, <deten>, <mollen> et <vreljen> doivent également être précédés par <ar> lors d’un risque de confusion entre un nombre et leur multiplieur, de 1 à 10 pour <anrad et tansen>, et de 1 à 999 pour <deten>, <mollen> et <vreljen>. Ainsi, <achtanred> signifie 800, alors que <acht ar anred> signifie 108, <onnénanrad deten> signifie 900 0000 (ou 9 000 000) alors que <onnénanrad ar deten> signifie 1 0900 (ou 10 900). Si aucune confusion n’est possible, le <ar> sera ommis. 1 2345 6890 (123 456 890) s’exprime donc <dran achteig seananred chceactansan ar zeif frje zeanrad twéatansen deten ar mollen>.
 
 Typographiquement parlant, les multiplicateurs s’agglomèrent avec l’élément qu’ils multiplient.
 
@@ -893,7 +901,7 @@ Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Vo
 |-----------------------+----------------------------------------|
 | f                     | {{{if-latex-else(\\textara{f},ᚠ)}}}    |
 | u                     | {{{if-latex-else(\\textara{u},ᚢ)}}}    |
-| th                    | {{{if-latex-else(\\textara{þ},ᚦ)}}}    |
+| s                     | {{{if-latex-else(\\textara{þ},ᚦ)}}}    |
 | o                     | {{{if-latex-else(\\textara{o},ᚩ)}}}    |
 | r                     | {{{if-latex-else(\\textara{r},ᚱ)}}}    |
 | c                     | {{{if-latex-else(\\textara{c},ᚳ)}}}    |
@@ -905,7 +913,7 @@ Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Vo
 | i                     | {{{if-latex-else(\\textara{i},ᛁ)}}}    |
 | j                     | {{{if-latex-else(\\textara{j},ᛄ)}}}    |
 | p                     | {{{if-latex-else(\\textara{p},ᛈ)}}}    |
-| dh                    | {{{if-latex-else(\\textara{s},ᛋ)}}}    |
+| z                     | {{{if-latex-else(\\textara{s},ᛋ)}}}    |
 | v                     | {{{if-latex-else(\\textara{\\ng},ᛝ)}}} |
 | t                     | {{{if-latex-else(\\textara{t},ᛏ)}}}    |
 | b                     | {{{if-latex-else(\\textara{b},ᛒ)}}}    |
@@ -926,7 +934,7 @@ Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> di
 
 Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :{{{newline}}}
 Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newline}}}
-Mattér (transcrit) : morgoch, gyrnegac thcyrmém, thi y ficjanur.{{{newline}}}
+Mattér (transcrit) : morgoch, gyrnegac scyrmém, si y ficjanur.{{{newline}}}
 Mattér (runes) : {{{if-latex-else(\\textara{morgoI:gyrnegac.þcyrm\\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
 
 Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
@@ -934,25 +942,25 @@ Le Mattér peut également être écrit avec les caractères romains comme fait 
 | /                      | <                    |
 | caractère translittéré | caractère alternatif |
 |------------------------+----------------------|
-| th                     | Þ - þ                |
-| dh                     | Ð - ð                |
+| s                      | Þ - þ                |
+| z                      | Ð - ð                |
 | ch                     | Ȝ - ȝ                |
 | w                      | Ƿ - ƿ                |
 | j                      | I - i                |
 | ae                     | Æ - æ                |
 # C-x 8 RET 21C ou 21D pour Ȝ et ȝ, 1bf ou 1f7 pour ƿ - Ƿ
 
-Ainsi, des mots tels que <brydh> ou <thpich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
+Ainsi, des mots tels que <bryz> ou <spich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
 #+CAPTION:Exemples d’écritures native du Mattér
 | /                | <     | <                                           |
 | translittération | latin | runique                                     |
 |------------------+-------+---------------------------------------------|
-| brydh            | bryð  | {{{if-latex-else(\\textara{brys},ᛒᚱᚣᛋ)}}}   |
-| thpich           | þpiȝ  | {{{if-latex-else(\\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
+| bryz             | bryð  | {{{if-latex-else(\\textara{brys},ᛒᚱᚣᛋ)}}}   |
+| spich            | þpiȝ  | {{{if-latex-else(\\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
 | jea              | iea   | {{{if-latex-else(\\textara{j\\ea},ᛄᛠ)}}}    |
 | maend            | mænd  | {{{if-latex-else(\\textara{mænd},ᛗᚫᚾᛞ)}}}   |
-| nethty           | neþty | {{{if-latex-else(\\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
+| nesty            | neþty | {{{if-latex-else(\\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
 | wachen           | ƿaȝen | {{{if-latex-else(\\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
 
 src_latex{\newpage}
@@ -985,6 +993,7 @@ Abréviations :
 
 ** Art
 - wen :: ​/wɛn/ beau, joli
+
 *** Écriture
 - bokké :: /ˈbokːe/ (n) livre
 - breif :: ​/brɛɪf/ (n) lettre, missive
@@ -1000,7 +1009,7 @@ Abréviations :
 - urby :: ​/ˈurby/ (n) ville
 *** Les types de bâtiments
 - tere :: ​/ˈtɛrɛ/ (n) tour, haut monument
-- hyth :: ​/hyθ/ (n) maison (bâtiment)
+- hys :: ​/hyθ/ (n) maison (bâtiment)
 
 ** Commerce
 - o saelle :: /o ˈsaelːɛ/ (v) vendre, donner à quelqu’un
@@ -1011,11 +1020,11 @@ Abréviations :
 ** Corps
 
 ** Couleurs
-- raedh :: ​/raeð/ (adj) rouge
+- raez :: ​/raeð/ (adj) rouge
 ** Dimensions
 *** Taille
-- smodh :: ​/smoð/ (adj) petit, étroit
-- thtor :: ​/θtor/ (adj) gros, grand, de grande taille, large
+- smoz :: ​/smoð/ (adj) petit, étroit
+- stor :: ​/θtor/ (adj) gros, grand, de grande taille, large
 - mekkil :: ​/mekːil/ (adj) grand, imposant, puissant, fort
 
 *** Quantifieurs
@@ -1042,11 +1051,11 @@ Abréviations :
 ** Existence
 
 ** Famille
-- brudhyr :: ​/ˈbruðyr/ (n) frère
-- fadhér :: ​/ˈfaðer/ (n) père
+- bruzyr :: ​/ˈbruðyr/ (n) frère
+- fazér :: ​/ˈfaðer/ (n) père
 - fobror :: ​/ˈfobror/ (n) oncle paternel
 - fostyr :: ​/ˈfostyr/ (n) tante paternelle
-- madhér :: ​/ˈmaðer/ (n) mère
+- mazér :: ​/ˈmaðer/ (n) mère
 - maebror :: ​/ˈmaebror/ (n) oncle maternel
 - mastyr :: ​/ˈmastyr/ (n) tante maternelle
 - syster :: ​/ˈsystɛr/ (n) sœur
@@ -1061,12 +1070,12 @@ Abréviations :
 - aen :: ​/aen/ (conj) et, mais
 - og :: ​/oɡ/ (conj) et, cependant, toujours est-il que
 - men :: ​/mɛn/ (conj) mais
-- dhea :: ​/ðea/ (conj) mais, introduit une question
+- zea :: ​/ðea/ (conj) mais, introduit une question
 - némmé :: ​/nemːe/ (conj) excepté, à moins que
 
 *** Prépositions
 - tél :: ​/tel/ (prep) pour, afin
-- thiv :: ​/θiv/ (prep) pour la raison de, du fait de.
+- siv :: ​/θiv/ (prep) pour la raison de, du fait de.
 
 ** Guerre
 - laette :: ​/ˈlaetːɛ/ perdre, se rendre, abandonner
@@ -1086,7 +1095,7 @@ Abréviations :
 - o commén :: ​/o komːen/ (v) venir, arriver
 - o ga :: ​/o ɡa/ (v) aller
 - o ljegga :: /o ˈljeɡːa/ (v) aller à travers champs, sans suivre de chemin, errer
-- thcort :: ​/θkort/ (adj) rapide
+- scort :: ​/θkort/ (adj) rapide
 ** Nature
 - velt :: ​/vɛlt/ (n) monde, la Terre
 
@@ -1101,30 +1110,30 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 |                 0 | nyn     |
 |                 1 | aen     |
 |                 2 | twéa    |
-|                 3 | dhe     |
+|                 3 | ze      |
 |                 4 | fro     |
-|                 5 | dheif   |
+|                 5 | zeif    |
 |                 6 | chcaec  |
-|                 7 | thean   |
+|                 7 | sean    |
 |                 8 | acht    |
 |                 9 | onnén   |
 |                10 | dran    |
 |                20 | tjeg    |
-|                30 | dhjea   |
+|                30 | zjea    |
 |                40 | frje    |
-|                50 | dheig   |
+|                50 | zeig    |
 |                60 | chcjag  |
-|                70 | thjeg   |
+|                70 | sjeg    |
 |                80 | achteig |
 |                90 | onneg   |
 |               100 | anrad   |
-|              1000 | tanthen |
+|              1000 | tansen  |
 |            1 0000 | deten   |
 |       1 0000 0000 | mollen  |
 |  1 0000 0000 0000 | vreljen |
 
 ** Nourriture
-- o thpich :: ​/o θpiç/ (v) (vulgaire) manger, bouffer
+- o spich :: ​/o θpiç/ (v) (vulgaire) manger, bouffer
 - o etan :: ​/o ɛtan/ (v) manger
 
 ** Outils
@@ -1161,18 +1170,18 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 ** Substances
 
 ** Temps
- - altidh :: ​/altið/ (adv) tout le temps
+ - altiz :: ​/altið/ (adv) tout le temps
  - daeg :: ​/daeɡ/ (n) jour
  - gaern :: ​/ɡaern/ (n) année
  - galm :: ​/ɡalm/ (adj) vieux, ancien
  - gyrneg :: ​/ˈɡyrnɛɡ/ (n) moment du lever de soleil, matin
- - menyth :: ​/ˈmɛnyθ/ (n) mois
+ - menys :: ​/ˈmɛnyθ/ (n) mois
  - morg :: ​/morɡ/ (adv) demain
- - nethty :: ​/ˈnɛθty/ (adj) prochain, suivant
+ - nesty :: ​/ˈnɛθty/ (adj) prochain, suivant
  - nu :: ​/nu/ (adv) maintenant, tout de suite
  - o tebyr :: ​/o 'tɛbyr/ (v) passer (du temps)
- - tidh :: ​/tið/ (n) temps
- - thcyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
+ - tiz :: ​/tið/ (n) temps
+ - scyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
  - voc :: ​/vok/ (n) semaine
 
 ** Travail
@@ -1184,15 +1193,15 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 ** Vêtements
 
 ** Vie et santé
-- brydh :: ​/bryð/ (n) naissance
-- brydhdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/brydh/ + /deg/)
+- bryz :: ​/bryð/ (n) naissance
+- bryzdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/bryz/ + /deg/)
 - o bwén :: ​/o bwen/ (v) vivre, habiter
 - gemmel :: ​/ɡɛmːɛl/ (adj) vieux, âgé
 <Gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer « tweg gaern gemmel be » (litt. « je suis vieux de vingt ans »).
 
 ** À trier
 - o tynne :: ​/o ˈtynːɛ/ (v) perdre quelque chose
-- meth :: ​/mɛθ/ (n) homme, personne
+- mes :: ​/mɛθ/ (n) homme, personne
 - gaet :: ​/ɡaet/ (n) rue, allée
 - méllém :: ​/melːem/ (adv) entre (deux personnes)
 
