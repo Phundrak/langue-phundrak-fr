@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<!-- 2019-03-11 lun. 17:08 -->
+<!-- 2019-03-19 mar. 00:06 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Une Grammaire du Mattér</title>
@@ -159,6 +159,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -198,7 +211,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -250,223 +263,223 @@ for the JavaScript code in this tag.
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd23c425">1. Avant-propos</a></li>
-<li><a href="#org7b3c588">2. Introduction</a></li>
-<li><a href="#orgbbb9c0d">3. Description du lexique</a></li>
-<li><a href="#orgb6803ce">4. Phonologie</a>
+<li><a href="#orga3724c8">1. Avant-propos</a></li>
+<li><a href="#org290557e">2. Introduction</a></li>
+<li><a href="#orgd786b31">3. Description du lexique</a></li>
+<li><a href="#orgc2f0b4b">4. Phonologie</a>
 <ul>
-<li><a href="#orgd0209f8">4.1. Notes sur la romanisation du Mattér</a></li>
-<li><a href="#orgbb681ec">4.2. Inventaire phonétique</a>
+<li><a href="#orgfe60e45">4.1. Notes sur la romanisation du Mattér</a></li>
+<li><a href="#orga23889a">4.2. Inventaire phonétique</a>
 <ul>
-<li><a href="#org2d98ea6">4.2.1. Consonnes</a></li>
-<li><a href="#org66bb3ad">4.2.2. Voyelles</a></li>
-<li><a href="#orgd437ff6">4.2.3. Diphtonges</a></li>
+<li><a href="#orge0b3029">4.2.1. Consonnes</a></li>
+<li><a href="#org91f7cc8">4.2.2. Voyelles</a></li>
+<li><a href="#org2158a0a">4.2.3. Diphtonges</a></li>
 </ul>
 </li>
-<li><a href="#orgbe76b21">4.3. Allophonie</a></li>
-<li><a href="#org9744306">4.4. Phonotaxes</a>
+<li><a href="#orgae5b7c1">4.3. Allophonie</a></li>
+<li><a href="#orgb89448c">4.4. Phonotaxes</a>
 <ul>
-<li><a href="#org39f389b">4.4.1. Attaque</a></li>
-<li><a href="#org91e9d4b">4.4.2. Coda</a></li>
-<li><a href="#org77e53ce">4.4.3. Inter-syllabe</a></li>
+<li><a href="#org628f38f">4.4.1. Attaque</a></li>
+<li><a href="#org9f177fd">4.4.2. Coda</a></li>
+<li><a href="#org6f440c6">4.4.3. Inter-syllabe</a></li>
 </ul>
 </li>
-<li><a href="#org403bb6e">4.5. Accentuation</a></li>
+<li><a href="#org99f6e69">4.5. Accentuation</a></li>
 </ul>
 </li>
-<li><a href="#org820337d">5. Morphologie</a>
+<li><a href="#orgade1ab0">5. Morphologie</a>
 <ul>
-<li><a href="#orgffa8838">5.1. Genre</a></li>
-<li><a href="#orga099f66">5.2. Noms</a>
+<li><a href="#org28ea22c">5.1. Genre</a></li>
+<li><a href="#org889acde">5.2. Noms</a>
 <ul>
-<li><a href="#orgd5d203d">5.2.1. Nombre</a></li>
-<li><a href="#org5399878">5.2.2. Déclinaisons</a></li>
-<li><a href="#org93cbd02">5.2.3. Possessif</a></li>
+<li><a href="#org5378f72">5.2.1. Nombre</a></li>
+<li><a href="#org0bb66f1">5.2.2. Déclinaisons</a></li>
+<li><a href="#orgb05c485">5.2.3. Possessif</a></li>
 </ul>
 </li>
-<li><a href="#orgd8ea3b7">5.3. Déterminants</a>
+<li><a href="#org5c21bb4">5.3. Déterminants</a>
 <ul>
-<li><a href="#orgaf7bcdc">5.3.1. Articles définis</a></li>
-<li><a href="#org5aac13a">5.3.2. Déterminants démonstratifs</a></li>
-<li><a href="#orgf0f2b3b">5.3.3. Outils interrogatifs</a></li>
-<li><a href="#orgaab7ac3">5.3.4. Déterminants ordinaux</a></li>
+<li><a href="#org2724013">5.3.1. Articles définis</a></li>
+<li><a href="#orga46d51f">5.3.2. Déterminants démonstratifs</a></li>
+<li><a href="#org36ef0e1">5.3.3. Outils interrogatifs</a></li>
+<li><a href="#orgb25374a">5.3.4. Déterminants ordinaux</a></li>
 </ul>
 </li>
-<li><a href="#org9c6da74">5.4. Adjectifs</a>
+<li><a href="#org977564e">5.4. Adjectifs</a>
 <ul>
-<li><a href="#orgcb7d8ba">5.4.1. Comparatifs</a>
+<li><a href="#orgf0f3bfc">5.4.1. Comparatifs</a>
 <ul>
-<li><a href="#org145633b">5.4.1.1. Mélioratif</a></li>
-<li><a href="#org1405288">5.4.1.2. Péjoratif</a></li>
-<li><a href="#org4d5ca09">5.4.1.3. Superlatifs positifs et négatifs</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org42c3fd6">5.5. Pronoms</a></li>
-<li><a href="#org6113ff9">5.6. Pronoms relatifs</a></li>
-<li><a href="#org150b234">5.7. Verbes</a>
-<ul>
-<li><a href="#orgf5b7ce8">5.7.1. Temps</a></li>
-<li><a href="#org1abf468">5.7.2. Aspects</a></li>
-<li><a href="#org1a807c8">5.7.3. Modes</a>
-<ul>
-<li><a href="#org6feb5ca">5.7.3.1. Infinitif</a></li>
-<li><a href="#org998e4ae">5.7.3.2. Impératif</a></li>
-<li><a href="#org9019d93">5.7.3.3. Jussif</a></li>
-<li><a href="#org058f7c8">5.7.3.4. Participes</a></li>
-</ul>
-</li>
-<li><a href="#org7a62aca">5.7.4. Verbe être &lt;o ber&gt;</a>
-<ul>
-<li><a href="#org570008f">5.7.4.1. Perfectif</a></li>
-<li><a href="#orgab00bfa">5.7.4.2. Imperfectif</a></li>
-<li><a href="#org1a9ba72">5.7.4.3. Participe</a></li>
-</ul>
-</li>
-<li><a href="#org93baf06">5.7.5. Verbe avoir &lt;o hab&gt;</a>
-<ul>
-<li><a href="#org0708b5b">5.7.5.1. Perfectif</a></li>
-<li><a href="#org89bc3c8">5.7.5.2. Imperfectif</a></li>
-<li><a href="#orgaea6c8c">5.7.5.3. Participe</a></li>
-</ul>
-</li>
-<li><a href="#org9f9bf48">5.7.6. Verbe faire &lt;o gjer&gt;</a>
-<ul>
-<li><a href="#org45f09d8">5.7.6.1. Perfectif</a></li>
-<li><a href="#org5dcb66f">5.7.6.2. Imperfectif</a></li>
-<li><a href="#orgc249dcf">5.7.6.3. Participe</a></li>
-<li><a href="#orgdf8b815">5.7.6.4. Impératif</a></li>
-<li><a href="#org063bab5">5.7.6.5. Jussif</a></li>
+<li><a href="#org44a9ca4">5.4.1.1. Mélioratif</a></li>
+<li><a href="#orgef99054">5.4.1.2. Péjoratif</a></li>
+<li><a href="#orgb596a7e">5.4.1.3. Superlatifs positifs et négatifs</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orge4f248f">5.8. Adverbes</a></li>
-<li><a href="#orgc0a7da9">5.9. Prépositions</a></li>
-<li><a href="#orgbeea530">5.10. Nominalisation</a>
+<li><a href="#orgb2dd48b">5.5. Pronoms</a></li>
+<li><a href="#org15edab7">5.6. Pronoms relatifs</a></li>
+<li><a href="#org37c0866">5.7. Verbes</a>
 <ul>
-<li><a href="#orgc504ad5">5.10.1. Acteur <b>-ear</b></a></li>
-<li><a href="#orgd63b9ec">5.10.2. Acte <b>-yri</b></a></li>
-<li><a href="#org78daf05">5.10.3. Nominalisation d’adjectifs <b>-enth</b></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org470b378">6. Syntaxe</a>
+<li><a href="#orgeec967c">5.7.1. Temps</a></li>
+<li><a href="#org0c14a13">5.7.2. Aspects</a></li>
+<li><a href="#org829dc41">5.7.3. Modes</a>
 <ul>
-<li><a href="#org110507e">6.1. Groupe nominal</a></li>
-<li><a href="#orgee5a463">6.2. Groupe verbal</a></li>
-<li><a href="#org5dce01d">6.3. Propositions simples</a></li>
-<li><a href="#orgd0b04bd">6.4. Négations</a></li>
-<li><a href="#org94ddb68">6.5. Questions</a></li>
-<li><a href="#orgcf22c63">6.6. Propositions plus complexes</a>
+<li><a href="#orgaca0fa5">5.7.3.1. Infinitif</a></li>
+<li><a href="#orgfe9bc35">5.7.3.2. Impératif</a></li>
+<li><a href="#orga02ce98">5.7.3.3. Jussif</a></li>
+<li><a href="#org77fdb92">5.7.3.4. Participes</a></li>
+</ul>
+</li>
+<li><a href="#org8bdb970">5.7.4. Verbe être &lt;o ber&gt;</a>
 <ul>
-<li><a href="#orgee84c67">6.6.1. Clauses relatives</a></li>
+<li><a href="#orga205080">5.7.4.1. Perfectif</a></li>
+<li><a href="#org477ebbd">5.7.4.2. Imperfectif</a></li>
+<li><a href="#org9148533">5.7.4.3. Participe</a></li>
 </ul>
 </li>
-<li><a href="#orgb34f0c0">6.7. Conjonctions et Coordination de propositions</a></li>
-</ul>
-</li>
-<li><a href="#org7c0501c">7. Morphosyntaxe</a>
+<li><a href="#orge7e5390">5.7.5. Verbe avoir &lt;o hab&gt;</a>
 <ul>
-<li><a href="#orga71118c">7.1. Citation</a></li>
+<li><a href="#orge8bdc84">5.7.5.1. Perfectif</a></li>
+<li><a href="#org006b6e2">5.7.5.2. Imperfectif</a></li>
+<li><a href="#org956fcdd">5.7.5.3. Participe</a></li>
 </ul>
 </li>
-<li><a href="#org8e54281">8. Sémantiques</a></li>
-<li><a href="#org0040d7a">9. Pragmatique</a></li>
-<li><a href="#org2743153">10. Phraséologie</a></li>
-<li><a href="#org2a43dff">11. Synchronie et diachronie</a></li>
-<li><a href="#org1fa6da4">12. Nombres</a></li>
-<li><a href="#org92a8403">13. Système d’écriture</a></li>
-<li><a href="#org1a6463b">14. Glossaire</a>
+<li><a href="#org601fdd1">5.7.6. Verbe faire &lt;o gjer&gt;</a>
 <ul>
-<li><a href="#org825b60d">14.1. Actions physiques</a></li>
-<li><a href="#orgd5ef10f">14.2. Amour</a></li>
-<li><a href="#orgc2389ab">14.3. Animaux</a></li>
-<li><a href="#org39d0925">14.4. Art</a>
+<li><a href="#org70838dd">5.7.6.1. Perfectif</a></li>
+<li><a href="#org26b4e41">5.7.6.2. Imperfectif</a></li>
+<li><a href="#org5dcf302">5.7.6.3. Participe</a></li>
+<li><a href="#orgb5821cd">5.7.6.4. Impératif</a></li>
+<li><a href="#org95c37bb">5.7.6.5. Jussif</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org82e178b">5.8. Adverbes</a></li>
+<li><a href="#org216e02e">5.9. Prépositions</a></li>
+<li><a href="#orgde834ac">5.10. Nominalisation</a>
 <ul>
-<li><a href="#org27fdd84">14.4.1. Écriture</a></li>
+<li><a href="#orgc63d68d">5.10.1. Acteur <b>-ear</b></a></li>
+<li><a href="#orgbf40b4a">5.10.2. Acte <b>-yri</b></a></li>
+<li><a href="#orgbfe0a71">5.10.3. Nominalisation d’adjectifs <b>-ens</b></a></li>
 </ul>
 </li>
-<li><a href="#org3ac0831">14.5. Astronomie</a></li>
-<li><a href="#orgcab5801">14.6. Bâtiments</a>
+</ul>
+</li>
+<li><a href="#org8b36167">6. Syntaxe</a>
 <ul>
-<li><a href="#org3c4338b">14.6.1. La ville</a></li>
-<li><a href="#org22ecea0">14.6.2. Les types de bâtiments</a></li>
-</ul>
-</li>
-<li><a href="#org66fdc0a">14.7. Commerce</a></li>
-<li><a href="#org7ebe9ee">14.8. Conflits</a></li>
-<li><a href="#org987c5a1">14.9. Conteneurs</a></li>
-<li><a href="#org3b68edb">14.10. Corps</a></li>
-<li><a href="#org8e6b158">14.11. Couleurs</a></li>
-<li><a href="#orgaa823bf">14.12. Dimensions</a>
+<li><a href="#orgdc7d0e0">6.1. Groupe nominal</a></li>
+<li><a href="#org7a6c9e6">6.2. Groupe verbal</a></li>
+<li><a href="#org737c380">6.3. Propositions simples</a></li>
+<li><a href="#orgb840dc5">6.4. Négations</a></li>
+<li><a href="#org92b64f6">6.5. Questions</a></li>
+<li><a href="#orgf295a56">6.6. Propositions plus complexes</a>
 <ul>
-<li><a href="#org5a769fc">14.12.1. Taille</a></li>
-<li><a href="#org3827d39">14.12.2. Quantifieurs</a></li>
+<li><a href="#org6008525">6.6.1. Clauses relatives</a></li>
 </ul>
 </li>
-<li><a href="#org73a4a59">14.13. Direction</a></li>
-<li><a href="#org1226a4f">14.14. Eau</a></li>
-<li><a href="#org737d2b5">14.15. Effort</a></li>
-<li><a href="#org85dbc74">14.16. Éléments</a></li>
-<li><a href="#org4063eb1">14.17. Émotions</a></li>
-<li><a href="#org7ff92cf">14.18. Évaluation</a></li>
-<li><a href="#org8cb5daa">14.19. Événements</a></li>
-<li><a href="#org0d9b323">14.20. Existence</a></li>
-<li><a href="#org1042b43">14.21. Famille</a></li>
-<li><a href="#org4dc84c4">14.22. Forme</a></li>
-<li><a href="#orgdc636a8">14.23. Gouvernement</a></li>
-<li><a href="#orgc890da5">14.24. Grammaire</a>
+<li><a href="#org0de3bc5">6.7. Conjonctions et Coordination de propositions</a></li>
+</ul>
+</li>
+<li><a href="#orgda94755">7. Morphosyntaxe</a>
 <ul>
-<li><a href="#orgb7813f9">14.24.1. Conjonctions</a></li>
-<li><a href="#orga2db227">14.24.2. Prépositions</a></li>
+<li><a href="#orgd0d3760">7.1. Citation</a></li>
 </ul>
 </li>
-<li><a href="#org1eece48">14.25. Guerre</a></li>
-<li><a href="#orgd2f8ec9">14.26. Légal</a></li>
-<li><a href="#orgdf881f7">14.27. Lieux</a></li>
-<li><a href="#orgc1ed9f7">14.28. Lumière</a></li>
-<li><a href="#orgd47b56f">14.29. Mental</a></li>
-<li><a href="#orgf162cac">14.30. Mesures</a></li>
-<li><a href="#org151f9b8">14.31. Métaux</a></li>
-<li><a href="#orgd818b86">14.32. Mouvements</a></li>
-<li><a href="#org3c5538a">14.33. Nature</a></li>
-<li><a href="#org34b529e">14.34. Nombres</a>
+<li><a href="#org87bab61">8. Sémantiques</a></li>
+<li><a href="#org7a4b188">9. Pragmatique</a></li>
+<li><a href="#orga39123c">10. Phraséologie</a></li>
+<li><a href="#org8e2d3b9">11. Synchronie et diachronie</a></li>
+<li><a href="#orgf93bdbc">12. Nombres</a></li>
+<li><a href="#org3345aef">13. Système d’écriture</a></li>
+<li><a href="#org9549ff2">14. Glossaire</a>
 <ul>
-<li><a href="#org75d9ffe">14.34.1. Nombres cardinaux</a></li>
-</ul>
-</li>
-<li><a href="#org451c967">14.35. Nourriture</a></li>
-<li><a href="#orgd45656d">14.36. Outils</a></li>
-<li><a href="#orgc025c3c">14.37. Parole</a></li>
-<li><a href="#orgfe67132">14.38. Péchés</a></li>
-<li><a href="#orgbe8e76b">14.39. Physique</a></li>
-<li><a href="#orgbd505eb">14.40. Possession</a></li>
-<li><a href="#orgaec27f9">14.41. Religion</a></li>
-<li><a href="#org7d095b0">14.42. Savoir</a></li>
-<li><a href="#org77ed0bb">14.43. Sensations</a></li>
-<li><a href="#orgf0cdd5d">14.44. Sexe</a></li>
-<li><a href="#org45b6a07">14.45. Société</a>
+<li><a href="#orgaf2d2e1">14.1. Actions physiques</a></li>
+<li><a href="#org0b230be">14.2. Amour</a></li>
+<li><a href="#orgc285ad2">14.3. Animaux</a></li>
+<li><a href="#org77429d9">14.4. Art</a>
 <ul>
-<li><a href="#orgead282a">14.45.1. Relations sociales</a></li>
+<li><a href="#org081272e">14.4.1. Écriture</a></li>
 </ul>
 </li>
-<li><a href="#org0eb738b">14.46. Substances</a></li>
-<li><a href="#org831083e">14.47. Temps</a></li>
-<li><a href="#org813f42b">14.48. Travail</a></li>
-<li><a href="#org3182cd6">14.49. Végétaux</a>
+<li><a href="#orgcf2af0c">14.5. Astronomie</a></li>
+<li><a href="#org84153ab">14.6. Bâtiments</a>
 <ul>
-<li><a href="#org6224115">14.49.1. Fruits</a></li>
+<li><a href="#org86f3638">14.6.1. La ville</a></li>
+<li><a href="#org07e5dd2">14.6.2. Les types de bâtiments</a></li>
 </ul>
 </li>
-<li><a href="#org4066694">14.50. Vêtements</a></li>
-<li><a href="#org46b6de0">14.51. Vie et santé</a></li>
-<li><a href="#org0fd3ddf">14.52. À trier</a></li>
+<li><a href="#orga052316">14.7. Commerce</a></li>
+<li><a href="#org4d0915c">14.8. Conflits</a></li>
+<li><a href="#orgbb6b684">14.9. Conteneurs</a></li>
+<li><a href="#org36fc763">14.10. Corps</a></li>
+<li><a href="#orgc2a8f48">14.11. Couleurs</a></li>
+<li><a href="#orga34fb15">14.12. Dimensions</a>
+<ul>
+<li><a href="#orge3bd78f">14.12.1. Taille</a></li>
+<li><a href="#org9b74375">14.12.2. Quantifieurs</a></li>
 </ul>
 </li>
-<li><a href="#org58d42ba">15. Annexes</a></li>
+<li><a href="#org2c76c36">14.13. Direction</a></li>
+<li><a href="#org9e0d8f6">14.14. Eau</a></li>
+<li><a href="#orgecea7c1">14.15. Effort</a></li>
+<li><a href="#orgb659788">14.16. Éléments</a></li>
+<li><a href="#org929942f">14.17. Émotions</a></li>
+<li><a href="#orgd07e907">14.18. Évaluation</a></li>
+<li><a href="#org3f4e43f">14.19. Événements</a></li>
+<li><a href="#org0c6039f">14.20. Existence</a></li>
+<li><a href="#orgb1d1d33">14.21. Famille</a></li>
+<li><a href="#org4b7b00f">14.22. Forme</a></li>
+<li><a href="#org18f998d">14.23. Gouvernement</a></li>
+<li><a href="#org343f494">14.24. Grammaire</a>
+<ul>
+<li><a href="#org8dc4929">14.24.1. Conjonctions</a></li>
+<li><a href="#org02e16a9">14.24.2. Prépositions</a></li>
+</ul>
+</li>
+<li><a href="#orgbaceb38">14.25. Guerre</a></li>
+<li><a href="#org497a289">14.26. Légal</a></li>
+<li><a href="#org763da43">14.27. Lieux</a></li>
+<li><a href="#orgd6a1b5a">14.28. Lumière</a></li>
+<li><a href="#org24fce76">14.29. Mental</a></li>
+<li><a href="#org4d911c1">14.30. Mesures</a></li>
+<li><a href="#org7364fd4">14.31. Métaux</a></li>
+<li><a href="#org85bc4e0">14.32. Mouvements</a></li>
+<li><a href="#orge0f199e">14.33. Nature</a></li>
+<li><a href="#org0036cce">14.34. Nombres</a>
+<ul>
+<li><a href="#orgfaa57f6">14.34.1. Nombres cardinaux</a></li>
+</ul>
+</li>
+<li><a href="#org5a383ef">14.35. Nourriture</a></li>
+<li><a href="#org9cbdde6">14.36. Outils</a></li>
+<li><a href="#org89e5ba5">14.37. Parole</a></li>
+<li><a href="#org41a97b0">14.38. Péchés</a></li>
+<li><a href="#orgc488c9c">14.39. Physique</a></li>
+<li><a href="#org0f95d48">14.40. Possession</a></li>
+<li><a href="#orgc2fcd94">14.41. Religion</a></li>
+<li><a href="#org5c20a64">14.42. Savoir</a></li>
+<li><a href="#org8cf1a0e">14.43. Sensations</a></li>
+<li><a href="#org128f269">14.44. Sexe</a></li>
+<li><a href="#org67b02b1">14.45. Société</a>
+<ul>
+<li><a href="#org7b61f8c">14.45.1. Relations sociales</a></li>
+</ul>
+</li>
+<li><a href="#orga68f4fc">14.46. Substances</a></li>
+<li><a href="#orge7288e9">14.47. Temps</a></li>
+<li><a href="#org9e13990">14.48. Travail</a></li>
+<li><a href="#org3c7e574">14.49. Végétaux</a>
+<ul>
+<li><a href="#org701be63">14.49.1. Fruits</a></li>
+</ul>
+</li>
+<li><a href="#org1e4f193">14.50. Vêtements</a></li>
+<li><a href="#orgf0d8f8d">14.51. Vie et santé</a></li>
+<li><a href="#orge39e894">14.52. À trier</a></li>
+</ul>
+</li>
+<li><a href="#org0e65178">15. Annexes</a></li>
 </ul>
 </div>
 </div>
@@ -474,27 +487,31 @@ for the JavaScript code in this tag.
 
 </p>
 
-<div id="outline-container-orgd23c425" class="outline-2">
-<h2 id="orgd23c425"><span class="section-number-2">1</span> Avant-propos</h2>
+<div id="outline-container-orga3724c8" class="outline-2">
+<h2 id="orga3724c8"><span class="section-number-2">1</span> Avant-propos</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse <a href="https://langue.phundrak.fr/matter/">https://langue.phundrak.fr/matter/</a> et au format PDF à l’adresse <a href="https://langue.phundrak.fr/matter/matter.pdf">https://langue.phundrak.fr/matter/matter.pdf</a>. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, <a href="https://phundrak.fr">https://phundrak.fr</a>. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
 </p>
 
 <p>
+<code>Dernière mise à jour le 19/03/19 à 00:06</code>
+</p>
+
+<p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org7b3c588" class="outline-2">
-<h2 id="org7b3c588"><span class="section-number-2">2</span> Introduction</h2>
+<div id="outline-container-org290557e" class="outline-2">
+<h2 id="org290557e"><span class="section-number-2">2</span> Introduction</h2>
 <div class="outline-text-2" id="text-2">
 <p>
-Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique.
+Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique. Le Mattér est une langue principalement agglutinative à tendance majoritaire aux suffixes, avec comme exception les verbes qui ont une tendance principalement fusionelle. Cette langue est également une langue marquant les phrases adpositionnelles plutôt que ses adpositions.
 </p>
 
 <p>
-Cette langue est un projet à part de mon univers littéraire et fut créé dans le cadre de mes études, pour mon cours d’ingénierie des langues, enseigné par Ana Pappa, en troisième année de licence, à l’Université Paris 8. Je ne sais pas encore si j’en ferai autre chose que d’une langue-jouet.
+Cette langue est un projet à part de mon univers littéraire et fut créé dans le cadre de mes études, pour mon cours d’ingénierie des langues, enseigné par Anna Pappa, en troisième année de licence, à l’Université Paris 8. Je ne sais pas encore si j’en ferai autre chose que d’une langue-jouet.
 </p>
 
 <p>
@@ -502,8 +519,8 @@ Cette langue est un projet à part de mon univers littéraire et fut créé dans
 </p>
 </div>
 </div>
-<div id="outline-container-orgbbb9c0d" class="outline-2">
-<h2 id="orgbbb9c0d"><span class="section-number-2">3</span> Description du lexique</h2>
+<div id="outline-container-orgd786b31" class="outline-2">
+<h2 id="orgd786b31"><span class="section-number-2">3</span> Description du lexique</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 Le lexique du Mattér sera largement inspiré par des racines nordiques (Suédois, Norvégien, Danois), germaniques (Allemand principalement) et du Vieil Anglais, ainsi qu’occasionellement du Latin.
@@ -514,36 +531,36 @@ Le lexique du Mattér sera largement inspiré par des racines nordiques (Suédoi
 </p>
 </div>
 </div>
-<div id="outline-container-orgb6803ce" class="outline-2">
-<h2 id="orgb6803ce"><span class="section-number-2">4</span> Phonologie</h2>
+<div id="outline-container-orgc2f0b4b" class="outline-2">
+<h2 id="orgc2f0b4b"><span class="section-number-2">4</span> Phonologie</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgd0209f8" class="outline-3">
-<h3 id="orgd0209f8"><span class="section-number-3">4.1</span> Notes sur la romanisation du Mattér</h3>
+<div id="outline-container-orgfe60e45" class="outline-3">
+<h3 id="orgfe60e45"><span class="section-number-3">4.1</span> Notes sur la romanisation du Mattér</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
-Comme vous avez pu vous en rendre compte aux chapitres §<a href="#org2d98ea6">4.2.1</a> et §<a href="#org66bb3ad">4.2.2</a>, le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (<i>International Phonetic Alphabet</i>), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§<a href="#orgbe76b21">4.3</a>) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique générale, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique rapprochée sera nécessaire pour avoir la prononciation exacte.
+Comme vous avez pu vous en rendre compte aux chapitres §<a href="#orge0b3029">4.2.1</a> et §<a href="#org91f7cc8">4.2.2</a>, le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (<i>International Phonetic Alphabet</i>), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§<a href="#orgae5b7c1">4.3</a>) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique générale, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique rapprochée sera nécessaire pour avoir la prononciation exacte.
 </p>
 
 <p>
-La transcription phonétique générale sera ​/entre barres obliques/, la transcription phonétique rapprochée sera [entre crochets] tandis que des éléments translittérés du Mattér seront &lt;entre chevrons&gt;.
+La transcription phonétique générale sera ​<i>entre barres obliques</i>, la transcription phonétique rapprochée sera [entre crochets] tandis que des éléments translittérés du Mattér seront &lt;entre chevrons&gt;.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgbb681ec" class="outline-3">
-<h3 id="orgbb681ec"><span class="section-number-3">4.2</span> Inventaire phonétique</h3>
+<div id="outline-container-orga23889a" class="outline-3">
+<h3 id="orga23889a"><span class="section-number-3">4.2</span> Inventaire phonétique</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
-Comme mentionné en introduction (§<a href="#org7b3c588">2</a>), le Mattér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
+Comme mentionné en introduction (§<a href="#org290557e">2</a>), le Mattér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
 </p>
 </div>
 
-<div id="outline-container-org2d98ea6" class="outline-4">
-<h4 id="org2d98ea6"><span class="section-number-4">4.2.1</span> Consonnes</h4>
+<div id="outline-container-orge0b3029" class="outline-4">
+<h4 id="orge0b3029"><span class="section-number-4">4.2.1</span> Consonnes</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <p>
-Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §<a href="#orgd0209f8">4.1</a> concernant la translittération).
+Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §<a href="#orgfe60e45">4.1</a> concernant la translittération).
 </p>
 
 <table>
@@ -614,7 +631,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 <td class="org-left">t d</td>
 <td class="org-left">θ ð</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">r</td>
+<td class="org-left">ɾ</td>
 <td class="org-left">l</td>
 </tr>
 
@@ -726,7 +743,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 <td class="org-left">alvéolaire</td>
 <td class="org-left">n</td>
 <td class="org-left">t d</td>
-<td class="org-left">th dh</td>
+<td class="org-left">s z</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">r</td>
 <td class="org-left">l</td>
@@ -794,22 +811,22 @@ Voici ci-dessous une description individuelle de chaque consonne :
 <dt>m</dt><dd>Il s’agit du même &lt;m&gt; que le &lt;m&gt; standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].</dd>
 <dt>n</dt><dd>Il s’agit du &lt;n&gt; standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le &lt;n&gt; français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].</dd>
 <dt>p</dt><dd>Il s’agit du &lt;p&gt; non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].</dd>
-<dt>r</dt><dd>Ce &lt;r&gt; peut être retrouvé en Scots « bricht » [brɪçt], en Espagnol « perro » [pe̞ro̞] ou encore en Portugais avec « ratu » [rato]. Il s’agit d’une consonne alvéolaire roulée voisée [r].</dd>
+<dt>r</dt><dd>Ce &lt;r&gt; peut être retrouvé en Espagnol « caro » [ˈkaɾo̞], en Catalan « mira » [ˈmiɾə] ou encore en Anglais  dans « three » [θɾiː]. Il s’agit d’une consonne alvéolaire roulée voisée [ɾ]. Par convention, on notera phonétiquement le [ɾ] par un [r].</dd>
+<dt>s</dt><dd>Attention, il ne s’agit pas de l’équivalent du &lt;s&gt; français ! Il s’agit de la contrepartie sourde de &lt;z&gt; qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].</dd>
 <dt>t</dt><dd>Ce &lt;t&gt; est la contrepartie voisée de &lt;d&gt; et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le &lt;t&gt; Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le &lt;t&gt; du Hjelp est la consonne occlusive alvéolaire sourde [t].</dd>
 <dt>v</dt><dd>Le &lt;v&gt; du Hjelp peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].</dd>
 <dt>w</dt><dd>Le &lt;w&gt; est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].</dd>
-<dt>dh</dt><dd>Cette consonne &lt;th&gt; peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].</dd>
-<dt>th</dt><dd>Il s’agit de la contrepartie sourde de &lt;dh&gt; qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].</dd>
+<dt>z</dt><dd>Attention, il ne s’agit pas de l’équivalent du &lt;z&gt; français ! Cette consonne &lt;z&gt; peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].</dd>
 </dl>
 
 <p>
-Les consonnes nasales, occlusives ainsi que le ​/l/ peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le &lt;tt&gt; de &lt;Mattér&gt; sera prononcé ​/tː/, et &lt;Mattér&gt; sera prononcé ​/'mat:er/.
+Les consonnes nasales, occlusives ainsi que le ​<i>l</i> peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le &lt;tt&gt; de &lt;Mattér&gt; sera prononcé ​<i>tː</i>, et &lt;Mattér&gt; sera prononcé ​<i>'mat:er</i>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org66bb3ad" class="outline-4">
-<h4 id="org66bb3ad"><span class="section-number-4">4.2.2</span> Voyelles</h4>
+<div id="outline-container-org91f7cc8" class="outline-4">
+<h4 id="org91f7cc8"><span class="section-number-4">4.2.2</span> Voyelles</h4>
 <div class="outline-text-4" id="text-4-2-2">
 <p>
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
@@ -825,11 +842,14 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 <col  class="org-left">
 
 <col  class="org-left">
+
+<col  class="org-left">
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">antérieures</th>
+<th scope="col" class="org-left">milieu</th>
 <th scope="col" class="org-left">postérieures</th>
 </tr>
 </thead>
@@ -837,12 +857,14 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 <tr>
 <td class="org-left">fermées</td>
 <td class="org-left">i / y</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">u</td>
 </tr>
 
 <tr>
 <td class="org-left">mi-fermées</td>
 <td class="org-left">e</td>
+<td class="org-left">[ə]</td>
 <td class="org-left">o</td>
 </tr>
 
@@ -850,11 +872,13 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 <td class="org-left">mi-ouvertes</td>
 <td class="org-left">ɛ</td>
 <td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-left">ouvertes</td>
 <td class="org-left">a</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
@@ -907,7 +931,7 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 </table>
 
 <p>
-Les voyelles du Mattér montrent une plus grande complexité parmi les voyelles antérieures et les voyelles fermées.
+On peut constater que le Mattér est une langue disposant d’une complexité modeste concernant ses cinq voyelles antérieures et d’une simplicité apparente concernant ses deux voyelles postérieures. On notera également que le ​<i>ə</i> est noté entre crochets du fait de sa situation en Mattér en tant qu’allophone (voir le chapitre §<a href="#orgae5b7c1">4.3</a>) et jamais en tant que voyelle existant par elle-même. Cela implique également son absence du tableau de translittération.
 </p>
 
 <p>
@@ -921,15 +945,16 @@ Voici ci-dessous la description de chacune de ces voyelles :
 <dt>o</dt><dd>Il s’agit de la voyelle postérieure mi-fermée longue arrondie [o] que l’on peut retrouver dans « hôtel » [o.tɛl].</dd>
 <dt>u</dt><dd>On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs] ou en Français dans « tout » [t̪u]. Il s’agit de la voyelle postérieure fermée arrondie [u].</dd>
 <dt>y</dt><dd>On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ], en Hongrois avec « tű » [t̪yː] ou tout simplement en Français dans « lune » [lyn]. Il s’agit de la voyelle antérieure fermée arrondie [y].</dd>
+<dt>​<i>ə</i></dt><dd>Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-orgd437ff6" class="outline-4">
-<h4 id="orgd437ff6"><span class="section-number-4">4.2.3</span> Diphtonges</h4>
+<div id="outline-container-org2158a0a" class="outline-4">
+<h4 id="org2158a0a"><span class="section-number-4">4.2.3</span> Diphtonges</h4>
 <div class="outline-text-4" id="text-4-2-3">
 <p>
-Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « ​/I/ » prononcé ​/aɪ/. Voici la liste des diphtongues existant en Hjelp :
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « ​<i>I</i> » prononcé ​<i>aɪ</i>. Voici la liste des diphtongues existant en Hjelp :
 </p>
 
 <table>
@@ -942,57 +967,60 @@ Les diphtongues sont des associations de voyelles considérées dans une langue 
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left">​/ɛi/</td>
-<td class="org-left">​/ai/</td>
+<td class="org-left">​<i>ɛi</i></td>
+<td class="org-left">​<i>ai</i></td>
 </tr>
 
 <tr>
-<td class="org-left">​/ea/</td>
-<td class="org-left">​/ae/</td>
+<td class="org-left">​<i>ea</i></td>
+<td class="org-left">​<i>ae</i></td>
 </tr>
 
 <tr>
-<td class="org-left">​/eu/</td>
-<td class="org-left">​/au/</td>
+<td class="org-left">​<i>eu</i></td>
+<td class="org-left">​<i>au</i></td>
 </tr>
 
 <tr>
-<td class="org-left">​/ou/</td>
+<td class="org-left">​<i>ou</i></td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 
 <p>
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du ​/ɛi/ qui est écrit &lt;ei&gt;. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un &lt;a&gt; après un &lt;e&gt;, la diphtongue &lt;ea&gt; se produira naturellement, comme pour la forme nominative de &lt;teren&gt; (<i>tour</i>) qui devient &lt;tereant&gt; dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du ​<i>ei</i> qui est écrit &lt;ei&gt; et non &lt;éi&gt;. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un &lt;a&gt; après un &lt;e&gt;, la diphtongue &lt;ea&gt; se produira naturellement, comme pour la forme nominative de &lt;teren&gt; (<i>tour</i>) qui devient &lt;tereant&gt; dans sa forme accusative.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgbe76b21" class="outline-3">
-<h3 id="orgbe76b21"><span class="section-number-3">4.3</span> Allophonie</h3>
+<div id="outline-container-orgae5b7c1" class="outline-3">
+<h3 id="orgae5b7c1"><span class="section-number-3">4.3</span> Allophonie</h3>
 <div class="outline-text-3" id="text-4-3">
 <p>
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
 </p>
 <ul class="org-ul">
-<li>Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/, selon le locuteur. Exemple : &lt;neich&gt; ​/nɛiç/ [nɛɪç]</li>
-<li>S’il est suivi d’une voyelle dans le même mot, le ​/i/ se transorme en la semi-consonne ​/j/.</li>
-<li>Le ​/l/ se transforme en « &lt;l&gt; sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : &lt;mael&gt; ​/mael/ [maeɫ]</li>
-<li>Le ​/lː/ se prononce ​/ɫː/ dans toutes ses occurences.</li>
-<li>Le ​/h/ se transforme en ​/ç/ s’il est suivi par un ​/j/, un ​/e/ ou un ​/i/. Exemple : &lt;hét&gt; ​/het/ [çet]</li>
-<li>Si un ​/ɛ/ suit un ​/e/, alors le ​/ɛ/ devient un ​/e/.</li>
-<li>Si un ​/e/ suit un ​/ɛ/, alors le ​/e/ devient un ​/ɛ/.</li>
+<li>S’il est suivi d’une voyelle dans le même mot, le ​<i>i</i> se transorme en la semi-consonne ​<i>j</i>. Exemple : Le &lt;ea&gt; de &lt;tereant&gt; est une diphtongue malgré que le &lt;-ant&gt; soit une clitique accolée à &lt;tere&gt;.</li>
+<li>Le ​<i>i</i> peut également se prononcer ​<i>ɪ</i> dans certains cas, comme dans les diphones, devant un ​<i>ç</i>, ​<i>j</i>, ​<i>w</i> ou ​<i>l</i>, selon le locuteur. Exemple : &lt;neich&gt; ​<i>nɛiç</i> [nɛɪç]</li>
+<li>Le ​<i>a</i> non accentué et placé dans une syllabe n’étant pas la dernière d’un mot se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu.</li>
+<li>Si un ​<i>ɛ</i> suit un ​<i>e</i> et vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : &lt;tereém&gt; se prononce [tɛɾreːm]</li>
+<li>Si un ​<i>e</i> suit un ​<i>ɛ</i>, alors le ​<i>e</i> devient un ​<i>ɛ</i>.</li>
+<li>Le ​<i>l</i> se transforme en « &lt;l&gt; sombre » ​<i>ɫ</i> en fin de syllabe, en particulier avant une pause ou un silence. Exemple : &lt;mael&gt; ​<i>mael</i> [maeɫ]</li>
+<li>Le ​<i>lː</i> se prononce ​<i>ɫː</i> dans toutes ses occurences.</li>
+<li>Le ​<i>h</i> se transforme en ​<i>ç</i> s’il est suivi par un ​<i>j</i>, un ​<i>e</i> ou un ​<i>i</i>. Exemple : &lt;hét&gt; ​<i>het</i> [çet]</li>
+<li>Si le ​<i>h</i> se trouve entre deux voyelles, il se produira comme un [ɦ].</li>
+<li>Le ​<i>ɾ</i> se prononcera ​<i>r</i> au contact d’une autre consonne, excepté pour ​<i>w</i> et ​<i>j</i>.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org9744306" class="outline-3">
-<h3 id="org9744306"><span class="section-number-3">4.4</span> Phonotaxes</h3>
+<div id="outline-container-orgb89448c" class="outline-3">
+<h3 id="orgb89448c"><span class="section-number-3">4.4</span> Phonotaxes</h3>
 <div class="outline-text-3" id="text-4-4">
 <p>
-Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que &lt;jchkwufrwt&gt; ou &lt;nkwej&gt; ne sont pas possibles tandis que des mots tels que &lt;éljond&gt; ou &lt;yndest&gt; le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§<a href="#orgd437ff6">4.2.3</a>) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
+Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que &lt;jchkwufrwt&gt; ou &lt;nkwej&gt; ne sont pas possibles tandis que des mots tels que &lt;éljond&gt; ou &lt;yndest&gt; le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§<a href="#org2158a0a">4.2.3</a>) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
 </p>
 
 <p>
@@ -1000,64 +1028,65 @@ Concernant les consonnes, différentes règles s’appliquent selon la situation
 </p>
 </div>
 
-<div id="outline-container-org39f389b" class="outline-4">
-<h4 id="org39f389b"><span class="section-number-4">4.4.1</span> Attaque</h4>
+<div id="outline-container-org628f38f" class="outline-4">
+<h4 id="org628f38f"><span class="section-number-4">4.4.1</span> Attaque</h4>
 <div class="outline-text-4" id="text-4-4-1">
 <p>
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter d’aucune consonne à deux consonnes ne contenant pas de semi-voyelle, trois avec une semi-voyelle comme consonne finale.
 </p>
 <ul class="org-ul">
-<li>Le ​/j/ ne peut être suivi par un ​/i/.</li>
-<li>Le ​/w/ ne peut être suivi par une voyelle postérieure.</li>
-<li>Les fricatives et occlusives peuvent être suivies par un ​/r/ ou un ​/l/, ou par une semi-voyelle.</li>
-<li>Les fricatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.</li>
-<li>Le ​/ç/ ne peut être suivi par une occlusive voisée.</li>
-<li>Le ​/h/ ne peut être suivi que par un ​/j/ ou un ​/w/ et ne peut pas suivre une autre consonne.</li>
+<li>Le ​<i>j</i> ne peut être suivi par un ​<i>i</i>.</li>
+<li>Le ​<i>w</i> ne peut être suivi par une voyelle postérieure.</li>
+<li>Les fricatives et occlusives peuvent être suivies par un ​<i>r</i> ou un ​<i>l</i>, ou par une semi-voyelle.</li>
+<li>Les fricatives peuvent être suivies par une occlusive, par un ​<i>r</i> ou un ​<i>l</i>.</li>
+<li>Le ​<i>ç</i> ne peut être suivi par une occlusive voisée.</li>
+<li>Le ​<i>h</i> ne peut être suivi que par un ​<i>j</i> ou un ​<i>w</i> et ne peut pas suivre une autre consonne.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org91e9d4b" class="outline-4">
-<h4 id="org91e9d4b"><span class="section-number-4">4.4.2</span> Coda</h4>
+<div id="outline-container-org9f177fd" class="outline-4">
+<h4 id="org9f177fd"><span class="section-number-4">4.4.2</span> Coda</h4>
 <div class="outline-text-4" id="text-4-4-2">
 <p>
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
 </p>
 <ul class="org-ul">
-<li>Les semi-consonnes ​/j/ et ​/w/ ne peuvent se situer dans le coda.</li>
-<li>Les consonnes ​/r/ et ​/l/ peuvent être suivies par une consonne nasale, occlusive ou fricative.</li>
+<li>Les semi-consonnes ​<i>j</i> et ​<i>w</i> ne peuvent se situer dans le coda.</li>
+<li>Les consonnes ​<i>r</i> et ​<i>l</i> peuvent être suivies par une consonne nasale, occlusive ou fricative.</li>
 <li>Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.</li>
 <li>Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.</li>
 <li>Les nasales peuvent êtres suivies par une occlusive ou une fricative.</li>
-<li>Les occlusives sourdes peuvent être suivies par un &lt;th&gt;.</li>
-<li>Les occlusives voisées peuvent être suivies par un &lt;dh&gt;.</li>
-<li>Le ​/h/ ne peut pas se situer dans le coda.</li>
+<li>Les occlusives sourdes peuvent être suivies par un &lt;s&gt;.</li>
+<li>Les occlusives voisées peuvent être suivies par un &lt;z&gt;.</li>
+<li>Le ​<i>h</i> ne peut pas se situer dans le coda.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org77e53ce" class="outline-4">
-<h4 id="org77e53ce"><span class="section-number-4">4.4.3</span> Inter-syllabe</h4>
+<div id="outline-container-org6f440c6" class="outline-4">
+<h4 id="org6f440c6"><span class="section-number-4">4.4.3</span> Inter-syllabe</h4>
 <div class="outline-text-4" id="text-4-4-3">
 <p>
 Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
 </p>
 <ul class="org-ul">
-<li>Toutes les règles de l’attaque (§<a href="#org39f389b">4.4.1</a>) sont applicables.</li>
-<li>Les consonnes occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.</li>
+<li>Toutes les règles de l’attaque (§<a href="#org628f38f">4.4.1</a>) sont applicables.</li>
+<li>Les consonnes occlusives peuvent être suivies par une fricative, par un ​<i>r</i> ou un ​<i>l</i>.</li>
 <li>Les consonnes bilabiales peuvent être suivies par des occlusives voisées.</li>
-<li>Le ​​/h/, tel que dans l’attaque, ne peut s’associer qu’avec le ​/j/ ou le ​/w/ qui le suivent.</li>
+<li>Le ​​<i>h</i>, tel que dans l’attaque, ne peut s’associer qu’avec le ​<i>j</i> ou le ​<i>w</i> qui le suivent.</li>
 <li>Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org403bb6e" class="outline-3">
-<h3 id="org403bb6e"><span class="section-number-3">4.5</span> Accentuation</h3>
+<div id="outline-container-org99f6e69" class="outline-3">
+<h3 id="org99f6e69"><span class="section-number-3">4.5</span> Accentuation</h3>
 <div class="outline-text-3" id="text-4-5">
 <p>
-Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de plus de deux syllabes. Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée.
+Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de deux syllabes ou plus : l’accent principal porte sur la première syllabe. Pour les mots de trois syllabes, un accent secondaire, moins important que le premier, portera sur la troisième syllabe, et pour les mots de quatre syllabes ou plus il portera sur l’avant-dernière syllabe.
+Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, une modification supra-segmentale de l’accentuation habituelle s’effectuera : l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée. Cela déplacera également l’accent secondaire sur la première syllabe si le mot contient au moins trois syllabes.
 </p>
 
 <p>
@@ -1066,11 +1095,11 @@ Le Mattér est une langue dont l’accentuation est assez simple à suivre étan
 </div>
 </div>
 </div>
-<div id="outline-container-org820337d" class="outline-2">
-<h2 id="org820337d"><span class="section-number-2">5</span> Morphologie</h2>
+<div id="outline-container-orgade1ab0" class="outline-2">
+<h2 id="orgade1ab0"><span class="section-number-2">5</span> Morphologie</h2>
 <div class="outline-text-2" id="text-5">
 <p>
-La morphologie d’une langue est l’étude de la formation des mots de façon individuelle, de l’aspect et de la modification de ces mots afin de signifier des changements de sens. Pour ce qui est de l’organisation des mots, se référer au chapitre sur la syntaxe (§<a href="#org470b378">6</a>).
+La morphologie d’une langue est l’étude de la formation des mots de façon individuelle, de l’aspect et de la modification de ces mots afin de signifier des changements de sens. Pour ce qui est de l’organisation des mots, se référer au chapitre sur la syntaxe (§<a href="#org8b36167">6</a>).
 </p>
 
 <p>
@@ -1078,8 +1107,8 @@ Le Mattér est une langue à morphologie principalement agglutinatif puis synth�
 </p>
 </div>
 
-<div id="outline-container-orgffa8838" class="outline-3">
-<h3 id="orgffa8838"><span class="section-number-3">5.1</span> Genre</h3>
+<div id="outline-container-org28ea22c" class="outline-3">
+<h3 id="org28ea22c"><span class="section-number-3">5.1</span> Genre</h3>
 <div class="outline-text-3" id="text-5-1">
 <p>
 Ce chapitre sur le genre n’est pas un chapitre de morphologie en soit, mais il est important de connaître les genres en vigueur dans le Mattér afin de pouvoir étudier le reste de sa grammaire.
@@ -1101,8 +1130,8 @@ Ainsi, pour les éléments genrés de la langue, le genre est soit connu, auquel
 </div>
 </div>
 
-<div id="outline-container-orga099f66" class="outline-3">
-<h3 id="orga099f66"><span class="section-number-3">5.2</span> Noms</h3>
+<div id="outline-container-org889acde" class="outline-3">
+<h3 id="org889acde"><span class="section-number-3">5.2</span> Noms</h3>
 <div class="outline-text-3" id="text-5-2">
 <p>
 Les noms en Mattér servent généralement à se référer à des entités, des concepts ou bien des objets. Ils sont composés d’au moins une syllabe à laquelle peuvent s’ajoute des suffixes.
@@ -1139,10 +1168,14 @@ Voici la structure globale d’un nom :
 </tr>
 </tbody>
 </table>
+
+<p>
+Comme on peut le voir ci-dessus, un nom est donc composé au moins de sa racine, à laquelle peuvent s’accoler des clitiques de déclinaison selon le cas grammatical du mot, de possession pour marquer son appartenance à un acteur de la phrase, ainsi que de nombre selon la quantité du nom dont il est question.
+</p>
 </div>
 
-<div id="outline-container-orgd5d203d" class="outline-4">
-<h4 id="orgd5d203d"><span class="section-number-4">5.2.1</span> Nombre</h4>
+<div id="outline-container-org5378f72" class="outline-4">
+<h4 id="org5378f72"><span class="section-number-4">5.2.1</span> Nombre</h4>
 <div class="outline-text-4" id="text-5-2-1">
 <p>
 Le Mattér est une langue comportant trois nombres : le singulier, le paucal et le pluriel.
@@ -1154,7 +1187,7 @@ Le Mattér est une langue comportant trois nombres : le singulier, le paucal et
 </dl>
 
 <p>
-Voici la liste des suffixes du Mattér afin de marquer le nombre :
+Voici la liste des clitiques du Mattér afin de marquer le nombre :
 </p>
 <table>
 <caption class="t-above"><span class="table-number">Tableau 7 :</span> Inflexion des nom en nombres</caption>
@@ -1185,7 +1218,7 @@ Voici la liste des suffixes du Mattér afin de marquer le nombre :
 
 <tr>
 <td class="org-left">pluriel</td>
-<td class="org-left">-(a)th</td>
+<td class="org-left">-(a)s</td>
 </tr>
 </tbody>
 </table>
@@ -1194,7 +1227,7 @@ La voyelle entre parenthèse est omise lorsque le nombre s’accole à un mot se
 </p>
 
 <p>
-Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation respectivement de « peu » et de « beaucoup ». Ainsi, il n’est pas rare pour les locuteurs de cette langue de transgresser la règle de séparation des deux à « 6 » afin de partager un jugement personnel sur la quantité décrite.
+Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation respectivement de « peu » et de « beaucoup ». Ainsi, il n’est pas rare pour les locuteurs de cette langue de transgresser la règle de séparation des deux à six afin de partager un jugement personnel sur la quantité décrite.
 </p>
 
 <p>
@@ -1203,8 +1236,8 @@ Les éléments indénombrables sont au singulier par défaut, mais à nouveau le
 </div>
 </div>
 
-<div id="outline-container-org5399878" class="outline-4">
-<h4 id="org5399878"><span class="section-number-4">5.2.2</span> Déclinaisons</h4>
+<div id="outline-container-org0bb66f1" class="outline-4">
+<h4 id="org0bb66f1"><span class="section-number-4">5.2.2</span> Déclinaisons</h4>
 <div class="outline-text-4" id="text-5-2-2">
 <p>
 Selon son rôle dans la phrase, les noms en Mattér se présentent sous une forme différente via leur déclinaison. Huit déclinaisons existent en Mattér :
@@ -1237,7 +1270,7 @@ Enfin, le vocatif permet de s’adresser à quelqu’un ou quelque chose, en att
 </p>
 
 <p>
-Voici la table des suffixes à ajouter selon la déclinaison du mot :
+Voici la table des clitiques à ajouter selon la déclinaison du mot :
 </p>
 <table>
 <caption class="t-above"><span class="table-number">Tableau 8 :</span> Déclinaison des noms par cas grammaticaux</caption>
@@ -1268,7 +1301,7 @@ Voici la table des suffixes à ajouter selon la déclinaison du mot :
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">-ith</td>
+<td class="org-left">-is</td>
 </tr>
 
 <tr>
@@ -1340,7 +1373,7 @@ Ainsi, &lt;tere&gt; (« tour ») se déclinera ainsi :
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">tereith</td>
+<td class="org-left">tereis</td>
 <td class="org-left">tour (objet indirect)</td>
 </tr>
 
@@ -1415,7 +1448,7 @@ On peut comparer à &lt;velt&gt; (« monde ») qui se déclinera ainsi :
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">veltith</td>
+<td class="org-left">veltis</td>
 <td class="org-left">monde (objet indirect)</td>
 </tr>
 
@@ -1453,11 +1486,11 @@ On peut comparer à &lt;velt&gt; (« monde ») qui se déclinera ainsi :
 </div>
 </div>
 
-<div id="outline-container-org93cbd02" class="outline-4">
-<h4 id="org93cbd02"><span class="section-number-4">5.2.3</span> Possessif</h4>
+<div id="outline-container-orgb05c485" class="outline-4">
+<h4 id="orgb05c485"><span class="section-number-4">5.2.3</span> Possessif</h4>
 <div class="outline-text-4" id="text-5-2-3">
 <p>
-En mattér, il est possible d’indiquer la possession d’une personne du mot auquel est ajouté un possessif. Voici la table des suffixes possessifs du Mattér :
+En mattér, il est possible d’indiquer la possession d’une personne du mot auquel est ajouté un possessif. Voici la table des clitiques possessives du Mattér :
 </p>
 <table>
 <caption class="t-above"><span class="table-number">Tableau 11 :</span> Suffixes possessifs</caption>
@@ -1489,7 +1522,7 @@ En mattér, il est possible d’indiquer la possession d’une personne du mot a
 <tr>
 <td class="org-left">1ère personne</td>
 <td class="org-left">-ych</td>
-<td class="org-left">-yth</td>
+<td class="org-left">-ys</td>
 <td class="org-left">-yn</td>
 </tr>
 
@@ -1504,20 +1537,20 @@ En mattér, il est possible d’indiquer la possession d’une personne du mot a
 <td class="org-left">3ème personne</td>
 <td class="org-left">-én</td>
 <td class="org-left">-an</td>
-<td class="org-left">-eath</td>
+<td class="org-left">-eas</td>
 </tr>
 </tbody>
 </table>
 
 <p>
-Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par « chyn hyth », ou bien « hythyn ». La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
+Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par « chyn hys », ou bien « hysyn ». La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgd8ea3b7" class="outline-3">
-<h3 id="orgd8ea3b7"><span class="section-number-3">5.3</span> Déterminants</h3>
+<div id="outline-container-org5c21bb4" class="outline-3">
+<h3 id="org5c21bb4"><span class="section-number-3">5.3</span> Déterminants</h3>
 <div class="outline-text-3" id="text-5-3">
 <p>
 Le Mattér dispose de quatre catégories de déterminants :
@@ -1530,12 +1563,12 @@ Le Mattér dispose de quatre catégories de déterminants :
 </ul>
 
 <p>
-Les articles indéfinis n’existent pas en Mattér, et les déterminants indéfinis sont considérés comme étant des adjectifs et sont utilisés comme tels. Quant aux déterminants cardinaux, il s’agit simplement des nombres tels que décrits dans le chapitre dédié (§<a href="#org1fa6da4">12</a>).
+Les articles indéfinis n’existent pas en Mattér, et les déterminants indéfinis sont considérés comme étant des adjectifs et sont utilisés comme tels. Quant aux déterminants cardinaux, il s’agit simplement des nombres tels que décrits dans le chapitre dédié (§<a href="#orgf93bdbc">12</a>).
 </p>
 </div>
 
-<div id="outline-container-orgaf7bcdc" class="outline-4">
-<h4 id="orgaf7bcdc"><span class="section-number-4">5.3.1</span> Articles définis</h4>
+<div id="outline-container-org2724013" class="outline-4">
+<h4 id="org2724013"><span class="section-number-4">5.3.1</span> Articles définis</h4>
 <div class="outline-text-4" id="text-5-3-1">
 <p>
 Les articles définis servent à indiquer un élément précis, contrairement à un élément général désigné lors de l’absence d’article défini. Ainsi en Français, on utilise « le », « la » ou « les » comme articles définis. En revanche, le Mattér aura une absence de déterminants là où le Français dispose d’articles indéfinis. Comme on peut le voir ci-dessous, l’article défini s’accorde en genre et en nombre au nom auquel il est attaché.
@@ -1601,7 +1634,7 @@ Les articles définis servent à indiquer un élément précis, contrairement à
 <tr>
 <td class="org-left">pluriel</td>
 <td class="org-left">N,M,F</td>
-<td class="org-left">eth</td>
+<td class="org-left">es</td>
 </tr>
 
 <tr>
@@ -1613,13 +1646,13 @@ Les articles définis servent à indiquer un élément précis, contrairement à
 </table>
 
 <p>
-Ainsi, « la tour » se traduira par &lt;an teren&gt; (au nominatif), « les chats » (peu de chats) se traduira &lt;od cetenet&gt; (genre neutre, paucal), « des villes » (nombreuses) se traduira &lt;el urbyneth&gt;.
+Ainsi, « la tour » se traduira par &lt;an teren&gt; (au nominatif), « les chats » (peu de chats) se traduira &lt;od cetenet&gt; (genre neutre, paucal), « des villes » (nombreuses) se traduira &lt;el urbynes&gt;.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org5aac13a" class="outline-4">
-<h4 id="org5aac13a"><span class="section-number-4">5.3.2</span> Déterminants démonstratifs</h4>
+<div id="outline-container-orga46d51f" class="outline-4">
+<h4 id="orga46d51f"><span class="section-number-4">5.3.2</span> Déterminants démonstratifs</h4>
 <div class="outline-text-4" id="text-5-3-2">
 <p>
 Le déterminant démonstratif du Mattér a une fonction très similaire au déterminant démonstratif du Français, tels que « ce », « cet », « cette » et « ces ». De même que pour les articles définis, ils s’accordent en nombre, mais également selon la distance, allant de visible proche à invisible en passant par visible éloigné.
@@ -1661,7 +1694,7 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 <tr>
 <td class="org-left">proche</td>
 <td class="org-left">pluriel</td>
-<td class="org-left">adh</td>
+<td class="org-left">az</td>
 </tr>
 
 <tr>
@@ -1679,7 +1712,7 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 <tr>
 <td class="org-left">éloigné</td>
 <td class="org-left">pluriel</td>
-<td class="org-left">edh</td>
+<td class="org-left">ez</td>
 </tr>
 
 <tr>
@@ -1697,15 +1730,15 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 <tr>
 <td class="org-left">lointain</td>
 <td class="org-left">pluriel</td>
-<td class="org-left">udh</td>
+<td class="org-left">uz</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
-<div id="outline-container-orgf0f2b3b" class="outline-4">
-<h4 id="orgf0f2b3b"><span class="section-number-4">5.3.3</span> Outils interrogatifs</h4>
+<div id="outline-container-org36ef0e1" class="outline-4">
+<h4 id="org36ef0e1"><span class="section-number-4">5.3.3</span> Outils interrogatifs</h4>
 <div class="outline-text-4" id="text-5-3-3">
 <p>
 Les outils interrogatifs servent à s’enquérir d’une information sur un sujet. Le Mattér dispose des termes suivants :
@@ -1747,7 +1780,7 @@ Les outils interrogatifs servent à s’enquérir d’une information sur un suj
 <tr>
 <td class="org-left">datif</td>
 <td class="org-left">à qui</td>
-<td class="org-left">feth</td>
+<td class="org-left">fes</td>
 </tr>
 
 <tr>
@@ -1783,19 +1816,19 @@ Les outils interrogatifs servent à s’enquérir d’une information sur un suj
 <tr>
 <td class="org-left">temporel</td>
 <td class="org-left">quand</td>
-<td class="org-left">fertidh</td>
+<td class="org-left">fertiz</td>
 </tr>
 
 <tr>
 <td class="org-left">temporel ablatif</td>
 <td class="org-left">depuis quand</td>
-<td class="org-left">fertidhoch</td>
+<td class="org-left">fertizoch</td>
 </tr>
 
 <tr>
 <td class="org-left">temporel limitatif</td>
 <td class="org-left">jusqu’à quand</td>
-<td class="org-left">fertidhac</td>
+<td class="org-left">fertizac</td>
 </tr>
 
 <tr>
@@ -1820,18 +1853,18 @@ Les outils interrogatifs servent à s’enquérir d’une information sur un suj
 </div>
 </div>
 
-<div id="outline-container-orgaab7ac3" class="outline-4">
-<h4 id="orgaab7ac3"><span class="section-number-4">5.3.4</span> Déterminants ordinaux</h4>
+<div id="outline-container-orgb25374a" class="outline-4">
+<h4 id="orgb25374a"><span class="section-number-4">5.3.4</span> Déterminants ordinaux</h4>
 <div class="outline-text-4" id="text-5-3-4">
 <p>
-Comme décrit dans le chapitre §<a href="#orgd8ea3b7">5.3</a>, le Mattér ne dispose pas de déterminants cardinaux, ou plutôt il s’agit simplement du nombre approprié placé à l’emplacement du déterminant tel que défini plus tard dans le chapitre sur la syntaxe approprié (§<a href="#org470b378">6</a>). Dans le cas des nombres cardinaux, il s’agit d’ajouter en suffixe au numéro le terme &lt;norm&gt; auquel un article défini accordé en genre et en nombre est également suffixé. Ainsi, pour le terme « premier » au singulier masculin, nous obtiendrons
+Comme décrit dans le chapitre §<a href="#org5c21bb4">5.3</a>, le Mattér ne dispose pas de déterminants cardinaux, ou plutôt il s’agit simplement du nombre approprié placé à l’emplacement du déterminant tel que défini plus tard dans le chapitre sur la syntaxe approprié (§<a href="#org8b36167">6</a>). Dans le cas des nombres cardinaux, il s’agit d’ajouter en suffixe au numéro le terme &lt;norm&gt; auquel un article défini accordé en genre et en nombre est également suffixé. Ainsi, pour le terme « premier » au singulier masculin, nous obtiendrons
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org9c6da74" class="outline-3">
-<h3 id="org9c6da74"><span class="section-number-3">5.4</span> Adjectifs</h3>
+<div id="outline-container-org977564e" class="outline-3">
+<h3 id="org977564e"><span class="section-number-3">5.4</span> Adjectifs</h3>
 <div class="outline-text-3" id="text-5-4">
 <table>
 
@@ -1857,7 +1890,7 @@ Comme décrit dans le chapitre §<a href="#orgd8ea3b7">5.3</a>, le Mattér ne di
 </table>
 
 <p>
-Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de &lt;raedh&gt; (« rouge ») avec &lt;wachen&gt; (« voiture »).
+Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de &lt;raez&gt; (« rouge ») avec &lt;wachen&gt; (« voiture »).
 </p>
 
 <p>
@@ -1876,42 +1909,42 @@ Singulier :
 <tbody>
 <tr>
 <td class="org-left">nominatif</td>
-<td class="org-left">a raedh wachen</td>
+<td class="org-left">a raez wachen</td>
 </tr>
 
 <tr>
 <td class="org-left">accusatif</td>
-<td class="org-left">a raedhant wachenant</td>
+<td class="org-left">a raezant wachenant</td>
 </tr>
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">a raedhith wachenith</td>
+<td class="org-left">a raezis wachenis</td>
 </tr>
 
 <tr>
 <td class="org-left">locatif</td>
-<td class="org-left">a raedhoch wachenoch</td>
+<td class="org-left">a raezoch wachenoch</td>
 </tr>
 
 <tr>
 <td class="org-left">ablatif</td>
-<td class="org-left">a raedhac wachenac</td>
+<td class="org-left">a raezac wachenac</td>
 </tr>
 
 <tr>
 <td class="org-left">limitatif</td>
-<td class="org-left">a raedhém wacheném</td>
+<td class="org-left">a raezém wacheném</td>
 </tr>
 
 <tr>
 <td class="org-left">génitif</td>
-<td class="org-left">a raedhun wachenun</td>
+<td class="org-left">a raezun wachenun</td>
 </tr>
 
 <tr>
 <td class="org-left">vocatif</td>
-<td class="org-left">a raedhy wacheny</td>
+<td class="org-left">a raezy wacheny</td>
 </tr>
 </tbody>
 </table>
@@ -1932,42 +1965,42 @@ Paucal :
 <tbody>
 <tr>
 <td class="org-left">nominatif</td>
-<td class="org-left">en raedhet wachenet</td>
+<td class="org-left">en raezet wachenet</td>
 </tr>
 
 <tr>
 <td class="org-left">accusatif</td>
-<td class="org-left">en raedhantet wachenantet</td>
+<td class="org-left">en raezantet wachenantet</td>
 </tr>
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">en raedhithet wachenithet</td>
+<td class="org-left">en raeziset wacheniset</td>
 </tr>
 
 <tr>
 <td class="org-left">locatif</td>
-<td class="org-left">en raedhochet wachenochet</td>
+<td class="org-left">en raezochet wachenochet</td>
 </tr>
 
 <tr>
 <td class="org-left">ablatif</td>
-<td class="org-left">en raedhacet wachenacet</td>
+<td class="org-left">en raezacet wachenacet</td>
 </tr>
 
 <tr>
 <td class="org-left">limitatif</td>
-<td class="org-left">en raedhémet wachenémet</td>
+<td class="org-left">en raezémet wachenémet</td>
 </tr>
 
 <tr>
 <td class="org-left">génitif</td>
-<td class="org-left">en raedhunet wachenunet</td>
+<td class="org-left">en raezunet wachenunet</td>
 </tr>
 
 <tr>
 <td class="org-left">vocatif</td>
-<td class="org-left">en raedhyet wachenuet</td>
+<td class="org-left">en raezyet wachenuet</td>
 </tr>
 </tbody>
 </table>
@@ -1988,42 +2021,42 @@ Pluriel :
 <tbody>
 <tr>
 <td class="org-left">nominatif</td>
-<td class="org-left">yt raedheth wacheneth</td>
+<td class="org-left">yt raezes wachenes</td>
 </tr>
 
 <tr>
 <td class="org-left">accusatif</td>
-<td class="org-left">yt raedhanteth wachenanteth</td>
+<td class="org-left">yt raezantes wachenantes</td>
 </tr>
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">yt raedhitheth wachenitheth</td>
+<td class="org-left">yt raezises wachenises</td>
 </tr>
 
 <tr>
 <td class="org-left">locatif</td>
-<td class="org-left">yt raedhocheth wachenocheth</td>
+<td class="org-left">yt raezoches wachenoches</td>
 </tr>
 
 <tr>
 <td class="org-left">ablatif</td>
-<td class="org-left">yt raedhaceth wachenaceth</td>
+<td class="org-left">yt raezaces wachenaces</td>
 </tr>
 
 <tr>
 <td class="org-left">limitatif</td>
-<td class="org-left">yt raedhémeth wachenémeth</td>
+<td class="org-left">yt raezémes wachenémes</td>
 </tr>
 
 <tr>
 <td class="org-left">génitif</td>
-<td class="org-left">yt raedhuneth wachenuneth</td>
+<td class="org-left">yt raezunes wachenunes</td>
 </tr>
 
 <tr>
 <td class="org-left">vocatif</td>
-<td class="org-left">yt raedhyeth wachenyeth</td>
+<td class="org-left">yt raezyes wachenyes</td>
 </tr>
 </tbody>
 </table>
@@ -2033,56 +2066,56 @@ Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en 
 </p>
 
 <p>
-La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil thtorant ficjanant gjea etanand ». On sait que l’adjectif &lt;mekkil&gt; se réfère à &lt;bern&gt; car il n’est pas décliné à l’accusatif, tout comme &lt;thtor&gt; qui se réfère à &lt;ficjan&gt; car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant thtorant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil thtor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§<a href="#org110507e">6.1</a>).
+La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil storant ficjanant gjea etanand ». On sait que l’adjectif &lt;mekkil&gt; se réfère à &lt;bern&gt; car il n’est pas décliné à l’accusatif, tout comme &lt;stor&gt; qui se réfère à &lt;ficjan&gt; car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant storant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil stor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§<a href="#orgdc7d0e0">6.1</a>).
 </p>
 </div>
 
-<div id="outline-container-orgcb7d8ba" class="outline-4">
-<h4 id="orgcb7d8ba"><span class="section-number-4">5.4.1</span> Comparatifs</h4>
+<div id="outline-container-orgf0f3bfc" class="outline-4">
+<h4 id="orgf0f3bfc"><span class="section-number-4">5.4.1</span> Comparatifs</h4>
 <div class="outline-text-4" id="text-5-4-1">
 </div>
-<div id="outline-container-org145633b" class="outline-5">
-<h5 id="org145633b"><span class="section-number-5">5.4.1.1</span> Mélioratif</h5>
+<div id="outline-container-org44a9ca4" class="outline-5">
+<h5 id="org44a9ca4"><span class="section-number-5">5.4.1.1</span> Mélioratif</h5>
 <div class="outline-text-5" id="text-5-4-1-1">
 <p>
-Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe <b>-ere</b>. Ainsi, « cette voiture est plus rapide » se traduira par « an thcortere wachen beith »
+Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe <b>-ere</b>. Ainsi, « cette voiture est plus rapide » se traduira par « an scortere wachen beis »
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1405288" class="outline-5">
-<h5 id="org1405288"><span class="section-number-5">5.4.1.2</span> Péjoratif</h5>
+<div id="outline-container-orgef99054" class="outline-5">
+<h5 id="orgef99054"><span class="section-number-5">5.4.1.2</span> Péjoratif</h5>
 <div class="outline-text-5" id="text-5-4-1-2">
 <p>
-À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe <b>-othe</b>. Ainsi, « cette voiture est moins rapide » se traduira par « an thcortethe wachen beith ».
+À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe <b>-ose</b>. Ainsi, « cette voiture est moins rapide » se traduira par « an scortese wachen beis ».
 </p>
 </div>
 </div>
 
-<div id="outline-container-org4d5ca09" class="outline-5">
-<h5 id="org4d5ca09"><span class="section-number-5">5.4.1.3</span> Superlatifs positifs et négatifs</h5>
+<div id="outline-container-orgb596a7e" class="outline-5">
+<h5 id="orgb596a7e"><span class="section-number-5">5.4.1.3</span> Superlatifs positifs et négatifs</h5>
 <div class="outline-text-5" id="text-5-4-1-3">
 <p>
 Contrairement au mélioratif et au péjoratif qui sont tous deux des moyen comparatifs relatifs à un autre élément, les superlatifs positifs et négatifs se réfèrent à un jugement de valeur sensé être absolu, respectivement le meilleur ou le pire élément.
 </p>
 
 <p>
-Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe <b>-ethte</b>, tandis qu’il faut ajouter le suffixe <b>-orto</b>. Ainsi, « la voiture la plus rapide » se traduira par « an tchortethe wachen beith », et « la voiture la moins rapide se traduira par « an thcortorto wachen beith ».
+Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe <b>-este</b>, tandis qu’il faut ajouter le suffixe <b>-orto</b>. Ainsi, « la voiture la plus rapide » se traduira par « an tchortese wachen beis », et « la voiture la moins rapide se traduira par « an scortorto wachen beis ».
 </p>
 
 <p>
-Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement &lt;bethte&gt; et &lt;borto&gt;.
+Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement &lt;beste&gt; et &lt;borto&gt;.
 </p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org42c3fd6" class="outline-3">
-<h3 id="org42c3fd6"><span class="section-number-3">5.5</span> Pronoms</h3>
+<div id="outline-container-orgb2dd48b" class="outline-3">
+<h3 id="orgb2dd48b"><span class="section-number-3">5.5</span> Pronoms</h3>
 <div class="outline-text-3" id="text-5-5">
 <p>
-Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§<a href="#org5399878">5.2.2</a>). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
+Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§<a href="#org0bb66f1">5.2.2</a>). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 </p>
 
 <ul class="org-ul">
@@ -2124,23 +2157,23 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">singulier</td>
 <td class="org-left">cheg</td>
 <td class="org-left">chent</td>
-<td class="org-left">cheidh</td>
+<td class="org-left">cheiz</td>
 <td class="org-left">chyn</td>
 </tr>
 
 <tr>
 <td class="org-left">paucal</td>
-<td class="org-left">thi</td>
-<td class="org-left">thid</td>
-<td class="org-left">thidh</td>
-<td class="org-left">thyn</td>
+<td class="org-left">si</td>
+<td class="org-left">sid</td>
+<td class="org-left">siz</td>
+<td class="org-left">syn</td>
 </tr>
 
 <tr>
 <td class="org-left">pluriel</td>
 <td class="org-left">non</td>
 <td class="org-left">nound</td>
-<td class="org-left">nonth</td>
+<td class="org-left">nons</td>
 <td class="org-left">nun</td>
 </tr>
 </tbody>
@@ -2190,7 +2223,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">singulier</td>
 <td class="org-left">du</td>
 <td class="org-left">daun</td>
-<td class="org-left">dudh</td>
+<td class="org-left">duz</td>
 <td class="org-left">dyn</td>
 <td class="org-left">udy</td>
 </tr>
@@ -2199,7 +2232,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">paucal</td>
 <td class="org-left">im</td>
 <td class="org-left">eint</td>
-<td class="org-left">dhi</td>
+<td class="org-left">zi</td>
 <td class="org-left">nim</td>
 <td class="org-left">eny</td>
 </tr>
@@ -2208,7 +2241,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">pluriel</td>
 <td class="org-left">min</td>
 <td class="org-left">meint</td>
-<td class="org-left">minth</td>
+<td class="org-left">mins</td>
 <td class="org-left">meun</td>
 <td class="org-left">miny</td>
 </tr>
@@ -2259,7 +2292,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">sg neutre</td>
 <td class="org-left">hé</td>
 <td class="org-left">hét</td>
-<td class="org-left">heth</td>
+<td class="org-left">hes</td>
 <td class="org-left">hén</td>
 <td class="org-left">yhé</td>
 </tr>
@@ -2268,7 +2301,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">sg masculin</td>
 <td class="org-left">hae</td>
 <td class="org-left">haed</td>
-<td class="org-left">haedh</td>
+<td class="org-left">haez</td>
 <td class="org-left">haen</td>
 <td class="org-left">yhae</td>
 </tr>
@@ -2277,7 +2310,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">sg féminin</td>
 <td class="org-left">hou</td>
 <td class="org-left">hound</td>
-<td class="org-left">hudh</td>
+<td class="org-left">huz</td>
 <td class="org-left">houn</td>
 <td class="org-left">yhou</td>
 </tr>
@@ -2286,7 +2319,7 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">sg non-humain</td>
 <td class="org-left">hit</td>
 <td class="org-left">hint</td>
-<td class="org-left">hith</td>
+<td class="org-left">his</td>
 <td class="org-left">him</td>
 <td class="org-left">yhi</td>
 </tr>
@@ -2295,83 +2328,83 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 <td class="org-left">pau neutre</td>
 <td class="org-left">hei</td>
 <td class="org-left">heit</td>
-<td class="org-left">heith</td>
+<td class="org-left">heis</td>
 <td class="org-left">hein</td>
 <td class="org-left">yhei</td>
 </tr>
 
 <tr>
 <td class="org-left">pau masculin</td>
-<td class="org-left">tha</td>
-<td class="org-left">thad</td>
-<td class="org-left">thaidh</td>
-<td class="org-left">than</td>
-<td class="org-left">ytha</td>
+<td class="org-left">sa</td>
+<td class="org-left">sad</td>
+<td class="org-left">saiz</td>
+<td class="org-left">san</td>
+<td class="org-left">ysa</td>
 </tr>
 
 <tr>
 <td class="org-left">pau féminin</td>
-<td class="org-left">thu</td>
-<td class="org-left">thunt</td>
-<td class="org-left">thou</td>
-<td class="org-left">thun</td>
-<td class="org-left">ythu</td>
+<td class="org-left">su</td>
+<td class="org-left">sunt</td>
+<td class="org-left">sou</td>
+<td class="org-left">sun</td>
+<td class="org-left">ysu</td>
 </tr>
 
 <tr>
 <td class="org-left">pau neutre</td>
 <td class="org-left">hou</td>
 <td class="org-left">hot</td>
-<td class="org-left">hoth</td>
-<td class="org-left">dho</td>
-<td class="org-left">ydhou</td>
+<td class="org-left">hos</td>
+<td class="org-left">zo</td>
+<td class="org-left">yzou</td>
 </tr>
 
 <tr>
 <td class="org-left">pl neutre</td>
 <td class="org-left">hea</td>
 <td class="org-left">hint</td>
-<td class="org-left">heath</td>
+<td class="org-left">heas</td>
 <td class="org-left">heam</td>
-<td class="org-left">heathy</td>
+<td class="org-left">heasy</td>
 </tr>
 
 <tr>
 <td class="org-left">pl masculin</td>
-<td class="org-left">tha</td>
-<td class="org-left">that</td>
-<td class="org-left">thaidh</td>
-<td class="org-left">than</td>
-<td class="org-left">thaidhy</td>
+<td class="org-left">sa</td>
+<td class="org-left">sat</td>
+<td class="org-left">saiz</td>
+<td class="org-left">san</td>
+<td class="org-left">saizy</td>
 </tr>
 
 <tr>
 <td class="org-left">pl féminin</td>
-<td class="org-left">thu</td>
-<td class="org-left">thunt</td>
-<td class="org-left">thou</td>
-<td class="org-left">thun</td>
-<td class="org-left">ythu</td>
+<td class="org-left">su</td>
+<td class="org-left">sunt</td>
+<td class="org-left">sou</td>
+<td class="org-left">sun</td>
+<td class="org-left">ysu</td>
 </tr>
 
 <tr>
 <td class="org-left">pl non-humain</td>
 <td class="org-left">hou</td>
 <td class="org-left">hout</td>
-<td class="org-left">houth</td>
-<td class="org-left">dho</td>
-<td class="org-left">houthy</td>
+<td class="org-left">hous</td>
+<td class="org-left">zo</td>
+<td class="org-left">housy</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
-<div id="outline-container-org6113ff9" class="outline-3">
-<h3 id="org6113ff9"><span class="section-number-3">5.6</span> Pronoms relatifs</h3>
+<div id="outline-container-org15edab7" class="outline-3">
+<h3 id="org15edab7"><span class="section-number-3">5.6</span> Pronoms relatifs</h3>
 <div class="outline-text-3" id="text-5-6">
 <p>
-Les pronoms relatifs introduisent en Mattér une clause relative (abordées au chapitre §<a href="#orgee84c67">6.6.1</a>). Du fait de sa proximité avec les langues germaniques, les clauses relatives changent selon leur cas grammatical et leur genre, cepedant seule la dualité humain/non-humain est exprimée sur ce dernier point et le nombre n’est pas indiqué, comme on peut le voir ci-dessous :
+Les pronoms relatifs introduisent en Mattér une clause relative (abordées au chapitre §<a href="#org6008525">6.6.1</a>). Du fait de sa proximité avec les langues germaniques, les clauses relatives changent selon leur cas grammatical et leur genre, cepedant seule la dualité humain/non-humain est exprimée sur ce dernier point et le nombre n’est pas indiqué, comme on peut le voir ci-dessous :
 </p>
 <table>
 
@@ -2409,8 +2442,8 @@ Les pronoms relatifs introduisent en Mattér une clause relative (abordées au c
 
 <tr>
 <td class="org-left">datif</td>
-<td class="org-left">djédh</td>
-<td class="org-left">véth</td>
+<td class="org-left">djéz</td>
+<td class="org-left">vés</td>
 </tr>
 
 <tr>
@@ -2444,12 +2477,12 @@ L’accord du genre se fait selon la phrase nominale définie tandis que le cas 
 
 <p>
 Français : « Mon oncle (maternel) qui est grand est en ville. » <br>
-Mattér : « Maebrorych dja mekkilant beith urbych beith. »
+Mattér : « Maebrorych dja mekkilant beis urbych beis. »
 </p>
 
 <p>
 Français : « La ville où j’habite est belle. » <br>
-Mattér : « A urby vach bwéne wenant beith. »
+Mattér : « A urby vach bwéne wenant beis. »
 </p>
 
 <p>
@@ -2459,38 +2492,38 @@ Mattér : « A bokkéant vén wiljaer saelle tynner »
 
 <p>
 Français : « L’homme dont le chien aboyait tout le temps déménage. » <br>
-Mattér : « É meth dy a hynd altidh gyjener flyttene. »
+Mattér : « É mes dy a hynd altiz gyjener flyttene. »
 </p>
 
 <p>
 Français : « La rue jusqu’à laquelle on va est étroite. » <br>
-Mattér : « É gaet dym gaern smothant beith. »
+Mattér : « É gaet dym gaern smosant beis. »
 </p>
 </div>
 </div>
 
-<div id="outline-container-org150b234" class="outline-3">
-<h3 id="org150b234"><span class="section-number-3">5.7</span> Verbes</h3>
+<div id="outline-container-org37c0866" class="outline-3">
+<h3 id="org37c0866"><span class="section-number-3">5.7</span> Verbes</h3>
 <div class="outline-text-3" id="text-5-7">
 </div>
-<div id="outline-container-orgf5b7ce8" class="outline-4">
-<h4 id="orgf5b7ce8"><span class="section-number-4">5.7.1</span> Temps</h4>
+<div id="outline-container-orgeec967c" class="outline-4">
+<h4 id="orgeec967c"><span class="section-number-4">5.7.1</span> Temps</h4>
 <div class="outline-text-4" id="text-5-7-1">
 <p>
 À l’exception des verbes &lt;o ber&gt; (être), &lt;o hab&gt; (avoir) et &lt;o gjer&gt; (faire), la conjugaison des verbes en Mattér est très régulière. Trois temps principaux existent : le passé, le présent et le futur, cepedant il est possible d’exprimer du passé antérieur (passé dans un temps de locution passé), du passé postérieur (futur dans un temps de locution passé), du futur antérieur (passé dans un temps de locution futur) et du futur postérieur (futur dans un temps de locution futur).
 </p>
 
 <p>
-Généralement parlant, le présent sert aux locuteurs du Mattér à se référer à des actions ou descriptions ou autre se passant lors de la locution de la phrase ou à se réferer à un passé ou futur immédiat, pouvant s’étendre jusqu’à une journée complète avant ou après le temps immédiat de locution. Par exemple, la phrase &lt;mergoch, cinnemoch thi gache&gt; (« demain, nous (paucal) allons au cinéma ») contient le verbe &lt;o gach&gt; conjugué à la première personne du paucal, cependant le sens porté par la phrase est comme quoi l’action d’aller au cinéma prendra lieu dans le futur, en l’occurence le jour suivant le moment de locution. Cepedant la proximité entre ce dernier et le moment de l’action en elle-même permet au locuteur d’utiliser le présent. En revanche, s’il souhaite exprimer la même action comme s’effectuant la semaine suivante, le futur sera utilisé : &lt;nutht vococh, cinnemoch thi y gachatth&gt;. Remarquez par ailleurs l’utilisation du locatif pour &lt;morg&gt; (« demain ») et &lt;nutht voc&gt; (« semaine prochaine ») pour signifier le temps durant lequel l’action s’exécutera.
+Généralement parlant, le présent sert aux locuteurs du Mattér à se référer à des actions ou descriptions ou autre se passant lors de la locution de la phrase ou à se réferer à un passé ou futur immédiat, pouvant s’étendre jusqu’à une journée complète avant ou après le temps immédiat de locution. Par exemple, la phrase &lt;mergoch, cinnemoch si gache&gt; (« demain, nous (paucal) allons au cinéma ») contient le verbe &lt;o gach&gt; conjugué à la première personne du paucal, cependant le sens porté par la phrase est comme quoi l’action d’aller au cinéma prendra lieu dans le futur, en l’occurence le jour suivant le moment de locution. Cepedant la proximité entre ce dernier et le moment de l’action en elle-même permet au locuteur d’utiliser le présent. En revanche, s’il souhaite exprimer la même action comme s’effectuant la semaine suivante, le futur sera utilisé : &lt;nust vococh, cinnemoch si y gachats&gt;. Remarquez par ailleurs l’utilisation du locatif pour &lt;morg&gt; (« demain ») et &lt;nust voc&gt; (« semaine prochaine ») pour signifier le temps durant lequel l’action s’exécutera.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1abf468" class="outline-4">
-<h4 id="org1abf468"><span class="section-number-4">5.7.2</span> Aspects</h4>
+<div id="outline-container-org0c14a13" class="outline-4">
+<h4 id="org0c14a13"><span class="section-number-4">5.7.2</span> Aspects</h4>
 <div class="outline-text-4" id="text-5-7-2">
 <p>
-Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects <b>perfectif</b> et <b>imperfectif</b>. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §<a href="#org1a807c8">5.7.3</a>), le <code>V</code> représentant la racine du verbe :
+Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects <b>perfectif</b> et <b>imperfectif</b>. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §<a href="#org829dc41">5.7.3</a>), le <code>V</code> représentant la racine du verbe :
 </p>
 <table>
 <caption class="t-above"><span class="table-number">Tableau 20 :</span> Conjugaison du perfectif de l’indicatif</caption>
@@ -2620,21 +2653,21 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">Vedh</td>
+<td class="org-left">Vez</td>
 <td class="org-left">Vet</td>
 <td class="org-left">y Va</td>
 </tr>
 
 <tr>
 <td class="org-left">2PAU</td>
-<td class="org-left">Veth</td>
+<td class="org-left">Ves</td>
 <td class="org-left">Vaet</td>
-<td class="org-left">y Vath</td>
+<td class="org-left">y Vas</td>
 </tr>
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">Verdh</td>
+<td class="org-left">Verz</td>
 <td class="org-left">Vaet</td>
 <td class="org-left">y Va</td>
 </tr>
@@ -2643,7 +2676,7 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 <td class="org-left">1P</td>
 <td class="org-left">Ven</td>
 <td class="org-left">Vern</td>
-<td class="org-left">y Vatth</td>
+<td class="org-left">y Vats</td>
 </tr>
 
 <tr>
@@ -2671,9 +2704,9 @@ Les conjugaisons de l’imperfectif et du perfectif aux temps antérieurs ou pos
 </p>
 
 <p>
-En revanche, les trois temps disposent d’un aspect commun : <b>le progressif</b> qui s’emploie grâce à l’utilisation des verbes &lt;o ber&gt; (verbes d’état) ou &lt;o gjer&gt; (verbes d’action) comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §<a href="#org058f7c8">5.7.3.4</a>). Exemple : <br>
+En revanche, les trois temps disposent d’un aspect commun : <b>le progressif</b> qui s’emploie grâce à l’utilisation des verbes &lt;o ber&gt; (verbes d’état) ou &lt;o gjer&gt; (verbes d’action) comme auxilliaires conjugué selon le temps et l’aspect imperfectif voulu, tandis que le verbe principal est sous sa forme de participe progressif (voir les participes §<a href="#org77fdb92">5.7.3.4</a>). Exemple : <br>
 Français : J’étais en train de manger une pomme rouge. <br>
-Mattér : cheg e gjéth etanand raedhant eppelant
+Mattér : cheg e gjés etanand raezant eppelant
 </p>
 
 <p>
@@ -2683,17 +2716,17 @@ Mattér : im gjéta ficjanand <br>
 
 <p>
 Français : Elles seront en train d’écrire des lettres.
-Mattér : thu y gjér gérenand breifantath
+Mattér : su y gjér gérenand breifantas
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1a807c8" class="outline-4">
-<h4 id="org1a807c8"><span class="section-number-4">5.7.3</span> Modes</h4>
+<div id="outline-container-org829dc41" class="outline-4">
+<h4 id="org829dc41"><span class="section-number-4">5.7.3</span> Modes</h4>
 <div class="outline-text-4" id="text-5-7-3">
 </div>
-<div id="outline-container-org6feb5ca" class="outline-5">
-<h5 id="org6feb5ca"><span class="section-number-5">5.7.3.1</span> Infinitif</h5>
+<div id="outline-container-orgaca0fa5" class="outline-5">
+<h5 id="orgaca0fa5"><span class="section-number-5">5.7.3.1</span> Infinitif</h5>
 <div class="outline-text-5" id="text-5-7-3-1">
 <p>
 C’est dans ce mode que vous verrez les verbes dans le dictionnaire. Il s’agit de la base de chaque verbe, précédé par un &lt;o&gt; marquant l’infinitif. Dans cette forme, le verbe peut être manipulé dans la phrase comme un nom commun, mais il peut également être utilisé afin de donner des instructions de façon polie, comme par exemple dans un manuel ou dans une recette, comme cela peut être le cas en Français.
@@ -2701,8 +2734,8 @@ C’est dans ce mode que vous verrez les verbes dans le dictionnaire. Il s’agi
 </div>
 </div>
 
-<div id="outline-container-org998e4ae" class="outline-5">
-<h5 id="org998e4ae"><span class="section-number-5">5.7.3.2</span> Impératif</h5>
+<div id="outline-container-orgfe9bc35" class="outline-5">
+<h5 id="orgfe9bc35"><span class="section-number-5">5.7.3.2</span> Impératif</h5>
 <div class="outline-text-5" id="text-5-7-3-2">
 <p>
 En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à son interlocuteur. Il ne s’applique donc qu’au présent, ainsi qu’à la deuxième personne (singulier, paucal et pluriel). Voici la conjugaison des verbes à l’impératif :
@@ -2742,7 +2775,7 @@ En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à s
 </table>
 
 <p>
-Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas où l’apposition de la terminaison créé une suite de consonne interdite par les règles de phonotaxes (voir §<a href="#org9744306">4.4</a>). Voici par exemple la conjugaison respectivement de &lt;o seg&gt; « dire » et &lt;o etan&gt; « manger » à l’impératif :
+Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas où l’apposition de la terminaison créé une suite de consonne interdite par les règles de phonotaxes (voir §<a href="#orgb89448c">4.4</a>). Voici par exemple la conjugaison respectivement de &lt;o seg&gt; « dire » et &lt;o etan&gt; « manger » à l’impératif :
 </p>
 <table>
 <caption class="t-above"><span class="table-number">Tableau 23 :</span> Conjugaison de &lt;o seg&gt; à l’impératif</caption>
@@ -2813,7 +2846,7 @@ Pour rappel, les voyelles entre parenthèses ne sont à rajouter que dans le cas
 </table>
 
 <p>
-Le verbe &lt;o gjer&gt; a sa propre forme que vous retrouverez dans leurs chapitres respectifs (§<a href="#org9f9bf48">5.7.6</a>). Les verbes &lt;o hab&gt; et &lt;o ber&gt; sont réguliers.
+Le verbe &lt;o gjer&gt; a sa propre forme que vous retrouverez dans leurs chapitres respectifs (§<a href="#org601fdd1">5.7.6</a>). Les verbes &lt;o hab&gt; et &lt;o ber&gt; sont réguliers.
 </p>
 
 <p>
@@ -2855,8 +2888,8 @@ Il est également possible pour le locuteur d’accentuer l’ordre en mettant l
 </div>
 </div>
 
-<div id="outline-container-org9019d93" class="outline-5">
-<h5 id="org9019d93"><span class="section-number-5">5.7.3.3</span> Jussif</h5>
+<div id="outline-container-orga02ce98" class="outline-5">
+<h5 id="orga02ce98"><span class="section-number-5">5.7.3.3</span> Jussif</h5>
 <div class="outline-text-5" id="text-5-7-3-3">
 <p>
 Le Jussif est un mode très similaire à l’impératif décrit ci-dessus, permettant de donner des ordres à une personne tierce n’étant généralement pas présente lors de la conversation. En français, la phrase utilisant le subjonctif « qu’il vienne maintenant » se traduira par du jussif en Mattér, « nu comménge ». Le jussif ne s’applique donc qu’au présent et à la troisième personne. Voici son tableau de conjugaison :
@@ -3005,8 +3038,8 @@ Voici deux exemples de conjugaison au jussif avec &lt;o seg&gt; et &lt;o etan&gt
 </div>
 </div>
 
-<div id="outline-container-org058f7c8" class="outline-5">
-<h5 id="org058f7c8"><span class="section-number-5">5.7.3.4</span> Participes</h5>
+<div id="outline-container-org77fdb92" class="outline-5">
+<h5 id="org77fdb92"><span class="section-number-5">5.7.3.4</span> Participes</h5>
 <div class="outline-text-5" id="text-5-7-3-4">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 30 :</span> Participes réguliers</caption>
@@ -3027,7 +3060,7 @@ Voici deux exemples de conjugaison au jussif avec &lt;o seg&gt; et &lt;o etan&gt
 <tbody>
 <tr>
 <td class="org-left">participe passé</td>
-<td class="org-left">V(dh)et</td>
+<td class="org-left">V(z)et</td>
 </tr>
 
 <tr>
@@ -3054,12 +3087,12 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-org7a62aca" class="outline-4">
-<h4 id="org7a62aca"><span class="section-number-4">5.7.4</span> Verbe être &lt;o ber&gt;</h4>
+<div id="outline-container-org8bdb970" class="outline-4">
+<h4 id="org8bdb970"><span class="section-number-4">5.7.4</span> Verbe être &lt;o ber&gt;</h4>
 <div class="outline-text-4" id="text-5-7-4">
 </div>
-<div id="outline-container-org570008f" class="outline-5">
-<h5 id="org570008f"><span class="section-number-5">5.7.4.1</span> Perfectif</h5>
+<div id="outline-container-orga205080" class="outline-5">
+<h5 id="orga205080"><span class="section-number-5">5.7.4.1</span> Perfectif</h5>
 <div class="outline-text-5" id="text-5-7-4-1">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 31 :</span> Perfectif de &lt;o ber&gt;</caption>
@@ -3097,26 +3130,26 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">3S</td>
-<td class="org-left">vath</td>
-<td class="org-left">y vath</td>
+<td class="org-left">vas</td>
+<td class="org-left">y vas</td>
 </tr>
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">vedh</td>
-<td class="org-left">y vedh</td>
+<td class="org-left">vez</td>
+<td class="org-left">y vez</td>
 </tr>
 
 <tr>
 <td class="org-left">2PAU</td>
-<td class="org-left">venth</td>
-<td class="org-left">y venth</td>
+<td class="org-left">vens</td>
+<td class="org-left">y vens</td>
 </tr>
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">vatth</td>
-<td class="org-left">y vatth</td>
+<td class="org-left">vats</td>
+<td class="org-left">y vats</td>
 </tr>
 
 <tr>
@@ -3141,8 +3174,8 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-orgab00bfa" class="outline-5">
-<h5 id="orgab00bfa"><span class="section-number-5">5.7.4.2</span> Imperfectif</h5>
+<div id="outline-container-org477ebbd" class="outline-5">
+<h5 id="org477ebbd"><span class="section-number-5">5.7.4.2</span> Imperfectif</h5>
 <div class="outline-text-5" id="text-5-7-4-2">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 32 :</span> Imperfectif de &lt;o ber&gt;</caption>
@@ -3173,7 +3206,7 @@ Participes irréguliers :
 <tbody>
 <tr>
 <td class="org-left">1S</td>
-<td class="org-left">e vath</td>
+<td class="org-left">e vas</td>
 <td class="org-left">be</td>
 <td class="org-left">u be</td>
 </tr>
@@ -3181,65 +3214,65 @@ Participes irréguliers :
 <tr>
 <td class="org-left">2S</td>
 <td class="org-left">ea vart</td>
-<td class="org-left">betht</td>
-<td class="org-left">u betht</td>
+<td class="org-left">best</td>
+<td class="org-left">u best</td>
 </tr>
 
 <tr>
 <td class="org-left">3S</td>
 <td class="org-left">ei vart</td>
-<td class="org-left">beith</td>
-<td class="org-left">ou beidh</td>
+<td class="org-left">beis</td>
+<td class="org-left">ou beiz</td>
 </tr>
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">e vatht</td>
-<td class="org-left">erth</td>
-<td class="org-left">u erdh</td>
+<td class="org-left">e vast</td>
+<td class="org-left">ers</td>
+<td class="org-left">u erz</td>
 </tr>
 
 <tr>
 <td class="org-left">2PAU</td>
 <td class="org-left">ea vart</td>
-<td class="org-left">erth</td>
-<td class="org-left">o erdh</td>
+<td class="org-left">ers</td>
+<td class="org-left">o erz</td>
 </tr>
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">ei varth</td>
-<td class="org-left">aith</td>
-<td class="org-left">ou aidh</td>
+<td class="org-left">ei vars</td>
+<td class="org-left">ais</td>
+<td class="org-left">ou aiz</td>
 </tr>
 
 <tr>
 <td class="org-left">1P</td>
-<td class="org-left">e vaeth</td>
-<td class="org-left">ther</td>
-<td class="org-left">u ther</td>
+<td class="org-left">e vaes</td>
+<td class="org-left">ser</td>
+<td class="org-left">u ser</td>
 </tr>
 
 <tr>
 <td class="org-left">2P</td>
-<td class="org-left">ea vaerth</td>
-<td class="org-left">therth</td>
-<td class="org-left">u therdh</td>
+<td class="org-left">ea vaers</td>
+<td class="org-left">sers</td>
+<td class="org-left">u serz</td>
 </tr>
 
 <tr>
 <td class="org-left">3P</td>
-<td class="org-left">ei varth</td>
-<td class="org-left">thet</td>
-<td class="org-left">ou thetth</td>
+<td class="org-left">ei vars</td>
+<td class="org-left">set</td>
+<td class="org-left">ou sets</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
-<div id="outline-container-org1a9ba72" class="outline-5">
-<h5 id="org1a9ba72"><span class="section-number-5">5.7.4.3</span> Participe</h5>
+<div id="outline-container-org9148533" class="outline-5">
+<h5 id="org9148533"><span class="section-number-5">5.7.4.3</span> Participe</h5>
 <div class="outline-text-5" id="text-5-7-4-3">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 33 :</span> Participes de &lt;o ber&gt;</caption>
@@ -3278,12 +3311,12 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-org93baf06" class="outline-4">
-<h4 id="org93baf06"><span class="section-number-4">5.7.5</span> Verbe avoir &lt;o hab&gt;</h4>
+<div id="outline-container-orge7e5390" class="outline-4">
+<h4 id="orge7e5390"><span class="section-number-4">5.7.5</span> Verbe avoir &lt;o hab&gt;</h4>
 <div class="outline-text-4" id="text-5-7-5">
 </div>
-<div id="outline-container-org0708b5b" class="outline-5">
-<h5 id="org0708b5b"><span class="section-number-5">5.7.5.1</span> Perfectif</h5>
+<div id="outline-container-orge8bdc84" class="outline-5">
+<h5 id="orge8bdc84"><span class="section-number-5">5.7.5.1</span> Perfectif</h5>
 <div class="outline-text-5" id="text-5-7-5-1">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 34 :</span> Perfectif de &lt;o hab&gt;</caption>
@@ -3321,25 +3354,25 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">3S</td>
-<td class="org-left">heath</td>
-<td class="org-left">y heath</td>
+<td class="org-left">heas</td>
+<td class="org-left">y heas</td>
 </tr>
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">hedh</td>
-<td class="org-left">hedhy</td>
+<td class="org-left">hez</td>
+<td class="org-left">hezy</td>
 </tr>
 
 <tr>
 <td class="org-left">2PAU</td>
-<td class="org-left">hedht</td>
+<td class="org-left">hezt</td>
 <td class="org-left">hety</td>
 </tr>
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">hetth</td>
+<td class="org-left">hets</td>
 <td class="org-left">hety</td>
 </tr>
 
@@ -3365,8 +3398,8 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-org89bc3c8" class="outline-5">
-<h5 id="org89bc3c8"><span class="section-number-5">5.7.5.2</span> Imperfectif</h5>
+<div id="outline-container-org006b6e2" class="outline-5">
+<h5 id="org006b6e2"><span class="section-number-5">5.7.5.2</span> Imperfectif</h5>
 <div class="outline-text-5" id="text-5-7-5-2">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 35 :</span> Imperfectif de &lt;o hab&gt;</caption>
@@ -3397,7 +3430,7 @@ Participes irréguliers :
 <tbody>
 <tr>
 <td class="org-left">1S</td>
-<td class="org-left">e hath</td>
+<td class="org-left">e has</td>
 <td class="org-left">habe</td>
 <td class="org-left">u habe</td>
 </tr>
@@ -3405,34 +3438,34 @@ Participes irréguliers :
 <tr>
 <td class="org-left">2S</td>
 <td class="org-left">ae hat</td>
-<td class="org-left">hatht</td>
-<td class="org-left">u habetht</td>
+<td class="org-left">hast</td>
+<td class="org-left">u habest</td>
 </tr>
 
 <tr>
 <td class="org-left">3S</td>
-<td class="org-left">ea hath</td>
+<td class="org-left">ea has</td>
 <td class="org-left">hat</td>
 <td class="org-left">ou hat</td>
 </tr>
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">e hatth</td>
-<td class="org-left">habeth</td>
-<td class="org-left">u habeth</td>
+<td class="org-left">e hats</td>
+<td class="org-left">habes</td>
+<td class="org-left">u habes</td>
 </tr>
 
 <tr>
 <td class="org-left">2PAU</td>
 <td class="org-left">e hart</td>
-<td class="org-left">hatth</td>
-<td class="org-left">o hatth</td>
+<td class="org-left">hats</td>
+<td class="org-left">o hats</td>
 </tr>
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">ea harth</td>
+<td class="org-left">ea hars</td>
 <td class="org-left">habean</td>
 <td class="org-left">ou haben</td>
 </tr>
@@ -3446,14 +3479,14 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">2P</td>
-<td class="org-left">ae haeth</td>
-<td class="org-left">haberth</td>
-<td class="org-left">y hardh</td>
+<td class="org-left">ae haes</td>
+<td class="org-left">habers</td>
+<td class="org-left">y harz</td>
 </tr>
 
 <tr>
 <td class="org-left">3P</td>
-<td class="org-left">ei harth</td>
+<td class="org-left">ei hars</td>
 <td class="org-left">habet</td>
 <td class="org-left">u hebet</td>
 </tr>
@@ -3462,8 +3495,8 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-orgaea6c8c" class="outline-5">
-<h5 id="orgaea6c8c"><span class="section-number-5">5.7.5.3</span> Participe</h5>
+<div id="outline-container-org956fcdd" class="outline-5">
+<h5 id="org956fcdd"><span class="section-number-5">5.7.5.3</span> Participe</h5>
 <div class="outline-text-5" id="text-5-7-5-3">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 36 :</span> Participes de &lt;o hab&gt;</caption>
@@ -3502,12 +3535,12 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-org9f9bf48" class="outline-4">
-<h4 id="org9f9bf48"><span class="section-number-4">5.7.6</span> Verbe faire &lt;o gjer&gt;</h4>
+<div id="outline-container-org601fdd1" class="outline-4">
+<h4 id="org601fdd1"><span class="section-number-4">5.7.6</span> Verbe faire &lt;o gjer&gt;</h4>
 <div class="outline-text-4" id="text-5-7-6">
 </div>
-<div id="outline-container-org45f09d8" class="outline-5">
-<h5 id="org45f09d8"><span class="section-number-5">5.7.6.1</span> Perfectif</h5>
+<div id="outline-container-org70838dd" class="outline-5">
+<h5 id="org70838dd"><span class="section-number-5">5.7.6.1</span> Perfectif</h5>
 <div class="outline-text-5" id="text-5-7-6-1">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 37 :</span> Perfectif de &lt;o gjer&gt;</caption>
@@ -3545,26 +3578,26 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">3S</td>
-<td class="org-left">gjeth</td>
-<td class="org-left">y jeth</td>
+<td class="org-left">gjes</td>
+<td class="org-left">y jes</td>
 </tr>
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">jardh</td>
-<td class="org-left">y jarth</td>
+<td class="org-left">jarz</td>
+<td class="org-left">y jars</td>
 </tr>
 
 <tr>
 <td class="org-left">2PAU</td>
-<td class="org-left">jenth</td>
+<td class="org-left">jens</td>
 <td class="org-left">y jent</td>
 </tr>
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">gjetth</td>
-<td class="org-left">y jetth</td>
+<td class="org-left">gjets</td>
+<td class="org-left">y jets</td>
 </tr>
 
 <tr>
@@ -3589,8 +3622,8 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-org5dcb66f" class="outline-5">
-<h5 id="org5dcb66f"><span class="section-number-5">5.7.6.2</span> Imperfectif</h5>
+<div id="outline-container-org26b4e41" class="outline-5">
+<h5 id="org26b4e41"><span class="section-number-5">5.7.6.2</span> Imperfectif</h5>
 <div class="outline-text-5" id="text-5-7-6-2">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 38 :</span> Imperfectif de &lt;o gjer&gt;</caption>
@@ -3621,7 +3654,7 @@ Participes irréguliers :
 <tbody>
 <tr>
 <td class="org-left">1S</td>
-<td class="org-left">e jéth</td>
+<td class="org-left">e jés</td>
 <td class="org-left">jere</td>
 <td class="org-left">u jere</td>
 </tr>
@@ -3635,14 +3668,14 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">3S</td>
-<td class="org-left">ei gjéth</td>
+<td class="org-left">ei gjés</td>
 <td class="org-left">gjea</td>
-<td class="org-left">y jeath</td>
+<td class="org-left">y jeas</td>
 </tr>
 
 <tr>
 <td class="org-left">1PAU</td>
-<td class="org-left">e jétth</td>
+<td class="org-left">e jéts</td>
 <td class="org-left">jét</td>
 <td class="org-left">u jét</td>
 </tr>
@@ -3656,28 +3689,28 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">3PAU</td>
-<td class="org-left">ea gjétth</td>
+<td class="org-left">ea gjéts</td>
 <td class="org-left">jaet</td>
-<td class="org-left">y jaeth</td>
+<td class="org-left">y jaes</td>
 </tr>
 
 <tr>
 <td class="org-left">1P</td>
-<td class="org-left">ei jeath</td>
+<td class="org-left">ei jeas</td>
 <td class="org-left">jern</td>
-<td class="org-left">y jeath</td>
+<td class="org-left">y jeas</td>
 </tr>
 
 <tr>
 <td class="org-left">2P</td>
-<td class="org-left">e gjeath</td>
+<td class="org-left">e gjeas</td>
 <td class="org-left">gjerar</td>
 <td class="org-left">y jerar</td>
 </tr>
 
 <tr>
 <td class="org-left">3P</td>
-<td class="org-left">e gjérth</td>
+<td class="org-left">e gjérs</td>
 <td class="org-left">gjér</td>
 <td class="org-left">y jér</td>
 </tr>
@@ -3686,8 +3719,8 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-orgc249dcf" class="outline-5">
-<h5 id="orgc249dcf"><span class="section-number-5">5.7.6.3</span> Participe</h5>
+<div id="outline-container-org5dcf302" class="outline-5">
+<h5 id="org5dcf302"><span class="section-number-5">5.7.6.3</span> Participe</h5>
 <div class="outline-text-5" id="text-5-7-6-3">
 <table>
 <caption class="t-above"><span class="table-number">Tableau 39 :</span> Participes de &lt;o gjer&gt;</caption>
@@ -3713,7 +3746,7 @@ Participes irréguliers :
 
 <tr>
 <td class="org-left">participe présent</td>
-<td class="org-left">gethte</td>
+<td class="org-left">geste</td>
 </tr>
 
 <tr>
@@ -3724,8 +3757,9 @@ Participes irréguliers :
 </table>
 </div>
 </div>
-<div id="outline-container-orgdf8b815" class="outline-5">
-<h5 id="orgdf8b815"><span class="section-number-5">5.7.6.4</span> Impératif</h5>
+
+<div id="outline-container-orgb5821cd" class="outline-5">
+<h5 id="orgb5821cd"><span class="section-number-5">5.7.6.4</span> Impératif</h5>
 <div class="outline-text-5" id="text-5-7-6-4">
 <table>
 
@@ -3763,8 +3797,8 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-org063bab5" class="outline-5">
-<h5 id="org063bab5"><span class="section-number-5">5.7.6.5</span> Jussif</h5>
+<div id="outline-container-org95c37bb" class="outline-5">
+<h5 id="org95c37bb"><span class="section-number-5">5.7.6.5</span> Jussif</h5>
 <div class="outline-text-5" id="text-5-7-6-5">
 <table>
 
@@ -3804,27 +3838,27 @@ Participes irréguliers :
 </div>
 </div>
 
-<div id="outline-container-orge4f248f" class="outline-3">
-<h3 id="orge4f248f"><span class="section-number-3">5.8</span> Adverbes</h3>
+<div id="outline-container-org82e178b" class="outline-3">
+<h3 id="org82e178b"><span class="section-number-3">5.8</span> Adverbes</h3>
 </div>
 
-<div id="outline-container-orgc0a7da9" class="outline-3">
-<h3 id="orgc0a7da9"><span class="section-number-3">5.9</span> Prépositions</h3>
+<div id="outline-container-org216e02e" class="outline-3">
+<h3 id="org216e02e"><span class="section-number-3">5.9</span> Prépositions</h3>
 <div class="outline-text-3" id="text-5-9">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-orgbeea530" class="outline-3">
-<h3 id="orgbeea530"><span class="section-number-3">5.10</span> Nominalisation</h3>
+<div id="outline-container-orgde834ac" class="outline-3">
+<h3 id="orgde834ac"><span class="section-number-3">5.10</span> Nominalisation</h3>
 <div class="outline-text-3" id="text-5-10">
 <p>
 La nominalisation est un outils permettant l’utilisation d’un mot n’étant pas un nom (verbe ou adjectif) comme s’il s’agissait d’un nom. Le Mattér marque la nominalisation par des suffixes.
 </p>
 </div>
-<div id="outline-container-orgc504ad5" class="outline-4">
-<h4 id="orgc504ad5"><span class="section-number-4">5.10.1</span> Acteur <b>-ear</b></h4>
+<div id="outline-container-orgc63d68d" class="outline-4">
+<h4 id="orgc63d68d"><span class="section-number-4">5.10.1</span> Acteur <b>-ear</b></h4>
 <div class="outline-text-4" id="text-5-10-1">
 <p>
 On peut obtenir un nom à partir d’un verbe désignant une personne ayant un rapport à cet élément dérivé ou effectuant l’action du verbe dérivé. Ainsi, on a &lt;ficjanear&gt; qui désigne un pêcheur, &lt;gérenear&gt; qui désigne un écrivain, &lt;rittanear&gt; un graveur de runes, etc…
@@ -3832,8 +3866,8 @@ On peut obtenir un nom à partir d’un verbe désignant une personne ayant un r
 </div>
 </div>
 
-<div id="outline-container-orgd63b9ec" class="outline-4">
-<h4 id="orgd63b9ec"><span class="section-number-4">5.10.2</span> Acte <b>-yri</b></h4>
+<div id="outline-container-orgbf40b4a" class="outline-4">
+<h4 id="orgbf40b4a"><span class="section-number-4">5.10.2</span> Acte <b>-yri</b></h4>
 <div class="outline-text-4" id="text-5-10-2">
 <p>
 On peut également transformer un verbe d’action afin de se référer à l’acte qu’il représente en lui-même. Ainsi, &lt;ficjanyri&gt; désigne la pêche, &lt;gérenyri&gt; désigne le travail d’écriture et &lt;rittanyri&gt; désigne le travail de gravure de runes.
@@ -3841,42 +3875,42 @@ On peut également transformer un verbe d’action afin de se référer à l’a
 </div>
 </div>
 
-<div id="outline-container-org78daf05" class="outline-4">
-<h4 id="org78daf05"><span class="section-number-4">5.10.3</span> Nominalisation d’adjectifs <b>-enth</b></h4>
+<div id="outline-container-orgbfe0a71" class="outline-4">
+<h4 id="orgbfe0a71"><span class="section-number-4">5.10.3</span> Nominalisation d’adjectifs <b>-ens</b></h4>
 <div class="outline-text-4" id="text-5-10-3">
 <p>
-Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, &lt;alenth&gt; signifie « totalité », &lt;galmenth&gt; signifie « ancienneté » et &lt;gemmelenth&gt; signifie « vieilesse ».
+Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, &lt;alens&gt; signifie « totalité », &lt;galmens&gt; signifie « ancienneté » et &lt;gemmelents&gt; signifie « vieilesse ».
 </p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org470b378" class="outline-2">
-<h2 id="org470b378"><span class="section-number-2">6</span> Syntaxe</h2>
+<div id="outline-container-org8b36167" class="outline-2">
+<h2 id="org8b36167"><span class="section-number-2">6</span> Syntaxe</h2>
 <div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-org110507e" class="outline-3">
-<h3 id="org110507e"><span class="section-number-3">6.1</span> Groupe nominal</h3>
+<div id="outline-container-orgdc7d0e0" class="outline-3">
+<h3 id="orgdc7d0e0"><span class="section-number-3">6.1</span> Groupe nominal</h3>
 <div class="outline-text-3" id="text-6-1">
 <p>
-Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est &lt;déterminant&gt;-&lt;adjectifs&gt;-&lt;nom&gt;-&lt;proposition&gt;, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smodh eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smodh » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
+Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est &lt;déterminant&gt;-&lt;adjectifs&gt;-&lt;nom&gt;-&lt;proposition&gt;, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smoz eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smoz » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
 </p>
 
 <p>
-Mattér : Hit galmant wachenant beith. <br>
+Mattér : Hit galmant wachenant beis. <br>
 Français : C’est une vieille voiture.
 </p>
 
 <p>
-Mattér : Hit wachenant galmant beith. <br>
+Mattér : Hit wachenant galmant beis. <br>
 Français : C’est une voiture à mon avis vieille.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgee5a463" class="outline-3">
-<h3 id="orgee5a463"><span class="section-number-3">6.2</span> Groupe verbal</h3>
+<div id="outline-container-org7a6c9e6" class="outline-3">
+<h3 id="org7a6c9e6"><span class="section-number-3">6.2</span> Groupe verbal</h3>
 <div class="outline-text-3" id="text-6-2">
 <p>
 Du fait de leur conjugaison portant pleinement l’information du nombre et du genre, le pronom du sujet n’est généralement pas utilisé. Son utilisation, placé avant le verbe, permet de placer une emphase sur le sujet.
@@ -3884,47 +3918,47 @@ Du fait de leur conjugaison portant pleinement l’information du nombre et du g
 </div>
 </div>
 
-<div id="outline-container-org5dce01d" class="outline-3">
-<h3 id="org5dce01d"><span class="section-number-3">6.3</span> Propositions simples</h3>
+<div id="outline-container-org737c380" class="outline-3">
+<h3 id="org737c380"><span class="section-number-3">6.3</span> Propositions simples</h3>
 <div class="outline-text-3" id="text-6-3">
 <p>
 L’ordre préféré en Mattér est &lt;sujet&gt;-&lt;objet&gt;-&lt;oblique&gt;-&lt;adverbes&gt;-&lt;verbe&gt;, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
 </p>
 
 <p>
-Mattér : Fadhérych breifant cheidh gjea gérenand. <br>
+Mattér : Fazérych breifant cheiz gjea gérenand. <br>
 Français : Mon père est en train de m’écrire une lettre.
 </p>
 
 <p>
-Mattér : Breifant fadhérych cheidh gjea gérenand. <br>
+Mattér : Breifant fazérych cheiz gjea gérenand. <br>
 Français : C’est une lettre que mon père est en train de m’écrire.
 </p>
 
 <p>
-Mattér : Cheidh fadhérych breifant gjea gérenand. <br>
+Mattér : Cheiz fazérych breifant gjea gérenand. <br>
 Français : C’est à moi que mon père est en train d’écrire une lettre.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgd0b04bd" class="outline-3">
-<h3 id="orgd0b04bd"><span class="section-number-3">6.4</span> Négations</h3>
+<div id="outline-container-orgb840dc5" class="outline-3">
+<h3 id="orgb840dc5"><span class="section-number-3">6.4</span> Négations</h3>
 </div>
-<div id="outline-container-org94ddb68" class="outline-3">
-<h3 id="org94ddb68"><span class="section-number-3">6.5</span> Questions</h3>
+<div id="outline-container-org92b64f6" class="outline-3">
+<h3 id="org92b64f6"><span class="section-number-3">6.5</span> Questions</h3>
 </div>
-<div id="outline-container-orgcf22c63" class="outline-3">
-<h3 id="orgcf22c63"><span class="section-number-3">6.6</span> Propositions plus complexes</h3>
+<div id="outline-container-orgf295a56" class="outline-3">
+<h3 id="orgf295a56"><span class="section-number-3">6.6</span> Propositions plus complexes</h3>
 <div class="outline-text-3" id="text-6-6">
 </div>
-<div id="outline-container-orgee84c67" class="outline-4">
-<h4 id="orgee84c67"><span class="section-number-4">6.6.1</span> Clauses relatives</h4>
+<div id="outline-container-org6008525" class="outline-4">
+<h4 id="org6008525"><span class="section-number-4">6.6.1</span> Clauses relatives</h4>
 </div>
 </div>
 
-<div id="outline-container-orgb34f0c0" class="outline-3">
-<h3 id="orgb34f0c0"><span class="section-number-3">6.7</span> Conjonctions et Coordination de propositions</h3>
+<div id="outline-container-org0de3bc5" class="outline-3">
+<h3 id="org0de3bc5"><span class="section-number-3">6.7</span> Conjonctions et Coordination de propositions</h3>
 <div class="outline-text-3" id="text-6-7">
 <p>
 
@@ -3932,12 +3966,12 @@ Français : C’est à moi que mon père est en train d’écrire une lettre.
 </div>
 </div>
 </div>
-<div id="outline-container-org7c0501c" class="outline-2">
-<h2 id="org7c0501c"><span class="section-number-2">7</span> Morphosyntaxe</h2>
+<div id="outline-container-orgda94755" class="outline-2">
+<h2 id="orgda94755"><span class="section-number-2">7</span> Morphosyntaxe</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-orga71118c" class="outline-3">
-<h3 id="orga71118c"><span class="section-number-3">7.1</span> Citation</h3>
+<div id="outline-container-orgd0d3760" class="outline-3">
+<h3 id="orgd0d3760"><span class="section-number-3">7.1</span> Citation</h3>
 <div class="outline-text-3" id="text-7-1">
 <p>
 
@@ -3945,40 +3979,40 @@ Français : C’est à moi que mon père est en train d’écrire une lettre.
 </div>
 </div>
 </div>
-<div id="outline-container-org8e54281" class="outline-2">
-<h2 id="org8e54281"><span class="section-number-2">8</span> Sémantiques</h2>
+<div id="outline-container-org87bab61" class="outline-2">
+<h2 id="org87bab61"><span class="section-number-2">8</span> Sémantiques</h2>
 <div class="outline-text-2" id="text-8">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org0040d7a" class="outline-2">
-<h2 id="org0040d7a"><span class="section-number-2">9</span> Pragmatique</h2>
+<div id="outline-container-org7a4b188" class="outline-2">
+<h2 id="org7a4b188"><span class="section-number-2">9</span> Pragmatique</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org2743153" class="outline-2">
-<h2 id="org2743153"><span class="section-number-2">10</span> Phraséologie</h2>
+<div id="outline-container-orga39123c" class="outline-2">
+<h2 id="orga39123c"><span class="section-number-2">10</span> Phraséologie</h2>
 <div class="outline-text-2" id="text-10">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org2a43dff" class="outline-2">
-<h2 id="org2a43dff"><span class="section-number-2">11</span> Synchronie et diachronie</h2>
+<div id="outline-container-org8e2d3b9" class="outline-2">
+<h2 id="org8e2d3b9"><span class="section-number-2">11</span> Synchronie et diachronie</h2>
 <div class="outline-text-2" id="text-11">
 <p>
 
 </p>
 </div>
 </div>
-<div id="outline-container-org1fa6da4" class="outline-2">
-<h2 id="org1fa6da4"><span class="section-number-2">12</span> Nombres</h2>
+<div id="outline-container-orgf93bdbc" class="outline-2">
+<h2 id="orgf93bdbc"><span class="section-number-2">12</span> Nombres</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 Le Mattér est une langue comptant en base dix et prenant en compte l’existance du zéro. Cependant, contrairement au Français, le Mattér tend à grouper les dizaines de milliers ensemble plutôt que les milliers. Ainsi, nous avons les termes suivants :
@@ -4026,7 +4060,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">3</td>
 <td class="org-right">3</td>
-<td class="org-left">dhe</td>
+<td class="org-left">ze</td>
 </tr>
 
 <tr>
@@ -4038,7 +4072,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">5</td>
 <td class="org-right">5</td>
-<td class="org-left">dheif</td>
+<td class="org-left">zeif</td>
 </tr>
 
 <tr>
@@ -4050,7 +4084,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">7</td>
 <td class="org-right">7</td>
-<td class="org-left">thean</td>
+<td class="org-left">sean</td>
 </tr>
 
 <tr>
@@ -4080,7 +4114,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">30</td>
 <td class="org-right">30</td>
-<td class="org-left">dhjea</td>
+<td class="org-left">zjea</td>
 </tr>
 
 <tr>
@@ -4092,7 +4126,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">50</td>
 <td class="org-right">50</td>
-<td class="org-left">dheig</td>
+<td class="org-left">zeig</td>
 </tr>
 
 <tr>
@@ -4104,7 +4138,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">70</td>
 <td class="org-right">70</td>
-<td class="org-left">thjeg</td>
+<td class="org-left">sjeg</td>
 </tr>
 
 <tr>
@@ -4128,7 +4162,7 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 <tr>
 <td class="org-right">1 000</td>
 <td class="org-right">1000</td>
-<td class="org-left">tanthen</td>
+<td class="org-left">tansen</td>
 </tr>
 
 <tr>
@@ -4152,11 +4186,11 @@ Le Mattér est une langue comptant en base dix et prenant en compte l’existanc
 </table>
 
 <p>
-Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les termes &lt;anrad&gt;, &lt;tathen&gt;, &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt; peuvent être multipliés par un nombre inférieur le précédant. Par exemple, pour exprimer « 600 », on dira &lt;chaecanred&gt;. Indiquer un multiplicateur de un est considéré comme inutile, ainsi les termes tels que &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt; se suffisent à eux-même pour signifier &lt;1 0000&gt;, &lt;1 0000 0000&gt; et &lt;1 0000 0000 0000&gt; respectivement. Par conséquence, le nombre 1789 se traduirait par &lt;onnén achteig theananrad tanthen&gt;.
+Le Mattér énonce les éléments d’un nombre du plus petit au plus grand, et les termes &lt;anrad&gt;, &lt;tansen&gt;, &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt; peuvent être multipliés par un nombre inférieur le précédant. Par exemple, pour exprimer « 600 », on dira &lt;chaecanred&gt;. Indiquer un multiplicateur de un est considéré comme inutile, ainsi les termes tels que &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt; se suffisent à eux-même pour signifier &lt;1 0000&gt;, &lt;1 0000 0000&gt; et &lt;1 0000 0000 0000&gt; respectivement. Par conséquence, le nombre 1789 se traduirait par &lt;onnén achteig seananrad tansen&gt;.
 </p>
 
 <p>
-Les termes &lt;anrad&gt;, &lt;tathen&gt;, &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt; doivent également être précédés par &lt;ar&gt; lors d’un risque de confusion entre un nombre et leur multiplieur, de 1 à 10 pour &lt;anrad et tanthen&gt;, et de 1 à 999 pour &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt;. Ainsi, &lt;achtanred&gt; signifie 800, alors que &lt;acht ar anred&gt; signifie 108, &lt;onnénanrad deten&gt; signifie 900 0000 (ou 9 000 000) alors que &lt;onnénanrad ar deten&gt; signifie 1 0900 (ou 10 900). Si aucune confusion n’est possible, le &lt;ar&gt; sera ommis. 1 2345 6890 (123 456 890) s’exprime donc &lt;dran achteig theananred chceactanthan ar dheif frje dheanrad twéatanthen deten ar mollen&gt;.
+Les termes &lt;anrad&gt;, &lt;tasen&gt;, &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt; doivent également être précédés par &lt;ar&gt; lors d’un risque de confusion entre un nombre et leur multiplieur, de 1 à 10 pour &lt;anrad et tansen&gt;, et de 1 à 999 pour &lt;deten&gt;, &lt;mollen&gt; et &lt;vreljen&gt;. Ainsi, &lt;achtanred&gt; signifie 800, alors que &lt;acht ar anred&gt; signifie 108, &lt;onnénanrad deten&gt; signifie 900 0000 (ou 9 000 000) alors que &lt;onnénanrad ar deten&gt; signifie 1 0900 (ou 10 900). Si aucune confusion n’est possible, le &lt;ar&gt; sera ommis. 1 2345 6890 (123 456 890) s’exprime donc &lt;dran achteig seananred chceactansan ar zeif frje zeanrad twéatansen deten ar mollen&gt;.
 </p>
 
 <p>
@@ -4168,8 +4202,8 @@ Typographiquement parlant, les multiplicateurs s’agglomèrent avec l’éléme
 </p>
 </div>
 </div>
-<div id="outline-container-org92a8403" class="outline-2">
-<h2 id="org92a8403"><span class="section-number-2">13</span> Système d’écriture</h2>
+<div id="outline-container-org3345aef" class="outline-2">
+<h2 id="org3345aef"><span class="section-number-2">13</span> Système d’écriture</h2>
 <div class="outline-text-2" id="text-13">
 <p>
 Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
@@ -4193,152 +4227,152 @@ Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Vo
 <tbody>
 <tr>
 <td class="org-left">f</td>
-<td class="org-left">ᚠ</td>
+<td class="org-left"> ᚠ</td>
 </tr>
 
 <tr>
 <td class="org-left">u</td>
-<td class="org-left">ᚢ</td>
+<td class="org-left"> ᚢ</td>
 </tr>
 
 <tr>
-<td class="org-left">th</td>
-<td class="org-left">ᚦ</td>
+<td class="org-left">s</td>
+<td class="org-left"> ᚦ</td>
 </tr>
 
 <tr>
 <td class="org-left">o</td>
-<td class="org-left">ᚩ</td>
+<td class="org-left"> ᚩ</td>
 </tr>
 
 <tr>
 <td class="org-left">r</td>
-<td class="org-left">ᚱ</td>
+<td class="org-left"> ᚱ</td>
 </tr>
 
 <tr>
 <td class="org-left">c</td>
-<td class="org-left">ᚳ</td>
+<td class="org-left"> ᚳ</td>
 </tr>
 
 <tr>
 <td class="org-left">g</td>
-<td class="org-left">ᚷ</td>
+<td class="org-left"> ᚷ</td>
 </tr>
 
 <tr>
 <td class="org-left">w</td>
-<td class="org-left">ᚹ</td>
+<td class="org-left"> ᚹ</td>
 </tr>
 
 <tr>
 <td class="org-left">h</td>
-<td class="org-left">ᚻ</td>
+<td class="org-left"> ᚻ</td>
 </tr>
 
 <tr>
 <td class="org-left">ch</td>
-<td class="org-left">ᛇ</td>
+<td class="org-left"> ᛇ</td>
 </tr>
 
 <tr>
 <td class="org-left">n</td>
-<td class="org-left">ᚾ</td>
+<td class="org-left"> ᚾ</td>
 </tr>
 
 <tr>
 <td class="org-left">i</td>
-<td class="org-left">ᛁ</td>
+<td class="org-left"> ᛁ</td>
 </tr>
 
 <tr>
 <td class="org-left">j</td>
-<td class="org-left">ᛄ</td>
+<td class="org-left"> ᛄ</td>
 </tr>
 
 <tr>
 <td class="org-left">p</td>
-<td class="org-left">ᛈ</td>
+<td class="org-left"> ᛈ</td>
 </tr>
 
 <tr>
-<td class="org-left">dh</td>
-<td class="org-left">ᛋ</td>
+<td class="org-left">z</td>
+<td class="org-left"> ᛋ</td>
 </tr>
 
 <tr>
 <td class="org-left">v</td>
-<td class="org-left">ᛝ</td>
+<td class="org-left"> ᛝ</td>
 </tr>
 
 <tr>
 <td class="org-left">t</td>
-<td class="org-left">ᛏ</td>
+<td class="org-left"> ᛏ</td>
 </tr>
 
 <tr>
 <td class="org-left">b</td>
-<td class="org-left">ᛒ</td>
+<td class="org-left"> ᛒ</td>
 </tr>
 
 <tr>
 <td class="org-left">e</td>
-<td class="org-left">ᛖ</td>
+<td class="org-left"> ᛖ</td>
 </tr>
 
 <tr>
 <td class="org-left">m</td>
-<td class="org-left">ᛗ</td>
+<td class="org-left"> ᛗ</td>
 </tr>
 
 <tr>
 <td class="org-left">l</td>
-<td class="org-left">ᛚ</td>
+<td class="org-left"> ᛚ</td>
 </tr>
 
 <tr>
 <td class="org-left">d</td>
-<td class="org-left">ᛞ</td>
+<td class="org-left"> ᛞ</td>
 </tr>
 
 <tr>
 <td class="org-left">é</td>
-<td class="org-left">ᛟ</td>
+<td class="org-left"> ᛟ</td>
 </tr>
 
 <tr>
 <td class="org-left">a</td>
-<td class="org-left">ᚪ</td>
+<td class="org-left"> ᚪ</td>
 </tr>
 
 <tr>
 <td class="org-left">y</td>
-<td class="org-left">ᚣ</td>
+<td class="org-left"> ᚣ</td>
 </tr>
 
 <tr>
 <td class="org-left">ae</td>
-<td class="org-left">ᚫ</td>
+<td class="org-left"> ᚫ</td>
 </tr>
 
 <tr>
 <td class="org-left">ea</td>
-<td class="org-left">ᛠ</td>
+<td class="org-left"> ᛠ</td>
 </tr>
 
 <tr>
 <td class="org-left">séparateur de mots</td>
-<td class="org-left">᛫</td>
+<td class="org-left"> ᛫</td>
 </tr>
 
 <tr>
 <td class="org-left">marquer de pauses</td>
-<td class="org-left">᛬</td>
+<td class="org-left"> ᛬</td>
 </tr>
 
 <tr>
 <td class="org-left">séparateur de phrases</td>
-<td class="org-left">᛭</td>
+<td class="org-left"> ᛭</td>
 </tr>
 </tbody>
 </table>
@@ -4350,8 +4384,8 @@ Exceptionnellement, et contrairement aux autres, les diphtongues &lt;ae&gt; et &
 <p>
 Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes : <br>
 Français : Demain, du lever au coucher du soleil, nous irons pêcher. <br>
-Mattér (transcrit) : morgoch, gyrnegac thcyrmém, thi y ficjanur. <br>
-Mattér (runes) : ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭
+Mattér (transcrit) : morgoch, gyrnegac scyrmém, si y ficjanur. <br>
+Mattér (runes) :  ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭
 </p>
 
 <p>
@@ -4375,12 +4409,12 @@ Le Mattér peut également être écrit avec les caractères romains comme fait 
 </thead>
 <tbody>
 <tr>
-<td class="org-left">th</td>
+<td class="org-left">s</td>
 <td class="org-left">Þ - þ</td>
 </tr>
 
 <tr>
-<td class="org-left">dh</td>
+<td class="org-left">z</td>
 <td class="org-left">Ð - ð</td>
 </tr>
 
@@ -4407,7 +4441,7 @@ Le Mattér peut également être écrit avec les caractères romains comme fait 
 </table>
 
 <p>
-Ainsi, des mots tels que &lt;brydh&gt; ou &lt;thpich&gt; peuvent s’écrire &lt;bryð&gt; et &lt;þpiȝ&gt; respectivement.
+Ainsi, des mots tels que &lt;bryz&gt; ou &lt;spich&gt; peuvent s’écrire &lt;bryð&gt; et &lt;þpiȝ&gt; respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
 </p>
 <table>
@@ -4433,39 +4467,39 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 </thead>
 <tbody>
 <tr>
-<td class="org-left">brydh</td>
+<td class="org-left">bryz</td>
 <td class="org-left">bryð</td>
-<td class="org-left">ᛒᚱᚣᛋ</td>
+<td class="org-left"> ᛒᚱᚣᛋ</td>
 </tr>
 
 <tr>
-<td class="org-left">thpich</td>
+<td class="org-left">spich</td>
 <td class="org-left">þpiȝ</td>
-<td class="org-left">ᚦᛈᛁᛇ</td>
+<td class="org-left"> ᚦᛈᛁᛇ</td>
 </tr>
 
 <tr>
 <td class="org-left">jea</td>
 <td class="org-left">iea</td>
-<td class="org-left">ᛄᛠ</td>
+<td class="org-left"> ᛄᛠ</td>
 </tr>
 
 <tr>
 <td class="org-left">maend</td>
 <td class="org-left">mænd</td>
-<td class="org-left">ᛗᚫᚾᛞ</td>
+<td class="org-left"> ᛗᚫᚾᛞ</td>
 </tr>
 
 <tr>
-<td class="org-left">nethty</td>
+<td class="org-left">nesty</td>
 <td class="org-left">neþty</td>
-<td class="org-left">ᚾᛖᚦᛏᚣ</td>
+<td class="org-left"> ᚾᛖᚦᛏᚣ</td>
 </tr>
 
 <tr>
 <td class="org-left">wachen</td>
 <td class="org-left">ƿaȝen</td>
-<td class="org-left">ᚹᚪᛇᛖᚾ</td>
+<td class="org-left"> ᚹᚪᛇᛖᚾ</td>
 </tr>
 </tbody>
 </table>
@@ -4475,11 +4509,11 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 </p>
 </div>
 </div>
-<div id="outline-container-org1a6463b" class="outline-2">
-<h2 id="org1a6463b"><span class="section-number-2">14</span> Glossaire</h2>
+<div id="outline-container-org9549ff2" class="outline-2">
+<h2 id="org9549ff2"><span class="section-number-2">14</span> Glossaire</h2>
 <div class="outline-text-2" id="text-14">
 <dl class="org-dl">
-<dt>mot en Mattér</dt><dd>​/phonétique/ (élément de langage) Définition(s)</dd>
+<dt>mot en Mattér</dt><dd>​<i>phonétique</i> (élément de langage) Définition(s)</dd>
 </dl>
 
 <p>
@@ -4498,290 +4532,291 @@ Abréviations :
 </ul>
 </div>
 
-<div id="outline-container-org825b60d" class="outline-3">
-<h3 id="org825b60d"><span class="section-number-3">14.1</span> Actions physiques</h3>
+<div id="outline-container-orgaf2d2e1" class="outline-3">
+<h3 id="orgaf2d2e1"><span class="section-number-3">14.1</span> Actions physiques</h3>
 </div>
 
-<div id="outline-container-orgd5ef10f" class="outline-3">
-<h3 id="orgd5ef10f"><span class="section-number-3">14.2</span> Amour</h3>
+<div id="outline-container-org0b230be" class="outline-3">
+<h3 id="org0b230be"><span class="section-number-3">14.2</span> Amour</h3>
 </div>
 
-<div id="outline-container-orgc2389ab" class="outline-3">
-<h3 id="orgc2389ab"><span class="section-number-3">14.3</span> Animaux</h3>
+<div id="outline-container-orgc285ad2" class="outline-3">
+<h3 id="orgc285ad2"><span class="section-number-3">14.3</span> Animaux</h3>
 <div class="outline-text-3" id="text-14-3">
 <dl class="org-dl">
-<dt>bern</dt><dd>​/bɛrn/ (n) ours</dd>
-<dt>cat</dt><dd>​/kat/ (n) chat</dd>
-<dt>ficjan</dt><dd>​/ˈfikjan/ (n) poisson</dd>
-<dt>o ficjan</dt><dd>​/o ˈfikjan/ (v) pêcher</dd>
-<dt>hynd</dt><dd>​/hynd/ (n) chien</dd>
-<dt>o gyjen</dt><dd>​/o ɡyjɛn/ (v) aboyer (animaux, chiens)</dd>
+<dt>bern</dt><dd>​<i>bɛrn</i> (n) ours</dd>
+<dt>cat</dt><dd>​<i>kat</i> (n) chat</dd>
+<dt>ficjan</dt><dd>​<i>ˈfikjan</i> (n) poisson</dd>
+<dt>o ficjan</dt><dd>​<i>o ˈfikjan</i> (v) pêcher</dd>
+<dt>hynd</dt><dd>​<i>hynd</i> (n) chien</dd>
+<dt>o gyjen</dt><dd>​<i>o ɡyjɛn</i> (v) aboyer (animaux, chiens)</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-org39d0925" class="outline-3">
-<h3 id="org39d0925"><span class="section-number-3">14.4</span> Art</h3>
+<div id="outline-container-org77429d9" class="outline-3">
+<h3 id="org77429d9"><span class="section-number-3">14.4</span> Art</h3>
 <div class="outline-text-3" id="text-14-4">
 <dl class="org-dl">
-<dt>wen</dt><dd>​/wɛn/ beau, joli</dd>
+<dt>wen</dt><dd>​<i>wɛn</i> beau, joli</dd>
 </dl>
 </div>
-<div id="outline-container-org27fdd84" class="outline-4">
-<h4 id="org27fdd84"><span class="section-number-4">14.4.1</span> Écriture</h4>
+
+<div id="outline-container-org081272e" class="outline-4">
+<h4 id="org081272e"><span class="section-number-4">14.4.1</span> Écriture</h4>
 <div class="outline-text-4" id="text-14-4-1">
 <dl class="org-dl">
 <dt>bokké</dt><dd><i>ˈbokːe</i> (n) livre</dd>
-<dt>breif</dt><dd>​/brɛɪf/ (n) lettre, missive</dd>
-<dt>o géren</dt><dd>​/o ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)</dd>
-<dt>o rittan</dt><dd>​/o ˈritːa/ (v) écrire, graver des runes</dd>
-<dt>ryn</dt><dd>​/ryn/ (n) rune, lettre alphabétique</dd>
+<dt>breif</dt><dd>​<i>brɛɪf</i> (n) lettre, missive</dd>
+<dt>o géren</dt><dd>​<i>o ˈɡerɛn</i> (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)</dd>
+<dt>o rittan</dt><dd>​<i>o ˈritːa</i> (v) écrire, graver des runes</dd>
+<dt>ryn</dt><dd>​<i>ryn</i> (n) rune, lettre alphabétique</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org3ac0831" class="outline-3">
-<h3 id="org3ac0831"><span class="section-number-3">14.5</span> Astronomie</h3>
+<div id="outline-container-orgcf2af0c" class="outline-3">
+<h3 id="orgcf2af0c"><span class="section-number-3">14.5</span> Astronomie</h3>
 </div>
 
-<div id="outline-container-orgcab5801" class="outline-3">
-<h3 id="orgcab5801"><span class="section-number-3">14.6</span> Bâtiments</h3>
+<div id="outline-container-org84153ab" class="outline-3">
+<h3 id="org84153ab"><span class="section-number-3">14.6</span> Bâtiments</h3>
 <div class="outline-text-3" id="text-14-6">
 <dl class="org-dl">
-<dt>o flytten</dt><dd>​/o flytːɛn/ (v) déménager</dd>
+<dt>o flytten</dt><dd>​<i>o flytːɛn</i> (v) déménager</dd>
 </dl>
 </div>
-<div id="outline-container-org3c4338b" class="outline-4">
-<h4 id="org3c4338b"><span class="section-number-4">14.6.1</span> La ville</h4>
+<div id="outline-container-org86f3638" class="outline-4">
+<h4 id="org86f3638"><span class="section-number-4">14.6.1</span> La ville</h4>
 <div class="outline-text-4" id="text-14-6-1">
 <dl class="org-dl">
-<dt>urby</dt><dd>​/ˈurby/ (n) ville</dd>
+<dt>urby</dt><dd>​<i>ˈurby</i> (n) ville</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org22ecea0" class="outline-4">
-<h4 id="org22ecea0"><span class="section-number-4">14.6.2</span> Les types de bâtiments</h4>
+<div id="outline-container-org07e5dd2" class="outline-4">
+<h4 id="org07e5dd2"><span class="section-number-4">14.6.2</span> Les types de bâtiments</h4>
 <div class="outline-text-4" id="text-14-6-2">
 <dl class="org-dl">
-<dt>tere</dt><dd>​/ˈtɛrɛ/ (n) tour, haut monument</dd>
-<dt>hyth</dt><dd>​/hyθ/ (n) maison (bâtiment)</dd>
+<dt>tere</dt><dd>​<i>ˈtɛrɛ</i> (n) tour, haut monument</dd>
+<dt>hys</dt><dd>​<i>hyθ</i> (n) maison (bâtiment)</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org66fdc0a" class="outline-3">
-<h3 id="org66fdc0a"><span class="section-number-3">14.7</span> Commerce</h3>
+<div id="outline-container-orga052316" class="outline-3">
+<h3 id="orga052316"><span class="section-number-3">14.7</span> Commerce</h3>
 <div class="outline-text-3" id="text-14-7">
 <dl class="org-dl">
 <dt>o saelle</dt><dd><i>o ˈsaelːɛ</i> (v) vendre, donner à quelqu’un</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org7ebe9ee" class="outline-3">
-<h3 id="org7ebe9ee"><span class="section-number-3">14.8</span> Conflits</h3>
+<div id="outline-container-org4d0915c" class="outline-3">
+<h3 id="org4d0915c"><span class="section-number-3">14.8</span> Conflits</h3>
 </div>
 
-<div id="outline-container-org987c5a1" class="outline-3">
-<h3 id="org987c5a1"><span class="section-number-3">14.9</span> Conteneurs</h3>
+<div id="outline-container-orgbb6b684" class="outline-3">
+<h3 id="orgbb6b684"><span class="section-number-3">14.9</span> Conteneurs</h3>
 </div>
 
-<div id="outline-container-org3b68edb" class="outline-3">
-<h3 id="org3b68edb"><span class="section-number-3">14.10</span> Corps</h3>
+<div id="outline-container-org36fc763" class="outline-3">
+<h3 id="org36fc763"><span class="section-number-3">14.10</span> Corps</h3>
 </div>
 
-<div id="outline-container-org8e6b158" class="outline-3">
-<h3 id="org8e6b158"><span class="section-number-3">14.11</span> Couleurs</h3>
+<div id="outline-container-orgc2a8f48" class="outline-3">
+<h3 id="orgc2a8f48"><span class="section-number-3">14.11</span> Couleurs</h3>
 <div class="outline-text-3" id="text-14-11">
 <dl class="org-dl">
-<dt>raedh</dt><dd>​/raeð/ (adj) rouge</dd>
+<dt>raez</dt><dd>​<i>raeð</i> (adj) rouge</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orgaa823bf" class="outline-3">
-<h3 id="orgaa823bf"><span class="section-number-3">14.12</span> Dimensions</h3>
+<div id="outline-container-orga34fb15" class="outline-3">
+<h3 id="orga34fb15"><span class="section-number-3">14.12</span> Dimensions</h3>
 <div class="outline-text-3" id="text-14-12">
 </div>
-<div id="outline-container-org5a769fc" class="outline-4">
-<h4 id="org5a769fc"><span class="section-number-4">14.12.1</span> Taille</h4>
+<div id="outline-container-orge3bd78f" class="outline-4">
+<h4 id="orge3bd78f"><span class="section-number-4">14.12.1</span> Taille</h4>
 <div class="outline-text-4" id="text-14-12-1">
 <dl class="org-dl">
-<dt>smodh</dt><dd>​/smoð/ (adj) petit, étroit</dd>
-<dt>thtor</dt><dd>​/θtor/ (adj) gros, grand, de grande taille, large</dd>
-<dt>mekkil</dt><dd>​/mekːil/ (adj) grand, imposant, puissant, fort</dd>
+<dt>smoz</dt><dd>​<i>smoð</i> (adj) petit, étroit</dd>
+<dt>stor</dt><dd>​<i>θtor</i> (adj) gros, grand, de grande taille, large</dd>
+<dt>mekkil</dt><dd>​<i>mekːil</i> (adj) grand, imposant, puissant, fort</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-org3827d39" class="outline-4">
-<h4 id="org3827d39"><span class="section-number-4">14.12.2</span> Quantifieurs</h4>
+<div id="outline-container-org9b74375" class="outline-4">
+<h4 id="org9b74375"><span class="section-number-4">14.12.2</span> Quantifieurs</h4>
 <div class="outline-text-4" id="text-14-12-2">
 <dl class="org-dl">
-<dt>maend</dt><dd>​/maend/ (adj) beaucoup</dd>
-<dt>vend</dt><dd>​/vend/ (adj) peu, un peu</dd>
+<dt>maend</dt><dd>​<i>maend</i> (adj) beaucoup</dd>
+<dt>vend</dt><dd>​<i>vend</i> (adj) peu, un peu</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org73a4a59" class="outline-3">
-<h3 id="org73a4a59"><span class="section-number-3">14.13</span> Direction</h3>
+<div id="outline-container-org2c76c36" class="outline-3">
+<h3 id="org2c76c36"><span class="section-number-3">14.13</span> Direction</h3>
 </div>
 
-<div id="outline-container-org1226a4f" class="outline-3">
-<h3 id="org1226a4f"><span class="section-number-3">14.14</span> Eau</h3>
+<div id="outline-container-org9e0d8f6" class="outline-3">
+<h3 id="org9e0d8f6"><span class="section-number-3">14.14</span> Eau</h3>
 </div>
 
-<div id="outline-container-org737d2b5" class="outline-3">
-<h3 id="org737d2b5"><span class="section-number-3">14.15</span> Effort</h3>
+<div id="outline-container-orgecea7c1" class="outline-3">
+<h3 id="orgecea7c1"><span class="section-number-3">14.15</span> Effort</h3>
 </div>
 
-<div id="outline-container-org85dbc74" class="outline-3">
-<h3 id="org85dbc74"><span class="section-number-3">14.16</span> Éléments</h3>
+<div id="outline-container-orgb659788" class="outline-3">
+<h3 id="orgb659788"><span class="section-number-3">14.16</span> Éléments</h3>
 </div>
 
-<div id="outline-container-org4063eb1" class="outline-3">
-<h3 id="org4063eb1"><span class="section-number-3">14.17</span> Émotions</h3>
+<div id="outline-container-org929942f" class="outline-3">
+<h3 id="org929942f"><span class="section-number-3">14.17</span> Émotions</h3>
 <div class="outline-text-3" id="text-14-17">
 <dl class="org-dl">
-<dt>lycce</dt><dd>​/ˈlykːɛ/ (adj) joyeux, content</dd>
+<dt>lycce</dt><dd>​<i>ˈlykːɛ</i> (adj) joyeux, content</dd>
 <dt>o wilja</dt><dd><i>o ˈwilja</i> (v) vouloir, avoir envie de</dd>
 <dt>wille</dt><dd><i>ˈwilːɛ</i> (n) souhait, désir</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-org7ff92cf" class="outline-3">
-<h3 id="org7ff92cf"><span class="section-number-3">14.18</span> Évaluation</h3>
+<div id="outline-container-orgd07e907" class="outline-3">
+<h3 id="orgd07e907"><span class="section-number-3">14.18</span> Évaluation</h3>
 </div>
 
-<div id="outline-container-org8cb5daa" class="outline-3">
-<h3 id="org8cb5daa"><span class="section-number-3">14.19</span> Événements</h3>
+<div id="outline-container-org3f4e43f" class="outline-3">
+<h3 id="org3f4e43f"><span class="section-number-3">14.19</span> Événements</h3>
 </div>
 
-<div id="outline-container-org0d9b323" class="outline-3">
-<h3 id="org0d9b323"><span class="section-number-3">14.20</span> Existence</h3>
+<div id="outline-container-org0c6039f" class="outline-3">
+<h3 id="org0c6039f"><span class="section-number-3">14.20</span> Existence</h3>
 </div>
 
-<div id="outline-container-org1042b43" class="outline-3">
-<h3 id="org1042b43"><span class="section-number-3">14.21</span> Famille</h3>
+<div id="outline-container-orgb1d1d33" class="outline-3">
+<h3 id="orgb1d1d33"><span class="section-number-3">14.21</span> Famille</h3>
 <div class="outline-text-3" id="text-14-21">
 <dl class="org-dl">
-<dt>brudhyr</dt><dd>​/ˈbruðyr/ (n) frère</dd>
-<dt>fadhér</dt><dd>​/ˈfaðer/ (n) père</dd>
-<dt>fobror</dt><dd>​/ˈfobror/ (n) oncle paternel</dd>
-<dt>fostyr</dt><dd>​/ˈfostyr/ (n) tante paternelle</dd>
-<dt>madhér</dt><dd>​/ˈmaðer/ (n) mère</dd>
-<dt>maebror</dt><dd>​/ˈmaebror/ (n) oncle maternel</dd>
-<dt>mastyr</dt><dd>​/ˈmastyr/ (n) tante maternelle</dd>
-<dt>syster</dt><dd>​/ˈsystɛr/ (n) sœur</dd>
+<dt>bruzyr</dt><dd>​<i>ˈbruðyr</i> (n) frère</dd>
+<dt>fazér</dt><dd>​<i>ˈfaðer</i> (n) père</dd>
+<dt>fobror</dt><dd>​<i>ˈfobror</i> (n) oncle paternel</dd>
+<dt>fostyr</dt><dd>​<i>ˈfostyr</i> (n) tante paternelle</dd>
+<dt>mazér</dt><dd>​<i>ˈmaðer</i> (n) mère</dd>
+<dt>maebror</dt><dd>​<i>ˈmaebror</i> (n) oncle maternel</dd>
+<dt>mastyr</dt><dd>​<i>ˈmastyr</i> (n) tante maternelle</dd>
+<dt>syster</dt><dd>​<i>ˈsystɛr</i> (n) sœur</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-org4dc84c4" class="outline-3">
-<h3 id="org4dc84c4"><span class="section-number-3">14.22</span> Forme</h3>
+<div id="outline-container-org4b7b00f" class="outline-3">
+<h3 id="org4b7b00f"><span class="section-number-3">14.22</span> Forme</h3>
 </div>
 
-<div id="outline-container-orgdc636a8" class="outline-3">
-<h3 id="orgdc636a8"><span class="section-number-3">14.23</span> Gouvernement</h3>
+<div id="outline-container-org18f998d" class="outline-3">
+<h3 id="org18f998d"><span class="section-number-3">14.23</span> Gouvernement</h3>
 </div>
 
-<div id="outline-container-orgc890da5" class="outline-3">
-<h3 id="orgc890da5"><span class="section-number-3">14.24</span> Grammaire</h3>
+<div id="outline-container-org343f494" class="outline-3">
+<h3 id="org343f494"><span class="section-number-3">14.24</span> Grammaire</h3>
 <div class="outline-text-3" id="text-14-24">
 </div>
-<div id="outline-container-orgb7813f9" class="outline-4">
-<h4 id="orgb7813f9"><span class="section-number-4">14.24.1</span> Conjonctions</h4>
+<div id="outline-container-org8dc4929" class="outline-4">
+<h4 id="org8dc4929"><span class="section-number-4">14.24.1</span> Conjonctions</h4>
 <div class="outline-text-4" id="text-14-24-1">
 <dl class="org-dl">
-<dt>ar</dt><dd>​/ar/ (conj) et</dd>
-<dt>aen</dt><dd>​/aen/ (conj) et, mais</dd>
-<dt>og</dt><dd>​/oɡ/ (conj) et, cependant, toujours est-il que</dd>
-<dt>men</dt><dd>​/mɛn/ (conj) mais</dd>
-<dt>dhea</dt><dd>​/ðea/ (conj) mais, introduit une question</dd>
-<dt>némmé</dt><dd>​/nemːe/ (conj) excepté, à moins que</dd>
+<dt>ar</dt><dd>​<i>ar</i> (conj) et</dd>
+<dt>aen</dt><dd>​<i>aen</i> (conj) et, mais</dd>
+<dt>og</dt><dd>​<i>oɡ</i> (conj) et, cependant, toujours est-il que</dd>
+<dt>men</dt><dd>​<i>mɛn</i> (conj) mais</dd>
+<dt>zea</dt><dd>​<i>ðea</i> (conj) mais, introduit une question</dd>
+<dt>némmé</dt><dd>​<i>nemːe</i> (conj) excepté, à moins que</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-orga2db227" class="outline-4">
-<h4 id="orga2db227"><span class="section-number-4">14.24.2</span> Prépositions</h4>
+<div id="outline-container-org02e16a9" class="outline-4">
+<h4 id="org02e16a9"><span class="section-number-4">14.24.2</span> Prépositions</h4>
 <div class="outline-text-4" id="text-14-24-2">
 <dl class="org-dl">
-<dt>tél</dt><dd>​/tel/ (prep) pour, afin</dd>
-<dt>thiv</dt><dd>​/θiv/ (prep) pour la raison de, du fait de.</dd>
+<dt>tél</dt><dd>​<i>tel</i> (prep) pour, afin</dd>
+<dt>siv</dt><dd>​<i>θiv</i> (prep) pour la raison de, du fait de.</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org1eece48" class="outline-3">
-<h3 id="org1eece48"><span class="section-number-3">14.25</span> Guerre</h3>
+<div id="outline-container-orgbaceb38" class="outline-3">
+<h3 id="orgbaceb38"><span class="section-number-3">14.25</span> Guerre</h3>
 <div class="outline-text-3" id="text-14-25">
 <dl class="org-dl">
-<dt>laette</dt><dd>​/ˈlaetːɛ/ perdre, se rendre, abandonner</dd>
+<dt>laette</dt><dd>​<i>ˈlaetːɛ</i> perdre, se rendre, abandonner</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orgd2f8ec9" class="outline-3">
-<h3 id="orgd2f8ec9"><span class="section-number-3">14.26</span> Légal</h3>
+<div id="outline-container-org497a289" class="outline-3">
+<h3 id="org497a289"><span class="section-number-3">14.26</span> Légal</h3>
 </div>
 
-<div id="outline-container-orgdf881f7" class="outline-3">
-<h3 id="orgdf881f7"><span class="section-number-3">14.27</span> Lieux</h3>
+<div id="outline-container-org763da43" class="outline-3">
+<h3 id="org763da43"><span class="section-number-3">14.27</span> Lieux</h3>
 </div>
 
-<div id="outline-container-orgc1ed9f7" class="outline-3">
-<h3 id="orgc1ed9f7"><span class="section-number-3">14.28</span> Lumière</h3>
+<div id="outline-container-orgd6a1b5a" class="outline-3">
+<h3 id="orgd6a1b5a"><span class="section-number-3">14.28</span> Lumière</h3>
 </div>
 
-<div id="outline-container-orgd47b56f" class="outline-3">
-<h3 id="orgd47b56f"><span class="section-number-3">14.29</span> Mental</h3>
+<div id="outline-container-org24fce76" class="outline-3">
+<h3 id="org24fce76"><span class="section-number-3">14.29</span> Mental</h3>
 </div>
 
-<div id="outline-container-orgf162cac" class="outline-3">
-<h3 id="orgf162cac"><span class="section-number-3">14.30</span> Mesures</h3>
+<div id="outline-container-org4d911c1" class="outline-3">
+<h3 id="org4d911c1"><span class="section-number-3">14.30</span> Mesures</h3>
 </div>
 
-<div id="outline-container-org151f9b8" class="outline-3">
-<h3 id="org151f9b8"><span class="section-number-3">14.31</span> Métaux</h3>
+<div id="outline-container-org7364fd4" class="outline-3">
+<h3 id="org7364fd4"><span class="section-number-3">14.31</span> Métaux</h3>
 </div>
 
-<div id="outline-container-orgd818b86" class="outline-3">
-<h3 id="orgd818b86"><span class="section-number-3">14.32</span> Mouvements</h3>
+<div id="outline-container-org85bc4e0" class="outline-3">
+<h3 id="org85bc4e0"><span class="section-number-3">14.32</span> Mouvements</h3>
 <div class="outline-text-3" id="text-14-32">
 <dl class="org-dl">
-<dt>o commén</dt><dd>​/o komːen/ (v) venir, arriver</dd>
-<dt>o ga</dt><dd>​/o ɡa/ (v) aller</dd>
+<dt>o commén</dt><dd>​<i>o komːen</i> (v) venir, arriver</dd>
+<dt>o ga</dt><dd>​<i>o ɡa</i> (v) aller</dd>
 <dt>o ljegga</dt><dd><i>o ˈljeɡːa</i> (v) aller à travers champs, sans suivre de chemin, errer</dd>
-<dt>thcort</dt><dd>​/θkort/ (adj) rapide</dd>
+<dt>scort</dt><dd>​<i>θkort</i> (adj) rapide</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org3c5538a" class="outline-3">
-<h3 id="org3c5538a"><span class="section-number-3">14.33</span> Nature</h3>
+<div id="outline-container-orge0f199e" class="outline-3">
+<h3 id="orge0f199e"><span class="section-number-3">14.33</span> Nature</h3>
 <div class="outline-text-3" id="text-14-33">
 <dl class="org-dl">
-<dt>velt</dt><dd>​/vɛlt/ (n) monde, la Terre</dd>
+<dt>velt</dt><dd>​<i>vɛlt</i> (n) monde, la Terre</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-org34b529e" class="outline-3">
-<h3 id="org34b529e"><span class="section-number-3">14.34</span> Nombres</h3>
+<div id="outline-container-org0036cce" class="outline-3">
+<h3 id="org0036cce"><span class="section-number-3">14.34</span> Nombres</h3>
 <div class="outline-text-3" id="text-14-34">
 <dl class="org-dl">
-<dt>norm</dt><dd>​/norm/ (n) nombre, numéro (ordinal)</dd>
-<dt>al</dt><dd>​/al/ (adj) tout, tous</dd>
+<dt>norm</dt><dd>​<i>norm</i> (n) nombre, numéro (ordinal)</dd>
+<dt>al</dt><dd>​<i>al</i> (adj) tout, tous</dd>
 </dl>
 </div>
-<div id="outline-container-org75d9ffe" class="outline-4">
-<h4 id="org75d9ffe"><span class="section-number-4">14.34.1</span> Nombres cardinaux</h4>
+<div id="outline-container-orgfaa57f6" class="outline-4">
+<h4 id="orgfaa57f6"><span class="section-number-4">14.34.1</span> Nombres cardinaux</h4>
 <div class="outline-text-4" id="text-14-34-1">
 <p>
-Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a>), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
+Comme présenté dans le chapitre sur les nombres (§<a href="#orgf93bdbc">12</a>), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
 </p>
 <table>
 
@@ -4817,7 +4852,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">3</td>
-<td class="org-left">dhe</td>
+<td class="org-left">ze</td>
 </tr>
 
 <tr>
@@ -4827,7 +4862,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">5</td>
-<td class="org-left">dheif</td>
+<td class="org-left">zeif</td>
 </tr>
 
 <tr>
@@ -4837,7 +4872,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">7</td>
-<td class="org-left">thean</td>
+<td class="org-left">sean</td>
 </tr>
 
 <tr>
@@ -4862,7 +4897,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">30</td>
-<td class="org-left">dhjea</td>
+<td class="org-left">zjea</td>
 </tr>
 
 <tr>
@@ -4872,7 +4907,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">50</td>
-<td class="org-left">dheig</td>
+<td class="org-left">zeig</td>
 </tr>
 
 <tr>
@@ -4882,7 +4917,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">70</td>
-<td class="org-left">thjeg</td>
+<td class="org-left">sjeg</td>
 </tr>
 
 <tr>
@@ -4902,7 +4937,7 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 
 <tr>
 <td class="org-right">1000</td>
-<td class="org-left">tanthen</td>
+<td class="org-left">tansen</td>
 </tr>
 
 <tr>
@@ -4925,57 +4960,57 @@ Comme présenté dans le chapitre sur les nombres (§<a href="#org1fa6da4">12</a
 </div>
 </div>
 
-<div id="outline-container-org451c967" class="outline-3">
-<h3 id="org451c967"><span class="section-number-3">14.35</span> Nourriture</h3>
+<div id="outline-container-org5a383ef" class="outline-3">
+<h3 id="org5a383ef"><span class="section-number-3">14.35</span> Nourriture</h3>
 <div class="outline-text-3" id="text-14-35">
 <dl class="org-dl">
-<dt>o thpich</dt><dd>​/o θpiç/ (v) (vulgaire) manger, bouffer</dd>
-<dt>o etan</dt><dd>​/o ɛtan/ (v) manger</dd>
+<dt>o spich</dt><dd>​<i>o θpiç</i> (v) (vulgaire) manger, bouffer</dd>
+<dt>o etan</dt><dd>​<i>o ɛtan</i> (v) manger</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-orgd45656d" class="outline-3">
-<h3 id="orgd45656d"><span class="section-number-3">14.36</span> Outils</h3>
+<div id="outline-container-org9cbdde6" class="outline-3">
+<h3 id="org9cbdde6"><span class="section-number-3">14.36</span> Outils</h3>
 <div class="outline-text-3" id="text-14-36">
 <dl class="org-dl">
-<dt>wachen</dt><dd>​/ˈwaçɛn/ (n) voiture</dd>
+<dt>wachen</dt><dd>​<i>ˈwaçɛn</i> (n) voiture</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-orgc025c3c" class="outline-3">
-<h3 id="orgc025c3c"><span class="section-number-3">14.37</span> Parole</h3>
+<div id="outline-container-org89e5ba5" class="outline-3">
+<h3 id="org89e5ba5"><span class="section-number-3">14.37</span> Parole</h3>
 <div class="outline-text-3" id="text-14-37">
 <dl class="org-dl">
-<dt>o seg</dt><dd>​/o sɛɡ/ (v) dire</dd>
+<dt>o seg</dt><dd>​<i>o sɛɡ</i> (v) dire</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-orgfe67132" class="outline-3">
-<h3 id="orgfe67132"><span class="section-number-3">14.38</span> Péchés</h3>
+<div id="outline-container-org41a97b0" class="outline-3">
+<h3 id="org41a97b0"><span class="section-number-3">14.38</span> Péchés</h3>
 </div>
 
-<div id="outline-container-orgbe8e76b" class="outline-3">
-<h3 id="orgbe8e76b"><span class="section-number-3">14.39</span> Physique</h3>
+<div id="outline-container-orgc488c9c" class="outline-3">
+<h3 id="orgc488c9c"><span class="section-number-3">14.39</span> Physique</h3>
 </div>
 
-<div id="outline-container-orgbd505eb" class="outline-3">
-<h3 id="orgbd505eb"><span class="section-number-3">14.40</span> Possession</h3>
+<div id="outline-container-org0f95d48" class="outline-3">
+<h3 id="org0f95d48"><span class="section-number-3">14.40</span> Possession</h3>
 </div>
 
-<div id="outline-container-orgaec27f9" class="outline-3">
-<h3 id="orgaec27f9"><span class="section-number-3">14.41</span> Religion</h3>
+<div id="outline-container-orgc2fcd94" class="outline-3">
+<h3 id="orgc2fcd94"><span class="section-number-3">14.41</span> Religion</h3>
 </div>
 
-<div id="outline-container-org7d095b0" class="outline-3">
-<h3 id="org7d095b0"><span class="section-number-3">14.42</span> Savoir</h3>
+<div id="outline-container-org5c20a64" class="outline-3">
+<h3 id="org5c20a64"><span class="section-number-3">14.42</span> Savoir</h3>
 <div class="outline-text-3" id="text-14-42">
 <dl class="org-dl">
-<dt>o cyn</dt><dd>​/o kyn/ (v) savoir</dd>
-<dt>o sjea</dt><dd>​/o sjea/ (v) connaître, savoir superficiellement</dd>
-<dt>o vitté</dt><dd>​/o ˈvitːe/ (v) savoir, connaître, être conscient de</dd>
+<dt>o cyn</dt><dd>​<i>o kyn</i> (v) savoir</dd>
+<dt>o sjea</dt><dd>​<i>o sjea</i> (v) connaître, savoir superficiellement</dd>
+<dt>o vitté</dt><dd>​<i>o ˈvitːe</i> (v) savoir, connaître, être conscient de</dd>
 </dl>
 <p>
 En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement &lt;o sjea&gt;, avoir une connaissance plus approfondie du sujet &lt;o cyn&gt; ou bien avoir une véritable maîtrise de la connaissance sur le sujet &lt;o vitté&gt;. Par exemple, une personne connaissant de nom une langue dira &lt;cheg an tyngant sjeae&gt; (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira &lt;cheg an tyngant cyne&gt; (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira &lt;cheg an tyngant vittée&gt; (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
@@ -4983,86 +5018,86 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 </div>
 </div>
 
-<div id="outline-container-org77ed0bb" class="outline-3">
-<h3 id="org77ed0bb"><span class="section-number-3">14.43</span> Sensations</h3>
+<div id="outline-container-org8cf1a0e" class="outline-3">
+<h3 id="org8cf1a0e"><span class="section-number-3">14.43</span> Sensations</h3>
 </div>
 
-<div id="outline-container-orgf0cdd5d" class="outline-3">
-<h3 id="orgf0cdd5d"><span class="section-number-3">14.44</span> Sexe</h3>
+<div id="outline-container-org128f269" class="outline-3">
+<h3 id="org128f269"><span class="section-number-3">14.44</span> Sexe</h3>
 </div>
 
-<div id="outline-container-org45b6a07" class="outline-3">
-<h3 id="org45b6a07"><span class="section-number-3">14.45</span> Société</h3>
+<div id="outline-container-org67b02b1" class="outline-3">
+<h3 id="org67b02b1"><span class="section-number-3">14.45</span> Société</h3>
 <div class="outline-text-3" id="text-14-45">
 </div>
-<div id="outline-container-orgead282a" class="outline-4">
-<h4 id="orgead282a"><span class="section-number-4">14.45.1</span> Relations sociales</h4>
+<div id="outline-container-org7b61f8c" class="outline-4">
+<h4 id="org7b61f8c"><span class="section-number-4">14.45.1</span> Relations sociales</h4>
 <div class="outline-text-4" id="text-14-45-1">
 <dl class="org-dl">
-<dt>je</dt><dd>​/jɛ/ (adv, inform.) ouais</dd>
-<dt>jea</dt><dd>​/jea/ (adv) oui</dd>
-<dt>ne</dt><dd>​/nɛ/ (adv, inform.) nan</dd>
-<dt>nea</dt><dd>​/nea/ (adv) non</dd>
+<dt>je</dt><dd>​<i>jɛ</i> (adv, inform.) ouais</dd>
+<dt>jea</dt><dd>​<i>jea</i> (adv) oui</dd>
+<dt>ne</dt><dd>​<i>nɛ</i> (adv, inform.) nan</dd>
+<dt>nea</dt><dd>​<i>nea</i> (adv) non</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org0eb738b" class="outline-3">
-<h3 id="org0eb738b"><span class="section-number-3">14.46</span> Substances</h3>
+<div id="outline-container-orga68f4fc" class="outline-3">
+<h3 id="orga68f4fc"><span class="section-number-3">14.46</span> Substances</h3>
 </div>
 
-<div id="outline-container-org831083e" class="outline-3">
-<h3 id="org831083e"><span class="section-number-3">14.47</span> Temps</h3>
+<div id="outline-container-orge7288e9" class="outline-3">
+<h3 id="orge7288e9"><span class="section-number-3">14.47</span> Temps</h3>
 <div class="outline-text-3" id="text-14-47">
 <dl class="org-dl">
-<dt>altidh</dt><dd>​/altið/ (adv) tout le temps</dd>
-<dt>daeg</dt><dd>​/daeɡ/ (n) jour</dd>
-<dt>gaern</dt><dd>​/ɡaern/ (n) année</dd>
-<dt>galm</dt><dd>​/ɡalm/ (adj) vieux, ancien</dd>
-<dt>gyrneg</dt><dd>​/ˈɡyrnɛɡ/ (n) moment du lever de soleil, matin</dd>
-<dt>menyth</dt><dd>​/ˈmɛnyθ/ (n) mois</dd>
-<dt>morg</dt><dd>​/morɡ/ (adv) demain</dd>
-<dt>nethty</dt><dd>​/ˈnɛθty/ (adj) prochain, suivant</dd>
-<dt>nu</dt><dd>​/nu/ (adv) maintenant, tout de suite</dd>
-<dt>o tebyr</dt><dd>​/o 'tɛbyr/ (v) passer (du temps)</dd>
-<dt>tidh</dt><dd>​/tið/ (n) temps</dd>
-<dt>thcyrm</dt><dd>​/θkyrm/ (n) crépuscule, moment du coucher de soleil</dd>
-<dt>voc</dt><dd>​/vok/ (n) semaine</dd>
+<dt>altiz</dt><dd>​<i>altið</i> (adv) tout le temps</dd>
+<dt>daeg</dt><dd>​<i>daeɡ</i> (n) jour</dd>
+<dt>gaern</dt><dd>​<i>ɡaern</i> (n) année</dd>
+<dt>galm</dt><dd>​<i>ɡalm</i> (adj) vieux, ancien</dd>
+<dt>gyrneg</dt><dd>​<i>ˈɡyrnɛɡ</i> (n) moment du lever de soleil, matin</dd>
+<dt>menys</dt><dd>​<i>ˈmɛnyθ</i> (n) mois</dd>
+<dt>morg</dt><dd>​<i>morɡ</i> (adv) demain</dd>
+<dt>nesty</dt><dd>​<i>ˈnɛθty</i> (adj) prochain, suivant</dd>
+<dt>nu</dt><dd>​<i>nu</i> (adv) maintenant, tout de suite</dd>
+<dt>o tebyr</dt><dd>​<i>o 'tɛbyr</i> (v) passer (du temps)</dd>
+<dt>tiz</dt><dd>​<i>tið</i> (n) temps</dd>
+<dt>scyrm</dt><dd>​<i>θkyrm</i> (n) crépuscule, moment du coucher de soleil</dd>
+<dt>voc</dt><dd>​<i>vok</i> (n) semaine</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-org813f42b" class="outline-3">
-<h3 id="org813f42b"><span class="section-number-3">14.48</span> Travail</h3>
+<div id="outline-container-org9e13990" class="outline-3">
+<h3 id="org9e13990"><span class="section-number-3">14.48</span> Travail</h3>
 </div>
 
-<div id="outline-container-org3182cd6" class="outline-3">
-<h3 id="org3182cd6"><span class="section-number-3">14.49</span> Végétaux</h3>
+<div id="outline-container-org3c7e574" class="outline-3">
+<h3 id="org3c7e574"><span class="section-number-3">14.49</span> Végétaux</h3>
 <div class="outline-text-3" id="text-14-49">
 </div>
-<div id="outline-container-org6224115" class="outline-4">
-<h4 id="org6224115"><span class="section-number-4">14.49.1</span> Fruits</h4>
+<div id="outline-container-org701be63" class="outline-4">
+<h4 id="org701be63"><span class="section-number-4">14.49.1</span> Fruits</h4>
 <div class="outline-text-4" id="text-14-49-1">
 <dl class="org-dl">
-<dt>eppel</dt><dd>​/ˈɛpːɛl/ (n) pomme</dd>
+<dt>eppel</dt><dd>​<i>ˈɛpːɛl</i> (n) pomme</dd>
 </dl>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org4066694" class="outline-3">
-<h3 id="org4066694"><span class="section-number-3">14.50</span> Vêtements</h3>
+<div id="outline-container-org1e4f193" class="outline-3">
+<h3 id="org1e4f193"><span class="section-number-3">14.50</span> Vêtements</h3>
 </div>
 
-<div id="outline-container-org46b6de0" class="outline-3">
-<h3 id="org46b6de0"><span class="section-number-3">14.51</span> Vie et santé</h3>
+<div id="outline-container-orgf0d8f8d" class="outline-3">
+<h3 id="orgf0d8f8d"><span class="section-number-3">14.51</span> Vie et santé</h3>
 <div class="outline-text-3" id="text-14-51">
 <dl class="org-dl">
-<dt>brydh</dt><dd>​/bryð/ (n) naissance</dd>
-<dt>brydhdeg</dt><dd>​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (<i>brydh</i> + <i>deg</i>)</dd>
-<dt>o bwén</dt><dd>​/o bwen/ (v) vivre, habiter</dd>
-<dt>gemmel</dt><dd>​/ɡɛmːɛl/ (adj) vieux, âgé</dd>
+<dt>bryz</dt><dd>​<i>bryð</i> (n) naissance</dd>
+<dt>bryzdeg</dt><dd>​<i>ˈbryðdɛɡ</i> (n) jour de naissance, anniversaire (<i>bryz</i> + <i>deg</i>)</dd>
+<dt>o bwén</dt><dd>​<i>o bwen</i> (v) vivre, habiter</dd>
+<dt>gemmel</dt><dd>​<i>ɡɛmːɛl</i> (adj) vieux, âgé</dd>
 </dl>
 <p>
 &lt;Gemmel&gt; peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer « tweg gaern gemmel be » (litt. « je suis vieux de vingt ans »).
@@ -5070,14 +5105,14 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 </div>
 </div>
 
-<div id="outline-container-org0fd3ddf" class="outline-3">
-<h3 id="org0fd3ddf"><span class="section-number-3">14.52</span> À trier</h3>
+<div id="outline-container-orge39e894" class="outline-3">
+<h3 id="orge39e894"><span class="section-number-3">14.52</span> À trier</h3>
 <div class="outline-text-3" id="text-14-52">
 <dl class="org-dl">
-<dt>o tynne</dt><dd>​/o ˈtynːɛ/ (v) perdre quelque chose</dd>
-<dt>meth</dt><dd>​/mɛθ/ (n) homme, personne</dd>
-<dt>gaet</dt><dd>​/ɡaet/ (n) rue, allée</dd>
-<dt>méllém</dt><dd>​/melːem/ (adv) entre (deux personnes)</dd>
+<dt>o tynne</dt><dd>​<i>o ˈtynːɛ</i> (v) perdre quelque chose</dd>
+<dt>mes</dt><dd>​<i>mɛθ</i> (n) homme, personne</dd>
+<dt>gaet</dt><dd>​<i>ɡaet</i> (n) rue, allée</dd>
+<dt>méllém</dt><dd>​<i>melːem</i> (adv) entre (deux personnes)</dd>
 </dl>
 
 <p>
@@ -5086,15 +5121,15 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 </div>
 </div>
 </div>
-<div id="outline-container-org58d42ba" class="outline-2">
-<h2 id="org58d42ba"><span class="section-number-2">15</span> Annexes</h2>
+<div id="outline-container-org0e65178" class="outline-2">
+<h2 id="org0e65178"><span class="section-number-2">15</span> Annexes</h2>
 <div class="outline-text-2" id="text-15">
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Auteur: Lucien Cartier-Tilet</p>
-<p class="date">Created: 2019-03-11 lun. 17:08</p>
+<p class="date">Created: 2019-03-19 mar. 00:06</p>
 <p class="validation"></p>
 </div>
 </body>

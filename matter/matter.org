@@ -22,7 +22,15 @@
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
 #+MACRO: if-latex-else (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "$1" "$2"))
+#+MACRO: if-latex-html-else (eval (cond ((org-export-derived-backend-p org-export-current-backend 'latex) "$1") ((org-export-derived-backend-p org-export-current-backend 'html) "$2") (t "$3") ))
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
+#+MACRO: latex-html @@latex:$1@@ @@html:$2@@
+#+NAME: last-update
+#+BEGIN_SRC shell :exports none :results silent
+  date '+Dernière mise à jour le %d/%m/%y à %H:%M'
+#+END_SRC
+#+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
+
 #+OPTIONS: H:4
 #+OPTIONS: toc:nil
 src_latex{\newpage}
@@ -31,6 +39,8 @@ src_latex{\newpage}
 
 * Avant-propos
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
+
+{{{last-update}}}
 
 src_latex{\newpage}
 * Introduction
@@ -894,48 +904,49 @@ Typographiquement parlant, les multiplicateurs s’agglomèrent avec l’éléme
 
 src_latex{\newpage}
 * Système d’écriture
+
 Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
 #+CAPTION:Runes du Mattér
-| /                     | <                                      |
-| phonème (transcrit)   | rune                                   |
-|-----------------------+----------------------------------------|
-| f                     | {{{if-latex-else(\\textara{f},ᚠ)}}}    |
-| u                     | {{{if-latex-else(\\textara{u},ᚢ)}}}    |
-| s                     | {{{if-latex-else(\\textara{þ},ᚦ)}}}    |
-| o                     | {{{if-latex-else(\\textara{o},ᚩ)}}}    |
-| r                     | {{{if-latex-else(\\textara{r},ᚱ)}}}    |
-| c                     | {{{if-latex-else(\\textara{c},ᚳ)}}}    |
-| g                     | {{{if-latex-else(\\textara{g},ᚷ)}}}    |
-| w                     | {{{if-latex-else(\\textara{w},ᚹ)}}}    |
-| h                     | {{{if-latex-else(\\textara{h},ᚻ)}}}    |
-| ch                    | {{{if-latex-else(\\textara{I},ᛇ)}}}    |
-| n                     | {{{if-latex-else(\\textara{n},ᚾ)}}}    |
-| i                     | {{{if-latex-else(\\textara{i},ᛁ)}}}    |
-| j                     | {{{if-latex-else(\\textara{j},ᛄ)}}}    |
-| p                     | {{{if-latex-else(\\textara{p},ᛈ)}}}    |
-| z                     | {{{if-latex-else(\\textara{s},ᛋ)}}}    |
-| v                     | {{{if-latex-else(\\textara{\\ng},ᛝ)}}} |
-| t                     | {{{if-latex-else(\\textara{t},ᛏ)}}}    |
-| b                     | {{{if-latex-else(\\textara{b},ᛒ)}}}    |
-| e                     | {{{if-latex-else(\\textara{e},ᛖ)}}}    |
-| m                     | {{{if-latex-else(\\textara{m},ᛗ)}}}    |
-| l                     | {{{if-latex-else(\\textara{l},ᛚ)}}}    |
-| d                     | {{{if-latex-else(\\textara{d},ᛞ)}}}    |
-| é                     | {{{if-latex-else(\\textara{\\oe},ᛟ)}}} |
-| a                     | {{{if-latex-else(\\textara{a},ᚪ)}}}    |
-| y                     | {{{if-latex-else(\\textara{y},ᚣ)}}}    |
-| ae                    | {{{if-latex-else(\\textara{æ},ᚫ)}}}    |
-| ea                    | {{{if-latex-else(\\textara{\\ea},ᛠ)}}} |
-| séparateur de mots    | {{{if-latex-else(\\textara{.},᛫)}}}    |
-| marquer de pauses     | {{{if-latex-else(\\textara{:},᛬)}}}    |
-| séparateur de phrases | {{{if-latex-else(\\textara{*},᛭)}}}    |
+| /                     | <                                 |
+| phonème (transcrit)   | rune                              |
+|-----------------------+-----------------------------------|
+| f                     | {{{latex-html(\textara{f},ᚠ)}}}   |
+| u                     | {{{latex-html(\textara{u},ᚢ)}}}   |
+| s                     | {{{latex-html(\textara{þ},ᚦ)}}}   |
+| o                     | {{{latex-html(\textara{o},ᚩ)}}}   |
+| r                     | {{{latex-html(\textara{r},ᚱ)}}}   |
+| c                     | {{{latex-html(\textara{c},ᚳ)}}}   |
+| g                     | {{{latex-html(\textara{g},ᚷ)}}}   |
+| w                     | {{{latex-html(\textara{w},ᚹ)}}}   |
+| h                     | {{{latex-html(\textara{h},ᚻ)}}}   |
+| ch                    | {{{latex-html(\textara{I},ᛇ)}}}   |
+| n                     | {{{latex-html(\textara{n},ᚾ)}}}   |
+| i                     | {{{latex-html(\textara{i},ᛁ)}}}   |
+| j                     | {{{latex-html(\textara{j},ᛄ)}}}   |
+| p                     | {{{latex-html(\textara{p},ᛈ)}}}   |
+| z                     | {{{latex-html(\textara{s},ᛋ)}}}   |
+| v                     | {{{latex-html(\textara{\ng},ᛝ)}}} |
+| t                     | {{{latex-html(\textara{t},ᛏ)}}}   |
+| b                     | {{{latex-html(\textara{b},ᛒ)}}}   |
+| e                     | {{{latex-html(\textara{e},ᛖ)}}}   |
+| m                     | {{{latex-html(\textara{m},ᛗ)}}}   |
+| l                     | {{{latex-html(\textara{l},ᛚ)}}}   |
+| d                     | {{{latex-html(\textara{d},ᛞ)}}}   |
+| é                     | {{{latex-html(\textara{\oe},ᛟ)}}} |
+| a                     | {{{latex-html(\textara{a},ᚪ)}}}   |
+| y                     | {{{latex-html(\textara{y},ᚣ)}}}   |
+| ae                    | {{{latex-html(\textara{æ},ᚫ)}}}   |
+| ea                    | {{{latex-html(\textara{\ea},ᛠ)}}} |
+| séparateur de mots    | {{{latex-html(\textara{.},᛫)}}}   |
+| marquer de pauses     | {{{latex-html(\textara{:},᛬)}}}   |
+| séparateur de phrases | {{{latex-html(\textara{*},᛭)}}}   |
 
 Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème. Cet alphabet est généralement utilisé lors d’écritures horizontales de droite à gauche et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
 
 Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :{{{newline}}}
 Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newline}}}
 Mattér (transcrit) : morgoch, gyrnegac scyrmém, si y ficjanur.{{{newline}}}
-Mattér (runes) : {{{if-latex-else(\\textara{morgoI:gyrnegac.þcyrm\\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
+Mattér (runes) : {{{latex-html(\textara{morgoI:gyrnegac.þcyrm\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
 
 Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
 #+CAPTION:Caractères latins du Mattér
@@ -953,15 +964,15 @@ Le Mattér peut également être écrit avec les caractères romains comme fait 
 Ainsi, des mots tels que <bryz> ou <spich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
 #+CAPTION:Exemples d’écritures native du Mattér
-| /                | <     | <                                           |
-| translittération | latin | runique                                     |
-|------------------+-------+---------------------------------------------|
-| bryz             | bryð  | {{{if-latex-else(\\textara{brys},ᛒᚱᚣᛋ)}}}   |
-| spich            | þpiȝ  | {{{if-latex-else(\\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
-| jea              | iea   | {{{if-latex-else(\\textara{j\\ea},ᛄᛠ)}}}    |
-| maend            | mænd  | {{{if-latex-else(\\textara{mænd},ᛗᚫᚾᛞ)}}}   |
-| nesty            | neþty | {{{if-latex-else(\\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
-| wachen           | ƿaȝen | {{{if-latex-else(\\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
+| /                | <     | <                                       |
+| translittération | latin | runique                                 |
+|------------------+-------+-----------------------------------------|
+| bryz             | bryð  | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}   |
+| spich            | þpiȝ  | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
+| jea              | iea   | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}     |
+| maend            | mænd  | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}   |
+| nesty            | neþty | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
+| wachen           | ƿaȝen | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
 
 src_latex{\newpage}
 * Glossaire
