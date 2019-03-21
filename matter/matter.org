@@ -50,20 +50,26 @@ Cette langue est un projet à part de mon univers littéraire et fut créé dans
 
 src_latex{\newpage}
 * Description du lexique
-Le lexique du Mattér sera largement inspiré par des racines nordiques (Suédois, Norvégien, Danois), germaniques (Allemand principalement) et du Vieil Anglais, ainsi qu’occasionellement du Latin.
+Les racines de la langue sont créées principalement à partir de termes en Vieux Nordique ou d’autres langues nordiques modernes (Suédois, Norvégien, Danois), parfois à partir de langues germaniques (principalement l’Allemand), et occasionellement à partir de Vieil Anglais et de Latin. Cependant, la piste privilégiée est la création de mots à partir de racines déjà existantes, souvent avec la fusion de deux termes ensemble. Cela se produit souvent via l’apposition des premières syllabes des racines ensembles. Par exemple, <wachen> et <mein> (respectivement « voiture » et « douleur ») fusionnent en <meinwach> pour « ambulance ». Cette méthode de création de termes avec uniquement une partie des syllabes des racines du nouveau mot permet au Mattér de conserver des termes avec relativement peu de syllabes ; ces derniers se composent en effet de une à quatre syllabes dans la large majorité des cas sans inflexion, sans déclinaison et sans clitique ajoutée.
 
 src_latex{\newpage}
 * Phonologie
-** Notes sur la romanisation du Mattér
-Comme vous avez pu vous en rendre compte aux chapitres §[[*Consonnes]] et §[[*Voyelles]], le Mattér dispose de deux orthographes possibles, la transcription phonétique en IPA (/International Phonetic Alphabet/), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[*Allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique générale, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique rapprochée sera nécessaire pour avoir la prononciation exacte.
+** Notes sur la transcription du Mattér
+Comme vous pourrez vous en rendre compte aux chapitres §[[*Consonnes]] et §[[*Voyelles]], le Mattér dispose de deux transcriptions phonétiques possibles, la transcription en IPA (/International Phonetic Alphabet/), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[*Allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique générale, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique rapprochée sera nécessaire pour avoir la prononciation exacte.
 
-La transcription phonétique générale sera ​/entre barres obliques/, la transcription phonétique rapprochée sera [entre crochets] tandis que des éléments translittérés du Mattér seront <entre chevrons>.
+La transcription phonétique sera donnée [entre crochets], tandis que des éléments translittérés du Mattér seront <entre chevrons>. La transcription phonétique sera la prononciation générale, et occasionellement quand indiqué la phonétique [entre crochets] pourra également être une phonétique rapprochée, dénotant une plus grande précision phonétique, notamment dans le chapitre sur l’allophonie (§[[*Allophonie]]) ci-dessous.
+
+Il existe également des systèmes d’écritures natifs au Mattér, la méthode d’écriture originale en runes et sa romanisation, mais ces deux systèmes ne seront utilisé que dans leur chapitre dédié vers la fin de cet ouvrage (§[[*Syst%C3%A8me d%E2%80%99%C3%A9criture]]).
 
 ** Inventaire phonétique
-Comme mentionné en introduction (§[[*Introduction]]), le Mattér est une langue dont la phonologie est inspirée de langues latines, en particulier le Latin lui-même, et les langues elfiques de Tolkien.
+L’inventaire phonétique est l’une des signatures d’une langue qui se remarque le plus rapidement. Il s’agit de la collection des sons utilisés en Mattér, ceux que peuvent prononcer ses locuteurs et pouvant être utilisés dans un discourt lors de la production de mots et de phrases. Les phonèmes sont les unités sonores les plus petites constatables dans une langue.
+
+On distingue généralement deux catégories de phonèmes : les voyelles, dont la production se fait sans obstruction du passage de l’air dans la bouche, et les consonnes où un certain type d’obstruction au passage de l’air se réalise le plus souvent. Par exemple, le [y] (tel que le <u> de « lune » en Français) se prononce avec les lèvres arrondies, la bouche presque fermée et la langue relevée, alors que le [p] se caractérisera par l’arrêt puis le relâchement soudain de l’air au niveau des deux lèvres sans faire vibrer les cordes vocales en même temps. Ils existent également les diphtongues qui sont considérées par certaines langues, comme par example l’Anglais, qui considère une association de deux voyelles comme étant une voyelle unique. Tout cela sera expliqué plus en détails ci-dessous.
+
+Comme mentionné en introduction (§[[*Introduction]]), le choix de l’inventaire phonétique du Mattér s’est basé sur l’inventaire phonétique de langues elfiques créées par Tolkien, notemment le Sindarin.
 
 *** Consonnes
-Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §[[*Notes sur la romanisation du Matt%C3%A9r]] concernant la translittération).
+Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §[[*Notes sur la transcription du Matt%C3%A9r]] concernant la translittération).
 
 #+CAPTION: Consonnes du Mattér (IPA)
 |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
@@ -104,14 +110,14 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
 - n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
 - p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
-- r :: Ce <r> peut être retrouvé en Espagnol « caro » [ˈkaɾo̞], en Catalan « mira » [ˈmiɾə] ou encore en Anglais  dans « three » [θɾiː]. Il s’agit d’une consonne alvéolaire roulée voisée [ɾ]. Par convention, on notera phonétiquement le [ɾ] par un [r].
+- r :: Ce <r> peut être retrouvé en Espagnol « perro » [ˈpe̞ro̞], en Tchèque dans « chlor » [xlɔ̝ːr] ou encore en Anglais Écossais « curd » [kʌrd]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
 - s :: Attention, il ne s’agit pas de l’équivalent du <s> français ! Il s’agit de la contrepartie sourde de <z> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
 - t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Hjelp est la consonne occlusive alvéolaire sourde [t].
 - v :: Le <v> du Hjelp peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
 - w :: Le <w> est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].
 - z :: Attention, il ne s’agit pas de l’équivalent du <z> français ! Cette consonne <z> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
 
-Les consonnes nasales, occlusives ainsi que le ​/l/ peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé ​/tː/, et <Mattér> sera prononcé ​/'mat:er/.
+Les consonnes nasales, occlusives ainsi que le [l] peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé [tː], et <Mattér> sera prononcé ['mat:er].
 
 *** Voyelles
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
@@ -133,7 +139,7 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 |   | mi-ouvertes | e           |              |
 |   | ouvertes    | a           |              |
 
-On peut constater que le Mattér est une langue disposant d’une complexité modeste concernant ses cinq voyelles antérieures et d’une simplicité apparente concernant ses deux voyelles postérieures. On notera également que le ​/ə/ est noté entre crochets du fait de sa situation en Mattér en tant qu’allophone (voir le chapitre §[[*Allophonie]]) et jamais en tant que voyelle existant par elle-même. Cela implique également son absence du tableau de translittération.
+On peut constater que le Mattér est une langue disposant d’une complexité modeste concernant ses cinq voyelles antérieures et d’une simplicité apparente concernant ses deux voyelles postérieures. On notera également que le [ə] est noté entre crochets du fait de sa situation en Mattér en tant qu’allophone (voir le chapitre §[[*Allophonie]]) et jamais en tant que voyelle existant par elle-même. Cela implique également son absence du tableau de translittération.
 
 Voici ci-dessous la description de chacune de ces voyelles :
 - a :: Il s’agit de la voyelle antérieure ouverte non-arrondie [a] que l’on retrouve dans « patte » [pat] en Français.
@@ -143,31 +149,30 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [o] que l’on peut retrouver dans « hôtel » [o.tɛl].
 - u :: On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs] ou en Français dans « tout » [t̪u]. Il s’agit de la voyelle postérieure fermée arrondie [u].
 - y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ], en Hongrois avec « tű » [t̪yː] ou tout simplement en Français dans « lune » [lyn]. Il s’agit de la voyelle antérieure fermée arrondie [y].
-- ​/ə/ :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
+- [ə] :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
 *** Diphtonges
-Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « ​/I/ » prononcé ​/aɪ/. Voici la liste des diphtongues existant en Hjelp :
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Hjelp :
 
 #+CAPTION:Diphtongues du Mattér
-| ​/ɛi/ | ​/ai/ |
-| ​/ea/ | ​/ae/ |
-| ​/eu/ | ​/au/ |
-| ​/ou/ |      |
+| [ɛi] | [ai] |
+| [ea] | [ae] |
+| [eu] | [au] |
+| [ou] |      |
 
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du ​/ei/ qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du [ei] qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
-- S’il est suivi d’une voyelle dans le même mot, le ​/i/ se transorme en la semi-consonne ​/j/. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> soit une clitique accolée à <tere>.
-- Le ​/i/ peut également se prononcer ​/ɪ/ dans certains cas, comme dans les diphones, devant un ​/ç/, ​/j/, ​/w/ ou ​/l/, selon le locuteur. Exemple : <neich> ​/nɛiç/ [nɛɪç]
-- Le ​/a/ non accentué et placé dans une syllabe n’étant pas la dernière d’un mot se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu.
-- Si un ​/ɛ/ suit un ​/e/ et vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : <tereém> se prononce [tɛɾreːm]
-- Si un ​/e/ suit un ​/ɛ/, alors le ​/e/ devient un ​/ɛ/.
-- Le ​/l/ se transforme en « <l> sombre » ​/ɫ/ en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> ​/mael/ [maeɫ]
-- Le ​/lː/ se prononce ​/ɫː/ dans toutes ses occurences.
-- Le ​/h/ se transforme en ​/ç/ s’il est suivi par un ​/j/, un ​/e/ ou un ​/i/. Exemple : <hét> ​/het/ [çet]
-- Si le ​/h/ se trouve entre deux voyelles, il se produira comme un [ɦ].
-- Le ​/ɾ/ se prononcera ​/r/ au contact d’une autre consonne, excepté pour ​/w/ et ​/j/.
+- S’il est suivi d’une voyelle dans le même mot, le [i] se transorme en la semi-consonne [j]. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> soit une clitique accolée à <tere>.
+- Le [i] peut également se prononcer [ɪ] dans certains cas, comme dans les diphones, devant un [ç], [j], [w] ou [l], selon le locuteur. Exemple : <neich> [nɛɪç]
+- Le [a] non accentué et placé dans une syllabe n’étant pas la dernière d’un mot se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu.
+- Si un [ɛ] suit un [e] ou vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : <tereém> se prononce [tɛreːm]
+- Le [l] se transforme en « <l> sombre » [ɫ] en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> [maeɫ]
+- Le [l] géminé [lː] se prononce [ɫː] dans toutes ses occurences.
+- Le [h] se transforme en [ç] s’il est suivi par un [j], un [e] ou un [i]. Exemple : <hét> [çet]
+- Si le [h] se trouve entre deux voyelles, il se produira comme un [ɦ].
+- Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
 
 ** Phonotaxes
 Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
@@ -176,30 +181,30 @@ Concernant les consonnes, différentes règles s’appliquent selon la situation
 
 *** Attaque
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter d’aucune consonne à deux consonnes ne contenant pas de semi-voyelle, trois avec une semi-voyelle comme consonne finale.
-- Le ​/j/ ne peut être suivi par un ​/i/.
-- Le ​/w/ ne peut être suivi par une voyelle postérieure.
-- Les fricatives et occlusives peuvent être suivies par un ​/r/ ou un ​/l/, ou par une semi-voyelle.
-- Les fricatives peuvent être suivies par une occlusive, par un ​/r/ ou un ​/l/.
-- Le ​/ç/ ne peut être suivi par une occlusive voisée.
-- Le ​/h/ ne peut être suivi que par un ​/j/ ou un ​/w/ et ne peut pas suivre une autre consonne.
+- Le [j] ne peut être suivi par un [i].
+- Le [w] ne peut être suivi par une voyelle postérieure.
+- Les fricatives et occlusives peuvent être suivies par un [r] ou un [l], ou par une semi-voyelle.
+- Les fricatives peuvent être suivies par une occlusive, par un [r] ou un [l].
+- Le [ç] ne peut être suivi par une occlusive voisée.
+- Le [h] ne peut être suivi que par un [j] ou un [w] et ne peut pas suivre une autre consonne.
 
 *** Coda
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
-- Les semi-consonnes ​/j/ et ​/w/ ne peuvent se situer dans le coda.
-- Les consonnes ​/r/ et ​/l/ peuvent être suivies par une consonne nasale, occlusive ou fricative.
+- Les semi-consonnes [j] et [w] ne peuvent se situer dans le coda.
+- Les consonnes [r] et [l] peuvent être suivies par une consonne nasale, occlusive ou fricative.
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 - Les nasales peuvent êtres suivies par une occlusive ou une fricative.
 - Les occlusives sourdes peuvent être suivies par un <s>.
 - Les occlusives voisées peuvent être suivies par un <z>.
-- Le ​/h/ ne peut pas se situer dans le coda.
+- Le [h] ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
 Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
 - Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
-- Les consonnes occlusives peuvent être suivies par une fricative, par un ​/r/ ou un ​/l/.
+- Les consonnes occlusives peuvent être suivies par une fricative, par un [r] ou un [l].
 - Les consonnes bilabiales peuvent être suivies par des occlusives voisées.
-- Le ​​/h/, tel que dans l’attaque, ne peut s’associer qu’avec le ​/j/ ou le ​/w/ qui le suivent.
+- Le [h], tel que dans l’attaque, ne peut s’associer qu’avec le [j] ou le [w] qui le suivent.
 - Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.
 
 ** Accentuation
@@ -977,7 +982,7 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 src_latex{\newpage}
 * Glossaire
 
-- mot en Mattér :: ​/phonétique/ (élément de langage) Définition(s)
+- mot en Mattér :: [phonétique] (élément de langage) Définition(s)
 
 Abréviations :
 - adj : adjectif
@@ -988,42 +993,43 @@ Abréviations :
 - pl : pluriel
 - pron : pronom
 - sg : singulier
-- v : verbe
+- vi : verbe intransitif
+- vt : verbe transitif
 
 ** Actions physiques
 
 ** Amour
 
 ** Animaux
-- bern :: ​/bɛrn/ (n) ours
-- cat :: ​/kat/ (n) chat
-- ficjan :: ​/ˈfikjan/ (n) poisson
-- o ficjan :: ​/o ˈfikjan/ (v) pêcher
-- hynd :: ​/hynd/ (n) chien
-- o gyjen :: ​/o ɡyjɛn/ (v) aboyer (animaux, chiens)
+- bern :: [bɛrn] (n) ours
+- cat :: [kat] (n) chat
+- ficjan :: [ˈfikjan] (n) poisson
+- o ficjan :: [o ˈfikjan] (vt) pêcher
+- hynd :: [hynd] (n) chien
+- o gyjen :: [o ɡyjɛn] (vi) aboyer (animaux, chiens)
 
 ** Art
-- wen :: ​/wɛn/ beau, joli
+- wen :: [wɛn] beau, joli
 
 *** Écriture
-- bokké :: /ˈbokːe/ (n) livre
-- breif :: ​/brɛɪf/ (n) lettre, missive
-- o géren :: ​/o ˈɡerɛn/ (v) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
-- o rittan :: ​/o ˈritːa/ (v) écrire, graver des runes
-- ryn :: ​/ryn/ (n) rune, lettre alphabétique
+- bokké :: [ˈbokːe] (n) livre
+- breif :: [brɛɪf] (n) lettre, missive
+- o géren :: [o ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
+- o rittan :: [o ˈritːa] (vt) écrire, graver des runes
+- ryn :: [ryn] (n) rune, lettre alphabétique
 
 ** Astronomie
 
 ** Bâtiments
-- o flytten :: ​/o flytːɛn/ (v) déménager
+- o flytten :: [o flytːɛn] (vi) déménager
 *** La ville
-- urby :: ​/ˈurby/ (n) ville
+- urby :: [ˈurby] (n) ville
 *** Les types de bâtiments
-- tere :: ​/ˈtɛrɛ/ (n) tour, haut monument
-- hys :: ​/hyθ/ (n) maison (bâtiment)
+- tere :: [ˈtɛrɛ] (n) tour, haut monument
+- hys :: [hyθ] (n) maison (bâtiment)
 
 ** Commerce
-- o saelle :: /o ˈsaelːɛ/ (v) vendre, donner à quelqu’un
+- o saelle :: [o ˈsaelːɛ] (vt) vendre, donner à quelqu’un
 ** Conflits
 
 ** Conteneurs
@@ -1031,16 +1037,16 @@ Abréviations :
 ** Corps
 
 ** Couleurs
-- raez :: ​/raeð/ (adj) rouge
+- raez :: [raeð] (adj) rouge
 ** Dimensions
 *** Taille
-- smoz :: ​/smoð/ (adj) petit, étroit
-- stor :: ​/θtor/ (adj) gros, grand, de grande taille, large
-- mekkil :: ​/mekːil/ (adj) grand, imposant, puissant, fort
+- smoz :: [smoð] (adj) petit, étroit
+- stor :: [θtor] (adj) gros, grand, de grande taille, large
+- mekkil :: [mekːil] (adj) grand, imposant, puissant, fort
 
 *** Quantifieurs
-- maend :: ​/maend/ (adj) beaucoup
-- vend :: ​/vend/ (adj) peu, un peu
+- maend :: [maend] (adj) beaucoup
+- vend :: [vend] (adj) peu, un peu
 
 ** Direction
 
@@ -1051,9 +1057,9 @@ Abréviations :
 ** Éléments
 
 ** Émotions
-- lycce :: ​/ˈlykːɛ/ (adj) joyeux, content
-- o wilja :: /o ˈwilja/ (v) vouloir, avoir envie de
-- wille :: /ˈwilːɛ/ (n) souhait, désir
+- lycce :: [ˈlykːɛ] (adj) joyeux, content
+- o wilja :: [o ˈwilja] (vt) vouloir, avoir envie de
+- wille :: [ˈwilːɛ] (n) souhait, désir
 
 ** Évaluation
 
@@ -1062,14 +1068,14 @@ Abréviations :
 ** Existence
 
 ** Famille
-- bruzyr :: ​/ˈbruðyr/ (n) frère
-- fazér :: ​/ˈfaðer/ (n) père
-- fobror :: ​/ˈfobror/ (n) oncle paternel
-- fostyr :: ​/ˈfostyr/ (n) tante paternelle
-- mazér :: ​/ˈmaðer/ (n) mère
-- maebror :: ​/ˈmaebror/ (n) oncle maternel
-- mastyr :: ​/ˈmastyr/ (n) tante maternelle
-- syster :: ​/ˈsystɛr/ (n) sœur
+- bruzyr :: [ˈbruðyr] (n) frère
+- fazér :: [ˈfaðer] (n) père
+- fobror :: [ˈfobror] (n) oncle paternel
+- fostyr :: [ˈfostyr] (n) tante paternelle
+- mazér :: [ˈmaðer] (n) mère
+- maebror :: [ˈmaebror] (n) oncle maternel
+- mastyr :: [ˈmastyr] (n) tante maternelle
+- syster :: [ˈsystɛr] (n) sœur
 
 ** Forme
 
@@ -1077,19 +1083,19 @@ Abréviations :
 
 ** Grammaire
 *** Conjonctions
-- ar :: ​/ar/ (conj) et
-- aen :: ​/aen/ (conj) et, mais
-- og :: ​/oɡ/ (conj) et, cependant, toujours est-il que
-- men :: ​/mɛn/ (conj) mais
-- zea :: ​/ðea/ (conj) mais, introduit une question
-- némmé :: ​/nemːe/ (conj) excepté, à moins que
+- ar :: [ar] (conj) et
+- aen :: [aen] (conj) et, mais
+- og :: [oɡ] (conj) et, cependant, toujours est-il que
+- men :: [mɛn] (conj) mais
+- zea :: [ðea] (conj) mais, introduit une question
+- némmé :: [nemːe] (conj) excepté, à moins que
 
 *** Prépositions
-- tél :: ​/tel/ (prep) pour, afin
-- siv :: ​/θiv/ (prep) pour la raison de, du fait de.
+- tél :: [tel] (prep) pour, afin
+- siv :: [θiv] (prep) pour la raison de, du fait de.
 
 ** Guerre
-- laette :: ​/ˈlaetːɛ/ perdre, se rendre, abandonner
+- laette :: [ˈlaetːɛ] perdre, se rendre, abandonner
 ** Légal
 
 ** Lieux
@@ -1103,16 +1109,16 @@ Abréviations :
 ** Métaux
 
 ** Mouvements
-- o commén :: ​/o komːen/ (v) venir, arriver
-- o ga :: ​/o ɡa/ (v) aller
-- o ljegga :: /o ˈljeɡːa/ (v) aller à travers champs, sans suivre de chemin, errer
-- scort :: ​/θkort/ (adj) rapide
+- o commén :: [o komːen] (vi) venir, arriver
+- o ga :: [o ɡa] (vi) aller
+- o ljegga :: [o ˈljeɡːa] (vi) aller à travers champs, sans suivre de chemin, errer
+- scort :: [θkort] (adj) rapide
 ** Nature
-- velt :: ​/vɛlt/ (n) monde, la Terre
+- velt :: [vɛlt] (n) monde, la Terre
 
 ** Nombres
-- norm :: ​/norm/ (n) nombre, numéro (ordinal)
-- al :: ​/al/ (adj) tout, tous
+- norm :: [norm] (n) nombre, numéro (ordinal)
+- al :: [al] (adj) tout, tous
 *** Nombres cardinaux
 Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
 | /                 | <       |
@@ -1144,14 +1150,14 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 |  1 0000 0000 0000 | vreljen |
 
 ** Nourriture
-- o spich :: ​/o θpiç/ (v) (vulgaire) manger, bouffer
-- o etan :: ​/o ɛtan/ (v) manger
+- o spich :: [o θpiç] (vt) (vulgaire) manger, bouffer
+- o etan :: [o ɛtan] (vt) manger
 
 ** Outils
-- wachen :: ​/ˈwaçɛn/ (n) voiture
+- wachen :: [ˈwaçɛn] (n) voiture
 
 ** Parole
-- o seg :: ​/o sɛɡ/ (v) dire
+- o seg :: [o sɛɡ] (vt) dire
 
 ** Péchés
 
@@ -1162,9 +1168,9 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 ** Religion
 
 ** Savoir
-- o cyn :: ​/o kyn/ (v) savoir
-- o sjea :: ​/o sjea/ (v) connaître, savoir superficiellement
-- o vitté :: ​/o ˈvitːe/ (v) savoir, connaître, être conscient de
+- o cyn :: [o kyn] (vt) savoir
+- o sjea :: [o sjea] (vt) connaître, savoir superficiellement
+- o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de
 En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
 
 ** Sensations
@@ -1173,48 +1179,50 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 
 ** Société
 *** Relations sociales
-- je :: ​/jɛ/ (adv, inform.) ouais
-- jea :: ​/jea/ (adv) oui
-- ne :: ​/nɛ/ (adv, inform.) nan
-- nea :: ​/nea/ (adv) non
+- je :: [jɛ] (adv, inform.) ouais
+- jea :: [jea] (adv) oui
+- ne :: [nɛ] (adv, inform.) nan
+- nea :: [nea] (adv) non
 
 ** Substances
 
 ** Temps
- - altiz :: ​/altið/ (adv) tout le temps
- - daeg :: ​/daeɡ/ (n) jour
- - gaern :: ​/ɡaern/ (n) année
- - galm :: ​/ɡalm/ (adj) vieux, ancien
- - gyrneg :: ​/ˈɡyrnɛɡ/ (n) moment du lever de soleil, matin
- - menys :: ​/ˈmɛnyθ/ (n) mois
- - morg :: ​/morɡ/ (adv) demain
- - nesty :: ​/ˈnɛθty/ (adj) prochain, suivant
- - nu :: ​/nu/ (adv) maintenant, tout de suite
- - o tebyr :: ​/o 'tɛbyr/ (v) passer (du temps)
- - tiz :: ​/tið/ (n) temps
- - scyrm :: ​/θkyrm/ (n) crépuscule, moment du coucher de soleil
- - voc :: ​/vok/ (n) semaine
+ - altiz :: [altið] (adv) tout le temps
+ - daeg :: [daeɡ] (n) jour
+ - gaern :: [ɡaern] (n) année
+ - galm :: [ɡalm] (adj) vieux, ancien
+ - gyrneg :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
+ - menys :: [ˈmɛnyθ] (n) mois
+ - morg :: [morɡ] (adv) demain
+ - nesty :: [ˈnɛθty] (adj) prochain, suivant
+ - nu :: [nu] (adv) maintenant, tout de suite
+ - o tebyr :: [o 'tɛbyr] (vt) passer (du temps)
+ - tiz :: [tið] (n) temps
+ - scyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
+ - voc :: [vok] (n) semaine
 
 ** Travail
 
 ** Végétaux
 *** Fruits
-- eppel :: ​/ˈɛpːɛl/ (n) pomme
+- eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
 
 ** Vie et santé
-- bryz :: ​/bryð/ (n) naissance
-- bryzdeg :: ​/ˈbryðdɛɡ/ (n) jour de naissance, anniversaire (/bryz/ + /deg/)
-- o bwén :: ​/o bwen/ (v) vivre, habiter
-- gemmel :: ​/ɡɛmːɛl/ (adj) vieux, âgé
+- bryz :: [bryð] (n) naissance
+- bryzdeg :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryz> + <deg>)
+- o bwén :: [o bwen] (vi) vivre, habiter
+- gemmel :: [ɡɛmːɛl] (adj) vieux, âgé
 <Gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer « tweg gaern gemmel be » (litt. « je suis vieux de vingt ans »).
+- mein :: [mɛin] (n) douleur
+- meinwach :: [mɛinwaç] (n) ambulance (<mein> + <wachen>)
 
 ** À trier
-- o tynne :: ​/o ˈtynːɛ/ (v) perdre quelque chose
-- mes :: ​/mɛθ/ (n) homme, personne
-- gaet :: ​/ɡaet/ (n) rue, allée
-- méllém :: ​/melːem/ (adv) entre (deux personnes)
+- o tynne :: [o ˈtynːɛ] (vt) perdre quelque chose
+- mes :: [mɛθ] (n) homme, personne
+- gaet :: [ɡaet] (n) rue, allée
+- méllém :: [melːem] (adv) entre (deux personnes)
 
 src_latex{\newpage}
 * Annexes
