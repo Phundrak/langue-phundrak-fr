@@ -822,6 +822,8 @@ On peut également transformer un verbe d’action afin de se référer à l’a
 
 *** Nominalisation d’adjectifs *-ens*
 Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, <alens> signifie « totalité », <galmens> signifie « ancienneté » et <gemmelents> signifie « vieilesse ».
+*** *-(h)yt*
+La clitique *-hyt* est similaire à la clitique *-dom* que l’on retrouve en Anglais, ou *-het* en Suédois. Cela peut se référer au territoire de l’élément décliné (roi <cyng> → royaume <cyngyt>), ou à un état (libre <fri> → liberté <frihyt>).
 
 * Syntaxe
 ** Groupe nominal
@@ -955,16 +957,17 @@ Mattér (runes) : {{{latex-html(\textara{morgoI:gyrnegac.þcyrm\oe m:þi.y.ficj
 
 Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
 #+CAPTION:Caractères latins du Mattér
-| /                      | <                    |
-| caractère translittéré | caractère alternatif |
-|------------------------+----------------------|
-| s                      | Þ - þ                |
-| z                      | Ð - ð                |
-| ch                     | Ȝ - ȝ                |
-| w                      | Ƿ - ƿ                |
-| j                      | I - i                |
-| ae                     | Æ - æ                |
-# C-x 8 RET 21C ou 21D pour Ȝ et ȝ, 1bf ou 1f7 pour ƿ - Ƿ
+| /                      | <               |
+| caractère translittéré | caractère natif |
+|------------------------+-----------------|
+| s                      | Þ - þ           |
+| z                      | Ð - ð           |
+| ch                     | Ȝ - ȝ           |
+| w                      | Ƿ - ƿ           |
+| j                      | I - i           |
+| ae                     | Æ - æ           |
+| g                      | Ᵹ - ᵹ           |
+La lettre <g> et sa version insulaire sont toutes deux utilisées lors de l’écriture du Mattér avec les caractères natifs, cepedant une nette majorité des lettrés préfèrent sa version insulaire <ᵹ> à sa version standard.
 
 Ainsi, des mots tels que <bryz> ou <spich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
@@ -978,6 +981,7 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 | maend            | mænd  | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}   |
 | nesty            | neþty | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
 | wachen           | ƿaȝen | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
+| chcjag           | ȝciaᵹ | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ}}} |
 
 src_latex{\newpage}
 * Glossaire
@@ -1223,6 +1227,21 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - mes :: [mɛθ] (n) homme, personne
 - gaet :: [ɡaet] (n) rue, allée
 - méllém :: [melːem] (adv) entre (deux personnes)
+- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+- fyt :: [fyt] (adj) né
+- o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
+- fri :: [fri] (adj) libre, indépendant
+- frihyt :: [ˈfrihyt] (n) liberté
+- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
+- gilzar :: [ˈɡilðar] (n) valeur, mérite
+- gilzaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
+- cyng :: [kynɡ] (n) roi
+- cyngyt :: [ˈkynɡyt] (n) royaume
+- léc :: [lek] (adj) égal, similaire, pareil
+- soc :: [θok] (n) pensée, raison
+- bevit :: [ˈbevit] (adj) conscient
+- bevityt :: [ˈbeˌvityt] (n) conscience
+- sette :: (vt) doter, équiper
 
 src_latex{\newpage}
 * Annexes
