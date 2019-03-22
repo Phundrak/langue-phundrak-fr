@@ -972,16 +972,16 @@ La lettre <g> et sa version insulaire sont toutes deux utilisées lors de l’é
 Ainsi, des mots tels que <bryz> ou <spich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
 #+CAPTION:Exemples d’écritures native du Mattér
-| /                | <     | <                                       |
-| translittération | latin | runique                                 |
-|------------------+-------+-----------------------------------------|
-| bryz             | bryð  | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}   |
-| spich            | þpiȝ  | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
-| jea              | iea   | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}     |
-| maend            | mænd  | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}   |
-| nesty            | neþty | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
-| wachen           | ƿaȝen | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
-| chcjag           | ȝciaᵹ | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ}}} |
+| /                | <     | <                                        |
+| translittération | latin | runique                                  |
+|------------------+-------+------------------------------------------|
+| bryz             | bryð  | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}    |
+| spich            | þpiȝ  | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}    |
+| jea              | iea   | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}      |
+| maend            | mænd  | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}    |
+| nesty            | neþty | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}}  |
+| wachen           | ƿaȝen | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}}  |
+| chcjag           | ȝciaᵹ | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ)}}} |
 
 src_latex{\newpage}
 * Glossaire
