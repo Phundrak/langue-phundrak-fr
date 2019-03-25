@@ -101,19 +101,19 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - b :: Il s’agit du <b> standard dont disposent le Français dans « bonbon » [bɔ̃bɔ̃] ou l’Anglais « believe » [bɪlɪv], une consonne bilabiale occlusive voisée [b].
 - c :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
 - ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt] ou en Anglais Britannique dans « hue » [çʉː]. Il s’agit d’une consonne fricative palatale sourde [ç].
-- d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
+- d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Mattér est donc bel et bien une consonne occlusive alvéolaire voisée [d].
 - f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
 - g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
 - h :: Il s’agit de la même consonne que le [h] que l’on retrouve en Anglais, tel que dans « high » [haɪ̯] ou en Allemand « Hass » [has]. Il s’agit donc de la consonne friccative glottale sourde [h].
 - j :: Le <j> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
-- l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Le <l> du Hjelp est donc une consonne alvéolaire spirante-latérale voisée [l].
+- l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Le <l> du Mattér est donc une consonne alvéolaire spirante-latérale voisée [l].
 - m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
 - n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
 - p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
 - r :: Ce <r> peut être retrouvé en Espagnol « perro » [ˈpe̞ro̞], en Tchèque dans « chlor » [xlɔ̝ːr] ou encore en Anglais Écossais « curd » [kʌrd]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
 - s :: Attention, il ne s’agit pas de l’équivalent du <s> français ! Il s’agit de la contrepartie sourde de <z> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
-- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Hjelp est la consonne occlusive alvéolaire sourde [t].
-- v :: Le <v> du Hjelp peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
+- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Mattér est la consonne occlusive alvéolaire sourde [t].
+- v :: Le <v> du Mattér peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
 - w :: Le <w> est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].
 - z :: Attention, il ne s’agit pas de l’équivalent du <z> français ! Cette consonne <z> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
 
@@ -152,7 +152,7 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - [ə] :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
 *** Diphtonges
-Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Hjelp :
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Mattér :
 
 #+CAPTION:Diphtongues du Mattér
 | [ɛi] | [ai] |
@@ -447,7 +447,7 @@ Pluriel :
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
-La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern mekkil storant ficjanant gjea etanand ». On sait que l’adjectif <mekkil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <stor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern mekkilant storant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern mekkil stor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
+La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern meccil storant ficjanant gjea etanand ». On sait que l’adjectif <meccil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <stor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern meccilant storant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern meccil stor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
 
 *** Comparatifs
 **** Mélioratif
@@ -517,13 +517,13 @@ Les pronoms relatifs introduisent en Mattér une clause relative (abordées au c
 L’accord du genre se fait selon la phrase nominale définie tandis que le cas grammatical représente la relation de la clause relative auprès de la phrase nominale. Exemples :
 
 Français : « Mon oncle (maternel) qui est grand est en ville. »{{{newline}}}
-Mattér : « Maebrorych dja mekkilant beis urbych beis. »
+Mattér : « Maebrorych dja meccilant beis urbych beis. »
 
 Français : « La ville où j’habite est belle. »{{{newline}}}
 Mattér : « A urby vach bwéne wenant beis. »
 
 Français : « J’ai perdu le livre que je voulais vendre. »{{{newline}}}
-Mattér : « A bokkéant vén wiljaer saelle tynner »
+Mattér : « A boccéant vén wiljaer saelle tynner »
 
 Français : « L’homme dont le chien aboyait tout le temps déménage. »{{{newline}}}
 Mattér : « É mes dy a hynd altiz gyjener flyttene. »
@@ -822,6 +822,8 @@ On peut également transformer un verbe d’action afin de se référer à l’a
 
 *** Nominalisation d’adjectifs *-ens*
 Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, <alens> signifie « totalité », <galmens> signifie « ancienneté » et <gemmelents> signifie « vieilesse ».
+*** *-(h)yt*
+La clitique *-hyt* est similaire à la clitique *-dom* que l’on retrouve en Anglais, ou *-het* en Suédois. Cela peut se référer au territoire de l’élément décliné (roi <cyng> → royaume <cyngyt>), ou à un état (libre <fri> → liberté <frihyt>).
 
 * Syntaxe
 ** Groupe nominal
@@ -955,29 +957,31 @@ Mattér (runes) : {{{latex-html(\textara{morgoI:gyrnegac.þcyrm\oe m:þi.y.ficj
 
 Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
 #+CAPTION:Caractères latins du Mattér
-| /                      | <                    |
-| caractère translittéré | caractère alternatif |
-|------------------------+----------------------|
-| s                      | Þ - þ                |
-| z                      | Ð - ð                |
-| ch                     | Ȝ - ȝ                |
-| w                      | Ƿ - ƿ                |
-| j                      | I - i                |
-| ae                     | Æ - æ                |
-# C-x 8 RET 21C ou 21D pour Ȝ et ȝ, 1bf ou 1f7 pour ƿ - Ƿ
+| /                      | <               |
+| caractère translittéré | caractère natif |
+|------------------------+-----------------|
+| s                      | Þ - þ           |
+| z                      | Ð - ð           |
+| ch                     | Ȝ - ȝ           |
+| w                      | Ƿ - ƿ           |
+| j                      | I - i           |
+| ae                     | Æ - æ           |
+| g                      | Ᵹ - ᵹ           |
+La lettre <g> et sa version insulaire sont toutes deux utilisées lors de l’écriture du Mattér avec les caractères natifs, cepedant une nette majorité des lettrés préfèrent sa version insulaire <ᵹ> à sa version standard.
 
 Ainsi, des mots tels que <bryz> ou <spich> peuvent s’écrire <bryð> et <þpiȝ> respectivement.
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, apparu plus récemment dans le Mattér et utilisé principalement lors des échanges commerciaux avec des cultures utilisant cet alphabet, et enfin la translittération qui n’est utilisée que dans ce document afin de retranscrire aisément le Mattér sans avoir recours à des caractères spéciaux. Quelques exemples de ces différents systèmes d’écriture :
 #+CAPTION:Exemples d’écritures native du Mattér
-| /                | <     | <                                       |
-| translittération | latin | runique                                 |
-|------------------+-------+-----------------------------------------|
-| bryz             | bryð  | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}   |
-| spich            | þpiȝ  | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}   |
-| jea              | iea   | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}     |
-| maend            | mænd  | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}   |
-| nesty            | neþty | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}} |
-| wachen           | ƿaȝen | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} |
+| /                | <     | <                                        |
+| translittération | latin | runique                                  |
+|------------------+-------+------------------------------------------|
+| bryz             | bryð  | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}    |
+| spich            | þpiȝ  | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}    |
+| jea              | iea   | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}      |
+| maend            | mænd  | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}    |
+| nesty            | neþty | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}}  |
+| wachen           | ƿaȝen | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}}  |
+| chcjag           | ȝciaᵹ | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ)}}} |
 
 src_latex{\newpage}
 * Glossaire
@@ -1012,7 +1016,7 @@ Abréviations :
 - wen :: [wɛn] beau, joli
 
 *** Écriture
-- bokké :: [ˈbokːe] (n) livre
+- boccé :: [ˈbokːe] (n) livre
 - breif :: [brɛɪf] (n) lettre, missive
 - o géren :: [o ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
 - o rittan :: [o ˈritːa] (vt) écrire, graver des runes
@@ -1042,7 +1046,7 @@ Abréviations :
 *** Taille
 - smoz :: [smoð] (adj) petit, étroit
 - stor :: [θtor] (adj) gros, grand, de grande taille, large
-- mekkil :: [mekːil] (adj) grand, imposant, puissant, fort
+- meccil :: [mekːil] (adj) grand, imposant, puissant, fort
 
 *** Quantifieurs
 - maend :: [maend] (adj) beaucoup
@@ -1223,6 +1227,22 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - mes :: [mɛθ] (n) homme, personne
 - gaet :: [ɡaet] (n) rue, allée
 - méllém :: [melːem] (adv) entre (deux personnes)
+- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+- fyt :: [fyt] (adj) né
+- o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
+- fri :: [fri] (adj) libre, indépendant
+- frihyt :: [ˈfrihyt] (n) liberté
+- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
+- gilzar :: [ˈɡilðar] (n) valeur, mérite
+- gilzaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
+- cyng :: [kynɡ] (n) roi
+- cyngyt :: [ˈkynɡyt] (n) royaume
+- léc :: [lek] (adj) égal, similaire, pareil
+- soc :: [θok] (n) pensée, raison
+- bevit :: [ˈbevit] (adj) conscient
+- bevityt :: [ˈbeˌvityt] (n) conscience
+- sette :: [ˈsɛtːɛ] (vt) doter, équiper
+- canal :: [ˈkanal] (n) canal, salon textuel
 
 src_latex{\newpage}
 * Annexes
