@@ -53,13 +53,13 @@ Cette langue est appelée d’après le peuple parlant cette langue, le peuple /
 
 ** Démographie
 
-Le Mattér est parlé par un peuple imaginaire vivant sur une île imaginaire nommée Einlant (/terre solitaire/), peuplée vers le X^{ème} siècle par un peuple parlant le vieux nordique, partis probablement de la péninsule scandinave par bateau. À l’instar de l’Islande, le peuple Matté s’y étant installé est devenu isolé, permettant une évolution unique de leur langue.
+Le Mattér est parlé par un peuple imaginaire vivant sur une île imaginaire nommée Einlante (/terre solitaire/, /Einlant/ en Mattér), peuplée vers le X^{ème} siècle par un peuple parlant le vieux nordique, partis probablement de la péninsule scandinave par bateau. À l’instar de l’Islande, le peuple Matté s’y étant installé est devenu isolé, permettant une évolution unique de leur langue.
 
-Initialement, l’Einlant n’était peuplé que de quelques dizaines de milliers de Mattés, cependant leur population connaît une croissance importante à partir du XX^{ème} siècle avec une industrialisation et modernisation du pays jusqu’à atteindre au début du XXI^{ème} siècle 300.000 habitants.
+Initialement, l’Einlante n’était peuplé que de quelques dizaines de milliers de Mattés, cependant leur population connaît une croissance importante à partir du XX^{ème} siècle avec une industrialisation et modernisation du pays jusqu’à atteindre au début du XXI^{ème} siècle 300.000 habitants.
 
-L’Einlant est une île de taille smilaire à sa sœur, l’Islande, mais se situe plus au sud de cette dernière, au sud-est du Groënland et à l’ouest de l’Écosse. Son centre se situe aux alentours des coordonnées 57′N 33′O. Ainsi, cette île bénéficie d’un climat plus clément que l’Islande et similaire à l’Écosse : un climat océanique tempéré mais froid, avec des vents fréquents. Cette île est également une île volcanique, née du rift du plancher atlantique.
+L’Einlante est une île de taille smilaire à sa sœur, l’Islande, mais se situe plus au sud de cette dernière, au sud-est du Groënland et à l’ouest de l’Écosse. Son centre se situe aux alentours des coordonnées 57′N 33′O. Ainsi, cette île bénéficie d’un climat plus clément que l’Islande et similaire à l’Écosse : un climat océanique tempéré mais froid, avec des vents fréquents. Cette île est également une île volcanique, née du rift du plancher atlantique.
 
-Le peuple Matté est un peuple dont l’économie repose principalement sur la pêche et l’agriculture. Au XV^{ème} siècle, le pays commence à s’ouvrir avec l’extérieur, et des voies de commerce sont ouvertes avec les principaux pays marchands de cette époque. C’est à cette époque que le Christianisme est importé en Einlant, puis un siècle plus tard l’Anglicanisme par le Royaume-Uni, cependant ces deux religions ne réussiront jamais à véritablement s’implanter, la religion nordique païenne restant largement dominante jusqu’au XIX^{ème} siècle où un déclin rapide des diverses religions aura lieu. De nos jours, la population d’Einlant est à environ 88% athéiste, 5% païenne, 4% de sa population suit une des religions monothéistes (principalement le Christianisme et l’Anglicanisme), 2% des religions diverses (Hindouisme, Shamanisme,…) et un surprenant pourcent en croissance se déclare bouddhiste.
+Le peuple Matté est un peuple dont l’économie repose principalement sur la pêche et l’agriculture. Au XV^{ème} siècle, le pays commence à s’ouvrir avec l’extérieur, et des voies de commerce sont ouvertes avec les principaux pays marchands de cette époque. C’est à cette époque que le Christianisme est importé en Einlante, puis un siècle plus tard l’Anglicanisme par le Royaume-Uni, cependant ces deux religions ne réussiront jamais à véritablement s’implanter, la religion nordique païenne restant largement dominante jusqu’au XIX^{ème} siècle où un déclin rapide des diverses religions aura lieu. De nos jours, la population d’Einlante est à environ 88% athéiste, 5% païenne, 4% de sa population suit une des religions monothéistes (principalement le Christianisme et l’Anglicanisme), 2% des religions diverses (Hindouisme, Shamanisme,…) et un surprenant pourcent en croissance se déclare bouddhiste.
 
 ** Affiliation générique
 
@@ -338,3 +338,272 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 {{{newpage}}}
 * Structures marquées pragmatiquement parlant
 * Glossaire
+
+- mot en Mattér :: [phonétique] (élément de langage) Définition(s)
+
+Abréviations :
+- adj : adjectif
+- adv : adverbe
+- ind : indénombrable
+- n : nom
+- pau : paucal
+- pl : pluriel
+- pron : pronom
+- sg : singulier
+- vi : verbe intransitif
+- vt : verbe transitif
+- on : onomatopée
+
+** Actions physiques
+
+** Amour
+
+** Animaux
+- bern :: [bɛrn] (n) ours
+- cat :: [kat] (n) chat
+- fician :: [ˈfikjan] (n) poisson
+- hynd :: [hynd] (n) chien
+- o fician :: [o ˈfikjan] (vt) pêcher
+- o ᵹyien :: [o ɡyjɛn] (vi) aboyer (animaux, chiens)
+
+** Art
+- ƿen :: [wɛn] beau, joli
+
+*** Écriture
+- boccé :: [ˈbokːe] (n) livre
+- breif :: [brɛɪf] (n) lettre, missive
+- o rittan :: [o ˈritːa] (vt) écrire, graver des runes
+- o ᵹéren :: [o ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
+- ryn :: [ryn] (n) rune, lettre alphabétique
+
+** Astronomie
+
+** Bâtiments
+- o flytten :: [o flytːɛn] (vi) déménager
+*** La ville
+- urby :: [ˈurby] (n) ville
+*** Les types de bâtiments
+- tere :: [ˈtɛrɛ] (n) tour, haut monument
+- hys :: [hyθ] (n) maison (bâtiment)
+
+** Commerce
+- o þælle :: [o ˈsaelːɛ] (vt) vendre, donner à quelqu’un
+** Conflits
+
+** Conteneurs
+
+** Corps
+
+** Couleurs
+- ræð :: [raeð] (adj) rouge
+** Dimensions
+*** Taille
+- meccil :: [mekːil] (adj) grand, imposant, puissant, fort
+- þmoð :: [smoð] (adj) petit, étroit
+- þtor :: [θtor] (adj) gros, grand, de grande taille, large
+
+*** Quantifieurs
+- mænd :: [maend] (adj) beaucoup
+- vend :: [vend] (adj) peu, un peu
+
+** Direction
+
+** Eau
+
+** Effort
+
+** Éléments
+
+** Émotions
+- lycce :: [ˈlykːɛ] (adj) joyeux, content
+- o ƿilia :: [o ˈwilja] (vt) vouloir, avoir envie de
+- ƿille :: [ˈwilːɛ] (n) souhait, désir
+
+** Évaluation
+
+** Événements
+
+** Existence
+
+** Famille
+- bruðyr :: [ˈbruðyr] (n) frère
+- faðér :: [ˈfaðer] (n) père
+- fobror :: [ˈfobror] (n) oncle paternel
+- foþtyr :: [ˈfostyr] (n) tante paternelle
+- maðér :: [ˈmaðer] (n) mère
+- maþtyr :: [ˈmastyr] (n) tante maternelle
+- mæbror :: [ˈmaebror] (n) oncle maternel
+- þyþter :: [ˈsystɛr] (n) sœur
+
+** Forme
+
+** Gouvernement
+- cynᵹ :: [kynɡ] (n) roi
+- cynᵹyt :: [ˈkynɡyt] (n) royaume
+
+** Grammaire
+- méllém :: [melːem] (adv) entre (deux personnes)
+- neiȝ :: [nɛiç] (adv) aucun
+
+*** Conjonctions
+- ar :: [ar] (conj) et
+- men :: [mɛn] (conj) mais
+- némmé :: [nemːe] (conj) excepté, à moins que
+- oᵹ :: [oɡ] (conj) et, cependant, toujours est-il que
+- æn :: [aen] (conj) et, mais
+- ðea :: [ðea] (conj) mais, introduit une question
+
+*** Prépositions
+- tél :: [tel] (prep) pour, afin
+- þiv :: [θiv] (prep) pour la raison de, du fait de.
+
+** Guerre
+- lætte :: [ˈlaetːɛ] perdre, se rendre, abandonner
+** Légal
+- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
+
+** Lieux
+
+** Lumière
+
+** Mental
+
+** Mesures
+
+** Métaux
+
+** Mouvements
+- o commén :: [o komːen] (vi) venir, arriver
+- o lieᵹᵹa :: [o ˈljeɡːa] (vi) aller à travers champs, sans suivre de chemin, errer
+- o ᵹa :: [o ɡa] (vi) aller
+- þcort :: [θkort] (adj) rapide
+** Nature
+- velt :: [vɛlt] (n) monde, la Terre
+- lant :: [lant] (n) terre, île
+
+** Nombres
+- norm :: [norm] (n) nombre, numéro (ordinal)
+- al :: [al] (adj) tout, tous
+*** Nombres cardinaux
+Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
+|                / | <       |
+|           nombre | terme   |
+|------------------+---------|
+|                0 | nyn     |
+|                1 | æn      |
+|                2 | tƿéa    |
+|                3 | ðe      |
+|                4 | fro     |
+|                5 | ðeif    |
+|                6 | ȝcæc    |
+|                7 | þean    |
+|                8 | aȝt     |
+|                9 | onnén   |
+|               10 | dran    |
+|               20 | tieᵹ    |
+|               30 | ðiea    |
+|               40 | frie    |
+|               50 | ðeiᵹ    |
+|               60 | ȝciaᵹ   |
+|               70 | þieᵹ    |
+|               80 | aȝteiᵹ  |
+|               90 | onneᵹ   |
+|              100 | anrad   |
+|             1000 | tanþen  |
+|           1 0000 | deten   |
+|      1 0000 0000 | mollen  |
+| 1 0000 0000 0000 | vrelien |
+
+** Nourriture
+- o etan :: [o ɛtan] (vt) manger
+- o þpiȝ :: [o θpiç] (vt) (vulgaire) manger, bouffer
+
+** Outils
+- ƿaȝen :: [ˈwaçɛn] (n) voiture
+
+** Parole
+- o þeᵹ :: [o sɛɡ] (vt) dire
+
+** Péchés
+
+** Physique
+
+** Possession
+
+** Religion
+
+** Savoir
+- o cyn :: [o kyn] (vt) savoir
+- o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de
+En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
+- o þiea :: [o sjea] (vt) connaître, savoir superficiellement
+
+** Sensations
+
+** Sexe
+
+** Société
+*** Relations sociales
+- ie :: [jɛ] (adv, inform.) ouais
+- iea :: [jea] (adv) oui
+- ne :: [nɛ] (adv, inform.) nan
+- nea :: [nea] (adv) non
+
+** Substances
+
+** Temps
+ - altið :: [altið] (adv) tout le temps
+ - dæᵹ :: [daeɡ] (n) jour
+ - menyþ :: [ˈmɛnyθ] (n) mois
+ - morᵹ :: [morɡ] (adv) demain
+ - neþty :: [ˈnɛθty] (adj) prochain, suivant
+ - nu :: [nu] (adv) maintenant, tout de suite
+ - o tebyr :: [o 'tɛbyr] (vt) passer (du temps)
+ - tið :: [tið] (n) temps
+ - voc :: [vok] (n) semaine
+ - þcyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
+ - ᵹalm :: [ɡalm] (adj) vieux, ancien
+ - ᵹyrneᵹ :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
+ - ᵹærn :: [ɡaern] (n) année
+
+** Travail
+
+** Végétaux
+*** Fruits
+- eppel :: [ˈɛpːɛl] (n) pomme
+
+** Vêtements
+
+** Vie et santé
+- bryð :: [bryð] (n) naissance
+- bryðdeᵹ :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryz> + <deg>)
+- ein :: [ɛin] (adj) isolé, solitaire
+- mein :: [mɛin] (n) douleur
+- meinƿaȝ :: [mɛinwaç] (n) ambulance (<mein> + <wachen>)
+- o bƿén :: [o bwen] (vi) vivre, habiter
+- ᵹemmel :: [ɡɛmːɛl] (adj) vieux, âgé. <gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ze tweg gaernes gemmel be> (litt. « je suis vieux de vingt-trois ans »), <gemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
+
+** À trier
+- bevit :: [ˈbevit] (adj) conscient
+- bevityt :: [ˈbeˌvityt] (n) conscience
+- canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
+- fri :: [fri] (adj) libre, indépendant
+- frihyt :: [ˈfrihyt] (n) liberté
+- fyt :: [fyt] (adj) né
+- léc :: [lek] (adj) égal, similaire, pareil
+- meþ :: [mɛθ] (n) homme, personne
+- o tynne :: [o ˈtynːɛ] (vt) perdre quelque chose
+- o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
+- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+- écȝi :: [ˈekːçi] (on) éternuement
+- þette :: [ˈsɛtːɛ] (vt) doter, équiper
+- þoc :: [θok] (n) pensée, raison
+- ᵹilðar :: [ˈɡilðar] (n) valeur, mérite
+- ᵹilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
+- ᵹæt :: [ɡaet] (n) rue, allée
+
+{{{newpage}}}
+
+* Annexes
+
+#  LocalWords:  Pappa langue-jouet
