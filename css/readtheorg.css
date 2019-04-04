@@ -1024,7 +1024,7 @@ h2.footnotes{
 
 .footnum, .footref{
     color: #2980b9;
-    font-size: 170%;
+    margin: 0 0 0 3px;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
 }
 
