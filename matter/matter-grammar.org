@@ -73,9 +73,10 @@ Plus d’informations seront données dans le chapitre dédié au système d’�
 
 ** Situation sociolinguistique
 *** Multilinguisme et contexte d’utilisation
-
 Le Mattér est une langue encore très vivante parmi les Mattés, qui est parlée activement par tous les locuteurs natifs. Concernant le multilinguisme, les Mattés ont commencé à apprendre des langues étrangères lors de leur ouverture au monde, apprenant principalement l’Anglais, le Suédois et l’Espagnol. Aujourd’hui, la majorité des Mattés parlent avec un niveau B1 l’anglais, environ 30% parlent avec le même niveau le Suédois ou le Norvégien, et du fait de leur proximité avec le Groënland, environ 20% de la population parle également le Danois.
-
+*** Viabilité
+*** Mots d’emprunt
+*** Dialectes
 {{{newpage}}}
 * Phonologie
 ** <<phon-notes>>Notes sur la transcription du Mattér
@@ -315,28 +316,66 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 * Topologie morphologique
 {{{newpage}}}
 * Classes de mots
+** Noms
+*** Types de noms
+*** Pronoms
+** Verbes
+*** Infinitif
+*** Nominalisation
+** Adjectifs
+** Adverbes
 {{{newpage}}}
 * Ordre des constituants basiques
+** Clauses principales
+** Phrase prépositionnelles
+** Phrases nominales
+*** Modifieurs
+*** Constructions génitives
+*** Clauses relatives
+** Phrases verbales
+** Comparatifs
+** Résumé
+
 {{{newpage}}}
 * Prédicats nominaux
 {{{newpage}}}
 * Phrases existentielles, locationnelles et possessives
 {{{newpage}}}
 * Expression des relations grammaticales
+** Déclinaison – Noms
+** Déclinaison — Pronoms
+** Accord des verbes
+** Accord des adjectifs
+
 {{{newpage}}}
 * Temps, aspects et modes
+** Temps
+** Aspect
+** Modaux auxilliaires
 ** Causatif
+*** Causatif lexical
+*** Causatif analytique
 ** Passif
 ** Réflexif
 ** Réciproque
 ** Questions
+*** Question absolue (oui/non)
+*** Question relative
 ** Impératif
 {{{newpage}}}
 * Négation
 {{{newpage}}}
 * Combination de clauses
+** Clauses relatives
+** Verbes en série
+** Clauses de complément
+*** Compléments de stems basiques
+*** Compléments <tél> et <þiv>
+** Clauses adverbiales
+** Coordination
 {{{newpage}}}
-* Structures marquées pragmatiquement parlant
+* Structures marquées pragmatiquement
+{{{newpage}}}
 * Glossaire
 
 - mot en Mattér :: [phonétique] (élément de langage) Définition(s)
@@ -384,7 +423,7 @@ Abréviations :
 - urby :: [ˈurby] (n) ville
 *** Les types de bâtiments
 - tere :: [ˈtɛrɛ] (n) tour, haut monument
-- hys :: [hyθ] (n) maison (bâtiment)
+- hyþ :: [hyθ] (n) maison (bâtiment)
 
 ** Commerce
 - o þælle :: [o ˈsaelːɛ] (vt) vendre, donner à quelqu’un
