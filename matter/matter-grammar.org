@@ -1,0 +1,340 @@
+#+TITLE: Une Grammaire du Mattér
+#+AUTHOR: Lucien Cartier-Tilet
+#+EMAIL: phundrak@phundrak.fr
+#+CREATOR: Lucien Cartier-Tilet
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg.setup
+#+LATEX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={4.5in,7.0in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
+#+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LaTeX_HEADER: \usepackage{indentfirst}\usepackage{allrunes}
+#+HTML_DOCTYPE: html5
+#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
+#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
+#+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
+#+HTML_HEAD: <meta name="twitter:card" content="summary" />
+#+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
+#+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
+#+MACRO: newpage @@latex:\newpage@@
+#+MACRO: latex-html @@latex:$1@@ @@html:$2@@
+#+NAME: last-update
+#+BEGIN_SRC shell :exports none :results silent
+  date '+Dernière mise à jour le %d/%m/%y à %H:%M'
+#+END_SRC
+#+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
+#+OPTIONS: H:4
+#+OPTIONS: toc:nil
+{{{newpage}}}
+#+TOC: headlines
+
+{{{newpage}}}
+
+* <<avantpropos>>Avant-propos
+La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
+
+{{{last-update}}}
+
+{{{newpage}}}
+* <<introduction>>Introduction
+Le Mattér est une idéolange (langue construite) humaine, inspirée par des langues nordiques, germaniques et latines. Elle bénéficie également de quelques inspirations des idéolangues elfiques de J.R.R. Tolkien, en particulier la phonétique du /Sindarin/. Brièvement, le Mattér est une langue principalement agglutinative à tendance majoritaire aux suffixes, avec comme exception les verbes qui ont une tendance principalement fusionnelle.
+
+Cette langue est un projet à part de mon univers littéraire ; il ne s’agit que d’une langue jouet dont la seule utilité au-delà de mon propre plaisir sera dans le cadre de mes études d’informatique pour un projet de troisième année de licence en ingénieurie des langues.
+
+** Le nom de la langue
+
+Cette langue est appelée d’après le peuple parlant cette langue, le peuple /Matté/. Une fois le nom de ce peuple dérivé afin d’obtenir un adjectif, on obtient donc /mattér/ qui est donc le nom de cette langue.
+
+** Démographie
+
+Le Mattér est parlé par un peuple imaginaire vivant sur une île imaginaire nommée Einlant (/terre solitaire/), peuplée vers le X^{ème} siècle par un peuple parlant le vieux nordique, partis probablement de la péninsule scandinave par bateau. À l’instar de l’Islande, le peuple Matté s’y étant installé est devenu isolé, permettant une évolution unique de leur langue.
+
+Initialement, l’Einlant n’était peuplé que de quelques dizaines de milliers de Mattés, cependant leur population connaît une croissance importante à partir du XX^{ème} siècle avec une industrialisation et modernisation du pays jusqu’à atteindre au début du XXI^{ème} siècle 300.000 habitants.
+
+L’Einlant est une île de taille smilaire à sa sœur, l’Islande, mais se situe plus au sud de cette dernière, au sud-est du Groënland et à l’ouest de l’Écosse. Son centre se situe aux alentours des coordonnées 57′N 33′O. Ainsi, cette île bénéficie d’un climat plus clément que l’Islande et similaire à l’Écosse : un climat océanique tempéré mais froid, avec des vents fréquents. Cette île est également une île volcanique, née du rift du plancher atlantique.
+
+Le peuple Matté est un peuple dont l’économie repose principalement sur la pêche et l’agriculture. Au XV^{ème} siècle, le pays commence à s’ouvrir avec l’extérieur, et des voies de commerce sont ouvertes avec les principaux pays marchands de cette époque. C’est à cette époque que le Christianisme est importé en Einlant, puis un siècle plus tard l’Anglicanisme par le Royaume-Uni, cependant ces deux religions ne réussiront jamais à véritablement s’implanter, la religion nordique païenne restant largement dominante jusqu’au XIX^{ème} siècle où un déclin rapide des diverses religions aura lieu. De nos jours, la population d’Einlant est à environ 88% athéiste, 5% païenne, 4% de sa population suit une des religions monothéistes (principalement le Christianisme et l’Anglicanisme), 2% des religions diverses (Hindouisme, Shamanisme,…) et un surprenant pourcent en croissance se déclare bouddhiste.
+
+** Affiliation générique
+
+Le Mattér est une langue Indo-Européenne trouvant ses sources dans la famille des langues scandinaves (germaniques nordiques).
+
+** Système d’écriture
+
+Du fait de son affiliation aux langues nordiques, le Mattér est une langue qui s’est d’abord gravée via l’utilisation de runes, que ce soit sur des pierres ou sur du bois. L’alphabet latin ne sera introduit que plus tard, vers le XV^{ème} siècle, où il sera pendant longtemps utilisé en parallèle aux runes. Généralement, les runes sont gardées pour les monuments et les documents officiels ainsi que pour une utilisation religieuse, tandis que l’alphabet latin se popularise parmi les marchands et tout échanges entre les /Mattés/ et le monde extérieur. Ainsi, deux systèmes d’écriture coexistent. L’introduction de l’imprimerie participa également à une chute de l’utilisation quotidienne des runes, et seule une rapide intervention du gouvernement afin de créer des caractères d’imprimerie runiques a permi de préserver une utilisation relativement courante du système d’écriture traditionnel. Lors de l’avènement de l’informatique, l’utilisation des runes a drastiquement chuté parmi la population, lui préférant alors l’alphabet latin. Avec l’ajout des runes à l’Unicode 3.0, un effort considérable de la part du gouvernement s’est effectué afin de restaurer l’utilisation de celles-ci, mais en vingt ans la proportion d’utilisation des runes n’a pas beaucoup remonté, bien que la chute fut stoppée grâce à cette intervention.
+
+Plus d’informations seront données dans le chapitre dédié au système d’écriture Mattér (§[[writing]]).
+
+** Situation sociolinguistique
+*** Multilinguisme et contexte d’utilisation
+
+Le Mattér est une langue encore très vivante parmi les Mattés, qui est parlée activement par tous les locuteurs natifs. Concernant le multilinguisme, les Mattés ont commencé à apprendre des langues étrangères lors de leur ouverture au monde, apprenant principalement l’Anglais, le Suédois et l’Espagnol. Aujourd’hui, la majorité des Mattés parlent avec un niveau B1 l’anglais, environ 30% parlent avec le même niveau le Suédois ou le Norvégien, et du fait de leur proximité avec le Groënland, environ 20% de la population parle également le Danois.
+
+{{{newpage}}}
+* Phonologie
+** <<phon-notes>>Notes sur la transcription du Mattér
+Comme vous pourrez vous en rendre compte aux chapitres §[[phon-consonnes]] et §[[phon-voyelles]], le Mattér dispose de deux transcriptions possibles qui seront les transcriptions principalement utilisées dans cet ouvrage, la transcription en IPA (/[[https://www.internationalphoneticassociation.org/content/ipa-chart][International Phonetic Alphabet]]/) et le script latin natif du Mattér qui sera généralement plus simple et intuitif à lire, malgré un apprentissage sans doute nécessaire de certains caractères. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement l’alphabet latin natif. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[phon-allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique *générale*, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique *rapprochée* sera nécessaire pour avoir la prononciation exacte, auquel cas je signalerai cette distinction entre phonétique générale et rapprochée.
+
+La transcription phonétique sera donnée [entre crochets], tandis que des éléments en script natif du Mattér seront <entre chevrons>. La transcription phonétique sera la prononciation générale, et occasionellement, quand indiqué la phonétique pourra également être une phonétique rapprochée, dénotant une plus grande précision phonétique, notamment dans le chapitre sur l’allophonie (§[[phon-allophonie]]) ci-dessous.
+
+Il existe également le système d’écriture runique du Mattér, la méthode d’écriture originale de cette langue, mais ce système ne sera utilisé que dans son chapitre dédié (§[[writing]]).
+
+** Inventaire phonétique
+L’inventaire phonétique est l’une des signatures d’une langue qui se remarque le plus rapidement. Il s’agit de la collection des sons utilisés en Mattér, ceux que peuvent prononcer ses locuteurs et pouvant être utilisés dans un discourt lors de la production de mots et de phrases. Les phonèmes sont les unités sonores les plus petites constatables dans une langue.
+
+On distingue généralement deux catégories de phonèmes : les voyelles, dont la production se fait sans obstruction du passage de l’air dans la bouche, et les consonnes où un certain type d’obstruction au passage de l’air se réalise le plus souvent. Par exemple, le [y] (tel que le <u> de « lune » en Français) se prononce avec les lèvres arrondies, la bouche presque fermée et la langue relevée, alors que le [p] se caractérisera par l’arrêt puis le relâchement soudain de l’air au niveau des deux lèvres sans faire vibrer les cordes vocales en même temps. Ils existent également les diphtongues qui sont considérées par certaines langues, comme par example l’Anglais, qui considère une association de deux voyelles comme étant une voyelle unique. Tout cela sera expliqué plus en détails ci-dessous.
+
+Comme mentionné en introduction (§[[phon-allophonie]]), le choix de l’inventaire phonétique du Mattér s’est basé sur l’inventaire phonétique de langues elfiques créées par Tolkien, notemment le Sindarin.
+
+*** <<phon-consonnes>>Consonnes
+Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et en latin (voir §[[phon-notes]]).
+
+#+CAPTION: Consonnes du Mattér (IPA)
+|               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
+|---------------+-------+----------+----------+---------+-------+-------------|
+| bilabial      | m     | p b      |          |         |       |             |
+| labio-dental  |       |          | f v      |         |       |             |
+| alvéolaire    | n     | t d      | θ ð      |         | ɾ     | l           |
+| palatal       |       |          | ç        | j       |       |             |
+| labio-velaire |       |          |          | w       |       |             |
+| vélaire       |       | k g      |          |         |       |             |
+| glottal       |       |          | h        |         |       |             |
+| /             | <     | <        | <        | <       | <     | <           |
+
+#+CAPTION: Consonnes du Mattér (translittération)
+|               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
+|---------------+-------+----------+----------+---------+-------+-------------|
+| bilabial      | m     | p b      |          |         |       |             |
+| labio-dental  |       |          | f v      |         |       |             |
+| alvéolaire    | n     | t d      | þ ð      |         | r     | l           |
+| palatal       |       |          | ȝ        | i       |       |             |
+| labio-velaire |       |          |          | ƿ       |       |             |
+| vélaire       |       | c ᵹ      |          |         |       |             |
+| glottal       |       |          | h        |         |       |             |
+| /             | <     | <        | <        | <       | <     | <           |
+
+On peut remarquer que la large majorité des consonnes se situe entre les points d’articulation alvéolaire et bilabial, et toutes les consonnes occlusives ou fricatives disposent de leur contrepartie sourde ou voisée.
+
+Voici ci-dessous une description individuelle de chaque consonne :
+- b :: Il s’agit du <b> standard dont disposent le Français dans « bonbon » [bɔ̃bɔ̃] ou l’Anglais « believe » [bɪlɪv], une consonne bilabiale occlusive voisée [b].
+- c :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
+- d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Mattér est donc bel et bien une consonne occlusive alvéolaire voisée [d].
+- f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
+- h :: Il s’agit de la même consonne que le [h] que l’on retrouve en Anglais, tel que dans « high » [haɪ̯] ou en Allemand « Hass » [has]. Il s’agit donc de la consonne friccative glottale sourde [h].
+- i :: Le <i> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
+- l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Le <l> du Mattér est donc une consonne alvéolaire spirante-latérale voisée [l].
+- m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
+- n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
+- p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
+- r :: Ce <r> peut être retrouvé en Espagnol « perro » [ˈpe̞ro̞], en Tchèque dans « chlor » [xlɔ̝ːr] ou encore en Anglais Écossais « curd » [kʌrd]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
+- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Mattér est la consonne occlusive alvéolaire sourde [t].
+- v :: Le <v> du Mattér peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
+- ð :: Cette consonne <ð> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
+- þ :: Il s’agit de la contrepartie sourde de <ð> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
+- ƿ :: Le <ƿ> est un équivalent du <w> est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].
+- ȝ :: Ce <ȝ> (ou <ch>) existe en Allemand dans des termes tels que « nicht » [nɪçt] ou en Anglais Britannique dans « hue » [çʉː]. Il s’agit d’une consonne fricative palatale sourde [ç].
+- ᵹ :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
+
+Les consonnes nasales, occlusives ainsi que le [l] peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé [tː], et <Mattér> sera prononcé ['mat:er].
+
+*** <<phon-voyelles>>Voyelles
+Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
+#+CAPTION: Voyelles du Mattér (IPA)
+| / | >           |             |        |              |
+|   |             | antérieures | milieu | postérieures |
+|---+-------------+-------------+--------+--------------|
+|   | fermées     | i / y       |        | u            |
+|   | mi-fermées  | e           | [ə]    | o            |
+|   | mi-ouvertes | ɛ           |        |              |
+|   | ouvertes    | a           |        |              |
+
+#+CAPTION: Voyelles du Mattér (translittération)
+| / | >           |             |              |
+|   |             | antérieures | postérieures |
+|---+-------------+-------------+--------------|
+|   | fermées     | i / y       | u            |
+|   | mi-fermées  | é           | o            |
+|   | mi-ouvertes | e           |              |
+|   | ouvertes    | a           |              |
+
+On peut constater que le Mattér est une langue disposant d’une complexité modeste concernant ses cinq voyelles antérieures et d’une simplicité apparente concernant ses deux voyelles postérieures. On notera également que le [ə] est noté entre crochets du fait de sa situation en Mattér en tant qu’allophone (voir le chapitre §[[phon-allophonie]]) et jamais en tant que voyelle existant par elle-même. Cela implique également son absence du tableau de translittération.
+
+Voici ci-dessous la description de chacune de ces voyelles :
+- a :: Il s’agit de la voyelle antérieure ouverte non-arrondie [a] que l’on retrouve dans « patte » [pat] en Français.
+- e :: Il s’agit de la voyelle antérieure mi-ouverte non-arrondie [ɛ] que l’on retrouve dans « bet » [bɛtʰ] en Anglais ou « fête » [fɛt̪] en Français.
+- é :: Il s’agit de la voyelle antérieure mi-fermée non-arrondie [e] que l’on retrouve dans « blé » [ble] en Français.
+- i :: On peut retrouver cette voyelle en Anglais comme dans « free » [fɹiː], « ív » [iːv] en Hongrois ou « vie » [vi] en Français. Il s’agit de la voyelle antérieure fermée non-arrondie [i].
+- o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [o] que l’on peut retrouver dans « hôtel » [o.tɛl].
+- u :: On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs] ou en Français dans « tout » [t̪u]. Il s’agit de la voyelle postérieure fermée arrondie [u].
+- y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ], en Hongrois avec « tű » [t̪yː] ou tout simplement en Français dans « lune » [lyn]. Il s’agit de la voyelle antérieure fermée arrondie [y].
+- [ə] :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
+
+*** <<phon-diphtongues>>Diphtonges
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Mattér :
+
+#+CAPTION:Diphtongues du Mattér
+| [ei] | [ai] |
+| [ea] | [æ]  |
+| [eu] | [au] |
+| [ou] |      |
+
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du [ei] qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
+
+** <<phon-allophonie>>Allophonie
+Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
+- Si deux voyelles pouvant former une diphtongue se suivent, alors la diphtonge se produira. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> ne soit qu’une clitique accolée à <tere> et non partie intégrante de la racine du mot.
+- S’il est suivi d’une voyelle dans le même mot, le [i] se transorme en la semi-consonne [j]. Exemple : <friant> (libre-ACC) [frjant]
+- Le [i] peut également se prononcer [ɪ] dans certains cas, comme dans les diphones, devant un [ç], [j], [w] ou [l], selon le locuteur. Exemple : <neiȝ> [nɛɪç]
+- Le [a] non accentué et placé dans une syllabe n’étant pas la dernière d’un mot (sauf si cette dernière se fini par une consonne nasale) se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu. Exemple : <fician> [ˈficjən], <ᵹilðaryt> [ˈɡilðəryt]
+- Si un [ɛ] suit un [e] ou vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : <tereém> se prononce [tɛreːm]
+- Le [l] se transforme en « <l> sombre » [ɫ] en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mæl> [maeɫ]
+- Le [l] géminé [lː] se prononce [ɫː] dans toutes ses occurences.
+- Le [h] se platalise en [ç] s’il est suivi par un [j], un [e] ou un [i]. Exemple : <hét> [çet]
+- Si le [h] se trouve entre deux voyelles, il se voisera en un [ɦ].
+- Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
+
+** <<phon-phonotaxes>>Phonotaxes
+Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <iȝkƿufrƿt> ou <nkƿei> ne sont pas possibles tandis que des mots tels que <éliond> ou <yndeþt> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[phon-diphtongues]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
+
+Concernant les consonnes, différentes règles s’appliquent selon la situation dans la syllabe.
+
+*** <<phon-attaque>>Attaque
+L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter d’aucune consonne à deux consonnes ne contenant pas de semi-voyelle, trois avec une semi-voyelle comme consonne finale.
+- Le [j] ne peut être suivi par un [i].
+- Le [w] ne peut être suivi par une voyelle postérieure.
+- Les fricatives et occlusives peuvent être suivies par un [r] ou un [l], ou par une semi-voyelle.
+- Les fricatives peuvent être suivies par une occlusive, par un [r] ou un [l].
+- Le [ç] ne peut être suivi par une occlusive voisée.
+- Le [h] ne peut être suivi que par un [j] ou un [w] et ne peut pas suivre une autre consonne.
+
+*** Coda
+Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
+- Les semi-consonnes [j] et [w] ne peuvent se situer dans le coda.
+- Les consonnes [r] et [l] peuvent être suivies par une consonne nasale, occlusive ou fricative.
+- Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
+- Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
+- Les nasales peuvent êtres suivies par une occlusive ou une fricative.
+- Les occlusives sourdes peuvent être suivies par un <s>.
+- Les occlusives voisées peuvent être suivies par un <z>.
+- Le [h] ne peut pas se situer dans le coda.
+
+*** Inter-syllabe
+Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
+- Toutes les règles de l’attaque (§[[phon-attaque]]) sont applicables.
+- Les consonnes occlusives peuvent être suivies par une fricative, par un [r] ou un [l].
+- Les consonnes bilabiales peuvent être suivies par des occlusives voisées.
+- Le [h], tel que dans l’attaque, ne peut s’associer qu’avec le [j] ou le [w] qui le suivent.
+- Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.
+
+** <<phon-accentuation>>Accentuation
+Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de deux syllabes ou plus : l’accent principal porte sur la première syllabe. Pour les mots de trois syllabes, un accent secondaire, moins important que le premier, portera sur la troisième syllabe, et pour les mots de quatre syllabes ou plus il portera sur l’avant-dernière syllabe.
+Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, une modification supra-segmentale de l’accentuation habituelle s’effectuera : l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée. Cela déplacera également l’accent secondaire sur la première syllabe si le mot contient au moins trois syllabes.
+
+src_latex{\newpage}
+
+{{{newpage}}}
+* <<writing>>Système d’écriture
+Le système natif d’écriture Mattér est l’alphabet runique. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
+#+CAPTION:Runes du Mattér
+| /                     | <                                 |
+| phonème (transcrit)   | rune                              |
+|-----------------------+-----------------------------------|
+| f                     | {{{latex-html(\textara{f},ᚠ)}}}   |
+| u                     | {{{latex-html(\textara{u},ᚢ)}}}   |
+| s                     | {{{latex-html(\textara{þ},ᚦ)}}}   |
+| o                     | {{{latex-html(\textara{o},ᚩ)}}}   |
+| r                     | {{{latex-html(\textara{r},ᚱ)}}}   |
+| c                     | {{{latex-html(\textara{c},ᚳ)}}}   |
+| g                     | {{{latex-html(\textara{g},ᚷ)}}}   |
+| w                     | {{{latex-html(\textara{w},ᚹ)}}}   |
+| h                     | {{{latex-html(\textara{h},ᚻ)}}}   |
+| ch                    | {{{latex-html(\textara{I},ᛇ)}}}   |
+| n                     | {{{latex-html(\textara{n},ᚾ)}}}   |
+| i                     | {{{latex-html(\textara{i},ᛁ)}}}   |
+| j                     | {{{latex-html(\textara{j},ᛄ)}}}   |
+| p                     | {{{latex-html(\textara{p},ᛈ)}}}   |
+| z                     | {{{latex-html(\textara{s},ᛋ)}}}   |
+| v                     | {{{latex-html(\textara{\ng},ᛝ)}}} |
+| t                     | {{{latex-html(\textara{t},ᛏ)}}}   |
+| b                     | {{{latex-html(\textara{b},ᛒ)}}}   |
+| e                     | {{{latex-html(\textara{e},ᛖ)}}}   |
+| m                     | {{{latex-html(\textara{m},ᛗ)}}}   |
+| l                     | {{{latex-html(\textara{l},ᛚ)}}}   |
+| d                     | {{{latex-html(\textara{d},ᛞ)}}}   |
+| é                     | {{{latex-html(\textara{\oe},ᛟ)}}} |
+| a                     | {{{latex-html(\textara{a},ᚪ)}}}   |
+| y                     | {{{latex-html(\textara{y},ᚣ)}}}   |
+| ae                    | {{{latex-html(\textara{æ},ᚫ)}}}   |
+| ea                    | {{{latex-html(\textara{\ea},ᛠ)}}} |
+| séparateur de mots    | {{{latex-html(\textara{.},᛫)}}}   |
+| marquer de pauses     | {{{latex-html(\textara{:},᛬)}}}   |
+| séparateur de phrases | {{{latex-html(\textara{*},᛭)}}}   |
+
+Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème. Cet alphabet est généralement utilisé lors d’écritures horizontales de droite à gauche et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
+
+Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :{{{newline}}}
+Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newline}}}
+Mattér (transcrit) : morᵹoȝ, ᵹyrneᵹac þcyrmém, þi y ficianur.{{{newline}}}
+Mattér (runes) : {{{latex-html(\textara{morgoI:.gyrnegac.þcyrm\oe m:.þi.y.ficjanur*},ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
+
+Le Mattér peut également être écrit avec les caractères latins standard, comme fait dans quasiment tout ce document, cependant en dépendant beaucoup moins de caractères pouvant paraître « exotiques », pouvant être plus simples d’accès aux personnes utilisant une disposition de clavier n’étant pas pensée afin d’écrire du Mattér :
+#+CAPTION:Caractères latins du Mattér
+| /               | <                    |
+| caractère natif | caractère alternatif |
+|-----------------+----------------------|
+| þ               | s                    |
+| ð               | z                    |
+| ȝ               | ch                   |
+| ƿ               | w                    |
+| i               | j                    |
+| æ               | ae                   |
+| ᵹ               | g                    |
+La lettre <g> et sa version insulaire sont toutes deux utilisées lors de l’écriture du Mattér avec les caractères natifs, cepedant une nette majorité des lettrés préfèrent sa version insulaire <ᵹ> à sa version standard.
+
+Ainsi, des mots tels que <bryð> et <þpiȝ> peuvent s’écrire <bryz> ou <spich> respectivement.
+Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, et enfin la transcription alternative qui n’est utilisée que dans ce document et par des personnes n’ayant pas aisément accès aux caractères spéciaux du Mattér. Quelques exemples de ces différents systèmes d’écriture :
+#+CAPTION:Exemples d’écritures native du Mattér
+| /           | <          | <                                        |
+| latin natif | alternatif | runique                                  |
+|-------------+------------+------------------------------------------|
+| bryð        | bryz       | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}    |
+| þpiȝ        | spich      | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}    |
+| iea         | jea        | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}      |
+| mænd        | maend      | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}    |
+| neþty       | nesty      | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}}  |
+| ƿaȝen       | wachen     | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}}  |
+| ȝciaᵹ       | chcjag     | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ)}}} |
+
+{{{newpage}}}
+* Topologie morphologique
+{{{newpage}}}
+* Classes de mots
+{{{newpage}}}
+* Ordre des constituants basiques
+{{{newpage}}}
+* Prédicats nominaux
+{{{newpage}}}
+* Phrases existentielles, locationnelles et possessives
+{{{newpage}}}
+* Expression des relations grammaticales
+{{{newpage}}}
+* Temps, aspects et modes
+** Causatif
+** Passif
+** Réflexif
+** Réciproque
+** Questions
+** Impératif
+{{{newpage}}}
+* Négation
+{{{newpage}}}
+* Combination de clauses
+{{{newpage}}}
+* Structures marquées pragmatiquement parlant
+* Glossaire

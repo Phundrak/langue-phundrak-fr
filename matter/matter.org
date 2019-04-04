@@ -21,8 +21,6 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
-#+MACRO: if-latex-else (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "$1" "$2"))
-#+MACRO: if-latex-html-else (eval (cond ((org-export-derived-backend-p org-export-current-backend 'latex) "$1") ((org-export-derived-backend-p org-export-current-backend 'html) "$2") (t "$3") ))
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: latex-html @@latex:$1@@ @@html:$2@@
 #+NAME: last-update
@@ -30,7 +28,6 @@
   date '+Dernière mise à jour le %d/%m/%y à %H:%M'
 #+END_SRC
 #+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
-
 #+OPTIONS: H:4
 #+OPTIONS: toc:nil
 src_latex{\newpage}
@@ -50,7 +47,7 @@ Cette langue est un projet à part de mon univers littéraire et fut créé dans
 
 src_latex{\newpage}
 * Description du lexique
-Les racines de la langue sont créées principalement à partir de termes en Vieux Nordique ou d’autres langues nordiques modernes (Suédois, Norvégien, Danois), parfois à partir de langues germaniques (principalement l’Allemand), et occasionellement à partir de Vieil Anglais et de Latin. Cependant, la piste privilégiée est la création de mots à partir de racines déjà existantes, souvent avec la fusion de deux termes ensemble. Cela se produit souvent via l’apposition des premières syllabes des racines ensembles. Par exemple, <wachen> et <mein> (respectivement « voiture » et « douleur ») fusionnent en <meinwach> pour « ambulance ». Cette méthode de création de termes avec uniquement une partie des syllabes des racines du nouveau mot permet au Mattér de conserver des termes avec relativement peu de syllabes ; ces derniers se composent en effet de une à quatre syllabes dans la large majorité des cas sans inflexion, sans déclinaison et sans clitique ajoutée.
+Les racines de la langue sont créées principalement à partir de termes en Vieux Nordique ou d’autres langues nordiques modernes (Suédois, Norvégien, Danois), parfois à partir de langues germaniques (principalement l’Allemand), et occasionellement à partir de Vieil Anglais et de Latin où le mot racine est modifié au gré de mon envie à la phonologie du Mattér, avec quelques fois quelques modifications ne suivant aucune règle mis à part la phonologie. Toutefois, la piste privilégiée est la création de mots à partir de racines déjà existantes, souvent avec la fusion de deux termes ensemble. Cela se produit souvent via l’apposition des premières syllabes des racines ensembles. Par exemple, <wachen> et <mein> (respectivement « voiture » et « douleur ») fusionnent en <meinwach> pour « ambulance ». Cette méthode de création de termes avec uniquement une partie des syllabes des racines du nouveau mot permet au Mattér de conserver des termes avec relativement peu de syllabes ; ces derniers se composent en effet de une à quatre syllabes dans la large majorité des cas sans inflexion, sans déclinaison et sans clitique ajoutée.
 
 src_latex{\newpage}
 * Phonologie
@@ -164,14 +161,15 @@ Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont c
 
 ** Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
-- S’il est suivi d’une voyelle dans le même mot, le [i] se transorme en la semi-consonne [j]. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> soit une clitique accolée à <tere>.
+- Si deux voyelles pouvant former une diphtongue se suivent, alors la diphtonge se produira. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> ne soit qu’une clitique accolée à <tere> et non partie intégrante de la racine du mot.
+- S’il est suivi d’une voyelle dans le même mot, le [i] se transorme en la semi-consonne [j]. Exemple : <friant> (libre-ACC) [frjant]
 - Le [i] peut également se prononcer [ɪ] dans certains cas, comme dans les diphones, devant un [ç], [j], [w] ou [l], selon le locuteur. Exemple : <neich> [nɛɪç]
-- Le [a] non accentué et placé dans une syllabe n’étant pas la dernière d’un mot se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu.
+- Le [a] non accentué et placé dans une syllabe n’étant pas la dernière d’un mot (sauf si cette dernière se fini par une consonne nasale) se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu. Exemple : <ficjan> [ˈficjən], gilzaryt [ˈɡilðəryt]
 - Si un [ɛ] suit un [e] ou vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : <tereém> se prononce [tɛreːm]
 - Le [l] se transforme en « <l> sombre » [ɫ] en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mael> [maeɫ]
 - Le [l] géminé [lː] se prononce [ɫː] dans toutes ses occurences.
-- Le [h] se transforme en [ç] s’il est suivi par un [j], un [e] ou un [i]. Exemple : <hét> [çet]
-- Si le [h] se trouve entre deux voyelles, il se produira comme un [ɦ].
+- Le [h] se platalise en [ç] s’il est suivi par un [j], un [e] ou un [i]. Exemple : <hét> [çet]
+- Si le [h] se trouve entre deux voyelles, il se voisera en un [ɦ].
 - Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
 
 ** Phonotaxes
@@ -314,7 +312,7 @@ On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
 | /               | <>          |                             |
 | cas grammatical | déclinaison | signification               |
 |-----------------+-------------+-----------------------------|
-| nominatif       | velte       | monde (sujet)               |
+| nominatif       | velt        | monde (sujet)               |
 | accusatif       | veltant     | monde (objet)               |
 | datif           | veltis      | monde (objet indirect)      |
 | locatif         | veltoch     | dans le monde (à sa surace) |
@@ -333,7 +331,7 @@ En mattér, il est possible d’indiquer la possession d’une personne du mot a
 | 2ème personne | -(d)yn    | -(i)m  | -(e)nu  |
 | 3ème personne | -én       | -an    | -eas    |
 
-Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par « chyn hys », ou bien « hysyn ». La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
+Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par <chyn hys>, ou bien <hysyn>. La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
 
 ** Déterminants
 Le Mattér dispose de quatre catégories de déterminants :
@@ -402,17 +400,20 @@ Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose p
 
 ** Adjectifs
 
+Les adjectifs sont généralement des modifieurs appliqués à un groupe nominal. Leur version prototypicale est difficile à définir, étant donné qu’elle peut se rapprocher soit d’un verbe, soit d’un nom ; et à raison étant donné que de nombreux adjectifs ont des racines que l’on peut retrouver dans des noms ou des verbes. Cependant, dans les deux cas les adjectifs ont un comportement tout de même plus proche du nom que du verbe en Mattér, en effet ils s’accordent au nom ou groupe nominal qu’ils modifient, et ce en nombre et en cas grammatical. Ils adoptent alors la déclinaison du nom qu’ils décrivent. Voici la structure grammaticale d’un adjectif :
+
+#+CAPTION: Structure d’un adjectif
 | /        | <>         | >           |
 |----------+------------+-------------|
 | adjectif | comparatif | déclinaison |
 |----------+------------+-------------|
 
-Les adjectifs en Mattér s’accordent au nom ou à l’élément principal de la phrase nominale qu’ils définissent, que ce soit en nombre ou en déclinaison. Ils adopteront alors la même déclinaison avec la même terminaison que l’élément qu’ils décrivent. Voici un tableau d’exemple d’accord de <raez> (« rouge ») avec <wachen> (« voiture »).
+Voici un tableau d’exemple d’accord de <raez> (« rouge ») avec <wachen> (« voiture »).
 
 Singulier :
 #+CAPTION:Exemple de déclinaison d’adjectif au singulier
-| /         | <                    |
-| nominatif | a raez wachen        |
+| /         | <                   |
+| nominatif | a raez wachen       |
 | accusatif | a raezant wachenant |
 | datif     | a raezis wachenis   |
 | locatif   | a raezoch wachenoch |
@@ -423,7 +424,7 @@ Singulier :
 
 Paucal :
 #+CAPTION:Exemple de déclinaison d’adjectif au paucal
-| /         | <                         |
+| /         | <                        |
 | nominatif | en raezet wachenet       |
 | accusatif | en raezantet wachenantet |
 | datif     | en raeziset wacheniset   |
@@ -447,21 +448,21 @@ Pluriel :
 
 Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en nombre et en déclinaison avec leur élément décrit : les adjectifs quantitatifs. Ainsi, des adjectifs tels que <vend> (« peu, un peu ») ne changeront jamais, peu importe la déclinaison du mot qu’ils déterminent.
 
-La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire « Bern meccil storant ficjanant gjea etanand ». On sait que l’adjectif <meccil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <stor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases « Bern meccilant storant ficjanant gjea etanand » (« Un ours en train de manger un gros et impressionnant poisson ») et « Bern meccil stor ficjanant gjea etanand » (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
+La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire <Bern meccil storant ficjanant gjea etanand>. On sait que l’adjectif <meccil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <stor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases <Bern meccilant storant ficjanant gjea etanand> (« Un ours en train de manger un gros et impressionnant poisson ») et <Bern meccil stor ficjanant gjea etanand> (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
 
 *** Comparatifs
 **** Mélioratif
- Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe *-ere*. Ainsi, « cette voiture est plus rapide » se traduira par « an scortere wachen beis »
+ Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe *-ere*. Ainsi, « c’est une voiture plus rapide » se traduira par <scortere wachen beis>.
 
 **** Péjoratif
-À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe *-ose*. Ainsi, « cette voiture est moins rapide » se traduira par « an scortese wachen beis ».
+À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe *-ose*. Ainsi, « c’est une voiture moins rapide » se traduira par <scortese wachen beis>.
 
 **** Superlatifs positifs et négatifs
 Contrairement au mélioratif et au péjoratif qui sont tous deux des moyen comparatifs relatifs à un autre élément, les superlatifs positifs et négatifs se réfèrent à un jugement de valeur sensé être absolu, respectivement le meilleur ou le pire élément.
 
-Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe *-este*, tandis qu’il faut ajouter le suffixe *-orto*. Ainsi, « la voiture la plus rapide » se traduira par « an tchortese wachen beis », et « la voiture la moins rapide se traduira par « an scortorto wachen beis ».
+Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe *-este*, tandis qu’il faut ajouter le suffixe *-orto*. Ainsi, « la voiture la plus rapide » se traduira par <an tchortese wachen>, et « la voiture la moins rapide » se traduira par <an scortorto wachen>.
 
-Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement <beste> et <borto>.
+Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement <beste> et <borto>. Ainsi, si on parle de « la meilleure voiture », on parlera de <an beste wachen>.
 
 ** Pronoms
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
@@ -517,19 +518,19 @@ Les pronoms relatifs introduisent en Mattér une clause relative (abordées au c
 L’accord du genre se fait selon la phrase nominale définie tandis que le cas grammatical représente la relation de la clause relative auprès de la phrase nominale. Exemples :
 
 Français : « Mon oncle (maternel) qui est grand est en ville. »{{{newline}}}
-Mattér : « Maebrorych dja meccilant beis urbych beis. »
+Mattér : <Maebrorych dja meccilant beis urbych beis.>
 
 Français : « La ville où j’habite est belle. »{{{newline}}}
-Mattér : « A urby vach bwéne wenant beis. »
+Mattér : <A urby vach bwéne wenant beis.>
 
 Français : « J’ai perdu le livre que je voulais vendre. »{{{newline}}}
-Mattér : « A boccéant vén wiljaer saelle tynner »
+Mattér : <A boccéant vén wiljaer saelle tynner.>
 
 Français : « L’homme dont le chien aboyait tout le temps déménage. »{{{newline}}}
-Mattér : « É mes dy a hynd altiz gyjener flyttene. »
+Mattér : <É mes dy a hynd altiz gyjener flyttene.>
 
 Français : « La rue jusqu’à laquelle on va est étroite. »{{{newline}}}
-Mattér : « É gaet dym gaern smosant beis. »
+Mattér : <É gaet dym gaern smosant beis.>
 
 ** Verbes
 *** Temps
@@ -827,7 +828,7 @@ La clitique *-hyt* est similaire à la clitique *-dom* que l’on retrouve en An
 
 * Syntaxe
 ** Groupe nominal
-Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, « smoz eppel » est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que « eppel smoz » insinue que selon l’avis du locuteur la pomme est petite. Exemple :
+Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, <smoz eppel> est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que <eppel smoz> insinue que selon l’avis du locuteur la pomme est petite. Exemple :
 
 Mattér : Hit galmant wachenant beis.{{{newline}}}
 Français : C’est une vieille voiture.
@@ -953,7 +954,7 @@ Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> di
 Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :{{{newline}}}
 Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newline}}}
 Mattér (transcrit) : morgoch, gyrnegac scyrmém, si y ficjanur.{{{newline}}}
-Mattér (runes) : {{{latex-html(\textara{morgoI:gyrnegac.þcyrm\oe m:þi.y.ficjanur*},ᛗᚩᚱᚷᚩᛇ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛡᚪᚾᚢᚱ᛭)}}}
+Mattér (runes) : {{{latex-html(\textara{morgoI:.gyrnegac.þcyrm\oe m:.þi.y.ficjanur*},ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
 
 Le Mattér peut également être écrit avec les caractères romains comme fait dans quasiment tout ce document, cependant il est possible également d’utiliser quelques caractères alternatifs :
 #+CAPTION:Caractères latins du Mattér
@@ -999,6 +1000,7 @@ Abréviations :
 - sg : singulier
 - vi : verbe intransitif
 - vt : verbe transitif
+- on : onomatopée
 
 ** Actions physiques
 
@@ -1084,8 +1086,13 @@ Abréviations :
 ** Forme
 
 ** Gouvernement
+- cyng :: [kynɡ] (n) roi
+- cyngyt :: [ˈkynɡyt] (n) royaume
 
 ** Grammaire
+- méllém :: [melːem] (adv) entre (deux personnes)
+- neich :: [nɛiç] (adv) aucun
+
 *** Conjonctions
 - ar :: [ar] (conj) et
 - aen :: [aen] (conj) et, mais
@@ -1101,6 +1108,7 @@ Abréviations :
 ** Guerre
 - laette :: [ˈlaetːɛ] perdre, se rendre, abandonner
 ** Légal
+- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
 
 ** Lieux
 
@@ -1119,6 +1127,7 @@ Abréviations :
 - scort :: [θkort] (adj) rapide
 ** Nature
 - velt :: [vɛlt] (n) monde, la Terre
+- lant :: [lant] (n) terre, île
 
 ** Nombres
 - norm :: [norm] (n) nombre, numéro (ordinal)
@@ -1217,32 +1226,30 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - bryz :: [bryð] (n) naissance
 - bryzdeg :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryz> + <deg>)
 - o bwén :: [o bwen] (vi) vivre, habiter
+- ein :: [ɛin] (adj) isolé, solitaire
 - gemmel :: [ɡɛmːɛl] (adj) vieux, âgé
-<Gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer « tweg gaern gemmel be » (litt. « je suis vieux de vingt ans »).
+<gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ze tweg gaernes gemmel be> (litt. « je suis vieux de vingt-trois ans »), <gemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
 - mein :: [mɛin] (n) douleur
 - meinwach :: [mɛinwaç] (n) ambulance (<mein> + <wachen>)
 
 ** À trier
-- o tynne :: [o ˈtynːɛ] (vt) perdre quelque chose
-- mes :: [mɛθ] (n) homme, personne
-- gaet :: [ɡaet] (n) rue, allée
-- méllém :: [melːem] (adv) entre (deux personnes)
-- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
-- fyt :: [fyt] (adj) né
-- o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
-- fri :: [fri] (adj) libre, indépendant
-- frihyt :: [ˈfrihyt] (n) liberté
-- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
-- gilzar :: [ˈɡilðar] (n) valeur, mérite
-- gilzaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
-- cyng :: [kynɡ] (n) roi
-- cyngyt :: [ˈkynɡyt] (n) royaume
-- léc :: [lek] (adj) égal, similaire, pareil
-- soc :: [θok] (n) pensée, raison
 - bevit :: [ˈbevit] (adj) conscient
 - bevityt :: [ˈbeˌvityt] (n) conscience
+- canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
+- fri :: [fri] (adj) libre, indépendant
+- frihyt :: [ˈfrihyt] (n) liberté
+- fyt :: [fyt] (adj) né
+- gaet :: [ɡaet] (n) rue, allée
+- gilzar :: [ˈɡilðar] (n) valeur, mérite
+- gilzaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
+- léc :: [lek] (adj) égal, similaire, pareil
+- mes :: [mɛθ] (n) homme, personne
+- o tynne :: [o ˈtynːɛ] (vt) perdre quelque chose
+- o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
 - sette :: [ˈsɛtːɛ] (vt) doter, équiper
-- canal :: [ˈkanal] (n) canal, salon textuel
+- soc :: [θok] (n) pensée, raison
+- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+- écchi :: [ˈekːçi] (on) éternuement
 
 src_latex{\newpage}
 * Annexes
