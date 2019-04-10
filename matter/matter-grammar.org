@@ -43,9 +43,9 @@ La redistribution ou vente de ce document sont strictement interdits. Ce documen
 
 {{{newpage}}}
 * <<introduction>>Introduction
-Le Mattér est une idéolange (langue construite) humaine, inspirée par des langues nordiques, germaniques et latines. Elle bénéficie également de quelques inspirations des idéolangues elfiques de J.R.R. Tolkien, en particulier la phonétique du /Sindarin/. Brièvement, le Mattér est une langue principalement agglutinative à tendance majoritaire aux suffixes, avec comme exception les verbes qui ont une tendance principalement fusionnelle.
+Le Mattér est une idéolangue (langue construite) humaine, inspirée par des langues nordiques, germaniques et latines. Elle bénéficie également de quelques inspirations des idéolangues elfiques de J.R.R. Tolkien, en particulier la phonétique du /Sindarin/. Brièvement, le Mattér est une langue principalement agglutinative à tendance majoritaire aux suffixes, avec comme exception les verbes qui ont une tendance principalement fusionnelle.
 
-Cette langue est un projet à part de mon univers littéraire ; il ne s’agit que d’une langue jouet dont la seule utilité au-delà de mon propre plaisir sera dans le cadre de mes études d’informatique pour un projet de troisième année de licence en ingénieurie des langues.
+Cette langue est un projet à part de mon univers littéraire ; il ne s’agit que d’une langue jouet dont la seule utilité au-delà de mon propre plaisir sera dans le cadre de mes études d’informatique pour un projet de troisième année de licence en ingénierie des langues.
 
 ** Le nom de la langue
 
@@ -53,21 +53,21 @@ Cette langue est appelée d’après le peuple parlant cette langue, le peuple /
 
 ** Démographie
 
-Le Mattér est parlé par un peuple imaginaire vivant sur une île imaginaire nommée Einlante (/terre solitaire/, /Einlant/ en Mattér), peuplée vers le X^{ème} siècle par un peuple parlant le vieux nordique, partis probablement de la péninsule scandinave par bateau. À l’instar de l’Islande, le peuple Matté s’y étant installé est devenu isolé, permettant une évolution unique de leur langue.
+Le Mattér est parlé par un peuple imaginaire vivant sur une île imaginaire nommée Éïnlante (/terre solitaire/, /Einlant/ en Mattér), peuplée vers le X^{ème} siècle par un peuple parlant le vieux nordique, partis probablement de la péninsule scandinave par bateau. À l’instar de l’Islande, le peuple Matté s’y étant installé est devenu isolé, permettant une évolution unique de leur langue.
 
-Initialement, l’Einlante n’était peuplé que de quelques dizaines de milliers de Mattés, cependant leur population connaît une croissance importante à partir du XX^{ème} siècle avec une industrialisation et modernisation du pays jusqu’à atteindre au début du XXI^{ème} siècle 300.000 habitants.
+Initialement, l’Éïnlante n’était peuplé que de quelques dizaines de milliers de Mattés, cependant leur population connaît une croissance importante à partir du XX^{ème} siècle avec une industrialisation et modernisation du pays jusqu’à atteindre au début du XXI^{ème} siècle 300.000 habitants.
 
-L’Einlante est une île de taille smilaire à sa sœur, l’Islande, mais se situe plus au sud de cette dernière, au sud-est du Groënland et à l’ouest de l’Écosse. Son centre se situe aux alentours des coordonnées 57′N 33′O. Ainsi, cette île bénéficie d’un climat plus clément que l’Islande et similaire à l’Écosse : un climat océanique tempéré mais froid, avec des vents fréquents. Cette île est également une île volcanique, née du rift du plancher atlantique.
+L’Éïnlante est une île de taille similaire à sa sœur, l’Islande, mais se situe plus au sud de cette dernière, au sud-est du Groënland et à l’ouest de l’Écosse. Son centre se situe aux alentours des coordonnées 57′N 33′O. Ainsi, cette île bénéficie d’un climat plus clément que l’Islande et similaire à l’Écosse : un climat océanique tempéré mais froid, avec des vents fréquents. Cette île est également une île volcanique, née du rift du plancher atlantique.
 
-Le peuple Matté est un peuple dont l’économie repose principalement sur la pêche et l’agriculture. Au XV^{ème} siècle, le pays commence à s’ouvrir avec l’extérieur, et des voies de commerce sont ouvertes avec les principaux pays marchands de cette époque. C’est à cette époque que le Christianisme est importé en Einlante, puis un siècle plus tard l’Anglicanisme par le Royaume-Uni, cependant ces deux religions ne réussiront jamais à véritablement s’implanter, la religion nordique païenne restant largement dominante jusqu’au XIX^{ème} siècle où un déclin rapide des diverses religions aura lieu. De nos jours, la population d’Einlante est à environ 88% athéiste, 5% païenne, 4% de sa population suit une des religions monothéistes (principalement le Christianisme et l’Anglicanisme), 2% des religions diverses (Hindouisme, Shamanisme,…) et un surprenant pourcent en croissance se déclare bouddhiste.
+Le peuple Matté est un peuple dont l’économie repose principalement sur la pêche et l’agriculture. Au XV^{ème} siècle, le pays commence à s’ouvrir avec l’extérieur, et des voies de commerce sont ouvertes avec les principaux pays marchands de cette époque. C’est à cette époque que le Christianisme est importé en Éïnlante, puis un siècle plus tard l’Anglicanisme par le Royaume-Uni, cependant ces deux religions ne réussiront jamais à véritablement s’implanter, la religion nordique païenne restant largement dominante jusqu’au XIX^{ème} siècle où un déclin rapide des diverses religions aura lieu. De nos jours, la population d’Éïnlante est à environ 88% athéiste, 5% païenne, 4% de sa population suit une des religions monothéistes (principalement le Christianisme et l’Anglicanisme), 2% des religions diverses (Hindouisme, Chamanisme,…) et un surprenant pourcent en croissance se déclare bouddhiste.
 
 ** Affiliation générique
 
-Le Mattér est une langue Indo-Européenne trouvant ses sources dans la famille des langues scandinaves (germaniques nordiques).
+Le Mattér est une langue Indo-européenne trouvant ses sources dans la famille des langues scandinaves (germaniques nordiques).
 
 ** Système d’écriture
 
-Du fait de son affiliation aux langues nordiques, le Mattér est une langue qui s’est d’abord gravée via l’utilisation de runes, que ce soit sur des pierres ou sur du bois. L’alphabet latin ne sera introduit que plus tard, vers le XV^{ème} siècle, où il sera pendant longtemps utilisé en parallèle aux runes. Généralement, les runes sont gardées pour les monuments et les documents officiels ainsi que pour une utilisation religieuse, tandis que l’alphabet latin se popularise parmi les marchands et tout échanges entre les /Mattés/ et le monde extérieur. Ainsi, deux systèmes d’écriture coexistent. L’introduction de l’imprimerie participa également à une chute de l’utilisation quotidienne des runes, et seule une rapide intervention du gouvernement afin de créer des caractères d’imprimerie runiques a permi de préserver une utilisation relativement courante du système d’écriture traditionnel. Lors de l’avènement de l’informatique, l’utilisation des runes a drastiquement chuté parmi la population, lui préférant alors l’alphabet latin. Avec l’ajout des runes à l’Unicode 3.0, un effort considérable de la part du gouvernement s’est effectué afin de restaurer l’utilisation de celles-ci, mais en vingt ans la proportion d’utilisation des runes n’a pas beaucoup remonté, bien que la chute fut stoppée grâce à cette intervention.
+Du fait de son affiliation aux langues nordiques, le Mattér est une langue qui s’est d’abord gravée via l’utilisation de runes, que ce soit sur des pierres ou sur du bois. L’alphabet latin ne sera introduit que plus tard, vers le XV^{ème} siècle, où il sera pendant longtemps utilisé en parallèle aux runes. Généralement, les runes sont gardées pour les monuments et les documents officiels ainsi que pour une utilisation religieuse, tandis que l’alphabet latin se popularise parmi les marchands et tout échanges entre les /Mattés/ et le monde extérieur. Ainsi, deux systèmes d’écriture coexistent. L’introduction de l’imprimerie participa également à une chute de l’utilisation quotidienne des runes, et seule une rapide intervention du gouvernement afin de créer des caractères d’imprimerie runiques a permis de préserver une utilisation relativement courante du système d’écriture traditionnel. Lors de l’avènement de l’informatique, l’utilisation des runes a drastiquement chuté parmi la population, lui préférant alors l’alphabet latin. Avec l’ajout des runes à l’Unicode 3.0, un effort considérable de la part du gouvernement s’est effectué afin de restaurer l’utilisation de celles-ci, mais en vingt ans la proportion d’utilisation des runes n’a pas beaucoup remonté, bien que la chute fut stoppée grâce à cette intervention.
 
 Plus d’informations seront données dans le chapitre dédié au système d’écriture Mattér (§[[writing]]).
 
@@ -82,16 +82,16 @@ Le Mattér est une langue encore très vivante parmi les Mattés, qui est parlé
 ** <<phon-notes>>Notes sur la transcription du Mattér
 Comme vous pourrez vous en rendre compte aux chapitres §[[phon-consonnes]] et §[[phon-voyelles]], le Mattér dispose de deux transcriptions possibles qui seront les transcriptions principalement utilisées dans cet ouvrage, la transcription en IPA (/International Phonetic Alphabet/[fn::[[https://www.internationalphoneticassociation.org/content/ipa-chart]]]) et le script latin natif du Mattér qui sera généralement plus simple et intuitif à lire, malgré un apprentissage sans doute nécessaire de certains caractères. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement l’alphabet latin natif. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[phon-allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique *générale*, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique *rapprochée* sera nécessaire pour avoir la prononciation exacte, auquel cas je signalerai cette distinction entre phonétique générale et rapprochée.
 
-La transcription phonétique sera donnée [entre crochets], tandis que des éléments en script natif du Mattér seront <entre chevrons>. La transcription phonétique sera la prononciation générale, et occasionellement, quand indiqué la phonétique pourra également être une phonétique rapprochée, dénotant une plus grande précision phonétique, notamment dans le chapitre sur l’allophonie (§[[phon-allophonie]]) ci-dessous.
+La transcription phonétique sera donnée [entre crochets], tandis que des éléments en script natif du Mattér seront <entre chevrons>. La transcription phonétique sera la prononciation générale, et occasionnellement, quand indiqué la phonétique pourra également être une phonétique rapprochée, dénotant une plus grande précision phonétique, notamment dans le chapitre sur l’allophonie (§[[phon-allophonie]]) ci-dessous.
 
 Il existe également le système d’écriture runique du Mattér, la méthode d’écriture originale de cette langue, mais ce système ne sera utilisé que dans son chapitre dédié (§[[writing]]).
 
 ** Inventaire phonétique
 L’inventaire phonétique est l’une des signatures d’une langue qui se remarque le plus rapidement. Il s’agit de la collection des sons utilisés en Mattér, ceux que peuvent prononcer ses locuteurs et pouvant être utilisés dans un discourt lors de la production de mots et de phrases. Les phonèmes sont les unités sonores les plus petites constatables dans une langue.
 
-On distingue généralement deux catégories de phonèmes : les voyelles, dont la production se fait sans obstruction du passage de l’air dans la bouche, et les consonnes où un certain type d’obstruction au passage de l’air se réalise le plus souvent. Par exemple, le [y] (tel que le <u> de « lune » en Français) se prononce avec les lèvres arrondies, la bouche presque fermée et la langue relevée, alors que le [p] se caractérisera par l’arrêt puis le relâchement soudain de l’air au niveau des deux lèvres sans faire vibrer les cordes vocales en même temps. Ils existent également les diphtongues qui sont considérées par certaines langues, comme par example l’Anglais, qui considère une association de deux voyelles comme étant une voyelle unique. Tout cela sera expliqué plus en détails ci-dessous.
+On distingue généralement deux catégories de phonèmes : les voyelles, dont la production se fait sans obstruction du passage de l’air dans la bouche, et les consonnes où un certain type d’obstruction au passage de l’air se réalise le plus souvent. Par exemple, le [y] (tel que le <u> de « lune » en Français) se prononce avec les lèvres arrondies, la bouche presque fermée et la langue relevée, alors que le [p] se caractérisera par l’arrêt puis le relâchement soudain de l’air au niveau des deux lèvres sans faire vibrer les cordes vocales en même temps. Ils existent également les diphtongues qui sont considérées par certaines langues, comme par exemple l’Anglais, qui considère une association de deux voyelles comme étant une voyelle unique. Tout cela sera expliqué plus en détails ci-dessous.
 
-Comme mentionné en introduction (§[[phon-allophonie]]), le choix de l’inventaire phonétique du Mattér s’est basé sur l’inventaire phonétique de langues elfiques créées par Tolkien, notemment le Sindarin.
+Comme mentionné en introduction (§[[phon-allophonie]]), le choix de l’inventaire phonétique du Mattér s’est basé sur l’inventaire phonétique de langues elfiques créées par Tolkien, notamment le Sindarin.
 
 *** <<phon-consonnes>>Consonnes
 Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et en latin (voir §[[phon-notes]]).
@@ -134,7 +134,7 @@ Voici ci-dessous une description individuelle de chaque consonne :
 - n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
 - p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
 - r :: Ce <r> peut être retrouvé en Espagnol « perro » [ˈpe̞ro̞], en Tchèque dans « chlor » [xlɔ̝ːr] ou encore en Anglais Écossais « curd » [kʌrd]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
-- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Mattér est la consonne occlusive alvéolaire sourde [t].
+- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Danois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Mattér est la consonne occlusive alvéolaire sourde [t].
 - v :: Le <v> du Mattér peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
 - ð :: Cette consonne <ð> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
 - þ :: Il s’agit de la contrepartie sourde de <ð> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
@@ -177,7 +177,7 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - [ə] :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
 *** <<phon-diphtongues>>Diphtonges
-Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Mattér :
+Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relâchant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Mattér :
 
 #+CAPTION:Diphtongues du Mattér
 | [ei] | [ai] |
@@ -190,18 +190,18 @@ Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont c
 ** <<phon-allophonie>>Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
 - Si deux voyelles pouvant former une diphtongue se suivent, alors la diphtonge se produira. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> ne soit qu’une clitique accolée à <tere> et non partie intégrante de la racine du mot.
-- S’il est suivi d’une voyelle dans le même mot, le [i] se transorme en la semi-consonne [j]. Exemple : <friant> (libre-ACC) [frjant]
-- Le [i] peut également se prononcer [ɪ] dans certains cas, comme dans les diphones, devant un [ç], [j], [w] ou [l], selon le locuteur. Exemple : <neiȝ> [nɛɪç]
+- S’il est suivi d’une voyelle dans le même mot, le [i] se transforme en la semi-consonne [j]. Exemple : <friant> (libre-ACC) [frjant]
+- Le [i] peut également se prononcer [ɪ] dans certains cas, comme dans les diphtongues, devant un [ç], [j], [w] ou [l], selon le locuteur. Exemple : <neiȝ> [nɛɪç]
 - Le [a] non accentué et placé dans une syllabe n’étant pas la dernière d’un mot (sauf si cette dernière se fini par une consonne nasale) se prononcera comme un schwa lors de l’utilisation d’un niveau de langage n’étant pas soutenu. Exemple : <fician> [ˈficjən], <ᵹilðaryt> [ˈɡilðəryt]
 - Si un [ɛ] suit un [e] ou vice-versa, alors la première voyelle sera silencieuse et la seconde sera géminée. Exemple : <tereém> se prononce [tɛreːm]
 - Le [l] se transforme en « <l> sombre » [ɫ] en fin de syllabe, en particulier avant une pause ou un silence. Exemple : <mæl> [maeɫ]
-- Le [l] géminé [lː] se prononce [ɫː] dans toutes ses occurences.
+- Le [l] géminé [lː] se prononce [ɫː] dans toutes ses occurrences.
 - Le [h] se platalise en [ç] s’il est suivi par un [j], un [e] ou un [i]. Exemple : <hét> [çet]
 - Si le [h] se trouve entre deux voyelles, il se voisera en un [ɦ].
 - Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
 
 ** <<phon-phonotaxes>>Phonotaxes
-Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <iȝkƿufrƿt> ou <nkƿei> ne sont pas possibles tandis que des mots tels que <éliond> ou <yndeþt> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[phon-diphtongues]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
+Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <iȝkƿufrƿt> ou <nkƿei> ne sont pas possibles tandis que des mots tels que <éliond> ou <yndeþt> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[phon-diphtongues]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bi-syllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
 
 Concernant les consonnes, différentes règles s’appliquent selon la situation dans la syllabe.
 
@@ -226,7 +226,7 @@ Le coda (la seconde partie consonnantique de la syllabe la terminant) est compos
 - Le [h] ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
-Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
+Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles aussi à des règles qui leur sont propres.
 - Toutes les règles de l’attaque (§[[phon-attaque]]) sont applicables.
 - Les consonnes occlusives peuvent être suivies par une fricative, par un [r] ou un [l].
 - Les consonnes bilabiales peuvent être suivies par des occlusives voisées.
@@ -329,7 +329,7 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 ** Clauses principales
 ** Phrase prépositionnelles
 ** Phrases nominales
-*** Modifieurs
+*** Modificateurs
 *** Constructions génitives
 *** Clauses relatives
 ** Phrases verbales
@@ -351,7 +351,7 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 * Temps, aspects et modes
 ** Temps
 ** Aspect
-** Modaux auxilliaires
+** Modaux auxiliaires
 ** Causatif
 *** Causatif lexical
 *** Causatif analytique
@@ -383,7 +383,9 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 Abréviations :
 - adj : adjectif
 - adv : adverbe
+- conj : conjonction
 - ind : indénombrable
+- inter : interrogatif
 - n : nom
 - pau : paucal
 - pl : pluriel
@@ -466,12 +468,14 @@ Abréviations :
 
 ** Famille
 - bruðyr :: [ˈbruðyr] (n) frère
+- dottyr :: [ˈdɔtːyr] (n) fille
 - faðér :: [ˈfaðer] (n) père
 - fobror :: [ˈfobror] (n) oncle paternel
 - foþtyr :: [ˈfostyr] (n) tante paternelle
 - maðér :: [ˈmaðer] (n) mère
 - maþtyr :: [ˈmastyr] (n) tante maternelle
 - mæbror :: [ˈmaebror] (n) oncle maternel
+- þon :: [θɔn] (n) fils
 - þyþter :: [ˈsystɛr] (n) sœur
 
 ** Forme
@@ -479,27 +483,31 @@ Abréviations :
 ** Gouvernement
 - cynᵹ :: [kynɡ] (n) roi
 - cynᵹyt :: [ˈkynɡyt] (n) royaume
+- faðcynᵹ :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
+- faðcynᵹyt :: [ˈfaðˌkunɡyt] (n) royaume, père patrie
 
 ** Grammaire
 - méllém :: [melːem] (adv) entre (deux personnes)
 - neiȝ :: [nɛiç] (adv) aucun
+- þém :: [θem] (inter) quand, à quel moment
 
 *** Conjonctions
 - ar :: [ar] (conj) et
 - men :: [mɛn] (conj) mais
 - némmé :: [nemːe] (conj) excepté, à moins que
-- oᵹ :: [oɡ] (conj) et, cependant, toujours est-il que
-- æn :: [aen] (conj) et, mais
-- ðea :: [ðea] (conj) mais, introduit une question
+- ér :: [er] (conj) quand (pas interrogatif)
+- oᵹ :: [oɡ] (coni) et, cependant, touiourþ eþt-il que
+- æn :: [æn] (coni) et, maiþ
+- ðea :: [ðea] (coni) maiþ, introduit une queþtion
 
-*** Prépositions
+*** Prépoþitionþ
 - tél :: [tel] (prep) pour, afin
-- þiv :: [θiv] (prep) pour la raison de, du fait de.
+- þiv :: [θiv] (prep) pour la raiþon de, du fait de.
 
-** Guerre
-- lætte :: [ˈlaetːɛ] perdre, se rendre, abandonner
-** Légal
-- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
+** Ᵹuerre
+- lætte :: [ˈlætːɛ] perdre, þe rendre, abandonner
+** Léᵹal
+- retty :: [ˈrɛtːy] (n) droit (civil, léᵹal, moral,…)
 
 ** Lieux
 
@@ -507,24 +515,24 @@ Abréviations :
 
 ** Mental
 
-** Mesures
+** Meþureþ
 
 ** Métaux
 
-** Mouvements
+** Mouvementþ
 - o commén :: [o komːen] (vi) venir, arriver
-- o lieᵹᵹa :: [o ˈljeɡːa] (vi) aller à travers champs, sans suivre de chemin, errer
+- o lieᵹᵹa :: [o ˈlieɡːa] (vi) aller à traverþ ȝampþ, þanþ þuivre de ȝemin, errer
 - o ᵹa :: [o ɡa] (vi) aller
-- þcort :: [θkort] (adj) rapide
+- þcort :: [θkort] (adi) rapide
 ** Nature
 - velt :: [vɛlt] (n) monde, la Terre
-- lant :: [lant] (n) terre, île
+- lant :: [lant] (n) terre
 
-** Nombres
+** Nombreþ
 - norm :: [norm] (n) nombre, numéro (ordinal)
-- al :: [al] (adj) tout, tous
-*** Nombres cardinaux
-Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
+- al :: [al] (adi) tout, touþ
+*** Nombreþ cardinaux
+Comme préþenté danþ le ȝapitre þur leþ nombreþ (§[[*Nombreþ]]), voici ci-deþþouþ leþ nombreþ cardinaux du Mattér. Leur utiliþation eþt détaillée danþ le ȝapitre mentionné ci-deþþuþ.
 |                / | <       |
 |           nombre | terme   |
 |------------------+---------|
@@ -554,27 +562,34 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 | 1 0000 0000 0000 | vrelien |
 
 ** Nourriture
-- o etan :: [o ɛtan] (vt) manger
-- o þpiȝ :: [o θpiç] (vt) (vulgaire) manger, bouffer
+- o etan :: [o ɛtan] (vt) manᵹer
+- o þpiȝ :: [o θpiç] (vt) (vulᵹaire) manᵹer, bouffer
 
-** Outils
-- ƿaȝen :: [ˈwaçɛn] (n) voiture
+** Outilþ
+- ƿaȝen :: [ˈƿaçɛn] (n) voiture
 
 ** Parole
-- o þeᵹ :: [o sɛɡ] (vt) dire
+- o þeᵹ :: [o þɛɡ] (vt) dire
 
-** Péchés
+** Péȝéþ
 
-** Physique
+** Phyþique
 
-** Possession
+** Poþþeþþion
 
-** Religion
+** Reliᵹion
+
+- Fréyia :: [ˈfreˌyia] (n) Freyia
+- Fréyr :: [ˈfreyr] (n) Freyr
+- Odin :: [ˈɔdin] (n) Odin
+- Valalla :: [ˈvaˌlalːa] (n) Valhalla
+- Þor :: [θɔr] (n) Thor
+- ᵹuð :: [ɡuð] (n) dieu païen
+- ᵹuþ :: [ɡuθ] (n) Dieu (monothéisme)
 
 ** Savoir
 - o cyn :: [o kyn] (vt) savoir
-- o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de
-En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
+- o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de. En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
 - o þiea :: [o sjea] (vt) connaître, savoir superficiellement
 
 ** Sensations
@@ -629,7 +644,9 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - fri :: [fri] (adj) libre, indépendant
 - frihyt :: [ˈfrihyt] (n) liberté
 - fyt :: [fyt] (adj) né
+- heillen :: [ˈhɛilːɛn] (vt) glorifier, rendre gloire à. <heillen> ne prend aucun argument accusatif, ce dernier étant remplacé par un argument datif. Ainsi, « je rend gloire à Odin » se traduit <Odiniþ heille>.
 - léc :: [lek] (adj) égal, similaire, pareil
+- lita :: [ˈlita] (vt) regarder, observer
 - meþ :: [mɛθ] (n) homme, personne
 - o tynne :: [o ˈtynːɛ] (vt) perdre quelque chose
 - o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
@@ -645,4 +662,4 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 
 * Annexes
 
-#  LocalWords:  Pappa langue-jouet
+#  LocalWords:  Pappa langue-jouet Matté Einlant Mattés
