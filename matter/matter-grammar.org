@@ -151,8 +151,8 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 |   |             | antérieures | milieu | postérieures |
 |---+-------------+-------------+--------+--------------|
 |   | fermées     | i / y       |        | u            |
-|   | mi-fermées  | e           | [ə]    | o            |
-|   | mi-ouvertes | ɛ           |        |              |
+|   | mi-fermées  | e           | [ə]    |              |
+|   | mi-ouvertes | ɛ           |        | ɔ            |
 |   | ouvertes    | a           |        |              |
 
 #+CAPTION: Voyelles du Mattér (translittération)
@@ -160,8 +160,8 @@ Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur t
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
 |   | fermées     | i / y       | u            |
-|   | mi-fermées  | é           | o            |
-|   | mi-ouvertes | e           |              |
+|   | mi-fermées  | é           |              |
+|   | mi-ouvertes | e           | o            |
 |   | ouvertes    | a           |              |
 
 On peut constater que le Mattér est une langue disposant d’une complexité modeste concernant ses cinq voyelles antérieures et d’une simplicité apparente concernant ses deux voyelles postérieures. On notera également que le [ə] est noté entre crochets du fait de sa situation en Mattér en tant qu’allophone (voir le chapitre §[[phon-allophonie]]) et jamais en tant que voyelle existant par elle-même. Cela implique également son absence du tableau de translittération.
@@ -171,7 +171,7 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - e :: Il s’agit de la voyelle antérieure mi-ouverte non-arrondie [ɛ] que l’on retrouve dans « bet » [bɛtʰ] en Anglais ou « fête » [fɛt̪] en Français.
 - é :: Il s’agit de la voyelle antérieure mi-fermée non-arrondie [e] que l’on retrouve dans « blé » [ble] en Français.
 - i :: On peut retrouver cette voyelle en Anglais comme dans « free » [fɹiː], « ív » [iːv] en Hongrois ou « vie » [vi] en Français. Il s’agit de la voyelle antérieure fermée non-arrondie [i].
-- o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [o] que l’on peut retrouver dans « hôtel » [o.tɛl].
+- o :: Il s’agit de la voyelle postérieure mi-ouverte arrondie [ɔ] que l’on peut retrouver dans « sort » [sɔʁ] en Français, « not » [nɔt] en Anglais australien et néo-zélandais, ou encore dans « voll » [fɔl] en Allemand standard.
 - u :: On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs] ou en Français dans « tout » [t̪u]. Il s’agit de la voyelle postérieure fermée arrondie [u].
 - y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ], en Hongrois avec « tű » [t̪yː] ou tout simplement en Français dans « lune » [lyn]. Il s’agit de la voyelle antérieure fermée arrondie [y].
 - [ə] :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
@@ -221,8 +221,8 @@ Le coda (la seconde partie consonnantique de la syllabe la terminant) est compos
 - Les fricatives sourdes ne peuvent être suivies que par des occlusives sourdes.
 - Les fricatives voisées ne peuvent être suivies que par des occlusives voisées ou par des nasales.
 - Les nasales peuvent êtres suivies par une occlusive ou une fricative.
-- Les occlusives sourdes peuvent être suivies par un <s>.
-- Les occlusives voisées peuvent être suivies par un <z>.
+- Les occlusives sourdes peuvent être suivies par un [θ].
+- Les occlusives voisées peuvent être suivies par un [ð].
 - Le [h] ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
@@ -243,39 +243,39 @@ src_latex{\newpage}
 * <<writing>>Système d’écriture
 Le système natif d’écriture Mattér est l’alphabet runique. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
 #+CAPTION:Runes du Mattér
-| /                     | <                                 |
-| phonème (transcrit)   | rune                              |
-|-----------------------+-----------------------------------|
-| f                     | {{{latex-html(\textara{f},ᚠ)}}}   |
-| u                     | {{{latex-html(\textara{u},ᚢ)}}}   |
-| s                     | {{{latex-html(\textara{þ},ᚦ)}}}   |
-| o                     | {{{latex-html(\textara{o},ᚩ)}}}   |
-| r                     | {{{latex-html(\textara{r},ᚱ)}}}   |
-| c                     | {{{latex-html(\textara{c},ᚳ)}}}   |
-| g                     | {{{latex-html(\textara{g},ᚷ)}}}   |
-| w                     | {{{latex-html(\textara{w},ᚹ)}}}   |
-| h                     | {{{latex-html(\textara{h},ᚻ)}}}   |
-| ch                    | {{{latex-html(\textara{I},ᛇ)}}}   |
-| n                     | {{{latex-html(\textara{n},ᚾ)}}}   |
-| i                     | {{{latex-html(\textara{i},ᛁ)}}}   |
-| j                     | {{{latex-html(\textara{j},ᛄ)}}}   |
-| p                     | {{{latex-html(\textara{p},ᛈ)}}}   |
-| z                     | {{{latex-html(\textara{s},ᛋ)}}}   |
-| v                     | {{{latex-html(\textara{\ng},ᛝ)}}} |
-| t                     | {{{latex-html(\textara{t},ᛏ)}}}   |
-| b                     | {{{latex-html(\textara{b},ᛒ)}}}   |
-| e                     | {{{latex-html(\textara{e},ᛖ)}}}   |
-| m                     | {{{latex-html(\textara{m},ᛗ)}}}   |
-| l                     | {{{latex-html(\textara{l},ᛚ)}}}   |
-| d                     | {{{latex-html(\textara{d},ᛞ)}}}   |
-| é                     | {{{latex-html(\textara{\oe},ᛟ)}}} |
-| a                     | {{{latex-html(\textara{a},ᚪ)}}}   |
-| y                     | {{{latex-html(\textara{y},ᚣ)}}}   |
-| ae                    | {{{latex-html(\textara{æ},ᚫ)}}}   |
-| ea                    | {{{latex-html(\textara{\ea},ᛠ)}}} |
-| séparateur de mots    | {{{latex-html(\textara{.},᛫)}}}   |
-| marquer de pauses     | {{{latex-html(\textara{:},᛬)}}}   |
-| séparateur de phrases | {{{latex-html(\textara{*},᛭)}}}   |
+| /                     | <                                 | <      |
+| script latin          | rune                              | nom    |
+|-----------------------+-----------------------------------+--------|
+| f                     | {{{latex-html(\textara{f},ᚠ)}}}   | feioð  |
+| u                     | {{{latex-html(\textara{u},ᚢ)}}}   | ulv    |
+| þ                     | {{{latex-html(\textara{þ},ᚦ)}}}   | þær    |
+| o                     | {{{latex-html(\textara{o},ᚩ)}}}   | orn    |
+| r                     | {{{latex-html(\textara{r},ᚱ)}}}   | rinna  |
+| c                     | {{{latex-html(\textara{c},ᚳ)}}}   | calfér |
+| ᵹ                     | {{{latex-html(\textara{g},ᚷ)}}}   | gelty  |
+| ƿ                     | {{{latex-html(\textara{w},ᚹ)}}}   | wyrm   |
+| h                     | {{{latex-html(\textara{h},ᚻ)}}}   | héþir  |
+| ȝ                     | {{{latex-html(\textara{I},ᛇ)}}}   | ȝuðar  |
+| n                     | {{{latex-html(\textara{n},ᚾ)}}}   | néf    |
+| i                     | {{{latex-html(\textara{i},ᛁ)}}}   | iéral  |
+| [j]                   | {{{latex-html(\textara{j},ᛄ)}}}   | iara   |
+| p                     | {{{latex-html(\textara{p},ᛈ)}}}   | pyl    |
+| ð                     | {{{latex-html(\textara{s},ᛋ)}}}   |        |
+| v                     | {{{latex-html(\textara{\ng},ᛝ)}}} |        |
+| t                     | {{{latex-html(\textara{t},ᛏ)}}}   |        |
+| b                     | {{{latex-html(\textara{b},ᛒ)}}}   |        |
+| e                     | {{{latex-html(\textara{e},ᛖ)}}}   |        |
+| m                     | {{{latex-html(\textara{m},ᛗ)}}}   |        |
+| l                     | {{{latex-html(\textara{l},ᛚ)}}}   |        |
+| d                     | {{{latex-html(\textara{d},ᛞ)}}}   |        |
+| é                     | {{{latex-html(\textara{\oe},ᛟ)}}} |        |
+| a                     | {{{latex-html(\textara{a},ᚪ)}}}   |        |
+| y                     | {{{latex-html(\textara{y},ᚣ)}}}   |        |
+| æ                     | {{{latex-html(\textara{æ},ᚫ)}}}   |        |
+| ea                    | {{{latex-html(\textara{\ea},ᛠ)}}} |        |
+| séparateur de mots    | {{{latex-html(\textara{.},᛫)}}}   |        |
+| marquer de pauses     | {{{latex-html(\textara{:},᛬)}}}   |        |
+| séparateur de phrases | {{{latex-html(\textara{*},᛭)}}}   |        |
 
 Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème. Cet alphabet est généralement utilisé lors d’écritures horizontales de droite à gauche et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
 
@@ -396,31 +396,35 @@ Abréviations :
 - on : onomatopée
 
 ** Actions physiques
-
 ** Amour
-
 ** Animaux
 - bern :: [bɛrn] (n) ours
+- calfér :: [ˈcalfer] (n) veaus
 - cat :: [kat] (n) chat
 - fician :: [ˈfikjan] (n) poisson
+- gelty :: [ˈɡɛlty] (n) sanglier (sauvage)
+- héþir :: [ˈheθir] (n) faucon
 - hynd :: [hynd] (n) chien
-- o fician :: [o ˈfikjan] (vt) pêcher
-- o ᵹyien :: [o ɡyjɛn] (vi) aboyer (animaux, chiens)
+- o fician :: [ɔ ˈfikjan] (vt) pêcher
+- orn :: [ɔrn] (n) aigle
+- o ᵹyien :: [ɔ ɡyjɛn] (vi) aboyer (animaux, chiens)
+- ulv :: [ulv] (n) loup
+- wyrm :: [wyrm] (n) wyrm, dragon serpent (animal fantastique)
+- ȝuðar :: [ˈçuðar] (n) mouton
 
 ** Art
 - ƿen :: [wɛn] beau, joli
 
 *** Écriture
-- boccé :: [ˈbokːe] (n) livre
+- boccé :: [ˈbɔkːe] (n) livre
 - breif :: [brɛɪf] (n) lettre, missive
-- o rittan :: [o ˈritːa] (vt) écrire, graver des runes
-- o ᵹéren :: [o ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
+- o rittan :: [ɔ ˈritːa] (vt) écrire, graver des runes
+- o ᵹéren :: [ɔ ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
 - ryn :: [ryn] (n) rune, lettre alphabétique
 
 ** Astronomie
-
 ** Bâtiments
-- o flytten :: [o flytːɛn] (vi) déménager
+- o flytten :: [ɔ flytːɛn] (vi) déménager
 *** La ville
 - urby :: [ˈurby] (n) ville
 *** Les types de bâtiments
@@ -428,63 +432,55 @@ Abréviations :
 - hyþ :: [hyθ] (n) maison (bâtiment)
 
 ** Commerce
-- o þælle :: [o ˈsaelːɛ] (vt) vendre, donner à quelqu’un
+- o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
 ** Conflits
-
 ** Conteneurs
-
 ** Corps
+- néf :: [nef] (n) nez
 
 ** Couleurs
 - ræð :: [raeð] (adj) rouge
 ** Dimensions
 *** Taille
 - meccil :: [mekːil] (adj) grand, imposant, puissant, fort
-- þmoð :: [smoð] (adj) petit, étroit
-- þtor :: [θtor] (adj) gros, grand, de grande taille, large
+- þmoð :: [θmɔð] (adj) petit, étroit
+- þtor :: [θtɔr] (adj) gros, grand, de grande taille, large
 
 *** Quantifieurs
 - mænd :: [maend] (adj) beaucoup
 - vend :: [vend] (adj) peu, un peu
 
 ** Direction
-
 ** Eau
-
 ** Effort
-
 ** Éléments
-
 ** Émotions
 - lycce :: [ˈlykːɛ] (adj) joyeux, content
-- o ƿilia :: [o ˈwilja] (vt) vouloir, avoir envie de
+- o ƿilia :: [ɔ ˈwilja] (vt) vouloir, avoir envie de
 - ƿille :: [ˈwilːɛ] (n) souhait, désir
 
 ** Évaluation
-
 ** Événements
-
 ** Existence
-
 ** Famille
 - bruðyr :: [ˈbruðyr] (n) frère
 - dottyr :: [ˈdɔtːyr] (n) fille
 - faðér :: [ˈfaðer] (n) père
-- fobror :: [ˈfobror] (n) oncle paternel
-- foþtyr :: [ˈfostyr] (n) tante paternelle
+- fobror :: [ˈfɔbrɔr] (n) oncle paternel
+- foþtyr :: [ˈfɔθtyr] (n) tante paternelle
 - maðér :: [ˈmaðer] (n) mère
-- maþtyr :: [ˈmastyr] (n) tante maternelle
-- mæbror :: [ˈmaebror] (n) oncle maternel
+- maþtyr :: [ˈmaθtyr] (n) tante maternelle
+- mæbror :: [ˈmaebrɔr] (n) oncle maternel
 - þon :: [θɔn] (n) fils
-- þyþter :: [ˈsystɛr] (n) sœur
+- þyþter :: [ˈθyθtɛr] (n) sœur
 
 ** Forme
-
 ** Gouvernement
 - cynᵹ :: [kynɡ] (n) roi
 - cynᵹyt :: [ˈkynɡyt] (n) royaume
+- iéral :: [ˈjeral] jarl, seigneur
 - faðcynᵹ :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
-- faðcynᵹyt :: [ˈfaðˌkunɡyt] (n) royaume, père patrie
+- faðcynᵹyt :: [ˈfaðˌkynɡyt] (n) royaume, père patrie
 
 ** Grammaire
 - méllém :: [melːem] (adv) entre (deux personnes)
@@ -496,43 +492,42 @@ Abréviations :
 - men :: [mɛn] (conj) mais
 - némmé :: [nemːe] (conj) excepté, à moins que
 - ér :: [er] (conj) quand (pas interrogatif)
-- oᵹ :: [oɡ] (coni) et, cependant, touiourþ eþt-il que
-- æn :: [æn] (coni) et, maiþ
-- ðea :: [ðea] (coni) maiþ, introduit une queþtion
+- oᵹ :: [ɔɡ] (coni) et, cependant, toujours est-il que
+- æn :: [æn] (coni) et, mais
+- ðea :: [ðea] (coni) mais, introduit une queþtion
 
 *** Prépoþitionþ
 - tél :: [tel] (prep) pour, afin
-- þiv :: [θiv] (prep) pour la raiþon de, du fait de.
+- þiv :: [θiv] (prep) pour la raison de, du fait de.
 
-** Ᵹuerre
-- lætte :: [ˈlætːɛ] perdre, þe rendre, abandonner
-** Léᵹal
-- retty :: [ˈrɛtːy] (n) droit (civil, léᵹal, moral,…)
+** Guerre
+- lætte :: [ˈlætːɛ] (vi) perdre, se rendre, abandonner
+- iara :: [ˈjara] (n) bataille
+** Légal
+- retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
 
 ** Lieux
-
 ** Lumière
-
 ** Mental
-
-** Meþureþ
-
+** Mesures
 ** Métaux
-
-** Mouvementþ
-- o commén :: [o komːen] (vi) venir, arriver
-- o lieᵹᵹa :: [o ˈlieɡːa] (vi) aller à traverþ ȝampþ, þanþ þuivre de ȝemin, errer
-- o ᵹa :: [o ɡa] (vi) aller
-- þcort :: [θkort] (adi) rapide
+** Mouvements
+- o commén :: [ɔ kɔmːen] (vi) venir, arriver
+- o lieᵹᵹa :: [ɔ ˈlieɡːa] (vi) aller à travers champs, sans suivre de chemin, errer
+- o rinna :: [ɔ ˈrinːa] (vi) courir, couler (eau, liquide)
+- o ᵹa :: [ɔ ɡa] (vi) aller
+- þcort :: [θkɔrt] (adi) rapide
 ** Nature
 - velt :: [vɛlt] (n) monde, la Terre
 - lant :: [lant] (n) terre
+- pyl :: [pyl] (n) bois, petite forêt
+- þær :: [θaer] (n) mer
 
-** Nombreþ
-- norm :: [norm] (n) nombre, numéro (ordinal)
-- al :: [al] (adi) tout, touþ
-*** Nombreþ cardinaux
-Comme préþenté danþ le ȝapitre þur leþ nombreþ (§[[*Nombreþ]]), voici ci-deþþouþ leþ nombreþ cardinaux du Mattér. Leur utiliþation eþt détaillée danþ le ȝapitre mentionné ci-deþþuþ.
+** Nombres
+- norm :: [nɔrm] (n) nombre, numéro (ordinal)
+- al :: [al] (adi) tout, tous
+*** Nombres cardinaux
+Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
 |                / | <       |
 |           nombre | terme   |
 |------------------+---------|
@@ -562,24 +557,20 @@ Comme préþenté danþ le ȝapitre þur leþ nombreþ (§[[*Nombreþ]]), voici 
 | 1 0000 0000 0000 | vrelien |
 
 ** Nourriture
-- o etan :: [o ɛtan] (vt) manᵹer
-- o þpiȝ :: [o θpiç] (vt) (vulᵹaire) manᵹer, bouffer
+- o etan :: [ɔ ɛtan] (vt) manger
+- o þpiȝ :: [ɔ θpiç] (vt) (vulgaire) manger, bouffer
 
-** Outilþ
-- ƿaȝen :: [ˈƿaçɛn] (n) voiture
+** Outils
+- ƿaȝen :: [ˈwaçɛn] (n) voiture
 
 ** Parole
-- o þeᵹ :: [o þɛɡ] (vt) dire
+- o þeᵹ :: [ɔ þɛɡ] (vt) dire
 
-** Péȝéþ
-
-** Phyþique
-
-** Poþþeþþion
-
-** Reliᵹion
-
-- Fréyia :: [ˈfreˌyia] (n) Freyia
+** Péchés
+** Physique
+** Possession
+** Religion
+- Fréyia :: [ˈfreˌyja] (n) Freyja
 - Fréyr :: [ˈfreyr] (n) Freyr
 - Odin :: [ˈɔdin] (n) Odin
 - Valalla :: [ˈvaˌlalːa] (n) Valhalla
@@ -589,13 +580,12 @@ Comme préþenté danþ le ȝapitre þur leþ nombreþ (§[[*Nombreþ]]), voici 
 
 ** Savoir
 - o cyn :: [o kyn] (vt) savoir
-- o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de. En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
-- o þiea :: [o sjea] (vt) connaître, savoir superficiellement
+- o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de.
+- o þiea :: [o sjea] (vt) connaître, savoir superficiellement.
+En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o þiea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <an tynᵹant þieæ> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit, que ça existe, mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <an tynᵹant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <an tynᵹant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
 
 ** Sensations
-
 ** Sexe
-
 ** Société
 *** Relations sociales
 - ie :: [jɛ] (adv, inform.) ouais
@@ -604,42 +594,39 @@ Comme préþenté danþ le ȝapitre þur leþ nombreþ (§[[*Nombreþ]]), voici 
 - nea :: [nea] (adv) non
 
 ** Substances
-
 ** Temps
  - altið :: [altið] (adv) tout le temps
  - dæᵹ :: [daeɡ] (n) jour
  - menyþ :: [ˈmɛnyθ] (n) mois
- - morᵹ :: [morɡ] (adv) demain
+ - morᵹ :: [mɔrɡ] (adv) demain
  - neþty :: [ˈnɛθty] (adj) prochain, suivant
  - nu :: [nu] (adv) maintenant, tout de suite
- - o tebyr :: [o 'tɛbyr] (vt) passer (du temps)
+ - o tebyr :: [ɔ 'tɛbyr] (vt) passer (du temps)
  - tið :: [tið] (n) temps
- - voc :: [vok] (n) semaine
+ - voc :: [vɔk] (n) semaine
  - þcyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
  - ᵹalm :: [ɡalm] (adj) vieux, ancien
  - ᵹyrneᵹ :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
  - ᵹærn :: [ɡaern] (n) année
 
 ** Travail
-
 ** Végétaux
 *** Fruits
 - eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
-
 ** Vie et santé
 - bryð :: [bryð] (n) naissance
-- bryðdeᵹ :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryz> + <deg>)
+- bryðdeᵹ :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryð> + <deg>)
 - ein :: [ɛin] (adj) isolé, solitaire
 - mein :: [mɛin] (n) douleur
-- meinƿaȝ :: [mɛinwaç] (n) ambulance (<mein> + <wachen>)
-- o bƿén :: [o bwen] (vi) vivre, habiter
-- ᵹemmel :: [ɡɛmːɛl] (adj) vieux, âgé. <gemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ze tweg gaernes gemmel be> (litt. « je suis vieux de vingt-trois ans »), <gemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
+- meinƿaȝ :: [mɛinwaç] (n) ambulance (<mein> + <ƿaȝen>)
+- o bƿén :: [ɔ bwen] (vi) vivre, habiter
+- ᵹemmel :: [ɡɛmːɛl] (adj) vieux, âgé. <ᵹemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ðe tƿeᵹ ᵹærneþ ᵹemmel be> (litt. « je suis vieux de vingt-trois ans »), <ᵹemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
 
 ** À trier
-- bevit :: [ˈbevit] (adj) conscient
-- bevityt :: [ˈbeˌvityt] (n) conscience
+- bevit :: [ˈbɛvit] (adj) conscient
+- bevityt :: [ˈbɛˌvityt] (n) conscience
 - canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
 - fri :: [fri] (adj) libre, indépendant
 - frihyt :: [ˈfrihyt] (n) liberté
@@ -648,15 +635,16 @@ Comme préþenté danþ le ȝapitre þur leþ nombreþ (§[[*Nombreþ]]), voici 
 - léc :: [lek] (adj) égal, similaire, pareil
 - lita :: [ˈlita] (vt) regarder, observer
 - meþ :: [mɛθ] (n) homme, personne
-- o tynne :: [o ˈtynːɛ] (vt) perdre quelque chose
-- o verde :: [o ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
+- feioð :: [ˈfɛjɔð] (n) femme
+- o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
+- o verde :: [ɔ ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
 - yld :: [yld] (n) être humain, Homme, humanité, le monde entier
 - écȝi :: [ˈekːçi] (on) éternuement
 - þette :: [ˈsɛtːɛ] (vt) doter, équiper
-- þoc :: [θok] (n) pensée, raison
+- þoc :: [θɔk] (n) pensée, raison
 - ᵹilðar :: [ˈɡilðar] (n) valeur, mérite
 - ᵹilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
-- ᵹæt :: [ɡaet] (n) rue, allée
+- ᵹæt :: [ɡaset] (n) rue, allée
 
 {{{newpage}}}
 
