@@ -243,41 +243,41 @@ src_latex{\newpage}
 * <<writing>>Système d’écriture
 Le système natif d’écriture Mattér est l’alphabet runique. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
 #+CAPTION:Runes du Mattér
-| /                     | <                                 | <      |
-| script latin          | rune                              | nom    |
-|-----------------------+-----------------------------------+--------|
-| f                     | {{{latex-html(\textara{f},ᚠ)}}}   | feioð  |
-| u                     | {{{latex-html(\textara{u},ᚢ)}}}   | ulv    |
-| þ                     | {{{latex-html(\textara{þ},ᚦ)}}}   | þær    |
-| o                     | {{{latex-html(\textara{o},ᚩ)}}}   | orn    |
-| r                     | {{{latex-html(\textara{r},ᚱ)}}}   | rinna  |
-| c                     | {{{latex-html(\textara{c},ᚳ)}}}   | calfér |
-| ᵹ                     | {{{latex-html(\textara{g},ᚷ)}}}   | gelty  |
-| ƿ                     | {{{latex-html(\textara{w},ᚹ)}}}   | wyrm   |
-| h                     | {{{latex-html(\textara{h},ᚻ)}}}   | héþir  |
-| ȝ                     | {{{latex-html(\textara{I},ᛇ)}}}   | ȝuðar  |
-| n                     | {{{latex-html(\textara{n},ᚾ)}}}   | néf    |
-| i                     | {{{latex-html(\textara{i},ᛁ)}}}   | iéral  |
-| [j]                   | {{{latex-html(\textara{j},ᛄ)}}}   | iara   |
-| p                     | {{{latex-html(\textara{p},ᛈ)}}}   | pyl    |
-| ð                     | {{{latex-html(\textara{s},ᛋ)}}}   |        |
-| v                     | {{{latex-html(\textara{\ng},ᛝ)}}} |        |
-| t                     | {{{latex-html(\textara{t},ᛏ)}}}   |        |
-| b                     | {{{latex-html(\textara{b},ᛒ)}}}   |        |
-| e                     | {{{latex-html(\textara{e},ᛖ)}}}   |        |
-| m                     | {{{latex-html(\textara{m},ᛗ)}}}   |        |
-| l                     | {{{latex-html(\textara{l},ᛚ)}}}   |        |
-| d                     | {{{latex-html(\textara{d},ᛞ)}}}   |        |
-| é                     | {{{latex-html(\textara{\oe},ᛟ)}}} |        |
-| a                     | {{{latex-html(\textara{a},ᚪ)}}}   |        |
-| y                     | {{{latex-html(\textara{y},ᚣ)}}}   |        |
-| æ                     | {{{latex-html(\textara{æ},ᚫ)}}}   |        |
-| ea                    | {{{latex-html(\textara{\ea},ᛠ)}}} |        |
-| séparateur de mots    | {{{latex-html(\textara{.},᛫)}}}   |        |
-| marquer de pauses     | {{{latex-html(\textara{:},᛬)}}}   |        |
-| séparateur de phrases | {{{latex-html(\textara{*},᛭)}}}   |        |
+| /                         | <                                 | <      |
+| script latin              | rune                              | nom    |
+|---------------------------+-----------------------------------+--------|
+| f                         | {{{latex-html(\textara{f},ᚠ)}}}   | feioð  |
+| u                         | {{{latex-html(\textara{u},ᚢ)}}}   | ulv    |
+| þ                         | {{{latex-html(\textara{þ},ᚦ)}}}   | þær    |
+| o                         | {{{latex-html(\textara{o},ᚩ)}}}   | orn    |
+| r                         | {{{latex-html(\textara{r},ᚱ)}}}   | rinna  |
+| c                         | {{{latex-html(\textara{c},ᚳ)}}}   | calfér |
+| ᵹ                         | {{{latex-html(\textara{g},ᚷ)}}}   | gelty  |
+| ƿ                         | {{{latex-html(\textara{w},ᚹ)}}}   | wyrm   |
+| h                         | {{{latex-html(\textara{h},ᚻ)}}}   | héþir  |
+| ȝ                         | {{{latex-html(\textara{I},ᛇ)}}}   | ȝuðar  |
+| n                         | {{{latex-html(\textara{n},ᚾ)}}}   | néf    |
+| i                         | {{{latex-html(\textara{i},ᛁ)}}}   | iéral  |
+| /j/ (uniquement en runes) | {{{latex-html(\textara{j},ᛄ)}}}   | iara   |
+| p                         | {{{latex-html(\textara{p},ᛈ)}}}   | pyl    |
+| ð                         | {{{latex-html(\textara{s},ᛋ)}}}   | ðenᵹil |
+| v                         | {{{latex-html(\textara{\ng},ᛝ)}}} | vér    |
+| t                         | {{{latex-html(\textara{t},ᛏ)}}}   | tið    |
+| b                         | {{{latex-html(\textara{b},ᛒ)}}}   | bér    |
+| e                         | {{{latex-html(\textara{e},ᛖ)}}}   | eldyr  |
+| m                         | {{{latex-html(\textara{m},ᛗ)}}}   | mény   |
+| l                         | {{{latex-html(\textara{l},ᛚ)}}}   | logar  |
+| d                         | {{{latex-html(\textara{d},ᛞ)}}}   | dur    |
+| é                         | {{{latex-html(\textara{\oe},ᛟ)}}} | éþƿér  |
+| a                         | {{{latex-html(\textara{a},ᚪ)}}}   | areð   |
+| y                         | {{{latex-html(\textara{y},ᚣ)}}}   | ylᵹar  |
+| æ                         | {{{latex-html(\textara{æ},ᚫ)}}}   | ævy    |
+| ea                        | {{{latex-html(\textara{\ea},ᛠ)}}} | ealant |
+| séparateur de mots        | {{{latex-html(\textara{.},᛫)}}}   | þtikyl |
+| marquer de pauses         | {{{latex-html(\textara{:},᛬)}}}   | ȝild   |
+| séparateur de phrases     | {{{latex-html(\textara{*},᛭)}}}   | ru     |
 
-Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème. Cet alphabet est généralement utilisé lors d’écritures horizontales de droite à gauche et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
+Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea> disposent de leur propre morphème, respectivement <ealant> et <ȝild>. Cet alphabet est généralement utilisé horizontalement de gauche à droite et de haut en bas, mais il arrive occasionnellement que ces runes soient écrites verticalement lors de gravures, de haut en bas et de droite à gauche.
 
 Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :{{{newline}}}
 Français : Demain, du lever au coucher du soleil, nous irons pêcher.{{{newline}}}
@@ -286,34 +286,36 @@ Mattér (runes) : {{{latex-html(\textara{morgoI:.gyrnegac.þcyrm\oe m:.þi.y.fi
 
 Le Mattér peut également être écrit avec les caractères latins standard, comme fait dans quasiment tout ce document, cependant en dépendant beaucoup moins de caractères pouvant paraître « exotiques », pouvant être plus simples d’accès aux personnes utilisant une disposition de clavier n’étant pas pensée afin d’écrire du Mattér :
 #+CAPTION:Caractères latins du Mattér
-| /               | <                    |
-| caractère natif | caractère alternatif |
-|-----------------+----------------------|
-| þ               | s                    |
-| ð               | z                    |
-| ȝ               | ch                   |
-| ƿ               | w                    |
-| i               | j                    |
-| æ               | ae                   |
-| ᵹ               | g                    |
-La lettre <g> et sa version insulaire sont toutes deux utilisées lors de l’écriture du Mattér avec les caractères natifs, cepedant une nette majorité des lettrés préfèrent sa version insulaire <ᵹ> à sa version standard.
+| /                                   | <                    |
+| caractère natif                     | caractère alternatif |
+|-------------------------------------+----------------------|
+| þ / {{{latex-html(\textara{þ},ᚦ)}}} | s                    |
+| ᵹ / {{{latex-html(\textara{g},ᚷ)}}} | g                    |
+| ƿ / {{{latex-html(\textara{w},ᚹ)}}} | w                    |
+| ȝ / {{{latex-html(\textara{I},ᛇ)}}} | ch                   |
+| i / {{{latex-html(\textara{j},ᛄ)}}} | j                    |
+| ð / {{{latex-html(\textara{s},ᛋ)}}} | z                    |
+| æ / {{{latex-html(\textara{æ},ᚫ)}}} | ae                   |
 
-Ainsi, des mots tels que <bryð> et <þpiȝ> peuvent s’écrire <bryz> ou <spich> respectivement.
+De ce fait, des mots tels que <bryð> et <þpiȝ> peuvent s’écrire <bryz> ou <spich> respectivement.
+
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, et enfin la transcription alternative qui n’est utilisée que dans ce document et par des personnes n’ayant pas aisément accès aux caractères spéciaux du Mattér. Quelques exemples de ces différents systèmes d’écriture :
 #+CAPTION:Exemples d’écritures native du Mattér
-| /           | <          | <                                        |
-| latin natif | alternatif | runique                                  |
-|-------------+------------+------------------------------------------|
-| bryð        | bryz       | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}    |
-| þpiȝ        | spich      | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}    |
-| iea         | jea        | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}      |
-| mænd        | maend      | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}    |
-| neþty       | nesty      | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}}  |
-| ƿaȝen       | wachen     | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}}  |
-| ȝciaᵹ       | chcjag     | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ)}}} |
+| /           | <                                        | <          |
+| latin natif | runique                                  | alternatif |
+|-------------+------------------------------------------+------------|
+| bryð        | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}    | bryz       |
+| þpiȝ        | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}    | spich      |
+| iea         | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}      | jea        |
+| mænd        | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}    | maend      |
+| neþty       | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}}  | nesty      |
+| ƿaȝen       | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}}  | wachen     |
+| ȝciaᵹ       | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ)}}} | chcjag     |
 
 {{{newpage}}}
+
 * Topologie morphologique
+
 {{{newpage}}}
 * Classes de mots
 ** Noms
@@ -401,6 +403,8 @@ Abréviations :
 - bern :: [bɛrn] (n) ours
 - calfér :: [ˈcalfer] (n) veaus
 - cat :: [kat] (n) chat
+- dur :: [dur] (n) cerf, biche
+- éþƿér :: [ˈeθwer] (n) brebis
 - fician :: [ˈfikjan] (n) poisson
 - gelty :: [ˈɡɛlty] (n) sanglier (sauvage)
 - héþir :: [ˈheθir] (n) faucon
@@ -410,6 +414,7 @@ Abréviations :
 - o ᵹyien :: [ɔ ɡyjɛn] (vi) aboyer (animaux, chiens)
 - ulv :: [ulv] (n) loup
 - wyrm :: [wyrm] (n) wyrm, dragon serpent (animal fantastique)
+- ylᵹar :: [ˈylɡar] (n) louve
 - ȝuðar :: [ˈçuðar] (n) mouton
 
 ** Art
@@ -423,13 +428,16 @@ Abréviations :
 - ryn :: [ryn] (n) rune, lettre alphabétique
 
 ** Astronomie
+- mény :: [ˈmeny] (n) lune
+
 ** Bâtiments
 - o flytten :: [ɔ flytːɛn] (vi) déménager
 *** La ville
 - urby :: [ˈurby] (n) ville
 *** Les types de bâtiments
 - tere :: [ˈtɛrɛ] (n) tour, haut monument
-- hyþ :: [hyθ] (n) maison (bâtiment)
+- hyþ :: [hyθ] (n) maison (bâtiment, en. « house »)
+- bér :: [ber] (n) maison (lieu de vie, chez soi, en. « home »)
 
 ** Commerce
 - o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
@@ -481,6 +489,7 @@ Abréviations :
 - iéral :: [ˈjeral] jarl, seigneur
 - faðcynᵹ :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
 - faðcynᵹyt :: [ˈfaðˌkynɡyt] (n) royaume, père patrie
+- ðenᵹil :: [ˈðɛnɡil] (n) noble
 
 ** Grammaire
 - méllém :: [melːem] (adv) entre (deux personnes)
@@ -503,6 +512,7 @@ Abréviations :
 ** Guerre
 - lætte :: [ˈlætːɛ] (vi) perdre, se rendre, abandonner
 - iara :: [ˈjara] (n) bataille
+
 ** Légal
 - retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
 
@@ -522,6 +532,7 @@ Abréviations :
 - lant :: [lant] (n) terre
 - pyl :: [pyl] (n) bois, petite forêt
 - þær :: [θaer] (n) mer
+- logar :: [ˈlɔɡar] (n) mer, eau de mer, eaux maritimes
 
 ** Nombres
 - norm :: [nɔrm] (n) nombre, numéro (ordinal)
@@ -608,6 +619,8 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
  - ᵹalm :: [ɡalm] (adj) vieux, ancien
  - ᵹyrneᵹ :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
  - ᵹærn :: [ɡaern] (n) année
+*** Saisons
+- vér :: [ver] (n) printemps
 
 ** Travail
 ** Végétaux
@@ -625,26 +638,33 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - ᵹemmel :: [ɡɛmːɛl] (adj) vieux, âgé. <ᵹemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ðe tƿeᵹ ᵹærneþ ᵹemmel be> (litt. « je suis vieux de vingt-trois ans »), <ᵹemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
 
 ** À trier
+- areð :: [ˈarɛð] (n) courage
 - bevit :: [ˈbɛvit] (adj) conscient
 - bevityt :: [ˈbɛˌvityt] (n) conscience
 - canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
+- ealant :: [ˈealant] (n) île
+- eldyr :: [ˈɛldyr] (n) feu, passion
+- feioð :: [ˈfɛjɔð] (n) femme
 - fri :: [fri] (adj) libre, indépendant
 - frihyt :: [ˈfrihyt] (n) liberté
 - fyt :: [fyt] (adj) né
 - heillen :: [ˈhɛilːɛn] (vt) glorifier, rendre gloire à. <heillen> ne prend aucun argument accusatif, ce dernier étant remplacé par un argument datif. Ainsi, « je rend gloire à Odin » se traduit <Odiniþ heille>.
-- léc :: [lek] (adj) égal, similaire, pareil
 - lita :: [ˈlita] (vt) regarder, observer
+- léc :: [lek] (adj) égal, similaire, pareil
 - meþ :: [mɛθ] (n) homme, personne
-- feioð :: [ˈfɛjɔð] (n) femme
 - o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
 - o verde :: [ɔ ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
+- ru :: [ru] (n) pause, repos (long)
 - yld :: [yld] (n) être humain, Homme, humanité, le monde entier
-- écȝi :: [ˈekːçi] (on) éternuement
+- ævy :: [ˈaevy] (n) vie
+- éccȝi :: [ˈekːçi] (on) éternuement
 - þette :: [ˈsɛtːɛ] (vt) doter, équiper
 - þoc :: [θɔk] (n) pensée, raison
+- þtikyl :: [ˈθtikyl] (n) point
 - ᵹilðar :: [ˈɡilðar] (n) valeur, mérite
 - ᵹilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
 - ᵹæt :: [ɡaset] (n) rue, allée
+- ȝild :: [çild] (n) pause, repos (temporaire)
 
 {{{newpage}}}
 
