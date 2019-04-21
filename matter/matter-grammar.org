@@ -39,6 +39,8 @@
 * <<avantpropos>>Avant-propos
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
 
+Ce document traite d’une langue imaginaire que j’ai créé. Cependant, il sera rédigé comme s’il s’agissait de la première tentative de description de la langue par un linguiste la découvrant. Ainsi, si dans certains passages vous pouvez lire « mais plus d’études sur le sujet sont nécessaires » ou « cet aspect de la langue n’a pas encore été sujet à des analyses plus approfondies », comprenez par cela que je n’ai pas encore travaillé sur ou fini cette partie qui peut être sujet à des mises à jours dans le futur.
+
 {{{last-update}}}
 
 {{{newpage}}}
@@ -78,7 +80,7 @@ Le Mattér est une langue encore très vivante parmi les Mattés, qui est parlé
 *** Mots d’emprunt
 *** Dialectes
 {{{newpage}}}
-* Phonologie
+* <<phonology>>Phonologie
 ** <<phon-notes>>Notes sur la transcription du Mattér
 Comme vous pourrez vous en rendre compte aux chapitres §[[phon-consonnes]] et §[[phon-voyelles]], le Mattér dispose de deux transcriptions possibles qui seront les transcriptions principalement utilisées dans cet ouvrage, la transcription en IPA (/International Phonetic Alphabet/[fn::[[https://www.internationalphoneticassociation.org/content/ipa-chart]]]) et le script latin natif du Mattér qui sera généralement plus simple et intuitif à lire, malgré un apprentissage sans doute nécessaire de certains caractères. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement l’alphabet latin natif. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[phon-allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique *générale*, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique *rapprochée* sera nécessaire pour avoir la prononciation exacte, auquel cas je signalerai cette distinction entre phonétique générale et rapprochée.
 
@@ -108,7 +110,7 @@ Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes.
 | glottal       |       |          | h        |         |       |             |
 | /             | <     | <        | <        | <       | <     | <           |
 
-#+CAPTION: Consonnes du Mattér (translittération)
+#+CAPTION: Consonnes du Mattér (alphabet latin)
 |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
 |---------------+-------+----------+----------+---------+-------+-------------|
 | bilabial      | m     | p b      |          |         |       |             |
@@ -147,15 +149,15 @@ Les consonnes nasales, occlusives ainsi que le [l] peuvent être doublées, alon
 *** <<phon-voyelles>>Voyelles
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
 #+CAPTION: Voyelles du Mattér (IPA)
-| / | >           |             |        |              |
-|   |             | antérieures | milieu | postérieures |
-|---+-------------+-------------+--------+--------------|
-|   | fermées     | i / y       |        | u            |
-|   | mi-fermées  | e           | [ə]    |              |
-|   | mi-ouvertes | ɛ           |        | ɔ            |
-|   | ouvertes    | a           |        |              |
+| / | >           |             |           |              |
+|   |             | antérieures | centrales | postérieures |
+|---+-------------+-------------+-----------+--------------|
+|   | fermées     | i / y       |           | u            |
+|   | mi-fermées  | e           | [ə]       |              |
+|   | mi-ouvertes | ɛ           |           | ɔ            |
+|   | ouvertes    | a           |           |              |
 
-#+CAPTION: Voyelles du Mattér (translittération)
+#+CAPTION: Voyelles du Mattér (alphabet latin)
 | / | >           |             |              |
 |   |             | antérieures | postérieures |
 |---+-------------+-------------+--------------|
@@ -180,12 +182,18 @@ Voici ci-dessous la description de chacune de ces voyelles :
 Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relâchant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Mattér :
 
 #+CAPTION:Diphtongues du Mattér
-| [ei] | [ai] |
-| [ea] | [æ]  |
-| [eu] | [au] |
-| [ou] |      |
+| /           | <    |
+| latin natif | IPA  |
+|-------------+------|
+| ei          | [ei] |
+| ea          | [ɛa] |
+| eu          | [ɛu] |
+| ou          | [ɔu] |
+| ai          | [ai] |
+| æ           | [ae] |
+| au          | [au] |
 
-Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du [ei] qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
+Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple, comme vous pouvez voir ci-dessus, à l’exception du [ei] qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <tere> (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** <<phon-allophonie>>Allophonie
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
@@ -237,7 +245,58 @@ Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles 
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de deux syllabes ou plus : l’accent principal porte sur la première syllabe. Pour les mots de trois syllabes, un accent secondaire, moins important que le premier, portera sur la troisième syllabe, et pour les mots de quatre syllabes ou plus il portera sur l’avant-dernière syllabe.
 Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, une modification supra-segmentale de l’accentuation habituelle s’effectuera : l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée. Cela déplacera également l’accent secondaire sur la première syllabe si le mot contient au moins trois syllabes.
 
-src_latex{\newpage}
+** Accents régionaux
+Du fait du volume de sa population ainsi que de la taille de l’île d’Éïnlante, le Mattér a des variantes régionales se distingant du Mattér standard décrit dans cet ouvrage. Peu de recherches ont été menées sur ces variances, cependant voici ce qu’il en ressort selon une étude préliminaire.
+
+La variation la plus importante du Mattér standard à un Mattér régional se trouve sur la partie orientale de l’île. On suppose que cela est dû à la division physique de cette dernière dûe à ses volcans, provoquant une division du peuple en deux zones distinctes, et bien qu’il leur ait toujours été possible de communiquer et d’échanger par voie navale, cette division a apportée son lot de modifications au Mattér oriental. La différence la plus flagante est sans doute sa phonétique et ses voyelles, ces dernières ayant connu un relâchement global, et même pour certaines un arrondissement voire un mouvement vers des voyelles antérieures. On peut également remarquer l’ajout de nouvelles voyelles, dû aux diphtongues ayant elles aussi subit un changement.
+| /            | <           |           |              |
+|              | antérieures | centrales | postérieures |
+|--------------+-------------+-----------+--------------|
+| pré-fermées  | ɪ           |           | ʊ            |
+| mi-fermées   | ø           |           |              |
+| moyennes     |             | [ə]       |              |
+| mi-ouvertes  | ɛ / œ       |           | ʌ / ɔ        |
+| pré-ouvertes | æ           | ɐ         |              |
+| ouvertes     |             |           | ɑ / ɒ        |
+
+En résumé, voici ci-dessous la correspondance des voyelles du Mattér standard et du Mattér oriental (les phonèmes omis sont inchangés).
+| /        | <        |
+| standard | oriental |
+|----------+----------|
+| i        | ɪ        |
+| y        | ø        |
+| u        | ʊ        |
+| e        | ɛ        |
+| ɛ        | æ        |
+| a        | ɑ        |
+| ei       | aɪ       |
+| ea       | œ        |
+| eu       | ɐ        |
+| ɔu       | ɔʊ       |
+| ai       | ɒɪ       |
+| ae       | ɒ        |
+| au       | ʌ        |
+
+Le Mattér oriental dispose également de quelques diphtongues supplémentaires, présentées ci-dessous. Notez que ces diphtongues ne se produisent qu’en fin de mot uniquement.
+| /           | <   |
+| latin natif | IPA |
+|-------------+-----|
+| ir          | ɪə  |
+| ur          | ʊə  |
+| ér          | ɛə  |
+| or          | ɔə  |
+| ar          | ɑə  |
+| eur         | ɐə  |
+| aer         | ɒə  |
+| aur         | ʌə  |
+
+De plus, les voyelles <e> et <ae>, en plus de <a> subissent elles aussi un affaiblissement dans les syllabes non accentuées, et les trois s’affaibliront toujours en fin de mot, et disparaissent même si la voyelle est suivie d’une pause et qu’elle fait partie d’un mot pluri-syllabique.
+
+Comme on peut le constater, le Mattér oriental est plus riche en voyelles que le Mattér standard.
+
+Voici des exemples de texte en Mattér, avec le suivant sa prononciation standard et sa prononciation orientale :
+- É meþ dy a hynd altið ᵹyiener flyttene.{{{newline}}}Standard : [e mɛθ dy a hynd ˈaltið ˈɡyˌjɛnɛr ˈflyˌtːɛnɛ]{{{newline}}}Oriental : [ɛ məθ dø ə hønd ˈɑltɪð ˈɡøˌjænær ˈfløˌtːæn]
+- Mæbroryȝ dia meccilant beiþ urbyȝ beiþ.{{{newline}}}Standard : [ˈmaeˌbrɔryç dja ˈmeˌkːilənt beiθ ˈurbyç beiθ]{{{newline}}}Oriental : [ˈmɒˌbrɔrøç djə ˈmɛˌkːɪlənt bɛɪθ ˈʊrbøç bɛɪθ]
 
 {{{newpage}}}
 * <<writing>>Système d’écriture
@@ -301,23 +360,23 @@ De ce fait, des mots tels que <bryð> et <þpiȝ> peuvent s’écrire <bryz> ou 
 
 Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runique, natif à la langue, l’alphabet latin adapté au Mattér, et enfin la transcription alternative qui n’est utilisée que dans ce document et par des personnes n’ayant pas aisément accès aux caractères spéciaux du Mattér. Quelques exemples de ces différents systèmes d’écriture :
 #+CAPTION:Exemples d’écritures native du Mattér
-| /           | <                                        | <          |
-| latin natif | runique                                  | alternatif |
-|-------------+------------------------------------------+------------|
-| bryð        | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}    | bryz       |
-| þpiȝ        | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}    | spich      |
-| iea         | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}      | jea        |
-| mænd        | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}    | maend      |
-| neþty       | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}}  | nesty      |
-| ƿaȝen       | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}}  | wachen     |
-| ȝciaᵹ       | {{{latex-html(\textara{Icjag},ᚳᚻᚳᛄᚪᚷ)}}} | chcjag     |
+| /           | <                                       | <          |
+| latin natif | runique                                 | alternatif |
+|-------------+-----------------------------------------+------------|
+| bryð        | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}   | bryz       |
+| þpiȝ        | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}   | spich      |
+| iea         | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}     | jea        |
+| mænd        | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}   | maend      |
+| neþty       | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}} | nesty      |
+| ƿaȝen       | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} | wachen     |
+| ȝciaᵹ       | {{{latex-html(\textara{Icjag},ᛇᚳᛄᚪᚷ)}}} | chcjag     |
 
 {{{newpage}}}
 
-* Topologie morphologique
+* <<topology>>Topologie morphologique
 
 {{{newpage}}}
-* Classes de mots
+* <<genders>>Classes de mots
 ** Noms
 *** Types de noms
 *** Pronoms
@@ -327,7 +386,7 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 ** Adjectifs
 ** Adverbes
 {{{newpage}}}
-* Ordre des constituants basiques
+* <<syntax>>Ordre des constituants basiques
 ** Clauses principales
 ** Phrase prépositionnelles
 ** Phrases nominales
@@ -339,7 +398,7 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 ** Résumé
 
 {{{newpage}}}
-* Prédicats nominaux
+* <<predicates>>Prédicats nominaux
 {{{newpage}}}
 * Phrases existentielles, locationnelles et possessives
 {{{newpage}}}
