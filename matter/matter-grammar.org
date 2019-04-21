@@ -404,17 +404,17 @@ Abréviations :
 - calfér :: [ˈcalfer] (n) veaus
 - cat :: [kat] (n) chat
 - dur :: [dur] (n) cerf, biche
-- éþƿér :: [ˈeθwer] (n) brebis
 - fician :: [ˈfikjan] (n) poisson
 - gelty :: [ˈɡɛlty] (n) sanglier (sauvage)
-- héþir :: [ˈheθir] (n) faucon
 - hynd :: [hynd] (n) chien
+- héþir :: [ˈheθir] (n) faucon
 - o fician :: [ɔ ˈfikjan] (vt) pêcher
-- orn :: [ɔrn] (n) aigle
 - o ᵹyien :: [ɔ ɡyjɛn] (vi) aboyer (animaux, chiens)
+- orn :: [ɔrn] (n) aigle
 - ulv :: [ulv] (n) loup
 - wyrm :: [wyrm] (n) wyrm, dragon serpent (animal fantastique)
 - ylᵹar :: [ˈylɡar] (n) louve
+- éþƿér :: [ˈeθwer] (n) brebis
 - ȝuðar :: [ˈçuðar] (n) mouton
 
 ** Art
@@ -432,22 +432,30 @@ Abréviations :
 
 ** Bâtiments
 - o flytten :: [ɔ flytːɛn] (vi) déménager
+- ᵹæt :: [ɡaset] (n) rue, allée
+
 *** La ville
 - urby :: [ˈurby] (n) ville
+
 *** Les types de bâtiments
-- tere :: [ˈtɛrɛ] (n) tour, haut monument
-- hyþ :: [hyθ] (n) maison (bâtiment, en. « house »)
 - bér :: [ber] (n) maison (lieu de vie, chez soi, en. « home »)
+- hyþ :: [hyθ] (n) maison (bâtiment, en. « house »)
+- tere :: [ˈtɛrɛ] (n) tour, haut monument
 
 ** Commerce
 - o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
+
 ** Conflits
+- fri :: [fri] (adj) libre, indépendant
+
 ** Conteneurs
+
 ** Corps
 - néf :: [nef] (n) nez
 
 ** Couleurs
 - ræð :: [raeð] (adj) rouge
+
 ** Dimensions
 *** Taille
 - meccil :: [mekːil] (adj) grand, imposant, puissant, fort
@@ -459,18 +467,35 @@ Abréviations :
 - vend :: [vend] (adj) peu, un peu
 
 ** Direction
+
 ** Eau
+
 ** Effort
+
 ** Éléments
+- eldyr :: [ˈɛldyr] (n) feu, passion
+
 ** Émotions
+- eldyr :: [ˈɛldyr] (n) feu, passion
 - lycce :: [ˈlykːɛ] (adj) joyeux, content
 - o ƿilia :: [ɔ ˈwilja] (vt) vouloir, avoir envie de
 - ƿille :: [ˈwilːɛ] (n) souhait, désir
 
 ** Évaluation
+
 ** Événements
+- ru :: [ru] (n) pause, repos (long), vacances
+- ȝild :: [çild] (n) pause, repos (temporaire), jour férié
+
 ** Existence
-** Famille
+- o verde :: [ɔ ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
+
+** Parenté
+- feioð :: [ˈfɛjɔð] (n) femme
+- meþ :: [mɛθ] (n) homme, personne
+- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+
+*** Famille
 - bruðyr :: [ˈbruðyr] (n) frère
 - dottyr :: [ˈdɔtːyr] (n) fille
 - faðér :: [ˈfaðer] (n) père
@@ -483,12 +508,14 @@ Abréviations :
 - þyþter :: [ˈθyθtɛr] (n) sœur
 
 ** Forme
+- þtikyl :: [ˈθtikyl] (n) point
+
 ** Gouvernement
 - cynᵹ :: [kynɡ] (n) roi
 - cynᵹyt :: [ˈkynɡyt] (n) royaume
-- iéral :: [ˈjeral] jarl, seigneur
 - faðcynᵹ :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
 - faðcynᵹyt :: [ˈfaðˌkynɡyt] (n) royaume, père patrie
+- iéral :: [ˈjeral] jarl, seigneur
 - ðenᵹil :: [ˈðɛnɡil] (n) noble
 
 ** Grammaire
@@ -500,9 +527,9 @@ Abréviations :
 - ar :: [ar] (conj) et
 - men :: [mɛn] (conj) mais
 - némmé :: [nemːe] (conj) excepté, à moins que
-- ér :: [er] (conj) quand (pas interrogatif)
 - oᵹ :: [ɔɡ] (coni) et, cependant, toujours est-il que
 - æn :: [æn] (coni) et, mais
+- ér :: [er] (conj) quand (pas interrogatif)
 - ðea :: [ðea] (coni) mais, introduit une queþtion
 
 *** Prépoþitionþ
@@ -510,62 +537,74 @@ Abréviations :
 - þiv :: [θiv] (prep) pour la raison de, du fait de.
 
 ** Guerre
-- lætte :: [ˈlætːɛ] (vi) perdre, se rendre, abandonner
 - iara :: [ˈjara] (n) bataille
+- lætte :: [ˈlætːɛ] (vi) perdre, se rendre, abandonner
 
 ** Légal
 - retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
 
 ** Lieux
+
 ** Lumière
+
 ** Mental
+- frihyt :: [ˈfrihyt] (n) liberté
+- léc :: [lek] (adj) égal, similaire, pareil
+- þoc :: [θɔk] (n) pensée, raison
+
 ** Mesures
+
 ** Métaux
+
 ** Mouvements
+- canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
 - o commén :: [ɔ kɔmːen] (vi) venir, arriver
 - o lieᵹᵹa :: [ɔ ˈlieɡːa] (vi) aller à travers champs, sans suivre de chemin, errer
 - o rinna :: [ɔ ˈrinːa] (vi) courir, couler (eau, liquide)
 - o ᵹa :: [ɔ ɡa] (vi) aller
 - þcort :: [θkɔrt] (adi) rapide
+
 ** Nature
-- velt :: [vɛlt] (n) monde, la Terre
+- ealant :: [ˈealant] (n) île
 - lant :: [lant] (n) terre
-- pyl :: [pyl] (n) bois, petite forêt
-- þær :: [θaer] (n) mer
 - logar :: [ˈlɔɡar] (n) mer, eau de mer, eaux maritimes
+- pyl :: [pyl] (n) bois, petite forêt
+- velt :: [vɛlt] (n) monde, la Terre
+- þær :: [θaer] (n) mer
 
 ** Nombres
-- norm :: [nɔrm] (n) nombre, numéro (ordinal)
 - al :: [al] (adi) tout, tous
+- norm :: [nɔrm] (n) nombre, numéro (ordinal)
+
 *** Nombres cardinaux
 Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
-|                / | <       |
-|           nombre | terme   |
-|------------------+---------|
-|                0 | nyn     |
-|                1 | æn      |
-|                2 | tƿéa    |
-|                3 | ðe      |
-|                4 | fro     |
-|                5 | ðeif    |
-|                6 | ȝcæc    |
-|                7 | þean    |
-|                8 | aȝt     |
-|                9 | onnén   |
-|               10 | dran    |
-|               20 | tieᵹ    |
-|               30 | ðiea    |
-|               40 | frie    |
-|               50 | ðeiᵹ    |
-|               60 | ȝciaᵹ   |
-|               70 | þieᵹ    |
-|               80 | aȝteiᵹ  |
-|               90 | onneᵹ   |
-|              100 | anrad   |
-|             1000 | tanþen  |
-|           1 0000 | deten   |
-|      1 0000 0000 | mollen  |
-| 1 0000 0000 0000 | vrelien |
+|                / | <       | <          |
+|           nombre | terme   | phonétique |
+|------------------+---------+------------|
+|                0 | nyn     | [nyn]      |
+|                1 | æn      | [aɛn]      |
+|                2 | tƿéa    | [twea]     |
+|                3 | ðe      | [ðɛ]       |
+|                4 | fro     | [frɔ]      |
+|                5 | ðeif    | [dɛif]     |
+|                6 | ȝcæc    | [çkaek]    |
+|                7 | þean    | [θean]     |
+|                8 | aȝt     | [açt]      |
+|                9 | onnén   | [ˈonːen]   |
+|               10 | dran    | [dran]     |
+|               20 | tieᵹ    | [tjɛɡ]     |
+|               30 | ðiea    | [ðjɛa]     |
+|               40 | frie    | [frjɛ]     |
+|               50 | ðeiᵹ    | [ðɛiɡ]     |
+|               60 | ȝciaᵹ   | [çkjaɡ]    |
+|               70 | þieᵹ    | [θjɛɡ]     |
+|               80 | aȝteiᵹ  | [ˈaçtɛiɡ]  |
+|               90 | onneᵹ   | [ˈonːɛɡ]   |
+|              100 | anrad   | [ˈanrad]   |
+|             1000 | tanþen  | [ˈtanθɛn]  |
+|           1 0000 | deten   | [ˈdɛtɛn]   |
+|      1 0000 0000 | mollen  | [ˈmɔlːɛn]  |
+| 1 0000 0000 0000 | vrelien | [ˈvrɛljɛn] |
 
 ** Nourriture
 - o etan :: [ɔ ɛtan] (vt) manger
@@ -575,16 +614,24 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 - ƿaȝen :: [ˈwaçɛn] (n) voiture
 
 ** Parole
+- nam :: [nam] (n) nom
 - o þeᵹ :: [ɔ þɛɡ] (vt) dire
 
 ** Péchés
+
 ** Physique
+- éccȝi :: [ˈekːçi] (on) éternuement
+
 ** Possession
+- o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
+- þette :: [ˈsɛtːɛ] (vt) doter, équiper
+
 ** Religion
 - Fréyia :: [ˈfreˌyja] (n) Freyja
 - Fréyr :: [ˈfreyr] (n) Freyr
 - Odin :: [ˈɔdin] (n) Odin
 - Valalla :: [ˈvaˌlalːa] (n) Valhalla
+- bæn :: [baen] (n) prière, demande, requête (sens religieux)
 - Þor :: [θɔr] (n) Thor
 - ᵹuð :: [ɡuð] (n) dieu païen
 - ᵹuþ :: [ɡuθ] (n) Dieu (monothéisme)
@@ -596,38 +643,53 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o þiea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <an tynᵹant þieæ> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit, que ça existe, mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <an tynᵹant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <an tynᵹant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
 
 ** Sensations
+- bevit :: [ˈbɛvit] (adj) conscient
+- bevityt :: [ˈbɛˌvityt] (n) conscience
+- lita :: [ˈlita] (vt) regarder, observer
+
 ** Sexe
+
 ** Société
+- areð :: [ˈarɛð] (n) courage
+- heillen :: [ˈhɛilːɛn] (vt) glorifier, rendre gloire à. <heillen> ne prend aucun argument accusatif, ce dernier étant remplacé par un argument datif. Ainsi, « je rend gloire à Odin » se traduit <Odiniþ heille>.
+- ᵹilðar :: [ˈɡilðar] (n) valeur, mérite
+- ᵹilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
+
 *** Relations sociales
+- félag :: [ˈfelaɡ] (n) ami, compagnon, partenaire, camarade
 - ie :: [jɛ] (adv, inform.) ouais
 - iea :: [jea] (adv) oui
 - ne :: [nɛ] (adv, inform.) nan
 - nea :: [nea] (adv) non
 
 ** Substances
+
 ** Temps
- - altið :: [altið] (adv) tout le temps
- - dæᵹ :: [daeɡ] (n) jour
- - menyþ :: [ˈmɛnyθ] (n) mois
- - morᵹ :: [mɔrɡ] (adv) demain
- - neþty :: [ˈnɛθty] (adj) prochain, suivant
- - nu :: [nu] (adv) maintenant, tout de suite
- - o tebyr :: [ɔ 'tɛbyr] (vt) passer (du temps)
- - tið :: [tið] (n) temps
- - voc :: [vɔk] (n) semaine
- - þcyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
- - ᵹalm :: [ɡalm] (adj) vieux, ancien
- - ᵹyrneᵹ :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
- - ᵹærn :: [ɡaern] (n) année
+- altið :: [altið] (adv) tout le temps
+- dæᵹ :: [daeɡ] (n) jour
+- menyþ :: [ˈmɛnyθ] (n) mois
+- morᵹ :: [mɔrɡ] (adv) demain
+- neþty :: [ˈnɛθty] (adj) prochain, suivant
+- nu :: [nu] (adv) maintenant, tout de suite
+- o tebyr :: [ɔ 'tɛbyr] (vt) passer (du temps)
+- tið :: [tið] (n) temps
+- voc :: [vɔk] (n) semaine
+- þcyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
+- ᵹalm :: [ɡalm] (adj) vieux, ancien
+- ᵹyrneᵹ :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
+- ᵹærn :: [ɡaern] (n) année
+
 *** Saisons
 - vér :: [ver] (n) printemps
 
 ** Travail
+
 ** Végétaux
 *** Fruits
 - eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
+
 ** Vie et santé
 - bryð :: [bryð] (n) naissance
 - bryðdeᵹ :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryð> + <deg>)
@@ -635,36 +697,10 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - mein :: [mɛin] (n) douleur
 - meinƿaȝ :: [mɛinwaç] (n) ambulance (<mein> + <ƿaȝen>)
 - o bƿén :: [ɔ bwen] (vi) vivre, habiter
+- ævy :: [ˈaevy] (n) vie
 - ᵹemmel :: [ɡɛmːɛl] (adj) vieux, âgé. <ᵹemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ðe tƿeᵹ ᵹærneþ ᵹemmel be> (litt. « je suis vieux de vingt-trois ans »), <ᵹemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
 
 ** À trier
-- areð :: [ˈarɛð] (n) courage
-- bevit :: [ˈbɛvit] (adj) conscient
-- bevityt :: [ˈbɛˌvityt] (n) conscience
-- canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
-- ealant :: [ˈealant] (n) île
-- eldyr :: [ˈɛldyr] (n) feu, passion
-- feioð :: [ˈfɛjɔð] (n) femme
-- fri :: [fri] (adj) libre, indépendant
-- frihyt :: [ˈfrihyt] (n) liberté
-- fyt :: [fyt] (adj) né
-- heillen :: [ˈhɛilːɛn] (vt) glorifier, rendre gloire à. <heillen> ne prend aucun argument accusatif, ce dernier étant remplacé par un argument datif. Ainsi, « je rend gloire à Odin » se traduit <Odiniþ heille>.
-- lita :: [ˈlita] (vt) regarder, observer
-- léc :: [lek] (adj) égal, similaire, pareil
-- meþ :: [mɛθ] (n) homme, personne
-- o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
-- o verde :: [ɔ ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
-- ru :: [ru] (n) pause, repos (long)
-- yld :: [yld] (n) être humain, Homme, humanité, le monde entier
-- ævy :: [ˈaevy] (n) vie
-- éccȝi :: [ˈekːçi] (on) éternuement
-- þette :: [ˈsɛtːɛ] (vt) doter, équiper
-- þoc :: [θɔk] (n) pensée, raison
-- þtikyl :: [ˈθtikyl] (n) point
-- ᵹilðar :: [ˈɡilðar] (n) valeur, mérite
-- ᵹilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
-- ᵹæt :: [ɡaset] (n) rue, allée
-- ȝild :: [çild] (n) pause, repos (temporaire)
 
 {{{newpage}}}
 
