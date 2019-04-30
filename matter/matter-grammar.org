@@ -545,6 +545,7 @@ Abréviations :
 ** Événements
 - ru :: [ru] (n) pause, repos (long), vacances
 - ȝild :: [çild] (n) pause, repos (temporaire), jour férié
+- ȝilden :: [ˈçildɛn] (vi) se reposer, rester, faire une sieste
 
 ** Existence
 - o verde :: [ɔ ˈvɛrdɛ] (vt) devenir, se transformer en, changer en, se produire. Est notamment utilisé pour le verbe « naitre », <o verbe fyttant> [o ˈvɛrdɛ ˈfytːant].
@@ -568,6 +569,7 @@ Abréviations :
 
 ** Forme
 - þtikyl :: [ˈθtikyl] (n) point
+- ȝlið :: [çlið] (n) côté
 
 ** Gouvernement
 - cynᵹ :: [kynɡ] (n) roi
@@ -590,6 +592,7 @@ Abréviations :
 - æn :: [æn] (coni) et, mais
 - ér :: [er] (conj) quand (pas interrogatif)
 - ðea :: [ðea] (coni) mais, introduit une queþtion
+- að :: [að] (conj) que (/that/ en anglais)
 
 *** Prépoþitionþ
 - tél :: [tel] (prep) pour, afin
@@ -628,6 +631,7 @@ Abréviations :
 - lant :: [lant] (n) terre
 - logar :: [ˈlɔɡar] (n) mer, eau de mer, eaux maritimes
 - pyl :: [pyl] (n) bois, petite forêt
+- træ :: [trae] (n) arbre
 - velt :: [vɛlt] (n) monde, la Terre
 - þær :: [θaer] (n) mer
 
@@ -760,6 +764,8 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - ᵹemmel :: [ɡɛmːɛl] (adj) vieux, âgé. <ᵹemmel> peut être utilisé pour désigner un âge. Par exemple, « j’ai vingt ans » peut s’exprimer <ðe tƿeᵹ ᵹærneþ ᵹemmel be> (litt. « je suis vieux de vingt-trois ans »), <ᵹemmel> étant au nominatif il se réfère donc forcément au sujet du verbe, ici la première personne du singulier.
 
 ** À trier
+
+- modðét :: [ˈmɔdðet] (adj) opposé, aux antipodes
 
 {{{newpage}}}
 
