@@ -629,8 +629,8 @@ Plus d’informations seront données dans le chapitre dédié au système d’�
 
   Voici un texte d’exemple transcrit en alphabet latin ainsi qu’écrit en runes :
   - Français :: Demain, du lever au coucher du soleil, nous irons pêcher.
-  - Mattér (script latin) :: morgoċ, gyrnegac þcyrmém, þi y ficianur.
-  - Mattér (runes) :: {{{latex-html(\textara{morgoI:.gyrnegac.þcyrm\oem:.þi.y.ficjanur*},ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚦᛁ᛫ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
+  - Mattér (script latin) :: morgoċ, gyrnegac þcyrmém, y ficianur.
+  - Mattér (runes) :: {{{latex-html(\textara{morgoI:gyrnegac.þcyrm\oem:y.ficjanur*},ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
 
   Le Mattér peut également être écrit avec les caractères latins standard, comme
   fait dans quasiment tout ce document, cependant en dépendant beaucoup moins de
