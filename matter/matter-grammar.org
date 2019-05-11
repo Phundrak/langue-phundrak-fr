@@ -153,9 +153,9 @@
    lors des  grandes expéditions vikings. L’île  fut découverte en 863,  peut de
    temps après la  découverte de l’Islande, et commença à  être peuplée à partir
    de 882  sur la partie  orientale de  l’île avec la  fondation de la  ville de
-   Hyrfialsær. Sa  partie occidentale fut colonisée  à partir de 884  lors de la
-   fondation de la future capitale d’Éïnlante, Dhébergette (orthographe Mattér :
-   « Ðeberget »).
+   Hurfialthère (/Hyrfialþær/). Sa partie occidentale  fut colonisée à partir de
+   884  lors de  la  fondation  de la  future  capitale d’Éïnlante,  Dhébergette
+   (/Ðeberget/).
 
 ** Affiliation générique
    :PROPERTIES:
@@ -216,10 +216,10 @@
     :PROPERTIES:
     :CUSTOM_ID: h-764211d7-c9c7-4101-9ac4-2602bf7522d7
     :END:
-*** Dialectes
-    :PROPERTIES:
-    :CUSTOM_ID: h-b51d7ffb-86b9-42f3-9fa0-d0502d48170e
-    :END:
+** Dialectes
+   :PROPERTIES:
+   :CUSTOM_ID: h-b51d7ffb-86b9-42f3-9fa0-d0502d48170e
+   :END:
 {{{newpage}}}
 * <<phonology>>Phonologie
   :PROPERTIES:
@@ -804,8 +804,59 @@
   :PROPERTIES:
   :CUSTOM_ID: h-f40706bc-990b-4bb7-b089-2c8b5fea5e80
   :END:
+  Le Mattér  est une langue  à tendance polysynthétique, fortement  orientée sur
+  l’agglutination de  mots et  de particules pour  son aspect  grammatical, mais
+  également de mots entre eux lors de  la création de nouveaux mots. Bien que de
+  nombreux mots  du Mattér  soient monosyllabiques  ou bi-syllabiques  dans leur
+  forme  standard, il  n’est  pas  rare de  les  rencontrer  avec des  morphèmes
+  supplémentaires, généralement  des suffixes, leur donnant  un rôle grammatical
+  ou des informations supplémentaires, tel que leur nombre. Exemples :
 
-{{{newpage}}}
+  - Hyrfialþærun marcéðoċ ficianaþant þællea.
+
+    Hyrfialþær-un marcéð-oċ fician-aþ-ant þæll-ea.
+
+    Hyrfialþær-GEN marché-LOC poisson-PL-ACC vendre-3SG:PRES:INDIC
+
+    Il vend du poisson au marché d’Hurfialthère.
+
+  On peut voir que chaque mot dans cette phrase dispose d’un élément grammatical
+  distinct de sa racine, chacun de ces éléments grammaticaux permettant à la
+  phrase d’avoir un sens compréhensible.
+  - /Hyrfialþær/  est le  lieu où  se  trouve le  marché, et  donc également  le
+    détermine ; il s’agit d’un marché, certes, mais le marché d’Hurfialthère. Ce
+    dernier est donc  décliné au génitif via l’ajout d’un  suffixe /un/. On peut
+    remarquer par  ailleurs que le Mattér  traite de manière identique  les noms
+    communs et les noms propre quant à la déclinaison grammaticale.
+  - /Hyrfialþarén  marcéð/ est  un groupe  nominal  désignant le  lieu où  s’est
+    déroulée  l’action, il  est donc  décliné au  locatif. Notez  que le  groupe
+    nominal  est traité  comme un  bloc unique  et non  comme plusieurs  entités
+    séparées. Le groupe nominal se voit donc affixé par un /oċ/.
+  - /fician/ signifie « poisson » en Mattér.  Étant donné que plusieurs poissons
+    sont vendus  (l’indénombrable n’existe pas  en Mattér), un suffixe  /aþ/ est
+    accolé à /fician/ afin de marquer le pluriel. Il s’agit ici du patient de la
+    phrase verbale et est donc son objet et est de ce fait décliné à l’accusatif
+    via l’ajout du suffixe /ant/.
+  - Le verbe présente la racine /þæll/ qui  n’est pas en soit un morphème libre,
+    contrairement aux autres mots précédents sans leurs suffixes ; cela signifie
+    que bien que /þæll/ soit la racine  du verbe « vendre », il ne peut pas être
+    utilisé en tant que tel dans un discours en Mattér, et l’utilisation d’autre
+    morphèmes liés à la racine sont  nécessaires. Ainsi, le morphème /ea/ permet
+    d’indiquer l’accord avec l’agent du verbe qui est à la troisième personne du
+    singulier, indique  le temps présent  et le  mode infinitif. Il  s’agit d’un
+    exemple d’un des éléments polysynthétiques fusionnels du Mattér.
+
+  Les mots  eux aussi sont, comme  mentionné ci-dessus, un exemple  du caractère
+  fusionnel  du  Mattér. Par  exemple,  le  nom  de  la ville  Hurfialthère,  ou
+  /Hyrfialþær/  dans son  orthographe originale,  est le  composé de  deux mots,
+  « hyrfial » et  « þær », signifiant respectivement « volcan »  et « lagon, lac
+  salé ».  « Hyrfial »  lui-même  est  également  un  mot  composé  de  « hyr »,
+  signifiant « flamme », et de « fial »  signifiant « montagne ». Ainsi, on sait
+  qu’Hurfialthère a été nommée  ainsi du fait de sa proximité à  un volcan et du
+  fait de sa situation géographique, dans  un lagon presque fermé donnant sur la
+  mer d’Éïnlante.
+
+  {{{newpage}}}
 * <<genders>>Classes de mots
   :PROPERTIES:
   :CUSTOM_ID: h-f5ec6a00-773b-403f-bde0-8caeab925046
@@ -1117,6 +1168,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-6f776734-733c-42b1-96c7-08e80a0eb761
    :END:
+   - marcéð :: [ˈmarkeð] (n) marché
    - o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
 
 ** Conflits
@@ -1214,30 +1266,6 @@
 
                 <o verde>  est notamment  utilisé pour  le verbe  « naitre », <o
                 verde fyttant> [o ˈvɛrdɛ ˈfytːant].
-
-** Parenté
-   :PROPERTIES:
-   :CUSTOM_ID: h-d4b7c6d3-38ab-4dee-a1ba-adb2e1492c4a
-   :END:
-   - feioð :: [ˈfɛjɔð] (n) femme
-   - meþ :: [mɛθ] (n) homme, personne
-   - yld :: [yld] (n) être humain, Homme, humanité, le monde entier
-
-*** Famille
-    :PROPERTIES:
-    :CUSTOM_ID: h-d2a3df13-7fc3-4fec-85c8-a1e3b1fc3dc3
-    :END:
-    - bruðyr :: [ˈbruðyr] (n) frère
-    - dottyr :: [ˈdɔtːyr] (n) fille
-    - faðér :: [ˈfaðer] (n) père
-    - fobror :: [ˈfɔbrɔr] (n) oncle paternel
-    - foþtyr :: [ˈfɔθtyr] (n) tante paternelle
-    - maðér :: [ˈmaðer] (n) mère
-    - maþtyr :: [ˈmaθtyr] (n) tante maternelle
-    - mæbror :: [ˈmaebrɔr] (n) oncle maternel
-    - þon :: [θɔn] (n) fils
-    - þyþter :: [ˈθyθtɛr] (n) sœur
-
 ** Forme
    :PROPERTIES:
    :CUSTOM_ID: h-aa0314ad-bea4-4137-8061-c8a1876d0a36
@@ -1283,7 +1311,6 @@
     :END:
     - tél :: [tel] (prep) pour, afin
     - þiv :: [θiv] (prep) pour la raison de, du fait de.
-
 ** Guerre
    :PROPERTIES:
    :CUSTOM_ID: h-9e747416-243f-4a1c-8002-6aa656fb7f8b
@@ -1305,13 +1332,13 @@
     :PROPERTIES:
     :CUSTOM_ID: h-665a2e08-6c93-4906-905e-a3c33e8f656b
     :END:
-    - Hyrfialsær :: [ˈhyrˌfjalsaer] (np) Hyrfialsær
+    - Hyrfialþær :: [ˈhyrˌfjalsaer] (np) Hurfialthère
 
                     Historiquement, il  s’agit de la première  ville d’Éïnlante,
                     fondée  en 882.  Cette ville  est le  cœur économique  de la
                     partie orientale de l’île, et  et elle abrite le second plus
                     grand port du pays après celui de Dhébergette (Ðeberget). En
-                    2020,  Hyrfialsær est  la seconde  ville la  plus importante
+                    2020, Hurfialthère  est la seconde ville  la plus importante
                     d’Éïnlante en  termes de population et  d’économie, abritant
                     220.000 habitants.
 
@@ -1371,7 +1398,7 @@
    - lant :: [lant] (n) terre
    - logar :: [ˈlɔɡar] (n) mer, eau de mer, eaux maritimes
    - pyl :: [pyl] (n) bois, petite forêt
-   - sær :: [saer] (n) golfe, lac salé dû à la mer
+   - þær :: [saer] (n) golfe, lac salé dû à la mer
    - træ :: [trae] (n) arbre
    - velt :: [vɛlt] (n) monde, la Terre
    - þær :: [θaer] (n) mer
@@ -1429,6 +1456,29 @@
    :CUSTOM_ID: h-78cba3f5-ec4b-421a-9814-c182a01fa1b7
    :END:
    - ƿaċen :: [ˈwaçɛn] (n) voiture
+
+** Parenté
+   :PROPERTIES:
+   :CUSTOM_ID: h-d4b7c6d3-38ab-4dee-a1ba-adb2e1492c4a
+   :END:
+   - feioð :: [ˈfɛjɔð] (n) femme
+   - meþ :: [mɛθ] (n) homme, personne
+   - yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+
+*** Famille
+    :PROPERTIES:
+    :CUSTOM_ID: h-d2a3df13-7fc3-4fec-85c8-a1e3b1fc3dc3
+    :END:
+    - bruðyr :: [ˈbruðyr] (n) frère
+    - dottyr :: [ˈdɔtːyr] (n) fille
+    - faðér :: [ˈfaðer] (n) père
+    - fobror :: [ˈfɔbrɔr] (n) oncle paternel
+    - foþtyr :: [ˈfɔθtyr] (n) tante paternelle
+    - maðér :: [ˈmaðer] (n) mère
+    - maþtyr :: [ˈmaθtyr] (n) tante maternelle
+    - mæbror :: [ˈmaebrɔr] (n) oncle maternel
+    - þon :: [θɔn] (n) fils
+    - þyþter :: [ˈθyθtɛr] (n) sœur
 
 ** Parole
    :PROPERTIES:
