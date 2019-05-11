@@ -29,8 +29,8 @@
   date '+Dernière mise à jour le %d/%m/%y à %H:%M'
 #+END_SRC
 #+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
-#+OPTIONS: H:4
-#+OPTIONS: toc:nil
+#+OPTIONS: H:4 toc:nil
+#+OPTIONS: auto-id:t
 {{{newpage}}}
 #+TOC: headlines
 
@@ -39,6 +39,7 @@
 * <<avantpropos>>Avant-propos
   :PROPERTIES:
   :UNNUMBERED: t
+  :CUSTOM_ID: h-48a98537-6d7b-485f-b8e3-5857516219d0
   :END:
   La  redistribution ou  vente de  ce  document sont  strictement interdits.  Ce
   document est protégé par la loi  française sur le droit d’auteur et appartient
@@ -63,6 +64,9 @@
   {{{newpage}}}
 
 * <<introduction>>Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: h-7ae36187-04aa-47b4-82f9-d5e3fabda554
+  :END:
   Le Mattér  est une  idéolangue (langue construite)  humaine, inspirée  par des
   langues  nordiques,  germaniques  et  latines.  Elle  bénéficie  également  de
   quelques  inspirations   des  idéolangues  elfiques  de   J.R.R.  Tolkien,  en
@@ -76,12 +80,18 @@
   de licence en ingénierie des langues.
 
 ** Le nom de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-7b4dfe16-4a1b-4d74-9e77-0592b39bbd0a
+   :END:
 
    Cette langue  est appelée d’après le  peuple parlant cette langue,  le peuple
    /Matté/. Une fois le  nom de ce peuple dérivé afin  d’obtenir un adjectif, on
    obtient donc /mattér/ qui est donc le nom de cette langue.
 
 ** Démographie
+   :PROPERTIES:
+   :CUSTOM_ID: h-8791c7f7-9030-42a4-b625-9f3c31462621
+   :END:
 
    #+attr_html: :alt Carte d’Éïnlante :align center
    #+CAPTION: Carte du XIX^{ème} siècle d’Éïnlante
@@ -136,6 +146,9 @@
    [[file:religious-pop.png]]
 
 ** Histoire
+   :PROPERTIES:
+   :CUSTOM_ID: h-4349562e-64b4-4620-af92-a7028a30c2f3
+   :END:
    Éïnlante fût colonisée pour la première fois par des explorateurs scandinaves
    lors des  grandes expéditions vikings. L’île  fut découverte en 863,  peut de
    temps après la  découverte de l’Islande, et commença à  être peuplée à partir
@@ -145,11 +158,17 @@
    « Ðeberget »).
 
 ** Affiliation générique
+   :PROPERTIES:
+   :CUSTOM_ID: h-413e7ea2-4278-4428-8ad7-5427c9ad1f4f
+   :END:
 
    Le Mattér est une langue Indo-européenne trouvant ses sources dans la famille
    des langues scandinaves (germaniques nordiques).
 
 ** Système d’écriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-650be6b2-9b22-470e-8b66-77f1f8486461
+   :END:
 
    Du fait  de son affiliation aux  langues nordiques, le Mattér  est une langue
    qui s’est  d’abord gravée  via l’utilisation  de runes, que  ce soit  sur des
@@ -174,7 +193,13 @@
    d’écriture Mattér (§[[writing]]).
 
 ** Situation sociolinguistique
+   :PROPERTIES:
+   :CUSTOM_ID: h-3b5a2a47-f1f1-477b-bf38-1a0d6c8e5c94
+   :END:
 *** Multilinguisme et contexte d’utilisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-d6c387d4-7d74-4ca8-a222-9eb495245719
+    :END:
     Le  Mattér est  une langue  encore très  vivante parmi  les Mattés,  qui est
     parlée   activement   par  tous   les   locuteurs   natifs.  Concernant   le
     multilinguisme, les Mattés  ont commencé à apprendre  des langues étrangères
@@ -184,11 +209,26 @@
     le Norvégien, et du fait de leur proximité avec le Groënland, environ 20% de
     la population parle également le Danois.
 *** Viabilité
+    :PROPERTIES:
+    :CUSTOM_ID: h-cb22e512-3404-4634-a621-5694557ed348
+    :END:
 *** Mots d’emprunt
+    :PROPERTIES:
+    :CUSTOM_ID: h-764211d7-c9c7-4101-9ac4-2602bf7522d7
+    :END:
 *** Dialectes
+    :PROPERTIES:
+    :CUSTOM_ID: h-b51d7ffb-86b9-42f3-9fa0-d0502d48170e
+    :END:
 {{{newpage}}}
 * <<phonology>>Phonologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-7e21add6-7d69-4a96-a4ac-8c488a4f71e2
+  :END:
 ** <<phon-notes>>Notes sur la transcription du Mattér
+   :PROPERTIES:
+   :CUSTOM_ID: h-d7d67be3-dc8c-4d5e-a2f9-16aeb316039c
+   :END:
    Comme vous  pourrez vous  en rendre compte  aux chapitres  §[[phon-consonnes]] et
    §[[phon-voyelles]], le Mattér dispose de deux transcriptions possibles qui seront
    les   transcriptions   principalement   utilisées  dans   cet   ouvrage,   la
@@ -219,6 +259,9 @@
    dans son chapitre dédié (§[[writing]]).
 
 ** Inventaire phonétique
+   :PROPERTIES:
+   :CUSTOM_ID: h-1a7255fd-47b4-47fe-839a-d0a57b86b0a0
+   :END:
    L’inventaire phonétique est l’une des signatures d’une langue qui se remarque
    le plus rapidement.  Il s’agit de la collection des  sons utilisés en Mattér,
    ceux que  peuvent prononcer ses  locuteurs et  pouvant être utilisés  dans un
@@ -242,6 +285,9 @@
    elfiques créées par Tolkien, notamment le Sindarin.
 
 *** <<phon-consonnes>>Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-6da91679-71f1-4064-bf08-0425446244f0
+    :END:
     Le  Mattér  est  une  langue  disposant  d’un  panel  raisonnable  de  seize
     consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et en
     latin (voir §[[phon-notes]]).
@@ -350,6 +396,9 @@
     [tː], et <Mattér> sera prononcé ['mat:er].
 
 *** <<phon-voyelles>>Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-f3b80ac4-726f-4f4d-806f-fd1378ad7e20
+    :END:
     Le Mattér  dispose de  relativement peu de  voyelles, uniquement  six. Voici
     leur tableau :
     #+CAPTION: Voyelles du Mattér (IPA)
@@ -405,6 +454,9 @@
              encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
 *** <<phon-diphtongues>>Diphtonges
+    :PROPERTIES:
+    :CUSTOM_ID: h-67defe3d-d8cb-48a1-b985-a05f9c28bddc
+    :END:
     Les  diphtongues sont  des  associations de  voyelles  considérées dans  une
     langue comme  étant une voyelle  unique, avec  la première unité  portant la
     longueur  de la  voyelle, la  seconde n’étant  prononcée qu’en  relâchant la
@@ -435,6 +487,9 @@
     <tereant> dans sa forme accusative.
 
 ** <<phon-allophonie>>Allophonie
+   :PROPERTIES:
+   :CUSTOM_ID: h-a6a890f5-6fb1-450d-83c7-ad79f4be6163
+   :END:
    Bien  qu’étant rares,  le Mattér  a  quelques règles  à appliquer  concernant
    l’allophonie.
    - Si  deux  voyelles pouvant  former  une  diphtongue  se suivent,  alors  la
@@ -462,6 +517,9 @@
    - Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
 
 ** <<phon-phonotaxes>>Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-78519805-1712-463f-9679-11ff7d209061
+   :END:
    Les phonotaxes sont des règles  importantes car elle permettent de déterminer
    quelles sont  les associations de  sons possibles  dans une langue.  C’est ce
    genre de règles qui permettent de savoir que des mots tels que <iċkƿufrƿt> ou
@@ -477,6 +535,9 @@
    dans la syllabe.
 
 *** <<phon-attaque>>Attaque
+    :PROPERTIES:
+    :CUSTOM_ID: h-1b82ebbd-04a3-4177-b230-eed89027baaa
+    :END:
     L’attaque est la  première partie de la syllabe, les  premières consonnes la
     composant.  Elle  peut  comporter  d’aucune consonne  à  deux  consonnes  ne
     contenant pas  de semi-voyelle, trois  avec une semi-voyelle  comme consonne
@@ -492,6 +553,9 @@
       une autre consonne.
 
 *** Coda
+    :PROPERTIES:
+    :CUSTOM_ID: h-f417ce16-d72e-45b9-8799-d1c3bb39b91b
+    :END:
     Le coda  (la seconde partie consonnantique  de la syllabe la  terminant) est
     composée d’aucune à deux consonnes.
     - Les semi-consonnes [j] et [w] ne peuvent se situer dans le coda.
@@ -507,6 +571,9 @@
     - Le [h] ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
+    :PROPERTIES:
+    :CUSTOM_ID: h-5945c741-10fb-41aa-9ccd-e75e1581c04a
+    :END:
     Les  consonnes inter-syllabes,  situées entre  deux voyelles,  sont soumises
     elles aussi à des règles qui leur sont propres.
     - Toutes les règles de l’attaque (§[[phon-attaque]]) sont applicables.
@@ -519,6 +586,9 @@
       syllabes et ne peuvent s’associer à d’autres consonnes.
 
 ** <<phon-accentuation>>Accentuation
+   :PROPERTIES:
+   :CUSTOM_ID: h-6a45a9d3-7476-44fe-853a-60ba09206680
+   :END:
    Le Mattér est une langue dont  l’accentuation est assez simple à suivre étant
    donné qu’elle  se produit sur  la syllabe initiale  de tout mot  constitué de
    deux syllabes  ou plus :  l’accent principal porte  sur la  première syllabe.
@@ -534,6 +604,9 @@
    mot contient au moins trois syllabes.
 
 ** <<local-accent>>Accents régionaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-8f4b038a-5365-4834-baae-5f18f5aeb3eb
+   :END:
    Du  fait  du  volume de  sa  population  ainsi  que  de la  taille  de  l’île
    d’Éïnlante,  le Mattér  a des  variantes régionales  se distingant  du Mattér
    standard décrit  dans cet ouvrage. Peu  de recherches ont été  menées sur ces
@@ -613,6 +686,9 @@
 
 {{{newpage}}}
 ** <<writing>>Système d’écriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-9f02cc6d-40a6-4ece-96e9-a29021f18294
+   :END:
    Le  système  natif  d’écriture  Mattér   est  l’alphabet  runique.  Voici  la
    correspondance entre  chacun des  phonèmes du Mattér  et des  runes utilisées
    nativement dans leur ordre alphabétique natif :
@@ -701,6 +777,9 @@
    | ċciag       | {{{latex-html(\textara{Icjag},ᛇᚳᛄᚪᚷ)}}} | chcjaᵹ / ȝcjaᵹ |
 
 ** <<orthography>>Orthographe
+   :PROPERTIES:
+   :CUSTOM_ID: h-cd6b7fda-ced0-4ba9-bf46-1e9ec62ab408
+   :END:
 
    Le Mattér, utilisant un de ses alphabets décrits ci-dessus, a une orthographe
    très  régulière,  chaque mot  est  écrit  comme  il  est prononcé.  La  seule
@@ -722,70 +801,226 @@
  {{{newpage}}}
 
 * <<topology>>Topologie morphologique
+  :PROPERTIES:
+  :CUSTOM_ID: h-f40706bc-990b-4bb7-b089-2c8b5fea5e80
+  :END:
 
 {{{newpage}}}
 * <<genders>>Classes de mots
+  :PROPERTIES:
+  :CUSTOM_ID: h-f5ec6a00-773b-403f-bde0-8caeab925046
+  :END:
 ** Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-46c1b327-38b0-4988-b190-26fb2cb0fc9e
+   :END:
 *** Types de noms
+    :PROPERTIES:
+    :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
+    :END:
 *** Pronoms
+    :PROPERTIES:
+    :CUSTOM_ID: h-0823300e-dca8-4928-a8b6-122f48e1fcc4
+    :END:
 ** Verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-80c88e53-b75b-4759-a8f9-f871e426dafc
+   :END:
 *** Infinitif
+    :PROPERTIES:
+    :CUSTOM_ID: h-a90355c2-07a7-4f77-8b69-fa8b65be55d8
+    :END:
 *** Nominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-da2cf8e9-4415-4590-a91a-9cd2cc114879
+    :END:
 ** Adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-c2adae5e-930e-43eb-944e-654db14713d8
+   :END:
 ** Adverbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-4d8f2917-82cf-44b6-b01e-d8950c474fe2
+   :END:
 {{{newpage}}}
 * <<syntax>>Ordre des constituants basiques
+  :PROPERTIES:
+  :CUSTOM_ID: h-71465cbf-4eac-4766-b323-8ff09ab3140f
+  :END:
 ** Clauses principales
+   :PROPERTIES:
+   :CUSTOM_ID: h-d3416cd1-3776-49c1-bd84-26941778a850
+   :END:
 ** Phrase prépositionnelles
+   :PROPERTIES:
+   :CUSTOM_ID: h-5b43686d-4503-498b-b85a-3c723f97a26e
+   :END:
 ** Phrases nominales
+   :PROPERTIES:
+   :CUSTOM_ID: h-f2139faf-fe6c-491e-b380-9b68d7375820
+   :END:
 *** Modificateurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-dd6f70ad-3149-4d90-9620-a7436daa691b
+    :END:
 *** Constructions génitives
+    :PROPERTIES:
+    :CUSTOM_ID: h-ca6ea50f-71e1-48b9-a54c-680afad76d5c
+    :END:
 *** Clauses relatives
+    :PROPERTIES:
+    :CUSTOM_ID: h-eedf1fbc-d64c-4b4d-bd75-2260f67fbb77
+    :END:
 ** Phrases verbales
+   :PROPERTIES:
+   :CUSTOM_ID: h-f8f23742-a91d-4063-af5f-e79cb387767a
+   :END:
 ** Comparatifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-2383550e-b16e-4a3f-9ecf-44817a8781ff
+   :END:
 ** Résumé
+   :PROPERTIES:
+   :CUSTOM_ID: h-9bdf83ea-7f79-4a94-b03b-afb67b91e7f1
+   :END:
 
 {{{newpage}}}
 * <<predicates>>Prédicats nominaux
+  :PROPERTIES:
+  :CUSTOM_ID: h-c28e4bdf-f5d3-4b37-9f63-1ce53e2276ca
+  :END:
 {{{newpage}}}
 * Phrases existentielles, locationnelles et possessives
+  :PROPERTIES:
+  :CUSTOM_ID: h-71fe1272-2b77-4b6b-b0ff-24dfe3e17cc7
+  :END:
 {{{newpage}}}
 * Expression des relations grammaticales
+  :PROPERTIES:
+  :CUSTOM_ID: h-44c62dcf-9aea-41af-bd6f-4b949af15767
+  :END:
 ** Déclinaison – Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-9b727eaa-6c90-4e6f-824a-3ba06b3fbcde
+   :END:
 ** Déclinaison — Pronoms
+   :PROPERTIES:
+   :CUSTOM_ID: h-99c4d6a1-b39b-46dd-8a79-ce764c8251c4
+   :END:
 ** Accord des verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-7073ad4a-69fc-4358-908c-762e3ebe03a0
+   :END:
 ** Accord des adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-6f758eb8-3540-405b-9af7-f6fd6033d8c3
+   :END:
 
 {{{newpage}}}
 * Temps, aspects et modes
+  :PROPERTIES:
+  :CUSTOM_ID: h-94f958a3-7d28-4893-803b-56158b8fc921
+  :END:
 ** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-29df1949-4b88-4562-be05-5c00db53d8e1
+   :END:
 ** Aspect
+   :PROPERTIES:
+   :CUSTOM_ID: h-69281b31-26ae-465f-974c-dcb458f45e55
+   :END:
 ** Modaux auxiliaires
+   :PROPERTIES:
+   :CUSTOM_ID: h-11c812d5-9b40-472f-8fd1-7d3fc778ce5a
+   :END:
 ** Causatif
+   :PROPERTIES:
+   :CUSTOM_ID: h-f6cdeb41-33c4-43a0-b0f4-9f2c8dba8018
+   :END:
 *** Causatif lexical
+    :PROPERTIES:
+    :CUSTOM_ID: h-85c382fa-60a5-4287-8b4f-0e2e7abae568
+    :END:
 *** Causatif analytique
+    :PROPERTIES:
+    :CUSTOM_ID: h-6144ecea-c981-4846-b390-c90292090544
+    :END:
 ** Passif
+   :PROPERTIES:
+   :CUSTOM_ID: h-78aa22ec-e4a8-456b-9d00-cf12a4db1b2b
+   :END:
 ** Réflexif
+   :PROPERTIES:
+   :CUSTOM_ID: h-0d563179-0006-4a5f-939a-5f63824be430
+   :END:
 ** Réciproque
+   :PROPERTIES:
+   :CUSTOM_ID: h-f438a99b-3a1b-42a7-94bc-0368af06950d
+   :END:
 ** Questions
+   :PROPERTIES:
+   :CUSTOM_ID: h-ef72ed57-f936-451c-ab36-c388e7cb3d77
+   :END:
 *** Question absolue (oui/non)
+    :PROPERTIES:
+    :CUSTOM_ID: h-bfc065f2-6dfa-415e-b048-9447c0391017
+    :END:
 *** Question relative
+    :PROPERTIES:
+    :CUSTOM_ID: h-f55df488-7a1e-4ba1-a859-612764a4cdc3
+    :END:
 ** Impératif
+   :PROPERTIES:
+   :CUSTOM_ID: h-91d24508-879d-4c05-a4f7-9ca67f6c18b2
+   :END:
 {{{newpage}}}
 * Négation
+  :PROPERTIES:
+  :CUSTOM_ID: h-d6b2c293-0354-4cb4-9212-2190eb52a323
+  :END:
 {{{newpage}}}
 * Combination de clauses
+  :PROPERTIES:
+  :CUSTOM_ID: h-99c0beb5-3fc6-4b47-97af-bc404228576d
+  :END:
 ** Clauses relatives
+   :PROPERTIES:
+   :CUSTOM_ID: h-85973727-d754-46eb-a904-6a7ca3c8d313
+   :END:
 ** Verbes en série
+   :PROPERTIES:
+   :CUSTOM_ID: h-9908871f-2de2-44c6-b250-131c5e541e07
+   :END:
 ** Clauses de complément
+   :PROPERTIES:
+   :CUSTOM_ID: h-bd60515d-17b1-4c0b-acfc-e7e897430969
+   :END:
 *** Compléments de stems basiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-8141c1a3-3b1a-4bd2-b169-3767fafbd763
+    :END:
 *** Compléments <tél> et <þiv>
+    :PROPERTIES:
+    :CUSTOM_ID: h-b6855a07-0981-4637-b9b4-6686e472008e
+    :END:
 ** Clauses adverbiales
+   :PROPERTIES:
+   :CUSTOM_ID: h-db0b478a-6b6e-4ce9-b5a5-feb0f6052727
+   :END:
 ** Coordination
+   :PROPERTIES:
+   :CUSTOM_ID: h-897eb26a-e2a9-4dd6-8939-4e8e34a6e89c
+   :END:
 {{{newpage}}}
 * Structures marquées pragmatiquement
+  :PROPERTIES:
+  :CUSTOM_ID: h-c2855728-415c-4a5a-9fb4-712bf21d4fbd
+  :END:
 {{{newpage}}}
 * Glossaire
+  :PROPERTIES:
+  :CUSTOM_ID: h-393b8998-29ab-483a-a490-1186863133d1
+  :END:
 
   - mot en Mattér :: [phonétique] (élément de langage) Définition(s)
 
@@ -806,8 +1041,17 @@
   - on :: onomatopée
 
 ** Actions physiques
+   :PROPERTIES:
+   :CUSTOM_ID: h-d6a6fe68-b2f6-4fdb-bad7-657e9f236425
+   :END:
 ** Amour
+   :PROPERTIES:
+   :CUSTOM_ID: h-de494dbd-3bb6-4320-ab28-a5c67905888f
+   :END:
 ** Animaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-16b41f84-dc2e-46f2-bd42-d37e258fa26a
+   :END:
    - bern :: [bɛrn] (n) ours
    - calfér :: [ˈcalfer] (n) veaus
    - cat :: [kat] (n) chat
@@ -826,9 +1070,15 @@
    - ċuðar :: [ˈçuðar] (n) mouton
 
 ** Art
+   :PROPERTIES:
+   :CUSTOM_ID: h-1b4601d3-be4a-419a-bbf4-52812ea753d4
+   :END:
    - ƿen :: [wɛn] beau, joli
 
 *** Écriture
+    :PROPERTIES:
+    :CUSTOM_ID: h-4d17cb6e-2c31-45f5-bc3e-d24c88cd6d36
+    :END:
     - boccé :: [ˈbɔkːe] (n) livre
     - breif :: [brɛɪf] (n) lettre, missive
     - o rittan :: [ɔ ˈritːa] (vt) écrire, graver des runes
@@ -837,68 +1087,128 @@
     - ryn :: [ryn] (n) rune, lettre alphabétique
 
 ** Astronomie
+   :PROPERTIES:
+   :CUSTOM_ID: h-4591e215-c284-40eb-8c71-18f8c4dbfcd1
+   :END:
    - mény :: [ˈmeny] (n) lune
 
 ** Bâtiments
+   :PROPERTIES:
+   :CUSTOM_ID: h-2827b34a-e9cf-474f-8d9e-40c707f478fe
+   :END:
    - o flytten :: [ɔ flytːɛn] (vi) déménager
    - gæt :: [ɡaset] (n) rue, allée
 
 *** La ville
+    :PROPERTIES:
+    :CUSTOM_ID: h-c0ce002d-ab7d-4558-b7fa-68b1fc9dd9aa
+    :END:
    - urby :: [ˈurby] (n) ville
 
 *** Les types de bâtiments
+    :PROPERTIES:
+    :CUSTOM_ID: h-67fe5a74-9aff-4971-b10e-666b16fcdf29
+    :END:
    - bér :: [ber] (n) maison (lieu de vie, chez soi, en. « home »)
    - hyþ :: [hyθ] (n) maison (bâtiment, en. « house »)
    - tere :: [ˈtɛrɛ] (n) tour, haut monument
 
 ** Commerce
+   :PROPERTIES:
+   :CUSTOM_ID: h-6f776734-733c-42b1-96c7-08e80a0eb761
+   :END:
    - o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
 
 ** Conflits
+   :PROPERTIES:
+   :CUSTOM_ID: h-78ec7325-bd87-4906-aa2c-f96a863e6da3
+   :END:
    - fri :: [fri] (adj) libre, indépendant
 
 ** Conteneurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-0d94ea52-a8aa-4a5d-93d8-a35d0745734c
+   :END:
 
 ** Corps
+   :PROPERTIES:
+   :CUSTOM_ID: h-0344cb6c-f3ef-4ac7-a3f3-116558ea0056
+   :END:
    - néf :: [nef] (n) nez
 
 ** Couleurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-5f76262d-6f94-477b-823b-d4b4e53a72d6
+   :END:
    - ræð :: [raeð] (adj) rouge
 
 ** Dimensions
+   :PROPERTIES:
+   :CUSTOM_ID: h-e3b12928-71ff-4910-bea2-891a9d2a07a1
+   :END:
 *** Taille
+    :PROPERTIES:
+    :CUSTOM_ID: h-2c87765b-1d43-4725-9c55-c4faa2fe2193
+    :END:
     - meccil :: [mekːil] (adj) grand, imposant, puissant, fort
     - þmoð :: [θmɔð] (adj) petit, étroit
     - þtor :: [θtɔr] (adj) gros, grand, de grande taille, large
 
 *** Quantifieurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-e123bd84-f49e-4c9e-b551-6cb4c8b3a168
+    :END:
     - mænd :: [maend] (adj) beaucoup
     - vend :: [vend] (adj) peu, un peu
 
 ** Direction
+   :PROPERTIES:
+   :CUSTOM_ID: h-77cd29ac-08df-4c4d-9fdb-99e7f9612d4b
+   :END:
 
 ** Eau
+   :PROPERTIES:
+   :CUSTOM_ID: h-f4ee53ca-f1a4-4172-8b88-7f2c875826c3
+   :END:
 
 ** Effort
+   :PROPERTIES:
+   :CUSTOM_ID: h-80b7947a-b9ce-4e38-8acd-ef876b47b10c
+   :END:
 
 ** Éléments
+   :PROPERTIES:
+   :CUSTOM_ID: h-196d3adf-334f-4a6a-a992-e2ab877110e1
+   :END:
    - eldyr :: [ˈɛldyr] (n) feu, passion
    - hyr :: [hyr] (n) flamme
 
 ** Émotions
+   :PROPERTIES:
+   :CUSTOM_ID: h-e31a524d-1c38-4bb8-8fc1-ace58d98cf0a
+   :END:
    - eldyr :: [ˈɛldyr] (n) feu, passion
    - lycce :: [ˈlykːɛ] (adj) joyeux, content
    - o ƿilia :: [ɔ ˈwilja] (vt) vouloir, avoir envie de
    - ƿille :: [ˈwilːɛ] (n) souhait, désir
 
 ** Évaluation
+   :PROPERTIES:
+   :CUSTOM_ID: h-565b4711-7ece-44e8-90d7-450b350207a3
+   :END:
 
 ** Événements
+   :PROPERTIES:
+   :CUSTOM_ID: h-4e646851-16a2-4134-a550-6cd920860a48
+   :END:
    - ru :: [ru] (n) pause, repos (long), vacances
    - ċild :: [çild] (n) pause, repos (temporaire), jour férié
    - ċilden :: [ˈçildɛn] (vi) se reposer, rester, faire une sieste
 
 ** Existence
+   :PROPERTIES:
+   :CUSTOM_ID: h-af8f1f9e-b18f-4c77-a3ac-59a22e9a4de0
+   :END:
    - o  verde ::  [ɔ ˈvɛrdɛ]  (vt) devenir,  se transformer  en, changer  en, se
                 produire.
 
@@ -906,11 +1216,17 @@
                 verde fyttant> [o ˈvɛrdɛ ˈfytːant].
 
 ** Parenté
+   :PROPERTIES:
+   :CUSTOM_ID: h-d4b7c6d3-38ab-4dee-a1ba-adb2e1492c4a
+   :END:
    - feioð :: [ˈfɛjɔð] (n) femme
    - meþ :: [mɛθ] (n) homme, personne
    - yld :: [yld] (n) être humain, Homme, humanité, le monde entier
 
 *** Famille
+    :PROPERTIES:
+    :CUSTOM_ID: h-d2a3df13-7fc3-4fec-85c8-a1e3b1fc3dc3
+    :END:
     - bruðyr :: [ˈbruðyr] (n) frère
     - dottyr :: [ˈdɔtːyr] (n) fille
     - faðér :: [ˈfaðer] (n) père
@@ -923,10 +1239,16 @@
     - þyþter :: [ˈθyθtɛr] (n) sœur
 
 ** Forme
+   :PROPERTIES:
+   :CUSTOM_ID: h-aa0314ad-bea4-4137-8061-c8a1876d0a36
+   :END:
    - þtikyl :: [ˈθtikyl] (n) point
    - ċlið :: [çlið] (n) côté
 
 ** Gouvernement
+   :PROPERTIES:
+   :CUSTOM_ID: h-7f506829-7563-41e0-b901-1487cc10a14c
+   :END:
    - cyng :: [kynɡ] (n) roi
    - cyngyt :: [ˈkynɡyt] (n) royaume
    - faðcyng :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
@@ -935,11 +1257,17 @@
    - ðengil :: [ˈðɛnɡil] (n) noble
 
 ** Grammaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-9fb6774e-ef7e-4f6b-af6a-3b6885d2bc3f
+   :END:
    - méllém :: [melːem] (adv) entre (deux personnes)
    - neiċ :: [nɛiç] (adv) aucun
    - þém :: [θem] (inter) quand, à quel moment
 
 *** Conjonctions
+    :PROPERTIES:
+    :CUSTOM_ID: h-fedb3cb4-d6f3-495e-be85-ab530e53ae24
+    :END:
     - ar :: [ar] (conj) et
     - men :: [mɛn] (conj) mais
     - némmé :: [nemːe] (conj) excepté, à moins que
@@ -950,18 +1278,33 @@
     - að :: [að] (conj) que (/that/ en anglais)
 
 *** Prépoþitionþ
+    :PROPERTIES:
+    :CUSTOM_ID: h-f0025267-763f-4eb6-bde9-0be1ebe0c408
+    :END:
     - tél :: [tel] (prep) pour, afin
     - þiv :: [θiv] (prep) pour la raison de, du fait de.
 
 ** Guerre
+   :PROPERTIES:
+   :CUSTOM_ID: h-9e747416-243f-4a1c-8002-6aa656fb7f8b
+   :END:
    - iara :: [ˈjara] (n) bataille
    - lætte :: [ˈlætːɛ] (vi) perdre, se rendre, abandonner
 
 ** Légal
+   :PROPERTIES:
+   :CUSTOM_ID: h-6aba59ba-885d-4d92-831f-14a0be74ee2a
+   :END:
    - retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
 
 ** Lieux
+   :PROPERTIES:
+   :CUSTOM_ID: h-32d757b2-95f2-4806-bfda-39bde76b4ddb
+   :END:
 *** Villes
+    :PROPERTIES:
+    :CUSTOM_ID: h-665a2e08-6c93-4906-905e-a3c33e8f656b
+    :END:
     - Hyrfialsær :: [ˈhyrˌfjalsaer] (np) Hyrfialsær
 
                     Historiquement, il  s’agit de la première  ville d’Éïnlante,
@@ -982,17 +1325,32 @@
                   commerce.  En  2020,  Dhébergette  abrite  une  population  de
                   560.000 habitants.
 ** Lumière
+   :PROPERTIES:
+   :CUSTOM_ID: h-9dbd09e0-48ec-4011-9ed9-533b92a1ea7f
+   :END:
 
 ** Mental
+   :PROPERTIES:
+   :CUSTOM_ID: h-27db4459-8714-4278-b870-2f95022f8d78
+   :END:
    - frihyt :: [ˈfrihyt] (n) liberté
    - léc :: [lek] (adj) égal, similaire, pareil
    - þoc :: [θɔk] (n) pensée, raison
 
 ** Mesures
+   :PROPERTIES:
+   :CUSTOM_ID: h-6b3144d3-bb88-4c67-b24d-f74c237004f2
+   :END:
 
 ** Métaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-af2c9b48-0095-4b62-a3e2-6fd728a4347a
+   :END:
 
 ** Mouvements
+   :PROPERTIES:
+   :CUSTOM_ID: h-8fb06ee2-d52c-4468-9996-e53568c152b1
+   :END:
    - canal  ::   [ˈkanal]  (n)   canal,  voie   navigable,  conduit,   salon  de
               communication
    - o commén :: [ɔ kɔmːen] (vi) venir, arriver
@@ -1003,6 +1361,9 @@
    - þcort :: [θkɔrt] (adi) rapide
 
 ** Nature
+   :PROPERTIES:
+   :CUSTOM_ID: h-ed97de50-47e5-4503-a6ff-9211c3f042dc
+   :END:
    - berg :: [bɛrɡ] (n) rocher, petite colline
    - ealant :: [ˈealant] (n) île
    - fial :: [fjal] (n) montagne
@@ -1016,10 +1377,16 @@
    - þær :: [θaer] (n) mer
 
 ** Nombres
+   :PROPERTIES:
+   :CUSTOM_ID: h-1b84bfe6-188f-4b68-a461-bbbd64049ae6
+   :END:
    - al :: [al] (adi) tout, tous
    - norm :: [nɔrm] (n) nombre, numéro (ordinal)
 
 *** Nombres cardinaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-3a16c263-2617-423e-beb8-ed1f42e70d58
+    :END:
     Comme  présenté  dans  le  chapitre   sur  les  nombres  (§[[*Nombres]]),  voici
     ci-dessous les nombres  cardinaux du Mattér. Leur  utilisation est détaillée
     dans le chapitre mentionné ci-dessus.
@@ -1051,26 +1418,47 @@
     |      1 0000 0000 | mollen  | [ˈmɔlːɛn]  |
     | 1 0000 0000 0000 | vrelien | [ˈvrɛljɛn] |
 ** Nourriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-b265501e-5430-4397-bdba-4d3b31a4730b
+   :END:
    - o etan :: [ɔ ɛtan] (vt) manger
    - o þpiċ :: [ɔ θpiç] (vt) (vulgaire) manger, bouffer
 
 ** Outils
+   :PROPERTIES:
+   :CUSTOM_ID: h-78cba3f5-ec4b-421a-9814-c182a01fa1b7
+   :END:
    - ƿaċen :: [ˈwaçɛn] (n) voiture
 
 ** Parole
+   :PROPERTIES:
+   :CUSTOM_ID: h-75eb761a-da02-41a4-b597-2d55b4f4e5c5
+   :END:
    - nam :: [nam] (n) nom
    - o þeg :: [ɔ þɛɡ] (vt) dire
 
 ** Péchés
+   :PROPERTIES:
+   :CUSTOM_ID: h-5f7ac672-6052-4258-a706-319a50cb6b49
+   :END:
 
 ** Physique
+   :PROPERTIES:
+   :CUSTOM_ID: h-9fbf3a79-8384-4424-a38e-be04ba5dbe2a
+   :END:
    - éccċi :: [ˈekːçi] (on) éternuement
 
 ** Possession
+   :PROPERTIES:
+   :CUSTOM_ID: h-99b0b868-7695-4952-86a2-d09ced424d0c
+   :END:
    - o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
    - þette :: [ˈsɛtːɛ] (vt) doter, équiper
 
 ** Religion
+   :PROPERTIES:
+   :CUSTOM_ID: h-416d3350-4faa-4c69-9d1f-a69d7ee23f75
+   :END:
    - Fréyia :: [ˈfreˌyja] (n) Freyja
    - Fréyr :: [ˈfreyr] (n) Freyr
    - Odin :: [ˈɔdin] (n) Odin
@@ -1095,13 +1483,22 @@
    langue », impliquant une connaissance profonde du sujet).
 
 ** Sensations
+   :PROPERTIES:
+   :CUSTOM_ID: h-297a67aa-05c9-4d0c-a934-eae02c218c48
+   :END:
    - bevit :: [ˈbɛvit] (adj) conscient
    - bevityt :: [ˈbɛˌvityt] (n) conscience
    - lita :: [ˈlita] (vt) regarder, observer
 
 ** Sexe
+   :PROPERTIES:
+   :CUSTOM_ID: h-bc83b7de-c9f0-4373-8bb0-6d07234fc49b
+   :END:
 
 ** Société
+   :PROPERTIES:
+   :CUSTOM_ID: h-f71a1034-afa3-430d-a9bc-dbd70bbf6a21
+   :END:
    - areð :: [ˈarɛð] (n) courage
    - dyrc :: [dyrk] (n) gloire
    - o heillen :: [ˈhɛilːɛn] (vt) glorifier, rendre gloire à.
@@ -1113,6 +1510,9 @@
    - gilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
 
 *** Relations sociales
+    :PROPERTIES:
+    :CUSTOM_ID: h-3b20c6d6-89f8-445f-872e-f12ed68093a6
+    :END:
     - félag :: [ˈfelaɡ] (n) ami, compagnon, partenaire, camarade
     - ie :: [jɛ] (adv, inform.) ouais
     - iea :: [jea] (adv) oui
@@ -1120,8 +1520,14 @@
     - nea :: [nea] (adv) non
 
 ** Substances
+   :PROPERTIES:
+   :CUSTOM_ID: h-5eb91e60-2123-4b2b-83d9-dfd0ae4ad46a
+   :END:
 
 ** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-c97ea273-d0af-4368-a848-191ff96a80cf
+   :END:
    - altið :: [altið] (adv) tout le temps
    - dæg :: [daeɡ] (n) jour
    - menyþ :: [ˈmɛnyθ] (n) mois
@@ -1137,17 +1543,35 @@
    - gærn :: [ɡaern] (n) année
 
 *** Saisons
+    :PROPERTIES:
+    :CUSTOM_ID: h-03edd486-8d8a-4712-8c1f-c2efeae5fd0f
+    :END:
     - vér :: [ver] (n) printemps
 
 ** Travail
+   :PROPERTIES:
+   :CUSTOM_ID: h-b084e9d6-9528-4fca-9741-62d226dea46b
+   :END:
 
 ** Végétaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-a71168a8-a389-483c-b0e4-0b72e481d7d3
+   :END:
 *** Fruits
+    :PROPERTIES:
+    :CUSTOM_ID: h-b56c605c-6007-4e48-ab73-6a48f9b24632
+    :END:
     - eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
+   :PROPERTIES:
+   :CUSTOM_ID: h-ebae2b55-c98c-4318-a651-3367dea4cef8
+   :END:
 
 ** Vie et santé
+   :PROPERTIES:
+   :CUSTOM_ID: h-0639ca02-8113-47be-9994-2433ddfdc43c
+   :END:
    - bryð :: [bryð] (n) naissance
    - bryðdeg :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryð> + <deg>)
    - ein :: [ɛin] (adj) isolé, solitaire
@@ -1164,12 +1588,18 @@
                première personne du singulier.
 
 ** À trier
+   :PROPERTIES:
+   :CUSTOM_ID: h-1eb7633c-f72e-42ad-85c5-0ca84415bcc1
+   :END:
 
    - modðét :: [ˈmɔdðet] (adj) opposé, aux antipodes
 
 {{{newpage}}}
 
 * Footnotes
+  :PROPERTIES:
+  :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
+  :END:
 
 [fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
 
@@ -1178,5 +1608,8 @@
 [fn:1] https://langue.phundrak.fr
 
 * Annexes
+  :PROPERTIES:
+  :CUSTOM_ID: h-c9a46c6b-daff-41af-aa83-6f3440fbe4db
+  :END:
 
 #  LocalWords:  Pappa langue-jouet Matté Einlant Mattés
