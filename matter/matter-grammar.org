@@ -36,6 +36,158 @@
 
 {{{newpage}}}
 
+* Table des matières                                      :TOC_4_gh:noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-a6f6e40b-46d3-44d2-8c0b-aa9f5aa1dcaa
+  :END:
+- [[#avantproposavant-propos][<<avantpropos>>Avant-propos]]
+- [[#acknowledgementsremerciements][<<acknowledgements>>Remerciements]]
+- [[#introintroduction][<<intro>>Introduction]]
+  - [[#intro-lang-namele-nom-de-la-langue][<<intro-lang-name>>Le nom de la langue]]
+  - [[#intro-demographydémographie][<<intro-demography>>Démographie]]
+  - [[#intro-historyhistoire][<<intro-history>>Histoire]]
+  - [[#intro-geneticaffiliation-générique][<<intro-genetic>>Affiliation générique]]
+  - [[#intro-alphabetsystème-décriture][<<intro-alphabet>>Système d’écriture]]
+  - [[#intro-sociolingsituation-sociolinguistique][<<intro-socioling>>Situation sociolinguistique]]
+    - [[#multilinguisme-et-contexte-dutilisation][Multilinguisme et contexte d’utilisation]]
+    - [[#viabilité][Viabilité]]
+    - [[#mots-demprunt][Mots d’emprunt]]
+  - [[#intro-dialectsdialectes][<<intro-dialects>>Dialectes]]
+- [[#phonologyphonologie][<<phonology>>Phonologie]]
+  - [[#phon-notesnotes-sur-la-transcription-du-mattér][<<phon-notes>>Notes sur la transcription du Mattér]]
+  - [[#inventaire-phonétique][Inventaire phonétique]]
+    - [[#phon-consonnesconsonnes][<<phon-consonnes>>Consonnes]]
+    - [[#phon-voyellesvoyelles][<<phon-voyelles>>Voyelles]]
+    - [[#phon-diphtonguesdiphtonges][<<phon-diphtongues>>Diphtonges]]
+  - [[#phon-allophonieallophonie][<<phon-allophonie>>Allophonie]]
+  - [[#phon-phonotaxesphonotaxes][<<phon-phonotaxes>>Phonotaxes]]
+    - [[#phon-attaqueattaque][<<phon-attaque>>Attaque]]
+    - [[#coda][Coda]]
+    - [[#inter-syllabe][Inter-syllabe]]
+  - [[#phon-accentuationaccentuation][<<phon-accentuation>>Accentuation]]
+  - [[#local-accentaccents-régionaux][<<local-accent>>Accents régionaux]]
+  - [[#writingsystème-décriture][<<writing>>Système d’écriture]]
+  - [[#orthographyorthographe][<<orthography>>Orthographe]]
+- [[#topologytopologie-morphologique][<<topology>>Topologie morphologique]]
+- [[#gendersclasses-de-mots][<<genders>>Classes de mots]]
+  - [[#noms][Noms]]
+    - [[#types-de-noms][Types de noms]]
+    - [[#pronoms][Pronoms]]
+  - [[#verbes][Verbes]]
+    - [[#infinitif][Infinitif]]
+    - [[#nominalisation][Nominalisation]]
+  - [[#adjectifs][Adjectifs]]
+  - [[#adverbes][Adverbes]]
+- [[#syntaxordre-des-constituants-basiques][<<syntax>>Ordre des constituants basiques]]
+  - [[#clauses-principales][Clauses principales]]
+  - [[#phrase-prépositionnelles][Phrase prépositionnelles]]
+  - [[#phrases-nominales][Phrases nominales]]
+    - [[#modificateurs][Modificateurs]]
+    - [[#constructions-génitives][Constructions génitives]]
+    - [[#clauses-relatives][Clauses relatives]]
+  - [[#phrases-verbales][Phrases verbales]]
+  - [[#comparatifs][Comparatifs]]
+  - [[#résumé][Résumé]]
+- [[#predicatesprédicats-nominaux][<<predicates>>Prédicats nominaux]]
+- [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
+- [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
+  - [[#déclinaison--noms][Déclinaison – Noms]]
+  - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
+  - [[#accord-des-verbes][Accord des verbes]]
+  - [[#accord-des-adjectifs][Accord des adjectifs]]
+- [[#temps-aspects-et-modes][Temps, aspects et modes]]
+  - [[#temps][Temps]]
+  - [[#aspect][Aspect]]
+  - [[#modaux-auxiliaires][Modaux auxiliaires]]
+  - [[#causatif][Causatif]]
+    - [[#causatif-lexical][Causatif lexical]]
+    - [[#causatif-analytique][Causatif analytique]]
+  - [[#passif][Passif]]
+  - [[#réflexif][Réflexif]]
+  - [[#réciproque][Réciproque]]
+  - [[#questions][Questions]]
+    - [[#question-absolue-ouinon][Question absolue (oui/non)]]
+    - [[#question-relative][Question relative]]
+  - [[#impératif][Impératif]]
+- [[#négation][Négation]]
+- [[#combination-de-clauses][Combination de clauses]]
+  - [[#clauses-relatives-1][Clauses relatives]]
+  - [[#verbes-en-série][Verbes en série]]
+  - [[#clauses-de-complément][Clauses de complément]]
+    - [[#compléments-de-stems-basiques][Compléments de stems basiques]]
+    - [[#compléments-tél-et-þiv][Compléments <tél> et <þiv>]]
+  - [[#clauses-adverbiales][Clauses adverbiales]]
+  - [[#coordination][Coordination]]
+- [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
+- [[#glossaire][Glossaire]]
+  - [[#actions-physiques][Actions physiques]]
+  - [[#amour][Amour]]
+  - [[#animaux][Animaux]]
+  - [[#art][Art]]
+    - [[#écriture][Écriture]]
+  - [[#astronomie][Astronomie]]
+  - [[#bâtiments][Bâtiments]]
+    - [[#la-ville][La ville]]
+    - [[#les-types-de-bâtiments][Les types de bâtiments]]
+  - [[#commerce][Commerce]]
+  - [[#conflits][Conflits]]
+  - [[#conteneurs][Conteneurs]]
+  - [[#corps][Corps]]
+  - [[#couleurs][Couleurs]]
+  - [[#dimensions][Dimensions]]
+    - [[#distance][Distance]]
+    - [[#taille][Taille]]
+    - [[#quantifieurs][Quantifieurs]]
+  - [[#direction][Direction]]
+  - [[#eau][Eau]]
+  - [[#effort][Effort]]
+  - [[#éléments][Éléments]]
+  - [[#émotions][Émotions]]
+  - [[#évaluation][Évaluation]]
+  - [[#événements][Événements]]
+  - [[#existence][Existence]]
+  - [[#forme][Forme]]
+  - [[#gouvernement][Gouvernement]]
+  - [[#grammaire][Grammaire]]
+    - [[#conjonctions][Conjonctions]]
+    - [[#prépoþitionþ][Prépoþitionþ]]
+  - [[#guerre][Guerre]]
+  - [[#légal][Légal]]
+  - [[#lieux][Lieux]]
+    - [[#villes][Villes]]
+  - [[#lumière][Lumière]]
+  - [[#mental][Mental]]
+  - [[#mesures][Mesures]]
+  - [[#métaux][Métaux]]
+  - [[#mouvements][Mouvements]]
+  - [[#nature][Nature]]
+  - [[#nombres][Nombres]]
+    - [[#nombres-cardinaux][Nombres cardinaux]]
+  - [[#nourriture][Nourriture]]
+  - [[#outils][Outils]]
+  - [[#parenté][Parenté]]
+    - [[#famille][Famille]]
+  - [[#parole][Parole]]
+  - [[#péchés][Péchés]]
+  - [[#physique][Physique]]
+  - [[#possession][Possession]]
+  - [[#religion][Religion]]
+  - [[#sensations][Sensations]]
+  - [[#sexe][Sexe]]
+  - [[#société][Société]]
+    - [[#relations-sociales][Relations sociales]]
+  - [[#substances][Substances]]
+  - [[#temps-1][Temps]]
+    - [[#saisons][Saisons]]
+  - [[#travail][Travail]]
+  - [[#végétaux][Végétaux]]
+    - [[#fruits][Fruits]]
+  - [[#vêtements][Vêtements]]
+  - [[#vie-et-santé][Vie et santé]]
+  - [[#à-trier][À trier]]
+- [[#footnotes][Footnotes]]
+- [[#annexes][Annexes]]
+
 * <<avantpropos>>Avant-propos
   :PROPERTIES:
   :UNNUMBERED: t
@@ -61,9 +213,39 @@
   fini cette partie qui peut être sujet à des mises à jours dans le futur.
 
   {{{last-update}}}
-  {{{newpage}}}
 
-* <<introduction>>Introduction
+* <<acknowledgements>>Remerciements
+  :PROPERTIES:
+  :CUSTOM_ID: h-d9bc7aac-3a5c-4092-b647-e538588ab9be
+  :UNNUMBERED: t
+  :END:
+
+  Bien que je ne  pourrai jamais le faire en personne du fait  des lois du temps
+  et  de l’univers,  je  souhaite  remercier J.R.R.  Tolkien  pour m’avoir  fait
+  découvrir l’activité  de création  de langues. Bien  que je  connaissait avant
+  l’existance d’idéolangues telles que  l’Esperanto, j’avais toujours imaginé ça
+  comme étant une  tâche incroyablement laborieuse et infaisable,  et quand j’ai
+  réalisé que  des personnes faisaient cela  pour leur plaisir et  pour enrichir
+  leurs univers  littéraires et créatifs, je  me suis rendu compte  que c’est en
+  réalité beaucoup plus accessible que cela peut ne le paraître. J’avais tout de
+  même raison sur le premier aspect de l’activité.
+
+  Bien  entendu,  je souhaite  également  remercier  les fabuleaux  auteurs  des
+  nombreux livres  avec lesquels j’ai  pu apprendre la linguistique  en amateur,
+  notamment Mark Rosenfelder (/Language  Construction Kit/ et /Advanced Language
+  Construction/ notamment), David J. Peterson  (/The Art of Language Creation/),
+  Thomas  E. Payne  (/Describing  Morphosyntax/),  R.M.W. Dixon  (/Ergativity/),
+  Bernard Comrie (/Tense/, /Aspect/, /The World’s Major Languages/), F.R. Palmer
+  (/Mood and Modality/) et Andrew  Carnie (/Syntax, A Generative Introduction/).
+  Et bien entendu  les créateurs de contenu  sur le sujet de  la linguistique et
+  des  idéolangues sur  YouTube,  notamment Artifexian,  Monté de  Linguisticae,
+  Xidnaf et NativLang. Sans le travail de toutes ces personnes, je serais encore
+  en train de tenter de créer des langues avec des connaissances très pauvres en
+  linguistique  et avec  des concepts  très  limités sur  le fonctionnement  des
+  langues et des diverses possibilités, à simplement faire du crypto-français.
+
+  {{{newpage}}}
+* <<intro>>Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-7ae36187-04aa-47b4-82f9-d5e3fabda554
   :END:
@@ -79,7 +261,7 @@
   dans le cadre  de mes études d’informatique pour un  projet de troisième année
   de licence en ingénierie des langues.
 
-** Le nom de la langue
+** <<intro-lang-name>>Le nom de la langue
    :PROPERTIES:
    :CUSTOM_ID: h-7b4dfe16-4a1b-4d74-9e77-0592b39bbd0a
    :END:
@@ -88,7 +270,7 @@
    /Matté/. Une fois le  nom de ce peuple dérivé afin  d’obtenir un adjectif, on
    obtient donc /mattér/ qui est donc le nom de cette langue.
 
-** Démographie
+** <<intro-demography>>Démographie
    :PROPERTIES:
    :CUSTOM_ID: h-8791c7f7-9030-42a4-b625-9f3c31462621
    :END:
@@ -97,12 +279,12 @@
    #+CAPTION: Carte du XIX^{ème} siècle d’Éïnlante
    [[./einlant-old-map.jpeg]]
 
-   Le Mattér  est parlé par un  peuple imaginaire vivant sur  une île imaginaire
-   nommée Éïnlante  (/terre solitaire/,  /Einlant/ en  Mattér), peuplée  vers le
-   X^{ème} siècle par  un peuple parlant le vieux  nordique, partis probablement
-   de la  péninsule scandinave par  bateau. À  l’instar de l’Islande,  le peuple
-   Matté s’y étant installé est devenu isolé, permettant une évolution unique de
-   leur langue.
+   Le Mattér  est parlé par  un peuple imaginaire  vivant sur une  île également
+   imaginaire nommée Éïnlante (/terre  solitaire/, /Einlant/ en Mattér), peuplée
+   vers  la fin  du IX^{ème}  siècle par  un peuple  parlant le  Vieux Nordique,
+   partis  probablement  de  la  péninsule scandinave  ou  des  jeunes  colonies
+   Islandaise par  bateau. À l’instar  de l’Islande,  le peuple Matté  s’y étant
+   installé est devenu isolé, permettant une évolution unique de leur langue.
 
    Initialement, l’Éïnlante n’était peuplé que  de quelques dizaines de milliers
    de  Mattés, cependant  leur population  connaît une  croissance importante  à
@@ -110,12 +292,12 @@
    jusqu’à atteindre au début du XXI^{ème} siècle 2.000.000 habitants.
 
    L’Éïnlante est  une île  de taille  similaire à sa  sœur, l’Islande,  mais se
-   situe plus au sud de cette dernière,  au sud-est du Groënland et à l’ouest de
-   l’Écosse. Son centre se situe aux alentours des coordonnées 57′N 33′O. Ainsi,
-   cette île  bénéficie d’un climat  plus clément  que l’Islande et  similaire à
-   l’Écosse : un climat océanique tempéré  mais froid, avec des vents fréquents.
-   Cette  île  est  également  une  île volcanique,  née  du  rift  du  plancher
-   atlantique.
+   situe plus au sud de cette dernière,  acccu sud-est du Groënland et à l’ouest
+   de l’Écosse.  Son centre se  situe aux  alentours des coordonnées  57′N 33′O.
+   Ainsi,  cette  île  bénéficie  d’un  climat plus  clément  que  l’Islande  et
+   similaire à l’Écosse : un climat océanique tempéré mais froid, avec des vents
+   fréquents.  Cette île  est  également  une île  volcanique,  née  du rift  du
+   plancher atlantique.
 
    Le peuple  Matté est un peuple  dont l’économie repose principalement  sur la
    pêche et l’agriculture. Au XV^{ème} siècle,  le pays commence à s’ouvrir avec
@@ -145,7 +327,7 @@
    #+RESULTS: religion-piechart
    [[file:religious-pop.png]]
 
-** Histoire
+** <<intro-history>>Histoire
    :PROPERTIES:
    :CUSTOM_ID: h-4349562e-64b4-4620-af92-a7028a30c2f3
    :END:
@@ -157,15 +339,19 @@
    884  lors de  la  fondation  de la  future  capitale d’Éïnlante,  Dhébergette
    (/Ðeberget/).
 
-** Affiliation générique
+** <<intro-genetic>>Affiliation générique
    :PROPERTIES:
    :CUSTOM_ID: h-413e7ea2-4278-4428-8ad7-5427c9ad1f4f
    :END:
 
    Le Mattér est une langue Indo-européenne trouvant ses sources dans la famille
-   des langues scandinaves (germaniques nordiques).
+   des  langues scandinaves  (germaniques nordiques).  Plus précisément,  elle a
+   directement  évolué  du   Vieux  Nordique  parlé  par   les  premiers  colons
+   d’Éïnlante. Le  Mattér a tout de  même quelques traces latines,  anglaises et
+   françaises, plus  récentes, s’étant intégrées à  la langue à partir  du début
+   des échanges commerciaux entre Éïnlante et les puissances européennes.
 
-** Système d’écriture
+** <<intro-alphabet>>Système d’écriture
    :PROPERTIES:
    :CUSTOM_ID: h-650be6b2-9b22-470e-8b66-77f1f8486461
    :END:
@@ -189,10 +375,18 @@
    celles-ci, mais  en vingt ans la  proportion d’utilisation des runes  n’a pas
    beaucoup remonté, bien que la chute fut stoppée grâce à cette intervention.
 
+   Comme pour l’Islande, il existe une théorie comme quoi les premiers habitants
+   de  l’île n’auraient  pas été  réellement  des scandinaves,  mais plutôt  des
+   moines catholiques  irlandais. Bien qu’ils  n’aient laissé aucune  trace d’un
+   point   de  vue   religieux,  leur   présence  expliquerait   l’existance  et
+   l’utilisation précoce  de l’alphabet latin  chez le peuple Matté  comparé aux
+   autres peuples nordiques, ainsi que la présence de caractères venant des îles
+   britanniques, notamment le “g” insulaire “ᵹ”, le wynn “ƿ” ou le yogh “ȝ”.
+
    Plus  d’informations  seront  données  dans  le  chapitre  dédié  au  système
    d’écriture Mattér (§[[writing]]).
 
-** Situation sociolinguistique
+** <<intro-socioling>>Situation sociolinguistique
    :PROPERTIES:
    :CUSTOM_ID: h-3b5a2a47-f1f1-477b-bf38-1a0d6c8e5c94
    :END:
@@ -212,14 +406,51 @@
     :PROPERTIES:
     :CUSTOM_ID: h-cb22e512-3404-4634-a621-5694557ed348
     :END:
+    Le  Mattér  est une  langue  très  active,  parlée  par tous  les  habitants
+    d’Éïnlante en  tant que leur langue  maternelle. Cependant, il est  très peu
+    parlé en dehors  des frontières du pays, principalement  par les territoires
+    proches  géographiquement et  culturellement  d’Éïnlante, principalement  le
+    Groënland,  l’Islande et  les  pays scandinaves  par  quelques diasporas  et
+    quelques curieux de la culture Mattér.
+
 *** Mots d’emprunt
     :PROPERTIES:
     :CUSTOM_ID: h-764211d7-c9c7-4101-9ac4-2602bf7522d7
     :END:
-** Dialectes
+    La large majorité des mots du  Mattér, en particulier les termes quotidiens,
+    viennent du Vieux Nordique, langue parlée en Scandinavie et par les premiers
+    habitants de  l’île. Cependant,  avec la  naissance d’un  commerce important
+    entre  Éïnlante  et  les   différentes  puissances  européennes,  le  Mattér
+    incorpora certains mots venant de ces langues européennes, comme le Suédois,
+    l’Anglais ou le  Français. Cependant, ces mots d’emprunts  restent rare, les
+    Mattés  préférant généralement  créer de  nouveaux mots  à bases  de racines
+    Mattér,  bien que  souvent reprenant  l’étymologie du  mot emprunté,  plutôt
+    qu’un emprunt direct  dans la langue. Ainsi, « télévision »  est traduit par
+    « lynþyn », reprenant la racine /télé-/ (« loin ») + « vision ».
+
+** <<intro-dialects>>Dialectes
    :PROPERTIES:
    :CUSTOM_ID: h-b51d7ffb-86b9-42f3-9fa0-d0502d48170e
    :END:
+
+   Bien que l’on parle  de « Mattér » dans cet ouvrage, il  ne s’agit en réalité
+   que de l’une des formes de la langue que l’on peut trouver historiquement. En
+   effet, de nombreux dialectes du Mattér étaient parlés en Éïnlante, formant un
+   vaste  réseau de  langues  toutes plus  ou  moins inter-compréhensibles.  Les
+   dialectes  d’Éïnlante   orientale  présent  toutefois  une   différence  plus
+   importante entre  leur groupe et  le groupe  des dialects occidentaux.  On en
+   retrouve encore des traces importantes de nos jours, avec notamment un accent
+   remarquable aisément  et quelques  différences de vocabulaire  concernant les
+   objets quotidiens. Tandis  qu’au cours du XX^{ème} siècle  tous les dialectes
+   se sont standardisés sur le  dialecte de Dhébergette, les dialectes orientaux
+   se sont également standardisés sur  le dialecte d’Hurfialthère, donnant ainsi
+   un  nouveau  dialecte  hybride  disposant   des  codes  et  de  la  grammaire
+   occidentale,  mais  d’une prononciation  et  d’un  vocabulaire orientaux.  Le
+   dialecte de  la capitale est  le dialecte officiel  de l’île ainsi  que celui
+   utilisé  par les  médias et  enseigné dans  les écoles,  collèges et  lycées.
+   Cependant, Éïnlante  reconnait l’existance  de dialectes locaux  et encourage
+   leur apprentissage.
+
 {{{newpage}}}
 * <<phonology>>Phonologie
   :PROPERTIES:
@@ -861,6 +1092,11 @@
   :PROPERTIES:
   :CUSTOM_ID: h-f5ec6a00-773b-403f-bde0-8caeab925046
   :END:
+  Comme dans toutes les autres langues,  plusieurs types de mots ayant plusieurs
+  types de  rôles existent en Mattér.  Nous discuterons donc dans  cette section
+  des majeures classes de mots existant dans cette langue, les noms, les verbes,
+  les adjectifs et les adverbes.
+
 ** Noms
    :PROPERTIES:
    :CUSTOM_ID: h-46c1b327-38b0-4988-b190-26fb2cb0fc9e
@@ -1198,11 +1434,16 @@
    :PROPERTIES:
    :CUSTOM_ID: h-e3b12928-71ff-4910-bea2-891a9d2a07a1
    :END:
+*** Distance
+    :PROPERTIES:
+    :CUSTOM_ID: h-962c8931-7145-45ef-ba07-0fc426e05867
+    :END:
+    - lyn :: [lyn] (n) loin, lointain
 *** Taille
     :PROPERTIES:
     :CUSTOM_ID: h-2c87765b-1d43-4725-9c55-c4faa2fe2193
     :END:
-    - meccil :: [mekːil] (adj) grand, imposant, puissant, fort
+    - meccil :: [mɛkːil] (adj) grand, imposant, puissant, fort
     - þmoð :: [θmɔð] (adj) petit, étroit
     - þtor :: [θtɔr] (adj) gros, grand, de grande taille, large
 
@@ -1539,6 +1780,7 @@
    - bevit :: [ˈbɛvit] (adj) conscient
    - bevityt :: [ˈbɛˌvityt] (n) conscience
    - lita :: [ˈlita] (vt) regarder, observer
+   - þyn :: [θyn] (n) vision, vue
 
 ** Sexe
    :PROPERTIES:
