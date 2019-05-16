@@ -1285,7 +1285,19 @@
   :CUSTOM_ID: h-393b8998-29ab-483a-a490-1186863133d1
   :END:
 
-  - mot en Mattér :: [phonétique] (élément de langage) Définition(s)
+  - mot en Mattér :: [phonétique] (classe) Définition(s)
+
+                     Détails et exemples
+
+  - autre mot :: [phonétique]
+
+    1. (classe) Définition 1
+
+       Détails et exemples 1
+
+    2. (classe) Définition 2
+
+       Détails et exemples 2
 
   Abréviations :
   - adj :: adjectif
@@ -1344,7 +1356,7 @@
    - den :: [dɛn] (n) danse
    - freði :: [frɛði] (n) histoire (science, faits), savoir
    - lyþt :: [lyθt] (n) art
-   - o dene :: [o dɛnɛ] (vi) danser
+   - o dene :: [ɔ dɛnɛ] (vi) danser
    - þéga :: [θeɡa] (n) histoire (légende)
    - ƿen :: [wɛn] (adj) beau, joli
 
@@ -1559,8 +1571,15 @@
    :CUSTOM_ID: h-9fb6774e-ef7e-4f6b-af6a-3b6885d2bc3f
    :END:
    - annéð :: [ˈanːeð]
-     - (adj) autre, différent. Exemple :
-     - (pron) l’autre
+     1. (adj) autre, différent.
+
+        Em meþ Gunnarac annéðant þynea.  /Cet homme semble différent par rapport
+        à Gunnar/.
+
+     2. (pron) l’autre
+
+        Du an aenant  caupage, ar annéð caupe. /Achète  celui-là, et j’achèterai
+        l’autre./
    - béta :: [ˈbeta] (adv) pas beaucoup, peu (antonime : très)
    - eða :: ['ɛða] (adv) ou.
 
@@ -1624,18 +1643,18 @@
     mais également  selon la distance, allant  de visible proche à  invisible en
     passant par visible éloigné.
     #+CAPTION:Déterminants démonstratifs du Mattér
-    | /                         | <         | <       |
-    | distance                  | nombre    | article |
-    |---------------------------+-----------+---------|
-    | proche du locuteur        | singulier | an      |
-    | proche du locuteur        | paucal    | at      |
-    | proche du locuteur        | pluriel   | að      |
-    | proche de l’interlocuteur | singulier | em      |
-    | proche de l’interlocuteur | paucal    | ed      |
-    | proche de l’interlocuteur | pluriel   | eð      |
-    | éloigné                   | singulier | un      |
-    | éloigné                   | paucal    | ut      |
-    | éloigné                   | pluriel   | uð      |
+    | /                      | <         | <       |
+    | distance               | nombre    | article |
+    |------------------------+-----------+---------|
+    | proche du locuteur     | singulier | an      |
+    | proche du locuteur     | paucal    | at      |
+    | proche du locuteur     | pluriel   | að      |
+    | éloigné visible        | singulier | em      |
+    | éloigné visible        | paucal    | ed      |
+    | éloigné visible        | pluriel   | eð      |
+    | éloigné et non visible | singulier | un      |
+    | éloigné et non visible | paucal    | ut      |
+    | éloigné et non visible | pluriel   | uð      |
 
 *** Outils interrogatifs
     :PROPERTIES:
@@ -1999,6 +2018,7 @@
    - bevit :: [ˈbɛvit] (adj) conscient
    - bevityt :: [ˈbɛˌvityt] (n) conscience
    - o lita :: [ɔ ˈlita] (vt) regarder, observer
+   - o þyna :: [ɔ ˈθyna] (vt) sembler, appraître comme.
    - þyn :: [θyn] (n) vision, vue
 
 ** Sexe
