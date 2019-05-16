@@ -41,7 +41,6 @@
   :CUSTOM_ID: h-a6f6e40b-46d3-44d2-8c0b-aa9f5aa1dcaa
   :END:
 - [[#avantproposavant-propos][<<avantpropos>>Avant-propos]]
-- [[#acknowledgementsremerciements][<<acknowledgements>>Remerciements]]
 - [[#introintroduction][<<intro>>Introduction]]
   - [[#intro-lang-namele-nom-de-la-langue][<<intro-lang-name>>Le nom de la langue]]
   - [[#intro-demographydémographie][<<intro-demography>>Démographie]]
@@ -125,6 +124,8 @@
   - [[#animaux][Animaux]]
   - [[#art][Art]]
     - [[#écriture][Écriture]]
+    - [[#visuel][Visuel]]
+    - [[#audio][Audio]]
   - [[#astronomie][Astronomie]]
   - [[#bâtiments][Bâtiments]]
     - [[#la-ville][La ville]]
@@ -149,8 +150,12 @@
   - [[#forme][Forme]]
   - [[#gouvernement][Gouvernement]]
   - [[#grammaire][Grammaire]]
+    - [[#articles-définis][Articles définis]]
+    - [[#déterminants-démonstratifs][Déterminants démonstratifs]]
+    - [[#outils-interrogatifs][Outils interrogatifs]]
     - [[#conjonctions][Conjonctions]]
-    - [[#prépoþitionþ][Prépoþitionþ]]
+    - [[#prépositions][Prépositions]]
+    - [[#pronoms-1][Pronoms]]
   - [[#guerre][Guerre]]
   - [[#légal][Légal]]
   - [[#lieux][Lieux]]
@@ -169,9 +174,11 @@
     - [[#famille][Famille]]
   - [[#parole][Parole]]
   - [[#péchés][Péchés]]
+  - [[#peuples][Peuples]]
   - [[#physique][Physique]]
   - [[#possession][Possession]]
   - [[#religion][Religion]]
+  - [[#savoir][Savoir]]
   - [[#sensations][Sensations]]
   - [[#sexe][Sexe]]
   - [[#société][Société]]
@@ -214,37 +221,6 @@
 
   {{{last-update}}}
 
-* <<acknowledgements>>Remerciements
-  :PROPERTIES:
-  :CUSTOM_ID: h-d9bc7aac-3a5c-4092-b647-e538588ab9be
-  :UNNUMBERED: t
-  :END:
-
-  Bien que je ne  pourrai jamais le faire en personne du fait  des lois du temps
-  et  de l’univers,  je  souhaite  remercier J.R.R.  Tolkien  pour m’avoir  fait
-  découvrir l’activité  de création  de langues. Bien  que je  connaissait avant
-  l’existance d’idéolangues telles que  l’Esperanto, j’avais toujours imaginé ça
-  comme étant une  tâche incroyablement laborieuse et infaisable,  et quand j’ai
-  réalisé que  des personnes faisaient cela  pour leur plaisir et  pour enrichir
-  leurs univers  littéraires et créatifs, je  me suis rendu compte  que c’est en
-  réalité beaucoup plus accessible que cela peut ne le paraître. J’avais tout de
-  même raison sur le premier aspect de l’activité.
-
-  Bien  entendu,  je souhaite  également  remercier  les fabuleaux  auteurs  des
-  nombreux livres  avec lesquels j’ai  pu apprendre la linguistique  en amateur,
-  notamment Mark Rosenfelder (/Language  Construction Kit/ et /Advanced Language
-  Construction/ notamment), David J. Peterson  (/The Art of Language Creation/),
-  Thomas  E. Payne  (/Describing  Morphosyntax/),  R.M.W. Dixon  (/Ergativity/),
-  Bernard Comrie (/Tense/, /Aspect/, /The World’s Major Languages/), F.R. Palmer
-  (/Mood and Modality/) et Andrew  Carnie (/Syntax, A Generative Introduction/).
-  Et bien entendu  les créateurs de contenu  sur le sujet de  la linguistique et
-  des  idéolangues sur  YouTube,  notamment Artifexian,  Monté de  Linguisticae,
-  Xidnaf et NativLang. Sans le travail de toutes ces personnes, je serais encore
-  en train de tenter de créer des langues avec des connaissances très pauvres en
-  linguistique  et avec  des concepts  très  limités sur  le fonctionnement  des
-  langues et des diverses possibilités, à simplement faire du crypto-français.
-
-  {{{newpage}}}
 * <<intro>>Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-7ae36187-04aa-47b4-82f9-d5e3fabda554
@@ -1340,13 +1316,18 @@
    :CUSTOM_ID: h-16b41f84-dc2e-46f2-bd42-d37e258fa26a
    :END:
    - bern :: [bɛrn] (n) ours
-   - calfér :: [ˈcalfer] (n) veaus
+   - calfér :: [ˈcalfer] (n) veau
    - cat :: [kat] (n) chat
+   - cycvénd :: [ˈkykvend] (n) animal domestiqué, de compagnie
    - dur :: [dur] (n) cerf, biche
+   - dyr :: [dyr] (n) animal, généralement sauvage, bête sauvage
    - fician :: [ˈfikjan] (n) poisson
+   - fogel :: [ˈfɔɡɛl] (n) oiseau
    - gelty :: [ˈɡɛlty] (n) sanglier (sauvage)
+   - hryþ :: [hryθ] (n) jument
    - hynd :: [hynd] (n) chien
    - héþir :: [ˈheθir] (n) faucon
+   - héþtyr :: [ˈheθtyr] (n) cheval
    - o fician :: [ɔ ˈfikjan] (vt) pêcher
    - o gyien :: [ɔ ɡyjɛn] (vi) aboyer (animaux, chiens)
    - orn :: [ɔrn] (n) aigle
@@ -1360,7 +1341,12 @@
    :PROPERTIES:
    :CUSTOM_ID: h-1b4601d3-be4a-419a-bbf4-52812ea753d4
    :END:
-   - ƿen :: [wɛn] beau, joli
+   - den :: [dɛn] (n) danse
+   - freði :: [frɛði] (n) histoire (science, faits), savoir
+   - lyþt :: [lyθt] (n) art
+   - o dene :: [o dɛnɛ] (vi) danser
+   - þéga :: [θeɡa] (n) histoire (légende)
+   - ƿen :: [wɛn] (adj) beau, joli
 
 *** Écriture
     :PROPERTIES:
@@ -1368,16 +1354,43 @@
     :END:
     - boccé :: [ˈbɔkːe] (n) livre
     - breif :: [brɛɪf] (n) lettre, missive
+    - o léþan :: [ˈleθa] (vt) lire
     - o rittan :: [ɔ ˈritːa] (vt) écrire, graver des runes
     - o géren :: [ɔ ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur
                  une surface plane (parchemin, papier,…)
     - ryn :: [ryn] (n) rune, lettre alphabétique
 
+*** Visuel
+    :PROPERTIES:
+    :CUSTOM_ID: h-c0bfa41a-4251-4fc6-9d48-68dcc5e2e79f
+    :END:
+    - o mércan :: [o ˈmerkan] (vt) dessiner, marquer
+    - o þteinan :: [o ˈθtɛinan] (vt) peindre
+    - þteinér :: [ˈþtɛinér] (n) peinture, image
+
+*** Audio
+    :PROPERTIES:
+    :CUSTOM_ID: h-db6736f0-1ed4-4b6a-bf4f-226cc18647a0
+    :END:
+    - céveð :: [ˈkevɛð] (n) poème
+    - myþic :: [ˈmyθik] (n) musique
+    - o þongan :: [o ˈθɔnɡan] (vi) chanter
+
+                  <o þongan> est un verbe intransitif. Afin d’exprimer l’idée de
+                  chanter quelque chose, comme en français, on utilise l’ablatif
+                  pour  le  patient  sémantique. Exemple :  Céveðac  þonge.  /Je
+                  chante un poème./
+
 ** Astronomie
    :PROPERTIES:
    :CUSTOM_ID: h-4591e215-c284-40eb-8c71-18f8c4dbfcd1
    :END:
+   - iurd :: [jurd] (n) monde, Terre
+   - iurþtiern :: [ˈjurθtjɛrn] (n) planète
+   - gymmur :: [ˈɡymːur] (n) espace, vide céleste
    - mény :: [ˈmeny] (n) lune
+   - þtiern :: [θtjɛrn] (n) étoile, astre
+   - þynna :: [ˈθynːa] (n) soleil
 
 ** Bâtiments
    :PROPERTIES:
@@ -1406,6 +1419,12 @@
    :END:
    - marcéð :: [ˈmarkeð] (n) marché
    - o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
+   - o geffan :: [ɔ ˈɡɛfːan] (vt) donner, offrir
+   - o caupe :: [ɔ ˈkaupɛn] (vt) acheter, payer pour
+
+                Il est possible  d’utiliser un élément datif pour  ce verbe afin
+                de signifier  la personne recevant le  paiement, et généralement
+                également vendant l’élément acheté.
 
 ** Conflits
    :PROPERTIES:
@@ -1422,6 +1441,12 @@
    :PROPERTIES:
    :CUSTOM_ID: h-0344cb6c-f3ef-4ac7-a3f3-116558ea0056
    :END:
+   - armér :: [ˈarmer] (n) bras
+   - bac :: [bak] (n) dos
+   - fingér :: [ˈfinɡer] (n) doigt
+   - hond :: [hɔnd] (n) main
+   - hérðér :: [ˈherðer] (n) partie haute du dos, au niveau des omoplates
+   - lycam :: [ˈlykam] (n) corps
    - néf :: [nef] (n) nez
 
 ** Couleurs
@@ -1458,6 +1483,8 @@
    :PROPERTIES:
    :CUSTOM_ID: h-77cd29ac-08df-4c4d-9fdb-99e7f9612d4b
    :END:
+   - vinþtri :: [ˈvinθtri] (adj) gauche
+   - hégri :: [ˈheɡri] (adj) droite
 
 ** Eau
    :PROPERTIES:
@@ -1496,7 +1523,7 @@
    :END:
    - ru :: [ru] (n) pause, repos (long), vacances
    - ċild :: [çild] (n) pause, repos (temporaire), jour férié
-   - ċilden :: [ˈçildɛn] (vi) se reposer, rester, faire une sieste
+   - o ċilden :: [ɔ ˈçildɛn] (vi) se reposer, rester, faire une sieste
 
 ** Existence
    :PROPERTIES:
@@ -1513,6 +1540,7 @@
    :END:
    - þtikyl :: [ˈθtikyl] (n) point
    - ċlið :: [çlið] (n) côté
+   - hultar :: [ˈhultar] (n) chose
 
 ** Gouvernement
    :PROPERTIES:
@@ -1522,42 +1550,214 @@
    - cyngyt :: [ˈkynɡyt] (n) royaume
    - faðcyng :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
    - faðcyngyt :: [ˈfaðˌkynɡyt] (n) royaume, père patrie
-   - iéral :: [ˈjeral] jarl, seigneur
+   - iéral :: [ˈjeral] (n) jarl, seigneur
+   - landyt :: [ˈlandyt] (n) pays
    - ðengil :: [ˈðɛnɡil] (n) noble
 
 ** Grammaire
    :PROPERTIES:
    :CUSTOM_ID: h-9fb6774e-ef7e-4f6b-af6a-3b6885d2bc3f
    :END:
+   - annéð :: [ˈanːeð]
+     - (adj) autre, différent. Exemple :
+     - (pron) l’autre
+   - béta :: [ˈbeta] (adv) pas beaucoup, peu (antonime : très)
+   - eða :: ['ɛða] (adv) ou.
+
+            Marque un choix entre deux phrases nominales. Pour la conjonction
+            entre propositions, voir [[vocab-ella][ella]].
+   - ja :: [ja] (adv) ouais (colloquial)
+   - jæ :: [jae] (adv) oui
+   - licca :: [ˈlikːa] (adv) aussi, de même, dans la même veine
    - méllém :: [melːem] (adv) entre (deux personnes)
+   - na :: [na] (adv) nan (colloquial)
    - neiċ :: [nɛiç] (adv) aucun
+   - næ :: [nae] (adv) non
+   - ov :: [ɔv] (adv) aussi, également, en plus
+   - velgi :: [ˈvɛlɡi] (adv) très
+   - þiv :: [θiv] (conj) parce que, du fait de
    - þém :: [θem] (inter) quand, à quel moment
+
+*** Articles définis
+    :PROPERTIES:
+    :CUSTOM_ID: h-805229bc-0544-43ca-a122-c89484a3ead3
+    :END:
+    Les articles définis  servent à indiquer un élément  précis, contrairement à
+    un  élément général  désigné lors  de l’absence  d’article défini.  Ainsi en
+    Français, on  utilise « le », « la »  ou « les » comme articles  définis. En
+    revanche,  le Mattér  aura une  absence de  déterminants là  où le  Français
+    dispose d’articles  indéfinis. Comme on  peut le voir  ci-dessous, l’article
+    défini s’accorde en genre et en nombre au nom auquel il est attaché.
+    #+CAPTION:Articles définis du Mattér
+    | /         | <      | <       |
+    | nombre    | genre  | article |
+    |-----------+--------+---------|
+    | singulier | N,NHUM | a       |
+    | singulier | M      | é       |
+    | singulier | F      | al      |
+    | singulier | NHUM   | en      |
+    | paucal    | N,M,F  | od      |
+    | paucal    | NHUM   | yt      |
+    | pluriel   | N,M,F  | eþ      |
+    | pluriel   | NHUM   | ev      |
+
+    Exemple :
+    | /               | <        | <                       |
+    | français        | mattér   | gloss                   |
+    |-----------------+----------+-------------------------|
+    | la tour         | en tere  | ART.DEF.SG.NHUM tour    |
+    | les chats (peu) | od cetet | ART.DEF.PAU.N chat-PAU  |
+    | les villes      | ev urbyþ | ART.DEF.PAU.PL ville-PL |
+
+    Ici, <od>  est utilisé pour montrer  une proximité et/ou affection  entre le
+    locuteur et  lesdits chats,  mais si  un tel lien  n’existe pas  le locuteur
+    aurait pu choisir d’utiliser l’article  défini au genre non-humain <yt> s’il
+    le souhaite.
+
+*** Déterminants démonstratifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-f165f755-4c16-49a6-91ce-96efa1f03464
+    :END:
+    Le  déterminant démonstratif  du Mattér  a  une fonction  très similaire  au
+    déterminant démonstratif du Français, tels que « ce », « cet », « cette » et
+    « ces ». De même  que pour les articles définis, ils  s’accordent en nombre,
+    mais également  selon la distance, allant  de visible proche à  invisible en
+    passant par visible éloigné.
+    #+CAPTION:Déterminants démonstratifs du Mattér
+    | /                         | <         | <       |
+    | distance                  | nombre    | article |
+    |---------------------------+-----------+---------|
+    | proche du locuteur        | singulier | an      |
+    | proche du locuteur        | paucal    | at      |
+    | proche du locuteur        | pluriel   | að      |
+    | proche de l’interlocuteur | singulier | em      |
+    | proche de l’interlocuteur | paucal    | ed      |
+    | proche de l’interlocuteur | pluriel   | eð      |
+    | éloigné                   | singulier | un      |
+    | éloigné                   | paucal    | ut      |
+    | éloigné                   | pluriel   | uð      |
+
+*** Outils interrogatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-685eb5f5-0b3c-4937-a4c4-2436375e2de2
+    :END:
+    Les  outils interrogatifs  servent  à s’enquérir  d’une  information sur  un
+    sujet. Le Mattér dispose des termes suivants :
+    | /                  | <                       | <        | <            |
+    | domaine            | français                | outil    | phonétique   |
+    |--------------------+-------------------------+----------+--------------|
+    | sujet              | qui                     | fe       | [fɛ]         |
+    | objet              | quoi                    | fent     | [fɛnt]       |
+    | datif              | à qui                   | feþ      | [fɛθ]        |
+    | locatif            | où                      | feċ      | [fɛç]        |
+    | ablatif            | depuis où               | fec      | [fɛk]        |
+    | limitatif          | jusqu’où                | fém      | [fem]        |
+    | génitif            | de qui                  | fon      | [fon]        |
+    | but                | pourquoi, dans quel but | feren    | [ˈfɛrɛn]     |
+    | raison             | pour quelle raison      | ferve    | [ˈfɛrvɛ]     |
+    | choix              | lequel                  | fervid   | [ˈfɛrvid]    |
+    | instrumental       | comment                 | ferden   | [ˈfɛrdɛn]    |
+    | temporel           | quand                   | fertið   | [ˈfɛrtið]    |
+    | temporel ablatif   | depuis quand            | fertiðoċ | [ˈfɛrˌtiðɔç] |
+    | temporel limitatif | jusqu’à quand           | fertiðac | [ˈfɛrˌtiðak] |
+
+    Exemples :
+    - *Fe* en eppelant etano? Thror etano. /Qui a mangé la pomme ? C’est Thror
+      qui l’a mangée./
+    - Éþtrið  *fent*  etano? Eppelant  etano.  /Qu’a  mangé Estrið ?  C’est  une
+      pomme./
+    - Thror eppelant  *feþ* geffo? Aldaċ  geffo. /À  qui Thror a-t-il  donné une
+      pomme ? Il l’a donnée à Alda./
+    - Du *feċ* gei? /Où vas-tu ?/
+    - Hint *fec fém* gér? /D’où à où allez-vous ?/
+    - *Fon* landytoċ beþt  bƿand? /Dans quel pays habites-tu ?  (litt. dans quel
+      pays / territoire habites-tu ?/
+    - *Feren*  Mattérant  frégei?  /Pourquoi,   dans  quel  but  apprends-tu  le
+      Mattér ?/
+    - *Ferve* Mattérant frégei?  /Pourquoi apprends-tu le Mattér,  quelle est ta
+      motivation ?/
+    - Eppeleþant eða  curþabérant, *fertið* y  caupei? /Entre des pommes  ou des
+      cerises, que vas-tu acheter ?/
+    - *Ferden* urbyþ gon? /Comment êtes-vous allé à la ville ?/
+    - *Fertið* bryðdegynant haþt? /Quand est ton anniversaire ?/
+    - *Fertiðoċ* Mattérant frégei?/ /Depuis quand apprends-tu le Mattér ?/
+    - *Fertiðac* y ċilde? /Jusqu’à quand est-tu en vacances ?/
 
 *** Conjonctions
     :PROPERTIES:
     :CUSTOM_ID: h-fedb3cb4-d6f3-495e-be85-ab530e53ae24
     :END:
     - ar :: [ar] (conj) et
+    - að :: [að] (conj) que (/that/ en anglais)
+    - ella :: <<vocab-ella>>[ˈelːa] (conj) ou
+
+              <ella> sert de conjonction coordination entre propositions, tandis
+              que <eða>  sort à indiquer  un choix entre des  phrases nominales.
+              Exemple :
+
+              Eppelant  eða  cirþabéreþant ei  giéþ  etand  ella utant  ei  giéþ
+              caupend. /Il étaint  en train de manger une pomme  ou des cerises,
+              ou bien il était en train de les acheter./
     - men :: [mɛn] (conj) mais
-    - némmé :: [nemːe] (conj) excepté, à moins que
+    - némmé :: [ˈnemːe] (conj) excepté, à moins que
     - og :: [ɔɡ] (coni) et, cependant, toujours est-il que
     - æn :: [æn] (coni) et, mais
     - ér :: [er] (conj) quand (pas interrogatif)
     - ðea :: [ðea] (coni) mais, introduit une queþtion
-    - að :: [að] (conj) que (/that/ en anglais)
 
-*** Prépoþitionþ
+*** Prépositions
     :PROPERTIES:
     :CUSTOM_ID: h-f0025267-763f-4eb6-bde9-0be1ebe0c408
     :END:
     - tél :: [tel] (prep) pour, afin
     - þiv :: [θiv] (prep) pour la raison de, du fait de.
+
+*** Pronoms
+    :PROPERTIES:
+    :CUSTOM_ID: h-c9cd6596-f6bf-4d8c-93b9-0a5c0bb1aa3e
+    :END:
+    - Première personne :
+      #+CAPTION:Pronoms de la première personne
+      | /         | <>        | >         | >     |         |
+      |           | nominatif | accusatif | datif | génitif |
+      |-----------+-----------+-----------+-------+---------|
+      | singulier | ċeg       | ċent      | ċeið  | ċyn     |
+      | paucal    | þi        | þid       | þið   | þyn     |
+      | pluriel   | non       | nound     | nonþ  | nun     |
+
+    - Seconde personne :
+      #+CAPTION:Pronoms de la seconde personne
+      | /         | <>        | >         | >     | >       |         |
+      |           | nominatif | accusatif | datif | génitif | vocatif |
+      |-----------+-----------+-----------+-------+---------+---------|
+      | singulier | du        | daun      | duð   | dyn     | udy     |
+      | paucal    | im        | eint      | ði    | nim     | eny     |
+      | pluriel   | min       | meint     | minþ  | meun    | miny    |
+
+    - Troisième personne :
+      #+CAPTION:Pronoms de la troisième personne
+      | /             | <>        | >         | >     | >       |         |
+      |               | nominatif | accusatif | datif | génitif | vocatif |
+      |---------------+-----------+-----------+-------+---------+---------|
+      | sg neutre     | hé        | hét       | heþ   | hén     | yhé     |
+      | sg masculin   | hae       | haed      | haeð  | haen    | yhae    |
+      | sg féminin    | hou       | hound     | huð   | houn    | yhou    |
+      | sg non-humain | hit       | hint      | hiþ   | him     | yhi     |
+      | pau neutre    | hei       | heit      | heiþ  | hein    | yhei    |
+      | pau masculin  | þa        | þad       | þaið  | þan     | yþa     |
+      | pau féminin   | þu        | þunt      | þou   | þun     | yþu     |
+      | pau neutre    | hou       | hot       | hoþ   | ðo      | yðou    |
+      | pl neutre     | hea       | hint      | heaþ  | heam    | heaþy   |
+      | pl masculin   | þa        | þat       | þaið  | þan     | þaiðy   |
+      | pl féminin    | þu        | þunt      | þou   | þun     | yþu     |
+      | pl non-humain | hou       | hout      | houþ  | ðo      | houþy   |
+
 ** Guerre
    :PROPERTIES:
    :CUSTOM_ID: h-9e747416-243f-4a1c-8002-6aa656fb7f8b
    :END:
    - iara :: [ˈjara] (n) bataille
-   - lætte :: [ˈlætːɛ] (vi) perdre, se rendre, abandonner
+   - o lætte :: [ɔ ˈlætːɛ] (vi) perdre, se rendre, abandonner
 
 ** Légal
    :PROPERTIES:
@@ -1596,6 +1796,10 @@
    :PROPERTIES:
    :CUSTOM_ID: h-9dbd09e0-48ec-4011-9ed9-533b92a1ea7f
    :END:
+   - deccar :: [ˈdɛkːar] (adj) sombre, obscur, noir (abscence de lumière)
+   - leiþ :: [lɛiθ] (n) lumière, lanterne
+   - leiþér :: [ˈlɛiθer] (adj) brillant, clair, lumineux
+   - myrcér :: [ˈmyrker] (n) obscurité, ténèbres
 
 ** Mental
    :PROPERTIES:
@@ -1641,7 +1845,6 @@
    - pyl :: [pyl] (n) bois, petite forêt
    - þær :: [saer] (n) golfe, lac salé dû à la mer
    - træ :: [trae] (n) arbre
-   - velt :: [vɛlt] (n) monde, la Terre
    - þær :: [θaer] (n) mer
 
 ** Nombres
@@ -1712,12 +1915,16 @@
     :END:
     - bruðyr :: [ˈbruðyr] (n) frère
     - dottyr :: [ˈdɔtːyr] (n) fille
+    - faðmoð :: [ˈfaðmɔð] (n) parent
     - faðér :: [ˈfaðer] (n) père
     - fobror :: [ˈfɔbrɔr] (n) oncle paternel
     - foþtyr :: [ˈfɔθtyr] (n) tante paternelle
-    - maðér :: [ˈmaðer] (n) mère
     - maþtyr :: [ˈmaθtyr] (n) tante maternelle
+    - moðér :: [ˈmoðer] (n) mère
     - mæbror :: [ˈmaebrɔr] (n) oncle maternel
+    - o faðmoðan :: [ɔ ˈfaðˌmɔðan] (vi) élever (en particulier un enfant)
+    - o faðérran :: [ɔ ˈfaˌðerːan] (vi) devenir père
+    - o moðérran :: [ɔ ˈmoˌðerːan] (vi) devenir mère, accoucher
     - þon :: [θɔn] (n) fils
     - þyþter :: [ˈθyθtɛr] (n) sœur
 
@@ -1727,12 +1934,20 @@
    :END:
    - nam :: [nam] (n) nom
    - o þeg :: [ɔ þɛɡ] (vt) dire
+   - ryd :: [ryd] (n) voix
 
 ** Péchés
    :PROPERTIES:
    :CUSTOM_ID: h-5f7ac672-6052-4258-a706-319a50cb6b49
    :END:
 
+** Peuples
+   :PROPERTIES:
+   :CUSTOM_ID: h-d2eaf4dc-15d6-49c2-a73b-eba8fe47a83d
+   :END:
+   - Alfén :: [alfen] (n) Elfe
+   - Deccalfén :: [ˈdɛˌkːalfen] Elfe sombre, /Dökkálfar/
+   - Leþþalfén :: [ˈlɛˌfːalfen] Elfe lumineux, /Ljósálfar/
 ** Physique
    :PROPERTIES:
    :CUSTOM_ID: h-9fbf3a79-8384-4424-a38e-be04ba5dbe2a
@@ -1744,7 +1959,7 @@
    :CUSTOM_ID: h-99b0b868-7695-4952-86a2-d09ced424d0c
    :END:
    - o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
-   - þette :: [ˈsɛtːɛ] (vt) doter, équiper
+   - o þette :: [ɔ ˈsɛtːɛ] (vt) doter, équiper
 
 ** Religion
    :PROPERTIES:
@@ -1758,6 +1973,10 @@
    - Þor :: [θɔr] (n) Thor
    - guð :: [ɡuð] (n) dieu païen
    - guþ :: [ɡuθ] (n) Dieu (monothéisme)
+** Savoir
+   :PROPERTIES:
+   :CUSTOM_ID: h-3e6ded4b-87a3-4e8f-ae0e-5133b3d7daf7
+   :END:
    - o cyn :: [o kyn] (vt) savoir
    - o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de.
    - o þiea :: [o sjea] (vt) connaître, savoir superficiellement.
@@ -1779,7 +1998,7 @@
    :END:
    - bevit :: [ˈbɛvit] (adj) conscient
    - bevityt :: [ˈbɛˌvityt] (n) conscience
-   - lita :: [ˈlita] (vt) regarder, observer
+   - o lita :: [o ˈlita] (vt) regarder, observer
    - þyn :: [θyn] (n) vision, vue
 
 ** Sexe
@@ -1793,13 +2012,13 @@
    :END:
    - areð :: [ˈarɛð] (n) courage
    - dyrc :: [dyrk] (n) gloire
-   - o heillen :: [ˈhɛilːɛn] (vt) glorifier, rendre gloire à.
+   - gilðar :: [ˈɡilðar] (n) valeur, mérite
+   - gilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
+   - o heillen :: [ɔ ˈhɛilːɛn] (vt) glorifier, rendre gloire à.
 
                   <heillen>  ne prend  pas argument  accusatif mais  un argument
                   datif. Ainsi,  « je rend  gloire à  Odin » se  traduit <Odiniþ
                   heille>, Odin-DAT glorifier-1S:PRES.
-   - gilðar :: [ˈɡilðar] (n) valeur, mérite
-   - gilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
 
 *** Relations sociales
     :PROPERTIES:
@@ -1838,7 +2057,14 @@
     :PROPERTIES:
     :CUSTOM_ID: h-03edd486-8d8a-4712-8c1f-c2efeae5fd0f
     :END:
+    - hauþtér :: [ˈhauθter] (n) automne
+    - o hauþtéran :: [ɔ ˈhauþˌteran] (vt) approcher de l’automne
+    - o vérran :: [ɔ ˈverːan] (vt) approcher du printemps
+    - o vétteran :: [ɔ ˈveˌtːɛran] (vi) approcher de l’hiver
+    - o þymméran :: [ɔ ˈθyˌmːeran] (vt) approcher de l’été
     - vér :: [ver] (n) printemps
+    - vétter :: [ˈvetːɛr] (n) hiver
+    - þymmér :: [ˈθymːer] (n) été
 
 ** Travail
    :PROPERTIES:
@@ -1853,6 +2079,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-b56c605c-6007-4e48-ab73-6a48f9b24632
     :END:
+    - cirþabér :: [ˈkirˌθaber]
     - eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
@@ -1867,10 +2094,6 @@
    - bryð :: [bryð] (n) naissance
    - bryðdeg :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryð> + <deg>)
    - ein :: [ɛin] (adj) isolé, solitaire
-   - mein :: [mɛin] (n) douleur
-   - meinƿaċ :: [mɛinwaç] (n) ambulance (<mein> + <ƿaċen>)
-   - o bƿén :: [ɔ bwen] (vi) vivre, habiter
-   - ævy :: [ˈaevy] (n) vie
    - gemmel :: [ɡɛmːɛl] (adj) vieux, âgé.
 
                <gemmel> peut  être utilisé  pour désigner  un âge.  Par exemple,
@@ -1878,6 +2101,12 @@
                (litt. « je suis  vieux de vingt-trois ans »),  <gemmel> étant au
                nominatif il se  réfère donc forcément au sujet du  verbe, ici la
                première personne du singulier.
+   - lyf :: [lyf] (n) vie (concept)
+   - lyvér :: [ˈlyver] (adj) vivant
+   - ævi :: [ˈaevi] (n) vie (période), souffle, âge
+   - mein :: [mɛin] (n) douleur
+   - meinƿaċ :: [mɛinwaç] (n) ambulance (<mein> + <ƿaċen>)
+   - o bƿén :: [ɔ bwen] (vi) vivre, habiter
 
 ** À trier
    :PROPERTIES:
