@@ -1354,7 +1354,7 @@
     :END:
     - boccé :: [ˈbɔkːe] (n) livre
     - breif :: [brɛɪf] (n) lettre, missive
-    - o léþan :: [ˈleθa] (vt) lire
+    - o léþan :: [ɔ ˈleθa] (vt) lire
     - o rittan :: [ɔ ˈritːa] (vt) écrire, graver des runes
     - o géren :: [ɔ ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur
                  une surface plane (parchemin, papier,…)
@@ -1364,8 +1364,8 @@
     :PROPERTIES:
     :CUSTOM_ID: h-c0bfa41a-4251-4fc6-9d48-68dcc5e2e79f
     :END:
-    - o mércan :: [o ˈmerkan] (vt) dessiner, marquer
-    - o þteinan :: [o ˈθtɛinan] (vt) peindre
+    - o mércan :: [ɔ ˈmerkan] (vt) dessiner, marquer
+    - o þteinan :: [ɔ ˈθtɛinan] (vt) peindre
     - þteinér :: [ˈþtɛinér] (n) peinture, image
 
 *** Audio
@@ -1374,7 +1374,7 @@
     :END:
     - céveð :: [ˈkevɛð] (n) poème
     - myþic :: [ˈmyθik] (n) musique
-    - o þongan :: [o ˈθɔnɡan] (vi) chanter
+    - o þongan :: [ɔ ˈθɔnɡan] (vi) chanter
 
                   <o þongan> est un verbe intransitif. Afin d’exprimer l’idée de
                   chanter quelque chose, comme en français, on utilise l’ablatif
@@ -1977,9 +1977,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-3e6ded4b-87a3-4e8f-ae0e-5133b3d7daf7
    :END:
-   - o cyn :: [o kyn] (vt) savoir
-   - o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de.
-   - o þiea :: [o sjea] (vt) connaître, savoir superficiellement.
+   - o cyn :: [ɔ kyn] (vt) savoir
+   - o vitté :: [ɔ ˈvitːe] (vt) savoir, connaître, être conscient de.
+   - o þiea :: [ɔ sjea] (vt) connaître, savoir superficiellement.
    En Mattér, une différentiation est faite entre le fait de savoir ou connaître
    quelque  chose  superficiellement  <o  þiea>,  avoir  une  connaissance  plus
    approfondie  du sujet  <o cyn>  ou bien  avoir une  véritable maîtrise  de la
@@ -1998,7 +1998,7 @@
    :END:
    - bevit :: [ˈbɛvit] (adj) conscient
    - bevityt :: [ˈbɛˌvityt] (n) conscience
-   - o lita :: [o ˈlita] (vt) regarder, observer
+   - o lita :: [ɔ ˈlita] (vt) regarder, observer
    - þyn :: [θyn] (n) vision, vue
 
 ** Sexe
