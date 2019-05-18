@@ -1608,17 +1608,17 @@
     dispose d’articles  indéfinis. Comme on  peut le voir  ci-dessous, l’article
     défini s’accorde en genre et en nombre au nom auquel il est attaché.
     #+CAPTION:Articles définis du Mattér
-    | /         | <      | <       |
-    | nombre    | genre  | article |
-    |-----------+--------+---------|
-    | singulier | N,NHUM | a       |
-    | singulier | M      | é       |
-    | singulier | F      | al      |
-    | singulier | NHUM   | en      |
-    | paucal    | N,M,F  | od      |
-    | paucal    | NHUM   | yt      |
-    | pluriel   | N,M,F  | eþ      |
-    | pluriel   | NHUM   | ev      |
+    | /         | <     | <       |
+    | nombre    | genre | article |
+    |-----------+-------+---------|
+    | singulier | N     | a       |
+    | singulier | M     | é       |
+    | singulier | F     | al      |
+    | singulier | NHUM  | en      |
+    | paucal    | N,M,F | od      |
+    | paucal    | NHUM  | yt      |
+    | pluriel   | N,M,F | eþ      |
+    | pluriel   | NHUM  | ev      |
 
     Exemple :
     | /               | <        | <                       |
@@ -1719,10 +1719,10 @@
               ou bien il était en train de les acheter./
     - men :: [mɛn] (conj) mais
     - némmé :: [ˈnemːe] (conj) excepté, à moins que
-    - og :: [ɔɡ] (coni) et, cependant, toujours est-il que
-    - æn :: [æn] (coni) et, mais
+    - og :: [ɔɡ] (conj) et, cependant, toujours est-il que
+    - æn :: [æn] (conj) et, mais
     - ér :: [er] (conj) quand (pas interrogatif)
-    - ðea :: [ðea] (coni) mais, introduit une queþtion
+    - ðea :: [ðea] (conj) mais, introduit une queþtion
 
 *** Prépositions
     :PROPERTIES:
@@ -1849,7 +1849,7 @@
                  errer
    - o rinna :: [ɔ ˈrinːa] (vi) courir, couler (eau, liquide)
    - o ga :: [ɔ ɡa] (vi) aller
-   - þcort :: [θkɔrt] (adi) rapide
+   - þcort :: [θkɔrt] (adj) rapide
 
 ** Nature
    :PROPERTIES:
@@ -1870,7 +1870,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-1b84bfe6-188f-4b68-a461-bbbd64049ae6
    :END:
-   - al :: [al] (adi) tout, tous
+   - al :: [al] (adj) tout, tous
    - norm :: [nɔrm] (n) nombre, numéro (ordinal)
 
 *** Nombres cardinaux
@@ -1912,7 +1912,7 @@
    :CUSTOM_ID: h-b265501e-5430-4397-bdba-4d3b31a4730b
    :END:
    - o etan :: [ɔ ɛtan] (vt) manger
-   - o þpiċ :: [ɔ θpiç] (vt) (vulgaire) manger, bouffer
+   - o þpiċa :: [ɔ θpiça] (vt) (vulgaire) manger, bouffer
 
 ** Outils
    :PROPERTIES:
@@ -1952,7 +1952,7 @@
    :CUSTOM_ID: h-75eb761a-da02-41a4-b597-2d55b4f4e5c5
    :END:
    - nam :: [nam] (n) nom
-   - o þeg :: [ɔ þɛɡ] (vt) dire
+   - o þega :: [ɔ þɛɡa] (vt) dire
    - ryd :: [ryd] (n) voix
 
 ** Péchés
@@ -1965,8 +1965,8 @@
    :CUSTOM_ID: h-d2eaf4dc-15d6-49c2-a73b-eba8fe47a83d
    :END:
    - Alfén :: [alfen] (n) Elfe
-   - Deccalfén :: [ˈdɛˌkːalfen] Elfe sombre, /Dökkálfar/
-   - Leþþalfén :: [ˈlɛˌfːalfen] Elfe lumineux, /Ljósálfar/
+   - Deccalfén :: [ˈdɛˌkːalfen] (n) Elfe sombre, /Dökkálfar/
+   - Leþþalfén :: [ˈlɛˌfːalfen] (n) Elfe lumineux, /Ljósálfar/
 ** Physique
    :PROPERTIES:
    :CUSTOM_ID: h-9fbf3a79-8384-4424-a38e-be04ba5dbe2a
@@ -1996,8 +1996,8 @@
    :PROPERTIES:
    :CUSTOM_ID: h-3e6ded4b-87a3-4e8f-ae0e-5133b3d7daf7
    :END:
-   - o cyn :: [ɔ kyn] (vt) savoir
-   - o vitté :: [ɔ ˈvitːe] (vt) savoir, connaître, être conscient de.
+   - o cyna :: [ɔ kyna] (vt) savoir
+   - o vittén :: [ɔ ˈvitːe] (vt) savoir, connaître, être conscient de.
    - o þiea :: [ɔ sjea] (vt) connaître, savoir superficiellement.
    En Mattér, une différentiation est faite entre le fait de savoir ou connaître
    quelque  chose  superficiellement  <o  þiea>,  avoir  une  connaissance  plus
@@ -2065,7 +2065,7 @@
    - morg :: [mɔrɡ] (adv) demain
    - neþty :: [ˈnɛθty] (adj) prochain, suivant
    - nu :: [nu] (adv) maintenant, tout de suite
-   - o tebyr :: [ɔ 'tɛbyr] (vt) passer (du temps)
+   - o tebyra :: [ɔ 'tɛbyra] (vt) passer (du temps)
    - tið :: [tið] (n) temps
    - voc :: [vɔk] (n) semaine
    - þcyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
@@ -2099,7 +2099,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-b56c605c-6007-4e48-ab73-6a48f9b24632
     :END:
-    - cirþabér :: [ˈkirˌθaber]
+    - cirþabér :: [ˈkirˌθaber] (n) cerise
     - eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
