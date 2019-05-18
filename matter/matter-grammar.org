@@ -1578,7 +1578,7 @@
 
      2. (pron) l’autre
 
-        An  aenant caupage,  ar annéð  caupe. /Achète  celui-là, et  j’achèterai
+        An  ænant caupage,  ar  annéð caupe.  /Achète  celui-là, et  j’achèterai
         l’autre./
    - béta :: [ˈbeta] (adv) pas beaucoup, peu (antonime : très)
    - eða :: ['ɛða] (adv) ou.
@@ -1699,7 +1699,7 @@
       cerises, que vas-tu acheter ?/
     - *Ferden* urbyþ gon? /Comment êtes-vous allé à la ville ?/
     - *Fertið* bryðdegynant haþt? /Quand est ton anniversaire ?/
-    - *Fertiðoċ* Mattérant frégei?/ /Depuis quand apprends-tu le Mattér ?/
+    - *Fertiðoċ* Mattérant frégei? /Depuis quand apprends-tu le Mattér ?/
     - *Fertiðac* y ċilde? /Jusqu’à quand est-tu en vacances ?/
 
 *** Conjonctions
