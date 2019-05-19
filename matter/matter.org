@@ -391,7 +391,7 @@ En mattér, il est possible d’indiquer la possession d’une personne du mot a
 |---------------+-----------+--------+---------|
 | 1ère personne | -ych      | -ys    | -yn     |
 | 2ème personne | -dyn      | -(i)m  | -(e)nu  |
-| 3ème personne | -én       | -an    | -eas    |
+| 3ème personne | -én       | -ean   | -eas    |
 
 Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par <chyn hys>, ou bien <hysyn>. La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
 
@@ -653,27 +653,27 @@ Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. L
 |------+-------+-------|
 | 1S   | Vo    | y Vo  |
 | 2S   | Vou   | y Vou |
-| 3S   | Vo    | y Vou |
+| 3S   | Vo    | y Vo  |
 | 1PAU | Vur   | y Vur |
-| 2PAU | Vun   | y Vur |
+| 2PAU | Vun   | y Vun |
 | 3PAU | Vur   | y Vur |
-| 1P   | Vu    | y Vo  |
-| 2P   | Vu    | y Vo  |
+| 1P   | Vu    | y Vu  |
+| 2P   | Vu    | y Vu  |
 | 3P   | Von   | y Von |
 
 #+caption: Conjugaison de l’imperfectif de l’indicatif
 | /    | <>    | >       |        |
 |      | passé | présent | futur  |
 |------+-------+---------+--------|
-| 1S   | Ver   | Ve      | y V    |
-| 2S   | Vet   | Vei     | y Vei  |
-| 3S   | Ver   | Vea     | y Ve   |
-| 1PAU | Vez   | Vet     | y Va   |
-| 2PAU | Ves   | Vaet    | y Vas  |
-| 3PAU | Verz  | Vaet    | y Va   |
-| 1P   | Ven   | Vern    | y Vats |
-| 2P   | Vent  | Var     | y Vat  |
-| 3P   | Ven   | Vér     | y Vat  |
+| 1S   | Ver   | Ve      | y Ve   |
+| 2S   | Vét   | Vei     | y Vei  |
+| 3S   | Ver   | Vea     | y Vea  |
+| 1PAU | Vez   | Vet     | y Vet  |
+| 2PAU | Ves   | Væt     | y Væt  |
+| 3PAU | Verz  | Væt     | y Væt  |
+| 1P   | Ven   | Vern    | y Vern |
+| 2P   | Vent  | Var     | y Var  |
+| 3P   | Ven   | Vér     | y Vér  |
 
 Les terminaisons après les ~V~ s’accollent au verbe, excepté la voyelle si elle se répète. Par exemple, <tynne> se conjugera <tunner> à la première personne du singulier.
 
@@ -787,7 +787,7 @@ Voici deux exemples de conjugaison au jussif avec <o seg> et <o etan> :
 | /                    | <       |
 | type de participe    | forme   |
 |----------------------+---------|
-| participe passé      | V(z)et  |
+| participe passé      | Vzet    |
 | participe présent    | V(o)ta  |
 | participe futur      | V(é)tér |
 | participe progressif | Vand    |
