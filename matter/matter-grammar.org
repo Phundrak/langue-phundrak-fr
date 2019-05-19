@@ -1695,10 +1695,10 @@
       Mattér ?/
     - *Ferve* Mattérant frégei?  /Pourquoi apprends-tu le Mattér,  quelle est ta
       motivation ?/
-    - Eppeleþant eða  curþabérant, *fertið* y  caupei? /Entre des pommes  ou des
+    - Eppeleþant eða  cirþabérant, *fertið* y  caupei? /Entre des pommes  ou des
       cerises, que vas-tu acheter ?/
     - *Ferden* urbyþ gon? /Comment êtes-vous allé à la ville ?/
-    - *Fertið* bryðdegynant haþt? /Quand est ton anniversaire ?/
+    - *Fertið* bryðdegdynant haþt? /Quand est ton anniversaire ?/
     - *Fertiðoċ* Mattérant frégei? /Depuis quand apprends-tu le Mattér ?/
     - *Fertiðac* y ċilde? /Jusqu’à quand est-tu en vacances ?/
 
@@ -2010,6 +2010,8 @@
    peu s’exprimer avec  sans pour autant la maîtriser), et  une personne parlant
    couramment cette  langue dira  <an tyngant vittée>  (« je connais  bien cette
    langue », impliquant une connaissance profonde du sujet).
+
+   - o frégén :: [ɔ ˈfreɡen] (vt) apprendre
 
 ** Sensations
    :PROPERTIES:
