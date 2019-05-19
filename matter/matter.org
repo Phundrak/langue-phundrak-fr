@@ -28,30 +28,44 @@
   date '+Dernière mise à jour le %d/%m/%y à %H:%M'
 #+END_SRC
 #+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
-#+OPTIONS: H:4
-#+OPTIONS: toc:nil
+#+OPTIONS: H:4 toc:nil auto-id:t
 src_latex{\newpage}
 #+TOC: headlines
 src_latex{\newpage}
 
 * Avant-propos
+  :PROPERTIES:
+  :CUSTOM_ID: h-48e22833-a230-44fe-b3da-a4046c7fa3fb
+  :END:
 La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/matter/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/matter/matter.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
 
 {{{last-update}}}
 
 src_latex{\newpage}
 * Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: h-34b05066-7796-4a2e-9be7-21e8423e85d3
+  :END:
 Le Mattér est une langue construite humaine, inspirée phonétiquement et grammaticalement des langues latines et du Latin plus particulièrement, bien que gardant ses distances avec ce dernier. Elle bénéficie également de quelques inspirations germaniques et des langues elfiques de Tolkien concernant leur phonétique. Le Mattér est une langue principalement agglutinative à tendance majoritaire aux suffixes, avec comme exception les verbes qui ont une tendance principalement fusionelle. Cette langue est également une langue marquant les phrases adpositionnelles plutôt que ses adpositions.
 
 Cette langue est un projet à part de mon univers littéraire et fut créé dans le cadre de mes études, pour mon cours d’ingénierie des langues, enseigné par Anna Pappa, en troisième année de licence, à l’Université Paris 8. Je ne sais pas encore si j’en ferai autre chose que d’une langue-jouet.
 
 src_latex{\newpage}
 * Description du lexique
+  :PROPERTIES:
+  :CUSTOM_ID: h-d65dc7c3-5605-457e-a900-6d771ade3d6f
+  :END:
 Les racines de la langue sont créées principalement à partir de termes en Vieux Nordique ou d’autres langues nordiques modernes (Suédois, Norvégien, Danois), parfois à partir de langues germaniques (principalement l’Allemand), et occasionellement à partir de Vieil Anglais et de Latin où le mot racine est modifié au gré de mon envie à la phonologie du Mattér, avec quelques fois quelques modifications ne suivant aucune règle mis à part la phonologie. Toutefois, la piste privilégiée est la création de mots à partir de racines déjà existantes, souvent avec la fusion de deux termes ensemble. Cela se produit souvent via l’apposition des premières syllabes des racines ensembles. Par exemple, <wachen> et <mein> (respectivement « voiture » et « douleur ») fusionnent en <meinwach> pour « ambulance ». Cette méthode de création de termes avec uniquement une partie des syllabes des racines du nouveau mot permet au Mattér de conserver des termes avec relativement peu de syllabes ; ces derniers se composent en effet de une à quatre syllabes dans la large majorité des cas sans inflexion, sans déclinaison et sans clitique ajoutée.
 
 src_latex{\newpage}
 * Phonologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-5bc84edc-92a3-4399-a385-e520a1096ccb
+  :END:
 ** Notes sur la transcription du Mattér
+   :PROPERTIES:
+   :CUSTOM_ID: h-7a46b9bd-278a-45ff-8c9e-ba9b470444dc
+   :END:
 Comme vous pourrez vous en rendre compte aux chapitres §[[*Consonnes]] et §[[*Voyelles]], le Mattér dispose de deux transcriptions phonétiques possibles, la transcription en IPA (/International Phonetic Alphabet/), soit une translittération qui sera généralement plus simple et intuitive à lire. Dans le cas du Mattér, les deux reflètent dans la large majorité des cas la prononciation de la langue, et c’est pour cela que j’utiliserai principalement la translittération. Cependant il peut y avoir certains cas où la prononciation peut légèrement différer de l’orthographe, comme dans les cas d’allophonie (§[[*Allophonie]]) ou autres cas inhabituels, auquel cas j’utiliserai la transcription phonétique afin de rendre claire la prononciation. Quand il sera question de transcription phonétique, il sera généralement question de phonétique générale, mais il se peut que certaines distinctions se fassent à un niveau plus fin où une transcription phonétique rapprochée sera nécessaire pour avoir la prononciation exacte.
 
 La transcription phonétique sera donnée [entre crochets], tandis que des éléments translittérés du Mattér seront <entre chevrons>. La transcription phonétique sera la prononciation générale, et occasionellement quand indiqué la phonétique [entre crochets] pourra également être une phonétique rapprochée, dénotant une plus grande précision phonétique, notamment dans le chapitre sur l’allophonie (§[[*Allophonie]]) ci-dessous.
@@ -59,6 +73,9 @@ La transcription phonétique sera donnée [entre crochets], tandis que des élé
 Il existe également des systèmes d’écritures natifs au Mattér, la méthode d’écriture originale en runes et sa romanisation, mais ces deux systèmes ne seront utilisé que dans leur chapitre dédié vers la fin de cet ouvrage (§[[*Syst%C3%A8me d%E2%80%99%C3%A9criture]]).
 
 ** Inventaire phonétique
+   :PROPERTIES:
+   :CUSTOM_ID: h-2fdde166-080b-4ccd-b35f-3ecb82186148
+   :END:
 L’inventaire phonétique est l’une des signatures d’une langue qui se remarque le plus rapidement. Il s’agit de la collection des sons utilisés en Mattér, ceux que peuvent prononcer ses locuteurs et pouvant être utilisés dans un discourt lors de la production de mots et de phrases. Les phonèmes sont les unités sonores les plus petites constatables dans une langue.
 
 On distingue généralement deux catégories de phonèmes : les voyelles, dont la production se fait sans obstruction du passage de l’air dans la bouche, et les consonnes où un certain type d’obstruction au passage de l’air se réalise le plus souvent. Par exemple, le [y] (tel que le <u> de « lune » en Français) se prononce avec les lèvres arrondies, la bouche presque fermée et la langue relevée, alors que le [p] se caractérisera par l’arrêt puis le relâchement soudain de l’air au niveau des deux lèvres sans faire vibrer les cordes vocales en même temps. Ils existent également les diphtongues qui sont considérées par certaines langues, comme par example l’Anglais, qui considère une association de deux voyelles comme étant une voyelle unique. Tout cela sera expliqué plus en détails ci-dessous.
@@ -66,6 +83,9 @@ On distingue généralement deux catégories de phonèmes : les voyelles, dont 
 Comme mentionné en introduction (§[[*Introduction]]), le choix de l’inventaire phonétique du Mattér s’est basé sur l’inventaire phonétique de langues elfiques créées par Tolkien, notemment le Sindarin.
 
 *** Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-ff94fa83-29f6-495d-babb-fd539a96e23c
+    :END:
 Le Mattér est une langue disposant d’un panel raisonnable de seize consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et translittéré (voir le chapitre §[[*Notes sur la transcription du Matt%C3%A9r]] concernant la translittération).
 
 #+CAPTION: Consonnes du Mattér (IPA)
@@ -117,6 +137,9 @@ Voici ci-dessous une description individuelle de chaque consonne :
 Les consonnes nasales, occlusives ainsi que le [l] peuvent être doublées, alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé [tː], et <Mattér> sera prononcé ['mat:er].
 
 *** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-7975d1b8-c9bd-4463-b235-786377968d3f
+    :END:
 Le Mattér dispose de relativement peu de voyelles, uniquement six. Voici leur tableau :
 #+CAPTION: Voyelles du Mattér (IPA)
 | / | >           |             |        |              |
@@ -149,6 +172,9 @@ Voici ci-dessous la description de chacune de ces voyelles :
 - [ə] :: Cette voyelle se prononce de façon relativement similaire à « le » [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
 *** Diphtonges
+    :PROPERTIES:
+    :CUSTOM_ID: h-e1c90564-f992-4f0e-8376-3550913a2206
+    :END:
 Les diphtongues sont des associations de voyelles considérées dans une langue comme étant une voyelle unique, avec la première unité portant la longueur de la voyelle, la seconde n’étant prononcée qu’en relachant la voyelle. Ainsi, en Anglais, les diphtongues sont assez communes comme avec le terme « je », « /I/ » prononcé [aɪ]. Voici la liste des diphtongues existant en Mattér :
 
 #+CAPTION:Diphtongues du Mattér
@@ -160,6 +186,9 @@ Les diphtongues sont des associations de voyelles considérées dans une langue 
 Toutes ces combinaisons sont, comme décrit ci-dessus, monosyllabiques et sont considérées comme telles par les locuteurs de cette langue. Leur translittération est simple (il suffit de faire de même que s’il s’agissait de voyelles isolées) à l’exception du [ei] qui est écrit <ei> et non <éi>. Ces diphtongues se produisent naturellement lors de la juxtaposition des deux voyelles les formant, et elles peuvent déjà être présentes dans une racine de mot. Ainsi, si une déclinaison ajoute un <a> après un <e>, la diphtongue <ea> se produira naturellement, comme pour la forme nominative de <teren> (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** Allophonie
+   :PROPERTIES:
+   :CUSTOM_ID: h-70cb1e06-8eb6-4112-b507-c04db7275242
+   :END:
 Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l’allophonie.
 - Si deux voyelles pouvant former une diphtongue se suivent, alors la diphtonge se produira. Exemple : Le <ea> de <tereant> est une diphtongue malgré que le <-ant> ne soit qu’une clitique accolée à <tere> et non partie intégrante de la racine du mot.
 - S’il est suivi d’une voyelle dans le même mot, le [i] se transorme en la semi-consonne [j]. Exemple : <friant> (libre-ACC) [frjant]
@@ -173,11 +202,17 @@ Bien qu’étant rares, le Mattér a quelques règles à appliquer concernant l�
 - Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
 
 ** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-bcf6924e-8480-4615-a3dc-9887a7968218
+   :END:
 Les phonotaxes sont des règles importantes car elle permettent de déterminer quelles sont les associations de sons possibles dans une langue. C’est ce genre de règles qui permettent de savoir que des mots tels que <jchkwufrwt> ou <nkwej> ne sont pas possibles tandis que des mots tels que <éljond> ou <yndest> le sont. Nous avons déjà déterminé dans la partie dédiée aux diphtongues (§[[*Diphtonges]]) et les voyelles pouvant se succéder afin de créer une diphtongue. En revanche, si deux voyelles se suivent sans entrer dans les règles des diphtongues, elles seront considérées comme étant bisyllabiques, c’est à dire que chacune sera considérée comme une syllabe à part.
 
 Concernant les consonnes, différentes règles s’appliquent selon la situation dans la syllabe.
 
 *** Attaque
+    :PROPERTIES:
+    :CUSTOM_ID: h-760702dd-22a9-437f-8a65-fbc3e359cb4e
+    :END:
 L’attaque est la première partie de la syllabe, les premières consonnes la composant. Elle peut comporter d’aucune consonne à deux consonnes ne contenant pas de semi-voyelle, trois avec une semi-voyelle comme consonne finale.
 - Le [j] ne peut être suivi par un [i].
 - Le [w] ne peut être suivi par une voyelle postérieure.
@@ -187,6 +222,9 @@ L’attaque est la première partie de la syllabe, les premières consonnes la c
 - Le [h] ne peut être suivi que par un [j] ou un [w] et ne peut pas suivre une autre consonne.
 
 *** Coda
+    :PROPERTIES:
+    :CUSTOM_ID: h-f8f288d2-dc58-47c7-befd-44395f2e1aa0
+    :END:
 Le coda (la seconde partie consonnantique de la syllabe la terminant) est composée d’aucune à deux consonnes.
 - Les semi-consonnes [j] et [w] ne peuvent se situer dans le coda.
 - Les consonnes [r] et [l] peuvent être suivies par une consonne nasale, occlusive ou fricative.
@@ -198,6 +236,9 @@ Le coda (la seconde partie consonnantique de la syllabe la terminant) est compos
 - Le [h] ne peut pas se situer dans le coda.
 
 *** Inter-syllabe
+    :PROPERTIES:
+    :CUSTOM_ID: h-7d29c63a-5130-4b64-a4bf-c74ceb445f9f
+    :END:
 Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-aussi à des règles qui leur sont propres.
 - Toutes les règles de l’attaque (§[[*Attaque]]) sont applicables.
 - Les consonnes occlusives peuvent être suivies par une fricative, par un [r] ou un [l].
@@ -206,16 +247,25 @@ Les consonnes inter-syllabes, situées entre deux voyelles, sont soumises elles-
 - Les consonnes longues (géminées) ne peuvent se produire qu’entre deux syllabes et ne peuvent s’associer à d’autres consonnes.
 
 ** Accentuation
+   :PROPERTIES:
+   :CUSTOM_ID: h-82da3c96-8d04-47c8-a6b9-b78c6693c86f
+   :END:
 Le Mattér est une langue dont l’accentuation est assez simple à suivre étant donné qu’elle se produit sur la syllabe initiale de tout mot constitué de deux syllabes ou plus : l’accent principal porte sur la première syllabe. Pour les mots de trois syllabes, un accent secondaire, moins important que le premier, portera sur la troisième syllabe, et pour les mots de quatre syllabes ou plus il portera sur l’avant-dernière syllabe.
 Exceptionnellement, si le locuteur veut mettre une emphase sur un certain terme, une modification supra-segmentale de l’accentuation habituelle s’effectuera : l’accentuation portera sur la seconde syllabe, voire la troisième dans des cas plus rare et dont l’emphase est presque caricaturée. Cela déplacera également l’accent secondaire sur la première syllabe si le mot contient au moins trois syllabes.
 
 src_latex{\newpage}
 * Morphologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-a797e4d8-19e2-4d67-a878-1beac33c6d3c
+  :END:
 La morphologie d’une langue est l’étude de la formation des mots de façon individuelle, de l’aspect et de la modification de ces mots afin de signifier des changements de sens. Pour ce qui est de l’organisation des mots, se référer au chapitre sur la syntaxe (§[[*Syntaxe]]).
 
 Le Mattér est une langue à morphologie principalement agglutinatif puis synthétique ; cela signifie que le changement des mots va principalement s’opérer via des syllabes uniques affixées au mot, chacune portant potentiellement plusieurs significations.
 
 ** Genre
+   :PROPERTIES:
+   :CUSTOM_ID: h-7d620ef3-a85f-4b8c-9bdd-10ea6e295ec2
+   :END:
 Ce chapitre sur le genre n’est pas un chapitre de morphologie en soit, mais il est important de connaître les genres en vigueur dans le Mattér afin de pouvoir étudier le reste de sa grammaire.
 
 Le Mattér est une langue dont le genre est relativement peu significatif, où seuls les humains ont un genre et influence les éléments influençables, notamment les pronoms, déterminants et adjectifs. Le Mattér dispose ainsi de quatre genres :
@@ -227,6 +277,9 @@ Le Mattér est une langue dont le genre est relativement peu significatif, où s
 Ainsi, pour les éléments genrés de la langue, le genre est soit connu, auquel cas le masculin ou le féminin seront utilisés, ou bien il sera inconnu auquel cas le neutre sera de vigueur. Pour tous les éléments non-genrés, le genre non-humain sera appliqué. Il arrive cependant que, par affection, un locuteur genre un animal ou un objet ; dans le cas d’un animal, le genre sera accordé à son sexe biologique, et l’objet sera assimilé au genre neutre.
 
 ** Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-4aa80f90-e4ca-4e2c-8b68-81cad4bbfa6c
+   :END:
 Les noms en Mattér servent généralement à se référer à des entités, des concepts ou bien des objets. Ils sont composés d’au moins une syllabe à laquelle peuvent s’ajoute des suffixes.
 
 Voici la structure globale d’un nom :
@@ -240,6 +293,9 @@ Voici la structure globale d’un nom :
 Comme on peut le voir ci-dessus, un nom est donc composé au moins de sa racine, à laquelle peuvent s’accoler des clitiques de déclinaison selon le cas grammatical du mot, de possession pour marquer son appartenance à un acteur de la phrase, ainsi que de nombre selon la quantité du nom dont il est question.
 
 *** Nombre
+    :PROPERTIES:
+    :CUSTOM_ID: h-3c467231-56fe-4e4e-8587-d749ce3d5c5b
+    :END:
 Le Mattér est une langue comportant trois nombres : le singulier, le paucal et le pluriel.
 - singulier :: permet de se référer à un élément unique
 - paucal :: permet de se référer à entre deux et six éléments, comporte une conotation de « peu d’éléments »
@@ -260,6 +316,9 @@ Comme indiqué plus haut, le paucal et le pluriel ont tous deux une conotation r
 Les éléments indénombrables sont au singulier par défaut, mais à nouveau les locuteurs peuvent émettre un jugement personnel de quantité de ces éléments en les mettant au paucal ou au pluriel.
 
 *** Déclinaisons
+    :PROPERTIES:
+    :CUSTOM_ID: h-a31a017e-e985-4758-9ed6-557be99e56d4
+    :END:
 Selon son rôle dans la phrase, les noms en Mattér se présentent sous une forme différente via leur déclinaison. Huit déclinaisons existent en Mattér :
 - le nominatif
 - l’accusatif
@@ -322,18 +381,24 @@ On peut comparer à <velt> (« monde ») qui se déclinera ainsi :
 | vocatif         | velty       | Oh Monde !                  |
 
 *** Possessif
+    :PROPERTIES:
+    :CUSTOM_ID: h-44351e5f-212b-4806-a6df-654523b0a987
+    :END:
 En mattér, il est possible d’indiquer la possession d’une personne du mot auquel est ajouté un possessif. Voici la table des clitiques possessives du Mattér :
 #+CAPTION:Suffixes possessifs
 | /             | <         | <      | <       |
 |               | singulier | paucal | pluriel |
 |---------------+-----------+--------+---------|
 | 1ère personne | -ych      | -ys    | -yn     |
-| 2ème personne | -(d)yn    | -(i)m  | -(e)nu  |
+| 2ème personne | -dyn      | -(i)m  | -(e)nu  |
 | 3ème personne | -én       | -an    | -eas    |
 
 Ainsi, quand on voudra dire « ma maison », on pourra traduire soit par <chyn hys>, ou bien <hysyn>. La première solution est considérée en Mattér comme étant plus distinguée et faisant partie d’un niveau de language plus respectueux et formel, tandis que la seconde solution est plus souvent utilisée dans des conversations informelles, entre amis, famille ou collègues avec qui le locuteur s’entend bien.
 
 ** Déterminants
+   :PROPERTIES:
+   :CUSTOM_ID: h-e0cd4961-be4f-4902-b9f7-decd8a9761bd
+   :END:
 Le Mattér dispose de quatre catégories de déterminants :
 - les articles définis
 - les déterminants démonstratifs
@@ -343,6 +408,9 @@ Le Mattér dispose de quatre catégories de déterminants :
 Les articles indéfinis n’existent pas en Mattér, et les déterminants indéfinis sont considérés comme étant des adjectifs et sont utilisés comme tels. Quant aux déterminants cardinaux, il s’agit simplement des nombres tels que décrits dans le chapitre dédié (§[[*Nombres]]).
 
 *** Articles définis
+    :PROPERTIES:
+    :CUSTOM_ID: h-7e835e74-d072-4880-9998-70049656b351
+    :END:
 Les articles définis servent à indiquer un élément précis, contrairement à un élément général désigné lors de l’absence d’article défini. Ainsi en Français, on utilise « le », « la » ou « les » comme articles définis. En revanche, le Mattér aura une absence de déterminants là où le Français dispose d’articles indéfinis. Comme on peut le voir ci-dessous, l’article défini s’accorde en genre et en nombre au nom auquel il est attaché.
 #+CAPTION:Articles définis du Mattér
 | / | <         | <      | <>      |
@@ -360,6 +428,9 @@ Les articles définis servent à indiquer un élément précis, contrairement à
 Ainsi, « la tour » se traduira par <an teren> (au nominatif), « les chats » (peu de chats) se traduira <od cetenet> (genre neutre, paucal), « des villes » (nombreuses) se traduira <el urbynes>.
 
 *** Déterminants démonstratifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-82f25a71-14cb-4e8a-8023-34c87af82f47
+    :END:
 Le déterminant démonstratif du Mattér a une fonction très similaire au déterminant démonstratif du Français, tels que « ce », « cet », « cette » et « ces ». De même que pour les articles définis, ils s’accordent en nombre, mais également selon la distance, allant de visible proche à invisible en passant par visible éloigné.
 #+CAPTION:Déterminants démonstratifs du Mattér
 | / | <        | <         | <>      |
@@ -376,6 +447,9 @@ Le déterminant démonstratif du Mattér a une fonction très similaire au déte
 |   | lointain | pluriel   | uz      |
 
 *** Outils interrogatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-dc04ea12-3fd3-440b-b39f-e3d643f3e828
+    :END:
 Les outils interrogatifs servent à s’enquérir d’une information sur un sujet. Le Mattér dispose des termes suivants :
 | /                  | <                       | <          |
 | domaine            | français                | outil      |
@@ -396,9 +470,15 @@ Les outils interrogatifs servent à s’enquérir d’une information sur un suj
 | choix              | lequel                  | fervid     |
 
 *** Déterminants ordinaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-22d178da-f42b-4f6c-9245-30efd0dbbd75
+    :END:
 Comme décrit dans le chapitre §[[*D%C3%A9terminants]], le Mattér ne dispose pas de déterminants cardinaux, ou plutôt il s’agit simplement du nombre approprié placé à l’emplacement du déterminant tel que défini plus tard dans le chapitre sur la syntaxe approprié (§[[*Syntaxe]]). Dans le cas des nombres cardinaux, il s’agit d’ajouter en suffixe au numéro le terme <norm> auquel un article défini accordé en genre et en nombre est également suffixé. Ainsi, pour le terme « premier » au singulier masculin, nous obtiendrons
 
 ** Adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-1c6b6dc0-8f3c-4f74-bb47-83154f9dbab3
+   :END:
 
 Les adjectifs sont généralement des modifieurs appliqués à un groupe nominal. Leur version prototypicale est difficile à définir, étant donné qu’elle peut se rapprocher soit d’un verbe, soit d’un nom ; et à raison étant donné que de nombreux adjectifs ont des racines que l’on peut retrouver dans des noms ou des verbes. Cependant, dans les deux cas les adjectifs ont un comportement tout de même plus proche du nom que du verbe en Mattér, en effet ils s’accordent au nom ou groupe nominal qu’ils modifient, et ce en nombre et en cas grammatical. Ils adoptent alors la déclinaison du nom qu’ils décrivent. Voici la structure grammaticale d’un adjectif :
 
@@ -451,13 +531,25 @@ Il existe une catégorie d’adjectifs qui ne seront cependant pas accordés en 
 La raison pour laquelle l’adjectif doit également être décliné est la liberté de l’ordre des mots qu’autorise le Mattér, ce qui fait qu’on peut se retrouver dans des situations où on ne peut savoir à quel élément de la phrase un adjectif se réfère. Par exemple « Un ours impressionnant est en train de manger un gros poisson » peut se dire <Bern meccil storant ficjanant gjea etanand>. On sait que l’adjectif <meccil> se réfère à <bern> car il n’est pas décliné à l’accusatif, tout comme <stor> qui se réfère à <ficjan> car les deux sont déclinés à l’accusatif. Or dans cette phrase, il est tout à fait possible que les deux adjectifs puissent se référer à l’ours ou au poisson si les adjectifs n’étaient pas déclinés, les deux phrases <Bern meccilant storant ficjanant gjea etanand> (« Un ours en train de manger un gros et impressionnant poisson ») et <Bern meccil stor ficjanant gjea etanand> (« Le gros et impressionnant ours est en train de manger un poisson ») sont valides. Pour connaître le sens impliqué par la position de l’adjectif après le nom, voir la section dédiée (§[[*Groupe nominal]]).
 
 *** Comparatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-28c29c76-291c-4707-9e35-11d3877a4d89
+    :END:
 **** Mélioratif
+     :PROPERTIES:
+     :CUSTOM_ID: h-df7c3447-bdab-467b-ab67-03aa4ce68e35
+     :END:
  Le mélioratif est utile en Mattér lors de comparaison afin d’exprimer un sens plus favorable envers l’élément définit par un adjectif. En Mattér, ledit adjectif dont le sens est plus favorable portera le mélioratif via l’ajout du suffixe *-ere*. Ainsi, « c’est une voiture plus rapide » se traduira par <scortere wachen beis>.
 
 **** Péjoratif
+     :PROPERTIES:
+     :CUSTOM_ID: h-7eb86f4f-27f5-4539-8d1e-92cd5bf7d279
+     :END:
 À l’inverse du mélioratif, le péjoratif exprime un désavantage concernant l’adjectif décliné avec le suffixe *-ose*. Ainsi, « c’est une voiture moins rapide » se traduira par <scortese wachen beis>.
 
 **** Superlatifs positifs et négatifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-06eb94e8-b6fe-4c60-9750-e9732d2f88e3
+     :END:
 Contrairement au mélioratif et au péjoratif qui sont tous deux des moyen comparatifs relatifs à un autre élément, les superlatifs positifs et négatifs se réfèrent à un jugement de valeur sensé être absolu, respectivement le meilleur ou le pire élément.
 
 Afin de désigner un élément comme étant le meilleur, il faut décliner l’adjectif au superlatif positif en lui ajoutant le suffixe *-este*, tandis qu’il faut ajouter le suffixe *-orto*. Ainsi, « la voiture la plus rapide » se traduira par <an tchortese wachen>, et « la voiture la moins rapide » se traduira par <an scortorto wachen>.
@@ -465,6 +557,9 @@ Afin de désigner un élément comme étant le meilleur, il faut décliner l’a
 Le Mattér dispose également de deux termes afin de désigner « le meilleur » et « le pire », respectivement <beste> et <borto>. Ainsi, si on parle de « la meilleure voiture », on parlera de <an beste wachen>.
 
 ** Pronoms
+   :PROPERTIES:
+   :CUSTOM_ID: h-5844b1c3-c2c0-429e-a1e4-f340936878c2
+   :END:
 Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un des cas grammaticaux décrits plus haut (§[[*D%C3%A9clinaisons]]). On peut remarquer que le Mattér ne fait pas de distinction de genre pour la première et la seconde personne ; en revanche chaque genre l’est avec la troisième personne. La première personne est également la seule personne à ne pas avoir de vocatif. Voici le tableau des correspondances :
 
 - Première personne :
@@ -504,6 +599,9 @@ Le Mattér dispose d’un ensemble de cinq pronoms, tous correspondant à l’un
 | pl non-humain | hou       | hout      | hous  | zo      | housy   |
 
 ** Pronoms relatifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-6c9021ca-6059-4a5f-ad9f-aab4b8d7e266
+   :END:
 Les pronoms relatifs introduisent en Mattér une clause relative (abordées au chapitre §[[*Clauses relatives]]). Du fait de sa proximité avec les langues germaniques, les clauses relatives changent selon leur cas grammatical et leur genre, cepedant seule la dualité humain/non-humain est exprimée sur ce dernier point et le nombre n’est pas indiqué, comme on peut le voir ci-dessous :
 | /         | <      | <          |
 |           | humain | non-humain |
@@ -533,12 +631,21 @@ Français : « La rue jusqu’à laquelle on va est étroite. »{{{newline}}}
 Mattér : <É gaet dym gaern smosant beis.>
 
 ** Verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-a48153a3-130d-4404-94ee-80eda466c2eb
+   :END:
 *** Temps
+    :PROPERTIES:
+    :CUSTOM_ID: h-be84f522-1125-4052-86b9-bd6cb0401f56
+    :END:
 À l’exception des verbes <o ber> (être), <o hab> (avoir) et <o gjer> (faire), la conjugaison des verbes en Mattér est très régulière. Trois temps principaux existent : le passé, le présent et le futur, cepedant il est possible d’exprimer du passé antérieur (passé dans un temps de locution passé), du passé postérieur (futur dans un temps de locution passé), du futur antérieur (passé dans un temps de locution futur) et du futur postérieur (futur dans un temps de locution futur).
 
 Généralement parlant, le présent sert aux locuteurs du Mattér à se référer à des actions ou descriptions ou autre se passant lors de la locution de la phrase ou à se réferer à un passé ou futur immédiat, pouvant s’étendre jusqu’à une journée complète avant ou après le temps immédiat de locution. Par exemple, la phrase <mergoch, cinnemoch si gache> (« demain, nous (paucal) allons au cinéma ») contient le verbe <o gach> conjugué à la première personne du paucal, cependant le sens porté par la phrase est comme quoi l’action d’aller au cinéma prendra lieu dans le futur, en l’occurence le jour suivant le moment de locution. Cepedant la proximité entre ce dernier et le moment de l’action en elle-même permet au locuteur d’utiliser le présent. En revanche, s’il souhaite exprimer la même action comme s’effectuant la semaine suivante, le futur sera utilisé : <nust vococh, cinnemoch si y gachats>. Remarquez par ailleurs l’utilisation du locatif pour <morg> (« demain ») et <nust voc> (« semaine prochaine ») pour signifier le temps durant lequel l’action s’exécutera.
 
 *** Aspects
+    :PROPERTIES:
+    :CUSTOM_ID: h-50ac1d5d-2e59-4f09-9bfd-28ed414607d5
+    :END:
 Les aspects servent à indiquer la relation du verbe au temps qu’il emploie. Les deux aspects principaux sont les aspects *perfectif* et *imperfectif*. Le premier sert à indiquer l’action du verbe comme étant un événement terminé et révolu, considérant ce dernier comme un objet unique et insécable ; à l’inverse, l’imperfectif permet de mettre en place une durée à l’action décrite, de la placer en élément de fond ou de décors, et permet d’y insérer de nouveau éléments. Comparez en Français « Henry IV régnais 21 ans » (imperfectif) et « Henry IV régna 21 ans ». De par sa nature, le présent ne dispose pas d’aspect perfectif, ainsi seuls le passé et le futur montreront ces deux aspects. Voici ainsi le tableau de conjugaison des verbes réguliers aux aspects perfectif puis imperfectif de l’indicatif (un mode, nous en parlerons plus en détail dans le chapitre §[[*Modes]]), le ~V~ représentant la racine du verbe :
 #+caption: Conjugaison du perfectif de l’indicatif
 | /    | <>    |       |
@@ -583,10 +690,19 @@ Français : Elles seront en train d’écrire des lettres.
 Mattér : su y gjér gérenand breifantas
 
 *** Modes
+    :PROPERTIES:
+    :CUSTOM_ID: h-3b89b621-d9c7-4cb7-8dd3-3ea15edecc14
+    :END:
 **** Infinitif
+     :PROPERTIES:
+     :CUSTOM_ID: h-4cbd44c7-4303-49f2-9e48-f0cc3aa6e53a
+     :END:
 C’est dans ce mode que vous verrez les verbes dans le dictionnaire. Il s’agit de la base de chaque verbe, précédé par un <o> marquant l’infinitif. Dans cette forme, le verbe peut être manipulé dans la phrase comme un nom commun, mais il peut également être utilisé afin de donner des instructions de façon polie, comme par exemple dans un manuel ou dans une recette, comme cela peut être le cas en Français.
 
 **** Impératif
+     :PROPERTIES:
+     :CUSTOM_ID: h-0c3bd270-db20-494f-84db-b6eaf981d1ab
+     :END:
 En Mattér, l’impératif est un moyen pour le locuteur de donner un ordre à son interlocuteur. Il ne s’applique donc qu’au présent, ainsi qu’à la deuxième personne (singulier, paucal et pluriel). Voici la conjugaison des verbes à l’impératif :
 #+CAPTION:Conjugaison des verbes régulier à l’impératif
 | /         | <           |
@@ -625,6 +741,9 @@ Il est également possible pour le locuteur d’accentuer l’ordre en mettant l
 | pluriel   | jegi ficjanta     |
 
 **** Jussif
+     :PROPERTIES:
+     :CUSTOM_ID: h-127944cc-149f-477e-9521-858afa6f4c2d
+     :END:
 Le Jussif est un mode très similaire à l’impératif décrit ci-dessus, permettant de donner des ordres à une personne tierce n’étant généralement pas présente lors de la conversation. En français, la phrase utilisant le subjonctif « qu’il vienne maintenant » se traduira par du jussif en Mattér, « nu comménge ». Le jussif ne s’applique donc qu’au présent et à la troisième personne. Voici son tableau de conjugaison :
 #+CAPTION:Conjugaison des verbes régulier au jussif
 | /         | <           |
@@ -661,6 +780,9 @@ Voici deux exemples de conjugaison au jussif avec <o seg> et <o etan> :
 | pluriel   | gjeag ficjanta   |
 
 **** Participes
+     :PROPERTIES:
+     :CUSTOM_ID: h-ea3d4a9d-6615-4a1f-845b-406d1bfca5d8
+     :END:
 #+CAPTION:Participes réguliers
 | /                    | <       |
 | type de participe    | forme   |
@@ -673,7 +795,13 @@ Voici deux exemples de conjugaison au jussif avec <o seg> et <o etan> :
 Participes irréguliers :
 
 *** Verbe être <o ber>
+    :PROPERTIES:
+    :CUSTOM_ID: h-b52bfda3-0243-49cb-b000-f75a7e2ed365
+    :END:
 **** Perfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-d225322a-91be-4fa3-b999-d6eaabf07cda
+     :END:
 #+CAPTION:Perfectif de <o ber>
 | /    | <>    |         |
 |      | passé | futur   |
@@ -689,6 +817,9 @@ Participes irréguliers :
 | 3P   | veaen | y veaen |
 
 **** Imperfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-9e9db53d-c964-4719-bdce-09865409c482
+     :END:
 #+CAPTION:Imperfectif de <o ber>
 | /    | <>       | >       |         |
 |      | passé    | présent | futur   |
@@ -704,6 +835,9 @@ Participes irréguliers :
 | 3P   | ei vars  | set     | ou sets |
 
 **** Participe
+     :PROPERTIES:
+     :CUSTOM_ID: h-38fe1a14-0bb5-4eb1-8d4c-cba85b9cf508
+     :END:
 #+CAPTION:Participes de <o ber>
 | /                 | <     |
 | type de participe | forme |
@@ -713,7 +847,13 @@ Participes irréguliers :
 | participe futur   | bétér |
 
 *** Verbe avoir <o hab>
+    :PROPERTIES:
+    :CUSTOM_ID: h-38bb2a0b-c961-49ce-8758-16cad77f2311
+    :END:
 **** Perfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-7d4e2e5c-8c6b-4f93-90bd-4cbd310f5730
+     :END:
 #+CAPTION:Perfectif de <o hab>
 | /    | <>    |         |
 |      | passé | futur   |
@@ -729,6 +869,9 @@ Participes irréguliers :
 | 3P   | haent | y haent |
 
 **** Imperfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-a9cbf868-db83-42e0-b42c-0e01a4166dd3
+     :END:
 #+CAPTION:Imperfectif de <o hab>
 | /    | <>      | >       |          |
 |      | passé   | présent | futur    |
@@ -744,6 +887,9 @@ Participes irréguliers :
 | 3P   | ei hars | habet   | u hebet  |
 
 **** Participe
+     :PROPERTIES:
+     :CUSTOM_ID: h-3c72325c-6fdb-4b51-92e5-cb41af1dbd26
+     :END:
 #+CAPTION:Participes de <o hab>
 | /                 | <     |
 | type de participe | forme |
@@ -753,7 +899,13 @@ Participes irréguliers :
 | participe futur   | hater |
 
 *** Verbe faire <o gjer>
+    :PROPERTIES:
+    :CUSTOM_ID: h-551de15c-b602-4f4f-8f93-6b7e6808a301
+    :END:
 **** Perfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-4b2029d7-e851-422c-b9d7-02e7ac030b8e
+     :END:
 #+CAPTION:Perfectif de <o gjer>
 | /    | <>      |          |
 |      | passé   | futur    |
@@ -769,6 +921,9 @@ Participes irréguliers :
 | 3P   | gjeraen | y jerean |
 
 **** Imperfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-b868ef09-b776-41b1-bb51-c191d8f6460e
+     :END:
 #+CAPTION:Imperfectif de <o gjer>
 | /    | <>       | >       |         |
 |      | passé    | présent | futur   |
@@ -784,6 +939,9 @@ Participes irréguliers :
 | 3P   | e gjérs  | gjér    | y jér   |
 
 **** Participe
+     :PROPERTIES:
+     :CUSTOM_ID: h-74735526-0f3e-47d3-970d-fef0ce7ffd0d
+     :END:
 #+CAPTION:Participes de <o gjer>
 | /                 | <     |
 | type de participe | forme |
@@ -793,6 +951,9 @@ Participes irréguliers :
 | participe futur   | gér   |
 
 **** Impératif
+     :PROPERTIES:
+     :CUSTOM_ID: h-541a6e57-95bc-4139-9df2-fe1ef5039635
+     :END:
 | /         | <           |
 | nombre    | conjugaison |
 |-----------+-------------|
@@ -801,6 +962,9 @@ Participes irréguliers :
 | pluriel   | jegi        |
 
 **** Jussif
+     :PROPERTIES:
+     :CUSTOM_ID: h-18d08d4f-b7ed-4427-a7a2-2e1a16f2c76f
+     :END:
 | /         | <           |
 | nombre    | conjugaison |
 |-----------+-------------|
@@ -809,25 +973,52 @@ Participes irréguliers :
 | pluriel   | gjeag       |
 
 ** Adverbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-2cbd5f12-3590-4c84-97ae-eedbd8665a82
+   :END:
 
 ** Prépositions
+   :PROPERTIES:
+   :CUSTOM_ID: h-4bc049d8-455d-4773-8c5f-b86dbd1f5ba9
+   :END:
 
 src_latex{\newpage}
 ** Nominalisation
+   :PROPERTIES:
+   :CUSTOM_ID: h-79ed7a59-59b1-4982-9b77-0563be9ec0b2
+   :END:
 La nominalisation est un outils permettant l’utilisation d’un mot n’étant pas un nom (verbe ou adjectif) comme s’il s’agissait d’un nom. Le Mattér marque la nominalisation par des suffixes.
 *** Acteur *-ear*
+    :PROPERTIES:
+    :CUSTOM_ID: h-ed992ea9-d362-4505-98f3-38f24fead68b
+    :END:
 On peut obtenir un nom à partir d’un verbe désignant une personne ayant un rapport à cet élément dérivé ou effectuant l’action du verbe dérivé. Ainsi, on a <ficjanear> qui désigne un pêcheur, <gérenear> qui désigne un écrivain, <rittanear> un graveur de runes, etc…
 
 *** Acte *-yri*
+    :PROPERTIES:
+    :CUSTOM_ID: h-38fa5370-aa7e-42e7-ba02-0ae9d65ed776
+    :END:
 On peut également transformer un verbe d’action afin de se référer à l’acte qu’il représente en lui-même. Ainsi, <ficjanyri> désigne la pêche, <gérenyri> désigne le travail d’écriture et <rittanyri> désigne le travail de gravure de runes.
 
 *** Nominalisation d’adjectifs *-ens*
+    :PROPERTIES:
+    :CUSTOM_ID: h-f353417d-aac3-4055-8181-47abbf36a349
+    :END:
 Il est également possible de transformer des adjectifs en nom afin de se référer à leur qualité en tant que telle. Ainsi, <alens> signifie « totalité », <galmens> signifie « ancienneté » et <gemmelents> signifie « vieilesse ».
 *** *-(h)yt*
+    :PROPERTIES:
+    :CUSTOM_ID: h-1c15eef0-a7e2-4793-80cd-3ccd662be37a
+    :END:
 La clitique *-hyt* est similaire à la clitique *-dom* que l’on retrouve en Anglais, ou *-het* en Suédois. Cela peut se référer au territoire de l’élément décliné (roi <cyng> → royaume <cyngyt>), ou à un état (libre <fri> → liberté <frihyt>).
 
 * Syntaxe
+  :PROPERTIES:
+  :CUSTOM_ID: h-2d2c95c4-b91a-4eff-b771-345c682225cb
+  :END:
 ** Groupe nominal
+   :PROPERTIES:
+   :CUSTOM_ID: h-dfef1cf3-d508-4909-880d-c4c3b6e30db3
+   :END:
 Le groupe nominal est l’ensemble des mots d’une phrase en Mattér déterminant un nom propre ou nom commun. L’ordre typique d’un groupe verbal est <déterminant>-<adjectifs>-<nom>-<proposition>, cependant seul le nom est obligatoire. Il est possible de placer un ou plusieurs adjectifs entre le nom et la proposition pour accentuer une note subjective de la part du locuteur, une opinion. Ainsi, <smoz eppel> est une pomme dont on on peut supposer qu’elle soit objectivement petite, alors que <eppel smoz> insinue que selon l’avis du locuteur la pomme est petite. Exemple :
 
 Mattér : Hit galmant wachenant beis.{{{newline}}}
@@ -837,9 +1028,15 @@ Mattér : Hit wachenant galmant beis.{{{newline}}}
 Français : C’est une voiture à mon avis vieille.
 
 ** Groupe verbal
+   :PROPERTIES:
+   :CUSTOM_ID: h-4fa5d636-8331-4884-a2a3-bf1e69a0c9ac
+   :END:
 Du fait de leur conjugaison portant pleinement l’information du nombre et du genre, le pronom du sujet n’est généralement pas utilisé. Son utilisation, placé avant le verbe, permet de placer une emphase sur le sujet.
 
 ** Propositions simples
+   :PROPERTIES:
+   :CUSTOM_ID: h-75037a3e-7a2b-4134-8aa4-e9ba09205a7e
+   :END:
 L’ordre préféré en Mattér est <sujet>-<objet>-<oblique>-<adverbes>-<verbe>, mais du fait de la déclinaison des éléments objets et obliques, il est possible de changer l’ordre de la proposition avant le verbe, qui restera en toutes circonstance en fin de proposition. Ces changements d’ordre peuvent permettre une mise en avant de certains éléments de la phrase par rapport à d’autres. Exemples :
 
 Mattér : Fazérych breifant cheiz gjea gérenand.{{{newline}}}
@@ -852,28 +1049,64 @@ Mattér : Cheiz fazérych breifant gjea gérenand.{{{newline}}}
 Français : C’est à moi que mon père est en train d’écrire une lettre.
 
 ** Négations
+   :PROPERTIES:
+   :CUSTOM_ID: h-43c2e266-2bc4-49e5-80b1-f853282df7c5
+   :END:
 ** Questions
+   :PROPERTIES:
+   :CUSTOM_ID: h-bf21b9c3-bf13-46e8-8e22-f6923b2305a6
+   :END:
 ** Propositions plus complexes
+   :PROPERTIES:
+   :CUSTOM_ID: h-5c2c3318-83f0-4d8f-acf5-5af4ea71917d
+   :END:
 *** Clauses relatives
+    :PROPERTIES:
+    :CUSTOM_ID: h-cfa20353-3f77-4302-8e44-5a8bc9ce6b5f
+    :END:
 
 ** Conjonctions et Coordination de propositions
+   :PROPERTIES:
+   :CUSTOM_ID: h-7d575b21-9457-4f1e-9016-1657be18ce49
+   :END:
 src_latex{\newpage}
 * Morphosyntaxe
+  :PROPERTIES:
+  :CUSTOM_ID: h-cc0fc7a0-f888-41b1-993a-510627e9a597
+  :END:
 ** Citation
+   :PROPERTIES:
+   :CUSTOM_ID: h-2369a4ca-2d78-46ea-94ff-973d891297dc
+   :END:
 src_latex{\newpage}
 * Sémantiques
+  :PROPERTIES:
+  :CUSTOM_ID: h-3f1628fc-715d-462c-b380-2247d8c66632
+  :END:
 
 src_latex{\newpage}
 * Pragmatique
+  :PROPERTIES:
+  :CUSTOM_ID: h-9d411868-d3b0-44d1-a542-9ab4c948e9d1
+  :END:
 
 src_latex{\newpage}
 * Phraséologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-857cad06-d1c0-41fd-b761-7f34f03f45e2
+  :END:
 
 src_latex{\newpage}
 * Synchronie et diachronie
+  :PROPERTIES:
+  :CUSTOM_ID: h-e3cef5dc-0799-43fd-9c0a-767d6aa55587
+  :END:
 
 src_latex{\newpage}
 * Nombres
+  :PROPERTIES:
+  :CUSTOM_ID: h-80e22b81-99a9-4360-906e-105d02b76593
+  :END:
 Le Mattér est une langue comptant en base dix et prenant en compte l’existance du zéro. Cependant, contrairement au Français, le Mattér tend à grouper les dizaines de milliers ensemble plutôt que les milliers. Ainsi, nous avons les termes suivants :
 #+CAPTION:Nombres en Mattér
 |                 / |                < | <       |
@@ -912,6 +1145,9 @@ Typographiquement parlant, les multiplicateurs s’agglomèrent avec l’éléme
 
 src_latex{\newpage}
 * Système d’écriture
+  :PROPERTIES:
+  :CUSTOM_ID: h-7009ba97-366d-41cf-a8ac-7b7e3ddb1aa7
+  :END:
 
 Le système natif d’écriture Mattér est l’alphabet runique anglo-saxon. Voici la correspondance entre chacun des phonèmes du Mattér et des runes utilisées nativement dans leur ordre alphabétique natif :
 #+CAPTION:Runes du Mattér
@@ -986,6 +1222,9 @@ Ainsi, trois façons d’écrire le Mattér sont possible : l’alphabet runiqu
 
 src_latex{\newpage}
 * Glossaire
+  :PROPERTIES:
+  :CUSTOM_ID: h-b9a038e1-79e8-47bd-962c-3fb362ef72fa
+  :END:
 
 - mot en Mattér :: [phonétique] (élément de langage) Définition(s)
 
@@ -1003,10 +1242,19 @@ Abréviations :
 - on : onomatopée
 
 ** Actions physiques
+   :PROPERTIES:
+   :CUSTOM_ID: h-e28e13b0-9588-404f-bdd4-c0a6527ab8d0
+   :END:
 
 ** Amour
+   :PROPERTIES:
+   :CUSTOM_ID: h-21ff13b7-1c6d-4e86-960d-486590c64338
+   :END:
 
 ** Animaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-15c2e047-c3f3-496a-b060-161c7cac8962
+   :END:
 - bern :: [bɛrn] (n) ours
 - cat :: [kat] (n) chat
 - ficjan :: [ˈfikjan] (n) poisson
@@ -1015,9 +1263,15 @@ Abréviations :
 - o gyjen :: [o ɡyjɛn] (vi) aboyer (animaux, chiens)
 
 ** Art
+   :PROPERTIES:
+   :CUSTOM_ID: h-4abd8d97-ab51-430a-b6a1-b0cf4430470d
+   :END:
 - wen :: [wɛn] beau, joli
 
 *** Écriture
+    :PROPERTIES:
+    :CUSTOM_ID: h-88b07e82-7418-4016-9720-4ac9b960ffc4
+    :END:
 - boccé :: [ˈbokːe] (n) livre
 - breif :: [brɛɪf] (n) lettre, missive
 - o géren :: [o ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur une surface plane (parchemin, papier,…)
@@ -1025,55 +1279,118 @@ Abréviations :
 - ryn :: [ryn] (n) rune, lettre alphabétique
 
 ** Astronomie
+   :PROPERTIES:
+   :CUSTOM_ID: h-e2a170b5-143c-4dd0-b6f6-9b6109ff4283
+   :END:
 
 ** Bâtiments
+   :PROPERTIES:
+   :CUSTOM_ID: h-20b32e63-62c2-4e76-a08b-25d507eddf0b
+   :END:
 - o flytten :: [o flytːɛn] (vi) déménager
 *** La ville
+    :PROPERTIES:
+    :CUSTOM_ID: h-ecce6115-b743-4c3b-92fb-3070c94cba99
+    :END:
 - urby :: [ˈurby] (n) ville
 *** Les types de bâtiments
+    :PROPERTIES:
+    :CUSTOM_ID: h-cbf408fe-86e0-4b51-92d9-4ce181453095
+    :END:
 - tere :: [ˈtɛrɛ] (n) tour, haut monument
 - hys :: [hyθ] (n) maison (bâtiment)
 
 ** Commerce
+   :PROPERTIES:
+   :CUSTOM_ID: h-feb0f319-05bf-4562-a74b-45510324a882
+   :END:
 - o saelle :: [o ˈsaelːɛ] (vt) vendre, donner à quelqu’un
 ** Conflits
+   :PROPERTIES:
+   :CUSTOM_ID: h-c544a927-5a30-4e1b-b1e7-1aa74a10f2c3
+   :END:
 
 ** Conteneurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-89a3c378-e34f-4719-bff3-67056712f882
+   :END:
 
 ** Corps
+   :PROPERTIES:
+   :CUSTOM_ID: h-c35e1d38-bc81-4905-b406-4bf4a891e81f
+   :END:
 
 ** Couleurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-3f450b09-69a2-4532-adb2-06b48e5ec121
+   :END:
 - raez :: [raeð] (adj) rouge
 ** Dimensions
+   :PROPERTIES:
+   :CUSTOM_ID: h-5739b6c1-01e9-452b-86bd-1aa0aba9f151
+   :END:
 *** Taille
+    :PROPERTIES:
+    :CUSTOM_ID: h-d0d30774-0431-4cf2-a7f2-e984adf92997
+    :END:
 - smoz :: [smoð] (adj) petit, étroit
 - stor :: [θtor] (adj) gros, grand, de grande taille, large
 - meccil :: [mekːil] (adj) grand, imposant, puissant, fort
 
 *** Quantifieurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-215cc1cf-9e19-4c09-a160-8642e3e66907
+    :END:
 - maend :: [maend] (adj) beaucoup
 - vend :: [vend] (adj) peu, un peu
 
 ** Direction
+   :PROPERTIES:
+   :CUSTOM_ID: h-57d6bf41-df4b-4f77-ac52-3b44ecc1e099
+   :END:
 
 ** Eau
+   :PROPERTIES:
+   :CUSTOM_ID: h-440c07fc-1fe0-4ffe-998c-ae8957429957
+   :END:
 
 ** Effort
+   :PROPERTIES:
+   :CUSTOM_ID: h-a1901d66-e3b4-4e6f-ae7a-33a1f6902429
+   :END:
 
 ** Éléments
+   :PROPERTIES:
+   :CUSTOM_ID: h-99fb3cf6-2463-4f77-aca8-cc1bb1573931
+   :END:
 
 ** Émotions
+   :PROPERTIES:
+   :CUSTOM_ID: h-c4a19ebf-bd32-46f5-9b4b-36e1311acb18
+   :END:
 - lycce :: [ˈlykːɛ] (adj) joyeux, content
 - o wilja :: [o ˈwilja] (vt) vouloir, avoir envie de
 - wille :: [ˈwilːɛ] (n) souhait, désir
 
 ** Évaluation
+   :PROPERTIES:
+   :CUSTOM_ID: h-3d5ff040-41c9-46ee-9a4d-a11ded4db2eb
+   :END:
 
 ** Événements
+   :PROPERTIES:
+   :CUSTOM_ID: h-4e7d0fbc-bc1c-48f9-8cda-72c2ff9b0647
+   :END:
 
 ** Existence
+   :PROPERTIES:
+   :CUSTOM_ID: h-4ee49d72-a8ab-4415-bb23-27df13341f6b
+   :END:
 
 ** Famille
+   :PROPERTIES:
+   :CUSTOM_ID: h-76a869c6-32a4-4f63-9d95-7270e739d784
+   :END:
 - bruzyr :: [ˈbruðyr] (n) frère
 - fazér :: [ˈfaðer] (n) père
 - fobror :: [ˈfobror] (n) oncle paternel
@@ -1084,16 +1401,28 @@ Abréviations :
 - syster :: [ˈsystɛr] (n) sœur
 
 ** Forme
+   :PROPERTIES:
+   :CUSTOM_ID: h-65a32b3d-bc58-4310-9ebc-6a61bcf8ddf1
+   :END:
 
 ** Gouvernement
+   :PROPERTIES:
+   :CUSTOM_ID: h-11b8ae47-71ff-4c46-bf45-353c2685a52a
+   :END:
 - cyng :: [kynɡ] (n) roi
 - cyngyt :: [ˈkynɡyt] (n) royaume
 
 ** Grammaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-58c0c8da-9086-49b4-961b-2dccf5f01c41
+   :END:
 - méllém :: [melːem] (adv) entre (deux personnes)
 - neich :: [nɛiç] (adv) aucun
 
 *** Conjonctions
+    :PROPERTIES:
+    :CUSTOM_ID: h-9eea2f9d-ba93-4bb8-a37a-bed2de526c03
+    :END:
 - ar :: [ar] (conj) et
 - aen :: [aen] (conj) et, mais
 - og :: [oɡ] (conj) et, cependant, toujours est-il que
@@ -1102,37 +1431,73 @@ Abréviations :
 - némmé :: [nemːe] (conj) excepté, à moins que
 
 *** Prépositions
+    :PROPERTIES:
+    :CUSTOM_ID: h-bb570048-0fe9-4e89-b06f-0ebbf43fa134
+    :END:
 - tél :: [tel] (prep) pour, afin
 - siv :: [θiv] (prep) pour la raison de, du fait de.
 
 ** Guerre
+   :PROPERTIES:
+   :CUSTOM_ID: h-837a65ab-2a60-4e06-a63e-198499463cee
+   :END:
 - laette :: [ˈlaetːɛ] perdre, se rendre, abandonner
 ** Légal
+   :PROPERTIES:
+   :CUSTOM_ID: h-379f03a4-506f-4771-afe6-0942e84359e0
+   :END:
 - retty :: [ˈrɛtːy] (n) droit (civil, légal, moral,…)
 
 ** Lieux
+   :PROPERTIES:
+   :CUSTOM_ID: h-20f67631-0551-43ee-857e-f437aa144824
+   :END:
 
 ** Lumière
+   :PROPERTIES:
+   :CUSTOM_ID: h-c3783913-0c2e-43c0-bd76-04df793047dd
+   :END:
 
 ** Mental
+   :PROPERTIES:
+   :CUSTOM_ID: h-8d93db18-cf7c-40ec-bb8b-54ae705594f8
+   :END:
 
 ** Mesures
+   :PROPERTIES:
+   :CUSTOM_ID: h-a597b5ac-83f4-43d4-919c-c62b9156d77f
+   :END:
 
 ** Métaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-62f1abd7-3023-414d-a4e8-9606d48bfb06
+   :END:
 
 ** Mouvements
+   :PROPERTIES:
+   :CUSTOM_ID: h-0e93e625-82ea-4d75-940f-502847902602
+   :END:
 - o commén :: [o komːen] (vi) venir, arriver
 - o ga :: [o ɡa] (vi) aller
 - o ljegga :: [o ˈljeɡːa] (vi) aller à travers champs, sans suivre de chemin, errer
 - scort :: [θkort] (adj) rapide
 ** Nature
+   :PROPERTIES:
+   :CUSTOM_ID: h-80188fc2-cdcd-4da4-9c1c-4edeebf3f766
+   :END:
 - velt :: [vɛlt] (n) monde, la Terre
 - lant :: [lant] (n) terre, île
 
 ** Nombres
+   :PROPERTIES:
+   :CUSTOM_ID: h-41629208-3895-4ff1-a5fe-de506b6f3dc4
+   :END:
 - norm :: [norm] (n) nombre, numéro (ordinal)
 - al :: [al] (adj) tout, tous
 *** Nombres cardinaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-801bc8bc-9e35-4453-a1ee-55e995da9c40
+    :END:
 Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-dessous les nombres cardinaux du Mattér. Leur utilisation est détaillée dans le chapitre mentionné ci-dessus.
 | /                 | <       |
 |            nombre | terme   |
@@ -1163,43 +1528,85 @@ Comme présenté dans le chapitre sur les nombres (§[[*Nombres]]), voici ci-des
 |  1 0000 0000 0000 | vreljen |
 
 ** Nourriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-43332406-3b40-4f3f-9a54-9eee5407120d
+   :END:
 - o spich :: [o θpiç] (vt) (vulgaire) manger, bouffer
 - o etan :: [o ɛtan] (vt) manger
 
 ** Outils
+   :PROPERTIES:
+   :CUSTOM_ID: h-f7906f3d-0d06-41be-b0d9-d67e83bccc6e
+   :END:
 - wachen :: [ˈwaçɛn] (n) voiture
 
 ** Parole
+   :PROPERTIES:
+   :CUSTOM_ID: h-ee1f4c2c-9320-4421-b0b4-594db05dc8ca
+   :END:
 - o seg :: [o sɛɡ] (vt) dire
 
 ** Péchés
+   :PROPERTIES:
+   :CUSTOM_ID: h-c64d71e5-a80a-408c-a865-3a8c5d65bc24
+   :END:
 
 ** Physique
+   :PROPERTIES:
+   :CUSTOM_ID: h-8a32f85d-0b9b-4a13-873a-98d245134c46
+   :END:
 
 ** Possession
+   :PROPERTIES:
+   :CUSTOM_ID: h-a2afbf6b-358d-4170-98f5-5d6e52fc12d9
+   :END:
 
 ** Religion
+   :PROPERTIES:
+   :CUSTOM_ID: h-d9838d3d-b475-415e-a2ee-932a6f1bcdc2
+   :END:
 
 ** Savoir
+   :PROPERTIES:
+   :CUSTOM_ID: h-1d1dc93d-207a-48b8-b495-f32f1d74e3ec
+   :END:
 - o cyn :: [o kyn] (vt) savoir
 - o sjea :: [o sjea] (vt) connaître, savoir superficiellement
 - o vitté :: [o ˈvitːe] (vt) savoir, connaître, être conscient de
 En Mattér, une différentiation est faite entre le fait de savoir ou connaître quelque chose superficiellement <o sjea>, avoir une connaissance plus approfondie du sujet <o cyn> ou bien avoir une véritable maîtrise de la connaissance sur le sujet <o vitté>. Par exemple, une personne connaissant de nom une langue dira <cheg an tyngant sjeae> (« j’ai connaissance de cette langue », sous-entendu qu’il sait de quoi il s’agit mais sans plus), une personne apprenant mais ne maîtrisant pas la langue dira <cheg an tyngant cyne> (« je connais cette langue », sous-entendu suffisamment pour pouvoir un peu s’exprimer avec sans pour autant la maîtriser), et une personne parlant couramment cette langue dira <cheg an tyngant vittée> (« je connais bien cette langue », impliquant une connaissance profonde du sujet).
 
 ** Sensations
+   :PROPERTIES:
+   :CUSTOM_ID: h-72472284-cd0a-43bd-9ae9-3bdd8bc45d89
+   :END:
 
 ** Sexe
+   :PROPERTIES:
+   :CUSTOM_ID: h-034288b9-acf7-4e5c-a116-27e7a0e07d4a
+   :END:
 
 ** Société
+   :PROPERTIES:
+   :CUSTOM_ID: h-fd9e5bb5-b351-4385-bd6a-273cd5e9b75e
+   :END:
 *** Relations sociales
+    :PROPERTIES:
+    :CUSTOM_ID: h-afa1c99a-bc1f-4b81-90f0-029cf03ceb32
+    :END:
 - je :: [jɛ] (adv, inform.) ouais
 - jea :: [jea] (adv) oui
 - ne :: [nɛ] (adv, inform.) nan
 - nea :: [nea] (adv) non
 
 ** Substances
+   :PROPERTIES:
+   :CUSTOM_ID: h-ae2e35cb-7631-4892-8e6c-9d06622e61bb
+   :END:
 
 ** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-0b72e4e0-9315-4c83-bcab-ec3c65b772b8
+   :END:
  - altiz :: [altið] (adv) tout le temps
  - daeg :: [daeɡ] (n) jour
  - gaern :: [ɡaern] (n) année
@@ -1215,14 +1622,29 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
  - voc :: [vok] (n) semaine
 
 ** Travail
+   :PROPERTIES:
+   :CUSTOM_ID: h-e3028dce-0df6-46f5-99a1-dc43d2f74a5d
+   :END:
 
 ** Végétaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-28adeb8d-d35b-453d-a294-ad86b43319fd
+   :END:
 *** Fruits
+    :PROPERTIES:
+    :CUSTOM_ID: h-763ebcfc-3be6-4c77-ab95-ff9513de8ade
+    :END:
 - eppel :: [ˈɛpːɛl] (n) pomme
 
 ** Vêtements
+   :PROPERTIES:
+   :CUSTOM_ID: h-4db95c53-e6c2-4e19-8cc7-e46e5a124197
+   :END:
 
 ** Vie et santé
+   :PROPERTIES:
+   :CUSTOM_ID: h-c79f4671-f42f-4391-8cc0-ca2392d7debb
+   :END:
 - bryz :: [bryð] (n) naissance
 - bryzdeg :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryz> + <deg>)
 - o bwén :: [o bwen] (vi) vivre, habiter
@@ -1233,6 +1655,9 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 - meinwach :: [mɛinwaç] (n) ambulance (<mein> + <wachen>)
 
 ** À trier
+   :PROPERTIES:
+   :CUSTOM_ID: h-44ffdaf1-84e3-44ca-8286-d37e4b985298
+   :END:
 - bevit :: [ˈbevit] (adj) conscient
 - bevityt :: [ˈbeˌvityt] (n) conscience
 - canal :: [ˈkanal] (n) canal, voie navigable, conduit, salon de communication
@@ -1253,5 +1678,8 @@ En Mattér, une différentiation est faite entre le fait de savoir ou connaître
 
 src_latex{\newpage}
 * Annexes
+  :PROPERTIES:
+  :CUSTOM_ID: h-ba8aca30-11ff-47e9-b123-395a09eb5d57
+  :END:
 
 #  LocalWords:  Pappa langue-jouet
