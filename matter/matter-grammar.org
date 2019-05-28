@@ -677,7 +677,6 @@
     |-------------+------|
     | ei          | [ei] |
     | ea          | [ɛa] |
-    | eu          | [ɛu] |
     | ou          | [ɔu] |
     | ai          | [ai] |
     | æ           | [ae] |
@@ -685,13 +684,12 @@
 
     Toutes  ces combinaisons  sont, comme  décrit ci-dessus,  monosyllabiques et
     sont  considérées comme  telles  par  les locuteurs  de  cette langue.  Leur
-    translittération est simple, comme vous pouvez voir ci-dessus, à l’exception
-    du  [ei] qui  est écrit  <ei>  et non  <éi>. Ces  diphtongues se  produisent
-    naturellement lors  de la  juxtaposition des deux  voyelles les  formant, et
-    elles peuvent  déjà être  présentes dans  une racine de  mot. Ainsi,  si une
-    déclinaison  ajoute un  <a> après  un <e>,  la diphtongue  <ea> se  produira
-    naturellement, comme pour la forme nominative de <tere> (/tour/) qui devient
-    <tereant> dans sa forme accusative.
+    translittération  est   simple,  comme  vous  pouvez   voir  ci-dessus.  Ces
+    diphtongues se  produisent naturellement lors  de la juxtaposition  des deux
+    voyelles les formant,  et elles peuvent déjà être présentes  dans une racine
+    de mot. Ainsi, si une déclinaison ajoute  un <a> après un <e>, la diphtongue
+    <ea> se  produira naturellement,  comme pour la  forme nominative  de <tere>
+    (/tour/) qui devient <tereant> dans sa forme accusative.
 
 ** <<phon-allophonie>>Allophonie
    :PROPERTIES:
