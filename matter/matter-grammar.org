@@ -1,40 +1,7 @@
 #+TITLE: Une Grammaire du Mattér
 #+AUTHOR: Lucien Cartier-Tilet
 #+EMAIL: phundrak@phundrak.fr
-#+CREATOR: Lucien Cartier-Tilet
-#+LANGUAGE: fr
-#+SETUPFILE: theme-readtheorg.setup
-#+LATEX_CLASS: article
-#+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
-#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={4.5in,7.0in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
-#+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
-#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-#+LATEX_HEADER: \usepackage{multicol}
-#+LaTeX_HEADER: \usepackage{indentfirst}\usepackage{allrunes}
-#+HTML_DOCTYPE: html5
-#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
-#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
-#+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
-#+HTML_HEAD: <meta name="twitter:card" content="summary" />
-#+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
-#+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
-#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
-#+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
-#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
-#+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
-#+MACRO: newpage @@latex:\newpage@@
-#+MACRO: latex-html @@latex:$1@@ @@html:$2@@
-#+NAME: last-update
-#+BEGIN_SRC shell :exports none :results silent
-  date '+Dernière mise à jour le %d/%m/%y à %H:%M'
-#+END_SRC
-#+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
-#+OPTIONS: H:4 toc:nil
-#+OPTIONS: auto-id:t
-{{{newpage}}}
-#+TOC: headlines
-
-{{{newpage}}}
+#+INCLUDE: header-matter.org
 
 * Table des matières                                      :TOC_4_gh:noexport:
   :PROPERTIES:
@@ -71,11 +38,12 @@
 - [[#gendersclasses-de-mots][<<genders>>Classes de mots]]
   - [[#noms][Noms]]
     - [[#types-de-noms][Types de noms]]
+      - [[#possession][Possession]]
     - [[#pronoms][Pronoms]]
   - [[#verbes][Verbes]]
     - [[#infinitif][Infinitif]]
     - [[#nominalisation][Nominalisation]]
-  - [[#adjectifs][Adjectifs]]
+  - [[#wclassadjadjectifs][<<wclassadj>>Adjectifs]]
   - [[#adverbes][Adverbes]]
 - [[#syntaxordre-des-constituants-basiques][<<syntax>>Ordre des constituants basiques]]
   - [[#clauses-principales][Clauses principales]]
@@ -176,7 +144,7 @@
   - [[#péchés][Péchés]]
   - [[#peuples][Peuples]]
   - [[#physique][Physique]]
-  - [[#possession][Possession]]
+  - [[#possession-1][Possession]]
   - [[#religion][Religion]]
   - [[#savoir][Savoir]]
   - [[#sensations][Sensations]]
@@ -1079,6 +1047,15 @@
     :PROPERTIES:
     :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
     :END:
+    Le  prototype d’un  nom en  Mattér est  un mot  se référant  à des  entitées
+    définies. Certaines  propriétés morphosyntaxiques permettent  de reconnaître
+    un nom d’un  autre mot, comme la  possession, les articles, le  nombre ou le
+    rôle grammatical.  Cependant, il  faut noter que  ces deux  derniers peuvent
+    aussi         être         portés          par         les         adjectifs
+    (§[[#h-c2adae5e-930e-43eb-944e-654db14713d8]]).
+
+**** Possession
+
 *** Pronoms
     :PROPERTIES:
     :CUSTOM_ID: h-0823300e-dca8-4928-a8b6-122f48e1fcc4
@@ -1095,7 +1072,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-da2cf8e9-4415-4590-a91a-9cd2cc114879
     :END:
-** Adjectifs
+** <<wclassadj>>Adjectifs
    :PROPERTIES:
    :CUSTOM_ID: h-c2adae5e-930e-43eb-944e-654db14713d8
    :END:
