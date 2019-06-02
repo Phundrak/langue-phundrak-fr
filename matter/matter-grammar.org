@@ -259,7 +259,7 @@
    bouddhiste et  2% de la  population suit des religions  diverses (Hindouisme,
    Chamanisme,…).
 
-   #+name: religion-piechart
+   #+name: fig:religion-piechart
    #+BEGIN_SRC R :exports results :results graphics :file religious-pop.png :bg transparent
      slices <- c(68, 15, 9, 6, 2)
      lbls <- c("Paganisme", "Athéisme", "Monothéismes divers",
@@ -267,11 +267,13 @@
      pct <- round(slices/sum(slices)*100)
      lbls <- paste(lbls, pct)
      lbls <- paste(lbls, "%", sep = "")
+     par(mar=c(0,0,0.7,3))
      pie(slices, labels = lbls, col = rainbow(length(lbls)),
          main = "Religions d’Éïnlante")
    #+END_SRC
-
-   #+RESULTS: religion-piechart
+   #+CAPTION: Population religieuse d’Éïnlante
+   #+LABEL: fig:religion-piechart
+   #+RESULTS: fig:religion-piechart
    [[file:religious-pop.png]]
 
 ** Histoire

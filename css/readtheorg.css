@@ -395,7 +395,6 @@ table tr:nth-child(2n) td{
 .figure p{
     color:#000;
     font:italic 85%/1 arial,sans-serif;
-    padding:1em 0;
 }
 
 .rotate-90{
@@ -1108,4 +1107,8 @@ li, p, dd {
 
 pre.src:before {
   top: 0;
+}
+
+.figure {
+    padding: 0;
 }
