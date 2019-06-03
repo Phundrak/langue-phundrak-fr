@@ -1,6 +1,7 @@
 *.el
 *.tex
 *.bak
+*.log
 /*/_minted*
 /draconian-2/Vulgar_ Language generator.pdf
 /draconian-2/auto-generated*

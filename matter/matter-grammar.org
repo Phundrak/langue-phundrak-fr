@@ -38,8 +38,7 @@
 - [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
     - [[#types-de-noms][Types de noms]]
-    - [[#number][Number]]
-    - [[#possession][Possession]]
+      - [[#possession][Possession]]
     - [[#pronoms][Pronoms]]
   - [[#verbes][Verbes]]
     - [[#infinitif][Infinitif]]
@@ -87,7 +86,6 @@
   - [[#clauses-adverbiales][Clauses adverbiales]]
   - [[#coordination][Coordination]]
 - [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
-- [[#nombres][Nombres]]
 - [[#glossaire][Glossaire]]
   - [[#actions-physiques][Actions physiques]]
   - [[#amour][Amour]]
@@ -136,7 +134,7 @@
   - [[#métaux][Métaux]]
   - [[#mouvements][Mouvements]]
   - [[#nature][Nature]]
-  - [[#nombres-1][Nombres]]
+  - [[#nombres][Nombres]]
     - [[#nombres-cardinaux][Nombres cardinaux]]
   - [[#nourriture][Nourriture]]
   - [[#outils][Outils]]
@@ -1006,11 +1004,11 @@
   supplémentaires, généralement  des suffixes, leur donnant  un rôle grammatical
   ou des informations supplémentaires, tel que leur nombre. Exemples :
 
-  - Hyrfialþærun en marcéðoċ ficianantaþ þællea.
+  - Hyrfialþærun en marcéðoċ ficianaþant þællea.
 
-    Hyrfialþær-un en marcéð-oċ fician-ant-aþ þæll-ea.
+    Hyrfialþær-un en marcéð-oċ fician-aþ-ant þæll-ea.
 
-    Hyrfialþær-GEN        ART:DEF:NHUM:SG       marché-LOC        poisson-ACC-PL
+    Hyrfialþær-GEN        ART:DEF:NHUM:SG       marché-LOC        poisson-PL-ACC
     vendre-3SG:PRES:INDIC
 
     Il vend du poisson au marché d’Hurfialthère.
@@ -1069,47 +1067,18 @@
    :CUSTOM_ID: h-46c1b327-38b0-4988-b190-26fb2cb0fc9e
    :END:
    <<wclnouns>>
-
-   Le  prototype d’un  nom en  Mattér  est un  mot  se référant  à des  entitées
-   définies. Certaines propriétés morphosyntaxiques permettent de reconnaître un
-   nom d’un autre mot,  comme la possession, les articles, le  nombre ou le rôle
-   grammatical. Cependant,  il faut  noter que ces  deux derniers  peuvent aussi
-   être portés par les adjectifs (§[[#h-c2adae5e-930e-43eb-944e-654db14713d8]]).
-
-   La  morpho-phonologie des  noms du  Mattér présente  des règles  strictes sur
-   l’ordre des  affixes, et par  extension la structure  des mots de  la langue.
-   Voici ci-dessous l’ordre des constituants d’un nom en Mattér :
-   | racine | déclinaison | possessif | nombre |
 *** Types de noms
     :PROPERTIES:
     :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
     :END:
+    Le  prototype d’un  nom en  Mattér est  un mot  se référant  à des  entitées
+    définies. Certaines  propriétés morphosyntaxiques permettent  de reconnaître
+    un nom d’un  autre mot, comme la  possession, les articles, le  nombre ou le
+    rôle grammatical.  Cependant, il  faut noter que  ces deux  derniers peuvent
+    aussi         être         portés          par         les         adjectifs
+    (§[[#h-c2adae5e-930e-43eb-944e-654db14713d8]]).
 
-
-*** Number
-    Le Mattér est une langue faisant la distinction entre trois nombres pouvant
-    être portés  par un  nom. Le  singulier n’est  pas marqué  et est  ainsi le
-    nombre  par  défaut  des noms,  mais  le  paucal  et  le pluriel  le  sont.
-    Généralement,  le  paucal est  utilisé  pour  référencer une  quantité  peu
-    importantes d’éléments, la définition prototypicale étant entre deux et six
-    éléments ; au  delà, le pluriel  est utilisé. En réalité,  l’utilisation du
-    paucal ou du pluriel dépend grandement du jugement subjectif du locuteur et
-    de s’il  souhaite relever  une quantité jugée  peu importante  des éléments
-    indiqués, ou au contraire une quantité jugée importante.
-
-    Le  paucal se  marque avec  l’affixe  <et> si  le  nom se  termine avec  une
-    consonne,  ou  avec <t>  si  la  phonotaxe  de  la langue  l’autorise  (voir
-    §[[#h-78519805-1712-463f-9679-11ff7d209061]]).  Similairement,   le  pluriel  se
-    marque avec l’affixe <aþ> ou <þ>. Exemples :
-    | /      | <         |        |         |
-    |        | singulier | paucal | pluriel |
-    |--------+-----------+--------+---------|
-    | livre  | boccé     | boccét | boccéþ  |
-    | oiseau | fogel     | fogelt | fogelþ  |
-    | jument | hryþ      | hryþt  | hryþaþ  |
-    | chien  | hynd      | hyndet | hyndaþ  |
-
-*** Possession
+**** Possession
 
 *** Pronoms
     :PROPERTIES:
@@ -1315,64 +1284,6 @@
   :CUSTOM_ID: h-c2855728-415c-4a5a-9fb4-712bf21d4fbd
   :END:
 {{{newpage}}}
-* Nombres
-  :PROPERTIES:
-  :CUSTOM_ID: h-80e22b81-99a9-4360-906e-105d02b76593
-  :END:
-  Le Mattér est une langue comptant en base dix et prenant en compte l’existance
-  du zéro.  Cependant, contrairement au Français  par exemple, le Mattér  tend à
-  grouper les dizaines de milliers ensemble plutôt que les milliers. Ainsi, nous
-  avons les termes suivants :
-  #+CAPTION:Nombres en Mattér
-  |                 / |                < | <       |
-  | notation standard |  notation Mattér | terme   |
-  |-------------------+------------------+---------|
-  |                 0 |                0 | nyn     |
-  |                 1 |                1 | æn      |
-  |                 2 |                2 | tƿea    |
-  |                 3 |                3 | ðe      |
-  |                 4 |                4 | fro     |
-  |                 5 |                5 | ðeif    |
-  |                 6 |                6 | ċcæc    |
-  |                 7 |                7 | þean    |
-  |                 8 |                8 | aċt     |
-  |                 9 |                9 | onnén   |
-  |                10 |               10 | dran    |
-  |                20 |               20 | tieg    |
-  |                30 |               30 | ðiea    |
-  |                40 |               40 | frie    |
-  |                50 |               50 | ðeig    |
-  |                60 |               60 | ċciag   |
-  |                70 |               70 | þieg    |
-  |                80 |               80 | aċteig  |
-  |                90 |               90 | onneg   |
-  |               100 |              100 | anrad   |
-  |             1.000 |             1000 | tanþen  |
-  |            10.000 |           1.0000 | deten   |
-  |       100.000.000 |      1.0000.0000 | mollen  |
-  | 1.000.000.000.000 | 1 0000.0000.0000 | vrelien |
-
-  Le Mattér énonce  ses éléments du plus  petit au plus grand,  lisant ainsi les
-  nombres de droite à gauche. Ainsi, le nombre <18> se dira <aċt dran>.
-
-  Les  termes <anrad>,  <tanþen>, <deten>,  <mollen> et  <vrelien> peuvent  être
-  multipliés par  un nombre plus  petit via une  affixation de ces  nombres. Par
-  exemple,  <800> se  traduit par  <anradaċt>,  et <50.0000>  (ou <500.000>)  se
-  traduit par <deten ðeig>, littéralement « dix-mille (fois) cinquante ». Ainsi,
-  si un nombre ou  un chiffre suit un autre nombre plus  important, on peut être
-  sûr qu’il s’agit du multiplicateur de ce dernier. Exemples :
-  - 800 :: anradaċt
-  - 108 :: aċt anrad
-  - 900.0000 :: deten anrad onnén
-  - 1.0900 :: anrad onnén deten
-  - 200.0000.0000 :: mollen anrad tƿea
-  - 1.0000.0200 :: anrad tƿea mollen
-  - 100.0000.0002 :: tƿea mollen anrad
-  - 1.0000.0102 :: tƿea anrad mollen
-  - 1.2345.6789 :: onnén aċteig anrad þean  tanþen ċcæc deten ðeif frie anrad ðe
-                   tanþen tƿea mollen
-
-  {{{newpage}}}
 * Glossaire
   :PROPERTIES:
   :CUSTOM_ID: h-393b8998-29ab-483a-a490-1186863133d1
@@ -1714,12 +1625,12 @@
     | pluriel   | NHUM  | ev      |
 
     Exemple :
-    | /                 | <        | <                        |
-    | français          | mattér   | gloss                    |
-    |-------------------+----------+--------------------------|
-    | la tour           | en tere  | ART.DEF.SG.NHUM tour     |
-    | les chats /(peu)/ | od cetet | ART.DEF.PAU.N chat-PAU   |
-    | les villes        | ev urbyþ | ART.DEF.PL.NHUM ville-PL |
+    | /               | <        | <                       |
+    | français        | mattér   | gloss                   |
+    |-----------------+----------+-------------------------|
+    | la tour         | en tere  | ART.DEF.SG.NHUM tour    |
+    | les chats (peu) | od cetet | ART.DEF.PAU.N chat-PAU  |
+    | les villes      | ev urbyþ | ART.DEF.PAU.PL ville-PL |
 
     Ici, <od>  est utilisé pour montrer  une proximité et/ou affection  entre le
     locuteur et  lesdits chats,  mais si  un tel lien  n’existe pas  le locuteur
@@ -1791,7 +1702,7 @@
     - Eppeleþant eða  cirþabérant, *fertið* y  caupei? /Entre des pommes  ou des
       cerises, que vas-tu acheter ?/
     - *Ferden* urbyþ gon? /Comment êtes-vous allé à la ville ?/
-    - *Fertið* bryðdegantyn haþt? /Quand est ton anniversaire ?/
+    - *Fertið* bryðdegdynant haþt? /Quand est ton anniversaire ?/
     - *Fertiðoċ* Mattérant frégei? /Depuis quand apprends-tu le Mattér ?/
     - *Fertiðac* y ċilde? /Jusqu’à quand est-tu en vacances ?/
 
@@ -1807,7 +1718,7 @@
               que <eða>  sort à indiquer  un choix entre des  phrases nominales.
               Exemple :
 
-              Eppelant  eða  cirþabéranteþ ei  giéþ  etand  ella utant  ei  giéþ
+              Eppelant  eða  cirþabéreþant ei  giéþ  etand  ella utant  ei  giéþ
               caupend. /Il étaint  en train de manger une pomme  ou des cerises,
               ou bien il était en train de les acheter./
     - men :: [mɛn] (conj) mais
@@ -1970,16 +1881,15 @@
     :PROPERTIES:
     :CUSTOM_ID: h-3a16c263-2617-423e-beb8-ed1f42e70d58
     :END:
-    Comme     présenté     dans     le      chapitre     sur     les     nombres
-    (§[[#h-80e22b81-99a9-4360-906e-105d02b76593]]),  voici  ci-dessous  les  nombres
-    cardinaux  du  Mattér.  Leur  utilisation est  détaillée  dans  le  chapitre
-    mentionné ci-dessus.
+    Comme  présenté  dans  le  chapitre   sur  les  nombres  (§[[*Nombres]]),  voici
+    ci-dessous les nombres  cardinaux du Mattér. Leur  utilisation est détaillée
+    dans le chapitre mentionné ci-dessus.
     |                / | <       | <          |
     |           nombre | terme   | phonétique |
     |------------------+---------+------------|
     |                0 | nyn     | [nyn]      |
     |                1 | æn      | [aɛn]      |
-    |                2 | tƿea    | [twea]     |
+    |                2 | tƿéa    | [twea]     |
     |                3 | ðe      | [ðɛ]       |
     |                4 | fro     | [frɔ]      |
     |                5 | ðeif    | [dɛif]     |
@@ -2001,7 +1911,6 @@
     |           1 0000 | deten   | [ˈdɛtɛn]   |
     |      1 0000 0000 | mollen  | [ˈmɔlːɛn]  |
     | 1 0000 0000 0000 | vrelien | [ˈvrɛljɛn] |
-
 ** Nourriture
    :PROPERTIES:
    :CUSTOM_ID: h-b265501e-5430-4397-bdba-4d3b31a4730b
@@ -2133,7 +2042,7 @@
    - gilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
    - o heillen :: [ɔ ˈhɛilːɛn] (vt) glorifier, rendre gloire à.
 
-                  <heillen> ne  prend pas d’argument accusatif  mais un argument
+                  <heillen>  ne prend  pas argument  accusatif mais  un argument
                   datif. Ainsi,  « je rend  gloire à  Odin » se  traduit <Odiniþ
                   heille>, Odin-DAT glorifier-1S:PRES.
 
