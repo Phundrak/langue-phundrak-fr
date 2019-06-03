@@ -7,45 +7,46 @@
   :PROPERTIES:
   :CUSTOM_ID: h-a6f6e40b-46d3-44d2-8c0b-aa9f5aa1dcaa
   :END:
-- [[#avantproposavant-propos][<<avantpropos>>Avant-propos]]
-- [[#introintroduction][<<intro>>Introduction]]
-  - [[#intro-lang-namele-nom-de-la-langue][<<intro-lang-name>>Le nom de la langue]]
-  - [[#intro-demographydémographie][<<intro-demography>>Démographie]]
-  - [[#intro-historyhistoire][<<intro-history>>Histoire]]
-  - [[#intro-geneticaffiliation-générique][<<intro-genetic>>Affiliation générique]]
-  - [[#intro-alphabetsystème-décriture][<<intro-alphabet>>Système d’écriture]]
-  - [[#intro-sociolingsituation-sociolinguistique][<<intro-socioling>>Situation sociolinguistique]]
+- [[#avant-propos][Avant-propos]]
+- [[#introduction][Introduction]]
+  - [[#le-nom-de-la-langue][Le nom de la langue]]
+  - [[#démographie][Démographie]]
+  - [[#histoire][Histoire]]
+  - [[#affiliation-générique][Affiliation générique]]
+  - [[#système-décriture][Système d’écriture]]
+  - [[#situation-sociolinguistique][Situation sociolinguistique]]
     - [[#multilinguisme-et-contexte-dutilisation][Multilinguisme et contexte d’utilisation]]
     - [[#viabilité][Viabilité]]
     - [[#mots-demprunt][Mots d’emprunt]]
-  - [[#intro-dialectsdialectes][<<intro-dialects>>Dialectes]]
-- [[#phonologyphonologie][<<phonology>>Phonologie]]
-  - [[#phon-notesnotes-sur-la-transcription-du-mattér][<<phon-notes>>Notes sur la transcription du Mattér]]
+  - [[#dialectes][Dialectes]]
+- [[#phonologie][Phonologie]]
+  - [[#notes-sur-la-transcription-du-mattér][Notes sur la transcription du Mattér]]
   - [[#inventaire-phonétique][Inventaire phonétique]]
-    - [[#phon-consonnesconsonnes][<<phon-consonnes>>Consonnes]]
-    - [[#phon-voyellesvoyelles][<<phon-voyelles>>Voyelles]]
-    - [[#phon-diphtonguesdiphtonges][<<phon-diphtongues>>Diphtonges]]
-  - [[#phon-allophonieallophonie][<<phon-allophonie>>Allophonie]]
-  - [[#phon-phonotaxesphonotaxes][<<phon-phonotaxes>>Phonotaxes]]
-    - [[#phon-attaqueattaque][<<phon-attaque>>Attaque]]
+    - [[#consonnes][Consonnes]]
+    - [[#voyelles][Voyelles]]
+    - [[#diphtonges][Diphtonges]]
+  - [[#allophonie][Allophonie]]
+  - [[#phonotaxes][Phonotaxes]]
+    - [[#attaque][Attaque]]
     - [[#coda][Coda]]
     - [[#inter-syllabe][Inter-syllabe]]
-  - [[#phon-accentuationaccentuation][<<phon-accentuation>>Accentuation]]
-  - [[#local-accentaccents-régionaux][<<local-accent>>Accents régionaux]]
-  - [[#writingsystème-décriture][<<writing>>Système d’écriture]]
-  - [[#orthographyorthographe][<<orthography>>Orthographe]]
-- [[#topologytopologie-morphologique][<<topology>>Topologie morphologique]]
-- [[#gendersclasses-de-mots][<<genders>>Classes de mots]]
+  - [[#accentuation][Accentuation]]
+  - [[#accents-régionaux][Accents régionaux]]
+  - [[#système-décriture-1][Système d’écriture]]
+  - [[#orthographe][Orthographe]]
+- [[#topologie-morphologique][Topologie morphologique]]
+- [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
     - [[#types-de-noms][Types de noms]]
-      - [[#possession][Possession]]
+    - [[#number][Number]]
+    - [[#possession][Possession]]
     - [[#pronoms][Pronoms]]
   - [[#verbes][Verbes]]
     - [[#infinitif][Infinitif]]
     - [[#nominalisation][Nominalisation]]
-  - [[#wclassadjadjectifs][<<wclassadj>>Adjectifs]]
+  - [[#adjectifs][Adjectifs]]
   - [[#adverbes][Adverbes]]
-- [[#syntaxordre-des-constituants-basiques][<<syntax>>Ordre des constituants basiques]]
+- [[#ordre-des-constituants-basiques][Ordre des constituants basiques]]
   - [[#clauses-principales][Clauses principales]]
   - [[#phrase-prépositionnelles][Phrase prépositionnelles]]
   - [[#phrases-nominales][Phrases nominales]]
@@ -55,7 +56,7 @@
   - [[#phrases-verbales][Phrases verbales]]
   - [[#comparatifs][Comparatifs]]
   - [[#résumé][Résumé]]
-- [[#predicatesprédicats-nominaux][<<predicates>>Prédicats nominaux]]
+- [[#prédicats-nominaux][Prédicats nominaux]]
 - [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
 - [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
   - [[#déclinaison--noms][Déclinaison – Noms]]
@@ -86,6 +87,7 @@
   - [[#clauses-adverbiales][Clauses adverbiales]]
   - [[#coordination][Coordination]]
 - [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
+- [[#nombres][Nombres]]
 - [[#glossaire][Glossaire]]
   - [[#actions-physiques][Actions physiques]]
   - [[#amour][Amour]]
@@ -134,7 +136,7 @@
   - [[#métaux][Métaux]]
   - [[#mouvements][Mouvements]]
   - [[#nature][Nature]]
-  - [[#nombres][Nombres]]
+  - [[#nombres-1][Nombres]]
     - [[#nombres-cardinaux][Nombres cardinaux]]
   - [[#nourriture][Nourriture]]
   - [[#outils][Outils]]
@@ -163,11 +165,12 @@
 - [[#footnotes][Footnotes]]
 - [[#annexes][Annexes]]
 
-* <<avantpropos>>Avant-propos
+* Avant-propos
   :PROPERTIES:
   :UNNUMBERED: t
   :CUSTOM_ID: h-48a98537-6d7b-485f-b8e3-5857516219d0
   :END:
+  <<avantpropos>>
   La  redistribution ou  vente de  ce  document sont  strictement interdits.  Ce
   document est protégé par la loi  française sur le droit d’auteur et appartient
   entièrement et totalement à son auteur. Ce document est un document disponible
@@ -189,10 +192,11 @@
 
   {{{last-update}}}
 
-* <<intro>>Introduction
+* Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-7ae36187-04aa-47b4-82f9-d5e3fabda554
   :END:
+  <<intro>>
   Le Mattér  est une  idéolangue (langue construite)  humaine, inspirée  par des
   langues  nordiques,  germaniques  et  latines.  Elle  bénéficie  également  de
   quelques  inspirations   des  idéolangues  elfiques  de   J.R.R.  Tolkien,  en
@@ -205,20 +209,20 @@
   dans le cadre  de mes études d’informatique pour un  projet de troisième année
   de licence en ingénierie des langues.
 
-** <<intro-lang-name>>Le nom de la langue
+** Le nom de la langue
    :PROPERTIES:
    :CUSTOM_ID: h-7b4dfe16-4a1b-4d74-9e77-0592b39bbd0a
    :END:
-
+   <<intro-lang-name>>
    Cette langue  est appelée d’après le  peuple parlant cette langue,  le peuple
    /Matté/. Une fois le  nom de ce peuple dérivé afin  d’obtenir un adjectif, on
    obtient donc /mattér/ qui est donc le nom de cette langue.
 
-** <<intro-demography>>Démographie
+** Démographie
    :PROPERTIES:
    :CUSTOM_ID: h-8791c7f7-9030-42a4-b625-9f3c31462621
    :END:
-
+   <<intro-demography>>
    #+attr_html: :alt Carte d’Éïnlante :align center
    #+CAPTION: Carte du XIX^{ème} siècle d’Éïnlante
    [[./einlant-old-map.jpeg]]
@@ -251,12 +255,13 @@
    Royaume-Uni,   cependant  ces   deux   religions  ne   réussiront  jamais   à
    véritablement  s’implanter, la  religion nordique  païenne restant  largement
    dominante  jusqu’au  XIX^{ème}  siècle  où  un  déclin  rapide  des  diverses
-   religions aura lieu. De nos jours, la population d’Éïnlante est à environ 88%
-   païenne, 5% athéiste, 4% de sa population suit une des religions monothéistes
-   (principalement le Christianisme  et l’Anglicanisme), 1% bouddhiste  et 2% de
-   la population suit des religions diverses (Hindouisme, Chamanisme,…).
+   religions aura lieu. De nos jours, la population d’Éïnlante est à environ 68%
+   païenne,  15%  athéiste,   9%  de  sa  population  suit   une  des  religions
+   monothéistes  (principalement  le  Protestantisme  et  le  Chistianisme),  6%
+   bouddhiste et  2% de la  population suit des religions  diverses (Hindouisme,
+   Chamanisme,…).
 
-   #+name: religion-piechart
+   #+name: fig:religion-piechart
    #+BEGIN_SRC R :exports results :results graphics :file religious-pop.png :bg transparent
      slices <- c(68, 15, 9, 6, 2)
      lbls <- c("Paganisme", "Athéisme", "Monothéismes divers",
@@ -264,17 +269,20 @@
      pct <- round(slices/sum(slices)*100)
      lbls <- paste(lbls, pct)
      lbls <- paste(lbls, "%", sep = "")
+     par(mar=c(0,0,0.7,3))
      pie(slices, labels = lbls, col = rainbow(length(lbls)),
          main = "Religions d’Éïnlante")
    #+END_SRC
-
-   #+RESULTS: religion-piechart
+   #+CAPTION: Population religieuse d’Éïnlante
+   #+LABEL: fig:religion-piechart
+   #+RESULTS: fig:religion-piechart
    [[file:religious-pop.png]]
 
-** <<intro-history>>Histoire
+** Histoire
    :PROPERTIES:
    :CUSTOM_ID: h-4349562e-64b4-4620-af92-a7028a30c2f3
    :END:
+   <<intro-history>>
    Éïnlante fût colonisée pour la première fois par des explorateurs scandinaves
    lors des  grandes expéditions vikings. L’île  fut découverte en 863,  peut de
    temps après la  découverte de l’Islande, et commença à  être peuplée à partir
@@ -283,11 +291,11 @@
    884  lors de  la  fondation  de la  future  capitale d’Éïnlante,  Dhébergette
    (/Ðeberget/).
 
-** <<intro-genetic>>Affiliation générique
+** Affiliation générique
    :PROPERTIES:
    :CUSTOM_ID: h-413e7ea2-4278-4428-8ad7-5427c9ad1f4f
    :END:
-
+   <<intro-genetic>>
    Le Mattér est une langue Indo-européenne trouvant ses sources dans la famille
    des  langues scandinaves  (germaniques nordiques).  Plus précisément,  elle a
    directement  évolué  du   Vieux  Nordique  parlé  par   les  premiers  colons
@@ -295,11 +303,11 @@
    françaises, plus  récentes, s’étant intégrées à  la langue à partir  du début
    des échanges commerciaux entre Éïnlante et les puissances européennes.
 
-** <<intro-alphabet>>Système d’écriture
+** Système d’écriture
    :PROPERTIES:
    :CUSTOM_ID: h-650be6b2-9b22-470e-8b66-77f1f8486461
    :END:
-
+   <<intro-alphabet>>
    Du fait  de son affiliation aux  langues nordiques, le Mattér  est une langue
    qui s’est  d’abord gravée  via l’utilisation  de runes, que  ce soit  sur des
    pierres ou  sur du bois.  L’alphabet latin ne  sera introduit que  plus tard,
@@ -330,10 +338,11 @@
    Plus  d’informations  seront  données  dans  le  chapitre  dédié  au  système
    d’écriture Mattér (§[[writing]]).
 
-** <<intro-socioling>>Situation sociolinguistique
+** Situation sociolinguistique
    :PROPERTIES:
    :CUSTOM_ID: h-3b5a2a47-f1f1-477b-bf38-1a0d6c8e5c94
    :END:
+   <<intro-socioling>>
 *** Multilinguisme et contexte d’utilisation
     :PROPERTIES:
     :CUSTOM_ID: h-d6c387d4-7d74-4ca8-a222-9eb495245719
@@ -372,11 +381,11 @@
     qu’un emprunt direct  dans la langue. Ainsi, « télévision »  est traduit par
     « lynþyn », reprenant la racine /télé-/ (« loin ») + « vision ».
 
-** <<intro-dialects>>Dialectes
+** Dialectes
    :PROPERTIES:
    :CUSTOM_ID: h-b51d7ffb-86b9-42f3-9fa0-d0502d48170e
    :END:
-
+   <<intro-dialects>>
    Bien que l’on parle  de « Mattér » dans cet ouvrage, il  ne s’agit en réalité
    que de l’une des formes de la langue que l’on peut trouver historiquement. En
    effet, de nombreux dialectes du Mattér étaient parlés en Éïnlante, formant un
@@ -396,14 +405,16 @@
    leur apprentissage.
 
 {{{newpage}}}
-* <<phonology>>Phonologie
+* Phonologie
   :PROPERTIES:
   :CUSTOM_ID: h-7e21add6-7d69-4a96-a4ac-8c488a4f71e2
   :END:
-** <<phon-notes>>Notes sur la transcription du Mattér
+  <<phonology>>
+** Notes sur la transcription du Mattér
    :PROPERTIES:
    :CUSTOM_ID: h-d7d67be3-dc8c-4d5e-a2f9-16aeb316039c
    :END:
+   <<phon-notes>>
    Comme vous  pourrez vous  en rendre compte  aux chapitres  §[[phon-consonnes]] et
    §[[phon-voyelles]], le Mattér dispose de deux transcriptions possibles qui seront
    les   transcriptions   principalement   utilisées  dans   cet   ouvrage,   la
@@ -459,10 +470,11 @@
    phonétique  du  Mattér s’est  basé  sur  l’inventaire phonétique  de  langues
    elfiques créées par Tolkien, notamment le Sindarin.
 
-*** <<phon-consonnes>>Consonnes
+*** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-6da91679-71f1-4064-bf08-0425446244f0
     :END:
+    <<phon-consonnes>>
     Le  Mattér  est  une  langue  disposant  d’un  panel  raisonnable  de  seize
     consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et en
     latin (voir §[[phon-notes]]).
@@ -570,10 +582,11 @@
     alongeant ainsi leur prononciation. Ainsi, le <tt> de <Mattér> sera prononcé
     [tː], et <Mattér> sera prononcé ['mat:er].
 
-*** <<phon-voyelles>>Voyelles
+*** Voyelles
     :PROPERTIES:
     :CUSTOM_ID: h-f3b80ac4-726f-4f4d-806f-fd1378ad7e20
     :END:
+    <<phon-voyelles>>
     Le Mattér  dispose de  relativement peu de  voyelles, uniquement  six. Voici
     leur tableau :
     #+CAPTION: Voyelles du Mattér (IPA)
@@ -628,10 +641,11 @@
              [lə] en français, dans le suffixe « -lĳk » [lək] en Néerlandais, ou
              encore dans « pare » [paɾə] en Catalan. Il s’agit du schwa.
 
-*** <<phon-diphtongues>>Diphtonges
+*** Diphtonges
     :PROPERTIES:
     :CUSTOM_ID: h-67defe3d-d8cb-48a1-b985-a05f9c28bddc
     :END:
+    <<phon-diphtongues>>
     Les  diphtongues sont  des  associations de  voyelles  considérées dans  une
     langue comme  étant une voyelle  unique, avec  la première unité  portant la
     longueur  de la  voyelle, la  seconde n’étant  prononcée qu’en  relâchant la
@@ -659,10 +673,11 @@
     <ea> se  produira naturellement,  comme pour la  forme nominative  de <tere>
     (/tour/) qui devient <tereant> dans sa forme accusative.
 
-** <<phon-allophonie>>Allophonie
+** Allophonie
    :PROPERTIES:
    :CUSTOM_ID: h-a6a890f5-6fb1-450d-83c7-ad79f4be6163
    :END:
+   <<phon-allophonie>>
    Bien  qu’étant rares,  le Mattér  a  quelques règles  à appliquer  concernant
    l’allophonie.
    - Si  deux  voyelles pouvant  former  une  diphtongue  se suivent,  alors  la
@@ -689,10 +704,11 @@
    - Si le [h] se trouve entre deux voyelles, il se voisera en un [ɦ].
    - Le [r] se prononcera [ɾ] s’il se situe entre deux voyelles ou [w] et [j].
 
-** <<phon-phonotaxes>>Phonotaxes
+** Phonotaxes
    :PROPERTIES:
    :CUSTOM_ID: h-78519805-1712-463f-9679-11ff7d209061
    :END:
+   <<phon-phonotaxes>>
    Les phonotaxes sont des règles  importantes car elle permettent de déterminer
    quelles sont  les associations de  sons possibles  dans une langue.  C’est ce
    genre de règles qui permettent de savoir que des mots tels que <iċkƿufrƿt> ou
@@ -707,10 +723,11 @@
    Concernant les consonnes, différentes  règles s’appliquent selon la situation
    dans la syllabe.
 
-*** <<phon-attaque>>Attaque
+*** Attaque
     :PROPERTIES:
     :CUSTOM_ID: h-1b82ebbd-04a3-4177-b230-eed89027baaa
     :END:
+    <<phon-attaque>>
     L’attaque est la  première partie de la syllabe, les  premières consonnes la
     composant.  Elle  peut  comporter  d’aucune consonne  à  deux  consonnes  ne
     contenant pas  de semi-voyelle, trois  avec une semi-voyelle  comme consonne
@@ -758,10 +775,11 @@
     - Les  consonnes longues  (géminées) ne  peuvent se  produire qu’entre  deux
       syllabes et ne peuvent s’associer à d’autres consonnes.
 
-** <<phon-accentuation>>Accentuation
+** Accentuation
    :PROPERTIES:
    :CUSTOM_ID: h-6a45a9d3-7476-44fe-853a-60ba09206680
    :END:
+   <<phon-accentuation>>
    Le Mattér est une langue dont  l’accentuation est assez simple à suivre étant
    donné qu’elle  se produit sur  la syllabe initiale  de tout mot  constitué de
    deux syllabes  ou plus :  l’accent principal porte  sur la  première syllabe.
@@ -776,10 +794,11 @@
    Cela déplacera  également l’accent secondaire  sur la première syllabe  si le
    mot contient au moins trois syllabes.
 
-** <<local-accent>>Accents régionaux
+** Accents régionaux
    :PROPERTIES:
    :CUSTOM_ID: h-8f4b038a-5365-4834-baae-5f18f5aeb3eb
    :END:
+   <<local-accent>>
    Du  fait  du  volume de  sa  population  ainsi  que  de la  taille  de  l’île
    d’Éïnlante,  le Mattér  a des  variantes régionales  se distingant  du Mattér
    standard décrit  dans cet ouvrage. Peu  de recherches ont été  menées sur ces
@@ -858,10 +877,11 @@
      - Oriental :: [ˈmɒˌbrɔrøç djə ˈmɛˌkːɪlənt bɛɪθ ˈʊrbøç bɛɪθ]
 
 {{{newpage}}}
-** <<writing>>Système d’écriture
+** Système d’écriture
    :PROPERTIES:
    :CUSTOM_ID: h-9f02cc6d-40a6-4ece-96e9-a29021f18294
    :END:
+   <<writing>>
    Le  système  natif  d’écriture  Mattér   est  l’alphabet  runique.  Voici  la
    correspondance entre  chacun des  phonèmes du Mattér  et des  runes utilisées
    nativement dans leur ordre alphabétique natif :
@@ -949,11 +969,11 @@
    | ƿaċen       | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} | wachen / waȝen |
    | ċciag       | {{{latex-html(\textara{Icjag},ᛇᚳᛄᚪᚷ)}}} | chcjaᵹ / ȝcjaᵹ |
 
-** <<orthography>>Orthographe
+** Orthographe
    :PROPERTIES:
    :CUSTOM_ID: h-cd6b7fda-ced0-4ba9-bf46-1e9ec62ab408
    :END:
-
+   <<orthography>>
    Le Mattér, utilisant un de ses alphabets décrits ci-dessus, a une orthographe
    très  régulière,  chaque mot  est  écrit  comme  il  est prononcé.  La  seule
    exception     est      occasionellement     l’utilisation      du     /iéral/
@@ -973,10 +993,11 @@
 
  {{{newpage}}}
 
-* <<topology>>Topologie morphologique
+* Topologie morphologique
   :PROPERTIES:
   :CUSTOM_ID: h-f40706bc-990b-4bb7-b089-2c8b5fea5e80
   :END:
+  <<topology>>
   Le Mattér  est une langue  à tendance polysynthétique, fortement  orientée sur
   l’agglutination de  mots et  de particules pour  son aspect  grammatical, mais
   également de mots entre eux lors de  la création de nouveaux mots. Bien que de
@@ -985,11 +1006,12 @@
   supplémentaires, généralement  des suffixes, leur donnant  un rôle grammatical
   ou des informations supplémentaires, tel que leur nombre. Exemples :
 
-  - Hyrfialþærun marcéðoċ ficianaþant þællea.
+  - Hyrfialþærun en marcéðoċ ficianantaþ þællea.
 
-    Hyrfialþær-un marcéð-oċ fician-aþ-ant þæll-ea.
+    Hyrfialþær-un en marcéð-oċ fician-ant-aþ þæll-ea.
 
-    Hyrfialþær-GEN marché-LOC poisson-PL-ACC vendre-3SG:PRES:INDIC
+    Hyrfialþær-GEN        ART:DEF:NHUM:SG       marché-LOC        poisson-ACC-PL
+    vendre-3SG:PRES:INDIC
 
     Il vend du poisson au marché d’Hurfialthère.
 
@@ -1001,7 +1023,9 @@
     dernier est donc  décliné au génitif via l’ajout d’un  suffixe /un/. On peut
     remarquer par  ailleurs que le Mattér  traite de manière identique  les noms
     communs et les noms propre quant à la déclinaison grammaticale.
-  - /Hyrfialþarén  marcéð/ est  un groupe  nominal  désignant le  lieu où  s’est
+  - /ut/ est  un article défini servant  un indiquer un élément  précis. Ici, il
+    désigne un élément non-humain unique, le marché.
+  - /Hyrfialþarén un  marcéð/ est un groupe  nominal désignant le lieu  où s’est
     déroulée  l’action, il  est donc  décliné au  locatif. Notez  que le  groupe
     nominal  est traité  comme un  bloc unique  et non  comme plusieurs  entités
     séparées. Le groupe nominal se voit donc affixé par un /oċ/.
@@ -1030,10 +1054,11 @@
   mer d’Éïnlante.
 
   {{{newpage}}}
-* <<genders>>Classes de mots
+* Classes de mots
   :PROPERTIES:
   :CUSTOM_ID: h-f5ec6a00-773b-403f-bde0-8caeab925046
   :END:
+  <<word-classes>>
   Comme dans toutes les autres langues,  plusieurs types de mots ayant plusieurs
   types de  rôles existent en Mattér.  Nous discuterons donc dans  cette section
   des majeures classes de mots existant dans cette langue, les noms, les verbes,
@@ -1043,18 +1068,48 @@
    :PROPERTIES:
    :CUSTOM_ID: h-46c1b327-38b0-4988-b190-26fb2cb0fc9e
    :END:
+   <<wclnouns>>
+
+   Le  prototype d’un  nom en  Mattér  est un  mot  se référant  à des  entitées
+   définies. Certaines propriétés morphosyntaxiques permettent de reconnaître un
+   nom d’un autre mot,  comme la possession, les articles, le  nombre ou le rôle
+   grammatical. Cependant,  il faut  noter que ces  deux derniers  peuvent aussi
+   être portés par les adjectifs (§[[#h-c2adae5e-930e-43eb-944e-654db14713d8]]).
+
+   La  morpho-phonologie des  noms du  Mattér présente  des règles  strictes sur
+   l’ordre des  affixes, et par  extension la structure  des mots de  la langue.
+   Voici ci-dessous l’ordre des constituants d’un nom en Mattér :
+   | racine | déclinaison | possessif | nombre |
 *** Types de noms
     :PROPERTIES:
     :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
     :END:
-    Le  prototype d’un  nom en  Mattér est  un mot  se référant  à des  entitées
-    définies. Certaines  propriétés morphosyntaxiques permettent  de reconnaître
-    un nom d’un  autre mot, comme la  possession, les articles, le  nombre ou le
-    rôle grammatical.  Cependant, il  faut noter que  ces deux  derniers peuvent
-    aussi         être         portés          par         les         adjectifs
-    (§[[#h-c2adae5e-930e-43eb-944e-654db14713d8]]).
 
-**** Possession
+
+*** Number
+    Le Mattér est une langue faisant la distinction entre trois nombres pouvant
+    être portés  par un  nom. Le  singulier n’est  pas marqué  et est  ainsi le
+    nombre  par  défaut  des noms,  mais  le  paucal  et  le pluriel  le  sont.
+    Généralement,  le  paucal est  utilisé  pour  référencer une  quantité  peu
+    importantes d’éléments, la définition prototypicale étant entre deux et six
+    éléments ; au  delà, le pluriel  est utilisé. En réalité,  l’utilisation du
+    paucal ou du pluriel dépend grandement du jugement subjectif du locuteur et
+    de s’il  souhaite relever  une quantité jugée  peu importante  des éléments
+    indiqués, ou au contraire une quantité jugée importante.
+
+    Le  paucal se  marque avec  l’affixe  <et> si  le  nom se  termine avec  une
+    consonne,  ou  avec <t>  si  la  phonotaxe  de  la langue  l’autorise  (voir
+    §[[#h-78519805-1712-463f-9679-11ff7d209061]]).  Similairement,   le  pluriel  se
+    marque avec l’affixe <aþ> ou <þ>. Exemples :
+    | /      | <         |        |         |
+    |        | singulier | paucal | pluriel |
+    |--------+-----------+--------+---------|
+    | livre  | boccé     | boccét | boccéþ  |
+    | oiseau | fogel     | fogelt | fogelþ  |
+    | jument | hryþ      | hryþt  | hryþaþ  |
+    | chien  | hynd      | hyndet | hyndaþ  |
+
+*** Possession
 
 *** Pronoms
     :PROPERTIES:
@@ -1064,6 +1119,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-80c88e53-b75b-4759-a8f9-f871e426dafc
    :END:
+   <<wclverb>>
 *** Infinitif
     :PROPERTIES:
     :CUSTOM_ID: h-a90355c2-07a7-4f77-8b69-fa8b65be55d8
@@ -1072,19 +1128,22 @@
     :PROPERTIES:
     :CUSTOM_ID: h-da2cf8e9-4415-4590-a91a-9cd2cc114879
     :END:
-** <<wclassadj>>Adjectifs
+** Adjectifs
    :PROPERTIES:
    :CUSTOM_ID: h-c2adae5e-930e-43eb-944e-654db14713d8
    :END:
+   <<wclassadj>>
 ** Adverbes
    :PROPERTIES:
    :CUSTOM_ID: h-4d8f2917-82cf-44b6-b01e-d8950c474fe2
    :END:
+   <<wcladv>>
 {{{newpage}}}
-* <<syntax>>Ordre des constituants basiques
+* Ordre des constituants basiques
   :PROPERTIES:
   :CUSTOM_ID: h-71465cbf-4eac-4766-b323-8ff09ab3140f
   :END:
+  <<syntax>>
 ** Clauses principales
    :PROPERTIES:
    :CUSTOM_ID: h-d3416cd1-3776-49c1-bd84-26941778a850
@@ -1123,10 +1182,11 @@
    :END:
 
 {{{newpage}}}
-* <<predicates>>Prédicats nominaux
+* Prédicats nominaux
   :PROPERTIES:
   :CUSTOM_ID: h-c28e4bdf-f5d3-4b37-9f63-1ce53e2276ca
   :END:
+  <<predicates>>
 {{{newpage}}}
 * Phrases existentielles, locationnelles et possessives
   :PROPERTIES:
@@ -1255,6 +1315,64 @@
   :CUSTOM_ID: h-c2855728-415c-4a5a-9fb4-712bf21d4fbd
   :END:
 {{{newpage}}}
+* Nombres
+  :PROPERTIES:
+  :CUSTOM_ID: h-80e22b81-99a9-4360-906e-105d02b76593
+  :END:
+  Le Mattér est une langue comptant en base dix et prenant en compte l’existance
+  du zéro.  Cependant, contrairement au Français  par exemple, le Mattér  tend à
+  grouper les dizaines de milliers ensemble plutôt que les milliers. Ainsi, nous
+  avons les termes suivants :
+  #+CAPTION:Nombres en Mattér
+  |                 / |                < | <       |
+  | notation standard |  notation Mattér | terme   |
+  |-------------------+------------------+---------|
+  |                 0 |                0 | nyn     |
+  |                 1 |                1 | æn      |
+  |                 2 |                2 | tƿea    |
+  |                 3 |                3 | ðe      |
+  |                 4 |                4 | fro     |
+  |                 5 |                5 | ðeif    |
+  |                 6 |                6 | ċcæc    |
+  |                 7 |                7 | þean    |
+  |                 8 |                8 | aċt     |
+  |                 9 |                9 | onnén   |
+  |                10 |               10 | dran    |
+  |                20 |               20 | tieg    |
+  |                30 |               30 | ðiea    |
+  |                40 |               40 | frie    |
+  |                50 |               50 | ðeig    |
+  |                60 |               60 | ċciag   |
+  |                70 |               70 | þieg    |
+  |                80 |               80 | aċteig  |
+  |                90 |               90 | onneg   |
+  |               100 |              100 | anrad   |
+  |             1.000 |             1000 | tanþen  |
+  |            10.000 |           1.0000 | deten   |
+  |       100.000.000 |      1.0000.0000 | mollen  |
+  | 1.000.000.000.000 | 1 0000.0000.0000 | vrelien |
+
+  Le Mattér énonce  ses éléments du plus  petit au plus grand,  lisant ainsi les
+  nombres de droite à gauche. Ainsi, le nombre <18> se dira <aċt dran>.
+
+  Les  termes <anrad>,  <tanþen>, <deten>,  <mollen> et  <vrelien> peuvent  être
+  multipliés par  un nombre plus  petit via une  affixation de ces  nombres. Par
+  exemple,  <800> se  traduit par  <anradaċt>,  et <50.0000>  (ou <500.000>)  se
+  traduit par <deten ðeig>, littéralement « dix-mille (fois) cinquante ». Ainsi,
+  si un nombre ou  un chiffre suit un autre nombre plus  important, on peut être
+  sûr qu’il s’agit du multiplicateur de ce dernier. Exemples :
+  - 800 :: anradaċt
+  - 108 :: aċt anrad
+  - 900.0000 :: deten anrad onnén
+  - 1.0900 :: anrad onnén deten
+  - 200.0000.0000 :: mollen anrad tƿea
+  - 1.0000.0200 :: anrad tƿea mollen
+  - 100.0000.0002 :: tƿea mollen anrad
+  - 1.0000.0102 :: tƿea anrad mollen
+  - 1.2345.6789 :: onnén aċteig anrad þean  tanþen ċcæc deten ðeif frie anrad ðe
+                   tanþen tƿea mollen
+
+  {{{newpage}}}
 * Glossaire
   :PROPERTIES:
   :CUSTOM_ID: h-393b8998-29ab-483a-a490-1186863133d1
@@ -1596,12 +1714,12 @@
     | pluriel   | NHUM  | ev      |
 
     Exemple :
-    | /               | <        | <                       |
-    | français        | mattér   | gloss                   |
-    |-----------------+----------+-------------------------|
-    | la tour         | en tere  | ART.DEF.SG.NHUM tour    |
-    | les chats (peu) | od cetet | ART.DEF.PAU.N chat-PAU  |
-    | les villes      | ev urbyþ | ART.DEF.PAU.PL ville-PL |
+    | /                 | <        | <                        |
+    | français          | mattér   | gloss                    |
+    |-------------------+----------+--------------------------|
+    | la tour           | en tere  | ART.DEF.SG.NHUM tour     |
+    | les chats /(peu)/ | od cetet | ART.DEF.PAU.N chat-PAU   |
+    | les villes        | ev urbyþ | ART.DEF.PL.NHUM ville-PL |
 
     Ici, <od>  est utilisé pour montrer  une proximité et/ou affection  entre le
     locuteur et  lesdits chats,  mais si  un tel lien  n’existe pas  le locuteur
@@ -1673,7 +1791,7 @@
     - Eppeleþant eða  cirþabérant, *fertið* y  caupei? /Entre des pommes  ou des
       cerises, que vas-tu acheter ?/
     - *Ferden* urbyþ gon? /Comment êtes-vous allé à la ville ?/
-    - *Fertið* bryðdegdynant haþt? /Quand est ton anniversaire ?/
+    - *Fertið* bryðdegantyn haþt? /Quand est ton anniversaire ?/
     - *Fertiðoċ* Mattérant frégei? /Depuis quand apprends-tu le Mattér ?/
     - *Fertiðac* y ċilde? /Jusqu’à quand est-tu en vacances ?/
 
@@ -1689,7 +1807,7 @@
               que <eða>  sort à indiquer  un choix entre des  phrases nominales.
               Exemple :
 
-              Eppelant  eða  cirþabéreþant ei  giéþ  etand  ella utant  ei  giéþ
+              Eppelant  eða  cirþabéranteþ ei  giéþ  etand  ella utant  ei  giéþ
               caupend. /Il étaint  en train de manger une pomme  ou des cerises,
               ou bien il était en train de les acheter./
     - men :: [mɛn] (conj) mais
@@ -1852,15 +1970,16 @@
     :PROPERTIES:
     :CUSTOM_ID: h-3a16c263-2617-423e-beb8-ed1f42e70d58
     :END:
-    Comme  présenté  dans  le  chapitre   sur  les  nombres  (§[[*Nombres]]),  voici
-    ci-dessous les nombres  cardinaux du Mattér. Leur  utilisation est détaillée
-    dans le chapitre mentionné ci-dessus.
+    Comme     présenté     dans     le      chapitre     sur     les     nombres
+    (§[[#h-80e22b81-99a9-4360-906e-105d02b76593]]),  voici  ci-dessous  les  nombres
+    cardinaux  du  Mattér.  Leur  utilisation est  détaillée  dans  le  chapitre
+    mentionné ci-dessus.
     |                / | <       | <          |
     |           nombre | terme   | phonétique |
     |------------------+---------+------------|
     |                0 | nyn     | [nyn]      |
     |                1 | æn      | [aɛn]      |
-    |                2 | tƿéa    | [twea]     |
+    |                2 | tƿea    | [twea]     |
     |                3 | ðe      | [ðɛ]       |
     |                4 | fro     | [frɔ]      |
     |                5 | ðeif    | [dɛif]     |
@@ -1882,6 +2001,7 @@
     |           1 0000 | deten   | [ˈdɛtɛn]   |
     |      1 0000 0000 | mollen  | [ˈmɔlːɛn]  |
     | 1 0000 0000 0000 | vrelien | [ˈvrɛljɛn] |
+
 ** Nourriture
    :PROPERTIES:
    :CUSTOM_ID: h-b265501e-5430-4397-bdba-4d3b31a4730b
@@ -2013,7 +2133,7 @@
    - gilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
    - o heillen :: [ɔ ˈhɛilːɛn] (vt) glorifier, rendre gloire à.
 
-                  <heillen>  ne prend  pas argument  accusatif mais  un argument
+                  <heillen> ne  prend pas d’argument accusatif  mais un argument
                   datif. Ainsi,  « je rend  gloire à  Odin » se  traduit <Odiniþ
                   heille>, Odin-DAT glorifier-1S:PRES.
 
