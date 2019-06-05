@@ -2,6 +2,8 @@
 #+AUTHOR: Lucien Cartier-Tilet
 #+EMAIL: phundrak@phundrak.fr
 #+INCLUDE: header-matter.org
+#+OPTIONS: H:4 toc:nil
+#+OPTIONS: auto-id:t
 
 * Table des matières                                      :TOC_4_gh:noexport:
   :PROPERTIES:
@@ -38,8 +40,9 @@
 - [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
     - [[#types-de-noms][Types de noms]]
-    - [[#number][Number]]
+    - [[#nombre][Nombre]]
     - [[#possession][Possession]]
+    - [[#déclinaison][Déclinaison]]
     - [[#pronoms][Pronoms]]
   - [[#verbes][Verbes]]
     - [[#infinitif][Infinitif]]
@@ -1079,14 +1082,18 @@
    La  morpho-phonologie des  noms du  Mattér présente  des règles  strictes sur
    l’ordre des  affixes, et par  extension la structure  des mots de  la langue.
    Voici ci-dessous l’ordre des constituants d’un nom en Mattér :
+   | /      | <           | <>        |        |
    | racine | déclinaison | possessif | nombre |
+
 *** Types de noms
     :PROPERTIES:
     :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
     :END:
 
-
-*** Number
+*** Nombre
+    :PROPERTIES:
+    :CUSTOM_ID: h-027321ae-08de-48a4-8d99-a95ebc95d97f
+    :END:
     Le Mattér est une langue faisant la distinction entre trois nombres pouvant
     être portés  par un  nom. Le  singulier n’est  pas marqué  et est  ainsi le
     nombre  par  défaut  des noms,  mais  le  paucal  et  le pluriel  le  sont.
@@ -1110,11 +1117,41 @@
     | chien  | hynd      | hyndet | hyndaþ  |
 
 *** Possession
+    :PROPERTIES:
+    :CUSTOM_ID: h-988544c1-5001-4a5e-8ce6-be9381b3d266
+    :END:
+    La possession en Mattér peut  être exprimée de plusieurs façons différentes.
+    Les méthodes les  plus directes sont l’utilisation d’une  déclinaison sur le
+    possesseur  puis   placer  après  le  possesseur   l’élément  possédé  (voir
+    §[[#h-282a14ca-0d04-4f38-b0db-3c9771e47638]]), ou bien un ajout d’un affixe à un
+    nom si  on peut se référer  au possesseur via  un pronom. C’est ce  sur quoi
+    nous allons nous concentrer ici.
+
+    Bien que  les pronoms disposent  d’une forme génitive pouvant  être utilisée
+    afin         de         marquer          la         possession         (voir
+    §[[#h-0823300e-dca8-4928-a8b6-122f48e1fcc4]]),  cela  est un  cas  d’utilisation
+    rare du  pronom et les locuteurs  du Mattér préfèrent ajouter  le suffixe de
+    possession à un nom. Voici la table desdits suffixes :
+    #+CAPTION:Suffixes possessifs
+    | /             | <         | <      | <       |
+    |               | singulier | paucal | pluriel |
+    |---------------+-----------+--------+---------|
+    | 1ère personne | -yċ       | -yþ    | -yn     |
+    | 2ème personne | -dyn      | -(i)m  | -(e)nu  |
+    | 3ème personne | -én       | -ean   | -eaþ    |
+    Les voyelles entre parenthèses ne sont ajoutées que si l’ajout du suffixe
+    sans n’est pas autorisé par la phonotaxe du Mattér.
+
+*** Déclinaison
+    :PROPERTIES:
+    :CUSTOM_ID: h-282a14ca-0d04-4f38-b0db-3c9771e47638
+    :END:
 
 *** Pronoms
     :PROPERTIES:
     :CUSTOM_ID: h-0823300e-dca8-4928-a8b6-122f48e1fcc4
     :END:
+
 ** Verbes
    :PROPERTIES:
    :CUSTOM_ID: h-80c88e53-b75b-4759-a8f9-f871e426dafc
