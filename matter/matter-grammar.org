@@ -39,11 +39,13 @@
 - [[#topologie-morphologique][Topologie morphologique]]
 - [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
-    - [[#types-de-noms][Types de noms]]
     - [[#nombre][Nombre]]
     - [[#possession][Possession]]
-    - [[#déclinaison][Déclinaison]]
+    - [[#relations-grammaticales][Relations grammaticales]]
+    - [[#types-de-noms][Types de noms]]
     - [[#pronoms][Pronoms]]
+      - [[#personnels][Personnels]]
+      - [[#relatifs][Relatifs]]
   - [[#verbes][Verbes]]
     - [[#infinitif][Infinitif]]
     - [[#nominalisation][Nominalisation]]
@@ -63,6 +65,9 @@
 - [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
 - [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
   - [[#déclinaison--noms][Déclinaison – Noms]]
+    - [[#nombre-1][Nombre]]
+    - [[#possession-1][Possession]]
+    - [[#relations-grammaticales-1][Relations grammaticales]]
   - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
   - [[#accord-des-verbes][Accord des verbes]]
   - [[#accord-des-adjectifs][Accord des adjectifs]]
@@ -149,7 +154,7 @@
   - [[#péchés][Péchés]]
   - [[#peuples][Peuples]]
   - [[#physique][Physique]]
-  - [[#possession-1][Possession]]
+  - [[#possession-2][Possession]]
   - [[#religion][Religion]]
   - [[#savoir][Savoir]]
   - [[#sensations][Sensations]]
@@ -158,6 +163,7 @@
     - [[#relations-sociales][Relations sociales]]
   - [[#substances][Substances]]
   - [[#temps-1][Temps]]
+    - [[#jours-de-la-semaine][Jours de la semaine]]
     - [[#saisons][Saisons]]
   - [[#travail][Travail]]
   - [[#végétaux][Végétaux]]
@@ -1079,20 +1085,9 @@
    grammatical. Cependant,  il faut  noter que ces  deux derniers  peuvent aussi
    être portés par les adjectifs (§[[#h-c2adae5e-930e-43eb-944e-654db14713d8]]).
 
-   La  morpho-phonologie des  noms du  Mattér présente  des règles  strictes sur
-   l’ordre des  affixes, et par  extension la structure  des mots de  la langue.
-   Voici ci-dessous l’ordre des constituants d’un nom en Mattér :
-   | /      | <           | <>        |        |
-   | racine | déclinaison | possessif | nombre |
-
-*** Types de noms
-    :PROPERTIES:
-    :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
-    :END:
-
 *** Nombre
     :PROPERTIES:
-    :CUSTOM_ID: h-027321ae-08de-48a4-8d99-a95ebc95d97f
+    :CUSTOM_ID: h-ca8761fe-35a3-490a-b8d5-95316c872890
     :END:
     Le Mattér est une langue faisant la distinction entre trois nombres pouvant
     être portés  par un  nom. Le  singulier n’est  pas marqué  et est  ainsi le
@@ -1104,53 +1099,110 @@
     de s’il  souhaite relever  une quantité jugée  peu importante  des éléments
     indiqués, ou au contraire une quantité jugée importante.
 
-    Le  paucal se  marque avec  l’affixe  <et> si  le  nom se  termine avec  une
-    consonne,  ou  avec <t>  si  la  phonotaxe  de  la langue  l’autorise  (voir
-    §[[#h-78519805-1712-463f-9679-11ff7d209061]]).  Similairement,   le  pluriel  se
-    marque avec l’affixe <aþ> ou <þ>. Exemples :
-    | /      | <         |        |         |
-    |        | singulier | paucal | pluriel |
-    |--------+-----------+--------+---------|
-    | livre  | boccé     | boccét | boccéþ  |
-    | oiseau | fogel     | fogelt | fogelþ  |
-    | jument | hryþ      | hryþt  | hryþaþ  |
-    | chien  | hynd      | hyndet | hyndaþ  |
+    Exemples :
+    - hynd :: un chien
+    - hyndet :: des (quelques) chiens
+    - hyndaþ :: des chiens
 
 *** Possession
     :PROPERTIES:
-    :CUSTOM_ID: h-988544c1-5001-4a5e-8ce6-be9381b3d266
+    :CUSTOM_ID: h-64136627-e733-4bd6-a5f6-d46b713f64e0
     :END:
-    La possession en Mattér peut  être exprimée de plusieurs façons différentes.
-    Les méthodes les  plus directes sont l’utilisation d’une  déclinaison sur le
-    possesseur  puis   placer  après  le  possesseur   l’élément  possédé  (voir
-    §[[#h-282a14ca-0d04-4f38-b0db-3c9771e47638]]), ou bien un ajout d’un affixe à un
-    nom si  on peut se référer  au possesseur via  un pronom. C’est ce  sur quoi
-    nous allons nous concentrer ici.
+    Bien  que  le  Mattér  dispose  de  pronoms  génitifs  pouvant  marquer  une
+    possession  d’un  nom par  quelqu’un  ou  quelque  chose, les  noms  peuvent
+    comporter  un  élément  possessif   remplaçant  ce  pronom.  Habituellement,
+    l’utilisation  du  pronom  est  vu  comme un  style  littéraire,  alors  que
+    l’utilisation  de  la  déclinaison  est   vue  comme  une  utilisation  plus
+    familière.
 
-    Bien que  les pronoms disposent  d’une forme génitive pouvant  être utilisée
-    afin         de         marquer          la         possession         (voir
-    §[[#h-0823300e-dca8-4928-a8b6-122f48e1fcc4]]),  cela  est un  cas  d’utilisation
-    rare du  pronom et les locuteurs  du Mattér préfèrent ajouter  le suffixe de
-    possession à un nom. Voici la table desdits suffixes :
-    #+CAPTION:Suffixes possessifs
-    | /             | <         | <      | <       |
-    |               | singulier | paucal | pluriel |
-    |---------------+-----------+--------+---------|
-    | 1ère personne | -yċ       | -yþ    | -yn     |
-    | 2ème personne | -dyn      | -(i)m  | -(e)nu  |
-    | 3ème personne | -én       | -ean   | -eaþ    |
-    Les voyelles entre parenthèses ne sont ajoutées que si l’ajout du suffixe
-    sans n’est pas autorisé par la phonotaxe du Mattér.
+    Exemples :
+    - ċeg hynd :: mon chien (littéraire)
+    - hyndyċ :: mon chien (familier)
 
-*** Déclinaison
+*** Relations grammaticales
     :PROPERTIES:
-    :CUSTOM_ID: h-282a14ca-0d04-4f38-b0db-3c9771e47638
+    :CUSTOM_ID: h-5b53594c-4cf1-4dec-8034-2386b65f0aca
     :END:
+    Le Mattér  est une  langue marquant  le rôle  des éléments  principaux d’une
+    phrase  via une  déclinaison desdits  éléments  plutôt que  par sa  syntaxe.
+    Exemple :
 
+    Ingvary! Þordegoċ, Ðebergetoc Hylfialþærém Hildyr Þifun al moðériþ hyndénant
+    haffea.
+
+    Ingvar-y  Þordeg-oċ  Ðeberget-oc  Hylfialþær-ém Hildyr  Þif-un  al  moðér-iþ
+    hynd-én-ant haff-ea
+
+    Ingvar-VOC Jeudi-LOC  Dhébergette-ABL Hulfialthère-LIMIT  Hildyr:NOM Þif-GEN
+    ART:DEF:SG:F mère-DAT hynd-POSS:3SG-ACC apporter-3SG:FUT:PERF
+
+    Ingvar! Jeudi, Hildyr apportera à la mère  de Sif son chien de Dhébergette à
+    Hulfiathère.
+
+*** Types de noms
+    :PROPERTIES:
+    :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
+    :END:
 *** Pronoms
     :PROPERTIES:
     :CUSTOM_ID: h-0823300e-dca8-4928-a8b6-122f48e1fcc4
     :END:
+
+**** Personnels
+     :PROPERTIES:
+     :CUSTOM_ID: h-266f8f3b-8884-4f95-841a-8da76bf2879b
+     :END:
+     - Première personne :
+     #+CAPTION:Pronoms de la première personne
+     | /         | <>        | >         | >     |         |
+     |           | nominatif | accusatif | datif | génitif |
+     |-----------+-----------+-----------+-------+---------|
+     | singulier | ċeg       | ċent      | ċeið  | ċyn     |
+     | paucal    | þi        | þid       | þið   | þyn     |
+     | pluriel   | non       | nound     | nonþ  | nun     |
+
+     - Seconde personne :
+     #+CAPTION:Pronoms de la seconde personne
+     | /         | <>        | >         | >     | >       |         |
+     |           | nominatif | accusatif | datif | génitif | vocatif |
+     |-----------+-----------+-----------+-------+---------+---------|
+     | singulier | du        | daun      | duð   | dyn     | udy     |
+     | paucal    | im        | eint      | ði    | nim     | eny     |
+     | pluriel   | min       | meint     | minþ  | men     | miny    |
+
+     - Troisième personne :
+     #+CAPTION:Pronoms de la troisième personne
+     | /             | <>        | >         | >     | >       |         |
+     |               | nominatif | accusatif | datif | génitif | vocatif |
+     |---------------+-----------+-----------+-------+---------+---------|
+     | sg neutre     | hé        | hét       | heþ   | hén     | yhé     |
+     | sg masculin   | hæ        | hæd       | haeð  | haen    | yhae    |
+     | sg féminin    | hou       | hound     | huð   | houn    | yhou    |
+     | sg non-humain | hit       | hint      | hiþ   | him     | yhi     |
+     | pau neutre    | hei       | heit      | heiþ  | hein    | yhei    |
+     | pau masculin  | þa        | þad       | þaið  | þan     | yþa     |
+     | pau féminin   | þu        | þunt      | þou   | þun     | yþu     |
+     | pau neutre    | hou       | hot       | hoþ   | ðo      | yðou    |
+     | pl neutre     | hea       | hint      | heaþ  | heam    | heaþy   |
+     | pl masculin   | þa        | þat       | þaið  | þan     | þaiðy   |
+     | pl féminin    | þu        | þunt      | þou   | þun     | yþu     |
+     | pl non-humain | hou       | hout      | houþ  | ðo      | houþy   |
+
+**** Relatifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-b342e1ad-5954-4f33-af0c-5ae0b13b1eed
+     :END:
+
+     | /         | <      | <          |
+     |           | humain | non-humain |
+     |-----------+--------+------------|
+     | nominatif | dia    | va         |
+     | accusatif | dién   | vén        |
+     | datif     | diéð   | véþ        |
+     | locatif   | deċ    | vaċ        |
+     | ablatif   | duc    | vuc        |
+     | limitatif | dym    | vym        |
+     | génitif   | dy     | vy         |
 
 ** Verbes
    :PROPERTIES:
@@ -1238,6 +1290,90 @@
    :PROPERTIES:
    :CUSTOM_ID: h-9b727eaa-6c90-4e6f-824a-3ba06b3fbcde
    :END:
+   La  morpho-phonologie des  noms du  Mattér présente  des règles  strictes sur
+   l’ordre des  affixes, et par  extension la structure  des mots de  la langue.
+   Voici ci-dessous l’ordre des constituants d’un nom en Mattér :
+   | /      | <           | <>        |        |
+   | racine | déclinaison | possessif | nombre |
+
+*** Nombre
+    :PROPERTIES:
+    :CUSTOM_ID: h-027321ae-08de-48a4-8d99-a95ebc95d97f
+    :END:
+
+    Le  paucal se  marque avec  l’affixe  <et> si  le  nom se  termine avec  une
+    consonne,  ou  avec <t>  si  la  phonotaxe  de  la langue  l’autorise  (voir
+    §[[#h-78519805-1712-463f-9679-11ff7d209061]]).  Similairement,   le  pluriel  se
+    marque avec l’affixe <aþ> ou <þ>. Exemples :
+    | /      | <         |        |         |
+    |        | singulier | paucal | pluriel |
+    |--------+-----------+--------+---------|
+    | livre  | boccé     | boccét | boccéþ  |
+    | oiseau | fogel     | fogelt | fogelþ  |
+    | jument | hryþ      | hryþt  | hryþaþ  |
+    | chien  | hynd      | hyndet | hyndaþ  |
+
+*** Possession
+    :PROPERTIES:
+    :CUSTOM_ID: h-988544c1-5001-4a5e-8ce6-be9381b3d266
+    :END:
+    La possession en Mattér peut  être exprimée de plusieurs façons différentes.
+    Les méthodes les  plus directes sont l’utilisation d’une  déclinaison sur le
+    possesseur  puis   placer  après  le  possesseur   l’élément  possédé  (voir
+    §[[#h-282a14ca-0d04-4f38-b0db-3c9771e47638]]), ou bien un ajout d’un affixe à un
+    nom si  on peut se référer  au possesseur via  un pronom. C’est ce  sur quoi
+    nous allons nous concentrer ici.
+
+    Bien que  les pronoms disposent  d’une forme génitive pouvant  être utilisée
+    afin         de         marquer          la         possession         (voir
+    §[[#h-0823300e-dca8-4928-a8b6-122f48e1fcc4]]),  cela  est un  cas  d’utilisation
+    rare du  pronom et les locuteurs  du Mattér préfèrent ajouter  le suffixe de
+    possession à un nom. Voici la table desdits suffixes :
+    #+CAPTION:Suffixes possessifs
+    | /             | <         | <      | <       |
+    |               | singulier | paucal | pluriel |
+    |---------------+-----------+--------+---------|
+    | 1ère personne | -yċ       | -yþ    | -yn     |
+    | 2ème personne | -dyn      | -(i)m  | -(e)nu  |
+    | 3ème personne | -én       | -ean   | -eaþ    |
+    Les voyelles entre parenthèses ne sont ajoutées que si l’ajout du suffixe
+    sans n’est pas autorisé par la phonotaxe du Mattér.
+
+    Exemples :
+    | /         | <           |
+    | Mattér    | Français    |
+    |-----------+-------------|
+    | boccéyċ   | mon livre   |
+    | boccém    | votre livre |
+    | boccéeaþt | vos livres  |
+
+*** Relations grammaticales
+    :PROPERTIES:
+    :CUSTOM_ID: h-282a14ca-0d04-4f38-b0db-3c9771e47638
+    :END:
+
+    | /               | <           |
+    | cas grammatical | déclinaison |
+    |-----------------+-------------|
+    | nominatif       | /Ø/         |
+    | accusatif       | -(a)nt      |
+    | datif           | -iþ         |
+    | locatif         | -(o)ċ       |
+    | ablatif         | -oc         |
+    | limitatif       | -ém         |
+    | génitif         | -un         |
+    | vocatif         | -y          |
+
+    Exemple :
+    | NOM   | boccé   | fogel    | hryþ    | hynd    |
+    | ACC   | boccént | fogelant | hryþant | hyndant |
+    | DAT   | boccéiþ | fogeliþ  | hryþiþ  | hyndiþ  |
+    | LOC   | boccéċ  | fogelċ   | hryþoċ  | hyndoċ  |
+    | ABL   | boccéoc | fogeloc  | hryþoc  | hyndoc  |
+    | LIMIT | boccém  | fogelém  | hryþém  | hyndém  |
+    | GEN   | boccéun | fogelun  | hryþun  | hyndun  |
+    | VOC   | boccéy  | fogely   | hryþy   | hyndy   |
+
 ** Déclinaison — Pronoms
    :PROPERTIES:
    :CUSTOM_ID: h-99c4d6a1-b39b-46dd-8a79-ce764c8251c4
@@ -1866,40 +2002,40 @@
     :CUSTOM_ID: h-c9cd6596-f6bf-4d8c-93b9-0a5c0bb1aa3e
     :END:
     - Première personne :
-      #+CAPTION:Pronoms de la première personne
-      | /         | <>        | >         | >     |         |
-      |           | nominatif | accusatif | datif | génitif |
-      |-----------+-----------+-----------+-------+---------|
-      | singulier | ċeg       | ċent      | ċeið  | ċyn     |
-      | paucal    | þi        | þid       | þið   | þyn     |
-      | pluriel   | non       | nound     | nonþ  | nun     |
+    #+CAPTION:Pronoms de la première personne
+    | /         | <>        | >         | >     |         |
+    |           | nominatif | accusatif | datif | génitif |
+    |-----------+-----------+-----------+-------+---------|
+    | singulier | ċeg       | ċent      | ċeið  | ċyn     |
+    | paucal    | þi        | þid       | þið   | þyn     |
+    | pluriel   | non       | nound     | nonþ  | nun     |
 
     - Seconde personne :
-      #+CAPTION:Pronoms de la seconde personne
-      | /         | <>        | >         | >     | >       |         |
-      |           | nominatif | accusatif | datif | génitif | vocatif |
-      |-----------+-----------+-----------+-------+---------+---------|
-      | singulier | du        | daun      | duð   | dyn     | udy     |
-      | paucal    | im        | eint      | ði    | nim     | eny     |
-      | pluriel   | min       | meint     | minþ  | meun    | miny    |
+    #+CAPTION:Pronoms de la seconde personne
+    | /         | <>        | >         | >     | >       |         |
+    |           | nominatif | accusatif | datif | génitif | vocatif |
+    |-----------+-----------+-----------+-------+---------+---------|
+    | singulier | du        | daun      | duð   | dyn     | udy     |
+    | paucal    | im        | eint      | ði    | nim     | eny     |
+    | pluriel   | min       | meint     | minþ  | men     | miny    |
 
     - Troisième personne :
-      #+CAPTION:Pronoms de la troisième personne
-      | /             | <>        | >         | >     | >       |         |
-      |               | nominatif | accusatif | datif | génitif | vocatif |
-      |---------------+-----------+-----------+-------+---------+---------|
-      | sg neutre     | hé        | hét       | heþ   | hén     | yhé     |
-      | sg masculin   | hae       | haed      | haeð  | haen    | yhae    |
-      | sg féminin    | hou       | hound     | huð   | houn    | yhou    |
-      | sg non-humain | hit       | hint      | hiþ   | him     | yhi     |
-      | pau neutre    | hei       | heit      | heiþ  | hein    | yhei    |
-      | pau masculin  | þa        | þad       | þaið  | þan     | yþa     |
-      | pau féminin   | þu        | þunt      | þou   | þun     | yþu     |
-      | pau neutre    | hou       | hot       | hoþ   | ðo      | yðou    |
-      | pl neutre     | hea       | hint      | heaþ  | heam    | heaþy   |
-      | pl masculin   | þa        | þat       | þaið  | þan     | þaiðy   |
-      | pl féminin    | þu        | þunt      | þou   | þun     | yþu     |
-      | pl non-humain | hou       | hout      | houþ  | ðo      | houþy   |
+    #+CAPTION:Pronoms de la troisième personne
+    | /             | <>        | >         | >     | >       |         |
+    |               | nominatif | accusatif | datif | génitif | vocatif |
+    |---------------+-----------+-----------+-------+---------+---------|
+    | sg neutre     | hé        | hét       | heþ   | hén     | yhé     |
+    | sg masculin   | hæ        | hæd       | haeð  | haen    | yhae    |
+    | sg féminin    | hou       | hound     | huð   | houn    | yhou    |
+    | sg non-humain | hit       | hint      | hiþ   | him     | yhi     |
+    | pau neutre    | hei       | heit      | heiþ  | hein    | yhei    |
+    | pau masculin  | þa        | þad       | þaið  | þan     | yþa     |
+    | pau féminin   | þu        | þunt      | þou   | þun     | yþu     |
+    | pau neutre    | hou       | hot       | hoþ   | ðo      | yðou    |
+    | pl neutre     | hea       | hint      | heaþ  | heam    | heaþy   |
+    | pl masculin   | þa        | þat       | þaið  | þan     | þaiðy   |
+    | pl féminin    | þu        | þunt      | þou   | þun     | yþu     |
+    | pl non-humain | hou       | hout      | houþ  | ðo      | houþy   |
 
 ** Guerre
    :PROPERTIES:
@@ -1975,6 +2111,7 @@
    - canal  ::   [ˈkanal]  (n)   canal,  voie   navigable,  conduit,   salon  de
               communication
    - o commén :: [ɔ kɔmːen] (vi) venir, arriver
+   - o haffa :: [ɔ ˈhafːa] (vt) apporter
    - o liegga :: [ɔ ˈlieɡːa] (vi) aller à travers champs, sans suivre de chemin,
                  errer
    - o rinna :: [ɔ ˈrinːa] (vi) courir, couler (eau, liquide)
@@ -2206,6 +2343,18 @@
    - galm :: [ɡalm] (adj) vieux, ancien
    - gyrneg :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
    - gærn :: [ɡaern] (n) année
+
+*** Jours de la semaine
+    :PROPERTIES:
+    :CUSTOM_ID: h-8464390c-eabd-462d-9015-951d9467e812
+    :END:
+    - Méndeg :: [ˈmandɛɡ] (n) Lundi, jour de la Lune
+    - Tyrdeg :: [ˈtyrdɛɡ] (n) Mardi, jour de Tyr
+    - Odineg :: [ˈɔdinɛɡ] (n) Mercredi, jour d’Odin
+    - Þordeg :: [ˈθɔrdɛɡ] (n) Jeudi, jour de Thor
+    - Frideg :: [ˈfridɛɡ] (n) Vendredi, jour de Frigga
+    - Laugardeg :: [ˈlauˌɡardeɡ] (n) Samedi, jour des bains
+    - Þyndeg :: [ˈθyndɛɡ] (n) Dimanche, jour du Soleil
 
 *** Saisons
     :PROPERTIES:
