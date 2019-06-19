@@ -5,7 +5,7 @@
 #+OPTIONS: H:4 toc:nil
 #+OPTIONS: auto-id:t
 
-* Table des matières                                      :TOC_4_gh:noexport:
+* Table des matières                                      :TOC_5_gh:noexport:
   :PROPERTIES:
   :CUSTOM_ID: h-a6f6e40b-46d3-44d2-8c0b-aa9f5aa1dcaa
   :END:
@@ -43,6 +43,8 @@
     - [[#possession][Possession]]
     - [[#relations-grammaticales][Relations grammaticales]]
     - [[#types-de-noms][Types de noms]]
+      - [[#noms-propres][Noms propres]]
+      - [[#noms-de-masse][Noms de masse]]
     - [[#pronoms][Pronoms]]
       - [[#personnels][Personnels]]
       - [[#relatifs][Relatifs]]
@@ -70,7 +72,14 @@
     - [[#relations-grammaticales-1][Relations grammaticales]]
   - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
   - [[#accord-des-verbes][Accord des verbes]]
-  - [[#accord-des-adjectifs][Accord des adjectifs]]
+    - [[#indicatif][Indicatif]]
+      - [[#perfectif][Perfectif]]
+      - [[#imperfectif][Imperfectif]]
+    - [[#impératif][Impératif]]
+    - [[#jussif][Jussif]]
+    - [[#participes][Participes]]
+  - [[#déclinaison-et-accord-des-adjectifs][Déclinaison et accord des adjectifs]]
+    - [[#nominalisation-1][Nominalisation]]
 - [[#temps-aspects-et-modes][Temps, aspects et modes]]
   - [[#temps][Temps]]
   - [[#aspect][Aspect]]
@@ -84,7 +93,7 @@
   - [[#questions][Questions]]
     - [[#question-absolue-ouinon][Question absolue (oui/non)]]
     - [[#question-relative][Question relative]]
-  - [[#impératif][Impératif]]
+  - [[#impératif-1][Impératif]]
 - [[#négation][Négation]]
 - [[#combination-de-clauses][Combination de clauses]]
   - [[#clauses-relatives-1][Clauses relatives]]
@@ -898,34 +907,34 @@
    | /                         | <                                 | <      |
    | script latin              | rune                              | nom    |
    |---------------------------+-----------------------------------+--------|
-   | f                         | {{{latex-html(\textara{f},ᚠ)}}}   | feioð  |
-   | u                         | {{{latex-html(\textara{u},ᚢ)}}}   | ulv    |
-   | þ                         | {{{latex-html(\textara{þ},ᚦ)}}}   | þær    |
-   | o                         | {{{latex-html(\textara{o},ᚩ)}}}   | orn    |
-   | r                         | {{{latex-html(\textara{r},ᚱ)}}}   | rinna  |
+   | a                         | {{{latex-html(\textara{a},ᚪ)}}}   | areð   |
+   | b                         | {{{latex-html(\textara{b},ᛒ)}}}   | bér    |
    | c                         | {{{latex-html(\textara{c},ᚳ)}}}   | calfér |
-   | ċ                         | {{{latex-html(\textara{g},ᚷ)}}}   | gelty  |
-   | ƿ                         | {{{latex-html(\textara{w},ᚹ)}}}   | wyrm   |
+   | d                         | {{{latex-html(\textara{d},ᛞ)}}}   | dur    |
+   | e                         | {{{latex-html(\textara{e},ᛖ)}}}   | eldyr  |
+   | ea                        | {{{latex-html(\textara{\ea},ᛠ)}}} | ealant |
+   | f                         | {{{latex-html(\textara{f},ᚠ)}}}   | feioð  |
+   | g                         | {{{latex-html(\textara{g},ᚷ)}}}   | gelty  |
    | h                         | {{{latex-html(\textara{h},ᚻ)}}}   | héþir  |
-   | g                         | {{{latex-html(\textara{I},ᛇ)}}}   | ċuðar  |
-   | n                         | {{{latex-html(\textara{n},ᚾ)}}}   | néf    |
    | i                         | {{{latex-html(\textara{i},ᛁ)}}}   | iéral  |
    | /j/ (uniquement en runes) | {{{latex-html(\textara{j},ᛄ)}}}   | iara   |
-   | p                         | {{{latex-html(\textara{p},ᛈ)}}}   | pyl    |
-   | ð                         | {{{latex-html(\textara{s},ᛋ)}}}   | ðengil |
-   | v                         | {{{latex-html(\textara{\ng},ᛝ)}}} | vér    |
-   | t                         | {{{latex-html(\textara{t},ᛏ)}}}   | tið    |
-   | b                         | {{{latex-html(\textara{b},ᛒ)}}}   | bér    |
-   | e                         | {{{latex-html(\textara{e},ᛖ)}}}   | eldyr  |
-   | m                         | {{{latex-html(\textara{m},ᛗ)}}}   | mény   |
    | l                         | {{{latex-html(\textara{l},ᛚ)}}}   | logar  |
-   | d                         | {{{latex-html(\textara{d},ᛞ)}}}   | dur    |
-   | é                         | {{{latex-html(\textara{\oe},ᛟ)}}} | éþƿér  |
-   | a                         | {{{latex-html(\textara{a},ᚪ)}}}   | areð   |
+   | m                         | {{{latex-html(\textara{m},ᛗ)}}}   | mény   |
+   | n                         | {{{latex-html(\textara{n},ᚾ)}}}   | néf    |
+   | o                         | {{{latex-html(\textara{o},ᚩ)}}}   | orn    |
+   | p                         | {{{latex-html(\textara{p},ᛈ)}}}   | pyl    |
+   | r                         | {{{latex-html(\textara{r},ᚱ)}}}   | rinna  |
+   | t                         | {{{latex-html(\textara{t},ᛏ)}}}   | tið    |
+   | u                         | {{{latex-html(\textara{u},ᚢ)}}}   | ulv    |
+   | v                         | {{{latex-html(\textara{\ng},ᛝ)}}} | vér    |
    | y                         | {{{latex-html(\textara{y},ᚣ)}}}   | ylgar  |
    | æ                         | {{{latex-html(\textara{æ},ᚫ)}}}   | ævy    |
-   | ea                        | {{{latex-html(\textara{\ea},ᛠ)}}} | ealant |
-   | séparateur de mots        | {{{latex-html(\textara{.},᛫)}}}   | þtikyl |
+   | é                         | {{{latex-html(\textara{\oe},ᛟ)}}} | éþƿér  |
+   | ð                         | {{{latex-html(\textara{s},ᛋ)}}}   | ðengil |
+   | þ                         | {{{latex-html(\textara{þ},ᚦ)}}}   | þær    |
+   | ċ                         | {{{latex-html(\textara{I},ᛇ)}}}   | ċuðar  |
+   | ƿ                         | {{{latex-html(\textara{w},ᚹ)}}}   | ƿyrm    |
+   | séparateur de mots        | {{{latex-html(\textara{.},᛫)}}}   | þticyl |
    | marquer de pauses         | {{{latex-html(\textara{:},᛬)}}}   | ċild   |
    | séparateur de phrases     | {{{latex-html(\textara{*},᛭)}}}   | ru     |
 
@@ -1104,6 +1113,16 @@
     - hyndet :: des (quelques) chiens
     - hyndaþ :: des chiens
 
+    Quelques noms sont catégorisés  comme étant indénombrables. Normalement, ils
+    ne sont pas sensés prendre de marquage de nombre, cependant un locuteur dans
+    un cadre informel  pourra rajouter le morphème du paucal  ou du pluriel afin
+    d’exprimer une idée globale de quantité subjectivement faible ou importante.
+
+    Exemples :
+    - eldyr :: de l’eau
+    - eldyrt :: peu d’eau
+    - eldyrþ :: beaucoup d’eau
+
 *** Possession
     :PROPERTIES:
     :CUSTOM_ID: h-64136627-e733-4bd6-a5f6-d46b713f64e0
@@ -1113,11 +1132,18 @@
     comporter  un  élément  possessif   remplaçant  ce  pronom.  Habituellement,
     l’utilisation  du  pronom  est  vu  comme un  style  littéraire,  alors  que
     l’utilisation  de  la  déclinaison  est   vue  comme  une  utilisation  plus
-    familière.
+    informelle.
 
     Exemples :
-    - ċeg hynd :: mon chien (littéraire)
-    - hyndyċ :: mon chien (familier)
+    - ċeg hynd :: mon chien (formel)
+    - hyndyċ :: mon chien (informel)
+
+    En revanche,  lors de  l’utilisation de  la déclinaison  génitive, l’élément
+    décliné est le possesseur et précède l’élément possédé.
+
+    Exemple :
+    - ċeg bruðyrun en boccé :: le livre de mon frère (formel)
+    - bruðyrunyċ en boccé :: le livre de mon frère (informel)
 
 *** Relations grammaticales
     :PROPERTIES:
@@ -1139,10 +1165,37 @@
     Ingvar! Jeudi, Hildyr apportera à la mère  de Sif son chien de Dhébergette à
     Hulfiathère.
 
+    Les rôles marqués sont les suivants :
+    - accusatif
+    - datif
+    - locatif
+    - ablatif
+    - limitatif
+    - génitif
+    - vocatif
+    Le cas nominatif reste non-marqué.
+
 *** Types de noms
     :PROPERTIES:
     :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
     :END:
+
+**** Noms propres
+     :PROPERTIES:
+     :CUSTOM_ID: h-8001cb4b-a855-46d9-a3ae-794f32b58faf
+     :END:
+     Les noms  propres ont un  statut plutôt unique  comparé aux autres  noms en
+     Mattér,  car  ils  ne   supportent  pas  quelques  éléments  habituellement
+     supportés par les  autres noms, notamment le nombre ou  le possessif (autre
+     qui via le  cas génitif). Généralement, les noms propres  se réfèrent à des
+     individus ou à des lieux, comme des villes ou des pays.
+
+**** Noms de masse
+     :PROPERTIES:
+     :CUSTOM_ID: h-1653deb7-d5bd-4e6d-8ce6-3ec80c7364d0
+     :END:
+     L’exemple prototypique du nom de masse est
+
 *** Pronoms
     :PROPERTIES:
     :CUSTOM_ID: h-0823300e-dca8-4928-a8b6-122f48e1fcc4
