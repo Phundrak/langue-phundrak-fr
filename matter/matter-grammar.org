@@ -1435,12 +1435,96 @@
    :PROPERTIES:
    :CUSTOM_ID: h-7073ad4a-69fc-4358-908c-762e3ebe03a0
    :END:
-** Accord des adjectifs
+
+*** Indicatif
+    :PROPERTIES:
+    :CUSTOM_ID: h-4a6f676c-fa1d-42ea-8b79-fde34e809a97
+    :END:
+**** Perfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-b627c8c4-2cb5-45ea-8acd-8bf8c21fdc74
+     :END:
+     #+caption: Conjugaison du perfectif de l’indicatif
+     | /    | <>    |       |
+     |      | passé | futur |
+     |------+-------+-------|
+     | 1S   | Vo    | y Vo  |
+     | 2S   | Vou   | y Vou |
+     | 3S   | Vo    | y Vo  |
+     | 1PAU | Vur   | y Vur |
+     | 2PAU | Vun   | y Vun |
+     | 3PAU | Vur   | y Vur |
+     | 1P   | Vu    | y Vu  |
+     | 2P   | Vu    | y Vu  |
+     | 3P   | Von   | y Von |
+
+**** Imperfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-c17652c3-6acb-4590-97bc-de86b6db33fe
+     :END:
+     #+caption: Conjugaison de l’imperfectif de l’indicatif
+     | /    | <>    | >       |        |
+     |      | passé | présent | futur  |
+     |------+-------+---------+--------|
+     | 1S   | Ver   | Ve      | y Ve   |
+     | 2S   | Vét   | Vei     | y Vei  |
+     | 3S   | Ver   | Vea     | y Vea  |
+     | 1PAU | Vez   | Vet     | y Vet  |
+     | 2PAU | Ves   | Væt     | y Væt  |
+     | 3PAU | Verz  | Væt     | y Væt  |
+     | 1P   | Ven   | Vern    | y Vern |
+     | 2P   | Vent  | Var     | y Var  |
+     | 3P   | Ven   | Vér     | y Vér  |
+
+*** Impératif
+    :PROPERTIES:
+    :CUSTOM_ID: h-fa5fc02e-df22-4f88-bd8d-44b46895e522
+    :END:
+    #+CAPTION:Conjugaison des verbes régulier à l’impératif
+    | /         | <           |
+    | nombre    | conjugaison |
+    |-----------+-------------|
+    | singulier | V(a)ge      |
+    | paucal    | V(a)gér     |
+    | pluriel   | V(e)gi      |
+
+*** Jussif
+    :PROPERTIES:
+    :CUSTOM_ID: h-39e2ea5f-d2cc-445c-90e2-655f8e744698
+    :END:
+    #+CAPTION:Conjugaison des verbes régulier au jussif
+    | /         | <           |
+    | nombre    | conjugaison |
+    |-----------+-------------|
+    | singulier | V(e)get     |
+    | paucal    | V(e)gent    |
+    | pluriel   | V(e)geat    |
+
+*** Participes
+    :PROPERTIES:
+    :CUSTOM_ID: h-21bce9e4-fc32-44a8-9c02-5237f86d617b
+    :END:
+    #+CAPTION:Participes réguliers
+    | /                    | <       |
+    | type de participe    | forme   |
+    |----------------------+---------|
+    | participe passé      | Vðet    |
+    | participe présent    | V(o)ta  |
+    | participe futur      | V(é)tér |
+    | participe progressif | Vand    |
+
+** Déclinaison et accord des adjectifs
    :PROPERTIES:
    :CUSTOM_ID: h-6f758eb8-3540-405b-9af7-f6fd6033d8c3
    :END:
 
-{{{newpage}}}
+*** Nominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-40b54cd0-045c-4c64-8e4b-b59c5bce1d97
+    :END:
+    Nominalisation de l’adjectif via le suffixe *-enþ*
+
+ {{{newpage}}}
 * Temps, aspects et modes
   :PROPERTIES:
   :CUSTOM_ID: h-94f958a3-7d28-4893-803b-56158b8fc921
