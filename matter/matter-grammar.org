@@ -1846,6 +1846,7 @@
    :CUSTOM_ID: h-78ec7325-bd87-4906-aa2c-f96a863e6da3
    :END:
    - fri :: [fri] (adj) libre, indépendant
+   - o bélla :: [ɔ ˈbelːa] (vt) frapper, avec intention de blesser
 
 ** Conteneurs
    :PROPERTIES:
@@ -1861,6 +1862,7 @@
    - fingér :: [ˈfinɡer] (n) doigt
    - hond :: [hɔnd] (n) main
    - hérðér :: [ˈherðer] (n) partie haute du dos, au niveau des omoplates
+   - hyð :: [hyð] (n) peau
    - lycam :: [ˈlykam] (n) corps
    - néf :: [nef] (n) nez
 
@@ -1925,6 +1927,8 @@
    - eldyr :: [ˈɛldyr] (n) feu, passion
    - lycce :: [ˈlykːɛ] (adj) joyeux, content
    - o ƿilia :: [ɔ ˈwilja] (vt) vouloir, avoir envie de
+   - yr :: [yr] (adj) fou
+   - yrenþ :: [ˈyrɛnθ] (n) folie
    - ƿille :: [ˈwilːɛ] (n) souhait, désir
 
 ** Évaluation
@@ -1939,6 +1943,7 @@
    - ru :: [ru] (n) pause, repos (long), vacances
    - ċild :: [çild] (n) pause, repos (temporaire), jour férié
    - o ċilden :: [ɔ ˈçildɛn] (vi) se reposer, rester, faire une sieste
+   - o gora :: [ɔ ˈɡora] (vi) se passer, se produire.
 
 ** Existence
    :PROPERTIES:
@@ -1990,7 +1995,7 @@
             entre propositions, voir [[vocab-ella][ella]].
    - ja :: [ja] (adv) ouais (colloquial)
    - jæ :: [jae] (adv) oui
-   - licca :: [ˈlikːa] (adv) aussi, de même, dans la même veine
+   - licca :: [ˈlikːa] (adv) aussi, de même, dans la même veine, comme
    - méllém :: [melːem] (adv) entre (deux personnes)
    - na :: [na] (adv) nan (colloquial)
    - neiċ :: [nɛiç] (adv) aucun
@@ -2245,14 +2250,17 @@
    :PROPERTIES:
    :CUSTOM_ID: h-8fb06ee2-d52c-4468-9996-e53568c152b1
    :END:
-   - canal  ::   [ˈkanal]  (n)   canal,  voie   navigable,  conduit,   salon  de
-              communication
+   - canal   ::    [ˈkanal]  (n)  canal,   voie  navigable,  conduit,  salon  de
+               communication
+   - of :: [ɔf] (adv) au travers
    - o commén :: [ɔ kɔmːen] (vi) venir, arriver
+   - o ga :: [ɔ ɡa] (vi) aller
    - o haffa :: [ɔ ˈhafːa] (vt) apporter
    - o liegga :: [ɔ ˈlieɡːa] (vi) aller à travers champs, sans suivre de chemin,
                  errer
    - o rinna :: [ɔ ˈrinːa] (vi) courir, couler (eau, liquide)
-   - o ga :: [ɔ ɡa] (vi) aller
+   - o þpinna :: [ɔ ˈθpinːa] (vi)  tourner sur soi-même, faire des rotations sur
+                 soi-même
    - þcort :: [θkɔrt] (adj) rapide
 
 ** Nature
@@ -2552,7 +2560,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-1eb7633c-f72e-42ad-85c5-0ca84415bcc1
    :END:
-
+   - caruþel :: [ˈkaˌruθɛl] (n) caroussel
    - modðét :: [ˈmɔdðet] (adj) opposé, aux antipodes
 
 {{{newpage}}}
