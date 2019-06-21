@@ -40,8 +40,10 @@
 - [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
     - [[#nombre][Nombre]]
+    - [[#genre][Genre]]
     - [[#possession][Possession]]
     - [[#relations-grammaticales][Relations grammaticales]]
+    - [[#articles][Articles]]
     - [[#types-de-noms][Types de noms]]
       - [[#noms-propres][Noms propres]]
       - [[#noms-de-masse][Noms de masse]]
@@ -181,7 +183,6 @@
   - [[#vie-et-santé][Vie et santé]]
   - [[#à-trier][À trier]]
 - [[#footnotes][Footnotes]]
-- [[#annexes][Annexes]]
 
 * Avant-propos
   :PROPERTIES:
@@ -226,6 +227,11 @@
   d’une langue  jouet dont la seule  utilité au-delà de mon  propre plaisir sera
   dans le cadre  de mes études d’informatique pour un  projet de troisième année
   de licence en ingénierie des langues.
+
+  Ce document utilisera les  conventions habituelles des ouvrages linguistiques,
+  tel que  le gloss  pour le  détail linguistique d’une  phrase, ou  les phrases
+  incorrectes marques  par une étoile ~*~  et les phrases questionnables  par un
+  point d’interrogation ~?~.
 
 ** Le nom de la langue
    :PROPERTIES:
@@ -1123,6 +1129,43 @@
     - eldyrt :: peu d’eau
     - eldyrþ :: beaucoup d’eau
 
+*** Genre
+    :PROPERTIES:
+    :CUSTOM_ID: h-bf148e21-2cb0-4348-b032-11df3fabaf3d
+    :END:
+    Le Mattér est une langue genrée,  bien que faiblement. La différenciation de
+    genre trouve son importance principalement lors de l’utilisation de certains
+    articles ou  avec les pronoms. Le  genre est une information  portée par les
+    noms à un niveau sémantique, il faut  donc apprendre par cœur les genres des
+    différents  mots,  bien  que  les  genres en  Mattér  soient  très  aisément
+    prévisibles. Quatre genres existent en Mattér :
+    - Neutre (~N~)
+    - Masculin (~M~)
+    - Féminin (~F~)
+    - Non-humain (~NHUM~)
+
+    Le masculin et  le féminin sont utilisés pour désigner  des éléments uniques
+    ou  des groupes  uniformément masculins  ou féminins  respectivement. Si  le
+    genre  d’une  personne  est inconnu,  ou  si  l’on  se  réfère à  un  groupe
+    hétérogène (même  à partir de  deux personnes),  alors le genre  neutre sera
+    utilisé.  Le genre  non-humain se  réfère, comme  son nom  l’indique, à  des
+    entités qui ne sont pas considérées  comme étant humaines, comme des animaux
+    ou objets. Concernant  les animaux, il est tout de  même possible d’utiliser
+    le genre neutre pour se référer  à des animaux envers lesquels une affection
+    est exprimée (généralement  les animaux domestiques), et un  animal que l’on
+    affectionne tout  particulièrement (comme son  animal de compagnie)  peut se
+    voir attribué un genre masculin ou  féminin comme pour un humain. Les chiens
+    et les  chats en particulier  ne se  voient quasiment jamais  attribués d’un
+    genre non-humain.
+
+    Exemples :
+
+    - dottyryċ (ma fille) : féminin
+    - þonyċ (mon fils) : masculin
+    - dottyryċ ar þonyċ (mon fils et ma fille) : neutre
+    - cat ar hynd (un chat et un chien) : neutre
+    - boccéyċ : non-humain
+
 *** Possession
     :PROPERTIES:
     :CUSTOM_ID: h-64136627-e733-4bd6-a5f6-d46b713f64e0
@@ -1144,6 +1187,9 @@
     Exemple :
     - ċeg bruðyrun en boccé :: le livre de mon frère (formel)
     - bruðyrunyċ en boccé :: le livre de mon frère (informel)
+
+    Plus  d’informations sur  la déclinaison  du  génitif sont  données dans  le
+    chapitre §[[#h-9b727eaa-6c90-4e6f-824a-3ba06b3fbcde]].
 
 *** Relations grammaticales
     :PROPERTIES:
@@ -1175,71 +1221,122 @@
     - vocatif
     Le cas nominatif reste non-marqué.
 
+*** Articles
+    :PROPERTIES:
+    :CUSTOM_ID: h-f44d2152-6c88-413a-8305-303217d08698
+    :END:
+    Le  Mattér ne  dispose  que d’un  type d’articles  se  rattachant au  noms :
+    l’article défini, traduisible par « le » ou « la » en Français ou « the » en
+    Anglais. Le Mattér dispose ainsi de huit articles, un pour chaque genre au
+    singulier, et deux pour le paucal et pour le pluriel chacun.
+
+    | /         | <     | <       |
+    | nombre    | genre | article |
+    |-----------+-------+---------|
+    | singulier | N     | a       |
+    | singulier | M     | é       |
+    | singulier | F     | al      |
+    | singulier | NHUM  | en      |
+    | paucal    | N,M,F | od      |
+    | paucal    | NHUM  | yt      |
+    | pluriel   | N,M,F | eþ      |
+    | pluriel   | NHUM  | ev      |
+
+    Exemples :
+    - en céveð : le poème
+    - a cycvénd : l’animal de compagnie
+    - é þon : le fils
+    - al dottyr : la fille
+    - od cyngyt : les (quelques) rois
+    - yt ealantyt : les (quelques) îles
+    - eþ Alfénþ : les (nombreux) elfes
+    - ev fialþ : les (nombreuses) montagnes
+
 *** Types de noms
     :PROPERTIES:
     :CUSTOM_ID: h-16a67642-7eb4-4a57-8f92-1ee64613ff5d
     :END:
-
 **** Noms propres
      :PROPERTIES:
      :CUSTOM_ID: h-8001cb4b-a855-46d9-a3ae-794f32b58faf
      :END:
      Les noms  propres ont un  statut plutôt unique  comparé aux autres  noms en
-     Mattér,  car  ils  ne   supportent  pas  quelques  éléments  habituellement
-     supportés par les  autres noms, notamment le nombre ou  le possessif (autre
-     qui via le  cas génitif). Généralement, les noms propres  se réfèrent à des
-     individus ou à des lieux, comme des villes ou des pays.
+     Mattér,  car  ils  ne   supportent  que  quelques  éléments  habituellement
+     supportés par les autres  noms : les relations grammaticales. Généralement,
+     les noms  propres se  réfèrent à des  individus ou à  des lieux,  comme des
+     villes ou des pays.
 
 **** Noms de masse
      :PROPERTIES:
      :CUSTOM_ID: h-1653deb7-d5bd-4e6d-8ce6-3ec80c7364d0
      :END:
-     L’exemple prototypique du nom de masse est
+     Les  noms   dénombrables  sont  des  noms   disposant  d’une  individualité
+     d’éléments désignés par ce nom pouvant  être établie, et ces individus sont
+     suffisamment  distingables entre  eux  pour pouvoir  être  comptés. Ils  se
+     réfèrent  principalement  à des  éléments  concrets,  souvent physiques.  À
+     l’inverse,   les  concepts   abstraits   ou  les   éléments  desquels   une
+     individualité  ne se  dégage  pas se  rangent dans  la  catégorie des  noms
+     indénombrables, ou  noms de masse.  Dans un  niveau de langage  formel, ces
+     derniers ne prennent ni paucal, ni pluriel ; en revanche, dans un niveau de
+     langage plus informel, il est possible d’apposer le paucal ou pluriel à ces
+     noms afin  d’exprimer une quantité  respectivement faible ou  importante de
+     l’élément exprimé.  Une unité  de mesure est  nécessaire pour  exprimer une
+     quantité précise de cet élément si ce dernier est physique, ou bien grâce à
+     des représentations subjectives de quantités.
+
+     Exemples :
+     - æn hynd : un chien (dénombrable)
+     - twéa hyndyt : deux chiens (dénombrable)
+     - dren hyndyþ : dix chiens (dénombrable)
+     - myrcér : de l’obscurité (indénombrable)
+     - *æn myrcér : *une obscurité
+     - *yt myrcér : *des obscurités
+     - en mjol : la farine
+     - ?yt mjol : le peu de farine
+     - ?ev mjol : l’importante quantité de farine
 
 *** Pronoms
     :PROPERTIES:
     :CUSTOM_ID: h-0823300e-dca8-4928-a8b6-122f48e1fcc4
     :END:
+    Le  Mattér dispose  de  plusieurs types  de pronoms  divers.  chacun de  ces
+    différents types de pronoms seront présentés ci-dessous.
 
 **** Personnels
      :PROPERTIES:
      :CUSTOM_ID: h-266f8f3b-8884-4f95-841a-8da76bf2879b
      :END:
-     - Première personne :
-     #+CAPTION:Pronoms de la première personne
-     | /         | <>        | >         | >     |         |
-     |           | nominatif | accusatif | datif | génitif |
-     |-----------+-----------+-----------+-------+---------|
-     | singulier | ċeg       | ċent      | ċeið  | ċyn     |
-     | paucal    | þi        | þid       | þið   | þyn     |
-     | pluriel   | non       | nound     | nonþ  | nun     |
+     Les pronoms  personnels sont  des pronoms  se référant  à des  personnes et
+     peuvent remplacer  n’importe quelle  phrase nominale. Voici  ci-dessous les
+     pronoms personnels du Mattér.
 
-     - Seconde personne :
-     #+CAPTION:Pronoms de la seconde personne
-     | /         | <>        | >         | >     | >       |         |
-     |           | nominatif | accusatif | datif | génitif | vocatif |
-     |-----------+-----------+-----------+-------+---------+---------|
-     | singulier | du        | daun      | duð   | dyn     | udy     |
-     | paucal    | im        | eint      | ði    | nim     | eny     |
-     | pluriel   | min       | meint     | minþ  | men     | miny    |
+     | /          | <   | <     | <    | <    | <    | <     |
+     |            | NOM | ACC   | DAT  | GEN  | POSS | VOC   |
+     |------------+-----+-------+------+------+------+-------|
+     | 1:sg       | ċeg | ċent  | ċeið | ċyn  |      |       |
+     | 1:pau      | þi  | þid   | þið  | þyn  |      |       |
+     | 1:pl       | non | nound | nonþ | nun  |      |       |
+     | 2:sg       | du  | daun  | duð  | dyn  |      | udy   |
+     | 2:pau      | im  | eint  | ði   | nim  |      | eny   |
+     | 2:pl       | min | meint | minþ | men  |      | miny  |
+     | 3:sg:N     | hé  | hét   | heþ  | hén  |      | yhé   |
+     | 3:sg:M     | hæ  | hæd   | haeð | haen |      | yhae  |
+     | 3:sg:F     | hou | hound | huð  | houn |      | yhou  |
+     | 3:sg:NHUM  | hit | hint  | hiþ  | him  |      | yhi   |
+     | 3:pau:N    | hei | heit  | heiþ | hein |      | yhei  |
+     | 3:pau:M    | þa  | þad   | þaið | þan  |      | yþa   |
+     | 3:pau:F    | þu  | þunt  | þou  | þun  |      | yþu   |
+     | 3:pau:NHUM | hou | hot   | hoþ  | ðo   |      | yðou  |
+     | 3:pl:N     | hea | hint  | heaþ | heam |      | heaþy |
+     | 3:pl:M     | þa  | þat   | þaið | þan  |      | þaiðy |
+     | 3:pl:F     | þu  | þunt  | þou  | þun  |      | yþu   |
+     | 3:pl:NHUM  | hou | hout  | houþ | ðo   |      | houþy |
 
-     - Troisième personne :
-     #+CAPTION:Pronoms de la troisième personne
-     | /             | <>        | >         | >     | >       |         |
-     |               | nominatif | accusatif | datif | génitif | vocatif |
-     |---------------+-----------+-----------+-------+---------+---------|
-     | sg neutre     | hé        | hét       | heþ   | hén     | yhé     |
-     | sg masculin   | hæ        | hæd       | haeð  | haen    | yhae    |
-     | sg féminin    | hou       | hound     | huð   | houn    | yhou    |
-     | sg non-humain | hit       | hint      | hiþ   | him     | yhi     |
-     | pau neutre    | hei       | heit      | heiþ  | hein    | yhei    |
-     | pau masculin  | þa        | þad       | þaið  | þan     | yþa     |
-     | pau féminin   | þu        | þunt      | þou   | þun     | yþu     |
-     | pau neutre    | hou       | hot       | hoþ   | ðo      | yðou    |
-     | pl neutre     | hea       | hint      | heaþ  | heam    | heaþy   |
-     | pl masculin   | þa        | þat       | þaið  | þan     | þaiðy   |
-     | pl féminin    | þu        | þunt      | þou   | þun     | yþu     |
-     | pl non-humain | hou       | hout      | houþ  | ðo      | houþy   |
+     Remarquez que la  première personne de dispose pas de  forme vocative. Cela
+     est  dû au  fait qu’en  Mattér,  le vocatif  ne peut  s’appliquer qu’à  des
+     personnes extérieures au groupe dont fait partie le locuteur.
+
+     Contrairement
 
 **** Relatifs
      :PROPERTIES:
@@ -1418,6 +1515,7 @@
     | vocatif         | -y          |
 
     Exemple :
+    | /     | <       | <        | <       | <       |
     | NOM   | boccé   | fogel    | hryþ    | hynd    |
     | ACC   | boccént | fogelant | hryþant | hyndant |
     | DAT   | boccéiþ | fogeliþ  | hryþiþ  | hyndiþ  |
@@ -1586,6 +1684,8 @@
   :PROPERTIES:
   :CUSTOM_ID: h-d6b2c293-0354-4cb4-9212-2190eb52a323
   :END:
+
+
 {{{newpage}}}
 * Combination de clauses
   :PROPERTIES:
@@ -1693,30 +1793,30 @@
                      Détails et exemples
 
   - autre mot :: [phonétique]
-
     1. (classe) Définition 1
 
        Détails et exemples 1
-
     2. (classe) Définition 2
 
        Détails et exemples 2
 
   Abréviations :
-  - adj :: adjectif
-  - adv :: adverbe
-  - conj :: conjonction
-  - ind :: indénombrable
-  - inter :: interrogatif
-  - n :: nom commun
-  - np :: nom propre
-  - pau :: paucal
-  - pl :: pluriel
-  - pron :: pronom
-  - sg :: singulier
-  - vi :: wccverbe intransitif
-  - vt :: verbe transitif
-  - on :: onomatopée
+  | /     | <                    |
+  | adj   | adjectif             |
+  | adv   | adverbe              |
+  | conj  | conjonction          |
+  | ind   | indénombrable        |
+  | inter | interrogatif         |
+  | n     | nom commun           |
+  | np    | nom propre           |
+  | pau   | paucal               |
+  | pl    | pluriel              |
+  | pron  | pronom               |
+  | sg    | singulier            |
+  | vi    | verbe intransitif    |
+  | vt    | verbe transitif      |
+  | on    | onomatopée           |
+
 
 ** Actions physiques
    :PROPERTIES:
@@ -1735,7 +1835,7 @@
    - cat :: [kat] (n) chat
    - cycvénd :: [ˈkykvend] (n) animal domestiqué, de compagnie
    - dur :: [dur] (n) cerf, biche
-   - dyr :: [dyr] (n) animal, généralement sauvage, bête sauvage
+   - dyr :: [dyr] (n) animal, bête sauvage
    - fician :: [ˈfikjan] (n) poisson
    - fogel :: [ˈfɔɡɛl] (n) oiseau
    - gelty :: [ˈɡɛlty] (n) sanglier (sauvage)
@@ -1757,7 +1857,9 @@
    :CUSTOM_ID: h-1b4601d3-be4a-419a-bbf4-52812ea753d4
    :END:
    - den :: [dɛn] (n) danse
-   - freði :: [frɛði] (n) histoire (science, faits), savoir
+   - freði :: [frɛði]
+     1. (n) histoire (science, faits)
+     2. (n) savoir historique
    - lyþt :: [lyθt] (n) art
    - o dene :: [ɔ dɛnɛ] (vi) danser
    - þéga :: [θeɡa] (n) histoire (légende)
@@ -1768,20 +1870,27 @@
     :CUSTOM_ID: h-4d17cb6e-2c31-45f5-bc3e-d24c88cd6d36
     :END:
     - boccé :: [ˈbɔkːe] (n) livre
-    - breif :: [brɛɪf] (n) lettre, missive
+    - breif :: [brɛɪf]
+      1. (n) lettre
+      2. (n) missive
     - o léþan :: [ɔ ˈleθa] (vt) lire
-    - o rittan :: [ɔ ˈritːa] (vt) écrire, graver des runes
-    - o géren :: [ɔ ˈɡerɛn] (vt) écrire, tracer des runes ou lettres latines sur
-                 une surface plane (parchemin, papier,…)
-    - ryn :: [ryn] (n) rune, lettre alphabétique
+    - o rittan :: [ɔ ˈritːa] (vt) écrire en gravant
+    - o géren :: [ɔ ˈɡerɛn] (vt) écrire (sans graver)
+    - ryn :: [ryn]
+      1. (n) rune
+      2. (n) lettre de l’alphabet
 
 *** Visuel
     :PROPERTIES:
     :CUSTOM_ID: h-c0bfa41a-4251-4fc6-9d48-68dcc5e2e79f
     :END:
-    - o mércan :: [ɔ ˈmerkan] (vt) dessiner, marquer
+    - o mércan :: [ɔ ˈmerkan]
+      1. (vt) dessiner
+      2. (vt) marquer
     - o þteinan :: [ɔ ˈθtɛinan] (vt) peindre
-    - þteinér :: [ˈþtɛinér] (n) peinture, image
+    - þteinér :: [ˈþtɛinér]
+      1. (n) peinture
+      2. (n) image
 
 *** Audio
     :PROPERTIES:
@@ -1792,19 +1901,24 @@
     - o þongan :: [ɔ ˈθɔnɡan] (vi) chanter
 
                   <o þongan> est un verbe intransitif. Afin d’exprimer l’idée de
-                  chanter quelque chose, comme en français, on utilise l’ablatif
-                  pour  le  patient  sémantique. Exemple :  Céveðac  þonge.  /Je
-                  chante un poème./
+                  chanter quelque  chose, on  utilise l’ablatif pour  le patient
+                  sémantique. Exemple : Céveðac þonge. /Je chante un poème./
 
 ** Astronomie
    :PROPERTIES:
    :CUSTOM_ID: h-4591e215-c284-40eb-8c71-18f8c4dbfcd1
    :END:
-   - iurd :: [jurd] (n) monde, Terre
+   - iurd :: [jurd]
+     1. (n) monde
+     2. (n) Terre
    - iurþtiern :: [ˈjurθtjɛrn] (n) planète
-   - gymmur :: [ˈɡymːur] (n) espace, vide céleste
+   - gymmur :: [ˈɡymːur]
+     1. (n) espace
+     2. (n) vide céleste
    - mény :: [ˈmeny] (n) lune
-   - þtiern :: [θtjɛrn] (n) étoile, astre
+   - þtiern :: [θtjɛrn]
+     1. (n) étoile
+     2. (n) astre
    - þynna :: [ˈθynːa] (n) soleil
 
 ** Bâtiments
@@ -1812,7 +1926,9 @@
    :CUSTOM_ID: h-2827b34a-e9cf-474f-8d9e-40c707f478fe
    :END:
    - o flytten :: [ɔ flytːɛn] (vi) déménager
-   - gæt :: [ɡaset] (n) rue, allée
+   - gæt :: [ɡaset]
+     1. (n) rue
+     2. (n) allée
 
 *** La ville
     :PROPERTIES:
@@ -1824,29 +1940,39 @@
     :PROPERTIES:
     :CUSTOM_ID: h-67fe5a74-9aff-4971-b10e-666b16fcdf29
     :END:
-   - bér :: [ber] (n) maison (lieu de vie, chez soi, en. « home »)
-   - hyþ :: [hyθ] (n) maison (bâtiment, en. « house »)
-   - tere :: [ˈtɛrɛ] (n) tour, haut monument
+   - bér :: [ber] (n) maison, le lieu de vie, chez soi, anglais « home »
+   - hyþ :: [hyθ] (n) maison, le bâtiment, anglais « house »
+   - tere :: [ˈtɛrɛ]
+     1. (n) tour
+     2. (n) haut monument
 
 ** Commerce
    :PROPERTIES:
    :CUSTOM_ID: h-6f776734-733c-42b1-96c7-08e80a0eb761
    :END:
    - marcéð :: [ˈmarkeð] (n) marché
-   - o þælle :: [ɔ ˈsaelːɛ] (vt) vendre, donner à quelqu’un
-   - o geffan :: [ɔ ˈɡɛfːan] (vt) donner, offrir
-   - o caupe :: [ɔ ˈkaupɛn] (vt) acheter, payer pour
+   - o þælle :: [ɔ ˈsaelːɛ]
+     1. (vt) vendre
+     2. (vt) donner à quelqu’un contre quelque chose d’autre
+   - o geffan :: [ɔ ˈɡɛfːan]
+     1. (vt) offrir
+     2. (vt) donner sans échange
+   - o caupe :: [ɔ ˈkaupɛn]
+     1. (vt) acheter
+     2. (vt) payer pour
 
-                Il est possible  d’utiliser un élément datif pour  ce verbe afin
-                de signifier  la personne recevant le  paiement, et généralement
-                également vendant l’élément acheté.
+        Il  est possible  d’utiliser  un élément  datif pour  ce  verbe afin  de
+        signifier la  personne recevant  le paiement, et  généralement également
+        vendant l’élément acheté.
 
 ** Conflits
    :PROPERTIES:
    :CUSTOM_ID: h-78ec7325-bd87-4906-aa2c-f96a863e6da3
    :END:
-   - fri :: [fri] (adj) libre, indépendant
-   - o bélla :: [ɔ ˈbelːa] (vt) frapper, avec intention de blesser
+   - fri :: [fri]
+     1. (adj) libre
+     2. (adj) indépendant
+   - o bélla :: [ɔ ˈbelːa] (vt) frapper avec intention de blesser
 
 ** Conteneurs
    :PROPERTIES:
@@ -1880,14 +2006,26 @@
     :PROPERTIES:
     :CUSTOM_ID: h-962c8931-7145-45ef-ba07-0fc426e05867
     :END:
-    - lyn :: [lyn] (n) loin, lointain
+    - lyn :: [lyn]
+      1. (n) loin
+      2. (adj) lointain
 *** Taille
     :PROPERTIES:
     :CUSTOM_ID: h-2c87765b-1d43-4725-9c55-c4faa2fe2193
     :END:
-    - meccil :: [mɛkːil] (adj) grand, imposant, puissant, fort
-    - þmoð :: [θmɔð] (adj) petit, étroit
-    - þtor :: [θtɔr] (adj) gros, grand, de grande taille, large
+    - meccil :: [mɛkːil]
+      1. (adj) grand
+      2. (adj) imposant
+      3. (adj) puissant
+      4. (adj) fort
+    - þmoð :: [θmɔð]
+      1. (adj) petit
+      2. (adj) étroit
+    - þtor :: [θtɔr]
+      1. (adj) gros
+      2. (adj) grand
+      3. (adj) de grande taille
+      4. (adj) large
 
 *** Quantifieurs
     :PROPERTIES:
@@ -1907,6 +2045,10 @@
    :PROPERTIES:
    :CUSTOM_ID: h-f4ee53ca-f1a4-4172-8b88-7f2c875826c3
    :END:
+   - logar :: [ˈlɔɡar]
+     1. (n) mer
+     2. (n ind) eau de mer
+     3. (n ind) eaux maritimes
 
 ** Effort
    :PROPERTIES:
@@ -1917,19 +2059,29 @@
    :PROPERTIES:
    :CUSTOM_ID: h-196d3adf-334f-4a6a-a992-e2ab877110e1
    :END:
-   - eldyr :: [ˈɛldyr] (n) feu, passion
+   - eldyr :: [ˈɛldyr]
+     1. (n) feu
+     2. (n) passion
    - hyr :: [hyr] (n) flamme
 
 ** Émotions
    :PROPERTIES:
    :CUSTOM_ID: h-e31a524d-1c38-4bb8-8fc1-ace58d98cf0a
    :END:
-   - eldyr :: [ˈɛldyr] (n) feu, passion
-   - lycce :: [ˈlykːɛ] (adj) joyeux, content
-   - o ƿilia :: [ɔ ˈwilja] (vt) vouloir, avoir envie de
+   - eldyr :: [ˈɛldyr]
+     1. (n) feu
+     2. (n) passion
+   - lycce :: [ˈlykːɛ]
+     1. (adj) joyeux
+     2. (adj) content
+   - o ƿilia :: [ɔ ˈwilja]
+     1. (vt) vouloir
+     2. (vt) avoir envie de
    - yr :: [yr] (adj) fou
    - yrenþ :: [ˈyrɛnθ] (n) folie
-   - ƿille :: [ˈwilːɛ] (n) souhait, désir
+   - ƿille :: [ˈwilːɛ]
+     1. (n) souhait
+     2. (n) désir
 
 ** Évaluation
    :PROPERTIES:
@@ -1968,9 +2120,15 @@
    :END:
    - cyng :: [kynɡ] (n) roi
    - cyngyt :: [ˈkynɡyt] (n) royaume
-   - faðcyng :: [ˈfaðkynɡ] (n) père-roi, souverain de la patrie
-   - faðcyngyt :: [ˈfaðˌkynɡyt] (n) royaume, père patrie
-   - iéral :: [ˈjeral] (n) jarl, seigneur
+   - faðcyng :: [ˈfaðkynɡ]
+     1. (n) père-roi
+     2. (n) souverain de la patrie
+   - faðcyngyt :: [ˈfaðˌkynɡyt]
+     1. (n) royaume
+     2. (n) père patrie
+   - iéral :: [ˈjeral]
+     1. (n) jarl
+     2. (n) seigneur
    - landyt :: [ˈlandyt] (n) pays
    - ðengil :: [ˈðɛnɡil] (n) noble
 
@@ -1991,18 +2149,31 @@
    - béta :: [ˈbeta] (adv) pas beaucoup, peu (antonime : très)
    - eða :: ['ɛða] (adv) ou.
 
-            Marque un choix entre deux phrases nominales. Pour la conjonction
-            entre propositions, voir [[vocab-ella][ella]].
+            Marque un  choix entre deux  phrases nominales. Pour  la conjonction
+            entre propositions, voir [[vocab-ella][ella]]. Exemple :
+
+            Eppelant eða cirþabéranteþ ei giéþ etand ella utant ei giéþ caupend.
+            /Il étaint en train  de manger une pomme ou des  cerises, ou bien il
+            était en train de les acheter./
    - ja :: [ja] (adv) ouais (colloquial)
    - jæ :: [jae] (adv) oui
-   - licca :: [ˈlikːa] (adv) aussi, de même, dans la même veine, comme
+   - licca :: [ˈlikːa]
+     1. (adv) aussi
+     2. (adv) de même
+     3. (adv) dans la même veine
+     4. (adv) comme
    - méllém :: [melːem] (adv) entre (deux personnes)
    - na :: [na] (adv) nan (colloquial)
    - neiċ :: [nɛiç] (adv) aucun
    - næ :: [nae] (adv) non
-   - ov :: [ɔv] (adv) aussi, également, en plus
+   - ov :: [ɔv]
+     1. (adv) aussi
+     2. (adv) également
+     3. (adv) en plus
    - velgi :: [ˈvɛlɡi] (adv) très
-   - þiv :: [θiv] (conj) parce que, du fait de
+   - þiv :: [θiv]
+     1. (conj) parce que
+     2. (conj) du fait de
    - þém :: [θem] (inter) quand, à quel moment
 
 *** Articles définis
@@ -2184,7 +2355,10 @@
    :CUSTOM_ID: h-9e747416-243f-4a1c-8002-6aa656fb7f8b
    :END:
    - iara :: [ˈjara] (n) bataille
-   - o lætte :: [ɔ ˈlætːɛ] (vi) perdre, se rendre, abandonner
+   - o lætte :: [ɔ ˈlætːɛ]
+     1. (vi) perdre
+     2. (vi) se rendre
+     3. (vi) abandonner
 
 ** Légal
    :PROPERTIES:
@@ -2223,10 +2397,20 @@
    :PROPERTIES:
    :CUSTOM_ID: h-9dbd09e0-48ec-4011-9ed9-533b92a1ea7f
    :END:
-   - deccar :: [ˈdɛkːar] (adj) sombre, obscur, noir (abscence de lumière)
-   - leiþ :: [lɛiθ] (n) lumière, lanterne
-   - leiþér :: [ˈlɛiθer] (adj) brillant, clair, lumineux
-   - myrcér :: [ˈmyrker] (n) obscurité, ténèbres
+   - deccar :: [ˈdɛkːar]
+     1. (adj) sombre
+     2. (adj) obscur
+     3. (adj) noir (abscence de lumière)
+   - leiþ :: [lɛiθ]
+     1. (n ind) lumière
+     2. (n) lanterne
+   - leiþér :: [ˈlɛiθer]
+     1. (adj) brillant
+     2. (adj) clair
+     3. (adj) lumineux
+   - myrcér :: [ˈmyrker]
+     1. (n ind) obscurité
+     2. (n ind) ténèbres
 
 ** Mental
    :PROPERTIES:
@@ -2250,31 +2434,52 @@
    :PROPERTIES:
    :CUSTOM_ID: h-8fb06ee2-d52c-4468-9996-e53568c152b1
    :END:
-   - canal   ::    [ˈkanal]  (n)  canal,   voie  navigable,  conduit,  salon  de
-               communication
+   - canal :: [ˈkanal]
+     1. (n) canal
+     2. (n) voie navigable
+     3. (n) conduit
+     4. (n) salon de communication
    - of :: [ɔf] (adv) au travers
-   - o commén :: [ɔ kɔmːen] (vi) venir, arriver
+   - o commén :: [ɔ kɔmːen]
+     1. (vi) venir
+     2. (vi) arriver
    - o ga :: [ɔ ɡa] (vi) aller
    - o haffa :: [ɔ ˈhafːa] (vt) apporter
-   - o liegga :: [ɔ ˈlieɡːa] (vi) aller à travers champs, sans suivre de chemin,
-                 errer
-   - o rinna :: [ɔ ˈrinːa] (vi) courir, couler (eau, liquide)
-   - o þpinna :: [ɔ ˈθpinːa] (vi)  tourner sur soi-même, faire des rotations sur
-                 soi-même
+   - o liegga :: [ɔ ˈlieɡːa]
+     1. (vi) aller à travers champs, sans suivre de chemin
+     2. (vi) errer
+   - o rinna :: [ɔ ˈrinːa]
+     1. (vi) courir
+     2. (vi) couler (eau, liquide)
+   - o þpinna :: [ɔ ˈθpinːa] (vi) tourner, faire des rotations sur soi-même
    - þcort :: [θkɔrt] (adj) rapide
 
 ** Nature
    :PROPERTIES:
    :CUSTOM_ID: h-ed97de50-47e5-4503-a6ff-9211c3f042dc
    :END:
-   - berg :: [bɛrɡ] (n) rocher, petite colline
+   - berg :: [bɛrɡ]
+     1. (n) rocher
+     2. (n) petite colline
    - ealant :: [ˈealant] (n) île
    - fial :: [fjal] (n) montagne
    - hyrfial :: [ˈhyrfjal] (n) volcan
    - lant :: [lant] (n) terre
-   - logar :: [ˈlɔɡar] (n) mer, eau de mer, eaux maritimes
-   - pyl :: [pyl] (n) bois, petite forêt
-   - þær :: [saer] (n) golfe, lac salé dû à la mer
+   - logar :: [ˈlɔɡar]
+     1. (n) mer
+     2. (n ind) eau salée
+     4. (n ind) eaux maritimes
+   - pyl :: [pyl]
+     1. (n) bois
+     2. (n) petite forêt
+   - vattyn :: [ˈvatːyn]
+     1. (n ind) eau douce
+     2. (n) lac
+     3. (n) rivière
+     4. (n) fleuve
+   - þær :: [saer] (n)
+     - golfe
+     - lac, salé dû à la mer
    - træ :: [trae] (n) arbre
    - þær :: [θaer] (n) mer
 
@@ -2325,8 +2530,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-b265501e-5430-4397-bdba-4d3b31a4730b
    :END:
+   - mjol :: [mjɔl] (n ind) farine
    - o etan :: [ɔ ɛtan] (vt) manger
-   - o þpiċa :: [ɔ θpiça] (vt) (vulgaire) manger, bouffer
+   - o þpiċa :: [ɔ θpiça] (vt) (familier) manger, bouffer
 
 ** Outils
    :PROPERTIES:
@@ -2339,8 +2545,14 @@
    :CUSTOM_ID: h-d4b7c6d3-38ab-4dee-a1ba-adb2e1492c4a
    :END:
    - feioð :: [ˈfɛjɔð] (n) femme
-   - meþ :: [mɛθ] (n) homme, personne
-   - yld :: [yld] (n) être humain, Homme, humanité, le monde entier
+   - meþ :: [mɛθ]
+     1. (n) homme
+     2. (n) personne
+   - yld :: [yld]
+     1. (n) être humain
+     2. (n) Homme
+     3. (n) humanité
+     4. (n) le monde entier
 
 *** Famille
     :PROPERTIES:
@@ -2357,7 +2569,9 @@
     - mæbror :: [ˈmaebrɔr] (n) oncle maternel
     - o faðmoðan :: [ɔ ˈfaðˌmɔðan] (vi) élever (en particulier un enfant)
     - o faðérran :: [ɔ ˈfaˌðerːan] (vi) devenir père
-    - o moðérran :: [ɔ ˈmoˌðerːan] (vi) devenir mère, accoucher
+    - o moðérran :: [ɔ ˈmoˌðerːan]
+      1. (vi) accoucher
+      2. (vi) devenir mère
     - þon :: [θɔn] (n) fils
     - þyþter :: [ˈθyθtɛr] (n) sœur
 
@@ -2392,7 +2606,9 @@
    :CUSTOM_ID: h-99b0b868-7695-4952-86a2-d09ced424d0c
    :END:
    - o tynne :: [ɔ ˈtynːɛ] (vt) perdre quelque chose
-   - o þette :: [ɔ ˈsɛtːɛ] (vt) doter, équiper
+   - o þette :: [ɔ ˈsɛtːɛ]
+     1. (vt) doter
+     2. (vt) équiper
 
 ** Religion
    :PROPERTIES:
@@ -2402,7 +2618,10 @@
    - Fréyr :: [ˈfreyr] (n) Freyr
    - Odin :: [ˈɔdin] (n) Odin
    - Valalla :: [ˈvaˌlalːa] (n) Valhalla
-   - bæn :: [baen] (n) prière, demande, requête (sens religieux)
+   - bæn :: [baen]
+     1. (n) prière
+     2. (n) demande religieuse
+     3. (n) requête religieuse
    - Þor :: [θɔr] (n) Thor
    - guð :: [ɡuð] (n) dieu païen
    - guþ :: [ɡuθ] (n) Dieu (monothéisme)
@@ -2411,8 +2630,13 @@
    :CUSTOM_ID: h-3e6ded4b-87a3-4e8f-ae0e-5133b3d7daf7
    :END:
    - o cyna :: [ɔ kyna] (vt) savoir
-   - o vittén :: [ɔ ˈvitːe] (vt) savoir, connaître, être conscient de.
-   - o þiea :: [ɔ sjea] (vt) connaître, savoir superficiellement.
+   - o vittén :: [ɔ ˈvitːe]
+     1. (vt) savoir
+     2. (vt) connaître
+     3. (vt) être conscient de
+   - o þiea :: [ɔ sjea]
+     1. (vt) connaître
+     2. (vt) savoir superficiellement
    En Mattér, une différentiation est faite entre le fait de savoir ou connaître
    quelque  chose  superficiellement  <o  þiea>,  avoir  une  connaissance  plus
    approfondie  du sujet  <o cyn>  ou bien  avoir une  véritable maîtrise  de la
@@ -2449,18 +2673,28 @@
    - areð :: [ˈarɛð] (n) courage
    - dyrc :: [dyrk] (n) gloire
    - gilðar :: [ˈɡilðar] (n) valeur, mérite
-   - gilðaryt :: [ˈɡilˌðaryt] (n) dignité, valeur (concept), mérite (concept)
-   - o heillen :: [ɔ ˈhɛilːɛn] (vt) glorifier, rendre gloire à.
+   - gilðaryt :: [ˈɡilˌðaryt]
+     1. (n) dignité
+     2. (n) valeur (concept)
+     3. (n) mérite (concept)
+   - o heillen :: [ɔ ˈhɛilːɛn]
+     1. (vt) glorifier
+     2. (vt) rendre gloire à.
 
-                  <heillen> ne  prend pas d’argument accusatif  mais un argument
-                  datif. Ainsi,  « je rend  gloire à  Odin » se  traduit <Odiniþ
-                  heille>, Odin-DAT glorifier-1S:PRES.
+     <heillen>  ne  prend  pas  d’argument accusatif  mais  un  argument  datif.
+     Exemple :
+
+     Odiniþ heille. /Je rend gloire à Odin./
 
 *** Relations sociales
     :PROPERTIES:
     :CUSTOM_ID: h-3b20c6d6-89f8-445f-872e-f12ed68093a6
     :END:
-    - félag :: [ˈfelaɡ] (n) ami, compagnon, partenaire, camarade
+    - félag :: [ˈfelaɡ]
+      1. (n) ami
+      2. (n) compagnon
+      3. (n) partenaire
+      4. (n) camarade
     - ie :: [jɛ] (adv, inform.) ouais
     - iea :: [jea] (adv) oui
     - ne :: [nɛ] (adv, inform.) nan
@@ -2479,14 +2713,26 @@
    - dæg :: [daeɡ] (n) jour
    - menyþ :: [ˈmɛnyθ] (n) mois
    - morg :: [mɔrɡ] (adv) demain
-   - neþty :: [ˈnɛθty] (adj) prochain, suivant
-   - nu :: [nu] (adv) maintenant, tout de suite
+   - neþty :: [ˈnɛθty]
+     1. (adj, n) prochain
+     2. (adj, n) suivant
+   - nu :: [nu]
+     1. (adv) maintenant
+     2. (adv) tout de suite
    - o tebyra :: [ɔ 'tɛbyra] (vt) passer (du temps)
    - tið :: [tið] (n) temps
    - voc :: [vɔk] (n) semaine
-   - þcyrm :: [θkyrm] (n) crépuscule, moment du coucher de soleil
-   - galm :: [ɡalm] (adj) vieux, ancien
-   - gyrneg :: [ˈɡyrnɛɡ] (n) moment du lever de soleil, matin
+   - þcyrm :: [θkyrm]
+     1. (n) crépuscule
+     2. (n) soir
+     3. (n) moment du coucher de soleil
+   - galm :: [ɡalm]
+     1. (adj) vieux
+     2. (adj) ancien
+   - gyrneg :: [ˈɡyrnɛɡ]
+     1. (n) aube
+     2. (n) matin
+     3. (n) moment du lever de soleil
    - gærn :: [ɡaern] (n) année
 
 *** Jours de la semaine
@@ -2540,20 +2786,31 @@
    :CUSTOM_ID: h-0639ca02-8113-47be-9994-2433ddfdc43c
    :END:
    - bryð :: [bryð] (n) naissance
-   - bryðdeg :: [ˈbryðdɛɡ] (n) jour de naissance, anniversaire (<bryð> + <deg>)
-   - ein :: [ɛin] (adj) isolé, solitaire
-   - gemmel :: [ɡɛmːɛl] (adj) vieux, âgé.
+   - bryðdeg :: [ˈbryðdɛɡ]
+     1. (n) jour de naissance
+     2. (n) anniversaire
 
-               <gemmel> peut  être utilisé  pour désigner  un âge.  Par exemple,
-               « j’ai vingt  ans » peut  s’exprimer <ðe  tƿeg gærneþ  gemmel be>
-               (litt. « je suis  vieux de vingt-trois ans »),  <gemmel> étant au
-               nominatif il se  réfère donc forcément au sujet du  verbe, ici la
-               première personne du singulier.
+     Étymologie : <bryð> et <deg>
+   - ein :: [ɛin]
+     1. (adj) isolé
+     2. (adj) solitaire
+   - gemmel :: [ɡɛmːɛl]
+     1. vieux
+     2. âgé
+
+        <gemmel> peut  être utilisé  pour désigner un  âge. Par  exemple, « j’ai
+        vingt ans » peut s’exprimer <ðe tƿeg  gærneþ gemmel be> (litt. « je suis
+        vieux de  vingt-trois ans »), <gemmel>  étant au nominatif il  se réfère
+        donc forcément au sujet du verbe, ici la première personne du singulier.
    - lyf :: [lyf] (n) vie (concept)
    - lyvér :: [ˈlyver] (adj) vivant
-   - ævi :: [ˈaevi] (n) vie (période), souffle, âge
+   - ævi :: [ˈaevi]
+     1. (n) vie (période)
+     2. (n) souffle
+     3. (n) âge
    - mein :: [mɛin] (n) douleur
-   - meinƿaċ :: [mɛinwaç] (n) ambulance (<mein> + <ƿaċen>)
+   - meinƿaċ :: [mɛinwaç] (n) ambulance
+                Étymologie : <mein> + <ƿaċen>
    - o bƿén :: [ɔ bwen] (vi) vivre, habiter
 
 ** À trier
@@ -2575,10 +2832,5 @@
 [fn:2] [[https://phundrak.fr]]
 
 [fn:1] https://langue.phundrak.fr
-
-* Annexes
-  :PROPERTIES:
-  :CUSTOM_ID: h-c9a46c6b-daff-41af-aa83-6f3440fbe4db
-  :END:
 
 #  LocalWords:  Pappa langue-jouet Matté Einlant Mattés
