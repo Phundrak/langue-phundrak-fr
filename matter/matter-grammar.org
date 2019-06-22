@@ -1310,33 +1310,53 @@
      peuvent remplacer  n’importe quelle  phrase nominale. Voici  ci-dessous les
      pronoms personnels du Mattér.
 
-     | /          | <   | <     | <    | <    | <    | <     |
-     |            | NOM | ACC   | DAT  | GEN  | POSS | VOC   |
-     |------------+-----+-------+------+------+------+-------|
-     | 1:sg       | ċeg | ċent  | ċeið | ċyn  |      |       |
-     | 1:pau      | þi  | þid   | þið  | þyn  |      |       |
-     | 1:pl       | non | nound | nonþ | nun  |      |       |
-     | 2:sg       | du  | daun  | duð  | dyn  |      | udy   |
-     | 2:pau      | im  | eint  | ði   | nim  |      | eny   |
-     | 2:pl       | min | meint | minþ | men  |      | miny  |
-     | 3:sg:N     | hé  | hét   | heþ  | hén  |      | yhé   |
-     | 3:sg:M     | hæ  | hæd   | haeð | haen |      | yhae  |
-     | 3:sg:F     | hou | hound | huð  | houn |      | yhou  |
-     | 3:sg:NHUM  | hit | hint  | hiþ  | him  |      | yhi   |
-     | 3:pau:N    | hei | heit  | heiþ | hein |      | yhei  |
-     | 3:pau:M    | þa  | þad   | þaið | þan  |      | yþa   |
-     | 3:pau:F    | þu  | þunt  | þou  | þun  |      | yþu   |
-     | 3:pau:NHUM | hou | hot   | hoþ  | ðo   |      | yðou  |
-     | 3:pl:N     | hea | hint  | heaþ | heam |      | heaþy |
-     | 3:pl:M     | þa  | þat   | þaið | þan  |      | þaiðy |
-     | 3:pl:F     | þu  | þunt  | þou  | þun  |      | yþu   |
-     | 3:pl:NHUM  | hou | hout  | houþ | ðo   |      | houþy |
+     | /         | <   | <     | <    | <    | <     | <     |
+     |           | NOM | ACC   | DAT  | GEN  | POSS  | VOC   |
+     |-----------+-----+-------+------+------+-------+-------|
+     | 1sg       | ċeg | ċent  | ċeið | ċyn  | ċeyċ  |       |
+     | 1pau      | þi  | þid   | þið  | þyn  | þiþ   |       |
+     | 1pl       | non | nound | nonþ | nun  | þin   |       |
+     | 2sg       | du  | daun  | duð  | dyn  | dyn   | udy   |
+     | 2pau      | im  | eint  | ði   | nim  | nim   | eny   |
+     | 2pl       | min | meint | minþ | men  | minu  | miny  |
+     | 3sg:N     | hé  | hét   | heþ  | hén  | hén   | yhé   |
+     | 3sg:M     | hæ  | hæd   | haeð | haen | hæn   | yhae  |
+     | 3sg:F     | hou | hound | huð  | houn | hoén  | yhou  |
+     | 3sg:NHUM  | hit | hint  | hiþ  | him  | hitén | yhi   |
+     | 3pau:N    | hei | heit  | heiþ | hein | hean  | yhei  |
+     | 3pau:M    | þa  | þad   | þaið | þan  | heian | yþa   |
+     | 3pau:F    | þu  | þunt  | þou  | þun  | hean  | yþu   |
+     | 3pau:NHUM | hou | hot   | hoþ  | ðo   | hoan  | yðou  |
+     | 3pl:N     | hea | hint  | heaþ | heam | heam  | heaþy |
+     | 3pl:M     | þa  | þat   | þaið | þan  | þan   | þaiðy |
+     | 3pl:F     | þu  | þunt  | þou  | þun  | þeuþ  | yþu   |
+     | 3pl:NHUM  | hou | hout  | houþ | ðo   | ðo    | houþy |
 
      Remarquez que la  première personne de dispose pas de  forme vocative. Cela
      est  dû au  fait qu’en  Mattér,  le vocatif  ne peut  s’appliquer qu’à  des
      personnes extérieures au groupe dont fait partie le locuteur.
 
-     Contrairement
+     Si  la  conjugaison du  verbe  le  rend  évident, l’utilisation  du  pronom
+     nominatif est  rare, le  rendant utile uniquement  si le  locuteur souhaite
+     accentuer l’importance du pronom nominatif dans la phrase.
+
+     Exemples d’utilisation des pronoms :
+     | Þi       | hint         | heaþ      | geff-ur                  |
+     | 1PAU:NOM | 3SG:NHUM:ACC | 3PL:N:DAT | donner-1PAU:PST:PERF:IND |
+
+     | hint         | heaþ      | geff-ur                  |
+     | 3SG:NHUM:ACC | 3PL:N:DAT | donner-1PAU:PST:PERF:IND |
+
+     | Udy!    | ċeyċ     | beiþ                |
+     | 2SG:VOC | 1SG:POSS | être:3SG:IMPERF:IND |
+
+     | Hou       | ċyn     | þyþter-ant | beiþ                |
+     | 3SG:F:NOM | 1SG:GEN | sœur-ACC   | être:3SG:IMPERF:IND |
+
+     Contrairement  à  certaines  langues  européennes, comme  l’Anglais  ou  le
+     Français, le Mattér ne dispose pas  de pronom indéfini, et il utilisera des
+     constructions syntaxiques et syntactiques différentes  afin de ne pas avoir
+     à en utiliser.
 
 **** Relatifs
      :PROPERTIES:
