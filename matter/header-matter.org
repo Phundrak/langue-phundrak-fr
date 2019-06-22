@@ -2,8 +2,8 @@
 #+LANGUAGE: fr
 #+SETUPFILE: theme-readtheorg.setup
 #+LATEX_CLASS: article
-#+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
-#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={4.5in,7.0in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
+#+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,10.0in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
 #+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
 #+LATEX_HEADER: \usepackage{multicol}
@@ -15,9 +15,9 @@
 #+HTML_HEAD: <meta name="twitter:card" content="summary" />
 #+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
-#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
-#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: newpage @@latex:\newpage@@
 #+MACRO: latex-html @@latex:$1@@ @@html:$2@@
@@ -30,5 +30,4 @@
 #+OPTIONS: auto-id:t
 {{{newpage}}}
 #+TOC: headlines
-
 {{{newpage}}}
