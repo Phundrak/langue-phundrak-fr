@@ -8,16 +8,18 @@
 
 [[https://langue.phundrak.fr/hjalpi][Hjalpi’]] ([[https://langue.phundrak.fr/hjalpi/hjalpi.pdf][pdf]])
 
-[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp/hjelp.pdf][pdf]]) (remplacement du Hjalpi’)
+[[https://langue.phundrak.fr/hjelp][Hjelp]] ([[https://langue.phundrak.fr/hjelp.pdf][pdf]]) (remplacement du Hjalpi’)
 
 * Langues draconiennes
 
-[[https://langue.phundrak.fr/lijokken][Łijökken]] ([[https:///langue.phundrak.fr/lijokken/lijokken-grammaire.pdf][pdf]], en cours)
+[[https://langue.phundrak.fr/lijokken][Łijökken]] ([[https:///langue.phundrak.fr/lijokken/lijokken-grammaire.pdf][pdf]])
 
-[[https://langue.phundrak.fr/zohaen][Zöhæň]] ([[https://langue.phundrak.fr/zohaen/zohaen-grammaire.pdf][pdf]], en cours)
+[[https://langue.phundrak.fr/zohaen][Zöhæň]] ([[https://langue.phundrak.fr/zohaen/zohaen-grammaire.pdf][pdf]])
 
 * Langues humaines
 
 Enánon (à venir)
 
-[[https://langue.phundrak.fr/matter][Mattér]] ([[https://langue.phundrak.fr/matter/matter.pdf][pdf]])
+[[https://langue.phundrak.fr/matter][Mattér]] ([[https://langue.phundrak.fr/matter.pdf][pdf]])
+
+[[https://langue.phundrak.fr/einlanda/][Einnlanda]] ([[https://langue.phundrak.fr/einlanda.pdf][pdf]])

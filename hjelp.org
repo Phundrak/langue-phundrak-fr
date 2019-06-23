@@ -1,4 +1,4 @@
-#+INCLUDE: "../headers.org"
+#+INCLUDE: "headers.org"
 #+LaTeX_HEADER: \usepackage{indentfirst}
 #+LATEX_CLASS: article
 #+TITLE: Une Grammaire du Hjelp
@@ -189,7 +189,7 @@ Voici ci-dessous la description de chacune de ces voyelles :
    Le Hjelp est une langue tonale disposant de sept tons différents portant sur une syllabe entière. Un ton est une variation de hauteur non pas absolue comme peuvent l’être les notes d’une chanson, mais plutôt des variations de hauteur relative à la hauteur standard du locuteur. Voici ci-dessous une illustration des sept tons du Hjelp, avec pour hauteur de référence du locuteur le ton nº1 :
 
 #+CAPTION: Les sept tons du Hjelp
-[[./tones.jpg]]
+[[./img/hjelp_tones.jpg]]
 
    Comme vous pouvez le constater, trois des tons du Hjelp sont constants. Le premier est, comme indiqué précédemment, le ton de référence du locuteur et est désigné comme étant le ton neutre. Le second ton est le ton bas, le troisième est le ton haut, prononcés respectivement avec une hauteur plus grave et plus haute que le ton neutre. Les deux tons suivants sont des tons de hauteur changeante, mais avec la variation constante. Le quatrième ton est un ton montant, tandis que le cinquième ton est descendant. Les deux tons suivants sont un peu plus complexes, et par conséquent plus rares, le sixième ton étant montant puis descendant, et le septième étant descendant puis montant.
 

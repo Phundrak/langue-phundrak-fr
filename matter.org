@@ -24,6 +24,7 @@
 - [[#phonologie][Phonologie]]
   - [[#notes-sur-la-transcription-du-mattér][Notes sur la transcription du Mattér]]
   - [[#inventaire-phonétique][Inventaire phonétique]]
+    - [[#évolution-des-sons-du-vieux-nordique-vers-le-mattér][Évolution des sons du Vieux Nordique vers le Mattér]]
     - [[#consonnes][Consonnes]]
     - [[#voyelles][Voyelles]]
     - [[#diphtonges][Diphtonges]]
@@ -69,9 +70,9 @@
 - [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
 - [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
   - [[#déclinaison--noms][Déclinaison – Noms]]
-    - [[#nombre-1][Nombre]]
+    - [[#déclinaison][Déclinaison]]
+      - [[#noms-masculins-forts][Noms masculins forts]]
     - [[#possession-1][Possession]]
-    - [[#relations-grammaticales-1][Relations grammaticales]]
   - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
   - [[#accord-des-verbes][Accord des verbes]]
     - [[#indicatif][Indicatif]]
@@ -286,7 +287,7 @@
    Chamanisme,…).
 
    #+name: fig:religion-piechart
-   #+BEGIN_SRC R :exports results :results graphics :file religious-pop.png :bg transparent
+   #+BEGIN_SRC R :exports results :results graphics :file img/religious-pop.png :bg transparent
      slices <- c(68, 15, 9, 6, 2)
      lbls <- c("Paganisme", "Athéisme", "Monothéismes divers",
                "Bouddhisme", "Divers")
@@ -494,6 +495,17 @@
    phonétique  du  Mattér s’est  basé  sur  l’inventaire phonétique  de  langues
    elfiques créées par Tolkien, notamment le Sindarin.
 
+*** Évolution des sons du Vieux Nordique vers le Mattér
+    :PROPERTIES:
+    :CUSTOM_ID: h-fe612985-b4d4-40ea-a4a7-cf1b01c49d5f
+    :END:
+
+    - {g,k} → ç / V_{V,#}
+    - œ → ø
+    - Vː → V
+    - s → θ
+    -
+
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-6da91679-71f1-4064-bf08-0425446244f0
@@ -502,6 +514,26 @@
     Le  Mattér  est  une  langue  disposant  d’un  panel  raisonnable  de  seize
     consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et en
     latin (voir §[[phon-notes]]).
+
+    # #+BEGIN_SRC dot :file testdot.png :exports results
+    #   graph graphname {
+    #     graph[bgcolor="transparent"];
+    #     node[shape=plaintext];
+    #     b[label="{b}"];
+    #     a -- b -- c;
+    #     b -- d;
+    #   }
+    # #+END_SRC
+
+    | /         | <   | <        | <   | <   | <       | <   | <    |
+    |           | bil | lab-dent | alv | pal | lab-vel | vel | glot |
+    |-----------+-----+----------+-----+-----+---------+-----+------|
+    | nasal     | m   |          | n   |     |         |     |      |
+    | occlusif  | p b |          | t d |     |         | k g |      |
+    | fricatif  |     | f v      | θ ð | ç   |         |     | h    |
+    | spirant   |     |          |     | j   | w       |     |      |
+    | battu     |     |          | ɾ   |     |         |     |      |
+    | spir-latt |     |          | l   |     |         |     |      |
 
     #+CAPTION: Consonnes du Mattér (IPA)
     |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
@@ -1460,28 +1492,49 @@
    :PROPERTIES:
    :CUSTOM_ID: h-9b727eaa-6c90-4e6f-824a-3ba06b3fbcde
    :END:
-   La  morpho-phonologie des  noms du  Mattér présente  des règles  strictes sur
-   l’ordre des  affixes, et par  extension la structure  des mots de  la langue.
-   Voici ci-dessous l’ordre des constituants d’un nom en Mattér :
-   | /      | <           | <>        |        |
-   | racine | déclinaison | possessif | nombre |
 
-*** Nombre
+   D’un point de vue morphologique,  une différentiation supplémentaire des noms
+   est ajoutée  en plus  de leur  genre, il s’agit  des noms  forts et  des noms
+   faibles. Non seulement cela implique que  ces différents noms n’auront pas la
+   même déclinaison selon  cette classe, mais leur  déclinaison dépend également
+   du  nombre et  du genre  du  nom décliné,  comme  nous le  verrons plus  bas.
+   Généralement,  les noms  forts se  terminent par  une consonne,  et les  noms
+   faibles se terminent par une voyelle.
+
+   La   morpho-phonologie  générale   des   noms   Mattér  présente   différents
+   emplacements dans lesquels peuvent être  ajoutés certains morphèmes autour de
+   la racine du nom.
+   | /      | <           | <         |
+   | racine | déclinaison | possessif |
+
+*** Déclinaison
     :PROPERTIES:
-    :CUSTOM_ID: h-027321ae-08de-48a4-8d99-a95ebc95d97f
+    :CUSTOM_ID: h-3a9f82ea-7b3c-4c6c-b8ab-d31351be41fc
     :END:
 
-    Le  paucal se  marque avec  l’affixe  <et> si  le  nom se  termine avec  une
-    consonne,  ou  avec <t>  si  la  phonotaxe  de  la langue  l’autorise  (voir
-    §[[#h-78519805-1712-463f-9679-11ff7d209061]]).  Similairement,   le  pluriel  se
-    marque avec l’affixe <aþ> ou <þ>. Exemples :
-    | /      | <         |        |         |
-    |        | singulier | paucal | pluriel |
-    |--------+-----------+--------+---------|
-    | livre  | boccé     | boccét | boccéþ  |
-    | oiseau | fogel     | fogelt | fogelþ  |
-    | jument | hryþ      | hryþt  | hryþaþ  |
-    | chien  | hynd      | hyndet | hyndaþ  |
+    Les déclinaisons en Mattér permettent de déterminer le rôle grammatical du
+    terme dans la phrase, ainsi que son genre et son nombre. Les quatre premiers
+    cas grammaticaux (nominatif, accusatif, datif et génitif) furent hérités du
+    Vieux Nordique, les autres apparurent lors de l’évolution du Mattér dans sa
+    forme actuelle.
+
+**** Noms masculins forts
+     :PROPERTIES:
+     :CUSTOM_ID: h-fb501862-8914-40c5-8c2d-e57039520237
+     :END:
+
+     | /   | <         | <      | <       |
+     | cas | singulier | paucal | pluriel |
+     |-----+-----------+--------+---------|
+     | NOM |           |        |         |
+     | ACC |           |        |         |
+     | GEN |           |        |         |
+     | DAT |           |        |         |
+     | LOC |           |        |         |
+     | ABL |           |        |         |
+     | ALL |           |        |         |
+     | GEN |           |        |         |
+     | VOC |           |        |         |
 
 *** Possession
     :PROPERTIES:
@@ -1489,10 +1542,9 @@
     :END:
     La possession en Mattér peut  être exprimée de plusieurs façons différentes.
     Les méthodes les  plus directes sont l’utilisation d’une  déclinaison sur le
-    possesseur  puis   placer  après  le  possesseur   l’élément  possédé  (voir
-    §[[#h-282a14ca-0d04-4f38-b0db-3c9771e47638]]), ou bien un ajout d’un affixe à un
-    nom si  on peut se référer  au possesseur via  un pronom. C’est ce  sur quoi
-    nous allons nous concentrer ici.
+    possesseur puis  placer après  le possesseur l’élément  possédé, ou  bien un
+    ajout  d’un affixe  à un  nom si  on peut  se référer  au possesseur  via un
+    pronom. C’est ce sur quoi nous allons nous concentrer ici.
 
     Bien que  les pronoms disposent  d’une forme génitive pouvant  être utilisée
     afin         de         marquer          la         possession         (voir
@@ -1517,33 +1569,50 @@
     | boccém    | votre livre |
     | boccéeaþt | vos livres  |
 
-*** Relations grammaticales
-    :PROPERTIES:
-    :CUSTOM_ID: h-282a14ca-0d04-4f38-b0db-3c9771e47638
-    :END:
+# *** Nombre
+#     :PROPERTIES:
+#     :CUSTOM_ID: h-027321ae-08de-48a4-8d99-a95ebc95d97f
+#     :END:
 
-    | /               | <           |
-    | cas grammatical | déclinaison |
-    |-----------------+-------------|
-    | nominatif       | /Ø/         |
-    | accusatif       | -(a)nt      |
-    | datif           | -iþ         |
-    | locatif         | -(o)ċ       |
-    | ablatif         | -oc         |
-    | limitatif       | -ém         |
-    | génitif         | -un         |
-    | vocatif         | -y          |
+#     Le  paucal se  marque avec  l’affixe  <et> si  le  nom se  termine avec  une
+#     consonne,  ou  avec <t>  si  la  phonotaxe  de  la langue  l’autorise  (voir
+#     §[[#h-78519805-1712-463f-9679-11ff7d209061]]).  Similairement,   le  pluriel  se
+#     marque avec l’affixe <aþ> ou <þ>. Exemples :
+#     | /      | <         |        |         |
+#     |        | singulier | paucal | pluriel |
+#     |--------+-----------+--------+---------|
+#     | livre  | boccé     | boccét | boccéþ  |
+#     | oiseau | fogel     | fogelt | fogelþ  |
+#     | jument | hryþ      | hryþt  | hryþaþ  |
+#     | chien  | hynd      | hyndet | hyndaþ  |
 
-    Exemple :
-    | /     | <       | <        | <       | <       |
-    | NOM   | boccé   | fogel    | hryþ    | hynd    |
-    | ACC   | boccént | fogelant | hryþant | hyndant |
-    | DAT   | boccéiþ | fogeliþ  | hryþiþ  | hyndiþ  |
-    | LOC   | boccéċ  | fogelċ   | hryþoċ  | hyndoċ  |
-    | ABL   | boccéoc | fogeloc  | hryþoc  | hyndoc  |
-    | LIMIT | boccém  | fogelém  | hryþém  | hyndém  |
-    | GEN   | boccéun | fogelun  | hryþun  | hyndun  |
-    | VOC   | boccéy  | fogely   | hryþy   | hyndy   |
+# *** Relations grammaticales
+#     :PROPERTIES:
+#     :CUSTOM_ID: h-282a14ca-0d04-4f38-b0db-3c9771e47638
+#     :END:
+
+#     | /               | <           |
+#     | cas grammatical | déclinaison |
+#     |-----------------+-------------|
+#     | nominatif       | /Ø/         |
+#     | accusatif       | -(a)nt      |
+#     | datif           | -iþ         |
+#     | locatif         | -(o)ċ       |
+#     | ablatif         | -oc         |
+#     | limitatif       | -ém         |
+#     | génitif         | -un         |
+#     | vocatif         | -y          |
+
+#     Exemple :
+#     | /     | <       | <        | <       | <       |
+#     | NOM   | boccé   | fogel    | hryþ    | hynd    |
+#     | ACC   | boccént | fogelant | hryþant | hyndant |
+#     | DAT   | boccéiþ | fogeliþ  | hryþiþ  | hyndiþ  |
+#     | LOC   | boccéċ  | fogelċ   | hryþoċ  | hyndoċ  |
+#     | ABL   | boccéoc | fogeloc  | hryþoc  | hyndoc  |
+#     | LIMIT | boccém  | fogelém  | hryþém  | hyndém  |
+#     | GEN   | boccéun | fogelun  | hryþun  | hyndun  |
+#     | VOC   | boccéy  | fogely   | hryþy   | hyndy   |
 
 ** Déclinaison — Pronoms
    :PROPERTIES:

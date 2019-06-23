@@ -1,4 +1,4 @@
-#+INCLUDE: "../headers.org"
+#+INCLUDE: "headers.org"
 #+TITLE: Grammaire du Hjalpi’
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjalpi’" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjalpi’" />
