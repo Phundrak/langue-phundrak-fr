@@ -287,7 +287,7 @@
    Chamanisme,…).
 
    #+name: fig:religion-piechart
-   #+BEGIN_SRC R :exports results :results graphics :file img/religious-pop.png :bg transparent
+   #+BEGIN_SRC R :exports results :results graphics :file img/matter_religious-pop.png :bg transparent
      slices <- c(68, 15, 9, 6, 2)
      lbls <- c("Paganisme", "Athéisme", "Monothéismes divers",
                "Bouddhisme", "Divers")
