@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<!-- 2018-06-06 mer. 17:20 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cas grammaticaux du Hjalpi Vernaculaire</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Lucien Cartier-Tilet" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="css/readtheorg.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Cas grammaticaux du Hjalpi Vernaculaire</h1>
+<p>
+
+</p>
+<div id="table-of-contents">
+<h2>Table des matières</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgc67442a">1. Chart for review for the basic cases</a></li>
+<li><a href="#orgcba8038">2. Location</a></li>
+<li><a href="#orgd15b608">3. Motion from</a></li>
+<li><a href="#org4062556">4. Motion to</a></li>
+<li><a href="#orgb8ffd2d">5. Motion via</a></li>
+<li><a href="#org6f8234d">6. Time</a></li>
+<li><a href="#org6956993">7. Morphosyntactic alignment</a></li>
+<li><a href="#orgee274df">8. Relation</a></li>
+<li><a href="#orgcd69b92">9. Semantics</a></li>
+<li><a href="#org9383ebc">10. State</a></li>
+</ul>
+</div>
+</div>
+<p>
+
+
+</p>
+
+<p>
+Grammatical states marques with a star ( * ) are grammatical states that do not exist <b>as declensions</b> in the Divine Language.
+</p>
+
+<div id="outline-container-orgc67442a" class="outline-2">
+<h2 id="orgc67442a"><span class="section-number-2">1</span> Chart for review for the basic cases</h2>
+<div class="outline-text-2" id="text-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">interior</th>
+<th scope="col" class="org-left">surface</th>
+<th scope="col" class="org-left">adjacency</th>
+<th scope="col" class="org-left">state</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><i>from</i></td>
+<td class="org-left">Elative</td>
+<td class="org-left">Delative</td>
+<td class="org-left">Ablative</td>
+<td class="org-left">Excessive</td>
+</tr>
+
+<tr>
+<td class="org-left"><i>at/in</i></td>
+<td class="org-left">Inessive</td>
+<td class="org-left">Superessive</td>
+<td class="org-left">Adessive</td>
+<td class="org-left">Essive</td>
+</tr>
+
+<tr>
+<td class="org-left"><i>(in)to</i></td>
+<td class="org-left">Illative</td>
+<td class="org-left">Sublative</td>
+<td class="org-left">Allative</td>
+<td class="org-left">Translative</td>
+</tr>
+
+<tr>
+<td class="org-left"><i>via</i></td>
+<td class="org-left">Perlative</td>
+<td class="org-left">Prolative</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgcba8038" class="outline-2">
+<h2 id="orgcba8038"><span class="section-number-2">2</span> Location</h2>
+<div class="outline-text-2" id="text-2">
+<dl class="org-dl">
+<dt>Adessive case ADE <i>iŗ-</i></dt><dd>adjacent location</dd>
+</dl>
+<p>
+Example: near/at/by the house, <i>íŗmén</i>
+</p>
+<dl class="org-dl">
+<dt>Antessive case ANTE <i>vwo-</i></dt><dd>anterior location</dd>
+</dl>
+<p>
+Example: before the house, <i>vwómén</i>
+</p>
+<dl class="org-dl">
+<dt>Apudessive case APUD <i>ne-</i></dt><dd>location next to something</dd>
+</dl>
+<p>
+Example: next to the house, <i>némén</i>
+</p>
+<dl class="org-dl">
+<dt>Inessive case <i>-ŕo-</i></dt><dd>inside something</dd>
+</dl>
+<p>
+Example: inside the house, <i>méŕón</i>
+</p>
+<dl class="org-dl">
+<dt>Intrative case ITRT <i>-fu-</i></dt><dd>between something</dd>
+</dl>
+<p>
+Example: between the houses, <i>méfún</i>
+</p>
+<dl class="org-dl">
+<dt>Locative case LOC <i>la-</i></dt><dd>location (general case)</dd>
+</dl>
+<p>
+Example: at/on/in the house, <i>lámén</i>
+</p>
+<dl class="org-dl">
+<dt>Pertingent case <i>ma-</i></dt><dd>in contact with something</dd>
+</dl>
+<p>
+Example: touching the house, <i>mámén</i>
+</p>
+<dl class="org-dl">
+<dt>Postessive case POSTE <i>-uß</i></dt><dd>posterior location</dd>
+</dl>
+<p>
+Example: behind the house, <i>ménúß</i>
+</p>
+<dl class="org-dl">
+<dt>Subessive case SUBE <i>nwo-</i></dt><dd>under something</dd>
+</dl>
+<p>
+Example: under/below the house, <i>nwómén</i>
+</p>
+<dl class="org-dl">
+<dt>Superessive case SUPE <i>ßta-</i></dt><dd>on the surface</dd>
+</dl>
+<p>
+Example: on (top of) the house, <i>ßtámén</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd15b608" class="outline-2">
+<h2 id="orgd15b608"><span class="section-number-2">3</span> Motion from</h2>
+<div class="outline-text-2" id="text-3">
+<dl class="org-dl">
+<dt>Ablative case ABL <i>li-</i></dt><dd>movement away from something</dd>
+</dl>
+<p>
+Example: away from the house, <i>límén</i>
+</p>
+<dl class="org-dl">
+<dt>Delative case DEL <i>ßa-</i></dt><dd>movement from the surface</dd>
+</dl>
+<p>
+Example: from (the top of) the house, <i>ßámén</i>
+</p>
+<dl class="org-dl">
+<dt>*Egressive case EGRE</dt><dd>marking the beginning of a movement or time</dd>
+</dl>
+<p>
+Example: beginning from the house
+</p>
+<dl class="org-dl">
+<dt>Elative case ELA <i>-ykń</i></dt><dd>out of something</dd>
+</dl>
+<p>
+Example: out of the house, <i>ménýkń</i>
+</p>
+<dl class="org-dl">
+<dt>Initiative case INITI <i>-akļ</i></dt><dd>starting point of an action</dd>
+</dl>
+<p>
+Example: beginning from the house, <i>ménákļ</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4062556" class="outline-2">
+<h2 id="org4062556"><span class="section-number-2">4</span> Motion to</h2>
+<div class="outline-text-2" id="text-4">
+<dl class="org-dl">
+<dt>Allative case ALL <i>-li-</i></dt><dd><ul class="org-ul">
+<li>*in Hungarian and in Finnish: movement to (the adjacency of). Example: to the house</li>
+<li>in Estonian and in Finnish: movement onto something. Example: onto the house, <i>mélín</i></li>
+</ul></dd>
+
+<dt>Illative case ILL <i>-ën-</i></dt><dd>movement into something</dd>
+</dl>
+<p>
+Example: into the house, <i>mênén</i>
+</p>
+<dl class="org-dl">
+<dt>Lative case LAT <i>-la</i></dt><dd>movement to something (general case)</dd>
+</dl>
+<p>
+Example: to/into the house, <i>ménlá</i>
+</p>
+<dl class="org-dl">
+<dt>Sublative case SUBL <i>-iţ</i></dt><dd>movement onto the surface or below something</dd>
+</dl>
+<p>
+Example: on(to) the house / under the house, <i>méníţ</i>
+</p>
+<dl class="org-dl">
+<dt>Terminative case TERM <i>-aen</i></dt><dd>marking the end of a movement or time</dd>
+</dl>
+<p>
+Example: as far as the house, <i>ménáén</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb8ffd2d" class="outline-2">
+<h2 id="orgb8ffd2d"><span class="section-number-2">5</span> Motion via</h2>
+<div class="outline-text-2" id="text-5">
+<dl class="org-dl">
+<dt>Perlative case PER <i>žu-</i></dt><dd>movement through or along</dd>
+</dl>
+<p>
+Example: through/along the house, <i>žúmén</i>
+</p>
+<dl class="org-dl">
+<dt>Prolative case PROL <i>še-</i></dt><dd>movement using a surface or way (= prosecutive case, vialis case)</dd>
+</dl>
+<p>
+Example: by way of/through the house, <i>šémén</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6f8234d" class="outline-2">
+<h2 id="org6f8234d"><span class="section-number-2">6</span> Time</h2>
+<div class="outline-text-2" id="text-6">
+<dl class="org-dl">
+<dt>Accusative case ACC <i>-źu</i></dt><dd>indicating duration of time known as the <b>accusative of duration of time</b></dd>
+</dl>
+<p>
+Example: for many years, <i>łaižegźu</i>
+</p>
+<dl class="org-dl">
+<dt>Essive case ESS <i>-oiþyd-</i></dt><dd>used for specifying days and dates when something happens</dd>
+</dl>
+<p>
+Example: on the first day of the week, <i>žóíþýdójorém</i>
+</p>
+<dl class="org-dl">
+<dt>Limitative case LIMIT <i>-amp</i></dt><dd>specifying a deadline</dd>
+</dl>
+<p>
+Example: by the first day of the week, <i>žójorémámp</i>
+</p>
+<dl class="org-dl">
+<dt>Temporal case TEMP <i>-igni</i></dt><dd>specifying a time</dd>
+</dl>
+<p>
+Example: at seven o’clock, <i>ţuheol ţupńtwan ţéálnatigni</i> (GEN-hour GEN-seven precise-TEMP, at the precise hour of seven)
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6956993" class="outline-2">
+<h2 id="org6956993"><span class="section-number-2">7</span> Morphosyntactic alignment</h2>
+<div class="outline-text-2" id="text-7">
+<dl class="org-dl">
+<dt>Absolutive case (1) ABS <i>-a</i></dt><dd>patient, experiencer; subject of an intransitive verb and direct object of a transitive verb. <b>In the divine language, the absolutive case is only used for the subject of an intransitive verb.</b></dd>
+</dl>
+<p>
+Example: he pushed the <b>door</b> and <b>it</b> opened, <i>kjaŗa</i> (door)
+</p>
+<dl class="org-dl">
+<dt>*Absolutive case (2) ABS</dt><dd>patient, involuntary experiencer</dd>
+</dl>
+<p>
+Example: he pushed the <b>door</b> and <b>it</b> opened; <b>he</b> slipped
+</p>
+<dl class="org-dl">
+<dt>*Absolutive case (3) ABS</dt><dd>patient, experiencer; instrument</dd>
+</dl>
+<p>
+Example: he pushed the <b>door</b> with his <b>hand</b> and <b>it</b> opened
+</p>
+<dl class="org-dl">
+<dt>*Accusative case (1)</dt><dd>patient</dd>
+</dl>
+<p>
+Example: he pushed the <b>door</b> and it opened
+</p>
+<dl class="org-dl">
+<dt>Accusative case (2) ACC <i>-vo</i></dt><dd>direct object of a transitive verb</dd>
+</dl>
+<p>
+Example: I see <b>her</b>, <i>kjeŗvo</i>
+</p>
+<dl class="org-dl">
+<dt>Agentive case AGE <i>te-</i></dt><dd>agent, specifies or asks about <i>who</i> or <i>what</i>; specific agent that is subset of a</dd>
+</dl>
+<p>
+general topic or subject. Equivalent to the -ga particle in Japanese
+Example: it was <b>she</b> who committed the crime; as for him, his <b>head</b> hurts, <i>tekjeŗ</i>, <i>tegar</i>
+</p>
+<dl class="org-dl">
+<dt>Ergative case ERG <i>-jo</i></dt><dd>agent; subject of a transitive verb</dd>
+</dl>
+<p>
+Example: <b>he</b> pushed the door and it opened
+</p>
+<dl class="org-dl">
+<dt>*Ergative-genitive case EGN</dt><dd>agent, possession</dd>
+</dl>
+<p>
+Example: <b>he</b> pushed the door and it opened; <b>her</b> dog
+</p>
+<dl class="org-dl">
+<dt>Instructive INSTRUCTIVE <i>-eň</i></dt><dd>means, answers question <i>how?</i></dd>
+</dl>
+<p>
+Example: by the means of the houses, <i>ménéň</i>
+</p>
+<dl class="org-dl">
+<dt>Instrumental INS/INSTR <i>-dļ</i></dt><dd>instrument, answers question <i>using which thing?</i></dd>
+</dl>
+<p>
+Example: with the house, <i>méndļ</i>
+</p>
+<dl class="org-dl">
+<dt>*Instrumental-comitative case</dt><dd>instrument, in company of something</dd>
+</dl>
+<p>
+Example: with the house
+</p>
+<dl class="org-dl">
+<dt>*Nominative case (1)</dt><dd>agent, experiencer; subject of a transitive or intransitive verb</dd>
+</dl>
+<p>
+Example: <b>he</b> pushed the door and <b>it</b> opened
+</p>
+<dl class="org-dl">
+<dt>*Nominative case (2)</dt><dd>agent; voluntary experiencer</dd>
+</dl>
+<p>
+Example: <b>he</b> pushed the door and it opened; <b>she</b> paused
+</p>
+<dl class="org-dl">
+<dt>Nominative case NOM (3) <i>pa-</i></dt><dd>In the divine language, the person linked to the word; transforms a verbal group into a nominal group</dd>
+</dl>
+<p>
+Example: horseman, <i>panael</i> (the man linked to horses, implied riding horses)
+</p>
+<dl class="org-dl">
+<dt>*Objective case (1) OBJ</dt><dd>direct or indirect object of verb</dd>
+</dl>
+<p>
+Example: I saw <b>her</b>; I gave <b>her</b> the book
+</p>
+<dl class="org-dl">
+<dt>*Objective/Oblique (2)</dt><dd>direct or indirect object of verb or object of preposition; a catch-all case for any situation except nominative or genitive</dd>
+</dl>
+<p>
+Example: I saw <b>her</b>; I gave <b>her</b> the book; with <b>her</b>
+</p>
+<dl class="org-dl">
+<dt>Oblique case OBL <i>-ŗeß</i></dt><dd>all-round case; any situation except nominative or vocative. In the divine language, is used to quote the element</dd>
+</dl>
+<p>
+Example: concerning the house, <i>ménŗéß</i>
+</p>
+<dl class="org-dl">
+<dt>Intransitive case INTR <i>-ai</i></dt><dd>the subject of an intransitive verb or the logical complement of a transitive verb (= passive or patient case)</dd>
+</dl>
+<p>
+Example: the <b>door</b> opened, <i>mělai</i>
+</p>
+<dl class="org-dl">
+<dt>Pegative case PEG <i>ey-</i></dt><dd>agent in a clause with a dative argument</dd>
+</dl>
+<p>
+Example: <b>he</b> gave the book to him, <i>eykjaŗ</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgee274df" class="outline-2">
+<h2 id="orgee274df"><span class="section-number-2">8</span> Relation</h2>
+<div class="outline-text-2" id="text-8">
+<dl class="org-dl">
+<dt>Ablative case <i>łe-</i></dt><dd>all-round indirect case</dd>
+</dl>
+<p>
+Example: concerning the house, <i>łémén</i>
+</p>
+<dl class="org-dl">
+<dt>Aversive case EVIT <i>-ńþ-</i></dt><dd>avoiding or fear</dd>
+</dl>
+<p>
+Example: avoiding the house, <i>mńþén</i>
+</p>
+<dl class="org-dl">
+<dt>*Benefactive case BEN</dt><dd>for, for the benefit of, intended for</dd>
+</dl>
+<p>
+Example: for the house
+</p>
+<dl class="org-dl">
+<dt>Causal case CAUS <i>-oby</i></dt><dd>because, because of</dd>
+</dl>
+<p>
+Example: because of the house, <i>ménóbý</i>
+</p>
+<dl class="org-dl">
+<dt>*Causal-final case</dt><dd>efficient or final cause</dd>
+</dl>
+<p>
+Example: for a house
+</p>
+<dl class="org-dl">
+<dt>Comitative case COM <i>-ðei-</i></dt><dd>in company of something</dd>
+</dl>
+<p>
+Example: with the house, <i>méðéín</i>
+</p>
+<dl class="org-dl">
+<dt>Dative case DAT <i>-at-</i></dt><dd>shows directon or recipient</dd>
+</dl>
+<p>
+Example: for/to the house, <i>mátén</i>
+</p>
+<dl class="org-dl">
+<dt>Distributive case DISTR <i>xelje-</i></dt><dd>distribution by piece</dd>
+</dl>
+<p>
+Example: per house, <i>xéljémén</i>
+</p>
+<dl class="org-dl">
+<dt>Distributive-temporal case <i>-be</i></dt><dd>how often something happens</dd>
+</dl>
+<p>
+Example: on Sundays, <i>ðúbémbé</i>
+</p>
+<dl class="org-dl">
+<dt>Genitive case GEN <i>ţu-</i></dt><dd>shows relationship, possesssion</dd>
+</dl>
+<p>
+Example: of the house; the house’s, <i>ţúmén</i>
+</p>
+<dl class="org-dl">
+<dt>*Ornative case</dt><dd>endowment with something</dd>
+</dl>
+<p>
+Example: equipped with a house
+</p>
+<dl class="org-dl">
+<dt>*Possessed case POSS</dt><dd>possession by something</dd>
+</dl>
+<p>
+Example: the house is owned by someone
+</p>
+<dl class="org-dl">
+<dt>Privative case <i>ei-</i></dt><dd>lacking something (in general)</dd>
+</dl>
+<p>
+Example: without a houses, <i>éímén</i>
+</p>
+<dl class="org-dl">
+<dt>Semplative case <i>-ŗwo</i></dt><dd>similarity to something</dd>
+</dl>
+<p>
+Example: that tree is <b>like a house</b>, <i>ménŗwó</i>
+</p>
+<dl class="org-dl">
+<dt>Sociative case <i>to-</i></dt><dd>along with something, together with something</dd>
+</dl>
+<p>
+Example: with the house, <i>tómén</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgcd69b92" class="outline-2">
+<h2 id="orgcd69b92"><span class="section-number-2">9</span> Semantics</h2>
+<div class="outline-text-2" id="text-9">
+<dl class="org-dl">
+<dt>Partitive case PTV/PART <i>-ili’-</i></dt><dd>used for amounts</dd>
+</dl>
+<p>
+Example: three (of the) houses, <i>mílí’én</i>
+</p>
+<dl class="org-dl">
+<dt>*Prepositional case PREP</dt><dd>when certain prepositions precede the noun</dd>
+</dl>
+
+<dl class="org-dl">
+<dt>*Postpositional case POST</dt><dd>when certain preposition follows the noun</dd>
+</dl>
+<p>
+Example: in/on/about the house
+</p>
+<dl class="org-dl">
+<dt>Vocative case VOC <i>-wa</i></dt><dd>used for addressing someone, with or without a preposition</dd>
+</dl>
+<p>
+Example: Hey, father! O father! Father!, <i>pánámwá</i>
+</p>
+
+<p>
+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9383ebc" class="outline-2">
+<h2 id="org9383ebc"><span class="section-number-2">10</span> State</h2>
+<div class="outline-text-2" id="text-10">
+<dl class="org-dl">
+<dt>Abessive case ABE/ABESS <i>e-</i></dt><dd>the lack of something, a particular thing</dd>
+</dl>
+<p>
+Example: without the house, <i>émén</i>
+</p>
+<dl class="org-dl">
+<dt>Adverbial case ADV <i>-ei</i></dt><dd>being as something</dd>
+</dl>
+<p>
+Example: as a house, <i>ménéí</i>
+</p>
+<dl class="org-dl">
+<dt>Comparative case COMP <i>-oit</i></dt><dd>similarity with something</dd>
+</dl>
+<p>
+Example: similar to the house, compared to the house, <i>ménóít</i>
+</p>
+<dl class="org-dl">
+<dt>Equative case <i>-ńt</i></dt><dd>comparison with something</dd>
+</dl>
+<p>
+Example: like the house, <i>ménńt</i>
+</p>
+<dl class="org-dl">
+<dt>Essive case <i>-oiþyd-</i></dt><dd>temporary state of being, general use (essive-formal or essive-modal undefined, or both)</dd>
+</dl>
+<p>
+Example: as the house, <i>móíþýdén</i>
+</p>
+<dl class="org-dl">
+<dt>Essive-formal case <i>-ëd</i></dt><dd>marking a condition as a quality (a kind of shape)</dd>
+</dl>
+<p>
+Example: as a house, <i>ménêd</i>
+</p>
+<dl class="org-dl">
+<dt>Essive-modal case <i>-u’ug</i></dt><dd>marking a condition as a quality (a way of being)</dd>
+</dl>
+<p>
+Example: as a house, <i>ménú’úg</i>
+</p>
+<dl class="org-dl">
+<dt>*Exessive case</dt><dd>marking a transition from a condition</dd>
+</dl>
+<p>
+Example: from being a house (i.e., “it stops being a house”)
+</p>
+<dl class="org-dl">
+<dt>*Formal case</dt><dd>marking a condition as a quality</dd>
+</dl>
+<p>
+Example: as a house
+</p>
+<dl class="org-dl">
+<dt>Identical case <i>-etur</i></dt><dd>showing that something is identical</dd>
+</dl>
+<p>
+Example: being identical to the house, <i>ménétúr</i>
+</p>
+<dl class="org-dl">
+<dt>Orientative case ORI <i>fo-</i></dt><dd>oriented towards something</dd>
+</dl>
+<p>
+Example: turned towards the house, <i>fómén</i>
+</p>
+<dl class="org-dl">
+<dt>Revertive case <i>-ňo-</i></dt><dd>backwards to something</dd>
+</dl>
+<p>
+Example: against the house, <i>méňón</i>
+</p>
+<dl class="org-dl">
+<dt>Translative case TRANSL <i>-in</i></dt><dd>change of a condition into another</dd>
+</dl>
+<p>
+Example: (turning) into a house, <i>ménín</i>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Auteur: Lucien Cartier-Tilet</p>
+<p class="date">Created: 2018-06-06 mer. 17:20</p>
+<p class="validation"></p>
+</div>
+</body>
+</html>
