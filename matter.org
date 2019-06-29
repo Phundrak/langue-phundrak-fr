@@ -24,7 +24,6 @@
 - [[#phonologie][Phonologie]]
   - [[#notes-sur-la-transcription-du-mattér][Notes sur la transcription du Mattér]]
   - [[#inventaire-phonétique][Inventaire phonétique]]
-    - [[#évolution-des-sons-du-vieux-nordique-vers-le-mattér][Évolution des sons du Vieux Nordique vers le Mattér]]
     - [[#consonnes][Consonnes]]
     - [[#voyelles][Voyelles]]
     - [[#diphtonges][Diphtonges]]
@@ -250,7 +249,7 @@
    <<intro-demography>>
    #+attr_html: :alt Carte d’Éïnlante :align center
    #+CAPTION: Carte du XIX^{ème} siècle d’Éïnlante
-   [[./einlant-old-map.jpeg]]
+   [[./img/matter_einlant-old-map.jpeg]]
 
    Le Mattér  est parlé par  un peuple imaginaire  vivant sur une  île également
    imaginaire nommée Éïnlante (/terre  solitaire/, /Einlant/ en Mattér), peuplée
@@ -298,11 +297,12 @@
      pie(slices, labels = lbls, col = rainbow(length(lbls)),
          main = "Religions d’Éïnlante")
    #+END_SRC
+   #+ATTR_LATEX: :width 8cm :float wrap
    #+CAPTION: Population religieuse d’Éïnlante
    #+LABEL: fig:religion-piechart
    #+RESULTS: fig:religion-piechart
    [[file:religious-pop.png]]
-
+{{{newline}}}
 ** Histoire
    :PROPERTIES:
    :CUSTOM_ID: h-4349562e-64b4-4620-af92-a7028a30c2f3
@@ -494,17 +494,6 @@
    Comme mentionné en introduction  (§[[phon-allophonie]]), le choix de l’inventaire
    phonétique  du  Mattér s’est  basé  sur  l’inventaire phonétique  de  langues
    elfiques créées par Tolkien, notamment le Sindarin.
-
-*** Évolution des sons du Vieux Nordique vers le Mattér
-    :PROPERTIES:
-    :CUSTOM_ID: h-fe612985-b4d4-40ea-a4a7-cf1b01c49d5f
-    :END:
-
-    - {g,k} → ç / V_{V,#}
-    - œ → ø
-    - Vː → V
-    - s → θ
-    -
 
 *** Consonnes
     :PROPERTIES:
@@ -1079,7 +1068,7 @@
     dernier est donc  décliné au génitif via l’ajout d’un  suffixe /un/. On peut
     remarquer par  ailleurs que le Mattér  traite de manière identique  les noms
     communs et les noms propre quant à la déclinaison grammaticale.
-  - /ut/ est  un article défini servant  un indiquer un élément  précis. Ici, il
+  - /en/ est  un article défini servant  un indiquer un élément  précis. Ici, il
     désigne un élément non-humain unique, le marché.
   - /Hyrfialþarén un  marcéð/ est un groupe  nominal désignant le lieu  où s’est
     déroulée  l’action, il  est donc  décliné au  locatif. Notez  que le  groupe
