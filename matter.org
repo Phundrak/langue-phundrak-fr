@@ -504,16 +504,7 @@
     consonnes. Voici ci-dessous le tableau des consonnes du Mattér, en IPA et en
     latin (voir §[[phon-notes]]).
 
-    # #+BEGIN_SRC dot :file testdot.png :exports results
-    #   graph graphname {
-    #     graph[bgcolor="transparent"];
-    #     node[shape=plaintext];
-    #     b[label="{b}"];
-    #     a -- b -- c;
-    #     b -- d;
-    #   }
-    # #+END_SRC
-
+    #+CAPTION: Consonnes du Mattér (IPA)
     | /         | <   | <        | <   | <   | <       | <   | <    |
     |           | bil | lab-dent | alv | pal | lab-vel | vel | glot |
     |-----------+-----+----------+-----+-----+---------+-----+------|
@@ -525,28 +516,15 @@
     | spir-latt |     |          | l   |     |         |     |      |
 
     #+CAPTION: Consonnes du Mattér (IPA)
-    |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
-    |---------------+-------+----------+----------+---------+-------+-------------|
-    | bilabial      | m     | p b      |          |         |       |             |
-    | labio-dental  |       |          | f v      |         |       |             |
-    | alvéolaire    | n     | t d      | θ ð      |         | ɾ     | l           |
-    | palatal       |       |          | ç        | j       |       |             |
-    | labio-velaire |       |          |          | w       |       |             |
-    | vélaire       |       | k g      |          |         |       |             |
-    | glottal       |       |          | h        |         |       |             |
-    | /             | <     | <        | <        | <       | <     | <           |
-
-    #+CAPTION: Consonnes du Mattér (alphabet latin)
-    |               | nasal | occlusif | fricatif | spirant | battu | spir.-latt. |
-    |---------------+-------+----------+----------+---------+-------+-------------|
-    | bilabial      | m     | p b      |          |         |       |             |
-    | labio-dental  |       |          | f v      |         |       |             |
-    | alvéolaire    | n     | t d      | þ ð      |         | r     | l           |
-    | palatal       |       |          | ċ        | i       |       |             |
-    | labio-velaire |       |          |          | ƿ       |       |             |
-    | vélaire       |       | c g      |          |         |       |             |
-    | glottal       |       |          | h        |         |       |             |
-    | /             | <     | <        | <        | <       | <     | <           |
+    | /         | <   | <        | <   | <   | <       | <   | <    |
+    |           | bil | lab-dent | alv | pal | lab-vel | vel | glot |
+    |-----------+-----+----------+-----+-----+---------+-----+------|
+    | nasal     | m   |          | n   |     |         |     |      |
+    | occlusif  | p b |          | t d |     |         | k g |      |
+    | fricatif  |     | f v      | þ ð | ċ   |         |     | h    |
+    | spirant   |     |          |     | j   | ƿ       |     |      |
+    | battu     |     |          | r   |     |         |     |      |
+    | spir-latt |     |          | l   |     |         |     |      |
 
     On peut  remarquer que la  large majorité des  consonnes se situe  entre les
     points  d’articulation  alvéolaire  et  bilabial, et  toutes  les  consonnes
