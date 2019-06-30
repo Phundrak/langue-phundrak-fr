@@ -1,4 +1,4 @@
-#+TITLE: Une Grammaire du Mattér
+#+TITLE: Une Grammaire de l’Einnlandais
 #+AUTHOR: Lucien Cartier-Tilet
 #+EMAIL: phundrak@phundrak.fr
 #+INCLUDE: header-matter.org
