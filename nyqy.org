@@ -1,0 +1,707 @@
+#+TITLE: Une Grammaire du Ňyqy
+#+AUTHOR: Lucien Cartier-Tilet
+#+EMAIL: phundrak@phundrak.fr
+#+INCLUDE: header-nyqy.org
+#+OPTIONS: H:4 toc:nil
+#+OPTIONS: auto-id:t
+
+* Table des matières                                      :TOC_5_gh:noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-51eef56d-6cec-4279-bc84-8b0d4206892a
+  :END:
+- [[#avant-propos][Avant-propos]]
+- [[#introduction][Introduction]]
+  - [[#le-nom-de-la-langue][Le nom de la langue]]
+  - [[#dialectes][Dialectes]]
+- [[#phonologie][Phonologie]]
+  - [[#notes-sur-la-transcription-du-ňyqy][Notes sur la transcription du Ňyqy]]
+  - [[#inventaire-phonétique][Inventaire phonétique]]
+    - [[#consonnes][Consonnes]]
+    - [[#voyelles][Voyelles]]
+  - [[#allophonie][Allophonie]]
+  - [[#phonotaxes][Phonotaxes]]
+    - [[#attaque][Attaque]]
+    - [[#coda][Coda]]
+    - [[#inter-syllabe][Inter-syllabe]]
+  - [[#accentuation][Accentuation]]
+  - [[#accents-régionaux][Accents régionaux]]
+- [[#topologie-morphologique][Topologie morphologique]]
+- [[#classes-de-mots][Classes de mots]]
+  - [[#noms][Noms]]
+    - [[#nombre][Nombre]]
+    - [[#genre][Genre]]
+    - [[#possession][Possession]]
+    - [[#relations-grammaticales][Relations grammaticales]]
+    - [[#articles][Articles]]
+    - [[#types-de-noms][Types de noms]]
+      - [[#noms-propres][Noms propres]]
+      - [[#noms-de-masse][Noms de masse]]
+    - [[#pronoms][Pronoms]]
+      - [[#personnels][Personnels]]
+      - [[#relatifs][Relatifs]]
+  - [[#verbes][Verbes]]
+    - [[#infinitif][Infinitif]]
+    - [[#nominalisation][Nominalisation]]
+  - [[#adjectifs][Adjectifs]]
+  - [[#adverbes][Adverbes]]
+- [[#ordre-des-constituants-basiques][Ordre des constituants basiques]]
+  - [[#clauses-principales][Clauses principales]]
+  - [[#phrase-prépositionnelles][Phrase prépositionnelles]]
+  - [[#phrases-nominales][Phrases nominales]]
+    - [[#modificateurs][Modificateurs]]
+    - [[#constructions-génitives][Constructions génitives]]
+    - [[#clauses-relatives][Clauses relatives]]
+  - [[#phrases-verbales][Phrases verbales]]
+  - [[#comparatifs][Comparatifs]]
+  - [[#résumé][Résumé]]
+- [[#prédicats-nominaux][Prédicats nominaux]]
+- [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
+- [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
+  - [[#déclinaison--noms][Déclinaison – Noms]]
+    - [[#déclinaison][Déclinaison]]
+      - [[#noms-masculins-forts][Noms masculins forts]]
+    - [[#possession-1][Possession]]
+  - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
+  - [[#accord-des-verbes][Accord des verbes]]
+    - [[#indicatif][Indicatif]]
+      - [[#perfectif][Perfectif]]
+      - [[#imperfectif][Imperfectif]]
+    - [[#impératif][Impératif]]
+    - [[#jussif][Jussif]]
+    - [[#participes][Participes]]
+  - [[#déclinaison-et-accord-des-adjectifs][Déclinaison et accord des adjectifs]]
+    - [[#nominalisation-1][Nominalisation]]
+- [[#temps-aspects-et-modes][Temps, aspects et modes]]
+  - [[#temps][Temps]]
+  - [[#aspect][Aspect]]
+  - [[#modaux-auxiliaires][Modaux auxiliaires]]
+  - [[#causatif][Causatif]]
+    - [[#causatif-lexical][Causatif lexical]]
+    - [[#causatif-analytique][Causatif analytique]]
+  - [[#passif][Passif]]
+  - [[#réflexif][Réflexif]]
+  - [[#réciproque][Réciproque]]
+  - [[#questions][Questions]]
+    - [[#question-absolue-ouinon][Question absolue (oui/non)]]
+    - [[#question-relative][Question relative]]
+  - [[#impératif-1][Impératif]]
+- [[#négation][Négation]]
+- [[#combination-de-clauses][Combination de clauses]]
+  - [[#clauses-relatives-1][Clauses relatives]]
+  - [[#verbes-en-série][Verbes en série]]
+  - [[#clauses-de-complément][Clauses de complément]]
+    - [[#compléments-de-stems-basiques][Compléments de stems basiques]]
+    - [[#compléments-tél-et-þiv][Compléments <tél> et <þiv>]]
+  - [[#clauses-adverbiales][Clauses adverbiales]]
+  - [[#coordination][Coordination]]
+- [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
+- [[#nombres][Nombres]]
+- [[#glossaire][Glossaire]]
+  - [[#actions-physiques][Actions physiques]]
+  - [[#amour][Amour]]
+  - [[#animaux][Animaux]]
+  - [[#art][Art]]
+    - [[#écriture][Écriture]]
+    - [[#visuel][Visuel]]
+    - [[#audio][Audio]]
+  - [[#astronomie][Astronomie]]
+  - [[#bâtiments][Bâtiments]]
+    - [[#la-ville][La ville]]
+    - [[#les-types-de-bâtiments][Les types de bâtiments]]
+  - [[#commerce][Commerce]]
+  - [[#conflits][Conflits]]
+  - [[#conteneurs][Conteneurs]]
+  - [[#corps][Corps]]
+  - [[#couleurs][Couleurs]]
+  - [[#dimensions][Dimensions]]
+    - [[#distance][Distance]]
+    - [[#taille][Taille]]
+    - [[#quantifieurs][Quantifieurs]]
+  - [[#direction][Direction]]
+  - [[#eau][Eau]]
+  - [[#effort][Effort]]
+  - [[#éléments][Éléments]]
+  - [[#émotions][Émotions]]
+  - [[#évaluation][Évaluation]]
+  - [[#événements][Événements]]
+  - [[#existence][Existence]]
+  - [[#forme][Forme]]
+  - [[#gouvernement][Gouvernement]]
+  - [[#grammaire][Grammaire]]
+    - [[#articles-définis][Articles définis]]
+    - [[#déterminants-démonstratifs][Déterminants démonstratifs]]
+    - [[#outils-interrogatifs][Outils interrogatifs]]
+    - [[#conjonctions][Conjonctions]]
+    - [[#prépositions][Prépositions]]
+    - [[#pronoms-1][Pronoms]]
+  - [[#guerre][Guerre]]
+  - [[#légal][Légal]]
+  - [[#lieux][Lieux]]
+    - [[#villes][Villes]]
+  - [[#lumière][Lumière]]
+  - [[#mental][Mental]]
+  - [[#mesures][Mesures]]
+  - [[#métaux][Métaux]]
+  - [[#mouvements][Mouvements]]
+  - [[#nature][Nature]]
+  - [[#nombres-1][Nombres]]
+    - [[#nombres-cardinaux][Nombres cardinaux]]
+  - [[#nourriture][Nourriture]]
+  - [[#outils][Outils]]
+  - [[#parenté][Parenté]]
+    - [[#famille][Famille]]
+  - [[#parole][Parole]]
+  - [[#péchés][Péchés]]
+  - [[#peuples][Peuples]]
+  - [[#physique][Physique]]
+  - [[#possession-2][Possession]]
+  - [[#religion][Religion]]
+  - [[#savoir][Savoir]]
+  - [[#sensations][Sensations]]
+  - [[#sexe][Sexe]]
+  - [[#société][Société]]
+    - [[#relations-sociales][Relations sociales]]
+  - [[#substances][Substances]]
+  - [[#temps-1][Temps]]
+    - [[#jours-de-la-semaine][Jours de la semaine]]
+    - [[#saisons][Saisons]]
+  - [[#travail][Travail]]
+  - [[#végétaux][Végétaux]]
+    - [[#fruits][Fruits]]
+  - [[#vêtements][Vêtements]]
+  - [[#vie-et-santé][Vie et santé]]
+  - [[#à-trier][À trier]]
+- [[#footnotes][Footnotes]]
+
+* Avant-propos
+  :PROPERTIES:
+  :CUSTOM_ID: h-45733210-18dc-486a-858a-0af1d438d285
+  :END:
+
+  La  redistribution ou  vente de  ce  document sont  strictement interdits.  Ce
+  document est protégé par la loi  française sur le droit d’auteur et appartient
+  entièrement et totalement à son auteur. Ce document est un document disponible
+  gratuitement  au format  web et  pdf sur  mon site  web[fn:1]. Si  vous l’avez
+  obtenu depuis une autre source, gratuitement  ou non, merci de m’en faire part
+  en me contactant  via mes réseaux sociaux  ou par mail que  vous trouverez sur
+  mon site principal[fn:2]. Aucune personne, morale ou physique, n’est à l’heure
+  actuelle autorisée à  redistribuer ces documents. Si vous  êtes intéressés par
+  une redistribution  de ce document, je  vous invite à rentrer  en contact avec
+  moi afin que l’on en discute.
+
+  Ce document traite  d’une langue imaginaire que j’ai créé.  Cependant, il sera
+  rédigé comme  s’il s’agissait de  la première  tentative de description  de la
+  langue par un  linguiste la découvrant. Ainsi, si dans  certains passages vous
+  pouvez lire  « mais plus  d’études sur  le sujet  sont nécessaires »  ou « cet
+  aspect  de  la   langue  n’a  pas  encore  été  sujet   à  des  analyses  plus
+  approfondies », comprenez  par cela que  je n’ai  pas encore travaillé  sur ou
+  fini cette partie qui peut être sujet à des mises à jours dans le futur.
+
+  {{{last-update}}}
+
+* Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: h-2fbe549b-7190-4426-b35f-8c98682deb63
+  :END:
+
+  Le  Ňyqy  ({{{phon(ɴyqy)}}}  ou  {{{phon(ɴyʁy)}}}) est  une  langue  prototype
+  développée a priori. Sa grammaire est  analytique, mettant un clair accent sur
+  la  syntaxe plutôt  que la  morphologie quasiment  absente. La  langue restera
+  plutôt simple, et servira à développer suivant des processus naturels d’autres
+  langues  descendant du  Ňyqy. J’ai  tout de  même essayé  de développer  cette
+  langue  de façon  à autoriser  des aspects  naturels dans  le Ňyqy,  comme par
+  exemple son inventaire phonétique ou  sa différentiation des temps, aspects et
+  modes,  inspiré par  la présentation  de [[https://sites.google.com/view/joseph-windsor][Joseph  Windsor]] lors  de la  Language
+  Creation Conference 8.
+
+** Le nom de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-4bb192b0-55d3-43f2-94c0-408cb5cc21d9
+   :END:
+
+   Le nom de la langue est le pronom personel de la première personne du pluriel
+   en Ňyqy,  qui s’analyse par « ňy »  signifiant /6/ (le Ňyqy  comptant en base
+   cinq, il  s’agit d’un moyen  de signifier  la pluralité), ou  /plusieurs/, ou
+   /beaucoup/, et « qy », signifiant /soi/, /moi/.
+
+** Dialectes
+   :PROPERTIES:
+   :CUSTOM_ID: h-07afd07d-322c-40f3-996e-fdee03621138
+   :END:
+   Plusieurs  dialectes  ou  prononciations  du  Ňyqy  sont  possibles  et  sont
+   présentés       dans      le       chapitre      sur       la      phonologie
+   §[[#h-256a0004-69b5-4610-9e74-e16468d25d57]].
+
+* Phonologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-256a0004-69b5-4610-9e74-e16468d25d57
+  :END:
+
+** Notes sur la transcription du Ňyqy
+   :PROPERTIES:
+   :CUSTOM_ID: h-143a697c-d3f1-41d2-abed-f57dc4d44f75
+   :END:
+   Le Ňyqy étant une langue  orale, aucune transcription historique n’en existe.
+   Ainsi,  seule la  translittération présentée  ici fait  office d’orthographe,
+   suivant de  près la prononciation.  La transcription phonétique de  la langue
+   utilisant l’IPA[fn:3]  est également  possible, mais  moins lisible  je pense
+   pour  le lecteur,  alors que  la translittération  lui laissera  le choix  de
+   l’accent avec lequel il souhaite lire le Ňyqy.
+
+** Inventaire phonétique
+   :PROPERTIES:
+   :CUSTOM_ID: h-ec81157c-3665-4166-88a6-6c2851ca8d1c
+   :END:
+   L’inventaire phonétique du Ňyqy a été choisi suivant la méthode présentée par
+   Joseph Windsor lors le la LCC8, suivant un arbre de caractéristiques des
+   phonèmes présnets dans la langue.
+
+*** Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-5d0551dc-9e28-4f19-9df7-f0dc15022d13
+    :END:
+    Les consonnes standard du Ňyqy furent choisies suivant l’arbre des
+    caractéristiques suivant :
+    
+    #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
+    #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
+    [[./img/nyqy_consonant_feature_tree.png]]
+
+    Ainsi furent choisies ces consonnes :
+
+    #+CAPTION: Consonnes du Ňyqy (IPA)
+    | /        | <         | <          | <              | <        |
+    |          | bilablial | alvéolaire | labial-velaire | uvulaire |
+    |----------+-----------+------------+----------------+----------|
+    | plosif   | p b       |            |                | q ɢ      |
+    | nasal    | m         | n          |                | ɴ        |
+    | fricatif |           | s z        |                |          |
+    | affriqué |           | t͡ʃ d͡ʒ      |                |          |
+    | spirant  |           |            | w              |          |
+
+    #+CAPTION: Consonnes du Ňyqy (translittération)
+    | /        | <         | <          | <              | <        |
+    |          | bilablial | alvéolaire | labial-velaire | uvulaire |
+    |----------+-----------+------------+----------------+----------|
+    | plosif   | p b       |            |                | q g      |
+    | nasal    | m         | n          |                | ň        |
+    | fricatif |           | s z        |                |          |
+    | affriqué |           | c j        |                |          |
+    | spirant  |           |            | w              |          |
+
+*** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-0965f65a-4124-414e-b542-b92468c484a1
+    :END:
+    De même que pour les consonnes, les voyelles furent également choisies
+    suivant un arbre de caractéristique des voyelles. Voici l’arbre choisi :
+
+    #+attr_html: :alt Arbre des voyelles du Ňyqy :align center
+    #+CAPTION: Arbre des caractéristiques des voyelles du Ňyqy
+    [[./img/nyqy_vowel_feature_tree.png]]
+
+    Et voici les voyelles choisies à partir de cet arbre :
+
+    #+CAPTION: Voyelles du Ňyqy (IPA)
+    | /           | <           | <            |
+    |             | antérieures | postérieures |
+    |-------------+-------------+--------------|
+    | fermées     | y           | u            |
+    | pré-fermées | ɪ           | ʊ            |
+    | mi-fermées  | ø           | ʌ            |
+    | mi-ouvertes | ɛ           | ɔ            |
+
+    #+CAPTION: Voyelles du Ňyqy (translittération)
+    | /           | <           | <            |
+    |             | antérieures | postérieures |
+    |-------------+-------------+--------------|
+    | fermées     | y           | ü            |
+    | pré-fermées | i           | u            |
+    | mi-fermées  | ë           | ö            |
+    | mi-ouvertes | e           | o            |
+
+** Allophonie
+   :PROPERTIES:
+   :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
+   :END:
+   Il existe relativement peu de règles allophoniques connues en Ňyqy, cependant
+   quelques unes sont à peu près certaines :
+
+   - V → [-tense] / {q,ɢ,ɴ}_
+   - C_1 → [+geminated] / _C_{1}
+   - C_1 → ∅ / C_{1} _
+
+
+** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-091330c2-3def-4188-a4e8-575489780095
+   :END:
+
+*** Attaque
+    :PROPERTIES:
+    :CUSTOM_ID: h-7773e3ad-be7c-4f86-a799-17f515082504
+    :END:
+
+*** Coda
+    :PROPERTIES:
+    :CUSTOM_ID: h-78514e2b-d422-4253-bec1-48056aaac2aa
+    :END:
+
+*** Inter-syllabe
+    :PROPERTIES:
+    :CUSTOM_ID: h-27934bfb-0050-4c8e-b89d-e9977fe318cc
+    :END:
+
+** Accentuation
+   :PROPERTIES:
+   :CUSTOM_ID: h-3f8bdebe-b8ec-48c2-bbad-ed5fa28786bf
+   :END:
+
+** Accents régionaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-46a4bc1b-156e-4c7b-ac36-6c2e13ccda21
+   :END:
+   
+   Il est possible de rencontrer une  variation de prononciation du Ňyqy suivant
+   ces modifications :
+
+   | /        | <        |
+   | standard | variante |
+   |----------+----------|
+   | q        | χ        |
+   | ɢ        | ʁ        |
+   | t͡ʃ       | k        |
+   | d͡ʒ       | g        |
+   | ɴ        | ʀ        |
+   | p        | f        |
+   | p        | ɸ        |
+   | b        | v        |
+   | b        | β        |
+   | y        | i        |
+   | ø        | e        |
+   | ʌ        | o        |
+   | ɛ        | a        |
+
+   Dû à l’ancienneté  de cette langue, il n’existe pas  réellement de certitudes
+   quant aux règles faisant qu’un phonème  était adopté plutôt qu’un autre, mais
+   il est relativement  certain que les quatre premières  variations allaient de
+   paire.  Il  est   à  peu  près  certain  que  si   le  « p »  était  prononcé
+   {{{phon(f)}}}, alors  le « b »  serait prononcé  {{{phon(v)}}}, de  même pour
+   {{{phon(ɸ)}}}  et  {{{phon(β)}}}.  Il   semblerait  également  que  les  deux
+   premières  variations eut  été  très  fréquentes, il  est  même possible  que
+   {{{phon(χ)}}}  et {{{phon(ʁ)}}}  eurent  été allophones  de {{{phon(q)}}}  et
+   {{{phon(ɢ)}}} respectivement.
+
+* Topologie morphologique
+  :PROPERTIES:
+  :CUSTOM_ID: h-fe5337ed-1549-42cb-a622-7cae04b17268
+  :END:
+
+* Classes de mots
+  :PROPERTIES:
+  :CUSTOM_ID: h-3538358d-9f9c-412f-9679-6ada0b463058
+  :END:
+
+** Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-36798ce1-3ac3-46e7-8cd5-d5145cad79a0
+   :END:
+
+*** Nombre
+    :PROPERTIES:
+    :CUSTOM_ID: h-a67b4578-a95e-49c8-a6bf-2e145034bcfe
+    :END:
+
+*** Genre
+
+*** Possession
+
+*** Relations grammaticales
+
+*** Articles
+
+*** Types de noms
+
+**** Noms propres
+
+**** Noms de masse
+
+*** Pronoms
+
+**** Personnels
+
+**** Relatifs
+
+** Verbes
+
+*** Infinitif
+
+*** Nominalisation
+
+** Adjectifs
+
+** Adverbes
+
+* Ordre des constituants basiques
+
+** Clauses principales
+
+** Phrase prépositionnelles
+
+** Phrases nominales
+
+*** Modificateurs
+
+*** Constructions génitives
+
+*** Clauses relatives
+
+** Phrases verbales
+
+** Comparatifs
+
+** Résumé
+
+* Prédicats nominaux
+
+* Phrases existentielles, locationnelles et possessives
+
+* Expression des relations grammaticales
+
+** Déclinaison – Noms
+
+*** Déclinaison
+
+**** Noms masculins forts
+
+*** Possession
+
+** Déclinaison — Pronoms
+
+** Accord des verbes
+
+*** Indicatif
+
+**** Perfectif
+
+**** Imperfectif
+
+*** Impératif
+
+*** Jussif
+
+*** Participes
+
+** Déclinaison et accord des adjectifs
+
+*** Nominalisation
+
+* Temps, aspects et modes
+
+** Temps
+
+** Aspect
+
+** Modaux auxiliaires
+
+** Causatif
+
+*** Causatif lexical
+
+*** Causatif analytique
+
+** Passif
+
+** Réflexif
+
+** Réciproque
+
+** Questions
+
+*** Question absolue (oui/non)
+
+*** Question relative
+
+** Impératif
+
+* Négation
+
+* Combination de clauses
+
+** Clauses relatives
+
+** Verbes en série
+
+** Clauses de complément
+
+*** Compléments de stems basiques
+
+*** Compléments <tél> et <þiv>
+
+** Clauses adverbiales
+
+** Coordination
+
+* Structures marquées pragmatiquement
+
+* Nombres
+
+* Glossaire
+
+** Actions physiques
+
+** Amour
+
+** Animaux
+
+** Art
+
+*** Écriture
+
+*** Visuel
+
+*** Audio
+
+** Astronomie
+
+** Bâtiments
+
+*** La ville
+
+*** Les types de bâtiments
+
+** Commerce
+
+** Conflits
+
+** Conteneurs
+
+** Corps
+
+** Couleurs
+
+** Dimensions
+
+*** Distance
+
+*** Taille
+
+*** Quantifieurs
+
+** Direction
+
+** Eau
+
+** Effort
+
+** Éléments
+
+** Émotions
+
+** Évaluation
+
+** Événements
+
+** Existence
+
+** Forme
+
+** Gouvernement
+
+** Grammaire
+
+*** Articles définis
+
+*** Déterminants démonstratifs
+
+*** Outils interrogatifs
+
+*** Conjonctions
+
+*** Prépositions
+
+*** Pronoms
+
+** Guerre
+
+** Légal
+
+** Lieux
+
+*** Villes
+
+** Lumière
+
+** Mental
+
+** Mesures
+
+** Métaux
+
+** Mouvements
+
+** Nature
+
+** Nombres
+
+*** Nombres cardinaux
+
+** Nourriture
+
+** Outils
+
+** Parenté
+
+*** Famille
+
+** Parole
+
+** Péchés
+
+** Peuples
+
+** Physique
+
+** Possession
+
+** Religion
+
+** Savoir
+
+** Sensations
+
+** Sexe
+
+** Société
+
+*** Relations sociales
+
+** Substances
+
+** Temps
+
+*** Jours de la semaine
+
+*** Saisons
+
+** Travail
+
+** Végétaux
+
+*** Fruits
+
+** Vêtements
+
+** Vie et santé
+
+** À trier
+* Footnotes
+  :PROPERTIES:
+  :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
+  :END:
+
+[fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
+
+[fn:2] [[https://phundrak.fr]]
+
+[fn:1] https://langue.phundrak.fr

@@ -613,22 +613,22 @@
     Le Mattér  dispose de  relativement peu de  voyelles, uniquement  six. Voici
     leur tableau :
     #+CAPTION: Voyelles du Mattér (IPA)
-    | / | >           |             |           |              |
-    |   |             | antérieures | centrales | postérieures |
-    |---+-------------+-------------+-----------+--------------|
-    |   | fermées     | i / y       |           | u            |
-    |   | mi-fermées  | e           | [ə]       |              |
-    |   | mi-ouvertes | ɛ           |           | ɔ            |
-    |   | ouvertes    | a           |           |              |
+    | /           | <           |           |              |
+    |             | antérieures | centrales | postérieures |
+    |-------------+-------------+-----------+--------------|
+    | fermées     | i / y       |           | u            |
+    | mi-fermées  | e           | [ə]       |              |
+    | mi-ouvertes | ɛ           |           | ɔ            |
+    | ouvertes    | a           |           |              |
 
     #+CAPTION: Voyelles du Mattér (alphabet latin)
-    | / | >           |             |              |
-    |   |             | antérieures | postérieures |
-    |---+-------------+-------------+--------------|
-    |   | fermées     | i / y       | u            |
-    |   | mi-fermées  | é           |              |
-    |   | mi-ouvertes | e           | o            |
-    |   | ouvertes    | a           |              |
+    | /           | <           |              |
+    |             | antérieures | postérieures |
+    |-------------+-------------+--------------|
+    | fermées     | i / y       | u            |
+    | mi-fermées  | é           |              |
+    | mi-ouvertes | e           | o            |
+    | ouvertes    | a           |              |
 
     On peut  constater que le Mattér  est une langue disposant  d’une complexité
     modeste  concernant  ses  cinq  voyelles  antérieures  et  d’une  simplicité

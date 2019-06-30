@@ -3,7 +3,7 @@
 #+EMAIL: phundrak@phundrak.fr
 #+INCLUDE: header-matter.org
 #+OPTIONS: H:4 toc:nil
-#+OPTIONS: auto-id:t ^:nil
+#+OPTIONS: auto-id:t
 #+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@
 
 * Table des matières                                      :TOC_5_gh:noexport:
@@ -247,10 +247,7 @@
   Ce document utilisera les conventions habituelles des ouvrages linguistiques,
   tel que le gloss pour le détail linguistique d’une phrase, ou les phrases
   incorrectes marquées par une étoile ~*~ et les phrases à la grammaire
-  questionnables notées par un point d’interrogations ~?~. au_au au^au \+au\+
-  /au/
-
-  {{{phon(pʰynɖaʔ)}}}
+  questionnables notées par un point d’interrogations ~?~.
 
 ** Le nom de la langue
    :PROPERTIES:

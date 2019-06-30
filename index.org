@@ -16,10 +16,14 @@
 
 [[https://langue.phundrak.fr/zohaen][Zöhæň]] ([[https://langue.phundrak.fr/zohaen/zohaen-grammaire.pdf][pdf]])
 
-* TODO Langues humaines
+* Langues humaines
 
 Enánon (à venir)
 
 [[https://langue.phundrak.fr/matter][Mattér]] ([[https://langue.phundrak.fr/matter.pdf][pdf]])
 
 [[https://langue.phundrak.fr/einnlanda][Einnlanda]] ([[https://langue.phundrak.fr/einnlanda.pdf][pdf]])
+
+* Proto-langs
+
+[[https://langue.phundrak.fr/nyqy][Ňyqy]] ([[https://langue.phundrak.fr/nyqy.pdf][pdf]])
