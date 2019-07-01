@@ -329,28 +329,60 @@
 
    - V → [-tense] / {q,ɢ,ɴ}_
    - C_1 → [+geminated] / _C_{1}
-   - C_1 → ∅ / C_{1} _
-
+   - C_1 → ∅ / C_{1}​_
+   - {ɢ,q} → [+high] / V​_V
 
 ** Phonotaxes
    :PROPERTIES:
    :CUSTOM_ID: h-091330c2-3def-4188-a4e8-575489780095
    :END:
+   
+   Une syllabe  typique en Mattér se  présente sous la forme  C(C)V(CC), suivant
+   les règles présentées ci-dessous.
 
 *** Attaque
     :PROPERTIES:
     :CUSTOM_ID: h-7773e3ad-be7c-4f86-a799-17f515082504
     :END:
+    L’attaque des syllabes du Ňyqy suit les règles suivantes :
+    - Les  consonnes  non  coronales  peuvent  être  suivies  par  une  consonne
+      coronale non sonorante.
+    - Les consonnes coronales peuvent être suivies par une consonne non haute et
+      non coronale.
+    - Toutes  les  consonnes peuvent  être  suivies  par une  consone  sonorante
+      dorsale haute.
+    - Les consonnes  sonorantes, dorsales et  hautes ne peuvent  s’associer avec
+      d’autres consonnes dans le coda.
+    - Une voyelle haute ne peut pas suivre une consonne sonorante dorsale haute.
 
 *** Coda
     :PROPERTIES:
     :CUSTOM_ID: h-78514e2b-d422-4253-bec1-48056aaac2aa
     :END:
+    Les règles du coda sont également simples :
+    - Les consonnes coronales non sonorantes peuvent être suivies par des
+      consonnes non coronales.
+    - Les consonnes  sonorantes, dorsales et  hautes ne peuvent  s’associer avec
+      d’autres consonnes dans le coda.
 
 *** Inter-syllabe
     :PROPERTIES:
     :CUSTOM_ID: h-27934bfb-0050-4c8e-b89d-e9977fe318cc
     :END:
+    Quelques règles  se rajoutent aux  règles précédentes pour les  consonnes se
+    trouvent entre deux syllabes différentes :
+    - Les  consonnes sonorantes  et  non-dorsales peuvent  précéder toute  autre
+      consonne à  la condition que  ces premières fassent  partie du coda  de la
+      première syllabe.
+    - Si deux consonnes coronales non-dorsales se suivent, la seconde prendra le
+      voisement de la  première. Si après cela, la seconde  consonne se retrouve
+      identique  à la  première,  alors  la seconde  devient  silencieuse et  la
+      première devient géminée.
+    - Dans les autres cas, si une règle du coda est applicable entre la dernière
+      consonne de  la première  syllabe et  la première  consonne de  la seconde
+      syllabe, la prononciation est conservée.
+    - Si les règles précédentes ne s’appliquent  pas, il est supposé qu’un schwa
+      est ajouté afin de pouvoir rendre la syllabe prononcable.
 
 ** Accentuation
    :PROPERTIES:
@@ -413,30 +445,69 @@
     :END:
 
 *** Genre
+    :PROPERTIES:
+    :CUSTOM_ID: h-e7917590-9437-4b97-94f8-c7bd3e2a9ca3
+    :END:
 
 *** Possession
+    :PROPERTIES:
+    :CUSTOM_ID: h-941ff5ab-91fb-438a-af74-5f91f6ddb43b
+    :END:
 
 *** Relations grammaticales
+    :PROPERTIES:
+    :CUSTOM_ID: h-9b3e32cb-bf38-4afb-bc2d-e1b71c1c13c9
+    :END:
 
 *** Articles
+    :PROPERTIES:
+    :CUSTOM_ID: h-9a0df31c-0f4e-4d37-8c10-54252000d270
+    :END:
 
 *** Types de noms
+    :PROPERTIES:
+    :CUSTOM_ID: h-7cf437e4-d682-4ae8-bd8b-1668c4d18b15
+    :END:
 
 **** Noms propres
+     :PROPERTIES:
+     :CUSTOM_ID: h-f184bb3d-f1c7-4080-a588-9fc3ee39acba
+     :END:
 
 **** Noms de masse
+     :PROPERTIES:
+     :CUSTOM_ID: h-c47b2a5d-647f-482f-a609-f2d803b69745
+     :END:
 
 *** Pronoms
+    :PROPERTIES:
+    :CUSTOM_ID: h-7553bd34-a559-4b0c-8cb7-e89258b01e3d
+    :END:
 
 **** Personnels
+     :PROPERTIES:
+     :CUSTOM_ID: h-316c3e9e-99ae-4470-9d25-d5bcf86b0122
+     :END:
 
 **** Relatifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-1a2044e4-5981-4bd3-94bb-c08fe231fe5b
+     :END:
 
 ** Verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-744a5061-025c-4a75-954e-ab1e5a441292
+   :END:
 
 *** Infinitif
+    :PROPERTIES:
+    :CUSTOM_ID: h-952844f0-d29f-464a-8b24-34debafa13e3
+    :END:
 
 *** Nominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-89c9967e-83ac-4eb9-a661-e3fdede7b483
+    :END:
 
 ** Adjectifs
 
