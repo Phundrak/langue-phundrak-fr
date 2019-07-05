@@ -1,6 +1,5 @@
+#+include: ../headers/headers.org
 #+TITLE: Grammaire du Hjalpi’ vernaculaire
-#+INCLUDE: "headers.org"
-src_latex{\newpage}
 
 * Abréviations
 

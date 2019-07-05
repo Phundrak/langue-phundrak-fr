@@ -1,9 +1,12 @@
+#+include: headers/headers.org
 #+TITLE: Une Grammaire du Mattér
-#+AUTHOR: Lucien Cartier-Tilet
-#+EMAIL: phundrak@phundrak.fr
-#+INCLUDE: header-matter.org
-#+OPTIONS: H:4 toc:nil
-#+OPTIONS: auto-id:t
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Mattér" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
+#+OPTIONS: H:4 toc:nil auto-id:t
+src_latex{\newpage}
+#+TOC: headlines
+src_latex{\newpage}
 
 * Table des matières                                      :TOC_5_gh:noexport:
   :PROPERTIES:
@@ -249,7 +252,7 @@
    <<intro-demography>>
    #+attr_html: :alt Carte d’Éïnlante :align center
    #+CAPTION: Carte du XIX^{ème} siècle d’Éïnlante
-   [[./img/matter_einlant-old-map.jpeg]]
+   [[file:./img/matter_einlant-old-map.jpg]]
 
    Le Mattér  est parlé par  un peuple imaginaire  vivant sur une  île également
    imaginaire nommée Éïnlante (/terre  solitaire/, /Einlant/ en Mattér), peuplée

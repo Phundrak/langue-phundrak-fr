@@ -1,10 +1,10 @@
+#+include: headers/headers.org
 #+TITLE: Une Grammaire de l’Einnlandais
-#+AUTHOR: Lucien Cartier-Tilet
-#+EMAIL: phundrak@phundrak.fr
-#+INCLUDE: header-matter.org
-#+OPTIONS: H:4 toc:nil
+#+LaTeX_HEADER: \usepackage{allrunes}
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Einnlanda" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Einnlanda" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Einnlanda" />
 #+OPTIONS: auto-id:t
-#+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@
 
 * Table des matières                                      :TOC_5_gh:noexport:
   :PROPERTIES:

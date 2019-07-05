@@ -1,11 +1,10 @@
+#+include: headers/headers.org
 #+TITLE: Ressources grammaticales du Hjalpi’ Vernaculaire
-#+SUBTITLE: 🔴 Développement suspendu
-#+INCLUDE: "headers.org"
 src_latex{\newpage}
 
-[[file:old-hjalpi-grammaire.html][Grammaire]] ([[file:old-hjalpi-grammaire.pdf][pdf]])
+[[file:vernacular-hjalpi/vernacular-hjalpi-grammaire.org][Grammaire]] ([[file:vernacular-hjalpi/vernacular-hjalpi-grammaire.pdf][pdf]])
 
-[[file:old-hjalpi-grammaire-2.html][Grammaire V2]] ([[file:old-hjalpi-grammaire-2.pdf][pdf]])
+[[file:vernacular-hjalpi/vernacular-hjalpi-grammaire-2.org][Grammaire V2]] ([[file:old-hjalpi-grammaire-2.pdf][pdf]])
 
 [[file:old-hjalpi-dictionnaire.html][Dictionnaire]] ([[file:old-hjalpi-dictionnaire.pdf][pdf]])
 

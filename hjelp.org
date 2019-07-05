@@ -1,6 +1,4 @@
-#+INCLUDE: "headers.org"
-#+LaTeX_HEADER: \usepackage{indentfirst}
-#+LATEX_CLASS: article
+#+include: headers/headers.org
 #+TITLE: Une Grammaire du Hjelp
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />

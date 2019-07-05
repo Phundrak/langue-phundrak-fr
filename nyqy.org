@@ -1,9 +1,13 @@
+#+include: headers/headers.org
 #+TITLE: Une Grammaire du Ňyqy
-#+AUTHOR: Lucien Cartier-Tilet
-#+EMAIL: phundrak@phundrak.fr
-#+INCLUDE: header-nyqy.org
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+OPTIONS: H:4 toc:nil
 #+OPTIONS: auto-id:t
+{{{newpage}}}
+#+TOC: headlines
+{{{newpage}}}
 
 * Table des matières                                      :TOC_5_gh:noexport:
   :PROPERTIES:
@@ -11,6 +15,8 @@
   :END:
 - [[#avant-propos][Avant-propos]]
 - [[#introduction][Introduction]]
+  - [[#note-sur-la-langue-en-tant-que-langue-construite][Note sur la langue en tant que langue construite]]
+  - [[#notes-sur-la-langue-en-tant-que-langue-réelle][Notes sur la langue en tant que langue réelle]]
   - [[#le-nom-de-la-langue][Le nom de la langue]]
   - [[#dialectes][Dialectes]]
 - [[#phonologie][Phonologie]]
@@ -24,7 +30,7 @@
     - [[#coda][Coda]]
     - [[#inter-syllabe][Inter-syllabe]]
   - [[#accentuation][Accentuation]]
-  - [[#accents-régionaux][Accents régionaux]]
+  - [[#phonétique-alternative-et-dialectes][Phonétique alternative et dialectes]]
 - [[#topologie-morphologique][Topologie morphologique]]
 - [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
@@ -195,24 +201,48 @@
   pouvez lire  « mais plus  d’études sur  le sujet  sont nécessaires »  ou « cet
   aspect  de  la   langue  n’a  pas  encore  été  sujet   à  des  analyses  plus
   approfondies », comprenez  par cela que  je n’ai  pas encore travaillé  sur ou
-  fini cette partie qui peut être sujet à des mises à jours dans le futur.
+  fini cette partie  qui peut être sujet à  des mises à jours dans  le futur. En
+  dehors de la  référence à Joseph Windsor ci-dessous, toute  référence de style
+  académique est fictionnelle (cf §[[#h-f2a15be7-ee4e-4ec3-a856-535c9861774f]]).
 
   {{{last-update}}}
-
+  {{{newpage}}}
 * Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-2fbe549b-7190-4426-b35f-8c98682deb63
   :END:
 
-  Le  Ňyqy  ({{{phon(ɴyqy)}}}  ou  {{{phon(ɴyʁy)}}}) est  une  langue  prototype
-  développée a priori. Sa grammaire est  analytique, mettant un clair accent sur
-  la  syntaxe plutôt  que la  morphologie quasiment  absente. La  langue restera
-  plutôt simple, et servira à développer suivant des processus naturels d’autres
-  langues  descendant du  Ňyqy. J’ai  tout de  même essayé  de développer  cette
-  langue  de façon  à autoriser  des aspects  naturels dans  le Ňyqy,  comme par
-  exemple son inventaire phonétique ou  sa différentiation des temps, aspects et
-  modes,  inspiré par  la présentation  de [[https://sites.google.com/view/joseph-windsor][Joseph  Windsor]] lors  de la  Language
-  Creation Conference 8.
+** Note sur la langue en tant que langue construite
+   :PROPERTIES:
+   :CUSTOM_ID: h-f2a15be7-ee4e-4ec3-a856-535c9861774f
+   :END:
+   Le  Ňyqy  ({{{phon(ɴyqy)}}} ou  {{{phon(ɴyʁy)}}})  est  une langue  prototype
+   développée a priori. Sa grammaire est analytique, mettant un clair accent sur
+   la syntaxe  plutôt que  la morphologie quasiment  absente. La  langue restera
+   plutôt  simple,  et  servira  à développer  suivant  des  processus  naturels
+   d’autres langues descendant  du Ňyqy. J’ai tout de même  essayé de développer
+   cette langue  de façon à autoriser  des aspects naturels dans  le Ňyqy, comme
+   par  exemple  son inventaire  phonétique  ou  sa différentiation  des  temps,
+   aspects et  modes, inspiré par la  présentation de [[https://sites.google.com/view/joseph-windsor][Joseph Windsor]]  lors de la
+   Language Creation Conference 8 (2019).
+
+** Notes sur la langue en tant que langue réelle
+   :PROPERTIES:
+   :CUSTOM_ID: h-da09cfc9-f1e0-4e38-ae49-a859d988caa0
+   :END:
+   Le Ňyqy est une langue parlée il  y a quelques huit millénaires environ ; les
+   estimations vont de 4.000 ans à 11.000 ans  avant notre êre. Cette langue est
+   ancêtre de la quasi-totalité des langues de notre monde actuel, avec quelques
+   exceptions notoires  tels que le Énanonn  qui reste encore très  mystérieux à
+   bien des  égards, ou bien le  Hjelp Moderne, descendant directs  de plusieurs
+   dialectes variés  du Hjelp Vulgaire, eux-même  simplifications et descendants
+   du Hjelp Originel.
+
+   Le Ňyqy était,  selon toutes évidences, une langue  très analytique, reposant
+   bien plus sur  sa syntaxe que sa  morphologie quasi-inexistante. Globalement,
+   il s’agit également d’une langue où la  tête d’une proposition se trouve à la
+   fin  de  cette  dernière,  conduisant  à  un  ordre  principalement  OSV,  le
+   possesseur se trouvant après le possédé, etc…
 
 ** Le nom de la langue
    :PROPERTIES:
@@ -222,20 +252,37 @@
    Le nom de la langue est le pronom personel de la première personne du pluriel
    en Ňyqy,  qui s’analyse par « ňy »  signifiant /6/ (le Ňyqy  comptant en base
    cinq, il  s’agit d’un moyen  de signifier  la pluralité), ou  /plusieurs/, ou
-   /beaucoup/, et « qy », signifiant /soi/, /moi/.
+   /beaucoup/, et « qy », signifiant /soi/, /moi/.  Il n’est pas certain que les
+   locuteurs se référaient à leur langue  ainsi, voire s’ils s’y référaient tout
+   simplement, mais plusieurs éléments tendent à laisser penser que ce serait le
+   cas (Loqbrekh et Khorlan, /Université de Ðbńo/, 3598).
 
 ** Dialectes
    :PROPERTIES:
    :CUSTOM_ID: h-07afd07d-322c-40f3-996e-fdee03621138
    :END:
-   Plusieurs  dialectes  ou  prononciations  du  Ňyqy  sont  possibles  et  sont
-   présentés       dans      le       chapitre      sur       la      phonologie
-   §[[#h-256a0004-69b5-4610-9e74-e16468d25d57]].
+   Plusieurs dialectes  du Ňyqy existèrent probablement,  cependant l’ancienneté
+   de cette langue rend très difficile leur existance et leurs spécificités. Les
+   variations phonétiques les  plus probables seront discutées  lors du chapitre
+   §[[#h-46a4bc1b-156e-4c7b-ac36-6c2e13ccda21]].
 
+   {{{newpage}}}
 * Phonologie
   :PROPERTIES:
   :CUSTOM_ID: h-256a0004-69b5-4610-9e74-e16468d25d57
   :END:
+  La phonologie  d’une langue est l’étude  des sons qui la  composent, ainsi que
+  l’organisation  et  l’interaction  de  ces  derniers entre  eux.  Cela  a  des
+  conséquences  importantes, comme  la caractéristique  esthétique sonore  de la
+  langue, ou bien les variations possible dans la prononciation de certains sons
+  qui peuvent paraître  naturelles pour les locuteurs natifs de  la langue, mais
+  pas nécessairement  pour nous.  Même si  plus personne  ne parle  cette langue
+  actuellement, il me  semble important pour les étudiants  de langues anciennes
+  de pouvoir  associer des sons aux  divers mots et aux  diverses phrases qu’ils
+  rencontreront ;  il  s’agit  d’une  langue, après  tout !  Dans  ce  chapitre,
+  j’essaierai de présenter  ce qui est connu  de la phonologie du  Ňyqy afin que
+  l’on  puisse  se  faire  une  idée  de ce  à  quoi  ressemblait  cette  langue
+  lorsqu’elle était parlée il y a plusieurs millénaires.
 
 ** Notes sur la transcription du Ňyqy
    :PROPERTIES:
@@ -329,8 +376,8 @@
 
    - V → [-tense] / {q,ɢ,ɴ}_
    - C_1 → [+geminated] / _C_{1}
-   - C_1 → ∅ / C_{1}​_
-   - {ɢ,q} → [+high] / V​_V
+   - C_1 → ∅ / C_{1}_
+   - {ɢ,q} → [+high] / V_V
 
 ** Phonotaxes
    :PROPERTIES:
@@ -389,7 +436,7 @@
    :CUSTOM_ID: h-3f8bdebe-b8ec-48c2-bbad-ed5fa28786bf
    :END:
 
-** Accents régionaux
+** Phonétique alternative et dialectes
    :PROPERTIES:
    :CUSTOM_ID: h-46a4bc1b-156e-4c7b-ac36-6c2e13ccda21
    :END:
@@ -424,11 +471,13 @@
    {{{phon(χ)}}}  et {{{phon(ʁ)}}}  eurent  été allophones  de {{{phon(q)}}}  et
    {{{phon(ɢ)}}} respectivement.
 
+   {{{newpage}}}
 * Topologie morphologique
   :PROPERTIES:
   :CUSTOM_ID: h-fe5337ed-1549-42cb-a622-7cae04b17268
   :END:
 
+  {{{newpage}}}
 * Classes de mots
   :PROPERTIES:
   :CUSTOM_ID: h-3538358d-9f9c-412f-9679-6ada0b463058
@@ -510,80 +559,199 @@
     :END:
 
 ** Adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-c37d70f8-3302-4f97-a2d7-5a50470fd8bd
+   :END:
 
 ** Adverbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-6149be34-61ff-43d5-8cbc-0412372db15e
+   :END:
 
+   {{{newpage}}}
 * Ordre des constituants basiques
+  :PROPERTIES:
+  :CUSTOM_ID: h-a494cab9-13ac-467e-93f2-cc7fc9846f60
+  :END:
 
 ** Clauses principales
+   :PROPERTIES:
+   :CUSTOM_ID: h-49826669-bd02-4ce3-854b-0c798cad73ca
+   :END:
 
 ** Phrase prépositionnelles
+   :PROPERTIES:
+   :CUSTOM_ID: h-39e1b853-a19a-42c1-80ec-c56351eca9dc
+   :END:
 
 ** Phrases nominales
+   :PROPERTIES:
+   :CUSTOM_ID: h-3d65c398-dfcf-4a43-9089-208362fbcf0a
+   :END:
 
 *** Modificateurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-a946cd57-11b8-4332-b1c6-763e4bf32b01
+    :END:
 
 *** Constructions génitives
+    :PROPERTIES:
+    :CUSTOM_ID: h-5ce5d039-d91d-4890-98b3-9cd4c2faeb19
+    :END:
 
 *** Clauses relatives
+    :PROPERTIES:
+    :CUSTOM_ID: h-47f97fef-8359-4b72-bec5-d3d2f8505619
+    :END:
 
 ** Phrases verbales
+   :PROPERTIES:
+   :CUSTOM_ID: h-054fb186-baa0-4a80-9b2f-11fc274f6a53
+   :END:
 
 ** Comparatifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-74cb9419-f8c5-4801-aa7d-67184d86a526
+   :END:
 
 ** Résumé
+   :PROPERTIES:
+   :CUSTOM_ID: h-a084b2ff-bbd4-4e57-990f-84a74c72abf9
+   :END:
 
+   {{{newpage}}}
 * Prédicats nominaux
+  :PROPERTIES:
+  :CUSTOM_ID: h-8a07ef6d-44b3-48e1-bd10-ff28143e7da7
+  :END:
 
+  {{{newpage}}}
 * Phrases existentielles, locationnelles et possessives
+  :PROPERTIES:
+  :CUSTOM_ID: h-fcd824dc-da65-40f8-adca-d9d13947a6c2
+  :END:
 
+  {{{newpage}}}
 * Expression des relations grammaticales
+  :PROPERTIES:
+  :CUSTOM_ID: h-8bb279aa-222e-4c4a-95b7-88602377f3cd
+  :END:
 
 ** Déclinaison – Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-ce86ff0c-feaa-4357-8327-227a7be4bb65
+   :END:
 
 *** Déclinaison
+    :PROPERTIES:
+    :CUSTOM_ID: h-fb372bff-ba9d-47a2-97ab-1cc5c6ed7b9e
+    :END:
 
 **** Noms masculins forts
+     :PROPERTIES:
+     :CUSTOM_ID: h-a9990376-200b-4a30-9be0-4759675b909b
+     :END:
 
 *** Possession
+    :PROPERTIES:
+    :CUSTOM_ID: h-aadc5294-179f-4ae9-9409-4c804b29a6e4
+    :END:
 
 ** Déclinaison — Pronoms
+   :PROPERTIES:
+   :CUSTOM_ID: h-f48c5a27-b4f4-45c7-b628-5070f917a122
+   :END:
 
 ** Accord des verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-b95220f2-0c02-4fc8-9386-1e789ccf5b6c
+   :END:
 
 *** Indicatif
+    :PROPERTIES:
+    :CUSTOM_ID: h-df795419-056f-400c-a1a2-2eb624e3d28b
+    :END:
 
 **** Perfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-fd252291-db22-4a6d-9c51-c3b863aa6546
+     :END:
 
 **** Imperfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-8479bd18-202e-4b78-97f8-009aad2a121b
+     :END:
 
 *** Impératif
+    :PROPERTIES:
+    :CUSTOM_ID: h-91e037d4-f36e-4fe0-ad68-761702afab9f
+    :END:
 
 *** Jussif
+    :PROPERTIES:
+    :CUSTOM_ID: h-0a766e02-5fbd-45fc-add2-3fae3c4b7af1
+    :END:
 
 *** Participes
+    :PROPERTIES:
+    :CUSTOM_ID: h-fddf44de-8920-4d47-a816-444ec1c66448
+    :END:
 
 ** Déclinaison et accord des adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-9af7e880-28ec-4ff0-b791-2f23701f4c89
+   :END:
 
 *** Nominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-c60415ed-7eda-41a8-b9ee-af5985f5e246
+    :END:
 
+    {{{newpage}}}
 * Temps, aspects et modes
+  :PROPERTIES:
+  :CUSTOM_ID: h-124c0d45-0120-4e9b-9f98-4d726b269944
+  :END:
 
 ** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-13c2c042-bbea-43c8-b156-61313288f3ae
+   :END:
 
 ** Aspect
+   :PROPERTIES:
+   :CUSTOM_ID: h-8604433a-8db9-46db-a888-8d4e6d25243b
+   :END:
 
 ** Modaux auxiliaires
+   :PROPERTIES:
+   :CUSTOM_ID: h-a4bed967-224d-4cca-99c6-c7d7b509b638
+   :END:
 
 ** Causatif
+   :PROPERTIES:
+   :CUSTOM_ID: h-cd1e7046-8de8-4a61-8a61-c889ddd2e3b8
+   :END:
 
 *** Causatif lexical
+    :PROPERTIES:
+    :CUSTOM_ID: h-5f502419-e97b-4ef1-aee6-811ecbbd9406
+    :END:
 
 *** Causatif analytique
+    :PROPERTIES:
+    :CUSTOM_ID: h-c16ff844-e7b2-4b6e-b4f2-6795e36f7684
+    :END:
 
 ** Passif
+   :PROPERTIES:
+   :CUSTOM_ID: h-79726aee-a02a-4052-96aa-9f81c3db0e43
+   :END:
 
 ** Réflexif
+   :PROPERTIES:
+   :CUSTOM_ID: h-966834c1-e605-44fc-8d51-8342e1684d6d
+   :END:
 
 ** Réciproque
 
@@ -595,8 +763,10 @@
 
 ** Impératif
 
+   {{{newpage}}}
 * Négation
-
+  
+  {{{newpage}}}
 * Combination de clauses
 
 ** Clauses relatives
@@ -613,10 +783,13 @@
 
 ** Coordination
 
+   {{{newpage}}}
 * Structures marquées pragmatiquement
 
+  {{{newpage}}}
 * Nombres
 
+  {{{newpage}}}
 * Glossaire
 
 ** Actions physiques

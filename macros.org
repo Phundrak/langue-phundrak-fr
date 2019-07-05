@@ -1,9 +1,0 @@
-#+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
-#+MACRO: newpage @@latex:\newpage@@
-#+MACRO: latex-html @@latex:$1@@ @@html:$2@@
-#+NAME: last-update
-#+BEGIN_SRC shell :exports none :results silent
-  date '+Dernière mise à jour le %d/%m/%y à %H:%M'
-#+END_SRC
-#+MACRO: last-update call_last-update[:eval yes]()[:eval yes]
-#+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@

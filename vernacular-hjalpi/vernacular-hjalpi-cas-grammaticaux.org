@@ -1,6 +1,5 @@
+#+include: ../headers/headers.org
 #+TITLE: Cas grammaticaux du Hjalpi’ Vernaculaire
-#+INCLUDE: "headers.org"
-src_latex{\newpage}
 
 Le Hjalpi’ verniculaire (je m’y référerai plus tard comme « Hjalpi’ » uniquement) est une langue ergative (le sujet du verbe intransitif et du verbe transitif ne sont pas confondus) (comme le tibétain)
 - Transitivité :: aptitude ou non à gérer un objet
