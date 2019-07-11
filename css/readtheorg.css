@@ -444,7 +444,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
-    margin-bottom: 24px;
+    margin: 0 auto 24px auto;
     border-bottom: 1px solid #e1e4e5;
 }
 
