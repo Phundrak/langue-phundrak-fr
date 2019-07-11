@@ -25,6 +25,65 @@
 #+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
 
+# ### CODE #####################################################################
+
+#+NAME: process-tree
+#+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+  (define (left-child tree)
+    (cadr tree))
+  (define (left-child-name tree)
+    (car (left-child tree)))
+  (define (right-child tree)
+    (caddr tree))
+  (define (right-child-name tree)
+    (car (right-child tree)))
+  (define (cur-name tree)
+    (car tree))
+
+  (define (to-string phon-tree node-nbr child next-nbr)
+    (let ((this-name (string-append "node"
+                                    (number->string node-nbr)))
+          (child-name (string-append "node"
+                                     (number->string next-nbr))))
+      (string-append child-name
+                     "[label=\""
+                     (cur-name child)
+                     "\"];"
+                     this-name
+                     "--"
+                     child-name
+                     ";"
+                     (to-dot-main child next-nbr))))
+
+  (define (to-dot-main phon-tree node-nbr)
+    (let* ((this-name (string-append (number->string node-nbr)
+                                    "node")))
+      (if (null? (left-child phon-tree))
+          ""
+          (let ((x (* 2 (+ 1 node-nbr)))
+                (y (* 2 (+ 2 node-nbr))))
+            (string-append (to-string phon-tree node-nbr
+                                      (left-child phon-tree)
+                                      x)
+                           (to-string phon-tree node-nbr
+                                      (right-child phon-tree)
+                                      y))))))
+
+  (define (to-dot phon-tree)
+    (if (null? phon-tree)
+        ""
+        (string-append
+         "graph{"
+         "node[shape=plaintext];"
+         "graph[bgcolor=\"transparent\"];"
+         "node1[label=\""
+         (cur-name phon-tree)
+         "\"];"
+
+         (to-dot-main phon-tree 1)
+         "}")))
+#+END_SRC
+
 # ### MACROS ###################################################################
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: newpage @@latex:\newpage@@
