@@ -1,4 +1,4 @@
-#+include: headers/headers.org
+#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du Hjelp
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />

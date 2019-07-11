@@ -1,4 +1,4 @@
-#+include: ../headers/headers.org
+#+include: ../headers/head-lvl1.org
 #+TITLE: Cas grammaticaux du Hjalpi Vernaculaire
 
 Grammatical states marques with a star ( * ) are grammatical states that do not exist *as declensions* in the Divine Language.

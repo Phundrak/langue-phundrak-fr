@@ -1,4 +1,4 @@
-#+include: ../headers/headers.org
+#+include: ../headers/head-lvl1.org
 #+TITLE: Grammaire du Hjalpi’ Vernaculaire V2
 
 * Introduction

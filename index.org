@@ -1,4 +1,4 @@
-#+include: headers/headers.org
+#+include: headers/head-lvl0.org
 #+TITLE: Langues construites de P’undrak
 #+HTML_HEAD: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:title" content="Langues construites de P’undrak" />

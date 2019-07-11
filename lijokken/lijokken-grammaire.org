@@ -1,4 +1,4 @@
-#+include: ../headers/headers.org
+#+include: ../headers/head-lvl1.org
 #+TITLE: Grammaire du Łijökken
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue draconienne du Łijökken" />
 #+HTML_HEAD: <meta property="og:title" content="Ressources grammaticales du Łijökken" />
