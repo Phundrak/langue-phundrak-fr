@@ -3,7 +3,7 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
-#+OPTIONS: H:4 toc:nil
+#+OPTIONS: H:4 toc:nil ^:{}
 #+OPTIONS: auto-id:t
 {{{newpage}}}
 #+TOC: headlines
@@ -299,33 +299,44 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ec81157c-3665-4166-88a6-6c2851ca8d1c
    :END:
-   L’inventaire phonétique du Ňyqy a été choisi suivant la méthode présentée par
-   Joseph Windsor lors le la LCC8, suivant un arbre de caractéristiques des
-   phonèmes présnets dans la langue.
+   L’inventaire  phonétique du  Ňyqy  a  été choisi  suivant  la  méthode de  la
+   hiérarchie des  caractéristiques phonétiques,  grâce à des  arbres construits
+   suivant cette théorie.
 
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-5d0551dc-9e28-4f19-9df7-f0dc15022d13
     :END:
-    Les consonnes standard du Ňyqy furent choisies suivant l’arbre des
-    caractéristiques suivant :
-    
+    Les  consonnes  standard  du  Ňyqy   furent  choisies  suivant  l’arbre  des
+    caractéristiques montré dans la figure [[arbre:cons]].
+
+    #+NAME: arbre:cons
     #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
     [[./img/nyqy_consonant_feature_tree.png]]
 
-    Ainsi furent choisies ces consonnes :
+    Ainsi furent choisies ces consonnes, présentées par la table [[table:cons:ipa]].
+    Les phonèmes  entre parenthèse sont des  allophones de phonèmes de  base qui
+    peuvent       muter      en       ces      nouveau       phonèmes      (voir
+    §[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]). L’orthographe  des caractères qui
+    ne sont pas entre parenthèses est montrée par la table [[table:cons:trans]].
 
+    #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ňyqy (IPA)
-    | /        | <         | <          | <              | <        |
-    |          | bilablial | alvéolaire | labial-velaire | uvulaire |
-    |----------+-----------+------------+----------------+----------|
-    | plosif   | p b       |            |                | q ɢ      |
-    | nasal    | m         | n          |                | ɴ        |
-    | fricatif |           | s z        |                |          |
-    | affriqué |           | t͡ʃ d͡ʒ      |                |          |
-    | spirant  |           |            | w              |          |
+    | /             | <         | <          | <              | <       | <        | <        |
+    |               | bilablial | alvéolaire | labial-velaire | palatal | uvulaire | pharygal |
+    |---------------+-----------+------------+----------------+---------+----------+----------|
+    | plosif        | p b       |            |                |         | q ɢ      |          |
+    | nasal         | m         | n          |                |         | ɴ        |          |
+    | tapé          |           |            |                |         | (ʀ)      |          |
+    | fricatif      |           | s z        |                | (x) (ɣ) | (χ) (ʁ)  | (ħ) (ʕ)  |
+    | affriqué      |           | t͡ʃ d͡ʒ      |                |         |          |          |
+    | lat. affriqué |           | (ɬ) (ɮ)    |                |         |          |          |
+    | lat. spirant  |           | (l)        |                |         |          |          |
+    | approximant   |           |            |                | (j)     |          |          |
+    | spirant       |           |            | w              |         |          |          |
 
+    #+NAME: table:cons:trans
     #+CAPTION: Consonnes du Ňyqy (translittération)
     | /        | <         | <          | <              | <        |
     |          | bilablial | alvéolaire | labial-velaire | uvulaire |
@@ -336,20 +347,27 @@
     | affriqué |           | c j        |                |          |
     | spirant  |           |            | w              |          |
 
+    {{{newpage}}}
 *** Voyelles
     :PROPERTIES:
     :CUSTOM_ID: h-0965f65a-4124-414e-b542-b92468c484a1
     :END:
     De même que pour les consonnes, les voyelles furent également choisies
-    suivant un arbre de caractéristique des voyelles. Voici l’arbre choisi :
+    suivant un arbre de caractéristique des voyelles. L’arbre choisi est
+    présenté avec la figure [[arbre:vowels]].
 
+    #+NAME: arbre:vowels
     #+attr_html: :alt Arbre des voyelles du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des voyelles du Ňyqy
     [[./img/nyqy_vowel_feature_tree.png]]
 
-    Et voici les voyelles choisies à partir de cet arbre :
+    Grâce  à cet  arbre furent  choisies les  voyelles présentées  par la  table
+    [[table:vowels:ipa]],  et  leur  translitération  est  présentée  par  la  table
+    [[table:vowels:trans]].
 
+    #+NAME: table:vowels:ipa
     #+CAPTION: Voyelles du Ňyqy (IPA)
+    #+ATTR_LATEX: :placement [htb]
     | /           | <           | <            |
     |             | antérieures | postérieures |
     |-------------+-------------+--------------|
@@ -358,7 +376,9 @@
     | mi-fermées  | ø           | ʌ            |
     | mi-ouvertes | ɛ           | ɔ            |
 
+    #+NAME: table:vowels:trans
     #+CAPTION: Voyelles du Ňyqy (translittération)
+    #+ATTR_LATEX: :placement [htb]
     | /           | <           | <            |
     |             | antérieures | postérieures |
     |-------------+-------------+--------------|
@@ -378,14 +398,45 @@
    - C_1 → [+geminated] / _C_{1}
    - C_1 → ∅ / C_{1}_
    - {ɢ,q} → [+high] / V_V
+   - C[+dor +high] → [-dor +cor] / C[+dor]{V,∅}_
+   - C[+dor -high] → [-dor -cor] / C[+dor]{V,∅}_
+   - C[-dor +cor] → [+dor +high] / C[-dor]{V,∅}_
+   - C[-dor -cor] → [+dor -high] / C[-dor]{V,∅}_
+
+   Les  deux  dernières règles  reflètent  une  règle  générale du  Nyqy :  deux
+   consonnes ne peuvent se suivre si elles sont toutes deux dorsales, la seconde
+   devant alors changer sa  qualité afin de se soumettre à  la règle. Sa qualité
+   haute  ou coronale  se  reflètent  également lors  du  changement de  qualité
+   dorsale  de la  consonne. Voici  un  tableau récapitulatif  du changement  de
+   phonèmes dû à cette règle :
+   | /                | <>           |   | <>               |              |
+   | [+dor] originale | [-dor] mutée |   | [-dor] originale | [+dor] mutée |
+   |------------------+--------------+---+------------------+--------------|
+   | q                | ħ            |   | p                | χ            |
+   | ɢ                | ʕ            |   | b                | ʁ            |
+   | ɴ                | m            |   | m                | ʀ            |
+   | t͡ʃ               | ɬ            |   | n                | j            |
+   | d͡ʒ               | ɮ            |   | s                | x            |
+   | w                | l            |   | z                | ɣ            |
+
+   Ainsi, la  phrase <ňe pom  qy> se prononce {{{phon(ɴɛ  pɔɴ ħy)}}} au  lieu de
+   *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bü pim  mo  coq> se  prononcera
+   {{{phon(qɪ bʊ χɪm ʀo ɬoq)}}} au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Phonotaxes
    :PROPERTIES:
    :CUSTOM_ID: h-091330c2-3def-4188-a4e8-575489780095
    :END:
    
-   Une syllabe  typique en Mattér se  présente sous la forme  C(C)V(CC), suivant
+   Une syllabe  typique en Mattér se  présente sous la forme  CV(CC), suivant
    les règles présentées ci-dessous.
+
+   Une      règle     universelle      fut     déjà      présentée     ci-dessus
+   (§[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]) : deux consonnes  de même sonorité
+   ne peuvent se  suivre, qu’elles soient séparées par aucune,  une ou plusieurs
+   voyelles.  Ainsi, les  termes  {{{phon(qʊn)}}} ou  {{{phon(nɔsq)}}} sont  des
+   termes valides selon cette règle, mais *{{{phon(t͡ʃɔq)}}} ne l’est pas. Ainsi,
+   le terme <coq> se prononcera {{{phon(t͡ʃɔħ)}}}.
 
 *** Attaque
     :PROPERTIES:
@@ -476,6 +527,41 @@
   :PROPERTIES:
   :CUSTOM_ID: h-fe5337ed-1549-42cb-a622-7cae04b17268
   :END:
+  Le Ňyqy est une langue fortement  analytique reposant fortement sur sa syntaxe
+  et quasiment pas sur sa morphologie, la tête des groupes est en fin de groupe.
+  La majorité  des mots  son monosyllabiques ou  bi-syllabiques, et  les phrases
+  comportent également souvent des morphèmes libres grammaticaux. Exemple :
+  - ňe pom qy
+
+    maison GEN 1sg
+
+    C’est ma maison
+
+    On peut voir avec cette phrase qu’il n’existe pas de verbe « être » en Ňyqy,
+    une simple clause sans verbe suffit  pour créer un prédicat nominal. On voit
+    également  que l’élément  caractérisé  par le  génitif  précède le  morphème
+    génitif, alors que l’élément caractérisant suit ce même mophème.
+
+  - qi bü pim mo coq
+    
+    deux 2sg pomme PST manger
+
+    Nous avons mangé une pomme
+
+    Ici,  nous  pouvons voir  que  le  terme  pour  « deux » est  utilisé  comme
+    modificateur  du pronom  de la  seconde personne  « bü » afin  d’exprimer le
+    duel. De même,  le morphème « mo » précède le verbe  « coq » afin de marquer
+    son temps.
+
+  - qy qun gö
+
+    1sg OPT boire
+
+    Je souhaite boire
+
+    Ici, nous  avons un exemple de  modification du verbe similaire  à l’exemple
+    précédent où « qyn » est un morphème  modifiant le mode du verbe « gö », lui
+    ajoutant le mode optatif.
 
   {{{newpage}}}
 * Classes de mots
@@ -754,117 +840,279 @@
    :END:
 
 ** Réciproque
+   :PROPERTIES:
+   :CUSTOM_ID: h-6dc27269-fa36-43d6-bd68-e45a454c0f05
+   :END:
 
 ** Questions
+   :PROPERTIES:
+   :CUSTOM_ID: h-d57dfe94-ed22-48fc-a9b6-870547f4ec02
+   :END:
 
 *** Question absolue (oui/non)
+    :PROPERTIES:
+    :CUSTOM_ID: h-3d8392aa-62aa-4011-8b63-b4f1078bea1f
+    :END:
 
 *** Question relative
+    :PROPERTIES:
+    :CUSTOM_ID: h-bd097193-47a5-4af2-a0a1-bd48c255b06f
+    :END:
 
 ** Impératif
+   :PROPERTIES:
+   :CUSTOM_ID: h-e469af06-c02b-4322-84f2-4ac5e1be3116
+   :END:
 
    {{{newpage}}}
 * Négation
+  :PROPERTIES:
+  :CUSTOM_ID: h-b300a59b-e3c9-455d-9ac8-dc781b342fa3
+  :END:
   
   {{{newpage}}}
 * Combination de clauses
+  :PROPERTIES:
+  :CUSTOM_ID: h-b56496ab-2863-4671-8ebe-d39c1c670aa7
+  :END:
 
 ** Clauses relatives
+   :PROPERTIES:
+   :CUSTOM_ID: h-f5d19347-6f03-45ed-9b2e-c5510ae05727
+   :END:
 
 ** Verbes en série
+   :PROPERTIES:
+   :CUSTOM_ID: h-0daeea63-a4bc-42e6-afbb-62c57ceec7ee
+   :END:
 
 ** Clauses de complément
+   :PROPERTIES:
+   :CUSTOM_ID: h-47bc1ba4-1a91-40d6-8d88-dab05e3ed482
+   :END:
 
 *** Compléments de stems basiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-cf18500e-1448-4986-9200-5cca0a040554
+    :END:
 
 *** Compléments <tél> et <þiv>
+    :PROPERTIES:
+    :CUSTOM_ID: h-6f674e3d-38e5-4724-b4a8-1faf4a2ae491
+    :END:
 
 ** Clauses adverbiales
+   :PROPERTIES:
+   :CUSTOM_ID: h-eff7e849-1af4-45c6-9cb5-ed7c11fc09a9
+   :END:
 
 ** Coordination
+   :PROPERTIES:
+   :CUSTOM_ID: h-44c9e042-40f3-452f-ba74-81c20ad43cca
+   :END:
 
    {{{newpage}}}
 * Structures marquées pragmatiquement
+  :PROPERTIES:
+  :CUSTOM_ID: h-21b5b06f-3e21-4f1b-aaed-06af566a1d20
+  :END:
 
   {{{newpage}}}
 * Nombres
+  :PROPERTIES:
+  :CUSTOM_ID: h-e242b073-ead3-4a99-8f1a-cf06c42c5319
+  :END:
 
   {{{newpage}}}
 * Glossaire
+  :PROPERTIES:
+  :CUSTOM_ID: h-5533d53c-1bd9-4346-b41f-9c330d202c6d
+  :END:
 
 ** Actions physiques
+   :PROPERTIES:
+   :CUSTOM_ID: h-bb851a25-52da-4de5-b7e8-4e212a788866
+   :END:
 
 ** Amour
+   :PROPERTIES:
+   :CUSTOM_ID: h-f6ca2c35-7d58-4c28-b7df-f84d948b9c62
+   :END:
 
 ** Animaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-2edb54b0-b999-44e5-9e07-fbe554b92efa
+   :END:
 
 ** Art
+   :PROPERTIES:
+   :CUSTOM_ID: h-7a9cdec0-7093-4088-8eb5-6cf97f4c6501
+   :END:
 
 *** Écriture
+    :PROPERTIES:
+    :CUSTOM_ID: h-e4f9a6f0-ac19-4b66-b90e-2ff00f67a990
+    :END:
 
 *** Visuel
+    :PROPERTIES:
+    :CUSTOM_ID: h-27dab099-62be-46a3-80a5-c893fb6e7013
+    :END:
 
 *** Audio
+    :PROPERTIES:
+    :CUSTOM_ID: h-d8202471-8673-4dcf-bb09-db1754afdf55
+    :END:
 
 ** Astronomie
+   :PROPERTIES:
+   :CUSTOM_ID: h-ec5b8397-d864-4a54-af11-08955851ebda
+   :END:
 
 ** Bâtiments
+   :PROPERTIES:
+   :CUSTOM_ID: h-06860466-dfab-447a-99d4-5ce973b23728
+   :END:
 
 *** La ville
+    :PROPERTIES:
+    :CUSTOM_ID: h-2f5e8ce7-7f3d-4a3e-96ae-5440001a631e
+    :END:
 
 *** Les types de bâtiments
+    :PROPERTIES:
+    :CUSTOM_ID: h-582cc7b1-d577-41a4-a88b-336dc99388e6
+    :END:
 
 ** Commerce
+   :PROPERTIES:
+   :CUSTOM_ID: h-a9e1c2d9-6167-4815-889f-61e6194bc1cc
+   :END:
 
 ** Conflits
+   :PROPERTIES:
+   :CUSTOM_ID: h-70fc3429-044c-4504-9f6e-a76cb899eb46
+   :END:
 
 ** Conteneurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-dd58db8d-6bd2-4a94-bfa0-be31222619b2
+   :END:
 
 ** Corps
+   :PROPERTIES:
+   :CUSTOM_ID: h-cfc890d4-2cb5-4ae1-986d-b9f28d70a2ce
+   :END:
 
 ** Couleurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-cb82a708-4ff7-40a6-b38b-06a1b4255418
+   :END:
 
 ** Dimensions
+   :PROPERTIES:
+   :CUSTOM_ID: h-d3e0aca9-1175-4aa9-bb4b-6a27c24ae9b4
+   :END:
 
 *** Distance
+    :PROPERTIES:
+    :CUSTOM_ID: h-55193473-4068-497f-a1db-ba10a6e86aaf
+    :END:
 
 *** Taille
+    :PROPERTIES:
+    :CUSTOM_ID: h-70e4108f-8847-44ae-bb34-f3d2d55954c4
+    :END:
 
 *** Quantifieurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-57d6313f-693d-48d7-9848-90367a401c69
+    :END:
 
 ** Direction
+   :PROPERTIES:
+   :CUSTOM_ID: h-f4545505-a79c-4a17-9213-b0ef4562c36d
+   :END:
 
 ** Eau
+   :PROPERTIES:
+   :CUSTOM_ID: h-51ad44a8-0f4b-44b0-b292-761bb9492a89
+   :END:
 
 ** Effort
+   :PROPERTIES:
+   :CUSTOM_ID: h-64045baf-96f5-4a9e-814f-b596b77bbba0
+   :END:
 
 ** Éléments
+   :PROPERTIES:
+   :CUSTOM_ID: h-d98c43f2-0ea1-4401-8be8-1ee02bdd77c4
+   :END:
 
 ** Émotions
+   :PROPERTIES:
+   :CUSTOM_ID: h-c2500a63-5040-40d3-b31f-4187a6f57427
+   :END:
 
 ** Évaluation
+   :PROPERTIES:
+   :CUSTOM_ID: h-1e6da12c-d6e5-4565-857b-bd0c75e617e8
+   :END:
 
 ** Événements
+   :PROPERTIES:
+   :CUSTOM_ID: h-d42e6ead-37df-4633-b702-ba7f8b01de30
+   :END:
 
 ** Existence
+   :PROPERTIES:
+   :CUSTOM_ID: h-e6c80dd7-0f29-4652-988c-5e649ecc02a2
+   :END:
 
 ** Forme
+   :PROPERTIES:
+   :CUSTOM_ID: h-a155c0ad-1fd3-4c38-89bf-db520a36b6ee
+   :END:
 
 ** Gouvernement
+   :PROPERTIES:
+   :CUSTOM_ID: h-3c7b0dc9-d7ab-4cab-8010-c7298cd794d9
+   :END:
 
 ** Grammaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-ad03d9ec-02ec-449c-835a-5290cf1e1a58
+   :END:
 
 *** Articles définis
+    :PROPERTIES:
+    :CUSTOM_ID: h-91190d6f-2859-4e53-8b19-32ae91452684
+    :END:
 
 *** Déterminants démonstratifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-f18b0f73-71e0-4790-b39e-c7d3bf6ea38e
+    :END:
 
 *** Outils interrogatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-98d62f7a-ea68-4f86-ac0d-0e42a82d594d
+    :END:
 
 *** Conjonctions
+    :PROPERTIES:
+    :CUSTOM_ID: h-7aa7945f-c662-426e-ba79-3c1867a10de5
+    :END:
 
 *** Prépositions
+    :PROPERTIES:
+    :CUSTOM_ID: h-c31333b2-9ed4-4183-9d0e-98ff91e0e9ff
+    :END:
 
 *** Pronoms
+    :PROPERTIES:
+    :CUSTOM_ID: h-c5ff7276-aa7c-47fc-9797-9fea5be26ebe
+    :END:
 
 ** Guerre
 
