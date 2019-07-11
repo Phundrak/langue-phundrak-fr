@@ -72,7 +72,6 @@
   - [[#note-sur-la-langue-en-tant-que-langue-construite][Note sur la langue en tant que langue construite]]
   - [[#notes-sur-la-langue-en-tant-que-langue-réelle][Notes sur la langue en tant que langue réelle]]
   - [[#le-nom-de-la-langue][Le nom de la langue]]
-  - [[#dialectes][Dialectes]]
 - [[#phonologie][Phonologie]]
   - [[#notes-sur-la-transcription-du-ňyqy][Notes sur la transcription du Ňyqy]]
   - [[#inventaire-phonétique][Inventaire phonétique]]
@@ -85,7 +84,6 @@
     - [[#coda][Coda]]
     - [[#inter-syllabe][Inter-syllabe]]
   - [[#accentuation][Accentuation]]
-  - [[#phonétique-alternative-et-dialectes][Phonétique alternative et dialectes]]
 - [[#topologie-morphologique][Topologie morphologique]]
 - [[#classes-de-mots][Classes de mots]]
   - [[#noms][Noms]]
@@ -271,15 +269,15 @@
    :PROPERTIES:
    :CUSTOM_ID: h-f2a15be7-ee4e-4ec3-a856-535c9861774f
    :END:
-   Le  Ňyqy  ({{{phon(ɴyqy)}}} ou  {{{phon(ɴyʁy)}}})  est  une langue  prototype
-   développée a priori. Sa grammaire est analytique, mettant un clair accent sur
-   la syntaxe  plutôt que  la morphologie quasiment  absente. La  langue restera
-   plutôt  simple,  et  servira  à développer  suivant  des  processus  naturels
-   d’autres langues descendant  du Ňyqy. J’ai tout de même  essayé de développer
-   cette langue  de façon à autoriser  des aspects naturels dans  le Ňyqy, comme
-   par  exemple  son inventaire  phonétique  ou  sa différentiation  des  temps,
-   aspects et  modes, inspiré par la  présentation de [[https://sites.google.com/view/joseph-windsor][Joseph Windsor]]  lors de la
-   Language Creation Conference 8 (2019).
+   Le Ňyqy  {{{phon(ɴyħy)}}} est  une langue prototype  développée a  priori. Sa
+   grammaire est analytique,  mettant un clair accent sur la  syntaxe plutôt que
+   la morphologie quasiment absente. La langue restera plutôt simple, et servira
+   à développer  suivant des processus  naturels d’autres langues  descendant du
+   Ňyqy.  J’ai  tout de  même  essayé  de développer  cette  langue  de façon  à
+   autoriser des aspects naturels dans le Ňyqy, comme par exemple son inventaire
+   phonétique ou sa différentiation des temps,  aspects et modes, inspiré par la
+   présentation  de [[https://sites.google.com/view/joseph-windsor][Joseph  Windsor]] lors  de la  Language Creation  Conference 8
+   (2019).
 
 ** Notes sur la langue en tant que langue réelle
    :PROPERTIES:
@@ -312,14 +310,6 @@
    simplement, mais plusieurs éléments tendent à laisser penser que ce serait le
    cas (Loqbrekh et Khorlan, /Université de Ðbńo/, 3598).
 
-** Dialectes
-   :PROPERTIES:
-   :CUSTOM_ID: h-07afd07d-322c-40f3-996e-fdee03621138
-   :END:
-   Plusieurs dialectes  du Ňyqy existèrent probablement,  cependant l’ancienneté
-   de cette langue rend très difficile leur existance et leurs spécificités. Les
-   variations phonétiques les  plus probables seront discutées  lors du chapitre
-   §[[#h-46a4bc1b-156e-4c7b-ac36-6c2e13ccda21]].
 
    {{{newpage}}}
 * Phonologie
@@ -543,18 +533,18 @@
 
     #+NAME: table:vowels:feat
     #+CAPTION: caractéristiques distinctives des voyelles du Ňyqy
-    |   / | <    |       |      |
+    |   / |  <   |       |      |
     | <r> | <c>  |  <c>  | <c>  |
     |     | back | tense | high |
     |-----+------+-------+------|
-    |   u |  +   |   +   |  +   |
-    |   ɤ |  +   |   +   |  -   |
-    |   ʊ |  +   |   -   |  +   |
-    |   ɔ |  +   |   -   |  -   |
+    |   ü |  +   |   +   |  +   |
+    |   ö |  +   |   +   |  -   |
+    |   u |  +   |   -   |  +   |
+    |   o |  +   |   -   |  -   |
     |   y |  -   |   +   |  +   |
-    |   ø |  -   |   +   |  -   |
-    |   ɪ |  -   |   -   |  +   |
-    |   ɛ |  -   |   -   |  -   |
+    |   ë |  -   |   +   |  -   |
+    |   i |  -   |   -   |  +   |
+    |   e |  -   |   -   |  -   |
 
 ** Allophonie
    :PROPERTIES:
@@ -595,7 +585,8 @@
    :CUSTOM_ID: h-091330c2-3def-4188-a4e8-575489780095
    :END:
 
-   Une syllabe  typique en Mattér se  présente sous la forme  CV(CC), suivant
+   Une syllabe  typique en Mattér  se présente sous  la forme (C)V(CC),  avec au
+   moins une consonne obligatoire soit dans l’attaque soit dans le coda, suivant
    les règles présentées ci-dessous.
 
    Une      règle     universelle      fut     déjà      présentée     ci-dessus
@@ -604,6 +595,12 @@
    plusieurs  voyelles. Ainsi,  les termes  {{{phon(qʊn)}}} ou  {{{phon(nɔsq)}}}
    sont des  termes valides selon  cette règle, mais *{{{phon(t͡ʃɔq)}}}  ne l’est
    pas, ce dernier se prononcera {{{phon(t͡ʃɔħ)}}}.
+
+   Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjascentes
+   sans suivre les règles indiquées ci-dessous,  alors un schwa est inséré entre
+   ces deux  consonnes. Exemple : <cöjm>  est prononcé {{{phon(t͡ʃɤɮəʀ)}}}  si la
+   première   consonne   n’est   pas   mutée,  sinon   le   mot   est   prononcé
+   {{{phon(ɬɤd͡ʒm)}}}.
 
 *** Attaque
     :PROPERTIES:
@@ -625,8 +622,8 @@
     :CUSTOM_ID: h-78514e2b-d422-4253-bec1-48056aaac2aa
     :END:
     Les règles du coda sont également simples :
-    - Les consonnes coronales non sonorantes peuvent être suivies par des
-      consonnes non coronales.
+    - Les consonnes coronales ou hautes  non sonorantes peuvent être suivies par
+      des consonnes non coronales ou non hautes.
     - Les consonnes  sonorantes, dorsales et  hautes ne peuvent  s’associer avec
       d’autres consonnes dans le coda.
 
@@ -654,41 +651,6 @@
    :CUSTOM_ID: h-3f8bdebe-b8ec-48c2-bbad-ed5fa28786bf
    :END:
 
-** Phonétique alternative et dialectes
-   :PROPERTIES:
-   :CUSTOM_ID: h-46a4bc1b-156e-4c7b-ac36-6c2e13ccda21
-   :END:
-
-   Il est possible de rencontrer une  variation de prononciation du Ňyqy suivant
-   ces modifications :
-
-   |   <c>    |   <c>    |
-   |    /     |    <     |
-   | standard | variante |
-   |----------+----------|
-   |    q     |    χ     |
-   |    ɢ     |    ʁ     |
-   |    t͡ʃ    |    k     |
-   |    d͡ʒ    |    g     |
-   |    ɴ     |    ʀ     |
-   |    p     |    f     |
-   |    p     |    ɸ     |
-   |    b     |    v     |
-   |    b     |    β     |
-   |    y     |    i     |
-   |    ø     |    e     |
-   |    ɤ     |    o     |
-   |    ɛ     |    a     |
-
-   Dû à l’ancienneté  de cette langue, il n’existe pas  réellement de certitudes
-   quant aux règles faisant qu’un phonème  était adopté plutôt qu’un autre, mais
-   il est relativement  certain que les quatre premières  variations allaient de
-   paire.  Il  est   à  peu  près  certain  que  si   le  « p »  était  prononcé
-   {{{phon(f)}}}, alors  le « b »  serait prononcé  {{{phon(v)}}}, de  même pour
-   {{{phon(ɸ)}}}  et  {{{phon(β)}}}.  Il   semblerait  également  que  les  deux
-   premières  variations eut  été  très  fréquentes, il  est  même possible  que
-   {{{phon(χ)}}}  et {{{phon(ʁ)}}}  eurent  été allophones  de {{{phon(q)}}}  et
-   {{{phon(ɢ)}}} respectivement.
 
    {{{newpage}}}
 * Topologie morphologique
@@ -1090,6 +1052,58 @@
   :PROPERTIES:
   :CUSTOM_ID: h-e242b073-ead3-4a99-8f1a-cf06c42c5319
   :END:
+  Les locuteurs du Ňyqy comptaient dans un mélange de base 6 pour les unités et
+  de base 13 pour le reste.
+
+  |  <c5>  |            <c10>             |   <c>    |                 <c>                 |
+  |   /    |              <>              |    <>    |                 <>                  |
+  | nombre | nombre (représentation ňyqy) |   ňyqy   |             phonétique              |
+  |--------+------------------------------+----------+-------------------------------------|
+  |   0    |              0               |    pe    |           {{{phon(pɛ)}}}            |
+  |   1    |              1               |    mi    |           {{{phon(mɪ)}}}            |
+  |   2    |              2               |    qi    |           {{{phon(qɪ)}}}            |
+  |   3    |              3               |    në    |           {{{phon(ne)}}}            |
+  |   4    |              4               |    gë    |           {{{phon(ɢe)}}}            |
+  |   5    |              5               |    co    |           {{{phon(cɔ)}}}            |
+  |   6    |             1-0              | (mi) ňy  | {{{phon(mɪ ɴy)}}} ou {{{phon(ɴy)}}} |
+  |   7    |             1-1              |  ňy mi   |          {{{phon(ɴy mi)}}}          |
+  |   8    |             1-2              |  ňy qi   |          {{{phon(ňy ħɪ)}}}          |
+  |   9    |             1-3              |  ňy në   |          {{{phon(ɴy ne)}}}          |
+  |   10   |             1-4              |  ňy gë   |          {{{phon(ɴy ʕe)}}}          |
+  |   11   |             1-5              |  ňy co   |          {{{phon(ɴy ɬɔ)}}}          |
+  |   12   |             2-0              |  qi ňy   |          {{{phon(qɪ my)}}}          |
+  |   18   |             3-0              |  në ňy   |          {{{phon(ne ɴy)}}}          |
+  |   24   |             4-0              |  gë ňy   |          {{{phon(ɢe my)}}}          |
+  |   30   |             5-0              |  co ňy   |         {{{phon(t͡ʃɔ my)}}}          |
+  |   36   |             6-0              | pe ňy ňy |        {{{phon(pɛ ɴy my)}}}         |
+  |   42   |             7-0              | mi ňy ňy |        {{{phon(mɪ ɴy my)}}}         |
+  |   48   |             8-0              | qi ňy ňy |        {{{phon(qɪ my ɴy)}}}         |
+  |   54   |             9-0              | në ňy ňy |        {{{phon(ne ɴy my)}}}         |
+  |   60   |             a-0              | gë ňy ňy |        {{{phon(ɢe my ɴy)}}}         |
+  |   66   |             b-0              | co ňy ňy |        {{{phon(t͡ʃɔ my ɴy)}}}        |
+  |   72   |            1-0-0             | (mi) mö  | {{{phon(mɪ ʀɤ)}}} ou {{{phon(mɤ)}}} |
+  |  216   |            6-0-0             | pe mö mö |        {{{phon(pɛ ʀɤ mɤ)}}}         |
+  |  864   |           1-0-0-0            | (mi) si  | {{{phon(mɪ xɪ)}}} ou {{{phon(sɪ)}}} |
+  |  1296  |          1-0-0-0-0           |   gec    |           {{{phon(ɢɛɬ)}}}           |
+  |  7776  |         1-0-0-0-0-0          |   cöjm   |         {{{phon(t͡ʃɤɮəʀ)}}}          |
+  | 46656  |        1-0-0-0-0-0-0         |   ňuň    |           {{{phon(ɴʊm)}}}           |
+
+  Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
+  grandeur est répété afin d’ajouter cinq au multiplicateur, permettant ainsi
+  une base treize pour ce qui n’est pas des unités.
+
+  Pour convertir en  base dix un chiffre Ňyqy, voici  comment faire : les unités
+  sont conservées  telles quelles,  et pour chaque  équivalent de  dizaines, que
+  j’appellerai sixaines, les  multiplier par six à la puissance  de son décalage
+  par  rapport aux  unités.  Par  exemple le  nombre  <gë si  co  mö  mö ňy  qi>
+  ( {{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}} ) se décompose ainsi :
+  |   <c>   |   <c>    |   <c>   |   <c>   |
+  |  gë si  | co mö mö |   ňy    |   qi    |
+  | 4×6^{3} | 5×6^{2}  | 1×6^{1} | 2×6^{0} |
+  |  4×216  |   5*36   |   1×6   |   2×1   |
+  |   864   |   180    |    6    |    2    |
+  Ce qui donne donc 1052.
+
 
   {{{newpage}}}
 * Glossaire
