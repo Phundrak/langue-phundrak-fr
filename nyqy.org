@@ -3,6 +3,7 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+LATEX_HEADER: \renewcommand{\arraystretch}{1.2}
 #+OPTIONS: H:4 toc:nil ^:{}
 #+OPTIONS: auto-id:t
 {{{newpage}}}
@@ -27,6 +28,7 @@
   - [[#allophonie][Allophonie]]
   - [[#phonotaxes][Phonotaxes]]
     - [[#attaque][Attaque]]
+    - [[#noyau][Noyau]]
     - [[#coda][Coda]]
     - [[#inter-syllabe][Inter-syllabe]]
   - [[#accentuation][Accentuation]]
@@ -323,29 +325,31 @@
 
     #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ňyqy (IPA)
-    | /             | <         | <          | <              | <       | <        | <        |
+    |           <r> |    <c>    |    <c>     |      <c>       |   <c>   |   <c>    |   <c>    |
+    |             / |     <     |     <      |       <        |    <    |    <     |    <     |
     |               | bilablial | alvéolaire | labial-velaire | palatal | uvulaire | pharygal |
     |---------------+-----------+------------+----------------+---------+----------+----------|
-    | plosif        | p b       |            |                |         | q ɢ      |          |
-    | nasal         | m         | n          |                |         | ɴ        |          |
-    | tapé          |           |            |                |         | (ʀ)      |          |
-    | fricatif      |           | s z        |                | (x) (ɣ) | (χ) (ʁ)  | (ħ) (ʕ)  |
-    | affriqué      |           | t͡ʃ d͡ʒ      |                |         |          |          |
-    | lat. affriqué |           | (ɬ) (ɮ)    |                |         |          |          |
-    | lat. spirant  |           | (l)        |                |         |          |          |
-    | approximant   |           |            |                | (j)     |          |          |
-    | spirant       |           |            | w              |         |          |          |
+    |        plosif |    p b    |            |                |         |   q ɢ    |          |
+    |         nasal |     m     |     n      |                |         |    ɴ     |          |
+    |          tapé |           |            |                |         |   (ʀ)    |          |
+    |      fricatif |           |    s z     |                | (x) (ɣ) | (χ) (ʁ)  | (ħ) (ʕ)  |
+    |      affriqué |           |   t͡ʃ d͡ʒ    |                |         |          |          |
+    | lat. affriqué |           |  (ɬ) (ɮ)   |                |         |          |          |
+    |  lat. spirant |           |    (l)     |                |         |          |          |
+    |   approximant |           |            |                |   (j)   |          |          |
+    |       spirant |           |            |       w        |         |          |          |
 
     #+NAME: table:cons:trans
     #+CAPTION: Consonnes du Ňyqy (translittération)
-    | /        | <         | <          | <              | <        |
+    |      <r> |    <c>    |    <c>     |      <c>       |   <c>    |
+    |        / |     <     |     <      |       <        |    <     |
     |          | bilablial | alvéolaire | labial-velaire | uvulaire |
     |----------+-----------+------------+----------------+----------|
-    | plosif   | p b       |            |                | q g      |
-    | nasal    | m         | n          |                | ň        |
-    | fricatif |           | s z        |                |          |
-    | affriqué |           | c j        |                |          |
-    | spirant  |           |            | w              |          |
+    |   plosif |    p b    |            |                |   q g    |
+    |    nasal |     m     |     n      |                |    ň     |
+    | fricatif |           |    s z     |                |          |
+    | affriqué |           |    c j     |                |          |
+    |  spirant |           |            |       w        |          |
 
     {{{newpage}}}
 *** Voyelles
@@ -368,24 +372,45 @@
     #+NAME: table:vowels:ipa
     #+CAPTION: Voyelles du Ňyqy (IPA)
     #+ATTR_LATEX: :placement [htb]
-    | /           | <           | <            |
+    |           / |      <      |      <       |
+    |         <r> |     <c>     |     <c>      |
     |             | antérieures | postérieures |
     |-------------+-------------+--------------|
-    | fermées     | y           | u            |
-    | pré-fermées | ɪ           | ʊ            |
-    | mi-fermées  | ø           | ʌ            |
-    | mi-ouvertes | ɛ           | ɔ            |
+    |     fermées |      y      |      u       |
+    | pré-fermées |      ɪ      |      ʊ       |
+    |  mi-fermées |      ø      |      ɤ       |
+    | mi-ouvertes |      ɛ      |      ɔ       |
 
     #+NAME: table:vowels:trans
     #+CAPTION: Voyelles du Ňyqy (translittération)
     #+ATTR_LATEX: :placement [htb]
-    | /           | <           | <            |
+    |         <r> |     <c>     |     <c>      |
+    |           / |      <      |      <       |
     |             | antérieures | postérieures |
     |-------------+-------------+--------------|
-    | fermées     | y           | ü            |
-    | pré-fermées | i           | u            |
-    | mi-fermées  | ë           | ö            |
-    | mi-ouvertes | e           | o            |
+    |     fermées |      y      |      ü       |
+    | pré-fermées |      i      |      u       |
+    |  mi-fermées |      ë      |      ö       |
+    | mi-ouvertes |      e      |      o       |
+
+    Vous trouverez également avec la table [[table:vowels:feat]] les
+    caractéristiques des voyelles permettant de comprendre leur comportement
+    dans cette langue.
+
+    #+NAME: table:vowels:feat
+    #+CAPTION: caractéristiques distinctives des voyelles du Ňyqy
+    |   / | <    |       |      |
+    | <r> | <c>  |  <c>  | <c>  |
+    |     | back | tense | high |
+    |-----+------+-------+------|
+    |   u |  +   |   +   |  +   |
+    |   ɤ |  +   |   +   |  -   |
+    |   ʊ |  +   |   -   |  +   |
+    |   ɔ |  +   |   -   |  -   |
+    |   y |  -   |   +   |  +   |
+    |   ø |  -   |   +   |  -   |
+    |   ɪ |  -   |   -   |  +   |
+    |   ɛ |  -   |   -   |  -   |
 
 ** Allophonie
    :PROPERTIES:
@@ -395,9 +420,6 @@
    quelques unes sont à peu près certaines :
 
    - V → [-tense] / {q,ɢ,ɴ}_
-   - C_1 → [+geminated] / _C_{1}
-   - C_1 → ∅ / C_{1}_
-   - {ɢ,q} → [+high] / V_V
    - C[+dor +high] → [-dor +cor] / C[+dor]{V,∅}_
    - C[+dor -high] → [-dor -cor] / C[+dor]{V,∅}_
    - C[-dor +cor] → [+dor +high] / C[-dor]{V,∅}_
@@ -409,19 +431,20 @@
    haute  ou coronale  se  reflètent  également lors  du  changement de  qualité
    dorsale  de la  consonne. Voici  un  tableau récapitulatif  du changement  de
    phonèmes dû à cette règle :
-   | /                | <>           |   | <>               |              |
+   |       <c>        |     <c>      |   |       <c>        |     <c>      |
+   |        /         |      <>      |   |        <>        |              |
    | [+dor] originale | [-dor] mutée |   | [-dor] originale | [+dor] mutée |
    |------------------+--------------+---+------------------+--------------|
-   | q                | ħ            |   | p                | χ            |
-   | ɢ                | ʕ            |   | b                | ʁ            |
-   | ɴ                | m            |   | m                | ʀ            |
-   | t͡ʃ               | ɬ            |   | n                | j            |
-   | d͡ʒ               | ɮ            |   | s                | x            |
-   | w                | l            |   | z                | ɣ            |
+   |        q         |      ħ       |   |        p         |      χ       |
+   |        ɢ         |      ʕ       |   |        b         |      ʁ       |
+   |        ɴ         |      m       |   |        m         |      ʀ       |
+   |        t͡ʃ        |      ɬ       |   |        n         |      j       |
+   |        d͡ʒ        |      ɮ       |   |        s         |      x       |
+   |        w         |      l       |   |        z         |      ɣ       |
 
    Ainsi, la  phrase <ňe pom  qy> se prononce {{{phon(ɴɛ  pɔɴ ħy)}}} au  lieu de
    *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bü pim  mo  coq> se  prononcera
-   {{{phon(qɪ bʊ χɪm ʀo ɬoq)}}} au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
+   {{{phon(qɪ bʊ χɪm ʀɔ ɬɔq)}}} au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Phonotaxes
    :PROPERTIES:
@@ -432,26 +455,26 @@
    les règles présentées ci-dessous.
 
    Une      règle     universelle      fut     déjà      présentée     ci-dessus
-   (§[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]) : deux consonnes  de même sonorité
-   ne peuvent se  suivre, qu’elles soient séparées par aucune,  une ou plusieurs
-   voyelles.  Ainsi, les  termes  {{{phon(qʊn)}}} ou  {{{phon(nɔsq)}}} sont  des
-   termes valides selon cette règle, mais *{{{phon(t͡ʃɔq)}}} ne l’est pas. Ainsi,
-   le terme <coq> se prononcera {{{phon(t͡ʃɔħ)}}}.
+   (§[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]) : deux  consonnes de  même qualité
+   dorsale ne  peuvent se suivre,  qu’elles soient  séparées par aucune,  une ou
+   plusieurs  voyelles. Ainsi,  les termes  {{{phon(qʊn)}}} ou  {{{phon(nɔsq)}}}
+   sont des  termes valides selon  cette règle, mais *{{{phon(t͡ʃɔq)}}}  ne l’est
+   pas, ce dernier se prononcera {{{phon(t͡ʃɔħ)}}}.
 
 *** Attaque
     :PROPERTIES:
     :CUSTOM_ID: h-7773e3ad-be7c-4f86-a799-17f515082504
     :END:
-    L’attaque des syllabes du Ňyqy suit les règles suivantes :
-    - Les  consonnes  non  coronales  peuvent  être  suivies  par  une  consonne
-      coronale non sonorante.
-    - Les consonnes coronales peuvent être suivies par une consonne non haute et
-      non coronale.
-    - Toutes  les  consonnes peuvent  être  suivies  par une  consone  sonorante
-      dorsale haute.
-    - Les consonnes  sonorantes, dorsales et  hautes ne peuvent  s’associer avec
-      d’autres consonnes dans le coda.
-    - Une voyelle haute ne peut pas suivre une consonne sonorante dorsale haute.
+    L’attaque peut être composée de n’importe quelle consonne, tout comme elle
+    ne peut en comporter aucune.
+
+*** Noyau
+    :PROPERTIES:
+    :CUSTOM_ID: h-54a96fd6-86ab-4be5-984d-436defb14cf0
+    :END:
+    Le  noyau de  la  syllabe peut  être composé  de  n’importe quelle  voyelle,
+    exceptée  une  voyelle haute  si  la  consonne  précédente est  une  dorsale
+    sonorante haute.
 
 *** Coda
     :PROPERTIES:
@@ -495,22 +518,23 @@
    Il est possible de rencontrer une  variation de prononciation du Ňyqy suivant
    ces modifications :
 
-   | /        | <        |
+   |   <c>    |   <c>    |
+   |    /     |    <     |
    | standard | variante |
    |----------+----------|
-   | q        | χ        |
-   | ɢ        | ʁ        |
-   | t͡ʃ       | k        |
-   | d͡ʒ       | g        |
-   | ɴ        | ʀ        |
-   | p        | f        |
-   | p        | ɸ        |
-   | b        | v        |
-   | b        | β        |
-   | y        | i        |
-   | ø        | e        |
-   | ʌ        | o        |
-   | ɛ        | a        |
+   |    q     |    χ     |
+   |    ɢ     |    ʁ     |
+   |    t͡ʃ    |    k     |
+   |    d͡ʒ    |    g     |
+   |    ɴ     |    ʀ     |
+   |    p     |    f     |
+   |    p     |    ɸ     |
+   |    b     |    v     |
+   |    b     |    β     |
+   |    y     |    i     |
+   |    ø     |    e     |
+   |    ɤ     |    o     |
+   |    ɛ     |    a     |
 
    Dû à l’ancienneté  de cette langue, il n’existe pas  réellement de certitudes
    quant aux règles faisant qu’un phonème  était adopté plutôt qu’un autre, mais
@@ -1115,34 +1139,79 @@
     :END:
 
 ** Guerre
+   :PROPERTIES:
+   :CUSTOM_ID: h-63123210-8322-498d-b3eb-c4f661e33ca3
+   :END:
 
 ** Légal
+   :PROPERTIES:
+   :CUSTOM_ID: h-13e7e5c6-338d-4bf9-b4ab-e84f95a69843
+   :END:
 
 ** Lieux
+   :PROPERTIES:
+   :CUSTOM_ID: h-097a2588-9a9a-4322-b7b2-deb3f61d1b00
+   :END:
 
 *** Villes
+    :PROPERTIES:
+    :CUSTOM_ID: h-77b0392e-1cbf-4d1a-b5aa-3e11e4b85db1
+    :END:
 
 ** Lumière
+   :PROPERTIES:
+   :CUSTOM_ID: h-f976983d-9996-4a1e-8560-f5dd0b95ea60
+   :END:
 
 ** Mental
+   :PROPERTIES:
+   :CUSTOM_ID: h-f8d1e250-cabd-464f-a327-92e1b9153034
+   :END:
 
 ** Mesures
+   :PROPERTIES:
+   :CUSTOM_ID: h-2c32c94f-cafd-4820-a214-dfca71c05fbb
+   :END:
 
 ** Métaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-391bf776-4f9f-4488-ad62-993ada423ff4
+   :END:
 
 ** Mouvements
+   :PROPERTIES:
+   :CUSTOM_ID: h-0c99d6e8-9693-42fc-9428-105f2c25671b
+   :END:
 
 ** Nature
+   :PROPERTIES:
+   :CUSTOM_ID: h-9fc939af-13b3-4abd-a369-92f96f5f55e4
+   :END:
 
 ** Nombres
+   :PROPERTIES:
+   :CUSTOM_ID: h-f63bcc6d-873c-432a-89fd-1c1674035c05
+   :END:
 
 *** Nombres cardinaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-1695561c-941b-48d8-9233-08461a95883a
+    :END:
 
 ** Nourriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-5992261f-cd0a-4e8d-96d8-34b1f02ea609
+   :END:
 
 ** Outils
+   :PROPERTIES:
+   :CUSTOM_ID: h-30a920f1-572f-4c41-b568-fdd81cb741e5
+   :END:
 
 ** Parenté
+   :PROPERTIES:
+   :CUSTOM_ID: h-13a7ef00-3d34-4b63-850a-cea34d22a91b
+   :END:
 
 *** Famille
 
