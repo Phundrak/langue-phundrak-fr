@@ -1,4 +1,4 @@
-#+include: headers/headers.org
+#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du Ňyqy
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
@@ -6,6 +6,62 @@
 #+LATEX_HEADER: \renewcommand{\arraystretch}{1.2}
 #+OPTIONS: H:4 toc:nil ^:{}
 #+OPTIONS: auto-id:t
+#+NAME: process-tree
+#+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+  (define (left-child tree)
+    (cadr tree))
+  (define (left-child-name tree)
+    (car (left-child tree)))
+  (define (right-child tree)
+    (caddr tree))
+  (define (right-child-name tree)
+    (car (right-child tree)))
+  (define (cur-name tree)
+    (car tree))
+
+  (define (to-string phon-tree node-nbr child next-nbr)
+    (let ((this-name (string-append "node"
+                                    (number->string node-nbr)))
+          (child-name (string-append "node"
+                                     (number->string next-nbr))))
+      (string-append child-name
+                     "[label=\""
+                     (cur-name child)
+                     "\"];"
+                     this-name
+                     "--"
+                     child-name
+                     ";"
+                     (to-dot-main child next-nbr))))
+
+  (define (to-dot-main phon-tree node-nbr)
+    (let* ((this-name (string-append (number->string node-nbr)
+                                    "node")))
+      (if (null? (left-child phon-tree))
+          ""
+          (let ((x (* 2 (+ 1 node-nbr)))
+                (y (* 2 (+ 2 node-nbr))))
+            (string-append (to-string phon-tree node-nbr
+                                      (left-child phon-tree)
+                                      x)
+                           (to-string phon-tree node-nbr
+                                      (right-child phon-tree)
+                                      y))))))
+
+  (define (to-dot phon-tree)
+    (if (null? phon-tree)
+        ""
+        (string-append
+         "graph{"
+         "node[shape=plaintext];"
+         "graph[bgcolor=\"transparent\"];"
+         "node1[label=\""
+         (cur-name phon-tree)
+         "\"];"
+
+         (to-dot-main phon-tree 1)
+         "}")))
+#+END_SRC
 {{{newpage}}}
 #+TOC: headlines
 {{{newpage}}}
@@ -312,16 +368,52 @@
     Les  consonnes  standard  du  Ňyqy   furent  choisies  suivant  l’arbre  des
     caractéristiques montré dans la figure [[arbre:cons]].
 
+    #+NAME: cons-tree
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+      <<process-tree>>
+      (define cons-tree
+        '("[cons]"
+          ("[son]"
+           ("[dor]"
+            ("[high]" () ())
+            ("{high}" () ()))
+           ("{dor}"
+            ("[cor]" () ())
+            ("{cor}" () ())))
+          ("{son}"
+           ("[dor]"
+            ("[voice]"
+             ("[high]" () ())
+             ("{high}" () ()))
+            ("{voice}"
+             ("[high]" () ())
+             ("{high}" () ())))
+           ("{dor}"
+            ("[voice]"
+             ("[cor]" () ())
+             ("{cor}" () ()))
+            ("{voice}"
+             ("[cor]" () ())
+             ("{cor}" () ()))))))
+      (to-dot cons-tree)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/nyqy_consonant_feature_tree.png :var input=cons-tree :exports results :eval yes
+      $input
+    #+END_SRC
     #+NAME: arbre:cons
     #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
-    [[./img/nyqy_consonant_feature_tree.png]]
+    #+RESULTS:
+    [[file:img/nyqy_consonant_feature_tree.png]]
 
     Ainsi furent choisies ces consonnes, présentées par la table [[table:cons:ipa]].
     Les phonèmes  entre parenthèse sont des  allophones de phonèmes de  base qui
     peuvent       muter      en       ces      nouveau       phonèmes      (voir
     §[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]). L’orthographe  des caractères qui
-    ne sont pas entre parenthèses est montrée par la table [[table:cons:trans]].
+    ne sont pas entre parenthèses est  montrée par la table [[table:cons:trans]]. La
+    table [[table:cons:feat]] présente les caractéristiques distinctes des consonnes
+    du Ňyqy.
 
     #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ňyqy (IPA)
@@ -351,7 +443,36 @@
     | affriqué |           |    c j     |                |          |
     |  spirant |           |            |       w        |          |
 
-    {{{newpage}}}
+    #+NAME: table:cons:feat
+    #+CAPTION: Caractéristiques distinctes du Ňyqy
+    |   / |  <  |     |       |      |     |
+    | <r> | <c> | <c> |  <c>  | <c>  | <c> |
+    |     | son | dor | voice | high | cor |
+    |-----+-----+-----+-------+------+-----|
+    |   w |  +  |  +  |   0   |  +   |  0  |
+    |   j |  +  |  +  |   0   |  +   |  0  |
+    |   ɴ |  +  |  +  |   0   |  -   |  0  |
+    |   ʀ |  +  |  +  |   0   |  -   |  0  |
+    |   n |  +  |  -  |   0   |  0   |  +  |
+    |   l |  +  |  -  |   0   |  0   |  +  |
+    |   m |  +  |  -  |   0   |  0   |  -  |
+    |  d͡ʒ |  -  |  +  |   +   |  +   |  0  |
+    |   ɣ |  -  |  +  |   +   |  +   |  0  |
+    |   ɢ |  -  |  +  |   +   |  -   |  0  |
+    |   ʁ |  -  |  +  |   +   |  -   |  0  |
+    |  t͡ʃ |  -  |  +  |   -   |  +   |  0  |
+    |   x |  -  |  +  |   -   |  +   |  0  |
+    |   q |  -  |  +  |   -   |  -   |  0  |
+    |   χ |  -  |  +  |   -   |  -   |  0  |
+    |   z |  -  |  -  |   +   |  0   |  +  |
+    |   ɮ |  -  |  -  |   +   |  0   |  +  |
+    |   b |  -  |  -  |   +   |  0   |  -  |
+    |   ʕ |  -  |  -  |   +   |  0   |  -  |
+    |   s |  -  |  -  |   -   |  0   |  +  |
+    |   ɬ |  -  |  -  |   -   |  0   |  +  |
+    |   p |  -  |  -  |   -   |  0   |  -  |
+    |   ħ |  -  |  -  |   -   |  0   |  -  |
+
 *** Voyelles
     :PROPERTIES:
     :CUSTOM_ID: h-0965f65a-4124-414e-b542-b92468c484a1
@@ -360,10 +481,36 @@
     suivant un arbre de caractéristique des voyelles. L’arbre choisi est
     présenté avec la figure [[arbre:vowels]].
 
+    #+NAME: vow-tree
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+      <<process-tree>>
+      (define vowels-tree
+        '("[vowel]"
+          ("[back]"
+           ("[tense]"
+            ("[high]" () ())
+            ("{high}" () ()))
+           ("{tense}"
+            ("[high]" () ())
+            ("{high}" () ())))
+          ("{back}"
+           ("[tense]"
+            ("[high]" () ())
+            ("{high}" () ()))
+           ("{tense}"
+            ("[high]" () ())
+            ("{high}" () ())))))
+      (to-dot vowels-tree)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/nyqy_vowel_feature_tree.png :var input=vow-tree :exports results :eval yes
+      $input
+    #+END_SRC
     #+NAME: arbre:vowels
-    #+attr_html: :alt Arbre des voyelles du Ňyqy :align center
-    #+CAPTION: Arbre des caractéristiques des voyelles du Ňyqy
-    [[./img/nyqy_vowel_feature_tree.png]]
+    #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
+    #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
+    #+RESULTS:
+    [[file:img/nyqy_vowel_feature_tree.png]]
 
     Grâce  à cet  arbre furent  choisies les  voyelles présentées  par la  table
     [[table:vowels:ipa]],  et  leur  translitération  est  présentée  par  la  table
@@ -1214,48 +1361,114 @@
    :END:
 
 *** Famille
+    :PROPERTIES:
+    :CUSTOM_ID: h-ab1b2a3b-1484-45d6-9bd6-55e5c768efd6
+    :END:
 
 ** Parole
+   :PROPERTIES:
+   :CUSTOM_ID: h-d7a5bd14-cdf9-45d1-872d-dd1861debe1e
+   :END:
 
 ** Péchés
+   :PROPERTIES:
+   :CUSTOM_ID: h-07ce117e-04de-4e5e-bc4d-ee23dad991b7
+   :END:
 
 ** Peuples
+   :PROPERTIES:
+   :CUSTOM_ID: h-af46c438-e563-42e3-99e0-b2af1e71c32e
+   :END:
 
 ** Physique
+   :PROPERTIES:
+   :CUSTOM_ID: h-db825dba-b052-4621-acbd-0211c1786072
+   :END:
 
 ** Possession
+   :PROPERTIES:
+   :CUSTOM_ID: h-0449920a-c7c7-4f9d-a73e-a9479d2a6672
+   :END:
 
 ** Religion
+   :PROPERTIES:
+   :CUSTOM_ID: h-27bca160-8821-4e2f-b794-9b30c196fbfe
+   :END:
 
 ** Savoir
+   :PROPERTIES:
+   :CUSTOM_ID: h-9dd10687-50f9-402a-878a-1c8d28c35ff0
+   :END:
 
 ** Sensations
+   :PROPERTIES:
+   :CUSTOM_ID: h-6921ac1e-1642-4349-83d8-d5a761c32594
+   :END:
 
 ** Sexe
+   :PROPERTIES:
+   :CUSTOM_ID: h-ee1fd5fd-9f4c-4733-a62e-72719d0ac8b5
+   :END:
 
 ** Société
+   :PROPERTIES:
+   :CUSTOM_ID: h-d7f7ffed-a145-4d5c-adf8-973a23088ae5
+   :END:
 
 *** Relations sociales
+    :PROPERTIES:
+    :CUSTOM_ID: h-c9003ea8-d7c9-431e-8a93-170195ad898d
+    :END:
 
 ** Substances
+   :PROPERTIES:
+   :CUSTOM_ID: h-41a6939c-aa36-4de8-935e-248e256307fe
+   :END:
 
 ** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-82d30701-1529-4ae6-8a9c-19e3e7142b77
+   :END:
 
 *** Jours de la semaine
+    :PROPERTIES:
+    :CUSTOM_ID: h-ab0e7a15-0bdc-41f0-a1e6-ec259edad0a3
+    :END:
 
 *** Saisons
+    :PROPERTIES:
+    :CUSTOM_ID: h-b254b618-52f6-4aa6-b55f-9dea18c35936
+    :END:
 
 ** Travail
+   :PROPERTIES:
+   :CUSTOM_ID: h-331b39de-febb-4ba2-8e08-28ad5bbc6967
+   :END:
 
 ** Végétaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-488d8005-4d1e-4008-ab92-d942b218be01
+   :END:
 
 *** Fruits
+    :PROPERTIES:
+    :CUSTOM_ID: h-97d0a384-052b-4b79-b0f2-62ed8335dedc
+    :END:
 
 ** Vêtements
+   :PROPERTIES:
+   :CUSTOM_ID: h-185f46d3-cf75-4e9f-8576-e31f52b7151b
+   :END:
 
 ** Vie et santé
+   :PROPERTIES:
+   :CUSTOM_ID: h-e4f9ab18-73d3-4c91-8240-f8eec28d618b
+   :END:
 
 ** À trier
+   :PROPERTIES:
+   :CUSTOM_ID: h-fa5591f4-4961-4f74-b9fa-139d4889b211
+   :END:
 * Footnotes
   :PROPERTIES:
   :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478

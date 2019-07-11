@@ -25,16 +25,6 @@
 #+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
 
-# ### STYLE ####################################################################
-
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://langue.phundrak.fr/css/htmlize.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://langue.phundrak.fr/css/readtheorg.css"/>
-
-#+HTML_HEAD: <script src="https://langue.phundrak.fr/js/jquery.min.js"></script>
-#+HTML_HEAD: <script src="https://langue.phundrak.fr/js/bootstrap.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="https://langue.phundrak.fr/js/jquery.stickytableheaders.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="https://langue.phundrak.fr/js/readtheorg.js"></script>
-
 # ### MACROS ###################################################################
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: newpage @@latex:\newpage@@
