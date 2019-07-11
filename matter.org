@@ -523,7 +523,7 @@ src_latex{\newpage}
     |           | bil | lab-dent | alv | pal | lab-vel | vel | glot |
     |-----------+-----+----------+-----+-----+---------+-----+------|
     | nasal     | m   |          | n   |     |         |     |      |
-    | occlusif  | p b |          | t d |     |         | k g |      |
+    | occlusif  | p b |          | t d |     |         | c g |      |
     | fricatif  |     | f v      | þ ð | ċ   |         |     | h    |
     | spirant   |     |          |     | j   | ƿ       |     |      |
     | battu     |     |          | r   |     |         |     |      |
@@ -1030,7 +1030,7 @@ src_latex{\newpage}
   nombreux mots  du Mattér  soient monosyllabiques  ou bi-syllabiques  dans leur
   forme  standard, il  n’est  pas  rare de  les  rencontrer  avec des  morphèmes
   supplémentaires, généralement  des suffixes, leur donnant  un rôle grammatical
-  ou des informations supplémentaires, tel que leur nombre. Exemples :
+  ou des informations supplémentaires, tel que leur nombre. Exemple :
 
   - Hyrfialþærun en marcéðoċ ficianantaþ þællea.
 
