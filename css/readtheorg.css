@@ -69,6 +69,8 @@ body {
     font-family: "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
     font-weight: normal;
     overflow-x: hidden;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 #content {
