@@ -1,3 +1,4 @@
+# -*- org-confirm-babel-evaluate: nil -*-
 #+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du Ňyqy
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
@@ -597,7 +598,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-091330c2-3def-4188-a4e8-575489780095
    :END:
-   
+
    Une syllabe  typique en Mattér se  présente sous la forme  CV(CC), suivant
    les règles présentées ci-dessous.
 
@@ -661,7 +662,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-46a4bc1b-156e-4c7b-ac36-6c2e13ccda21
    :END:
-   
+
    Il est possible de rencontrer une  variation de prononciation du Ňyqy suivant
    ces modifications :
 
@@ -714,7 +715,7 @@
     génitif, alors que l’élément caractérisant suit ce même mophème.
 
   - qi bü pim mo coq
-    
+
     deux 2sg pomme PST manger
 
     Nous avons mangé une pomme
@@ -1040,7 +1041,7 @@
   :PROPERTIES:
   :CUSTOM_ID: h-b300a59b-e3c9-455d-9ac8-dc781b342fa3
   :END:
-  
+
   {{{newpage}}}
 * Combination de clauses
   :PROPERTIES:
