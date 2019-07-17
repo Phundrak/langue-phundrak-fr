@@ -4,12 +4,12 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
-#+LATEX_HEADER: \renewcommand{\arraystretch}{1.2}
+#+LATEX_CLASS: language
+#+LATEX_HEAD: \usepackage{tocloft}
+#+LATEX_HEAD: \setlength{\cftchapnumwidth}{3em}
 #+OPTIONS: H:4 toc:nil ^:{}
 #+OPTIONS: auto-id:t
-{{{newpage}}}
 #+TOC: headlines
-{{{newpage}}}
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup
 #+BEGIN_SRC text :exports none
@@ -63,175 +63,6 @@
   ||
 #+END_SRC
 
-* Table des matières                                      :TOC_5_gh:noexport:
-  :PROPERTIES:
-  :CUSTOM_ID: h-51eef56d-6cec-4279-bc84-8b0d4206892a
-  :END:
-- [[#avant-propos][Avant-propos]]
-- [[#introduction][Introduction]]
-  - [[#note-sur-la-langue-en-tant-que-langue-construite][Note sur la langue en tant que langue construite]]
-  - [[#notes-sur-la-langue-en-tant-que-langue-réelle][Notes sur la langue en tant que langue réelle]]
-  - [[#le-nom-de-la-langue][Le nom de la langue]]
-- [[#phonologie][Phonologie]]
-  - [[#notes-sur-la-transcription-du-ňyqy][Notes sur la transcription du Ňyqy]]
-  - [[#inventaire-phonétique][Inventaire phonétique]]
-    - [[#consonnes][Consonnes]]
-    - [[#voyelles][Voyelles]]
-  - [[#allophonie][Allophonie]]
-  - [[#phonotaxes][Phonotaxes]]
-    - [[#attaque][Attaque]]
-    - [[#noyau][Noyau]]
-    - [[#coda][Coda]]
-    - [[#inter-syllabe][Inter-syllabe]]
-  - [[#accentuation][Accentuation]]
-- [[#topologie-morphologique][Topologie morphologique]]
-- [[#classes-de-mots][Classes de mots]]
-  - [[#noms][Noms]]
-    - [[#nombre][Nombre]]
-    - [[#genre][Genre]]
-    - [[#possession][Possession]]
-    - [[#relations-grammaticales][Relations grammaticales]]
-    - [[#articles][Articles]]
-    - [[#types-de-noms][Types de noms]]
-      - [[#noms-propres][Noms propres]]
-      - [[#noms-de-masse][Noms de masse]]
-    - [[#pronoms][Pronoms]]
-      - [[#personnels][Personnels]]
-      - [[#relatifs][Relatifs]]
-  - [[#verbes][Verbes]]
-    - [[#infinitif][Infinitif]]
-    - [[#nominalisation][Nominalisation]]
-  - [[#adjectifs][Adjectifs]]
-  - [[#adverbes][Adverbes]]
-- [[#ordre-des-constituants-basiques][Ordre des constituants basiques]]
-  - [[#clauses-principales][Clauses principales]]
-  - [[#phrase-prépositionnelles][Phrase prépositionnelles]]
-  - [[#phrases-nominales][Phrases nominales]]
-    - [[#modificateurs][Modificateurs]]
-    - [[#constructions-génitives][Constructions génitives]]
-    - [[#clauses-relatives][Clauses relatives]]
-  - [[#phrases-verbales][Phrases verbales]]
-  - [[#comparatifs][Comparatifs]]
-  - [[#résumé][Résumé]]
-- [[#prédicats-nominaux][Prédicats nominaux]]
-- [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
-- [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
-  - [[#déclinaison--noms][Déclinaison – Noms]]
-    - [[#déclinaison][Déclinaison]]
-      - [[#noms-masculins-forts][Noms masculins forts]]
-    - [[#possession-1][Possession]]
-  - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
-  - [[#accord-des-verbes][Accord des verbes]]
-    - [[#indicatif][Indicatif]]
-      - [[#perfectif][Perfectif]]
-      - [[#imperfectif][Imperfectif]]
-    - [[#impératif][Impératif]]
-    - [[#jussif][Jussif]]
-    - [[#participes][Participes]]
-  - [[#déclinaison-et-accord-des-adjectifs][Déclinaison et accord des adjectifs]]
-    - [[#nominalisation-1][Nominalisation]]
-- [[#temps-aspects-et-modes][Temps, aspects et modes]]
-  - [[#temps][Temps]]
-  - [[#aspect][Aspect]]
-  - [[#modaux-auxiliaires][Modaux auxiliaires]]
-  - [[#causatif][Causatif]]
-    - [[#causatif-lexical][Causatif lexical]]
-    - [[#causatif-analytique][Causatif analytique]]
-  - [[#passif][Passif]]
-  - [[#réflexif][Réflexif]]
-  - [[#réciproque][Réciproque]]
-  - [[#questions][Questions]]
-    - [[#question-absolue-ouinon][Question absolue (oui/non)]]
-    - [[#question-relative][Question relative]]
-  - [[#impératif-1][Impératif]]
-- [[#négation][Négation]]
-- [[#combination-de-clauses][Combination de clauses]]
-  - [[#clauses-relatives-1][Clauses relatives]]
-  - [[#verbes-en-série][Verbes en série]]
-  - [[#clauses-de-complément][Clauses de complément]]
-    - [[#compléments-de-stems-basiques][Compléments de stems basiques]]
-    - [[#compléments-tél-et-þiv][Compléments <tél> et <þiv>]]
-  - [[#clauses-adverbiales][Clauses adverbiales]]
-  - [[#coordination][Coordination]]
-- [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
-- [[#nombres][Nombres]]
-- [[#glossaire][Glossaire]]
-  - [[#actions-physiques][Actions physiques]]
-  - [[#amour][Amour]]
-  - [[#animaux][Animaux]]
-  - [[#art][Art]]
-    - [[#écriture][Écriture]]
-    - [[#visuel][Visuel]]
-    - [[#audio][Audio]]
-  - [[#astronomie][Astronomie]]
-  - [[#bâtiments][Bâtiments]]
-    - [[#la-ville][La ville]]
-    - [[#les-types-de-bâtiments][Les types de bâtiments]]
-  - [[#commerce][Commerce]]
-  - [[#conflits][Conflits]]
-  - [[#conteneurs][Conteneurs]]
-  - [[#corps][Corps]]
-  - [[#couleurs][Couleurs]]
-  - [[#dimensions][Dimensions]]
-    - [[#distance][Distance]]
-    - [[#taille][Taille]]
-    - [[#quantifieurs][Quantifieurs]]
-  - [[#direction][Direction]]
-  - [[#eau][Eau]]
-  - [[#effort][Effort]]
-  - [[#éléments][Éléments]]
-  - [[#émotions][Émotions]]
-  - [[#évaluation][Évaluation]]
-  - [[#événements][Événements]]
-  - [[#existence][Existence]]
-  - [[#forme][Forme]]
-  - [[#gouvernement][Gouvernement]]
-  - [[#grammaire][Grammaire]]
-    - [[#articles-définis][Articles définis]]
-    - [[#déterminants-démonstratifs][Déterminants démonstratifs]]
-    - [[#outils-interrogatifs][Outils interrogatifs]]
-    - [[#conjonctions][Conjonctions]]
-    - [[#prépositions][Prépositions]]
-    - [[#pronoms-1][Pronoms]]
-  - [[#guerre][Guerre]]
-  - [[#légal][Légal]]
-  - [[#lieux][Lieux]]
-    - [[#villes][Villes]]
-  - [[#lumière][Lumière]]
-  - [[#mental][Mental]]
-  - [[#mesures][Mesures]]
-  - [[#métaux][Métaux]]
-  - [[#mouvements][Mouvements]]
-  - [[#nature][Nature]]
-  - [[#nombres-1][Nombres]]
-    - [[#nombres-cardinaux][Nombres cardinaux]]
-  - [[#nourriture][Nourriture]]
-  - [[#outils][Outils]]
-  - [[#parenté][Parenté]]
-    - [[#famille][Famille]]
-  - [[#parole][Parole]]
-  - [[#péchés][Péchés]]
-  - [[#peuples][Peuples]]
-  - [[#physique][Physique]]
-  - [[#possession-2][Possession]]
-  - [[#religion][Religion]]
-  - [[#savoir][Savoir]]
-  - [[#sensations][Sensations]]
-  - [[#sexe][Sexe]]
-  - [[#société][Société]]
-    - [[#relations-sociales][Relations sociales]]
-  - [[#substances][Substances]]
-  - [[#temps-1][Temps]]
-    - [[#jours-de-la-semaine][Jours de la semaine]]
-    - [[#saisons][Saisons]]
-  - [[#travail][Travail]]
-  - [[#végétaux][Végétaux]]
-    - [[#fruits][Fruits]]
-  - [[#vêtements][Vêtements]]
-  - [[#vie-et-santé][Vie et santé]]
-  - [[#à-trier][À trier]]
-- [[#footnotes][Footnotes]]
-
 * Avant-propos
   :PROPERTIES:
   :CUSTOM_ID: h-45733210-18dc-486a-858a-0af1d438d285
@@ -240,7 +71,7 @@
   La  redistribution ou  vente de  ce  document sont  strictement interdits.  Ce
   document est protégé par la loi  française sur le droit d’auteur et appartient
   entièrement et totalement à son auteur. Ce document est un document disponible
-  gratuitement  au format  web et  pdf sur  mon site  web[fn:1]. Si  vous l’avez
+  gratuitement  au format  web et  PDF sur  mon site  web[fn:1]. Si  vous l’avez
   obtenu depuis une autre source, gratuitement  ou non, merci de m’en faire part
   en me contactant  via mes réseaux sociaux  ou par mail que  vous trouverez sur
   mon site principal[fn:2]. Aucune personne, morale ou physique, n’est à l’heure
@@ -259,7 +90,6 @@
   académique est fictionnelle (cf §[[#h-f2a15be7-ee4e-4ec3-a856-535c9861774f]]).
 
   {{{last-update}}}
-  {{{newpage}}}
 * Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-2fbe549b-7190-4426-b35f-8c98682deb63
@@ -276,19 +106,19 @@
    Ňyqy.  J’ai  tout de  même  essayé  de développer  cette  langue  de façon  à
    autoriser des aspects naturels dans le Ňyqy, comme par exemple son inventaire
    phonétique ou sa différentiation des temps,  aspects et modes, inspiré par la
-   présentation  de [[https://sites.google.com/view/joseph-windsor][Joseph  Windsor]] lors  de la  Language Creation  Conference 8
-   (2019).
+   présentation  de Joseph  Windsor[fn:5] lors  de la  Language Creation  Conference 8
+   (2019)[fn:6].
 
 ** Notes sur la langue en tant que langue réelle
    :PROPERTIES:
    :CUSTOM_ID: h-da09cfc9-f1e0-4e38-ae49-a859d988caa0
    :END:
    Le Ňyqy est une langue parlée il  y a quelques huit millénaires environ ; les
-   estimations vont de 4.000 ans à 11.000 ans  avant notre êre. Cette langue est
+   estimations vont de 4.000 ans à 11.000 ans  avant notre ère. Cette langue est
    ancêtre de la quasi-totalité des langues de notre monde actuel, avec quelques
    exceptions notoires  tels que le Énanonn  qui reste encore très  mystérieux à
    bien des  égards, ou bien le  Hjelp Moderne, descendant directs  de plusieurs
-   dialectes variés  du Hjelp Vulgaire, eux-même  simplifications et descendants
+   dialectes variés du Hjelp  Vulgaire, eux-mêmes simplifications et descendants
    du Hjelp Originel.
 
    Le Ňyqy était,  selon toutes évidences, une langue  très analytique, reposant
@@ -297,21 +127,30 @@
    fin  de  cette  dernière,  conduisant  à  un  ordre  principalement  OSV,  le
    possesseur se trouvant après le possédé, etc…
 
+** Conventions typographiques
+   :PROPERTIES:
+   :CUSTOM_ID: h-410ccf5a-d5eb-436b-b3f4-a0a4bb4249e9
+   :END:
+   Dans ce  document seront  utilisé certaines conventions  typographiques, dont
+   des  gloses grammaticales  inter-lignes[fn:4], une  étoile ~*~  précédant des
+   éléments linguistiques considérés comme erronés, un point d’interrogation ~?~
+   afin de marquer  des éléments linguistiques questionnables, ou  bien dans les
+   gloses une utilisation  du chiffre zéro ~0~ afin de  marquer une absence d’un
+   ou plusieurs éléments.
+
 ** Le nom de la langue
    :PROPERTIES:
    :CUSTOM_ID: h-4bb192b0-55d3-43f2-94c0-408cb5cc21d9
    :END:
 
-   Le nom de la langue est le pronom personel de la première personne du pluriel
-   en Ňyqy,  qui s’analyse par « ňy »  signifiant /6/ (le Ňyqy  comptant en base
-   cinq, il  s’agit d’un moyen  de signifier  la pluralité), ou  /plusieurs/, ou
-   /beaucoup/, et « qy », signifiant /soi/, /moi/.  Il n’est pas certain que les
-   locuteurs se référaient à leur langue  ainsi, voire s’ils s’y référaient tout
-   simplement, mais plusieurs éléments tendent à laisser penser que ce serait le
-   cas (Loqbrekh et Khorlan, /Université de Ðbńo/, 3598).
+   Le  nom de  la langue  est le  pronom personnel  de la  première personne  du
+   pluriel en Ňyqy, qui s’analyse par « ňy » signifiant /6/ (le Ňyqy comptant en
+   base cinq, il  s’agit d’un moyen de signifier la  pluralité), ou /plusieurs/,
+   ou /beaucoup/, et  « qy », signifiant /soi/, /moi/. Il n’est  pas certain que
+   les locuteurs se  référaient à leur langue ainsi, voire  s’ils s’y référaient
+   tout  simplement, mais  plusieurs éléments  tendent à  laisser penser  que ce
+   serait le cas (Loqbrekh et Khorlan, /Université de Ðbńo/, 3598).
 
-
-   {{{newpage}}}
 * Phonologie
   :PROPERTIES:
   :CUSTOM_ID: h-256a0004-69b5-4610-9e74-e16468d25d57
@@ -356,36 +195,36 @@
     caractéristiques montré dans la figure [[arbre:cons]].
 
     #+NAME: cons-tree
-    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
       <<process-tree>>
-      (define cons-tree
+      (define consonants
         '("[cons]"
           ("[son]"
            ("[dor]"
-            ("[high]" () ())
-            ("{high}" () ()))
+            ("[high]")
+            ("{high}"))
            ("{dor}"
-            ("[cor]" () ())
-            ("{cor}" () ())))
+            ("[cor]")
+            ("{cor}")))
           ("{son}"
            ("[dor]"
             ("[voice]"
-             ("[high]" () ())
-             ("{high}" () ()))
+             ("[high]")
+             ("{high}"))
             ("{voice}"
-             ("[high]" () ())
-             ("{high}" () ())))
+             ("[high]")
+             ("{high}")))
            ("{dor}"
             ("[voice]"
-             ("[cor]" () ())
-             ("{cor}" () ()))
+             ("[cor]")
+             ("{cor}"))
             ("{voice}"
-             ("[cor]" () ())
-             ("{cor}" () ()))))))
-      (to-dot cons-tree)
+             ("[cor]")
+             ("{cor}"))))))
+      (tree-to-dot consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy_consonant_feature_tree.svg :var input=cons-tree :exports results :eval yes
+    #+BEGIN_SRC dot :file img/nyqy-consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -402,34 +241,39 @@
     table [[table:cons:feat]] présente les caractéristiques distinctes des consonnes
     du Ňyqy.
 
+    {{{begin-largetable}}}
     #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ňyqy (IPA)
-    |          <r5>   |   <c5>    |   <c10>    |     <c5>       |  <c>    |   <c>    |   <c>    |
-    |             / |     <     |     <      |       <        |    <    |    <     |    <     |
-    |               | bilablial | alvéolaire | labial-velaire | palatal | uvulaire | pharygal |
-    |---------------+-----------+------------+----------------+---------+----------+----------|
-    |        plosif |    p b    |            |                |         |   q ɢ    |          |
-    |         nasal |     m     |     n      |                |         |    ɴ     |          |
-    |          tapé |           |            |                |         |   (ʀ)    |          |
-    |      fricatif |           |    s z     |                | (x) (ɣ) | (χ) (ʁ)  | (ħ) (ʕ)  |
-    |      affriqué |           |   t͡ʃ d͡ʒ    |                |         |          |          |
-    | lat. affriqué |           |  (ɬ) (ɮ)   |                |         |          |          |
-    |  lat. spirant |           |    (l)     |                |         |          |          |
-    |   approximant |           |            |                |   (j)   |          |          |
-    |       spirant |           |            |       w        |         |          |          |
+    |              <r5> |           <c5>            |           <c10>            |              <c5>              |          <c5>           |           <c5>           |           <c5>           |
+    |                 / |             <             |             <              |               <                |            <            |            <             |            <             |
+    |                   | {{{vertical(bilablial)}}} | {{{vertical(alvéolaire)}}} | {{{vertical(labial-velaire)}}} | {{{vertical(palatal)}}} | {{{vertical(uvulaire)}}} | {{{vertical(pharygal)}}} |
+    |-------------------+---------------------------+----------------------------+--------------------------------+-------------------------+--------------------------+--------------------------|
+    |            plosif |            p b            |                            |                                |                         |           q ɢ            |                          |
+    |             nasal |             m             |             n              |                                |                         |            ɴ             |                          |
+    |              tapé |                           |                            |                                |                         |           (ʀ)            |                          |
+    |          fricatif |                           |            s z             |                                |         (x) (ɣ)         |         (χ) (ʁ)          |         (ħ) (ʕ)          |
+    |          affriqué |                           |           t͡ʃ d͡ʒ            |                                |                         |                          |                          |
+    | latérale affriqué |                           |          (ɬ) (ɮ)           |                                |                         |                          |                          |
+    |  latérale spirant |                           |            (l)             |                                |                         |                          |                          |
+    |       approximant |                           |                            |                                |           (j)           |                          |                          |
+    |           spirant |                           |                            |               w                |                         |                          |                          |
+    {{{end-largetable}}}
 
+    {{{begin-largetable}}}
     #+NAME: table:cons:trans
     #+CAPTION: Consonnes du Ňyqy (translittération)
-    |      <r> |    <c>    |    <c>     |      <c>       |   <c>    |
-    |        / |     <     |     <      |       <        |    <     |
-    |          | bilablial | alvéolaire | labial-velaire | uvulaire |
-    |----------+-----------+------------+----------------+----------|
-    |   plosif |    p b    |            |                |   q g    |
-    |    nasal |     m     |     n      |                |    ň     |
-    | fricatif |           |    s z     |                |          |
-    | affriqué |           |    c j     |                |          |
-    |  spirant |           |            |       w        |          |
+    |      <r> |           <c5>            |            <c5>            |              <c5>              |           <c5>           |
+    |        / |             <             |             <              |               <                |            <             |
+    |          | {{{vertical(bilablial)}}} | {{{vertical(alvéolaire)}}} | {{{vertical(labial-velaire)}}} | {{{vertical(uvulaire)}}} |
+    |----------+---------------------------+----------------------------+--------------------------------+--------------------------|
+    |   plosif |            p b            |                            |                                |           q g            |
+    |    nasal |             m             |             n              |                                |            ň             |
+    | fricatif |                           |            s z             |                                |                          |
+    | affriqué |                           |            c j             |                                |                          |
+    |  spirant |                           |                            |               w                |                          |
+    {{{end-largetable}}}
 
+    {{{begin-largetable}}}
     #+NAME: table:cons:feat
     #+CAPTION: Caractéristiques distinctes du Ňyqy
     |   / |  <  |     |       |      |     |
@@ -459,6 +303,7 @@
     |   ɬ |  -  |  -  |   -   |  0   |  +  |
     |   p |  -  |  -  |   -   |  0   |  -  |
     |   ħ |  -  |  -  |   -   |  0   |  -  |
+    {{{end-largetable}}}
 
 *** Voyelles
     :PROPERTIES:
@@ -469,40 +314,41 @@
     présenté avec la figure [[arbre:vowels]].
 
     #+NAME: vow-tree
-    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
       <<process-tree>>
-      (define vowels-tree
+      (define vowels
         '("[vowel]"
           ("[back]"
            ("[tense]"
-            ("[high]" () ())
-            ("{high}" () ()))
+            ("[high]")
+            ("{high}"))
            ("{tense}"
-            ("[high]" () ())
-            ("{high}" () ())))
+            ("[high]")
+            ("{high}")))
           ("{back}"
            ("[tense]"
-            ("[high]" () ())
-            ("{high}" () ()))
+            ("[high]")
+            ("{high}"))
            ("{tense}"
-            ("[high]" () ())
-            ("{high}" () ())))))
-      (to-dot vowels-tree)
+            ("[high]")
+            ("{high}")))))
+      (tree-to-dot vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy_vowel_feature_tree.svg :var input=vow-tree :exports results :eval yes
+    #+BEGIN_SRC dot :file img/nyqy-vowel-feature-tree.png :var input=vow-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
     #+RESULTS:
-    [[file:img/nyqy_vowel_feature_tree.png]]
+    [[file:img/nyqy_vowel_feature_tree.svg]]
 
     Grâce  à cet  arbre furent  choisies les  voyelles présentées  par la  table
-    [[table:vowels:ipa]],  et  leur  translitération  est  présentée  par  la  table
+    [[table:vowels:ipa]],  et  leur  translittération  est  présentée  par  la  table
     [[table:vowels:trans]].
 
+    {{{begin-largetable}}}
     #+NAME: table:vowels:ipa
     #+CAPTION: Voyelles du Ňyqy (IPA)
     #+ATTR_LATEX: :placement [htb]
@@ -514,7 +360,8 @@
     | pré-fermées |      ɪ      |      ʊ       |
     |  mi-fermées |      ø      |      ɤ       |
     | mi-ouvertes |      ɛ      |      ɔ       |
-
+    {{{end-largetable}}}
+    {{{begin-largetable}}}
     #+NAME: table:vowels:trans
     #+CAPTION: Voyelles du Ňyqy (translittération)
     #+ATTR_LATEX: :placement [htb]
@@ -526,11 +373,13 @@
     | pré-fermées |      i      |      u       |
     |  mi-fermées |      ë      |      ö       |
     | mi-ouvertes |      e      |      o       |
+    {{{end-largetable}}}
 
     Vous trouverez également avec la table [[table:vowels:feat]] les
     caractéristiques des voyelles permettant de comprendre leur comportement
     dans cette langue.
 
+    {{{begin-largetable}}}
     #+NAME: table:vowels:feat
     #+CAPTION: caractéristiques distinctives des voyelles du Ňyqy
     |   / |  <   |       |      |
@@ -545,6 +394,7 @@
     |   ë |  -   |   +   |  -   |
     |   i |  -   |   -   |  +   |
     |   e |  -   |   -   |  -   |
+    {{{end-largetable}}}
 
 ** Allophonie
    :PROPERTIES:
@@ -553,7 +403,7 @@
    Il existe relativement peu de règles allophoniques connues en Ňyqy, cependant
    quelques unes sont à peu près certaines :
 
-   - V → [-tense] / {q,ɢ,ɴ}_
+   - V → [-tense] / C[+dor +high]_
    - C[+dor +high] → [-dor +cor] / C[+dor]{V,∅}_
    - C[+dor -high] → [-dor -cor] / C[+dor]{V,∅}_
    - C[-dor +cor] → [+dor +high] / C[-dor]{V,∅}_
@@ -563,8 +413,12 @@
    consonnes ne peuvent se suivre si elles sont toutes deux dorsales, la seconde
    devant alors changer sa  qualité afin de se soumettre à  la règle. Sa qualité
    haute  ou coronale  se  reflètent  également lors  du  changement de  qualité
-   dorsale  de la  consonne. Voici  un  tableau récapitulatif  du changement  de
-   phonèmes dû à cette règle :
+   dorsale de la  consonne. Vous pouvez voir  la table [[table:mutation:consonants]]
+   qui récapitule les mutation des consonnes du Ňyqy dû à cette règle.
+
+   {{{begin-largetable}}}
+   #+NAME: table:mutation:consonants
+   #+CAPTION: Table de mutation des consonnes du Ňyqy
    |       <c>        |     <c>      |   |       <c>        |     <c>      |
    |        /         |      <>      |   |        <>        |              |
    | [+dor] originale | [-dor] mutée |   | [-dor] originale | [+dor] mutée |
@@ -575,6 +429,7 @@
    |        t͡ʃ        |      ɬ       |   |        n         |      j       |
    |        d͡ʒ        |      ɮ       |   |        s         |      x       |
    |        w         |      l       |   |        z         |      ɣ       |
+   {{{end-largetable}}}
 
    Ainsi, la  phrase <ňe pom  qy> se prononce {{{phon(ɴɛ  pɔɴ ħy)}}} au  lieu de
    *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bü pim  mo  coq> se  prononcera
@@ -596,7 +451,7 @@
    sont des  termes valides selon  cette règle, mais *{{{phon(t͡ʃɔq)}}}  ne l’est
    pas, ce dernier se prononcera {{{phon(t͡ʃɔħ)}}}.
 
-   Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjascentes
+   Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjacentes
    sans suivre les règles indiquées ci-dessous,  alors un schwa est inséré entre
    ces deux  consonnes. Exemple : <cöjm>  est prononcé {{{phon(t͡ʃɤɮəʀ)}}}  si la
    première   consonne   n’est   pas   mutée,  sinon   le   mot   est   prononcé
@@ -644,15 +499,13 @@
       consonne de  la première  syllabe et  la première  consonne de  la seconde
       syllabe, la prononciation est conservée.
     - Si les règles précédentes ne s’appliquent  pas, il est supposé qu’un schwa
-      est ajouté afin de pouvoir rendre la syllabe prononcable.
+      est ajouté afin de pouvoir rendre la syllabe prononçable.
 
 ** Accentuation
    :PROPERTIES:
    :CUSTOM_ID: h-3f8bdebe-b8ec-48c2-bbad-ed5fa28786bf
    :END:
 
-
-   {{{newpage}}}
 * Topologie morphologique
   :PROPERTIES:
   :CUSTOM_ID: h-fe5337ed-1549-42cb-a622-7cae04b17268
@@ -670,7 +523,7 @@
     On peut voir avec cette phrase qu’il n’existe pas de verbe « être » en Ňyqy,
     une simple clause sans verbe suffit  pour créer un prédicat nominal. On voit
     également  que l’élément  caractérisé  par le  génitif  précède le  morphème
-    génitif, alors que l’élément caractérisant suit ce même mophème.
+    génitif, alors que l’élément caractérisant suit ce même morphème.
 
   - qi bü pim mo coq
 
@@ -693,7 +546,6 @@
     précédent où « qyn » est un morphème  modifiant le mode du verbe « gö », lui
     ajoutant le mode optatif.
 
-  {{{newpage}}}
 * Classes de mots
   :PROPERTIES:
   :CUSTOM_ID: h-3538358d-9f9c-412f-9679-6ada0b463058
@@ -703,6 +555,12 @@
    :PROPERTIES:
    :CUSTOM_ID: h-36798ce1-3ac3-46e7-8cd5-d5145cad79a0
    :END:
+   Les noms en Ňyqy se réfèrent  généralement à des entités définies, comme des
+   objets, des personnes,  des concepts ou événements.  Contrairement à beaucoup
+   d’autres langues, et du  fait de la nature très analytique  de la langue, les
+   noms  ne supportent  aucune  caractéristique  morphosyntaxique ; ils  peuvent
+   cependant s’associer  à d’autres éléments  du fait de leur  nature, notamment
+   grâce à des particules grammaticales.
 
 *** Nombre
     :PROPERTIES:
@@ -784,11 +642,115 @@
    :CUSTOM_ID: h-6149be34-61ff-43d5-8cbc-0412372db15e
    :END:
 
-   {{{newpage}}}
+* Relations grammaticales
+  :PROPERTIES:
+  :CUSTOM_ID: h-8bb279aa-222e-4c4a-95b7-88602377f3cd
+  :END:
+  Il existe de façon universelle deux types de verbes : les verbes intransitifs,
+  et  les  verbes transitifs.  Ces  premiers  ne  prennent qu’un  seul  argument
+  obligatoire, un  expérienceur –noté  « S »–, alors  que les  verbes transitifs
+  prennent  deux arguments  obligatoires : l’agent  –noté A–  effectuant souvent
+  l’action, et le  patient –noté P– étant souvent l’objet  affecté par l’action.
+  Par exemple :
+  - Je dors.
+
+    Verbe intransitif, « je » est expérienceur S.
+
+  - Je mange une pomme.
+
+    Verbe transitif, « je » est agent A, et « pomme » est patient P.
+  Dans la majorité  des langues du monde, et dans  la quasi-totalité des langues
+  européennes (le  Basque étant la  seule exception), l’expérienceur  et l’agent
+  sont traités quasiment tout le temps à l’identique, formant le cas grammatical
+  (souvent non marqué) s’opposant  au cas accusatif marquant  le patient, traité
+  différemment.
+
+  À  la  différence  des  langues  européennes, le  Ňyqy  est  une  langue  dite
+  « ergative » ;  cela signifie  que  ses différents  groupes  nominaux ont  une
+  relation  grammaticale  envers  leurs   verbes  basée  sur  l’association  des
+  expérienceurs et  des patients, avec  l’agent traité différemment.  Ce premier
+  regroupement S et P est alors appelé « cas absolutif » alors que le second est
+  le « cas ergatif ».
+
+  Ainsi,   comme   nous  le   verrons   dans   le   chapitre  sur   la   syntaxe
+  (§[[#h-a494cab9-13ac-467e-93f2-cc7fc9846f60]]),  l’élément  absolutif  restera  en
+  permanence en contact  direct avec le verbe, tandis que  l’élément ergatif les
+  précédera,  et pourra  même  être  séparé du  couple  absolutif-verbe par  des
+  éléments datifs. Exemple :
+  - qy-0 qöj
+
+    1sg-ABS dormir
+
+    Je dors
+
+  - qy-0 pim-0 coq
+
+    1sg-ERG pomme-ABS manger
+
+    Je mange une pomme.
+
+  En revanche, le Ňyqy utilise un pivot nominatif entre ses différentes clauses.
+  Cela signifie que  l’élément persistant entre les phrases  lorsqu’il subit une
+  élision est l’élément  correspondant au cas nominatif, soit l’argument  S ou A
+  du verbe. Exemple :
+  - qy-0 pim-0 coq. nöcpi qöj.
+
+    1sg-ERG pomme-ABS manger. ensuite dormir.
+
+    Je mange une pomme, puis (je) dors.
+
 * Ordre des constituants basiques
   :PROPERTIES:
   :CUSTOM_ID: h-a494cab9-13ac-467e-93f2-cc7fc9846f60
   :END:
+
+  Comme indiqué dans le chapitre §[[#h-da09cfc9-f1e0-4e38-ae49-a859d988caa0]], le
+  Ňyqy est une langue dont sa tête de groupement grammaticaux tend à être en
+  dernière position.
+
+  #+NAME: basic-syntax-tree
+  #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
+    <<process-tree>>
+    (define syntax-tree
+      '("S"
+        ("Obl")
+        ("S'"
+         ("NPerg"
+          ("NP"))
+         ("VP"
+          ("NPdat"
+           ("NP"))
+          ("VP'"
+           ("NPabs"
+            ("NP"
+             ("S")
+             ("NP'"
+              ("Adj")
+              ("N"))))
+           ("V'"
+            ("Mood")
+            ("Tense")
+            ("V")
+            ("Neg")))))))
+    (tree-to-dot syntax-tree)
+  #+END_SRC
+
+  #+BEGIN_SRC dot :file img/nyqy-basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes :cache yes
+    $input
+  #+END_SRC
+  #+NAME: arbre:syntaxe:basique
+  #+attr_html: :alt Arbre de syntaxe basique du Ňyqy
+  #+CAPTION: Arbre de syntaxe basique du Ňyqy
+  #+RESULTS:
+  [[file:img/nyqy_basic_syntax.svg]]
+
+  On voit grâce à l’arbre  [[arbre:syntaxe:basique]] que la structure générale d’une
+  phrase démarre avec des éléments divers liés à la clause principale, qui ne se
+  rapportent au  verbe ni par  une relation  ergative, ni absolutive  ni dative.
+  Ensuite  vient la  phrase nominale  ergative,  suivie par  la phrase  nominale
+  dative,  puis la  phrase verbale.  Cette dernière  se constitue  de la  phrase
+  nominale absolutive, suivie  par le verbe, lui-même composé par  son mode, son
+  temps, le verbe lui-même et sa négation.
 
 ** Clauses principales
    :PROPERTIES:
@@ -835,95 +797,16 @@
    :CUSTOM_ID: h-a084b2ff-bbd4-4e57-990f-84a74c72abf9
    :END:
 
-   {{{newpage}}}
 * Prédicats nominaux
   :PROPERTIES:
   :CUSTOM_ID: h-8a07ef6d-44b3-48e1-bd10-ff28143e7da7
   :END:
 
-  {{{newpage}}}
 * Phrases existentielles, locationnelles et possessives
   :PROPERTIES:
   :CUSTOM_ID: h-fcd824dc-da65-40f8-adca-d9d13947a6c2
   :END:
 
-  {{{newpage}}}
-* Expression des relations grammaticales
-  :PROPERTIES:
-  :CUSTOM_ID: h-8bb279aa-222e-4c4a-95b7-88602377f3cd
-  :END:
-
-** Déclinaison – Noms
-   :PROPERTIES:
-   :CUSTOM_ID: h-ce86ff0c-feaa-4357-8327-227a7be4bb65
-   :END:
-
-*** Déclinaison
-    :PROPERTIES:
-    :CUSTOM_ID: h-fb372bff-ba9d-47a2-97ab-1cc5c6ed7b9e
-    :END:
-
-**** Noms masculins forts
-     :PROPERTIES:
-     :CUSTOM_ID: h-a9990376-200b-4a30-9be0-4759675b909b
-     :END:
-
-*** Possession
-    :PROPERTIES:
-    :CUSTOM_ID: h-aadc5294-179f-4ae9-9409-4c804b29a6e4
-    :END:
-
-** Déclinaison — Pronoms
-   :PROPERTIES:
-   :CUSTOM_ID: h-f48c5a27-b4f4-45c7-b628-5070f917a122
-   :END:
-
-** Accord des verbes
-   :PROPERTIES:
-   :CUSTOM_ID: h-b95220f2-0c02-4fc8-9386-1e789ccf5b6c
-   :END:
-
-*** Indicatif
-    :PROPERTIES:
-    :CUSTOM_ID: h-df795419-056f-400c-a1a2-2eb624e3d28b
-    :END:
-
-**** Perfectif
-     :PROPERTIES:
-     :CUSTOM_ID: h-fd252291-db22-4a6d-9c51-c3b863aa6546
-     :END:
-
-**** Imperfectif
-     :PROPERTIES:
-     :CUSTOM_ID: h-8479bd18-202e-4b78-97f8-009aad2a121b
-     :END:
-
-*** Impératif
-    :PROPERTIES:
-    :CUSTOM_ID: h-91e037d4-f36e-4fe0-ad68-761702afab9f
-    :END:
-
-*** Jussif
-    :PROPERTIES:
-    :CUSTOM_ID: h-0a766e02-5fbd-45fc-add2-3fae3c4b7af1
-    :END:
-
-*** Participes
-    :PROPERTIES:
-    :CUSTOM_ID: h-fddf44de-8920-4d47-a816-444ec1c66448
-    :END:
-
-** Déclinaison et accord des adjectifs
-   :PROPERTIES:
-   :CUSTOM_ID: h-9af7e880-28ec-4ff0-b791-2f23701f4c89
-   :END:
-
-*** Nominalisation
-    :PROPERTIES:
-    :CUSTOM_ID: h-c60415ed-7eda-41a8-b9ee-af5985f5e246
-    :END:
-
-    {{{newpage}}}
 * Temps, aspects et modes
   :PROPERTIES:
   :CUSTOM_ID: h-124c0d45-0120-4e9b-9f98-4d726b269944
@@ -994,13 +877,11 @@
    :CUSTOM_ID: h-e469af06-c02b-4322-84f2-4ac5e1be3116
    :END:
 
-   {{{newpage}}}
 * Négation
   :PROPERTIES:
   :CUSTOM_ID: h-b300a59b-e3c9-455d-9ac8-dc781b342fa3
   :END:
 
-  {{{newpage}}}
 * Combination de clauses
   :PROPERTIES:
   :CUSTOM_ID: h-b56496ab-2863-4671-8ebe-d39c1c670aa7
@@ -1041,13 +922,11 @@
    :CUSTOM_ID: h-44c9e042-40f3-452f-ba74-81c20ad43cca
    :END:
 
-   {{{newpage}}}
 * Structures marquées pragmatiquement
   :PROPERTIES:
   :CUSTOM_ID: h-21b5b06f-3e21-4f1b-aaed-06af566a1d20
   :END:
 
-  {{{newpage}}}
 * Nombres
   :PROPERTIES:
   :CUSTOM_ID: h-e242b073-ead3-4a99-8f1a-cf06c42c5319
@@ -1055,6 +934,7 @@
   Les locuteurs du Ňyqy comptaient dans un mélange de base 6 pour les unités et
   de base 13 pour le reste.
 
+  {{{begin-largetable}}}
   |  <c5>  |            <c10>             |   <c>    |                 <c>                 |
   |   /    |              <>              |    <>    |                 <>                  |
   | nombre | nombre (représentation ňyqy) |   ňyqy   |             phonétique              |
@@ -1087,6 +967,7 @@
   |  1296  |          1-0-0-0-0           |   gec    |           {{{phon(ɢɛɬ)}}}           |
   |  7776  |         1-0-0-0-0-0          |   cöjm   |         {{{phon(t͡ʃɤɮəʀ)}}}          |
   | 46656  |        1-0-0-0-0-0-0         |   ňuň    |           {{{phon(ɴʊm)}}}           |
+  {{{end-largetable}}}
 
   Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
   grandeur est répété afin d’ajouter cinq au multiplicateur, permettant ainsi
@@ -1097,15 +978,15 @@
   j’appellerai sixaines, les  multiplier par six à la puissance  de son décalage
   par  rapport aux  unités.  Par  exemple le  nombre  <gë si  co  mö  mö ňy  qi>
   ( {{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}} ) se décompose ainsi :
+  {{{begin-largetable}}}
   |   <c>   |   <c>    |   <c>   |   <c>   |
   |  gë si  | co mö mö |   ňy    |   qi    |
   | 4×6^{3} | 5×6^{2}  | 1×6^{1} | 2×6^{0} |
   |  4×216  |   5*36   |   1×6   |   2×1   |
   |   864   |   180    |    6    |    2    |
+  {{{end-largetable}}}
   Ce qui donne donc 1052.
 
-
-  {{{newpage}}}
 * Glossaire
   :PROPERTIES:
   :CUSTOM_ID: h-5533d53c-1bd9-4346-b41f-9c330d202c6d
@@ -1485,8 +1366,21 @@
   :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
   :END:
 
+[fn:6] https://www.youtube.com/watch?v=6aaJa__U0wc&feature=youtu.be&t=24791
+
+[fn:5] https://sites.google.com/view/joseph-windsor
+
+[fn:4] https://en.wikipedia.org/wiki/Interlinear_gloss
+
 [fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
 
 [fn:2] [[https://phundrak.fr]]
 
 [fn:1] https://langue.phundrak.fr
+
+#  LocalWords:  Windsor Language Creation Conference quasi-totalité OSV ňy qy
+#  LocalWords:  quasi-inexistante inter-lignes questionnables Loqbrekh Khorlan
+#  LocalWords:  Ðbńo high dor pom qi bü pim mo cöjm sonorante coronales GEN sg
+#  LocalWords:  sonorantes Inter-syllabe non-dorsales bi-syllabiques qun gö OPT
+#  LocalWords:  qyn Nominalisation plosif affriqué approximant voice back tense
+#  LocalWords:  absolutif-verbe

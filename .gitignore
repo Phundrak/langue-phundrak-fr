@@ -4,7 +4,10 @@
 *.log
 *.html
 *.pdf
-/*/_minted*
+*.aux
+*.toc
+*.out
+_minted*
 /draconian-2/Vulgar_ Language generator.pdf
 /draconian-2/auto-generated*
 /ignored-folder

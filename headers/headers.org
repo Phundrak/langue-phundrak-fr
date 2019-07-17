@@ -9,10 +9,10 @@
 
 #+LATEX_CLASS: article
 #+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
-#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={6.5in,10.0in}]{geometry}\setromanfont[Numbers=Lowercase]{Charis SIL}
-#+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={16cm,25.7cm}]{geometry}\setromanfont{Charis SIL}
+#+LATEX_HEADER: \usepackage{xcolor}\usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-#+LATEX_HEADER: \usepackage{multicol} \usepackage{indentfirst}
+#+LATEX_HEADER: \usepackage{multicol}\usepackage{indentfirst}
 
 # ### HTML #####################################################################
 
@@ -28,59 +28,46 @@
 # ### CODE #####################################################################
 
 #+NAME: process-tree
-#+BEGIN_SRC scheme :noweb yes :exports none :eval yes
-  (define (left-child tree)
-    (cadr tree))
-  (define (left-child-name tree)
-    (car (left-child tree)))
-  (define (right-child tree)
-    (caddr tree))
-  (define (right-child-name tree)
-    (car (right-child tree)))
-  (define (cur-name tree)
-    (car tree))
+#+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
+  ;; Original commented source code hosted on Phundrak Labs:
+  ;; https://labs.phundrak.fr/phundrak/features-tree
 
-  (define (to-string phon-tree node-nbr child next-nbr)
-    (let ((this-name (string-append "node"
-                                    (number->string node-nbr)))
-          (child-name (string-append "node"
-                                     (number->string next-nbr))))
-      (string-append child-name
-                     "[label=\""
-                     (cur-name child)
-                     "\"];"
-                     this-name
-                     "--"
-                     child-name
-                     ";"
-                     (to-dot-main child next-nbr))))
+  (define (atom? elem)
+    (not (pair? elem)))
 
-  (define (to-dot-main phon-tree node-nbr)
-    (let* ((this-name (string-append (number->string node-nbr)
-                                    "node")))
-      (if (null? (left-child phon-tree))
-          ""
-          (let ((x (* 2 (+ 1 node-nbr)))
-                (y (* 2 (+ 2 node-nbr))))
-            (string-append (to-string phon-tree node-nbr
-                                      (left-child phon-tree)
-                                      x)
-                           (to-string phon-tree node-nbr
-                                      (right-child phon-tree)
-                                      y))))))
+  (define (declare-node node-text node-generation)
+    (string-append ;; "node"
+                   (number->string node-generation)
+                   "[label=\""
+                   node-text
+                   "\"];"))
 
-  (define (to-dot phon-tree)
-    (if (null? phon-tree)
-        ""
+  (define (make-link previous-node current-node)
+    (string-append (number->string previous-node) " -- "
+                   (number->string current-node) ";"))
+
+  (define (tree-to-dot-helper tree current-generation previous-generation)
+    (cond ((null? tree) "")
+          ((atom? (car tree))
+           (string-append (declare-node (car tree) current-generation)
+                          (make-link previous-generation current-generation)
+                          (tree-to-dot-helper (cdr tree)
+                                              (+ 1 (* 10 current-generation))
+                                              current-generation)))
+          ((list? (car tree))
+           (string-append (tree-to-dot-helper (car tree)
+                                              current-generation
+                                              previous-generation)
+                          (tree-to-dot-helper (cdr tree)
+                                              (+ 1 current-generation)
+                                              previous-generation)))))
+
+  (define (tree-to-dot tree)
+    (if (null? tree) ""
         (string-append
-         "graph{"
-         "node[shape=plaintext];"
-         "graph[bgcolor=\"transparent\"];"
-         "node1[label=\""
-         (cur-name phon-tree)
-         "\"];"
-
-         (to-dot-main phon-tree 1)
+         "graph{node[shape=plaintext];graph[bgcolor=\"transparent\"];"
+         (declare-node (car tree) 0)
+         (tree-to-dot-helper (cdr tree) 1 0)
          "}")))
 #+END_SRC
 
@@ -90,5 +77,8 @@
 #+MACRO: latex-html @@latex:$1@@ @@html:$2@@
 #+MACRO: last-update Dernière mise à jour le {{{time(%d/%m/%y à %H:%M)}}}.
 #+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@
+#+MACRO: vertical @@latex:\rotatebox[origin=c]{270}{$1}@@ @@html:<span class=vertical>$1</span>@@
+#+MACRO: begin-largetable @@html:<div class="largetable">@@
+#+MACRO: end-largetable @@html:</div>@@
 
 #+OPTIONS: H:4 broken_links:mark email:t ^:{}

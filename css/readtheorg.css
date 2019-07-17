@@ -484,6 +484,11 @@ table tr:nth-child(2n) td {
     background-color: white;
 }
 
+.largetable {
+    display: block;
+    overflow-x: auto;
+}
+
 .figure p {
     color: #000;
     font: italic 85%/1 arial, sans-serif;
@@ -1441,4 +1446,13 @@ pre.src:before {
 
 .figure {
     padding: 0;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    text-align: right;
+}
+
+th.org-center {
+    vertical-align: bottom;
 }
