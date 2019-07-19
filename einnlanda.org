@@ -1,4 +1,4 @@
-#+include: headers/headers.org
+#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire de l’Einnlandais
 #+LaTeX_HEADER: \usepackage{allrunes}
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Einnlanda" />
