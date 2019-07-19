@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
-#+LATEX_CLASS: language
+#+LATEX_CLASS: article
 #+LATEX_HEAD: \usepackage{tocloft}
 #+LATEX_HEAD: \setlength{\cftchapnumwidth}{3em}
 #+OPTIONS: H:4 toc:nil ^:{}
