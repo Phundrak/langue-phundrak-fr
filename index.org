@@ -3,20 +3,30 @@
 #+HTML_HEAD: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:title" content="Langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
+#+OPTIONS: ^:{} auto-id:t
 
 * Langues divines
+  :PROPERTIES:
+  :CUSTOM_ID: h-7d801f16-4b32-407e-9599-3d44b50e2921
+  :END:
 
 [[file:hjalpi.org][Hjalpi’]] ([[file://hjalpi.pdf][pdf]])
 
 [[file:hjelp.org][Hjelp]] ([[file://hjelp.pdf][pdf]]) (remplacement du Hjalpi’)
 
 * Langues draconiennes
+  :PROPERTIES:
+  :CUSTOM_ID: h-e7cdb261-763b-423a-82c9-8767a69adfcb
+  :END:
 
 [[file:lijokken/lijokken-grammaire.org][Łijökken]] ([[file://lijokken/lijokken-grammaire.pdf][pdf]])
 
 [[file:zohaen/zohaen-grammaire.org][Zöhæň]] ([[file://zohaen-grammaire.pdf][pdf]])
 
 * Langues humaines
+  :PROPERTIES:
+  :CUSTOM_ID: h-a8d41369-6364-4e25-ab29-b886577f4955
+  :END:
 
 Enánon (à venir)
 
@@ -25,5 +35,11 @@ Enánon (à venir)
 [[file:einnlanda.org][Einnlandais]] ([[file://einnlanda.pdf][pdf]])
 
 * Proto-langs
+  :PROPERTIES:
+  :ID:       a92e092f-f56c-4562-a6c3-968356d1077b
+  :CUSTOM_ID: h-2d4665ca-1cff-42ff-81c2-4612d21cd8fe
+  :END:
 
 [[file:nyqy.org][Ňyqy]] ([[file://nyqy.pdf][pdf]])
+
+[[file:taso.org][Tãso]] ([[file:taso.pdf][pdf]])

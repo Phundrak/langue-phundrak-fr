@@ -1,0 +1,1015 @@
+# -*- org-confirm-babel-evaluate: nil -*-
+#+include: headers/head-lvl0.org
+#+TITLE: Une Grammaire du Tãso
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Tãso" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Tãso" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Tãso" />
+#+LATEX_CLASS: article
+#+LATEX_HEAD: \usepackage{tocloft}
+#+LATEX_HEAD: \setlength{\cftchapnumwidth}{3em}
+#+OPTIONS: H:4 toc:nil ^:{}
+#+OPTIONS: auto-id:t
+#+TOC: headlines
+
+* Table des matières                                      :TOC_5_gh:noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-442b7d1d-b6da-4987-a18a-2ef8c37b3ea3
+  :END:
+- [[#avant-propos][Avant-propos]]
+- [[#introduction][Introduction]]
+  - [[#le-nom-de-la-langue][Le nom de la langue]]
+  - [[#démographie][Démographie]]
+  - [[#histoire][Histoire]]
+  - [[#affiliation-générique][Affiliation générique]]
+  - [[#système-décriture][Système d’écriture]]
+  - [[#situation-sociolinguistique][Situation sociolinguistique]]
+    - [[#multilinguisme-et-contexte-dutilisation][Multilinguisme et contexte d’utilisation]]
+    - [[#viabilité][Viabilité]]
+    - [[#mots-demprunt][Mots d’emprunt]]
+  - [[#dialectes][Dialectes]]
+- [[#phonologie][Phonologie]]
+  - [[#notes-sur-la-transcription-du-tãso][Notes sur la transcription du Tãso]]
+  - [[#inventaire-phonétique][Inventaire phonétique]]
+    - [[#consonnes][Consonnes]]
+    - [[#voyelles][Voyelles]]
+    - [[#diphtonges][Diphtonges]]
+  - [[#allophonie][Allophonie]]
+  - [[#phonotaxes][Phonotaxes]]
+    - [[#attaque][Attaque]]
+    - [[#coda][Coda]]
+    - [[#inter-syllabe][Inter-syllabe]]
+  - [[#accentuation][Accentuation]]
+  - [[#accents-régionaux][Accents régionaux]]
+  - [[#système-décriture-1][Système d’écriture]]
+  - [[#orthographe][Orthographe]]
+- [[#topologie-morphologique][Topologie morphologique]]
+- [[#classes-de-mots][Classes de mots]]
+  - [[#noms][Noms]]
+    - [[#nombre][Nombre]]
+    - [[#genre][Genre]]
+    - [[#possession][Possession]]
+    - [[#relations-grammaticales][Relations grammaticales]]
+    - [[#articles][Articles]]
+    - [[#types-de-noms][Types de noms]]
+      - [[#noms-propres][Noms propres]]
+      - [[#noms-de-masse][Noms de masse]]
+    - [[#pronoms][Pronoms]]
+      - [[#personnels][Personnels]]
+      - [[#relatifs][Relatifs]]
+  - [[#verbes][Verbes]]
+    - [[#infinitif][Infinitif]]
+    - [[#nominalisation][Nominalisation]]
+  - [[#adjectifs][Adjectifs]]
+  - [[#adverbes][Adverbes]]
+- [[#ordre-des-constituants-basiques][Ordre des constituants basiques]]
+  - [[#clauses-principales][Clauses principales]]
+  - [[#phrase-prépositionnelles][Phrase prépositionnelles]]
+  - [[#phrases-nominales][Phrases nominales]]
+    - [[#modificateurs][Modificateurs]]
+    - [[#constructions-génitives][Constructions génitives]]
+    - [[#clauses-relatives][Clauses relatives]]
+  - [[#phrases-verbales][Phrases verbales]]
+  - [[#comparatifs][Comparatifs]]
+  - [[#résumé][Résumé]]
+- [[#prédicats-nominaux][Prédicats nominaux]]
+- [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
+- [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
+  - [[#déclinaison--noms][Déclinaison – Noms]]
+    - [[#déclinaison][Déclinaison]]
+      - [[#noms-masculins-forts][Noms masculins forts]]
+    - [[#possession-1][Possession]]
+  - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
+  - [[#accord-des-verbes][Accord des verbes]]
+    - [[#indicatif][Indicatif]]
+      - [[#perfectif][Perfectif]]
+      - [[#imperfectif][Imperfectif]]
+    - [[#impératif][Impératif]]
+    - [[#jussif][Jussif]]
+    - [[#participes][Participes]]
+  - [[#déclinaison-et-accord-des-adjectifs][Déclinaison et accord des adjectifs]]
+    - [[#nominalisation-1][Nominalisation]]
+- [[#temps-aspects-et-modes][Temps, aspects et modes]]
+  - [[#temps][Temps]]
+  - [[#aspect][Aspect]]
+  - [[#modaux-auxiliaires][Modaux auxiliaires]]
+  - [[#causatif][Causatif]]
+    - [[#causatif-lexical][Causatif lexical]]
+    - [[#causatif-analytique][Causatif analytique]]
+  - [[#passif][Passif]]
+  - [[#réflexif][Réflexif]]
+  - [[#réciproque][Réciproque]]
+  - [[#questions][Questions]]
+    - [[#question-absolue-ouinon][Question absolue (oui/non)]]
+    - [[#question-relative][Question relative]]
+  - [[#impératif-1][Impératif]]
+- [[#négation][Négation]]
+- [[#combination-de-clauses][Combination de clauses]]
+  - [[#clauses-relatives-1][Clauses relatives]]
+  - [[#verbes-en-série][Verbes en série]]
+  - [[#clauses-de-complément][Clauses de complément]]
+    - [[#compléments-de-stems-basiques][Compléments de stems basiques]]
+    - [[#compléments-autres][Compléments autres]]
+  - [[#clauses-adverbiales][Clauses adverbiales]]
+  - [[#coordination][Coordination]]
+- [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
+- [[#nombres][Nombres]]
+- [[#glossaire][Glossaire]]
+  - [[#actions-physiques][Actions physiques]]
+  - [[#amour][Amour]]
+  - [[#animaux][Animaux]]
+  - [[#art][Art]]
+    - [[#écriture][Écriture]]
+    - [[#visuel][Visuel]]
+    - [[#audio][Audio]]
+  - [[#astronomie][Astronomie]]
+  - [[#bâtiments][Bâtiments]]
+    - [[#la-ville][La ville]]
+    - [[#les-types-de-bâtiments][Les types de bâtiments]]
+  - [[#commerce][Commerce]]
+  - [[#conflits][Conflits]]
+  - [[#conteneurs][Conteneurs]]
+  - [[#corps][Corps]]
+  - [[#couleurs][Couleurs]]
+  - [[#dimensions][Dimensions]]
+    - [[#distance][Distance]]
+    - [[#taille][Taille]]
+    - [[#quantifieurs][Quantifieurs]]
+  - [[#direction][Direction]]
+  - [[#eau][Eau]]
+  - [[#effort][Effort]]
+  - [[#éléments][Éléments]]
+  - [[#émotions][Émotions]]
+  - [[#évaluation][Évaluation]]
+  - [[#événements][Événements]]
+  - [[#existence][Existence]]
+  - [[#forme][Forme]]
+  - [[#gouvernement][Gouvernement]]
+  - [[#grammaire][Grammaire]]
+    - [[#articles-définis][Articles définis]]
+    - [[#déterminants-démonstratifs][Déterminants démonstratifs]]
+    - [[#outils-interrogatifs][Outils interrogatifs]]
+    - [[#conjonctions][Conjonctions]]
+    - [[#prépositions][Prépositions]]
+    - [[#pronoms-1][Pronoms]]
+  - [[#guerre][Guerre]]
+  - [[#légal][Légal]]
+  - [[#lieux][Lieux]]
+    - [[#villes][Villes]]
+  - [[#lumière][Lumière]]
+  - [[#mental][Mental]]
+  - [[#mesures][Mesures]]
+  - [[#métaux][Métaux]]
+  - [[#mouvements][Mouvements]]
+  - [[#nature][Nature]]
+  - [[#nombres-1][Nombres]]
+    - [[#nombres-cardinaux][Nombres cardinaux]]
+  - [[#nourriture][Nourriture]]
+  - [[#outils][Outils]]
+  - [[#parenté][Parenté]]
+    - [[#famille][Famille]]
+  - [[#parole][Parole]]
+  - [[#péchés][Péchés]]
+  - [[#peuples][Peuples]]
+  - [[#physique][Physique]]
+  - [[#possession-2][Possession]]
+  - [[#religion][Religion]]
+  - [[#savoir][Savoir]]
+  - [[#sensations][Sensations]]
+  - [[#sexe][Sexe]]
+  - [[#société][Société]]
+    - [[#relations-sociales][Relations sociales]]
+  - [[#substances][Substances]]
+  - [[#temps-1][Temps]]
+    - [[#jours-de-la-semaine][Jours de la semaine]]
+    - [[#saisons][Saisons]]
+  - [[#travail][Travail]]
+  - [[#végétaux][Végétaux]]
+    - [[#fruits][Fruits]]
+  - [[#vêtements][Vêtements]]
+  - [[#vie-et-santé][Vie et santé]]
+  - [[#à-trier][À trier]]
+- [[#footnotes][Footnotes]]
+
+* Avant-propos
+  :PROPERTIES:
+  :CUSTOM_ID: h-41a62215-44fc-490f-89f3-5b9cccf02550
+  :END:
+* Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: h-2a66b825-bb75-46e6-92f8-6f279850bb48
+  :END:
+** Le nom de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-8546c3d4-561b-4081-a0ba-84fce16e8050
+   :END:
+** Démographie
+   :PROPERTIES:
+   :CUSTOM_ID: h-91033bff-6ce2-48c6-8670-36bd4c904397
+   :END:
+** Histoire
+   :PROPERTIES:
+   :CUSTOM_ID: h-30e91762-2cc3-4040-8030-c1ad40864802
+   :END:
+** Affiliation générique
+   :PROPERTIES:
+   :CUSTOM_ID: h-0f90b4ab-f5ac-4401-a42a-3fe5caa4e54f
+   :END:
+** Système d’écriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-7ca7007d-92fa-4763-8223-8834acd67885
+   :END:
+** Situation sociolinguistique
+   :PROPERTIES:
+   :CUSTOM_ID: h-7492375a-1625-4da7-940b-373e9129dbfd
+   :END:
+*** Multilinguisme et contexte d’utilisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-277c00fb-02a6-43cd-a783-6ea4675b87f0
+    :END:
+*** Viabilité
+    :PROPERTIES:
+    :CUSTOM_ID: h-713b8205-0764-4165-844d-bf8a18485ce9
+    :END:
+*** Mots d’emprunt
+    :PROPERTIES:
+    :CUSTOM_ID: h-ad74b057-710d-48f6-99ad-4b633b381303
+    :END:
+** Dialectes
+   :PROPERTIES:
+   :CUSTOM_ID: h-789daaf7-c8f1-46cd-a0cf-7b8439b40d48
+   :END:
+* Phonologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-7f61ac5d-57b3-4ffa-811f-e415376aae20
+  :END:
+** Notes sur la transcription du Tãso
+   :PROPERTIES:
+   :CUSTOM_ID: h-621069f8-e9fd-4021-9209-83592154ab72
+   :END:
+** Inventaire phonétique
+   :PROPERTIES:
+   :CUSTOM_ID: h-27a82a33-0e54-4153-969f-de4f338527f4
+   :END:
+*** Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-cc67390c-16db-487d-8995-43dfedfa9dc6
+    :END:
+
+    #+name: cons-tree
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
+      <<process-tree>>
+      (define consonants
+        '("consonant"
+          ("[son]"
+           ("[cor]"
+            ("[cont]"
+             ("[SG]" ("ɬ"))
+             ("{SG}" ("l")))
+            ("{cont}" ("n")))
+           ("{cor}"
+            ("[cont]"
+             ("[SG]" ("ʍ"))
+             ("{SG}" ("w")))
+            ("{cont}" ("m"))))
+          ("{son}"
+           ("[cor]"
+            ("[dor]"
+             ("[cont]"
+              ("[voice]" ("ʝ"))
+              ("{voice}" ("ç")))
+             ("{cont}"
+              ("[SG]"
+               ("[voice]" ("d͡ʒʰ"))
+               ("{voice}" ("t͡ʃʰ")))
+              ("{SG}"
+               ("[voice]" ("d͡ʒ"))
+               ("{voice}" ("t͡ʃ")))))
+            ("{dor}"
+             ("[cont]"
+              ("[voice]" ("z"))
+              ("{voice}" ("s")))
+             ("{cont}"
+              ("[SG]"
+               ("[voice]" ("dʰ"))
+               ("{voice}" ("tʰ")))
+              ("{SG}"
+               ("[voice]" ("d"))
+               ("{voice}" ("t"))))))
+           ("{cor}"
+            ("[dor]"
+             ("[cont]"
+              ("[voice]" ("ɣ"))
+              ("{voice}" ("x")))
+             ("{cont}"
+              ("[voice]" ("g"))
+              ("{voice}" ("k"))))
+            ("{dor}"
+             ("[cont]" ("ɸ"))
+             ("{cont}"
+              ("[voice]" ("b"))
+              ("{voice}" ("p"))))))))
+      (tree-to-dot consonants)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/taso-consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
+      $input
+    #+END_SRC
+    #+NAME: arbre:cons
+    #+attr_html: :alt Arbre des consonnes du Tãso :align center
+    #+CAPTION: Arbre des caractéristiques des consonnes du Tãso
+    #+RESULTS[dd8dc3a01a5754a0bd6ea8faed1ed331439b0a64]:
+    [[file:img/taso-consonant-feature-tree.png]]
+
+    |         <r10> |           <c5>           |            <c5>            |           <c5>            |          <c5>           |          <c5>           |            <c5>            |
+    |               | {{{vertical(bilabial)}}} | {{{vertical(alvéolaire)}}} | {{{vertical(pal.-alv.)}}} | {{{vertical(palatal)}}} | {{{vertical(vélaire)}}} | {{{vertical(labio-vél.)}}} |
+    |---------------+--------------------------+----------------------------+---------------------------+-------------------------+-------------------------+----------------------------|
+    |         nasal |            m             |             n              |                           |                         |                         |                            |
+    |      occlusif |           p b            |            t d             |                           |                         |           k g           |                            |
+    |   occ. aspiré |                          |           tʰ dʰ            |                           |                         |                         |                            |
+    |      affriqué |                          |            s z             |           t͡ʃ d͡ʒ           |                         |                         |                            |
+    |   aff. aspiré |                          |                            |          t͡ʃʰ d͡ʒʰ          |                         |                         |                            |
+    |      fricatif |            ɸ             |            s z             |                           |           ç ʝ           |           x ɣ           |                            |
+    |       spirant |                          |                            |                           |                         |                         |            ʍ w             |
+    | fricatif lat. |                          |             ɬ              |                           |                         |                         |                            |
+    |  spirant lat. |                          |             l              |                           |                         |                         |                            |
+
+*** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-c15df802-6e6b-41b1-bf38-599965e8ed44
+    :END:
+
+    #+name: vowel-tree
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
+      <<process-tree>>
+      (define vowels
+        '("vowel"
+          ("[high]"
+           ("[frnt]"
+            ("[tense]"
+             ("[rnd]" ("ʏ"))
+             ("{rnd}" ("ɪ")))
+            ("{tense}"
+             ("[rnd]" ("y"))
+             ("{rnd}" ("i"))))
+           ("{frnt}"
+            ("[tense]" ("ɨ"))
+            ("{tense}" ("ʊ"))))
+          ("{high}"
+           ("[nas]"
+            ("[frnt]"
+             ("[tense]" ("ø̃"))
+             ("{tense}" ("ɛ̃")))
+            ("{frnt}"
+             ("[tense]" ("ɤ̃"))
+             ("{tense}" ("ɑ̃"))))
+           ("{nas}"
+            ("[frnt]"
+             ("[tense]" ("ø"))
+             ("{tense}" ("ɛ")))
+            ("{frnt}"
+             ("[tense]" ("ɤ"))
+             ("{tense}" ("a")))))))
+      (tree-to-dot vowels)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/taso-vowel-feature-tree.png :var input=vowel-tree :exports results :eval yes :cache yes
+      $input
+    #+END_SRC
+
+    |       <r> |           <c5>            |              <c5>               |          <c5>           |               <c5>               |            <c5>            |
+    |           | {{{vertical(antérieur)}}} | {{{vertical(quasi-antérieur)}}} | {{{vertical(central)}}} | {{{vertical(quasi-postérieur)}}} | {{{vertical(postérieur)}}} |
+    |-----------+---------------------------+---------------------------------+-------------------------+----------------------------------+----------------------------|
+    |     fermé |            i y            |                                 |            ɨ            |                                  |                            |
+    | pré-fermé |                           |               ɪ ʏ               |                         |                ʊ                 |                            |
+    |  mi-fermé |            ø ø̃            |                                 |                         |                                  |            ɤ ɤ̃             |
+    | mi-ouvert |            ɛ ɛ̃            |                                 |                         |                                  |                            |
+    |    ouvert |             a             |                                 |                         |                                  |             ɑ̃              |
+
+*** Diphtonges
+    :PROPERTIES:
+    :CUSTOM_ID: h-89c7d902-544a-438a-b8f9-01e2e8d1f070
+    :END:
+** Allophonie
+   :PROPERTIES:
+   :CUSTOM_ID: h-d4806002-1dd5-411c-880d-28d643f5c7be
+   :END:
+** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-53c17f0a-edeb-4c7f-90ba-48b41a1a2e33
+   :END:
+*** Attaque
+    :PROPERTIES:
+    :CUSTOM_ID: h-34681498-f851-496d-bcc8-d8b4746f0594
+    :END:
+*** Coda
+    :PROPERTIES:
+    :CUSTOM_ID: h-b0582d82-7a10-4b59-9168-27412f7951b5
+    :END:
+*** Inter-syllabe
+    :PROPERTIES:
+    :CUSTOM_ID: h-0253cfcf-7adc-44b5-a2be-95b01fd0480e
+    :END:
+** Accentuation
+   :PROPERTIES:
+   :CUSTOM_ID: h-24886e14-9039-43bd-86fd-3b5625fcec00
+   :END:
+** Accents régionaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-7f2ed53c-0557-4f01-9f4e-0ae9bf93a6f7
+   :END:
+** Système d’écriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-633d778a-5c2c-4cbe-9f7e-31efa680f1ff
+   :END:
+** Orthographe
+   :PROPERTIES:
+   :CUSTOM_ID: h-59b596dd-da7b-4720-bc8c-1c21ebf00ea5
+   :END:
+* Topologie morphologique
+  :PROPERTIES:
+  :CUSTOM_ID: h-2f771f67-b230-4ff7-bf57-7beaf168dceb
+  :END:
+* Classes de mots
+  :PROPERTIES:
+  :CUSTOM_ID: h-76372dd2-843f-46c6-8b55-9fa66ba72fcb
+  :END:
+** Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-3448917f-0c28-43ed-8d4e-64ac0d7c9678
+   :END:
+*** Nombre
+    :PROPERTIES:
+    :CUSTOM_ID: h-6ddadbf9-75e0-4d95-a037-06325dee0e0f
+    :END:
+*** Genre
+    :PROPERTIES:
+    :CUSTOM_ID: h-9ef070ff-be07-43d1-ad72-bcc7622501c9
+    :END:
+*** Possession
+    :PROPERTIES:
+    :CUSTOM_ID: h-38bef537-f846-459c-b203-e2a0450ce1ac
+    :END:
+*** Relations grammaticales
+    :PROPERTIES:
+    :CUSTOM_ID: h-3cb56f2e-dd9f-4510-9aa3-4d92185e5122
+    :END:
+*** Articles
+    :PROPERTIES:
+    :CUSTOM_ID: h-73184268-d1d7-4510-97ee-d6a7cdc50bc1
+    :END:
+*** Types de noms
+    :PROPERTIES:
+    :CUSTOM_ID: h-e974ebdc-678f-4c01-9855-63f120a11427
+    :END:
+**** Noms propres
+     :PROPERTIES:
+     :CUSTOM_ID: h-0837aa7f-cdaa-45f6-8263-93f55e006f0e
+     :END:
+**** Noms de masse
+     :PROPERTIES:
+     :CUSTOM_ID: h-f3d2f518-01a8-4cf1-b25c-e9e3966275d9
+     :END:
+*** Pronoms
+    :PROPERTIES:
+    :CUSTOM_ID: h-5810cfb4-33c9-495c-b4e3-5f0fe9c5729e
+    :END:
+**** Personnels
+     :PROPERTIES:
+     :CUSTOM_ID: h-2e6fd0f2-e1ce-4bb3-8ed0-68e7303cfade
+     :END:
+**** Relatifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-edb80789-7354-493b-8572-f82b06e36779
+     :END:
+** Verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-a82854ce-d2e1-4de5-92c8-e3294cd6605f
+   :END:
+*** Infinitif
+    :PROPERTIES:
+    :CUSTOM_ID: h-9b64ea32-2984-4c7d-82da-d2687acab6cb
+    :END:
+*** Nominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-f2e56987-c30f-4f2c-bc31-45212c5e9281
+    :END:
+** Adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-c38b2408-ad95-41ea-85bc-e1ed9a6e8769
+   :END:
+** Adverbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-7a618542-684c-4020-8708-63131165d465
+   :END:
+* Ordre des constituants basiques
+  :PROPERTIES:
+  :CUSTOM_ID: h-b483a90b-deac-4f77-aedd-5d23d5325440
+  :END:
+** Clauses principales
+   :PROPERTIES:
+   :CUSTOM_ID: h-3153b8e5-0798-46fb-9427-98ef8d3f4873
+   :END:
+** Phrase prépositionnelles
+   :PROPERTIES:
+   :CUSTOM_ID: h-badc9171-690b-4372-b31c-322f949f2796
+   :END:
+** Phrases nominales
+   :PROPERTIES:
+   :CUSTOM_ID: h-d1b22484-963b-48f3-85ed-f68d14372eb0
+   :END:
+*** Modificateurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-d091a8ee-fde8-4cc1-a88a-d4059d0bbd9a
+    :END:
+*** Constructions génitives
+    :PROPERTIES:
+    :CUSTOM_ID: h-58b423ba-0fcb-44c0-9653-d8fcbe0b0ca5
+    :END:
+*** Clauses relatives
+    :PROPERTIES:
+    :CUSTOM_ID: h-d382d7fd-2f56-4e10-995a-685f72008f5a
+    :END:
+** Phrases verbales
+   :PROPERTIES:
+   :CUSTOM_ID: h-e70e3559-4586-453a-a60b-d67d8aa72421
+   :END:
+** Comparatifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-e3f9b0e6-7c94-4e7e-bb9f-61a041316dec
+   :END:
+** Résumé
+   :PROPERTIES:
+   :CUSTOM_ID: h-64818f13-4bde-4291-8685-0f41e2f164c9
+   :END:
+* Prédicats nominaux
+  :PROPERTIES:
+  :CUSTOM_ID: h-ec07e5c1-8d4d-47a5-8062-891fddabeb8b
+  :END:
+* Phrases existentielles, locationnelles et possessives
+  :PROPERTIES:
+  :CUSTOM_ID: h-0cb6a61a-2849-49bc-b5aa-05e74fc9428c
+  :END:
+* Expression des relations grammaticales
+  :PROPERTIES:
+  :CUSTOM_ID: h-1a17ef3e-f8d7-423d-9979-01e57e7005c7
+  :END:
+** Déclinaison – Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-ba1e0365-3bf6-4e61-8f07-765e3dcf7f40
+   :END:
+*** Déclinaison
+    :PROPERTIES:
+    :CUSTOM_ID: h-58acc801-f50c-4e22-aaaa-7df8d5a491c0
+    :END:
+**** Noms masculins forts
+     :PROPERTIES:
+     :CUSTOM_ID: h-e449c497-77a6-4a5b-ae2f-011da4dc4723
+     :END:
+*** Possession
+    :PROPERTIES:
+    :CUSTOM_ID: h-0c6e894a-c4e1-4ae7-a5b6-1bb48e7e16c9
+    :END:
+** Déclinaison — Pronoms
+   :PROPERTIES:
+   :CUSTOM_ID: h-66ae01c9-c554-4b39-917d-aa09697fffa2
+   :END:
+** Accord des verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-cafed89f-075f-4442-ae59-7ef83d4ddbde
+   :END:
+*** Indicatif
+    :PROPERTIES:
+    :CUSTOM_ID: h-baa64dc2-37b5-4a52-a370-f3dbc760a088
+    :END:
+**** Perfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-a63c8526-cf5c-4712-a06c-d8b729678b94
+     :END:
+**** Imperfectif
+     :PROPERTIES:
+     :CUSTOM_ID: h-f749a7fe-2d61-4fc8-984f-ccad46e34eab
+     :END:
+*** Impératif
+    :PROPERTIES:
+    :CUSTOM_ID: h-d081adca-bb7f-4628-8bcd-4dcbe6b910d0
+    :END:
+*** Jussif
+    :PROPERTIES:
+    :CUSTOM_ID: h-66d75407-6ee9-459b-ab56-97feb3c4ffdb
+    :END:
+*** Participes
+    :PROPERTIES:
+    :CUSTOM_ID: h-ba7f9276-0545-4256-838c-514e09b5e784
+    :END:
+** Déclinaison et accord des adjectifs
+   :PROPERTIES:
+   :CUSTOM_ID: h-825a76e0-8196-4def-874b-db2383214f67
+   :END:
+*** Nominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-878de0d2-e2c2-40c7-8ff5-93e17a79f576
+    :END:
+* Temps, aspects et modes
+  :PROPERTIES:
+  :CUSTOM_ID: h-b1338997-9a87-4530-800f-f55f6b8f3403
+  :END:
+** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-9bc0d620-160c-4c91-8320-0a112b15078b
+   :END:
+** Aspect
+   :PROPERTIES:
+   :CUSTOM_ID: h-72da6ca7-d6ed-4fbc-b6fa-1f66fe48629f
+   :END:
+** Modaux auxiliaires
+   :PROPERTIES:
+   :CUSTOM_ID: h-262f93a1-0f6f-4186-a49a-5fc1b4aecd92
+   :END:
+** Causatif
+   :PROPERTIES:
+   :CUSTOM_ID: h-5fedcd87-925c-47b9-b1ed-a0df22a9f3e6
+   :END:
+*** Causatif lexical
+    :PROPERTIES:
+    :CUSTOM_ID: h-8b7a0db9-b0c4-458e-95ee-c9c10caf930e
+    :END:
+*** Causatif analytique
+    :PROPERTIES:
+    :CUSTOM_ID: h-318b2d17-f808-42c6-bed5-dcc19bc03efe
+    :END:
+** Passif
+   :PROPERTIES:
+   :CUSTOM_ID: h-191d4cc9-cb18-473c-ae48-eac4c1ee45bf
+   :END:
+** Réflexif
+   :PROPERTIES:
+   :CUSTOM_ID: h-21bd2f8b-dc82-4d82-922e-1dfd23afb99c
+   :END:
+** Réciproque
+   :PROPERTIES:
+   :CUSTOM_ID: h-86d46b9a-9b9c-446e-a179-db4a7a1983e7
+   :END:
+** Questions
+   :PROPERTIES:
+   :CUSTOM_ID: h-6f5baa59-844f-4ae9-8ba7-1292df2595d8
+   :END:
+*** Question absolue (oui/non)
+    :PROPERTIES:
+    :CUSTOM_ID: h-80b1439c-afa8-4911-9ea0-00612bd7d380
+    :END:
+*** Question relative
+    :PROPERTIES:
+    :CUSTOM_ID: h-ca04e767-890b-4a61-86f2-14a481a3a66e
+    :END:
+** Impératif
+   :PROPERTIES:
+   :CUSTOM_ID: h-633ca049-973d-4ed7-ad6c-e7ef2ffb7be3
+   :END:
+* Négation
+  :PROPERTIES:
+  :CUSTOM_ID: h-70047570-f745-4767-9f3b-d1d878521737
+  :END:
+* Combination de clauses
+  :PROPERTIES:
+  :CUSTOM_ID: h-c2564b38-124f-47eb-a966-8cc5b2757878
+  :END:
+** Clauses relatives
+   :PROPERTIES:
+   :CUSTOM_ID: h-c0b83d9e-b27c-4c3c-ba2f-3b4eb3191d3e
+   :END:
+** Verbes en série
+   :PROPERTIES:
+   :CUSTOM_ID: h-2d357a6a-342a-4c09-8188-6c68280e2d50
+   :END:
+** Clauses de complément
+   :PROPERTIES:
+   :CUSTOM_ID: h-529848ad-6382-42eb-be57-694d7cd348b6
+   :END:
+*** Compléments de stems basiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-c1238265-56b8-439d-bfdd-494d6f96d736
+    :END:
+*** Compléments autres
+    :PROPERTIES:
+    :CUSTOM_ID: h-a11e94fe-ec1a-44b1-a466-9abfa75bd17e
+    :END:
+** Clauses adverbiales
+   :PROPERTIES:
+   :CUSTOM_ID: h-d1a2b1ff-92d9-4891-829c-4ed8baf4500d
+   :END:
+** Coordination
+   :PROPERTIES:
+   :CUSTOM_ID: h-be9b8233-b91e-40a6-85e6-7c1276f4a1d6
+   :END:
+* Structures marquées pragmatiquement
+  :PROPERTIES:
+  :CUSTOM_ID: h-bd70f78d-e1c9-4b72-836c-107e5eb192c8
+  :END:
+* Nombres
+  :PROPERTIES:
+  :CUSTOM_ID: h-6599dc70-197f-4ff6-b5ce-bbb4d97d5969
+  :END:
+* Glossaire
+  :PROPERTIES:
+  :CUSTOM_ID: h-5dfb5b34-b62a-406a-90a7-01905058b786
+  :END:
+** Actions physiques
+   :PROPERTIES:
+   :CUSTOM_ID: h-c1b8b0ea-919e-40c6-b2df-abefdbc105a0
+   :END:
+** Amour
+   :PROPERTIES:
+   :CUSTOM_ID: h-5dd8aa5d-aa94-481c-bade-83e363affb93
+   :END:
+** Animaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-5787484a-8342-4de6-bd8d-fced84152a30
+   :END:
+** Art
+   :PROPERTIES:
+   :CUSTOM_ID: h-e61057f5-1626-4ca4-9391-5b977f772197
+   :END:
+*** Écriture
+    :PROPERTIES:
+    :CUSTOM_ID: h-f6d55751-fd78-4326-9c53-f64c250de061
+    :END:
+*** Visuel
+    :PROPERTIES:
+    :CUSTOM_ID: h-982904ce-7572-427d-b2b1-5c257236ad5c
+    :END:
+*** Audio
+    :PROPERTIES:
+    :CUSTOM_ID: h-2dcf1696-071d-4aa0-97a0-d8f9b0b780e4
+    :END:
+** Astronomie
+   :PROPERTIES:
+   :CUSTOM_ID: h-385f0301-6ebc-4db4-a580-4588cec9be72
+   :END:
+** Bâtiments
+   :PROPERTIES:
+   :CUSTOM_ID: h-a657d8f7-f427-48ec-a032-d10c6610ded7
+   :END:
+*** La ville
+    :PROPERTIES:
+    :CUSTOM_ID: h-8762aa78-9cbc-41fc-b519-824a784645f6
+    :END:
+*** Les types de bâtiments
+    :PROPERTIES:
+    :CUSTOM_ID: h-362e1d9f-a3a1-44ca-98ab-62a90589ab90
+    :END:
+** Commerce
+   :PROPERTIES:
+   :CUSTOM_ID: h-b226ec1a-b648-4875-8775-9dfb20bbc633
+   :END:
+** Conflits
+   :PROPERTIES:
+   :CUSTOM_ID: h-5ecf2a73-d90f-4833-a117-b5424dfca656
+   :END:
+** Conteneurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-4746f0ed-fdfb-427c-93f0-a100e9788db7
+   :END:
+** Corps
+   :PROPERTIES:
+   :CUSTOM_ID: h-8b667ac0-1341-4d90-84c9-22ad2079e6d7
+   :END:
+** Couleurs
+   :PROPERTIES:
+   :CUSTOM_ID: h-f86b337e-ac19-40df-b5aa-7f6a3c023749
+   :END:
+** Dimensions
+   :PROPERTIES:
+   :CUSTOM_ID: h-fa149e45-b292-4ecf-aeda-dc532867a61f
+   :END:
+*** Distance
+    :PROPERTIES:
+    :CUSTOM_ID: h-f7a0971a-64cf-4456-a378-97b7587785ab
+    :END:
+*** Taille
+    :PROPERTIES:
+    :CUSTOM_ID: h-b96b0df6-9a25-4ecd-b2b1-58f323b81d9d
+    :END:
+*** Quantifieurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-146bd68e-8ccb-4813-9b9f-3bf30b79c10a
+    :END:
+** Direction
+   :PROPERTIES:
+   :CUSTOM_ID: h-b8d6650a-1c94-47d3-aa5d-b1d9529699e9
+   :END:
+** Eau
+   :PROPERTIES:
+   :CUSTOM_ID: h-feeb4856-9009-463b-becf-8ac936a0d43a
+   :END:
+** Effort
+   :PROPERTIES:
+   :CUSTOM_ID: h-85ec8b3b-bc9c-491f-a924-37b77808a747
+   :END:
+** Éléments
+   :PROPERTIES:
+   :CUSTOM_ID: h-95bc3caa-55a6-43d7-bb20-48fb780cb86a
+   :END:
+** Émotions
+   :PROPERTIES:
+   :CUSTOM_ID: h-40f2e1b9-4238-410a-aeb6-c02cc941267d
+   :END:
+** Évaluation
+   :PROPERTIES:
+   :CUSTOM_ID: h-7689729b-7a05-4d23-aea0-0795ad30de96
+   :END:
+** Événements
+   :PROPERTIES:
+   :CUSTOM_ID: h-d90681a5-4bbc-4af9-9a94-5ed0384de689
+   :END:
+** Existence
+   :PROPERTIES:
+   :CUSTOM_ID: h-80bc1e73-52c9-453e-b1de-8957f9ef0f64
+   :END:
+** Forme
+   :PROPERTIES:
+   :CUSTOM_ID: h-445ee1d7-976f-4aee-81d3-a1b9fe1b06f6
+   :END:
+** Gouvernement
+   :PROPERTIES:
+   :CUSTOM_ID: h-f6a92af1-2ca0-4650-aeb3-b68c702807cc
+   :END:
+** Grammaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-abbae5a0-1509-44d9-998f-9e69f0330e19
+   :END:
+*** Articles définis
+    :PROPERTIES:
+    :CUSTOM_ID: h-02092912-9454-4150-bfeb-58287e55528c
+    :END:
+*** Déterminants démonstratifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-dde2051a-6e41-4bcb-bcbd-41e4a1ab0fcd
+    :END:
+*** Outils interrogatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-fdfd7fa6-d4c4-4239-b1fd-53f19a80a991
+    :END:
+*** Conjonctions
+    :PROPERTIES:
+    :CUSTOM_ID: h-69f8d466-5a4b-4b93-a312-52616d614d3b
+    :END:
+*** Prépositions
+    :PROPERTIES:
+    :CUSTOM_ID: h-9b3f0b63-f694-4f73-b5fb-395911dadbb1
+    :END:
+*** Pronoms
+    :PROPERTIES:
+    :CUSTOM_ID: h-74a799b5-096a-4be2-bbb1-4de477e3b167
+    :END:
+** Guerre
+   :PROPERTIES:
+   :CUSTOM_ID: h-4d966076-654d-4577-8d49-6f5af7361b10
+   :END:
+** Légal
+   :PROPERTIES:
+   :CUSTOM_ID: h-3b205a23-9c51-4a3b-892a-642348609c7b
+   :END:
+** Lieux
+   :PROPERTIES:
+   :CUSTOM_ID: h-c7c5e2a5-d8de-4132-940f-1288854c4fb6
+   :END:
+*** Villes
+    :PROPERTIES:
+    :CUSTOM_ID: h-a694a50d-ea5e-4e6d-8696-4be4cba95fa6
+    :END:
+** Lumière
+   :PROPERTIES:
+   :CUSTOM_ID: h-d3fce960-53bc-499f-bed2-c54bf64ba256
+   :END:
+** Mental
+   :PROPERTIES:
+   :CUSTOM_ID: h-22f5e5a6-f9a4-4d21-8708-e8c710cc4797
+   :END:
+** Mesures
+   :PROPERTIES:
+   :CUSTOM_ID: h-c2e2d92a-f1a4-46df-b53b-e357342b66d9
+   :END:
+** Métaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-580da933-1964-4970-8a25-fcc00b154ef1
+   :END:
+** Mouvements
+   :PROPERTIES:
+   :CUSTOM_ID: h-5342339b-9c90-42b4-aa9a-5722aa74f225
+   :END:
+** Nature
+   :PROPERTIES:
+   :CUSTOM_ID: h-a2ff9c59-44fb-479f-8f17-3759fdd7372c
+   :END:
+** Nombres
+   :PROPERTIES:
+   :CUSTOM_ID: h-97a44640-9ba1-49c5-b031-ee90cda4d6df
+   :END:
+*** Nombres cardinaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-2bc6fe27-de87-4c04-ba8b-c88fcf0c0390
+    :END:
+** Nourriture
+   :PROPERTIES:
+   :CUSTOM_ID: h-d99413c8-658a-4de6-9cc0-8a940ce8f2dc
+   :END:
+** Outils
+   :PROPERTIES:
+   :CUSTOM_ID: h-22d0f13f-0c5f-487b-9d4b-e97c71b54e4d
+   :END:
+** Parenté
+   :PROPERTIES:
+   :CUSTOM_ID: h-cf446912-28af-4d53-88e2-8722fc2ddc50
+   :END:
+*** Famille
+    :PROPERTIES:
+    :CUSTOM_ID: h-c80c241e-dbb1-43e6-9d3c-472e0c9d8b69
+    :END:
+** Parole
+   :PROPERTIES:
+   :CUSTOM_ID: h-1d20c030-e249-4e3a-aae3-05062fb78b91
+   :END:
+** Péchés
+   :PROPERTIES:
+   :CUSTOM_ID: h-8e76e22f-d589-40b1-bab5-9bd240954297
+   :END:
+** Peuples
+   :PROPERTIES:
+   :CUSTOM_ID: h-c7d72347-d780-454e-8928-7948889076fc
+   :END:
+** Physique
+   :PROPERTIES:
+   :CUSTOM_ID: h-4ec6cdde-c0eb-4bd5-86ca-71443b1f71cb
+   :END:
+** Possession
+   :PROPERTIES:
+   :CUSTOM_ID: h-8a2ebf90-ef7c-4396-ac38-30aa758acafb
+   :END:
+** Religion
+   :PROPERTIES:
+   :CUSTOM_ID: h-a4f20fea-b520-4683-8394-aec19be7275d
+   :END:
+** Savoir
+   :PROPERTIES:
+   :CUSTOM_ID: h-e077ea6b-c3d6-417c-8860-675027e011b0
+   :END:
+** Sensations
+   :PROPERTIES:
+   :CUSTOM_ID: h-18437639-c69a-4f9c-8594-09c26ee3e2dc
+   :END:
+** Sexe
+   :PROPERTIES:
+   :CUSTOM_ID: h-5868f3b8-8f14-47a9-800b-192bc250f776
+   :END:
+** Société
+   :PROPERTIES:
+   :CUSTOM_ID: h-c9dc82c6-0535-4477-9911-48729e914c8f
+   :END:
+*** Relations sociales
+    :PROPERTIES:
+    :CUSTOM_ID: h-b497a5b7-ee46-4577-9296-5f9401d94d8a
+    :END:
+** Substances
+   :PROPERTIES:
+   :CUSTOM_ID: h-a7b75212-ae7d-4cdf-b624-71786325410a
+   :END:
+** Temps
+   :PROPERTIES:
+   :CUSTOM_ID: h-05e76429-c974-48b0-a914-8b757b62b49c
+   :END:
+*** Jours de la semaine
+    :PROPERTIES:
+    :CUSTOM_ID: h-1e7cbd60-a19f-4bc0-90a9-fbd26bea146d
+    :END:
+*** Saisons
+    :PROPERTIES:
+    :CUSTOM_ID: h-62a12e36-c044-41b5-8756-ebcbe131e58f
+    :END:
+** Travail
+   :PROPERTIES:
+   :CUSTOM_ID: h-e63b2853-0e88-463c-b82f-ce7234c029bb
+   :END:
+** Végétaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-4eae54f4-9fda-4384-b9b9-e394afb6fdf1
+   :END:
+*** Fruits
+    :PROPERTIES:
+    :CUSTOM_ID: h-54fa5626-deda-4154-b45b-ac598b2176a6
+    :END:
+** Vêtements
+   :PROPERTIES:
+   :CUSTOM_ID: h-6a94d8a2-fe5a-4139-bd9a-87985423c806
+   :END:
+** Vie et santé
+   :PROPERTIES:
+   :CUSTOM_ID: h-ce33fceb-27c4-4bd2-a4f1-0989d6625332
+   :END:
+** À trier
+   :PROPERTIES:
+   :CUSTOM_ID: h-280c586c-d136-42f4-a0c2-da7a21cec68a
+   :END:
+* Footnotes
+  :PROPERTIES:
+  :CUSTOM_ID: h-5905df1e-1dd0-4c09-b0bc-2f1e0789d592
+  :END:
