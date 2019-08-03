@@ -106,8 +106,8 @@
    Ňyqy.  J’ai  tout de  même  essayé  de développer  cette  langue  de façon  à
    autoriser des aspects naturels dans le Ňyqy, comme par exemple son inventaire
    phonétique ou sa différentiation des temps,  aspects et modes, inspiré par la
-   présentation  de Joseph  Windsor[fn:5] lors  de la  Language Creation  Conference 8
-   (2019)[fn:6].
+   présentation   de  Joseph   Windsor[fn:5]  lors   de  la   Language  Creation
+   Conference 8 (2019)[fn:6].
 
 ** Notes sur la langue en tant que langue réelle
    :PROPERTIES:
@@ -224,14 +224,16 @@
       (tree-to-dot consonants)
     #+END_SRC
 
+    #+RESULTS[3cdf83976255f554cbde3c9c60d3c98fe3ff6f7c]: cons-tree
+
     #+BEGIN_SRC dot :file img/nyqy-consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
     #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
-    #+RESULTS:
-    [[file:img/nyqy_consonant_feature_tree.png]]
+    #+RESULTS[18461730bfe270db4276b62821b66e8688577ccd]:
+    [[file:img/nyqy-consonant-feature-tree.png]]
 
     Ainsi furent choisies ces consonnes, présentées par la table [[table:cons:ipa]].
     Les phonèmes  entre parenthèse sont des  allophones de phonèmes de  base qui
@@ -246,7 +248,7 @@
     #+CAPTION: Consonnes du Ňyqy (IPA)
     |              <r5> |           <c5>            |           <c10>            |              <c5>              |          <c5>           |           <c5>           |           <c5>           |
     |                 / |             <             |             <              |               <                |            <            |            <             |            <             |
-    |                   | {{{vertical(bilablial)}}} | {{{vertical(alvéolaire)}}} | {{{vertical(labial-velaire)}}} | {{{vertical(palatal)}}} | {{{vertical(uvulaire)}}} | {{{vertical(pharygal)}}} |
+    |                   | {{{vertical(bilablial)}}} | {{{vertical(alvéolaire)}}}  | {{{vertical(labial-velaire)}}} | {{{vertical(palatal)}}} | {{{vertical(uvulaire)}}} | {{{vertical(pharygal)}}} |
     |-------------------+---------------------------+----------------------------+--------------------------------+-------------------------+--------------------------+--------------------------|
     |            plosif |            p b            |                            |                                |                         |           q ɢ            |                          |
     |             nasal |             m             |             n              |                                |                         |            ɴ             |                          |
@@ -320,18 +322,18 @@
         '("[vowel]"
           ("[back]"
            ("[tense]"
-            ("[high]")
-            ("{high}"))
+            ("[high]" ("ü"))
+            ("{high}" ("ö")))
            ("{tense}"
-            ("[high]")
-            ("{high}")))
+            ("[high]" ("u"))
+            ("{high}" ("o"))))
           ("{back}"
            ("[tense]"
-            ("[high]")
-            ("{high}"))
+            ("[high]" ("y"))
+            ("{high}" ("ë")))
            ("{tense}"
-            ("[high]")
-            ("{high}")))))
+            ("[high]" ("i"))
+            ("{high}" ("e"))))))
       (tree-to-dot vowels)
     #+END_SRC
 

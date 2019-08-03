@@ -8,11 +8,16 @@
 # ### LaTeX ####################################################################
 
 #+LATEX_CLASS: article
-#+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
-#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}\usepackage[total={16cm,25.7cm}]{geometry}\setromanfont{Charis SIL}
-#+LATEX_HEADER: \usepackage{xcolor}\usepackage{hyperref}
+#+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}
+#+LATEX_HEADER: \usepackage[total={10cm,17cm}]{geometry}
+#+LATEX_HEADER: \setromanfont{Charis SIL}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-#+LATEX_HEADER: \usepackage{multicol}\usepackage{indentfirst}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{indentfirst}
+#+LATEX_HEADER: \sloppy
 
 # ### HTML #####################################################################
 
@@ -20,7 +25,6 @@
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
 #+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
-
 #+HTML_HEAD: <meta name="twitter:card" content="summary" />
 #+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
@@ -80,5 +84,4 @@
 #+MACRO: vertical @@latex:\rotatebox[origin=c]{270}{$1}@@ @@html:<span class=vertical>$1</span>@@
 #+MACRO: begin-largetable @@html:<div class="largetable">@@
 #+MACRO: end-largetable @@html:</div>@@
-
 #+OPTIONS: H:4 broken_links:mark email:t ^:{}
