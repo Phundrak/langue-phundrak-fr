@@ -10,7 +10,7 @@
 #+LATEX_CLASS: article
 #+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
 #+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}
-#+LATEX_HEADER: \usepackage[total={10cm,17cm}]{geometry}
+#+LATEX_HEADER: \usepackage[total={11cm,17cm}]{geometry}
 #+LATEX_HEADER: \setromanfont{Charis SIL}
 #+LATEX_HEADER: \usepackage{xcolor}
 #+LATEX_HEADER: \usepackage{hyperref}
