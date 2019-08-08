@@ -81,7 +81,7 @@
 #+MACRO: latex-html @@latex:$1@@ @@html:$2@@
 #+MACRO: last-update Dernière mise à jour le {{{time(%d/%m/%y à %H:%M)}}}.
 #+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@
-#+MACRO: vertical @@latex:\rotatebox[origin=c]{270}{$1}@@ @@html:<span class=vertical>$1</span>@@
+#+MACRO: v @@latex:\rotatebox[origin=c]{270}{$1}@@ @@html:<span class=vertical>$1</span>@@
 #+MACRO: begin-largetable @@html:<div class="largetable">@@
 #+MACRO: end-largetable @@html:</div>@@
 #+OPTIONS: H:4 broken_links:mark email:t ^:{}

@@ -320,18 +320,18 @@
     #+RESULTS[dd8dc3a01a5754a0bd6ea8faed1ed331439b0a64]:
     [[file:img/taso-consonant-feature-tree.png]]
 
-    |         <r10> |           <c5>           |            <c5>            |           <c5>            |          <c5>           |          <c5>           |            <c5>            |
-    |               | {{{vertical(bilabial)}}} | {{{vertical(alvéolaire)}}} | {{{vertical(pal.-alv.)}}} | {{{vertical(palatal)}}} | {{{vertical(vélaire)}}} | {{{vertical(labio-vél.)}}} |
-    |---------------+--------------------------+----------------------------+---------------------------+-------------------------+-------------------------+----------------------------|
-    |         nasal |            m             |             n              |                           |                         |                         |                            |
-    |      occlusif |           p b            |            t d             |                           |                         |           k g           |                            |
-    |   occ. aspiré |                          |           tʰ dʰ            |                           |                         |                         |                            |
-    |      affriqué |                          |            s z             |           t͡ʃ d͡ʒ           |                         |                         |                            |
-    |   aff. aspiré |                          |                            |          t͡ʃʰ d͡ʒʰ          |                         |                         |                            |
-    |      fricatif |            ɸ             |            s z             |                           |           ç ʝ           |           x ɣ           |                            |
-    |       spirant |                          |                            |                           |                         |                         |            ʍ w             |
-    | fricatif lat. |                          |             ɬ              |                           |                         |                         |                            |
-    |  spirant lat. |                          |             l              |                           |                         |                         |                            |
+    |         <r10> |       <c5>        |        <c5>         |        <c5>        |       <c5>       |       <c5>       |        <c5>         |
+    |               | {{{v(bilabial)}}} | {{{v(alvéolaire)}}} | {{{v(pal.-alv.)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(labio-vél.)}}} |
+    |---------------+-------------------+---------------------+--------------------+------------------+------------------+---------------------|
+    |         nasal |         m         |          n          |                    |                  |                  |                     |
+    |      occlusif |        p b        |         t d         |                    |                  |       k g        |                     |
+    |   occ. aspiré |                   |        tʰ dʰ        |                    |                  |                  |                     |
+    |      affriqué |                   |         s z         |       t͡ʃ d͡ʒ        |                  |                  |                     |
+    |   aff. aspiré |                   |                     |      t͡ʃʰ d͡ʒʰ       |                  |                  |                     |
+    |      fricatif |         ɸ         |         s z         |                    |       ç ʝ        |       x ɣ        |                     |
+    |       spirant |                   |                     |                    |                  |                  |         ʍ w         |
+    | fricatif lat. |                   |          ɬ          |                    |                  |                  |                     |
+    |  spirant lat. |                   |          l          |                    |                  |                  |                     |
 
 *** Voyelles
     :PROPERTIES:
@@ -376,14 +376,14 @@
       $input
     #+END_SRC
 
-    |       <r> |           <c5>            |              <c5>               |          <c5>           |               <c5>               |            <c5>            |
-    |           | {{{vertical(antérieur)}}} | {{{vertical(quasi-antérieur)}}} | {{{vertical(central)}}} | {{{vertical(quasi-postérieur)}}} | {{{vertical(postérieur)}}} |
-    |-----------+---------------------------+---------------------------------+-------------------------+----------------------------------+----------------------------|
-    |     fermé |            i y            |                                 |            ɨ            |                                  |                            |
-    | pré-fermé |                           |               ɪ ʏ               |                         |                ʊ                 |                            |
-    |  mi-fermé |            ø ø̃            |                                 |                         |                                  |            ɤ ɤ̃             |
-    | mi-ouvert |            ɛ ɛ̃            |                                 |                         |                                  |                            |
-    |    ouvert |             a             |                                 |                         |                                  |             ɑ̃              |
+    |       <r> |        <c5>        |           <c5>           |       <c5>       |           <c5>            |        <c5>         |
+    |           | {{{v(antérieur)}}} | {{{v(quasi-antérieur)}}} | {{{v(central)}}} | {{{v(quasi-postérieur)}}} | {{{v(postérieur)}}} |
+    |-----------+--------------------+--------------------------+------------------+---------------------------+---------------------|
+    |     fermé |        i y         |                          |        ɨ         |                           |                     |
+    | pré-fermé |                    |           ɪ ʏ            |                  |             ʊ             |                     |
+    |  mi-fermé |        ø ø̃         |                          |                  |                           |         ɤ ɤ̃         |
+    | mi-ouvert |        ɛ ɛ̃         |                          |                  |                           |                     |
+    |    ouvert |         a          |                          |                  |                           |          ɑ̃          |
 
 *** Diphtonges
     :PROPERTIES:

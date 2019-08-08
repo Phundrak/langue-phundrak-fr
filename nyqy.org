@@ -246,33 +246,33 @@
     {{{begin-largetable}}}
     #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ňyqy (IPA)
-    |              <r5> |           <c5>            |           <c10>            |              <c5>              |          <c5>           |           <c5>           |           <c5>           |
-    |                 / |             <             |             <              |               <                |            <            |            <             |            <             |
-    |                   | {{{vertical(bilablial)}}} | {{{vertical(alvéolaire)}}}  | {{{vertical(labial-velaire)}}} | {{{vertical(palatal)}}} | {{{vertical(uvulaire)}}} | {{{vertical(pharygal)}}} |
-    |-------------------+---------------------------+----------------------------+--------------------------------+-------------------------+--------------------------+--------------------------|
-    |            plosif |            p b            |                            |                                |                         |           q ɢ            |                          |
-    |             nasal |             m             |             n              |                                |                         |            ɴ             |                          |
-    |              tapé |                           |                            |                                |                         |           (ʀ)            |                          |
-    |          fricatif |                           |            s z             |                                |         (x) (ɣ)         |         (χ) (ʁ)          |         (ħ) (ʕ)          |
-    |          affriqué |                           |           t͡ʃ d͡ʒ            |                                |                         |                          |                          |
-    | latérale affriqué |                           |          (ɬ) (ɮ)           |                                |                         |                          |                          |
-    |  latérale spirant |                           |            (l)             |                                |                         |                          |                          |
-    |       approximant |                           |                            |                                |           (j)           |                          |                          |
-    |           spirant |                           |                            |               w                |                         |                          |                          |
+    |              <r5> |        <c5>        |        <c10>        |          <c5>           |       <c5>       |       <c5>        |       <c5>        |
+    |                 / |         <          |          <          |            <            |        <         |         <         |         <         |
+    |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
+    |-------------------+--------------------+---------------------+-------------------------+------------------+-------------------+-------------------|
+    |            plosif |        p b         |                     |                         |                  |        q ɢ        |                   |
+    |             nasal |         m          |          n          |                         |                  |         ɴ         |                   |
+    |              tapé |                    |                     |                         |                  |        (ʀ)        |                   |
+    |          fricatif |                    |         s z         |                         |     (x) (ɣ)      |      (χ) (ʁ)      |      (ħ) (ʕ)      |
+    |          affriqué |                    |        t͡ʃ d͡ʒ        |                         |                  |                   |                   |
+    | latérale affriqué |                    |       (ɬ) (ɮ)       |                         |                  |                   |                   |
+    |  latérale spirant |                    |         (l)         |                         |                  |                   |                   |
+    |       approximant |                    |                     |                         |       (j)        |                   |                   |
+    |           spirant |                    |                     |            w            |                  |                   |                   |
     {{{end-largetable}}}
 
     {{{begin-largetable}}}
     #+NAME: table:cons:trans
     #+CAPTION: Consonnes du Ňyqy (translittération)
-    |      <r> |           <c5>            |            <c5>            |              <c5>              |           <c5>           |
-    |        / |             <             |             <              |               <                |            <             |
-    |          | {{{vertical(bilablial)}}} | {{{vertical(alvéolaire)}}} | {{{vertical(labial-velaire)}}} | {{{vertical(uvulaire)}}} |
-    |----------+---------------------------+----------------------------+--------------------------------+--------------------------|
-    |   plosif |            p b            |                            |                                |           q g            |
-    |    nasal |             m             |             n              |                                |            ň             |
-    | fricatif |                           |            s z             |                                |                          |
-    | affriqué |                           |            c j             |                                |                          |
-    |  spirant |                           |                            |               w                |                          |
+    |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
+    |        / |         <          |          <          |            <            |         <         |
+    |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
+    |----------+--------------------+---------------------+-------------------------+-------------------|
+    |   plosif |        p b         |                     |                         |        q g        |
+    |    nasal |         m          |          n          |                         |         ň         |
+    | fricatif |                    |         s z         |                         |                   |
+    | affriqué |                    |         c j         |                         |                   |
+    |  spirant |                    |                     |            w            |                   |
     {{{end-largetable}}}
 
     {{{begin-largetable}}}
@@ -661,6 +661,7 @@
   - Je mange une pomme.
 
     Verbe transitif, « je » est agent A, et « pomme » est patient P.
+
   Dans la majorité  des langues du monde, et dans  la quasi-totalité des langues
   européennes (le  Basque étant la  seule exception), l’expérienceur  et l’agent
   sont traités quasiment tout le temps à l’identique, formant le cas grammatical
