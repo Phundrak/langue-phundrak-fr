@@ -1,3 +1,4 @@
+# -*- org-confirm-babel-evaluate: nil -*-
 #+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du Mattér
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Mattér" />
@@ -288,23 +289,24 @@ src_latex{\newpage}
    bouddhiste et  2% de la  population suit des religions  diverses (Hindouisme,
    Chamanisme,…).
 
-   #+name: fig:religion-piechart
-   #+BEGIN_SRC R :exports results :results graphics :file img/matter_religious-pop.png :bg transparent
-     slices <- c(68, 15, 9, 6, 2)
-     lbls <- c("Paganisme", "Athéisme", "Monothéismes divers",
-               "Bouddhisme", "Divers")
-     pct <- round(slices/sum(slices)*100)
-     lbls <- paste(lbls, pct)
-     lbls <- paste(lbls, "%", sep = "")
-     par(mar=c(0,0,0.7,3))
-     pie(slices, labels = lbls, col = rainbow(length(lbls)),
-         main = "Religions d’Éïnlante")
-   #+END_SRC
+   #+begin_src python :session :results file :exports results
+     import matplotlib.pyplot as plt
+     labels = ['Paganisme', 'Athéisme', 'Monothéismes divers', 'Bouddhisme', 'Divers']
+     sizes = [68, 15, 9, 6, 2]
+     colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral', 'red']
+     patches, texts = plt.pie(sizes, colors=colors, shadow=False, startangle=90)
+     plt.legend(patches, labels, loc="best")
+     plt.axis('equal')
+     plt.tight_layout()
+     plt.savefig('img/matter_religious-pop.png', transparent=True)
+     'img/matter_religious-pop.png' # return filename to org-mode
+   #+end_src
    #+ATTR_LATEX: :width 8cm :float wrap
    #+CAPTION: Population religieuse d’Éïnlante
    #+LABEL: fig:religion-piechart
-   #+RESULTS: fig:religion-piechart
-   [[file:religious-pop.png]]
+   #+RESULTS:
+   [[file:img/matter_religious-pop.png]]
+
 {{{newline}}}
 ** Histoire
    :PROPERTIES:

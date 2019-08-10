@@ -1,5 +1,4 @@
 # -*- mode: org; -*-
-
 #+AUTHOR: Lucien Cartier-Tilet
 #+EMAIL: phundrak@phundrak.fr
 #+CREATOR: Lucien Cartier-Tilet
