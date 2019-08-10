@@ -46,17 +46,17 @@
    :PROPERTIES:
    :CUSTOM_ID: h-0c5f0aa6-d69d-4fd5-8f61-df9a409af18f
    :END:
-   Le Mattér  est une  idéolangue (langue construite)  humaine, inspirée  par le
-   Vieux Nordique Occidental,  avec une évolution controlée afin  de changer son
-   répertoire phonétique de façon à ce que la langue ressemble à l’oreille à des
-   langues elfiques de Tolkien. Je me  suis aussi permis quelques libertés quant
-   à  l’évolution  de sa  grammaire,  avec  notamment  l’ajout de  quelques  cas
-   grammaticaux.
+   L’Einnlandais est une idéolangue (langue construite) humaine, inspirée par le
+   Vieux Nordique Occidental,  ayant subit une évolution lente  dans un contexte
+   isolé, à l’instar de l’Islandais, sur l’île d’Einnlande présentée ci-dessous.
+   Quelques libertés  ont été prises de  façon à contrôler l’orientation  de son
+   évolution acoustique, cependant  j’essaierai de créer une  grammaire fidèle à
+   ce à quoi on peut s’attendre d’une langue nordique.
 
-   Il s’agit d’un  projet à part de mon univers  littéraire. L’Éïnnlandu est une
-   langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]],  existant dans  un univers alternatif  au notre  et à
+   Il s’agit d’un  projet à part de mon univers  littéraire. L’Éïnnlanda est une
+   langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]], existant  dans un univers  alternatif au notre,  et à
    celui du monde où le Mattér existe. Tandis que le Mattér est une langue créée
-   pour mon  propre plaisir de créer  une langue, l’Éïnnlandu est  une tentative
+   pour mon  propre plaisir de créer  une langue, l’Éïnnlanda est  une tentative
    plus sérieuse de faire évoluer une ancienne langue en une langue moderne, pas
    seulement m’en inspirer mais réellement hériter de cette langue.
 
@@ -194,6 +194,56 @@
     :PROPERTIES:
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
+
+    #+NAME: vow-tree
+    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes
+      <<process-tree>>
+      (define vowels
+        '("vowels"
+          ("[high]"
+           ("[rnd]"
+            ("[front]" ("/y/"))
+            ("{front}" ("/u/")))
+           ("{rnd}" ("/i/")))
+          ("{high}"
+           ("[rnd]"
+            ("[tense]"
+             ("[front]" ("/ø/"))
+             ("{front}" ("/o/")))
+            ("{tense}"
+             ("[front]" ("/œ/"))
+             ("{front}" ("/ɔ/"))))
+           ("{rnd}"
+            ("[tense]"
+             ("[low]" ("/æ/"))
+             ("{low}" ("/e/")))
+            ("{tense}" ("/ɑ/"))))))
+      (tree-to-dot vowels)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/einnlanda-vowel-feature-tree.png :var input=vow-tree :exports results
+      $input
+    #+END_SRC
+    #+NAME: arbre:vowels
+    #+attr_html: :alt Arbre des consonnes de l’Einnlandais :align center
+    #+CAPTION: Arbre des caractéristiques des consonnes de l’Einnlandais
+    #+RESULTS[22f783add838e5efabdd03e0b594c9ea0b2899c6]:
+    [[file:img/einnlanda-vowel-feature-tree.png]]
+
+    |   /   |      <>       |      >       |       >        |      >       |       >        |
+    |  <c>  |      <c>      |     <c>      |      <c>       |     <c>      |      <c>       |
+    | vowel | {{{v(high)}}} | {{{v(rnd)}}} | {{{v(tense)}}} | {{{v(low)}}} | {{{v(front)}}} |
+    |-------+---------------+--------------+----------------+--------------+----------------|
+    |   y   |       +       |      +       |       +        |      -       |       +        |
+    |   u   |       +       |      +       |       +        |      -       |       -        |
+    |   i   |       +       |      -       |       +        |      -       |       +        |
+    |   ø   |       -       |      +       |       +        |      -       |       +        |
+    |   o   |       -       |      +       |       +        |      -       |       -        |
+    |   œ   |       -       |      +       |       -        |      -       |       +        |
+    |   ɔ   |       -       |      +       |       -        |      -       |       -        |
+    |   æ   |       -       |      -       |       +        |      +       |       +        |
+    |   e   |       -       |      -       |       +        |      -       |       +        |
+    |   ɑ   |       -       |      -       |       -        |      +       |       -        |
 
 *** Ton et accentuation
     :PROPERTIES:
