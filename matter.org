@@ -291,7 +291,8 @@ src_latex{\newpage}
 
    #+begin_src python :session :results file :exports results
      import matplotlib.pyplot as plt
-     labels = ['Paganisme', 'Athéisme', 'Monothéismes divers', 'Bouddhisme', 'Divers']
+     labels = ['Paganisme', 'Athéisme', 'Monothéismes divers', 'Bouddhisme',
+               'Divers']
      sizes = [68, 15, 9, 6, 2]
      colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral', 'red']
      patches, texts = plt.pie(sizes, colors=colors, shadow=False, startangle=90)
