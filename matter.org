@@ -6,7 +6,8 @@
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
 #+LATEX_HEADER: \usepackage{allrunes}
 #+OPTIONS: H:4 toc:nil auto-id:t
-#+MACRO: rune @@latex:\textara{$1}@@ @@html:$2@@
+#+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
+#+MACRO: rune (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) (concat "\\textara{" (conlanging//replace-string-by-char "$1" conlanging//matter-latin-to-latex-runes) "}") (conlanging//replace-string-by-char "$1" conlanging//matter-latin-to-runes)))
 src_latex{\newpage}
 #+TOC: headlines
 src_latex{\newpage}
@@ -738,40 +739,40 @@ src_latex{\newpage}
    correspondance entre  chacun des  phonèmes du Mattér  et des  runes utilisées
    nativement dans leur ordre alphabétique natif :
    #+CAPTION:Runes du Mattér
-   |             /             |         <         |   <    |
-   |            <c>            |        <c>        |  <c>   |
-   |       script latin        |       rune        |  nom   |
-   |---------------------------+-------------------+--------|
-   |             a             |  {{{rune(a,ᚪ)}}}  |  areð  |
-   |             b             |  {{{rune(b,ᛒ)}}}  |  bér   |
-   |             c             |  {{{rune(c,ᚳ)}}}  | calfér |
-   |             d             |  {{{rune(d,ᛞ)}}}  |  dur   |
-   |             e             |  {{{rune(e,ᛖ)}}}  | eldyr  |
-   |            ea             | {{{rune(\ea,ᛠ)}}} | ealant |
-   |             f             |  {{{rune(f,ᚠ)}}}  | feioð  |
-   |             g             |  {{{rune(g,ᚷ)}}}  | gelty  |
-   |             h             |  {{{rune(h,ᚻ)}}}  | héþir  |
-   |             i             |  {{{rune(i,ᛁ)}}}  | iéral  |
-   | /j/ (uniquement en runes) |  {{{rune(j,ᛄ)}}}  |  iara  |
-   |             l             |  {{{rune(l,ᛚ)}}}  | logar  |
-   |             m             |  {{{rune(m,ᛗ)}}}  |  mény  |
-   |             n             |  {{{rune(n,ᚾ)}}}  |  néf   |
-   |             o             |  {{{rune(o,ᚩ)}}}  |  orn   |
-   |             p             |  {{{rune(p,ᛈ)}}}  |  pyl   |
-   |             r             |  {{{rune(r,ᚱ)}}}  | rinna  |
-   |             t             |  {{{rune(t,ᛏ)}}}  |  tið   |
-   |             u             |  {{{rune(u,ᚢ)}}}  |  ulv   |
-   |             v             | {{{rune(\ng,ᛝ)}}} |  vér   |
-   |             y             |  {{{rune(y,ᚣ)}}}  | ylgar  |
-   |             æ             |  {{{rune(æ,ᚫ)}}}  |  ævy   |
-   |             é             | {{{rune(\oe,ᛟ)}}} | éþƿér  |
-   |             ð             |  {{{rune(s,ᛋ)}}}  | ðengil |
-   |             þ             |  {{{rune(þ,ᚦ)}}}  |  þær   |
-   |             ċ             |  {{{rune(I,ᛇ)}}}  | ċuðar  |
-   |             ƿ             |  {{{rune(w,ᚹ)}}}  |  ƿyrm  |
-   |    séparateur de mots     |  {{{rune(.,᛫)}}}  | þticyl |
-   |     marquer de pauses     |  {{{rune(:,᛬)}}}  |  ċild  |
-   |   séparateur de phrases   |  {{{rune(*,᛭)}}}  |   ru   |
+   |             /             |           <            |   <    |
+   |            <c>            |          <c>           |  <c>   |
+   |       script latin        |          rune          |  nom   |
+   |---------------------------+------------------------+--------|
+   |             a             |     {{{rune(a)}}}      |  areð  |
+   |             b             |     {{{rune(b)}}}      |  bér   |
+   |             c             |     {{{rune(c)}}}      | calfér |
+   |             d             |     {{{rune(d)}}}      |  dur   |
+   |             e             |     {{{rune(e)}}}      | eldyr  |
+   |            ea             |     {{{rune(ea)}}}     | ealant |
+   |             f             |     {{{rune(f)}}}      | feioð  |
+   |             g             |     {{{rune(g)}}}      | gelty  |
+   |             h             |     {{{rune(h)}}}      | héþir  |
+   |             i             |     {{{rune(i)}}}      | iéral  |
+   | /j/ (uniquement en runes) |     {{{rune(j)}}}      |  iara  |
+   |             l             |     {{{rune(l)}}}      | logar  |
+   |             m             |     {{{rune(m)}}}      |  mény  |
+   |             n             |     {{{rune(n)}}}      |  néf   |
+   |             o             |     {{{rune(o)}}}      |  orn   |
+   |             p             |     {{{rune(p)}}}      |  pyl   |
+   |             r             |     {{{rune(r)}}}      | rinna  |
+   |             t             |     {{{rune(t)}}}      |  tið   |
+   |             u             |     {{{rune(u)}}}      |  ulv   |
+   |             v             |     {{{rune(v)}}}      |  vér   |
+   |             y             |     {{{rune(y)}}}      | ylgar  |
+   |             æ             |     {{{rune(æ)}}}      |  ævy   |
+   |             é             |     {{{rune(é)}}}      | éþƿér  |
+   |             ð             |     {{{rune(ð)}}}      | ðengil |
+   |             þ             |     {{{rune(þ)}}}      |  þær   |
+   |             ċ             |     {{{rune(ċ)}}}      | ċuðar  |
+   |             ƿ             |     {{{rune(ƿ)}}}      |  ƿyrm  |
+   |    séparateur de mots     | {{{rune-manual(.,᛫)}}} | þticyl |
+   |     marquer de pauses     | {{{rune-manual(:,᛬)}}} |  ċild  |
+   |   séparateur de phrases   | {{{rune-manual(*,᛭)}}} |   ru   |
 
    Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea>
    disposent de  leur propre  morphème, respectivement  <ealant> et  <ċild>. Cet
@@ -783,7 +784,7 @@ src_latex{\newpage}
    runes :
    - Français :: Demain, du lever au coucher du soleil, nous irons pêcher.
    - Mattér (script latin) :: morgoċ, gyrnegac þcyrmém, y ficianur.
-   - Mattér (runes) :: {{{rune(morgoI:gyrnegac.þcyrm\oem:y.ficjanur*,ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
+   - Mattér (runes) :: {{{rune(morgoċ gyrnegac þcyrmém y ficianur.)}}}
 
    Le  Mattér peut  également être  écrit avec  les caractères  latins standard,
    comme fait dans  quasiment tout ce document, cependant  en dépendant beaucoup
@@ -791,17 +792,17 @@ src_latex{\newpage}
    d’accès aux personnes utilisant une disposition de clavier n’étant pas pensée
    afin d’écrire du Mattér :
    #+CAPTION:Caractères latins du Mattér
-   |          /          |          <           |
-   |         <c>         |         <c>          |
-   |   caractère natif   | caractère alternatif |
-   |---------------------+----------------------|
-   | þ / {{{rune(þ,ᚦ)}}} |        s / th        |
-   | g / {{{rune(g,ᚷ)}}} |          ᵹ           |
-   | ƿ / {{{rune(w,ᚹ)}}} |          w           |
-   | ċ / {{{rune(I,ᛇ)}}} |        ȝ / ch        |
-   | i / {{{rune(j,ᛄ)}}} |          j           |
-   | ð / {{{rune(s,ᛋ)}}} |        z / dh        |
-   | æ / {{{rune(æ,ᚫ)}}} |          ae          |
+   |         /         |          <           |
+   |        <c>        |         <c>          |
+   |  caractère natif  | caractère alternatif |
+   |-------------------+----------------------|
+   | þ / {{{rune(þ)}}} |        s / th        |
+   | g / {{{rune(g)}}} |          ᵹ           |
+   | ƿ / {{{rune(w)}}} |          w           |
+   | ċ / {{{rune(ċ)}}} |        ȝ / ch        |
+   | i / {{{rune(j)}}} |          j           |
+   | ð / {{{rune(ð)}}} |        z / dh        |
+   | æ / {{{rune(æ)}}} |          ae          |
 
    De ce  fait, des mots  tels que <bryð> et  <þpiċ> peuvent s’écrire  <bryz> ou
    <brudh>, et <spich> ou <thpiȝ> respectivement.
@@ -812,16 +813,16 @@ src_latex{\newpage}
    personnes  n’ayant pas  aisément  accès aux  caractères  spéciaux du  Mattér.
    Quelques exemples de ces différents systèmes d’écriture :
    #+CAPTION:Exemples d’écritures native du Mattér
-   | /           | <                       | <              |
-   | latin natif | runique                 | alternatif     |
-   |-------------+-------------------------+----------------|
-   | bryð        | {{{rune(brys,ᛒᚱᚣᛋ)}}}   | bryz / brydh   |
-   | þpiċ        | {{{rune(þpiI,ᚦᛈᛁᛇ)}}}   | spich / thpiȝ  |
-   | iea         | {{{rune(j\ea,ᛄᛠ)}}}     | jea            |
-   | mænd        | {{{rune(mænd,ᛗᚫᚾᛞ)}}}   | maend          |
-   | neþty       | {{{rune(neþty,ᚾᛖᚦᛏᚣ)}}} | nesty / nethty |
-   | ƿaċen       | {{{rune(waIen,ᚹᚪᛇᛖᚾ)}}} | wachen / waȝen |
-   | ċciag       | {{{rune(Icjag,ᛇᚳᛄᚪᚷ)}}} | chcjaᵹ / ȝcjaᵹ |
+   | /           | <                 | <              |
+   | latin natif | runique           | alternatif     |
+   |-------------+-------------------+----------------|
+   | bryð        | {{{rune(bryð)}}}  | bryz / brydh   |
+   | þpiċ        | {{{rune(þpiċ)}}}  | spich / thpiȝ  |
+   | iea         | {{{rune(jea)}}}   | jea            |
+   | mænd        | {{{rune(mænd)}}}  | maend          |
+   | neþty       | {{{rune(neþty)}}} | nesty / nethty |
+   | ƿaċen       | {{{rune(waċen)}}} | wachen / waȝen |
+   | ċciag       | {{{rune(ċcjag)}}} | chcjaᵹ / ȝcjaᵹ |
 
 ** Orthographe
    :PROPERTIES:
@@ -830,8 +831,8 @@ src_latex{\newpage}
    <<orthography>> Le Mattér, utilisant un de ses alphabets décrits ci-dessus, a
    une orthographe très  régulière, chaque mot est écrit comme  il est prononcé.
    La   seule   exception   est  occasionellement   l’utilisation   du   /iéral/
-   {{{rune(i,ᛁ)}}} dans  les textes runiques où  il se prononcera comme  un iara
-   {{{rune(j,ᛄ)}},  ou bien  des  diphtongues qui  se  forment naturellement  de
+   {{{rune(i)}}} dans  les textes  runiques où  il se  prononcera comme  un iara
+   {{{rune(j)}}},  ou  bien des  diphtongues  qui  se forment  naturellement  de
    l’adposition de deux voyelles. Cependant,  cela ne présente pas de véritables
    difficultés orthographiques  tant que l’on  peut garder à  l’esprit l’origine
    grammaticale  du   mot.  Ainsi,   les  mots   dérivés  de   <fri>  s’écriront
