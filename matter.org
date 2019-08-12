@@ -4,189 +4,12 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
+#+LATEX_HEADER: \usepackage{allrunes}
 #+OPTIONS: H:4 toc:nil auto-id:t
+#+MACRO: rune @@latex:\textara{$1}@@ @@html:$2@@
 src_latex{\newpage}
 #+TOC: headlines
 src_latex{\newpage}
-
-* Table des matières                                      :TOC_5_gh:noexport:
-  :PROPERTIES:
-  :CUSTOM_ID: h-a6f6e40b-46d3-44d2-8c0b-aa9f5aa1dcaa
-  :END:
-- [[#avant-propos][Avant-propos]]
-- [[#introduction][Introduction]]
-  - [[#le-nom-de-la-langue][Le nom de la langue]]
-  - [[#démographie][Démographie]]
-  - [[#histoire][Histoire]]
-  - [[#affiliation-générique][Affiliation générique]]
-  - [[#système-décriture][Système d’écriture]]
-  - [[#situation-sociolinguistique][Situation sociolinguistique]]
-    - [[#multilinguisme-et-contexte-dutilisation][Multilinguisme et contexte d’utilisation]]
-    - [[#viabilité][Viabilité]]
-    - [[#mots-demprunt][Mots d’emprunt]]
-  - [[#dialectes][Dialectes]]
-- [[#phonologie][Phonologie]]
-  - [[#notes-sur-la-transcription-du-mattér][Notes sur la transcription du Mattér]]
-  - [[#inventaire-phonétique][Inventaire phonétique]]
-    - [[#consonnes][Consonnes]]
-    - [[#voyelles][Voyelles]]
-    - [[#diphtonges][Diphtonges]]
-  - [[#allophonie][Allophonie]]
-  - [[#phonotaxes][Phonotaxes]]
-    - [[#attaque][Attaque]]
-    - [[#coda][Coda]]
-    - [[#inter-syllabe][Inter-syllabe]]
-  - [[#accentuation][Accentuation]]
-  - [[#accents-régionaux][Accents régionaux]]
-  - [[#système-décriture-1][Système d’écriture]]
-  - [[#orthographe][Orthographe]]
-- [[#topologie-morphologique][Topologie morphologique]]
-- [[#classes-de-mots][Classes de mots]]
-  - [[#noms][Noms]]
-    - [[#nombre][Nombre]]
-    - [[#genre][Genre]]
-    - [[#possession][Possession]]
-    - [[#relations-grammaticales][Relations grammaticales]]
-    - [[#articles][Articles]]
-    - [[#types-de-noms][Types de noms]]
-      - [[#noms-propres][Noms propres]]
-      - [[#noms-de-masse][Noms de masse]]
-    - [[#pronoms][Pronoms]]
-      - [[#personnels][Personnels]]
-      - [[#relatifs][Relatifs]]
-  - [[#verbes][Verbes]]
-    - [[#infinitif][Infinitif]]
-    - [[#nominalisation][Nominalisation]]
-  - [[#adjectifs][Adjectifs]]
-  - [[#adverbes][Adverbes]]
-- [[#ordre-des-constituants-basiques][Ordre des constituants basiques]]
-  - [[#clauses-principales][Clauses principales]]
-  - [[#phrase-prépositionnelles][Phrase prépositionnelles]]
-  - [[#phrases-nominales][Phrases nominales]]
-    - [[#modificateurs][Modificateurs]]
-    - [[#constructions-génitives][Constructions génitives]]
-    - [[#clauses-relatives][Clauses relatives]]
-  - [[#phrases-verbales][Phrases verbales]]
-  - [[#comparatifs][Comparatifs]]
-  - [[#résumé][Résumé]]
-- [[#prédicats-nominaux][Prédicats nominaux]]
-- [[#phrases-existentielles-locationnelles-et-possessives][Phrases existentielles, locationnelles et possessives]]
-- [[#expression-des-relations-grammaticales][Expression des relations grammaticales]]
-  - [[#déclinaison--noms][Déclinaison – Noms]]
-    - [[#déclinaison][Déclinaison]]
-      - [[#noms-masculins-forts][Noms masculins forts]]
-    - [[#possession-1][Possession]]
-  - [[#déclinaison--pronoms][Déclinaison — Pronoms]]
-  - [[#accord-des-verbes][Accord des verbes]]
-    - [[#indicatif][Indicatif]]
-      - [[#perfectif][Perfectif]]
-      - [[#imperfectif][Imperfectif]]
-    - [[#impératif][Impératif]]
-    - [[#jussif][Jussif]]
-    - [[#participes][Participes]]
-  - [[#déclinaison-et-accord-des-adjectifs][Déclinaison et accord des adjectifs]]
-    - [[#nominalisation-1][Nominalisation]]
-- [[#temps-aspects-et-modes][Temps, aspects et modes]]
-  - [[#temps][Temps]]
-  - [[#aspect][Aspect]]
-  - [[#modaux-auxiliaires][Modaux auxiliaires]]
-  - [[#causatif][Causatif]]
-    - [[#causatif-lexical][Causatif lexical]]
-    - [[#causatif-analytique][Causatif analytique]]
-  - [[#passif][Passif]]
-  - [[#réflexif][Réflexif]]
-  - [[#réciproque][Réciproque]]
-  - [[#questions][Questions]]
-    - [[#question-absolue-ouinon][Question absolue (oui/non)]]
-    - [[#question-relative][Question relative]]
-  - [[#impératif-1][Impératif]]
-- [[#négation][Négation]]
-- [[#combination-de-clauses][Combination de clauses]]
-  - [[#clauses-relatives-1][Clauses relatives]]
-  - [[#verbes-en-série][Verbes en série]]
-  - [[#clauses-de-complément][Clauses de complément]]
-    - [[#compléments-de-stems-basiques][Compléments de stems basiques]]
-    - [[#compléments-tél-et-þiv][Compléments <tél> et <þiv>]]
-  - [[#clauses-adverbiales][Clauses adverbiales]]
-  - [[#coordination][Coordination]]
-- [[#structures-marquées-pragmatiquement][Structures marquées pragmatiquement]]
-- [[#nombres][Nombres]]
-- [[#glossaire][Glossaire]]
-  - [[#actions-physiques][Actions physiques]]
-  - [[#amour][Amour]]
-  - [[#animaux][Animaux]]
-  - [[#art][Art]]
-    - [[#écriture][Écriture]]
-    - [[#visuel][Visuel]]
-    - [[#audio][Audio]]
-  - [[#astronomie][Astronomie]]
-  - [[#bâtiments][Bâtiments]]
-    - [[#la-ville][La ville]]
-    - [[#les-types-de-bâtiments][Les types de bâtiments]]
-  - [[#commerce][Commerce]]
-  - [[#conflits][Conflits]]
-  - [[#conteneurs][Conteneurs]]
-  - [[#corps][Corps]]
-  - [[#couleurs][Couleurs]]
-  - [[#dimensions][Dimensions]]
-    - [[#distance][Distance]]
-    - [[#taille][Taille]]
-    - [[#quantifieurs][Quantifieurs]]
-  - [[#direction][Direction]]
-  - [[#eau][Eau]]
-  - [[#effort][Effort]]
-  - [[#éléments][Éléments]]
-  - [[#émotions][Émotions]]
-  - [[#évaluation][Évaluation]]
-  - [[#événements][Événements]]
-  - [[#existence][Existence]]
-  - [[#forme][Forme]]
-  - [[#gouvernement][Gouvernement]]
-  - [[#grammaire][Grammaire]]
-    - [[#articles-définis][Articles définis]]
-    - [[#déterminants-démonstratifs][Déterminants démonstratifs]]
-    - [[#outils-interrogatifs][Outils interrogatifs]]
-    - [[#conjonctions][Conjonctions]]
-    - [[#prépositions][Prépositions]]
-    - [[#pronoms-1][Pronoms]]
-  - [[#guerre][Guerre]]
-  - [[#légal][Légal]]
-  - [[#lieux][Lieux]]
-    - [[#villes][Villes]]
-  - [[#lumière][Lumière]]
-  - [[#mental][Mental]]
-  - [[#mesures][Mesures]]
-  - [[#métaux][Métaux]]
-  - [[#mouvements][Mouvements]]
-  - [[#nature][Nature]]
-  - [[#nombres-1][Nombres]]
-    - [[#nombres-cardinaux][Nombres cardinaux]]
-  - [[#nourriture][Nourriture]]
-  - [[#outils][Outils]]
-  - [[#parenté][Parenté]]
-    - [[#famille][Famille]]
-  - [[#parole][Parole]]
-  - [[#péchés][Péchés]]
-  - [[#peuples][Peuples]]
-  - [[#physique][Physique]]
-  - [[#possession-2][Possession]]
-  - [[#religion][Religion]]
-  - [[#savoir][Savoir]]
-  - [[#sensations][Sensations]]
-  - [[#sexe][Sexe]]
-  - [[#société][Société]]
-    - [[#relations-sociales][Relations sociales]]
-  - [[#substances][Substances]]
-  - [[#temps-1][Temps]]
-    - [[#jours-de-la-semaine][Jours de la semaine]]
-    - [[#saisons][Saisons]]
-  - [[#travail][Travail]]
-  - [[#végétaux][Végétaux]]
-    - [[#fruits][Fruits]]
-  - [[#vêtements][Vêtements]]
-  - [[#vie-et-santé][Vie et santé]]
-  - [[#à-trier][À trier]]
-- [[#footnotes][Footnotes]]
 
 * Avant-propos
   :PROPERTIES:
@@ -302,7 +125,7 @@ src_latex{\newpage}
      plt.savefig('img/matter_religious-pop.png', transparent=True)
      'img/matter_religious-pop.png' # return filename to org-mode
    #+end_src
-   #+ATTR_LATEX: :width 8cm :float wrap
+   #+ATTR_LATEX: :width 8cm
    #+CAPTION: Population religieuse d’Éïnlante
    #+LABEL: fig:religion-piechart
    #+RESULTS:
@@ -915,39 +738,40 @@ src_latex{\newpage}
    correspondance entre  chacun des  phonèmes du Mattér  et des  runes utilisées
    nativement dans leur ordre alphabétique natif :
    #+CAPTION:Runes du Mattér
-   | /                         | <                                 | <      |
-   | script latin              | rune                              | nom    |
-   |---------------------------+-----------------------------------+--------|
-   | a                         | {{{latex-html(\textara{a},ᚪ)}}}   | areð   |
-   | b                         | {{{latex-html(\textara{b},ᛒ)}}}   | bér    |
-   | c                         | {{{latex-html(\textara{c},ᚳ)}}}   | calfér |
-   | d                         | {{{latex-html(\textara{d},ᛞ)}}}   | dur    |
-   | e                         | {{{latex-html(\textara{e},ᛖ)}}}   | eldyr  |
-   | ea                        | {{{latex-html(\textara{\ea},ᛠ)}}} | ealant |
-   | f                         | {{{latex-html(\textara{f},ᚠ)}}}   | feioð  |
-   | g                         | {{{latex-html(\textara{g},ᚷ)}}}   | gelty  |
-   | h                         | {{{latex-html(\textara{h},ᚻ)}}}   | héþir  |
-   | i                         | {{{latex-html(\textara{i},ᛁ)}}}   | iéral  |
-   | /j/ (uniquement en runes) | {{{latex-html(\textara{j},ᛄ)}}}   | iara   |
-   | l                         | {{{latex-html(\textara{l},ᛚ)}}}   | logar  |
-   | m                         | {{{latex-html(\textara{m},ᛗ)}}}   | mény   |
-   | n                         | {{{latex-html(\textara{n},ᚾ)}}}   | néf    |
-   | o                         | {{{latex-html(\textara{o},ᚩ)}}}   | orn    |
-   | p                         | {{{latex-html(\textara{p},ᛈ)}}}   | pyl    |
-   | r                         | {{{latex-html(\textara{r},ᚱ)}}}   | rinna  |
-   | t                         | {{{latex-html(\textara{t},ᛏ)}}}   | tið    |
-   | u                         | {{{latex-html(\textara{u},ᚢ)}}}   | ulv    |
-   | v                         | {{{latex-html(\textara{\ng},ᛝ)}}} | vér    |
-   | y                         | {{{latex-html(\textara{y},ᚣ)}}}   | ylgar  |
-   | æ                         | {{{latex-html(\textara{æ},ᚫ)}}}   | ævy    |
-   | é                         | {{{latex-html(\textara{\oe},ᛟ)}}} | éþƿér  |
-   | ð                         | {{{latex-html(\textara{s},ᛋ)}}}   | ðengil |
-   | þ                         | {{{latex-html(\textara{þ},ᚦ)}}}   | þær    |
-   | ċ                         | {{{latex-html(\textara{I},ᛇ)}}}   | ċuðar  |
-   | ƿ                         | {{{latex-html(\textara{w},ᚹ)}}}   | ƿyrm    |
-   | séparateur de mots        | {{{latex-html(\textara{.},᛫)}}}   | þticyl |
-   | marquer de pauses         | {{{latex-html(\textara{:},᛬)}}}   | ċild   |
-   | séparateur de phrases     | {{{latex-html(\textara{*},᛭)}}}   | ru     |
+   |             /             |         <         |   <    |
+   |            <c>            |        <c>        |  <c>   |
+   |       script latin        |       rune        |  nom   |
+   |---------------------------+-------------------+--------|
+   |             a             |  {{{rune(a,ᚪ)}}}  |  areð  |
+   |             b             |  {{{rune(b,ᛒ)}}}  |  bér   |
+   |             c             |  {{{rune(c,ᚳ)}}}  | calfér |
+   |             d             |  {{{rune(d,ᛞ)}}}  |  dur   |
+   |             e             |  {{{rune(e,ᛖ)}}}  | eldyr  |
+   |            ea             | {{{rune(\ea,ᛠ)}}} | ealant |
+   |             f             |  {{{rune(f,ᚠ)}}}  | feioð  |
+   |             g             |  {{{rune(g,ᚷ)}}}  | gelty  |
+   |             h             |  {{{rune(h,ᚻ)}}}  | héþir  |
+   |             i             |  {{{rune(i,ᛁ)}}}  | iéral  |
+   | /j/ (uniquement en runes) |  {{{rune(j,ᛄ)}}}  |  iara  |
+   |             l             |  {{{rune(l,ᛚ)}}}  | logar  |
+   |             m             |  {{{rune(m,ᛗ)}}}  |  mény  |
+   |             n             |  {{{rune(n,ᚾ)}}}  |  néf   |
+   |             o             |  {{{rune(o,ᚩ)}}}  |  orn   |
+   |             p             |  {{{rune(p,ᛈ)}}}  |  pyl   |
+   |             r             |  {{{rune(r,ᚱ)}}}  | rinna  |
+   |             t             |  {{{rune(t,ᛏ)}}}  |  tið   |
+   |             u             |  {{{rune(u,ᚢ)}}}  |  ulv   |
+   |             v             | {{{rune(\ng,ᛝ)}}} |  vér   |
+   |             y             |  {{{rune(y,ᚣ)}}}  | ylgar  |
+   |             æ             |  {{{rune(æ,ᚫ)}}}  |  ævy   |
+   |             é             | {{{rune(\oe,ᛟ)}}} | éþƿér  |
+   |             ð             |  {{{rune(s,ᛋ)}}}  | ðengil |
+   |             þ             |  {{{rune(þ,ᚦ)}}}  |  þær   |
+   |             ċ             |  {{{rune(I,ᛇ)}}}  | ċuðar  |
+   |             ƿ             |  {{{rune(w,ᚹ)}}}  |  ƿyrm  |
+   |    séparateur de mots     |  {{{rune(.,᛫)}}}  | þticyl |
+   |     marquer de pauses     |  {{{rune(:,᛬)}}}  |  ċild  |
+   |   séparateur de phrases   |  {{{rune(*,᛭)}}}  |   ru   |
 
    Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea>
    disposent de  leur propre  morphème, respectivement  <ealant> et  <ċild>. Cet
@@ -959,7 +783,7 @@ src_latex{\newpage}
    runes :
    - Français :: Demain, du lever au coucher du soleil, nous irons pêcher.
    - Mattér (script latin) :: morgoċ, gyrnegac þcyrmém, y ficianur.
-   - Mattér (runes) :: {{{latex-html(\textara{morgoI:gyrnegac.þcyrm\oem:y.ficjanur*},ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
+   - Mattér (runes) :: {{{rune(morgoI:gyrnegac.þcyrm\oem:y.ficjanur*,ᛗᚩᚱᚷᚩᚳᚻ᛬ᚷᚣᚱᚾᛖᚷᚪᚳ᛫ᚦᚳᚣᚱᛗᛟᛗ᛬ᚣ᛫ᚠᛁᚳᛄᚪᚾᚢᚱ᛭)}}}
 
    Le  Mattér peut  également être  écrit avec  les caractères  latins standard,
    comme fait dans  quasiment tout ce document, cependant  en dépendant beaucoup
@@ -967,16 +791,17 @@ src_latex{\newpage}
    d’accès aux personnes utilisant une disposition de clavier n’étant pas pensée
    afin d’écrire du Mattér :
    #+CAPTION:Caractères latins du Mattér
-   | /                                   | <                    |
-   | caractère natif                     | caractère alternatif |
-   |-------------------------------------+----------------------|
-   | þ / {{{latex-html(\textara{þ},ᚦ)}}} | s / th               |
-   | g / {{{latex-html(\textara{g},ᚷ)}}} | ᵹ                    |
-   | ƿ / {{{latex-html(\textara{w},ᚹ)}}} | w                    |
-   | ċ / {{{latex-html(\textara{I},ᛇ)}}} | ȝ / ch               |
-   | i / {{{latex-html(\textara{j},ᛄ)}}} | j                    |
-   | ð / {{{latex-html(\textara{s},ᛋ)}}} | z / dh               |
-   | æ / {{{latex-html(\textara{æ},ᚫ)}}} | ae                   |
+   |          /          |          <           |
+   |         <c>         |         <c>          |
+   |   caractère natif   | caractère alternatif |
+   |---------------------+----------------------|
+   | þ / {{{rune(þ,ᚦ)}}} |        s / th        |
+   | g / {{{rune(g,ᚷ)}}} |          ᵹ           |
+   | ƿ / {{{rune(w,ᚹ)}}} |          w           |
+   | ċ / {{{rune(I,ᛇ)}}} |        ȝ / ch        |
+   | i / {{{rune(j,ᛄ)}}} |          j           |
+   | ð / {{{rune(s,ᛋ)}}} |        z / dh        |
+   | æ / {{{rune(æ,ᚫ)}}} |          ae          |
 
    De ce  fait, des mots  tels que <bryð> et  <þpiċ> peuvent s’écrire  <bryz> ou
    <brudh>, et <spich> ou <thpiȝ> respectivement.
@@ -987,32 +812,31 @@ src_latex{\newpage}
    personnes  n’ayant pas  aisément  accès aux  caractères  spéciaux du  Mattér.
    Quelques exemples de ces différents systèmes d’écriture :
    #+CAPTION:Exemples d’écritures native du Mattér
-   | /           | <                                       | <              |
-   | latin natif | runique                                 | alternatif     |
-   |-------------+-----------------------------------------+----------------|
-   | bryð        | {{{latex-html(\textara{brys},ᛒᚱᚣᛋ)}}}   | bryz / brydh   |
-   | þpiċ        | {{{latex-html(\textara{þpiI},ᚦᛈᛁᛇ)}}}   | spich / thpiȝ  |
-   | iea         | {{{latex-html(\textara{j\ea},ᛄᛠ)}}}     | jea            |
-   | mænd        | {{{latex-html(\textara{mænd},ᛗᚫᚾᛞ)}}}   | maend          |
-   | neþty       | {{{latex-html(\textara{neþty},ᚾᛖᚦᛏᚣ)}}} | nesty / nethty |
-   | ƿaċen       | {{{latex-html(\textara{waIen},ᚹᚪᛇᛖᚾ)}}} | wachen / waȝen |
-   | ċciag       | {{{latex-html(\textara{Icjag},ᛇᚳᛄᚪᚷ)}}} | chcjaᵹ / ȝcjaᵹ |
+   | /           | <                       | <              |
+   | latin natif | runique                 | alternatif     |
+   |-------------+-------------------------+----------------|
+   | bryð        | {{{rune(brys,ᛒᚱᚣᛋ)}}}   | bryz / brydh   |
+   | þpiċ        | {{{rune(þpiI,ᚦᛈᛁᛇ)}}}   | spich / thpiȝ  |
+   | iea         | {{{rune(j\ea,ᛄᛠ)}}}     | jea            |
+   | mænd        | {{{rune(mænd,ᛗᚫᚾᛞ)}}}   | maend          |
+   | neþty       | {{{rune(neþty,ᚾᛖᚦᛏᚣ)}}} | nesty / nethty |
+   | ƿaċen       | {{{rune(waIen,ᚹᚪᛇᛖᚾ)}}} | wachen / waȝen |
+   | ċciag       | {{{rune(Icjag,ᛇᚳᛄᚪᚷ)}}} | chcjaᵹ / ȝcjaᵹ |
 
 ** Orthographe
    :PROPERTIES:
    :CUSTOM_ID: h-cd6b7fda-ced0-4ba9-bf46-1e9ec62ab408
    :END:
-   <<orthography>>
-   Le Mattér, utilisant un de ses alphabets décrits ci-dessus, a une orthographe
-   très  régulière,  chaque mot  est  écrit  comme  il  est prononcé.  La  seule
-   exception     est      occasionellement     l’utilisation      du     /iéral/
-   {{{latex-html(\textara{i},ᛁ)}}} dans les textes  runiques où il se prononcera
-   comme un iara {{{latex-html(\textara{j},ᛄ)}}}, ou bien des diphtongues qui se
-   forment naturellement  de l’adposition de  deux voyelles. Cependant,  cela ne
-   présente pas  de véritables  difficultés orthographiques  tant que  l’on peut
-   garder à l’esprit  l’origine grammaticale du mot. Ainsi, les  mots dérivés de
-   <fri> s’écriront systématiquement avec un /iéral/  et non avec un /iara/ dans
-   des termes tels que <friant>.
+   <<orthography>> Le Mattér, utilisant un de ses alphabets décrits ci-dessus, a
+   une orthographe très  régulière, chaque mot est écrit comme  il est prononcé.
+   La   seule   exception   est  occasionellement   l’utilisation   du   /iéral/
+   {{{rune(i,ᛁ)}}} dans  les textes runiques où  il se prononcera comme  un iara
+   {{{rune(j,ᛄ)}},  ou bien  des  diphtongues qui  se  forment naturellement  de
+   l’adposition de deux voyelles. Cependant,  cela ne présente pas de véritables
+   difficultés orthographiques  tant que l’on  peut garder à  l’esprit l’origine
+   grammaticale  du   mot.  Ainsi,   les  mots   dérivés  de   <fri>  s’écriront
+   systématiquement avec un  /iéral/ et non avec un /iara/  dans des termes tels
+   que <friant>.
 
    En réalité,  l’erreur d’orthographe  la plus  commune chez  les Matté  est la
    non-utilisation du /iara/,  qui tend à être  de plus en plus  remplacé par le
