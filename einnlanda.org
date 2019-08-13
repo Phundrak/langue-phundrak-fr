@@ -199,7 +199,7 @@
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
     |      nasal |         m         |                      |      n̪ (n̪̥)      |                  |        ŋ         |                       |                  |
-    |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (g)       |          kʷ           |                  |
+    |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |          kʷ           |                  |
     |   fricatif |         β         |          f           |       θ ð       |        ç         |      (x) ɣ       |         (ɣʷ)          |        h         |
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |      r̪ (r̪̥)      |                  |                  |                       |                  |
@@ -224,36 +224,41 @@
     - {{{phon(b)}}} > {{{phon(β)}}}
     - {{{phon(ð)}}} n’est plus un allophone de {{{phon(θ)}}}
     - {{{phon(s)}}} > {{{phon(ç)}}}
-    - {{{phon(g)}}} > {{{phon(ɣ)}}}
-    - {{{phon(ɡː)}}} > {{{phon(g)}}}
-    - {{{phon(ng)}}} > {{{phon(ŋ)}}}
+    - {{{phon(ɡ)}}} > {{{phon(ɣ)}}}
+    - {{{phon(ɡː)}}} > {{{phon(ɡ)}}}
+    - {{{phon(nɡ)}}} > {{{phon(ŋ)}}}
+    - ʀ / {l,s,n,r}_ > {l,s,n,r}ː sinon ʀ > ər (écrit <yr>)
 
     #+BEGIN_SRC latex :exports results
       \latex
     #+END_SRC
 
-    Phonotaxes :
+    Allophonie :
     - h / _{l,r,n} > Ø
     - {l,r,n} > h_ > [-voice]
-    - hw / V_V > ɣʷ sinon kʷ
-    - ɣ / _{ɣ,n} > ɡ
-    - ɣ / ɣ_ > ɡ
+    - ɣ / _C[-voice] > k
+    - ɣ / _n > ɡ
+    - ɣɣ / _ > ɡː
+    - CC / _ > Cː
     - kʷ / V_V > ɣʷ
+    - C[+stop] / C[+nasal]_# > [+nasal]
+
 
 *** Voyelles
     :PROPERTIES:
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
 
-    |          / | <         |            |
-    |        <r> |    <c>    |    <c>     |
-    |            | antérieur | postérieur |
-    |------------+-----------+------------|
-    |      fermé |    i y    |     u      |
-    |   mi-fermé |    e ø    |     o      |
-    |  mi-ouvert |     œ     |     ɔ      |
-    | pré-ouvert |     æ     |            |
-    |     ouvert |           |     ɑ      |
+    |          / |     <     |         |            |
+    |        <r> |    <c>    |   <c>   |    <c>     |
+    |            | antérieur | central | postérieur |
+    |------------+-----------+---------+------------|
+    |      fermé |    i y    |         |     u      |
+    |   mi-fermé |    e ø    |         |     o      |
+    |      moyen |           |   (ə)   |            |
+    |  mi-ouvert |     œ     |         |     ɔ      |
+    | pré-ouvert |     æ     |         |            |
+    |     ouvert |           |         |     ɑ      |
 
     |          / |     <     |            |
     |        <r> |    <c>    |    <c>     |
@@ -269,6 +274,7 @@
     - {{{phon(a)}}} > {{{phon(ɑ)}}}
     - {{{phon(ɒ)}}} > {{{phon(ɔ)}}}
     - {{{phon(øː)}}} > {{{phon(œ)}}}
+    - {{{phon(Vː)}}} > {{{phon(V)}}}
 
     Diphtongues :
     - ei {{{phon(æi)}}}
@@ -311,7 +317,7 @@
     [[file:img/einnlanda-vowel-feature-tree.png]]
 
     |   /   |      <>       |      >       |       >        |      >       |       >        |
-    |  <c>  |      <c>      |     <c>      |      <c>       |     <c>      |      <c>       |
+    |  <c>  |      <c5>     |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
     | vowel | {{{v(high)}}} | {{{v(rnd)}}} | {{{v(tense)}}} | {{{v(low)}}} | {{{v(front)}}} |
     |-------+---------------+--------------+----------------+--------------+----------------|
     |   y   |       +       |      +       |       +        |      -       |       +        |
@@ -324,6 +330,13 @@
     |   æ   |       -       |      -       |       +        |      +       |       +        |
     |   e   |       -       |      -       |       +        |      -       |       +        |
     |   ɑ   |       -       |      -       |       -        |      +       |       -        |
+
+    Allophonie :
+    - V / _C[+nasal] > V[+nasal]
+    - VV / _ > Vː
+    - e / _CV[-front +rnd] > jɔ
+    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
+      {{{phon(l)}}} ou {{{phon(r)}}}
 
 *** Ton et accentuation
     :PROPERTIES:
