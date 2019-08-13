@@ -8,7 +8,7 @@
 #+LATEX_HEADER: \usepackage{tocloft} \setlength{\cftchapnumwidth}{3em}
 #+LATEX_HEADER: \usepackage{allrunes}
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
-#+MACRO: rune (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) (concat "\\textarm{" (conlanging//replace-string-by-char "$1" conlanging//einnlanda-latin-to-latex) "}") (conlanging//replace-string-by-char "$1" conlanging//einnlanda-latin-to-runes)))
+#+MACRO: rune (eval (conlanging/einnlanda-org-export-runes "$1"))
 
 #+OPTIONS: H:4 toc:nil ^:{} auto-id:t
 #+TOC: headlines

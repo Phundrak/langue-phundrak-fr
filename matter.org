@@ -7,7 +7,7 @@
 #+LATEX_HEADER: \usepackage{allrunes}
 #+OPTIONS: H:4 toc:nil auto-id:t
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
-#+MACRO: rune (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) (concat "\\textara{" (conlanging//replace-string-by-char "$1" conlanging//matter-latin-to-latex-runes) "}") (conlanging//replace-string-by-char "$1" conlanging//matter-latin-to-runes)))
+#+MACRO: rune (eval (conlanging/matter-org-export-runes "$1"))
 src_latex{\newpage}
 #+TOC: headlines
 src_latex{\newpage}
