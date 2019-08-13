@@ -78,7 +78,6 @@
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: newpage @@latex:\newpage@@
 #+MACRO: latex-html @@latex:$1@@ @@html:$2@@
-#+MACRO: last-update Dernière mise à jour le {{{time(%d/%m/%y à %H:%M)}}}.
 #+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@
 #+MACRO: v @@latex:\rotatebox[origin=c]{270}{$1}@@ @@html:<span class=vertical>$1</span>@@
 #+MACRO: begin-largetable @@html:<div class="largetable">@@

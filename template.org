@@ -27,7 +27,7 @@
    trouverez sur mon site principal[fn:2].  Aucune personne, morale ou physique,
    n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes
    intéressés par une redistribution de ce document, je vous invite à rentrer en
-   contact avec moi afin que l’on en discute. {{{last-update}}}
+   contact avec moi afin que l’on en discute.
 
    Ce document traite d’une langue imaginaire  que j’ai créé. Cependant, il sera
    rédigé comme  s’il s’agissait de la  première tentative de description  de la

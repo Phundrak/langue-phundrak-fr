@@ -37,8 +37,6 @@ src_latex{\newpage}
   approfondies », comprenez  par cela que  je n’ai  pas encore travaillé  sur ou
   fini cette partie qui peut être sujet à des mises à jours dans le futur.
 
-  {{{last-update}}}
-
 * Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-7ae36187-04aa-47b4-82f9-d5e3fabda554

@@ -88,8 +88,6 @@
   fini cette partie  qui peut être sujet à  des mises à jours dans  le futur. En
   dehors de la  référence à Joseph Windsor ci-dessous, toute  référence de style
   académique est fictionnelle (cf §[[#h-f2a15be7-ee4e-4ec3-a856-535c9861774f]]).
-
-  {{{last-update}}}
 * Introduction
   :PROPERTIES:
   :CUSTOM_ID: h-2fbe549b-7190-4426-b35f-8c98682deb63
