@@ -281,10 +281,10 @@
     - au {{{phon(ɔu)}}}
     - ey {{{phon(øy)}}}
 
-    #+NAME: vow-tree
-    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes
-      <<process-tree>>
-      (define vowels
+    #+NAME: vow-dot
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+      <<tree-dot>>
+      (defvar vowels
         '("vowels"
           ("[high]"
            ("[rnd]"
@@ -307,13 +307,13 @@
       (tree-to-dot vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/einnlanda-vowel-feature-tree.png :var input=vow-tree :exports results
+    #+BEGIN_SRC dot :file img/einnlanda-vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+attr_html: :alt Arbre des consonnes de l’Einnlandais :align center
     #+CAPTION: Arbre des caractéristiques des consonnes de l’Einnlandais
-    #+RESULTS[22f783add838e5efabdd03e0b594c9ea0b2899c6]:
+    #+RESULTS[e2fa11efdddf12a6e36e8153a0720e5c47b9b93f]:
     [[file:img/einnlanda-vowel-feature-tree.png]]
 
     |   /   |      <>       |      >       |       >        |      >       |       >        |

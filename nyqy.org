@@ -193,9 +193,9 @@
     caractéristiques montré dans la figure [[arbre:cons]].
 
     #+NAME: cons-tree
-    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
-      <<process-tree>>
-      (define consonants
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+      <<tree-dot>>
+      (defvar consonants
         '("[cons]"
           ("[son]"
            ("[dor]"
@@ -230,7 +230,7 @@
     #+NAME: arbre:cons
     #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
-    #+RESULTS[18461730bfe270db4276b62821b66e8688577ccd]:
+    #+RESULTS[2c0685c9f85f1b06c5092c4e49b56e8546696de2]:
     [[file:img/nyqy-consonant-feature-tree.png]]
 
     Ainsi furent choisies ces consonnes, présentées par la table [[table:cons:ipa]].
@@ -314,9 +314,9 @@
     présenté avec la figure [[arbre:vowels]].
 
     #+NAME: vow-tree
-    #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
-      <<process-tree>>
-      (define vowels
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+      <<tree-dot>>
+      (defvar vowels
         '("[vowel]"
           ("[back]"
            ("[tense]"
@@ -341,8 +341,8 @@
     #+NAME: arbre:vowels
     #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
-    #+RESULTS:
-    [[file:img/nyqy_vowel_feature_tree.svg]]
+    #+RESULTS[3bb7c3cad821b085e1cd5c47ba5df0cd8e20ff38]:
+    [[file:img/nyqy-vowel-feature-tree.png]]
 
     Grâce  à cet  arbre furent  choisies les  voyelles présentées  par la  table
     [[table:vowels:ipa]],  et  leur  translittération  est  présentée  par  la  table
@@ -710,9 +710,9 @@
   dernière position.
 
   #+NAME: basic-syntax-tree
-  #+BEGIN_SRC scheme :noweb yes :exports none :eval yes :cache yes
-    <<process-tree>>
-    (define syntax-tree
+  #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    <<tree-dot>>
+    (defvar syntax-tree
       '("S"
         ("Obl")
         ("S'"
@@ -742,8 +742,8 @@
   #+NAME: arbre:syntaxe:basique
   #+attr_html: :alt Arbre de syntaxe basique du Ňyqy
   #+CAPTION: Arbre de syntaxe basique du Ňyqy
-  #+RESULTS:
-  [[file:img/nyqy_basic_syntax.svg]]
+  #+RESULTS[f610dcdc0787e77f58af7974f394c881f032f96a]:
+  [[file:img/nyqy-basic-syntax.png]]
 
   On voit grâce à l’arbre  [[arbre:syntaxe:basique]] que la structure générale d’une
   phrase démarre avec des éléments divers liés à la clause principale, qui ne se
