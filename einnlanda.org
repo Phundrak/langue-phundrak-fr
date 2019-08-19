@@ -9,6 +9,7 @@
 #+LATEX_HEADER: \usepackage{allrunes}
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/einnlanda-org-export-runes "$1"))
+#+STARTUP: align shrink
 
 #+OPTIONS: H:4 toc:nil ^:{} auto-id:t
 #+TOC: headlines
@@ -104,6 +105,72 @@
     :CUSTOM_ID: h-f20f59bf-abf0-4732-acd3-4cb773e10b38
     :END:
 
+*** Situation politique
+    :PROPERTIES:
+    :CUSTOM_ID: h-11e1aecd-4abd-4dd5-a07a-0998e6572b09
+    :END:
+
+    Lors de la création du premier gouvernement en 915, il a été choisi que l’un
+    des fils d’Ingólfr Arnarson, Ásmundr Ingólfrson, soit le roi de ce nouveau
+    pays du fait de sa position au sein de l’économie de ce nouveau pays,
+    faisant de lui Ásmundr I. Une monarchie s’installa donc à la tête d’un
+    système féodal. Éinnlande étant un territoire divisé en deux par la chaîne
+    de volcan traversant l’île, un co-roi fut nommé pour reigner au nom du
+    souverain sur la partie orientale de l’île lorsque Áleifr I, fils d’Ásmundr
+    I, accéda au trône. Ainsi, Steingrímr Ásmundrson, frère cadet du roi, fut
+    nommé comme co-roi en 937. En 959, suite au décès d’Áleifr I, son fils
+    Áleifr II monta sur le trône et nomma un an après son frère Eyvindr co-roi.
+    Cela commença ainsi la tradition du roi nommant un membre proche comme étant
+    co-roi d’Einnland. En 981, Áleifr III mourru à l’âge de 46 ans et sans
+    héritier au trône. Son frère, Hallþórr I Áleifrbróðir, monta sur le trône.
+    Il nomma alors son fils co-roi
+
+    {{{begin-largetable}}}
+    #+NAME: Einnland-kings
+    #+CAPTION: Liste des rois Einnlandais
+    | <l5>                          | <l5>      | <l5> | <l5> | <l5>      | <l5>                           | <l5>      | <l5> | <l5> | <l5>      |
+    | roi                           | naissance | mort | âge  | règne     | co-roi                         | naissance | mort | âge  | règne     |
+    |-------------------------------+-----------+------+------+-----------+--------------------------------+-----------+------+------+-----------|
+    | Ásmundr I, Ingólfrson         | 876       | 932  | 56   | 915-935   | -                              |           |      |      |           |
+    | Áleifr I, Ásmundrson          | 879       | 950  | 71   | 935-950   | Steingrímr I, Áleifrbróðir     | 879       | 959  | 80   | 936-951   |
+    | Áleifr II, Áleifrson          | 915       | 971  | 56   | 950-971   | Eyvindr I, Áleifrbróðir        | 918       | 981  | 63   | 951-972   |
+    | Áleifr III, Áleifrson         | 935       | 981  | 46   | 971-981   | Hallþórr I, Áleifrbróðir       | 936       | 1012 | 76   | 972-981   |
+    | Hallþórr I, Áleifrbróðir      | 936       | 1012 | 76   | 981-1012  | Eiríkr I, Áleifrbróðir         | 938       | 987  | 49   | 982-987   |
+    |                               |           |      |      |           | Hallþórr II, Hallþórrson       | 955       | 1020 | 65   | 937-1012  |
+    | Hallþórr II, Hallþórson       | 955       | 1020 | 65   | 1012-1020 | Ásmundr I, Hallþórrbróðir      | 956       | 1018 | 62   | 1012-1018 |
+    |                               |           |      |      |           | Hallþórr III, Hallþórrsonarson | 992       | 1058 | 66   | 1018-1020 |
+    | Hallþórr III, Hallþórsonarson | 992       | 1058 | 66   | 1020-1058 | Ragnheiðr I, Hallþórrson       | 976       | 1033 | 57   | 1021-1033 |
+    |                               |           |      |      |           | Hallþórr IV, Hallþórrson       | 1013      | 1065 | 52   | 1033-1058 |
+    | Hallþór IV, Hallþórson        | 1013      | 1065 | 52   | 1058-1065 | Áleifr IV, Hallþórbróðir       | 1015      | 1087 | 72   | 1059-1065 |
+    | Áleifr IV, Hallþórbróðir      | 1015      | 1087 | 72   | 1065-1087 | Eríkr II, Áleifrbróðir         | 1020      | 1101 | 81   | 1065-1087 |
+    | Eríkr II, Áleifrbróðir        | 1020      | 1101 | 81   | 1087-1101 | Eyvindr II, Áleifrbróðir       | 1027      | 1098 | 71   | 1088-1098 |
+    |                               |           |      |      |           | Eríkr III, Eríkrsonarson       | 1053      | 1103 | 50   | 1098-1101 |
+    | Eríkr III, Eríkrsonarson      | 1053      | 1103 | 50   | 1101-1103 | Niall I, Eríkrdóttir           | 1076      | 1158 | 82   | 1102-1103 |
+    | Niall I, Eríkrdóttir          | 1076      | 1158 | 82   | 1103-1158 | Eysteinn I, Niallson           | 1095      | 1127 | 32   | 1104-1127 |
+    |                               |           |      |      |           | Yngvarr I, Niallsonarson       | 1102      | 1175 | 73   | 1128-1158 |
+    | Yngvarr I, Niallson           | 1102      | 1175 | 73   | 1158-1175 | Eyvindr II, Yngvarrbróðir      | 1119      | 1176 | 57   | 1159-1175 |
+    | Yngvarr II, Yngvarrson        | 1137      | 1176 | 39   | 1175-1176 | Eyvindr II, Yngvarrbróðir      | 1119      | 1176 | 57   | 1176      |
+    |                               |           |      |      |           | Yngvarr III, Yngvarrson        | 1153      | 1202 | 49   | 1176      |
+    | Yngvarr III, Yngvarrson       | 1153      | 1202 | 49   | 1176-1202 | Heimir I, Yngvarrbróðir        | 1162      | 1223 | 61   | 1177-1202 |
+    | Heimir I, Yngvarrbróðir       | 1162      | 1223 | 61   | 1202-1223 | Ásmundr II, Heimirbróðir       | 1165      | 1218 | 53   | 1202-1218 |
+    |                               |           |      |      |           | Gunnhildr I, Ásmundrdóttir     | 1189      | 1252 | 63   | 1218-1223 |
+    | Gunnhildr I, Ásmundrdóttir    | 1189      | 1252 | 63   | 1223-1252 | Hallþórr V, Gunnhildrson       | 1205      | 1283 | 78   | 1223-1252 |
+    | Hallþórr V, Gunnhildrson      | 1205      | 1283 | 78   | 1252-1283 | Steingrímr II, Hallþórrbroðir  | 1209      | 1263 | 54   | 1252-1263 |
+    |                               |           |      |      |           | Steingrímr III, Steingrímrson  | 1233      | 1278 | 45   | 1263-1278 |
+    |                               |           |      |      |           | Eyvindr III, Steingrímrson     | 1235      | 1291 | 56   | 1278-1283 |
+    | Eyvindr III, Steingrímrson    | 1235      | 1291 | 56   | 1283-1291 | Ragnheiðr II, Eyvindrbróðir    | 1240      | 1296 | 56   | 1284-1291 |
+    | Eyvindr IV, Eyvindrson        | 1262      | 1318 | 56   | 1291-1318 | Ragnheiðr II, Eyvindrbróðir    | 1240      | 1296 | 56   | 1292-1296 |
+    |                               |           |      |      |           | Ragnheiðr III, Ragnheiðrson    | 1259      | 1308 | 49   | 1292-1308 |
+    |                               |           |      |      |           | Eyvindr V, Eyvindrson          | 1285      | 1346 | 61   | 1308-1318 |
+    | Eyvindr V, Eyvindrson         | 1285      | 1346 | 61   | 1318-1346 | Eríkr II, Eyvindrbróðir        | 1290      | 1349 | 59   | 1319-1346 |
+    | Eyvindr VI, Eyvindrson        | 1309      | 1354 | 45   | 1346-1354 | Eríkr III, Eyvindrbróðir       | 1315      | 1349 | 34   | 1346-1349 |
+    |                               |           |      |      |           | Eir I, Eyvindrsystir           | 1299      | 1360 | 61   | 1349-1354 |
+    | Eir I, Eyvindrsystir          | 1299      | 1360 | 61   | 1354-1360 | Björg I, Eirdóttir             | 1318      | 1374 | 56   | 1355-1360 |
+    | Björg I, Eirdóttir            | 1318      | 1374 | 56   | 1360-1374 | Ásgeirr I, Björgson            | 1330      | 1392 | 62   | 1361-1374 |
+    | Ásgeirr I, Björgson           | 1330      | 1392 | 62   | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       | 1333      | 1393 | 60   | 1375-1392 |
+    #+TBLFM: $4=$3-$2::$9=$8-$7
+    {{{end-largetable}}}
+
 ** Écologie
    :PROPERTIES:
    :CUSTOM_ID: h-1cff65b5-a389-4f68-9feb-7aaf4d6c50ee
@@ -194,6 +261,7 @@
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
     :END:
 
+    {{{begin-largetable}}}
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
@@ -204,7 +272,9 @@
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |      r̪ (r̪̥)      |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |      l̪ (l̪̥)      |                  |                  |                       |                  |
+    {{{end-largetable}}}
 
+    {{{begin-largetable}}}
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
@@ -215,6 +285,7 @@
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |        r        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
+    {{{end-largetable}}}
 
     Pour plus de simplicité, la diacritique dentale ne sera pas marquée ailleurs
     ({{{phon(t)}}} est donc l’équivalent de [t̪]).
@@ -249,6 +320,7 @@
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
 
+    {{{begin-largetable}}}
     |          / |     <     |         |            |
     |        <r> |    <c>    |   <c>   |    <c>     |
     |            | antérieur | central | postérieur |
@@ -259,7 +331,9 @@
     |  mi-ouvert |     œ     |         |     ɔ      |
     | pré-ouvert |     æ     |         |            |
     |     ouvert |           |         |     ɑ      |
+    {{{end-largetable}}}
 
+    {{{begin-largetable}}}
     |          / |     <     |            |
     |        <r> |    <c>    |    <c>     |
     |            | antérieur | postérieur |
@@ -269,6 +343,7 @@
     |  mi-ouvert |     ö     |     ó      |
     | pré-ouvert |     æ     |            |
     |     ouvert |           |     a      |
+    {{{end-largetable}}}
 
     Depuis le vieux nordique :
     - {{{phon(a)}}} > {{{phon(ɑ)}}}
@@ -311,13 +386,14 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+attr_html: :alt Arbre des consonnes de l’Einnlandais :align center
+    #+ATTR_HTML: :alt Arbre des consonnes de l’Einnlandais :align center
+    #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes de l’Einnlandais
     #+RESULTS[e2fa11efdddf12a6e36e8153a0720e5c47b9b93f]:
     [[file:img/einnlanda-vowel-feature-tree.png]]
-
+    {{{begin-largetable}}}
     |   /   |      <>       |      >       |       >        |      >       |       >        |
-    |  <c>  |      <c5>     |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
+    |  <c>  |     <c5>      |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
     | vowel | {{{v(high)}}} | {{{v(rnd)}}} | {{{v(tense)}}} | {{{v(low)}}} | {{{v(front)}}} |
     |-------+---------------+--------------+----------------+--------------+----------------|
     |   y   |       +       |      +       |       +        |      -       |       +        |
@@ -330,6 +406,7 @@
     |   æ   |       -       |      -       |       +        |      +       |       +        |
     |   e   |       -       |      -       |       +        |      -       |       +        |
     |   ɑ   |       -       |      -       |       -        |      +       |       -        |
+    {{{end-largetable}}}
 
     Allophonie :
     - V / _C[+nasal] > V[+nasal]
