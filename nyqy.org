@@ -228,7 +228,8 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+attr_html: :alt Arbre des consonnes du Ňyqy :align center
+    #+ATTR_HTML: :alt Arbre des consonnes du Ňyqy :align center
+    #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
     #+RESULTS[2c0685c9f85f1b06c5092c4e49b56e8546696de2]:
     [[file:img/nyqy-consonant-feature-tree.png]]
