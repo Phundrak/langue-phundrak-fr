@@ -47,33 +47,89 @@
    :CUSTOM_ID: h-55c5bdb0-8ad9-4be0-8527-925b166474eb
    :END:
 
+** Références
+   :PROPERTIES:
+   :CUSTOM_ID: h-a934dcc6-ed20-485e-a9cd-fc04974e095e
+   :END:
+   Dans ce  document, je me  référerai parfois  à des recherches  académiques ou
+   autres  ouvrages.  Afin de  faciliter  les  recherches,  voici la  liste  des
+   documents cités.  Plus tard, je ne  me référerai qu’au nom  de l’auteur ainsi
+   qu’à  l’année de  publication. Mes  recherches  en matière  de Vieux  Norrois
+   reposent également principalement sur l’ouvrage de M. Barnes (2008) dont vous
+   trouverez la référence ci-dessous.
+
+   - B. Elan  Dresher, /The Contrastive  hierarchy in phonology/,  University of
+     Toronto, 2003
+   - MIchael  Barnes, /A  New Introduction  to  Old Norse/,  Viking Society  for
+     Northern Research, University College London, 2008
+
 ** Introduction
    :PROPERTIES:
    :CUSTOM_ID: h-0c5f0aa6-d69d-4fd5-8f61-df9a409af18f
    :END:
    L’Eittlandais est une idéolangue (langue construite) humaine, inspirée par le
-   Vieux Nordique Occidental,  ayant subit une évolution lente  dans un contexte
+   Vieux Norrois  Occidental, ayant subit  une évolution lente dans  un contexte
    isolé, à l’instar de l’Islandais, sur l’île d’Eittlande présentée ci-dessous.
    Quelques libertés  ont été prises de  façon à contrôler l’orientation  de son
-   évolution acoustique, cependant  j’essaierai de créer une  grammaire fidèle à
-   ce à quoi on peut s’attendre d’une langue nordique.
+   évolution  acoustique et  grammaticale,  cependant j’essaierai  de créer  une
+   grammaire  fidèle à  ce  à quoi  on peut  s’attendre  d’une langue  nordique,
+   l’Eittlandais  étant  une langue  plutôt  conservatrice  comparée aux  autres
+   langues nordiques. Les  personnes ayant déjà des  connaissances concernant le
+   Vieux Norrois, l’Islandais ou le Norvégien auront peut-être plus de facilités
+   pour ce qui est de la compréhension de la langue et de sa grammaire.
 
-   Il s’agit d’un  projet à part de mon univers  littéraire. L’Éïttlanda est une
-   langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]], existant  dans un univers  alternatif au notre,  et à
-   celui du monde où le Mattér existe. Tandis que le Mattér est une langue créée
-   pour mon  propre plaisir de créer  une langue, l’Éïttlanda est  une tentative
-   plus sérieuse de faire évoluer une ancienne langue en une langue moderne, pas
-   seulement m’en inspirer mais réellement hériter de cette langue.
+   Il s’agit d’un  projet à part de mon univers  littéraire. L’Eittlanda est une
+   langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]],  existant dans  un univers alternatif  au nôtre  et à
+   celui où le Mattér existe. Tandis que le Mattér est une langue créée pour mon
+   propre  plaisir de  créer  une  langue, l’Éittlanda  est  une tentative  plus
+   sérieuse de  faire évoluer  une ancienne  langue en  une langue  moderne, pas
+   seulement  m’en inspirer  mais réellement  faire hériter  de cette  langue la
+   langue que je créé.
 
-   Ce document utilisera les conventions habituelles des ouvrages linguistiques,
-   tel que  le gloss pour  le détail linguistique  d’une phrase, ou  les phrases
-   incorrectes  marquées par  une  étoile  ~*~ et  les  phrases  à la  grammaire
-   questionnables notées par un point d’interrogations ~?~.
+   Ce  document ne  s’adresse pas  aux personnes  souhaitant apprendre  à parler
+   l’Eittlandais, il ne s’agit pas d’un manuel d’apprentissage. Il s’agit plutôt
+   d’une grammaire  de référence à laquelle  je pourrai me réferrer  lors de mes
+   utilisation de la langue. Je pré-suppose  également que le lecteur dispose de
+   certaines  connaissances,  notamment  qu’il   ou  elle  connaisse  l’alphabet
+   phonétique international ou  qu’il ou elle dispose  de quelques connaissances
+   linguistiques. Il n’existe pas encore,  à l’heure actuelle, de manuel orienté
+   vers l’apprentissage de la langue, uniquement  celui-ci dédié à l’étude de sa
+   grammaire.
 
 ** Liste des abbréviations
    :PROPERTIES:
    :CUSTOM_ID: h-58d63d52-aebc-4b33-841e-b7a561d0f7c4
    :END:
+   Un  certain  nombre d’abbréviations  seront  utilisées  dans ce  document  en
+   particulier  lors de  l’expression de  relations grammaticales  ou d’éléments
+   grammaticaux. Il  est donc  important pour  les personnes  souhaitant étudier
+   cette  langue de  savoir  à quoi  cela  correspond. Voici  une  liste que  je
+   m’efforce à garder  exhaustive des abbréviations que  vous pourrez rencontrer
+   plus tard.
+
+   - ACC :: accusatif
+   - NOM :: nominatif
+   - GEN :: génitif
+   - DAT :: datif
+   - SG :: singulier
+   - PL :: pluriel
+   - 1 :: première personne
+   - 2 :: deuxième personne
+   - 3 :: troisième personne
+   - M :: masculin
+   - N :: neutre
+   - F :: féminin
+   - PN :: phrase nominale
+   - PV :: phrase verbale
+   - OD :: objet direct
+   - OI :: object indirect
+   - API :: Alphabet Phonétique International
+
+   Ce  document utilisera  également  les conventions  habituelles des  ouvrages
+   linguistiques, tel que le gloss pour  le détail linguistique d’une phrase, ou
+   les  phrases incorrectes  marquées par  une étoile  ~*~ et  les phrases  à la
+   grammaire questionnables notées par un point d’interrogations ~?~.
+
 
 * Contexte culturel, écologique et sociolinguiste de la langue
   :PROPERTIES:
@@ -257,6 +313,164 @@
    :CUSTOM_ID: h-ed0cea88-9b4f-42e9-ac94-b40c8432e264
    :END:
 
+*** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
+    :END:
+    L’Eittlandais  dispose   d’un  total   de  dix  voyelles   dites  « pures ».
+    Contrairement au Vieux Norrois, l’Eittlandais  ne dispose pas de distinction
+    entre voyelles  longues et voyelles courtes,  toutes ont à peu  près la même
+    durée de prononciation. Seule une  onzième voyelles, le schwa {{{phon(ə)}}},
+    se  prononce rapidement.  Cela  est dû  au  fait que  cette  voyelle est  un
+    amenuisement  de  la   voyelle  <y>.  Vous  pouvez  voir   dans  le  tableau
+    [[vow:eittlanda:ipa]]  la liste  des voyelles  dont dispose  l’Eittlandais. Vous
+    pouvez remarquer  que le schwa  est entre parenthèses : cela  signifie qu’il
+    s’agit d’un allophone. Nous en reparlerons dans le chapitre sur l’allophonie
+    (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).
+
+    {{{begin-largetable}}}
+    #+NAME: vow:eittlanda:ipa
+    #+CAPTION: Voyelles de l’Eittlandais (API)
+    |          / |     <     |         |            |
+    |        <r> |    <c>    |   <c>   |    <c>     |
+    |            | antérieur | central | postérieur |
+    |------------+-----------+---------+------------|
+    |      fermé |    i y    |         |     u      |
+    |   mi-fermé |    e ø    |         |     o      |
+    |      moyen |           |   (ə)   |            |
+    |  mi-ouvert |     œ     |         |     ɔ      |
+    | pré-ouvert |     æ     |         |            |
+    |     ouvert |           |         |     ɑ      |
+    {{{end-largetable}}}
+
+    Dans le  tableau [[#h-8a426b75-a928-4eb6-94a4-6532dd9d91e5]], nous  pouvons voir
+    une correspondance avec le tableau [[vow:eittlanda:ipa]] où les voyelles situées
+    similairement  représentent  l’orthographe  latine   de  ces  voyelles.  Par
+    exemple, la  voyelle {{{phon(œ)}}} est  représentée par le caractère  <ö> en
+    Eittlandais. On peut  voir également que le schwa  n’a aucune représentation
+    orthographique. À nouveau,  cela est dû à l’allophonie  de l’Eittlandais que
+    nous verrons plus bas.
+
+    {{{begin-largetable}}}
+    #+NAME: vow:eittlanda:orth
+    #+CAPTION: Voyelles de l’Eittlandais (orthographe latine)
+    |          / |     <     |            |
+    |        <r> |    <c>    |    <c>     |
+    |            | antérieur | postérieur |
+    |------------+-----------+------------|
+    |      fermé |    i y    |     u      |
+    |   mi-fermé |    e ø    |     o      |
+    |  mi-ouvert |     ö     |     ó      |
+    | pré-ouvert |     æ     |            |
+    |     ouvert |           |     a      |
+    {{{end-largetable}}}
+
+    Voici une description plus en détail des voyelles de l’Eittlandais :
+    - i    ::   même  {{{phon(i)}}}  qu’en  français   /île/.  Exemple :  /iðyn/
+             « travail, métier »
+    - y   ::  même   {{{phon(y)}}}  qu’en   français  /lune/.   Exemple :  /ymr/
+           « grognement, bourdonnement, fredonnement »
+    - u :: même {{{phon(u)}}} qu’en français /doux/. Exemple : /ull/ « laine »
+    - e :: même {{{phon(e)}}} qu’en français /été/. Exemple : /elgyr/ « élan »
+    - ø  ::  même  {{{phon(ø)}}}   qu’en  français  /deux/.  Exemple :  /døkkyr/
+           « sombre »
+    - o :: même {{{phon(o)}}} qu’en français /eau/. Exemple : /hof/ « temple »
+    - ö :: même {{{phon(œ)}}} qu’en français /neuf/. Exemple : /öpa/ « crier »
+    - ó :: même {{{phon(ɔ)}}} qu’en français /vote/. Exemple : /ól/ « bière »
+    - æ ::  même {{{phon(æ)}}} qu’en  anglais britanique /pat/.  Exemple : /sær/
+           « mer »
+    - a  ::  même {{{phon(ɑ)}}}  qu’en  anglais  britanique /father/.  Exemple :
+           /dagyr/ « jour »
+
+    Peu  d’évolutions  de  la  prononciation   des  voyelles  du  vieux  norrois
+    apparurent, mis  à part la  perte de  distinction entre voyelles  longues et
+    voyelles  courtes. Cependant,  trois voyelles  ont  tout de  même changé  de
+    prononciation :
+    - le   /a/  {{{phon(a)}}}   est  devenu   postérieur,  se   transformant  en
+      {{{phon(ɑ)}}}
+    - le  /ǫ/  {{{phon(ɒ)}}}  s’est  quant   à  lui  refermé,  devenant  un  /ó/
+      {{{phon(ɔ)}}}
+    - le /œ/ {{{phon(øː)}}} s’est ouvert en {{{phon(œ)}}}, perdant au passage sa
+      qualité de voyelle longue.
+
+    Suivant la  théorie de  hiérarchisation des phonèmes  selon B.  Elan Dresher
+    (2003), certains phonèmes sont perçus  comme étant plus proches que d’autres
+    par  les locuteurs  natifs  de  cette langue,  cette  distinction se  basant
+    principalement sur certaines caractéristiques desdits phonèmes. Il est ainsi
+    possible de créer un arbre  présentant la hiérarchie de ces caractéristiques
+    distinctives ayant pour résultat l’inventaire phonétique de la langue liée à
+    l’arbre ainsi créé.  Vous trouverez donc l’arbre  [[arbre:vowels]] présentant la
+    relation des différentes voyelles entre elles.
+
+    #+NAME: vow-dot
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+      <<tree-dot>>
+      (defvar vowels
+        '("vowels"
+          ("[high]"
+           ("[rnd]"
+            ("[front]" ("/y/"))
+            ("{front}" ("/u/")))
+           ("{rnd}" ("/i/")))
+          ("{high}"
+           ("[rnd]"
+            ("[tense]"
+             ("[front]" ("/ø/"))
+             ("{front}" ("/o/")))
+            ("{tense}"
+             ("[front]" ("/œ/"))
+             ("{front}" ("/ɔ/"))))
+           ("{rnd}"
+            ("[tense]"
+             ("[low]" ("/æ/"))
+             ("{low}" ("/e/")))
+            ("{tense}" ("/ɑ/"))))))
+      (tree-to-dot vowels)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/eittlanda-vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
+      $input
+    #+END_SRC
+    #+NAME: arbre:vowels
+    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :align center
+    #+ATTR_LATEX: :float sideways
+    #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
+    #+RESULTS[13479f199983d5f36a4583e44b8842f03dd66807]:
+    [[file:img/eittlanda-vowel-feature-tree.png]]
+
+    Dans   le  tableau   [[table:vowels:features]]  sont   présentées  chacune   des
+    caractéristiques de chaque voyelle individuelle de l’Eittlandais.
+
+    #+NAME: table:vowels:features
+    #+CAPTION: Caractéristiques distinctives de chacune des voyelles de l’Eittlandais
+    |   /   |      <>       |      >       |       >        |      >       |       >        |
+    |  <c>  |     <c5>      |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
+    | vowel | {{{v(high)}}} | {{{v(rnd)}}} | {{{v(tense)}}} | {{{v(low)}}} | {{{v(front)}}} |
+    |-------+---------------+--------------+----------------+--------------+----------------|
+    |   y   |       +       |      +       |       +        |      -       |       +        |
+    |   u   |       +       |      +       |       +        |      -       |       -        |
+    |   i   |       +       |      -       |       +        |      -       |       +        |
+    |   ø   |       -       |      +       |       +        |      -       |       +        |
+    |   o   |       -       |      +       |       +        |      -       |       -        |
+    |   œ   |       -       |      +       |       -        |      -       |       +        |
+    |   ɔ   |       -       |      +       |       -        |      -       |       -        |
+    |   æ   |       -       |      -       |       +        |      +       |       +        |
+    |   e   |       -       |      -       |       +        |      -       |       +        |
+    |   ɑ   |       -       |      -       |       -        |      +       |       -        |
+    {{{end-largetable}}}
+
+    Diphtongues :
+    - ei {{{phon(æi)}}}
+    - au {{{phon(ɔu)}}}
+    - ey {{{phon(øy)}}}
+
+    Allophonie :
+    - V / _C[+nasal] > V[+nasal]
+    - VV / _ > Vː
+    - e / _CV[-front +rnd] > jɔ
+    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
+      {{{phon(l)}}} ou {{{phon(r)}}}
+
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
@@ -291,7 +505,7 @@
     Pour plus de simplicité, la diacritique dentale ne sera pas marquée ailleurs
     ({{{phon(t)}}} est donc l’équivalent de [t̪]).
 
-    Depuis le vieux nordique :
+    Depuis le vieux norrois :
     - {{{phon(v)}}} > {{{phon(β)}}}
     - {{{phon(b)}}} > {{{phon(β)}}}
     - {{{phon(ð)}}} n’est plus un allophone de {{{phon(θ)}}}
@@ -315,109 +529,14 @@
     - kʷ / V_V > ɣʷ
     - C[+stop] / C[+nasal]_# > [+nasal]
 
-*** Voyelles
-    :PROPERTIES:
-    :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
-    :END:
-
-    {{{begin-largetable}}}
-    |          / |     <     |         |            |
-    |        <r> |    <c>    |   <c>   |    <c>     |
-    |            | antérieur | central | postérieur |
-    |------------+-----------+---------+------------|
-    |      fermé |    i y    |         |     u      |
-    |   mi-fermé |    e ø    |         |     o      |
-    |      moyen |           |   (ə)   |            |
-    |  mi-ouvert |     œ     |         |     ɔ      |
-    | pré-ouvert |     æ     |         |            |
-    |     ouvert |           |         |     ɑ      |
-    {{{end-largetable}}}
-
-    {{{begin-largetable}}}
-    |          / |     <     |            |
-    |        <r> |    <c>    |    <c>     |
-    |            | antérieur | postérieur |
-    |------------+-----------+------------|
-    |      fermé |    i y    |     u      |
-    |   mi-fermé |    e ø    |     o      |
-    |  mi-ouvert |     ö     |     ó      |
-    | pré-ouvert |     æ     |            |
-    |     ouvert |           |     a      |
-    {{{end-largetable}}}
-
-    Depuis le vieux nordique :
-    - {{{phon(a)}}} > {{{phon(ɑ)}}}
-    - {{{phon(ɒ)}}} > {{{phon(ɔ)}}}
-    - {{{phon(øː)}}} > {{{phon(œ)}}}
-    - {{{phon(Vː)}}} > {{{phon(V)}}}
-
-    Diphtongues :
-    - ei {{{phon(æi)}}}
-    - au {{{phon(ɔu)}}}
-    - ey {{{phon(øy)}}}
-
-    #+NAME: vow-dot
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
-      (defvar vowels
-        '("vowels"
-          ("[high]"
-           ("[rnd]"
-            ("[front]" ("/y/"))
-            ("{front}" ("/u/")))
-           ("{rnd}" ("/i/")))
-          ("{high}"
-           ("[rnd]"
-            ("[tense]"
-             ("[front]" ("/ø/"))
-             ("{front}" ("/o/")))
-            ("{tense}"
-             ("[front]" ("/œ/"))
-             ("{front}" ("/ɔ/"))))
-           ("{rnd}"
-            ("[tense]"
-             ("[low]" ("/æ/"))
-             ("{low}" ("/e/")))
-            ("{tense}" ("/ɑ/"))))))
-      (tree-to-dot vowels)
-    #+END_SRC
-
-    #+BEGIN_SRC dot :file img/eittlanda-vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
-      $input
-    #+END_SRC
-    #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais :align center
-    #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des consonnes de l’Eittlandais
-    #+RESULTS[e2fa11efdddf12a6e36e8153a0720e5c47b9b93f]:
-    [[file:img/eittlanda-vowel-feature-tree.png]]
-    {{{begin-largetable}}}
-    |   /   |      <>       |      >       |       >        |      >       |       >        |
-    |  <c>  |     <c5>      |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
-    | vowel | {{{v(high)}}} | {{{v(rnd)}}} | {{{v(tense)}}} | {{{v(low)}}} | {{{v(front)}}} |
-    |-------+---------------+--------------+----------------+--------------+----------------|
-    |   y   |       +       |      +       |       +        |      -       |       +        |
-    |   u   |       +       |      +       |       +        |      -       |       -        |
-    |   i   |       +       |      -       |       +        |      -       |       +        |
-    |   ø   |       -       |      +       |       +        |      -       |       +        |
-    |   o   |       -       |      +       |       +        |      -       |       -        |
-    |   œ   |       -       |      +       |       -        |      -       |       +        |
-    |   ɔ   |       -       |      +       |       -        |      -       |       -        |
-    |   æ   |       -       |      -       |       +        |      +       |       +        |
-    |   e   |       -       |      -       |       +        |      -       |       +        |
-    |   ɑ   |       -       |      -       |       -        |      +       |       -        |
-    {{{end-largetable}}}
-
-    Allophonie :
-    - V / _C[+nasal] > V[+nasal]
-    - VV / _ > Vː
-    - e / _CV[-front +rnd] > jɔ
-    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
-      {{{phon(l)}}} ou {{{phon(r)}}}
-
 *** Ton et accentuation
     :PROPERTIES:
     :CUSTOM_ID: h-c83deaf0-9767-4ac8-a109-7a677b5fba9d
+    :END:
+
+*** Allophonie
+    :PROPERTIES:
+    :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
     :END:
 
 *** Système d’écriture
