@@ -1,0 +1,897 @@
+# -*- org-confirm-babel-evaluate: nil -*-
+#+include: headers/head-lvl0.org
+#+TITLE: Une Grammaire du Ňyqy
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+LATEX_CLASS: book
+#+OPTIONS: auto-id:t
+#+TOC: headlines
+# To be used at https://jasontank.net/wordgen.html
+#+NAME: wordgen-backup
+#+BEGIN_SRC text :exports none
+  --CATEGORIES--
+  A=qgcjňmnszpbw
+  B=qgcjňmnszpb
+  V=öëoe
+  W=üuyi
+  C=jczs
+  P=mbpgq
+  --REWRITE--
+
+  --MONO--
+  AV
+  BW
+  AVB
+  BWB
+  VB
+  WB
+  AVCP
+  BWCP
+  --MID--
+  AV
+  BW
+  CPV
+  CPW
+  --INIT--
+  AV
+  BW
+  --FINAL--
+  AV
+  BW
+  CPV
+  CPW
+  AVB
+  BWB
+  CPVB
+  CPWB
+  AVCP
+  BWCP
+  CPVCP
+  CPWCP
+
+  --FLAGS--
+  0 0 monoMostly dropoffSlow
+  --ADVANCED--
+  10
+  150
+  750
+  30
+  ||
+#+END_SRC
+
+* Propos préliminaires
+  :PROPERTIES:
+  :CUSTOM_ID: h-e44a14c5-9063-40a6-bce6-043b0869582e
+  :UNNUMBERED: t
+  :END:
+
+** Avant-propos
+   :PROPERTIES:
+   :CUSTOM_ID: h-45733210-18dc-486a-858a-0af1d438d285
+   :END:
+
+   La  redistribution ou  vente de  ce document  sont strictement  interdits. Ce
+   document est protégé par la loi française sur le droit d’auteur et appartient
+   entièrement  et  totalement  à  son  auteur.  Ce  document  est  un  document
+   disponible gratuitement au format web et  PDF sur mon site web[fn:1]. Si vous
+   l’avez obtenu  depuis une autre  source, gratuitement  ou non, merci  de m’en
+   faire part  en me  contactant via mes  réseaux sociaux ou  par mail  que vous
+   trouverez sur mon site principal[fn:2].  Aucune personne, morale ou physique,
+   n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes
+   intéressés par une redistribution de ce document, je vous invite à rentrer en
+   contact avec moi afin que l’on en discute.
+
+   Ce document traite d’une langue imaginaire  que j’ai créé. Cependant, il sera
+   rédigé comme s’il s’agissait d’une tentative  de description de la langue par
+   un linguiste travaillant dessus. Ainsi, si dans certains passages vous pouvez
+   lire « mais plus d’études sur le  sujet sont nécessaires » ou « cet aspect de
+   la  langue n’a  pas  encore été  sujet à  des  analyses plus  approfondies »,
+   comprenez par cela que je n’ai pas  encore travaillé sur ou fini cette partie
+   qui peut  être sujet  à des  mises à jours  dans le  futur. Seul  le chapitre
+   actuel et le chapitre suivant seront rédigés en dehors de ce style.
+
+** Introduction sur le Ňyqy en tant que langue construite
+   :PROPERTIES:
+   :CUSTOM_ID: h-8aa14ca5-6a1c-4e03-b30a-75bd90452308
+   :END:
+
+   Depuis plusieurs siècle déjà, la création de langues est une discipline ayant
+   intriguée les  Hommes, certains créant  des langues dans des  buts religieux,
+   philosophiques ou  idéalistes, tandis que  d’autres n’en crééent que  dans un
+   but  artistique,  que  ce  soit  pour compléter  une  œuvre  comme  l’a  fait
+   JRR Tolkien  avec  ses  diverses  langues  dont  les  langues  elfiques  pour
+   compléter son univers présenté dans « Le Seigneur des Anneaux », ou bien dans
+   le but purement artistique de créer une  langue pour la beauté du geste, pour
+   l’œuvre que cette  langue peut être en elle-même. Et  parmi ces langues, deux
+   groupes se  distinguent : les  langues /a posteriori/,  qui sont  des langues
+   crées  avec  d’autres langues  servant  pour  base,  comme  c’est le  cas  de
+   l’Esperanto ou du  Elefen, ou bien qui  sont créées /a priori/,  c’est à dire
+   sans  aucune base  au  préalable autre  que  des connaissances  linguistiques
+   suffisantes pour pouvoir créer une langue, comme pour le Klingon de l’univers
+   de /StarTrek/.
+
+   Durant  ces  dernières  décénies,   aidés  par  l’avènement  d’internet,  les
+   créateurs  de  langues,  auquel  on  se  réfère  par  « idéolinguistes »,  ou
+   « conlangers » dans la langue de Shakespeare, ont pu se fédérer, échanger, et
+   améliorer leur art tout en le propageant. Et à l’heure actuelle, inspirés par
+   des  pièces artistiques  comme la  série  télévisée « Game  of Thrones »,  de
+   nombreux idéolinguistes aspirent  à créer une langue qui leur  est propre, et
+   qui  apparaisse  comme  étant  une langue  naturelle.  Pour  cela,  plusieurs
+   solutions sont  possibles : la  création immédiate de  la langue  cible, puis
+   d’une incorporation de règles aléatoires afin de simuler une langue naturelle
+   avec  ses irrégularités  qui  lui  sont propres,  ou  bien  créer une  langue
+   prototype de laquelle de nouvelles langues seront créées.
+
+   Le Ňyqy n’a pas aspiration à être  une langue ayant un aspect naturel. Il n’a
+   pas non plus aspiration à être une langue particulièrement complète ou riche,
+   il n’a  pas aspiration  à être  parlé par des  êtres formidables  d’une série
+   télévisée.  Le  Ňyqy  n’a  qu’une   aspiration :  être  une  de  ces  langues
+   prototypes,  ou proto-lang,  créée  /a priori/,  et  sur laquelle  reposeront
+   d’autres langues  ayant évoluées  des bases que  posera cette  langue source.
+   Quelques règles seront insérées afin  de donner un semblant d’irrégularité ou
+   de naturalisme au Ňyqy, mais ces  règles resteront simples, à l’instar de ses
+   autres règles grammaticales.
+
+** Introduction sur le Ňyqy
+   :PROPERTIES:
+   :CUSTOM_ID: h-ad4d6a0c-e05b-4c28-98c6-baec9e843e96
+   :END:
+   Toute langue  dans notre monde  vient de  quelque part. Toute  langue descend
+   d’une  autre  langue,  qui  fut  parlée  fut une  époque,  et  qui  ne  l’est
+   probablement plus. Peut-être y a t’il eu un jour la première langue parlée au
+   monde,  ou bien  peut-être a-t-elle  apparu  si lentement  qu’il nous  serait
+   impossible de distinguer le moment  où une première langue apparu réellement.
+   Peut-être n’aurons-nous jamais  idée de ce à quoi  ressembleront les premiers
+   sons émis par nos ancêtres, comment ils communiquaient entre eux.
+
+   Cependant, grâce  aux langues  actuelles et les  langues disparues  mais dont
+   nous avons  toujours la  trace grâce à  d’anciens documents,  la linguistique
+   moderne  peut  faire  des  rapprochement  entre  ces  différentes  façons  de
+   s’exprimer. Nombre de mes prédécesseurs  et collègues mirent déjà en évidence
+   des relations entre différentes langues, l’une étant sœur de l’autre, mère de
+   l’autre et ainsi de suite.  Ainsi, progressivement, un arbre généalogique des
+   langues  du  monde  se  construit  au  fur et  à  mesure  des  recherches  et
+   découvertes, retraçant petit  à petit l’histoire de  nos différentes langues,
+   leur parentés ; et cela nous donne également des indications sur les origines
+   des peuples  qui parlaient ces  langues, de  leur itinéraire sur  notre globe
+   durant les jeunes années de notre espèce.
+
+   Nous avons aujourd’hui un point où il  nous est possible d’oser imaginer ce à
+   quoi pouvait ressembler les formes les plus anciennes de civilisation grâce à
+   l’une des plus anciennes langues qui  nous soit connues, le Ňyqy, langue mère
+   de plus de la  moitié des langues du monde, parlée il y  a entre huit et onze
+   mille ans dans  l’un des berceaux de notre  civilisation. Plusieurs illustres
+   collègues ont  déjà travaillé sur cette  langue et sur sa  reconstruction, et
+   ont fait des  progrès fabuleux sur cette langue légendaire.  J’ai moi-même pu
+   assister certains  de ces  collègues dans  leurs recherche.  Cependant, cette
+   implication m’a amené à une réalisation cruciale : jusqu’à présent, quelqu’un
+   intéressé  par le  Ňyqy  ne  pouvait facilement  accéder  à  un condensé  des
+   résultats  des  recherches  existantes,  présents en  un  unique  ouvrage  se
+   présentant comme une grammaire technique  de la langue. Ainsi, j’ai entrepris
+   de la rédiger  dans cet ouvrage dans  l’espoir que cela facilite  la tâche de
+   mes collègues et futurs collègues dans leurs études de cette merveille qu’est
+   le résultat de cette collaboration linguistique internationale s’étant étalée
+   sur plusieurs siècles, aidés par les  écrits survivants de la précédente Ère.
+   Je suis pleinement conscient que ce  document risque d’un jour être obsolète,
+   et ce jour-là, une nouvelle  version deviendra nécessaire. Je prie simplement
+   pour que mes efforts puissent être à  la hauteur des efforts déployés par mes
+   collègues afin de découvrir tout ce savoir. /né_{4}Hje_{2}lpel./
+
+** Liste d’abbréviations
+   :PROPERTIES:
+   :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
+   :END:
+
+* La culture, l’histoire, le contexte sociolinguistique du Ňyqy
+  :PROPERTIES:
+  :CUSTOM_ID: h-362fe960-94ae-42e2-8db3-54d52c7de175
+  :END:
+
+** Le peuple, son regard sur lui-même
+   :PROPERTIES:
+   :CUSTOM_ID: h-6b729f0a-7131-443b-8ef3-ddfbaa23c65d
+   :END:
+   Peu de choses sont  connues sur le peuple, du fait de  sa distance avec nous,
+   et  du   fait  du   peu  d’éléments  dont   nous  disposons   directement  ou
+   indirectement. Beaucoup de nos  connaissances actuelles nous parviennent soit
+   des écrits survivants de l’Ère précédente, soit de recherches archéologiques,
+   soit de recherches linguistiques.
+
+   Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
+   probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
+   également que le  terme ait été utilisé  par le peuple Ňyqy  pour se désigner
+   lui-même, mais nous disposons de trop  peu de preuve afin de pouvoir affirmer
+   cela avec certitude.  Le terme s’analyse en deux morphèmes  basiques, /ňy/ et
+   /qy/. Le terme /ňy/ est le pronom  personel du singulier, et /qy/ qui le suit
+   a plusieurs  utilisations, le  chiffre /6/  (le Ňyqy est  une langue  dont le
+   système  numérique est  un système  hybride entre  une base  six et  une base
+   treize) ou  bien la pluralité,  ici infléchissant le  /ňy/ afin de  former la
+   première personne du pluriel.
+
+   Il est à noter que le nom  de cette langue est traditionellement écrite en un
+   seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
+   mauvaise habitude : chaque élément peut être analysé individuellement et peut
+   donc être  considéré comme  mots séparés,  d’où la  néographie « Ňy  Qy » que
+   certains  de  mes  collègues  utilisent, tentant  de  corriger  cette  erreur
+   maintenant multi-centenaire. Bien que je salue leur initiative je continuerai
+   de nommer cette langue  « Ňyqy » dans cet ouvrage afin de  suivre la norme et
+   afin de  ne pas  rendre confus certaines  personnes n’ayant  jamais rencontré
+   cette néographie, et je présente mes excuses à ces collègues.
+
+   Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ňyqy », ou
+   « proto  Ňy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
+   l’abscence totale d’autres langues  nommées « Ňyqy ». Elle n’est généralement
+   utilisée que  si le  locuteur souhaite  insister sur la  nature de  la langue
+   comme langue mère de sa famille.
+
+** Recherches précédentes
+   :PROPERTIES:
+   :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
+   :END:
+   Comme  mentionné plus  tôt,  le Ňyqy  est l’objet  depuis  fort longtemps  de
+   recherches linguistiques,  tout d’abord par des  linguistes hélas aujourd’hui
+   anonymes ayant  vécus lors de  l’Ère précédente. Leurs  connaissances étaient
+   sans  doute  beaucoup  plus  vastes  que ce  que  nous  avons  pu  récupérer,
+   probablement similaires à celles dont  nous disposons aujourd’hui, mais comme
+   tout le monde  le sait, seul peu  de témoignages de cette époque  ont pu nous
+   parvenir,  et  les   restes  de  l’Université  de  Ðbńo   relève  du  miracle
+   archéologique.
+
+   Ces premières  recherches, une  fois traduites,  ont servi  de base  aux deux
+   derniers  siècles de  recherche  en  direction du  Ňyqy,  avec notamment  les
+   recherches du Pr Loqbrekh (3489) le siècle dernier qui a réalisé d’importants
+   progrès  sur l’étude  de  cette langue  grâce à  l’addition  de l’analyse  du
+   Énanonn, ainsi que  les études du Pr Khorlan  (3598) qui, il y a  cinq ans, a
+   également énormément fait  progresser les recherches grâce à  ses travaux sur
+   le Tãso. Je me reposerai principalement  sur leurs recherches afin de rédiger
+   cet ouvrage, ainsi que leurs références diverses.
+
+** Ethnologie
+   :PROPERTIES:
+   :CUSTOM_ID: h-dec628cc-50e8-4370-889d-e54b2a2e2280
+   :END:
+   Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ňyqy. Pour plus
+   de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ňyqy/  de
+   K. Yerth, 3404. Un avertissement est tout de même nécessaire :
+   #+BEGIN_QUOTE
+   Nous n’avons  que très peu  de preuves et  témoignages directs sur  le peuple
+   Ňyqy  autre que  par les  ouvrages des  scientifiques de  l’Ère ancienne,  et
+   actuellement  par  les recherches  linguistiques  faites  par des  chercheurs
+   contemporains à cet ouvrage. Par conséquent, même si les anciens paraissaient
+   très confiants dans  leurs découvertes, il nous est  impossible d’affirmer ce
+   que l’on sait  sur ce peuple comme  étant un fait, mais  simplement comme une
+   forte probabilité que  c’était en effet le cas. La  recherche actuelle sur ce
+   peuple et  les hypothèses et  théories peuvent  sembler très solides,  mais à
+   bien y regarder, elles ne le sont qu’entre elles, en supposant que ce que les
+   scientifiques  de l’Ère  ancienne  ne  se trompaient  pas.  Les seules  bases
+   tangibles  auxquelles nous  avons  encore  accès sont  celles  posées par  la
+   linguistique historique,  mais hélas  celle-ci se repose  également fortement
+   sur ces incertitudes que nous avons.
+
+   — K. Yerth
+   #+END_QUOTE
+
+   Le peuple Ňyqy  était un peuple vivant dans l’actuel  Rhésode, dans la vallée
+   du Mojhal.  Son cœur  économique se  situait selon  toutes évidences  dans le
+   delta  du fleuve  Mojhal, où  la première  forme de  civilisation connue  est
+   apparue.   Leur   activité   principale  était   basée   principalement   sur
+   l’agriculture, en  particulier sur la  culture d’un grain pouvant  être selon
+   les sources  du blé  ou du riz,  voire les deux.  Leur élevage  était orienté
+   principalement sur  celui des  vaches et des  porcs. Une  importante activité
+   d’échange  fluviale  s’était  probablement   déjà  développée,  ainsi  qu’une
+   activité de pêche dans la zone maritime de la vallée du Mojhal.
+
+   Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
+   que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
+   communales <sümuszq> ; cela inclus tous  les membres de la famille descendant
+   de l’ancêtre commun le plus âgé, ainsi que leurs époux ou épouses respectifs.
+
+   Sur  ce  dernier  point,  il  semblerait qu’il  n’y  avait  pas  de  tendance
+   particulière quant  à qui  rejoignais la  famille de  qui parmi  les familles
+   représentant le bas peuple,  composées principalement de paysans, d’artisants
+   et de petits marchants. En revanche,  il semblerait qu’il était beaucoup plus
+   fréquent  pour les  hommes de  rejoindre la  famille de  leur femme  une fois
+   mariés si la  famille pouvait être considérée comme riche  ou importante, par
+   exemple  si il  s’agit  d’une  famille de  riches  marchands  ou une  famille
+   détenant un pouvoir militaire.
+
+   Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ňyqy
+   pratiquaient leur religion polythéïste. Il est cependant impossible de savoir
+   s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
+   Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
+   moins, ainsi que la vénération des étoiles et du feu.
+
+** Corpus, reconstruction de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-acf6406f-5fd3-4d01-a0f0-89adef88d5ff
+   :END:
+
+* Aperçu structurel
+  :PROPERTIES:
+  :CUSTOM_ID: h-6e72a430-ce27-41ab-b2a6-4b8f54c2a2d3
+  :END:
+
+** Esquisse typologique du Ňyqy
+   :PROPERTIES:
+   :CUSTOM_ID: h-e2f22e3c-6069-4881-a3e2-3d319e434fb7
+   :END:
+   Le  Ňyqy  est une  langue  qui  apparaît  comme étant  fortement  analytique,
+   reposant principalement sur  sa syntaxe afin d’exprimer sa  grammaire et très
+   peu  sur  des  règles  morphologiques.   La  large  majorité  des  mots  sont
+   monosyllabiques ou bisyllabiques, et  les phrases s’articulent souvent autour
+   de morphèmes liés  monosyllabiques que l’on peut interpréter  comme étant des
+   particules  grammaticales.  Voici  un  exemple  de phrase  en  Ňyqy  avec  sa
+   traduction et son détail grammatical :
+   1. ňe pom qy
+
+      maison GEN 1sg
+
+      C’est ma maison
+
+   2. bü qi pim mo coq
+
+      2sg deux pomme PST manger
+
+      Nous avons mangé une pomme
+
+   3. qy qun gö
+
+      1sg OPT boire
+
+      Je souhaite boire
+
+   Dans l’exemple n°1, nous pouvons remarquer l’abscence d’un verbe « être », ce
+   qui est un exemple des prédicats  existentiels qui ne requièrent pas de verbe
+   afin  d’exprimer  une  possession.  On  peut  également  voir  que  l’élément
+   définisant est situé après la particule génitive, tandis que l’élément défini
+   se situe avant celle-ci. Il s’agit là d’un des nombreux exemples montrant que
+   le  Ňyqy  est  une  langue  dont   la  tête  de  ses  diverses  constructions
+   grammaticales  est finale  et  non  initiale.
+
+   L’exemple n°2  nous montre  la méthode  utilisée en  Ňyqy afin  d’employer le
+   duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
+   infléchir. Ainsi, « bü  qi » peut être considéré comme le  pronom personel de
+   la seconde personne du singulier infléchis afin de devenir le pronom personel
+   de la seconde personne du duel.
+
+   Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
+   d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
+   intransitive.  On peut  également  remarquer la  présence  d’un morphème  lié
+   « qun » dont le  rôle est de marquer  un mode pour le  verbe, en l’occurrence
+   l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
+   [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
+   d’inflexion des verbes du Ňyqy.
+
+** Inventaire phonologique et translittération
+   :PROPERTIES:
+   :CUSTOM_ID: h-f9f0a2a0-98a6-49d5-b943-98daa6078d3a
+   :END:
+
+*** Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
+    :END:
+
+*** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
+    :END:
+
+*** Tons et accentuation
+    :PROPERTIES:
+    :CUSTOM_ID: h-69fc0d1e-1375-4048-9775-8aacc4860eb4
+    :END:
+
+** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-fec68fe1-478e-46fa-8093-175ad3546347
+   :END:
+
+** Structure syllabique
+   :PROPERTIES:
+   :CUSTOM_ID: h-1058e08a-b109-43fa-8371-305685fda023
+   :END:
+
+** Structure des mots
+   :PROPERTIES:
+   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
+   :END:
+
+** Processus phonologiques et morphophonémiques principaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-477abbdc-eab0-4bd4-9d27-c39d9219d1d7
+   :END:
+
+*** Harmonie des consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
+    :END:
+
+** Classes de mots
+   :PROPERTIES:
+   :CUSTOM_ID: h-ca9ceb49-d27e-4f67-bd53-37762ea4f797
+   :END:
+
+*** Noms
+    :PROPERTIES:
+    :CUSTOM_ID: h-a0195f74-9ac1-417c-8af7-cc329e0efc04
+    :END:
+
+**** La structure d’un nom
+     :PROPERTIES:
+     :CUSTOM_ID: h-59a8a234-a3d0-4a8b-85f2-66abe231cbe6
+     :END:
+
+**** Dérivations
+     :PROPERTIES:
+     :CUSTOM_ID: h-3609d30d-2c4a-4cc9-9693-80ee16a0292e
+     :END:
+
+**** Inflections
+     :PROPERTIES:
+     :CUSTOM_ID: h-bb4f100b-4f1f-410c-9cf1-81dd86bba054
+     :END:
+
+**** Noms comptables et noms indénombrables
+     :PROPERTIES:
+     :CUSTOM_ID: h-31004fed-3cf7-4b7d-a4d2-88e38843c3d0
+     :END:
+
+**** Noms propres
+     :PROPERTIES:
+     :CUSTOM_ID: h-f093f96b-9501-456a-93a8-19709bd2b3cf
+     :END:
+
+*** Pronoms et clitiques anaphoriques
+    :PROPERTIES:
+    :CUSTOM_ID: h-94456c13-5082-4c98-86d4-011be90cbc78
+    :END:
+
+**** Pronoms personnels
+     :PROPERTIES:
+     :CUSTOM_ID: h-7c2642e5-e813-4b7e-ad82-933c997914bc
+     :END:
+
+**** Pronoms démonstratifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-d5c2c839-0ac4-4aad-9efd-5ae2635c85f2
+     :END:
+
+*** Verbes
+    :PROPERTIES:
+    :CUSTOM_ID: h-26aa65ba-2694-4c63-bf91-258dad3b0430
+    :END:
+
+**** Structure verbale
+     :PROPERTIES:
+     :CUSTOM_ID: h-adfce8d6-1a7a-4cb8-b6cb-97ea1c1c448b
+     :END:
+
+**** Dérivations verbales
+     :PROPERTIES:
+     :CUSTOM_ID: h-d24313ab-d25e-4057-92fc-539a35148646
+     :END:
+
+**** Inflections verbales
+     :PROPERTIES:
+     :CUSTOM_ID: h-a93f1630-eeff-4e33-aa34-7c75b4b83e0e
+     :END:
+
+*** Modifieurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-28acd155-bd9c-4eeb-9a2d-367f70b164b2
+    :END:
+
+**** Adjectifs descriptifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-e8c91c51-ccd6-4f05-9948-454f3154e297
+     :END:
+
+**** Quantifieurs non-numéraux
+     :PROPERTIES:
+     :CUSTOM_ID: h-782d5ae9-c047-4f53-b20c-7b7f732e4e8a
+     :END:
+
+**** Numéraux
+     :PROPERTIES:
+     :CUSTOM_ID: h-8b121d9f-4e6f-4e82-b50b-835fd94feb5c
+     :END:
+
+**** Adverbes
+     :PROPERTIES:
+     :CUSTOM_ID: h-863bc9c8-da03-4c1f-b80a-d4668d4c3294
+     :END:
+
+*** Adpositions
+    :PROPERTIES:
+    :CUSTOM_ID: h-fc26dc39-cc85-4f94-b942-65e6cbf1d98a
+    :END:
+
+*** Particules grammaticales
+    :PROPERTIES:
+    :CUSTOM_ID: h-d5d00396-a8d7-409f-a34e-d457013248d9
+    :END:
+
+** Typologie de l’ordre des constituants
+   :PROPERTIES:
+   :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
+   :END:
+
+*** Clauses principales
+    :PROPERTIES:
+    :CUSTOM_ID: h-76ccdf86-f9b5-4cee-82cf-52254848a449
+    :END:
+
+*** Phrases verbales
+    :PROPERTIES:
+    :CUSTOM_ID: h-e259aa87-569f-4ce7-8caf-05b9cbd77c1b
+    :END:
+
+*** Phrases nominales
+    :PROPERTIES:
+    :CUSTOM_ID: h-90885dd9-8c81-498b-a476-dd7262b8f61a
+    :END:
+
+*** Phrases adpositionelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-4079ffcb-f870-401c-a229-3c2b52774650
+    :END:
+
+*** Comparatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-7b89a3fd-dacc-4a7b-b6ba-7b4072261887
+    :END:
+
+*** Questions
+    :PROPERTIES:
+    :CUSTOM_ID: h-2bc6bce7-960e-47ed-9c5b-fe440ff7f096
+    :END:
+
+*** Résumé
+    :PROPERTIES:
+    :CUSTOM_ID: h-60bc5529-151f-44f9-8d6c-6ddea77b5b94
+    :END:
+
+** Structure d’un groupe nominal
+   :PROPERTIES:
+   :CUSTOM_ID: h-925c4d09-5d24-4b49-b00d-23f989aa93a3
+   :END:
+
+** Structure d’un groupe verbal
+   :PROPERTIES:
+   :CUSTOM_ID: h-3db4f84f-25d4-469f-9743-9920e0aa40e0
+   :END:
+
+** Prédicats nominaux et constructions similaires
+   :PROPERTIES:
+   :CUSTOM_ID: h-af6bdf77-7bd1-462c-a9ef-80a2bc5fbf96
+   :END:
+
+*** Prédicats nominaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-1a0fc190-c840-46d2-8ff0-718efc003534
+    :END:
+
+*** Prédicats adjectivaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-2998d21d-1a0a-441d-84c2-8a03b61c3d14
+    :END:
+
+*** Prédicats locatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-71c1cd9a-0431-47f9-9261-6347c37a6745
+    :END:
+
+*** Prédicats existentiels
+    :PROPERTIES:
+    :CUSTOM_ID: h-90aa44ee-7cd5-4421-84de-e8b967afbe0a
+    :END:
+
+*** Clauses possessives
+    :PROPERTIES:
+    :CUSTOM_ID: h-1da23469-a4c9-4ad9-a5f8-f2866548c492
+    :END:
+
+** Clauses intransitives
+   :PROPERTIES:
+   :CUSTOM_ID: h-382fdfd8-fd02-4902-8c08-1f0cc3012f75
+   :END:
+
+** Clauses transitives
+   :PROPERTIES:
+   :CUSTOM_ID: h-a5f60077-7709-496e-a811-e88d90a30cc7
+   :END:
+
+** Clauses ditransitives
+   :PROPERTIES:
+   :CUSTOM_ID: h-852808cb-7259-4f50-b6ec-bdc7a5ae4033
+   :END:
+
+** Clauses de type dépendant
+   :PROPERTIES:
+   :CUSTOM_ID: h-2fcea5e4-e67e-465d-a0b9-a44eecdabb20
+   :END:
+
+*** Non-fini
+    :PROPERTIES:
+    :CUSTOM_ID: h-ca1b2ac2-26a3-45b2-bca9-ffb4fd290662
+    :END:
+
+*** Semi-fini
+    :PROPERTIES:
+    :CUSTOM_ID: h-23ca6c77-b4ab-4f93-a052-cd85509e71d3
+    :END:
+
+*** Fini
+    :PROPERTIES:
+    :CUSTOM_ID: h-96506f26-b92e-45e0-a1b5-0f27dae98e31
+    :END:
+
+* Système fonctionnel
+  :PROPERTIES:
+  :CUSTOM_ID: h-ad15e52b-bc94-4b33-8629-02848b53cee7
+  :END:
+
+** Relations grammaticales
+   :PROPERTIES:
+   :CUSTOM_ID: h-ddc93b4c-8a5b-4833-82f5-bb8951d5a0b4
+   :END:
+
+** Constructions liées aux voix et à la valence
+   :PROPERTIES:
+   :CUSTOM_ID: h-af67335a-55e0-491c-8be1-a39e6cd80a6d
+   :END:
+
+*** Causatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-2618d8eb-9c64-4308-a386-c8f426759953
+    :END:
+
+*** Applicatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-827551d4-b24a-4d53-b71a-6ceb9a446e74
+    :END:
+
+*** Reflexifs et réciproquaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-3a6fd3ce-0ca2-4b90-8a35-b9ac2c4aa921
+    :END:
+
+*** Passif
+    :PROPERTIES:
+    :CUSTOM_ID: h-5bf5bdc8-6a4b-4e45-a155-04abfc32645f
+    :END:
+
+*** Inverses
+    :PROPERTIES:
+    :CUSTOM_ID: h-672b9408-8478-43af-8663-65106be88a41
+    :END:
+
+*** Démotion et omission d’objet
+    :PROPERTIES:
+    :CUSTOM_ID: h-c2176fd9-b4a7-40bb-b411-9c6d86c85561
+    :END:
+
+*** Incorporation d’objet
+    :PROPERTIES:
+    :CUSTOM_ID: h-09acd58c-5c32-4426-9e67-9a01c0db01dc
+    :END:
+
+** Nominalisation
+   :PROPERTIES:
+   :CUSTOM_ID: h-fe28b97b-5298-4558-ac69-141a96c87827
+   :END:
+
+*** Nominalisation d’action
+    :PROPERTIES:
+    :CUSTOM_ID: h-cb2ecaf9-7bef-4583-8bfd-d6f58a315b1d
+    :END:
+
+*** Nominalisation de participants
+    :PROPERTIES:
+    :CUSTOM_ID: h-b684c923-a567-4e31-b752-bceeeb0ff202
+    :END:
+
+**** Nominalisation d’agent
+     :PROPERTIES:
+     :CUSTOM_ID: h-ff6d145d-fd8d-4423-b9f5-064cf9e1a1ac
+     :END:
+
+**** Nominalisation de patient
+     :PROPERTIES:
+     :CUSTOM_ID: h-d0d91161-3748-4768-8990-b2d545fb397b
+     :END:
+
+**** Nominalisation d’instrument
+     :PROPERTIES:
+     :CUSTOM_ID: h-033007d8-05a7-4a0e-a8da-ce922ac46f13
+     :END:
+
+**** Nominalisation de lieux
+     :PROPERTIES:
+     :CUSTOM_ID: h-68161483-4469-43c3-b84c-24f50db51ffe
+     :END:
+
+**** Nominalisation de produit
+     :PROPERTIES:
+     :CUSTOM_ID: h-a7454e14-0dcb-4cf0-adc7-d44080f5f848
+     :END:
+
+**** Nominalisation de façon de faire
+     :PROPERTIES:
+     :CUSTOM_ID: h-11d9a04b-7fe3-4796-bc7e-fc19cd9fee7f
+     :END:
+
+** Temps, aspects, modes
+   :PROPERTIES:
+   :CUSTOM_ID: h-f500dde8-de1c-41e7-bcfa-2f35353dd1fb
+   :END:
+
+*** Temps
+    :PROPERTIES:
+    :CUSTOM_ID: h-d6c519b5-30fd-4812-a9fc-7a32feafa28f
+    :END:
+
+*** Aspects
+    :PROPERTIES:
+    :CUSTOM_ID: h-c59c6a50-d662-4fc1-954f-3cf3cff38c4f
+    :END:
+
+*** Modes
+    :PROPERTIES:
+    :CUSTOM_ID: h-a2e5515b-ea84-446b-99a7-d3924624925a
+    :END:
+
+** Structures marquées pragmaticallement
+   :PROPERTIES:
+   :CUSTOM_ID: h-53119c8d-f658-4d25-ba99-b83c2f7b1141
+   :END:
+
+*** Variation d’ordre des constituents
+    :PROPERTIES:
+    :CUSTOM_ID: h-96b5098a-1978-4c3f-80a4-701c092094b7
+    :END:
+
+*** Particules contrastives ou emphatiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-89e9cd31-86ed-48bf-a008-602430bcf0ce
+    :END:
+
+*** Modèle d’intonations contrastives ou emphatiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-c0e68a68-7310-461d-976d-93347cf8b73e
+    :END:
+
+*** Négation
+    :PROPERTIES:
+    :CUSTOM_ID: h-6a646498-d723-45b2-9e6b-2504130ea1ad
+    :END:
+
+*** Questions
+    :PROPERTIES:
+    :CUSTOM_ID: h-67bd057c-f2cb-4cd0-8421-9188ed37b443
+    :END:
+
+**** Questions absolues
+     :PROPERTIES:
+     :CUSTOM_ID: h-51d5c4b8-3530-4f48-9d84-95cac67df00d
+     :END:
+
+**** Questions relatives
+     :PROPERTIES:
+     :CUSTOM_ID: h-0b88c67d-3dc2-4b7c-9e10-41fedff292c1
+     :END:
+
+*** Impératif
+    :PROPERTIES:
+    :CUSTOM_ID: h-38810677-b444-48fb-9d2a-3a83b482eb50
+    :END:
+
+** Combinaison de clauses
+   :PROPERTIES:
+   :CUSTOM_ID: h-750f8ccc-c3aa-4e6d-b553-344645ad14fb
+   :END:
+
+*** Verbes de série
+    :PROPERTIES:
+    :CUSTOM_ID: h-197ca667-84c4-4701-8b84-e12498940db8
+    :END:
+
+*** Clauses complémentaires
+    :PROPERTIES:
+    :CUSTOM_ID: h-39f3fd70-aff6-4bbf-99d9-e84d720afe6c
+    :END:
+
+*** Clauses adverbiales
+    :PROPERTIES:
+    :CUSTOM_ID: h-c05e3ae9-2880-4454-9027-53ad1cfb3975
+    :END:
+
+*** Enchaînement de clauses
+    :PROPERTIES:
+    :CUSTOM_ID: h-375bb375-7848-4da8-910f-25679b447bc0
+    :END:
+
+*** Clauses relatives
+    :PROPERTIES:
+    :CUSTOM_ID: h-bf2f8f43-92b4-486f-8e0a-24694ba445c1
+    :END:
+
+*** Coordination
+    :PROPERTIES:
+    :CUSTOM_ID: h-b8957545-ba37-47eb-a548-2a17968b290b
+    :END:
+
+** Utilisation de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-14a41a5a-efa4-492e-967b-35011ea0628c
+   :END:
+
+*** Typologie lexicale
+    :PROPERTIES:
+    :CUSTOM_ID: h-285839a4-cc7c-435d-ba58-1600ca3f48f0
+    :END:
+
+**** Espace, direction et mouvement
+     :PROPERTIES:
+     :CUSTOM_ID: h-78bafe65-0cf5-49a4-aab5-fb5deb266015
+     :END:
+
+**** Causation
+     :PROPERTIES:
+     :CUSTOM_ID: h-84a756d2-ba4f-41a9-9496-40fa88259f9e
+     :END:
+
+**** Perspective
+     :PROPERTIES:
+     :CUSTOM_ID: h-f32373d9-9208-4f8c-a79c-b9a2cf1afce9
+     :END:
+
+*** Continuité et discontinuité
+    :PROPERTIES:
+    :CUSTOM_ID: h-89cae237-f281-4796-95a0-e0a48c368d01
+    :END:
+
+**** Continuité de sujet référenciel
+     :PROPERTIES:
+     :CUSTOM_ID: h-3a6784ba-3b39-4539-aeeb-a56d298649cd
+     :END:
+
+**** Continuité thématique
+     :PROPERTIES:
+     :CUSTOM_ID: h-621fd045-3082-4574-853b-89885f6a3b69
+     :END:
+
+**** Continuité d’action
+     :PROPERTIES:
+     :CUSTOM_ID: h-0b6b8ce5-367e-4502-af63-80ff14a10e4c
+     :END:
+
+* Annexes
+  :PROPERTIES:
+  :CUSTOM_ID: h-59ac4fcd-251d-492e-a73d-e33376457058
+  :END:
+
+** Textes avec traduction interlinéaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-a0d083dc-a30f-47eb-8d24-cde1c259d9d9
+   :END:
+
+** Glossaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
+   :END:
+
+** Références
+   :PROPERTIES:
+   :CUSTOM_ID: h-39866d3e-b4f9-4885-8581-53f7342ddf0c
+   :END:
+* Footnotes
+  :PROPERTIES:
+  :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
+  :END:
+
+[fn:2] [[https://phundrak.fr]]
+
+[fn:1] https://langue.phundrak.fr
