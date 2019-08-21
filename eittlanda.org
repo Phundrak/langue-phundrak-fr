@@ -1,14 +1,14 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+include: headers/head-lvl0.org
-#+TITLE: Une Grammaire de l’Einnlandais
-#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de l’Einnlandais" />
-#+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Einnlandais" />
-#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Einnlandaise" />
+#+TITLE: Une Grammaire de l’Eittlandais
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Eittlandais" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
 #+LATEX_CLASS: book
 #+LATEX_HEADER: \usepackage{tocloft} \setlength{\cftchapnumwidth}{3em}
 #+LATEX_HEADER: \usepackage{allrunes}
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
-#+MACRO: rune (eval (conlanging/einnlanda-org-export-runes "$1"))
+#+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
 
 #+OPTIONS: H:4 toc:nil ^:{} auto-id:t
@@ -51,17 +51,17 @@
    :PROPERTIES:
    :CUSTOM_ID: h-0c5f0aa6-d69d-4fd5-8f61-df9a409af18f
    :END:
-   L’Einnlandais est une idéolangue (langue construite) humaine, inspirée par le
+   L’Eittlandais est une idéolangue (langue construite) humaine, inspirée par le
    Vieux Nordique Occidental,  ayant subit une évolution lente  dans un contexte
-   isolé, à l’instar de l’Islandais, sur l’île d’Einnlande présentée ci-dessous.
+   isolé, à l’instar de l’Islandais, sur l’île d’Eittlande présentée ci-dessous.
    Quelques libertés  ont été prises de  façon à contrôler l’orientation  de son
    évolution acoustique, cependant  j’essaierai de créer une  grammaire fidèle à
    ce à quoi on peut s’attendre d’une langue nordique.
 
-   Il s’agit d’un  projet à part de mon univers  littéraire. L’Éïnnlanda est une
+   Il s’agit d’un  projet à part de mon univers  littéraire. L’Éïttlanda est une
    langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]], existant  dans un univers  alternatif au notre,  et à
    celui du monde où le Mattér existe. Tandis que le Mattér est une langue créée
-   pour mon  propre plaisir de créer  une langue, l’Éïnnlanda est  une tentative
+   pour mon  propre plaisir de créer  une langue, l’Éïttlanda est  une tentative
    plus sérieuse de faire évoluer une ancienne langue en une langue moderne, pas
    seulement m’en inspirer mais réellement hériter de cette langue.
 
@@ -100,6 +100,7 @@
     :CUSTOM_ID: h-7914837c-3bf9-4edf-828e-6a36f38527e4
     :END:
 
+
 *** Histoire, migrations
     :PROPERTIES:
     :CUSTOM_ID: h-f20f59bf-abf0-4732-acd3-4cb773e10b38
@@ -114,20 +115,20 @@
     des fils d’Ingólfr Arnarson, Ásmundr Ingólfrson, soit le roi de ce nouveau
     pays du fait de sa position au sein de l’économie de ce nouveau pays,
     faisant de lui Ásmundr I. Une monarchie s’installa donc à la tête d’un
-    système féodal. Éinnlande étant un territoire divisé en deux par la chaîne
+    système féodal. Éïttlande étant un territoire divisé en deux par la chaîne
     de volcan traversant l’île, un co-roi fut nommé pour reigner au nom du
     souverain sur la partie orientale de l’île lorsque Áleifr I, fils d’Ásmundr
     I, accéda au trône. Ainsi, Steingrímr Ásmundrson, frère cadet du roi, fut
     nommé comme co-roi en 937. En 959, suite au décès d’Áleifr I, son fils
     Áleifr II monta sur le trône et nomma un an après son frère Eyvindr co-roi.
     Cela commença ainsi la tradition du roi nommant un membre proche comme étant
-    co-roi d’Einnland. En 981, Áleifr III mourru à l’âge de 46 ans et sans
+    co-roi d’Eittland. En 981, Áleifr III mourru à l’âge de 46 ans et sans
     héritier au trône. Son frère, Hallþórr I Áleifrbróðir, monta sur le trône.
     Il nomma alors son fils co-roi
 
     {{{begin-largetable}}}
-    #+NAME: Einnland-kings
-    #+CAPTION: Liste des rois Einnlandais
+    #+NAME: Eittland-kings
+    #+CAPTION: Liste des rois Eittlandais
     | <l5>                          | <l5>      | <l5> | <l5> | <l5>      | <l5>                           | <l5>      | <l5> | <l5> | <l5>      |
     | roi                           | naissance | mort | âge  | règne     | co-roi                         | naissance | mort | âge  | règne     |
     |-------------------------------+-----------+------+------+-----------+--------------------------------+-----------+------+------+-----------|
@@ -281,8 +282,8 @@
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
     |      nasal |         m         |                      |        n        |                  |        ń         |                       |                  |
     |   occlusif |         p         |                      |       t d       |                  |        k         |          hw           |                  |
-    |   fricatif |        v/b        |          f           |       þ ð       |        s         |        g         |                       |        h         |
-    |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
+    |   fricatif |         b         |          f           |       þ ð       |        s         |        g         |                       |        h         |
+    |    spirant |                   |                      |                 |        j         |                  |           v           |                  |
     |      roulé |                   |                      |        r        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
     {{{end-largetable}}}
@@ -313,7 +314,6 @@
     - CC / _ > Cː
     - kʷ / V_V > ɣʷ
     - C[+stop] / C[+nasal]_# > [+nasal]
-
 
 *** Voyelles
     :PROPERTIES:
@@ -382,15 +382,15 @@
       (tree-to-dot vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/einnlanda-vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file img/eittlanda-vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des consonnes de l’Einnlandais :align center
+    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais :align center
     #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des consonnes de l’Einnlandais
+    #+CAPTION: Arbre des caractéristiques des consonnes de l’Eittlandais
     #+RESULTS[e2fa11efdddf12a6e36e8153a0720e5c47b9b93f]:
-    [[file:img/einnlanda-vowel-feature-tree.png]]
+    [[file:img/eittlanda-vowel-feature-tree.png]]
     {{{begin-largetable}}}
     |   /   |      <>       |      >       |       >        |      >       |       >        |
     |  <c>  |     <c5>      |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
