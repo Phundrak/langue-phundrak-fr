@@ -10,7 +10,6 @@
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
-
 #+OPTIONS: H:4 toc:nil ^:{} auto-id:t
 #+TOC: headlines
 
@@ -129,7 +128,6 @@
    linguistiques, tel que le gloss pour  le détail linguistique d’une phrase, ou
    les  phrases incorrectes  marquées par  une étoile  ~*~ et  les phrases  à la
    grammaire questionnables notées par un point d’interrogations ~?~.
-
 
 * Contexte culturel, écologique et sociolinguiste de la langue
   :PROPERTIES:
@@ -343,13 +341,13 @@
     |     ouvert |           |         |     ɑ      |
     {{{end-largetable}}}
 
-    Dans le  tableau [[#h-8a426b75-a928-4eb6-94a4-6532dd9d91e5]], nous  pouvons voir
-    une correspondance avec le tableau [[vow:eittlanda:ipa]] où les voyelles situées
-    similairement  représentent  l’orthographe  latine   de  ces  voyelles.  Par
-    exemple, la  voyelle {{{phon(œ)}}} est  représentée par le caractère  <ö> en
-    Eittlandais. On peut  voir également que le schwa  n’a aucune représentation
-    orthographique. À nouveau,  cela est dû à l’allophonie  de l’Eittlandais que
-    nous verrons plus bas.
+    Dans  le tableau  [[vow:eittlanda:orth]], nous  pouvons voir  une correspondance
+    avec  le tableau  [[vow:eittlanda:ipa]]  où les  voyelles situées  similairement
+    représentent l’orthographe latine  de ces voyelles. Par  exemple, la voyelle
+    {{{phon(œ)}}} est représentée  par le caractère <ö> en  Eittlandais. On peut
+    voir  également que  le schwa  n’a aucune  représentation orthographique.  À
+    nouveau, cela est  dû à l’allophonie de l’Eittlandais que  nous verrons plus
+    bas.
 
     {{{begin-largetable}}}
     #+NAME: vow:eittlanda:orth

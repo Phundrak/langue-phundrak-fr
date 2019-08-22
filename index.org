@@ -31,7 +31,7 @@ Enánon (à venir)
 
 [[file:matter.org][Mattér]] ([[file:matter.pdf][pdf]])
 
-[[file:einnlanda.org][Einnlandais]] ([[file:einnlanda.pdf][pdf]])
+[[file:eittlanda.org][Eittlandais]] ([[file:eittlanda.pdf][pdf]])
 
 * Proto-langs
   :PROPERTIES:
