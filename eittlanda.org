@@ -364,21 +364,21 @@
     {{{end-largetable}}}
 
     Voici une description plus en détail des voyelles de l’Eittlandais :
-    - i    ::   même  {{{phon(i)}}}  qu’en  français   /île/.  Exemple :  /iðyn/
-             « travail, métier »
-    - y   ::  même   {{{phon(y)}}}  qu’en   français  /lune/.   Exemple :  /ymr/
-           « grognement, bourdonnement, fredonnement »
-    - u :: même {{{phon(u)}}} qu’en français /doux/. Exemple : /ull/ « laine »
-    - e :: même {{{phon(e)}}} qu’en français /été/. Exemple : /elgyr/ « élan »
-    - ø  ::  même  {{{phon(ø)}}}   qu’en  français  /deux/.  Exemple :  /døkkyr/
-           « sombre »
-    - o :: même {{{phon(o)}}} qu’en français /eau/. Exemple : /hof/ « temple »
-    - ö :: même {{{phon(œ)}}} qu’en français /neuf/. Exemple : /öpa/ « crier »
-    - ó :: même {{{phon(ɔ)}}} qu’en français /vote/. Exemple : /ól/ « bière »
-    - æ ::  même {{{phon(æ)}}} qu’en  anglais britanique /pat/.  Exemple : /sær/
+    - a   ::  même  {{{phon(ɑ)}}} qu’en  anglais britanique  /father/. Exemple :
+            /dagyr/ « jour »
+    - æ ::  même  {{{phon(æ)}}} qu’en anglais britanique  /pat/. Exemple : /sær/
            « mer »
-    - a  ::  même {{{phon(ɑ)}}}  qu’en  anglais  britanique /father/.  Exemple :
-           /dagyr/ « jour »
+    - e :: même {{{phon(e)}}} qu’en français /été/. Exemple : /elgyr/ « élan »
+    - i     ::    même  {{{phon(i)}}}  qu’en français  /île/.  Exemple :  /iðyn/
+              « travail, métier »
+    - o :: même {{{phon(o)}}} qu’en français /eau/. Exemple : /hof/ « temple »
+    - ó :: même {{{phon(ɔ)}}} qu’en français /vote/. Exemple : /ól/ « bière »
+    - ö :: même {{{phon(œ)}}} qu’en français /neuf/. Exemple : /öpa/ « crier »
+    - ø   ::   même  {{{phon(ø)}}}  qu’en français  /deux/.  Exemple :  /døkkyr/
+            « sombre »
+    - u :: même {{{phon(u)}}} qu’en français /doux/. Exemple : /ull/ « laine »
+    - y    ::   même  {{{phon(y)}}}   qu’en  français  /lune/.  Exemple :  /ymr/
+             « grognement, bourdonnement, fredonnement »
 
     Peu  d’évolutions  de  la  prononciation   des  voyelles  du  vieux  norrois
     apparurent, mis  à part la  perte de  distinction entre voyelles  longues et
@@ -495,7 +495,7 @@
     |      nasal |         m         |                      |        n        |                  |        ń         |                       |                  |
     |   occlusif |         p         |                      |       t d       |                  |        k         |          hw           |                  |
     |   fricatif |         b         |          f           |       þ ð       |        s         |        g         |                       |        h         |
-    |    spirant |                   |                      |                 |        j         |                  |           v           |                  |
+    |    spirant |                   |                      |                 |        i         |                  |           v           |                  |
     |      roulé |                   |                      |        r        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
     {{{end-largetable}}}
@@ -556,15 +556,14 @@
     |         H h          |     {{{rune(h)}}}      |
     |        Hw hw         |     {{{rune(hw)}}}     |
     |         I i          |     {{{rune(i)}}}      |
-    |         J j          |     {{{rune(j)}}}      |
     |         K k          |     {{{rune(k)}}}      |
     |         L l          |     {{{rune(l)}}}      |
     |         M m          |     {{{rune(m)}}}      |
     |         N n          |     {{{rune(n)}}}      |
     |         Ń ń          |     {{{rune(ń)}}}      |
     |         O o          |     {{{rune(o)}}}      |
-    |         Ö ö          |     {{{rune(ö)}}}      |
     |         Ó ó          |     {{{rune(ó)}}}      |
+    |         Ö ö          |     {{{rune(ö)}}}      |
     |         Ø ø          |     {{{rune(ø)}}}      |
     |         P p          |     {{{rune(p)}}}      |
     |         R r          |     {{{rune(r)}}}      |
@@ -572,7 +571,6 @@
     |         T t          |     {{{rune(t)}}}      |
     |         U u          |     {{{rune(u)}}}      |
     |         V v          |     {{{rune(v)}}}      |
-    |         W w          |     {{{rune(w)}}}      |
     |         Y y          |     {{{rune(y)}}}      |
     |       /space/        | {{{rune-manual(:,᛬)}}} |
     | /sentence delimiter/ |     {{{rune(.)}}}      |
