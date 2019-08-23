@@ -25,7 +25,7 @@
    La  redistribution ou  vente de  ce document  sont strictement  interdits. Ce
    document est protégé par la loi française sur le droit d’auteur et appartient
    entièrement  et  totalement  à  son  auteur.  Ce  document  est  un  document
-   disponible gratuitement au format web et  pdf sur mon site web[fn:1]. Si vous
+   disponible gratuitement au format web et  PDF sur mon site web[fn:1]. Si vous
    l’avez obtenu  depuis une autre  source, gratuitement  ou non, merci  de m’en
    faire part  en me  contactant via mes  réseaux sociaux ou  par mail  que vous
    trouverez sur mon site principal[fn:2].  Aucune personne, morale ou physique,
@@ -77,33 +77,33 @@
    Vieux Norrois, l’Islandais ou le Norvégien auront peut-être plus de facilités
    pour ce qui est de la compréhension de la langue et de sa grammaire.
 
-   Il s’agit d’un  projet à part de mon univers  littéraire. L’Eittlanda est une
+   Il s’agit d’un projet à part de mon univers littéraire. L’Eittlandais est une
    langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]],  existant dans  un univers alternatif  au nôtre  et à
    celui où le Mattér existe. Tandis que le Mattér est une langue créée pour mon
-   propre  plaisir de  créer  une  langue, l’Éittlanda  est  une tentative  plus
+   propre  plaisir de  créer une  langue, l’Eittlandais  est une  tentative plus
    sérieuse de  faire évoluer  une ancienne  langue en  une langue  moderne, pas
    seulement  m’en inspirer  mais réellement  faire hériter  de cette  langue la
    langue que je créé.
 
    Ce  document ne  s’adresse pas  aux personnes  souhaitant apprendre  à parler
    l’Eittlandais, il ne s’agit pas d’un manuel d’apprentissage. Il s’agit plutôt
-   d’une grammaire  de référence à laquelle  je pourrai me réferrer  lors de mes
-   utilisation de la langue. Je pré-suppose  également que le lecteur dispose de
+   d’une grammaire  de référence à  laquelle je pourrai  me référer lors  de mes
+   utilisation de la  langue. Je présuppose également que le  lecteur dispose de
    certaines  connaissances,  notamment  qu’il   ou  elle  connaisse  l’alphabet
    phonétique international ou  qu’il ou elle dispose  de quelques connaissances
    linguistiques. Il n’existe pas encore,  à l’heure actuelle, de manuel orienté
    vers l’apprentissage de la langue, uniquement  celui-ci dédié à l’étude de sa
    grammaire.
 
-** Liste des abbréviations
+** Liste des abréviations
    :PROPERTIES:
    :CUSTOM_ID: h-58d63d52-aebc-4b33-841e-b7a561d0f7c4
    :END:
-   Un  certain  nombre d’abbréviations  seront  utilisées  dans ce  document  en
+   Un  certain  nombre  d’abréviations  seront utilisées  dans  ce  document  en
    particulier  lors de  l’expression de  relations grammaticales  ou d’éléments
    grammaticaux. Il  est donc  important pour  les personnes  souhaitant étudier
    cette  langue de  savoir  à quoi  cela  correspond. Voici  une  liste que  je
-   m’efforce à garder  exhaustive des abbréviations que  vous pourrez rencontrer
+   m’efforce à  garder exhaustive des  abréviations que vous  pourrez rencontrer
    plus tard.
 
    - ACC :: accusatif
@@ -121,15 +121,15 @@
    - PN :: phrase nominale
    - PV :: phrase verbale
    - OD :: objet direct
-   - OI :: object indirect
+   - OI :: objet indirect
    - API :: Alphabet Phonétique International
 
    Ce  document utilisera  également  les conventions  habituelles des  ouvrages
-   linguistiques, tel que le gloss pour  le détail linguistique d’une phrase, ou
-   les  phrases incorrectes  marquées par  une étoile  ~*~ et  les phrases  à la
+   linguistiques, tel que  les gloses pour le détail  linguistique d’une phrase,
+   ou les phrases  incorrectes marquées par une  étoile ~*~ et les  phrases à la
    grammaire questionnables notées par un point d’interrogations ~?~.
 
-* Contexte culturel, écologique et sociolinguiste de la langue
+* Contexte culturel, écologique et sociolinguistique de la langue
   :PROPERTIES:
   :CUSTOM_ID: h-a89fab50-74c0-4d03-9248-8cad4629d846
   :END:
@@ -166,18 +166,18 @@
     :END:
 
     Lors de la création du premier gouvernement en 915, il a été choisi que l’un
-    des fils d’Ingólfr Arnarson, Ásmundr Ingólfrson, soit le roi de ce nouveau
-    pays du fait de sa position au sein de l’économie de ce nouveau pays,
-    faisant de lui Ásmundr I. Une monarchie s’installa donc à la tête d’un
-    système féodal. Éïttlande étant un territoire divisé en deux par la chaîne
-    de volcan traversant l’île, un co-roi fut nommé pour reigner au nom du
-    souverain sur la partie orientale de l’île lorsque Áleifr I, fils d’Ásmundr
-    I, accéda au trône. Ainsi, Steingrímr Ásmundrson, frère cadet du roi, fut
-    nommé comme co-roi en 937. En 959, suite au décès d’Áleifr I, son fils
-    Áleifr II monta sur le trône et nomma un an après son frère Eyvindr co-roi.
+    des fils d’Ingólfr  Arnarson, Ásmundr Ingólfrson, soit le roi  de ce nouveau
+    pays  du fait  de sa  position au  sein de  l’économie de  ce nouveau  pays,
+    faisant  de lui  Ásmundr I.  Une monarchie  s’installa donc  à la  tête d’un
+    système féodal. Eittlande  étant un territoire divisé en deux  par la chaîne
+    de  volcan traversant  l’île, un  co-roi  fut nommé  pour régner  au nom  du
+    souverain sur la partie orientale de  l’île lorsque Áleifr I, fils d’Ásmundr
+    I, accéda  au trône. Ainsi, Steingrímr  Ásmundrson, frère cadet du  roi, fut
+    nommé comme  co-roi en  937. En  959, suite  au décès  d’Áleifr I,  son fils
+    Áleifr II monta sur le trône et  nomma un an après son frère Eyvindr co-roi.
     Cela commença ainsi la tradition du roi nommant un membre proche comme étant
-    co-roi d’Eittland. En 981, Áleifr III mourru à l’âge de 46 ans et sans
-    héritier au trône. Son frère, Hallþórr I Áleifrbróðir, monta sur le trône.
+    co-roi d’Eittlande.  En 981,  Áleifr III mourut  à l’âge de  46 ans  et sans
+    héritier au trône.  Son frère, Hallþórr I Áleifrbróðir, monta  sur le trône.
     Il nomma alors son fils co-roi
 
     {{{begin-largetable}}}
@@ -231,7 +231,7 @@
    :CUSTOM_ID: h-1cff65b5-a389-4f68-9feb-7aaf4d6c50ee
    :END:
 
-** Éthnographie
+** Ethnographie
    :PROPERTIES:
    :CUSTOM_ID: h-c3298027-baf7-4f86-a5e9-136eb4c28a57
    :END:
@@ -311,7 +311,7 @@
    :CUSTOM_ID: h-ed0cea88-9b4f-42e9-ac94-b40c8432e264
    :END:
 
-*** Voyelles
+*** Voyelles pures
     :PROPERTIES:
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
@@ -847,7 +847,7 @@
 
 *** Finies
     :PROPERTIES:
-    :CUSTOM_ID: h-de685cbe-46a7-4ee9-a226-64767781fb37
+    :CUSTOM_ID: h-9b878d3c-6326-4aac-8f66-b81a5943b4ff
     :END:
 
 * Système fonctionnel
@@ -1549,3 +1549,6 @@
 [fn:2] [[https://phundrak.fr]]
 
 [fn:1] [[https://langue.phundrak.fr]]
+
+#  LocalWords:  non-orale Ingólfr Arnarson Ásmundr Ingólfrson Áleifr Steingrímr
+#  LocalWords:  Ásmundrson Áleifrbróðir Hallþórr Eyvindr
