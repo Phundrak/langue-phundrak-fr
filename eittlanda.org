@@ -334,12 +334,18 @@
     |            | antérieur | central | postérieur |
     |------------+-----------+---------+------------|
     |      fermé |    i y    |         |     u      |
+    |  pré-fermé |   (ɪ ʏ)   |         |    (ʊ)     |
     |   mi-fermé |    e ø    |         |     o      |
     |      moyen |           |   (ə)   |            |
     |  mi-ouvert |     œ     |         |     ɔ      |
     | pré-ouvert |     æ     |         |            |
     |     ouvert |           |         |     ɑ      |
     {{{end-largetable}}}
+
+    Trois   voyelles  autres   que  le   schwa  sont   entre  parenthèses :   le
+    {{{phon(ɪ)}}},  {{{phon(ʏ)}}}  et  le  {{{phon(ʊ)}}}. Cela  est  dû  à  leur
+    présense  exclusive  dans  les  diphtongues que  nous  traiterons  plus  bas
+    (§[[#h-c44d50b3-b107-44fb-8b12-c2fbbd159f31]]).
 
     Dans  le tableau  [[vow:eittlanda:orth]], nous  pouvons voir  une correspondance
     avec  le tableau  [[vow:eittlanda:ipa]]  où les  voyelles situées  similairement
@@ -364,9 +370,9 @@
     {{{end-largetable}}}
 
     Voici une description plus en détail des voyelles de l’Eittlandais :
-    - a   ::  même  {{{phon(ɑ)}}} qu’en  anglais britanique  /father/. Exemple :
-            /dagyr/ « jour »
-    - æ ::  même  {{{phon(æ)}}} qu’en anglais britanique  /pat/. Exemple : /sær/
+    - a   ::   même {{{phon(ɑ)}}} qu’en anglais  britannique /father/. Exemple :
+             /dagyr/ « jour »
+    - æ ::  même {{{phon(æ)}}} qu’en  anglais britannique /pat/. Exemple : /sær/
            « mer »
     - e :: même {{{phon(e)}}} qu’en français /été/. Exemple : /elgyr/ « élan »
     - i     ::    même  {{{phon(i)}}}  qu’en français  /île/.  Exemple :  /iðyn/
@@ -457,19 +463,62 @@
     |   ɑ   |       -       |      -       |       -        |      +       |       -        |
     {{{end-largetable}}}
 
-    Diphtongues :
-    - ei {{{phon(æi)}}}
-    - au {{{phon(ɔu)}}}
-    - ey {{{phon(øy)}}}
+*** Diphtongues
+    :PROPERTIES:
+    :CUSTOM_ID: h-c44d50b3-b107-44fb-8b12-c2fbbd159f31
+    :END:
 
-    Allophonie :
-    - V / _C[+nasal] > V[+nasal]
-    - VV / _ > Vː
-    - e / _CV[-front +rnd] > jɔ
-    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
-      {{{phon(l)}}} ou {{{phon(r)}}}
+    En plus des  dix voyelles pures présentées  ci-dessus, l’Eittlandais dispose
+    de quelques voyelles composées de deux voyelles pures : les diphtongues. Ces
+    voyelles  se distinguent  par une  évolution de  leur prononciation  dans le
+    temps. Ainsi,  quand on parle  de diphtongues  en Eittlandais, on  se réfère
+    principalement à un  couple de deux voyelles où la  seconde et plus /faible/
+    que la première ; la première voyelle  est porteuse de l’accentuation s’il y
+    en a  une et  peut être  allongée dans  certains cas,  comme dans  le chant,
+    tandis que la seconde se comporte presque comme une semi-consonne.
 
-*** Consonnes
+    En Eittlandais, on peut retrouver  trois différentes diphtongues héritées du
+    Vieux Norrois :
+
+    #+NAME: tab:diphthongs
+    #+CAPTIONS: Diphtongues de l’Eittlandais et leur phonétique
+    | diphtongue |   phonétique   |
+    |    <c>     |      <c>       |
+    |------------+----------------|
+    |     ei     | {{{phon(æɪ)}}} |
+    |     au     | {{{phon(ɔʊ)}}} |
+    |     ey     | {{{phon(øʏ)}}} |
+
+    On  remarque  que  les  voyelles  /faibles/  subissent  un  relâchement,  le
+    {{{phon(i)}}}  s’étant  transformé  en {{{phon(ɪ)}}},  le  {{{phon(u)}}}  en
+    {{{phon(ʊ)}}} et le {{{phon(y)}}} en {{{phon(ʏ)}}}.
+
+    Voici une description un peu plus complète de ces diphtongues :
+    - ei ::  diphtongue  proche du {{{phon(aɪ)}}} britannique  que l’on retrouve
+            dans  /pie/,  à la  différence  près  que  la première  voyelle  est
+            légèrement  plus ouverte.  On peut  également parfois  la rencontrer
+            prononcée   {{{phon(ɛɪ)}}},  voir   le  chapitre   sur  l’allophonie
+            (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).    On    retrouve    une
+            diphtongue  similaire en  Norvégien dans  le terme  /nei/. Exemple :
+            /Eittland/
+    - au   ::  diphtongue similaire à  la diphtongue de l’anglais nord-américain
+              standard comme dans /low/ {{{phon(loʊ̯)}}}, excepté que la première
+              voyelle est  plus ouverte.  Une diphtongue  plus proche  peut être
+              retrouvée  en néerlandais  belge dans  le terme  /lauw/. Exemple :
+              /auðyr/ « trésor »
+    - ey ::  contrairement à ce  que la  voyelle typographique <e>  peut laisser
+            penser, la prononciation  de la première voyelle est  similaire à un
+            <ø>. La  diphtongue est  donc similaire  à la  voyelle de  /neus/ en
+            néerlandais des Pays-Bas, ou à /auga/ en Islandais.
+
+    Il  est  également possible  de  techniquement  considérer l’association  de
+    voyelles  avec  les  consonnes  {{{phon(j)}}}  et  {{{phon(w)}}}  comme  des
+    diphtongues,  voire des  triphtongues si  ladite voyelle  est elle-même  une
+    diphtongue,  mais il  demeure plus  simple de  considérer ces  semi-voyelles
+    comme  étant  des  consonnes  au   même  titre  que  toutes  celles  listées
+    ci-dessous.
+
+*** Conosonnes
     :PROPERTIES:
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
     :END:
@@ -513,9 +562,25 @@
     - {{{phon(nɡ)}}} > {{{phon(ŋ)}}}
     - ʀ / {l,s,n,r}_ > {l,s,n,r}ː sinon ʀ > ər (écrit <yr>)
 
-    #+BEGIN_SRC latex :exports results
-      \latex
-    #+END_SRC
+*** Ton et accentuation
+    :PROPERTIES:
+    :CUSTOM_ID: h-c83deaf0-9767-4ac8-a109-7a677b5fba9d
+    :END:
+
+*** Allophonie
+    :PROPERTIES:
+    :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
+    :END:
+    Comme  dans toute  langue,  la  phonétique de  l’Eittlandais  n’est pas  une
+    science  exacte,  et certaines  variations  peuvent  être trouvées  dans  la
+    prononciation de l’Eittlandais.
+
+    Allophonie :
+    - V / _C[+nasal] > V[+nasal]
+    - VV / _ > Vː
+    - e / _CV[-front +rnd] > jɔ
+    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
+      {{{phon(l)}}} ou {{{phon(r)}}}
 
     Allophonie :
     - h / _{l,r,n} > Ø
@@ -527,20 +592,24 @@
     - kʷ / V_V > ɣʷ
     - C[+stop] / C[+nasal]_# > [+nasal]
 
-*** Ton et accentuation
-    :PROPERTIES:
-    :CUSTOM_ID: h-c83deaf0-9767-4ac8-a109-7a677b5fba9d
-    :END:
-
-*** Allophonie
-    :PROPERTIES:
-    :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
-    :END:
-
 *** Système d’écriture
     :PROPERTIES:
     :CUSTOM_ID: h-5e28b62d-956c-404e-ab23-2631b6b9115e
     :END:
+    Comme  de  nombreuses cultures  européennes,  Eittlande  utilise un  système
+    d’écriture afin que les locuteurs  Eittlandais puissent communiquer de façon
+    non-orale.  Du fait  de leur  héritage  provenant de  la région  Scandinave,
+    Eittlande utilise  depuis sa  fondation des  runes nordiques  comme alphabet
+    officiel afin d’écrire en Eittlandais, faisant de ce pays le dernier pays au
+    monde  à  encore utiliser  les  runes  nordiques.  La dernière  réforme  des
+    caractères utilisés eu lieu lors  du XII^{ème} siècle, marquant également la
+    dernière  réforme orthographique  ayant eu  lieu depuis :  les runes  sont à
+    utiliser phonétiquement, respectant au mieux la règle de « un caractère pour
+    un son ».
+
+    Eittlande  utilise  également l’alphabet  latin,  mais  celui-ci reste  très
+    anecdotique  dans la  vie  quotidienne des  Eittlandais  qui ne  l’utilisent
+    pratiquement que pour des communications internationales.
 
     |         <c>          |          <c>           |
     |        latin         |         runes          |
