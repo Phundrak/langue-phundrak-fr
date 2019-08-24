@@ -16,8 +16,14 @@ window.onload = function() {
         $header.toggleClass('unrolled');
         $header.toggleClass('rolled');
     });
+
+    // Move the title out of the content div
     $('.title').prependTo($("body"));
+
+    // Move the postamble in the content div
     $('#postamble').appendTo($("#content"));
+
+    // Move each table in a div to handle large tables' overflow
     $('table').each(function(){
         $table = $(this);
         $table.before('<div class="largetable"></div>');
