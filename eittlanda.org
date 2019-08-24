@@ -180,7 +180,7 @@
     héritier au trône.  Son frère, Hallþórr I Áleifrbróðir, monta  sur le trône.
     Il nomma alors son fils co-roi
 
-    {{{begin-largetable}}}
+
     #+NAME: Eittland-kings
     #+CAPTION: Liste des rois Eittlandais
     | <l5>                          | <l5>      | <l5> | <l5> | <l5>      | <l5>                           | <l5>      | <l5> | <l5> | <l5>      |
@@ -224,7 +224,7 @@
     | Björg I, Eirdóttir            | 1318      | 1374 | 56   | 1360-1374 | Ásgeirr I, Björgson            | 1330      | 1392 | 62   | 1361-1374 |
     | Ásgeirr I, Björgson           | 1330      | 1392 | 62   | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       | 1333      | 1393 | 60   | 1375-1392 |
     #+TBLFM: $4=$3-$2::$9=$8-$7
-    {{{end-largetable}}}
+
 
 ** Écologie
    :PROPERTIES:
@@ -326,7 +326,7 @@
     s’agit d’un allophone. Nous en reparlerons dans le chapitre sur l’allophonie
     (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).
 
-    {{{begin-largetable}}}
+
     #+NAME: vow:eittlanda:ipa
     #+CAPTION: Voyelles de l’Eittlandais (API)
     |          / |     <     |         |            |
@@ -340,7 +340,7 @@
     |  mi-ouvert |     œ     |         |     ɔ      |
     | pré-ouvert |     æ     |         |            |
     |     ouvert |           |         |     ɑ      |
-    {{{end-largetable}}}
+
 
     Trois   voyelles  autres   que  le   schwa  sont   entre  parenthèses :   le
     {{{phon(ɪ)}}},  {{{phon(ʏ)}}}  et  le  {{{phon(ʊ)}}}. Cela  est  dû  à  leur
@@ -355,7 +355,7 @@
     nouveau, cela est  dû à l’allophonie de l’Eittlandais que  nous verrons plus
     bas.
 
-    {{{begin-largetable}}}
+
     #+NAME: vow:eittlanda:orth
     #+CAPTION: Voyelles de l’Eittlandais (orthographe latine)
     |          / |     <     |            |
@@ -367,7 +367,7 @@
     |  mi-ouvert |     ö     |     ó      |
     | pré-ouvert |     æ     |            |
     |     ouvert |           |     a      |
-    {{{end-largetable}}}
+
 
     Voici une description plus en détail des voyelles de l’Eittlandais :
     - a   ::   même {{{phon(ɑ)}}} qu’en anglais  britannique /father/. Exemple :
@@ -436,7 +436,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :align center
+    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
     #+RESULTS[13479f199983d5f36a4583e44b8842f03dd66807]:
@@ -461,7 +461,7 @@
     |   æ   |       -       |      -       |       +        |      +       |       +        |
     |   e   |       -       |      -       |       +        |      -       |       +        |
     |   ɑ   |       -       |      -       |       -        |      +       |       -        |
-    {{{end-largetable}}}
+
 
 *** Diphtongues
     :PROPERTIES:
@@ -531,7 +531,7 @@
     allophoniques,    voir    §[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]])    entre
     parenthèses.
 
-    {{{begin-largetable}}}
+
     #+NAME: table:cons:ipa
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
@@ -543,7 +543,7 @@
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |      r̪ (r̪̥)      |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |      l̪ (l̪̥)      |                  |                  |                       |                  |
-    {{{end-largetable}}}
+
 
     L’Eittlandais présente  une singularité comparé à  beaucoup d’autres langues
     du monde, et en particulier comparé aux langues européennes et nordique : le
@@ -558,7 +558,7 @@
     Chacune  de  ces consonnes  basiques  a  une  graphie  qui lui  est  propre,
     présentée dans le tableau [[table:cons:orth]].
 
-    {{{begin-largetable}}}
+
     #+NAME: table:cons:orth
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
@@ -570,7 +570,7 @@
     |    spirant |                   |                      |                 |        i         |                  |           v           |                  |
     |      roulé |                   |                      |        r        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
-    {{{end-largetable}}}
+
 
     La  majorité des  consonnes Eittlandaises  ne s’écrivent  qu’avec un  glyphe
     unique, à l’exception de {{{phon(kʷ)}}}  qui s’écrit <hw>. Cette graphie est
@@ -648,44 +648,78 @@
     anecdotique  dans la  vie  quotidienne des  Eittlandais  qui ne  l’utilisent
     pratiquement que pour des communications internationales.
 
-    |         <c>          |          <c>           |
-    |        latin         |         runes          |
-    |----------------------+------------------------|
-    |         A a          |     {{{rune(a)}}}      |
-    |         Æ æ          |     {{{rune(æ)}}}      |
-    |         B b          |     {{{rune(b)}}}      |
-    |         D d          |     {{{rune(d)}}}      |
-    |         Ð ð          |     {{{rune(ð)}}}      |
-    |         E e          |     {{{rune(e)}}}      |
-    |         F f          |     {{{rune(f)}}}      |
-    |         G g          |     {{{rune(g)}}}      |
-    |         H h          |     {{{rune(h)}}}      |
-    |        Hw hw         |     {{{rune(hw)}}}     |
-    |         I i          |     {{{rune(i)}}}      |
-    |         K k          |     {{{rune(k)}}}      |
-    |         L l          |     {{{rune(l)}}}      |
-    |         M m          |     {{{rune(m)}}}      |
-    |         N n          |     {{{rune(n)}}}      |
-    |         Ń ń          |     {{{rune(ń)}}}      |
-    |         O o          |     {{{rune(o)}}}      |
-    |         Ó ó          |     {{{rune(ó)}}}      |
-    |         Ö ö          |     {{{rune(ö)}}}      |
-    |         Ø ø          |     {{{rune(ø)}}}      |
-    |         P p          |     {{{rune(p)}}}      |
-    |         R r          |     {{{rune(r)}}}      |
-    |         S s          |     {{{rune(s)}}}      |
-    |         T t          |     {{{rune(t)}}}      |
-    |         U u          |     {{{rune(u)}}}      |
-    |         V v          |     {{{rune(v)}}}      |
-    |         Y y          |     {{{rune(y)}}}      |
-    |       /space/        | {{{rune-manual(:,᛬)}}} |
-    | /sentence delimiter/ |     {{{rune(.)}}}      |
+    |           <c>           |      <c>       |
+    |          latin          |     runes      |
+    |-------------------------+----------------|
+    |           A a           | {{{rune(a)}}}  |
+    |           Æ æ           | {{{rune(æ)}}}  |
+    |           B b           | {{{rune(b)}}}  |
+    |           D d           | {{{rune(d)}}}  |
+    |           Ð ð           | {{{rune(ð)}}}  |
+    |           E e           | {{{rune(e)}}}  |
+    |           F f           | {{{rune(f)}}}  |
+    |           G g           | {{{rune(g)}}}  |
+    |           H h           | {{{rune(h)}}}  |
+    |          Hw hw          | {{{rune(hw)}}} |
+    |           I i           | {{{rune(i)}}}  |
+    |           K k           | {{{rune(k)}}}  |
+    |           L l           | {{{rune(l)}}}  |
+    |           M m           | {{{rune(m)}}}  |
+    |           N n           | {{{rune(n)}}}  |
+    |           Ń ń           | {{{rune(ń)}}}  |
+    |           O o           | {{{rune(o)}}}  |
+    |           Ó ó           | {{{rune(ó)}}}  |
+    |           Ö ö           | {{{rune(ö)}}}  |
+    |           Ø ø           | {{{rune(ø)}}}  |
+    |           P p           | {{{rune(p)}}}  |
+    |           R r           | {{{rune(r)}}}  |
+    |           S s           | {{{rune(s)}}}  |
+    |           T t           | {{{rune(t)}}}  |
+    |           U u           | {{{rune(u)}}}  |
+    |           V v           | {{{rune(v)}}}  |
+    |           Y y           | {{{rune(y)}}}  |
+    |  /délimiteur de mots/   | {{{rune(:)}}}  |
+    | /délimiteur de phrases/ | {{{rune(.)}}}  |
+
+    On peut remarquer que dans l’alphabet latin Eittlandais comme dans les runes
+    Eittlandaises il existe une indifférentiation de la voyelle {{{phon(i)}}} et
+    de  la  consonne {{{phon(j)}}}.  Cela  est  dû  au fait  présenté  ci-dessus
+    (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]) que le {{{phon(i)}}} ne peut être
+    une voyelle s’il est  précédé par une consonne et suivi  par une voyelle, et
+    le {{{phon(j)}}} ne peut précéder une  consonne. De ce fait, les Eittlandais
+    n’éprouvent  pas de  difficultés à  différencier les  deux phonèmes  l’un de
+    l’autre.
+
+*** Allophonie
+    :PROPERTIES:
+    :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
+    :END:
+    Comme  dans toute  langue,  la  phonétique de  l’Eittlandais  n’est pas  une
+    science  exacte,  et certaines  variations  peuvent  être trouvées  dans  la
+    prononciation de l’Eittlandais.
+
+    Allophonie :
+    - V / _C[+nasal] > V[+nasal]
+    - VV / _ > Vː
+    - e / _CV[-front +rnd] > jɔ
+    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
+      {{{phon(l)}}} ou {{{phon(r)}}}
+
+     Allophonie :
+    - {{{phon(ɡː)}}} > {{{phon(ɡ)}}}
+    - h / _{l,r,n} > Ø
+    - {l,r,n} > h_ > [-voice]
+    - ɣ / _C[-voice] > k
+    - ɣ / _n > ɡ
+    - ɣɣ / _ > ɡː
+    - CC / _ > Cː
+    - kʷ / V_V > ɣʷ
+    - C[+stop] / C[+nasal]_# > [+nasal]
 
 ** Phonotaxes
    :PROPERTIES:
-   :CUSTOM_ID: h-f0eaf02f-25f5-4b27-988a-ae7b3f99089c
+   :CUSTOM_ID: h-c97f5f38-edc9-4516-947e-d9485e497cf7
    :END:
-
 ** Structure syllabique
    :PROPERTIES:
    :CUSTOM_ID: h-950b4805-8981-4f61-b1d8-4f0ce29ba57e
