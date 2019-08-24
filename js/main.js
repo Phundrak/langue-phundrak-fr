@@ -29,4 +29,4 @@ window.onload = function() {
         $table.before('<div class="largetable"></div>');
         $table.prependTo($table.prev());
     });
-}
+};
