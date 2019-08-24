@@ -10,7 +10,7 @@
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
-#+OPTIONS: H:4 toc:nil ^:{} auto-id:t
+#+OPTIONS: toc:nil auto-id:t
 #+TOC: headlines
 
 * Propos préliminaires
@@ -518,12 +518,21 @@
     comme  étant  des  consonnes  au   même  titre  que  toutes  celles  listées
     ci-dessous.
 
-*** Conosonnes
+*** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
     :END:
+    Comme  dans  toute  langues,  en plus  de  voyelles,  l’Eittlandais  dispose
+    également  d’un  certain  nombre  de consonnes.  On  peut  compter  dix-neuf
+    consonnes basiques composant  cette langue, et certaines  peuvent avoir leur
+    prononciation  altérée,  rajoutant  six   autres  consonnes  à  l’inventaire
+    consonantique Eittlandais. Vous pouvez trouver la liste de ces consones dans
+    le   tableau  [[table:cons:ipa]],   avec  les   consonnes  alternatives   (dites
+    allophoniques,    voir    §[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]])    entre
+    parenthèses.
 
     {{{begin-largetable}}}
+    #+NAME: table:cons:ipa
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
@@ -536,7 +545,21 @@
     | spir.-lat. |                   |                      |      l̪ (l̪̥)      |                  |                  |                       |                  |
     {{{end-largetable}}}
 
+    L’Eittlandais présente  une singularité comparé à  beaucoup d’autres langues
+    du monde, et en particulier comparé aux langues européennes et nordique : le
+    {{{phon(s)}}} ou  son équivalent  voisé {{{phon(z)}}}  ne sont  pas présents
+    dans l’inventaire phonétique.  Cela est dû à une  évolution du {{{phon(s)}}}
+    norrois en un {{{phon(ç)}}}.
+
+    Pour plus de simplicité, la diacritique dentale ne sera pas marquée ailleurs
+    dans ce document, rendant par  exemple {{{phon(t)}}} un strict équivalent de
+    [t̪].
+
+    Chacune  de  ces consonnes  basiques  a  une  graphie  qui lui  est  propre,
+    présentée dans le tableau [[table:cons:orth]].
+
     {{{begin-largetable}}}
+    #+NAME: table:cons:orth
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
@@ -549,48 +572,62 @@
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
     {{{end-largetable}}}
 
-    Pour plus de simplicité, la diacritique dentale ne sera pas marquée ailleurs
-    ({{{phon(t)}}} est donc l’équivalent de [t̪]).
+    La  majorité des  consonnes Eittlandaises  ne s’écrivent  qu’avec un  glyphe
+    unique, à l’exception de {{{phon(kʷ)}}}  qui s’écrit <hw>. Cette graphie est
+    spécifiée  explicitement, à  l’inverse  par exemple  de  <hl> se  prononçant
+    {{{phon(l̥)}}}, car sa prononciation est irrégulière et ne suit pas le modèle
+    habituel de la modification d’une consonne  par la précédence d’un <h>. Plus
+    de détails seront donnés dans le chapitre sur l’allophonie.
 
-    Depuis le vieux norrois :
-    - {{{phon(v)}}} > {{{phon(β)}}}
-    - {{{phon(b)}}} > {{{phon(β)}}}
-    - {{{phon(ð)}}} n’est plus un allophone de {{{phon(θ)}}}
-    - {{{phon(s)}}} > {{{phon(ç)}}}
-    - {{{phon(ɡ)}}} > {{{phon(ɣ)}}}
-    - {{{phon(ɡː)}}} > {{{phon(ɡ)}}}
-    - {{{phon(nɡ)}}} > {{{phon(ŋ)}}}
-    - ʀ / {l,s,n,r}_ > {l,s,n,r}ː sinon ʀ > ər (écrit <yr>)
+    Les consonnes  Eittlandaises ont subit  quelques évolutions depuis  le vieux
+    norrois, notamment :
+    - Le {{{phon(b)}}} est  devenu une consonne fricative, en  parallèle avec le
+      <g> se  prononçant {{{phon(ɣ)}}}, devenant {{{phon(β)}}}.
+
+      Exemple :  /bær/ (maison)  se  prononce  {{{phon(βær)}}} (vieux  norrois :
+      {{{phon(bær)}}}).
+    - Le  {{{phon(ð)}}}  n’est  plus  un  allophone  de  {{{phon(θ)}}}  et  peut
+      maintenant  distinguer   des  mots  n’ayant  pour   seule  différence  que
+      l’utilisation  d’un <þ>  ou d’un  <ð>.
+
+      Exemple : /maðyr/ {{{phon(mɑðər)}}} (homme,  humain, mari) se distingue de
+      /maþyr/  {{{phon(mɑθər)}}}  (mathématiques,  basé  sur  le  terme  anglais
+      /maths/) uniquement de par la différenciation entre /ð/ et /þ/.
+    - Le  {{{phon(s)}}}  s’est  palatalisé  en  {{{phon(ç)}}}.
+
+      Exemple :   /sær/    se   prononce   {{{phon(çær)}}}    (vieux   norrois :
+      {{{phon(sær)}}}).
+    - La  prononciation  occasionelle  du   <g>  en  {{{phon(ɣ)}}}  est  devenue
+      régulière, rendant  la prononciation  {{{phon(ɡ)}}} occasionelle.  Plus de
+      détails  sur   l’utilisation  du   {{{phon(ɡ)}}}  dans  le   chapitre  sur
+      l’allophonie.
+    - Les sons {{{phon(nɡ)}}}  et {{{phon(nk)}}} se sont nasalisés  et ont perdu
+      leur  qualité occlusive,  transformant et  fusionnant les  phonèmes en  un
+      {{{phon(ŋ)}}}  dans  les  deux cas.
+
+      Exemple : /angan/ (délice, joie) est devenu /ańan/ {{{phon(aŋan)}}} (vieux
+      norrois :  {{{phon(anɡan)}}}),  et  /minka/ (réduire,  être  diminué)  est
+      devenu /mińa/ {{{phon(miŋa)}}} (vieux norrois : {{{phon(minka)}}}).
+    - Le <r> final gémine la consonne qu’il suit s’il s’agit d’un {{{phon(l)}}},
+      {{{phon(s)}}}, {{{phon(n)}}} ou {{{phon(r)}}}. Sinon, si le <r> final suit
+      une  autre  consonne, un  <y>,  généralement  prononcé {{{phon(ə)}}},  est
+      ajouté avant  le <r> final.
+
+      Exemple :  /frægr/ (célèbre)  devient  /frægyr/ {{{phon(fræɡər)}}}  (vieux
+      norrois ː  {{{phon(fræɡr)}}}),  tandis  que  /dalr/  (vallon,  vallée)  se
+      prononce {{{phon(dɑlː)}}} (vieux norrois : {{{phon(dal:)}}}).
+
+    L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
+    consonnes géminées et consonnes non-géminées. Ainsi, /dalr/ {{{phon(dɑlː)}}}
+    (forme nominative) est perçu comme  étant différent de /dal/ {{{phon(dɑl)}}}
+    (forme  accusative  de  /dalr/),  et /Anar/  {{{phon(ɑnɑr)}}}  (prénom)  est
+    également  perçu  comme  différent de  /annarr/  {{{phon(ɑnːɑrː)}}}  (autre,
+    second, deuxième, suivant).
 
 *** Ton et accentuation
     :PROPERTIES:
     :CUSTOM_ID: h-c83deaf0-9767-4ac8-a109-7a677b5fba9d
     :END:
-
-*** Allophonie
-    :PROPERTIES:
-    :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
-    :END:
-    Comme  dans toute  langue,  la  phonétique de  l’Eittlandais  n’est pas  une
-    science  exacte,  et certaines  variations  peuvent  être trouvées  dans  la
-    prononciation de l’Eittlandais.
-
-    Allophonie :
-    - V / _C[+nasal] > V[+nasal]
-    - VV / _ > Vː
-    - e / _CV[-front +rnd] > jɔ
-    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
-      {{{phon(l)}}} ou {{{phon(r)}}}
-
-    Allophonie :
-    - h / _{l,r,n} > Ø
-    - {l,r,n} > h_ > [-voice]
-    - ɣ / _C[-voice] > k
-    - ɣ / _n > ɡ
-    - ɣɣ / _ > ɡː
-    - CC / _ > Cː
-    - kʷ / V_V > ɣʷ
-    - C[+stop] / C[+nasal]_# > [+nasal]
 
 *** Système d’écriture
     :PROPERTIES:
