@@ -3,10 +3,8 @@
 
 # ### STYLE ####################################################################
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/htmlize.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/readtheorg.css"/>
+#+HTML_HEAD: <link rel="stylesheet" href="./css/htmlize.min.css"/>
+#+HTML_HEAD: <link rel="stylesheet" href="./css/style.css"/>
 
 #+HTML_HEAD: <script src="./js/jquery.min.js"></script>
-#+HTML_HEAD: <script src="./js/bootstrap.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="./js/jquery.stickytableheaders.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="./js/readtheorg.js"></script>
+#+HTML_HEAD: <script src="./js/main.js"></script>
