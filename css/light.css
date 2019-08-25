@@ -1,0 +1,31 @@
+body {
+    background-color: #eee;
+    color: #444;
+}
+
+a {
+    color: #444;
+}
+
+th,
+td {
+    border: 1px solid #444;
+}
+
+table {
+    border: 2px solid #444;
+}
+
+thead tr {
+    background-color: #ddd;
+}
+
+.outline-2,
+#footnotes,
+#postamble {
+    background-color: #eee;
+}
+
+.themeBtn {
+    color: #ecf0f1;
+}
