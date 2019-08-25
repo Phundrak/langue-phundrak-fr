@@ -21,6 +21,8 @@
 # ### HTML #####################################################################
 
 #+HTML_DOCTYPE: html5
+#+HTML_HEAD: <script src="https://kit.fontawesome.com/4d42d0c8c5.js"></script>
+#+HTML_HEAD: <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
 #+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
@@ -86,9 +88,9 @@
 # ### MACROS ###################################################################
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: newpage @@latex:\newpage@@
-#+MACRO: latex-html @@latex:$1@@ @@html:$2@@
-#+MACRO: phon @@latex:/$1/@@ @@html:&frasl;$1&frasl;@@
-#+MACRO: v @@latex:\rotatebox[origin=c]{270}{$1}@@ @@html:<span class=vertical>$1</span>@@
+#+MACRO: latex-html @@latex:$1@@@@html:$2@@
+#+MACRO: phon @@latex:/$1/@@@@html:/$1/@@
+#+MACRO: v @@latex:\rotatebox[origin=c]{270}{$1}@@@@html:<span class=vertical>$1</span>@@
 #+MACRO: begin-largetable @@html:<div class="largetable">@@
 #+MACRO: end-largetable @@html:</div>@@
 #+OPTIONS: H:4 broken_links:mark email:t ^:{}

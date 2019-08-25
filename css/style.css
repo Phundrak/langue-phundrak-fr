@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700);
+
+@font-face {
+    font-family: "DoulosSIL";
+    font-display: swap;
+    src: url("../fonts/DoulosSIL-R.woff");
+}
+
+@font-face {
+    font-family: "Noto Sans Runes";
+    font-display: swap;
+    src: url("../fonts/NotoSansRunic-Regular.ttf");
+}
+
+body {
+    font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+    font-size: 105%;
+    height: 100%;
+    margin: 0;
+}
+
+#content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+img,
+table {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 #9b59b6;
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    box-shadow: inset 0 -21px 0 #9b59b6;
+    transition: all .3s ease-in;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    text-align: right;
+}
+
+.title {
+    padding: 50px;
+    background-color: #1abc9c;
+    color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+    cursor: pointer;
+    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 170%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 125%;
+}
+
+h4 {
+    font-size: 115%;
+}
+
+h5 {
+    font-size: 110%;
+}
+
+h6 {
+    font-size: 10%;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+.outline-2,
+.outline-3,
+.outline-4,
+.outline-5,
+.outline-6,
+.outline-text-2,
+.outline-text-3,
+.outline-text-4,
+.outline-text-5,
+.outline-text-6 {
+    margin: 0 2px;
+    padding: 0 10px;
+}
+
+.outline-text-2,
+.outline-text-3,
+.outline-text-4,
+.outline-text-5,
+.outline-text-6 {
+    margin-bottom: 20px;
+}
+
+.outline-2,
+#footnotes,
+#postamble {
+    box-shadow: 5px 5px 7px rgba(1, 1, 1, .6);
+    margin: 20px;
+    padding: 20px;
+}
+
+.outline-3,
+.outline-4,
+.outline-5,
+.outline-6,
+.outline-text-2,
+.outline-text-3,
+.outline-text-4,
+.outline-text-5,
+.outline-text-6,
+#table-of-contents {
+    display: none;
+}
+
+.largetable,
+.figure {
+    display: block;
+    overflow-x: auto;
+}
+
+a.footref {
+    padding: 0 1px;
+    margin: 0 2px;
+}
+
+.rolled::after {
+    content: "➤";
+    padding-left: 20px;
+}
+
+.unrolled::after {
+    content: "⌄";
+    padding-left: 20px;
+}
+
+.themeBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    padding-top:10px;
+    height: 40px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #1e5b50;
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(1, 1, 1, .6);
+}
+
+.themeBtn .fas {
+    font-size: 30px;
+}

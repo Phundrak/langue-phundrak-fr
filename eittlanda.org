@@ -78,7 +78,7 @@
    pour ce qui est de la compréhension de la langue et de sa grammaire.
 
    Il s’agit d’un projet à part de mon univers littéraire. L’Eittlandais est une
-   langue sœur  du [[https://langue.phundrak.fr/matter][Mattér]],  existant dans  un univers alternatif  au nôtre  et à
+   langue sœur  du [[file:matter.org][Mattér]],  existant dans  un univers alternatif  au nôtre  et à
    celui où le Mattér existe. Tandis que le Mattér est une langue créée pour mon
    propre  plaisir de  créer une  langue, l’Eittlandais  est une  tentative plus
    sérieuse de  faire évoluer  une ancienne  langue en  une langue  moderne, pas
