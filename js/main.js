@@ -50,11 +50,12 @@ function create_theme_switcher() {
     }
 
     // set the css and button depending on the cookie found, dark is default
-    if (Cookies.get('theme') == 'dark') {
-        $('body').append('<div class="themeBtn"><i class="fas fa-sun"></i></div>');
-    } else {
+    if (Cookies.get('theme') == 'light') {
         $('body').append('<div class="themeBtn"><i class="fas fa-moon"></i></div>');
-        $('link[href="./css/dark.css"]').attr('href', './css/light.css');
+        $('head').append('<link id="theme" rel="stylesheet" href="./css/light.css">');
+    } else {
+        $('body').append('<div class="themeBtn"><i class="fas fa-sun"></i></div>');
+        $('head').append('<link id="theme" rel="stylesheet" href="./css/dark.css">');
     }
 
     // switch CSS files and button icon, set new cookie
