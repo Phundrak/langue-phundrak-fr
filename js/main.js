@@ -3,9 +3,10 @@
 var light = false;
 
 window.onload = function() {
-    roll_elems();
+    $("#table-of-contents").remove();
     reorganize_html();
     create_theme_switcher();
+    roll_elems();
 };
 
 function roll_elems() {
@@ -17,23 +18,41 @@ function roll_elems() {
     // Except for the footnotes
     $('.footnotes').removeClass('rolled');
 
-    // Make the rollable headers actually rollable and rolled
-    $('.rolled').click(function() {
+    // // Make the rollable headers actually rollable and rolled
+    $('.header-container').each(function($header) {
         $header = $(this);
-        $header.nextAll().each(function() {
-            $(this).slideToggle(500);
+        $header.click(function() {
+            $header.nextAll().each(function() {
+                $(this).slideToggle(500);
+            });
+            $header.find('>:first-child').toggleClass('unrolled');
+            $header.find('>:first-child').toggleClass('rolled');
         });
-        $header.toggleClass('unrolled');
-        $header.toggleClass('rolled');
     });
 }
 
 function reorganize_html() {
     // Move the title out of the content div
-    $('.title').prependTo($('body'));
+    $('#content').before('<div class="h1-container"><div class="highlight-h1"></div></div>');
+    $('.title').prependTo($('.h1-container'));
 
     // Move the postamble in the content div
     $('#postamble').appendTo($('#content'));
+
+    // Move to container the various heads
+    [2, 3, 4, 5, 6].forEach(htitle => {
+        $('h' + htitle).each(function() {
+            $header = $(this);
+            $header.before('<div class="header-container"><div class="highlight-h' +
+                htitle + '"></div></div>');
+            $header.prependTo($header.prev());
+        });
+        $('.outline-text-' + htitle).each(function(){
+            if(isEmpty($(this))) {
+                $(this).remove();
+            }
+        });
+    });
 
     // Move each table in a div to handle large tables' overflow
     $('table').each(function() {
@@ -70,4 +89,8 @@ function create_theme_switcher() {
             Cookies.set('theme', 'dark');
         }
     });
+}
+
+function isEmpty( el ){
+    return !$.trim(el.html())
 }
