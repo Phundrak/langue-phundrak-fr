@@ -47,8 +47,8 @@ function reorganize_html() {
                 htitle + '"></div></div>');
             $header.prependTo($header.prev());
         });
-        $('.outline-text-' + htitle).each(function(){
-            if(isEmpty($(this))) {
+        $('.outline-text-' + htitle).each(function() {
+            if (isEmpty($(this))) {
                 $(this).remove();
             }
         });
@@ -91,6 +91,6 @@ function create_theme_switcher() {
     });
 }
 
-function isEmpty( el ){
+function isEmpty(el) {
     return !$.trim(el.html())
 }
