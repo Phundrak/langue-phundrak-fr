@@ -153,7 +153,31 @@
     :PROPERTIES:
     :CUSTOM_ID: h-7914837c-3bf9-4edf-828e-6a36f38527e4
     :END:
+    Eittlande est une île se situant dans l’Océan Atlantique, formant entre elle
+    est le  Groënland la  mer d’Eittlande.  Ce derniers  est d’ailleurs  le plus
+    proche voisin  d’Eittlande, suivi de  près par l’Islande. On  peut constater
+    sur la carte  [[img:map-world]] qu’Eittland est de  taille respectable, mesurant
+    environ 644 km d’est en  ouest, et mesurant 322 km du nord  au sud de l’île.
+    On remarque également que l’île se situe à peu près aux mêmes lattitudes que
+    l’Écosse et le nord de l’Angleterre.
 
+    #+NAME: img:map-world
+    #+CAPTION: Emplacement d’Eittlande dans l’Océan Atlantique.
+    [[./img/eittlanda/map-world.jpg]]
+
+    Vous pouvez également trouver une  carte simplifiée d’Eittlande montrant les
+    principaux lieux et principales villes du pays avec la carte [[img:map-simple]]
+
+    #+NAME: img:map-simple
+    #+CAPTION: Carte simplifiée d’Eittlande
+    [[./img/eittlanda/map-simple.jpg]]
+
+    Une carte de style plus topologique  et plus détaillée d’Eittlande peut être
+    trouvé avec la carte [[img:map-typo]]
+
+    #+NAME: img:map-typo
+    #+CAPTION: Topologie d’Eittlande
+    [[./img/eittlanda/map-hq.jpg]]
 
 *** Histoire, migrations
     :PROPERTIES:
@@ -224,7 +248,6 @@
     | Björg I, Eirdóttir            | 1318      | 1374 | 56   | 1360-1374 | Ásgeirr I, Björgson            | 1330      | 1392 | 62   | 1361-1374 |
     | Ásgeirr I, Björgson           | 1330      | 1392 | 62   | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       | 1333      | 1393 | 60   | 1375-1392 |
     #+TBLFM: $4=$3-$2::$9=$8-$7
-
 
 ** Écologie
    :PROPERTIES:
@@ -432,7 +455,7 @@
       (tree-to-dot vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda-vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
