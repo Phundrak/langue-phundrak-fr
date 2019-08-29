@@ -3,7 +3,6 @@
 var light = false;
 
 window.onload = function() {
-    $("#table-of-contents").remove();
     reorganize_html();
     create_theme_switcher();
     roll_elems();
@@ -32,6 +31,9 @@ function roll_elems() {
 }
 
 function reorganize_html() {
+    // Remove table of contents
+    $("#table-of-contents").remove();
+
     // Move the title out of the content div
     $('#content').before('<div class="h1-container"><div class="highlight-h1"></div></div>');
     $('.title').prependTo($('.h1-container'));
@@ -92,5 +94,5 @@ function create_theme_switcher() {
 }
 
 function isEmpty(el) {
-    return !$.trim(el.html())
+    return !$.trim(el.html());
 }
