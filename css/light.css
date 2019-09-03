@@ -1,9 +1,10 @@
-body {
+html {
     background-color: #eee;
 }
 
 body,
 .title,
+.themeBtn,
 a {
     color: #444;
 }
@@ -21,12 +22,7 @@ thead tr {
     background-color: #ddd;
 }
 
-.outline-2,
-#footnotes,
+#content,
 #postamble {
     background-color: #eee;
-}
-
-.themeBtn {
-    color: #ecf0f1;
 }

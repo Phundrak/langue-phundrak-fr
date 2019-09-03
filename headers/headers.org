@@ -1,9 +1,10 @@
-# -*- mode: org; -*-
+# -*- mode: org; org-confirm-babel-evaluate: nil -*-
 #+AUTHOR: Lucien Cartier-Tilet
 #+EMAIL: phundrak@phundrak.fr
 #+CREATOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 
+# ### ORG OPTIONS ##############################################################
 
 #+OPTIONS: H:4 broken_links:mark email:t ^:{} tex:dvisvgm
 #+KEYWORDS: conlang idéolangue langue langues linguistique phundrak drakpa
@@ -12,7 +13,7 @@
 
 #+name: setup
 #+begin_src emacs-lisp :results silent :exports none
-  (unless (find "per-file-class" org-latex-classes :key 'car
+  (unless (find "conlang" org-latex-classes :key 'car
             :test 'equal)
     (add-to-list 'org-latex-classes
                  '("conlang"
@@ -91,6 +92,7 @@
 #+LATEX_HEADER_EXTRA: \usepackage{multicol}
 #+LATEX_HEADER_EXTRA: \usepackage{indentfirst}
 #+LATEX_HEADER_EXTRA: \sloppy
+#+INFOJS_OPT: view:info toc:1
 
 # ### HTML #####################################################################
 

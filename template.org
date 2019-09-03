@@ -1,13 +1,9 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du TEMPLATE
+#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite TEMPLATE" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du TEMPLATE" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite TEMPLATE" />
-#+LATEX_CLASS: book
-#+LATEX_HEAD: \usepackage{tocloft} \setlength{\cftchapnumwidth}{3em}
-#+OPTIONS: H:4 toc:nil ^:{} auto-id:t
-#+TOC: headlines
 
 * Propos préliminaires
   :PROPERTIES:

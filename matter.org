@@ -1,16 +1,12 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du Mattér
+#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
 #+LATEX_HEADER: \usepackage{allrunes}
-#+OPTIONS: H:4 toc:nil auto-id:t
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/matter-org-export-runes "$1"))
-src_latex{\newpage}
-#+TOC: headlines
-src_latex{\newpage}
 
 * Avant-propos
   :PROPERTIES:
@@ -73,9 +69,9 @@ src_latex{\newpage}
    :CUSTOM_ID: h-8791c7f7-9030-42a4-b625-9f3c31462621
    :END:
    <<intro-demography>>
-   #+attr_html: :alt Carte d’Éïnlante :align center
+   #+attr_html: :alt Carte d’Éïnlante
    #+CAPTION: Carte du XIX^{ème} siècle d’Éïnlante
-   [[file:./img/matter_einlant-old-map.jpg]]
+   [[file:./img/matter/einlant-old-map.jpg]]
 
    Le Mattér  est parlé par  un peuple imaginaire  vivant sur une  île également
    imaginaire nommée Éïnlante (/terre  solitaire/, /Einlant/ en Mattér), peuplée

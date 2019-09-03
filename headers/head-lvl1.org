@@ -4,7 +4,7 @@
 # ### STYLE ####################################################################
 
 #+HTML_HEAD: <link rel="stylesheet" href="../css/htmlize.min.css"/>
-#+HTML_HEAD: <link rel="stylesheet" href="../css/style.css"/>
+#+HTML_HEAD: <link rel="stylesheet" href="../css/main.css"/>
 
 #+HTML_HEAD: <script src="../js/jquery.min.js"></script>
 #+HTML_HEAD: <script src="../js/main.js"></script>

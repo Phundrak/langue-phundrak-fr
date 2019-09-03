@@ -1,15 +1,9 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire du Tãso
+#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Tãso" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Tãso" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Tãso" />
-#+LATEX_CLASS: article
-#+LATEX_HEAD: \usepackage{tocloft}
-#+LATEX_HEAD: \setlength{\cftchapnumwidth}{3em}
-#+OPTIONS: H:4 toc:nil ^:{}
-#+OPTIONS: auto-id:t
-#+TOC: headlines
 
 * Avant-propos
   :PROPERTIES:
@@ -132,7 +126,7 @@
       (tree-to-dot consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/taso-consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/taso/consonant-feature-tree.svg :var input=cons-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -193,7 +187,7 @@
       (tree-to-dot vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/taso-vowel-feature-tree.png :var input=vowel-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/taso/vowel-feature-tree.svg :var input=vowel-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons

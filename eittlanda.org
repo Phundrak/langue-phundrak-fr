@@ -1,15 +1,13 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+include: headers/head-lvl0.org
 #+TITLE: Une Grammaire de l’Eittlandais
+#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
-#+LATEX_CLASS: conlang
 #+LATEX_HEADER: \usepackage{allrunes}
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
-#+OPTIONS: auto-id:t
 #+KEYWORDS: eittland eittlande einnland einnlande nordique viking islande norrois
 
 * Propos préliminaires
@@ -488,7 +486,6 @@
     |   æ   |       -       |      -       |       +        |      +       |       +        |
     |   e   |       -       |      -       |       +        |      -       |       +        |
     |   ɑ   |       -       |      -       |       -        |      +       |       -        |
-
 
 *** Diphtongues
     :PROPERTIES:

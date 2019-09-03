@@ -3,38 +3,11 @@
 window.onload = function() {
     reorganize_html();
     create_theme_switcher();
-    roll_elems();
 };
 
-function roll_elems() {
-    // Make the rollable headers actually rollable and rolled
-    $(".outline-2").each(function() {
-        ['h2', 'h3', 'h4', 'h5', 'h6'].forEach(htitle => {
-            $(this).find(htitle).each(function($header) {
-                $header = $(this);
-                if (isEmpty($header.next())) {
-                    $header.next().remove();
-                }
-                $header.click(function() {
-                    $header.nextAll().each(function() {
-                        $(this).slideToggle(500);
-                    });
-                    $header.toggleClass('rotated');
-                });
-            });
-        });
-    });
-}
-
 function reorganize_html() {
-    // Remove table of contents
-    $("#table-of-contents").remove();
-
-    // Move the title out of the content div
-    $('#content').before('<div class="h1-container"><div class="highlight-h1"></div></div>');
-    $('.title').prependTo($('.h1-container'));
-
     // Move the postamble in the content div
+    $('#content').append('<hr>');
     $('#postamble').appendTo($('#content'));
 
     // Move each table in a div to handle large tables' overflow
