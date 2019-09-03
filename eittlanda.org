@@ -432,9 +432,9 @@
     relation des différentes voyelles entre elles.
 
     #+NAME: vow-dot
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
       <<tree-dot>>
-      (defvar vowels
+      (defvar eittlandic-vowels
         '("vowels"
           ("[high]"
            ("[rnd]"
@@ -454,18 +454,18 @@
              ("[low]" ("/æ/"))
              ("{low}" ("/e/")))
             ("{tense}" ("/ɑ/"))))))
-      (tree-to-dot vowels)
+      (tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.svg :var input=vow-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.svg :var input=vow-dot :exports results
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
-    #+RESULTS[13479f199983d5f36a4583e44b8842f03dd66807]:
-    [[file:img/eittlanda-vowel-feature-tree.png]]
+    #+RESULTS:
+    [[file:img/eittlanda/vowel-feature-tree.svg]]
 
     Dans   le  tableau   [[table:vowels:features]]  sont   présentées  chacune   des
     caractéristiques de chaque voyelle individuelle de l’Eittlandais.

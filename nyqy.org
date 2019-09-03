@@ -189,7 +189,7 @@
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar consonants
+      (defvar nyqy-consonants
         '("[cons]"
           ("[son]"
            ("[dor]"
@@ -213,10 +213,8 @@
             ("{voice}"
              ("[cor]")
              ("{cor}"))))))
-      (tree-to-dot consonants)
+      (tree-to-dot nyqy-consonants)
     #+END_SRC
-
-    #+RESULTS[3cdf83976255f554cbde3c9c60d3c98fe3ff6f7c]: cons-tree
 
     #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.svg :var input=cons-tree :exports results :eval yes :cache yes
       $input
@@ -311,7 +309,7 @@
     #+NAME: vow-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar vowels
+      (defvar nyqy-vowels
         '("[vowel]"
           ("[back]"
            ("[tense]"
@@ -327,7 +325,7 @@
            ("{tense}"
             ("[high]" ("i"))
             ("{high}" ("e"))))))
-      (tree-to-dot vowels)
+      (tree-to-dot nyqy-vowels)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.svg :var input=vow-tree :exports results :eval yes :cache yes
@@ -707,7 +705,7 @@
   #+NAME: basic-syntax-tree
   #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
     <<tree-dot>>
-    (defvar syntax-tree
+    (defvar nyqy-syntax-tree
       '("S"
         ("Obl")
         ("S'"
@@ -728,7 +726,7 @@
             ("Tense")
             ("V")
             ("Neg")))))))
-    (tree-to-dot syntax-tree)
+    (tree-to-dot nyqy-syntax-tree)
   #+END_SRC
 
   #+BEGIN_SRC dot :file img/nyqy/basic-syntax.svg :var input=basic-syntax-tree :exports results :eval yes :cache yes

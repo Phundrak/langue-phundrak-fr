@@ -73,7 +73,7 @@
     #+name: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar consonants
+      (defvar taso-consonants
         '("consonant"
           ("[son]"
            ("[cor]"
@@ -123,7 +123,7 @@
              ("{cont}"
               ("[voice]" ("b"))
               ("{voice}" ("p"))))))))
-      (tree-to-dot consonants)
+      (tree-to-dot taso-consonants)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/taso/consonant-feature-tree.svg :var input=cons-tree :exports results :eval yes :cache yes
@@ -156,7 +156,7 @@
     #+name: vowel-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar vowels
+      (defvar taso-vowels
         '("vowel"
           ("[high]"
            ("[frnt]"
@@ -184,7 +184,7 @@
             ("{frnt}"
              ("[tense]" ("ɤ"))
              ("{tense}" ("a")))))))
-      (tree-to-dot vowels)
+      (tree-to-dot taso-vowels)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/taso/vowel-feature-tree.svg :var input=vowel-tree :exports results :eval yes :cache yes
