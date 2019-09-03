@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-var light = false;
-
 window.onload = function() {
     reorganize_html();
     create_theme_switcher();
@@ -65,33 +63,45 @@ function reorganize_html() {
 }
 
 function create_theme_switcher() {
-    // If no theme cookie is found, set dark by default
-    if (Cookies.get('theme') == null) {
-        Cookies.set('theme', 'dark');
-    }
+    // set the correct CSS depending on the cookie, dark is default
+    var light = isThemeLight();
+    $('body').append('<div class="themeBtn"><i class="fas fa-'
+        .concat(light ? 'moon' : 'sun').concat('"></i></div>'));
+    $('head').append('<link id="theme" rel="stylesheet" href="./css/'
+        .concat(light ? 'light' : 'dark').concat('.css">'));
 
-    // set the css and button depending on the cookie found, dark is default
-    if (Cookies.get('theme') == 'light') {
-        $('body').append('<div class="themeBtn"><i class="fas fa-moon"></i></div>');
-        $('head').append('<link id="theme" rel="stylesheet" href="./css/light.css">');
-    } else {
-        $('body').append('<div class="themeBtn"><i class="fas fa-sun"></i></div>');
-        $('head').append('<link id="theme" rel="stylesheet" href="./css/dark.css">');
-    }
-
-    // switch CSS files and button icon, set new cookie
+    // switch CSS files and button icon, set new cookie on theme switcher click
     $('.themeBtn').click(function() {
-        if (Cookies.get('theme') == 'dark') {
-            $('link[href="./css/dark.css"]').attr('href', './css/light.css');
-            $('.themeBtn').html('<i class="fas fa-moon"></i>');
-            Cookies.set('theme', 'light');
-        } else {
-            $('link[href="./css/light.css"]').attr('href', './css/dark.css');
-            $('.themeBtn').html('<i class="fas fa-sun"></i>');
-            Cookies.set('theme', 'dark');
-        }
+        console.log("Theme change");
+        var light = !isThemeLight();
+        console.log(light);
+        $("#theme").first().attr('href', './css/'
+            .concat(light ? 'light' : 'dark')
+            .concat('.css'));
+        $('.themeBtn').html('<i class="fas fa-'
+            .concat(light ? 'moon' : 'sun')
+            .concat('"></i>'));
+        Cookies.set('light-theme', light ? 'true' : 'false');
     });
 }
+
+function isThemeLight() {
+    // set the css and button depending on the cookie found, dark is default
+    var light;
+    switch (Cookies.get('light-theme')) {
+        case 'true':
+            light = true;
+            break;
+        case null: // If no theme cookie is found, set dark by default
+            Cookies.set('light-theme', false);
+            /* falls through */
+        default:
+            light = false;
+            break;
+    }
+    return light;
+}
+
 
 function isEmpty(el) {
     return !$.trim(el.html());
