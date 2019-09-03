@@ -12,3 +12,4 @@ _minted*
 /draconian-2/auto-generated*
 /ignored-folder
 /js/.tern-port
+*.pdf_tex
