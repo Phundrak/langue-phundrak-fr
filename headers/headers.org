@@ -4,36 +4,24 @@
 #+CREATOR: Lucien Cartier-Tilet
 #+LANGUAGE: fr
 
-# ### LaTeX ####################################################################
-
-#+LATEX_CLASS: article
-#+LaTeX_CLASS_OPTIONS: [a5paper,twoside]
-#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}
-#+LATEX_HEADER: \usepackage[total={11cm,17cm}]{geometry}
-#+LATEX_HEADER: \setromanfont{Charis SIL}
-#+LATEX_HEADER: \usepackage{xcolor}
-#+LATEX_HEADER: \usepackage{hyperref}
-#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-#+LATEX_HEADER: \usepackage{multicol}
-#+LATEX_HEADER: \usepackage{indentfirst}
-#+LATEX_HEADER: \sloppy
-
-# ### HTML #####################################################################
-
-#+HTML_DOCTYPE: html5
-#+HTML_HEAD: <script src="https://kit.fontawesome.com/4d42d0c8c5.js"></script>
-#+HTML_HEAD: <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
-#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
-#+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
-#+HTML_HEAD: <meta name="twitter:card" content="summary" />
-#+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
-#+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
-
 # ### CODE #####################################################################
 
+#+name: setup
+#+begin_src emacs-lisp :results silent :exports none
+  (unless (find "per-file-class" org-latex-classes :key 'car
+            :test 'equal)
+    (add-to-list 'org-latex-classes
+                 '("conlang"
+                   "\\documentclass{book}"
+                   ;; ("\\part{%s}" . "\\part*{%s}")
+                   ("\\chapter{%s}" . "\\chapter*{%s}")
+                   ("\\section{%s}" . "\\section*{%s}")
+                   ("\\subsection{%s}" . "\\subsection*{%s}")
+                   ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))))
+#+end_src
+
 #+NAME: tree-dot
-#+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+#+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
   (defun declare-node (node-text node-generation)
     "Declares a node in the graphviz source code. The node’s identifier will be
   ~node-generation~, and it will bear the label ~node-text~."
@@ -84,6 +72,33 @@
        (tree-to-dot-helper (cdr tree) 1 0)
        "}")))
 #+END_SRC
+
+# ### LaTeX ####################################################################
+
+#+LATEX_CLASS: conlang
+#+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
+#+LATEX_HEADER: \usepackage{tocloft} \setlength{\cftchapnumwidth}{3em}
+#+LATEX_HEADER: \usepackage{xltxtra,fontspec,xunicode}
+#+LATEX_HEADER: \usepackage[total={17cm,22cm}]{geometry}
+#+LATEX_HEADER: \setromanfont{Charis SIL}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{indentfirst}
+#+LATEX_HEADER: \sloppy
+
+# ### HTML #####################################################################
+
+#+HTML_DOCTYPE: html5
+#+HTML_HEAD: <script src="https://kit.fontawesome.com/4d42d0c8c5.js"></script>
+#+HTML_HEAD: <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/mahakala-128x128.png" type="img/png" media="screen" />
+#+HTML_HEAD: <link rel="shortcut icon" href="https://cdn.phundrak.fr/img/favicon.ico" type="image/x-icon" media="screen" />
+#+HTML_HEAD: <meta property="og:image" content="https://cdn.phundrak.fr/img/rich_preview.png" />
+#+HTML_HEAD: <meta name="twitter:card" content="summary" />
+#+HTML_HEAD: <meta name="twitter:site" content="@phundrak" />
+#+HTML_HEAD: <meta name="twitter:creator" content="@phundrak" />
 
 # ### MACROS ###################################################################
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@

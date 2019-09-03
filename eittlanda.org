@@ -4,14 +4,13 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
-#+LATEX_CLASS: book
-#+LATEX_HEADER: \usepackage{tocloft} \setlength{\cftchapnumwidth}{3em}
+#+LATEX_CLASS: conlang
 #+LATEX_HEADER: \usepackage{allrunes}
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
-#+OPTIONS: toc:nil auto-id:t
-#+TOC: headlines
+#+OPTIONS: auto-id:t
+# #+TOC: headlines
 
 * Propos préliminaires
   :PROPERTIES:
@@ -176,6 +175,7 @@
     trouvé avec la carte [[img:map-typo]]
 
     #+NAME: img:map-typo
+    #+ATTR_LATEX: :float sideways
     #+CAPTION: Topologie d’Eittlande
     [[./img/eittlanda/map-hq.jpg]]
 
@@ -205,8 +205,9 @@
     Il nomma alors son fils co-roi
 
 
-    #+NAME: Eittland-kings
-    #+CAPTION: Liste des rois Eittlandais
+    #+NAME: Eittland-kings:1
+    #+ATTR_LATEX: :float sideways
+    #+CAPTION: Liste des rois Eittlandais de 915 à 1392
     | <l5>                          | <l5>      | <l5> | <l5> | <l5>      | <l5>                           | <l5>      | <l5> | <l5> | <l5>      |
     | roi                           | naissance | mort | âge  | règne     | co-roi                         | naissance | mort | âge  | règne     |
     |-------------------------------+-----------+------+------+-----------+--------------------------------+-----------+------+------+-----------|
