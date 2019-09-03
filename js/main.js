@@ -7,22 +7,21 @@ window.onload = function() {
 };
 
 function roll_elems() {
-    // Add the possibility for all headers to roll what follows them
-    ['h2', 'h3', 'h4', 'h5', 'h6'].forEach(htitle => {
-        $(htitle).addClass('rolled');
-    });
-
-    // Except for the footnotes
-    $('.footnotes').removeClass('rolled');
-
     // Make the rollable headers actually rollable and rolled
-    $('.header-container').each(function($header) {
-        $header = $(this);
-        $header.click(function() {
-            $header.nextAll().each(function() {
-                $(this).slideToggle(500);
+    $(".outline-2").each(function() {
+        ['h2', 'h3', 'h4', 'h5', 'h6'].forEach(htitle => {
+            $(this).find(htitle).each(function($header) {
+                $header = $(this);
+                if (isEmpty($header.next())) {
+                    $header.next().remove();
+                }
+                $header.click(function() {
+                    $header.nextAll().each(function() {
+                        $(this).slideToggle(500);
+                    });
+                    $header.toggleClass('rotated');
+                });
             });
-            $header.find('>:first-child').toggleClass('rotated');
         });
     });
 }
@@ -37,21 +36,6 @@ function reorganize_html() {
 
     // Move the postamble in the content div
     $('#postamble').appendTo($('#content'));
-
-    // Move to container the various heads
-    [2, 3, 4, 5, 6].forEach(htitle => {
-        $('h' + htitle).each(function() {
-            $header = $(this);
-            $header.before('<div class="header-container"><div class="highlight-h' +
-                htitle + '"></div></div>');
-            $header.prependTo($header.prev());
-        });
-        $('.outline-text-' + htitle).each(function() {
-            if (isEmpty($(this))) {
-                $(this).remove();
-            }
-        });
-    });
 
     // Move each table in a div to handle large tables' overflow
     $('table').each(function() {
@@ -100,7 +84,6 @@ function isThemeLight() {
     }
     return light;
 }
-
 
 function isEmpty(el) {
     return !$.trim(el.html());
