@@ -3,6 +3,7 @@
 window.onload = function() {
     reorganize_html();
     create_theme_switcher();
+    console.log("JS loaded!");
 };
 
 function reorganize_html() {
@@ -28,9 +29,7 @@ function create_theme_switcher() {
 
     // switch CSS files and button icon, set new cookie on theme switcher click
     $('.themeBtn').click(function() {
-        console.log("Theme change");
         var light = !isThemeLight();
-        console.log(light);
         $("#theme").first().attr('href', './css/'
             .concat(light ? 'light' : 'dark')
             .concat('.css'));

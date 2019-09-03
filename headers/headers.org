@@ -11,20 +11,6 @@
 
 # ### CODE #####################################################################
 
-#+name: setup
-#+begin_src emacs-lisp :results silent :exports none
-  (unless (find "conlang" org-latex-classes :key 'car
-            :test 'equal)
-    (add-to-list 'org-latex-classes
-                 '("conlang"
-                   "\\documentclass{book}"
-                   ;; ("\\part{%s}" . "\\part*{%s}")
-                   ("\\chapter{%s}" . "\\chapter*{%s}")
-                   ("\\section{%s}" . "\\section*{%s}")
-                   ("\\subsection{%s}" . "\\subsection*{%s}")
-                   ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))))
-#+end_src
-
 #+NAME: tree-dot
 #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
   (defun declare-node (node-text node-generation)
