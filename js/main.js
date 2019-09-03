@@ -15,15 +15,14 @@ function roll_elems() {
     // Except for the footnotes
     $('.footnotes').removeClass('rolled');
 
-    // // Make the rollable headers actually rollable and rolled
+    // Make the rollable headers actually rollable and rolled
     $('.header-container').each(function($header) {
         $header = $(this);
         $header.click(function() {
             $header.nextAll().each(function() {
                 $(this).slideToggle(500);
             });
-            $header.find('>:first-child').toggleClass('unrolled');
-            $header.find('>:first-child').toggleClass('rolled');
+            $header.find('>:first-child').toggleClass('rotated');
         });
     });
 }

@@ -12,6 +12,10 @@
     src: url("../fonts/NotoSansRunic-Regular.ttf");
 }
 
+:root {
+    --after-rotation: 90deg;
+}
+
 body {
     font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
     font-weight: normal;
@@ -160,14 +164,21 @@ a.footref {
     margin: 0 2px;
 }
 
-.rolled::after {
+h2::after,
+h3::after,
+h4::after,
+h5::after {
     content: "➤";
-    padding-left: 20px;
+    margin-left: 20px;
+    display: inline-block;
 }
 
-.unrolled::after {
-    content: "⌄";
-    padding-left: 20px;
+.rotated::after {
+    -webkit-transform: rotate(var(--after-rotation));
+    -moz-transform: rotate(var(--after-rotation));
+    -o-transform: rotate(var(--after-rotation));
+    -ms-transform: rotate(var(--after-rotation));
+    transform: rotate(var(--after-rotation));
 }
 
 .themeBtn {
