@@ -10,7 +10,7 @@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
 #+OPTIONS: auto-id:t
-# #+TOC: headlines
+#+KEYWORDS: eittland eittlande einnland einnlande nordique viking islande norrois
 
 * Propos préliminaires
   :PROPERTIES:
@@ -161,23 +161,26 @@
     l’Écosse et le nord de l’Angleterre.
 
     #+NAME: img:map-world
+    #+ATTR_HTML: :width 100%
     #+CAPTION: Emplacement d’Eittlande dans l’Océan Atlantique.
-    [[./img/eittlanda/map-world.jpg]]
+    [[file:img/eittlanda/map-world.jpg][file:img/eittlanda/map-world.jpg]]
 
     Vous pouvez également trouver une  carte simplifiée d’Eittlande montrant les
     principaux lieux et principales villes du pays avec la carte [[img:map-simple]]
 
     #+NAME: img:map-simple
+    #+ATTR_HTML: :width 100%
     #+CAPTION: Carte simplifiée d’Eittlande
-    [[./img/eittlanda/map-simple.jpg]]
+    [[file:img/eittlanda/map-simple.jpg][file:img/eittlanda/map-simple.jpg]]
 
     Une carte de style plus topologique  et plus détaillée d’Eittlande peut être
     trouvé avec la carte [[img:map-typo]]
 
     #+NAME: img:map-typo
     #+ATTR_LATEX: :float sideways
+    #+ATTR_HTML: :width 100%
     #+CAPTION: Topologie d’Eittlande
-    [[./img/eittlanda/map-hq.jpg]]
+    [[file:img/eittlanda/map-hq.jpg][file:img/eittlanda/map-hq.jpg]]
 
 *** Histoire, migrations
     :PROPERTIES:
@@ -456,7 +459,7 @@
       (tree-to-dot vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.svg :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
