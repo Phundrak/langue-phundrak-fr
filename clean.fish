@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 set delfname "*.pdf" "*.tex" "*.aux" "*.log" "*.toc" "*.out" "*.html" "*.lol" "*.lot"
-set deldname "auto" "_minted*"
+set deldname "auto" "_minted*" "svg-inkscape"
 for f in $delfname
     find -type f -name $f -delete
 end
