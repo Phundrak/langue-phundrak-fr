@@ -78,7 +78,7 @@
 
     #+name: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<dot>>
+      <<tree-dot>>
       (defvar consonants
         '("consonant"
           ("[son]"
