@@ -1,8 +1,9 @@
 body {
     background-color: #eee;
-    color: #444;
 }
 
+body,
+.title,
 a {
     color: #444;
 }
