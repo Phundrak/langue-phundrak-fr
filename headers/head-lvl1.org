@@ -3,8 +3,8 @@
 
 # ### STYLE ####################################################################
 
-#+HTML_HEAD: <link rel="stylesheet" href="../css/htmlize.min.css"/>
-#+HTML_HEAD: <link rel="stylesheet" href="../css/main.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../css/htmlize.min.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../css/main.css"/>
 
-#+HTML_HEAD: <script src="../js/jquery.min.js"></script>
-#+HTML_HEAD: <script src="../js/main.js"></script>
+#+HTML_HEAD_EXTRA: <script src="../js/jquery.min.js"></script>
+#+HTML_HEAD_EXTRA: <script defer src="../js/main.js"></script>
