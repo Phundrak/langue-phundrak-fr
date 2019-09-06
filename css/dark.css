@@ -10,7 +10,8 @@ a {
 }
 
 th,
-td {
+td,
+pre {
     border: 1px solid #263646;
 }
 
