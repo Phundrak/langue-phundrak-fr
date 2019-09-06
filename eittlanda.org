@@ -9,12 +9,12 @@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
 #+KEYWORDS: eittland eittlande einnland einnlande nordique viking islande norrois
+#+OPTIONS: auto-id:t
 
 * Propos préliminaires
   :PROPERTIES:
   :CUSTOM_ID: h-41a62215-44fc-490f-89f3-5b9cccf02550
   :END:
-
 ** Avant-propos
    :PROPERTIES:
    :CUSTOM_ID: h-89e5cd8b-42e4-41c2-aad7-6112dfa3ace1
@@ -103,23 +103,47 @@
    m’efforce à  garder exhaustive des  abréviations que vous  pourrez rencontrer
    plus tard.
 
-   - ACC :: accusatif
-   - NOM :: nominatif
-   - GEN :: génitif
-   - DAT :: datif
-   - SG :: singulier
-   - PL :: pluriel
    - 1 :: première personne
    - 2 :: deuxième personne
    - 3 :: troisième personne
-   - M :: masculin
-   - N :: neutre
+   - ACC :: accusatif
+   - adj :: adjectif
+   - adv :: adverbe
+   - adjF :: adjectif fort
+   - advF :: adverbe fort
+   - adjf :: adjectif faible
+   - advf :: adverbe faible
+   - API :: Alphabet Phonétique International
+   - DAT :: datif
+   - E :: Eittlandais
    - F :: féminin
-   - PN :: phrase nominale
-   - PV :: phrase verbale
+   - FF :: féminin fort
+   - Ff :: féminin faible
+   - GEN :: génitif
+   - M :: masculin
+   - MF :: masculin fort
+   - Mf :: masculin faible
+   - N :: neutre
+   - n :: nom
+   - NF :: neutre fort
+   - Nf :: neutre faible
+   - NOM :: nominatif
    - OD :: objet direct
    - OI :: objet indirect
-   - API :: Alphabet Phonétique International
+   - PL :: pluriel
+   - PN :: phrase nominale
+   - PV :: phrase verbale
+   - SG :: singulier
+   - v :: verbe
+   - vi :: verbe intransitif
+   - vt :: verbe transitif
+   - vF :: verbe fort
+   - vf :: verbe faible
+   - vtF :: verbe transitif fort
+   - vtf :: verbe transitif faible
+   - viF :: verbe intransitif fort
+   - vif :: verbe intransitif faible
+   - VN :: Vieux Norrois
 
    Ce  document utilisera  également  les conventions  habituelles des  ouvrages
    linguistiques, tel que  les gloses pour le détail  linguistique d’une phrase,
@@ -130,16 +154,30 @@
   :PROPERTIES:
   :CUSTOM_ID: h-a89fab50-74c0-4d03-9248-8cad4629d846
   :END:
-
 ** Le nom de la langue
    :PROPERTIES:
    :CUSTOM_ID: h-2a5d6c2e-16e0-48c1-9cb5-d2ff98519b3f
    :END:
+   L’Eittlandais est  appelé ainsi du  fait du nom  de l’île sur  laquelle cette
+   langue  est   parlée :  Eittlande.  À   l’instar  de  l’Islande,   l’île  fut
+   initialement   colonisée   par   des  nordiques   originaires   selon   toute
+   vraisemblance  de Norvège.  Ainsi, leur  langue  était à  l’origine le  Vieux
+   Norrois  occidental, cependant  avec la  création de  l’État d’Eittlande,  un
+   sentiment d’appartenance  à l’île et  d’unité entre les personnes  vivant sur
+   place que le concept d’Eittlandais a commencé à apparaître. Cela fut renforcé
+   par les résidents  d’autres pays se référant aux  habitants d’Eittlande comme
+   des Eittlandais ainsi que leur langue comme étant une langue Eittlandaise que
+   cette  appellation fut  reprise par  les  locaux. En  Eittlandais, la  langue
+   s’appelle /Eittlands/, forme au génitif du nom de l’île, /Eittland/.
 
-** Recherches précédentes
-   :PROPERTIES:
-   :CUSTOM_ID: h-b8a0fbe7-52b9-46a5-a9de-63a2509c8ae6
-   :END:
+   L’étymologie du terme /eittland/ est  relativement transparente, il s’agit de
+   l’agglomération  des   termes  /eitt/,  forme  neutre   singulier  de  /einn/
+   signifiant  « solitaire »  ou « seul »,  et  de  /land/, signifiant  /terre/.
+   Ainsi, /Eittland/ peut être traduit par /Terre solitaire/. La raison est sans
+   doute une  découverte précoce d’Eittlande  avant la découverte  du Groënland,
+   les  personnes ayant  nommé l’île  croyant sans  doute que  la terre  la plus
+   proche serait l’Islande,  rendant ainsi Eittlande isolée aux  yeux des marins
+   Norvégiens.
 
 ** Démographie
    :PROPERTIES:
@@ -325,7 +363,6 @@
   :PROPERTIES:
   :CUSTOM_ID: h-76fc0b91-e41c-42ad-8652-bba029632333
   :END:
-
 ** Esquisse typologique
    :PROPERTIES:
    :CUSTOM_ID: h-dcd950c6-3a8b-4a9b-abf5-11f607d37415
@@ -335,7 +372,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ed0cea88-9b4f-42e9-ac94-b40c8432e264
    :END:
-
 *** Voyelles pures
     :PROPERTIES:
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
@@ -395,21 +431,36 @@
 
 
     Voici une description plus en détail des voyelles de l’Eittlandais :
-    - a   ::   même {{{phon(ɑ)}}} qu’en anglais  britannique /father/. Exemple :
-             /dagyr/ « jour »
-    - æ ::  même {{{phon(æ)}}} qu’en  anglais britannique /pat/. Exemple : /sær/
-           « mer »
-    - e :: même {{{phon(e)}}} qu’en français /été/. Exemple : /elgyr/ « élan »
-    - i     ::    même  {{{phon(i)}}}  qu’en français  /île/.  Exemple :  /iðyn/
-              « travail, métier »
-    - o :: même {{{phon(o)}}} qu’en français /eau/. Exemple : /hof/ « temple »
-    - ó :: même {{{phon(ɔ)}}} qu’en français /vote/. Exemple : /ól/ « bière »
-    - ö :: même {{{phon(œ)}}} qu’en français /neuf/. Exemple : /öpa/ « crier »
-    - ø   ::   même  {{{phon(ø)}}}  qu’en français  /deux/.  Exemple :  /døkkyr/
-            « sombre »
-    - u :: même {{{phon(u)}}} qu’en français /doux/. Exemple : /ull/ « laine »
-    - y    ::   même  {{{phon(y)}}}   qu’en  français  /lune/.  Exemple :  /ymr/
-             « grognement, bourdonnement, fredonnement »
+    - a :: même {{{phon(ɑ)}}} qu’en anglais britannique /father/.
+
+           Exemple : /dagan/ {{{phon(dɑɡɑ̃)}}}
+    - æ :: même {{{phon(æ)}}} qu’en anglais britannique /pat/.
+
+           Exemple : /sær/ {{{phon(çær)}}}
+    - e :: même {{{phon(e)}}} qu’en français /été/.
+
+           Exemple : /elgyr/ {{{phon(elɣər)}}}
+    - i :: même {{{phon(i)}}} qu’en français /île/.
+
+           Exemple : /iðyn/ {{{phon(iðən)}}}
+    - o :: même {{{phon(o)}}} qu’en français /eau/.
+
+           Exemple : /hof/ {{{phon(hov)}}}
+    - ó :: même {{{phon(ɔ)}}} qu’en français /vote/.
+
+           Exemple : /ól/ {{{phon(ɔl)}}}
+    - ö :: même {{{phon(œ)}}} qu’en français /neuf/.
+
+           Exemple : /öpa/ {{{phon(œpa)}}}
+    - ø :: même {{{phon(ø)}}} qu’en français /deux/.
+
+           Exemple : /døkkyr/ {{{phon(døkːər)}}}
+    - u :: même {{{phon(u)}}} qu’en français /doux/.
+
+           Exemple : /ull/ {{{phon(ulː)}}}
+    - y :: même {{{phon(y)}}} qu’en français /lune/.
+
+           Exemple : /ymyr/ {{{phon(ymər)}}}
 
     Peu  d’évolutions  de  la  prononciation   des  voyelles  du  vieux  norrois
     apparurent, mis  à part la  perte de  distinction entre voyelles  longues et
@@ -447,7 +498,7 @@
              ("[front]" ("/ø/"))
              ("{front}" ("/o/")))
             ("{tense}"
-             ("[front]" ("/œ/"))
+            ("[front]" ("/œ/"))
              ("{front}" ("/ɔ/"))))
            ("{rnd}"
             ("[tense]"
@@ -457,7 +508,7 @@
       (tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.svg :var input=vow-dot :exports results
+    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results
       $input
     #+END_SRC
     #+NAME: arbre:vowels
@@ -465,7 +516,7 @@
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
     #+RESULTS:
-    [[file:img/eittlanda/vowel-feature-tree.svg]]
+    [[file:img/eittlanda/vowel-feature-tree.png]]
 
     Dans   le  tableau   [[table:vowels:features]]  sont   présentées  chacune   des
     caractéristiques de chaque voyelle individuelle de l’Eittlandais.
@@ -523,24 +574,31 @@
             légèrement  plus ouverte.  On peut  également parfois  la rencontrer
             prononcée   {{{phon(ɛɪ)}}},  voir   le  chapitre   sur  l’allophonie
             (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).    On    retrouve    une
-            diphtongue  similaire en  Norvégien dans  le terme  /nei/. Exemple :
-            /Eittland/
+            diphtongue similaire en Norvégien dans le terme /nei/. La diphtongue
+            est  souvent prononcée  {{{phon(ɛɪ)}}} dans  la partie  orientale de
+            l’île d’Eittlande.
+
+            Exemple : /Eittland/ {{{phon(æɪtːlãd)}}}
     - au   ::  diphtongue similaire à  la diphtongue de l’anglais nord-américain
               standard comme dans /low/ {{{phon(loʊ̯)}}}, excepté que la première
               voyelle est  plus ouverte.  Une diphtongue  plus proche  peut être
-              retrouvée  en néerlandais  belge dans  le terme  /lauw/. Exemple :
-              /auðyr/ « trésor »
+              retrouvée  en néerlandais  belge dans  le terme  /lauw/.
+
+              Exemple : /auðyr/ {{{phon(ɔʊðər)}}}
     - ey ::  contrairement à ce  que la  voyelle typographique <e>  peut laisser
             penser, la prononciation  de la première voyelle est  similaire à un
             <ø>. La  diphtongue est  donc similaire  à la  voyelle de  /neus/ en
             néerlandais des Pays-Bas, ou à /auga/ en Islandais.
 
+            Exemple : /eyra/ {{{phon(øʏra)}}}
+
     Il  est  également possible  de  techniquement  considérer l’association  de
     voyelles  avec  les  consonnes  {{{phon(j)}}}  et  {{{phon(w)}}}  comme  des
     diphtongues,  voire des  triphtongues si  ladite voyelle  est elle-même  une
-    diphtongue,  mais il  demeure plus  simple de  considérer ces  semi-voyelles
+    diphtongue.  Mais il  demeure plus  simple de  considérer ces  semi-voyelles
     comme  étant  des  consonnes  au   même  titre  que  toutes  celles  listées
-    ci-dessous.
+    ci-dessous, leur considération en tant que diphtongues et triphtongues
+    n’apportant rien de significatif à la grammaire eittlandaise.
 
 *** Consonnes
     :PROPERTIES:
@@ -563,7 +621,7 @@
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
     |      nasal |         m         |                      |      n̪ (n̪̥)      |                  |        ŋ         |                       |                  |
     |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |          kʷ           |                  |
-    |   fricatif |         β         |          f           |       θ ð       |        ç         |      (x) ɣ       |         (ɣʷ)          |        h         |
+    |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |         (ɣʷ)          |        h         |
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |      r̪ (r̪̥)      |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |      l̪ (l̪̥)      |                  |                  |                       |                  |
@@ -573,7 +631,7 @@
     du monde, et en particulier comparé aux langues européennes et nordique : le
     {{{phon(s)}}} ou  son équivalent  voisé {{{phon(z)}}}  ne sont  pas présents
     dans l’inventaire phonétique.  Cela est dû à une  évolution du {{{phon(s)}}}
-    norrois en un {{{phon(ç)}}}.
+    norrois se palatalisant en {{{phon(ç)}}}.
 
     Pour plus de simplicité, la diacritique dentale ne sera pas marquée ailleurs
     dans ce document, rendant par  exemple {{{phon(t)}}} un strict équivalent de
@@ -606,40 +664,36 @@
     Les consonnes  Eittlandaises ont subit  quelques évolutions depuis  le vieux
     norrois, notamment :
     - Le {{{phon(b)}}} est  devenu une consonne fricative, en  parallèle avec le
-      <g> se  prononçant {{{phon(ɣ)}}}, devenant {{{phon(β)}}}.
+      <g> se prononçant {{{phon(ɣ)}}}, devenant {{{phon(β)}}}.
 
-      Exemple :  /bær/ (maison)  se  prononce  {{{phon(βær)}}} (vieux  norrois :
-      {{{phon(bær)}}}).
+      Exemple : /bær/ {{{phon(bær)}}} (VN), {{{phon(βær)}}} (E).
     - Le  {{{phon(ð)}}}  n’est  plus  un  allophone  de  {{{phon(θ)}}}  et  peut
       maintenant  distinguer   des  mots  n’ayant  pour   seule  différence  que
-      l’utilisation  d’un <þ>  ou d’un  <ð>.
+      l’utilisation d’un <þ> ou d’un <ð>.
 
-      Exemple : /maðyr/ {{{phon(mɑðər)}}} (homme,  humain, mari) se distingue de
-      /maþyr/  {{{phon(mɑθər)}}}  (mathématiques,  basé  sur  le  terme  anglais
-      /maths/) uniquement de par la différenciation entre /ð/ et /þ/.
-    - Le  {{{phon(s)}}}  s’est  palatalisé  en  {{{phon(ç)}}}.
+      Exemple :    /maðyr/   {{{phon(mɑðər)}}}    se   distingue    de   /maþyr/
+      {{{phon(mɑθər)}}} (basé sur le terme anglais /maths/) uniquement de par la
+      différenciation entre /ð/ et /þ/.
+    - Le {{{phon(s)}}} s’est palatalisé en {{{phon(ç)}}}.
 
-      Exemple :   /sær/    se   prononce   {{{phon(çær)}}}    (vieux   norrois :
-      {{{phon(sær)}}}).
+      Exemple : /sær/ {{{phon(sær)}}} (VN), {{{phon(çær)}}} (E).
     - La  prononciation  occasionelle  du   <g>  en  {{{phon(ɣ)}}}  est  devenue
       régulière, rendant  la prononciation  {{{phon(ɡ)}}} occasionelle.  Plus de
       détails  sur   l’utilisation  du   {{{phon(ɡ)}}}  dans  le   chapitre  sur
       l’allophonie.
     - Les sons {{{phon(nɡ)}}}  et {{{phon(nk)}}} se sont nasalisés  et ont perdu
       leur  qualité occlusive,  transformant et  fusionnant les  phonèmes en  un
-      {{{phon(ŋ)}}}  dans  les  deux cas.
+      {{{phon(ŋ)}}} dans les deux cas.
 
-      Exemple : /angan/ (délice, joie) est devenu /ańan/ {{{phon(aŋan)}}} (vieux
-      norrois :  {{{phon(anɡan)}}}),  et  /minka/ (réduire,  être  diminué)  est
-      devenu /mińa/ {{{phon(miŋa)}}} (vieux norrois : {{{phon(minka)}}}).
+      Exemple :  /angan/ {{{phon(angan)}}}  (VN), /ańan/  {{{phon(aŋan)}}} (E) ;
+      /minka/ {{{phon(minka)}}} (VN), /mińa/ {{{phon(miŋa)}}} (E)
     - Le <r> final gémine la consonne qu’il suit s’il s’agit d’un {{{phon(l)}}},
       {{{phon(s)}}}, {{{phon(n)}}} ou {{{phon(r)}}}. Sinon, si le <r> final suit
       une  autre  consonne, un  <y>,  généralement  prononcé {{{phon(ə)}}},  est
-      ajouté avant  le <r> final.
+      ajouté avant le <r> final.
 
-      Exemple :  /frægr/ (célèbre)  devient  /frægyr/ {{{phon(fræɡər)}}}  (vieux
-      norrois ː  {{{phon(fræɡr)}}}),  tandis  que  /dalr/  (vallon,  vallée)  se
-      prononce {{{phon(dɑlː)}}} (vieux norrois : {{{phon(dal:)}}}).
+      Exemple :  /frægr/ {{{phon(fræɡr)}}} (VN),  /frægyr/ {{{phon(fræɡər)}}}
+      (E) ; /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dɑlː)}}} (E).
 
     L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
     consonnes géminées et consonnes non-géminées. Ainsi, /dalr/ {{{phon(dɑlː)}}}
@@ -647,6 +701,63 @@
     (forme  accusative  de  /dalr/),  et /Anar/  {{{phon(ɑnɑr)}}}  (prénom)  est
     également  perçu  comme  différent de  /annarr/  {{{phon(ɑnːɑrː)}}}  (autre,
     second, deuxième, suivant).
+
+    Vous  trouverez   également  l’arbre   [[arbre:cons]]  exposant   la  hiérarchie
+    contrastive des consonnes de l’Eittlandais.
+
+    #+NAME: cons-dot
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
+      <<tree-dot>>
+      (defvar eittlandic-consonants
+        '("consonants"
+          ("[occ]"
+           ("[cor]"
+            ("[voice]" ("/d/"))
+            ("{voice}" ("/t/")))
+           ("{cor}"
+            ("[dor]"
+             ("[nasal]" ("/ŋ/"))
+             ("{nasal}"
+              ("[son]" ("/kʷ/"))
+              ("{son}"
+               ("[voice]" ("/ɣ/"))
+               ("{voice}" ("/k/")))))
+            ("{dor}"
+             ("[strident]" ("/f/"))
+             ("{strident}"
+              ("[voice]" ("/β/"))
+              ("{voice}" ("/p/"))))))
+          ("{occ}"
+           ("[cor]"
+            ("[dor]"
+             ("[son]" ("/j/"))
+             ("{son}" ("/ç/")))
+            ("{dor}"
+             ("[son]"
+              ("[nasal]" ("/n/"))
+              ("{nasal}"
+               ("[lat]" ("/l/"))
+               ("{lat}" ("/r/"))))
+             ("{son}"
+              ("[voice]" ("/ð/"))
+              ("{voice}" ("/θ/")))))
+           ("{cor}"
+            ("[nasal]" ("/m/"))
+            ("{nasal}"
+             ("[dor]" ("/w/"))
+             ("{dor}" ("/h/")))))))
+      (tree-to-dot eittlandic-consonants)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/eittlanda/cons-feature-tree.png :var input=cons-dot :exports results
+      $input
+    #+END_SRC
+    #+NAME: arbre:cons
+    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais
+    #+ATTR_LATEX: :float sideways
+    #+CAPTION: Arbre des caractéristiques distinctives des consonnes de l’Eittlandais
+    #+RESULTS:
+    [[file:img/eittlanda/cons-feature-tree.png]]
 
 *** Ton et accentuation
     :PROPERTIES:
@@ -699,6 +810,7 @@
     |           R r           | {{{rune(r)}}}  |
     |           S s           | {{{rune(s)}}}  |
     |           T t           | {{{rune(t)}}}  |
+    |           Þ þ           | {{{rune(þ)}}}  |
     |           U u           | {{{rune(u)}}}  |
     |           V v           | {{{rune(v)}}}  |
     |           Y y           | {{{rune(y)}}}  |
@@ -714,6 +826,87 @@
     n’éprouvent  pas de  difficultés à  différencier les  deux phonèmes  l’un de
     l’autre.
 
+    Exemple de texte en Eittlandais écrit en alphabet latin et en runes :
+    - Thor blessa Loki avec Mjöllnir.
+    - Þorr ogagnysk Loka a Miöllni.
+    - {{{rune(þorr ogagnysk loka a mi)}}}{{{rune(ö)}}}{{{rune(llni.)}}}
+
+    Voici le détail grammatical de la phrase ci-dessus :
+    | Thor-NOM.SG | blesser-1SG.PST | Loki-DAT.SG | avec | Mjöllnir.DAT.SG |
+    | Þor-r       | ogagn-ysk       | Lok-a       | a    | Miöllni         |
+
+** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-c97f5f38-edc9-4516-947e-d9485e497cf7
+   :END:
+*** Structure syllabique
+    :PROPERTIES:
+    :CUSTOM_ID: h-950b4805-8981-4f61-b1d8-4f0ce29ba57e
+    :END:
+    Les syllabes  Eittlandaises suivent généralement un  modèle ~(C)(C)V(C)(C)~,
+    soit  deux  consonnes  toutes  deux optionnelles  en  attaque,  une  voyelle
+    obligatoire, et deux  consonnes toutes deux optionnelles dans  le coda. Lors
+    de la découpe des syllabes, il  est généralement d’usage d’intégrer dans les
+    syllabes les consonnes  venant après la voyelle, quitte à  ce que la syllabe
+    suivante ne dispose pas de consonnes dans son attaque.
+
+*** Mutation labiale
+    :PROPERTIES:
+    :CUSTOM_ID: h-4a81e6b7-7479-4da5-9093-8e10c26a0853
+    :END:
+    La mutation  de voyelles est  un procésus  par lequel une  voyelle accentuée
+    dans un  mot Eittlandais peut  voir sa  prononciation modifiée du  fait d’un
+    phonème  la suivant ;  dans  le cas  de la  mutation  labiale, les  voyelles
+    accentuées qui ne sont pas arrondies le deviennent si elles sont suivies par
+    un <u> ou un <v>. Ainsi, un <a> peut devenir un <ó> s’il est accentué.
+
+    En  Eittlandais,  il  s’agit  d’un  héritage  du  Vieux  Norrois  qui  n’est
+    actuellement plus productif. Il a  ainsi créé quelques irrégularités dans le
+    vocabulaire de l’Eittlandais où certains termes voient la voyelle accentuéer
+    de la racine des noms et verbes changer en fonction de leur rôle grammatical
+    et de leur  nombre. Par exemple, /faðir/ (/père/,  NOM.M.SG) devient /fódur/
+    (ACC/GEN/DAT.M.SG). Cependant, la présence d’un <u> dans un nouveau terme ne
+    déclenche plus nécessairement cette mutation labiale, comme par exemple avec
+    /kamera/ Nf.SG qui devient /kameru/ NOM/ACC.Nf.PL et non /kómuru/.
+
+    Une régularisation des termes du Vieux Norrois s’est également mise en place
+    envers  les  termes dont  la  voyelle  accentuée  était mutée  au  nominatif
+    singulier, remplaçent entièrement la voyelle  d’origine par la voyelle mutée
+    même dans les autres formes du mot. Ainsi, le terme <mǫn> (/crinière/) se
+    décline ainsi en Vieux Norrois :
+
+    #+NAME: tab:ON:mon:declension
+    #+CAPTION: Déclinaisons du terme <mǫn> en Vieux Norrois
+    | /   | <     | <     |
+    |     | sg    | pl    |
+    |-----+-------+-------|
+    | nom | mǫn   | manar |
+    | acc | mǫn   | manar |
+    | gen | manar | mana  |
+    | dat | mǫn   | mǫnum |
+
+    En Eittlandais, le <ǫ> a entièrement remplacé le <a>, donnant ainsi cette
+    déclinaison au terme <món> (/longue chevelure/) :
+
+    #+NAME: tab:mon:declension
+    #+CAPTION: Déclinaisons du terme <món> en Eittlandais
+    | /   | <     | <     |
+    |     | sg    | pl    |
+    |-----+-------+-------|
+    | nom | món   | mónar |
+    | acc | món   | mónar |
+    | gen | mónar | móna  |
+    | dat | món   | mónum |
+
+*** Mutation frontale
+    :PROPERTIES:
+    :CUSTOM_ID: h-1dd5fbd2-c280-4156-b397-24ca0e77ab2a
+    :END:
+
+*** Fracture de la voyelle initiale
+    :PROPERTIES:
+    :CUSTOM_ID: h-829f4812-5e9e-4bf0-a91e-9cb8c0f25849
+    :END:
 *** Allophonie
     :PROPERTIES:
     :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
@@ -728,8 +921,6 @@
     - e / _CV[-front +rnd] > jɔ
     - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
       {{{phon(l)}}} ou {{{phon(r)}}}
-
-     Allophonie :
     - {{{phon(ɡː)}}} > {{{phon(ɡ)}}}
     - h / _{l,r,n} > Ø
     - {l,r,n} > h_ > [-voice]
@@ -738,16 +929,11 @@
     - ɣɣ / _ > ɡː
     - CC / _ > Cː
     - kʷ / V_V > ɣʷ
+    - f / V_{V,#} > v
     - C[+stop] / C[+nasal]_# > [+nasal]
-
-** Phonotaxes
-   :PROPERTIES:
-   :CUSTOM_ID: h-c97f5f38-edc9-4516-947e-d9485e497cf7
-   :END:
-** Structure syllabique
-   :PROPERTIES:
-   :CUSTOM_ID: h-950b4805-8981-4f61-b1d8-4f0ce29ba57e
-   :END:
+    - {l,r,n,s}r / _# > [+long] sinon r / C_# > yr {{{phon(ər)}}}
+    - C[+gem] / C_ > [-gem]
+    - C[+gem] / _C > [-gem]
 
 ** Structure d’un mot
    :PROPERTIES:
@@ -1399,311 +1585,186 @@
   :CUSTOM_ID: h-abba570c-9f4e-4b85-9fdf-2d17707a3c1a
   :END:
 
+** Index des tableaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-f4cdc33a-4251-4b7c-8781-3764c8ae4c92
+   :END:
+   #+TOC: tables
+
 ** Textes avec traduction interlinéaire
    :PROPERTIES:
    :CUSTOM_ID: h-23b6ac25-c290-4121-95ef-66897fd6a93d
    :END:
 
-** Glossaire
+** Dictionnaire
    :PROPERTIES:
-   :CUSTOM_ID: h-a16dfbc3-34d0-4d38-9b43-325b4544d193
+   :CUSTOM_ID: h-ef95e171-b4e9-4b1b-9d26-a6df996f2de5
    :END:
-*** Actions physiques
+*** A
     :PROPERTIES:
-    :CUSTOM_ID: h-4c658763-0108-4da7-800d-d7815289f31b
+    :CUSTOM_ID: h-4288b532-7565-4571-94dc-278ef1bce2c6
     :END:
-*** Amour
+    - ańan :: (n.NF) joie, délice
+    - auðyr :: (n.NF) bien ou objets précieux, trésor, richesses, fortune
+
+*** Æ
     :PROPERTIES:
-    :CUSTOM_ID: h-7f5e5df3-382c-4809-bdd9-a3c7b3d8a53c
+    :CUSTOM_ID: h-c8f8f820-bfa4-401d-91c9-af626aab2a78
     :END:
-*** Animaux
+
+*** B
     :PROPERTIES:
-    :CUSTOM_ID: h-a44e42e0-a9df-4a30-a36c-03ca3b68b2a5
+    :CUSTOM_ID: h-f60cb72b-0ae2-447f-96d7-226e0b9afe35
     :END:
-*** Art
+    - bær :: (n.NF) maison, appartement, domicile, lieu de résidence
+
+*** C
     :PROPERTIES:
-    :CUSTOM_ID: h-d6d42673-f1d9-4ab7-9874-fbc90ffa30e6
+    :CUSTOM_ID: h-d8145cde-443c-4152-870b-ed79b6bef2dd
     :END:
-**** Écriture
-     :PROPERTIES:
-     :CUSTOM_ID: h-131fbe8b-0840-4047-bb83-7a996c691d94
-     :END:
-**** Visuel
-     :PROPERTIES:
-     :CUSTOM_ID: h-3e7eb70e-1950-4d67-8864-ada84b70e907
-     :END:
-**** Audio
-     :PROPERTIES:
-     :CUSTOM_ID: h-fc7db645-cda6-4316-bc00-b589e37b74a7
-     :END:
-*** Astronomie
+
+*** D
     :PROPERTIES:
-    :CUSTOM_ID: h-731f0b57-159e-42da-a002-98abeb4eecfb
+    :CUSTOM_ID: h-eabffe31-39e9-44a8-8ff5-0533724eafe0
     :END:
-*** Bâtiments
+    - dagan  :: (n.FF)  jour (unité  de temps),  jour (période  lumineuse de  la
+               journée)
+    - dalr :: (n.MF) vallon, vallée
+    - døkkyr :: (adjF) sombre, ténébreux
+    - dyrk :: (n.FF) gloire
+
+*** Ð
     :PROPERTIES:
-    :CUSTOM_ID: h-6898a833-1882-48b6-a345-f7973b0e11af
+    :CUSTOM_ID: h-cc11c04d-db95-49ac-8b94-77d7553b5f6a
     :END:
-**** La ville
-     :PROPERTIES:
-     :CUSTOM_ID: h-5068ec0c-aa7e-4ef2-8be0-3dc5ea63d0df
-     :END:
-**** Les types de bâtiments
-     :PROPERTIES:
-     :CUSTOM_ID: h-2cac2d04-6c6b-4b60-bc8a-49b1e6bdedb2
-     :END:
-*** Commerce
+
+*** E
     :PROPERTIES:
-    :CUSTOM_ID: h-89810854-457a-4e5a-87ee-c8707871d684
+    :CUSTOM_ID: h-6f480e46-e74c-4639-aa50-98afe47866cd
     :END:
-*** Conflits
+    - Eittland :: (n.NF) Eittlande
+    - elgyr :: (n.MF) élan
+    - eyra :: (n.Nf) oreille
+
+*** F
     :PROPERTIES:
-    :CUSTOM_ID: h-0ac2ae67-f73e-410f-9657-9a6e57e597a0
+    :CUSTOM_ID: h-49cfae9e-bb0c-46d3-b573-1432107fdffc
     :END:
-*** Conteneurs
+    - frægyr :: (ajdF) célèbre, renommé, fameux
+
+*** G
     :PROPERTIES:
-    :CUSTOM_ID: h-68b145ac-e90b-4478-9ccc-6b392fd6dc68
+    :CUSTOM_ID: h-2dd5472e-f630-4510-a416-4b88e15d9966
     :END:
-*** Corps
+
+*** H
     :PROPERTIES:
-    :CUSTOM_ID: h-4a6785a6-cd30-4506-b689-c57fe4f9a8ad
+    :CUSTOM_ID: h-68642ea8-54fe-4c71-b09c-dad3f9616bbb
     :END:
-*** Couleurs
+     - hof :: (n.NF) temple, bâtiment religieux
+
+*** H
     :PROPERTIES:
-    :CUSTOM_ID: h-f491b097-1806-47d3-bcad-e6caaab2f4dd
+    :CUSTOM_ID: h-259069da-65be-4bd5-b4e2-b58e550850e8
     :END:
-*** Dimensions
+
+*** I
     :PROPERTIES:
-    :CUSTOM_ID: h-b61f1135-fcce-4862-84cb-dabf2bf2304d
+    :CUSTOM_ID: h-63496295-b660-4154-b4d7-96129df453f1
     :END:
-**** Distance
-     :PROPERTIES:
-     :CUSTOM_ID: h-79d92127-41e2-463e-8f61-e5389c6f637e
-     :END:
-**** Taille
-     :PROPERTIES:
-     :CUSTOM_ID: h-65753516-c15c-4b3b-882b-c606c945b23f
-     :END:
-**** Quantifieurs
-     :PROPERTIES:
-     :CUSTOM_ID: h-1ba4096d-0d5d-4a19-94e1-21e478e80f86
-     :END:
-*** Direction
+    - iðyn :: (n.FF) travail, métier
+
+*** K
     :PROPERTIES:
-    :CUSTOM_ID: h-0ee25006-8a45-427b-bbce-8c2a2d29c47b
+    :CUSTOM_ID: h-c6188d46-a594-4739-913a-5ac68456ebc8
     :END:
-*** Eau
+
+*** L
     :PROPERTIES:
-    :CUSTOM_ID: h-00bef6e6-a12e-49a6-90ac-c3186fe89f06
+    :CUSTOM_ID: h-9084b8aa-401d-477c-b528-aa8cf257d8a4
     :END:
-*** Effort
+
+*** M
     :PROPERTIES:
-    :CUSTOM_ID: h-b3508fb9-0b57-488e-ba0a-ff473923c6d2
+    :CUSTOM_ID: h-da0f6c8f-47da-47e0-a8e5-048a542fe070
     :END:
-*** Éléments
+    - maðyr :: (n.MF) homme, humain, mari
+    - maþyr :: (n.Nf) mathématiques. Emprunt du terme anglais /math/.
+    - mińa :: (vtf) réduire, diminuer, atténuer
+    - Miöllnir :: (n.MF) Mjöllnir, marteau de Thor
+    - món :: (n.FF) longue chevelure, crinière
+
+*** N
     :PROPERTIES:
-    :CUSTOM_ID: h-ac58f8b7-fea3-412b-abc3-3b37a715103e
+    :CUSTOM_ID: h-66813fdf-c892-4916-bdfb-19bb80ed8512
     :END:
-*** Émotions
+
+*** O
     :PROPERTIES:
-    :CUSTOM_ID: h-f22a773b-46c6-420e-be14-e3e9da56fd98
+    :CUSTOM_ID: h-37ae6431-ce65-4db8-80cb-ad637d95fee1
     :END:
-*** Évaluation
+    - ogagn :: (vtF) blesser, faire mal
+
+*** Ó
     :PROPERTIES:
-    :CUSTOM_ID: h-ef24bfc7-17fe-4f44-b579-6cb10e77b285
+    :CUSTOM_ID: h-e13e5ee6-5c3a-477b-93d7-836fc15f2f91
     :END:
-*** Événements
+    - ól :: (n.NF) bière
+
+*** Ö
     :PROPERTIES:
-    :CUSTOM_ID: h-574010da-d16f-44ba-9c29-c61c17640796
+    :CUSTOM_ID: h-e0949531-7a25-4bbb-974f-3ca751347828
     :END:
-*** Existence
+    - öpa :: (vif) crier, hurler, s’écrier
+
+*** Ø
     :PROPERTIES:
-    :CUSTOM_ID: h-5ba8974f-c88b-492d-8b98-10064689c191
+    :CUSTOM_ID: h-3fd2c5f3-18d4-43f1-80a8-fa0946ac816f
     :END:
-*** Forme
+
+*** P
     :PROPERTIES:
-    :CUSTOM_ID: h-f03f202d-b755-4661-ae3b-83cbe1d94011
+    :CUSTOM_ID: h-751fbcb7-eb1d-45be-95e2-ac3125302d79
     :END:
-*** Gouvernement
+
+*** R
     :PROPERTIES:
-    :CUSTOM_ID: h-8e58e532-ae45-413d-8ceb-c6e3c74fdfce
+    :CUSTOM_ID: h-c942fd49-629f-492c-b090-c26061debf0b
     :END:
-*** Grammaire
+
+*** S
     :PROPERTIES:
-    :CUSTOM_ID: h-1d1bd6ae-716d-4bdc-b745-d035e0906e62
+    :CUSTOM_ID: h-dda4411d-68a0-45a3-91db-255b34026692
     :END:
-**** Articles définis
-     :PROPERTIES:
-     :CUSTOM_ID: h-742795ba-1e8e-48d5-8fb4-bdf4757dd53b
-     :END:
-**** Déterminants démonstratifs
-     :PROPERTIES:
-     :CUSTOM_ID: h-4d053dc4-8e47-4498-a2b5-cfd163dc1a63
-     :END:
-**** Outils interrogatifs
-     :PROPERTIES:
-     :CUSTOM_ID: h-92d668ba-e824-499a-a359-b0fbb321f6d8
-     :END:
-**** Conjonctions
-     :PROPERTIES:
-     :CUSTOM_ID: h-ce9eb30e-b638-4b3f-83d4-5caf7e8e42a8
-     :END:
-**** Prépositions
-     :PROPERTIES:
-     :CUSTOM_ID: h-2a89e35f-759d-4d74-8162-2b2f59f4114c
-     :END:
-**** Pronoms
-     :PROPERTIES:
-     :CUSTOM_ID: h-ef4be640-9cd8-4e0e-ab6c-27f1d3ce1f45
-     :END:
-*** Guerre
+    - sær :: (n.MF) mer
+
+*** T
     :PROPERTIES:
-    :CUSTOM_ID: h-c24d6190-aaf1-4661-8268-7362f6230d85
+    :CUSTOM_ID: h-d2f4b7dc-c9ae-494f-aea0-f79a94e13fa0
     :END:
-*** Légal
+
+*** Þ
     :PROPERTIES:
-    :CUSTOM_ID: h-ed84566d-486c-49c9-83f6-839f1d88323e
+    :CUSTOM_ID: h-779e663b-0665-4b5a-9c03-5cc363b37100
     :END:
-*** Lieux
+    - Þorr :: (n.MF) Thor
+
+*** U
     :PROPERTIES:
-    :CUSTOM_ID: h-923b947d-0b77-4976-9002-8ee3b2538cf0
+    :CUSTOM_ID: h-0bc1fee9-2f4c-41e6-9c44-aa8f71f34407
     :END:
-**** Villes
-     :PROPERTIES:
-     :CUSTOM_ID: h-bab78eb0-fda9-4ae4-b7af-9fb8cb51b568
-     :END:
-*** Lumière
+    - ull :: (n.FF) laine
+
+*** V
     :PROPERTIES:
-    :CUSTOM_ID: h-7e6b98cc-6daf-49bc-9aa9-1c4ab59e71d8
+    :CUSTOM_ID: h-e4badadd-fb43-4ade-89a2-4b0935a14fd9
     :END:
-*** Mental
+
+*** Y
     :PROPERTIES:
-    :CUSTOM_ID: h-f76f0258-ea82-4cea-9040-39292bf3735f
+    :CUSTOM_ID: h-72365ccb-5f3f-4e87-8783-c3998c7638fb
     :END:
-*** Mesures
-    :PROPERTIES:
-    :CUSTOM_ID: h-b2fb8dff-bb0b-43f7-84d2-c7f219723f88
-    :END:
-*** Métaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-ec04697b-e9fa-4bb3-9ade-fd034845d356
-    :END:
-*** Mouvements
-    :PROPERTIES:
-    :CUSTOM_ID: h-27aea65d-1abb-47c9-861d-c0b940959073
-    :END:
-*** Nature
-    :PROPERTIES:
-    :CUSTOM_ID: h-6ee4f214-a67f-456d-9441-c0d616bdaf56
-    :END:
-*** Nombres
-    :PROPERTIES:
-    :CUSTOM_ID: h-7fb6114e-d62c-4cb7-9817-165b4c528fee
-    :END:
-**** Nombres cardinaux
-     :PROPERTIES:
-     :CUSTOM_ID: h-4b3dd494-c159-4631-ae9e-026689157c44
-     :END:
-*** Nourriture
-    :PROPERTIES:
-    :CUSTOM_ID: h-d816b050-f66e-42cc-9f11-8eaac989d45a
-    :END:
-*** Outils
-    :PROPERTIES:
-    :CUSTOM_ID: h-36f52f72-85bb-4404-a8ac-73c2ecd36a1c
-    :END:
-*** Parenté
-    :PROPERTIES:
-    :CUSTOM_ID: h-1957e1b2-e7b2-4383-82bd-d8b203f06e92
-    :END:
-**** Famille
-     :PROPERTIES:
-     :CUSTOM_ID: h-253ef368-80e8-4683-91cb-2840b2c54a2a
-     :END:
-*** Parole
-    :PROPERTIES:
-    :CUSTOM_ID: h-4fa102e2-b789-44b6-bc70-f88d47313115
-    :END:
-*** Péchés
-    :PROPERTIES:
-    :CUSTOM_ID: h-ac1973e9-38e3-401b-b4bf-f21487a137ec
-    :END:
-*** Peuples
-    :PROPERTIES:
-    :CUSTOM_ID: h-6ae5ec4f-6893-4c68-b09d-cf7564accd79
-    :END:
-*** Physique
-    :PROPERTIES:
-    :CUSTOM_ID: h-a28bb58f-a9b5-4e3b-8b55-820db0cb544b
-    :END:
-*** Possession
-    :PROPERTIES:
-    :CUSTOM_ID: h-b5ad0626-24a8-4bc3-8723-1d347ca438fd
-    :END:
-*** Religion
-    :PROPERTIES:
-    :CUSTOM_ID: h-c28598e9-4e5d-459d-990c-6f0a38efc04a
-    :END:
-*** Savoir
-    :PROPERTIES:
-    :CUSTOM_ID: h-f6fe20fe-23f9-4eec-bff7-db8e5b8f9d23
-    :END:
-*** Sensations
-    :PROPERTIES:
-    :CUSTOM_ID: h-9e5517db-bb47-408f-b0fa-1d78e14a3740
-    :END:
-*** Sexe
-    :PROPERTIES:
-    :CUSTOM_ID: h-4ce929c9-c8a7-4333-b561-ebab4493280c
-    :END:
-*** Société
-    :PROPERTIES:
-    :CUSTOM_ID: h-d7f0b33c-5469-4350-a48e-81291cec35ef
-    :END:
-**** Relations sociales
-     :PROPERTIES:
-     :CUSTOM_ID: h-9ebcb251-4318-40be-bbac-070d34977d59
-     :END:
-*** Substances
-    :PROPERTIES:
-    :CUSTOM_ID: h-10d1ee04-953e-4760-91bf-a0b1b13efc1d
-    :END:
-*** Temps
-    :PROPERTIES:
-    :CUSTOM_ID: h-659cff53-97e3-4c97-8873-3231670d5157
-    :END:
-**** Jours de la semaine
-     :PROPERTIES:
-     :CUSTOM_ID: h-d0a4d153-10c4-4525-a016-4cfc3f21198b
-     :END:
-**** Saisons
-     :PROPERTIES:
-     :CUSTOM_ID: h-5afe31f8-a8e3-4e8a-8ac1-50c81252d884
-     :END:
-*** Travail
-    :PROPERTIES:
-    :CUSTOM_ID: h-7eb32d68-1314-4297-89e5-f300a7bf37e8
-    :END:
-*** Végétaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-92c1c60e-9c98-4552-9f4d-fcb9fae77117
-    :END:
-**** Fruits
-     :PROPERTIES:
-     :CUSTOM_ID: h-18ebdd76-eff2-4ff4-a655-aa172fe697e4
-     :END:
-*** Vêtements
-    :PROPERTIES:
-    :CUSTOM_ID: h-11b18705-4f11-4490-8c6f-d16523c93596
-    :END:
-*** Vie et santé
-    :PROPERTIES:
-    :CUSTOM_ID: h-8cc792b5-aa66-48ae-8260-65e5079bc53f
-    :END:
-*** À trier
-    :PROPERTIES:
-    :CUSTOM_ID: h-2ffe56ad-58b6-43ff-acce-9b111a15a76f
-    :END:
+    - ymyr :: grognement, bourdonnement, fredonnement
 
 * Footnotes
   :PROPERTIES:
