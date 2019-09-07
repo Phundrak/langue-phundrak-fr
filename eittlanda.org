@@ -131,6 +131,7 @@
    - OD :: objet direct
    - OI :: objet indirect
    - PL :: pluriel
+   - prep :: preposition
    - PN :: phrase nominale
    - PV :: phrase verbale
    - SG :: singulier
@@ -560,7 +561,7 @@
     | diphtongue |   phonétique   |
     |    <c>     |      <c>       |
     |------------+----------------|
-    |     ei     | {{{phon(æɪ)}}} |
+    |     ei     | {{{phon(aɪ)}}} |
     |     au     | {{{phon(ɔʊ)}}} |
     |     ey     | {{{phon(øʏ)}}} |
 
@@ -569,22 +570,21 @@
     {{{phon(ʊ)}}} et le {{{phon(y)}}} en {{{phon(ʏ)}}}.
 
     Voici une description un peu plus complète de ces diphtongues :
-    - ei ::  diphtongue  proche du {{{phon(aɪ)}}} britannique  que l’on retrouve
+    - ei ::  diphtongue proche du  {{{phon(aɪ)}}} britannique que  l’on retrouve
             dans  /pie/,  à la  différence  près  que  la première  voyelle  est
             légèrement  plus ouverte.  On peut  également parfois  la rencontrer
-            prononcée   {{{phon(ɛɪ)}}},  voir   le  chapitre   sur  l’allophonie
+            prononcée  {{{phon(ɛɪ)}}}, notamment  dans  la  partie orientale  de
+            l’île    d’Eittlande,   voir    le    chapitre   sur    l’allophonie
             (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).    On    retrouve    une
-            diphtongue similaire en Norvégien dans le terme /nei/. La diphtongue
-            est  souvent prononcée  {{{phon(ɛɪ)}}} dans  la partie  orientale de
-            l’île d’Eittlande.
+            diphtongue similaire en Norvégien dans le terme /nei/.
 
-            Exemple : /Eittland/ {{{phon(æɪtːlãd)}}}
+            Exemple : /Eittland/ {{{phon(aɪtːlãd)}}}
     - au   ::  diphtongue similaire à  la diphtongue de l’anglais nord-américain
               standard comme dans /low/ {{{phon(loʊ̯)}}}, excepté que la première
               voyelle est  plus ouverte.  Une diphtongue  plus proche  peut être
               retrouvée  en néerlandais  belge dans  le terme  /lauw/.
 
-              Exemple : /auðyr/ {{{phon(ɔʊðər)}}}
+              Exemple : /auk/ {{{phon(ɔ͡ʊk)}}}
     - ey ::  contrairement à ce  que la  voyelle typographique <e>  peut laisser
             penser, la prononciation  de la première voyelle est  similaire à un
             <ø>. La  diphtongue est  donc similaire  à la  voyelle de  /neus/ en
@@ -672,7 +672,7 @@
       l’utilisation d’un <þ> ou d’un <ð>.
 
       Exemple :    /maðyr/   {{{phon(mɑðər)}}}    se   distingue    de   /maþyr/
-      {{{phon(mɑθər)}}} (basé sur le terme anglais /maths/) uniquement de par la
+      {{{phon(mæθər)}}} (basé sur le terme anglais /maths/) uniquement de par la
       différenciation entre /ð/ et /þ/.
     - Le {{{phon(s)}}} s’est palatalisé en {{{phon(ç)}}}.
 
@@ -693,14 +693,32 @@
       ajouté avant le <r> final.
 
       Exemple :  /frægr/ {{{phon(fræɡr)}}} (VN),  /frægyr/ {{{phon(fræɡər)}}}
-      (E) ; /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dɑlː)}}} (E).
+      (E) ; /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
 
     L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
     consonnes géminées et consonnes non-géminées. Ainsi, /dalr/ {{{phon(dɑlː)}}}
     (forme nominative) est perçu comme  étant différent de /dal/ {{{phon(dɑl)}}}
     (forme  accusative  de  /dalr/),  et /Anar/  {{{phon(ɑnɑr)}}}  (prénom)  est
     également  perçu  comme  différent de  /annarr/  {{{phon(ɑnːɑrː)}}}  (autre,
-    second, deuxième, suivant).
+    second,  deuxième, suivant).  Il est  à  noter cependant  que les  consonnes
+    plosives géminées subirent une lénition :  la première consonne de la double
+    consonne conserve sa  prononciation tandis que la seconde a  vu une lénition
+    apparaître.  Ainsi, /kapp/  se prononce  {{{phon(kɑpː)}}} en  Vieux Norrois,
+    mais se  prononce {{{phon(kɑp͡f)}}} en  Eittlandais, et /akkeri/  se prononce
+    {{{phon(ɑkːeri)}}}   en    Vieux   Norrois   tandis   qu’il    se   prononce
+    {{{phon(ɑkxeri)}}} en Eittlandais. La mutation se fait comme présentée dans
+    le tableau [[cons:mut:gem]].
+
+    #+NAME: cons:mut:gem
+    | graphie |   phonétique   |
+    |   <c>   |      <c>       |
+    |---------+----------------|
+    |   pp    | {{{phon(p͡f)}}} |
+    |   bb    | {{{phon(b͡β)}}} |
+    |   tt    | {{{phon(t͡θ)}}} |
+    |   dd    | {{{phon(d͡ð)}}} |
+    |   kk    | {{{phon(k͡x)}}} |
+    |   gg    | {{{phon(ɡ͡ɣ)}}} |
 
     Vous  trouverez   également  l’arbre   [[arbre:cons]]  exposant   la  hiérarchie
     contrastive des consonnes de l’Eittlandais.
@@ -763,6 +781,15 @@
     :PROPERTIES:
     :CUSTOM_ID: h-c83deaf0-9767-4ac8-a109-7a677b5fba9d
     :END:
+    L’accent de l’Eittlandais reste dans  la lignée du Vieux Norrois, conservant
+    ainsi une accentuation sur la première syllabe des mots.
+
+    Concernant l’intonation, celle-ci est descendante sur chaque proposition, la
+    proposition principale  d’une phrase  commençant plus  haute que  les autres
+    propositions la suivant.  Dans un contexte formel,  l’intonation remonte sur
+    le  dernier mot  lorsqu’une  proposition  est une  question,  et elle  reste
+    constente et  haute lors d’une exclamation  avant de tomber sur  la dernière
+    syllabe.
 
 *** Système d’écriture
     :PROPERTIES:
@@ -902,11 +929,49 @@
     :PROPERTIES:
     :CUSTOM_ID: h-1dd5fbd2-c280-4156-b397-24ca0e77ab2a
     :END:
+    Une règle constante  de l’Eittlandais est une réapparition  de la frontation
+    frontale en  Eittlandais, n’étaint  coupée que par  une mutation  labiale la
+    précédente.  Cette  mutation  frontale  implique un  changement  de  voyelle
+    postérieure accentuée du mot si celle-ci est  suivie dans le même mot par un
+    /j/, /i/,  par un double <l>,  <n>, <s> ou <r>  final ou par un  <yr> final.
+    Ainsi la voyelle accentuée, si elle est postérieure, est déplacée en voyelle
+    postérieure suivant le tableau [[cons:mut:front]].
+
+    #+NAME: cons:mut:front
+    #+CAPTION: Mutation frontale des voyelles antérieures
+    | voyelle antérieure | équivalent postérieur |
+    |        <c>         |          <c>          |
+    |--------------------+-----------------------|
+    |         u          |           y           |
+    |         o          |           ø           |
+    |         ɔ          |           œ           |
+    |         ɑ          |           æ           |
+    |         au         |          ey           |
+
+    Par  exemple, /auðyr/  se  prononce comme  /eyðyr/, soit  {{{phon(ø͡yðər)}}},
+    tandis que /maðyr/ se prononce {{{phon(mæðər)}}}.
 
 *** Fracture de la voyelle initiale
     :PROPERTIES:
     :CUSTOM_ID: h-829f4812-5e9e-4bf0-a91e-9cb8c0f25849
     :END:
+    À  l’instar  du Vieux  Norrois,  l’Eittlandais  ne  dispose pas  de  voyelle
+    initiale qui  soit un  <i> ou un  <e> : les deux  sont fracturés  lorsque la
+    racine historique  du mot commeçait par  une de ces deux  voyelles. Ainsi on
+    retrouve  le terme  /efn/ prononcé  {{{phon(jafn)}}} en  Eittlandais, hérité
+    directement du Vieux  Norrois, dont la traduction anglaise est  /even/ et la
+    traduction allemande est /eben/.
+
+    La fracture peut résulter en un /ja/ ou un /jó/ suivant la consonne qui suit
+    la voyelle.  Si cette  consonne est une  consonne non-dorsale  (voir l’arbre
+    [[arbre:cons]]), alors la fracture résultera en un /jó/, sinon elle résultera en
+    un /ja/. Exemples :
+
+    - internetyr : {{{phon(jɔnternetər)}}}
+    - efn : {{{phon(jafn)}}}
+    - herað : {{{phon(j̥ɔrɑð)}}}
+    - hestyr : {{{phon(j̥astər)}}}
+
 *** Allophonie
     :PROPERTIES:
     :CUSTOM_ID: h-dc22e66b-cb65-48ed-b72d-2f02452a3148
@@ -921,13 +986,12 @@
     - e / _CV[-front +rnd] > jɔ
     - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
       {{{phon(l)}}} ou {{{phon(r)}}}
-    - {{{phon(ɡː)}}} > {{{phon(ɡ)}}}
-    - h / _{l,r,n} > Ø
-    - {l,r,n} > h_ > [-voice]
+    - h / _C > Ø
+    - C / h_ > [-voice]
     - ɣ / _C[-voice] > k
     - ɣ / _n > ɡ
-    - ɣɣ / _ > ɡː
-    - CC / _ > Cː
+    - CC   /    _   >   Cː    excepté   comme   spécifié   dans    le   chapitre
+      [[#h-aa2ea546-2078-4239-8b49-f8f28b886547]].
     - kʷ / V_V > ɣʷ
     - f / V_{V,#} > v
     - C[+stop] / C[+nasal]_# > [+nasal]
