@@ -1648,7 +1648,6 @@
   :PROPERTIES:
   :CUSTOM_ID: h-abba570c-9f4e-4b85-9fdf-2d17707a3c1a
   :END:
-
 ** Index des tableaux
    :PROPERTIES:
    :CUSTOM_ID: h-f4cdc33a-4251-4b7c-8781-3764c8ae4c92
@@ -1670,6 +1669,8 @@
     :END:
     - ańan :: (n.NF) joie, délice
     - auðyr :: (n.NF) bien ou objets précieux, trésor, richesses, fortune
+    - akkeri :: (n.Nf) ancre
+    - auk :: (prep) mis à part
 
 *** Æ
     :PROPERTIES:
@@ -1706,6 +1707,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-6f480e46-e74c-4639-aa50-98afe47866cd
     :END:
+    - efn :: (adjF) égal
     - Eittland :: (n.NF) Eittlande
     - elgyr :: (n.MF) élan
     - eyra :: (n.Nf) oreille
@@ -1731,17 +1733,21 @@
     :PROPERTIES:
     :CUSTOM_ID: h-259069da-65be-4bd5-b4e2-b58e550850e8
     :END:
+    - herað :: (n.Nf) pays, région
+    - hestr :: (n.MF) cheval, étalon
 
 *** I
     :PROPERTIES:
     :CUSTOM_ID: h-63496295-b660-4154-b4d7-96129df453f1
     :END:
     - iðyn :: (n.FF) travail, métier
+    - interneti :: (n.Nf) internet
 
 *** K
     :PROPERTIES:
     :CUSTOM_ID: h-c6188d46-a594-4739-913a-5ac68456ebc8
     :END:
+    - kapp :: (n.NF) arche
 
 *** L
     :PROPERTIES:
