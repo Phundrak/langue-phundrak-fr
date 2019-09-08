@@ -13,3 +13,4 @@ _minted*
 /ignored-folder
 /js/.tern-port
 *.pdf_tex
+*.lot
