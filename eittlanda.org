@@ -492,7 +492,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-bada4703-90a1-4dcd-ab29-203101ce00e4
    :END:
-
 *** Multilinguisme et attitude envers les langues
     :PROPERTIES:
     :CUSTOM_ID: h-621e6556-a3ca-4fb4-9c90-7d0cb372ffa2

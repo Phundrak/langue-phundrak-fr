@@ -1,0 +1,9 @@
+The source code you can find in various programming languages in this repository
+including, but not limited to, Javascript and CSS source code is under the GPLv3
+licence. To view a copy, please refer to [[file:./gpl-3.0.md]].
+
+The creative work contained within the org files, and all the files generated
+from these including, but not limited to, HTML and PDF files, is licenced under
+the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License. To view a copy of this license, visit
+[[http://creativecommons.org/licenses/by-nc-sa/4.0/]].
