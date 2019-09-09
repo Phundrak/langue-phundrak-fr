@@ -607,7 +607,7 @@
     Voici une description plus en détail des voyelles de l’Eittlandais :
     - a :: même {{{phon(ɑ)}}} qu’en anglais britannique /father/.
 
-           Exemple : /dagan/ {{{phon(dɑɡɑ̃)}}}
+           Exemple : /dagan/ {{{phon(dɑɣɑ̃)}}}
     - æ :: même {{{phon(æ)}}} qu’en anglais britannique /pat/.
 
            Exemple : /sær/ {{{phon(çær)}}}
@@ -734,9 +734,9 @@
     | diphtongue |   phonétique   |
     |    <c>     |      <c>       |
     |------------+----------------|
-    |     ei     | {{{phon(aɪ)}}} |
-    |     au     | {{{phon(ɔʊ)}}} |
-    |     ey     | {{{phon(øʏ)}}} |
+    |     ei     | {{{phon(a͜ɪ)}}} |
+    |     au     | {{{phon(ɔ͜ʊ)}}} |
+    |     ey     | {{{phon(ø͜ʏ)}}} |
 
     On  remarque  que  les  voyelles  /faibles/  subissent  un  relâchement,  le
     {{{phon(i)}}}  s’étant  transformé  en {{{phon(ɪ)}}},  le  {{{phon(u)}}}  en
@@ -751,19 +751,19 @@
             (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).    On    retrouve    une
             diphtongue similaire en Norvégien dans le terme /nei/.
 
-            Exemple : /Eittland/ {{{phon(aɪtːlãd)}}}
+            Exemple : /Eittland/ {{{phon(a͜ɪtlãd)}}}
     - au   ::  diphtongue similaire à  la diphtongue de l’anglais nord-américain
               standard comme dans /low/ {{{phon(loʊ̯)}}}, excepté que la première
               voyelle est  plus ouverte.  Une diphtongue  plus proche  peut être
               retrouvée  en néerlandais  belge dans  le terme  /lauw/.
 
-              Exemple : /auk/ {{{phon(ɔ͡ʊk)}}}
+              Exemple : /auk/ {{{phon(ɔ͜ʊk)}}}
     - ey ::  contrairement à ce  que la  voyelle typographique <e>  peut laisser
             penser, la prononciation  de la première voyelle est  similaire à un
             <ø>. La  diphtongue est  donc similaire  à la  voyelle de  /neus/ en
             néerlandais des Pays-Bas, ou à /auga/ en Islandais.
 
-            Exemple : /eyra/ {{{phon(øʏra)}}}
+            Exemple : /eyra/ {{{phon(ø͜ʏra)}}}
 
     Il  est  également possible  de  techniquement  considérer l’association  de
     voyelles  avec  les  consonnes  {{{phon(j)}}}  et  {{{phon(w)}}}  comme  des
@@ -772,6 +772,10 @@
     comme  étant  des  consonnes  au   même  titre  que  toutes  celles  listées
     ci-dessous, leur considération en tant que diphtongues et triphtongues
     n’apportant rien de significatif à la grammaire eittlandaise.
+
+    Pour  des raisons  de simplicités,  les diphtongues  seront marquées  par la
+    suite en tant  que {{{phon(aɪ)}}}, {{{phon(ɔʊ)}}} et  {{{phon(øʏ)}}} au lieu
+    de {{{phon(a͜ɪ)}}}, {{{phon(ɔ͜ʊ)}}} et {{{phon(ø͜ʏ)}}} respectivement.
 
 *** Consonnes
     :PROPERTIES:
@@ -792,12 +796,12 @@
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
-    |      nasal |         m         |                      |      n̪ (n̪̥)      |                  |        ŋ         |                       |                  |
+    |      nasal |         m         |                      |        n̪        |                  |        ŋ         |                       |                  |
     |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |          kʷ           |                  |
     |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |         (ɣʷ)          |        h         |
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
-    |      roulé |                   |                      |      r̪ (r̪̥)      |                  |                  |                       |                  |
-    | spir.-lat. |                   |                      |      l̪ (l̪̥)      |                  |                  |                       |                  |
+    |      roulé |                   |                      |        r̪        |                  |                  |                       |                  |
+    | spir.-lat. |                   |                      |        l̪        |                  |                  |                       |                  |
 
 
     L’Eittlandais présente  une singularité comparé à  beaucoup d’autres langues
@@ -844,7 +848,7 @@
       maintenant  distinguer   des  mots  n’ayant  pour   seule  différence  que
       l’utilisation d’un <þ> ou d’un <ð>.
 
-      Exemple :    /maðyr/   {{{phon(mɑðər)}}}    se   distingue    de   /maþyr/
+      Exemple :    /maðyr/   {{{phon(mæðər)}}}    se   distingue    de   /maþyr/
       {{{phon(mæθər)}}} (basé sur le terme anglais /maths/) uniquement de par la
       différenciation entre /ð/ et /þ/.
     - Le {{{phon(s)}}} s’est palatalisé en {{{phon(ç)}}}.
@@ -858,8 +862,8 @@
       leur  qualité occlusive,  transformant et  fusionnant les  phonèmes en  un
       {{{phon(ŋ)}}} dans les deux cas.
 
-      Exemple :  /angan/ {{{phon(angan)}}}  (VN), /ańan/  {{{phon(aŋan)}}} (E) ;
-      /minka/ {{{phon(minka)}}} (VN), /mińa/ {{{phon(miŋa)}}} (E)
+      Exemple :  /angan/ {{{phon(angan)}}}  (VN),  /ańan/ {{{phon(ɑ̃ŋɑ̃)}}}  (E) ;
+      /minka/ {{{phon(minka)}}} (VN), /mińa/ {{{phon(mĩŋɑ)}}} (E)
     - Le <r> final gémine la consonne qu’il suit s’il s’agit d’un {{{phon(l)}}},
       {{{phon(s)}}}, {{{phon(n)}}} ou {{{phon(r)}}}. Sinon, si le <r> final suit
       une  autre  consonne, un  <y>,  généralement  prononcé {{{phon(ə)}}},  est
@@ -906,32 +910,32 @@
             ("[voice]" ("/d/"))
             ("{voice}" ("/t/")))
            ("{cor}"
-            ("[dor]"
-             ("[nasal]" ("/ŋ/"))
-             ("{nasal}"
-              ("[son]" ("/kʷ/"))
-              ("{son}"
-               ("[voice]" ("/ɣ/"))
-               ("{voice}" ("/k/")))))
-            ("{dor}"
-             ("[strident]" ("/f/"))
-             ("{strident}"
+            ("[nasal]" ("/ŋ/"))
+            ("{nasal}"
+             ("[dor]"
+              ("[voice]" ("/ɣ/"))
+              ("{voice}"
+               ("[son]" ("/kʷ/"))
+               ("{son}" ("/k/"))))
+             ("{dor}"
               ("[voice]" ("/β/"))
-              ("{voice}" ("/p/"))))))
+              ("{voice}"
+               ("[strident]" ("/f/"))
+               ("{strident}" ("/p/")))))))
           ("{occ}"
            ("[cor]"
             ("[dor]"
              ("[son]" ("/j/"))
              ("{son}" ("/ç/")))
             ("{dor}"
-             ("[son]"
-              ("[nasal]" ("/n/"))
-              ("{nasal}"
-               ("[lat]" ("/l/"))
-               ("{lat}" ("/r/"))))
-             ("{son}"
-              ("[voice]" ("/ð/"))
-              ("{voice}" ("/θ/")))))
+             ("[voice]"
+              ("[son]"
+               ("[nasal]" ("/n/"))
+               ("{nasal}"
+                ("[lat]" ("/l/"))
+                ("{lat}" ("/r/"))))
+              ("{son}" ("/ð/")))
+             ("{voice}" ("/θ/"))))
            ("{cor}"
             ("[nasal]" ("/m/"))
             ("{nasal}"
@@ -964,25 +968,41 @@
     constente et  haute lors d’une exclamation  avant de tomber sur  la dernière
     syllabe.
 
+    L’intonation de  la phrase est  par ailleurs  porteuse de sens,  elle permet
+    notamment à  distinguer les phrases affirmatives  de phrases interrogatives,
+    ces   dernières   ne   présentant    aucune   différences   syntaxiques   ou
+    morphologiques.
+
 *** Système d’écriture
     :PROPERTIES:
     :CUSTOM_ID: h-5e28b62d-956c-404e-ab23-2631b6b9115e
     :END:
-    Comme  de  nombreuses cultures  européennes,  Eittlande  utilise un  système
+    Comme  de nombreuses  cultures européennes,  l’Eittlande utilise  un système
     d’écriture afin que les locuteurs  Eittlandais puissent communiquer de façon
     non-orale.  Du fait  de leur  héritage  provenant de  la région  Scandinave,
-    Eittlande utilise  depuis sa  fondation des  runes nordiques  comme alphabet
+    l’Eittlande utilise depuis  sa fondation les runes  nordiques comme alphabet
     officiel afin d’écrire en Eittlandais, faisant de ce pays le dernier pays au
-    monde  à  encore utiliser  les  runes  nordiques.  La dernière  réforme  des
-    caractères utilisés eu lieu lors  du XII^{ème} siècle, marquant également la
-    dernière  réforme orthographique  ayant eu  lieu depuis :  les runes  sont à
-    utiliser phonétiquement, respectant au mieux la règle de « un caractère pour
-    un son ».
+    monde  à encore  utiliser officiellement  les runes  nordiques. La  dernière
+    réforme des caractères  utilisés eu lieu lors du  XVI^{ème} siècle, marquant
+    également  la dernière  réforme orthographique  ayant eu  lieu depuis :  les
+    runes sont à  utiliser phonétiquement, respectant au mieux la  règle de « un
+    caractère  pour un  son », bien  que  cette règle  ne soit  pas exacte.  Les
+    Eittlandais ne prennent  pas en compte les diverses  règles phonologiques de
+    l’Eittlandais  telles que  la  mutation frontale  ou  l’allophonie tels  que
+    respectivement          décrits          dans         les          chapitres
+    §[[#h-1dd5fbd2-c280-4156-b397-24ca0e77ab2a]]                                  et
+    §[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]].
 
     Eittlande  utilise  également l’alphabet  latin,  mais  celui-ci reste  très
     anecdotique  dans la  vie  quotidienne des  Eittlandais  qui ne  l’utilisent
-    pratiquement que pour des communications internationales.
+    pratiquement que pour des communications internationales. Il s’agit néamoins
+    du système d’écriture utilisé dans cet  ouvrage afin de faciliter l’étude de
+    l’Eittlandais    pour    le    lecteur.   Vous    trouverez    le    tableau
+    [[table:writing-system]]  une  équivalence  des caractères  latins  utilisés  en
+    Eittlandais ainsi que des runes fortement inspirées des runes médiévales.
 
+    #+NAME: table:writing-system
+    #+CAPTION: Correspondance de l’alphabet latin éittlandais et des runes eittlandaises
     |           <c>           |      <c>       |
     |          latin          |     runes      |
     |-------------------------+----------------|
@@ -1032,8 +1052,8 @@
     - {{{rune(þorr ogagnysk loka a mi)}}}{{{rune(ö)}}}{{{rune(llni.)}}}
 
     Voici le détail grammatical de la phrase ci-dessus :
-    | Thor-NOM.SG | blesser-1SG.PST | Loki-DAT.SG | avec | Mjöllnir.DAT.SG |
-    | Þor-r       | ogagn-ysk       | Lok-a       | a    | Miöllni         |
+    | Thor.NOM.SG | blesser-1SG.PST | Loki-DAT.SG | avec | Mjöllnir.DAT.SG |
+    | Þorr        | ogagn-ysk       | Lok-a       | a    | Miöllni         |
 
 ** Phonotaxes
    :PROPERTIES:
@@ -1121,7 +1141,7 @@
     |         ɑ          |           æ           |
     |         au         |          ey           |
 
-    Par  exemple, /auðyr/  se  prononce comme  /eyðyr/, soit  {{{phon(ø͡yðər)}}},
+    Par  exemple, /auðyr/  se  prononce comme  /eyðyr/, soit  {{{phon(øyðər)}}},
     tandis que /maðyr/ se prononce {{{phon(mæðər)}}}.
 
 *** Fracture de la voyelle initiale
@@ -1131,7 +1151,7 @@
     À  l’instar  du Vieux  Norrois,  l’Eittlandais  ne  dispose pas  de  voyelle
     initiale qui  soit un  <i> ou un  <e> : les deux  sont fracturés  lorsque la
     racine historique  du mot commeçait par  une de ces deux  voyelles. Ainsi on
-    retrouve  le terme  /efn/ prononcé  {{{phon(jafn)}}} en  Eittlandais, hérité
+    retrouve  le terme  /efn/ prononcé  {{{phon(jɑfn)}}} en  Eittlandais, hérité
     directement du Vieux  Norrois, dont la traduction anglaise est  /even/ et la
     traduction allemande est /eben/.
 
@@ -1143,7 +1163,7 @@
     - internetyr : {{{phon(jɔnternetər)}}}
     - efn : {{{phon(jafn)}}}
     - herað : {{{phon(j̥ɔrɑð)}}}
-    - hestyr : {{{phon(j̥astər)}}}
+    - hestyr : {{{phon(j̥ɑstər)}}}
 
 *** Allophonie
     :PROPERTIES:
@@ -1153,24 +1173,74 @@
     science  exacte,  et certaines  variations  peuvent  être trouvées  dans  la
     prononciation de l’Eittlandais.
 
-    Allophonie :
-    - V / _C[+nasal] > V[+nasal]
-    - VV / _ > Vː
-    - e / _CV[-front +rnd] > jɔ
-    - e / _CV[-front] > jɑ, sauf si  V est {{{phon(ɑ)}}} ou C est {{{phon(β)}}},
-      {{{phon(l)}}} ou {{{phon(r)}}}
-    - h / _C > Ø
-    - C / h_ > [-voice]
-    - ɣ / _C[-voice] > k
-    - ɣ / _n > ɡ
-    - CC   /    _   >   Cː    excepté   comme   spécifié   dans    le   chapitre
-      [[#h-aa2ea546-2078-4239-8b49-f8f28b886547]].
-    - kʷ / V_V > ɣʷ
-    - f / V_{V,#} > v
-    - C[+stop] / C[+nasal]_# > [+nasal]
-    - {l,r,n,s}r / _# > [+long] sinon r / C_# > yr {{{phon(ər)}}}
-    - C[+gem] / C_ > [-gem]
-    - C[+gem] / _C > [-gem]
+    Comme dans toutes  les langues, la prononciation de  l’Eittlandais n’est pas
+    aussi  simple  que ce  que  les  chapitres  précédents auraient  pu  laisser
+    paraître. En effet, il existe un  certain nombre de cas où certains phonèmes
+    changent suivant leur  environnement. Ci-dessous sont listées  les règles de
+    variation phonétique relevées dans l’Eittlandais  standard. Ces règle ont un
+    ordre de priorité entre elles, la première règle dans son ordre d’apparition
+    ci-dessous étant la règle à appliquer.
+
+    1. Un <i>  immédiatement  suivit  par une  voyelle  se  prononce comme  une
+      semi-consonne.
+
+      Exemple : /hiórr/ {{{phon(j̥ɔrː)}}}
+    2. Deux  voyelles  identiques  se  suivant fusionnent  en  une même  voyelle
+       géminée.
+       - VV / _ > Vː
+
+       Exemple : /heyia-annir/ {{{phon(høʏjɑːnːir)}}}
+    3. Un <e> se fracture dans un  mot, peu importe son emplacement dans le mot,
+       s’il est suivi  par une unique consonne et par  une voyelle non frontale.
+       Le résultat  de la fracture  sera arrondie  si la voyelle  suivante l’est
+       également.
+       - e / _CV[-front +rnd] > jɔ
+       - e  / _CV[-front]  > jɑ,  sauf si  C est  occlusive non  dorsale ou  non
+         occlusive sonorante et nasale.
+    4. Une nasalisation des voyelles se  produit lorsque celle-ci est suivie par
+       une consonne nasale. Cette dernière disparaît également s’il s’agit d’une
+       consonne nasale non coronale.
+       - V / _C[+nasal] > V[+nasal]
+       - C[+nasal -cor] / V_ > Ø
+
+       Exemple : /ańan/ {{{phon(ɑ̃ŋɑ̃)}}}, minka {{{phon(mĩŋɑ)}}}
+    5. Un mot commeçant par deux consonnes dont la première est un <h> marque un
+       dévoisement de la consonne qui le suit immédiatement.
+       - hC / #_ > C[-voice]
+
+       Exemple : /hiálp/ {{{phon(j̥ɑlp)}}}
+    6. Le <g> se prononce habituellement  {{{phon(ɣ)}}}, cependant il se mute en
+       un {{{phon(k)}}} lorsqu’il est suivit par  une consonne non voisée. Il se
+       mute également en un {{{phon(ɡ)}}}  lorsqu’il est suivit par une consonne
+       nasale.
+       - ɣ / _C[-voice] > k
+       - ɣ / _C[+nasal] > ɡ
+    7. Une  consonne géminée suivant  ou précédant  une autre consonne  perd sa
+       gémination.
+       - C[+long] / C_ > [-long]
+       - C[+long] / _C > [-long]
+
+       Exemple : /Eittland/ {{{phon(aɪtlɑ̃d)}}}
+    8. Lorsque deux consonnes plosives se suivent, la seconde devient fricative,
+       y compris  lorsque les deux  consonnes sont à l’origine  identiques. Voir
+       [[#h-aa2ea546-2078-4239-8b49-f8f28b886547]]. Ce  processus est bloqué  par la
+       règle précédente.
+       - C[+plos] / C[+plos]_ > C[-plos +fric]
+    9. Lorsque deux  consonnes identiques se suivent, alors  elles fusionnent en
+       une consonne géminée.
+       - CC / _ > Cː
+    10. Les consonnes <hw> et <f> se voisent lorsqu’elles sont entourées par deux
+        voyelles.
+        - kʷ / V_V > ɣʷ
+        - f / V_{V,#} > v
+    11. Un  <r> final suivant une  consonne non occlusive sonorante  gémine cette
+        dernière  et devient  silencieux. Sinon,  si une  autre consonne  précède
+        directement le <r> final, alors un  schwa est inséré entre la consonne et
+        ce <r> final.
+        - C[-occ +son]r / _# > C[+long]
+        - r / C_# > ər (écrit <yr>)
+    12. Un <v> initial dans un mot se prononce comme un {{{phon(v)}}}.
+        - w / #_ > v
 
 ** Structure d’un mot
    :PROPERTIES:
@@ -1958,7 +2028,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-e0949531-7a25-4bbb-974f-3ca751347828
     :END:
-    - öpa :: (vif) crier, hurler, s’écrier
+    - öpa :: (vi.f) crier, hurler, s’écrier
 
 *** Ø
     :PROPERTIES:
@@ -2007,7 +2077,20 @@
     :PROPERTIES:
     :CUSTOM_ID: h-72365ccb-5f3f-4e87-8783-c3998c7638fb
     :END:
-    - ymyr :: grognement, bourdonnement, fredonnement
+    - ymyr :: (n.MF) grognement, bourdonnement, fredonnement
+
+* Data not to be exported                                          :noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-345d1447-5dd6-4798-92d9-2e69e1d5d28e
+  :UNNUMBERED:
+  :END:
+  #+NAME: table-religions-eittland
+  | 68 | Paganisme      |
+  | 15 | Athéisme       |
+  |  6 | Bouddhisme     |
+  |  5 | Christianisme  |
+  |  4 | Protestantisme |
+  |  2 | Divers         |
 
 * Footnotes
   :PROPERTIES:
