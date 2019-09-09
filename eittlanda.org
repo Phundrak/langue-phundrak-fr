@@ -42,6 +42,33 @@
    :PROPERTIES:
    :CUSTOM_ID: h-55c5bdb0-8ad9-4be0-8527-925b166474eb
    :END:
+   De longues  recherches et  beaucoup de réflexions  et d’explorations  dans le
+   monde  de la  linguistique furent  nécessaires afin  que je  puisse créer  la
+   langue  Eittlandaises ainsi  qu’une version  simplifiée de  la culture  et de
+   l’histoire du  pays Eittlandais.  Ainsi, je souhaiterais  remercier certaines
+   personnes  dont  les  travaux  m’ont  été précieux  afin  de  réaliser  ceci,
+   notamment Michael Barnes,  auteur de /A New Introduction to  Old Norse/, Jack
+   Crawford, auteur  de nombreuses  vidéos YouTube  sur le  sujet de  la culture
+   viking et de leur langue, ainsi  que l’association /The Vikings of Bjornstad/
+   grâce à laquelle j’ai pu trouver nombre de références sur le Vieux Norrois et
+   leur culture.
+
+   Je  souhaiterais également  remercier  Mark Rosenfelder,  auteur de  nombreux
+   livres  sur la  création de  langues  dont /The  Language Construction  Kit/,
+   Thomas E. Payne dont  le livre  /Describing Morphosyntax:  A Guide  for Field
+   Linguists/ aura été extrêmement important pour moi afin d’apprendre à décrire
+   la grammaire d’une langue.
+
+   Et bien sûr, je souhaiterais  remercier la commauté des idéolinguistes, qu’il
+   s’agisse de la  communauté francophone ou internationale, pour ce  qui est de
+   l’échange d’idées constant et du partage  des théories et visions des langues
+   qui peuvent, dans  certains cas, complètement changer notre  état d’esprit et
+   notre vision  quant à  certains domaines, comme  cela fut le  cas suite  à la
+   conférence  de  Joseph  Windsor  à la  /Language  Creation  Conference 8/  de
+   Cambridge sur la hiérarchie des caractéristiques distinctives.
+
+   Enfin, je souhaiterais  remercier mes proches et tout  autre personne m’ayant
+   encouragé lors de mes travaux de création de langue.
 
 ** Références
    :PROPERTIES:
@@ -52,12 +79,17 @@
    documents cités.  Plus tard, je ne  me référerai qu’au nom  de l’auteur ainsi
    qu’à  l’année de  publication. Mes  recherches  en matière  de Vieux  Norrois
    reposent également principalement sur l’ouvrage de M. Barnes (2008) dont vous
-   trouverez la référence ci-dessous.
+   trouverez la  référence ci-dessous.  Je me  référerais également  à l’ouvrage
+   /Describing  Morphosyntax/ de  Thomas E. Payne  dans ma  façon de  décrire la
+   grammaire  de  l’Eittlandais,  dont  vous trouverez  également  la  référence
+   ci-dessous.
 
    - B. Elan  Dresher, /The Contrastive  hierarchy in phonology/,  University of
      Toronto, 2003
-   - MIchael  Barnes, /A  New Introduction  to  Old Norse/,  Viking Society  for
+   - Michael  Barnes, /A  New Introduction  to  Old Norse/,  Viking Society  for
      Northern Research, University College London, 2008
+   - Thomas E.  Payne, /Describing Morphosyntax:  A Guide for  Field Linguists/,
+     Cambridge University Press, 1997
 
 ** Introduction
    :PROPERTIES:
@@ -142,8 +174,8 @@
    - vf :: verbe faible
    - vtF :: verbe transitif fort
    - vtf :: verbe transitif faible
-   - viF :: verbe intransitif fort
-   - vif :: verbe intransitif faible
+   - vi.F :: verbe intransitif fort
+   - vi.f :: verbe intransitif faible
    - VN :: Vieux Norrois
 
    Ce  document utilisera  également  les conventions  habituelles des  ouvrages
@@ -180,11 +212,16 @@
    proche serait l’Islande,  rendant ainsi Eittlande isolée aux  yeux des marins
    Norvégiens.
 
+   Le terme  /Eittland/ est  prononcé {{{phon(aɪtlɑ̃d)}}} en  Eittlandais, tandis
+   que   le   terme  dans   sa   forme   génitive  /Eittlands/   est   prononcée
+   {{{phon(aɪtlɑ̃ds)}}}.  En  Français,   on  se  réfère  à  l’île   et  au  pays
+   /d’Eittlande/ ({{{phon(ɛjtlɑ̃d)}}}) et à la  langue et au peuple /éittlandais/
+   ({{{phon(ɛjtlɑ̃dɛ)}}} ou {{{phon(ɛjtlɑ̃nde)}}}).
+
 ** Démographie
    :PROPERTIES:
    :CUSTOM_ID: h-4792d22e-b371-46f1-ab60-521d30a7a535
    :END:
-
 *** Cartes
     :PROPERTIES:
     :CUSTOM_ID: h-7914837c-3bf9-4edf-828e-6a36f38527e4
@@ -223,32 +260,112 @@
     :PROPERTIES:
     :CUSTOM_ID: h-f20f59bf-abf0-4732-acd3-4cb773e10b38
     :END:
+    Eittlande  est une  île  qui  fut découverte  en  863  par des  explorateurs
+    scandinaves,  très probablement  norvégiens,  lors  des grandes  expéditions
+    vikings. La première colonie norvégienne s’installa  sur l’île en 882 sur sa
+    partie orientale, puis en 884 sur sa partie occidentale. Bien que la large
+    majorité des colons soient principalement d’origine norvégienne, parlant
+    alors le Vieux Norrois Occidental, il est fort probable qu’une partie des
+    premiers habitants de l’île viennent de Suède, apportant alors quelques
+    influences du Vieux Norrois Oriental. L’immigration scandinave dura une
+    cinquantaine d’années environ, date à partir de laquelle Eittland commeça à
+    se refermer au monde extérieur et commeça à limiter l’immigration sur ses
+    terres.
+
+    Comme         décrit         dans        le         chapitre         suivant
+    (§[[#h-11e1aecd-4abd-4dd5-a07a-0998e6572b09]]),   l’Eittlande   se  dote   d’une
+    constitution  et  d’une monarchie  en  915,  mais reste  officiellement  une
+    dépendance de la Norvège pendant environ  quatre siècles. En 1397, alors que
+    l’Union de  Kalmar se forma, une  invitation fut envoyée à  l’Eittlande afin
+    d’intégrer   l’union   en   leur    qualité   de   dépendance   Norvégienne.
+    Lorsqu’Eittland  refusa,  l’Union  déclara  la  guerre  à  l’Eittlande  sous
+    prétexte  de rebélion  de leur  part, ayant  alors pour  but de  les annexer
+    complètement. La guerre dura jusqu’en 1400, où une paix fut signée : l’Union
+    de Kalmar accorde à l’Eittlande  son indépendance en échange de l’annexation
+    les  colonies Groënlandaises  eittlandaises  par l’Union.  Il  s’agit de  la
+    première   reconnaissance  internationale   d’Eittlande   en  tant   qu’État
+    souverain.
+
+    Au début  des années  1920, Eittlande  vit une  importante émigration  de sa
+    population vers les  États Unis d’Amérique et le Canada,  perdant entre 1919
+    et 1929  environ 10%  de sa  population. Cette  émigration s’arrêta  en 1929
+    suite  au début  de la  grande dépression  durant laquelle  environ 10%  des
+    personnes étant parties  aux Amériques revinrent en  Eittlande. Malgré cela,
+    une diaspora  éittlandaise existe toujours  actuellement dans la  région des
+    grands  lacs au  Canada  et aux  États Unis  d’Amérique,  comptant selon  le
+    recensement de 2000 respectivement 60.000 et 45.000 Eittlandais et personnes
+    d’origines éittlandaises.
 
 *** Situation politique
     :PROPERTIES:
     :CUSTOM_ID: h-11e1aecd-4abd-4dd5-a07a-0998e6572b09
     :END:
 
-    Lors de la création du premier gouvernement en 915, il a été choisi que l’un
-    des fils d’Ingólfr  Arnarson, Ásmundr Ingólfrson, soit le roi  de ce nouveau
-    pays  du fait  de sa  position au  sein de  l’économie de  ce nouveau  pays,
-    faisant  de lui  Ásmundr I.  Une monarchie  s’installa donc  à la  tête d’un
-    système féodal. Eittlande  étant un territoire divisé en deux  par la chaîne
-    de  volcan traversant  l’île, un  co-roi  fut nommé  pour régner  au nom  du
-    souverain sur la partie orientale de  l’île lorsque Áleifr I, fils d’Ásmundr
-    I, accéda  au trône. Ainsi, Steingrímr  Ásmundrson, frère cadet du  roi, fut
-    nommé comme  co-roi en  937. En  959, suite  au décès  d’Áleifr I,  son fils
-    Áleifr II monta sur le trône et  nomma un an après son frère Eyvindr co-roi.
-    Cela commença ainsi la tradition du roi nommant un membre proche comme étant
-    co-roi d’Eittlande.  En 981,  Áleifr III mourut  à l’âge de  46 ans  et sans
-    héritier au trône.  Son frère, Hallþórr I Áleifrbróðir, monta  sur le trône.
-    Il nomma alors son fils co-roi
+    Du  fait  d’une population  croissante  et  d’un besoin  d’une  organisation
+    locale, une constitution  et un gouvernement furent créés  en Eittlande sous
+    l’impulsion de la couronne norvégienne, choisissant comme roi d’Eittlande le
+    jarl  de Ðeberget  Ásmundr  Ingólfrson, l’un  des  fils d’Ingólfr  Arnarson.
+    Ásmundr I fut  ainsi premier souverain d’Eittlande et vassal  de la couronne
+    de Norvège.  Une monarchie s’installa  donc à  la tête d’un  système féodal.
+    L’Eittlande  étant un  territoire divisé  en deux  par la  chaîne de  volcan
+    traversant l’île, un co-roi fut nommé pour régner au nom du souverain sur la
+    partie orientale  de l’île  lorsque Áleifr  I, fils  d’Ásmundr I,  accéda au
+    trône. Depuis, il  est de tradition que  le roi éittlandais nomme  un de ses
+    frères ou  un de  ses fils  co-souverain de l’île,  ce dernier  le succédant
+    souvent s’il s’agissait du fils du souverain ou du frère d’un souverain sans
+    héritier.
 
+    Suite à  la guerre éittlando-scandinave de  1397 à 1400, le  roi éittlandais
+    n’est plus  un vassal de la  couronne norvégienne, et une  monarchie absolue
+    s’installa  alors.  La féodalité  commença  à  s’estomper suite  à  diverses
+    influences européennes lors des  XVII^{ème} et XVIII^{ème} siècles, adoptant
+    alors une  monarchie orientée  vers un  modèle plus  proche de  la monarchie
+    française avec laquelle Eittlande avait créé des liens étroits.
+
+    Suite à la révolution française, et le souvenir de la révolution anglaise et
+    la  guerre  d’indépendance  américaine   toujours  présente  à  l’esprit  du
+    souverain de l’époque,  le roi Eittlandais déclara en 1816  la mise en place
+    d’un gouvernement élu, avec en  son centre un parlement démocratique nommant
+    les  ministres, nommant  à leurs  tour les  membres constituants  des divers
+    ministères, tandis  que le  roi décida  de se retirer  de la  vie politique.
+    Cette  décision  fut  suivie  par   ses  successeurs,  avec  quelques  rares
+    exceptions où des  souverains occasionellement usèrent de  leur pouvoir afin
+    de  forcer le  passage de  certaines  lois ou  de les  empêcher. Le  dernier
+    exemple en date  est la loi de  Février 1999, où la reine  Þiorey imposa une
+    loi sur  la liberté des religions,  faisant d’Eittlande un pays  laïc ; bien
+    que la  pratique d’autres religions  que la religion païenne  nordique était
+    tolérée  et décriminalisée  depuis plusieurs  décénies, cela  était toujours
+    techniquement illégal. Il est communément admis que cette loi fut créée sous
+    l’impulsion d’une arrivée d’une  communauté religieuse bouddhiste importante
+    lors du milieu des années  90 en Eittlande, religion représentant maintenant
+    eviron 6% de la population Eittlandaise  et dont le taux de pratiquant reste
+    en hausse.
+
+    Il  est à  noter que  bien qu’Eittlande  est un  pays ayant  actuellement un
+    fonctionnement politique très démocratique, ressemblant en tous points à une
+    monarchie   parlementaire,  le   souverain   éittlandais   reste  selon   la
+    constitution la seule autorité politique du  pays en sa qualité de souverain
+    absolu.  Il est  donc possible,  bien que  très peu  vraissemblable, que  le
+    souverain puisse  un jour  déclarer le gouvernement  comme étant  illégal et
+    défaire toutes les décisions qui furent prises depuis 1816. Il est cependant
+    réalistiquement impossible que  cela se produise ; si  un souverain décidais
+    d’agir ainsi, il  est quasiment certain qu’il serait  immédiatement démis de
+    ses  fonctions  et que  la  première  république éittlandaise  serait  alors
+    proclamée, comme  le réclament  certains mouvements mineurs  républicains au
+    sein du  territoire. Selon un  sondage de  2011, les Eittlandais  restent en
+    faveur d’un gouvernement ayant sa forme actuelle de monarchie parlementaire,
+    refusant de démettre de ses fonction  la Reine Þiorey ; cependant il ressort
+    également que la population serait en faveur d’une répulique si jamais cette
+    dernière  décidais  d’exercer   à  nouveau  ses  pouvoirs,   faisant  fi  du
+    gouvernement actuel.
+
+    Vous  trouverez  la  liste  des  rois  éittlandais  vassaux  à  la  couronne
+    norvégienne dans la table [[Eittland-kings:1]].
 
     #+NAME: Eittland-kings:1
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Liste des rois Eittlandais de 915 à 1392
-    | <l5>                          | <l5>      | <l5> | <l5> | <l5>      | <l5>                           | <l5>      | <l5> | <l5> | <l5>      |
+    | <l4>                          | <l4>      | <l4> | <l4> | <l4>      | <l4>                           | <l4>      | <l4> | <l4> | <l4>      |
     | roi                           | naissance | mort | âge  | règne     | co-roi                         | naissance | mort | âge  | règne     |
     |-------------------------------+-----------+------+------+-----------+--------------------------------+-----------+------+------+-----------|
     | Ásmundr I, Ingólfrson         | 876       | 932  | 56   | 915-935   | -                              |           |      |      |           |
@@ -285,9 +402,9 @@
     | Eyvindr V, Eyvindrson         | 1285      | 1346 | 61   | 1318-1346 | Eríkr II, Eyvindrbróðir        | 1290      | 1349 | 59   | 1319-1346 |
     | Eyvindr VI, Eyvindrson        | 1309      | 1354 | 45   | 1346-1354 | Eríkr III, Eyvindrbróðir       | 1315      | 1349 | 34   | 1346-1349 |
     |                               |           |      |      |           | Eir I, Eyvindrsystir           | 1299      | 1360 | 61   | 1349-1354 |
-    | Eir I, Eyvindrsystir          | 1299      | 1360 | 61   | 1354-1360 | Björg I, Eirdóttir             | 1318      | 1374 | 56   | 1355-1360 |
-    | Björg I, Eirdóttir            | 1318      | 1374 | 56   | 1360-1374 | Ásgeirr I, Björgson            | 1330      | 1392 | 62   | 1361-1374 |
-    | Ásgeirr I, Björgson           | 1330      | 1392 | 62   | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       | 1333      | 1393 | 60   | 1375-1392 |
+    | Eir I, Eyvindrsystir          | 1299      | 1360 | 61   | 1354-1360 | Biörg I, Eirdóttir             | 1318      | 1374 | 56   | 1355-1360 |
+    | Biörg I, Eirdóttir            | 1318      | 1374 | 56   | 1360-1374 | Ásgeirr I, Björgson            | 1330      | 1392 | 62   | 1361-1374 |
+    | Ásgeirr I, Biörgson           | 1330      | 1392 | 62   | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       | 1333      | 1393 | 60   | 1375-1392 |
     #+TBLFM: $4=$3-$2::$9=$8-$7
 
 ** Écologie
@@ -299,11 +416,67 @@
    :PROPERTIES:
    :CUSTOM_ID: h-c3298027-baf7-4f86-a5e9-136eb4c28a57
    :END:
+   Historiquement, les  Eittlandais descendent  des premiers  peuples norvégiens
+   venus sur l’île dans un but colonisateur. La population continua à s’agrandir
+   suite  à  plusieurs  vagues  d’immigrations  ayant  eu  lieu  du  dixième  au
+   quatorzième siècle  venant de  scandinavie, et  principalement de  Norvège et
+   d’Islande.  Puis,  suite  à  la  guerre  éittlando-scandinave,  l’immigration
+   éittlandaise fut  quasiment arrêtée  pour le reste  de leur  histoire. Seules
+   deux vagues d’immigration britaniques et d’Europe occidentale se produisirent
+   au dix-septième siècle, lors des  diverses guerres de religion secouant alors
+   l’Europe.  Ainsi,  des  chrétiens  britaniques et  des  protestants  d’Europe
+   continentale,  principalement français,  arrivèrent  sur  l’île, la  couronne
+   éittlandaise  garantissant  alors  leur   protection  et  une  tolérance  des
+   religions autres que le paganisme nordique à la condition qu’aucune tentative
+   de christianisation de l’île ne soit tentée.
+
+   Selon le recencement de 2015, l’Eittlande compte une population d’un peu plus
+   de 689.000 habitants  dans ses terres, dont 467.000 habitans  se situants sur
+   la partie  occidentale de l’île.  Parmi les Eittlandais se  trouvent quelques
+   29.000   personnes  d’origines   islandaise,   21.000  personnes   d’origines
+   scandinaves diverses, 9.000 personnes originaires des îles britaniques, 2.000
+   personnes  originaires   d’Europe  occidentale,  1.000   personnes  d’origine
+   tibétaine, et  18.000 personnes d’origines diverses.  La communauté tibétaine
+   s’installa  en  Eittlande dans  les  années  1990,  apportant avec  eux  leur
+   religion  bouddhiste. Cette  dernière  se trouva  avoir  beaucoup de  succès,
+   faisant d’elle la religion à la plus forte croissance d’Eittlande du XX^{ème}
+   et XXI^{ème} siècles.
+
+   #+NAME: src:religion-piechart
+   #+BEGIN_SRC R :exports results :results graphics :file img/eittlanda/religious-pop.png :bg transparent :var rels=table-religions-eittland
+     slices <- rels[,1]
+     lbls <- rels[,2]
+     pct <- round(slices/sum(slices)*100)
+     lbls <- paste(lbls, pct)
+     lbls <- paste(lbls, "%", sep = "")
+     par(mar=c(0,0,0.7,3))
+     pie(slices, labels = lbls, col = rainbow(length(lbls)),
+         main = "Religions d’Éïnlante")
+   #+END_SRC
+   #+CAPTION: Population religieuse d’Éïnlante
+   #+LABEL: fig:religion-piechart
+   #+RESULTS: src:religion-piechart
+   [[file:img/eittlanda/religious-pop.png]]
 
 ** Affiliations génétiques
    :PROPERTIES:
    :CUSTOM_ID: h-ae7ce582-2f58-41e2-99b9-129cbd4eedd3
    :END:
+   L’Eittlandais  est une  langue descendant  directement du  Vieil Eittlandais,
+   lui-même descendant  du Vieux Norrois  occidental tel qu’il était  parlé dans
+   l’actuelle Norvège à  la fin du IX^{ème} siècle et  durant le X^{ème} siècle.
+   L’Eittlandais a également  bénéficié de quelques influences  du Vieux Norrois
+   oriental du fait de migrations  depuis l’actuelle Suède et l’actuel Danemark.
+   À  partir  du  XV^{ème}  siècle  cependant, la  majorité  des  influences  de
+   l’Eittlandais  portent surtout  sur des  mots d’emprunt,  tels que  présentés
+   ci-dessous (§[[#h-8b4127a5-6b06-48c7-82f5-b504b6731fb4]]).
+
+   On estime que le Vieil Eittlandais est  une langue qui fut parlée à partir de
+   la seconde moitié du X^{ème} siècle jusqu’au XVI^{ème} siècle environ.
+
+   L’Eittlandais  se  place  donc  dans   la  famille  des  langues  scandinaves
+   insulaires,  à l’instar  de  sa  langue sœur  l’Islandais,  dans les  langues
+   scandinaves occidentales, parmi les langues germaniques nordiques.
 
 ** Tradition littéraire
    :PROPERTIES:
@@ -335,7 +508,7 @@
     :CUSTOM_ID: h-6c827715-39ca-497a-b7a1-c365df1b5585
     :END:
 
-*** Mots d’emprun
+*** Mots d’emprunt
     :PROPERTIES:
     :CUSTOM_ID: h-8b4127a5-6b06-48c7-82f5-b504b6731fb4
     :END:
