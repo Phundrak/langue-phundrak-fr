@@ -7,6 +7,7 @@
 #+LATEX_HEADER: \usepackage{allrunes}
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/matter-org-export-runes "$1"))
+#+OPTIONS: auto-id:t
 
 * Avant-propos
   :PROPERTIES:
@@ -107,24 +108,22 @@
    bouddhiste et  2% de la  population suit des religions  diverses (Hindouisme,
    Chamanisme,…).
 
-   #+begin_src python :session :results file :exports results
-     import matplotlib.pyplot as plt
-     labels = ['Paganisme', 'Athéisme', 'Monothéismes divers', 'Bouddhisme',
-               'Divers']
-     sizes = [68, 15, 9, 6, 2]
-     colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral', 'red']
-     patches, texts = plt.pie(sizes, colors=colors, shadow=False, startangle=90)
-     plt.legend(patches, labels, loc="best")
-     plt.axis('equal')
-     plt.tight_layout()
-     plt.savefig('img/matter_religious-pop.png', transparent=True)
-     'img/matter_religious-pop.png' # return filename to org-mode
-   #+end_src
+   #+NAME: src:religion-piechart
+   #+BEGIN_SRC R :exports results :results graphics :file img/eittlanda/religious-pop.png :bg transparent :var rels=table-religions-einlant
+     slices <- rels[,1]
+     lbls <- rels[,2]
+     pct <- round(slices/sum(slices)*100)
+     lbls <- paste(lbls, pct)
+     lbls <- paste(lbls, "%", sep = "")
+     par(mar=c(0,0,0.7,3))
+     pie(slices, labels = lbls, col = rainbow(length(lbls)),
+         main = "Religions d’Éïnlante")
+   #+END_SRC
    #+ATTR_LATEX: :width 8cm
    #+CAPTION: Population religieuse d’Éïnlante
    #+LABEL: fig:religion-piechart
-   #+RESULTS:
-   [[file:img/matter_religious-pop.png]]
+   #+RESULTS: src:religion-piechart
+   [[file:img/eittlanda/religious-pop.png]]
 
 {{{newline}}}
 ** Histoire
@@ -2702,6 +2701,18 @@
    - modðét :: [ˈmɔdðet] (adj) opposé, aux antipodes
 
 {{{newpage}}}
+
+* Data not to be exported                                          :noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-536d66fd-738b-4daf-ac65-3361a54506fe
+  :END:
+
+  #+NAME: table-religions-einlant
+  | 68 | Paganisme          |
+  | 15 | Athéisme           |
+  |  9 | Monothéisme divers |
+  |  6 | Bouddhisme         |
+  |  2 | Divers             |
 
 * Footnotes
   :PROPERTIES:
