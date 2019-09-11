@@ -825,7 +825,7 @@
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
     |      nasal |         m         |                      |        n̪        |                  |        ŋ         |                       |                  |
     |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |                       |                  |
-    |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |        (ɣʷ) xʷ        |        h         |
+    |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |        xʷ (ɣʷ)        |        h         |
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |        r̪        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l̪        |                  |                  |                       |                  |
@@ -848,14 +848,14 @@
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
     |      nasal |         m         |                      |        n        |                  |        ń         |                       |                  |
-    |   occlusif |         p         |                      |       t d       |                  |        k         |          hw           |                  |
-    |   fricatif |         b         |          f           |       þ ð       |        s         |        g         |                       |        h         |
+    |   occlusif |         p         |                      |       t d       |                  |        k         |                       |                  |
+    |   fricatif |         b         |          f           |       þ ð       |        s         |        g         |          hv           |        h         |
     |    spirant |                   |                      |                 |        i         |                  |           v           |                  |
     |      roulé |                   |                      |        r        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
 
     La  majorité des  consonnes Eittlandaises  ne s’écrivent  qu’avec un  glyphe
-    unique, à l’exception de {{{phon(xʷ)}}}  qui s’écrit <hw>. Cette graphie est
+    unique, à l’exception de {{{phon(xʷ)}}}  qui s’écrit <hv>. Cette graphie est
     spécifiée  explicitement, à  l’inverse  par exemple  de  <hl> se  prononçant
     {{{phon(l̥)}}}, car sa prononciation est irrégulière et ne suit pas le modèle
     habituel de la modification d’une consonne  par la précédence d’un <h>. Plus
@@ -1038,7 +1038,7 @@
     |           F f           | {{{rune(f)}}}  |
     |           G g           | {{{rune(g)}}}  |
     |           H h           | {{{rune(h)}}}  |
-    |          Hw hw          | {{{rune(hw)}}} |
+    |          Hv hv          | {{{rune(hv)}}} |
     |           I i           | {{{rune(i)}}}  |
     |           K k           | {{{rune(k)}}}  |
     |           L l           | {{{rune(l)}}}  |
@@ -1252,7 +1252,7 @@
     9. Lorsque deux  consonnes identiques se suivent, alors  elles fusionnent en
        une consonne géminée.
        - CC / _ > Cː
-    10. Les consonnes  <s>,  <f>,  <h> et  <hw>  se  voisent lorsqu’elles  sont
+    10. Les consonnes  <s>,  <f>,  <h> et  <hv>  se  voisent lorsqu’elles  sont
        entourées par deux voyelles.
         - {ç,f,h} / V_{V,#} > [+voice]
         - xʷ / V_V > ɣʷ
