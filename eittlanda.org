@@ -824,8 +824,8 @@
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
     |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
     |      nasal |         m         |                      |        n̪        |                  |        ŋ         |                       |                  |
-    |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |          kʷ           |                  |
-    |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |         (ɣʷ)          |        h         |
+    |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |                       |                  |
+    |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |        (ɣʷ) xʷ        |        h         |
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |        r̪        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l̪        |                  |                  |                       |                  |
@@ -855,7 +855,7 @@
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
 
     La  majorité des  consonnes Eittlandaises  ne s’écrivent  qu’avec un  glyphe
-    unique, à l’exception de {{{phon(kʷ)}}}  qui s’écrit <hw>. Cette graphie est
+    unique, à l’exception de {{{phon(xʷ)}}}  qui s’écrit <hw>. Cette graphie est
     spécifiée  explicitement, à  l’inverse  par exemple  de  <hl> se  prononçant
     {{{phon(l̥)}}}, car sa prononciation est irrégulière et ne suit pas le modèle
     habituel de la modification d’une consonne  par la précédence d’un <h>. Plus
@@ -942,7 +942,7 @@
              ("[dor]"
               ("[voice]" ("/ɣ/"))
               ("{voice}"
-               ("[son]" ("/kʷ/"))
+               ("[son]" ("/xʷ/"))
                ("{son}" ("/k/"))))
              ("{dor}"
               ("[voice]" ("/β/"))
@@ -1255,7 +1255,7 @@
     10. Les consonnes  <s>,  <f>,  <h> et  <hw>  se  voisent lorsqu’elles  sont
        entourées par deux voyelles.
         - {ç,f,h} / V_{V,#} > [+voice]
-        - kʷ / V_V > ɣʷ
+        - xʷ / V_V > ɣʷ
     11. Un <r>  final suivant une consonne non occlusive  sonorante gémine cette
         dernière et  devient silencieux.  Sinon, si  une autre  consonne précède
         directement le <r> final, alors un schwa est inséré entre la consonne et
