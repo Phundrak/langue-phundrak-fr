@@ -176,6 +176,25 @@ h5 {
     font-weight: 300;
 }
 
+/* scrollbar *****************************************************************/
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7f8c8d;
+    border-radius: 10px;
+}
+
 /* Theme switcher ************************************************************/
 
 .themeBtn {
