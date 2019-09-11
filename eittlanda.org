@@ -658,7 +658,7 @@
     #+NAME: vow-dot
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
       <<tree-dot>>
-      (defvar eittlandic-vowels
+      (setq-local eittlandic-vowels
         '("vowels"
           ("[high]"
            ("[rnd]"
@@ -902,7 +902,7 @@
     #+NAME: cons-dot
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
       <<tree-dot>>
-      (defvar eittlandic-consonants
+      (setq-local eittlandic-consonants
         '("consonants"
           ("[occ]"
            ("[cor]"

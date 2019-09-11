@@ -189,7 +189,7 @@
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar nyqy-consonants
+      (setq-local nyqy-consonants
         '("[cons]"
           ("[son]"
            ("[dor]"
@@ -309,7 +309,7 @@
     #+NAME: vow-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar nyqy-vowels
+      (setq-local nyqy-vowels
         '("[vowel]"
           ("[back]"
            ("[tense]"
@@ -705,7 +705,7 @@
   #+NAME: basic-syntax-tree
   #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
     <<tree-dot>>
-    (defvar nyqy-syntax-tree
+    (setq-local nyqy-syntax-tree
       '("S"
         ("Obl")
         ("S'"

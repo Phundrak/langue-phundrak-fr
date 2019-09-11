@@ -73,7 +73,7 @@
     #+name: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar taso-consonants
+      (setq-local taso-consonants
         '("consonant"
           ("[son]"
            ("[cor]"
@@ -156,7 +156,7 @@
     #+name: vowel-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
-      (defvar taso-vowels
+      (setq-local taso-vowels
         '("vowel"
           ("[high]"
            ("[frnt]"
