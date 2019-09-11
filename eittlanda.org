@@ -661,7 +661,7 @@
            Exemple : /sær/ {{{phon(çær)}}}
     - e :: même {{{phon(e)}}} qu’en français /été/.
 
-           Exemple : /elgyr/ {{{phon(elɣər)}}}
+           Exemple : /elgor/ {{{phon(elɣər)}}}
     - i :: même {{{phon(i)}}} qu’en français /île/.
 
            Exemple : /iðyn/ {{{phon(iðən)}}}
@@ -676,13 +676,13 @@
            Exemple : /öpa/ {{{phon(œpa)}}}
     - ø :: même {{{phon(ø)}}} qu’en français /deux/.
 
-           Exemple : /døkkyr/ {{{phon(døkːər)}}}
+           Exemple : /døkkor/ {{{phon(døkːər)}}}
     - u :: même {{{phon(u)}}} qu’en français /doux/.
 
            Exemple : /ull/ {{{phon(ulː)}}}
     - y :: même {{{phon(y)}}} qu’en français /lune/.
 
-           Exemple : /ymyr/ {{{phon(ymər)}}}
+           Exemple : /ymor/ {{{phon(ymər)}}}
 
     Peu  d’évolutions  de  la  prononciation   des  voyelles  du  vieux  norrois
     apparurent, mis  à part la  perte de  distinction entre voyelles  longues et
@@ -871,7 +871,7 @@
       maintenant  distinguer   des  mots  n’ayant  pour   seule  différence  que
       l’utilisation d’un <þ> ou d’un <ð>.
 
-      Exemple :    /maðyr/   {{{phon(mæðər)}}}    se   distingue    de   /maþyr/
+      Exemple :    /maðor/   {{{phon(mæðər)}}}    se   distingue    de   /maþor/
       {{{phon(mæθər)}}} (basé sur le terme anglais /maths/) uniquement de par la
       différenciation entre /ð/ et /þ/.
     - Le {{{phon(s)}}} s’est palatalisé en {{{phon(ç)}}}.
@@ -892,13 +892,13 @@
       une  autre  consonne, un  <y>,  généralement  prononcé {{{phon(ə)}}},  est
       ajouté avant le <r> final.
 
-      Exemple :  /frægr/ {{{phon(fræɡr)}}} (VN),  /frægyr/ {{{phon(fræɡər)}}}
+      Exemple :  /frægr/ {{{phon(fræɡr)}}} (VN),  /frægor/ {{{phon(fræɡər)}}}
       (E) ; /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
 
     L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
     consonnes géminées et consonnes non-géminées. Ainsi, /dalr/ {{{phon(dɑlː)}}}
     (forme nominative) est perçu comme  étant différent de /dal/ {{{phon(dɑl)}}}
-    (forme  accusative  de  /dalr/),  et /Anar/  {{{phon(ɑnɑr)}}}  (prénom)  est
+    (forme  accusative  de /dalor/),  et  /Anar/  {{{phon(ɑnɑr)}}} (prénom)  est
     également  perçu  comme  différent de  /annarr/  {{{phon(ɑnːɑrː)}}}  (autre,
     second,  deuxième, suivant).  Il est  à  noter cependant  que les  consonnes
     plosives géminées subirent une lénition :  la première consonne de la double
@@ -906,7 +906,7 @@
     apparaître.  Ainsi, /kapp/  se prononce  {{{phon(kɑpː)}}} en  Vieux Norrois,
     mais se  prononce {{{phon(kɑp͡f)}}} en  Eittlandais, et /akkeri/  se prononce
     {{{phon(ɑkːeri)}}}   en    Vieux   Norrois   tandis   qu’il    se   prononce
-    {{{phon(ɑkxeri)}}} en Eittlandais. La mutation se fait comme présentée dans
+    {{{phon(ɑkxeri)}}} en Eittlandais. La mutation  se fait comme présentée dans
     le tableau [[cons:mut:gem]].
 
     #+NAME: cons:mut:gem
@@ -1149,7 +1149,7 @@
     frontale en  Eittlandais, n’étaint  coupée que par  une mutation  labiale la
     précédente.  Cette  mutation  frontale  implique un  changement  de  voyelle
     postérieure accentuée du mot si celle-ci est  suivie dans le même mot par un
-    /j/, /i/,  par un double <l>,  <n>, <s> ou <r>  final ou par un  <yr> final.
+    /j/, /i/,  par un double <l>,  <n>, <s> ou <r>  final ou par un  <or> final.
     Ainsi la voyelle accentuée, si elle est postérieure, est déplacée en voyelle
     postérieure suivant le tableau [[cons:mut:front]].
 
@@ -1164,8 +1164,8 @@
     |         ɑ          |           æ           |
     |         au         |          ey           |
 
-    Par  exemple, /auðyr/  se  prononce comme  /eyðyr/, soit  {{{phon(øyðər)}}},
-    tandis que /maðyr/ se prononce {{{phon(mæðər)}}}.
+    Par  exemple, /auðor/  se  prononce comme  /eyðor/, soit  {{{phon(øyðər)}}},
+    tandis que /maðor/ se prononce {{{phon(mæðər)}}}.
 
 *** Fracture de la voyelle initiale
     :PROPERTIES:
@@ -1183,10 +1183,10 @@
     [[arbre:cons]]), alors la fracture résultera en un /jó/, sinon elle résultera en
     un /ja/. Exemples :
 
-    - internetyr : {{{phon(jɔnternetər)}}}
+    - internetor : {{{phon(jɔnternetər)}}}
     - efn : {{{phon(jafn)}}}
     - herað : {{{phon(j̥ɔrɑð)}}}
-    - hestyr : {{{phon(j̥ɑstər)}}}
+    - hestor : {{{phon(j̥ɑstər)}}}
 
 *** Allophonie
     :PROPERTIES:
@@ -1938,7 +1938,7 @@
     :CUSTOM_ID: h-4288b532-7565-4571-94dc-278ef1bce2c6
     :END:
     - ańan :: (n.NF) joie, délice
-    - auðyr :: (n.NF) bien ou objets précieux, trésor, richesses, fortune
+    - auðor :: (n.NF) bien ou objets précieux, trésor, richesses, fortune
     - akkeri :: (n.Nf) ancre
     - auk :: (prep) mis à part
 
@@ -1965,7 +1965,7 @@
     - dagan  :: (n.FF)  jour (unité  de temps),  jour (période  lumineuse de  la
                journée)
     - dalr :: (n.MF) vallon, vallée
-    - døkkyr :: (adjF) sombre, ténébreux
+    - døkkor :: (adjF) sombre, ténébreux
     - dyrk :: (n.FF) gloire
 
 *** Ð
@@ -1979,14 +1979,14 @@
     :END:
     - efn :: (adjF) égal
     - Eittland :: (n.NF) Eittlande
-    - elgyr :: (n.MF) élan
+    - elgor :: (n.MF) élan
     - eyra :: (n.Nf) oreille
 
 *** F
     :PROPERTIES:
     :CUSTOM_ID: h-49cfae9e-bb0c-46d3-b573-1432107fdffc
     :END:
-    - frægyr :: (ajdF) célèbre, renommé, fameux
+    - frægor :: (ajdF) célèbre, renommé, fameux
 
 *** G
     :PROPERTIES:
@@ -2028,8 +2028,8 @@
     :PROPERTIES:
     :CUSTOM_ID: h-da0f6c8f-47da-47e0-a8e5-048a542fe070
     :END:
-    - maðyr :: (n.MF) homme, humain, mari
-    - maþyr :: (n.Nf) mathématiques. Emprunt du terme anglais /math/.
+    - maðor :: (n.MF) homme, humain, mari
+    - maþor :: (n.Nf) mathématiques. Emprunt du terme anglais /math/.
     - mińa :: (vtf) réduire, diminuer, atténuer
     - Miöllnir :: (n.MF) Mjöllnir, marteau de Thor
     - món :: (n.FF) longue chevelure, crinière
@@ -2104,7 +2104,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-72365ccb-5f3f-4e87-8783-c3998c7638fb
     :END:
-    - ymyr :: (n.MF) grognement, bourdonnement, fredonnement
+    - ymor :: (n.MF) grognement, bourdonnement, fredonnement
 
 * Data not to be exported                                          :noexport:
   :PROPERTIES:
