@@ -126,7 +126,7 @@
       (tree-to-dot taso-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/taso/consonant-feature-tree.svg :var input=cons-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/taso/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -187,7 +187,7 @@
       (tree-to-dot taso-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/taso/vowel-feature-tree.svg :var input=vowel-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/taso/vowel-feature-tree.png :var input=vowel-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons

@@ -216,7 +216,7 @@
       (tree-to-dot nyqy-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.svg :var input=cons-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -328,7 +328,7 @@
       (tree-to-dot nyqy-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.svg :var input=vow-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
@@ -729,7 +729,7 @@
     (tree-to-dot nyqy-syntax-tree)
   #+END_SRC
 
-  #+BEGIN_SRC dot :file img/nyqy/basic-syntax.svg :var input=basic-syntax-tree :exports results :eval yes :cache yes
+  #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes :cache yes
     $input
   #+END_SRC
   #+NAME: arbre:syntaxe:basique
