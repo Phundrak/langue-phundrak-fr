@@ -909,7 +909,9 @@
             ("[voice]" ("/d/"))
             ("{voice}" ("/t/")))
            ("{cor}"
-            ("[nasal]" ("/ŋ/"))
+            ("[nasal]"
+             ("[dor]" ("/ŋ/"))
+             ("{dor}" ("/m/")))
             ("{nasal}"
              ("[dor]"
               ("[voice]" ("/ɣ/"))
@@ -936,10 +938,8 @@
               ("{son}" ("/ð/")))
              ("{voice}" ("/θ/"))))
            ("{cor}"
-            ("[nasal]" ("/m/"))
-            ("{nasal}"
-             ("[dor]" ("/w/"))
-             ("{dor}" ("/h/")))))))
+            ("[dor]" ("/w/"))
+            ("{dor}" ("/h/"))))))
       (tree-to-dot eittlandic-consonants)
     #+END_SRC
 
