@@ -740,26 +740,6 @@
     #+RESULTS:
     [[file:img/eittlanda/vowel-feature-tree.png]]
 
-    Dans   le  tableau   [[table:vowels:features]]  sont   présentées  chacune   des
-    caractéristiques de chaque voyelle individuelle de l’Eittlandais.
-
-    #+NAME: table:vowels:features
-    #+CAPTION: Caractéristiques distinctives de chacune des voyelles de l’Eittlandais
-    |   /   |      <>       |      >       |       >        |      >       |       >        |
-    |  <c>  |     <c5>      |     <c5>     |      <c5>      |     <c5>     |      <c5>      |
-    | vowel | {{{v(high)}}} | {{{v(rnd)}}} | {{{v(tense)}}} | {{{v(low)}}} | {{{v(front)}}} |
-    |-------+---------------+--------------+----------------+--------------+----------------|
-    |   y   |       +       |      +       |       +        |      -       |       +        |
-    |   u   |       +       |      +       |       +        |      -       |       -        |
-    |   i   |       +       |      -       |       +        |      -       |       +        |
-    |   ø   |       -       |      +       |       +        |      -       |       +        |
-    |   o   |       -       |      +       |       +        |      -       |       -        |
-    |   œ   |       -       |      +       |       -        |      -       |       +        |
-    |   ɔ   |       -       |      +       |       -        |      -       |       -        |
-    |   æ   |       -       |      -       |       +        |      +       |       +        |
-    |   e   |       -       |      -       |       +        |      -       |       +        |
-    |   ɑ   |       -       |      -       |       -        |      +       |       -        |
-
 *** Diphtongues
     :PROPERTIES:
     :CUSTOM_ID: h-c44d50b3-b107-44fb-8b12-c2fbbd159f31
@@ -838,7 +818,6 @@
     allophoniques,    voir    §[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]])    entre
     parenthèses.
 
-
     #+NAME: table:cons:ipa
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
@@ -850,7 +829,6 @@
     |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
     |      roulé |                   |                      |        r̪        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l̪        |                  |                  |                       |                  |
-
 
     L’Eittlandais présente  une singularité comparé à  beaucoup d’autres langues
     du monde, et en particulier comparé aux langues européennes et nordique : le
@@ -864,8 +842,6 @@
 
     Chacune  de  ces consonnes  basiques  a  une  graphie  qui lui  est  propre,
     présentée dans le tableau [[table:cons:orth]].
-
-
     #+NAME: table:cons:orth
     |          / |         <         |                      |                 |                  |                  |                       |                  |
     |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
@@ -877,7 +853,6 @@
     |    spirant |                   |                      |                 |        i         |                  |           v           |                  |
     |      roulé |                   |                      |        r        |                  |                  |                       |                  |
     | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
-
 
     La  majorité des  consonnes Eittlandaises  ne s’écrivent  qu’avec un  glyphe
     unique, à l’exception de {{{phon(kʷ)}}}  qui s’écrit <hw>. Cette graphie est
