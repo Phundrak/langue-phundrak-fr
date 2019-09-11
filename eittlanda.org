@@ -260,41 +260,90 @@
     :PROPERTIES:
     :CUSTOM_ID: h-f20f59bf-abf0-4732-acd3-4cb773e10b38
     :END:
-    Eittlande  est une  île  qui  fut découverte  en  863  par des  explorateurs
-    scandinaves,  très probablement  norvégiens,  lors  des grandes  expéditions
-    vikings. La première colonie norvégienne s’installa  sur l’île en 882 sur sa
-    partie orientale, puis en 884 sur sa partie occidentale. Bien que la large
-    majorité des colons soient principalement d’origine norvégienne, parlant
-    alors le Vieux Norrois Occidental, il est fort probable qu’une partie des
-    premiers habitants de l’île viennent de Suède, apportant alors quelques
-    influences du Vieux Norrois Oriental. L’immigration scandinave dura une
-    cinquantaine d’années environ, date à partir de laquelle Eittland commeça à
-    se refermer au monde extérieur et commeça à limiter l’immigration sur ses
-    terres.
+**** Origines du pays
+     :PROPERTIES:
+     :CUSTOM_ID: h-fb57732b-a2d7-4350-a12c-c9a480fc0a27
+     :END:
 
-    Comme         décrit         dans        le         chapitre         suivant
-    (§[[#h-11e1aecd-4abd-4dd5-a07a-0998e6572b09]]),   l’Eittlande   se  dote   d’une
-    constitution  et  d’une monarchie  en  915,  mais reste  officiellement  une
-    dépendance de la Norvège pendant environ  quatre siècles. En 1397, alors que
-    l’Union de  Kalmar se forma, une  invitation fut envoyée à  l’Eittlande afin
-    d’intégrer   l’union   en   leur    qualité   de   dépendance   Norvégienne.
-    Lorsqu’Eittland  refusa,  l’Union  déclara  la  guerre  à  l’Eittlande  sous
-    prétexte  de rebélion  de leur  part, ayant  alors pour  but de  les annexer
-    complètement. La guerre dura jusqu’en 1400, où une paix fut signée : l’Union
-    de Kalmar accorde à l’Eittlande  son indépendance en échange de l’annexation
-    les  colonies Groënlandaises  eittlandaises  par l’Union.  Il  s’agit de  la
-    première   reconnaissance  internationale   d’Eittlande   en  tant   qu’État
-    souverain.
+     Eittlande  est une  île  qui fut  découverte en  863  par des  explorateurs
+     scandinaves,  très probablement  norvégiens, lors  des grandes  expéditions
+     vikings. La première colonie norvégienne s’installa sur l’île en 882 sur sa
+     partie orientale, puis en 884 sur  sa partie occidentale. Bien que la large
+     majorité des  colons soient  principalement d’origine  norvégienne, parlant
+     alors le Vieux  Norrois Occidental, il est fort probable  qu’une partie des
+     premiers habitants  de l’île  viennent de  Suède, apportant  alors quelques
+     influences  du Vieux  Norrois Oriental.  L’immigration scandinave  dura une
+     cinquantaine d’années environ, date à partir de laquelle Eittland commeça à
+     se refermer au  monde extérieur et commeça à limiter  l’immigration sur ses
+     terres.
 
-    Au début  des années  1920, Eittlande  vit une  importante émigration  de sa
-    population vers les  États Unis d’Amérique et le Canada,  perdant entre 1919
-    et 1929  environ 10%  de sa  population. Cette  émigration s’arrêta  en 1929
-    suite  au début  de la  grande dépression  durant laquelle  environ 10%  des
-    personnes étant parties  aux Amériques revinrent en  Eittlande. Malgré cela,
-    une diaspora  éittlandaise existe toujours  actuellement dans la  région des
-    grands  lacs au  Canada  et aux  États Unis  d’Amérique,  comptant selon  le
-    recensement de 2000 respectivement 60.000 et 45.000 Eittlandais et personnes
-    d’origines éittlandaises.
+     Comme         décrit        dans         le        chapitre         suivant
+     (§[[#h-11e1aecd-4abd-4dd5-a07a-0998e6572b09]]),   l’Eittlande  se   dote  d’une
+     constitution  et d’une  monarchie  en 915,  mais  reste officiellement  une
+     dépendance de la Norvège pendant environ quatre siècles. En 1397, alors que
+     l’Union de Kalmar  se forma, une invitation fut envoyée  à l’Eittlande afin
+     d’intégrer   l’union   en   leur   qualité   de   dépendance   Norvégienne.
+     Lorsqu’Eittland  refusa,  l’Union  déclara  la guerre  à  l’Eittlande  sous
+     prétexte de  rebélion de  leur part,  ayant alors pour  but de  les annexer
+     complètement.  La guerre  dura  jusqu’en  1400, où  une  paix fut  signée :
+     l’Union  de Kalmar  accorde à  l’Eittlande son  indépendance en  échange de
+     l’annexation  les colonies  Groënlandaises  eittlandaises  par l’Union.  Il
+     s’agit  de la  première reconnaissance  internationale d’Eittlande  en tant
+     qu’État souverain.
+
+**** Début du XX^{ème} siècle et première Guerre Mondiale
+     :PROPERTIES:
+     :CUSTOM_ID: h-810692fb-4f6b-4336-acf0-675191c69a33
+     :END:
+
+     L’Eittlande  pris  au  cours  de  son  histoire  un  positionnement  neutre
+     concernant  les affaires  militaires dans  le monde.  De ce  fait, le  pays
+     n’entra pas officiellement  en guerre lors de la  première Guerre Mondiale.
+     Cependant, à l’instar de son île sœur, Eittland faisait partie de la sphère
+     d’influence du Royaume  Uni et commerça avec les Alliés  durant le conflit.
+     Quelques 400 Eittlandais de  descendance anglaise et française s’engagèrent
+     également dans les armées britaniques et française afin de combattre sur le
+     front ouest.
+
+     Au début  des années 1920,  Eittlande vit  une importante émigration  de sa
+     population vers les États Unis d’Amérique  et le Canada, perdant entre 1919
+     et 1929  environ 10% de  sa population.  Cette émigration s’arrêta  en 1929
+     suite au  début de  la grande  dépression durant  laquelle environ  10% des
+     personnes étant parties aux Amériques  revinrent en Eittlande. Malgré cela,
+     une diaspora éittlandaise  existe toujours actuellement dans  la région des
+     grands  lacs au  Canada et  aux États  Unis d’Amérique,  comptant selon  le
+     recensement  de  2000  respectivement   60.000  et  45.000  Eittlandais  et
+     personnes d’origines éittlandaises.
+
+**** Seconde Guerre Mondiale
+     :PROPERTIES:
+     :CUSTOM_ID: h-314b9e9a-2b2c-41fd-8e58-7cbf61a7d099
+     :END:
+
+     Durant la seconde  Guerre Mondiale, Eittlande réaffirma  sa position neutre
+     face  au conflit.  En  Janvier  1940, le  Royaume  Uni  envoya une  requête
+     officielle afin  qu’Eittlande rentre dans  le conflit aux côtés  des Alliés
+     afin d’utiliser leurs ports comme  base arrière dans l’Océan Atlantique. Le
+     gouvernement Eittlandais déclina la requête sous couvert de leur neutralité
+     historique.
+
+     Le  3  Avril  1940,  le  Troisième Reich  lança  une  invasion  des  terres
+     Eittlandaises sans  déclaration de  guerre. Immédiatement,  le gouvernement
+     Eittlandais déclara la guerre à l’Axe et rejoint le Royaume Uni au sein des
+     forces Alliées.  Une féroce défense  militaire et un  harcellement constant
+     des forces allemandes  par une guerilla civile jointe à  un pillonage de la
+     flotte  allemande par  la  Royal Navy  vint  à bout  des  forces armées  du
+     Troisième Reich le 26 Avril 1940.
+
+     Craignant  une invasion  de l’Islande  par l’Allemagne  du même  genre, les
+     forces britaniques et éittlandaises lancèrent conjointement une invasion de
+     l’île voisine  le moi suivant,  le 10 Mai 1940.  Bien que la  protection de
+     l’Islande fut transférée du Royaume Uni aux États Unis d’Amérique le 17 Mai
+     1940,  un  contingent  éittlandais  resta  sur  place  afin  d’assurer  une
+     protection du pays  par un autre pays nordique. Lors  de l’entrée en guerre
+     des États Unis, l’Eittlande les invitère à installer une base militaire sur
+     leur île comme base arrière afin  d’établir une liaison avec le Royaume Uni
+     et l’Europe au travers de l’Atlantique.
 
 *** Situation politique
     :PROPERTIES:
@@ -365,46 +414,46 @@
     #+NAME: Eittland-kings:1
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Liste des rois Eittlandais de 915 à 1392
-    | <l4>                          | <l4>      | <l4> | <l4> | <l4>      | <l4>                           | <l4>      | <l4> | <l4> | <l4>      |
-    | roi                           | naissance | mort | âge  | règne     | co-roi                         | naissance | mort | âge  | règne     |
-    |-------------------------------+-----------+------+------+-----------+--------------------------------+-----------+------+------+-----------|
-    | Ásmundr I, Ingólfrson         | 876       | 932  | 56   | 915-935   | -                              |           |      |      |           |
-    | Áleifr I, Ásmundrson          | 879       | 950  | 71   | 935-950   | Steingrímr I, Áleifrbróðir     | 879       | 959  | 80   | 936-951   |
-    | Áleifr II, Áleifrson          | 915       | 971  | 56   | 950-971   | Eyvindr I, Áleifrbróðir        | 918       | 981  | 63   | 951-972   |
-    | Áleifr III, Áleifrson         | 935       | 981  | 46   | 971-981   | Hallþórr I, Áleifrbróðir       | 936       | 1012 | 76   | 972-981   |
-    | Hallþórr I, Áleifrbróðir      | 936       | 1012 | 76   | 981-1012  | Eiríkr I, Áleifrbróðir         | 938       | 987  | 49   | 982-987   |
-    |                               |           |      |      |           | Hallþórr II, Hallþórrson       | 955       | 1020 | 65   | 937-1012  |
-    | Hallþórr II, Hallþórson       | 955       | 1020 | 65   | 1012-1020 | Ásmundr I, Hallþórrbróðir      | 956       | 1018 | 62   | 1012-1018 |
-    |                               |           |      |      |           | Hallþórr III, Hallþórrsonarson | 992       | 1058 | 66   | 1018-1020 |
-    | Hallþórr III, Hallþórsonarson | 992       | 1058 | 66   | 1020-1058 | Ragnheiðr I, Hallþórrson       | 976       | 1033 | 57   | 1021-1033 |
-    |                               |           |      |      |           | Hallþórr IV, Hallþórrson       | 1013      | 1065 | 52   | 1033-1058 |
-    | Hallþór IV, Hallþórson        | 1013      | 1065 | 52   | 1058-1065 | Áleifr IV, Hallþórbróðir       | 1015      | 1087 | 72   | 1059-1065 |
-    | Áleifr IV, Hallþórbróðir      | 1015      | 1087 | 72   | 1065-1087 | Eríkr II, Áleifrbróðir         | 1020      | 1101 | 81   | 1065-1087 |
-    | Eríkr II, Áleifrbróðir        | 1020      | 1101 | 81   | 1087-1101 | Eyvindr II, Áleifrbróðir       | 1027      | 1098 | 71   | 1088-1098 |
-    |                               |           |      |      |           | Eríkr III, Eríkrsonarson       | 1053      | 1103 | 50   | 1098-1101 |
-    | Eríkr III, Eríkrsonarson      | 1053      | 1103 | 50   | 1101-1103 | Niall I, Eríkrdóttir           | 1076      | 1158 | 82   | 1102-1103 |
-    | Niall I, Eríkrdóttir          | 1076      | 1158 | 82   | 1103-1158 | Eysteinn I, Niallson           | 1095      | 1127 | 32   | 1104-1127 |
-    |                               |           |      |      |           | Yngvarr I, Niallsonarson       | 1102      | 1175 | 73   | 1128-1158 |
-    | Yngvarr I, Niallson           | 1102      | 1175 | 73   | 1158-1175 | Eyvindr II, Yngvarrbróðir      | 1119      | 1176 | 57   | 1159-1175 |
-    | Yngvarr II, Yngvarrson        | 1137      | 1176 | 39   | 1175-1176 | Eyvindr II, Yngvarrbróðir      | 1119      | 1176 | 57   | 1176      |
-    |                               |           |      |      |           | Yngvarr III, Yngvarrson        | 1153      | 1202 | 49   | 1176      |
-    | Yngvarr III, Yngvarrson       | 1153      | 1202 | 49   | 1176-1202 | Heimir I, Yngvarrbróðir        | 1162      | 1223 | 61   | 1177-1202 |
-    | Heimir I, Yngvarrbróðir       | 1162      | 1223 | 61   | 1202-1223 | Ásmundr II, Heimirbróðir       | 1165      | 1218 | 53   | 1202-1218 |
-    |                               |           |      |      |           | Gunnhildr I, Ásmundrdóttir     | 1189      | 1252 | 63   | 1218-1223 |
-    | Gunnhildr I, Ásmundrdóttir    | 1189      | 1252 | 63   | 1223-1252 | Hallþórr V, Gunnhildrson       | 1205      | 1283 | 78   | 1223-1252 |
-    | Hallþórr V, Gunnhildrson      | 1205      | 1283 | 78   | 1252-1283 | Steingrímr II, Hallþórrbroðir  | 1209      | 1263 | 54   | 1252-1263 |
-    |                               |           |      |      |           | Steingrímr III, Steingrímrson  | 1233      | 1278 | 45   | 1263-1278 |
-    |                               |           |      |      |           | Eyvindr III, Steingrímrson     | 1235      | 1291 | 56   | 1278-1283 |
-    | Eyvindr III, Steingrímrson    | 1235      | 1291 | 56   | 1283-1291 | Ragnheiðr II, Eyvindrbróðir    | 1240      | 1296 | 56   | 1284-1291 |
-    | Eyvindr IV, Eyvindrson        | 1262      | 1318 | 56   | 1291-1318 | Ragnheiðr II, Eyvindrbróðir    | 1240      | 1296 | 56   | 1292-1296 |
-    |                               |           |      |      |           | Ragnheiðr III, Ragnheiðrson    | 1259      | 1308 | 49   | 1292-1308 |
-    |                               |           |      |      |           | Eyvindr V, Eyvindrson          | 1285      | 1346 | 61   | 1308-1318 |
-    | Eyvindr V, Eyvindrson         | 1285      | 1346 | 61   | 1318-1346 | Eríkr II, Eyvindrbróðir        | 1290      | 1349 | 59   | 1319-1346 |
-    | Eyvindr VI, Eyvindrson        | 1309      | 1354 | 45   | 1346-1354 | Eríkr III, Eyvindrbróðir       | 1315      | 1349 | 34   | 1346-1349 |
-    |                               |           |      |      |           | Eir I, Eyvindrsystir           | 1299      | 1360 | 61   | 1349-1354 |
-    | Eir I, Eyvindrsystir          | 1299      | 1360 | 61   | 1354-1360 | Biörg I, Eirdóttir             | 1318      | 1374 | 56   | 1355-1360 |
-    | Biörg I, Eirdóttir            | 1318      | 1374 | 56   | 1360-1374 | Ásgeirr I, Björgson            | 1330      | 1392 | 62   | 1361-1374 |
-    | Ásgeirr I, Biörgson           | 1330      | 1392 | 62   | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       | 1333      | 1393 | 60   | 1375-1392 |
+    | <4>                           |       <4> |  <4> | <4> |       <4> | <4>                            |       <4> |  <4> | <4> |       <4> |
+    | roi                           | naissance | mort | âge |     règne | co-roi                         | naissance | mort | âge |     règne |
+    |-------------------------------+-----------+------+-----+-----------+--------------------------------+-----------+------+-----+-----------|
+    | Ásmundr I, Ingólfrson         |       876 |  932 |  56 |   915-935 | -                              |           |      |     |           |
+    | Áleifr I, Ásmundrson          |       879 |  950 |  71 |   935-950 | Steingrímr I, Áleifrbróðir     |       879 |  959 |  80 |   936-951 |
+    | Áleifr II, Áleifrson          |       915 |  971 |  56 |   950-971 | Eyvindr I, Áleifrbróðir        |       918 |  981 |  63 |   951-972 |
+    | Áleifr III, Áleifrson         |       935 |  981 |  46 |   971-981 | Hallþórr I, Áleifrbróðir       |       936 | 1012 |  76 |   972-981 |
+    | Hallþórr I, Áleifrbróðir      |       936 | 1012 |  76 |  981-1012 | Eiríkr I, Áleifrbróðir         |       938 |  987 |  49 |   982-987 |
+    |                               |           |      |     |           | Hallþórr II, Hallþórrson       |       955 | 1020 |  65 |  937-1012 |
+    | Hallþórr II, Hallþórson       |       955 | 1020 |  65 | 1012-1020 | Ásmundr I, Hallþórrbróðir      |       956 | 1018 |  62 | 1012-1018 |
+    |                               |           |      |     |           | Hallþórr III, Hallþórrsonarson |       992 | 1058 |  66 | 1018-1020 |
+    | Hallþórr III, Hallþórsonarson |       992 | 1058 |  66 | 1020-1058 | Ragnheiðr I, Hallþórrson       |       976 | 1033 |  57 | 1021-1033 |
+    |                               |           |      |     |           | Hallþórr IV, Hallþórrson       |      1013 | 1065 |  52 | 1033-1058 |
+    | Hallþór IV, Hallþórson        |      1013 | 1065 |  52 | 1058-1065 | Áleifr IV, Hallþórbróðir       |      1015 | 1087 |  72 | 1059-1065 |
+    | Áleifr IV, Hallþórbróðir      |      1015 | 1087 |  72 | 1065-1087 | Eríkr II, Áleifrbróðir         |      1020 | 1101 |  81 | 1065-1087 |
+    | Eríkr II, Áleifrbróðir        |      1020 | 1101 |  81 | 1087-1101 | Eyvindr II, Áleifrbróðir       |      1027 | 1098 |  71 | 1088-1098 |
+    |                               |           |      |     |           | Eríkr III, Eríkrsonarson       |      1053 | 1103 |  50 | 1098-1101 |
+    | Eríkr III, Eríkrsonarson      |      1053 | 1103 |  50 | 1101-1103 | Niall I, Eríkrdóttir           |      1076 | 1158 |  82 | 1102-1103 |
+    | Niall I, Eríkrdóttir          |      1076 | 1158 |  82 | 1103-1158 | Eysteinn I, Niallson           |      1095 | 1127 |  32 | 1104-1127 |
+    |                               |           |      |     |           | Yngvarr I, Niallsonarson       |      1102 | 1175 |  73 | 1128-1158 |
+    | Yngvarr I, Niallson           |      1102 | 1175 |  73 | 1158-1175 | Eyvindr II, Yngvarrbróðir      |      1119 | 1176 |  57 | 1159-1175 |
+    | Yngvarr II, Yngvarrson        |      1137 | 1176 |  39 | 1175-1176 | Eyvindr II, Yngvarrbróðir      |      1119 | 1176 |  57 |      1176 |
+    |                               |           |      |     |           | Yngvarr III, Yngvarrson        |      1153 | 1202 |  49 |      1176 |
+    | Yngvarr III, Yngvarrson       |      1153 | 1202 |  49 | 1176-1202 | Heimir I, Yngvarrbróðir        |      1162 | 1223 |  61 | 1177-1202 |
+    | Heimir I, Yngvarrbróðir       |      1162 | 1223 |  61 | 1202-1223 | Ásmundr II, Heimirbróðir       |      1165 | 1218 |  53 | 1202-1218 |
+    |                               |           |      |     |           | Gunnhildr I, Ásmundrdóttir     |      1189 | 1252 |  63 | 1218-1223 |
+    | Gunnhildr I, Ásmundrdóttir    |      1189 | 1252 |  63 | 1223-1252 | Hallþórr V, Gunnhildrson       |      1205 | 1283 |  78 | 1223-1252 |
+    | Hallþórr V, Gunnhildrson      |      1205 | 1283 |  78 | 1252-1283 | Steingrímr II, Hallþórrbroðir  |      1209 | 1263 |  54 | 1252-1263 |
+    |                               |           |      |     |           | Steingrímr III, Steingrímrson  |      1233 | 1278 |  45 | 1263-1278 |
+    |                               |           |      |     |           | Eyvindr III, Steingrímrson     |      1235 | 1291 |  56 | 1278-1283 |
+    | Eyvindr III, Steingrímrson    |      1235 | 1291 |  56 | 1283-1291 | Ragnheiðr II, Eyvindrbróðir    |      1240 | 1296 |  56 | 1284-1291 |
+    | Eyvindr IV, Eyvindrson        |      1262 | 1318 |  56 | 1291-1318 | Ragnheiðr II, Eyvindrbróðir    |      1240 | 1296 |  56 | 1292-1296 |
+    |                               |           |      |     |           | Ragnheiðr III, Ragnheiðrson    |      1259 | 1308 |  49 | 1292-1308 |
+    |                               |           |      |     |           | Eyvindr V, Eyvindrson          |      1285 | 1346 |  61 | 1308-1318 |
+    | Eyvindr V, Eyvindrson         |      1285 | 1346 |  61 | 1318-1346 | Eríkr II, Eyvindrbróðir        |      1290 | 1349 |  59 | 1319-1346 |
+    | Eyvindr VI, Eyvindrson        |      1309 | 1354 |  45 | 1346-1354 | Eríkr III, Eyvindrbróðir       |      1315 | 1349 |  34 | 1346-1349 |
+    |                               |           |      |     |           | Eir I, Eyvindrsystir           |      1299 | 1360 |  61 | 1349-1354 |
+    | Eir I, Eyvindrsystir          |      1299 | 1360 |  61 | 1354-1360 | Biörg I, Eirdóttir             |      1318 | 1374 |  56 | 1355-1360 |
+    | Biörg I, Eirdóttir            |      1318 | 1374 |  56 | 1360-1374 | Ásgeirr I, Björgson            |      1330 | 1392 |  62 | 1361-1374 |
+    | Ásgeirr I, Biörgson           |      1330 | 1392 |  62 | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       |      1333 | 1393 |  60 | 1375-1392 |
     #+TBLFM: $4=$3-$2::$9=$8-$7
 
 ** Écologie
