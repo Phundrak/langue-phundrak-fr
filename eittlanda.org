@@ -951,9 +951,7 @@
                ("{strident}" ("/p/")))))))
           ("{occ}"
            ("[cor]"
-            ("[dor]"
-             ("[son]" ("/j/"))
-             ("{son}" ("/ç/")))
+            ("[dor]" ("/ç/"))
             ("{dor}"
              ("[son]"
               ("[lat]" ("/l/"))
@@ -962,7 +960,9 @@
               ("[voice]" ("/ð/"))
               ("{voice}" ("/θ/")))))
            ("{cor}"
-            ("[dor]" ("/w/"))
+            ("[dor]"
+             ("[rnd]" ("/w/"))
+             ("{rnd}" ("/j/")))
             ("{dor}" ("/h/"))))))
       (tree-to-dot eittlandic-consonants)
     #+END_SRC
@@ -1252,17 +1252,21 @@
     9. Lorsque deux  consonnes identiques se suivent, alors  elles fusionnent en
        une consonne géminée.
        - CC / _ > Cː
-    10. Les consonnes <hw> et <f> se voisent lorsqu’elles sont entourées par deux
-        voyelles.
+    10. Les consonnes  <s>,  <f>,  <h> et  <hw>  se  voisent lorsqu’elles  sont
+       entourées par deux voyelles.
+        - {ç,f,h} / V_{V,#} > [+voice]
         - kʷ / V_V > ɣʷ
-        - f / V_{V,#} > v
-    11. Un  <r> final suivant une  consonne non occlusive sonorante  gémine cette
-        dernière  et devient  silencieux. Sinon,  si une  autre consonne  précède
-        directement le <r> final, alors un  schwa est inséré entre la consonne et
-        ce <r> final.
+    11. Un <r>  final suivant une consonne non occlusive  sonorante gémine cette
+        dernière et  devient silencieux.  Sinon, si  une autre  consonne précède
+        directement le <r> final, alors un schwa est inséré entre la consonne et
+        ce <r> final qui devient approximant.
         - C[-occ +son]r / _# > C[+long]
-        - r / C_# > ər (écrit <yr>)
-    12. Un <v> initial dans un mot se prononce comme un {{{phon(v)}}}.
+        - r / C_# > əɹ (écrit <or>)
+    12. Un <r> final précédé par une voyelle devient approximant.
+        - r / V_# > ɹ
+    13. Un <g> final devient non-voisé et non-sonorant.
+        - ɣ / _# > x
+    14. Un <v> initial dans un mot se prononce comme un {{{phon(v)}}}.
         - w / #_ > v
 
 ** Structure d’un mot
