@@ -451,9 +451,9 @@
     | Eyvindr V, Eyvindrson         |      1285 | 1346 |  61 | 1318-1346 | Eríkr II, Eyvindrbróðir        |      1290 | 1349 |  59 | 1319-1346 |
     | Eyvindr VI, Eyvindrson        |      1309 | 1354 |  45 | 1346-1354 | Eríkr III, Eyvindrbróðir       |      1315 | 1349 |  34 | 1346-1349 |
     |                               |           |      |     |           | Eir I, Eyvindrsystir           |      1299 | 1360 |  61 | 1349-1354 |
-    | Eir I, Eyvindrsystir          |      1299 | 1360 |  61 | 1354-1360 | Biörg I, Eirdóttir             |      1318 | 1374 |  56 | 1355-1360 |
-    | Biörg I, Eirdóttir            |      1318 | 1374 |  56 | 1360-1374 | Ásgeirr I, Björgson            |      1330 | 1392 |  62 | 1361-1374 |
-    | Ásgeirr I, Biörgson           |      1330 | 1392 |  62 | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       |      1333 | 1393 |  60 | 1375-1392 |
+    | Eir I, Eyvindrsystir          |      1299 | 1360 |  61 | 1354-1360 | Biœrg I, Eirdóttir             |      1318 | 1374 |  56 | 1355-1360 |
+    | Biœrg I, Eirdóttir            |      1318 | 1374 |  56 | 1360-1374 | Ásgeirr I, Bjœrgson            |      1330 | 1392 |  62 | 1361-1374 |
+    | Ásgeirr I, Biœrgson           |      1330 | 1392 |  62 | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       |      1333 | 1393 |  60 | 1375-1392 |
     #+TBLFM: $4=$3-$2::$9=$8-$7
 
 ** Écologie
@@ -633,7 +633,7 @@
     Dans  le tableau  [[vow:eittlanda:orth]], nous  pouvons voir  une correspondance
     avec  le tableau  [[vow:eittlanda:ipa]]  où les  voyelles situées  similairement
     représentent l’orthographe latine  de ces voyelles. Par  exemple, la voyelle
-    {{{phon(œ)}}} est représentée  par le caractère <ö> en  Eittlandais. On peut
+    {{{phon(ɔ)}}} est représentée  par le caractère <ó> en  Eittlandais. On peut
     voir  également que  le schwa  n’a aucune  représentation orthographique.  À
     nouveau, cela est  dû à l’allophonie de l’Eittlandais que  nous verrons plus
     bas.
@@ -647,7 +647,7 @@
     |------------+-----------+------------|
     |      fermé |    i y    |     u      |
     |   mi-fermé |    e ø    |     o      |
-    |  mi-ouvert |     ö     |     ó      |
+    |  mi-ouvert |     œ     |     ó      |
     | pré-ouvert |     æ     |            |
     |     ouvert |           |     a      |
 
@@ -658,10 +658,10 @@
            Exemple : /dagan/ {{{phon(dɑɣɑ̃)}}}
     - æ :: même {{{phon(æ)}}} qu’en anglais britannique /pat/.
 
-           Exemple : /sær/ {{{phon(çær)}}}
+           Exemple : /sær/ {{{phon(çæɹ)}}}
     - e :: même {{{phon(e)}}} qu’en français /été/.
 
-           Exemple : /elgor/ {{{phon(elɣər)}}}
+           Exemple : /elgor/ {{{phon(elɣɚ)}}}
     - i :: même {{{phon(i)}}} qu’en français /île/.
 
            Exemple : /iðyn/ {{{phon(iðən)}}}
@@ -671,18 +671,18 @@
     - ó :: même {{{phon(ɔ)}}} qu’en français /vote/.
 
            Exemple : /ól/ {{{phon(ɔl)}}}
-    - ö :: même {{{phon(œ)}}} qu’en français /neuf/.
+    - œ :: même {{{phon(œ)}}} qu’en français /neuf/.
 
-           Exemple : /öpa/ {{{phon(œpa)}}}
+           Exemple : /œpa/ {{{phon(œpa)}}}
     - ø :: même {{{phon(ø)}}} qu’en français /deux/.
 
-           Exemple : /døkkor/ {{{phon(døkːər)}}}
+           Exemple : /døkkor/ {{{phon(døkxɚ)}}}
     - u :: même {{{phon(u)}}} qu’en français /doux/.
 
            Exemple : /ull/ {{{phon(ulː)}}}
     - y :: même {{{phon(y)}}} qu’en français /lune/.
 
-           Exemple : /ymor/ {{{phon(ymər)}}}
+           Exemple : /ymor/ {{{phon(ymɚ)}}}
 
     Peu  d’évolutions  de  la  prononciation   des  voyelles  du  vieux  norrois
     apparurent, mis  à part la  perte de  distinction entre voyelles  longues et
@@ -866,17 +866,17 @@
     - Le {{{phon(b)}}} est  devenu une consonne fricative, en  parallèle avec le
       <g> se prononçant {{{phon(ɣ)}}}, devenant {{{phon(β)}}}.
 
-      Exemple : /bær/ {{{phon(bær)}}} (VN), {{{phon(βær)}}} (E).
+      Exemple : /bær/ {{{phon(bær)}}} (VN), {{{phon(βæɹ)}}} (E).
     - Le  {{{phon(ð)}}}  n’est  plus  un  allophone  de  {{{phon(θ)}}}  et  peut
       maintenant  distinguer   des  mots  n’ayant  pour   seule  différence  que
       l’utilisation d’un <þ> ou d’un <ð>.
 
-      Exemple :    /maðor/   {{{phon(mæðər)}}}    se   distingue    de   /maþor/
-      {{{phon(mæθər)}}} (basé sur le terme anglais /maths/) uniquement de par la
+      Exemple :    /maðor/   {{{phon(mæðɚ)}}}    se    distingue   de    /maþor/
+      {{{phon(mæθɚ)}}} (basé sur le terme  anglais /maths/) uniquement de par la
       différenciation entre /ð/ et /þ/.
     - Le {{{phon(s)}}} s’est palatalisé en {{{phon(ç)}}}.
 
-      Exemple : /sær/ {{{phon(sær)}}} (VN), {{{phon(çær)}}} (E).
+      Exemple : /sær/ {{{phon(sær)}}} (VN), {{{phon(çæɹ)}}} (E).
     - La  prononciation  occasionelle  du   <g>  en  {{{phon(ɣ)}}}  est  devenue
       régulière, rendant  la prononciation  {{{phon(ɡ)}}} occasionelle.  Plus de
       détails  sur   l’utilisation  du   {{{phon(ɡ)}}}  dans  le   chapitre  sur
@@ -892,14 +892,14 @@
       une  autre  consonne, un  <y>,  généralement  prononcé {{{phon(ə)}}},  est
       ajouté avant le <r> final.
 
-      Exemple :  /frægr/ {{{phon(fræɡr)}}} (VN),  /frægor/ {{{phon(fræɡər)}}}
-      (E) ; /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
+      Exemple : /frægr/ {{{phon(fræɡr)}}} (VN), /frægor/ {{{phon(fræɡɚ)}}} (E) ;
+      /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
 
     L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
     consonnes géminées et consonnes non-géminées. Ainsi, /dalr/ {{{phon(dɑlː)}}}
     (forme nominative) est perçu comme  étant différent de /dal/ {{{phon(dɑl)}}}
-    (forme  accusative  de /dalor/),  et  /Anar/  {{{phon(ɑnɑr)}}} (prénom)  est
-    également  perçu  comme  différent de  /annarr/  {{{phon(ɑnːɑrː)}}}  (autre,
+    (forme  accusative  de  /dalr/),  et /Anar/  {{{phon(ɑ̃nɑɹ)}}}  (prénom)  est
+    également  perçu  comme  différent de  /annarr/  {{{phon(ɑ̃nːɑrː)}}}  (autre,
     second,  deuxième, suivant).  Il est  à  noter cependant  que les  consonnes
     plosives géminées subirent une lénition :  la première consonne de la double
     consonne conserve sa  prononciation tandis que la seconde a  vu une lénition
@@ -1047,7 +1047,7 @@
     |           Ń ń           | {{{rune(ń)}}}  |
     |           O o           | {{{rune(o)}}}  |
     |           Ó ó           | {{{rune(ó)}}}  |
-    |           Ö ö           | {{{rune(ö)}}}  |
+    |           Œ œ           | {{{rune(œ)}}}  |
     |           Ø ø           | {{{rune(ø)}}}  |
     |           P p           | {{{rune(p)}}}  |
     |           R r           | {{{rune(r)}}}  |
@@ -1071,12 +1071,12 @@
 
     Exemple de texte en Eittlandais écrit en alphabet latin et en runes :
     - Thor blessa Loki avec Mjöllnir.
-    - Þorr ogagnysk Loka a Miöllni.
-    - {{{rune(þorr ogagnysk loka a mi)}}}{{{rune(ö)}}}{{{rune(llni.)}}}
+    - Þorr ogagnysk Loka a Miœllni.
+    - {{{rune(þorr ogagnysk loka a miœ)}}}{{{rune(llni.)}}}
 
     Voici le détail grammatical de la phrase ci-dessus :
     | Thor.NOM.SG | blesser-1SG.PST | Loki-DAT.SG | avec | Mjöllnir.DAT.SG |
-    | Þorr        | ogagn-ysk       | Lok-a       | a    | Miöllni         |
+    | Þorr        | ogagn-ysk       | Lok-a       | a    | Miœllni         |
 
 ** Phonotaxes
    :PROPERTIES:
@@ -1164,8 +1164,8 @@
     |         ɑ          |           æ           |
     |         au         |          ey           |
 
-    Par  exemple, /auðor/  se  prononce comme  /eyðor/, soit  {{{phon(øyðər)}}},
-    tandis que /maðor/ se prononce {{{phon(mæðər)}}}.
+    Par  exemple,  /auðor/ se  prononce  comme  /eyðor/, soit  {{{phon(øyðɚ)}}},
+    tandis que /maðor/ se prononce {{{phon(mɑðɚ)}}}.
 
 *** Fracture de la voyelle initiale
     :PROPERTIES:
@@ -1183,10 +1183,10 @@
     [[arbre:cons]]), alors la fracture résultera en un /jó/, sinon elle résultera en
     un /ja/. Exemples :
 
-    - internetor : {{{phon(jɔnternetər)}}}
+    - internetor : {{{phon(jɔnternetɚ)}}}
     - efn : {{{phon(jafn)}}}
     - herað : {{{phon(j̥ɔrɑð)}}}
-    - hestor : {{{phon(j̥ɑstər)}}}
+    - hestor : {{{phon(j̥ɑstɚ)}}}
 
 *** Allophonie
     :PROPERTIES:
@@ -1212,7 +1212,7 @@
        géminée.
        - VV / _ > Vː
 
-       Exemple : /heyia-annir/ {{{phon(høʏjɑːnːir)}}}
+       Exemple : /heyia-annir/ {{{phon(høʏjɑːnːiɹ)}}}
     3. Un <e> se fracture dans un  mot, peu importe son emplacement dans le mot,
        s’il est suivi  par une unique consonne et par  une voyelle non frontale.
        Le résultat  de la fracture  sera arrondie  si la voyelle  suivante l’est
@@ -1257,11 +1257,13 @@
         - {ç,f,h} / V_{V,#} > [+voice]
         - xʷ / V_V > ɣʷ
     11. Un <r>  final suivant une consonne non occlusive  sonorante gémine cette
-        dernière et  devient silencieux.  Sinon, si  une autre  consonne précède
-        directement le <r> final, alors un schwa est inséré entre la consonne et
-        ce <r> final qui devient approximant.
+        dernière et devient silencieux. Si le  <r> est lui-même doublé, alors ce
+        <rr>  final est  prononcé  comme  un <r>  géminé.  Sinon,  si une  autre
+        consonne  précède  directement  le  <r> final,  alors  ce  dernier  sera
+        prononcé comme un schwa rhotique {{{phon(ɚ)}}}.
         - C[-occ +son]r / _# > C[+long]
-        - r / C_# > əɹ (écrit <or>)
+        - rr / _# > rː
+        - r / C_# > ɚ (écrit <or>)
     12. Un <r> final précédé par une voyelle devient approximant.
         - r / V_# > ɹ
     13. Un <g> final devient non-voisé et non-sonorant.
@@ -1937,10 +1939,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-4288b532-7565-4571-94dc-278ef1bce2c6
     :END:
-    - ańan :: (n.NF) joie, délice
-    - auðor :: (n.NF) bien ou objets précieux, trésor, richesses, fortune
-    - akkeri :: (n.Nf) ancre
-    - auk :: (prep) mis à part
+    - ańan :: {{{phon(ɑ̃ŋɑ̃)}}} (n.NF) joie, délice
+    - auðor   ::   {{{phon(øʏðɚ)}}}  (n.NF)  bien ou  objets  précieux,  trésor,
+                richesses, fortune
+    - akkeri :: {{{phon(ɑkxeri)}}} (n.Nf) ancre
+    - auk :: {{{phon(ɔʊk)}}} (prep) mis à part
 
 *** Æ
     :PROPERTIES:
@@ -1951,7 +1954,8 @@
     :PROPERTIES:
     :CUSTOM_ID: h-f60cb72b-0ae2-447f-96d7-226e0b9afe35
     :END:
-    - bær :: (n.NF) maison, appartement, domicile, lieu de résidence
+    - bær   ::  {{{phon(βæɹ)}}}  (n.NF) maison,  appartement, domicile,  lieu de
+              résidence
 
 *** C
     :PROPERTIES:
@@ -1962,11 +1966,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-eabffe31-39e9-44a8-8ff5-0533724eafe0
     :END:
-    - dagan  :: (n.FF)  jour (unité  de temps),  jour (période  lumineuse de  la
-               journée)
-    - dalr :: (n.MF) vallon, vallée
-    - døkkor :: (adjF) sombre, ténébreux
-    - dyrk :: (n.FF) gloire
+    - dagan  ::   {{{phon(dɑɣɑ̃)}}} (n.FF) jour  (unité de temps),  jour (période
+                lumineuse de la journée)
+    - dall :: {{{phon(dɑlː)}}} (n.MF) vallon, vallée
+    - døkkor :: {{{phon(døkxɚ)}}} (adjF) sombre, ténébreux
+    - dyrk :: {{{phon(dyrk)}}} (n.FF) gloire
 
 *** Ð
     :PROPERTIES:
@@ -1977,16 +1981,16 @@
     :PROPERTIES:
     :CUSTOM_ID: h-6f480e46-e74c-4639-aa50-98afe47866cd
     :END:
-    - efn :: (adjF) égal
-    - Eittland :: (n.NF) Eittlande
-    - elgor :: (n.MF) élan
-    - eyra :: (n.Nf) oreille
+    - efn :: {{{phon(jɑfn)}}} (adjF) égal
+    - Eittland :: {{{phon(aɪtlɑ̃d)}}} (n.NF) Eittlande
+    - elgor :: {{{phon(jɑlɣɚ)}}} (n.MF) élan
+    - eyra :: {{{phon(øʏrɑ)}}} (n.Nf) oreille
 
 *** F
     :PROPERTIES:
     :CUSTOM_ID: h-49cfae9e-bb0c-46d3-b573-1432107fdffc
     :END:
-    - frægor :: (ajdF) célèbre, renommé, fameux
+    - frægor :: {{{phon(fræɣɚ)}}} (ajdF) célèbre, renommé, fameux
 
 *** G
     :PROPERTIES:
@@ -1997,27 +2001,27 @@
     :PROPERTIES:
     :CUSTOM_ID: h-68642ea8-54fe-4c71-b09c-dad3f9616bbb
     :END:
-     - hof :: (n.NF) temple, bâtiment religieux
+     - hof :: {{{phon(hov)}}} (n.NF) temple, bâtiment religieux
 
 *** H
     :PROPERTIES:
     :CUSTOM_ID: h-259069da-65be-4bd5-b4e2-b58e550850e8
     :END:
-    - herað :: (n.Nf) pays, région
-    - hestr :: (n.MF) cheval, étalon
+    - herað :: {{{phon(j̥ɑrɑð)}}} (n.Nf) pays, région
+    - hestor :: {{{phon(j̥ɑstɚ)}}} (n.MF) cheval, étalon
 
 *** I
     :PROPERTIES:
     :CUSTOM_ID: h-63496295-b660-4154-b4d7-96129df453f1
     :END:
-    - iðyn :: (n.FF) travail, métier
-    - interneti :: (n.Nf) internet
+    - iðyn :: {{{phon(iðyn)}}} (n.FF) travail, métier
+    - interneti :: {{{phon(ĩterneti)}}} (n.Nf) internet
 
 *** K
     :PROPERTIES:
     :CUSTOM_ID: h-c6188d46-a594-4739-913a-5ac68456ebc8
     :END:
-    - kapp :: (n.NF) arche
+    - kapp :: {{{phon(kɑpf)}}} (n.NF) arche
 
 *** L
     :PROPERTIES:
@@ -2028,11 +2032,12 @@
     :PROPERTIES:
     :CUSTOM_ID: h-da0f6c8f-47da-47e0-a8e5-048a542fe070
     :END:
-    - maðor :: (n.MF) homme, humain, mari
-    - maþor :: (n.Nf) mathématiques. Emprunt du terme anglais /math/.
-    - mińa :: (vtf) réduire, diminuer, atténuer
-    - Miöllnir :: (n.MF) Mjöllnir, marteau de Thor
-    - món :: (n.FF) longue chevelure, crinière
+    - maðor :: {{{phon(mɑðɚ)}}} (n.MF) homme, humain, mari
+    - maþor ::  {{{phon(mɑθɚ)}}} (n.Nf) mathématiques. Emprunt  du terme anglais
+               /math/.
+    - mińa :: {{{phon(mĩŋa)}}} (vt.f) réduire, diminuer, atténuer
+    - Miœllnir :: {{{phon(mjœlniɹ)}}} (n.MF) Mjöllnir, marteau de Thor
+    - món :: {{{phon(mɔ̃)}}} (n.FF) longue chevelure, crinière
 
 *** N
     :PROPERTIES:
@@ -2043,19 +2048,19 @@
     :PROPERTIES:
     :CUSTOM_ID: h-37ae6431-ce65-4db8-80cb-ad637d95fee1
     :END:
-    - ogagn :: (vtF) blesser, faire mal
+    - ogagn :: {{{phon(oɣɑɣn)}}} (vt.F) blesser, faire mal
 
 *** Ó
     :PROPERTIES:
     :CUSTOM_ID: h-e13e5ee6-5c3a-477b-93d7-836fc15f2f91
     :END:
-    - ól :: (n.NF) bière
+    - ól :: {{{phon(ɔl)}}} (n.NF) bière
 
-*** Ö
+*** Œ
     :PROPERTIES:
     :CUSTOM_ID: h-e0949531-7a25-4bbb-974f-3ca751347828
     :END:
-    - öpa :: (vi.f) crier, hurler, s’écrier
+    - œpa :: {{{phon(œpɑ)}}} (vi.f) crier, hurler, s’écrier
 
 *** Ø
     :PROPERTIES:
@@ -2076,7 +2081,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-dda4411d-68a0-45a3-91db-255b34026692
     :END:
-    - sær :: (n.MF) mer
+    - sær :: {{{phon(çæɹ)}}} (n.MF) mer
 
 *** T
     :PROPERTIES:
@@ -2087,13 +2092,13 @@
     :PROPERTIES:
     :CUSTOM_ID: h-779e663b-0665-4b5a-9c03-5cc363b37100
     :END:
-    - Þorr :: (n.MF) Thor
+    - Þorr :: {{{phon(θorː)}}} (n.MF) Thor
 
 *** U
     :PROPERTIES:
     :CUSTOM_ID: h-0bc1fee9-2f4c-41e6-9c44-aa8f71f34407
     :END:
-    - ull :: (n.FF) laine
+    - ull :: {{{phon(ulː)}}} (n.FF) laine
 
 *** V
     :PROPERTIES:
@@ -2104,7 +2109,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-72365ccb-5f3f-4e87-8783-c3998c7638fb
     :END:
-    - ymor :: (n.MF) grognement, bourdonnement, fredonnement
+    - ymor :: {{{phon(ymɚ)}}} (n.MF) grognement, bourdonnement, fredonnement
 
 * Data not to be exported                                          :noexport:
   :PROPERTIES:
