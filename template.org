@@ -4,12 +4,12 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite TEMPLATE" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du TEMPLATE" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite TEMPLATE" />
+#+OPTIONS: auto-id:t
 
 * Propos préliminaires
   :PROPERTIES:
   :CUSTOM_ID: h-41a62215-44fc-490f-89f3-5b9cccf02550
   :END:
-
 ** Avant-propos
    :PROPERTIES:
    :CUSTOM_ID: h-89e5cd8b-42e4-41c2-aad7-6112dfa3ace1
@@ -52,7 +52,6 @@
   :PROPERTIES:
   :CUSTOM_ID: h-a89fab50-74c0-4d03-9248-8cad4629d846
   :END:
-
 ** Le nom de la langue
    :PROPERTIES:
    :CUSTOM_ID: h-2a5d6c2e-16e0-48c1-9cb5-d2ff98519b3f
@@ -67,7 +66,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-4792d22e-b371-46f1-ab60-521d30a7a535
    :END:
-
 *** Cartes
     :PROPERTIES:
     :CUSTOM_ID: h-7914837c-3bf9-4edf-828e-6a36f38527e4
@@ -107,7 +105,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-bada4703-90a1-4dcd-ab29-203101ce00e4
    :END:
-
 *** Multilinguisme et attitude envers les langues
     :PROPERTIES:
     :CUSTOM_ID: h-621e6556-a3ca-4fb4-9c90-7d0cb372ffa2
@@ -132,7 +129,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-9f14afae-8cd0-4f89-9de3-e0d844494d41
    :END:
-
 *** La nature de la recherche
     :PROPERTIES:
     :CUSTOM_ID: h-6e9d796f-700f-4cad-b369-f34d0e94c3b1
@@ -152,7 +148,6 @@
   :PROPERTIES:
   :CUSTOM_ID: h-76fc0b91-e41c-42ad-8652-bba029632333
   :END:
-
 ** Esquisse typologique
    :PROPERTIES:
    :CUSTOM_ID: h-dcd950c6-3a8b-4a9b-abf5-11f607d37415
@@ -162,15 +157,14 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ed0cea88-9b4f-42e9-ac94-b40c8432e264
    :END:
+*** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
+    :END:
 
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
-    :END:
-
-*** Voyelles
-    :PROPERTIES:
-    :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
 
 *** Ton et accentuation
@@ -182,11 +176,15 @@
    :PROPERTIES:
    :CUSTOM_ID: h-f0eaf02f-25f5-4b27-988a-ae7b3f99089c
    :END:
+*** Structure syllabique
+    :PROPERTIES:
+    :CUSTOM_ID: h-950b4805-8981-4f61-b1d8-4f0ce29ba57e
+    :END:
 
-** Structure syllabique
-   :PROPERTIES:
-   :CUSTOM_ID: h-950b4805-8981-4f61-b1d8-4f0ce29ba57e
-   :END:
+*** Allophonie
+    :PROPERTIES:
+    :CUSTOM_ID: h-fe7264d9-845a-4f20-a6a3-f1863be8a4ff
+    :END:
 
 ** Structure d’un mot
    :PROPERTIES:
@@ -207,12 +205,10 @@
    :PROPERTIES:
    :CUSTOM_ID: h-115008d7-60bd-43a9-af09-7e3fa69bbeac
    :END:
-
 *** Noms
     :PROPERTIES:
     :CUSTOM_ID: h-dcef02ce-f4dd-454d-be8e-e362c92cc147
     :END:
-
 **** Structure d’un nom
      :PROPERTIES:
      :CUSTOM_ID: h-3f99ead1-df52-4b27-afce-9fe901a62c3a
@@ -242,7 +238,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-edf935a6-971a-4fc1-974a-611784acb77a
     :END:
-
 **** Pronoms personnels
      :PROPERTIES:
      :CUSTOM_ID: h-e9bbacb5-e3ef-4c66-a052-869ca7bcc0f3
@@ -262,7 +257,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-de4bb93d-bcd1-4edf-8314-497bf3c06ab8
     :END:
-
 **** Structure verbale
      :PROPERTIES:
      :CUSTOM_ID: h-19b1c9d4-eb87-41db-bb3f-483be321af86
@@ -302,7 +296,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-fa582b13-c83c-4219-9274-fd6c81f83f5b
     :END:
-
 **** Adjectifs descriptifs
      :PROPERTIES:
      :CUSTOM_ID: h-231cd0ef-17a7-4cc9-b97f-a198dd3c2779
@@ -342,7 +335,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ee279d43-b0aa-488e-9467-2b1956468d48
    :END:
-
 *** Ordre des constituants dans les clauses principales
     :PROPERTIES:
     :CUSTOM_ID: h-7945a001-d98a-42fe-845f-7f37c2f14f1d
@@ -392,7 +384,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-241f8093-3388-42fe-8060-af94a2ff03a4
    :END:
-
 *** Prédicats nominaux
     :PROPERTIES:
     :CUSTOM_ID: h-28fe553c-2fc1-4c1d-ad81-23680b62918a
@@ -437,7 +428,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-569b95dd-01df-4010-8fd1-51fc0499381c
    :END:
-
 *** Non-finies
     :PROPERTIES:
     :CUSTOM_ID: h-4a915574-e407-4182-b70c-8247c160d963
@@ -457,7 +447,6 @@
   :PROPERTIES:
   :CUSTOM_ID: h-b98946f1-8554-4243-ab3e-bf098b1b04ef
   :END:
-
 ** Relations grammaticales
    :PROPERTIES:
    :CUSTOM_ID: h-da598991-b75c-4031-a6af-0f06880eb971
@@ -467,7 +456,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-f6447004-ff87-46d0-afc2-08e1cf1dfc64
    :END:
-
 *** Causatif
     :PROPERTIES:
     :CUSTOM_ID: h-b1dac30b-3ca7-4a71-a313-34cdab5e234e
@@ -532,7 +520,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ba9b627c-d1c6-46d3-af2a-335e674ea09c
    :END:
-
 *** Nominalisation d’action
     :PROPERTIES:
     :CUSTOM_ID: h-0c34362c-290b-4c16-993d-1aede011f4aa
@@ -542,7 +529,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-6283863d-8e9c-4fc8-bd77-b852fdd116c4
     :END:
-
 **** Nominalisation d’agent
      :PROPERTIES:
      :CUSTOM_ID: h-a51e1cd9-55a2-440f-bf60-96361d13980d
@@ -582,7 +568,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-7817ca1d-e3ad-48ed-8f79-9039e5c651c7
    :END:
-
 *** Temps
     :PROPERTIES:
     :CUSTOM_ID: h-8f9ad932-6d85-4ea3-b4d5-aada0f48e488
@@ -617,7 +602,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-eaf98d70-ee47-43bc-92e3-425c940a4493
    :END:
-
 *** Variation d’ordre des constituants
     :PROPERTIES:
     :CUSTOM_ID: h-6d3d502c-89da-4c88-9bb0-0e08fa3cced8
@@ -642,7 +626,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-a92e1f8f-7092-4975-850c-93a70c6f6466
     :END:
-
 **** Questions absolues
      :PROPERTIES:
      :CUSTOM_ID: h-b273f0de-ba6d-49c7-9eba-c49dbb527d4b
@@ -662,7 +645,6 @@
    :PROPERTIES:
    :CUSTOM_ID: h-60c13fa4-7a4a-44db-8ade-28e39243a390
    :END:
-
 *** Verbes de série
     :PROPERTIES:
     :CUSTOM_ID: h-42ff20dc-0552-463d-901c-997bb7f1b3f5
@@ -697,12 +679,10 @@
    :PROPERTIES:
    :CUSTOM_ID: h-410b5fac-bda1-4c79-9f74-9bd747666e2c
    :END:
-
 *** Typologie lexicale
     :PROPERTIES:
     :CUSTOM_ID: h-e6d10a54-078f-4cc0-8a07-28a6fed468ba
     :END:
-
 **** Espace, directions et déplacements
      :PROPERTIES:
      :CUSTOM_ID: h-997b8c61-cb5d-40f9-92c1-6e17cfaddce3
@@ -727,7 +707,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-0a5942b9-40eb-4289-bc48-c8e261d396e1
     :END:
-
 **** Continuité de sujet (référenciel)
      :PROPERTIES:
      :CUSTOM_ID: h-48bbdda1-6153-4bb2-9329-41acb5ed4e16
@@ -747,7 +726,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-d2e427d9-a12d-4930-ae84-b6f2e1db22e9
     :END:
-
 **** Apogée, point de culminance
      :PROPERTIES:
      :CUSTOM_ID: h-0a5068b2-1d91-4fa1-b8c6-163ceef8ded9
@@ -762,7 +740,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-c001376f-4df2-4340-a181-62ab0e1eb645
     :END:
-
 **** Conversation
      :PROPERTIES:
      :CUSTOM_ID: h-93c266a5-2f68-4bce-9d28-4fd6ae52640d
@@ -772,7 +749,6 @@
      :PROPERTIES:
      :CUSTOM_ID: h-0a1db1a3-6460-4f55-999b-28c0f4dad61b
      :END:
-
 ***** Expériences personnelles
       :PROPERTIES:
       :CUSTOM_ID: h-098a7c39-cf64-4312-9b76-c2869e2da5de
@@ -822,7 +798,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-ee4f1d3a-b677-450c-ae7e-0058b3951ad0
     :END:
-
 **** Expressions idiomatiques et proverbes
      :PROPERTIES:
      :CUSTOM_ID: h-f4be97ec-4df3-40e2-ae76-73ddf08134a1
@@ -843,306 +818,15 @@
    :CUSTOM_ID: h-23b6ac25-c290-4121-95ef-66897fd6a93d
    :END:
 
-** Glossaire
+** Dictionnaire
    :PROPERTIES:
-   :CUSTOM_ID: h-a16dfbc3-34d0-4d38-9b43-325b4544d193
+   :CUSTOM_ID: h-c8df23fa-b5d5-4c98-a4b3-df515d59a00d
    :END:
-*** Actions physiques
-    :PROPERTIES:
-    :CUSTOM_ID: h-4c658763-0108-4da7-800d-d7815289f31b
-    :END:
-*** Amour
-    :PROPERTIES:
-    :CUSTOM_ID: h-7f5e5df3-382c-4809-bdd9-a3c7b3d8a53c
-    :END:
-*** Animaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-a44e42e0-a9df-4a30-a36c-03ca3b68b2a5
-    :END:
-*** Art
-    :PROPERTIES:
-    :CUSTOM_ID: h-d6d42673-f1d9-4ab7-9874-fbc90ffa30e6
-    :END:
-**** Écriture
-     :PROPERTIES:
-     :CUSTOM_ID: h-131fbe8b-0840-4047-bb83-7a996c691d94
-     :END:
-**** Visuel
-     :PROPERTIES:
-     :CUSTOM_ID: h-3e7eb70e-1950-4d67-8864-ada84b70e907
-     :END:
-**** Audio
-     :PROPERTIES:
-     :CUSTOM_ID: h-fc7db645-cda6-4316-bc00-b589e37b74a7
-     :END:
-*** Astronomie
-    :PROPERTIES:
-    :CUSTOM_ID: h-731f0b57-159e-42da-a002-98abeb4eecfb
-    :END:
-*** Bâtiments
-    :PROPERTIES:
-    :CUSTOM_ID: h-6898a833-1882-48b6-a345-f7973b0e11af
-    :END:
-**** La ville
-     :PROPERTIES:
-     :CUSTOM_ID: h-5068ec0c-aa7e-4ef2-8be0-3dc5ea63d0df
-     :END:
-**** Les types de bâtiments
-     :PROPERTIES:
-     :CUSTOM_ID: h-2cac2d04-6c6b-4b60-bc8a-49b1e6bdedb2
-     :END:
-*** Commerce
-    :PROPERTIES:
-    :CUSTOM_ID: h-89810854-457a-4e5a-87ee-c8707871d684
-    :END:
-*** Conflits
-    :PROPERTIES:
-    :CUSTOM_ID: h-0ac2ae67-f73e-410f-9657-9a6e57e597a0
-    :END:
-*** Conteneurs
-    :PROPERTIES:
-    :CUSTOM_ID: h-68b145ac-e90b-4478-9ccc-6b392fd6dc68
-    :END:
-*** Corps
-    :PROPERTIES:
-    :CUSTOM_ID: h-4a6785a6-cd30-4506-b689-c57fe4f9a8ad
-    :END:
-*** Couleurs
-    :PROPERTIES:
-    :CUSTOM_ID: h-f491b097-1806-47d3-bcad-e6caaab2f4dd
-    :END:
-*** Dimensions
-    :PROPERTIES:
-    :CUSTOM_ID: h-b61f1135-fcce-4862-84cb-dabf2bf2304d
-    :END:
-**** Distance
-     :PROPERTIES:
-     :CUSTOM_ID: h-79d92127-41e2-463e-8f61-e5389c6f637e
-     :END:
-**** Taille
-     :PROPERTIES:
-     :CUSTOM_ID: h-65753516-c15c-4b3b-882b-c606c945b23f
-     :END:
-**** Quantifieurs
-     :PROPERTIES:
-     :CUSTOM_ID: h-1ba4096d-0d5d-4a19-94e1-21e478e80f86
-     :END:
-*** Direction
-    :PROPERTIES:
-    :CUSTOM_ID: h-0ee25006-8a45-427b-bbce-8c2a2d29c47b
-    :END:
-*** Eau
-    :PROPERTIES:
-    :CUSTOM_ID: h-00bef6e6-a12e-49a6-90ac-c3186fe89f06
-    :END:
-*** Effort
-    :PROPERTIES:
-    :CUSTOM_ID: h-b3508fb9-0b57-488e-ba0a-ff473923c6d2
-    :END:
-*** Éléments
-    :PROPERTIES:
-    :CUSTOM_ID: h-ac58f8b7-fea3-412b-abc3-3b37a715103e
-    :END:
-*** Émotions
-    :PROPERTIES:
-    :CUSTOM_ID: h-f22a773b-46c6-420e-be14-e3e9da56fd98
-    :END:
-*** Évaluation
-    :PROPERTIES:
-    :CUSTOM_ID: h-ef24bfc7-17fe-4f44-b579-6cb10e77b285
-    :END:
-*** Événements
-    :PROPERTIES:
-    :CUSTOM_ID: h-574010da-d16f-44ba-9c29-c61c17640796
-    :END:
-*** Existence
-    :PROPERTIES:
-    :CUSTOM_ID: h-5ba8974f-c88b-492d-8b98-10064689c191
-    :END:
-*** Forme
-    :PROPERTIES:
-    :CUSTOM_ID: h-f03f202d-b755-4661-ae3b-83cbe1d94011
-    :END:
-*** Gouvernement
-    :PROPERTIES:
-    :CUSTOM_ID: h-8e58e532-ae45-413d-8ceb-c6e3c74fdfce
-    :END:
-*** Grammaire
-    :PROPERTIES:
-    :CUSTOM_ID: h-1d1bd6ae-716d-4bdc-b745-d035e0906e62
-    :END:
-**** Articles définis
-     :PROPERTIES:
-     :CUSTOM_ID: h-742795ba-1e8e-48d5-8fb4-bdf4757dd53b
-     :END:
-**** Déterminants démonstratifs
-     :PROPERTIES:
-     :CUSTOM_ID: h-4d053dc4-8e47-4498-a2b5-cfd163dc1a63
-     :END:
-**** Outils interrogatifs
-     :PROPERTIES:
-     :CUSTOM_ID: h-92d668ba-e824-499a-a359-b0fbb321f6d8
-     :END:
-**** Conjonctions
-     :PROPERTIES:
-     :CUSTOM_ID: h-ce9eb30e-b638-4b3f-83d4-5caf7e8e42a8
-     :END:
-**** Prépositions
-     :PROPERTIES:
-     :CUSTOM_ID: h-2a89e35f-759d-4d74-8162-2b2f59f4114c
-     :END:
-**** Pronoms
-     :PROPERTIES:
-     :CUSTOM_ID: h-ef4be640-9cd8-4e0e-ab6c-27f1d3ce1f45
-     :END:
-*** Guerre
-    :PROPERTIES:
-    :CUSTOM_ID: h-c24d6190-aaf1-4661-8268-7362f6230d85
-    :END:
-*** Légal
-    :PROPERTIES:
-    :CUSTOM_ID: h-ed84566d-486c-49c9-83f6-839f1d88323e
-    :END:
-*** Lieux
-    :PROPERTIES:
-    :CUSTOM_ID: h-923b947d-0b77-4976-9002-8ee3b2538cf0
-    :END:
-**** Villes
-     :PROPERTIES:
-     :CUSTOM_ID: h-bab78eb0-fda9-4ae4-b7af-9fb8cb51b568
-     :END:
-*** Lumière
-    :PROPERTIES:
-    :CUSTOM_ID: h-7e6b98cc-6daf-49bc-9aa9-1c4ab59e71d8
-    :END:
-*** Mental
-    :PROPERTIES:
-    :CUSTOM_ID: h-f76f0258-ea82-4cea-9040-39292bf3735f
-    :END:
-*** Mesures
-    :PROPERTIES:
-    :CUSTOM_ID: h-b2fb8dff-bb0b-43f7-84d2-c7f219723f88
-    :END:
-*** Métaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-ec04697b-e9fa-4bb3-9ade-fd034845d356
-    :END:
-*** Mouvements
-    :PROPERTIES:
-    :CUSTOM_ID: h-27aea65d-1abb-47c9-861d-c0b940959073
-    :END:
-*** Nature
-    :PROPERTIES:
-    :CUSTOM_ID: h-6ee4f214-a67f-456d-9441-c0d616bdaf56
-    :END:
-*** Nombres
-    :PROPERTIES:
-    :CUSTOM_ID: h-7fb6114e-d62c-4cb7-9817-165b4c528fee
-    :END:
-**** Nombres cardinaux
-     :PROPERTIES:
-     :CUSTOM_ID: h-4b3dd494-c159-4631-ae9e-026689157c44
-     :END:
-*** Nourriture
-    :PROPERTIES:
-    :CUSTOM_ID: h-d816b050-f66e-42cc-9f11-8eaac989d45a
-    :END:
-*** Outils
-    :PROPERTIES:
-    :CUSTOM_ID: h-36f52f72-85bb-4404-a8ac-73c2ecd36a1c
-    :END:
-*** Parenté
-    :PROPERTIES:
-    :CUSTOM_ID: h-1957e1b2-e7b2-4383-82bd-d8b203f06e92
-    :END:
-**** Famille
-     :PROPERTIES:
-     :CUSTOM_ID: h-253ef368-80e8-4683-91cb-2840b2c54a2a
-     :END:
-*** Parole
-    :PROPERTIES:
-    :CUSTOM_ID: h-4fa102e2-b789-44b6-bc70-f88d47313115
-    :END:
-*** Péchés
-    :PROPERTIES:
-    :CUSTOM_ID: h-ac1973e9-38e3-401b-b4bf-f21487a137ec
-    :END:
-*** Peuples
-    :PROPERTIES:
-    :CUSTOM_ID: h-6ae5ec4f-6893-4c68-b09d-cf7564accd79
-    :END:
-*** Physique
-    :PROPERTIES:
-    :CUSTOM_ID: h-a28bb58f-a9b5-4e3b-8b55-820db0cb544b
-    :END:
-*** Possession
-    :PROPERTIES:
-    :CUSTOM_ID: h-b5ad0626-24a8-4bc3-8723-1d347ca438fd
-    :END:
-*** Religion
-    :PROPERTIES:
-    :CUSTOM_ID: h-c28598e9-4e5d-459d-990c-6f0a38efc04a
-    :END:
-*** Savoir
-    :PROPERTIES:
-    :CUSTOM_ID: h-f6fe20fe-23f9-4eec-bff7-db8e5b8f9d23
-    :END:
-*** Sensations
-    :PROPERTIES:
-    :CUSTOM_ID: h-9e5517db-bb47-408f-b0fa-1d78e14a3740
-    :END:
-*** Sexe
-    :PROPERTIES:
-    :CUSTOM_ID: h-4ce929c9-c8a7-4333-b561-ebab4493280c
-    :END:
-*** Société
-    :PROPERTIES:
-    :CUSTOM_ID: h-d7f0b33c-5469-4350-a48e-81291cec35ef
-    :END:
-**** Relations sociales
-     :PROPERTIES:
-     :CUSTOM_ID: h-9ebcb251-4318-40be-bbac-070d34977d59
-     :END:
-*** Substances
-    :PROPERTIES:
-    :CUSTOM_ID: h-10d1ee04-953e-4760-91bf-a0b1b13efc1d
-    :END:
-*** Temps
-    :PROPERTIES:
-    :CUSTOM_ID: h-659cff53-97e3-4c97-8873-3231670d5157
-    :END:
-**** Jours de la semaine
-     :PROPERTIES:
-     :CUSTOM_ID: h-d0a4d153-10c4-4525-a016-4cfc3f21198b
-     :END:
-**** Saisons
-     :PROPERTIES:
-     :CUSTOM_ID: h-5afe31f8-a8e3-4e8a-8ac1-50c81252d884
-     :END:
-*** Travail
-    :PROPERTIES:
-    :CUSTOM_ID: h-7eb32d68-1314-4297-89e5-f300a7bf37e8
-    :END:
-*** Végétaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-92c1c60e-9c98-4552-9f4d-fcb9fae77117
-    :END:
-**** Fruits
-     :PROPERTIES:
-     :CUSTOM_ID: h-18ebdd76-eff2-4ff4-a655-aa172fe697e4
-     :END:
-*** Vêtements
-    :PROPERTIES:
-    :CUSTOM_ID: h-11b18705-4f11-4490-8c6f-d16523c93596
-    :END:
-*** Vie et santé
-    :PROPERTIES:
-    :CUSTOM_ID: h-8cc792b5-aa66-48ae-8260-65e5079bc53f
-    :END:
-*** À trier
-    :PROPERTIES:
-    :CUSTOM_ID: h-2ffe56ad-58b6-43ff-acce-9b111a15a76f
-    :END:
+
+* Data not to be exported                                          :noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-045a2761-1193-4ca7-ad37-c9d200313dd5
+  :END:
 
 * Footnotes
   :PROPERTIES:
