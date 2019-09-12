@@ -396,11 +396,11 @@
    Il existe relativement peu de règles allophoniques connues en Ňyqy, cependant
    quelques unes sont à peu près certaines :
 
-   - V → [-tense] / C[+dor +high]_
-   - C[+dor +high] → [-dor +cor] / C[+dor]{V,∅}_
-   - C[+dor -high] → [-dor -cor] / C[+dor]{V,∅}_
-   - C[-dor +cor] → [+dor +high] / C[-dor]{V,∅}_
-   - C[-dor -cor] → [+dor -high] / C[-dor]{V,∅}_
+   - V / C[+dor +high]_ → [-tense]
+   - C[+dor +high] / C[+dor]{V,∅}_ > [-dor +cor]
+   - C[+dor -high] / C[+dor]{V,∅}_ > [-dor -cor]
+   - C[-dor +cor] / C[-dor]{V,∅}_ > [+dor +high]
+   - C[-dor -cor] / C[-dor]{V,∅}_ > [+dor -high]
 
    Les  deux  dernières règles  reflètent  une  règle  générale du  Nyqy :  deux
    consonnes ne peuvent se suivre si elles sont toutes deux dorsales, la seconde
@@ -938,7 +938,7 @@
   |   2    |              2               |    qi    |           {{{phon(qɪ)}}}            |
   |   3    |              3               |    në    |           {{{phon(ne)}}}            |
   |   4    |              4               |    gë    |           {{{phon(ɢe)}}}            |
-  |   5    |              5               |    co    |           {{{phon(cɔ)}}}            |
+  |   5    |              5               |    co    |           {{{phon(t͡ʃɔ)}}}           |
   |   6    |             1-0              | (mi) ňy  | {{{phon(mɪ ɴy)}}} ou {{{phon(ɴy)}}} |
   |   7    |             1-1              |  ňy mi   |          {{{phon(ɴy mi)}}}          |
   |   8    |             1-2              |  ňy qi   |          {{{phon(ňy ħɪ)}}}          |
