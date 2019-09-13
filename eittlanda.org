@@ -684,7 +684,7 @@
     relation des différentes voyelles entre elles.
 
     #+NAME: vow-dot
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
       (setq-local eittlandic-vowels
         '("vowels"
@@ -709,14 +709,17 @@
       (tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results
+    #+RESULTS[5d8b0c4772f3a9108690df7c578138d3eb4206af]: vow-dot
+    : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="vowels"];1[label="[high]"];0 -- 1;11[label="[rnd]"];1 -- 11;111[label="[front]"];11 -- 111;1111[label="/y/"];111 -- 1111;112[label="{front}"];11 -- 112;1121[label="/u/"];112 -- 1121;12[label="{rnd}"];1 -- 12;121[label="/i/"];12 -- 121;2[label="{high}"];0 -- 2;21[label="[rnd]"];2 -- 21;211[label="[tense]"];21 -- 211;2111[label="[front]"];211 -- 2111;21111[label="/ø/"];2111 -- 21111;2112[label="{front}"];211 -- 2112;21121[label="/o/"];2112 -- 21121;212[label="{tense}"];21 -- 212;2121[label="[front]"];212 -- 2121;21211[label="/œ/"];2121 -- 21211;2122[label="{front}"];212 -- 2122;21221[label="/ɔ/"];2122 -- 21221;22[label="{rnd}"];2 -- 22;221[label="[tense]"];22 -- 221;2211[label="[low]"];221 -- 2211;22111[label="/æ/"];2211 -- 22111;2212[label="{low}"];221 -- 2212;22121[label="/e/"];2212 -- 22121;222[label="{tense}"];22 -- 222;2221[label="/ɑ/"];222 -- 2221;}
+
+    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
-    #+RESULTS:
+    #+RESULTS[2c6f077ffbc915fa8a280ad51c89c4e778de0dec]:
     [[file:img/eittlanda/vowel-feature-tree.png]]
 
 *** Diphtongues
@@ -903,7 +906,7 @@
     contrastive des consonnes de l’Eittlandais.
 
     #+NAME: cons-dot
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       <<tree-dot>>
       (setq-local eittlandic-consonants
         '("consonants"
@@ -946,14 +949,17 @@
       (tree-to-dot eittlandic-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda/cons-feature-tree.png :var input=cons-dot :exports results
+    #+RESULTS[c1e5eb5b47dfd5f34797276fc1515955532b2d14]: cons-dot
+    : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="consonants"];1[label="[occ]"];0 -- 1;11[label="[cor]"];1 -- 11;111[label="[nasal]"];11 -- 111;1111[label="/n/"];111 -- 1111;112[label="{nasal}"];11 -- 112;1121[label="[voice]"];112 -- 1121;11211[label="/d/"];1121 -- 11211;1122[label="{voice}"];112 -- 1122;11221[label="/t/"];1122 -- 11221;12[label="{cor}"];1 -- 12;121[label="[nasal]"];12 -- 121;1211[label="[dor]"];121 -- 1211;12111[label="/ŋ/"];1211 -- 12111;1212[label="{dor}"];121 -- 1212;12121[label="/m/"];1212 -- 12121;122[label="{nasal}"];12 -- 122;1221[label="[dor]"];122 -- 1221;12211[label="[voice]"];1221 -- 12211;122111[label="/ɣ/"];12211 -- 122111;12212[label="{voice}"];1221 -- 12212;122121[label="[son]"];12212 -- 122121;1221211[label="/xʷ/"];122121 -- 1221211;122122[label="{son}"];12212 -- 122122;1221221[label="/k/"];122122 -- 1221221;1222[label="{dor}"];122 -- 1222;12221[label="[voice]"];1222 -- 12221;122211[label="/β/"];12221 -- 122211;12222[label="{voice}"];1222 -- 12222;122221[label="[strident]"];12222 -- 122221;1222211[label="/f/"];122221 -- 1222211;122222[label="{strident}"];12222 -- 122222;1222221[label="/p/"];122222 -- 1222221;2[label="{occ}"];0 -- 2;21[label="[cor]"];2 -- 21;211[label="[dor]"];21 -- 211;2111[label="/ç/"];211 -- 2111;212[label="{dor}"];21 -- 212;2121[label="[son]"];212 -- 2121;21211[label="[lat]"];2121 -- 21211;212111[label="/l/"];21211 -- 212111;21212[label="{lat}"];2121 -- 21212;212121[label="/r/"];21212 -- 212121;2122[label="{son}"];212 -- 2122;21221[label="[voice]"];2122 -- 21221;212211[label="/ð/"];21221 -- 212211;21222[label="{voice}"];2122 -- 21222;212221[label="/θ/"];21222 -- 212221;22[label="{cor}"];2 -- 22;221[label="[dor]"];22 -- 221;2211[label="[rnd]"];221 -- 2211;22111[label="/w/"];2211 -- 22111;2212[label="{rnd}"];221 -- 2212;22121[label="/j/"];2212 -- 22121;222[label="{dor}"];22 -- 222;2221[label="/h/"];222 -- 2221;}
+
+    #+BEGIN_SRC dot :file img/eittlanda/cons-feature-tree.png :var input=cons-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
     #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des consonnes de l’Eittlandais
-    #+RESULTS:
+    #+RESULTS[c8ade388ef8459b89ca4c74696b0bd21fba46d34]:
     [[file:img/eittlanda/cons-feature-tree.png]]
 
 *** Ton et accentuation
