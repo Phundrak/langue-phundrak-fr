@@ -421,7 +421,6 @@
 
     #+NAME: vow-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
       (setq-local nyqy-vowels
         '("[vowel]"
           ("[back]"
@@ -438,7 +437,7 @@
            ("{tense}"
             ("[high]" ("i"))
             ("{high}" ("e"))))))
-      (tree-to-dot nyqy-vowels)
+      (conlanging/tree-to-dot nyqy-vowels)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes :cache yes
@@ -457,7 +456,6 @@
     :END:
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
       (setq-local nyqy-consonants
         '("[cons]"
           ("[son]"
@@ -482,7 +480,7 @@
             ("{voice}"
              ("[cor]")
              ("{cor}"))))))
-      (tree-to-dot nyqy-consonants)
+      (conlanging/tree-to-dot nyqy-consonants)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
@@ -624,9 +622,9 @@
     |        d͡ʒ        |      ɮ       |   |   |        s         |      x       |
     |        w         |      l       |   |   |        z         |      ɣ       |
 
-   Ainsi, la  phrase {{{nyqy(ňe pom  qy)}}} ne  se prononce pas  *{{{phon(ɴɛ pɔm
-   qy)}}},  et  la phrase  {{{nyqy(qi  bú  pim mo  coq)}}}  se  ne prononce  pas
-   *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
+    Ainsi, la  phrase {{{nyqy(ňe pom qy)}}}  ne se prononce pas  *{{{phon(ɴɛ pɔm
+    qy)}}},  et la  phrase  {{{nyqy(qi bú  pim  mo coq)}}}  se  ne prononce  pas
+    *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Structure des mots
    :PROPERTIES:
@@ -762,7 +760,6 @@
 
    #+NAME: basic-syntax-tree
    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-     <<tree-dot>>
      (setq-local nyqy-syntax-tree
                  '("S"
                    ("Obl")
@@ -784,8 +781,11 @@
                        ("Tense")
                        ("V")
                        ("Neg")))))))
-     (tree-to-dot nyqy-syntax-tree)
+     (conlanging/tree-to-dot nyqy-syntax-tree)
    #+END_SRC
+
+   #+RESULTS[24286e618306da25dc9283fdc01819e3b5d77394]: basic-syntax-tree
+   : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Obl"];0 -- 1;2[label="S'"];0 -- 2;21[label="NPerg"];2 -- 21;211[label="NP"];21 -- 211;22[label="VP"];2 -- 22;221[label="NPdat"];22 -- 221;2211[label="NP"];221 -- 2211;222[label="VP'"];22 -- 222;2221[label="NPabs"];222 -- 2221;22211[label="NP"];2221 -- 22211;222111[label="S"];22211 -- 222111;222112[label="NP'"];22211 -- 222112;2221121[label="Adj"];222112 -- 2221121;2221122[label="N"];222112 -- 2221122;2222[label="V'"];222 -- 2222;22221[label="Mood"];2222 -- 22221;22222[label="Tense"];2222 -- 22222;22223[label="V"];2222 -- 22223;22224[label="Neg"];2222 -- 22224;}
 
    #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes :cache yes
      $input

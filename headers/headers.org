@@ -9,61 +9,6 @@
 #+OPTIONS: H:4 broken_links:mark email:t ^:{} tex:dvisvgm
 #+KEYWORDS: conlang idéolangue langue langues linguistique phundrak drakpa
 
-# ### CODE #####################################################################
-
-#+NAME: tree-dot
-#+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes
-  (defun declare-node (node-text node-generation)
-    "Declares a node in the graphviz source code. The node’s identifier will be
-  ~node-generation~, and it will bear the label ~node-text~."
-    (concat (number-to-string node-generation)
-            "[label=\""
-            node-text
-            "\"];"))
-
-  (defun make-link (previous-node current-node)
-    "This creates a link in the graphviz source code between the two nodes
-  bearing ~previous-node~ and ~current-node~ respectively as their node
-  identifier."
-    (concat (number-to-string previous-node) " -- "
-            (number-to-string current-node) ";"))
-
-  (defun tree-to-dot-helper (tree current-generation previous-generation)
-    "Helper to ~tree-to-dot~ that translates an Elisp tree with any number of
-  children per node to a corresponding graphviz file that can be executed from
-  dot.
-  Arguments:
-  - tree :: tree-to-convert
-  - current-generation :: Generation number, incremented when changing from a node
-       to another node from the same generation, multiplied by 10 when going from
-       a node to one of its children.
-  - previous-generation :: generation number from previous named node"
-    (cond
-     ((null tree) "")
-     ((atom (car tree)) ;; '("text" () () ())
-      (concat (declare-node (car tree) current-generation)
-              (make-link previous-generation current-generation)
-              (tree-to-dot-helper (cdr tree)
-                                  (+ 1 (* 10 current-generation))
-                                  current-generation)))
-     ((listp (car tree)) ;; '(() () ())
-      (concat (tree-to-dot-helper (car tree) ;; child of current node
-                                  current-generation
-                                  previous-generation)
-              (tree-to-dot-helper (cdr tree)
-                                  (+ 1 current-generation)
-                                  previous-generation)))))
-
-  (defun tree-to-dot (tree)
-    "Returns a graphviz’s dot compatible string representing an Elisp tree"
-    (if (null tree) ""
-      (concat
-       "graph{node[shape=plaintext];graph[bgcolor=\"transparent\"];"
-       (declare-node (car tree) 0)
-       (tree-to-dot-helper (cdr tree) 1 0)
-       "}")))
-#+END_SRC
-
 # ### LaTeX ####################################################################
 
 #+LATEX_CLASS: conlang

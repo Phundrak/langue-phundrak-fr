@@ -169,7 +169,6 @@
 
     #+NAME: vowel-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
       (setq-local taso-vowels
         '("vowel"
           ("[high]"
@@ -198,7 +197,7 @@
             ("{frnt}"
              ("[tense]" ("ɤ"))
              ("{tense}" ("a")))))))
-      (tree-to-dot taso-vowels)
+      (conlanging/tree-to-dot taso-vowels)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/taso/vowel-feature-tree.png :var input=vowel-tree :exports results :eval yes :cache yes
@@ -226,7 +225,6 @@
     :END:
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
       (setq-local taso-consonants
         '("consonant"
           ("[son]"
@@ -277,7 +275,7 @@
              ("{cont}"
               ("[voice]" ("b"))
               ("{voice}" ("p"))))))))
-      (tree-to-dot taso-consonants)
+      (conlanging/tree-to-dot taso-consonants)
     #+END_SRC
 
     #+BEGIN_SRC dot :file img/taso/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes

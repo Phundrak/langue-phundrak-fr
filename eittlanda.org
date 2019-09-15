@@ -685,7 +685,6 @@
 
     #+NAME: vow-dot
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
       (setq-local eittlandic-vowels
         '("vowels"
           ("[high]"
@@ -706,10 +705,10 @@
              ("[low]" ("/æ/"))
              ("{low}" ("/e/")))
             ("{tense}" ("/ɑ/"))))))
-      (tree-to-dot eittlandic-vowels)
+      (conlanging/tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+RESULTS[5d8b0c4772f3a9108690df7c578138d3eb4206af]: vow-dot
+    #+RESULTS[b7b678da629a411fee0918a5634d09a825f51e14]: vow-dot
     : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="vowels"];1[label="[high]"];0 -- 1;11[label="[rnd]"];1 -- 11;111[label="[front]"];11 -- 111;1111[label="/y/"];111 -- 1111;112[label="{front}"];11 -- 112;1121[label="/u/"];112 -- 1121;12[label="{rnd}"];1 -- 12;121[label="/i/"];12 -- 121;2[label="{high}"];0 -- 2;21[label="[rnd]"];2 -- 21;211[label="[tense]"];21 -- 211;2111[label="[front]"];211 -- 2111;21111[label="/ø/"];2111 -- 21111;2112[label="{front}"];211 -- 2112;21121[label="/o/"];2112 -- 21121;212[label="{tense}"];21 -- 212;2121[label="[front]"];212 -- 2121;21211[label="/œ/"];2121 -- 21211;2122[label="{front}"];212 -- 2122;21221[label="/ɔ/"];2122 -- 21221;22[label="{rnd}"];2 -- 22;221[label="[tense]"];22 -- 221;2211[label="[low]"];221 -- 2211;22111[label="/æ/"];2211 -- 22111;2212[label="{low}"];221 -- 2212;22121[label="/e/"];2212 -- 22121;222[label="{tense}"];22 -- 222;2221[label="/ɑ/"];222 -- 2221;}
 
     #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
@@ -907,7 +906,6 @@
 
     #+NAME: cons-dot
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-      <<tree-dot>>
       (setq-local eittlandic-consonants
         '("consonants"
           ("[occ]"
@@ -946,7 +944,7 @@
              ("[rnd]" ("/w/"))
              ("{rnd}" ("/j/")))
             ("{dor}" ("/h/"))))))
-      (tree-to-dot eittlandic-consonants)
+      (conlanging/tree-to-dot eittlandic-consonants)
     #+END_SRC
 
     #+RESULTS[c1e5eb5b47dfd5f34797276fc1515955532b2d14]: cons-dot
