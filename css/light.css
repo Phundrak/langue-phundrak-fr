@@ -15,7 +15,9 @@
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-html {
+html,
+#content,
+#postamble {
     background-color: #eee;
 }
 
@@ -35,11 +37,11 @@ table {
     border: 2px solid #444;
 }
 
-thead tr {
+thead tr,
+.tooltiptext {
     background-color: #ddd;
 }
 
-#content,
-#postamble {
-    background-color: #eee;
+.tooltiptext::after {
+    border-color: #ddd transparent transparent transparent;
 }

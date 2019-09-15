@@ -1,10 +1,12 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Une Grammaire du Ňyqy
 #+include: headers/head-lvl0.org
-#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
-#+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
-#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ňyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="./css/nyqy.css"/>
 #+OPTIONS: auto-id:t
+#+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
 
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup
@@ -119,15 +121,15 @@
    avec  ses irrégularités  qui  lui  sont propres,  ou  bien  créer une  langue
    prototype de laquelle de nouvelles langues seront créées.
 
-   Le Ňyqy n’a pas aspiration à être  une langue ayant un aspect naturel. Il n’a
-   pas non plus aspiration à être une langue particulièrement complète ou riche,
-   il n’a  pas aspiration  à être  parlé par des  êtres formidables  d’une série
-   télévisée.  Le  Ňyqy  n’a  qu’une   aspiration :  être  une  de  ces  langues
-   prototypes,  ou proto-lang,  créée  /a priori/,  et  sur laquelle  reposeront
-   d’autres langues  ayant évoluées  des bases que  posera cette  langue source.
-   Quelques règles seront insérées afin  de donner un semblant d’irrégularité ou
-   de naturalisme au Ňyqy, mais ces  règles resteront simples, à l’instar de ses
-   autres règles grammaticales.
+   Le {{{nyqy(Ňyqy)}}}  n’a pas  aspiration à  être une  langue ayant  un aspect
+   naturel. Il  n’a pas non plus  aspiration à être une  langue particulièrement
+   complète  ou  riche,  il n’a  pas  aspiration  à  être  parlé par  des  êtres
+   formidables   d’une  série   télévisée.   Le   {{{nyqy(Ňyqy)}}}  n’a   qu’une
+   aspiration :  être une  de ces  langues prototypes,  ou proto-lang,  créée /a
+   priori/, et sur laquelle reposeront d’autres langues ayant évoluées des bases
+   que  posera cette  langue source.  Quelques  règles seront  insérées afin  de
+   donner un semblant d’irrégularité ou de  naturalisme au Ňyqy, mais ces règles
+   resteront simples, à l’instar de ses autres règles grammaticales.
 
 ** Introduction sur le Ňyqy
    :PROPERTIES:
@@ -155,24 +157,25 @@
 
    Nous avons aujourd’hui un point où il  nous est possible d’oser imaginer ce à
    quoi pouvait ressembler les formes les plus anciennes de civilisation grâce à
-   l’une des plus anciennes langues qui  nous soit connues, le Ňyqy, langue mère
-   de plus de la  moitié des langues du monde, parlée il y  a entre huit et onze
-   mille ans dans  l’un des berceaux de notre  civilisation. Plusieurs illustres
-   collègues ont  déjà travaillé sur cette  langue et sur sa  reconstruction, et
-   ont fait des  progrès fabuleux sur cette langue légendaire.  J’ai moi-même pu
-   assister certains  de ces  collègues dans  leurs recherche.  Cependant, cette
-   implication m’a amené à une réalisation cruciale : jusqu’à présent, quelqu’un
-   intéressé  par le  Ňyqy  ne  pouvait facilement  accéder  à  un condensé  des
-   résultats  des  recherches  existantes,  présents en  un  unique  ouvrage  se
-   présentant comme une grammaire technique  de la langue. Ainsi, j’ai entrepris
-   de la rédiger  dans cet ouvrage dans  l’espoir que cela facilite  la tâche de
-   mes collègues et futurs collègues dans leurs études de cette merveille qu’est
-   le résultat de cette collaboration linguistique internationale s’étant étalée
-   sur plusieurs siècles, aidés par les  écrits survivants de la précédente Ère.
-   Je suis pleinement conscient que ce  document risque d’un jour être obsolète,
-   et ce jour-là, une nouvelle  version deviendra nécessaire. Je prie simplement
-   pour que mes efforts puissent être à  la hauteur des efforts déployés par mes
-   collègues afin de découvrir tout ce savoir. /né_{4}Hje_{2}lpel./
+   l’une des plus anciennes langues  qui nous soit connues, le {{{nyqy(Ňyqy)}}},
+   langue mère de  plus de la moitié des  langues du monde, parlée il  y a entre
+   huit  et  onze mille  ans  dans  l’un  des  berceaux de  notre  civilisation.
+   Plusieurs illustres collègues  ont déjà travaillé sur cette langue  et sur sa
+   reconstruction, et ont fait des progrès fabuleux sur cette langue légendaire.
+   J’ai moi-même  pu assister  certains de ces  collègues dans  leurs recherche.
+   Cependant, cette implication  m’a amené à une  réalisation cruciale : jusqu’à
+   présent, quelqu’un intéressé  par le Ňyqy ne pouvait facilement  accéder à un
+   condensé  des résultats  des  recherches existantes,  présents  en un  unique
+   ouvrage se présentant comme une grammaire technique de la langue. Ainsi, j’ai
+   entrepris de la  rédiger dans cet ouvrage dans l’espoir  que cela facilite la
+   tâche  de mes  collègues  et  futurs collègues  dans  leurs  études de  cette
+   merveille   qu’est   le   résultat  de   cette   collaboration   linguistique
+   internationale s’étant  étalée sur  plusieurs siècles,  aidés par  les écrits
+   survivants de la précédente Ère. Je suis pleinement conscient que ce document
+   risque d’un jour être obsolète, et ce jour-là, une nouvelle version deviendra
+   nécessaire.  Je prie  simplement  pour que  mes efforts  puissent  être à  la
+   hauteur des  efforts déployés  par mes  collègues afin  de découvrir  tout ce
+   savoir. /né_{4}Hje_{2}lpel./
 
 ** Conventions typographiques
    :PROPERTIES:
@@ -206,14 +209,15 @@
 
    Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
    probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
-   également que le  terme ait été utilisé  par le peuple Ňyqy  pour se désigner
-   lui-même, mais nous disposons de trop  peu de preuve afin de pouvoir affirmer
-   cela avec certitude.  Le terme s’analyse en deux morphèmes  basiques, /ňy/ et
-   /qy/. Le terme /ňy/ est le pronom  personel du singulier, et /qy/ qui le suit
-   a plusieurs  utilisations, le  chiffre /6/  (le Ňyqy est  une langue  dont le
+   également que le terme ait été utilisé par le peuple {{{nyqy(Ňyqy)}}} pour se
+   désigner lui-même, mais nous disposons de  trop peu de preuve afin de pouvoir
+   affirmer cela avec certitude. Le  terme s’analyse en deux morphèmes basiques,
+   {{{nyqy(ňy)}}}  et  {{{nyqy(qy)}}}. Le  terme  {{{nyqy(ňy)}}}  est le  pronom
+   personel  du   singulier,  et   {{{nyqy(qy)}}}  qui   le  suit   a  plusieurs
+   utilisations,  le chiffre  /6/ (le  {{{nyqy(Ňyqy)}}} est  une langue  dont le
    système  numérique est  un système  hybride entre  une base  six et  une base
-   treize) ou  bien la pluralité,  ici infléchissant le  /ňy/ afin de  former la
-   première personne du pluriel.
+   treize) ou  bien la  pluralité, ici infléchissant  le {{{nyqy(ňy)}}}  afin de
+   former la première personne du pluriel.
 
    Il est à noter que le nom  de cette langue est traditionellement écrite en un
    seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
@@ -291,8 +295,9 @@
 
    Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
    que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
-   communales /súmuszq/ ; cela inclus tous  les membres de la famille descendant
-   de l’ancêtre commun le plus âgé, ainsi que leurs époux ou épouses respectifs.
+   communales {{{nyqy(súmusq)}}} ;  cela inclus tous  les membres de  la famille
+   descendant de l’ancêtre commun le plus  âgé, ainsi que leurs époux ou épouses
+   respectifs.
 
    Sur  ce  dernier  point,  il  semblerait qu’il  n’y  avait  pas  de  tendance
    particulière quant  à qui  rejoignais la  famille de  qui parmi  les familles
@@ -329,19 +334,19 @@
    de morphèmes liés  monosyllabiques que l’on peut interpréter  comme étant des
    particules  grammaticales.  Voici  un  exemple  de phrase  en  Ňyqy  avec  sa
    traduction et son détail grammatical :
-   1. ňe pom qy
+   1. {{{nyqy(ňe pom qy)}}}
 
       maison GEN 1sg
 
       C’est ma maison
 
-   2. bú qi pim mo coq
+   2. {{{nyqy(bú qi pim mo coq)}}}
 
       2sg deux pomme PST manger
 
       Nous avons mangé une pomme
 
-   3. qy qun gó
+   3. {{{nyqy(qy qun gó)}}}
 
       1sg OPT boire
 
@@ -357,15 +362,15 @@
 
    L’exemple n°2  nous montre  la méthode  utilisée en  Ňyqy afin  d’employer le
    duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
-   infléchir. Ainsi, « bú  qi » peut être considéré comme le  pronom personel de
-   la seconde personne du singulier infléchis afin de devenir le pronom personel
-   de la seconde personne du duel.
+   infléchir.  Ainsi, {{{nyqy(bú  qi)}}}  peut être  considéré  comme le  pronom
+   personel de  la seconde personne  du singulier  infléchis afin de  devenir le
+   pronom personel de la seconde personne du duel.
 
    Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
    d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
    intransitive.  On peut  également  remarquer la  présence  d’un morphème  lié
-   « qun » dont le  rôle est de marquer  un mode pour le  verbe, en l’occurrence
-   l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
+   {{{nyqy(qun)}}}  dont le  rôle  est de  marquer  un mode  pour  le verbe,  en
+   l’occurrence   l’optatif.   Comme   nous   le  verrons   dans   le   chapitre
    [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
    d’inflexion des verbes du Ňyqy.
 
@@ -555,7 +560,7 @@
 
     Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjacentes
     sans suivre les règles indiquées ci-dessous, alors un schwa est inséré entre
-    ces deux consonnes.  Exemple : <cójm> est prononcé  {{{phon(t͡ʃɤɮəʀ)}}} si la
+    ces deux consonnes.  Exemple : /cójm/ est prononcé  {{{phon(t͡ʃɤɮəʀ)}}} si la
     première   consonne   n’est  pas   mutée,   sinon   le  mot   est   prononcé
     {{{phon(ɬɤd͡ʒm)}}}.
 
@@ -608,19 +613,20 @@
 
     #+NAME: table:mutation:consonants
     #+CAPTION: Table de mutation des consonnes du Ňyqy
-    |       <c>        |     <c>      |   |       <c>        |     <c>      |
-    | [+dor] originale | [-dor] mutée |   | [-dor] originale | [+dor] mutée |
-    |------------------+--------------+---+------------------+--------------|
-    |        q         |      ħ       |   |        p         |      χ       |
-    |        ɢ         |      ʕ       |   |        b         |      ʁ       |
-    |        ɴ         |      m       |   |        m         |      ʀ       |
-    |        t͡ʃ        |      ɬ       |   |        n         |      j       |
-    |        d͡ʒ        |      ɮ       |   |        s         |      x       |
-    |        w         |      l       |   |        z         |      ɣ       |
+    |        /         |              |   | < |                  |              |
+    |       <c>        |     <c>      |   |   |       <c>        |     <c>      |
+    | [+dor] originale | [-dor] mutée |   |   | [-dor] originale | [+dor] mutée |
+    |------------------+--------------+---+---+------------------+--------------|
+    |        q         |      ħ       |   |   |        p         |      χ       |
+    |        ɢ         |      ʕ       |   |   |        b         |      ʁ       |
+    |        ɴ         |      m       |   |   |        m         |      ʀ       |
+    |        t͡ʃ        |      ɬ       |   |   |        n         |      j       |
+    |        d͡ʒ        |      ɮ       |   |   |        s         |      x       |
+    |        w         |      l       |   |   |        z         |      ɣ       |
 
-   Ainsi, la  phrase <ňe pom  qy> se prononce {{{phon(ɴɛ  pɔɴ ħy)}}} au  lieu de
-   *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bú pim  mo  coq> se  prononcera
-   {{{phon(qɪ bʊ χɪm ʀɔ ɬɔq)}}} au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
+   Ainsi, la  phrase {{{nyqy(ňe pom  qy)}}} ne  se prononce pas  *{{{phon(ɴɛ pɔm
+   qy)}}},  et  la phrase  {{{nyqy(qi  bú  pim mo  coq)}}}  se  ne prononce  pas
+   *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Structure des mots
    :PROPERTIES:
@@ -798,7 +804,6 @@
    nominale absolutive, suivie par le verbe,  lui-même composé par son mode, son
    temps, le verbe lui-même et sa négation.
 
-
 *** Clauses principales
     :PROPERTIES:
     :CUSTOM_ID: h-76ccdf86-f9b5-4cee-82cf-52254848a449
@@ -948,13 +953,13 @@
    absolutif restera en  permanence en contact direct avec le  verbe, tandis que
    l’élément  ergatif  les précédera,  et  pourra  même  être séparé  du  couple
    absolutif-verbe par des éléments datifs. Exemple :
-   - qy-0 qój
+   - {{{nyqy(qy-0 qój)}}}
 
      1sg-ABS dormir
 
      Je dors
 
-   - qy-0 pim-0 coq
+   - {{{nyqy(qy-0 pim-0 coq)}}}
 
      1sg-ERG pomme-ABS manger
 
@@ -964,7 +969,7 @@
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
-   - qy-0 pim-0 coq. nócpi qój.
+   - {{{nyqy(qy-0 pim-0 coq. nócpi qój.)}}}
 
      1sg-ERG pomme-ABS manger. ensuite dormir.
 
@@ -1221,38 +1226,38 @@
    Les locuteurs du Ňyqy comptaient dans un mélange de base 6 pour les unités et
    de base 13 pour le reste.
 
-   |  <c5>  |             <c5>             |   <c5>   |                <c5>                 |
-   |   /    |              <>              |    <>    |                 <>                  |
-   | nombre | nombre (représentation ňyqy) |   ňyqy   |             phonétique              |
-   |--------+------------------------------+----------+-------------------------------------|
-   |   0    |              0               |    pe    |           {{{phon(pɛ)}}}            |
-   |   1    |              1               |    mi    |           {{{phon(mɪ)}}}            |
-   |   2    |              2               |    qi    |           {{{phon(qɪ)}}}            |
-   |   3    |              3               |    né    |           {{{phon(ne)}}}            |
-   |   4    |              4               |    gé    |           {{{phon(ɢe)}}}            |
-   |   5    |              5               |    co    |           {{{phon(t͡ʃɔ)}}}           |
-   |   6    |             1-0              | (mi) ňy  | {{{phon(mɪ ɴy)}}} ou {{{phon(ɴy)}}} |
-   |   7    |             1-1              |  ňy mi   |          {{{phon(ɴy mi)}}}          |
-   |   8    |             1-2              |  ňy qi   |          {{{phon(ňy ħɪ)}}}          |
-   |   9    |             1-3              |  ňy né   |          {{{phon(ɴy ne)}}}          |
-   |   10   |             1-4              |  ňy gé   |          {{{phon(ɴy ʕe)}}}          |
-   |   11   |             1-5              |  ňy co   |          {{{phon(ɴy ɬɔ)}}}          |
-   |   12   |             2-0              |  qi ňy   |          {{{phon(qɪ my)}}}          |
-   |   18   |             3-0              |  né ňy   |          {{{phon(ne ɴy)}}}          |
-   |   24   |             4-0              |  gé ňy   |          {{{phon(ɢe my)}}}          |
-   |   30   |             5-0              |  co ňy   |         {{{phon(t͡ʃɔ my)}}}          |
-   |   36   |             6-0              | pe ňy ňy |        {{{phon(pɛ ɴy my)}}}         |
-   |   42   |             7-0              | mi ňy ňy |        {{{phon(mɪ ɴy my)}}}         |
-   |   48   |             8-0              | qi ňy ňy |        {{{phon(qɪ my ɴy)}}}         |
-   |   54   |             9-0              | né ňy ňy |        {{{phon(ne ɴy my)}}}         |
-   |   60   |             a-0              | gé ňy ňy |        {{{phon(ɢe my ɴy)}}}         |
-   |   66   |             b-0              | co ňy ňy |        {{{phon(t͡ʃɔ my ɴy)}}}        |
-   |   72   |            1-0-0             | (mi) mó  | {{{phon(mɪ ʀɤ)}}} ou {{{phon(mɤ)}}} |
-   |  216   |            6-0-0             | pe mó mó |        {{{phon(pɛ ʀɤ mɤ)}}}         |
-   |  864   |           1-0-0-0            | (mi) si  | {{{phon(mɪ xɪ)}}} ou {{{phon(sɪ)}}} |
-   |  1296  |          1-0-0-0-0           |   gec    |           {{{phon(ɢɛɬ)}}}           |
-   |  7776  |         1-0-0-0-0-0          |   cójm   |         {{{phon(t͡ʃɤɮəʀ)}}}          |
-   | 46656  |        1-0-0-0-0-0-0         |   ňuň    |           {{{phon(ɴʊm)}}}           |
+   |  <c5>  |             <c5>             |                <c5>                 |
+   |   /    |              <>              |                 <>                  |
+   | nombre | nombre (représentation ňyqy) |                ňyqy                 |
+   |--------+------------------------------+-------------------------------------|
+   |   0    |              0               |           {{{nyqy(pe)}}}            |
+   |   1    |              1               |           {{{nyqy(mi)}}}            |
+   |   2    |              2               |           {{{nyqy(qi)}}}            |
+   |   3    |              3               |           {{{nyqy(né)}}}            |
+   |   4    |              4               |           {{{nyqy(gé)}}}            |
+   |   5    |              5               |           {{{nyqy(co)}}}            |
+   |   6    |             1-0              | {{{nyqy(mi ňy)}}} ou {{{nyqy(ňy)}}} |
+   |   7    |             1-1              |          {{{nyqy(ňy mi)}}}          |
+   |   8    |             1-2              |          {{{nyqy(ňy qi)}}}          |
+   |   9    |             1-3              |          {{{nyqy(ňy né)}}}          |
+   |   10   |             1-4              |          {{{nyqy(ňy gé)}}}          |
+   |   11   |             1-5              |          {{{nyqy(ňy co)}}}          |
+   |   12   |             2-0              |          {{{nyqy(qi ňy)}}}          |
+   |   18   |             3-0              |          {{{nyqy(né ňy)}}}          |
+   |   24   |             4-0              |          {{{nyqy(gé ňy)}}}          |
+   |   30   |             5-0              |          {{{nyqy(co ňy)}}}          |
+   |   36   |             6-0              |        {{{nyqy(pe ňy ňy)}}}         |
+   |   42   |             7-0              |        {{{nyqy(mi ňy ňy)}}}         |
+   |   48   |             8-0              |        {{{nyqy(qi ňy ňy)}}}         |
+   |   54   |             9-0              |        {{{nyqy(né ňy ňy)}}}         |
+   |   60   |             a-0              |        {{{nyqy(gé ňy ňy)}}}         |
+   |   66   |             b-0              |        {{{nyqy(co ňy ňy)}}}         |
+   |   72   |            1-0-0             | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
+   |  216   |            6-0-0             |        {{{nyqy(pe mó mó)}}}         |
+   |  864   |           1-0-0-0            | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
+   |  1296  |          1-0-0-0-0           |           {{{nyqy(gec)}}}           |
+   |  7776  |         1-0-0-0-0-0          |          {{{nyqy(cójm)}}}           |
+   | 46656  |        1-0-0-0-0-0-0         |           {{{nyqy(ňuň)}}}           |
 
    Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
    grandeur est répété  afin d’ajouter cinq au  multiplicateur, permettant ainsi
@@ -1264,11 +1269,12 @@
    par  rapport aux  unités.  Par exemple  le  nombre <gé  si co  mó  mó ňy  qi>
    ({{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
 
-   |   <c>   |   <c>    |   <c>   |   <c>   |
-   |  gé si  | co mó mó |   ňy    |   qi    |
-   | 4×6^{3} | 5×6^{2}  | 1×6^{1} | 2×6^{0} |
-   |  4×216  |   5*36   |   1×6   |   2×1   |
-   |   864   |   180    |    6    |    2    |
+   |        <c>        |         <c>          |      <c>       |      <c>       |
+   | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ňy)}}} | {{{nyqy(qi)}}} |
+   |      4×6^{3}      |       5×6^{2}        |    1×6^{1}     |    2×6^{0}     |
+   |       4×216       |         5*36         |      1×6       |      2×1       |
+   |        864        |         180          |       6        |       2        |
+
    Ce qui donne donc 1052.
 
 ** Références
