@@ -12,8 +12,8 @@
   --CATEGORIES--
   A=qgcjňmnszpbw
   B=qgcjňmnszpb
-  V=öëoe
-  W=üuyi
+  V=óéoe
+  W=úuyi
   C=jczs
   P=mbpgq
   --REWRITE--
@@ -291,7 +291,7 @@
 
    Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
    que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
-   communales /sümuszq/ ; cela inclus tous  les membres de la famille descendant
+   communales /súmuszq/ ; cela inclus tous  les membres de la famille descendant
    de l’ancêtre commun le plus âgé, ainsi que leurs époux ou épouses respectifs.
 
    Sur  ce  dernier  point,  il  semblerait qu’il  n’y  avait  pas  de  tendance
@@ -335,13 +335,13 @@
 
       C’est ma maison
 
-   2. bü qi pim mo coq
+   2. bú qi pim mo coq
 
       2sg deux pomme PST manger
 
       Nous avons mangé une pomme
 
-   3. qy qun gö
+   3. qy qun gó
 
       1sg OPT boire
 
@@ -357,7 +357,7 @@
 
    L’exemple n°2  nous montre  la méthode  utilisée en  Ňyqy afin  d’employer le
    duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
-   infléchir. Ainsi, « bü  qi » peut être considéré comme le  pronom personel de
+   infléchir. Ainsi, « bú  qi » peut être considéré comme le  pronom personel de
    la seconde personne du singulier infléchis afin de devenir le pronom personel
    de la seconde personne du duel.
 
@@ -409,9 +409,9 @@
     |           / |      <      |      <       |
     |             | antérieures | postérieures |
     |-------------+-------------+--------------|
-    |     fermées |      y      |      ü       |
+    |     fermées |      y      |      ú       |
     | pré-fermées |      i      |      u       |
-    |  mi-fermées |      ë      |      ö       |
+    |  mi-fermées |      é      |      ó       |
     | mi-ouvertes |      e      |      o       |
 
     #+NAME: vow-tree
@@ -421,15 +421,15 @@
         '("[vowel]"
           ("[back]"
            ("[tense]"
-            ("[high]" ("ü"))
-            ("{high}" ("ö")))
+            ("[high]" ("ú"))
+            ("{high}" ("ó")))
            ("{tense}"
             ("[high]" ("u"))
             ("{high}" ("o"))))
           ("{back}"
            ("[tense]"
             ("[high]" ("y"))
-            ("{high}" ("ë")))
+            ("{high}" ("é")))
            ("{tense}"
             ("[high]" ("i"))
             ("{high}" ("e"))))))
@@ -443,7 +443,7 @@
     #+ATTR_HTML: :alt Arbre des voyelles du Ňyqy :align center
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des voyelles du Ňyqy
-    #+RESULTS[e7793b3f2e4cc7a156cf3add3562ff2132b7a7f7]:
+    #+RESULTS[e1f2ca12b3da614823629b888c369ed0ddf3e4a5]:
     [[file:img/nyqy/vowel-feature-tree.png]]
 
 *** Consonnes
@@ -555,53 +555,37 @@
 
     Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjacentes
     sans suivre les règles indiquées ci-dessous, alors un schwa est inséré entre
-    ces deux consonnes.  Exemple : <cöjm> est prononcé  {{{phon(t͡ʃɤɮəʀ)}}} si la
+    ces deux consonnes.  Exemple : <cójm> est prononcé  {{{phon(t͡ʃɤɮəʀ)}}} si la
     première   consonne   n’est  pas   mutée,   sinon   le  mot   est   prononcé
     {{{phon(ɬɤd͡ʒm)}}}.
 
-**** Attaque
-     :PROPERTIES:
-     :CUSTOM_ID: h-7773e3ad-be7c-4f86-a799-17f515082504
-     :END:
-     L’attaque peut être composée de  n’importe quelle consonne, tout comme elle
-     ne peut en comporter aucune.
+    L’attaque peut être  composée de n’importe quelle consonne,  tout comme elle
+    ne peut en comporter aucune.
 
-**** Noyau
-     :PROPERTIES:
-     :CUSTOM_ID: h-54a96fd6-86ab-4be5-984d-436defb14cf0
-     :END:
-     Le  noyau de  la syllabe  peut être  composé de  n’importe quelle  voyelle,
-     exceptée  une voyelle  haute  si  la consonne  précédente  est une  dorsale
-     sonorante haute.
+    Le  noyau de  la  syllabe peut  être composé  de  n’importe quelle  voyelle,
+    exceptée  une  voyelle haute  si  la  consonne  précédente est  une  dorsale
+    sonorante haute.
 
-**** Coda
-     :PROPERTIES:
-     :CUSTOM_ID: h-78514e2b-d422-4253-bec1-48056aaac2aa
-     :END:
-     Les règles du coda sont également simples :
-     - Les consonnes coronales ou hautes non sonorantes peuvent être suivies par
-       des consonnes non coronales ou non hautes.
-     - Les consonnes sonorantes,  dorsales et hautes ne  peuvent s’associer avec
-       d’autres consonnes dans le coda.
+    Les règles du coda sont également simples :
+    - Les consonnes coronales ou hautes  non sonorantes peuvent être suivies par
+      des consonnes non coronales ou non hautes.
+    - Les consonnes  sonorantes, dorsales et  hautes ne peuvent  s’associer avec
+      d’autres consonnes dans le coda.
 
-**** Inter-syllabe
-     :PROPERTIES:
-     :CUSTOM_ID: h-27934bfb-0050-4c8e-b89d-e9977fe318cc
-     :END:
-     Quelques règles se  rajoutent aux règles précédentes pour  les consonnes se
-     trouvent entre deux syllabes différentes :
-     - Les  consonnes sonorantes  et non-dorsales  peuvent précéder  toute autre
-       consonne à  la condition que ces  premières fassent partie du  coda de la
-       première syllabe.
-     - Si deux consonnes  coronales non-dorsales se suivent,  la seconde prendra
-       le  voisement de  la  première. Si  après cela,  la  seconde consonne  se
-       retrouve identique à la première, alors la seconde devient silencieuse et
-       la première devient géminée.
-     - Dans  les autres  cas,  si une  règle  du coda  est  applicable entre  la
-       dernière consonne  de la première syllabe  et la première consonne  de la
-       seconde syllabe, la prononciation est conservée.
-     - Si les règles précédentes ne s’appliquent pas, il est supposé qu’un schwa
-       est ajouté afin de pouvoir rendre la syllabe prononçable.
+    Quelques règles  se rajoutent aux  règles précédentes pour les  consonnes se
+    trouvent entre deux syllabes différentes :
+    - Les  consonnes sonorantes  et  non-dorsales peuvent  précéder toute  autre
+      consonne à  la condition que  ces premières fassent  partie du coda  de la
+      première syllabe.
+    - Si deux consonnes coronales non-dorsales se suivent, la seconde prendra le
+      voisement de la  première. Si après cela, la seconde  consonne se retrouve
+      identique  à la  première,  alors  la seconde  devient  silencieuse et  la
+      première devient géminée.
+    - Dans les autres cas, si une règle du coda est applicable entre la dernière
+      consonne de  la première  syllabe et  la première  consonne de  la seconde
+      syllabe, la prononciation est conservée.
+    - Si les règles précédentes ne s’appliquent  pas, il est supposé qu’un schwa
+      est ajouté afin de pouvoir rendre la syllabe prononçable.
 
 *** Allophonie
     :PROPERTIES:
@@ -610,24 +594,21 @@
     Il  existe  relativement  peu  de  règles  allophoniques  connues  en  Ňyqy,
     cependant quelques unes sont à peu près certaines :
 
-    - V / C[+dor +high]_ > [-tense]
-    - C[+dor +high] / C[+dor]{V,∅}_ > [-dor +cor]
-    - C[+dor -high] / C[+dor]{V,∅}_ > [-dor -cor]
-    - C[-dor +cor] / C[-dor]{V,∅}_ > [+dor +high]
-    - C[-dor -cor] / C[-dor]{V,∅}_ > [+dor -high]
+    - C[+dor] / C[+dor]_ > [-dor]
+    - C[-dor] / C[-dor]_ > [+dor]
 
     Les  deux dernières  règles  reflètent  une règle  générale  du Nyqy :  deux
     consonnes  ne peuvent  se  suivre si  elles sont  toutes  deux dorsales,  la
     seconde devant alors changer sa qualité afin  de se soumettre à la règle. Sa
-    qualité  haute ou  coronale se  reflètent  également lors  du changement  de
-    qualité   dorsale   de   la   consonne.    Vous   pouvez   voir   la   table
+    qualité haute ou coronale se reflète également lors du changement de qualité
+    dorsale de la  consonne, la qualité /haute/ ou  /coronale/ étant considérées
+    comme    équivalentes    en    Ňyqy.    Vous   pouvez    voir    la    table
     [[table:mutation:consonants]] qui récapitule les  mutation des consonnes du Ňyqy
     dû à cette règle.
 
     #+NAME: table:mutation:consonants
     #+CAPTION: Table de mutation des consonnes du Ňyqy
     |       <c>        |     <c>      |   |       <c>        |     <c>      |
-    |        /         |      <>      |   |        <>        |              |
     | [+dor] originale | [-dor] mutée |   | [-dor] originale | [+dor] mutée |
     |------------------+--------------+---+------------------+--------------|
     |        q         |      ħ       |   |        p         |      χ       |
@@ -638,7 +619,7 @@
     |        w         |      l       |   |        z         |      ɣ       |
 
    Ainsi, la  phrase <ňe pom  qy> se prononce {{{phon(ɴɛ  pɔɴ ħy)}}} au  lieu de
-   *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bü pim  mo  coq> se  prononcera
+   *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bú pim  mo  coq> se  prononcera
    {{{phon(qɪ bʊ χɪm ʀɔ ɬɔq)}}} au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Structure des mots
@@ -967,7 +948,7 @@
    absolutif restera en  permanence en contact direct avec le  verbe, tandis que
    l’élément  ergatif  les précédera,  et  pourra  même  être séparé  du  couple
    absolutif-verbe par des éléments datifs. Exemple :
-   - qy-0 qöj
+   - qy-0 qój
 
      1sg-ABS dormir
 
@@ -983,7 +964,7 @@
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
-   - qy-0 pim-0 coq. nöcpi qöj.
+   - qy-0 pim-0 coq. nócpi qój.
 
      1sg-ERG pomme-ABS manger. ensuite dormir.
 
@@ -1247,30 +1228,30 @@
    |   0    |              0               |    pe    |           {{{phon(pɛ)}}}            |
    |   1    |              1               |    mi    |           {{{phon(mɪ)}}}            |
    |   2    |              2               |    qi    |           {{{phon(qɪ)}}}            |
-   |   3    |              3               |    në    |           {{{phon(ne)}}}            |
-   |   4    |              4               |    gë    |           {{{phon(ɢe)}}}            |
+   |   3    |              3               |    né    |           {{{phon(ne)}}}            |
+   |   4    |              4               |    gé    |           {{{phon(ɢe)}}}            |
    |   5    |              5               |    co    |           {{{phon(t͡ʃɔ)}}}           |
    |   6    |             1-0              | (mi) ňy  | {{{phon(mɪ ɴy)}}} ou {{{phon(ɴy)}}} |
    |   7    |             1-1              |  ňy mi   |          {{{phon(ɴy mi)}}}          |
    |   8    |             1-2              |  ňy qi   |          {{{phon(ňy ħɪ)}}}          |
-   |   9    |             1-3              |  ňy në   |          {{{phon(ɴy ne)}}}          |
-   |   10   |             1-4              |  ňy gë   |          {{{phon(ɴy ʕe)}}}          |
+   |   9    |             1-3              |  ňy né   |          {{{phon(ɴy ne)}}}          |
+   |   10   |             1-4              |  ňy gé   |          {{{phon(ɴy ʕe)}}}          |
    |   11   |             1-5              |  ňy co   |          {{{phon(ɴy ɬɔ)}}}          |
    |   12   |             2-0              |  qi ňy   |          {{{phon(qɪ my)}}}          |
-   |   18   |             3-0              |  në ňy   |          {{{phon(ne ɴy)}}}          |
-   |   24   |             4-0              |  gë ňy   |          {{{phon(ɢe my)}}}          |
+   |   18   |             3-0              |  né ňy   |          {{{phon(ne ɴy)}}}          |
+   |   24   |             4-0              |  gé ňy   |          {{{phon(ɢe my)}}}          |
    |   30   |             5-0              |  co ňy   |         {{{phon(t͡ʃɔ my)}}}          |
    |   36   |             6-0              | pe ňy ňy |        {{{phon(pɛ ɴy my)}}}         |
    |   42   |             7-0              | mi ňy ňy |        {{{phon(mɪ ɴy my)}}}         |
    |   48   |             8-0              | qi ňy ňy |        {{{phon(qɪ my ɴy)}}}         |
-   |   54   |             9-0              | në ňy ňy |        {{{phon(ne ɴy my)}}}         |
-   |   60   |             a-0              | gë ňy ňy |        {{{phon(ɢe my ɴy)}}}         |
+   |   54   |             9-0              | né ňy ňy |        {{{phon(ne ɴy my)}}}         |
+   |   60   |             a-0              | gé ňy ňy |        {{{phon(ɢe my ɴy)}}}         |
    |   66   |             b-0              | co ňy ňy |        {{{phon(t͡ʃɔ my ɴy)}}}        |
-   |   72   |            1-0-0             | (mi) mö  | {{{phon(mɪ ʀɤ)}}} ou {{{phon(mɤ)}}} |
-   |  216   |            6-0-0             | pe mö mö |        {{{phon(pɛ ʀɤ mɤ)}}}         |
+   |   72   |            1-0-0             | (mi) mó  | {{{phon(mɪ ʀɤ)}}} ou {{{phon(mɤ)}}} |
+   |  216   |            6-0-0             | pe mó mó |        {{{phon(pɛ ʀɤ mɤ)}}}         |
    |  864   |           1-0-0-0            | (mi) si  | {{{phon(mɪ xɪ)}}} ou {{{phon(sɪ)}}} |
    |  1296  |          1-0-0-0-0           |   gec    |           {{{phon(ɢɛɬ)}}}           |
-   |  7776  |         1-0-0-0-0-0          |   cöjm   |         {{{phon(t͡ʃɤɮəʀ)}}}          |
+   |  7776  |         1-0-0-0-0-0          |   cójm   |         {{{phon(t͡ʃɤɮəʀ)}}}          |
    | 46656  |        1-0-0-0-0-0-0         |   ňuň    |           {{{phon(ɴʊm)}}}           |
 
    Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
@@ -1280,11 +1261,11 @@
    Pour convertir en base dix un  chiffre Ňyqy, voici comment faire : les unités
    sont conservées  telles quelles, et  pour chaque équivalent de  dizaines, que
    j’appellerai sixaines, les multiplier par six  à la puissance de son décalage
-   par  rapport aux  unités.  Par exemple  le  nombre <gë  si co  mö  mö ňy  qi>
+   par  rapport aux  unités.  Par exemple  le  nombre <gé  si co  mó  mó ňy  qi>
    ({{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
 
    |   <c>   |   <c>    |   <c>   |   <c>   |
-   |  gë si  | co mö mö |   ňy    |   qi    |
+   |  gé si  | co mó mó |   ňy    |   qi    |
    | 4×6^{3} | 5×6^{2}  | 1×6^{1} | 2×6^{0} |
    |  4×216  |   5*36   |   1×6   |   2×1   |
    |   864   |   180    |    6    |    2    |
