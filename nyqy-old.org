@@ -91,10 +91,10 @@
    :PROPERTIES:
    :CUSTOM_ID: h-f2a15be7-ee4e-4ec3-a856-535c9861774f
    :END:
-   Le Ňyqy  {{{phon(ɴyħy)}}} est  une langue prototype  développée a  priori. Sa
-   grammaire est analytique,  mettant un clair accent sur la  syntaxe plutôt que
-   la morphologie quasiment absente. La langue restera plutôt simple, et servira
-   à développer  suivant des processus  naturels d’autres langues  descendant du
+   Le Ňyqy {{{phon(ɴyħy)}}} est une langue prototype développée a priori. Sa grammaire
+   est  analytique,  mettant un  clair  accent  sur  la  syntaxe plutôt  que  la
+   morphologie quasiment absente. La langue  restera plutôt simple, et servira à
+   développer  suivant des  processus  naturels d’autres  langues descendant  du
    Ňyqy.  J’ai  tout de  même  essayé  de développer  cette  langue  de façon  à
    autoriser des aspects naturels dans le Ňyqy, comme par exemple son inventaire
    phonétique ou sa différentiation des temps,  aspects et modes, inspiré par la
@@ -422,9 +422,9 @@
    |        w         |      l       |   |        z         |      ɣ       |
    {{{end-largetable}}}
 
-   Ainsi, la  phrase <ňe pom  qy> se prononce {{{phon(ɴɛ  pɔɴ ħy)}}} au  lieu de
-   *{{{phon(ɴɛ  pɔm qy)}}},  et  la phrase  <qi  bü pim  mo  coq> se  prononcera
-   {{{phon(qɪ bʊ χɪm ʀɔ ɬɔq)}}} au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
+   Ainsi, la phrase <ňe pom qy> se  prononce {{{phon(ɴɛ pɔɴ ħy)}}} au lieu de *{{{phon(ɴɛ
+   pɔm qy)}}}, et la phrase <qi bü pim mo coq> se prononcera {{{phon(qɪ bʊ χɪm ʀɔ ɬɔq)}}}
+   au lieu de *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Phonotaxes
    :PROPERTIES:
@@ -438,15 +438,14 @@
    Une      règle     universelle      fut     déjà      présentée     ci-dessus
    (§[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]) : deux  consonnes de  même qualité
    dorsale ne  peuvent se suivre,  qu’elles soient  séparées par aucune,  une ou
-   plusieurs  voyelles. Ainsi,  les termes  {{{phon(qʊn)}}} ou  {{{phon(nɔsq)}}}
-   sont des  termes valides selon  cette règle, mais *{{{phon(t͡ʃɔq)}}}  ne l’est
-   pas, ce dernier se prononcera {{{phon(t͡ʃɔħ)}}}.
+   plusieurs voyelles. Ainsi, les termes {{{phon(qʊn)}}} ou {{{phon(nɔsq)}}} sont des termes
+   valides  selon cette  règle, mais  *{{{phon(t͡ʃɔq)}}} ne  l’est pas,  ce dernier  se
+   prononcera {{{phon(t͡ʃɔħ)}}}.
 
-   Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjacentes
+   Si, dû à  la mutation des consonnes, deux consonnes  se retrouvent adjacentes
    sans suivre les règles indiquées ci-dessous,  alors un schwa est inséré entre
-   ces deux  consonnes. Exemple : <cöjm>  est prononcé {{{phon(t͡ʃɤɮəʀ)}}}  si la
-   première   consonne   n’est   pas   mutée,  sinon   le   mot   est   prononcé
-   {{{phon(ɬɤd͡ʒm)}}}.
+   ces deux consonnes. Exemple : <cöjm> est prononcé {{{phon(t͡ʃɤɮəʀ)}}} si la première
+   consonne n’est pas mutée, sinon le mot est prononcé {{{phon(ɬɤd͡ʒm)}}}.
 
 *** Attaque
     :PROPERTIES:
@@ -926,38 +925,38 @@
   de base 13 pour le reste.
 
   {{{begin-largetable}}}
-  |  <c5>  |            <c10>             |   <c>    |                 <c>                 |
-  |   /    |              <>              |    <>    |                 <>                  |
-  | nombre | nombre (représentation ňyqy) |   ňyqy   |             phonétique              |
-  |--------+------------------------------+----------+-------------------------------------|
-  |   0    |              0               |    pe    |           {{{phon(pɛ)}}}            |
-  |   1    |              1               |    mi    |           {{{phon(mɪ)}}}            |
-  |   2    |              2               |    qi    |           {{{phon(qɪ)}}}            |
-  |   3    |              3               |    në    |           {{{phon(ne)}}}            |
-  |   4    |              4               |    gë    |           {{{phon(ɢe)}}}            |
-  |   5    |              5               |    co    |           {{{phon(t͡ʃɔ)}}}           |
+  |  <c5>  |            <c10>             |   <c>    |           <c>           |
+  |   /    |              <>              |    <>    |           <>            |
+  | nombre | nombre (représentation ňyqy) |   ňyqy   |       phonétique        |
+  |--------+------------------------------+----------+-------------------------|
+  |   0    |              0               |    pe    |        {{{phon(pɛ)}}}         |
+  |   1    |              1               |    mi    |        {{{phon(mɪ)}}}         |
+  |   2    |              2               |    qi    |        {{{phon(qɪ)}}}         |
+  |   3    |              3               |    në    |        {{{phon(ne)}}}         |
+  |   4    |              4               |    gë    |        {{{phon(ɢe)}}}         |
+  |   5    |              5               |    co    |        {{{phon(t͡ʃɔ)}}}        |
   |   6    |             1-0              | (mi) ňy  | {{{phon(mɪ ɴy)}}} ou {{{phon(ɴy)}}} |
-  |   7    |             1-1              |  ňy mi   |          {{{phon(ɴy mi)}}}          |
-  |   8    |             1-2              |  ňy qi   |          {{{phon(ňy ħɪ)}}}          |
-  |   9    |             1-3              |  ňy në   |          {{{phon(ɴy ne)}}}          |
-  |   10   |             1-4              |  ňy gë   |          {{{phon(ɴy ʕe)}}}          |
-  |   11   |             1-5              |  ňy co   |          {{{phon(ɴy ɬɔ)}}}          |
-  |   12   |             2-0              |  qi ňy   |          {{{phon(qɪ my)}}}          |
-  |   18   |             3-0              |  në ňy   |          {{{phon(ne ɴy)}}}          |
-  |   24   |             4-0              |  gë ňy   |          {{{phon(ɢe my)}}}          |
-  |   30   |             5-0              |  co ňy   |         {{{phon(t͡ʃɔ my)}}}          |
-  |   36   |             6-0              | pe ňy ňy |        {{{phon(pɛ ɴy my)}}}         |
-  |   42   |             7-0              | mi ňy ňy |        {{{phon(mɪ ɴy my)}}}         |
-  |   48   |             8-0              | qi ňy ňy |        {{{phon(qɪ my ɴy)}}}         |
-  |   54   |             9-0              | në ňy ňy |        {{{phon(ne ɴy my)}}}         |
-  |   60   |             a-0              | gë ňy ňy |        {{{phon(ɢe my ɴy)}}}         |
-  |   66   |             b-0              | co ňy ňy |        {{{phon(t͡ʃɔ my ɴy)}}}        |
+  |   7    |             1-1              |  ňy mi   |       {{{phon(ɴy mi)}}}       |
+  |   8    |             1-2              |  ňy qi   |       {{{phon(ňy ħɪ)}}}       |
+  |   9    |             1-3              |  ňy në   |       {{{phon(ɴy ne)}}}       |
+  |   10   |             1-4              |  ňy gë   |       {{{phon(ɴy ʕe)}}}       |
+  |   11   |             1-5              |  ňy co   |       {{{phon(ɴy ɬɔ)}}}       |
+  |   12   |             2-0              |  qi ňy   |       {{{phon(qɪ my)}}}       |
+  |   18   |             3-0              |  në ňy   |       {{{phon(ne ɴy)}}}       |
+  |   24   |             4-0              |  gë ňy   |       {{{phon(ɢe my)}}}       |
+  |   30   |             5-0              |  co ňy   |      {{{phon(t͡ʃɔ my)}}}       |
+  |   36   |             6-0              | pe ňy ňy |     {{{phon(pɛ ɴy my)}}}      |
+  |   42   |             7-0              | mi ňy ňy |     {{{phon(mɪ ɴy my)}}}      |
+  |   48   |             8-0              | qi ňy ňy |     {{{phon(qɪ my ɴy)}}}      |
+  |   54   |             9-0              | në ňy ňy |     {{{phon(ne ɴy my)}}}      |
+  |   60   |             a-0              | gë ňy ňy |     {{{phon(ɢe my ɴy)}}}      |
+  |   66   |             b-0              | co ňy ňy |     {{{phon(t͡ʃɔ my ɴy)}}}     |
   |   72   |            1-0-0             | (mi) mö  | {{{phon(mɪ ʀɤ)}}} ou {{{phon(mɤ)}}} |
-  |  216   |            6-0-0             | pe mö mö |        {{{phon(pɛ ʀɤ mɤ)}}}         |
+  |  216   |            6-0-0             | pe mö mö |     {{{phon(pɛ ʀɤ mɤ)}}}      |
   |  864   |           1-0-0-0            | (mi) si  | {{{phon(mɪ xɪ)}}} ou {{{phon(sɪ)}}} |
-  |  1296  |          1-0-0-0-0           |   gec    |           {{{phon(ɢɛɬ)}}}           |
-  |  7776  |         1-0-0-0-0-0          |   cöjm   |         {{{phon(t͡ʃɤɮəʀ)}}}          |
-  | 46656  |        1-0-0-0-0-0-0         |   ňuň    |           {{{phon(ɴʊm)}}}           |
+  |  1296  |          1-0-0-0-0           |   gec    |        {{{phon(ɢɛɬ)}}}        |
+  |  7776  |         1-0-0-0-0-0          |   cöjm   |      {{{phon(t͡ʃɤɮəʀ)}}}       |
+  | 46656  |        1-0-0-0-0-0-0         |   ňuň    |        {{{phon(ɴʊm)}}}        |
   {{{end-largetable}}}
 
   Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
@@ -967,9 +966,8 @@
   Pour convertir en  base dix un chiffre Ňyqy, voici  comment faire : les unités
   sont conservées  telles quelles,  et pour chaque  équivalent de  dizaines, que
   j’appellerai sixaines, les  multiplier par six à la puissance  de son décalage
-  par  rapport aux  unités.  Par  exemple le  nombre  <gë si  co  mö  mö ňy  qi>
-  ( {{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}} ) se décompose ainsi :
-  {{{begin-largetable}}}
+  par rapport aux unités. Par exemple le nombre  <gë si co mö mö ňy qi> ({{{phon(ɢe
+  sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi : {{{begin-largetable}}}
   |   <c>   |   <c>    |   <c>   |   <c>   |
   |  gë si  | co mö mö |   ňy    |   qi    |
   | 4×6^{3} | 5×6^{2}  | 1×6^{1} | 2×6^{0} |

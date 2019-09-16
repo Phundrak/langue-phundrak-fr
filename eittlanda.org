@@ -191,11 +191,10 @@
    proche serait l’Islande,  rendant ainsi Eittlande isolée aux  yeux des marins
    Norvégiens.
 
-   Le terme  /Eittland/ est  prononcé {{{phon(aɪtlɑ̃d)}}} en  Eittlandais, tandis
-   que   le   terme  dans   sa   forme   génitive  /Eittlands/   est   prononcée
-   {{{phon(aɪtlɑ̃ds)}}}.  En  Français,   on  se  réfère  à  l’île   et  au  pays
-   /d’Eittlande/ ({{{phon(ɛjtlɑ̃d)}}}) et à la  langue et au peuple /éittlandais/
-   ({{{phon(ɛjtlɑ̃dɛ)}}} ou {{{phon(ɛjtlɑ̃nde)}}}).
+   Le terme /Eittland/  est prononcé {{{phon(aɪtlɑ̃d)}}} en Eittlandais,  tandis que le
+   terme  dans sa  forme génitive  /Eittlands/ est  prononcée {{{phon(aɪtlɑ̃ds)}}}.  En
+   Français, on se  réfère à l’île et au pays  /d’Eittlande/ ({{{phon(ɛjtlɑ̃d)}}}) et à
+   la langue et au peuple /éittlandais/ ({{{phon(ɛjtlɑ̃dɛ)}}} ou {{{phon(ɛjtlɑ̃nde)}}}).
 
 ** Démographie
    :PROPERTIES:
@@ -580,8 +579,8 @@
     L’Eittlandais  dispose   d’un  total   de  dix  voyelles   dites  « pures ».
     Contrairement au Vieux Norrois, l’Eittlandais  ne dispose pas de distinction
     entre voyelles  longues et voyelles courtes,  toutes ont à peu  près la même
-    durée de prononciation. Seule une  onzième voyelles, le schwa {{{phon(ə)}}},
-    se  prononce rapidement.  Cela  est dû  au  fait que  cette  voyelle est  un
+    durée de  prononciation. Seule  une onzième voyelles,  le schwa  {{{phon(ə)}}}, se
+    prononce  rapidement.  Cela  est  dû  au  fait  que  cette  voyelle  est  un
     amenuisement  de  la   voyelle  <y>.  Vous  pouvez  voir   dans  le  tableau
     [[vow:eittlanda:ipa]]  la liste  des voyelles  dont dispose  l’Eittlandais. Vous
     pouvez remarquer  que le schwa  est entre parenthèses : cela  signifie qu’il
@@ -604,18 +603,17 @@
     |     ouvert |           |         |     ɑ      |
 
 
-    Trois   voyelles  autres   que  le   schwa  sont   entre  parenthèses :   le
-    {{{phon(ɪ)}}},  {{{phon(ʏ)}}}  et  le  {{{phon(ʊ)}}}. Cela  est  dû  à  leur
-    présense  exclusive  dans  les  diphtongues que  nous  traiterons  plus  bas
+    Trois  voyelles autres  que le  schwa sont  entre parenthèses :  le {{{phon(ɪ)}}},
+    {{{phon(ʏ)}}}  et le  {{{phon(ʊ)}}}. Cela  est  dû à  leur présense  exclusive dans  les
+    diphtongues        que        nous         traiterons        plus        bas
     (§[[#h-c44d50b3-b107-44fb-8b12-c2fbbd159f31]]).
 
     Dans  le tableau  [[vow:eittlanda:orth]], nous  pouvons voir  une correspondance
     avec  le tableau  [[vow:eittlanda:ipa]]  où les  voyelles situées  similairement
     représentent l’orthographe latine  de ces voyelles. Par  exemple, la voyelle
-    {{{phon(ɔ)}}} est représentée  par le caractère <ó> en  Eittlandais. On peut
-    voir  également que  le schwa  n’a aucune  représentation orthographique.  À
-    nouveau, cela est  dû à l’allophonie de l’Eittlandais que  nous verrons plus
-    bas.
+    {{{phon(ɔ)}}} est  représentée par le caractère  <ó> en Eittlandais. On  peut voir
+    également que le schwa n’a  aucune représentation orthographique. À nouveau,
+    cela est dû à l’allophonie de l’Eittlandais que nous verrons plus bas.
 
 
     #+NAME: vow:eittlanda:orth
@@ -667,12 +665,10 @@
     apparurent, mis  à part la  perte de  distinction entre voyelles  longues et
     voyelles  courtes. Cependant,  trois voyelles  ont  tout de  même changé  de
     prononciation :
-    - le   /a/  {{{phon(a)}}}   est  devenu   postérieur,  se   transformant  en
-      {{{phon(ɑ)}}}
-    - le  /ǫ/  {{{phon(ɒ)}}}  s’est  quant   à  lui  refermé,  devenant  un  /ó/
-      {{{phon(ɔ)}}}
-    - le /œ/ {{{phon(øː)}}} s’est ouvert en {{{phon(œ)}}}, perdant au passage sa
-      qualité de voyelle longue.
+    - le /a/ {{{phon(a)}}} est devenu postérieur, se transformant en {{{phon(ɑ)}}}
+    - le /ǫ/ {{{phon(ɒ)}}} s’est quant à lui refermé, devenant un /ó/ {{{phon(ɔ)}}}
+    - le /œ/ {{{phon(øː)}}} s’est ouvert en  {{{phon(œ)}}}, perdant au passage sa qualité de
+      voyelle longue.
 
     Suivant la  théorie de  hiérarchisation des phonèmes  selon B.  Elan Dresher
     (2003), certains phonèmes sont perçus  comme étant plus proches que d’autres
@@ -708,9 +704,6 @@
       (conlanging/tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+RESULTS[b7b678da629a411fee0918a5634d09a825f51e14]: vow-dot
-    : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="vowels"];1[label="[high]"];0 -- 1;11[label="[rnd]"];1 -- 11;111[label="[front]"];11 -- 111;1111[label="/y/"];111 -- 1111;112[label="{front}"];11 -- 112;1121[label="/u/"];112 -- 1121;12[label="{rnd}"];1 -- 12;121[label="/i/"];12 -- 121;2[label="{high}"];0 -- 2;21[label="[rnd]"];2 -- 21;211[label="[tense]"];21 -- 211;2111[label="[front]"];211 -- 2111;21111[label="/ø/"];2111 -- 21111;2112[label="{front}"];211 -- 2112;21121[label="/o/"];2112 -- 21121;212[label="{tense}"];21 -- 212;2121[label="[front]"];212 -- 2121;21211[label="/œ/"];2121 -- 21211;2122[label="{front}"];212 -- 2122;21221[label="/ɔ/"];2122 -- 21221;22[label="{rnd}"];2 -- 22;221[label="[tense]"];22 -- 221;2211[label="[low]"];221 -- 2211;22111[label="/æ/"];2211 -- 22111;2212[label="{low}"];221 -- 2212;22121[label="/e/"];2212 -- 22121;222[label="{tense}"];22 -- 222;2221[label="/ɑ/"];222 -- 2221;}
-
     #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
@@ -740,34 +733,34 @@
 
     #+NAME: tab:diphthongs
     #+CAPTIONS: Diphtongues de l’Eittlandais et leur phonétique
-    | diphtongue |   phonétique   |
-    |    <c>     |      <c>       |
-    |------------+----------------|
-    |     ei     | {{{phon(a͜ɪ)}}} |
-    |     au     | {{{phon(ɔ͜ʊ)}}} |
-    |     ey     | {{{phon(ø͜ʏ)}}} |
+    | diphtongue | phonétique |
+    |    <c>     |    <c>     |
+    |------------+------------|
+    |     ei     |  {{{phon(a͜ɪ)}}}  |
+    |     au     |  {{{phon(ɔ͜ʊ)}}}  |
+    |     ey     |  {{{phon(ø͜ʏ)}}}  |
 
-    On  remarque  que  les  voyelles  /faibles/  subissent  un  relâchement,  le
-    {{{phon(i)}}}  s’étant  transformé  en {{{phon(ɪ)}}},  le  {{{phon(u)}}}  en
-    {{{phon(ʊ)}}} et le {{{phon(y)}}} en {{{phon(ʏ)}}}.
+    On remarque que les voyelles  /faibles/ subissent un relâchement, le {{{phon(i)}}}
+    s’étant  transformé en  {{{phon(ɪ)}}},  le {{{phon(u)}}}  en {{{phon(ʊ)}}}  et  le {{{phon(y)}}}  en
+    {{{phon(ʏ)}}}.
 
     Voici une description un peu plus complète de ces diphtongues :
-    - ei ::  diphtongue proche du  {{{phon(aɪ)}}} britannique que  l’on retrouve
-            dans  /pie/,  à la  différence  près  que  la première  voyelle  est
-            légèrement  plus ouverte.  On peut  également parfois  la rencontrer
-            prononcée  {{{phon(ɛɪ)}}}, notamment  dans  la  partie orientale  de
-            l’île    d’Eittlande,   voir    le    chapitre   sur    l’allophonie
+    - ei ::   diphtongue proche du  {{{phon(aɪ)}}} britannique que l’on  retrouve dans
+            /pie/, à la  différence près que la première  voyelle est légèrement
+            plus  ouverte. On  peut  également parfois  la rencontrer  prononcée
+            {{{phon(ɛɪ)}}}, notamment  dans la partie orientale  de l’île d’Eittlande,
+            voir          le          chapitre         sur          l’allophonie
             (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).    On    retrouve    une
             diphtongue similaire en Norvégien dans le terme /nei/.
 
             Exemple : /Eittland/ {{{phon(a͜ɪtlãd)}}}
     - au   ::  diphtongue similaire à  la diphtongue de l’anglais nord-américain
-              standard comme dans /low/ {{{phon(loʊ̯)}}}, excepté que la première
+              standard  comme  dans /low/  {{{phon(loʊ̯)}}},  excepté  que la  première
               voyelle est  plus ouverte.  Une diphtongue  plus proche  peut être
-              retrouvée  en néerlandais  belge dans  le terme  /lauw/.
+              retrouvée en néerlandais belge dans le terme /lauw/.
 
               Exemple : /auk/ {{{phon(ɔ͜ʊk)}}}
-    - ey ::  contrairement à ce  que la  voyelle typographique <e>  peut laisser
+    - ey ::   contrairement à ce que  la voyelle typographique <e>  peut laisser
             penser, la prononciation  de la première voyelle est  similaire à un
             <ø>. La  diphtongue est  donc similaire  à la  voyelle de  /neus/ en
             néerlandais des Pays-Bas, ou à /auga/ en Islandais.
@@ -775,16 +768,16 @@
             Exemple : /eyra/ {{{phon(ø͜ʏra)}}}
 
     Il  est  également possible  de  techniquement  considérer l’association  de
-    voyelles  avec  les  consonnes  {{{phon(j)}}}  et  {{{phon(w)}}}  comme  des
-    diphtongues,  voire des  triphtongues si  ladite voyelle  est elle-même  une
-    diphtongue.  Mais il  demeure plus  simple de  considérer ces  semi-voyelles
-    comme  étant  des  consonnes  au   même  titre  que  toutes  celles  listées
-    ci-dessous, leur considération en tant que diphtongues et triphtongues
-    n’apportant rien de significatif à la grammaire eittlandaise.
+    voyelles avec les consonnes {{{phon(j)}}}  et {{{phon(w)}}} comme des diphtongues, voire
+    des triphtongues  si ladite  voyelle est elle-même  une diphtongue.  Mais il
+    demeure  plus  simple  de  considérer  ces  semi-voyelles  comme  étant  des
+    consonnes  au  même  titre  que   toutes  celles  listées  ci-dessous,  leur
+    considération en  tant que diphtongues  et triphtongues n’apportant  rien de
+    significatif à la grammaire eittlandaise.
 
     Pour  des raisons  de simplicités,  les diphtongues  seront marquées  par la
-    suite en tant  que {{{phon(aɪ)}}}, {{{phon(ɔʊ)}}} et  {{{phon(øʏ)}}} au lieu
-    de {{{phon(a͜ɪ)}}}, {{{phon(ɔ͜ʊ)}}} et {{{phon(ø͜ʏ)}}} respectivement.
+    suite  en tant  que  {{{phon(aɪ)}}}, {{{phon(ɔʊ)}}}  et {{{phon(øʏ)}}}  au  lieu de  {{{phon(a͜ɪ)}}},
+    {{{phon(ɔ͜ʊ)}}} et {{{phon(ø͜ʏ)}}} respectivement.
 
 *** Consonnes
     :PROPERTIES:
@@ -800,106 +793,103 @@
     parenthèses.
 
     #+NAME: table:cons:ipa
-    |          / |         <         |                      |                 |                  |                  |                       |                  |
-    |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
+    |          / |      <      |                |           |            |            |                 |            |
+    |       <r5> |    <c5>     |      <c5>      |   <c5>    |    <c5>    |    <c5>    |      <c5>       |    <c5>    |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
-    |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
-    |      nasal |         m         |                      |        n̪        |                  |        ŋ         |                       |                  |
-    |   occlusif |         p         |                      |       t̪ d̪       |                  |      k (ɡ)       |                       |                  |
-    |   fricatif |         β         |        f (v)         |       θ ð       |        ç         |      (x) ɣ       |        xʷ (ɣʷ)        |        h         |
-    |    spirant |                   |                      |                 |        j         |                  |           w           |                  |
-    |      roulé |                   |                      |        r̪        |                  |                  |                       |                  |
-    | spir.-lat. |                   |                      |        l̪        |                  |                  |                       |                  |
+    |------------+-------------+----------------+-----------+------------+------------+-----------------+------------|
+    |      nasal |      m      |                |     n̪     |            |     ŋ      |                 |            |
+    |   occlusif |      p      |                |    t̪ d̪    |            |   k (ɡ)    |                 |            |
+    |   fricatif |      β      |     f (v)      |    θ ð    |     ç      |   (x) ɣ    |     xʷ (ɣʷ)     |     h      |
+    |    spirant |             |                |           |     j      |            |        w        |            |
+    |      roulé |             |                |     r̪     |            |            |                 |            |
+    | spir.-lat. |             |                |     l̪     |            |            |                 |            |
 
     L’Eittlandais présente  une singularité comparé à  beaucoup d’autres langues
     du monde, et en particulier comparé aux langues européennes et nordique : le
-    {{{phon(s)}}} ou  son équivalent  voisé {{{phon(z)}}}  ne sont  pas présents
-    dans l’inventaire phonétique.  Cela est dû à une  évolution du {{{phon(s)}}}
-    norrois se palatalisant en {{{phon(ç)}}}.
+    {{{phon(s)}}}  ou  son  équivalent  voisé   {{{phon(z)}}}  ne  sont  pas  présents  dans
+    l’inventaire phonétique. Cela  est dû à une évolution du  {{{phon(s)}}} norrois se
+    palatalisant en {{{phon(ç)}}}.
 
     Pour plus de simplicité, la diacritique dentale ne sera pas marquée ailleurs
-    dans ce document, rendant par  exemple {{{phon(t)}}} un strict équivalent de
-    [t̪].
+    dans ce document, rendant par exemple {{{phon(t)}}} un strict équivalent de [t̪].
 
     Chacune  de  ces consonnes  basiques  a  une  graphie  qui lui  est  propre,
     présentée dans le tableau [[table:cons:orth]].
     #+NAME: table:cons:orth
-    |          / |         <         |                      |                 |                  |                  |                       |                  |
-    |       <r5> |       <c5>        |         <c5>         |      <c5>       |       <c5>       |       <c5>       |         <c5>          |       <c5>       |
+    |          / |      <      |                |           |            |            |                 |            |
+    |       <r5> |    <c5>     |      <c5>      |   <c5>    |    <c5>    |    <c5>    |      <c5>       |    <c5>    |
     |            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
-    |------------+-------------------+----------------------+-----------------+------------------+------------------+-----------------------+------------------|
-    |      nasal |         m         |                      |        n        |                  |        ń         |                       |                  |
-    |   occlusif |         p         |                      |       t d       |                  |        k         |                       |                  |
-    |   fricatif |         b         |          f           |       þ ð       |        s         |        g         |          hv           |        h         |
-    |    spirant |                   |                      |                 |        i         |                  |           v           |                  |
-    |      roulé |                   |                      |        r        |                  |                  |                       |                  |
-    | spir.-lat. |                   |                      |        l        |                  |                  |                       |                  |
+    |------------+-------------+----------------+-----------+------------+------------+-----------------+------------|
+    |      nasal |      m      |                |     n     |            |     ń      |                 |            |
+    |   occlusif |      p      |                |    t d    |            |     k      |                 |            |
+    |   fricatif |      b      |       f        |    þ ð    |     s      |     g      |       hv        |     h      |
+    |    spirant |             |                |           |     i      |            |        v        |            |
+    |      roulé |             |                |     r     |            |            |                 |            |
+    | spir.-lat. |             |                |     l     |            |            |                 |            |
 
     La  majorité des  consonnes Eittlandaises  ne s’écrivent  qu’avec un  glyphe
-    unique, à l’exception de {{{phon(xʷ)}}}  qui s’écrit <hv>. Cette graphie est
+    unique,  à l’exception  de  {{{phon(xʷ)}}}  qui s’écrit  <hv>.  Cette graphie  est
     spécifiée  explicitement, à  l’inverse  par exemple  de  <hl> se  prononçant
-    {{{phon(l̥)}}}, car sa prononciation est irrégulière et ne suit pas le modèle
+    {{{phon(l̥)}}},  car sa  prononciation est  irrégulière et  ne suit  pas le  modèle
     habituel de la modification d’une consonne  par la précédence d’un <h>. Plus
     de détails seront donnés dans le chapitre sur l’allophonie.
 
     Les consonnes  Eittlandaises ont subit  quelques évolutions depuis  le vieux
     norrois, notamment :
-    - Le {{{phon(b)}}} est  devenu une consonne fricative, en  parallèle avec le
-      <g> se prononçant {{{phon(ɣ)}}}, devenant {{{phon(β)}}}.
+    - Le {{{phon(b)}}} est devenu une consonne  fricative, en parallèle avec le <g> se
+      prononçant {{{phon(ɣ)}}}, devenant {{{phon(β)}}}.
 
       Exemple : /bær/ {{{phon(bær)}}} (VN), {{{phon(βæɹ)}}} (E).
-    - Le  {{{phon(ð)}}}  n’est  plus  un  allophone  de  {{{phon(θ)}}}  et  peut
-      maintenant  distinguer   des  mots  n’ayant  pour   seule  différence  que
-      l’utilisation d’un <þ> ou d’un <ð>.
+    - Le  {{{phon(ð)}}}  n’est  plus  un  allophone  de  {{{phon(θ)}}}  et  peut  maintenant
+      distinguer des mots  n’ayant pour seule différence  que l’utilisation d’un
+      <þ> ou d’un <ð>.
 
-      Exemple :    /maðor/   {{{phon(mæðɚ)}}}    se    distingue   de    /maþor/
-      {{{phon(mæθɚ)}}} (basé sur le terme  anglais /maths/) uniquement de par la
-      différenciation entre /ð/ et /þ/.
+      Exemple : /maðor/ {{{phon(mæðɚ)}}} se distingue  de /maþor/ {{{phon(mæθɚ)}}} (basé sur
+      le terme anglais  /maths/) uniquement de par la  différenciation entre /ð/
+      et /þ/.
     - Le {{{phon(s)}}} s’est palatalisé en {{{phon(ç)}}}.
 
       Exemple : /sær/ {{{phon(sær)}}} (VN), {{{phon(çæɹ)}}} (E).
-    - La  prononciation  occasionelle  du   <g>  en  {{{phon(ɣ)}}}  est  devenue
-      régulière, rendant  la prononciation  {{{phon(ɡ)}}} occasionelle.  Plus de
-      détails  sur   l’utilisation  du   {{{phon(ɡ)}}}  dans  le   chapitre  sur
-      l’allophonie.
-    - Les sons {{{phon(nɡ)}}}  et {{{phon(nk)}}} se sont nasalisés  et ont perdu
-      leur  qualité occlusive,  transformant et  fusionnant les  phonèmes en  un
-      {{{phon(ŋ)}}} dans les deux cas.
+    - La prononciation  occasionelle du  <g> en  {{{phon(ɣ)}}} est  devenue régulière,
+      rendant  la  prononciation  {{{phon(ɡ)}}}  occasionelle.  Plus  de  détails  sur
+      l’utilisation du {{{phon(ɡ)}}} dans le chapitre sur l’allophonie.
+    - Les sons {{{phon(nɡ)}}} et {{{phon(nk)}}} se  sont nasalisés et ont perdu leur qualité
+      occlusive, transformant et fusionnant les  phonèmes en un {{{phon(ŋ)}}} dans les
+      deux cas.
 
-      Exemple :  /angan/ {{{phon(angan)}}}  (VN),  /ańan/ {{{phon(ɑ̃ŋɑ̃)}}}  (E) ;
-      /minka/ {{{phon(minka)}}} (VN), /mińa/ {{{phon(mĩŋɑ)}}} (E)
-    - Le <r> final gémine la consonne qu’il suit s’il s’agit d’un {{{phon(l)}}},
-      {{{phon(s)}}}, {{{phon(n)}}} ou {{{phon(r)}}}. Sinon, si le <r> final suit
-      une  autre  consonne, un  <y>,  généralement  prononcé {{{phon(ə)}}},  est
-      ajouté avant le <r> final.
+      Exemple :  /angan/  {{{phon(angan)}}}  (VN),   /ańan/  {{{phon(ɑ̃ŋɑ̃)}}}  (E) ;  /minka/
+      {{{phon(minka)}}} (VN), /mińa/ {{{phon(mĩŋɑ)}}} (E)
+    - Le  <r> final  gémine la  consonne qu’il  suit s’il  s’agit d’un  {{{phon(l)}}},
+      {{{phon(s)}}},  {{{phon(n)}}} ou  {{{phon(r)}}}.  Sinon,  si le  <r>  final  suit une  autre
+      consonne, un <y>,  généralement prononcé {{{phon(ə)}}}, est ajouté  avant le <r>
+      final.
 
-      Exemple : /frægr/ {{{phon(fræɡr)}}} (VN), /frægor/ {{{phon(fræɡɚ)}}} (E) ;
-      /dalr/ {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
+      Exemple :  /frægr/ {{{phon(fræɡr)}}}  (VN),  /frægor/  {{{phon(fræɡɚ)}}} (E) ;  /dalr/
+      {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
 
     L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
-    consonnes géminées et consonnes non-géminées. Ainsi, /dalr/ {{{phon(dɑlː)}}}
-    (forme nominative) est perçu comme  étant différent de /dal/ {{{phon(dɑl)}}}
-    (forme  accusative  de  /dalr/),  et /Anar/  {{{phon(ɑ̃nɑɹ)}}}  (prénom)  est
-    également  perçu  comme  différent de  /annarr/  {{{phon(ɑ̃nːɑrː)}}}  (autre,
-    second,  deuxième, suivant).  Il est  à  noter cependant  que les  consonnes
-    plosives géminées subirent une lénition :  la première consonne de la double
-    consonne conserve sa  prononciation tandis que la seconde a  vu une lénition
-    apparaître.  Ainsi, /kapp/  se prononce  {{{phon(kɑpː)}}} en  Vieux Norrois,
-    mais se  prononce {{{phon(kɑp͡f)}}} en  Eittlandais, et /akkeri/  se prononce
-    {{{phon(ɑkːeri)}}}   en    Vieux   Norrois   tandis   qu’il    se   prononce
-    {{{phon(ɑkxeri)}}} en Eittlandais. La mutation  se fait comme présentée dans
-    le tableau [[cons:mut:gem]].
+    consonnes  géminées  et  consonnes non-géminées.  Ainsi,  /dalr/  {{{phon(dɑlː)}}}
+    (forme nominative) est perçu comme étant différent de /dal/ {{{phon(dɑl)}}} (forme
+    accusative de  /dalr/), et  /Anar/ {{{phon(ɑ̃nɑɹ)}}}  (prénom) est  également perçu
+    comme différent de /annarr/ {{{phon(ɑ̃nːɑrː)}}} (autre, second, deuxième, suivant).
+    Il est  à noter cependant que  les consonnes plosives géminées  subirent une
+    lénition :  la  première   consonne  de  la  double   consonne  conserve  sa
+    prononciation tandis  que la  seconde a vu  une lénition  apparaître. Ainsi,
+    /kapp/ se prononce {{{phon(kɑpː)}}} en  Vieux Norrois, mais se prononce {{{phon(kɑp͡f)}}}
+    en Eittlandais, et /akkeri/ se prononce {{{phon(ɑkːeri)}}} en Vieux Norrois tandis
+    qu’il se  prononce {{{phon(ɑkxeri)}}}  en Eittlandais. La  mutation se  fait comme
+    présentée dans le tableau [[cons:mut:gem]].
 
     #+NAME: cons:mut:gem
-    | graphie |   phonétique   |
-    |   <c>   |      <c>       |
-    |---------+----------------|
-    |   pp    | {{{phon(p͡f)}}} |
-    |   bb    | {{{phon(b͡β)}}} |
-    |   tt    | {{{phon(t͡θ)}}} |
-    |   dd    | {{{phon(d͡ð)}}} |
-    |   kk    | {{{phon(k͡x)}}} |
-    |   gg    | {{{phon(ɡ͡ɣ)}}} |
+    | graphie | phonétique |
+    |   <c>   |    <c>     |
+    |---------+------------|
+    |   pp    |  {{{phon(p͡f)}}}  |
+    |   bb    |  {{{phon(b͡β)}}}  |
+    |   tt    |  {{{phon(t͡θ)}}}  |
+    |   dd    |  {{{phon(d͡ð)}}}  |
+    |   kk    |  {{{phon(k͡x)}}}  |
+    |   gg    |  {{{phon(ɡ͡ɣ)}}}  |
 
     Vous  trouverez   également  l’arbre   [[arbre:cons]]  exposant   la  hiérarchie
     contrastive des consonnes de l’Eittlandais.
@@ -946,9 +936,6 @@
             ("{dor}" ("/h/"))))))
       (conlanging/tree-to-dot eittlandic-consonants)
     #+END_SRC
-
-    #+RESULTS[c1e5eb5b47dfd5f34797276fc1515955532b2d14]: cons-dot
-    : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="consonants"];1[label="[occ]"];0 -- 1;11[label="[cor]"];1 -- 11;111[label="[nasal]"];11 -- 111;1111[label="/n/"];111 -- 1111;112[label="{nasal}"];11 -- 112;1121[label="[voice]"];112 -- 1121;11211[label="/d/"];1121 -- 11211;1122[label="{voice}"];112 -- 1122;11221[label="/t/"];1122 -- 11221;12[label="{cor}"];1 -- 12;121[label="[nasal]"];12 -- 121;1211[label="[dor]"];121 -- 1211;12111[label="/ŋ/"];1211 -- 12111;1212[label="{dor}"];121 -- 1212;12121[label="/m/"];1212 -- 12121;122[label="{nasal}"];12 -- 122;1221[label="[dor]"];122 -- 1221;12211[label="[voice]"];1221 -- 12211;122111[label="/ɣ/"];12211 -- 122111;12212[label="{voice}"];1221 -- 12212;122121[label="[son]"];12212 -- 122121;1221211[label="/xʷ/"];122121 -- 1221211;122122[label="{son}"];12212 -- 122122;1221221[label="/k/"];122122 -- 1221221;1222[label="{dor}"];122 -- 1222;12221[label="[voice]"];1222 -- 12221;122211[label="/β/"];12221 -- 122211;12222[label="{voice}"];1222 -- 12222;122221[label="[strident]"];12222 -- 122221;1222211[label="/f/"];122221 -- 1222211;122222[label="{strident}"];12222 -- 122222;1222221[label="/p/"];122222 -- 1222221;2[label="{occ}"];0 -- 2;21[label="[cor]"];2 -- 21;211[label="[dor]"];21 -- 211;2111[label="/ç/"];211 -- 2111;212[label="{dor}"];21 -- 212;2121[label="[son]"];212 -- 2121;21211[label="[lat]"];2121 -- 21211;212111[label="/l/"];21211 -- 212111;21212[label="{lat}"];2121 -- 21212;212121[label="/r/"];21212 -- 212121;2122[label="{son}"];212 -- 2122;21221[label="[voice]"];2122 -- 21221;212211[label="/ð/"];21221 -- 212211;21222[label="{voice}"];2122 -- 21222;212221[label="/θ/"];21222 -- 212221;22[label="{cor}"];2 -- 22;221[label="[dor]"];22 -- 221;2211[label="[rnd]"];221 -- 2211;22111[label="/w/"];2211 -- 22111;2212[label="{rnd}"];221 -- 2212;22121[label="/j/"];2212 -- 22121;222[label="{dor}"];22 -- 222;2221[label="/h/"];222 -- 2221;}
 
     #+BEGIN_SRC dot :file img/eittlanda/cons-feature-tree.png :var input=cons-dot :exports results :cache yes
       $input
@@ -1009,9 +996,9 @@
 
     #+NAME: table:writing-system
     #+CAPTION: Correspondance de l’alphabet latin éittlandais et des runes eittlandaises
-    |           <c>           |      <c>       |
-    |          latin          |     runes      |
-    |-------------------------+----------------|
+    |           <c>           |   <c>    |
+    |          latin          |  runes   |
+    |-------------------------+----------|
     |           A a           | {{{rune(a)}}}  |
     |           Æ æ           | {{{rune(æ)}}}  |
     |           B b           | {{{rune(b)}}}  |
@@ -1044,11 +1031,11 @@
     | /délimiteur de phrases/ | {{{rune(.)}}}  |
 
     On peut remarquer que dans l’alphabet latin Eittlandais comme dans les runes
-    Eittlandaises il existe une indifférentiation de la voyelle {{{phon(i)}}} et
-    de  la  consonne {{{phon(j)}}}.  Cela  est  dû  au fait  présenté  ci-dessus
-    (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]) que le {{{phon(i)}}} ne peut être
-    une voyelle s’il est  précédé par une consonne et suivi  par une voyelle, et
-    le {{{phon(j)}}} ne peut précéder une  consonne. De ce fait, les Eittlandais
+    Eittlandaises il existe une indifférentiation de la voyelle {{{phon(i)}}} et de la
+    consonne    {{{phon(j)}}}.   Cela    est   dû    au   fait    présenté   ci-dessus
+    (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]) que  le {{{phon(i)}}} ne peut  être une
+    voyelle s’il est  précédé par une consonne  et suivi par une  voyelle, et le
+    {{{phon(j)}}}  ne  peut  précéder  une  consonne.  De  ce  fait,  les  Eittlandais
     n’éprouvent  pas de  difficultés à  différencier les  deux phonèmes  l’un de
     l’autre.
 
@@ -1147,8 +1134,8 @@
     |         ɑ          |           æ           |
     |         au         |          ey           |
 
-    Par  exemple,  /auðor/ se  prononce  comme  /eyðor/, soit  {{{phon(øyðɚ)}}},
-    tandis que /maðor/ se prononce {{{phon(mɑðɚ)}}}.
+    Par exemple, /auðor/ se prononce  comme /eyðor/, soit {{{phon(øyðɚ)}}}, tandis que
+    /maðor/ se prononce {{{phon(mɑðɚ)}}}.
 
 *** Fracture de la voyelle initiale
     :PROPERTIES:
@@ -1157,7 +1144,7 @@
     À  l’instar  du Vieux  Norrois,  l’Eittlandais  ne  dispose pas  de  voyelle
     initiale qui  soit un  <i> ou un  <e> : les deux  sont fracturés  lorsque la
     racine historique  du mot commeçait par  une de ces deux  voyelles. Ainsi on
-    retrouve  le terme  /efn/ prononcé  {{{phon(jɑfn)}}} en  Eittlandais, hérité
+    retrouve  le   terme  /efn/  prononcé  {{{phon(jɑfn)}}}   en  Eittlandais,  hérité
     directement du Vieux  Norrois, dont la traduction anglaise est  /even/ et la
     traduction allemande est /eben/.
 
@@ -1215,10 +1202,9 @@
        - hC / #_ > C[-voice]
 
        Exemple : /hiálp/ {{{phon(j̥ɑlp)}}}
-    6. Le <g> se prononce habituellement  {{{phon(ɣ)}}}, cependant il se mute en
-       un {{{phon(k)}}} lorsqu’il est suivit par  une consonne non voisée. Il se
-       mute également en un {{{phon(ɡ)}}}  lorsqu’il est suivit par une consonne
-       nasale.
+    6. Le  <g> se prononce  habituellement {{{phon(ɣ)}}}, cependant  il se mute  en un
+       {{{phon(k)}}} lorsqu’il  est suivit  par une  consonne non  voisée. Il  se mute
+       également en un {{{phon(ɡ)}}} lorsqu’il est suivit par une consonne nasale.
        - ɣ / _C[-voice] > k
        - ɣ / _C[+nasal] > ɡ
     7. Une  consonne géminée suivant  ou précédant  une autre consonne  perd sa
@@ -1923,8 +1909,8 @@
     :CUSTOM_ID: h-4288b532-7565-4571-94dc-278ef1bce2c6
     :END:
     - ańan :: {{{phon(ɑ̃ŋɑ̃)}}} (n.NF) joie, délice
-    - auðor   ::   {{{phon(øʏðɚ)}}}  (n.NF)  bien ou  objets  précieux,  trésor,
-                richesses, fortune
+    - auðor ::  {{{phon(øʏðɚ)}}} (n.NF)  bien ou  objets précieux,  trésor, richesses,
+                fortune
     - akkeri :: {{{phon(ɑkxeri)}}} (n.Nf) ancre
     - auk :: {{{phon(ɔʊk)}}} (prep) mis à part
 
@@ -1937,8 +1923,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-f60cb72b-0ae2-447f-96d7-226e0b9afe35
     :END:
-    - bær   ::  {{{phon(βæɹ)}}}  (n.NF) maison,  appartement, domicile,  lieu de
-              résidence
+    - bær :: {{{phon(βæɹ)}}} (n.NF) maison, appartement, domicile, lieu de résidence
 
 *** C
     :PROPERTIES:
@@ -1949,8 +1934,8 @@
     :PROPERTIES:
     :CUSTOM_ID: h-eabffe31-39e9-44a8-8ff5-0533724eafe0
     :END:
-    - dagan  ::   {{{phon(dɑɣɑ̃)}}} (n.FF) jour  (unité de temps),  jour (période
-                lumineuse de la journée)
+    - dagan :: {{{phon(dɑɣɑ̃)}}} (n.FF) jour  (unité de temps), jour (période lumineuse
+               de la journée)
     - dall :: {{{phon(dɑlː)}}} (n.MF) vallon, vallée
     - døkkor :: {{{phon(døkxɚ)}}} (adjF) sombre, ténébreux
     - dyrk :: {{{phon(dyrk)}}} (n.FF) gloire
@@ -2016,8 +2001,7 @@
     :CUSTOM_ID: h-da0f6c8f-47da-47e0-a8e5-048a542fe070
     :END:
     - maðor :: {{{phon(mɑðɚ)}}} (n.MF) homme, humain, mari
-    - maþor ::  {{{phon(mɑθɚ)}}} (n.Nf) mathématiques. Emprunt  du terme anglais
-               /math/.
+    - maþor :: {{{phon(mɑθɚ)}}} (n.Nf) mathématiques. Emprunt du terme anglais /math/.
     - mińa :: {{{phon(mĩŋa)}}} (vt.f) réduire, diminuer, atténuer
     - Miœllnir :: {{{phon(mjœlniɹ)}}} (n.MF) Mjöllnir, marteau de Thor
     - món :: {{{phon(mɔ̃)}}} (n.FF) longue chevelure, crinière
