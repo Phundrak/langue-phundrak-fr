@@ -5,7 +5,7 @@
 #+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
 #+LATEX_HEADER: \usepackage{allrunes}
-#+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
+#+MACRO: rune-manual @@latex:\textara{$1}@@@@html:$2@@
 #+MACRO: rune (eval (conlanging/eittlanda-org-export-runes "$1"))
 #+STARTUP: align shrink
 #+KEYWORDS: eittland eittlande einnland einnlande nordique viking islande norrois
@@ -602,7 +602,6 @@
     | pré-ouvert |     æ     |         |            |
     |     ouvert |           |         |     ɑ      |
 
-
     Trois  voyelles autres  que le  schwa sont  entre parenthèses :  le {{{phon(ɪ)}}},
     {{{phon(ʏ)}}}  et le  {{{phon(ʊ)}}}. Cela  est  dû à  leur présense  exclusive dans  les
     diphtongues        que        nous         traiterons        plus        bas
@@ -695,7 +694,7 @@
              ("{front}" ("/o/")))
             ("{tense}"
             ("[front]" ("/œ/"))
-             ("{front}" ("/ɔ/"))))
+            ("{front}" ("/ɔ/"))))
            ("{rnd}"
             ("[tense]"
              ("[low]" ("/æ/"))
