@@ -1,0 +1,1281 @@
+# -*- org-confirm-babel-evaluate: nil -*-
+#+TITLE: Grammar of Ñyqy
+#+include: ../headers/head-lvl1.org
+#+HTML_HEAD_EXTRA: <meta name="description" content="Detailed grammar of the Ňyqy constructed language" />
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammar of Ňyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:description" content="Detailed grammar of the Ňyqy constructed language" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../css/nyqy.css"/>
+#+OPTIONS: auto-id:t
+#+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
+
+# To be used at https://jasontank.net/wordgen.html
+#+NAME: wordgen-backup
+#+BEGIN_SRC text :exports none
+  --CATEGORIES--
+  A=qgcjñmnszpbw
+  B=qgcjñmnszpb
+  V=óéoe
+  W=úuyi
+  C=jczs
+  P=mbpgq
+  --REWRITE--
+
+  --MONO--
+  AV
+  BW
+  AVB
+  BWB
+  VB
+  WB
+  AVCP
+  BWCP
+  --MID--
+  AV
+  BW
+  CPV
+  CPW
+  --INIT--
+  AV
+  BW
+  --FINAL--
+  AV
+  BW
+  CPV
+  CPW
+  AVB
+  BWB
+  CPVB
+  CPWB
+  AVCP
+  BWCP
+  CPVCP
+  CPWCP
+
+  --FLAGS--
+  0 0 monoMostly dropoffSlow
+  --ADVANCED--
+  10
+  150
+  750
+  30
+  ||
+#+END_SRC
+
+* Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: h-e44a14c5-9063-40a6-bce6-043b0869582e
+  :UNNUMBERED: t
+  :END:
+** Foreword
+   :PROPERTIES:
+   :CUSTOM_ID: h-45733210-18dc-486a-858a-0af1d438d285
+   :END:
+   It  is strictly  forbidden  to  redistribute or  sell  this  document. It  is
+   protected under the  French law of intellectual property  and copyrights, and
+   it belongs entirely to its author.  This document is available free of charge
+   in  web and  PDF formats  on  my conlanging  website[fn:1]. If  you got  this
+   document from  another source, regardless  if it was  free of charge  or not,
+   please contact me either through my social networks or by email which you can
+   find  on my  main  website[fn:2].  No individuals,  groups  or companies  are
+   currently authorized  to redistribute this document  by any mean. If  you are
+   interested in  redistributing it, please contact  me so we can  discuss about
+   it.
+
+   This document is about a constructed  language, or /conlang/, which I (Lucien
+   “Phundrak” Cartier-Tilet) created. However, it will be written as an in-world
+   document, as if  an in-world linguist wrote  it. Hence, if in  some parts you
+   read things  like “[…] but this  subject needs to be  studied more thoroughly
+   […]”, this simply means  I haven’t worked on or I  haven’t finished this part
+   yet.  This chapter  and the  chapter §[[#h-8aa14ca5-6a1c-4e03-b30a-75bd90452308]]
+   are the only chapters that have not  been written as if this were an in-world
+   document.
+
+** Introduction to Ňyqy as a conlang
+   :PROPERTIES:
+   :CUSTOM_ID: h-8aa14ca5-6a1c-4e03-b30a-75bd90452308
+   :END:
+   The {{{nyqy(Ñyqy)}}} language is  a very simple language I created  with the aim of
+   creating a  prototype language, or  /proto-lang/. Although some  features you
+   will encounter  later can be  surprising, I  do not aim  for it to  become as
+   natural as other  naturalistic languages, or /natlangs/. Rather,  this one is
+   simple enough to quickly learn its grammar, syntax, morphology and phonology,
+   but it is also complex enough for  people to be able to actually the language
+   for simple sentences. However, don’t expect it to be developed too in-depth.
+
+** Introduction to Ňyqy as a real language
+   :PROPERTIES:
+   :CUSTOM_ID: h-ad4d6a0c-e05b-4c28-98c6-baec9e843e96
+   :END:
+   All languages in our world come from something, from somewhere. All languages
+   come from  another language, inherit  from it, and someone’s  ancestors spoke
+   the latter for some time, before  slowly changing its rules and pronunciation
+   enough to make  it into a new one,  while the old one probably  is not spoken
+   anymore. Maybe even,  someday, there has been the first  word ever uttered by
+   one of our ancestors,  and that was the birth of speech. Truth  is, we do not
+   know exactly how  language appeared, nor when  did it appear. We  do not know
+   what it sounded like, and what it was even like at all.
+
+   However, although we cannot go back that far in time to discover this unknown
+   part of  our history,  we are  able to  somewhat go  back in  time for  a few
+   milleniums, and discover  languages that were spoken then.  This time machine
+   we call  linguistics is fueled  by our  contemporary languages and  old, dead
+   languages  we know  about  thanks  to various  documentation,  both from  our
+   current era and from the Old  Era. Thanks to comparative linguistics, a great
+   number of  my colleagues and  predecessors were able, by  comparing languages
+   against each  other, to  determine their relationship,  if these  were sister
+   languages  or mother  and  daughter,  cousins, and  so  on. Progressively,  a
+   genetic tree began to  appear, to be drawn, and to  classify the languages we
+   know into families with various relatives, both alive and dead. And even if a
+   great deal is still unknown about these families, we still have some ideas on
+   who these languages’ ancestors were.
+
+   Nowadays, it is possible thanks to all of these researches to finally have an
+   idea of what these languages were like, and through these languages we have a
+   tiny window  through which we can  guess what civilisations were  like during
+   this period. And the furthest we ever went, the oldest language we know about
+   is {{{nyqy(Ňyqy)}}}. This language is between  eight and eleven thousand years old,
+   it was spoken in one of the birthplaces of civilisation, and it is the mother
+   of  about half  the  languages spoken  throughout the  world.  Several of  my
+   colleagues both  from the  past or  from the present  have already  made some
+   fantastic progress  on this legendary  language. I  myself helped some  of my
+   colleagues in their works, and this has been a great honor.
+
+   However, working on this topic made me face a reality I was not aware of only
+   a  few  years ago  which  might  be critical  for  anyone  studying the  Ňyqy
+   language: there are no book in which  we can find everything ever known, that
+   was ever discovered about the language, all  in one single work. If anyone is
+   interested in the  Ňyqy language, they currently have to  go through hundreds
+   if  not thousands  of books,  papers and  other media  in order  to find  the
+   information they  are searching for, and  this lack of centralization  of the
+   information  about this  language  sometimes  turns out  as  a nightmare  for
+   students and professors  alike. I think I  even might be safe  saying most of
+   the work we  do as Ňyqy specialists  is not dedicated to the  language or its
+   culture, but just finding the right information.
+
+   When  I realized  that, I  shared my  thoughts with  my friend  and colleague
+   Q. Rhȩte about this, and we came to an agreement: we would spend as much time
+   as necessary to make  a compendium of all the knowledge  we currently have on
+   the  Ňyqy people.  While she  will work  on the  cultural aspect,  I will  be
+   working on the  language itself. And of course, as  both subjects are closely
+   tied together,  we will be  helping each other. While  I will be  including a
+   very short  version of her  work in the following  chapters, she will  do the
+   same in her book.
+
+   I pray our work will be rewarded with success, I pray students and professors
+   alike will find or work useful, and I pray this will greatly help scholars in
+   their quest for  knowledge as much as  it helped us during the  time we wrote
+   this. /né_{4}Hje_{2}lpel/
+
+** Conventions typographiques
+   :PROPERTIES:
+   :CUSTOM_ID: h-410ccf5a-d5eb-436b-b3f4-a0a4bb4249e9
+   :END:
+   Dans ce  document seront  utilisé certaines conventions  typographiques, dont
+   des  gloses grammaticales  inter-lignes[fn:4], une  étoile ~*~  précédant des
+   éléments linguistiques considérés comme erronés, un point d’interrogation ~?~
+   afin de marquer  des éléments linguistiques questionnables, ou  bien dans les
+   gloses une utilisation  du chiffre zéro ~0~ afin de  marquer une absence d’un
+   ou plusieurs éléments.
+
+** Liste d’abbréviations
+   :PROPERTIES:
+   :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
+   :END:
+
+* La culture, l’histoire, le contexte sociolinguistique du Ñyqy
+  :PROPERTIES:
+  :CUSTOM_ID: h-362fe960-94ae-42e2-8db3-54d52c7de175
+  :END:
+** Le peuple, son regard sur lui-même
+   :PROPERTIES:
+   :CUSTOM_ID: h-6b729f0a-7131-443b-8ef3-ddfbaa23c65d
+   :END:
+   Peu de choses sont  connues sur le peuple, du fait de  sa distance avec nous,
+   et  du   fait  du   peu  d’éléments  dont   nous  disposons   directement  ou
+   indirectement. Beaucoup de nos  connaissances actuelles nous parviennent soit
+   des écrits survivants de l’Ère précédente, soit de recherches archéologiques,
+   soit de recherches linguistiques.
+
+   Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
+   probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
+   également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ñyqy)}}}  pour se
+   désigner lui-même, mais nous disposons de  trop peu de preuve afin de pouvoir
+   affirmer cela avec certitude. Le  terme s’analyse en deux morphèmes basiques,
+   {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ñy)}}}  est le pronom personel du singulier,
+   et  {{{nyqy(qy)}}}  qui le  suit  a  plusieurs  utilisations,  le chiffre  /6/  (le
+   {{{nyqy(Ñyqy)}}} est  une langue dont le  système numérique est un  système hybride
+   entre  une  base  six  et  une   base  treize)  ou  bien  la  pluralité,  ici
+   infléchissant le {{{nyqy(ñy)}}} afin de former la première personne du pluriel.
+
+   Il est à noter que le nom  de cette langue est traditionellement écrite en un
+   seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
+   mauvaise habitude : chaque élément peut être analysé individuellement et peut
+   donc être  considéré comme  mots séparés,  d’où la  néographie « Ñy  Qy » que
+   certains  de  mes  collègues  utilisent, tentant  de  corriger  cette  erreur
+   maintenant multi-centenaire. Bien que je salue leur initiative je continuerai
+   de nommer cette langue  « Ñyqy » dans cet ouvrage afin de  suivre la norme et
+   afin de  ne pas  rendre confus certaines  personnes n’ayant  jamais rencontré
+   cette néographie, et je présente mes excuses à ces collègues.
+
+   Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ñyqy », ou
+   « proto  Ñy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
+   l’abscence totale d’autres langues  nommées « Ñyqy ». Elle n’est généralement
+   utilisée que  si le  locuteur souhaite  insister sur la  nature de  la langue
+   comme langue mère de sa famille.
+
+** Recherches précédentes
+   :PROPERTIES:
+   :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
+   :END:
+   Comme  mentionné plus  tôt,  le Ñyqy  est l’objet  depuis  fort longtemps  de
+   recherches linguistiques,  tout d’abord par des  linguistes hélas aujourd’hui
+   anonymes ayant  vécus lors de  l’Ère précédente. Leurs  connaissances étaient
+   sans  doute  beaucoup  plus  vastes  que ce  que  nous  avons  pu  récupérer,
+   probablement similaires à celles dont  nous disposons aujourd’hui, mais comme
+   tout le monde  le sait, seul peu  de témoignages de cette époque  ont pu nous
+   parvenir,  et  les   restes  de  l’Université  de  Ðbńo   relève  du  miracle
+   archéologique.
+
+   Ces premières  recherches, une  fois traduites,  ont servi  de base  aux deux
+   derniers  siècles de  recherche  en  direction du  Ñyqy,  avec notamment  les
+   recherches du Pr Loqbrekh (3489) le siècle dernier qui a réalisé d’importants
+   progrès  sur l’étude  de  cette langue  grâce à  l’addition  de l’analyse  du
+   Énanonn, ainsi que  les études du Pr Khorlan  (3598) qui, il y a  cinq ans, a
+   également énormément fait  progresser les recherches grâce à  ses travaux sur
+   le Tãso. Je me reposerai principalement  sur leurs recherches afin de rédiger
+   cet ouvrage, ainsi que leurs références diverses.
+
+** Ethnologie
+   :PROPERTIES:
+   :CUSTOM_ID: h-dec628cc-50e8-4370-889d-e54b2a2e2280
+   :END:
+   Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ñyqy. Pour plus
+   de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ñyqy/  de
+   K. Yerth, 3404. Un avertissement est tout de même nécessaire :
+
+   #+BEGIN_QUOTE
+   Nous n’avons  que très peu  de preuves et  témoignages directs sur  le peuple
+   Ñyqy  autre que  par les  ouvrages des  scientifiques de  l’Ère ancienne,  et
+   actuellement  par  les recherches  linguistiques  faites  par des  chercheurs
+   contemporains à cet ouvrage. Par conséquent, même si les anciens paraissaient
+   très confiants dans  leurs découvertes, il nous est  impossible d’affirmer ce
+   que l’on sait  sur ce peuple comme  étant un fait, mais  simplement comme une
+   forte probabilité que  c’était en effet le cas. La  recherche actuelle sur ce
+   peuple et  les hypothèses et  théories peuvent  sembler très solides,  mais à
+   bien y regarder, elles ne le sont qu’entre elles, en supposant que ce que les
+   scientifiques  de l’Ère  ancienne  ne  se trompaient  pas.  Les seules  bases
+   tangibles  auxquelles nous  avons  encore  accès sont  celles  posées par  la
+   linguistique historique,  mais hélas  celle-ci se repose  également fortement
+   sur ces incertitudes que nous avons.
+
+   — K. Yerth
+   #+END_QUOTE
+
+   Le peuple Ñyqy  était un peuple vivant dans l’actuel  Rhésode, dans la vallée
+   du Mojhal.  Son cœur  économique se  situait selon  toutes évidences  dans le
+   delta  du fleuve  Mojhal, où  la première  forme de  civilisation connue  est
+   apparue.   Leur   activité   principale  était   basée   principalement   sur
+   l’agriculture, en  particulier sur la  culture d’un grain pouvant  être selon
+   les sources  du blé  ou du riz,  voire les deux.  Leur élevage  était orienté
+   principalement sur  celui des  vaches et des  porcs. Une  importante activité
+   d’échange  fluviale  s’était  probablement   déjà  développée,  ainsi  qu’une
+   activité de pêche dans la zone maritime de la vallée du Mojhal.
+
+   Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
+   que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
+   communales  {{{nyqy(súmusq)}}} ;  cela  inclus  tous  les  membres  de  la  famille
+   descendant de l’ancêtre commun le plus  âgé, ainsi que leurs époux ou épouses
+   respectifs.
+
+   Sur  ce  dernier  point,  il  semblerait qu’il  n’y  avait  pas  de  tendance
+   particulière quant  à qui  rejoignais la  famille de  qui parmi  les familles
+   représentant le bas peuple,  composées principalement de paysans, d’artisants
+   et de petits marchants. En revanche,  il semblerait qu’il était beaucoup plus
+   fréquent  pour les  hommes de  rejoindre la  famille de  leur femme  une fois
+   mariés si la  famille pouvait être considérée comme riche  ou importante, par
+   exemple  si il  s’agit  d’une  famille de  riches  marchands  ou une  famille
+   détenant un pouvoir militaire.
+
+   Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ñyqy
+   pratiquaient leur religion polythéïste. Il est cependant impossible de savoir
+   s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
+   Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
+   moins, ainsi que la vénération des étoiles et du feu.
+
+** Corpus, reconstruction de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-acf6406f-5fd3-4d01-a0f0-89adef88d5ff
+   :END:
+
+* Aperçu structurel
+  :PROPERTIES:
+  :CUSTOM_ID: h-6e72a430-ce27-41ab-b2a6-4b8f54c2a2d3
+  :END:
+** Esquisse typologique du Ñyqy
+   :PROPERTIES:
+   :CUSTOM_ID: h-e2f22e3c-6069-4881-a3e2-3d319e434fb7
+   :END:
+   Le  Ñyqy  est une  langue  qui  apparaît  comme étant  fortement  analytique,
+   reposant principalement sur  sa syntaxe afin d’exprimer sa  grammaire et très
+   peu  sur  des  règles  morphologiques.   La  large  majorité  des  mots  sont
+   monosyllabiques ou bisyllabiques, et  les phrases s’articulent souvent autour
+   de morphèmes liés  monosyllabiques que l’on peut interpréter  comme étant des
+   particules  grammaticales.  Voici  un  exemple  de phrase  en  Ñyqy  avec  sa
+   traduction et son détail grammatical :
+   1. {{{nyqy(ñe pom qy)}}}
+
+      maison GEN 1sg
+
+      C’est ma maison
+
+   2. {{{nyqy(bú qi pim mo coq)}}}
+
+      2sg deux pomme PST manger
+
+      Nous avons mangé une pomme
+
+   3. {{{nyqy(qy qun gó)}}}
+
+      1sg OPT boire
+
+      Je souhaite boire
+
+   Dans l’exemple n°1, nous pouvons remarquer l’abscence d’un verbe « être », ce
+   qui est un exemple des prédicats  existentiels qui ne requièrent pas de verbe
+   afin  d’exprimer  une  possession.  On  peut  également  voir  que  l’élément
+   définisant est situé après la particule génitive, tandis que l’élément défini
+   se situe avant celle-ci. Il s’agit là d’un des nombreux exemples montrant que
+   le  Ñyqy  est  une  langue  dont   la  tête  de  ses  diverses  constructions
+   grammaticales  est finale  et  non  initiale.
+
+   L’exemple n°2  nous montre  la méthode  utilisée en  Ñyqy afin  d’employer le
+   duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
+   infléchir. Ainsi, {{{nyqy(bú qi)}}} peut être considéré comme le pronom personel de
+   la seconde personne du singulier infléchis afin de devenir le pronom personel
+   de la seconde personne du duel.
+
+   Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
+   d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
+   intransitive.  On peut  également  remarquer la  présence  d’un morphème  lié
+   {{{nyqy(qun)}}} dont le rôle est de marquer  un mode pour le verbe, en l’occurrence
+   l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
+   [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
+   d’inflexion des verbes du Ñyqy.
+
+** Inventaire phonologique et translittération
+   :PROPERTIES:
+   :CUSTOM_ID: h-f9f0a2a0-98a6-49d5-b943-98daa6078d3a
+   :END:
+   La phonologie d’une  langue est l’étude des sons qui  la composent, ainsi que
+   l’organisation  et  l’interaction de  ces  derniers  entre  eux. Cela  a  des
+   conséquences importantes,  comme la  caractéristique esthétique sonore  de la
+   langue, ou  bien les  variations possible dans  la prononciation  de certains
+   sons qui peuvent paraître naturelles pour  les locuteurs natifs de la langue,
+   mais  pas nécessairement  pour nous.  Même si  plus personne  ne parle  cette
+   langue actuellement,  il me  semble important pour  les étudiants  de langues
+   anciennes  de pouvoir  associer  des sons  aux divers  mots  et aux  diverses
+   phrases qu’ils rencontreront ;  il s’agit d’une langue, après  tout ! Dans ce
+   chapitre, j’essaierai de présenter ce qui  est connu de la phonologie du Ñyqy
+   afin que l’on puisse se faire une  idée de ce à quoi ressemblait cette langue
+   lorsqu’elle était parlée il y a plusieurs millénaires.
+
+*** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
+    :END:
+    #+NAME: table:vowels:ipa
+    #+CAPTION: Voyelles du Ñyqy (IPA)
+    #+ATTR_LATEX: :placement [htb]
+    |           / |      <      |      <       |
+    |         <r> |     <c>     |     <c>      |
+    |             | antérieures | postérieures |
+    |-------------+-------------+--------------|
+    |     fermées |      y      |      u       |
+    | pré-fermées |      ɪ      |      ʊ       |
+    |  mi-fermées |      ø      |      ɤ       |
+    | mi-ouvertes |      ɛ      |      ɔ       |
+
+    #+NAME: table:vowels:trans
+    #+CAPTION: Voyelles du Ñyqy (translittération)
+    #+ATTR_LATEX: :placement [htb]
+    |         <r> |     <c>     |     <c>      |
+    |           / |      <      |      <       |
+    |             | antérieures | postérieures |
+    |-------------+-------------+--------------|
+    |     fermées |      y      |      ú       |
+    | pré-fermées |      i      |      u       |
+    |  mi-fermées |      é      |      ó       |
+    | mi-ouvertes |      e      |      o       |
+
+    #+NAME: vow-tree
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+      (setq-local nyqy-vowels
+        '("[vowel]"
+          ("[back]"
+           ("[tense]"
+            ("[high]" ("ú"))
+            ("{high}" ("ó")))
+           ("{tense}"
+            ("[high]" ("u"))
+            ("{high}" ("o"))))
+          ("{back}"
+           ("[tense]"
+            ("[high]" ("y"))
+            ("{high}" ("é")))
+           ("{tense}"
+            ("[high]" ("i"))
+            ("{high}" ("e"))))))
+      (conlanging/tree-to-dot nyqy-vowels)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes :cache yes
+      $input
+    #+END_SRC
+    #+NAME: arbre:vowels
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center
+    #+ATTR_LATEX: :float sideways
+    #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
+    #+RESULTS[e1f2ca12b3da614823629b888c369ed0ddf3e4a5]:
+    [[file:img/nyqy/vowel-feature-tree.png]]
+
+*** Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
+    :END:
+    #+NAME: cons-tree
+    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+      (setq-local nyqy-consonants
+        '("[cons]"
+          ("[son]"
+           ("[dor]"
+            ("[high]")
+            ("{high}"))
+           ("{dor}"
+            ("[cor]")
+            ("{cor}")))
+          ("{son}"
+           ("[dor]"
+            ("[voice]"
+             ("[high]")
+             ("{high}"))
+            ("{voice}"
+             ("[high]")
+             ("{high}")))
+           ("{dor}"
+            ("[voice]"
+             ("[cor]")
+             ("{cor}"))
+            ("{voice}"
+             ("[cor]")
+             ("{cor}"))))))
+      (conlanging/tree-to-dot nyqy-consonants)
+    #+END_SRC
+
+    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
+      $input
+    #+END_SRC
+    #+NAME: arbre:cons
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center
+    #+ATTR_LATEX: :float sideways
+    #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
+    #+RESULTS[ea6462370981c1a011d17d703545ec6e6f38f4de]:
+    [[file:img/nyqy/consonant-feature-tree.png]]
+
+    #+NAME: table:cons:ipa
+    #+CAPTION: Consonnes du Ñyqy (IPA)
+    |              <r5> |        <c5>        |        <c5>         |          <c5>           |       <c5>       |       <c5>        |       <c5>        |
+    |                 / |         <          |          <          |            <            |        <         |         <         |         <         |
+    |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
+    |-------------------+--------------------+---------------------+-------------------------+------------------+-------------------+-------------------|
+    |            plosif |        p b         |                     |                         |                  |        q ɢ        |                   |
+    |             nasal |         m          |          n          |                         |                  |         ɴ         |                   |
+    |              tapé |                    |                     |                         |                  |        (ʀ)        |                   |
+    |          fricatif |                    |         s z         |                         |     (x) (ɣ)      |      (χ) (ʁ)      |      (ħ) (ʕ)      |
+    |          affriqué |                    |        t͡ʃ d͡ʒ        |                         |                  |                   |                   |
+    | latérale affriqué |                    |       (ɬ) (ɮ)       |                         |                  |                   |                   |
+    |  latérale spirant |                    |         (l)         |                         |                  |                   |                   |
+    |       approximant |                    |                     |                         |       (j)        |                   |                   |
+    |           spirant |                    |                     |            w            |                  |                   |                   |
+
+    #+NAME: table:cons:trans
+    #+CAPTION: Consonnes du Ñyqy (translittération)
+    |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
+    |        / |         <          |          <          |            <            |         <         |
+    |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
+    |----------+--------------------+---------------------+-------------------------+-------------------|
+    |   plosif |        p b         |                     |                         |        q g        |
+    |    nasal |         m          |          n          |                         |         ñ         |
+    | fricatif |                    |         s z         |                         |                   |
+    | affriqué |                    |         c j         |                         |                   |
+    |  spirant |                    |                     |            w            |                   |
+
+*** Tons et accentuation
+    :PROPERTIES:
+    :CUSTOM_ID: h-69fc0d1e-1375-4048-9775-8aacc4860eb4
+    :END:
+
+*** Translittération
+    :PROPERTIES:
+    :CUSTOM_ID: h-62862440-965c-48c5-affb-25323f466c6b
+    :END:
+    Le Ñyqy étant une langue orale, aucune transcription historique n’en existe.
+    Ainsi, seule  la translittération  présentée ici fait  office d’orthographe,
+    suivant de près  la prononciation. La transcription phonétique  de la langue
+    utilisant l’IPA[fn:3]  est également possible,  mais moins lisible  je pense
+    pour le  lecteur, alors  que la  translittération lui  laissera le  choix de
+    l’accent avec lequel il souhaite lire le Ñyqy.
+
+** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-fec68fe1-478e-46fa-8093-175ad3546347
+   :END:
+*** Structure syllabique
+    :PROPERTIES:
+   :CUSTOM_ID: h-1058e08a-b109-43fa-8371-305685fda023
+   :END:
+    Une syllabe  typique en Mattér se  présente sous la forme  (C)V(CC), avec au
+    moins  une consonne  obligatoire  soit  dans l’attaque  soit  dans le  coda,
+    suivant les règles présentées ci-dessous.
+
+    Une     règle      universelle     fut     déjà      présentée     ci-dessus
+    (§[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]) : deux consonnes  de même qualité
+    dorsale ne  peuvent se suivre, qu’elles  soient séparées par aucune,  une ou
+    plusieurs  voyelles. Ainsi,  les  termes {{{phon(qʊn)}}}  ou  {{{phon(nɔsq)}}} sont  des
+    termes valides selon cette règle, mais  *{{{phon(t͡ʃɔq)}}} ne l’est pas, ce dernier
+    se prononcera {{{phon(t͡ʃɔħ)}}}.
+
+    Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjacentes
+    sans suivre les règles indiquées ci-dessous, alors un schwa est inséré entre
+    ces  deux  consonnes.  Exemple :  /cójm/ est  prononcé  {{{phon(t͡ʃɤɮəʀ)}}}  si  la
+    première consonne n’est pas mutée, sinon le mot est prononcé {{{phon(ɬɤd͡ʒm)}}}.
+
+    L’attaque peut être  composée de n’importe quelle consonne,  tout comme elle
+    ne peut en comporter aucune.
+
+    Le  noyau de  la  syllabe peut  être composé  de  n’importe quelle  voyelle,
+    exceptée  une  voyelle haute  si  la  consonne  précédente est  une  dorsale
+    sonorante haute.
+
+    Les règles du coda sont également simples :
+    - Les consonnes coronales ou hautes  non sonorantes peuvent être suivies par
+      des consonnes non coronales ou non hautes.
+    - Les consonnes  sonorantes, dorsales et  hautes ne peuvent  s’associer avec
+      d’autres consonnes dans le coda.
+
+    Quelques règles  se rajoutent aux  règles précédentes pour les  consonnes se
+    trouvent entre deux syllabes différentes :
+    - Les  consonnes sonorantes  et  non-dorsales peuvent  précéder toute  autre
+      consonne à  la condition que  ces premières fassent  partie du coda  de la
+      première syllabe.
+    - Si deux consonnes coronales non-dorsales se suivent, la seconde prendra le
+      voisement de la  première. Si après cela, la seconde  consonne se retrouve
+      identique  à la  première,  alors  la seconde  devient  silencieuse et  la
+      première devient géminée.
+    - Dans les autres cas, si une règle du coda est applicable entre la dernière
+      consonne de  la première  syllabe et  la première  consonne de  la seconde
+      syllabe, la prononciation est conservée.
+    - Si les règles précédentes ne s’appliquent  pas, il est supposé qu’un schwa
+      est ajouté afin de pouvoir rendre la syllabe prononçable.
+
+*** Allophonie
+    :PROPERTIES:
+   :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
+   :END:
+    Il  existe  relativement  peu  de  règles  allophoniques  connues  en  Ñyqy,
+    cependant quelques unes sont à peu près certaines :
+
+    - C[+dor] / C[+dor]_ > [-dor]
+    - C[-dor] / C[-dor]_ > [+dor]
+
+    Les  deux dernières  règles  reflètent  une règle  générale  du Nyqy :  deux
+    consonnes  ne peuvent  se  suivre si  elles sont  toutes  deux dorsales,  la
+    seconde devant alors changer sa qualité afin  de se soumettre à la règle. Sa
+    qualité haute ou coronale se reflète également lors du changement de qualité
+    dorsale de la  consonne, la qualité /haute/ ou  /coronale/ étant considérées
+    comme    équivalentes    en    Ñyqy.    Vous   pouvez    voir    la    table
+    [[table:mutation:consonants]] qui récapitule les  mutation des consonnes du Ñyqy
+    dû à cette règle.
+
+    #+NAME: table:mutation:consonants
+    #+CAPTION: Table de mutation des consonnes du Ñyqy
+    |        /         |              |   | < |                  |              |
+    |       <c>        |     <c>      |   |   |       <c>        |     <c>      |
+    | [+dor] originale | [-dor] mutée |   |   | [-dor] originale | [+dor] mutée |
+    |------------------+--------------+---+---+------------------+--------------|
+    |        q         |      ħ       |   |   |        p         |      χ       |
+    |        ɢ         |      ʕ       |   |   |        b         |      ʁ       |
+    |        ɴ         |      m       |   |   |        m         |      ʀ       |
+    |        t͡ʃ        |      ɬ       |   |   |        n         |      j       |
+    |        d͡ʒ        |      ɮ       |   |   |        s         |      x       |
+    |        w         |      l       |   |   |        z         |      ɣ       |
+
+    Ainsi, la phrase {{{nyqy(ñe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
+    phrase {{{nyqy(qi bú pim mo coq)}}} se ne prononce pas *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
+
+** Structure des mots
+   :PROPERTIES:
+   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
+   :END:
+
+** Processus phonologiques et morphophonémiques principaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-477abbdc-eab0-4bd4-9d27-c39d9219d1d7
+   :END:
+
+*** Harmonie des consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
+    :END:
+
+** Classes de mots
+   :PROPERTIES:
+   :CUSTOM_ID: h-ca9ceb49-d27e-4f67-bd53-37762ea4f797
+   :END:
+*** Noms
+    :PROPERTIES:
+    :CUSTOM_ID: h-a0195f74-9ac1-417c-8af7-cc329e0efc04
+    :END:
+    Les noms en Ñyqy se réfèrent généralement à des entités définies, comme des
+    objets, des personnes, des concepts ou événements. Contrairement à beaucoup
+    d’autres langues, et du fait de la nature très analytique de la langue, les
+    noms ne supportent aucune caractéristique morphosyntaxique ; ils peuvent
+    cependant s’associer à d’autres éléments du fait de leur nature, notamment
+    grâce à des particules grammaticales.
+
+**** La structure d’un nom
+     :PROPERTIES:
+     :CUSTOM_ID: h-59a8a234-a3d0-4a8b-85f2-66abe231cbe6
+     :END:
+
+**** Dérivations
+     :PROPERTIES:
+     :CUSTOM_ID: h-3609d30d-2c4a-4cc9-9693-80ee16a0292e
+     :END:
+
+**** Inflections
+     :PROPERTIES:
+     :CUSTOM_ID: h-bb4f100b-4f1f-410c-9cf1-81dd86bba054
+     :END:
+
+**** Noms comptables et noms indénombrables
+     :PROPERTIES:
+     :CUSTOM_ID: h-31004fed-3cf7-4b7d-a4d2-88e38843c3d0
+     :END:
+
+**** Noms propres
+     :PROPERTIES:
+     :CUSTOM_ID: h-f093f96b-9501-456a-93a8-19709bd2b3cf
+     :END:
+
+*** Pronoms et clitiques anaphoriques
+    :PROPERTIES:
+    :CUSTOM_ID: h-94456c13-5082-4c98-86d4-011be90cbc78
+    :END:
+
+**** Pronoms personnels
+     :PROPERTIES:
+     :CUSTOM_ID: h-7c2642e5-e813-4b7e-ad82-933c997914bc
+     :END:
+
+**** Pronoms démonstratifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-d5c2c839-0ac4-4aad-9efd-5ae2635c85f2
+     :END:
+
+*** Verbes
+    :PROPERTIES:
+    :CUSTOM_ID: h-26aa65ba-2694-4c63-bf91-258dad3b0430
+    :END:
+
+**** Structure verbale
+     :PROPERTIES:
+     :CUSTOM_ID: h-adfce8d6-1a7a-4cb8-b6cb-97ea1c1c448b
+     :END:
+
+**** Dérivations verbales
+     :PROPERTIES:
+     :CUSTOM_ID: h-d24313ab-d25e-4057-92fc-539a35148646
+     :END:
+
+**** Inflections verbales
+     :PROPERTIES:
+     :CUSTOM_ID: h-a93f1630-eeff-4e33-aa34-7c75b4b83e0e
+     :END:
+
+*** Modifieurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-28acd155-bd9c-4eeb-9a2d-367f70b164b2
+    :END:
+
+**** Adjectifs descriptifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-e8c91c51-ccd6-4f05-9948-454f3154e297
+     :END:
+
+**** Quantifieurs non-numéraux
+     :PROPERTIES:
+     :CUSTOM_ID: h-782d5ae9-c047-4f53-b20c-7b7f732e4e8a
+     :END:
+
+**** Numéraux
+     :PROPERTIES:
+     :CUSTOM_ID: h-8b121d9f-4e6f-4e82-b50b-835fd94feb5c
+     :END:
+
+**** Adverbes
+     :PROPERTIES:
+     :CUSTOM_ID: h-863bc9c8-da03-4c1f-b80a-d4668d4c3294
+     :END:
+
+*** Adpositions
+    :PROPERTIES:
+    :CUSTOM_ID: h-fc26dc39-cc85-4f94-b942-65e6cbf1d98a
+    :END:
+
+*** Particules grammaticales
+    :PROPERTIES:
+    :CUSTOM_ID: h-d5d00396-a8d7-409f-a34e-d457013248d9
+    :END:
+
+** Typologie de l’ordre des constituants
+   :PROPERTIES:
+   :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
+   :END:
+   Le Ñyqy est une langue dont sa tête de groupement grammaticaux tend à être en
+   dernière position.
+
+   #+NAME: basic-syntax-tree
+   #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+     (setq-local nyqy-syntax-tree
+                 '("S"
+                   ("Obl")
+                   ("S'"
+                    ("NPerg"
+                     ("NP"))
+                    ("VP"
+                     ("NPdat"
+                      ("NP"))
+                     ("VP'"
+                      ("NPabs"
+                       ("NP"
+                        ("S")
+                        ("NP'"
+                         ("Adj")
+                         ("N"))))
+                      ("V'"
+                       ("Mood")
+                       ("Tense")
+                       ("V")
+                       ("Neg")))))))
+     (conlanging/tree-to-dot nyqy-syntax-tree)
+   #+END_SRC
+
+   #+RESULTS[24286e618306da25dc9283fdc01819e3b5d77394]: basic-syntax-tree
+   : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Obl"];0 -- 1;2[label="S'"];0 -- 2;21[label="NPerg"];2 -- 21;211[label="NP"];21 -- 211;22[label="VP"];2 -- 22;221[label="NPdat"];22 -- 221;2211[label="NP"];221 -- 2211;222[label="VP'"];22 -- 222;2221[label="NPabs"];222 -- 2221;22211[label="NP"];2221 -- 22211;222111[label="S"];22211 -- 222111;222112[label="NP'"];22211 -- 222112;2221121[label="Adj"];222112 -- 2221121;2221122[label="N"];222112 -- 2221122;2222[label="V'"];222 -- 2222;22221[label="Mood"];2222 -- 22221;22222[label="Tense"];2222 -- 22222;22223[label="V"];2222 -- 22223;22224[label="Neg"];2222 -- 22224;}
+
+   #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes :cache yes
+     $input
+   #+END_SRC
+   #+NAME: arbre:syntaxe:basique
+   #+attr_html: :alt Arbre de syntaxe basique du Ñyqy
+   #+CAPTION: Arbre de syntaxe basique du Ñyqy
+   #+RESULTS[f610dcdc0787e77f58af7974f394c881f032f96a]:
+   [[file:img/nyqy-basic-syntax.png]]
+
+   On voit grâce à l’arbre [[arbre:syntaxe:basique]] que la structure générale d’une
+   phrase démarre avec  des éléments divers liés à la  clause principale, qui ne
+   se rapportent au verbe ni par une relation ergative, ni absolutive ni dative.
+   Ensuite  vient la  phrase nominale  ergative, suivie  par la  phrase nominale
+   dative, puis  la phrase  verbale. Cette  dernière se  constitue de  la phrase
+   nominale absolutive, suivie par le verbe,  lui-même composé par son mode, son
+   temps, le verbe lui-même et sa négation.
+
+*** Clauses principales
+    :PROPERTIES:
+    :CUSTOM_ID: h-76ccdf86-f9b5-4cee-82cf-52254848a449
+    :END:
+
+*** Phrases verbales
+    :PROPERTIES:
+    :CUSTOM_ID: h-e259aa87-569f-4ce7-8caf-05b9cbd77c1b
+    :END:
+
+*** Phrases nominales
+    :PROPERTIES:
+    :CUSTOM_ID: h-90885dd9-8c81-498b-a476-dd7262b8f61a
+    :END:
+
+*** Phrases adpositionelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-4079ffcb-f870-401c-a229-3c2b52774650
+    :END:
+
+*** Comparatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-7b89a3fd-dacc-4a7b-b6ba-7b4072261887
+    :END:
+
+*** Questions
+    :PROPERTIES:
+    :CUSTOM_ID: h-2bc6bce7-960e-47ed-9c5b-fe440ff7f096
+    :END:
+
+*** Résumé
+    :PROPERTIES:
+    :CUSTOM_ID: h-60bc5529-151f-44f9-8d6c-6ddea77b5b94
+    :END:
+
+** Structure d’un groupe nominal
+   :PROPERTIES:
+   :CUSTOM_ID: h-925c4d09-5d24-4b49-b00d-23f989aa93a3
+   :END:
+
+** Structure d’un groupe verbal
+   :PROPERTIES:
+   :CUSTOM_ID: h-3db4f84f-25d4-469f-9743-9920e0aa40e0
+   :END:
+
+** Prédicats nominaux et constructions similaires
+   :PROPERTIES:
+   :CUSTOM_ID: h-af6bdf77-7bd1-462c-a9ef-80a2bc5fbf96
+   :END:
+
+*** Prédicats nominaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-1a0fc190-c840-46d2-8ff0-718efc003534
+    :END:
+
+*** Prédicats adjectivaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-2998d21d-1a0a-441d-84c2-8a03b61c3d14
+    :END:
+
+*** Prédicats locatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-71c1cd9a-0431-47f9-9261-6347c37a6745
+    :END:
+
+*** Prédicats existentiels
+    :PROPERTIES:
+    :CUSTOM_ID: h-90aa44ee-7cd5-4421-84de-e8b967afbe0a
+    :END:
+
+*** Clauses possessives
+    :PROPERTIES:
+    :CUSTOM_ID: h-1da23469-a4c9-4ad9-a5f8-f2866548c492
+    :END:
+
+** Clauses intransitives
+   :PROPERTIES:
+   :CUSTOM_ID: h-382fdfd8-fd02-4902-8c08-1f0cc3012f75
+   :END:
+
+** Clauses transitives
+   :PROPERTIES:
+   :CUSTOM_ID: h-a5f60077-7709-496e-a811-e88d90a30cc7
+   :END:
+
+** Clauses ditransitives
+   :PROPERTIES:
+   :CUSTOM_ID: h-852808cb-7259-4f50-b6ec-bdc7a5ae4033
+   :END:
+
+** Clauses de type dépendant
+   :PROPERTIES:
+   :CUSTOM_ID: h-2fcea5e4-e67e-465d-a0b9-a44eecdabb20
+   :END:
+
+*** Non-fini
+    :PROPERTIES:
+    :CUSTOM_ID: h-ca1b2ac2-26a3-45b2-bca9-ffb4fd290662
+    :END:
+
+*** Semi-fini
+    :PROPERTIES:
+    :CUSTOM_ID: h-23ca6c77-b4ab-4f93-a052-cd85509e71d3
+    :END:
+
+*** Fini
+    :PROPERTIES:
+    :CUSTOM_ID: h-96506f26-b92e-45e0-a1b5-0f27dae98e31
+    :END:
+
+* Système fonctionnel
+  :PROPERTIES:
+  :CUSTOM_ID: h-ad15e52b-bc94-4b33-8629-02848b53cee7
+  :END:
+** Relations grammaticales
+   :PROPERTIES:
+   :CUSTOM_ID: h-ddc93b4c-8a5b-4833-82f5-bb8951d5a0b4
+   :END:
+   Il  existe   de  façon  universelle   deux  types  de  verbes :   les  verbes
+   intransitifs, et les  verbes transitifs. Ces premiers ne  prennent qu’un seul
+   argument  obligatoire, un  expérienceur –noté  « S »–, alors  que les  verbes
+   transitifs prennent deux arguments obligatoires : l’agent –noté A– effectuant
+   souvent l’action,  et le patient –noté  P– étant souvent l’objet  affecté par
+   l’action. Par exemple :
+   - Je dors.
+
+     Verbe intransitif, « je » est expérienceur S.
+
+   - Je mange une pomme.
+
+     Verbe transitif, « je » est agent A, et « pomme » est patient P.
+
+   Dans la majorité des langues du  monde, et dans la quasi-totalité des langues
+   européennes (le Basque  étant la seule exception),  l’expérienceur et l’agent
+   sont  traités  quasiment  tout  le   temps  à  l’identique,  formant  le  cas
+   grammatical  (souvent non  marqué) s’opposant  au cas  accusatif marquant  le
+   patient, traité différemment.
+
+   À  la  différence des  langues  européennes,  le  Ñyqy  est une  langue  dite
+   « ergative » ;  cela signifie  que ses  différents groupes  nominaux ont  une
+   relation  grammaticale  envers  leurs  verbes  basée  sur  l’association  des
+   expérienceurs et des  patients, avec l’agent traité  différemment. Ce premier
+   regroupement S  et P est alors  appelé « cas absolutif » alors  que le second
+   est le « cas ergatif ».
+
+   Ainsi,  comme nous  le verrons  dans le  chapitre sur  la syntaxe,  l’élément
+   absolutif restera en  permanence en contact direct avec le  verbe, tandis que
+   l’élément  ergatif  les précédera,  et  pourra  même  être séparé  du  couple
+   absolutif-verbe par des éléments datifs. Exemple :
+   - {{{nyqy(qy-0 qój)}}}
+
+     1sg-ABS dormir
+
+     Je dors
+
+   - {{{nyqy(qy-0 pim-0 coq)}}}
+
+     1sg-ERG pomme-ABS manger
+
+     Je mange une pomme.
+
+   En  revanche,  le Ñyqy  utilise  un  pivot  nominatif entre  ses  différentes
+   clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
+   subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
+   l’argument S ou A du verbe. Exemple :
+   - {{{nyqy(qy-0 pim-0 coq. nócpi qój.)}}}
+
+     1sg-ERG pomme-ABS manger. ensuite dormir.
+
+     Je mange une pomme, puis (je) dors.
+
+** Constructions liées aux voix et à la valence
+   :PROPERTIES:
+   :CUSTOM_ID: h-af67335a-55e0-491c-8be1-a39e6cd80a6d
+   :END:
+
+*** Causatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-2618d8eb-9c64-4308-a386-c8f426759953
+    :END:
+
+*** Applicatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-827551d4-b24a-4d53-b71a-6ceb9a446e74
+    :END:
+
+*** Reflexifs et réciproquaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-3a6fd3ce-0ca2-4b90-8a35-b9ac2c4aa921
+    :END:
+
+*** Passif
+    :PROPERTIES:
+    :CUSTOM_ID: h-5bf5bdc8-6a4b-4e45-a155-04abfc32645f
+    :END:
+
+*** Inverses
+    :PROPERTIES:
+    :CUSTOM_ID: h-672b9408-8478-43af-8663-65106be88a41
+    :END:
+
+*** Démotion et omission d’objet
+    :PROPERTIES:
+    :CUSTOM_ID: h-c2176fd9-b4a7-40bb-b411-9c6d86c85561
+    :END:
+
+*** Incorporation d’objet
+    :PROPERTIES:
+    :CUSTOM_ID: h-09acd58c-5c32-4426-9e67-9a01c0db01dc
+    :END:
+
+** Nominalisation
+   :PROPERTIES:
+   :CUSTOM_ID: h-fe28b97b-5298-4558-ac69-141a96c87827
+   :END:
+
+*** Nominalisation d’action
+    :PROPERTIES:
+    :CUSTOM_ID: h-cb2ecaf9-7bef-4583-8bfd-d6f58a315b1d
+    :END:
+
+*** Nominalisation de participants
+    :PROPERTIES:
+    :CUSTOM_ID: h-b684c923-a567-4e31-b752-bceeeb0ff202
+    :END:
+
+**** Nominalisation d’agent
+     :PROPERTIES:
+     :CUSTOM_ID: h-ff6d145d-fd8d-4423-b9f5-064cf9e1a1ac
+     :END:
+
+**** Nominalisation de patient
+     :PROPERTIES:
+     :CUSTOM_ID: h-d0d91161-3748-4768-8990-b2d545fb397b
+     :END:
+
+**** Nominalisation d’instrument
+     :PROPERTIES:
+     :CUSTOM_ID: h-033007d8-05a7-4a0e-a8da-ce922ac46f13
+     :END:
+
+**** Nominalisation de lieux
+     :PROPERTIES:
+     :CUSTOM_ID: h-68161483-4469-43c3-b84c-24f50db51ffe
+     :END:
+
+**** Nominalisation de produit
+     :PROPERTIES:
+     :CUSTOM_ID: h-a7454e14-0dcb-4cf0-adc7-d44080f5f848
+     :END:
+
+**** Nominalisation de façon de faire
+     :PROPERTIES:
+     :CUSTOM_ID: h-11d9a04b-7fe3-4796-bc7e-fc19cd9fee7f
+     :END:
+
+** Temps, aspects, modes
+   :PROPERTIES:
+   :CUSTOM_ID: h-f500dde8-de1c-41e7-bcfa-2f35353dd1fb
+   :END:
+
+*** Temps
+    :PROPERTIES:
+    :CUSTOM_ID: h-d6c519b5-30fd-4812-a9fc-7a32feafa28f
+    :END:
+
+*** Aspects
+    :PROPERTIES:
+    :CUSTOM_ID: h-c59c6a50-d662-4fc1-954f-3cf3cff38c4f
+    :END:
+
+*** Modes
+    :PROPERTIES:
+    :CUSTOM_ID: h-a2e5515b-ea84-446b-99a7-d3924624925a
+    :END:
+
+** Structures marquées pragmaticallement
+   :PROPERTIES:
+   :CUSTOM_ID: h-53119c8d-f658-4d25-ba99-b83c2f7b1141
+   :END:
+
+*** Variation d’ordre des constituents
+    :PROPERTIES:
+    :CUSTOM_ID: h-96b5098a-1978-4c3f-80a4-701c092094b7
+    :END:
+
+*** Particules contrastives ou emphatiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-89e9cd31-86ed-48bf-a008-602430bcf0ce
+    :END:
+
+*** Modèle d’intonations contrastives ou emphatiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-c0e68a68-7310-461d-976d-93347cf8b73e
+    :END:
+
+*** Négation
+    :PROPERTIES:
+    :CUSTOM_ID: h-6a646498-d723-45b2-9e6b-2504130ea1ad
+    :END:
+
+*** Questions
+    :PROPERTIES:
+    :CUSTOM_ID: h-67bd057c-f2cb-4cd0-8421-9188ed37b443
+    :END:
+
+**** Questions absolues
+     :PROPERTIES:
+     :CUSTOM_ID: h-51d5c4b8-3530-4f48-9d84-95cac67df00d
+     :END:
+
+**** Questions relatives
+     :PROPERTIES:
+     :CUSTOM_ID: h-0b88c67d-3dc2-4b7c-9e10-41fedff292c1
+     :END:
+
+*** Impératif
+    :PROPERTIES:
+    :CUSTOM_ID: h-38810677-b444-48fb-9d2a-3a83b482eb50
+    :END:
+
+** Combinaison de clauses
+   :PROPERTIES:
+   :CUSTOM_ID: h-750f8ccc-c3aa-4e6d-b553-344645ad14fb
+   :END:
+
+*** Verbes de série
+    :PROPERTIES:
+    :CUSTOM_ID: h-197ca667-84c4-4701-8b84-e12498940db8
+    :END:
+
+*** Clauses complémentaires
+    :PROPERTIES:
+    :CUSTOM_ID: h-39f3fd70-aff6-4bbf-99d9-e84d720afe6c
+    :END:
+
+*** Clauses adverbiales
+    :PROPERTIES:
+    :CUSTOM_ID: h-c05e3ae9-2880-4454-9027-53ad1cfb3975
+    :END:
+
+*** Enchaînement de clauses
+    :PROPERTIES:
+    :CUSTOM_ID: h-375bb375-7848-4da8-910f-25679b447bc0
+    :END:
+
+*** Clauses relatives
+    :PROPERTIES:
+    :CUSTOM_ID: h-bf2f8f43-92b4-486f-8e0a-24694ba445c1
+    :END:
+
+*** Coordination
+    :PROPERTIES:
+    :CUSTOM_ID: h-b8957545-ba37-47eb-a548-2a17968b290b
+    :END:
+
+** Utilisation de la langue
+   :PROPERTIES:
+   :CUSTOM_ID: h-14a41a5a-efa4-492e-967b-35011ea0628c
+   :END:
+
+*** Typologie lexicale
+    :PROPERTIES:
+    :CUSTOM_ID: h-285839a4-cc7c-435d-ba58-1600ca3f48f0
+    :END:
+
+**** Espace, direction et mouvement
+     :PROPERTIES:
+     :CUSTOM_ID: h-78bafe65-0cf5-49a4-aab5-fb5deb266015
+     :END:
+
+**** Causation
+     :PROPERTIES:
+     :CUSTOM_ID: h-84a756d2-ba4f-41a9-9496-40fa88259f9e
+     :END:
+
+**** Perspective
+     :PROPERTIES:
+     :CUSTOM_ID: h-f32373d9-9208-4f8c-a79c-b9a2cf1afce9
+     :END:
+
+*** Continuité et discontinuité
+    :PROPERTIES:
+    :CUSTOM_ID: h-89cae237-f281-4796-95a0-e0a48c368d01
+    :END:
+
+**** Continuité de sujet référenciel
+     :PROPERTIES:
+     :CUSTOM_ID: h-3a6784ba-3b39-4539-aeeb-a56d298649cd
+     :END:
+
+**** Continuité thématique
+     :PROPERTIES:
+     :CUSTOM_ID: h-621fd045-3082-4574-853b-89885f6a3b69
+     :END:
+
+**** Continuité d’action
+     :PROPERTIES:
+     :CUSTOM_ID: h-0b6b8ce5-367e-4502-af63-80ff14a10e4c
+     :END:
+
+* Annexes
+  :PROPERTIES:
+  :CUSTOM_ID: h-59ac4fcd-251d-492e-a73d-e33376457058
+  :END:
+** Textes avec traduction interlinéaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-a0d083dc-a30f-47eb-8d24-cde1c259d9d9
+   :END:
+
+** Dictionnaire
+   :PROPERTIES:
+   :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
+   :END:
+
+** Nombres
+   :PROPERTIES:
+   :CUSTOM_ID: h-397983ed-28e5-44c3-afb9-04403aa52e2a
+   :END:
+   Les locuteurs du Ñyqy comptaient dans un mélange de base 6 pour les unités et
+   de base 13 pour le reste.
+
+   |  <c5>  |             <c5>             |          <c5>           |
+   |   /    |              <>              |           <>            |
+   | nombre | nombre (représentation ñyqy) |          ñyqy           |
+   |--------+------------------------------+-------------------------|
+   |   0    |              0               |        {{{nyqy(pe)}}}         |
+   |   1    |              1               |        {{{nyqy(mi)}}}         |
+   |   2    |              2               |        {{{nyqy(qi)}}}         |
+   |   3    |              3               |        {{{nyqy(né)}}}         |
+   |   4    |              4               |        {{{nyqy(gé)}}}         |
+   |   5    |              5               |        {{{nyqy(co)}}}         |
+   |   6    |             1-0              | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
+   |   7    |             1-1              |       {{{nyqy(ñy mi)}}}       |
+   |   8    |             1-2              |       {{{nyqy(ñy qi)}}}       |
+   |   9    |             1-3              |       {{{nyqy(ñy né)}}}       |
+   |   10   |             1-4              |       {{{nyqy(ñy gé)}}}       |
+   |   11   |             1-5              |       {{{nyqy(ñy co)}}}       |
+   |   12   |             2-0              |       {{{nyqy(qi ñy)}}}       |
+   |   18   |             3-0              |       {{{nyqy(né ñy)}}}       |
+   |   24   |             4-0              |       {{{nyqy(gé ñy)}}}       |
+   |   30   |             5-0              |       {{{nyqy(co ñy)}}}       |
+   |   36   |             6-0              |     {{{nyqy(pe ñy ñy)}}}      |
+   |   42   |             7-0              |     {{{nyqy(mi ñy ñy)}}}      |
+   |   48   |             8-0              |     {{{nyqy(qi ñy ñy)}}}      |
+   |   54   |             9-0              |     {{{nyqy(né ñy ñy)}}}      |
+   |   60   |             a-0              |     {{{nyqy(gé ñy ñy)}}}      |
+   |   66   |             b-0              |     {{{nyqy(co ñy ñy)}}}      |
+   |   72   |            1-0-0             | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
+   |  216   |            6-0-0             |     {{{nyqy(pe mó mó)}}}      |
+   |  864   |           1-0-0-0            | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
+   |  1296  |          1-0-0-0-0           |        {{{nyqy(gec)}}}        |
+   |  7776  |         1-0-0-0-0-0          |       {{{nyqy(cójm)}}}        |
+   | 46656  |        1-0-0-0-0-0-0         |        {{{nyqy(ñuñ)}}}        |
+
+   Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
+   grandeur est répété  afin d’ajouter cinq au  multiplicateur, permettant ainsi
+   une base treize pour ce qui n’est pas des unités.
+
+   Pour convertir en base dix un  chiffre Ñyqy, voici comment faire : les unités
+   sont conservées  telles quelles, et  pour chaque équivalent de  dizaines, que
+   j’appellerai sixaines, les multiplier par six  à la puissance de son décalage
+   par rapport aux unités. Par exemple le nombre <gé si co mó mó ñy qi> ({{{phon(ɢe
+   sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
+
+   |     <c>     |      <c>       |   <c>    |   <c>    |
+   | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ñy)}}} | {{{nyqy(qi)}}} |
+   |   4×6^{3}   |    5×6^{2}     | 1×6^{1}  | 2×6^{0}  |
+   |    4×216    |      5*36      |   1×6    |   2×1    |
+   |     864     |      180       |    6     |    2     |
+
+   Ce qui donne donc 1052.
+
+** Références
+   :PROPERTIES:
+   :CUSTOM_ID: h-39866d3e-b4f9-4885-8581-53f7342ddf0c
+   :END:
+* Footnotes
+  :PROPERTIES:
+  :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
+  :END:
+
+[fn:4] https://en.wikipedia.org/wiki/Interlinear_gloss
+
+[fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
+
+[fn:2] [[https://phundrak.fr]]
+
+[fn:1] https://langue.phundrak.fr
