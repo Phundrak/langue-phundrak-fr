@@ -1,9 +1,9 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Une Grammaire du Ňyqy
+#+TITLE: Une Grammaire du Ñyqy
 #+include: headers/head-lvl0.org
-#+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ňyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ñyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ñyqy" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="./css/nyqy.css"/>
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
@@ -12,8 +12,8 @@
 #+NAME: wordgen-backup
 #+BEGIN_SRC text :exports none
   --CATEGORIES--
-  A=qgcjňmnszpbw
-  B=qgcjňmnszpb
+  A=qgcjñmnszpbw
+  B=qgcjñmnszpb
   V=óéoe
   W=úuyi
   C=jczs
@@ -90,7 +90,7 @@
    qui peut  être sujet  à des  mises à jours  dans le  futur. Seul  le chapitre
    actuel et le chapitre suivant seront rédigés en dehors de ce style.
 
-** Introduction sur le Ňyqy en tant que langue construite
+** Introduction sur le Ñyqy en tant que langue construite
    :PROPERTIES:
    :CUSTOM_ID: h-8aa14ca5-6a1c-4e03-b30a-75bd90452308
    :END:
@@ -121,17 +121,17 @@
    avec  ses irrégularités  qui  lui  sont propres,  ou  bien  créer une  langue
    prototype de laquelle de nouvelles langues seront créées.
 
-   Le {{{nyqy(Ňyqy)}}} n’a  pas aspiration à être une langue  ayant un aspect naturel.
+   Le {{{nyqy(Ñyqy)}}} n’a  pas aspiration à être une langue  ayant un aspect naturel.
    Il n’a pas non plus aspiration à être une langue particulièrement complète ou
    riche, il  n’a pas aspiration  à être parlé  par des êtres  formidables d’une
-   série  télévisée. Le  {{{nyqy(Ňyqy)}}}  n’a  qu’une aspiration :  être  une de  ces
+   série  télévisée. Le  {{{nyqy(Ñyqy)}}}  n’a  qu’une aspiration :  être  une de  ces
    langues  prototypes,  ou  proto-lang,  créée  /a  priori/,  et  sur  laquelle
    reposeront d’autres langues ayant évoluées  des bases que posera cette langue
    source.  Quelques  règles   seront  insérées  afin  de   donner  un  semblant
-   d’irrégularité ou de naturalisme au  Ňyqy, mais ces règles resteront simples,
+   d’irrégularité ou de naturalisme au  Ñyqy, mais ces règles resteront simples,
    à l’instar de ses autres règles grammaticales.
 
-** Introduction sur le Ňyqy
+** Introduction sur le Ñyqy
    :PROPERTIES:
    :CUSTOM_ID: h-ad4d6a0c-e05b-4c28-98c6-baec9e843e96
    :END:
@@ -157,14 +157,14 @@
 
    Nous avons aujourd’hui un point où il  nous est possible d’oser imaginer ce à
    quoi pouvait ressembler les formes les plus anciennes de civilisation grâce à
-   l’une des plus anciennes langues qui nous soit connues, le {{{nyqy(Ňyqy)}}}, langue
+   l’une des plus anciennes langues qui nous soit connues, le {{{nyqy(Ñyqy)}}}, langue
    mère de plus de  la moitié des langues du monde, parlée il  y a entre huit et
    onze  mille ans  dans  l’un  des berceaux  de  notre civilisation.  Plusieurs
    illustres  collègues  ont   déjà  travaillé  sur  cette  langue   et  sur  sa
    reconstruction, et ont fait des progrès fabuleux sur cette langue légendaire.
    J’ai moi-même  pu assister  certains de ces  collègues dans  leurs recherche.
    Cependant, cette implication  m’a amené à une  réalisation cruciale : jusqu’à
-   présent, quelqu’un intéressé  par le Ňyqy ne pouvait facilement  accéder à un
+   présent, quelqu’un intéressé  par le Ñyqy ne pouvait facilement  accéder à un
    condensé  des résultats  des  recherches existantes,  présents  en un  unique
    ouvrage se présentant comme une grammaire technique de la langue. Ainsi, j’ai
    entrepris de la  rédiger dans cet ouvrage dans l’espoir  que cela facilite la
@@ -193,7 +193,7 @@
    :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
    :END:
 
-* La culture, l’histoire, le contexte sociolinguistique du Ňyqy
+* La culture, l’histoire, le contexte sociolinguistique du Ñyqy
   :PROPERTIES:
   :CUSTOM_ID: h-362fe960-94ae-42e2-8db3-54d52c7de175
   :END:
@@ -209,28 +209,28 @@
 
    Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
    probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
-   également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ňyqy)}}}  pour se
+   également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ñyqy)}}}  pour se
    désigner lui-même, mais nous disposons de  trop peu de preuve afin de pouvoir
    affirmer cela avec certitude. Le  terme s’analyse en deux morphèmes basiques,
-   {{{nyqy(ňy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ňy)}}}  est le pronom personel du singulier,
+   {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ñy)}}}  est le pronom personel du singulier,
    et  {{{nyqy(qy)}}}  qui le  suit  a  plusieurs  utilisations,  le chiffre  /6/  (le
-   {{{nyqy(Ňyqy)}}} est  une langue dont le  système numérique est un  système hybride
+   {{{nyqy(Ñyqy)}}} est  une langue dont le  système numérique est un  système hybride
    entre  une  base  six  et  une   base  treize)  ou  bien  la  pluralité,  ici
-   infléchissant le {{{nyqy(ňy)}}} afin de former la première personne du pluriel.
+   infléchissant le {{{nyqy(ñy)}}} afin de former la première personne du pluriel.
 
    Il est à noter que le nom  de cette langue est traditionellement écrite en un
    seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
    mauvaise habitude : chaque élément peut être analysé individuellement et peut
-   donc être  considéré comme  mots séparés,  d’où la  néographie « Ňy  Qy » que
+   donc être  considéré comme  mots séparés,  d’où la  néographie « Ñy  Qy » que
    certains  de  mes  collègues  utilisent, tentant  de  corriger  cette  erreur
    maintenant multi-centenaire. Bien que je salue leur initiative je continuerai
-   de nommer cette langue  « Ňyqy » dans cet ouvrage afin de  suivre la norme et
+   de nommer cette langue  « Ñyqy » dans cet ouvrage afin de  suivre la norme et
    afin de  ne pas  rendre confus certaines  personnes n’ayant  jamais rencontré
    cette néographie, et je présente mes excuses à ces collègues.
 
-   Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ňyqy », ou
-   « proto  Ňy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
-   l’abscence totale d’autres langues  nommées « Ňyqy ». Elle n’est généralement
+   Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ñyqy », ou
+   « proto  Ñy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
+   l’abscence totale d’autres langues  nommées « Ñyqy ». Elle n’est généralement
    utilisée que  si le  locuteur souhaite  insister sur la  nature de  la langue
    comme langue mère de sa famille.
 
@@ -238,7 +238,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
    :END:
-   Comme  mentionné plus  tôt,  le Ňyqy  est l’objet  depuis  fort longtemps  de
+   Comme  mentionné plus  tôt,  le Ñyqy  est l’objet  depuis  fort longtemps  de
    recherches linguistiques,  tout d’abord par des  linguistes hélas aujourd’hui
    anonymes ayant  vécus lors de  l’Ère précédente. Leurs  connaissances étaient
    sans  doute  beaucoup  plus  vastes  que ce  que  nous  avons  pu  récupérer,
@@ -248,7 +248,7 @@
    archéologique.
 
    Ces premières  recherches, une  fois traduites,  ont servi  de base  aux deux
-   derniers  siècles de  recherche  en  direction du  Ňyqy,  avec notamment  les
+   derniers  siècles de  recherche  en  direction du  Ñyqy,  avec notamment  les
    recherches du Pr Loqbrekh (3489) le siècle dernier qui a réalisé d’importants
    progrès  sur l’étude  de  cette langue  grâce à  l’addition  de l’analyse  du
    Énanonn, ainsi que  les études du Pr Khorlan  (3598) qui, il y a  cinq ans, a
@@ -260,13 +260,13 @@
    :PROPERTIES:
    :CUSTOM_ID: h-dec628cc-50e8-4370-889d-e54b2a2e2280
    :END:
-   Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ňyqy. Pour plus
-   de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ňyqy/  de
+   Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ñyqy. Pour plus
+   de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ñyqy/  de
    K. Yerth, 3404. Un avertissement est tout de même nécessaire :
 
    #+BEGIN_QUOTE
    Nous n’avons  que très peu  de preuves et  témoignages directs sur  le peuple
-   Ňyqy  autre que  par les  ouvrages des  scientifiques de  l’Ère ancienne,  et
+   Ñyqy  autre que  par les  ouvrages des  scientifiques de  l’Ère ancienne,  et
    actuellement  par  les recherches  linguistiques  faites  par des  chercheurs
    contemporains à cet ouvrage. Par conséquent, même si les anciens paraissaient
    très confiants dans  leurs découvertes, il nous est  impossible d’affirmer ce
@@ -282,7 +282,7 @@
    — K. Yerth
    #+END_QUOTE
 
-   Le peuple Ňyqy  était un peuple vivant dans l’actuel  Rhésode, dans la vallée
+   Le peuple Ñyqy  était un peuple vivant dans l’actuel  Rhésode, dans la vallée
    du Mojhal.  Son cœur  économique se  situait selon  toutes évidences  dans le
    delta  du fleuve  Mojhal, où  la première  forme de  civilisation connue  est
    apparue.   Leur   activité   principale  était   basée   principalement   sur
@@ -307,7 +307,7 @@
    exemple  si il  s’agit  d’une  famille de  riches  marchands  ou une  famille
    détenant un pouvoir militaire.
 
-   Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ňyqy
+   Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ñyqy
    pratiquaient leur religion polythéïste. Il est cependant impossible de savoir
    s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
    Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
@@ -322,18 +322,18 @@
   :PROPERTIES:
   :CUSTOM_ID: h-6e72a430-ce27-41ab-b2a6-4b8f54c2a2d3
   :END:
-** Esquisse typologique du Ňyqy
+** Esquisse typologique du Ñyqy
    :PROPERTIES:
    :CUSTOM_ID: h-e2f22e3c-6069-4881-a3e2-3d319e434fb7
    :END:
-   Le  Ňyqy  est une  langue  qui  apparaît  comme étant  fortement  analytique,
+   Le  Ñyqy  est une  langue  qui  apparaît  comme étant  fortement  analytique,
    reposant principalement sur  sa syntaxe afin d’exprimer sa  grammaire et très
    peu  sur  des  règles  morphologiques.   La  large  majorité  des  mots  sont
    monosyllabiques ou bisyllabiques, et  les phrases s’articulent souvent autour
    de morphèmes liés  monosyllabiques que l’on peut interpréter  comme étant des
-   particules  grammaticales.  Voici  un  exemple  de phrase  en  Ňyqy  avec  sa
+   particules  grammaticales.  Voici  un  exemple  de phrase  en  Ñyqy  avec  sa
    traduction et son détail grammatical :
-   1. {{{nyqy(ňe pom qy)}}}
+   1. {{{nyqy(ñe pom qy)}}}
 
       maison GEN 1sg
 
@@ -356,10 +356,10 @@
    afin  d’exprimer  une  possession.  On  peut  également  voir  que  l’élément
    définisant est situé après la particule génitive, tandis que l’élément défini
    se situe avant celle-ci. Il s’agit là d’un des nombreux exemples montrant que
-   le  Ňyqy  est  une  langue  dont   la  tête  de  ses  diverses  constructions
+   le  Ñyqy  est  une  langue  dont   la  tête  de  ses  diverses  constructions
    grammaticales  est finale  et  non  initiale.
 
-   L’exemple n°2  nous montre  la méthode  utilisée en  Ňyqy afin  d’employer le
+   L’exemple n°2  nous montre  la méthode  utilisée en  Ñyqy afin  d’employer le
    duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
    infléchir. Ainsi, {{{nyqy(bú qi)}}} peut être considéré comme le pronom personel de
    la seconde personne du singulier infléchis afin de devenir le pronom personel
@@ -371,7 +371,7 @@
    {{{nyqy(qun)}}} dont le rôle est de marquer  un mode pour le verbe, en l’occurrence
    l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
    [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
-   d’inflexion des verbes du Ňyqy.
+   d’inflexion des verbes du Ñyqy.
 
 ** Inventaire phonologique et translittération
    :PROPERTIES:
@@ -386,7 +386,7 @@
    langue actuellement,  il me  semble important pour  les étudiants  de langues
    anciennes  de pouvoir  associer  des sons  aux divers  mots  et aux  diverses
    phrases qu’ils rencontreront ;  il s’agit d’une langue, après  tout ! Dans ce
-   chapitre, j’essaierai de présenter ce qui  est connu de la phonologie du Ňyqy
+   chapitre, j’essaierai de présenter ce qui  est connu de la phonologie du Ñyqy
    afin que l’on puisse se faire une  idée de ce à quoi ressemblait cette langue
    lorsqu’elle était parlée il y a plusieurs millénaires.
 
@@ -395,7 +395,7 @@
     :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
     :END:
     #+NAME: table:vowels:ipa
-    #+CAPTION: Voyelles du Ňyqy (IPA)
+    #+CAPTION: Voyelles du Ñyqy (IPA)
     #+ATTR_LATEX: :placement [htb]
     |           / |      <      |      <       |
     |         <r> |     <c>     |     <c>      |
@@ -407,7 +407,7 @@
     | mi-ouvertes |      ɛ      |      ɔ       |
 
     #+NAME: table:vowels:trans
-    #+CAPTION: Voyelles du Ňyqy (translittération)
+    #+CAPTION: Voyelles du Ñyqy (translittération)
     #+ATTR_LATEX: :placement [htb]
     |         <r> |     <c>     |     <c>      |
     |           / |      <      |      <       |
@@ -443,9 +443,9 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ňyqy :align center
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center
     #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des voyelles du Ňyqy
+    #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS[e1f2ca12b3da614823629b888c369ed0ddf3e4a5]:
     [[file:img/nyqy/vowel-feature-tree.png]]
 
@@ -486,14 +486,14 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ňyqy :align center
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center
     #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des consonnes du Ňyqy
+    #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
     #+RESULTS[ea6462370981c1a011d17d703545ec6e6f38f4de]:
     [[file:img/nyqy/consonant-feature-tree.png]]
 
     #+NAME: table:cons:ipa
-    #+CAPTION: Consonnes du Ňyqy (IPA)
+    #+CAPTION: Consonnes du Ñyqy (IPA)
     |              <r5> |        <c5>        |        <c5>         |          <c5>           |       <c5>       |       <c5>        |       <c5>        |
     |                 / |         <          |          <          |            <            |        <         |         <         |         <         |
     |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
@@ -509,13 +509,13 @@
     |           spirant |                    |                     |            w            |                  |                   |                   |
 
     #+NAME: table:cons:trans
-    #+CAPTION: Consonnes du Ňyqy (translittération)
+    #+CAPTION: Consonnes du Ñyqy (translittération)
     |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
     |        / |         <          |          <          |            <            |         <         |
     |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
     |----------+--------------------+---------------------+-------------------------+-------------------|
     |   plosif |        p b         |                     |                         |        q g        |
-    |    nasal |         m          |          n          |                         |         ň         |
+    |    nasal |         m          |          n          |                         |         ñ         |
     | fricatif |                    |         s z         |                         |                   |
     | affriqué |                    |         c j         |                         |                   |
     |  spirant |                    |                     |            w            |                   |
@@ -529,12 +529,12 @@
     :PROPERTIES:
     :CUSTOM_ID: h-62862440-965c-48c5-affb-25323f466c6b
     :END:
-    Le Ňyqy étant une langue orale, aucune transcription historique n’en existe.
+    Le Ñyqy étant une langue orale, aucune transcription historique n’en existe.
     Ainsi, seule  la translittération  présentée ici fait  office d’orthographe,
     suivant de près  la prononciation. La transcription phonétique  de la langue
     utilisant l’IPA[fn:3]  est également possible,  mais moins lisible  je pense
     pour le  lecteur, alors  que la  translittération lui  laissera le  choix de
-    l’accent avec lequel il souhaite lire le Ňyqy.
+    l’accent avec lequel il souhaite lire le Ñyqy.
 
 ** Phonotaxes
    :PROPERTIES:
@@ -592,7 +592,7 @@
     :PROPERTIES:
    :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
    :END:
-    Il  existe  relativement  peu  de  règles  allophoniques  connues  en  Ňyqy,
+    Il  existe  relativement  peu  de  règles  allophoniques  connues  en  Ñyqy,
     cependant quelques unes sont à peu près certaines :
 
     - C[+dor] / C[+dor]_ > [-dor]
@@ -603,12 +603,12 @@
     seconde devant alors changer sa qualité afin  de se soumettre à la règle. Sa
     qualité haute ou coronale se reflète également lors du changement de qualité
     dorsale de la  consonne, la qualité /haute/ ou  /coronale/ étant considérées
-    comme    équivalentes    en    Ňyqy.    Vous   pouvez    voir    la    table
-    [[table:mutation:consonants]] qui récapitule les  mutation des consonnes du Ňyqy
+    comme    équivalentes    en    Ñyqy.    Vous   pouvez    voir    la    table
+    [[table:mutation:consonants]] qui récapitule les  mutation des consonnes du Ñyqy
     dû à cette règle.
 
     #+NAME: table:mutation:consonants
-    #+CAPTION: Table de mutation des consonnes du Ňyqy
+    #+CAPTION: Table de mutation des consonnes du Ñyqy
     |        /         |              |   | < |                  |              |
     |       <c>        |     <c>      |   |   |       <c>        |     <c>      |
     | [+dor] originale | [-dor] mutée |   |   | [-dor] originale | [+dor] mutée |
@@ -620,7 +620,7 @@
     |        d͡ʒ        |      ɮ       |   |   |        s         |      x       |
     |        w         |      l       |   |   |        z         |      ɣ       |
 
-    Ainsi, la phrase {{{nyqy(ňe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
+    Ainsi, la phrase {{{nyqy(ñe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
     phrase {{{nyqy(qi bú pim mo coq)}}} se ne prononce pas *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
 ** Structure des mots
@@ -646,7 +646,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-a0195f74-9ac1-417c-8af7-cc329e0efc04
     :END:
-    Les noms en Ňyqy se réfèrent généralement à des entités définies, comme des
+    Les noms en Ñyqy se réfèrent généralement à des entités définies, comme des
     objets, des personnes, des concepts ou événements. Contrairement à beaucoup
     d’autres langues, et du fait de la nature très analytique de la langue, les
     noms ne supportent aucune caractéristique morphosyntaxique ; ils peuvent
@@ -752,7 +752,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
    :END:
-   Le Ňyqy est une langue dont sa tête de groupement grammaticaux tend à être en
+   Le Ñyqy est une langue dont sa tête de groupement grammaticaux tend à être en
    dernière position.
 
    #+NAME: basic-syntax-tree
@@ -788,8 +788,8 @@
      $input
    #+END_SRC
    #+NAME: arbre:syntaxe:basique
-   #+attr_html: :alt Arbre de syntaxe basique du Ňyqy
-   #+CAPTION: Arbre de syntaxe basique du Ňyqy
+   #+attr_html: :alt Arbre de syntaxe basique du Ñyqy
+   #+CAPTION: Arbre de syntaxe basique du Ñyqy
    #+RESULTS[f610dcdc0787e77f58af7974f394c881f032f96a]:
    [[file:img/nyqy-basic-syntax.png]]
 
@@ -939,7 +939,7 @@
    grammatical  (souvent non  marqué) s’opposant  au cas  accusatif marquant  le
    patient, traité différemment.
 
-   À  la  différence des  langues  européennes,  le  Ňyqy  est une  langue  dite
+   À  la  différence des  langues  européennes,  le  Ñyqy  est une  langue  dite
    « ergative » ;  cela signifie  que ses  différents groupes  nominaux ont  une
    relation  grammaticale  envers  leurs  verbes  basée  sur  l’association  des
    expérienceurs et des  patients, avec l’agent traité  différemment. Ce premier
@@ -962,7 +962,7 @@
 
      Je mange une pomme.
 
-   En  revanche,  le Ňyqy  utilise  un  pivot  nominatif entre  ses  différentes
+   En  revanche,  le Ñyqy  utilise  un  pivot  nominatif entre  ses  différentes
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
@@ -1220,12 +1220,12 @@
    :PROPERTIES:
    :CUSTOM_ID: h-397983ed-28e5-44c3-afb9-04403aa52e2a
    :END:
-   Les locuteurs du Ňyqy comptaient dans un mélange de base 6 pour les unités et
+   Les locuteurs du Ñyqy comptaient dans un mélange de base 6 pour les unités et
    de base 13 pour le reste.
 
    |  <c5>  |             <c5>             |          <c5>           |
    |   /    |              <>              |           <>            |
-   | nombre | nombre (représentation ňyqy) |          ňyqy           |
+   | nombre | nombre (représentation ñyqy) |          ñyqy           |
    |--------+------------------------------+-------------------------|
    |   0    |              0               |        {{{nyqy(pe)}}}         |
    |   1    |              1               |        {{{nyqy(mi)}}}         |
@@ -1233,41 +1233,41 @@
    |   3    |              3               |        {{{nyqy(né)}}}         |
    |   4    |              4               |        {{{nyqy(gé)}}}         |
    |   5    |              5               |        {{{nyqy(co)}}}         |
-   |   6    |             1-0              | {{{nyqy(mi ňy)}}} ou {{{nyqy(ňy)}}} |
-   |   7    |             1-1              |       {{{nyqy(ňy mi)}}}       |
-   |   8    |             1-2              |       {{{nyqy(ňy qi)}}}       |
-   |   9    |             1-3              |       {{{nyqy(ňy né)}}}       |
-   |   10   |             1-4              |       {{{nyqy(ňy gé)}}}       |
-   |   11   |             1-5              |       {{{nyqy(ňy co)}}}       |
-   |   12   |             2-0              |       {{{nyqy(qi ňy)}}}       |
-   |   18   |             3-0              |       {{{nyqy(né ňy)}}}       |
-   |   24   |             4-0              |       {{{nyqy(gé ňy)}}}       |
-   |   30   |             5-0              |       {{{nyqy(co ňy)}}}       |
-   |   36   |             6-0              |     {{{nyqy(pe ňy ňy)}}}      |
-   |   42   |             7-0              |     {{{nyqy(mi ňy ňy)}}}      |
-   |   48   |             8-0              |     {{{nyqy(qi ňy ňy)}}}      |
-   |   54   |             9-0              |     {{{nyqy(né ňy ňy)}}}      |
-   |   60   |             a-0              |     {{{nyqy(gé ňy ňy)}}}      |
-   |   66   |             b-0              |     {{{nyqy(co ňy ňy)}}}      |
+   |   6    |             1-0              | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
+   |   7    |             1-1              |       {{{nyqy(ñy mi)}}}       |
+   |   8    |             1-2              |       {{{nyqy(ñy qi)}}}       |
+   |   9    |             1-3              |       {{{nyqy(ñy né)}}}       |
+   |   10   |             1-4              |       {{{nyqy(ñy gé)}}}       |
+   |   11   |             1-5              |       {{{nyqy(ñy co)}}}       |
+   |   12   |             2-0              |       {{{nyqy(qi ñy)}}}       |
+   |   18   |             3-0              |       {{{nyqy(né ñy)}}}       |
+   |   24   |             4-0              |       {{{nyqy(gé ñy)}}}       |
+   |   30   |             5-0              |       {{{nyqy(co ñy)}}}       |
+   |   36   |             6-0              |     {{{nyqy(pe ñy ñy)}}}      |
+   |   42   |             7-0              |     {{{nyqy(mi ñy ñy)}}}      |
+   |   48   |             8-0              |     {{{nyqy(qi ñy ñy)}}}      |
+   |   54   |             9-0              |     {{{nyqy(né ñy ñy)}}}      |
+   |   60   |             a-0              |     {{{nyqy(gé ñy ñy)}}}      |
+   |   66   |             b-0              |     {{{nyqy(co ñy ñy)}}}      |
    |   72   |            1-0-0             | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
    |  216   |            6-0-0             |     {{{nyqy(pe mó mó)}}}      |
    |  864   |           1-0-0-0            | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
    |  1296  |          1-0-0-0-0           |        {{{nyqy(gec)}}}        |
    |  7776  |         1-0-0-0-0-0          |       {{{nyqy(cójm)}}}        |
-   | 46656  |        1-0-0-0-0-0-0         |        {{{nyqy(ňuň)}}}        |
+   | 46656  |        1-0-0-0-0-0-0         |        {{{nyqy(ñuñ)}}}        |
 
    Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
    grandeur est répété  afin d’ajouter cinq au  multiplicateur, permettant ainsi
    une base treize pour ce qui n’est pas des unités.
 
-   Pour convertir en base dix un  chiffre Ňyqy, voici comment faire : les unités
+   Pour convertir en base dix un  chiffre Ñyqy, voici comment faire : les unités
    sont conservées  telles quelles, et  pour chaque équivalent de  dizaines, que
    j’appellerai sixaines, les multiplier par six  à la puissance de son décalage
-   par rapport aux unités. Par exemple le nombre <gé si co mó mó ňy qi> ({{{phon(ɢe
+   par rapport aux unités. Par exemple le nombre <gé si co mó mó ñy qi> ({{{phon(ɢe
    sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
 
    |     <c>     |      <c>       |   <c>    |   <c>    |
-   | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ňy)}}} | {{{nyqy(qi)}}} |
+   | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ñy)}}} | {{{nyqy(qi)}}} |
    |   4×6^{3}   |    5×6^{2}     | 1×6^{1}  | 2×6^{0}  |
    |    4×216    |      5*36      |   1×6    |   2×1    |
    |     864     |      180       |    6     |    2     |
