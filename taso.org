@@ -48,6 +48,14 @@
    :CUSTOM_ID: h-58d63d52-aebc-4b33-841e-b7a561d0f7c4
    :END:
 
+   - IPA :: /International Phonetic Alphabet/, Alphabet Phonétique International
+   - blb :: bilabial
+   - alv :: alvéolaire
+   - palv :: palatal-alvéolaire
+   - plt :: palatal
+   - vlr :: vélaire
+   - lvlr :: labio-vélaire
+
 * Contexte culturel, écologique et sociolinguiste de la langue
   :PROPERTIES:
   :CUSTOM_ID: h-a89fab50-74c0-4d03-9248-8cad4629d846
@@ -167,6 +175,44 @@
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
 
+    Le Tãso  est une  langue disposant  d’un inventaire  phonétique relativement
+    large,  disposant notamment  de  douze voyelles.  La distinction  principale
+    entre ces  dernières est  leur caractéristique haute,  ainsi que  leur trait
+    nasal.  Vous  trouverez  dans  le  tableau  [[table:vow:ipa]]  l’inventaire  des
+    voyelles du Tãso en IPA.
+
+    #+NAME: table:vow:ipa
+    |           / |      <      |     <     |      <       |
+    |         <r> |     <c>     |    <c>    |     <c>      |
+    |             | antérieures | centrales | postérieures |
+    |-------------+-------------+-----------+--------------|
+    |     fermées |     i y     |     ɨ     |              |
+    | pré-fermées |     ɪ ʏ     |           |      ʊ       |
+    |  mi-fermées |     ø ø̃     |           |     ɤ ɤ̃      |
+    |  mi-ouverte |      ɛ̃      |           |              |
+    |    ouvertes |      a      |           |      ɑ̃       |
+
+    Comme  on peut  le voir,  la majorité  de ces  voyelles ont  leur équivalent
+    nasalisé, et les voyelles pré-fermées et fermées ont leur équivalent arrondi
+    ou non-arrondi,  à l’exception  respectivement du {{{phon(a)}}}  dont l’équivalent
+    nasalisé est le {{{phon(ɑ̃)}}}, et le {{{phon(ɨ)}}} a pour équivalent arrondi le {{{phon(ʊ)}}}.
+    Dans  le tableau  [[table:vow:ortho]],  vous retrouverez  le  même tableau  avec
+    l’orthographe des voyelles remplaçant leur symbole phonétique.
+
+    #+NAME: table:vow:ortho
+    |           / |      <      |     <     |      <       |
+    |         <r> |     <c>     |    <c>    |     <c>      |
+    |             | antérieures | centrales | postérieures |
+    |-------------+-------------+-----------+--------------|
+    |     fermées |     í ý     |     ì     |              |
+    | pré-fermées |     i y     |           |      u       |
+    |  mi-fermées |     é ȩ     |           |     o õ      |
+    |  mi-ouverte |     e ẽ     |           |              |
+    |    ouvertes |      a      |           |      ã       |
+
+    Vous retrouverez avec la figure [[arbre:vow]] la hiérarchie des caractéristiques
+    organisant les voyelles du Tãso.
+
     #+NAME: vowel-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       (setq-local taso-vowels
@@ -210,19 +256,47 @@
     #+RESULTS[eff961e714f2313ac2e974637800b18d5c11c928]:
     [[file:img/taso/vowel-feature-tree.png]]
 
-    |       <r5> |        <c5>        |           <c5>           |       <c5>       |           <c5>            |        <c5>         |
-    |           | {{{v(antérieur)}}} | {{{v(quasi-antérieur)}}} | {{{v(central)}}} | {{{v(quasi-postérieur)}}} | {{{v(postérieur)}}} |
-    |-----------+--------------------+--------------------------+------------------+---------------------------+---------------------|
-    |     fermé |        i y         |                          |        ɨ         |                           |                     |
-    | pré-fermé |                    |           ɪ ʏ            |                  |             ʊ             |                     |
-    |  mi-fermé |        ø ø̃         |                          |                  |                           |         ɤ ɤ̃         |
-    | mi-ouvert |        ɛ ɛ̃         |                          |                  |                           |                     |
-    |    ouvert |         a          |                          |                  |                           |          ɑ̃          |
-
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
     :END:
+
+    À l’instar de ses voyelles, le  Tãso est également riche en consonnes, comme
+    vous pouvez  le constater  dans le tableau  [[table:cons:ipa]] les  listant avec
+    leur symbole IPA.
+    #+NAME: table:cons:ipa
+    |           <r> | <c> |  <c>  |   <c>   | <c> | <c> | <c>  |
+    |               | blb |  alv  |  palv   | plt | vlr | lvlr |
+    |---------------+-----+-------+---------+-----+-----+------|
+    |         nasal |  m  |   n   |         |     |     |      |
+    |      occlusif | p b |  t d  |         |     | k g |      |
+    |   occ. aspiré |     | tʰ dʰ |         |     |     |      |
+    |      affriqué |     |       |  t͡ʃ d͡ʒ  |     |     |      |
+    |   aff. aspiré |     |       | t͡ʃʰ d͡ʒʰ |     |     |      |
+    |      fricatif |  ɸ  |  s z  |         | ç ʝ | x ɣ |      |
+    |       spirant |     |       |         |     |     | ʍ w  |
+    | fricatif lat. |     |   ɬ   |         |     |     |      |
+    |  spirant lat. |     |   l   |         |     |     |      |
+
+    On remarque qu’il existe un certain  nombre de consonnes ayant un équivalent
+    aspiré,  notamment  les  consonnes  plosives et  affriquées  alvéolaires  et
+    palatales-alvéolaires.  Vous  trouverez  dans  le  tableau  [[table:cons:ortho]]
+    l’orthographe de chacune de ces consonnes.
+
+    #+NAME: table:cons:ortho
+    |           <r> | <c> |  <c>  |  <c>  |  <c>  | <c> | <c>  |
+    |               | blb |  alv  | palv  |  plt  | vlr | lvlr |
+    |---------------+-----+-------+-------+-------+-----+------|
+    |         nasal |  m  |   n   |       |       |     |      |
+    |      occlusif | p b |  t d  |       |       | k g |      |
+    |   occ. aspiré |     | th dh |       |       |     |      |
+    |      affriqué |     |       |  c j  |       |     |      |
+    |   aff. aspiré |     |       | ch jh |       |     |      |
+    |      fricatif |  f  |  s z  |       | sh zh | x r |      |
+    |       spirant |     |       |       |       |     | wh w |
+    | fricatif lat. |     |  lh   |       |       |     |      |
+    |  spirant lat. |     |   l   |       |       |     |      |
+
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       (setq-local taso-consonants
@@ -287,19 +361,6 @@
     #+CAPTION: Arbre des caractéristiques des consonnes du Tãso
     #+RESULTS[9bf7d97ca85780e74e9fbb5fc69cbc9800439890]:
     [[file:img/taso/consonant-feature-tree.png]]
-
-    |         <r5>  |       <c5>        |        <c5>         |        <c5>        |       <c5>       |       <c5>       |        <c5>         |
-    |               | {{{v(bilabial)}}} | {{{v(alvéolaire)}}} | {{{v(pal.-alv.)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(labio-vél.)}}} |
-    |---------------+-------------------+---------------------+--------------------+------------------+------------------+---------------------|
-    |         nasal |         m         |          n          |                    |                  |                  |                     |
-    |      occlusif |        p b        |         t d         |                    |                  |       k g        |                     |
-    |   occ. aspiré |                   |        tʰ dʰ        |                    |                  |                  |                     |
-    |      affriqué |                   |         s z         |       t͡ʃ d͡ʒ        |                  |                  |                     |
-    |   aff. aspiré |                   |                     |      t͡ʃʰ d͡ʒʰ       |                  |                  |                     |
-    |      fricatif |         ɸ         |         s z         |                    |       ç ʝ        |       x ɣ        |                     |
-    |       spirant |                   |                     |                    |                  |                  |         ʍ w         |
-    | fricatif lat. |                   |          ɬ          |                    |                  |                  |                     |
-    |  spirant lat. |                   |          l          |                    |                  |                  |                     |
 
 *** Ton et accentuation
     :PROPERTIES:
