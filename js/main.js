@@ -41,7 +41,7 @@ function create_theme_switcher() {
     var light = isThemeLight();
     $('body').append('<div class="themeBtn"><i class="fas fa-'
         .concat(light ? 'moon' : 'sun').concat('"></i></div>'));
-    $('head').append('<link id="theme" rel="stylesheet" href="./css/'
+    $('head').append('<link id="theme" rel="stylesheet" href="https://langue.phundrak.fr/css/'
         .concat(light ? 'light' : 'dark').concat('.css">'));
 
     // switch CSS files and button icon, set new cookie on theme switcher click
