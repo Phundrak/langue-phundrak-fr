@@ -206,7 +206,7 @@
     |-------------+-------------+-----------+--------------|
     |     fermées |     í ý     |     ì     |              |
     | pré-fermées |     i y     |           |      u       |
-    |  mi-fermées |     é ȩ     |           |     o õ      |
+    |  mi-fermées |     é ę     |           |     o õ      |
     |  mi-ouverte |     e ẽ     |           |              |
     |    ouvertes |      a      |           |      ã       |
 

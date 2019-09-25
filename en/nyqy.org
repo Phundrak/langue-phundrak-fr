@@ -1,9 +1,10 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Grammar of Ñyqy
 #+include: ../headers/head-lvl1.org
-#+HTML_HEAD_EXTRA: <meta name="description" content="Detailed grammar of the Ňyqy constructed language" />
-#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammar of Ňyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:description" content="Detailed grammar of the Ňyqy constructed language" />
+#+language: en
+#+HTML_HEAD_EXTRA: <meta name="description" content="Detailed grammar of the Ñyqy constructed language" />
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammar of Ñyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:description" content="Detailed grammar of the Ñyqy constructed language" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../css/nyqy.css"/>
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
@@ -90,19 +91,19 @@
    are the only chapters that have not  been written as if this were an in-world
    document.
 
-** Introduction to Ňyqy as a conlang
+** Introduction to Ñyqy as a conlang
    :PROPERTIES:
    :CUSTOM_ID: h-8aa14ca5-6a1c-4e03-b30a-75bd90452308
    :END:
    The {{{nyqy(Ñyqy)}}} language is  a very simple language I created  with the aim of
-   creating a  prototype language, or  /proto-lang/. Although some  features you
+   creating a  prototype language,  or /protolang/.  Although some  features you
    will encounter  later can be  surprising, I  do not aim  for it to  become as
    natural as other  naturalistic languages, or /natlangs/. Rather,  this one is
    simple enough to quickly learn its grammar, syntax, morphology and phonology,
    but it is also complex enough for  people to be able to actually the language
    for simple sentences. However, don’t expect it to be developed too in-depth.
 
-** Introduction to Ňyqy as a real language
+** Introduction to Ñyqy as a real language
    :PROPERTIES:
    :CUSTOM_ID: h-ad4d6a0c-e05b-4c28-98c6-baec9e843e96
    :END:
@@ -117,8 +118,8 @@
 
    However, although we cannot go back that far in time to discover this unknown
    part of  our history,  we are  able to  somewhat go  back in  time for  a few
-   milleniums, and discover  languages that were spoken then.  This time machine
-   we call  linguistics is fueled  by our  contemporary languages and  old, dead
+   millennia, and discover languages that were  spoken then. This time machine we
+   call  linguistics is  fueled  by  our contemporary  languages  and old,  dead
    languages  we know  about  thanks  to various  documentation,  both from  our
    current era and from the Old  Era. Thanks to comparative linguistics, a great
    number of  my colleagues and  predecessors were able, by  comparing languages
@@ -133,7 +134,7 @@
    idea of what these languages were like, and through these languages we have a
    tiny window  through which we can  guess what civilisations were  like during
    this period. And the furthest we ever went, the oldest language we know about
-   is {{{nyqy(Ňyqy)}}}. This language is between  eight and eleven thousand years old,
+   is {{{nyqy(Ñyqy)}}}. This language is between  eight and eleven thousand years old,
    it was spoken in one of the birthplaces of civilisation, and it is the mother
    of  about half  the  languages spoken  throughout the  world.  Several of  my
    colleagues both  from the  past or  from the present  have already  made some
@@ -141,21 +142,21 @@
    colleagues in their works, and this has been a great honor.
 
    However, working on this topic made me face a reality I was not aware of only
-   a  few  years ago  which  might  be critical  for  anyone  studying the  Ňyqy
+   a  few  years ago  which  might  be critical  for  anyone  studying the  Ñyqy
    language: there are no book in which  we can find everything ever known, that
    was ever discovered about the language, all  in one single work. If anyone is
-   interested in the  Ňyqy language, they currently have to  go through hundreds
+   interested in the  Ñyqy language, they currently have to  go through hundreds
    if  not thousands  of books,  papers and  other media  in order  to find  the
    information they  are searching for, and  this lack of centralization  of the
    information  about this  language  sometimes  turns out  as  a nightmare  for
    students and professors  alike. I think I  even might be safe  saying most of
-   the work we  do as Ňyqy specialists  is not dedicated to the  language or its
+   the work we  do as Ñyqy specialists  is not dedicated to the  language or its
    culture, but just finding the right information.
 
    When  I realized  that, I  shared my  thoughts with  my friend  and colleague
-   Q. Rhȩte about this, and we came to an agreement: we would spend as much time
+   Q. Rhete about this, and we came to an agreement: we would spend as much time
    as necessary to make  a compendium of all the knowledge  we currently have on
-   the  Ňyqy people.  While she  will work  on the  cultural aspect,  I will  be
+   the  Ñyqy people.  While she  will work  on the  cultural aspect,  I will  be
    working on the  language itself. And of course, as  both subjects are closely
    tied together,  we will be  helping each other. While  I will be  including a
    very short  version of her  work in the following  chapters, she will  do the
@@ -166,89 +167,96 @@
    their quest for  knowledge as much as  it helped us during the  time we wrote
    this. /né_{4}Hje_{2}lpel/
 
-** Conventions typographiques
+** Conventions
    :PROPERTIES:
    :CUSTOM_ID: h-410ccf5a-d5eb-436b-b3f4-a0a4bb4249e9
    :END:
-   Dans ce  document seront  utilisé certaines conventions  typographiques, dont
-   des  gloses grammaticales  inter-lignes[fn:4], une  étoile ~*~  précédant des
-   éléments linguistiques considérés comme erronés, un point d’interrogation ~?~
-   afin de marquer  des éléments linguistiques questionnables, ou  bien dans les
-   gloses une utilisation  du chiffre zéro ~0~ afin de  marquer une absence d’un
-   ou plusieurs éléments.
+   In this document, I will make use of some conventions you can usually find in
+   other linguistic  books, such  as interlinear grammatical  glosses, preceding
+   stars  =*=  indicating erroneous  or  theoretical  but unattested  linguistic
+   elements, a preceding question mark =?= to mark questionable elements, or the
+   zero number =0= to indicate the absence of one or several elements.
 
-** Liste d’abbréviations
+** Abbreviation list
    :PROPERTIES:
    :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
    :END:
 
-* La culture, l’histoire, le contexte sociolinguistique du Ñyqy
+* The Cultural, Ecological and Sociolinguistic Context of Ñyqy
   :PROPERTIES:
   :CUSTOM_ID: h-362fe960-94ae-42e2-8db3-54d52c7de175
   :END:
-** Le peuple, son regard sur lui-même
+  This part  will be an  (rather long) abstract from  /The Ñyqy People/  from my
+  colleague Q. Rhęte,  a book  about the  culture of  this people  compiling all
+  knowledge available at  that time on the subject. I  strongly encourage you to
+  read it  if you intend to  study Ñyqy in order  to know in which  context this
+  language was use. Below you will only  have a short version of this work which
+  is the  absolute minimum any Ñyqy  student should know, but  again, you should
+  definitively get the book itself.
+
+** The people, its self image
    :PROPERTIES:
    :CUSTOM_ID: h-6b729f0a-7131-443b-8ef3-ddfbaa23c65d
    :END:
-   Peu de choses sont  connues sur le peuple, du fait de  sa distance avec nous,
-   et  du   fait  du   peu  d’éléments  dont   nous  disposons   directement  ou
-   indirectement. Beaucoup de nos  connaissances actuelles nous parviennent soit
-   des écrits survivants de l’Ère précédente, soit de recherches archéologiques,
-   soit de recherches linguistiques.
+   Few things are known about the Ñyqy people due to how distant it is from us,
+   and due to how little amount of elements we have as direct knowledge from
+   them if any. Most of our knowledge comes from works from scholars from the
+   Old Era, and most of the knowledge from our era comes from analyzing even
+   further the various pieces of evidence we could get from the Old Era and
+   archaeological researches.
 
-   Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
-   probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
-   également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ñyqy)}}}  pour se
-   désigner lui-même, mais nous disposons de  trop peu de preuve afin de pouvoir
-   affirmer cela avec certitude. Le  terme s’analyse en deux morphèmes basiques,
-   {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ñy)}}}  est le pronom personel du singulier,
-   et  {{{nyqy(qy)}}}  qui le  suit  a  plusieurs  utilisations,  le chiffre  /6/  (le
-   {{{nyqy(Ñyqy)}}} est  une langue dont le  système numérique est un  système hybride
-   entre  une  base  six  et  une   base  treize)  ou  bien  la  pluralité,  ici
-   infléchissant le {{{nyqy(ñy)}}} afin de former la première personne du pluriel.
+   The name of  the language has been  chosen by linguists of the  Old Era, most
+   likely due to its meaning: “us”. It seems like this term could have been used
+   by the  {{{nyqy(Ñyqy)}}} people  to designate  themselves, but  we have  too little
+   proofs of this  to say it with  certainty. This words can be  analyzed as two
+   basic  morphemes, {{{nyqy(ñy)}}}  and  {{{nyqy(qy)}}}.  The former  is  the first  person
+   singular personal  pronoun, and the latter  is the Ñyqy term  for “six”[fn:5]
+   which  is used  here to  mark plurality,  and hence  the first  person plural
+   personal pronoun.
 
-   Il est à noter que le nom  de cette langue est traditionellement écrite en un
-   seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
-   mauvaise habitude : chaque élément peut être analysé individuellement et peut
-   donc être  considéré comme  mots séparés,  d’où la  néographie « Ñy  Qy » que
-   certains  de  mes  collègues  utilisent, tentant  de  corriger  cette  erreur
-   maintenant multi-centenaire. Bien que je salue leur initiative je continuerai
-   de nommer cette langue  « Ñyqy » dans cet ouvrage afin de  suivre la norme et
-   afin de  ne pas  rendre confus certaines  personnes n’ayant  jamais rencontré
-   cette néographie, et je présente mes excuses à ces collègues.
+   It should  be reminded the  name of  this language, /Ñyqy/,  is traditionally
+   written as  a single word;  however, this should be  labeled as a  bad habit.
+   Indeed, each  of its components  can and  should be considered  as individual
+   words, hence  the neography /Ňy  Qy/ which  is already in  use by some  of my
+   colleagues. Although  I appreciate  their initiative, I  will keep  using the
+   spelling /Ñyqy/ in  this work in order  to follow the norm most  of us follow
+   and have followed for centuries in order not to confuse potential readers who
+   do not know about this rather new  spelling. Some people also refer to /Ñyqy/
+   as /proto-Ñyqy/,  but I find this  naming redundant, is rare  overall, and is
+   used  only if  one  wants  to insist  on  the nature  of  the  language as  a
+   prototypical one.
 
-   Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ñyqy », ou
-   « proto  Ñy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
-   l’abscence totale d’autres langues  nommées « Ñyqy ». Elle n’est généralement
-   utilisée que  si le  locuteur souhaite  insister sur la  nature de  la langue
-   comme langue mère de sa famille.
-
-** Recherches précédentes
+** Previous research
    :PROPERTIES:
    :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
    :END:
-   Comme  mentionné plus  tôt,  le Ñyqy  est l’objet  depuis  fort longtemps  de
-   recherches linguistiques,  tout d’abord par des  linguistes hélas aujourd’hui
-   anonymes ayant  vécus lors de  l’Ère précédente. Leurs  connaissances étaient
-   sans  doute  beaucoup  plus  vastes  que ce  que  nous  avons  pu  récupérer,
-   probablement similaires à celles dont  nous disposons aujourd’hui, mais comme
-   tout le monde  le sait, seul peu  de témoignages de cette époque  ont pu nous
-   parvenir,  et  les   restes  de  l’Université  de  Ðbńo   relève  du  miracle
-   archéologique.
+   As mentioned  earlier, Ñyqy is  the subject of constant  linguistic research,
+   first  by linguists  from the  Old Era,  most of  them who  unfortunately are
+   nameless today. Their knowledge of Ñyqy was undoubtedly vastly more important
+   than  the knowledge  we have  about it  today, but  we should  consider it  a
+   miracle so much of  their knowledge survived and was saved  from the ruins of
+   their past universities discovered two hundred years ago.
 
-   Ces premières  recherches, une  fois traduites,  ont servi  de base  aux deux
-   derniers  siècles de  recherche  en  direction du  Ñyqy,  avec notamment  les
-   recherches du Pr Loqbrekh (3489) le siècle dernier qui a réalisé d’importants
-   progrès  sur l’étude  de  cette langue  grâce à  l’addition  de l’analyse  du
-   Énanonn, ainsi que  les études du Pr Khorlan  (3598) qui, il y a  cinq ans, a
-   également énormément fait  progresser les recherches grâce à  ses travaux sur
-   le Tãso. Je me reposerai principalement  sur leurs recherches afin de rédiger
-   cet ouvrage, ainsi que leurs références diverses.
+   This  knowledge,  once translated,  served  as  the  base knowledge  for  our
+   research for the  last two centuries, including our knowledge  about the Ñyqy
+   language.  Our  contemporary   colleague  we  have  to  thank   the  most  is
+   Pr. Loqbrekh with  his thesis  from 3489  and who dedicated  his life  to the
+   restoration  of the  lost knowledge  of this  language. Officially,  the last
+   segment  about this  topic was  translated in  3524, and  to this  day, 3664,
+   linguists use comparative linguistics to study  further Ñyqy. We also have to
+   thank Pr. Khorlan (3598) who made a  great deal of discoveries by linking the
+   Énanonn language  to Ñyqy, and  Pr. Lero who  compared the evolution  of Ñyqy
+   with  the evolution  of Tãso  (3601).  This work  will mostly  rely on  their
+   papers, although many  more will be used, mainly from  the University of Ðbńo
+   and the General Study Assembly of Lormel.
 
-** Ethnologie
+** Ethnology
    :PROPERTIES:
    :CUSTOM_ID: h-dec628cc-50e8-4370-889d-e54b2a2e2280
    :END:
+   It is good to remind the reader that we have very little knowledge about the
+   Ñyqy people that come from direct proof and
+
    Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ñyqy. Pour plus
    de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ñyqy/  de
    K. Yerth, 3404. Un avertissement est tout de même nécessaire :
@@ -1272,6 +1280,10 @@
   :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
   :END:
 
+[fn:5] It is to be noted the Ñyqy people used a hybrid number system, with which
+units were counted with a base 6  system, and higher numbers than 6 were counted
+with a base 12 system, except for its units.
+
 [fn:4] https://en.wikipedia.org/wiki/Interlinear_gloss
 
 [fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
@@ -1279,3 +1291,5 @@
 [fn:2] [[https://phundrak.fr]]
 
 [fn:1] https://langue.phundrak.fr
+
+#  LocalWords:  Rhete né Hje lpel neography Ňy Qy proto
