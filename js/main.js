@@ -39,17 +39,21 @@ function reorganize_html() {
 function create_theme_switcher() {
     // set the correct CSS depending on the cookie, dark is default
     var light = isThemeLight();
+    // Set the correct symbol in the theme switcher button
     $('body').append('<div class="themeBtn"><i class="fas fa-'
         .concat(light ? 'moon' : 'sun').concat('"></i></div>'));
+    // set the correct css file in the HTML head
     $('head').append('<link id="theme" rel="stylesheet" href="https://langue.phundrak.fr/css/'
         .concat(light ? 'light' : 'dark').concat('.css">'));
 
     // switch CSS files and button icon, set new cookie on theme switcher click
     $('.themeBtn').click(function() {
         var light = !isThemeLight();
-        $("#theme").first().attr('href', './css/'
+        // Switch the CSS between light and dark
+        $("#theme").first().attr('href', 'https://langue.phundrak.fr/css/'
             .concat(light ? 'light' : 'dark')
             .concat('.css'));
+        // Switch the icon in the theme switcher button
         $('.themeBtn').html('<i class="fas fa-'
             .concat(light ? 'moon' : 'sun')
             .concat('"></i>'));
