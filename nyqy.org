@@ -752,8 +752,16 @@
    :PROPERTIES:
    :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
    :END:
-   Le Ñyqy est une langue dont sa tête de groupement grammaticaux tend à être en
-   dernière position.
+   Le Ñyqy est une langue dont  sa tête de groupes grammaticaux est généralement
+   en fin dudit  groupe. On peut voir avec l’arbre  [[arbre:syntaxe:basique]] que la
+   structure générale  d’une phrase  standard démarre  avec des  éléments divers
+   liés à la clause principale s’il y en a, auxquels on se référera généralement
+   en tant qu’éléments /obliques/. Ces éléments ne sont liés au verbe ni par une
+   relation grammaticale  ergative, ni dative,  ni absolutive. Ensuite  vient la
+   phrase nominale ergative, précédant la  phrase dative, elle-même précédant la
+   phrase verbale,  contenant une phrase nominale  absolutive et le verbe  de la
+   phrase,  le  dernier  élément  d’une phrase  {{{nyqy(ñyqy)}}}.  Les  sous-chapitres
+   suivants détailleront la composition de chacun de ces éléments.
 
    #+NAME: basic-syntax-tree
    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
