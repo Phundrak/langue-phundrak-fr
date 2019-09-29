@@ -443,10 +443,10 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 800px
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
-    #+RESULTS[e1f2ca12b3da614823629b888c369ed0ddf3e4a5]:
+    #+RESULTS[9600070f8f4e634f24844b3b0911e43967ea6b20]:
     [[file:img/nyqy/vowel-feature-tree.png]]
 
 *** Consonnes
@@ -486,10 +486,10 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :width 800px
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
-    #+RESULTS[ea6462370981c1a011d17d703545ec6e6f38f4de]:
+    #+RESULTS[2fbffde1eb3fe2af9811d93976be1bb87f186ef1]:
     [[file:img/nyqy/consonant-feature-tree.png]]
 
     #+NAME: table:cons:ipa
@@ -782,24 +782,16 @@
    #+END_SRC
 
    #+RESULTS[24286e618306da25dc9283fdc01819e3b5d77394]: basic-syntax-tree
-   : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Obl"];0 -- 1;2[label="S'"];0 -- 2;21[label="NPerg"];2 -- 21;211[label="NP"];21 -- 211;22[label="VP"];2 -- 22;221[label="NPdat"];22 -- 221;2211[label="NP"];221 -- 2211;222[label="VP'"];22 -- 222;2221[label="NPabs"];222 -- 2221;22211[label="NP"];2221 -- 22211;222111[label="S"];22211 -- 222111;222112[label="NP'"];22211 -- 222112;2221121[label="Adj"];222112 -- 2221121;2221122[label="N"];222112 -- 2221122;2222[label="V'"];222 -- 2222;22221[label="Mood"];2222 -- 22221;22222[label="Tense"];2222 -- 22222;22223[label="V"];2222 -- 22223;22224[label="Neg"];2222 -- 22224;}
+   : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Obl"];0 -- 1;2[label="S'"];0 -- 2;21[label="NPerg"];2 -- 21;211[label="NP"];21 -- 211;22[label="VP"];2 -- 22;221[label="NPdat"];22 -- 221;2211[label="NP"];221 -- 2211;222[label="VP'"];22 -- 222;2221[label="NPabs"];222 -- 2221;22211[label="NP"];2221 -- 22211;222111[label="S"];22211 -- 222111;222112[label="NP'"];22211 -- 222112;2221121[label="Adj"];222112 -- 2221121;2221122[label="N"];222112 -- 2221122;2222[label="V'"];222 -- 2222;22221[label="Mood"];2222 -- 22221;22222[label="Tense"];2222 -- 22222;22223[label="V"];2222 -- 22223;22224[label="Neg"];2222 -- 22224;}
 
-   #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes :cache yes
+   #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes
      $input
    #+END_SRC
    #+NAME: arbre:syntaxe:basique
-   #+attr_html: :alt Arbre de syntaxe basique du Ñyqy
+   #+attr_html: :alt Arbre de syntaxe basique du Ñyqy :width 800px
    #+CAPTION: Arbre de syntaxe basique du Ñyqy
-   #+RESULTS[f610dcdc0787e77f58af7974f394c881f032f96a]:
-   [[file:img/nyqy-basic-syntax.png]]
-
-   On voit grâce à l’arbre [[arbre:syntaxe:basique]] que la structure générale d’une
-   phrase démarre avec  des éléments divers liés à la  clause principale, qui ne
-   se rapportent au verbe ni par une relation ergative, ni absolutive ni dative.
-   Ensuite  vient la  phrase nominale  ergative, suivie  par la  phrase nominale
-   dative, puis  la phrase  verbale. Cette  dernière se  constitue de  la phrase
-   nominale absolutive, suivie par le verbe,  lui-même composé par son mode, son
-   temps, le verbe lui-même et sa négation.
+   #+RESULTS:
+   [[file:img/nyqy/basic-syntax.png]]
 
 *** Clauses principales
     :PROPERTIES:
