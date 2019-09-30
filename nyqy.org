@@ -424,17 +424,24 @@
     :PROPERTIES:
     :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
     :END:
+    Le Ñyqy est  une langue disposant d’un total de  huit voyelles individuelles
+    ainsi  que  d’une  neuvième  voyelle,  le schwa,  apparaissant  du  fait  de
+    certaines  contraintes phonétiques.  Dans le  tableau [[table:vowels:ipa]]  vous
+    trouverez la  liste complète des voyelles  de la langue, et  dans le tableau
+    [[table:vowels:trans]] leur orthographe.
+
     #+NAME: table:vowels:ipa
     #+CAPTION: Voyelles du Ñyqy (IPA)
     #+ATTR_LATEX: :placement [htb]
-    |           / |      <      |      <       |
-    |         <r> |     <c>     |     <c>      |
-    |             | antérieures | postérieures |
-    |-------------+-------------+--------------|
-    |     fermées |      y      |      u       |
-    | pré-fermées |      ɪ      |      ʊ       |
-    |  mi-fermées |      ø      |      ɤ       |
-    | mi-ouvertes |      ɛ      |      ɔ       |
+    |           / |      <      |     <     |      <       |
+    |         <r> |     <c>     |    <c>    |     <c>      |
+    |             | antérieures | centrales | postérieures |
+    |-------------+-------------+-----------+--------------|
+    |     fermées |      y      |           |      u       |
+    | pré-fermées |      ɪ      |           |      ʊ       |
+    |    moyennes |             |    (ə)    |              |
+    |  mi-fermées |      ø      |           |      ɤ       |
+    | mi-ouvertes |      ɛ      |           |      ɔ       |
 
     #+NAME: table:vowels:trans
     #+CAPTION: Voyelles du Ñyqy (translittération)
@@ -448,24 +455,30 @@
     |  mi-fermées |      é      |      ó       |
     | mi-ouvertes |      e      |      o       |
 
+    On peut voir  avec l’arbre [[arbre:vowels]] l’organisation des  voyelles dans le
+    Ñyqy. On peut constater que le trait distinctif le plus important dans cette
+    langue  est si  cette dernière  est postérieure.  À l’inverse,  les voyelles
+    n’ayant pour seule distinction que leur hauteur sont considérées comme étant
+    proches les unes des autres.
+
     #+NAME: vow-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       (setq-local nyqy-vowels
         '("[vowel]"
           ("[back]"
            ("[tense]"
-            ("[high]" ("ú"))
-            ("{high}" ("ó")))
+            ("[high]" ("/u/"))
+            ("{high}" ("/o/")))
            ("{tense}"
-            ("[high]" ("u"))
-            ("{high}" ("o"))))
+            ("[high]" ("/ʊ/"))
+            ("{high}" ("/ɔ/"))))
           ("{back}"
            ("[tense]"
-            ("[high]" ("y"))
-            ("{high}" ("é")))
+            ("[high]" ("/y/"))
+            ("{high}" ("/e/")))
            ("{tense}"
-            ("[high]" ("i"))
-            ("{high}" ("e"))))))
+            ("[high]" ("/ɪ/"))
+            ("{high}" ("/ɛ/"))))))
       (conlanging/tree-to-dot nyqy-vowels)
     #+END_SRC
 
