@@ -708,7 +708,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais
+    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
     #+RESULTS[2c6f077ffbc915fa8a280ad51c89c4e778de0dec]:
@@ -941,7 +941,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais
+    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des consonnes de l’Eittlandais
     #+RESULTS[c8ade388ef8459b89ca4c74696b0bd21fba46d34]:

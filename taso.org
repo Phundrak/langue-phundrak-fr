@@ -251,7 +251,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:vow
-    #+ATTR_HTML: :alt Arbre des voyelles du Tãso :align center
+    #+ATTR_HTML: :alt Arbre des voyelles du Tãso :align center :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des voyelles du Tãso
     #+RESULTS[eff961e714f2313ac2e974637800b18d5c11c928]:
@@ -357,7 +357,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Tãso :align center
+    #+ATTR_HTML: :alt Arbre des consonnes du Tãso :align center :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Tãso
     #+RESULTS[9bf7d97ca85780e74e9fbb5fc69cbc9800439890]:
