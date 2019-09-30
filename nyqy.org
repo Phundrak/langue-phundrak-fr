@@ -192,6 +192,36 @@
    :PROPERTIES:
    :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
    :END:
+   Un  certain  nombre  d’abréviations  seront utilisées  dans  ce  document  en
+   particulier  lors de  l’expression de  relations grammaticales  ou d’éléments
+   grammaticaux. Il  est donc  important pour  les personnes  souhaitant étudier
+   cette  langue de  savoir  à quoi  cela  correspond. Voici  une  liste que  je
+   m’efforce à  garder exhaustive des  abréviations que vous  pourrez rencontrer
+   plus tard.
+
+   - 1 :: première personne
+   - 2 :: deuxième personne
+   - 3 :: troisième personne
+   - ABS :: absolutif
+   - DAT :: datif
+   - ERG :: ergatif
+   - F :: féminin
+   - gp :: particule grammaticale
+   - IND :: indicatif
+   - IPA   ::  Alphabet   Phonétique   International  (/International   Phonetic
+            Alphabet/)
+   - IRR :: irréel
+   - M :: masculin
+   - n :: nom
+   - nbr :: nombre
+   - NPST :: non-passé
+   - OBL :: oblique
+   - OPT :: optatif
+   - pron :: pronom
+   - PST :: passé
+   - SUBJ :: subjonctif
+   - vi :: verbe intransitif
+   - vt :: verbe transitif
 
 * La culture, l’histoire, le contexte sociolinguistique du Ñyqy
   :PROPERTIES:
@@ -1215,6 +1245,121 @@
    :PROPERTIES:
    :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
    :END:
+
+*** B
+    :PROPERTIES:
+    :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
+    :END:
+    - {{{nyqy(bú)}}} :: (pron) deuxième personne
+
+*** C
+    :PROPERTIES:
+    :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
+    :END:
+    - {{{nyqy(coq)}}} :: (v) manger
+
+*** E
+    :PROPERTIES:
+    :CUSTOM_ID: h-24fbc9df-934e-4372-a1ff-236b65d37632
+    :END:
+
+*** É
+    :PROPERTIES:
+    :CUSTOM_ID: h-beac2e71-9160-4fa9-b997-2aebe49c03b1
+    :END:
+
+*** G
+    :PROPERTIES:
+    :CUSTOM_ID: h-32095317-7c5b-4d33-a673-fddce4dec0e6
+    :END:
+    - {{{nyqy(gó)}}} :: (v) boire
+
+*** I
+    :PROPERTIES:
+    :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
+    :END:
+
+*** J
+    :PROPERTIES:
+    :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
+    :END:
+
+*** M
+    :PROPERTIES:
+    :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
+    :END:
+    - {{{nyqy(mo)}}} :: (gp.PST) particule grammaticale marquant le passé
+
+*** N
+    :PROPERTIES:
+    :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
+    :END:
+    - {{{nyqy(nócpi)}}} :: ensuite, puis
+
+*** Ñ
+    :PROPERTIES:
+    :CUSTOM_ID: h-628010b2-9646-4886-9750-ba3c27096c15
+    :END:
+    - {{{nyqy(ñe)}}} :: (n) maison
+    - {{{nyqy(ñy)}}} :: (pron) première personne
+
+*** O
+    :PROPERTIES:
+    :CUSTOM_ID: h-b16799c3-1aa3-48a6-a984-7d201564b8ba
+    :END:
+
+*** Ó
+    :PROPERTIES:
+    :CUSTOM_ID: h-4be4efa4-8b9b-4267-812c-1872856eee41
+    :END:
+
+*** P
+    :PROPERTIES:
+    :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
+    :END:
+    - {{{nyqy(pim)}}} :: (n) pomme
+    - {{{nyqy(pom)}}} :: (gp) particule génitive
+
+*** Q
+    :PROPERTIES:
+    :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
+    :END:
+    - {{{nyqy(qi)}}} :: (nbr) deux
+    - {{{nyqy(qój)}}} :: (v) dormir
+    - {{{nyqy(qun)}}} :: (gp.OPT) particule grammaticale marquant l’optatif
+    - {{{nyqy(qy)}}} :: (nbr) six, première sixaine. Voir
+                  §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
+
+*** S
+    :PROPERTIES:
+    :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
+    :END:
+    - {{{nyqy(súmusq)}}} :: (n) maison communale
+
+*** U
+    :PROPERTIES:
+    :CUSTOM_ID: h-319f1418-eefb-4a02-9b0e-7b3dd56c20e4
+    :END:
+
+*** Ú
+    :PROPERTIES:
+    :CUSTOM_ID: h-ac099677-5362-44b9-8fe3-f37d5624b327
+    :END:
+
+*** W
+    :PROPERTIES:
+    :CUSTOM_ID: h-204045c9-4949-4ded-b8cb-8ba95f7df25f
+    :END:
+
+*** Y
+    :PROPERTIES:
+    :CUSTOM_ID: h-f271b8af-6237-448b-90be-d4daa0afbf1c
+    :END:
+
+*** Z
+    :PROPERTIES:
+    :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
+    :END:
 
 ** Nombres
    :PROPERTIES:
