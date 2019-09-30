@@ -489,13 +489,41 @@
     #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 800px
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
-    #+RESULTS[9600070f8f4e634f24844b3b0911e43967ea6b20]:
+    #+RESULTS[d6752d93f1ef9dbe412d3eb47db94ef37601fbd2]:
     [[file:img/nyqy/vowel-feature-tree.png]]
 
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
     :END:
+    #+NAME: table:cons:ipa
+    #+CAPTION: Consonnes du Ñyqy (IPA)
+    |              <r5> |     <c5>     |     <c5>      |       <c5>        |    <c5>    |    <c5>     |    <c5>     |
+    |                 / |      <       |       <       |         <         |     <      |      <      |      <      |
+    |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
+    |-------------------+--------------+---------------+-------------------+------------+-------------+-------------|
+    |            plosif |     p b      |               |                   |            |     q ɢ     |             |
+    |             nasal |      m       |       n       |                   |            |      ɴ      |             |
+    |              tapé |              |               |                   |            |     (ʀ)     |             |
+    |          fricatif |              |      s z      |                   |  (x) (ɣ)   |   (χ) (ʁ)   |   (ħ) (ʕ)   |
+    |          affriqué |              |     t͡ʃ d͡ʒ     |                   |            |             |             |
+    | latérale affriqué |              |    (ɬ) (ɮ)    |                   |            |             |             |
+    |  latérale spirant |              |      (l)      |                   |            |             |             |
+    |       approximant |              |               |                   |    (j)     |             |             |
+    |           spirant |              |               |         w         |            |             |             |
+
+    #+NAME: table:cons:trans
+    #+CAPTION: Consonnes du Ñyqy (translittération)
+    |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
+    |        / |         <          |          <          |            <            |         <         |
+    |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
+    |----------+--------------------+---------------------+-------------------------+-------------------|
+    |   plosif |        p b         |                     |                         |        q g        |
+    |    nasal |         m          |          n          |                         |         ñ         |
+    | fricatif |                    |         s z         |                         |                   |
+    | affriqué |                    |         c j         |                         |                   |
+    |  spirant |                    |                     |            w            |                   |
+
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       (setq-local nyqy-consonants
@@ -534,34 +562,6 @@
     #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
     #+RESULTS[3be02c9003abd7f281f1789435af68d7b25ce1f5]:
     [[file:img/nyqy/consonant-feature-tree.png]]
-
-    #+NAME: table:cons:ipa
-    #+CAPTION: Consonnes du Ñyqy (IPA)
-    |              <r5> |     <c5>     |     <c5>      |       <c5>        |    <c5>    |    <c5>     |    <c5>     |
-    |                 / |      <       |       <       |         <         |     <      |      <      |      <      |
-    |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
-    |-------------------+--------------+---------------+-------------------+------------+-------------+-------------|
-    |            plosif |     p b      |               |                   |            |     q ɢ     |             |
-    |             nasal |      m       |       n       |                   |            |      ɴ      |             |
-    |              tapé |              |               |                   |            |     (ʀ)     |             |
-    |          fricatif |              |      s z      |                   |  (x) (ɣ)   |   (χ) (ʁ)   |   (ħ) (ʕ)   |
-    |          affriqué |              |     t͡ʃ d͡ʒ     |                   |            |             |             |
-    | latérale affriqué |              |    (ɬ) (ɮ)    |                   |            |             |             |
-    |  latérale spirant |              |      (l)      |                   |            |             |             |
-    |       approximant |              |               |                   |    (j)     |             |             |
-    |           spirant |              |               |         w         |            |             |             |
-
-    #+NAME: table:cons:trans
-    #+CAPTION: Consonnes du Ñyqy (translittération)
-    |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
-    |        / |         <          |          <          |            <            |         <         |
-    |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
-    |----------+--------------------+---------------------+-------------------------+-------------------|
-    |   plosif |        p b         |                     |                         |        q g        |
-    |    nasal |         m          |          n          |                         |         ñ         |
-    | fricatif |                    |         s z         |                         |                   |
-    | affriqué |                    |         c j         |                         |                   |
-    |  spirant |                    |                     |            w            |                   |
 
 *** Tons et accentuation
     :PROPERTIES:
