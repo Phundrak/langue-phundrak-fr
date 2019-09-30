@@ -576,26 +576,27 @@
    :END:
     Une syllabe  typique en Mattér se  présente sous la forme  (C)V(CC), avec au
     moins  une consonne  obligatoire  soit  dans l’attaque  soit  dans le  coda,
-    suivant les règles présentées ci-dessous.
+    suivant les règles présentées ci-dessous. Ainsi, la syllabe la plus complexe
+    possible  en  Ñyqy  contient  une  consonne, puis  une  voyelle,  puis  deux
+    nouvelles consonnes.
 
-    Une     règle      universelle     fut     déjà      présentée     ci-dessus
-    (§[[#h-19816428-bd33-40a2-a682-acc2d0afe668]]) : deux consonnes  de même qualité
-    dorsale ne  peuvent se suivre, qu’elles  soient séparées par aucune,  une ou
-    plusieurs  voyelles. Ainsi,  les  termes {{{phon(qʊn)}}}  ou  {{{phon(nɔsq)}}} sont  des
-    termes valides selon cette règle, mais  *{{{phon(t͡ʃɔq)}}} ne l’est pas, ce dernier
-    se prononcera {{{phon(t͡ʃɔħ)}}}.
+    Comme cela  a été mentionné  ci-dessus, il est phonétiquement  impossible en
+    Ñyqy que deux consonnes de même  qualité dorsale se suivent. Ainsi, s’il est
+    théoriquement  que deux  consonnes  soient adjacentes,  la seconde  consonne
+    verra sa prononciation modifiée afin  de rendre cette cohabitation possible.
+    Cependant,  il  arrive  qu’une  fois  mutées  correctement,  deux  consonnes
+    phonétiques soient  adjacentes alors  que les  règles phonologiques  du Ñyqy
+    l’interdisent, ce qui  résulte en un schwa ajouté  entre lesdites consonnes.
+    Ainsi, le  terme /cójm/  est prononcé {{{phon(t͡ʃɤɮəʀ)}}}  si la  première consonne
+    n’est pas mutée, ou bien {{{phon(ɬɤd͡ʒm)}}} dans  le second cas. Dans tous les cas,
+    le terme ne change pas d’orthographe.
 
-    Si, dû à la mutation des  consonnes, deux consonnes se retrouvent adjacentes
-    sans suivre les règles indiquées ci-dessous, alors un schwa est inséré entre
-    ces  deux  consonnes.  Exemple :  /cójm/ est  prononcé  {{{phon(t͡ʃɤɮəʀ)}}}  si  la
-    première consonne n’est pas mutée, sinon le mot est prononcé {{{phon(ɬɤd͡ʒm)}}}.
-
-    L’attaque peut être  composée de n’importe quelle consonne,  tout comme elle
-    ne peut en comporter aucune.
+    L’attaque peut être composée de n’importe quelle consonne ou bien être vide,
+    ce dernier cas indiquant alors la présence d’une consonne dans le coda.
 
     Le  noyau de  la  syllabe peut  être composé  de  n’importe quelle  voyelle,
     exceptée  une  voyelle haute  si  la  consonne  précédente est  une  dorsale
-    sonorante haute.
+    sonorante haute. Cela interdit donc les syllabes du type /wy/ ou /wú/.
 
     Les règles du coda sont également simples :
     - Les consonnes coronales ou hautes  non sonorantes peuvent être suivies par
@@ -676,11 +677,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-a0195f74-9ac1-417c-8af7-cc329e0efc04
     :END:
-    Les noms en Ñyqy se réfèrent généralement à des entités définies, comme des
-    objets, des personnes, des concepts ou événements. Contrairement à beaucoup
-    d’autres langues, et du fait de la nature très analytique de la langue, les
-    noms ne supportent aucune caractéristique morphosyntaxique ; ils peuvent
-    cependant s’associer à d’autres éléments du fait de leur nature, notamment
+    Les noms en Ñyqy se réfèrent  généralement à des entités définies, comme des
+    objets, des personnes, des concepts  ou événements. Contrairement à beaucoup
+    d’autres langues, et du fait de la  nature très analytique de la langue, les
+    noms  ne supportent  aucune caractéristique  morphosyntaxique ; ils  peuvent
+    cependant s’associer à  d’autres éléments du fait de  leur nature, notamment
     grâce à des particules grammaticales.
 
 **** La structure d’un nom
