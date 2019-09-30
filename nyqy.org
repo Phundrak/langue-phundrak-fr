@@ -333,7 +333,7 @@
    de morphèmes liés  monosyllabiques que l’on peut interpréter  comme étant des
    particules  grammaticales.  Voici  un  exemple  de phrase  en  Ñyqy  avec  sa
    traduction et son détail grammatical :
-   1. {{{nyqy(ñe pom qy)}}}
+   1. {{{nyqy(ñe pom ñy)}}}
 
       maison GEN 1sg
 
@@ -345,7 +345,7 @@
 
       Nous avons mangé une pomme
 
-   3. {{{nyqy(qy qun gó)}}}
+   3. {{{nyqy(ñy qun gó)}}}
 
       1sg OPT boire
 
@@ -950,13 +950,13 @@
    absolutif restera en  permanence en contact direct avec le  verbe, tandis que
    l’élément  ergatif  les précédera,  et  pourra  même  être séparé  du  couple
    absolutif-verbe par des éléments datifs. Exemple :
-   - {{{nyqy(qy-0 qój)}}}
+   - {{{nyqy(ñy-0 qój)}}}
 
      1sg-ABS dormir
 
      Je dors
 
-   - {{{nyqy(qy-0 pim-0 coq)}}}
+   - {{{nyqy(ñy-0 pim-0 coq)}}}
 
      1sg-ERG pomme-ABS manger
 
@@ -966,7 +966,7 @@
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
-   - {{{nyqy(qy-0 pim-0 coq. nócpi qój.)}}}
+   - {{{nyqy(ñy-0 pim-0 coq. nócpi qój.)}}}
 
      1sg-ERG pomme-ABS manger. ensuite dormir.
 
