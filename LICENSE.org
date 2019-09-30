@@ -2,10 +2,10 @@ The source code you can find in various programming languages in this repository
 including,  but not  limited to,  Javascript and  CSS source  code is  under the
 AGPLv3 licence. To view a copy, please refer to [[file:agpl-3.0.md]].
 
-The creative work contained within the org files, and all the files generated
-from these including, but not limited to, HTML and PDF files, is licenced under
-the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-License. To view a copy of this license, visit
+The creative work contained within the org files and all the files generated
+from these org files including, but not limited to, HTML and PDF files, are
+licenced under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License. To view a copy of this license, visit
 [[http://creativecommons.org/licenses/by-nc-sa/4.0/]]. If you wish to make use of
 this work in a way that is incompatible with this licence, please contact me so
 we can discuss about it at <phundrak@phundrak.fr>.
