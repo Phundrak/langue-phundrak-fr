@@ -14,6 +14,7 @@
 * Propos préliminaires
   :PROPERTIES:
   :CUSTOM_ID: h-41a62215-44fc-490f-89f3-5b9cccf02550
+  :UNNUMBERED: t
   :END:
 ** Avant-propos
    :PROPERTIES:
