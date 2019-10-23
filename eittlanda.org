@@ -588,7 +588,6 @@
     s’agit d’un allophone. Nous en reparlerons dans le chapitre sur l’allophonie
     (§[[#h-dc22e66b-cb65-48ed-b72d-2f02452a3148]]).
 
-
     #+NAME: vow:eittlanda:ipa
     #+CAPTION: Voyelles de l’Eittlandais (API)
     |          / |     <     |         |            |
@@ -615,7 +614,6 @@
     également que le schwa n’a  aucune représentation orthographique. À nouveau,
     cela est dû à l’allophonie de l’Eittlandais que nous verrons plus bas.
 
-
     #+NAME: vow:eittlanda:orth
     #+CAPTION: Voyelles de l’Eittlandais (orthographe latine)
     |          / |     <     |            |
@@ -627,7 +625,6 @@
     |  mi-ouvert |     œ     |     ó      |
     | pré-ouvert |     æ     |            |
     |     ouvert |           |     a      |
-
 
     Voici une description plus en détail des voyelles de l’Eittlandais :
     - a :: même {{{phon(ɑ)}}} qu’en anglais britannique /father/.
