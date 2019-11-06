@@ -5,62 +5,67 @@
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue draconienne du Zöhæň" />
 
 * Introduction
-Le Zöhæň est une langue draconienne, parlée principalement par les wyvernes et les drakes.
+  Le Zöhæň est une langue draconienne, parlée principalement par les wyvernes et
+  les drakes.
 
-Les dragons et autres reptiles n’ont pas de voyelles, d’où l’absence totale de voyelles arrondies et de consonnes labiales.
+  Les dragons et autres reptiles n’ont pas de voyelles, d’où l’absence totale de
+  voyelles arrondies et de consonnes labiales.
 
 * Phonologie
 ** Voyelles
 
-| / | >         |       |            |         |      |
-|   |           | front | near-front | central | back |
-|---+-----------+-------+------------+---------+------|
-|---+-----------+-------+------------+---------+------|
-|   | high      | i     |            |       1 | M    |
-|   | near-high |       | I          |         |      |
-|   | high-mid  | e     |            |      @\ |      |
-|   | low-mid   |       |            |       3 | V    |
-|   | low       | a     |            |         | A    |
+   | / | >         |       |            |         |      |
+   |   |           | front | near-front | central | back |
+   |---+-----------+-------+------------+---------+------|
+   |---+-----------+-------+------------+---------+------|
+   |   | high      | i     |            |       1 | M    |
+   |   | near-high |       | I          |         |      |
+   |   | high-mid  | e     |            |      @\ |      |
+   |   | low-mid   |       |            |       3 | V    |
+   |   | low       | a     |            |         | A    |
 
-| / | >         |       |            |         |      |
-|   |           | front | near-front | central | back |
-|---+-----------+-------+------------+---------+------|
-|---+-----------+-------+------------+---------+------|
-|   | high      | i     |            | í       | u    |
-|   | near-high |       | ì          |         |      |
-|   | high-mid  | e     |            | y       |      |
-|   | low-mid   |       |            | ë       | o    |
-|   | low       | æ     |            |         | a    |
+   | / | >         |       |            |         |      |
+   |   |           | front | near-front | central | back |
+   |---+-----------+-------+------------+---------+------|
+   |---+-----------+-------+------------+---------+------|
+   |   | high      | i     |            | í       | u    |
+   |   | near-high |       | ì          |         |      |
+   |   | high-mid  | e     |            | y       |      |
+   |   | low-mid   |       |            | ë       | o    |
+   |   | low       | æ     |            |         | a    |
 
 ** Consonnes
 
-| /                   |        |          |              |           |               |         |       |        |         |
-|                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
-|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
-|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
-| stop                |        | t        |              | d`        |               |         | k g   | q G    |         |
-| nasal               |        | n        |              |           |               | J       | N     |        |         |
-| affricate           |        |          | tS dZ        |           |               |         |       |        |         |
-| fricative           | T D    | z        | S Z          | s` z`     | s\            | ç j\    |       | X R    | h       |
-| approximant         |        | r\       |              |           |               | j       |       |        |         |
-| lateral fricative   |        | K K\     |              |           |               |         |       |        |         |
-| lateral approximant |        | l        |              |           |               |         |       |        |         |
+   | <5>                 | <5>    | <5>      | <5>          | <5>       | <5>           | <5>     | <5>   | <5>    | <5>     |
+   | /                   |        |          |              |           |               |         |       |        |         |
+   |                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
+   |---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+   |---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+   | stop                |        | t        |              | d`        |               |         | k g   | q G    |         |
+   | nasal               |        | n        |              |           |               | J       | N     |        |         |
+   | affricate           |        |          | tS dZ        |           |               |         |       |        |         |
+   | fricative           | T D    | z        | S Z          | s` z`     | s\            | ç j\    |       | X R    | h       |
+   | approximant         |        | r\       |              |           |               | j       |       |        |         |
+   | lateral fricative   |        | K K\     |              |           |               |         |       |        |         |
+   | lateral approximant |        | l        |              |           |               |         |       |        |         |
 
-| /                   |        |          |              |           |               |         |       |        |         |
-|                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
-|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
-|---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
-| stop                |        | t        |              | d         |               |         | k g   | q ǵ    |         |
-| nasal               |        | n        |              |           |               | ń       | ň     |        |         |
-| affricate           |        |          | cs cz        |           |               |         |       |        |         |
-| fricative           | þ ð    | z        | S Z          | š ž       | s             | ś ź     |       | x r    | h       |
-| approximant         |        | ŕ        |              |           |               | j       |       |        |         |
-| lateral fricative   |        | ł ļ      |              |           |               |         |       |        |         |
-| lateral approximant |        | l        |              |           |               |         |       |        |         |
+   | <5>                 | <5>    | <5>      | <5>          | <5>       | <5>           | <5>     | <5>   | <5>    | <5>     |
+   | /                   |        |          |              |           |               |         |       |        |         |
+   |                     | dental | alveolar | postalveolar | retroflex | alveo-palatal | palatal | velar | uvular | glottal |
+   |---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+   |---------------------+--------+----------+--------------+-----------+---------------+---------+-------+--------+---------|
+   | stop                |        | t        |              | d         |               |         | k g   | q ǵ    |         |
+   | nasal               |        | n        |              |           |               | ń       | ň     |        |         |
+   | affricate           |        |          | cs cz        |           |               |         |       |        |         |
+   | fricative           | þ ð    | z        | S Z          | š ž       | s             | ś ź     |       | x r    | h       |
+   | approximant         |        | ŕ        |              |           |               | j       |       |        |         |
+   | lateral fricative   |        | ł ļ      |              |           |               |         |       |        |         |
+   | lateral approximant |        | l        |              |           |               |         |       |        |         |
 
 ** Accentuation
-Deuxième syllabe d’un mot
+   Deuxième syllabe d’un mot
 
 ** Règles phonologiques
 
-~q > h / _#~, ~je > o / #_~, ~[stops] > Ø / #_[friccatives]~, ~e > a / _i~, ~{k,g} > [+postalveolar] / _i~
+   ~q > h / _#~,  ~je > o / #_~, ~[stops] > Ø / #_[friccatives]~,  ~e > a / _i~,
+   ~{k,g} > [+postalveolar] / _i~

@@ -7,361 +7,787 @@
 # idées: https://twitter.com/Phundrak/status/1079046235011584001
 
 * Avant-propos
-La redistribution ou vente de ce document sont strictement interdits. Ce document est protégé par la loi française sur le droit d’auteur et appartient entièrement et totalement à son auteur. Ce document est un document disponible gratuitement au format web à l’adresse [[https://langue.phundrak.fr/hjelp/]] et au format PDF à l’adresse [[https://langue.phundrak.fr/hjelp/hjelp.pdf]]. Si vous l’avez obtenu depuis une autre source, gratuitement ou non, merci de m’en faire part en me contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site principal, [[https://phundrak.fr]]. Aucune personne, morale ou physique, n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes intéressés par une redistribution de ce document, je vous invite à rentrer en contact avec moi afin que l’on en discute.
+  La  redistribution ou  vente de  ce  document sont  strictement interdits.  Ce
+  document est protégé par la loi  française sur le droit d’auteur et appartient
+  entièrement et totalement à son auteur. Ce document est un document disponible
+  gratuitement au format web à l’adresse [[https://langue.phundrak.com/hjelp]] et au
+  format PDF  à l’adresse [[https://langue.phundrak.com/hjelp.pdf]]. Si  vous l’avez
+  obtenu depuis une autre source, gratuitement  ou non, merci de m’en faire part
+  en me contactant  via mes réseaux sociaux  ou par mail que  vous trouverez sur
+  mon site principal, [[https://phundrak.com]]. Aucune personne, morale ou physique,
+  n’est à l’heure actuelle autorisée à  redistribuer ces documents. Si vous êtes
+  intéressés par une redistribution de ce  document, je vous invite à rentrer en
+  contact avec moi afin que l’on en discute.
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Introduction
-  Le Hjelp est une langue construite représentant symboliquement la langue orale et écrite utilisée par les dieux célestes de l’univers de mon roman, les Hjalpĺ. Cela signifie que, bien que le Hjelp soit une langue /de facto/ réelle de part cette grammaire et au moins mon utilisation de cette langue dans mes ouvrages, elle n’est pas réellement la langue telle que je l’imagine pour les dieux célestes ; en effet, j’imagine la langue réelle des Hjalpĺ comme étant une langue d’une extraordinaire complexité, mais extrêmement concise, représentant l’esprit des dieux célestes. Je me référerais ainsi par « Hjelp théorique » au Hjelp tel qu’imaginé dans mon univers littéraire, et par « Hjelp construit » ou tout simplement « Hjelp » la langue présentée dans ce document.
+  Le Hjelp est une langue construite représentant symboliquement la langue orale
+  et  écrite utilisée  par les  dieux célestes  de l’univers  de mon  roman, les
+  Hjalpĺ. Cela signifie que, bien que le Hjelp soit une langue /de facto/ réelle
+  de part cette grammaire  et au moins mon utilisation de  cette langue dans mes
+  ouvrages, elle n’est pas réellement la  langue telle que je l’imagine pour les
+  dieux célestes ; en  effet, j’imagine la langue réelle des  Hjalpĺ comme étant
+  une  langue   d’une  extraordinaire  complexité,  mais   extrêmement  concise,
+  représentant l’esprit des  dieux célestes. Je me référerais  ainsi par « Hjelp
+  théorique »  au Hjelp  tel  qu’imaginé  dans mon  univers  littéraire, et  par
+  « Hjelp construit » ou  tout simplement « Hjelp » la langue  présentée dans ce
+  document.
 
-  Fort heureusement pour ceux qui se montreraient intéressé par le Hjelp, et malheureusement pour moi, créer une langue d’un tel niveau de complexité est littéralement impossible, considérant ne serait-ce que la difficulté théorique pour l’apprendre. Cependant, cela ne m’empêchera pas d’essayer de créer une langue complexe et concise du mieux que je peux, et j’essaierai d’imiter avec cette langue l’esthétique de la langue théorique des Hjalpĺ.
+  Fort heureusement  pour ceux qui  se montreraient  intéressé par le  Hjelp, et
+  malheureusement pour moi,  créer une langue d’un tel niveau  de complexité est
+  littéralement impossible, considérant ne serait-ce que la difficulté théorique
+  pour l’apprendre.  Cependant, cela ne  m’empêchera pas d’essayer de  créer une
+  langue complexe et concise du mieux  que je peux, et j’essaierai d’imiter avec
+  cette langue l’esthétique de la langue théorique des Hjalpĺ.
 
-  Le Hjelp est une langue construite dite /à priori/, c’est à dire qu’elle ne se base sur aucune langue naturelle. Sa grammaire a quelques inspirations de diverses langues telles que le Français, le Tibétain, le Japonais, le Finnois ou le Hongrois, cependant aucune partie majeure de leur grammaire n’est intégrée au Hjelp, et son lexique est entièrement construit de manière indépendante de toute langue naturelle.
+  Le Hjelp est une langue construite dite /à priori/, c’est à dire qu’elle ne se
+  base  sur aucune  langue naturelle.  Sa grammaire  a quelques  inspirations de
+  diverses langues telles que le Français,  le Tibétain, le Japonais, le Finnois
+  ou  le Hongrois,  cependant  aucune  partie majeure  de  leur grammaire  n’est
+  intégrée  au  Hjelp, et  son  lexique  est  entièrement construit  de  manière
+  indépendante de toute langue naturelle.
 
-  J’utiliserai, comme indiqué plus haut, cette langue dans mes ouvrages littéraires concernant l’univers lié à cette langue, mais je l’utiliserai également pour des constructions d’autres langues qui descendront du Hjelp. Ces nouvelles langues, tel que le Melexeq, la langue de certains dieux terrestres, seront beaucoup plus simples. Les langues divines terrestres garderont un certain degré de complexité du fait du peuple la parlant en lui-même, et les langues descendant du Hjelp utilisées par les mortels seront d’un niveau de complexité similaire aux langues naturelles que l’on peut trouver dans notre monde.
+  J’utiliserai,  comme  indiqué  plus  haut,  cette  langue  dans  mes  ouvrages
+  littéraires  concernant l’univers  lié à  cette langue,  mais je  l’utiliserai
+  également pour  des constructions d’autres  langues qui descendront  du Hjelp.
+  Ces  nouvelles langues,  tel  que  le Melexeq,  la  langue  de certains  dieux
+  terrestres,  seront  beaucoup plus  simples.  Les  langues divines  terrestres
+  garderont  un certain  degré de  complexité du  fait du  peuple la  parlant en
+  lui-même, et les langues descendant du  Hjelp utilisées par les mortels seront
+  d’un  niveau de  complexité similaire  aux  langues naturelles  que l’on  peut
+  trouver dans notre monde.
 
-  Cette grammaire n’est pas un ouvrage destiné à l’apprentissage du Hjelp (peut-être en écrirai-je un destiné à cette application) mais s’adresse plus à mon propre besoin d’avoir une grammaire de référence pour le Hjelp et suppose donc que le lecteur a un minimum de connaissances linguistiques, bien que certains concepts seront expliqués dans leur chapitre ou paragraphe dédié.
+  Cette  grammaire n’est  pas  un  ouvrage destiné  à  l’apprentissage du  Hjelp
+  (peut-être en écrirai-je un destiné à cette application) mais s’adresse plus à
+  mon propre besoin d’avoir une grammaire  de référence pour le Hjelp et suppose
+  donc que  le lecteur  a un  minimum de  connaissances linguistiques,  bien que
+  certains concepts seront expliqués dans leur chapitre ou paragraphe dédié.
 
 ** Quelques précisions sur le Hjelp théorique
 
-   Comme dit plus haut, le Hjelp théorique est une langue extrêmement complexe parlée par les Hjalpel dans mon univers littéraire. Apprendre cette langue prend plusieurs années d’études pour un humain afin de pouvoir ne serait-ce que commencer à former des phrases rudimentaires avec un vocabulaire limité, et les meilleurs ont un niveau tout de même faible ; selon le Cadre Européen Commun de Référence pour les Langues (CECRL) à l’heure où j’écris ces lignes, cela équivaut à un niveau A2.
+   Comme dit plus  haut, le Hjelp théorique est une  langue extrêmement complexe
+   parlée par  les Hjalpel dans  mon univers littéraire. Apprendre  cette langue
+   prend plusieurs années  d’études pour un humain afin de  pouvoir ne serait-ce
+   que commencer à former des  phrases rudimentaires avec un vocabulaire limité,
+   et les meilleurs ont un niveau tout  de même faible ; selon le Cadre Européen
+   Commun de Référence pour les Langues (CECRL) à l’heure où j’écris ces lignes,
+   cela équivaut à un niveau A2.
 
-   Cette difficulté d’apprentissage de la langue est liée à la nature des Hjalpel et des dieux de façon générale dans mon univers : ils existent en dehors de la réalité, et leur parole sont une manifestation en soit de la réalité, exprimant toute sa complexité, sa subtilité. Comprendre parfaitement cette langue revient à comprendre parfaitement la réalité, d’où le niveau très bas même des meilleurs universitaires et étudiants du Hjelp théorique.
+   Cette  difficulté d’apprentissage  de  la langue  est liée  à  la nature  des
+   Hjalpel et  des dieux de  façon générale dans  mon univers : ils  existent en
+   dehors de  la réalité, et  leur parole sont une  manifestation en soit  de la
+   réalité, exprimant toute sa complexité, sa subtilité. Comprendre parfaitement
+   cette langue  revient à  comprendre parfaitement la  réalité, d’où  le niveau
+   très bas même des meilleurs universitaires et étudiants du Hjelp théorique.
 
-   Le Hjalpel théorique étant une expression de la réalité en elle-même, tout élément qui est créé à un instant t entre à ce moment-là dans le domaine de la réalité qui se propage alors dans le passé, et un mot émerge alors naturellement en Hjelp théorique, ayant aux yeux des mortels existé depuis toujours mais n’ayant été découvert que récemment.
+   Le Hjalpel  théorique étant une expression  de la réalité en  elle-même, tout
+   élément qui est créé  à un instant t entre à ce moment-là  dans le domaine de
+   la  réalité qui  se propage  alors  dans le  passé,  et un  mot émerge  alors
+   naturellement en  Hjelp théorique, ayant  aux yeux des mortels  existé depuis
+   toujours mais n’ayant été découvert que récemment.
 
-   À l’inverse du passé et du présent, le futur ne reste qu’hypothétique dans cet univers, et bien qu’il puisse être prévu et prévisible aux yeux des divins, il est tout à fait possible de l’altérer si un dieux interfère avec la réalité, si un mortel fait usage de son libre arbitre (en effectuant une action réfléchie) ou en faisant usage de la magie. Ainsi, les éléments futurs ne font pas encore partie de la réalité et n’ont donc pas d’expression dans le présent. Attention, du moment qu’un concept est possible dans le futur, ce concept a été créé dans le présent de la personne (mortelle ou divine) y ayant pensé et entre donc dans le domaine de la réalité.
+   À l’inverse  du passé et du  présent, le futur ne  reste qu’hypothétique dans
+   cet  univers, et  bien qu’il  puisse être  prévu et  prévisible aux  yeux des
+   divins, il est tout  à fait possible de l’altérer si  un dieux interfère avec
+   la réalité, si un  mortel fait usage de son libre  arbitre (en effectuant une
+   action réfléchie) ou en faisant usage de la magie. Ainsi, les éléments futurs
+   ne font pas encore  partie de la réalité et n’ont  donc pas d’expression dans
+   le présent. Attention, du moment qu’un concept est possible dans le futur, ce
+   concept a  été créé  dans le présent  de la personne  (mortelle ou  divine) y
+   ayant pensé et entre donc dans le domaine de la réalité.
 
-   Je pense que vous comprenez maintenant pourquoi il est impossible pour moi en tant qu’auteur et simple mortel de réellement créer le Hjelp théorique.
+   Je pense que vous comprenez maintenant pourquoi il est impossible pour moi en
+   tant qu’auteur et simple mortel de réellement créer le Hjelp théorique.
 
-src_latex{\newpage}
+   src_latex{\newpage}
 * Description du lexique
-  Le Hjelp est une langue se basant sur le principe des racine consonantales, la grammaire étant exprimée quasiment uniquement via les voyelles. Du fait de ses très riches déclinaisons, et malgré son nombre limité de racines lexicales, le Hjelp peut exprimer un très grand nombre de différent mots, tous basés sur la même racine.
+  Le Hjelp est une langue se basant sur le principe des racine consonantales, la
+  grammaire étant exprimée quasiment uniquement via les voyelles. Du fait de ses
+  très riches déclinaisons, et malgré son nombre limité de racines lexicales, le
+  Hjelp peut exprimer un très grand nombre  de différent mots, tous basés sur la
+  même racine.
 
-  Afin de respecter la philosophie du Hjelp théorique, tous les mots de son lexique sont des mots ayant été créés soit /à priori/, soit à partir d’autres mots du Hjelp. Ainsi, le Hjelp n’est qu’une langue source dans la génétique des langues de mon univers linguistique et n’emprunte ainsi jamais à d’autre langues.
+  Afin de  respecter la  philosophie du  Hjelp théorique, tous  les mots  de son
+  lexique sont des mots ayant été créés  soit /à priori/, soit à partir d’autres
+  mots du  Hjelp. Ainsi, le Hjelp  n’est qu’une langue source  dans la génétique
+  des langues de  mon univers linguistique et n’emprunte ainsi  jamais à d’autre
+  langues.
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Phonologie
 ** Notes sur la translittération et la romanisation du Hjelp
-   Le Hjelp est une langue disposant d’un système d’écriture qui lui est unique, et par conséquent ne peut pas être aisément reproduisible par ordinateur, encore moins dans du texte comme celui-ci, à moins d’insérer des images dessinées au préalable. De plus, de par sa nature idéographique, le lecteur n’aura aucune idée de la façon dont les mots se prononcent, hors il est important de pouvoir partager l’aspect phonétique de cette langue afin d’assurer une bonne compréhension de ce document. Ainsi, j’utiliserai pour la quasi-totalité de cette grammaire une translittération du Hjelp, visant à renvoyer une prononciation proche de la réalité. Ainsi, la majorité des sons seront représentés par un unique caractère, à l’exception de quelques sons représentés par deux comme nous le verrons ci-dessous.
+   Le Hjelp est une langue disposant d’un système d’écriture qui lui est unique,
+   et par  conséquent ne  peut pas être  aisément reproduisible  par ordinateur,
+   encore  moins dans  du texte  comme celui-ci,  à moins  d’insérer des  images
+   dessinées au préalable.  De plus, de par sa nature  idéographique, le lecteur
+   n’aura aucune  idée de  la façon  dont les  mots se  prononcent, hors  il est
+   important  de  pouvoir partager  l’aspect  phonétique  de cette  langue  afin
+   d’assurer une bonne compréhension de ce document. Ainsi, j’utiliserai pour la
+   quasi-totalité de  cette grammaire  une translittération  du Hjelp,  visant à
+   renvoyer une prononciation proche de la  réalité. Ainsi, la majorité des sons
+   seront représentés  par un unique  caractère, à l’exception de  quelques sons
+   représentés par deux comme nous le verrons ci-dessous.
 
-   Pour des raisons d’esthétisme, le Hjelp dispose également d’un système de romanisation. Ce système repose sur moins de caractères comportant des accents et autres diacritiques mais permet une approche peut-être plus simple de la prononciation de la langue pour les non-linguistes. L’approche de la prononciation du Hjelp changeant selon la ou les langues parlées par le lecteur, la romanisation peut également changer en fonction de la langue cible. Ainsi, les francophones pourront retranscrire « qhø₃ð » comme « reuv » tandis que les anglophones le rentranscriront « rhoth ». Cette romanisation ne sera présente que dans le point suivant (§[[*Inventaire phon%C3%A9tique]]) afin de donner une référence de lecture du Hjelp dans mes textes littéraires, cependant elle ne sera absolument pas utilisée dans ce document du fait du manque d’information qu’elle partage, contrairement à la translittération qui reste constante selon la langue du lecteur et transmet toutes les informations phonétiques (ou presque, c.f. la section §[[*Allophonie]] sur l’allophonie) dont on a besoin.
+   Pour des  raisons d’esthétisme,  le Hjelp dispose  également d’un  système de
+   romanisation.  Ce  système repose  sur  moins  de caractères  comportant  des
+   accents et autres diacritiques mais permet une approche peut-être plus simple
+   de la  prononciation de la langue  pour les non-linguistes. L’approche  de la
+   prononciation  du Hjelp  changeant selon  la ou  les langues  parlées par  le
+   lecteur,  la romanisation  peut également  changer en  fonction de  la langue
+   cible. Ainsi, les francophones pourront retranscrire « qhø₃ð » comme « reuv »
+   tandis que  les anglophones le rentranscriront  « rhoth ». Cette romanisation
+   ne sera  présente que  dans le  point suivant  (§[[*Inventaire phon%C3%A9tique]])
+   afin de donner une référence de lecture du Hjelp dans mes textes littéraires,
+   cependant elle  ne sera absolument pas  utilisée dans ce document  du fait du
+   manque d’information qu’elle partage, contrairement à la translittération qui
+   reste  constante  selon   la  langue  du  lecteur  et   transmet  toutes  les
+   informations  phonétiques  (ou  presque,  c.f. la  section  §[[*Allophonie]]  sur
+   l’allophonie) dont on a besoin.
 
-   Quelques fois, la translittération ne suffira pas, en particulier dans ce chapitre, pour exprimer avec détail la prononciation de certains mots ou de certaines phrases ; je devrai donc utiliser l’alphabet phonétique international (IPA, /International Phonetic Alphabet/) afin de pouvoir donner la prononciation de façon beaucoup plus précise que la translittération qui peut parfois ne pas être exacte (à nouveau, c.f. la section §[[*Allophonie]] sur l’allophonie).
+   Quelques fois,  la translittération  ne suffira pas,  en particulier  dans ce
+   chapitre, pour exprimer  avec détail la prononciation de certains  mots ou de
+   certaines   phrases ;  je   devrai   donc   utiliser  l’alphabet   phonétique
+   international (IPA, /International Phonetic Alphabet/) afin de pouvoir donner
+   la prononciation de  façon beaucoup plus précise que  la translittération qui
+   peut parfois ne pas être exacte  (à nouveau, c.f. la section §[[*Allophonie]] sur
+   l’allophonie).
 
 ** Inventaire phonétique
-   La tendance en Hjelp est d’isoler les mots entre eux, marquant la séparation entre eux par de courtes pauses ou par un coup de glotte [ʔ] entre ces mots lors d’un passage d’une voyelle à une autre entre deux mots. Lorsqu’un mot est composé de plusieurs syllabes, une préférence est présente pour que les consonnes les plus proches de la voyelle fassent partie intégrale de la syllabe dont la voyelle est le cœur, avec un équilibre dans la répartition des consonnes entre les deux voyelles, avec un avantage pour la voyelle suivante. Ainsi, quand trois consonnes sépareront deux voyelles, la première consonne uniquement fait partie de la première syllabe. Si cette règle n’est pas suivie, la séparation sera marquée à l’écrit par la première consonne de la nouvelle syllabe écrite en majuscule, ou bien la voyelle elle-même si la syllabe ne commence pas par une consonne.
+   La tendance en Hjelp est d’isoler  les mots entre eux, marquant la séparation
+   entre eux par de  courtes pauses ou par un coup de glotte  [ʔ] entre ces mots
+   lors d’un  passage d’une voyelle à  une autre entre deux  mots. Lorsqu’un mot
+   est composé de  plusieurs syllabes, une préférence est présente  pour que les
+   consonnes  les plus  proches de  la voyelle  fassent partie  intégrale de  la
+   syllabe dont  la voyelle est le  cœur, avec un équilibre  dans la répartition
+   des  consonnes entre  les deux  voyelles, avec  un avantage  pour la  voyelle
+   suivante. Ainsi, quand trois consonnes  sépareront deux voyelles, la première
+   consonne uniquement fait partie de la  première syllabe. Si cette règle n’est
+   pas suivie, la séparation sera marquée  à l’écrit par la première consonne de
+   la nouvelle syllabe  écrite en majuscule, ou bien la  voyelle elle-même si la
+   syllabe ne commence pas par une consonne.
 
 *** Les consonnes
-    Le Hjelp est une langue disposant d’un très large panel de consonnes. Voici ci-dessous le tableau des consonnes du Hjelp, translittéré puis en IPA.
+    Le Hjelp est une langue disposant  d’un très large panel de consonnes. Voici
+    ci-dessous le tableau des consonnes du Hjelp, translittéré puis en IPA.
 
-#+CAPTION: Consonnes du Hjelp (translittération)
-|            | nasal | occlusif | fricatif | spirant | roulé | fric-lat | spir-lat |
-|------------+-------+----------+----------+---------+-------+----------+----------|
-| bilabial   | m     | p b      |          |         |       |          |          |
-| lab-dent   |       |          | f v      |         |       |          |          |
-| dental     |       |          | þ ð      |         |       |          |          |
-| alvéolaire | n ń   | t d      | s z      | ŕ       | r     | lh       | l ĺ      |
-| pal-alv    |       |          | sh zh    |         |       |          |          |
-| rétroflexe |       | ŧ đ      |          |         |       |          |          |
-| palatal    |       |          | ch jh    | j       |       |          |          |
-| lab-vel    |       |          |          | w       |       |          |          |
-| vélaire    | ng    | k g      |          |         |       |          |          |
-| uvulaire   |       |          | qh rh    |         |       |          |          |
-| glottal    |       | ’        | h        |         |       |          |          |
-| /          | <     | <        | <        | <       | <     | <        | <        |
+    #+CAPTION: Consonnes du Hjelp (translittération)
+    |            | nasal | occlusif | fricatif | spirant | roulé | fric-lat | spir-lat |
+    |------------+-------+----------+----------+---------+-------+----------+----------|
+    | bilabial   | m     | p b      |          |         |       |          |          |
+    | lab-dent   |       |          | f v      |         |       |          |          |
+    | dental     |       |          | þ ð      |         |       |          |          |
+    | alvéolaire | n ń   | t d      | s z      | ŕ       | r     | lh       | l ĺ      |
+    | pal-alv    |       |          | sh zh    |         |       |          |          |
+    | rétroflexe |       | ŧ đ      |          |         |       |          |          |
+    | palatal    |       |          | ch jh    | j       |       |          |          |
+    | lab-vel    |       |          |          | w       |       |          |          |
+    | vélaire    | ng    | k g      |          |         |       |          |          |
+    | uvulaire   |       |          | qh rh    |         |       |          |          |
+    | glottal    |       | ’        | h        |         |       |          |          |
+    | /          | <     | <        | <        | <       | <     | <        | <        |
 
-#+CAPTION: Consonnes du Hjelp (IPA)
-|            | nasal      | occlusif | fricatif | spirant | battu | fric-lat | spir-lat |
-|------------+------------+----------+----------+---------+-------+----------+----------|
-| bilabial   | m [m̩] [m̩ʲ] | p b      | [ɸ] [β]  |         |       |          |          |
-| lab-dent   |            |          | f v      |         |       |          |          |
-| dental     |            |          | θ ð      |         |       |          |          |
-| alvéolaire | n n̩        | t d      | s z      | ɹ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |
-| pal-alv    |            |          | ʃ ʒ      |         |       |          |          |
-| rétroflexe |            | ʈ ɖ      |          |         |       |          |          |
-| palatal    | [ɲ̩]        |          | ç ʝ      | j       |       |          |          |
-| lab-vel    |            |          |          | w       |       |          |          |
-| vélaire    | ŋ          | k g      | [x] [ɣ]  |         |       |          |          |
-| uvulaire   |            |          | χ ʁ      |         |       |          |          |
-| glottal    |            | ʔ        | h [ɦ]    |         |       |          |          |
-| /          | <          | <        | <        | <       | <     | <        | <        |
+    #+CAPTION: Consonnes du Hjelp (IPA)
+    |            | nasal      | occlusif | fricatif | spirant | battu | fric-lat | spir-lat |
+    |------------+------------+----------+----------+---------+-------+----------+----------|
+    | bilabial   | m [m̩] [m̩ʲ] | p b      | [ɸ] [β]  |         |       |          |          |
+    | lab-dent   |            |          | f v      |         |       |          |          |
+    | dental     |            |          | θ ð      |         |       |          |          |
+    | alvéolaire | n n̩        | t d      | s z      | ɹ       | ɾ     | ɬ        | l l̩ [l̩ʲ] |
+    | pal-alv    |            |          | ʃ ʒ      |         |       |          |          |
+    | rétroflexe |            | ʈ ɖ      |          |         |       |          |          |
+    | palatal    | [ɲ̩]        |          | ç ʝ      | j       |       |          |          |
+    | lab-vel    |            |          |          | w       |       |          |          |
+    | vélaire    | ŋ          | k g      | [x] [ɣ]  |         |       |          |          |
+    | uvulaire   |            |          | χ ʁ      |         |       |          |          |
+    | glottal    |            | ʔ        | h [ɦ]    |         |       |          |          |
+    | /          | <          | <        | <        | <       | <     | <        | <        |
 
-    On peut remarquer une grande complexité au niveau des consonnes occlusives et fricatives, avec également un bon nombre de consonnes alvéolaires. Presque toutes les consonnes occlusives et fricatives sont par ailleurs dotées de leur équivalent voisé ou sourd, à l’exception des deux consonnes glottales. À noter que les phonèmes du tableau IPA entre crochets sont des allophones et n’ont pas de représentation qui leur est propre. Il est également à noter la présence de <ń> et <ĺ> qui sont toutes deux des consonnes syllabiques ; cela signifie qu’elles ne sont pas considérées comme des consonnes mais comme des voyelles à part entière au même titre que celles que nous verrons ci-dessous.
+    On peut remarquer  une grande complexité au niveau  des consonnes occlusives
+    et  fricatives,  avec également  un  bon  nombre de  consonnes  alvéolaires.
+    Presque  toutes les  consonnes occlusives  et fricatives  sont par  ailleurs
+    dotées de leur  équivalent voisé ou sourd, à l’exception  des deux consonnes
+    glottales. À noter  que les phonèmes du tableau IPA  entre crochets sont des
+    allophones  et n’ont  pas  de représentation  qui leur  est  propre. Il  est
+    également  à noter  la présence  de  <ń> et  <ĺ>  qui sont  toutes deux  des
+    consonnes syllabiques ; cela signifie qu’elles ne sont pas considérées comme
+    des  consonnes mais  comme des  voyelles à  part entière  au même  titre que
+    celles que nous verrons ci-dessous.
 
-Voici ci-dessous une description individuelle de chaque consonne :
-- b :: Il s’agit du <b> standard dont disposent le Français dans « bonbon » [bɔ̃bɔ̃] ou l’Anglais « believe » [bɪlɪv], une consonne bilabiale occlusive voisée [b].
-- ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt] ou en Anglais Britannique dans « hue » [çʉː]. Il s’agit d’une consonne fricative palatale sourde [ç].
-- d :: Il s’agit de la consonne <d> standard que l’on peut retrouver en Anglais dans « dice » [daɪs], où le <d> est prononcé en bloquant l’arrivée d’air au niveau de la partie rugueuse du palais. Il est donc différent du <d> français qui est prononcé avec la langue rapprochée voire touchant les dents et qui est noté [d̪], comme dans « dance » [d̪ɑ̃s]. Le <d> du Hjelp est donc bel et bien une consonne occlusive alvéolaire voisée [d].
-- f :: Il s’agit du <f> standard que l’on retrouve bon nombre des langues telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit donc d’une consonne fricative labio-dentale sourde [f].
-- g :: Il s’agit du <g> dur standard que l’on retrouve dans bon nombre des langues telles que le Français dans « Gar » [ɡɑʁ] ou en Anglais dans « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
-- h :: Le <h> représente l’aspiration effectuée dans certaines langues comme l’Anglais dans « had » [hæd]. Il s’agit d’une consonne glottale sourde [h].
-- j :: Le <j> représente la voyelle <i> prononcée comme une consonne, la rendant donc effectivement semi-consonne. On la retrouve en Français dans des mots tels que « yak » [jak] ou « yoyo » [jojo]. Il s’agit donc d’une consonne approximante rétroflexe voisée [j].
-- jh :: Le <jh> est l’équivalent voisé de <ch>. On retrouve cette consonne en Italien comme dans « figlio » [fiʝːo] ou en Russe avec яма [ˈʝämə]. Il s’agit donc d’une consonne fricative palatale voisée [ʝ].
-- k :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme « cas » [ka] ou dans certains cas en Anglais comme dans « skirt » [skɜːtʰ]. Il s’agit donc de la consonne occlusive uvulaire sourde [k].
-- l :: Ce <l> est le <l> que l’on peut retrouver en Français dans « lire » [liʁ] et dans certains cas en Anglais dans « live » [lɪv]. Attention à ne pas le confondre avec le « l sombre » anglais que l’ont peut retrouver par exemple dans « feel » [fiːɫ]. Le <l> du Hjelp est donc une consonne alvéolaire spirante-latérale voisée [l].
-- lh :: Ce <l> est en quelques sortes un équivalent non-voisé du <l> présenté ci-dessous. Il se retrouve en Groënlandais dans le mot « illu » [iɬːu] ou en Norvégien de Trøndersk « tatl » ou « tasl » [tʰaɬ]. Il s’agit donc d’une consonne alvéolaire latérale fricative sourde [ɬ].
-- m :: Il s’agit du même <m> que le <m> standard en Français « mère » [mɛʁ] ou en Anglais « me » [miː]. Il s’agit donc de la consonne nasale bilabiale voisée [m].
-- n :: Il s’agit du <n> standard que l’on retrouve en Anglais comme dans « not » [nɔt]. Attention, cette consonne est alvéolaire et non dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une consonne nasale alvéolaire voisée [n].
-- ng :: Cette consonne se retrouve en Anglais dans des termes tels que « singer » [sɪŋɚ] ou « king » [kʰɪŋ], et on le retrouve à quelques occasion en Français comme dans « camping » [kɑ̃piŋ]. Il s’agit donc d’une consonne nasale vélaire voisée [ŋ].
-- p :: Il s’agit du <p> non aspiré que l’on retrouve en Français tèl que dans « père » [pɛʁ] ou dans certains cas en Anglais comme dans « spoon » [spuːn]. Il s’agit donc de la consonne occlusive bilabiale sourde [p].
-- qh :: Il s’agit d’une consonne que l’on retrouve en Français comme dans « proche » [pχɔʃ], en Allemand « Dach » [daχ] ou en Kabyle « axxam » [aχχam]. Il s’agit donc d’une voyelle fricative uvulaire sourde [χ].
-- r :: Ce <r> peut être retrouvé en Scots « bricht » [brɪçt], en Espagnol « perro » [pe̞ro̞] ou encore en Portugais avec « ratu » [rato]. Il s’agit d’une consonne alvéolaire roulée voisée [r].
-- rh :: Cette consonne est l’équivalent voisé de <qh>, que l’on peut retrouver en Français « rester » [ʁɛste], en Dannois « rød » [ʁ̞œ̠ð̠], en Allemand strandard « Rost » [ʁɔst] ou encore en Luxembourgeois « Kugel » [ˈkʰuːʁəl]. Il s’agit donc d’une voyelle fricative uvulaire voisée [ʁ].
-- s :: Ce <s> est le <s> standard alvéolaire que l’on retrouve dans des langues tels qu’en Anglais « sit » [sɪtʰ], en Portugais « caço » [kasu] ou en Estonien « sõna » [sɤnɑ]. Attention, le <s> français tel que dans « façade » [fäs̪äd̪] est dentalisé, contrairement au <s> du Hjelp qui est donc une consonne fricative alvéolaire sourde [s].
-- sh :: Cette consonne peut se retrouver dans des langues telles que le Français « cher » [ʃɛʁ], en Anglais « sheep » [ʃiːpʰ] ou en Breton « chadenn » [ʃadeñ]. Il s’agit donc d’une consonne fricative post-alvéolaire sourde [ʃ].
-- t :: Ce <t> est la contrepartie voisée de <d> et peut se trouver en Dannois « dåse » [tɔ̽ːsə], en Luxembourgeois « dënn » [tən] ou en Finnois avec « parta » [pɑrtɑ]. Attention, le <t> Français est dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du Hjelp est la consonne occlusive alvéolaire sourde [t].
-- v :: Le <v> du Hjelp peut être retrouvé dans des langues tels que le Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en Macédonien « вода » [vɔda]. Il s’agit donc d’une consonne fricative bilabiale voisée [v].
-- w :: Le <w> est un son que l’on peut retrouver dans certaines langues comme le Français dans « oui » [wi], en Anglais avec « weep » [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne approximante labio-velaire voisée [w].
-- z :: Ce <z> est la contrepartie voisée du <s>. On le retrouve dans des langues tels que l’Anglais dans « zoo » [zuː], en Esperanto dans « kuzo » [kuzo] ou en Japonais dans « zenbu » [zembɯ]. Attention, en Français le [z] est dentalisé en [z̪] et est donc différent du <z> du Hjelp qui est une consonne fricative alvéolaire voisée [z].
-- zh :: Ce <zh> est la contrepartie voisée du <sh>. Il peut être retrouvé en Français dans « jour » [ʒuʁ], en Navajo « łizh » [ɬiʒ] ou en Corse avec « ghjesgia » [jeːʒa]. Il s’agit donc de la consonne fricative post-alvéolaire voisée [ʒ].
-- ð :: Cette consonne <ð> peut être trouvée dans des langues tels que l’Anglais dans « this » [ðɪs], en Allemand Autrichien « leider » [laɛ̯ða] ou en Swahili dans « dhambi » [ðɑmbi]. Il s’agit donc de la consonne fricative dentale voisée [ð].
-- þ :: Il s’agit de la contrepartie sourde de <ð> qui peut être trouvée en Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou en Espagnol Castillan « cazar » [käθär]. Il s’agit de la consonne fricative dentale sourde [θ].
-- đ :: Il s’agit d’un <d> prononcé de façon rétroflexe et peut être trouvé dans des langues telles que le Norvégien dans « varde » [ʋɑɖːə] ou en Sicilien dans « coḍḍu » [kɔɖːu]. Il s’agit de la consonne occlusive rétroflexe voisée [ɖ].
-- ŕ :: Ce <r> est une consonne signature de l’Anglais tel que dans « red » [ɹɛd], ainsi qu’en Allemand Autrichien standard « Rebe » [ɹeːbɛ] ou en Tagalog dans « parang » [paɹaŋ]. Cette consonne est la consonne alvéolaire approximante voisée [ɹ].
-- ŧ :: Cette consonne est l’équivalent sourd de la consonne <đ>. Elle se retrouve dans certaines langues telles que le Javanais dans « bathang » [baʈaŋ], en Norvégien « kort » [koʈː] ou en Suédois « karta » [kʰɑːʈa]. Il s’agit donc de la consonne occlusive rétroflexe sourde [ʈ].
-- ’ :: La consonne <’> est une consonne que l’on retrouve en Anglais Général Américain dans « button » [bɐʔn̩], en Danois avec « hånd » [hʌ̹nʔ] ou encore en Hawaiien avec « ’ele’ele » [ˈʔɛlɛˈʔɛlɛ]. Il s’agit donc de la consonne occlusive glottale sourde [ʔ].
+    Voici ci-dessous une description individuelle de chaque consonne :
+    - b :: Il s’agit du <b>  standard dont disposent le Français dans « bonbon »
+           [bɔ̃bɔ̃]  ou  l’Anglais  « believe » [bɪlɪv],  une  consonne  bilabiale
+           occlusive voisée [b].
+    - ch :: Ce <ch> existe en Allemand dans des termes tels que « nicht » [nɪçt]
+            ou  en  Anglais Britannique  dans  « hue »  [çʉː]. Il  s’agit  d’une
+            consonne fricative palatale sourde [ç].
+    - d ::  Il s’agit  de la consonne  <d> standard que  l’on peut  retrouver en
+           Anglais  dans « dice »  [daɪs], où  le <d>  est prononcé  en bloquant
+           l’arrivée d’air  au niveau de  la partie  rugueuse du palais.  Il est
+           donc  différent du  <d>  français  qui est  prononcé  avec la  langue
+           rapprochée voire touchant  les dents et qui est noté  [d̪], comme dans
+           « dance » [d̪ɑ̃s].  Le <d> du Hjelp  est donc bel et  bien une consonne
+           occlusive alvéolaire voisée [d].
+    - f :: Il  s’agit du <f> standard  que l’on retrouve bon  nombre des langues
+           telles que le Français [fʁɑ̃sɛ] ou l’Anglais « fit » [fɪtʰ]. Il s’agit
+           donc d’une consonne fricative labio-dentale sourde [f].
+    - g :: Il s’agit  du <g> dur standard que l’on retrouve  dans bon nombre des
+           langues telles que le Français dans  « Gar » [ɡɑʁ] ou en Anglais dans
+           « get » [ɡɛt]. Il s’agit donc d’une occlusive vélaire voisée [g].
+    - h :: Le <h> représente l’aspiration effectuée dans certaines langues comme
+           l’Anglais  dans  « had » [hæd].  Il  s’agit  d’une consonne  glottale
+           sourde [h].
+    - j ::  Le <j> représente  la voyelle <i>  prononcée comme une  consonne, la
+           rendant donc effectivement semi-consonne.  On la retrouve en Français
+           dans des  mots tels que « yak »  [jak] ou « yoyo » [jojo].  Il s’agit
+           donc d’une consonne approximante rétroflexe voisée [j].
+    - jh :: Le  <jh> est l’équivalent voisé de <ch>.  On retrouve cette consonne
+            en  Italien comme  dans  « figlio »  [fiʝːo] ou  en  Russe avec  яма
+            [ˈʝämə].  Il s’agit  donc d’une  consonne fricative  palatale voisée
+            [ʝ].
+    - k :: Il s’agit du <k> non aspiré que l’on peut retrouver en Français comme
+           « cas » [ka]  ou dans  certains cas en  Anglais comme  dans « skirt »
+           [skɜːtʰ]. Il  s’agit donc  de la  consonne occlusive  uvulaire sourde
+           [k].
+    - l :: Ce <l>  est le <l> que l’on peut retrouver  en Français dans « lire »
+           [liʁ] et dans certains cas  en Anglais dans « live » [lɪv]. Attention
+           à ne  pas le confondre  avec le « l  sombre » anglais que  l’ont peut
+           retrouver par exemple dans « feel » [fiːɫ].  Le <l> du Hjelp est donc
+           une consonne alvéolaire spirante-latérale voisée [l].
+    - lh  :: Ce  <l>  est en  quelques  sortes un  équivalent  non-voisé du  <l>
+            présenté  ci-dessous. Il  se retrouve  en Groënlandais  dans le  mot
+            « illu » [iɬːu]  ou en Norvégien  de Trøndersk « tatl »  ou « tasl »
+            [tʰaɬ]. Il s’agit donc  d’une consonne alvéolaire latérale fricative
+            sourde [ɬ].
+    - m :: Il s’agit du même <m>  que le <m> standard en Français « mère » [mɛʁ]
+           ou en  Anglais « me »  [miː]. Il  s’agit donc  de la  consonne nasale
+           bilabiale voisée [m].
+    - n ::  Il s’agit du  <n> standard que l’on  retrouve en Anglais  comme dans
+           « not »  [nɔt].  Attention,  cette  consonne est  alvéolaire  et  non
+           dentale comme le <n> français de « nuit » [n̪ɥi]. Il s’agit donc d’une
+           consonne nasale alvéolaire voisée [n].
+    - ng  :: Cette  consonne se  retrouve en  Anglais dans  des termes  tels que
+            « singer » [sɪŋɚ] ou  « king » [kʰɪŋ], et on le  retrouve à quelques
+            occasion en Français comme dans  « camping » [kɑ̃piŋ]. Il s’agit donc
+            d’une consonne nasale vélaire voisée [ŋ].
+    - p ::  Il s’agit du <p>  non aspiré que  l’on retrouve en Français  tèl que
+           dans  « père » [pɛʁ]  ou  dans  certains cas  en  Anglais comme  dans
+           « spoon » [spuːn]. Il s’agit donc  de la consonne occlusive bilabiale
+           sourde [p].
+    - qh ::  Il s’agit d’une consonne  que l’on retrouve en  Français comme dans
+            « proche » [pχɔʃ], en Allemand « Dach » [daχ] ou en Kabyle « axxam »
+            [aχχam]. Il s’agit donc d’une voyelle fricative uvulaire sourde [χ].
+    - r ::  Ce <r> peut être  retrouvé en Scots « bricht »  [brɪçt], en Espagnol
+           « perro »  [pe̞ro̞] ou  encore en  Portugais avec  « ratu » [rato].  Il
+           s’agit d’une consonne alvéolaire roulée voisée [r].
+    - rh  :: Cette  consonne  est  l’équivalent voisé  de  <qh>,  que l’on  peut
+            retrouver en Français « rester »  [ʁɛste], en Dannois « rød » [ʁ̞œ̠ð̠],
+            en Allemand  strandard « Rost »  [ʁɔst] ou encore  en Luxembourgeois
+            « Kugel »  [ˈkʰuːʁəl].  Il  s’agit   donc  d’une  voyelle  fricative
+            uvulaire voisée [ʁ].
+    - s ::  Ce <s>  est le <s>  standard alvéolaire que  l’on retrouve  dans des
+           langues  tels qu’en  Anglais  « sit » [sɪtʰ],  en Portugais  « caço »
+           [kasu] ou en Estonien « sõna » [sɤnɑ]. Attention, le <s> français tel
+           que dans  « façade » [fäs̪äd̪] est  dentalisé, contrairement au  <s> du
+           Hjelp qui est donc une consonne fricative alvéolaire sourde [s].
+    - sh ::  Cette consonne  peut se  retrouver dans des  langues telles  que le
+            Français « cher » [ʃɛʁ],  en Anglais « sheep » [ʃiːpʰ]  ou en Breton
+            « chadenn »  [ʃadeñ].  Il  s’agit   donc  d’une  consonne  fricative
+            post-alvéolaire sourde [ʃ].
+    - t  :: Ce  <t> est  la contrepartie  voisée de  <d> et  peut se  trouver en
+           Dannois  « dåse » [tɔ̽ːsə],  en  Luxembourgeois « dënn »  [tən] ou  en
+           Finnois  avec  « parta »  [pɑrtɑ].  Attention, le  <t>  Français  est
+           dental, comme dans « tante » qui est prononcé [t̪ɑ̃t̪]. Ainsi, le <t> du
+           Hjelp est la consonne occlusive alvéolaire sourde [t].
+    - v ::  Le <v>  du Hjelp  peut être retrouvé  dans des  langues tels  que le
+           Français dans « valve » [valv], en Allemand « Wächter » [vɛçtɐ] ou en
+           Macédonien « вода »  [vɔda]. Il s’agit donc  d’une consonne fricative
+           bilabiale voisée [v].
+    - w ::  Le <w>  est un son  que l’on peut  retrouver dans  certaines langues
+           comme  le  Français  dans  « oui » [wi],  en  Anglais  avec  « weep »
+           [wiːpʰ], ou en Irlandais « vóta » [ˈwoːt̪ˠə]. Il s’agit de la consonne
+           approximante labio-velaire voisée [w].
+    - z ::  Ce <z> est la  contrepartie voisée du  <s>. On le retrouve  dans des
+           langues  tels que  l’Anglais dans  « zoo » [zuː],  en Esperanto  dans
+           « kuzo » [kuzo] ou en Japonais  dans « zenbu » [zembɯ]. Attention, en
+           Français le [z] est dentalisé en [z̪]  et est donc différent du <z> du
+           Hjelp qui est une consonne fricative alvéolaire voisée [z].
+    - zh :: Ce <zh> est la contrepartie voisée du <sh>. Il peut être retrouvé en
+            Français dans « jour »  [ʒuʁ], en Navajo « łizh » [ɬiʒ]  ou en Corse
+            avec « ghjesgia » [jeːʒa].  Il s’agit donc de  la consonne fricative
+            post-alvéolaire voisée [ʒ].
+    - ð  :: Cette  consonne <ð>  peut  être trouvée  dans des  langues tels  que
+           l’Anglais  dans « this »  [ðɪs],  en  Allemand Autrichien  « leider »
+           [laɛ̯ða] ou en  Swahili dans « dhambi » [ðɑmbi]. Il s’agit  donc de la
+           consonne fricative dentale voisée [ð].
+    - þ :: Il s’agit  de la contrepartie sourde de <ð> qui  peut être trouvée en
+           Anglais dans « thin » [θɪn], en Malaisien dans « Selasa » [θelaθa] ou
+           en Espagnol  Castillan « cazar »  [käθär]. Il  s’agit de  la consonne
+           fricative dentale sourde [θ].
+    - đ :: Il s’agit  d’un <d> prononcé de façon rétroflexe  et peut être trouvé
+           dans des langues telles que le Norvégien dans « varde » [ʋɑɖːə] ou en
+           Sicilien dans « coḍḍu »  [kɔɖːu]. Il s’agit de  la consonne occlusive
+           rétroflexe voisée [ɖ].
+    - ŕ :: Ce <r>  est une consonne signature de l’Anglais  tel que dans « red »
+           [ɹɛd], ainsi  qu’en Allemand Autrichien standard  « Rebe » [ɹeːbɛ] ou
+           en Tagalog  dans « parang » [paɹaŋ].  Cette consonne est  la consonne
+           alvéolaire approximante voisée [ɹ].
+    - ŧ ::  Cette consonne est  l’équivalent sourd de  la consonne <đ>.  Elle se
+           retrouve  dans   certaines  langues  telles  que   le  Javanais  dans
+           « bathang »  [baʈaŋ],  en Norvégien  « kort »  [koʈː]  ou en  Suédois
+           « karta »  [kʰɑːʈa].   Il  s’agit  donc  de   la  consonne  occlusive
+           rétroflexe sourde [ʈ].
+    - ’ :: La consonne <’> est une consonne que l’on retrouve en Anglais Général
+           Américain dans « button »  [bɐʔn̩], en Danois avec  « hånd » [hʌ̹nʔ] ou
+           encore en Hawaiien avec « ’ele’ele »  [ˈʔɛlɛˈʔɛlɛ]. Il s’agit donc de
+           la consonne occlusive glottale sourde [ʔ].
 
 *** Les voyelles
-À l’instar des consonnes, le Hjelp dispose d’un inventaire phonétique très large, contenant un total de 23 voyelles simples, incluant le <ń> et le <ĺ> présentés ci-dessus, prononcées ​/n̩/ et ​/l̩/ respectivement. Les voici ci-dessous translittérées et en IPA.
+    À l’instar des  consonnes, le Hjelp dispose d’un  inventaire phonétique très
+    large, contenant un total de 23 voyelles  simples, incluant le <ń> et le <ĺ>
+    présentés  ci-dessus,  prononcées  ​/n̩/  et  ​/l̩/  respectivement.  Les  voici
+    ci-dessous translittérées et en IPA.
 
-#+CAPTION: Voyelles du Hjelp (translittération)
-| / | >           |               |              |
-|   |             | antérieures   | postérieures |
-|---+-------------+---------------+--------------|
-|   | fermées     | i / y         | u            |
-|   | pré-fermées | ì / ĩ / ů     | ù / ũ        |
-|   | mi-fermées  | e / é / ø / ö | o / õ        |
-|   | mi-ouvertes | è / œ / ô     | ò            |
-|   | ouvertes    | a             | å / ã        |
+    #+CAPTION: Voyelles du Hjelp (translittération)
+    | / | >           |               |              |
+    |   |             | antérieures   | postérieures |
+    |---+-------------+---------------+--------------|
+    |   | fermées     | i / y         | u            |
+    |   | pré-fermées | ì / ĩ / ů     | ù / ũ        |
+    |   | mi-fermées  | e / é / ø / ö | o / õ        |
+    |   | mi-ouvertes | è / œ / ô     | ò            |
+    |   | ouvertes    | a             | å / ã        |
 
-#+CAPTION: Voyelles du Hjelp (IPA)
-| / | >           |                   |              |
-|   |             | antérieures       | postérieures |
-|---+-------------+-------------------+--------------|
-|   | fermées     | iː / yː           | uː           |
-|   | pré-fermées | ɪ / ɪ̃ / ʏ         | ʊ / ʊ̃        |
-|   | mi-fermées  | eː / ẽː / øː / ø̃ː | oː / õː      |
-|   | mi-ouvertes | ɛ / œ / œ̃ / [ə]   | ɔ            |
-|   | ouvertes    | aː                | ɒ / ɒ̃        |
+    #+CAPTION: Voyelles du Hjelp (IPA)
+    | / | >           |                   |              |
+    |   |             | antérieures       | postérieures |
+    |---+-------------+-------------------+--------------|
+    |   | fermées     | iː / yː           | uː           |
+    |   | pré-fermées | ɪ / ɪ̃ / ʏ         | ʊ / ʊ̃        |
+    |   | mi-fermées  | eː / ẽː / øː / ø̃ː | oː / õː      |
+    |   | mi-ouvertes | ɛ / œ / œ̃ / [ə]   | ɔ            |
+    |   | ouvertes    | aː                | ɒ / ɒ̃        |
 
-Comme on peut le constater, le Hjelp dispose également d’un schwa qui n’a pas de notation spéciale. Il apparaît généralement comme une forme de réduction du <a> dans certains cas mentionnés lorsque l’on traitera de l’allophonie des voyelles (§[[*Voyelles]]).
+    Comme on  peut le constater, le  Hjelp dispose également d’un  schwa qui n’a
+    pas  de notation  spéciale.  Il  apparaît généralement  comme  une forme  de
+    réduction  du <a>  dans certains  cas  mentionnés lorsque  l’on traitera  de
+    l’allophonie des voyelles (§[[*Voyelles]]).
 
-On remarque ci-dessus une complexité particulièrement importante au niveau des voyelles mi-fermées antérieures ainsi qu’une abscence de voyelles centrales. La majorité des voyelles sont dans une paire ouverte et courte ou fermée et longue, tels que le <i> et le <ì> ou le <a> et le <å>. Plusieurs voyelles ont également leur équivalent nasalisé, tels que le <ī>, <ö> et <ô>.
+    On remarque  ci-dessus une complexité particulièrement  importante au niveau
+    des  voyelles  mi-fermées  antérieures  ainsi qu’une  abscence  de  voyelles
+    centrales. La majorité des voyelles sont dans une paire ouverte et courte ou
+    fermée et longue, tels  que le <i> et le <ì> ou le  <a> et le <å>. Plusieurs
+    voyelles ont  également leur équivalent  nasalisé, tels  que le <ī>,  <ö> et
+    <ô>.
 
-Voici ci-dessous la description de chacune de ces voyelles :
-- a :: Il s’agit de la voyelle antérieure ouverte longue non-arrondie [aː].
-- e :: Il s’agit de la voyelle antérieure mi-fermée longue non-arrondie [eː].
-- i :: On peut retrouver cette voyelle en Anglais comme dans « free » [fɹiː] ou « ív » [iːv] en Hongrois. Il s’agit de la voyelle antérieure fermée longue non-arrondie [iː].
-- o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [oː].
-- u :: On peut retrouver cette voyelle en Allemand standard dans « Fuß » [fuːs]. Il s’agit de la voyelle postérieure fermée longue arrondie [uː].
-- y :: On peut retrouver cette voyelle en Allemand standard dans « über » [yːbɐ] et un Hongrois avec « tű » [t̪yː]. Il s’agit de la voyelle antérieure fermée longue arrondie [yː].
-- ã :: Il s’agit de la voyelle postérieure ouverte nasale arrondie [ɒ̃].
-- å :: Il s’agit de la voyelle postérieure ouverte arrondie [ɒ].
-- è :: Il s’agit de la voyelle antérieure mi-ouverte non-arrondie [ɛ].
-- é :: Il s’agit de la voyelle antérieure mi-fermée nasale non-arrondie [ẽː].
-- ì :: Il s’agit de la voyelle antérieure pré-fermée non-arrondie [ɪ].
-- ò :: Il s’agit de la voyelle postérieure mi-ouverte arrondie [ɔ].
-- ô :: Il s’agit de la voyelle antérieure mi-ouverte nasalisée arrondie [œ̃].
-- õ :: Il s’agit de la voyelle postérieure mi-fermée nasalisée longue arrondie [õː].
-- ö :: Il s’agit de la voyelle antérieure mi-fermée nasalisée longue arrondie [ø̃ː].
-- ø :: Il s’agit de la voyelle antérieure mi-fermée longue arrondie [øː].
-- ù :: Il s’agit de la voyelle postérieure pré-fermée arrondie [ʊ].
-- ĩ :: Il s’agit de la voyelle antérieure pré-fermée non-arrondie [ɪ̃].
-- œ :: Il s’agit de la voyelle antérieure mi-ouverte arrondie [œ].
-- ũ :: Il s’agit de la voyelle postérieure pré-fermée nasalisée arrondie [ʊ̃].
-- ů :: Il s’agit de la voyelle antérieure pré-ferée arrondie [ʏ].
+    Voici ci-dessous la description de chacune de ces voyelles :
+    - a :: Il s’agit de la voyelle antérieure ouverte longue non-arrondie [aː].
+    - e  :: Il  s’agit de  la voyelle  antérieure mi-fermée  longue non-arrondie
+           [eː].
+    - i :: On peut retrouver cette voyelle en Anglais comme dans « free » [fɹiː]
+           ou  « ív » [iːv]  en Hongrois.  Il  s’agit de  la voyelle  antérieure
+           fermée longue non-arrondie [iː].
+    - o :: Il s’agit de la voyelle postérieure mi-fermée longue arrondie [oː].
+    - u ::  On peut retrouver  cette voyelle  en Allemand standard  dans « Fuß »
+           [fuːs]. Il  s’agit de la  voyelle postérieure fermée  longue arrondie
+           [uː].
+    - y ::  On peut retrouver cette  voyelle en Allemand standard  dans « über »
+           [yːbɐ] et  un Hongrois  avec « tű »  [t̪yː]. Il  s’agit de  la voyelle
+           antérieure fermée longue arrondie [yː].
+    - ã :: Il s’agit de la voyelle postérieure ouverte nasale arrondie [ɒ̃].
+    - å :: Il s’agit de la voyelle postérieure ouverte arrondie [ɒ].
+    - è :: Il s’agit de la voyelle antérieure mi-ouverte non-arrondie [ɛ].
+    - é  :: Il  s’agit de  la voyelle  antérieure mi-fermée  nasale non-arrondie
+           [ẽː].
+    - ì :: Il s’agit de la voyelle antérieure pré-fermée non-arrondie [ɪ].
+    - ò :: Il s’agit de la voyelle postérieure mi-ouverte arrondie [ɔ].
+    - ô :: Il s’agit de la voyelle antérieure mi-ouverte nasalisée arrondie [œ̃].
+    - õ  :: Il  s’agit  de  la voyelle  postérieure  mi-fermée nasalisée  longue
+           arrondie [õː].
+    - ö  ::  Il s’agit  de  la  voyelle  antérieure mi-fermée  nasalisée  longue
+           arrondie [ø̃ː].
+    - ø :: Il s’agit de la voyelle antérieure mi-fermée longue arrondie [øː].
+    - ù :: Il s’agit de la voyelle postérieure pré-fermée arrondie [ʊ].
+    - ĩ :: Il s’agit de la voyelle antérieure pré-fermée non-arrondie [ɪ̃].
+    - œ :: Il s’agit de la voyelle antérieure mi-ouverte arrondie [œ].
+    - ũ ::  Il s’agit  de la voyelle  postérieure pré-fermée  nasalisée arrondie
+           [ʊ̃].
+    - ů :: Il s’agit de la voyelle antérieure pré-ferée arrondie [ʏ].
 
 ** Diphtongues
-   Les diphtongues en Hjelp sont très libres, dans le sens où toute voyelle peut s’associer avec une autre afin de créer une diphtongue, à la condition qu’il ne s’agisse pas deux fois de la même voyelle. Lors de l’association de deux voyelles, si l’une des voyelles est longue, alors elle perd cette qualité et devient courte. En Hjelp, la voyelle se maintenant durant un allongement de la diphtongue est la première des deux, la seconde restant courte peu importe la situation.
+   Les diphtongues en Hjelp sont très libres, dans le sens où toute voyelle peut
+   s’associer avec une autre afin de  créer une diphtongue, à la condition qu’il
+   ne s’agisse pas deux  fois de la même voyelle. Lors  de l’association de deux
+   voyelles, si l’une des voyelles est  longue, alors elle perd cette qualité et
+   devient courte. En  Hjelp, la voyelle se maintenant durant  un allongement de
+   la diphtongue est la première des deux, la seconde restant courte peu importe
+   la situation.
 
-   La marque tonale associée au diphone ne se marquera que sur la seconde voyelle, la diphtongue étant considérée en Hjelp comme étant une seule et unique voyelle. Il se peut que dans certains cas deux voyelles syllabiques se suivent sans former de diphtongue ensemble, auquel cas la marque tonale marquera la séparation des deux syllabes. Dans le cas où la première syllabe est sur le ton neutre, il sera obligatoire de le marquer explicitement à l’écrit, tel que dans *qhlö₄te₁ů₂ntrhae₂lf*. Pour plus de détails sur les tons du Hjelp, voir la section sur les sept tons (§[[*Les sept tons]]).
+   La  marque tonale  associée au  diphone  ne se  marquera que  sur la  seconde
+   voyelle, la  diphtongue étant considérée  en Hjelp  comme étant une  seule et
+   unique voyelle. Il se peut que dans certains cas deux voyelles syllabiques se
+   suivent  sans former  de diphtongue  ensemble,  auquel cas  la marque  tonale
+   marquera la séparation des deux syllabes.  Dans le cas où la première syllabe
+   est sur  le ton  neutre, il  sera obligatoire de  le marquer  explicitement à
+   l’écrit, tel  que dans  *qhlö₄te₁ů₂ntrhae₂lf*. Pour plus  de détails  sur les
+   tons du Hjelp, voir la section sur les sept tons (§[[*Les sept tons]]).
 
 ** Triphtongues
-   À l’instar des diphtongues (§[[*Diphtongues]]), le Hjelp est extrêmement permissif quand aux triphtongues, interdisant uniquement les successions immédiates de deux voyelles identiques. À nouveau, comme pour les diphtongues, la dernière voyelle reste courte ; la première voyelle est également courte, la longueur de la triphtongue étant supporté par la seconde voyelle la composant, telle la première voyelle des diphtongues.
+   À  l’instar  des  diphtongues   (§[[*Diphtongues]]),  le  Hjelp  est  extrêmement
+   permissif  quand aux  triphtongues,  interdisant  uniquement les  successions
+   immédiates  de   deux  voyelles  identiques.   À  nouveau,  comme   pour  les
+   diphtongues,  la dernière  voyelle  reste courte ;  la  première voyelle  est
+   également courte, la longueur de la triphtongue étant supporté par la seconde
+   voyelle la composant, telle la première voyelle des diphtongues.
 
-   À nouveau, la dernière voyelle de la triphtongue est celle qui supporte la marque tonale à l’écrit, et afin d’éviter une confusion entre une triphtongue et une voyelle simple accolée à une diphtongue, la marque tonale servira à les dissocier.
+   À nouveau,  la dernière voyelle de  la triphtongue est celle  qui supporte la
+   marque tonale à l’écrit, et afin d’éviter une confusion entre une triphtongue
+   et une  voyelle simple accolée à  une diphtongue, la marque  tonale servira à
+   les dissocier.
 
-   Les triphtongues, du fait de la complexité de leur prononciation, sont très rares en Hjelp.
+   Les triphtongues, du  fait de la complexité de leur  prononciation, sont très
+   rares en Hjelp.
 
 ** Les sept tons
-   Le Hjelp est une langue tonale disposant de sept tons différents portant sur une syllabe entière. Un ton est une variation de hauteur non pas absolue comme peuvent l’être les notes d’une chanson, mais plutôt des variations de hauteur relative à la hauteur standard du locuteur. Voici ci-dessous une illustration des sept tons du Hjelp, avec pour hauteur de référence du locuteur le ton nº1 :
+   Le Hjelp est une langue tonale  disposant de sept tons différents portant sur
+   une syllabe  entière. Un  ton est  une variation de  hauteur non  pas absolue
+   comme peuvent l’être  les notes d’une chanson, mais plutôt  des variations de
+   hauteur  relative à  la hauteur  standard du  locuteur. Voici  ci-dessous une
+   illustration  des sept  tons  du Hjelp,  avec pour  hauteur  de référence  du
+   locuteur le ton nº1 :
 
-#+CAPTION: Les sept tons du Hjelp
-[[./img/hjelp/tones.jpg]]
+   #+CAPTION: Les sept tons du Hjelp
+   [[./img/hjelp/tones.jpg]]
 
-   Comme vous pouvez le constater, trois des tons du Hjelp sont constants. Le premier est, comme indiqué précédemment, le ton de référence du locuteur et est désigné comme étant le ton neutre. Le second ton est le ton bas, le troisième est le ton haut, prononcés respectivement avec une hauteur plus grave et plus haute que le ton neutre. Les deux tons suivants sont des tons de hauteur changeante, mais avec la variation constante. Le quatrième ton est un ton montant, tandis que le cinquième ton est descendant. Les deux tons suivants sont un peu plus complexes, et par conséquent plus rares, le sixième ton étant montant puis descendant, et le septième étant descendant puis montant.
+   Comme vous  pouvez le constater, trois  des tons du Hjelp  sont constants. Le
+   premier est, comme  indiqué précédemment, le ton de référence  du locuteur et
+   est désigné  comme étant  le ton  neutre. Le second  ton est  le ton  bas, le
+   troisième est  le ton  haut, prononcés respectivement  avec une  hauteur plus
+   grave et plus haute  que le ton neutre. Les deux tons  suivants sont des tons
+   de hauteur changeante, mais avec la variation constante. Le quatrième ton est
+   un ton  montant, tandis que  le cinquième ton  est descendant. Les  deux tons
+   suivants sont un peu plus complexes, et par conséquent plus rares, le sixième
+   ton  étant montant  puis descendant,  et  le septième  étant descendant  puis
+   montant.
 
-   Chaque ton est appliqué à une syllabe unique et n’affecte pas les syllabes environnantes.
+   Chaque ton  est appliqué à une  syllabe unique et n’affecte  pas les syllabes
+   environnantes.
 
-   Dans la translittération du Hjelp, le ton est indiqué via un chiffre souscrit à la voyelle correspondant au numéro du ton. Le premier ton étant neutre, il est également non-marqué à l’écrit si cela n’est pas nécessaire. Si une diphtongue est affectée par un ton, seule la seconde voyelle de la diphtongue porte la marque de la tonalité.
+   Dans la translittération du Hjelp, le ton est indiqué via un chiffre souscrit
+   à la voyelle correspondant au numéro du  ton. Le premier ton étant neutre, il
+   est  également non-marqué  à l’écrit  si cela  n’est pas  nécessaire. Si  une
+   diphtongue est affectée par un ton, seule la seconde voyelle de la diphtongue
+   porte la marque de la tonalité.
 
-   Ainsi, on peut avoir un mot qui s’écrit ainsi : <ngèì_{6}arö_{2}>. Ainsi, la voyelle <èì> porte le ton montant-descendant, la voyelle <a> porte le ton neutre (non marqué), et la voyelle <ö> porte le ton bas.
+   Ainsi, on peut avoir un mot  qui s’écrit ainsi : <ngèì_{6}arö_{2}>. Ainsi, la
+   voyelle <èì>  porte le ton  montant-descendant, la  voyelle <a> porte  le ton
+   neutre (non marqué), et la voyelle <ö> porte le ton bas.
 
-   Comme indiqué dans le chapitre §[[*Diphtongues]] sur les diphtongues, afin de lever l’ambigüité dans certains cas il se peut que l’on soit obligé de marquer le ton neutre, comme dans <jhy_{1}i_{3}lh>. Ici, on pourrait croire à une diphtongue <yi_3> si le ton neutre n’avait pas été marqué, diphtongue qui à l’inverse est présente dans le terme <jhyi_{3}lh>. J’utiliserai également dans ce document une notation similaire lors de notation phonétiques en IPA. Ainsi, <jhy_{1}i_{3}lh> sera transcrit ​/ʝy.ʔi_{3}ɬ/.
+   Comme indiqué  dans le  chapitre §[[*Diphtongues]] sur  les diphtongues,  afin de
+   lever  l’ambigüité dans  certains cas  il  se peut  que l’on  soit obligé  de
+   marquer le ton neutre, comme dans <jhy_{1}i_{3}lh>. Ici, on pourrait croire à
+   une diphtongue <yi_3> si le ton neutre n’avait pas été marqué, diphtongue qui
+   à l’inverse est  présente dans le terme  <jhyi_{3}lh>. J’utiliserai également
+   dans ce document une notation similaire  lors de notation phonétiques en IPA.
+   Ainsi, <jhy_{1}i_{3}lh> sera transcrit ​/ʝy.ʔi_{3}ɬ/.
 
 ** Allophonie
-   En Hjelp, comme dans beaucoup d’autres langues, il existe de nombreuses règles sur la modification de la prononciation de certains phonèmes selon leur emplacement au sein d’un mot et selon leur environnement phonétique, donnant lieu à des allophones desdits phonèmes. Des allophones sont des productions différentes d’un même son considéré unique dans une langue, et bien que des locuteurs natifs puissent entendre la différence entre deux allophones, leur différentiation n’est pas porteuse de sens et n’est souvent présente que du fait d’une simplification de la prononciation des phonèmes d’origine.
+   En  Hjelp, comme  dans beaucoup  d’autres  langues, il  existe de  nombreuses
+   règles sur  la modification  de la prononciation  de certains  phonèmes selon
+   leur emplacement  au sein  d’un mot et  selon leur  environnement phonétique,
+   donnant  lieu à  des allophones  desdits  phonèmes. Des  allophones sont  des
+   productions différentes  d’un même son  considéré unique dans une  langue, et
+   bien  que des  locuteurs natifs  puissent entendre  la différence  entre deux
+   allophones, leur différentiation n’est pas  porteuse de sens et n’est souvent
+   présente que  du fait d’une  simplification de la prononciation  des phonèmes
+   d’origine.
 
-   Les règles que vous trouverez ci-dessous sont les dernières règles à appliquer lors de la lecture et de la prononciation du Hjelp, une fois toutes les règles morphologiques et syntaxiques appliquées. Attention, la consonne <’> (​/ʔ/) est considérée comme étant transparente concernant l’allophonie, ainsi les règles suivantes s’appliquent comme si cette consonne était inexistante et insonore.
+   Les  règles  que  vous  trouverez  ci-dessous sont  les  dernières  règles  à
+   appliquer lors de la lecture et de la prononciation du Hjelp, une fois toutes
+   les règles  morphologiques et syntaxiques appliquées.  Attention, la consonne
+   <’> (​/ʔ/)  est considérée  comme étant transparente  concernant l’allophonie,
+   ainsi  les  règles  suivantes  s’appliquent comme  si  cette  consonne  était
+   inexistante et insonore.
 
 *** Voyelles
-Il existe peu de règles en Hjelp concernant les voyelles, et elles concernent exclusivement les consonne syllabiques tel que vous pourrez le constater ci-dessous.
+    Il  existe  peu  de  règles  en Hjelp  concernant  les  voyelles,  et  elles
+    concernent exclusivement  les consonne syllabiques  tel que vous  pourrez le
+    constater ci-dessous.
 
-- Le <a> et le <è> sont complètement inaudibles dans le cas où l’une de ces deux voyelles se situe en contact direct avec un <n> ou un <l> et que ces derniers ne font pas partie de la racine du mot. Ces deux consonnes deviennent alors syllabiques et se métamorphosent en <ń> et <ĺ> respectivement, et cela sera parfois même marqué à l’écrit, comme dans /Hjalpĺ/.
-  - {​/al/,​/el/} > [l̩] / ​_#
-  - {​/an/,​/en/} > [n̩] / ​_#
-  - {​/la/,​/le/} > [l̩] / ​#_
-  - {​/na/,​/ne/} > [n̩] / ​#_
+    - Le <a> et le <è> sont complètement  inaudibles dans le cas où l’une de ces
+      deux voyelles se situe en contact direct avec  un <n> ou un <l> et que ces
+      derniers  ne font  pas partie  de  la racine  du mot.  Ces deux  consonnes
+      deviennent  alors  syllabiques   et  se  métamorphosent  en   <ń>  et  <ĺ>
+      respectivement, et  cela sera  parfois même marqué  à l’écrit,  comme dans
+      /Hjalpĺ/.
+      - {​/al/,​/el/} > [l̩] / ​_#
+      - {​/an/,​/en/} > [n̩] / ​_#
+      - {​/la/,​/le/} > [l̩] / ​#_
+      - {​/na/,​/ne/} > [n̩] / ​#_
 
-- La prononciation standard du <ń>, comme mentionné ci-dessus dans le chapitre §[[*Les voyelles]] sur les voyelles, est le [n̩]. Cependant, cette voyelle peut voir sa prononciation se métamorphoser en [m̩], [ɲ̩] et [m̩ʲ]. La première métamorphose se produit si le <ń> est en contact direct avec une consonne bilabiale. La seconde se produit dans le cas où le <ń> est en contact direct avec les voyelles fermées ou pré-fermées antérieures, soit <i>, <y>, <ì>, <ĩ> et <ů>, ou bien avec la consonne <j>. Dans le cas où les conditions de la première et de la seconde métamorphose sont vraies pour la même voyelle <ń>, la troisième métamorphose se produit et le <ń> sera prononcé comme un [m̩ʲ].
+    - La  prononciation  standard du  <ń>,  comme  mentionné ci-dessus  dans  le
+      chapitre §[[*Les  voyelles]] sur  les voyelles, est  le [n̩].  Cependant, cette
+      voyelle peut voir  sa prononciation se métamorphoser en [m̩],  [ɲ̩] et [m̩ʲ].
+      La première métamorphose  se produit si le <ń> est  en contact direct avec
+      une consonne bilabiale. La seconde se produit dans le cas où le <ń> est en
+      contact direct avec les voyelles  fermées ou pré-fermées antérieures, soit
+      <i>, <y>, <ì>,  <ĩ> et <ů>, ou bien  avec la consonne <j>. Dans  le cas où
+      les conditions  de la première et  de la seconde métamorphose  sont vraies
+      pour la même  voyelle <ń>, la troisième métamorphose se  produit et le <ń>
+      sera prononcé comme un [m̩ʲ].
+      - ​/n̩/ > [m̩] / P​_ | _​P
+      - ​/n̩/ > [ɲ̩] / {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
+      - ​/n̩/ > [m̩ʲ] / P​_​{iː,yː,ɪ,ɪ̃,ʏ} | {iː,yː,ɪ,ɪ̃,ʏ}​_​P
 
-  - ​/n̩/ > [m̩] / P​_ | _​P
-  - ​/n̩/ > [ɲ̩] / {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
-  - ​/n̩/ > [m̩ʲ] / P​_​{iː,yː,ɪ,ɪ̃,ʏ} | {iː,yː,ɪ,ɪ̃,ʏ}​_​P
+    - Le <ĺ>, dont la prononciation standard  est le [l̩], subit une métamorphose
+      similaire  lors d’un  contact  avec les  voyelles  fermées et  pré-fermées
+      antérieures <i>, <y>, <ì>, <ĩ> et <ů> et se réalise alors comme un [l̩ʲ].
+      - ​/l̩/ > [l̩ʲ] / {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
 
-- Le <ĺ>, dont la prononciation standard est le [l̩], subit une métamorphose similaire lors d’un contact avec les voyelles fermées et pré-fermées antérieures <i>, <y>, <ì>, <ĩ> et <ů> et se réalise alors comme un [l̩ʲ].
-
-  - ​/l̩/ > [l̩ʲ] / {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
-
-- Le <a> et le <è> sont des voyelles faibles ayant tendance à s’amoindrir en un schwa ​/ə/ lorsqu’elles se situent dans la syllabe la plus externe au mot dont elles font partie sans que cette syllabe ne contienne la racine consonantique du mot.
-  - {​/a/,​/e/} > [ə] / #C_ | _C# si C ne fait pas partie de la racine
+    - Le <a> et le <è> sont des voyelles faibles ayant tendance à s’amoindrir en
+      un schwa  ​/ə/ lorsqu’elles se situent  dans la syllabe la  plus externe au
+      mot dont elles  font partie sans que cette syllabe  ne contienne la racine
+      consonantique du mot.
+      - {​/a/,​/e/} > [ə] / #C_ | _C# si C ne fait pas partie de la racine
 
 *** Consonnes
-Contrairement aux voyelles, le Hjelp est assez riche en allophonie concernant les consonnes.
+    Contrairement  aux  voyelles,  le  Hjelp   est  assez  riche  en  allophonie
+    concernant les consonnes.
 
-- La prononciation standard du <f> et du <v> est respectivement [f] et [v]. Cependant, les deux voient leur prononciation se changer en [ɸ] et [β] lorsque ces consonnes se retrouvent entre deux voyelles ou semi-consonne, ou en fin de mot et précédées par une voyelle.
+    - La prononciation standard du <f> et  du <v> est respectivement [f] et [v].
+      Cependant, les  deux voient leur  prononciation se  changer en [ɸ]  et [β]
+      lorsque ces consonnes se retrouvent  entre deux voyelles ou semi-consonne,
+      ou en fin de mot et précédées par une voyelle.
+      - ​/f/ > [ɸ] / {V,j,w}​_{#,V,j,w}
+      - ​/v/ > [β] / {V,j,w}​_{#,V,j,w}
+    | te_{4}fũ_{3}d | ​/teː_{4}.fʊ̃_{3}d/          | [teː_{4}.ɸʊ̃_{3}d]          |
+    | vyelo_{2}tov  | ​/vye_{1}.loː_{2}.toː_{1}v/ | [vye_{1}.loː_{2}.toː_{1}β] |
 
-  - ​/f/ > [ɸ] / {V,j,w}​_{#,V,j,w}
-  - ​/v/ > [β] / {V,j,w}​_{#,V,j,w}
+   - Le <h>  a pour prononciation standard  le [h], cependant il  peut également
+     être prononcé comme  un [ɦ]. Cet allophone se produit  entre deux voyelles,
+     semi-consonne  (les  deux  catégories  seront  notées  <V>  ci-dessous)  ou
+     consonne  voisée.  En   revanche,  au  contact  d’une   voyelle  fermée  ou
+     semi-fermée  antérieure,  le  <h>  se  réalise comme  un  [ç],  et  si  les
+     conditions pour  la réalisation d’un [ɦ]  et d’un [ç] se  rencontre, un [ʝ]
+     sera produit.
+     - ​/h/ > [ɦ] > {C[+voix],V}​_{C[+voix],V}
+     - ​/h/ > [ç] > {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
+     - ​/h/ > [ʝ] > {iː,yː,ɪ,ɪ̃,ʏ}​_{C[+voix],V} | {C[+voix],V}_​{iː,yː,ɪ,ɪ̃,ʏ}
 
-| te_{4}fũ_{3}d | ​/teː_{4}.fʊ̃_{3}d/          | [teː_{4}.ɸʊ̃_{3}d]          |
-| vyelo_{2}tov  | ​/vye_{1}.loː_{2}.toː_{1}v/ | [vye_{1}.loː_{2}.toː_{1}β] |
+   | wyhakuþ | ​/wyː.haː.kyːθ/ | [wyː.ɦaː.kyːθ] |
+   | hjalp   | ​/hjaːlp/       | [çjaːlp]       |
+   | nehja   | ​/neː.hjaː/     | [neː.ʝjaː]     |
 
-- Le <h> a pour prononciation standard le [h], cependant il peut également être prononcé comme un [ɦ]. Cet allophone se produit entre deux voyelles, semi-consonne (les deux catégories seront notées <V> ci-dessous) ou consonne voisée. En revanche, au contact d’une voyelle fermée ou semi-fermée antérieure, le <h> se réalise comme un [ç], et si les conditions pour la réalisation d’un [ɦ] et d’un [ç] se rencontre, un [ʝ] sera produit.
+   - le <x> et le <rh> sont  habituellement respectivement prononcés [χ] et [ʁ],
+     cepedant ils sont  avancés en consonnes vélaires [x]  et [ɣ] respectivement
+     lorsqu’ils sont en contact avec une consonne fricative.
+     - ​/χ,ʁ/ > [+vélaire] / F​_ | _​F
 
-  - ​/h/ > [ɦ] > {C[+voix],V}​_{C[+voix],V}
-  - ​/h/ > [ç] > {iː,yː,ɪ,ɪ̃,ʏ}​_ | _​{iː,yː,ɪ,ɪ̃,ʏ}
-  - ​/h/ > [ʝ] > {iː,yː,ɪ,ɪ̃,ʏ}​_{C[+voix],V} | {C[+voix],V}_​{iː,yː,ɪ,ɪ̃,ʏ}
+   | naqhfèn        | ​/naːχ.fɛn/             | [naːx.fɛn]             |
+   | elekorh þurènt | ​/eː.leː.koːʁ.θuː.rɛnt/ | [eː.leː.koːɣ.θuː.ɾɛnt] |
 
-| wyhakuþ | ​/wyː.haː.kyːθ/ | [wyː.ɦaː.kyːθ] |
-| hjalp   | ​/hjaːlp/       | [çjaːlp]       |
-| nehja   | ​/neː.hjaː/     | [neː.ʝjaː]     |
+   - Si deux  fricative de  voisement différent  se succèdent  immédiatement, la
+     qualité  vocalique de  la seconde  fricative est  appliquée à  la première.
+     Ainsi,  si une  fricative sourde  suit une  fricative voisée,  elle devient
+     sourde ; si  une fricative voisée  suit une fricative sourde,  elle devient
+     voisée.
+     - F[-son] > [+son] / F[+son]_
+     - F[+son] > [-son] / F[-son]_
+   | echvènd  | ​/eːç.vɛnd/ | [eːç̬.vɛnd] |
+   | auzshèìd | ​/auz.ʃɛɪd/ | [auz̥.ʃɛɪd] |
 
-- le <x> et le <rh> sont habituellement respectivement prononcés [χ] et [ʁ], cepedant ils sont avancés en consonnes vélaires [x] et [ɣ] respectivement lorsqu’ils sont en contact avec une consonne fricative.
+   - Si deux  consonnes plosives ou plus  se succèdent, seule la  dernière a une
+     désocclusion audible. Si  une ou plusieurs consonnes  plosives est entourée
+     de consonnes plosives, cette consonne ne sera pas prononcée.
+     - S > [-occlusion] / _S
+     - S > Ø / S​_​S
+   | edtø | ​/eːd.tøː/ | [eːd̚.tøː] |
 
-  - ​/χ,ʁ/ > [+vélaire] / F​_ | _​F
+   - Si un  <r> se situe entre  deux voyelles ou se  situe en fin de  mot et est
+     précédé par une voyelle, la consonne devient alors battue.
+     - ​/r/ > [ɾ] > V​_​{#,V}
 
-| naqhfèn        | ​/naːχ.fɛn/             | [naːx.fɛn]             |
-| elekorh þurènt | ​/eː.leː.koːʁ.θuː.rɛnt/ | [eː.leː.koːɣ.θuː.ɾɛnt] |
-
-- Si deux fricative de voisement différent se succèdent immédiatement, la qualité vocalique de la seconde fricative est appliquée à la première. Ainsi, si une fricative sourde suit une fricative voisée, elle devient sourde ; si une fricative voisée suit une fricative sourde, elle devient voisée.
-  - F[-son] > [+son] / F[+son]_
-  - F[+son] > [-son] / F[-son]_
-
-| echvènd  | ​/eːç.vɛnd/ | [eːç̬.vɛnd] |
-| auzshèìd | ​/auz.ʃɛɪd/ | [auz̥.ʃɛɪd] |
-
-- Si deux consonnes plosives ou plus se succèdent, seule la dernière a une désocclusion audible. Si une ou plusieurs consonnes plosives est entourée de consonnes plosives, cette consonne ne sera pas prononcée.
-
-  - S > [-occlusion] / _S
-  - S > Ø / S​_​S
-
-| edtø | ​/eːd.tøː/ | [eːd̚.tøː] |
-
-- Si un <r> se situe entre deux voyelles ou se situe en fin de mot et est précédé par une voyelle, la consonne devient alors battue.
-
-  - ​/r/ > [ɾ] > V​_​{#,V}
-
-| Ereþ | ​/eː.reːθ/ | [eː.ɾeːθ] |
-| nůr  | ​/nʏr/     | [nʏɾ]     |
+   | Ereþ | ​/eː.reːθ/ | [eː.ɾeːθ] |
+   | nůr  | ​/nʏr/     | [nʏɾ]     |
 
 ** Phonotaxes
 
-src_latex{\newpage}
+   src_latex{\newpage}
 * Morphologie
-Comme mentionné dans la description du lexique (§[[*Description du lexique]]), le Hjelp est une langue se basant sur des racines consonantales disposant au moins d’un emplacement pour une voyelle entre deux consonnes. Par exemple, le terme *hjelp* a pour racine consonantale <hj-lp> avec la voyelle <e> portant la déclinaison génitive du mot ainsi que sa nominalisation, décrivant ainsi un nom se définissant par sa relation aux /Hjalpĺ/, dont le nom se décompose en <hj-lp> (racine consonantique), le <a> en infixe dénotant la qualité nominative du mot, et le <ĺ> dénotant le nombre (collectif non-uniforme), désignant ainsi les dieux célestes en eux-mêmes, les désignants collectivement, et indiquant qu’ils ne sont pas tous identiques entre eux.
+  Comme mentionné dans la description  du lexique (§[[*Description du lexique]]), le
+  Hjelp est  une langue  se basant  sur des  racines consonantales  disposant au
+  moins d’un emplacement pour une voyelle  entre deux consonnes. Par exemple, le
+  terme *hjelp* a  pour racine consonantale <hj-lp> avec la  voyelle <e> portant
+  la déclinaison génitive du mot ainsi que sa nominalisation, décrivant ainsi un
+  nom se définissant par  sa relation aux /Hjalpĺ/, dont le  nom se décompose en
+  <hj-lp>  (racine  consonantique),  le  <a>   en  infixe  dénotant  la  qualité
+  nominative  du mot,  et le  <ĺ> dénotant  le nombre  (collectif non-uniforme),
+  désignant   ainsi   les   dieux   célestes  en   eux-mêmes,   les   désignants
+  collectivement, et indiquant qu’ils ne sont pas tous identiques entre eux.
 
-Le Hjelp a été pensé de façon à ce qu’une grande quantité d’information puisse tenir en relativement peu de syllabes, de façon à exprimer en relativement peu de temps des idées complexes et/ou complètes avec des longueurs de phrases comparables à des langues naturelles, d’où ce système d’emplacements pouvant porter autant de variantes phonétiques ayant chacune leur signification.
+  Le Hjelp a été pensé de façon à ce qu’une grande quantité d’information puisse
+  tenir en relativement peu de syllabes, de façon à exprimer en relativement peu
+  de temps  des idées complexes  et/ou complètes  avec des longueurs  de phrases
+  comparables à des  langues naturelles, d’où ce  système d’emplacements pouvant
+  porter autant de variantes phonétiques ayant chacune leur signification.
 
-Dans cette catégorie dédiée à la morphologie, nous étudierons la façon dont les mots peuvent changer d’apparence, peuvent se métamorphoser afin d’adopter de nouvelles significations. Ce qui relève de l’agencement des mots entre eux sera discuté lors de l’étude de la syntaxe du Hjelp (§[[*Syntaxe]]), et pour ce qui est des règles relevant aussi bien de la syntaxe que de la morphologie, nous parlerons de morphosyntaxe (§[[*Morphosyntaxe]]).
+  Dans cette  catégorie dédiée à la  morphologie, nous étudierons la  façon dont
+  les mots peuvent changer d’apparence,  peuvent se métamorphoser afin d’adopter
+  de nouvelles significations. Ce qui relève  de l’agencement des mots entre eux
+  sera discuté lors  de l’étude de la  syntaxe du Hjelp (§[[*Syntaxe]]),  et pour ce
+  qui est des  règles relevant aussi bien  de la syntaxe que  de la morphologie,
+  nous parlerons de morphosyntaxe (§[[*Morphosyntaxe]]).
 
 ** Noms
-Les noms du Hjelp servent généralement à désigner des entités, des concepts ou bien des objets. Ils sont composés d’au moins une racine consonantique et de leur voyelle cœur portant la grammaire du nom, et porte également souvent en premier affixe une voyelle et une consonne décrivant respectivement le genre et le nombre du nom. Comme pour la majorité des mots en Hjelp, les noms fonctionnent par système d’emplacements grammaticaux disposés comme suit :
+   Les noms du  Hjelp servent généralement à désigner des  entités, des concepts
+   ou bien des objets. Ils sont  composés d’au moins une racine consonantique et
+   de leur voyelle cœur portant la  grammaire du nom, et porte également souvent
+   en premier  affixe une  voyelle et une  consonne décrivant  respectivement le
+   genre et le nombre du nom. Comme pour la majorité des mots en Hjelp, les noms
+   fonctionnent par système d’emplacements grammaticaux disposés comme suit :
 
-| / | <>          | >                 | >           | >                    |
-|---+-------------+-------------------+-------------+----------------------|
-|   | racine (C1) | voyelle cœur (V1) | racine (C2) | genre+nombre (V2+C3) |
-|---+-------------+-------------------+-------------+----------------------|
+   | / | <>          | >                 | >           | >                    |
+   |---+-------------+-------------------+-------------+----------------------|
+   |   | racine (C1) | voyelle cœur (V1) | racine (C2) | genre+nombre (V2+C3) |
+   |---+-------------+-------------------+-------------+----------------------|
 
-Si un emplacement est utilisé, tous les emplacements se situant entre les emplacements de la racine et ledit emplacement doivent également être également utilisés.
+   Si un  emplacement est utilisé,  tous les  emplacements se situant  entre les
+   emplacements  de  la  racine  et ledit  emplacement  doivent  également  être
+   également utilisés.
 
 *** Genre
-Le Hjelp dispose de neuf genres différents spécifiques ainsi qu’un dixième genre neutre. Ce dixième genre n’est utilisé que lorsqu’un marquage du genre est obligatoire mais non-spécifié. On a donc la liste qui suit :
+    Le Hjelp dispose  de neuf genres différents spécifiques  ainsi qu’un dixième
+    genre neutre. Ce dixième genre n’est utilisé que lorsqu’un marquage du genre
+    est obligatoire mais non-spécifié. On a donc la liste qui suit :
 
-1. Genre Sacré (/SAC/) : se réfère à tout être divin ou considéré comme divin. Cela peut donc se référer aux trois catégories de Divins (célestes, terrestres et dragons), mais il peut également être utilisé comme moyen de marquer un honorifique important envers un mortel.
-2. Genre Abstrait (/ABST/) : se réfère à tout élément non physique, concept ou élément temporel. Les lieux et emplacements géographiques et temporels sont également généralement considérés comme étant de genre abstrait. Bien que le temps en lui-même soit considéré comme étant du genre divin, les événements et marqueurs de celui-ci sont considérés comme des concepts créés dans l’esprit et le mental des êtres.
-3. Genre Liquide (/LIQ/) : se réfère, comme son nom l’indique, à tout élément liquide, et tout particulièrement à l’eau. Cependant, ce genre ne couvre pas tous les fluides, les gaz étant par exemple de genre inanimé.
-4. Genre Masculin (/M/) : se réfère à tout être humain ou humanoïde d’apparence masculine, de sexe masculin, ou à un groupe à prédominance masculine.
-5. Genre Féminin (/F/) : se réfère à tout être humain ou humanoïde d’apparence féminine, de sexe féminine, ou à un groupe à prédominance féminine.
-6. Genre Neutre (/N/) : se réfère à tout être humain ou humanoïde dont on ne connaît pas le sexe, à un groupe n’ayant pas de prédominance préétablie, ou bien si le genre ou le sexe n’est tout simplement pas spécifié.
-7. Genre Animal (/ANML/) : se réfère à tout être mortel animé n’étant pas humanoïde.
-8. Genre Végétal (/PLNT/) : se réfère à tout être mortel non-animé n’étant pas humanoïde.
-9. Genre Inanimé (/INAN/) : se réfère à tout élément physique non-vivant.
-10. Genre Inconnu (/UKN/) : genre vide, n’aillant pour seul rôle de marquer un genre grammaticalement obligatoire sans que ce dernier ne soit spécifié.
+    1. Genre  Sacré (/SAC/) :  se réfère  à tout être  divin ou  considéré comme
+       divin.  Cela  peut  donc  se  référer  aux  trois  catégories  de  Divins
+       (célestes, terrestres  et dragons), mais  il peut également  être utilisé
+       comme moyen de marquer un honorifique important envers un mortel.
+    2. Genre Abstrait (/ABST/) : se réfère  à tout élément non physique, concept
+       ou élément temporel. Les lieux et emplacements géographiques et temporels
+       sont  également généralement  considérés comme  étant de  genre abstrait.
+       Bien que le temps en lui-même  soit considéré comme étant du genre divin,
+       les  événements  et  marqueurs  de celui-ci  sont  considérés  comme  des
+       concepts créés dans l’esprit et le mental des êtres.
+    3.  Genre Liquide  (/LIQ/) :  se réfère,  comme son  nom  l’indique, à  tout
+       élément liquide, et tout particulièrement à l’eau. Cependant, ce genre ne
+       couvre pas tous les fluides, les gaz étant par exemple de genre inanimé.
+    4.  Genre  Masculin (/M/) :  se  réfère  à  tout  être humain  ou  humanoïde
+       d’apparence masculine,  de sexe masculin,  ou à un groupe  à prédominance
+       masculine.
+    5.  Genre  Féminin  (/F/) :  se  réfère à  tout  être  humain  ou  humanoïde
+       d’apparence féminine,  de sexe  féminine, ou à  un groupe  à prédominance
+       féminine.
+    6. Genre Neutre (/N/) : se réfère à tout être humain ou humanoïde dont on ne
+       connaît pas le sexe, à un  groupe n’ayant pas de prédominance préétablie,
+       ou bien si le genre ou le sexe n’est tout simplement pas spécifié.
+    7. Genre  Animal (/ANML/) : se réfère  à tout être mortel  animé n’étant pas
+       humanoïde.
+    8. Genre Végétal  (/PLNT/) : se réfère à tout être  mortel non-animé n’étant
+       pas humanoïde.
+    9. Genre Inanimé (/INAN/) : se réfère à tout élément physique non-vivant.
+    10. Genre Inconnu (/UKN/) : genre vide,  n’aillant pour seul rôle de marquer
+        un  genre  grammaticalement obligatoire  sans  que  ce dernier  ne  soit
+        spécifié.
 
-Le genre est inclus sémantiquement dans la large majorité des noms du Hjelp, y compris dans des déclinaisons courantes si cette déclinaison est nominalisée par la suite afin d’en faire un mot à part entière. Ainsi, <đ-m> est une racine signifiant <humain>, ou <être humain>, et son genre est neutre ; <đem>, désignant les langues humaines, est de genre abstrait.
+    Le genre est inclus sémantiquement dans la large majorité des noms du Hjelp,
+    y  compris  dans  des  déclinaisons   courantes  si  cette  déclinaison  est
+    nominalisée par la suite afin d’en faire un mot à part entière. Ainsi, <đ-m>
+    est  une racine  signifiant <humain>,  ou <être  humain>, et  son genre  est
+    neutre ; <đem>, désignant les langues humaines, est de genre abstrait.
 
-Il est cependant possible de forcer un genre différent selon les besoins du locuteur, pouvant également modifier la signification du mot. Ainsi, si l’emplacement du genre et du nombre est libre, on peut y ajouter en affixe les éléments suivants pour changer le genre du mot :
+    Il est cependant possible de forcer  un genre différent selon les besoins du
+    locuteur,  pouvant également  modifier la  signification du  mot. Ainsi,  si
+    l’emplacement du genre et  du nombre est libre, on peut  y ajouter en affixe
+    les éléments suivants pour changer le genre du mot :
 
-| / | >        |        |
-|   | Genre    | Affixe |
-|---+----------+--------|
-|   | Sacré    | av     |
-|   | Abstrait | òf     |
-|   | Liquide  | ãv     |
-|   | Masculin | et     |
-|   | Féminin  | ob     |
-|   | Neutre   | ød     |
-|   | Animal   | ìk     |
-|   | Végétal  | yng    |
-|   | Inanimé  | ug     |
-|   | Inconnu  | ik     |
+    | /        | <      |
+    | Genre    | Affixe |
+    |----------+--------|
+    | Sacré    | av     |
+    | Abstrait | òf     |
+    | Liquide  | ãv     |
+    | Masculin | et     |
+    | Féminin  | ob     |
+    | Neutre   | ød     |
+    | Animal   | ìk     |
+    | Végétal  | yng    |
+    | Inanimé  | ug     |
+    | Inconnu  | ik     |
 
-Si l’on souhaite changer le genre alors que l’emplacement est déjà utilisé pour le nombre, alors il faudra utiliser un des éléments présentés lors de la présentation des nombres ci-dessous (§[[*Nombre]]). Le suffixe pour le genre inconnu n’est utilisé que dans le cas où des éléments suivant le nombre et le genre sont utilisés et que ni le genre ni le nombre ne sont précisés.
+    Si l’on souhaite  changer le genre alors que l’emplacement  est déjà utilisé
+    pour le nombre,  alors il faudra utiliser un des  éléments présentés lors de
+    la présentation des nombres ci-dessous  (§[[*Nombre]]). Le suffixe pour le genre
+    inconnu n’est utilisé que  dans le cas où des éléments  suivant le nombre et
+    le genre sont utilisés et que ni le genre ni le nombre ne sont précisés.
 
-Un changement volontaire de genre de la part d’un locuteur peut réaliser des objectifs divers. Il est possible par exemple d’appliquer un genre sacré à un mortel afin de dénoter un honorifique envers ce mortel, l’utilisation d’un genre humain dans le même contexte faisant alors lieu d’humilifique. À l’inverse, l’utilisation d’un genre animal ou inanimé envers un humain représente dans le premier cas une marque de supériorité de la part du locuteur utilisant le genre animal envers l’humain portant alors ce genre, voire une insulte lors de l’utilisation du genre inanimé.
+    Un changement volontaire de genre de la part d’un locuteur peut réaliser des
+    objectifs divers. Il  est possible par exemple d’appliquer un  genre sacré à
+    un mortel  afin de  dénoter un honorifique  envers ce  mortel, l’utilisation
+    d’un genre humain dans le même  contexte faisant alors lieu d’humilifique. À
+    l’inverse,  l’utilisation d’un  genre  animal ou  inanimé  envers un  humain
+    représente  dans le  premier cas  une marque  de supériorité  de la  part du
+    locuteur utilisant le  genre animal envers l’humain portant  alors ce genre,
+    voire une insulte lors de l’utilisation du genre inanimé.
 
-Le Hjelp dispose également de sur-genres qui disposent d’une utilisé grammaticale, notamment pour les verbes et leurs accords, qui peuvent regrouper plusieurs genres comme montré ci-dessous :
-1. Sur-genre Spirituel (/SPIR/) : rassemble le genre sacré, mental et liquide.
-2. Sur-genre Humain (/HUM/) : rassemble le genre masculin, féminin et neutre.
-3. Sur-genre Non-humain (/NHUM/) : rassemble le vivant non humain ou divin, donc le genre animal et végétal.
-4. Sur-genre Global (/GLOB/) : rassemble le genre inanimé et inconnu.
+    Le  Hjelp  dispose  également  de sur-genres  qui  disposent  d’une  utilisé
+    grammaticale,  notamment  pour les  verbes  et  leurs accords,  qui  peuvent
+    regrouper plusieurs genres comme montré ci-dessous :
+    1.  Sur-genre  Spirituel (/SPIR/) :  rassemble  le  genre sacré,  mental  et
+       liquide.
+    2.  Sur-genre  Humain (/HUM/) :  rassemble  le  genre masculin,  féminin  et
+       neutre.
+    3. Sur-genre Non-humain (/NHUM/) : rassemble  le vivant non humain ou divin,
+       donc le genre animal et végétal.
+    4. Sur-genre Global (/GLOB/) : rassemble le genre inanimé et inconnu.
 
 *** Nombre
-Le Hjelp dispose de six nombres distincts qui se marquent dans leur emplacement dédié dans le mot. La seule information inclue sémantiquement dans la racine du nom concernant le nombre est son aspect dénombrable ou non, auquel cas ces divers nombres représenteront des quantités plus arbitraires que si le nombre est dénombrable.
-1. Singulier (/S/) : désigne un élément unique dénombrable, ou bien une petite quantité indénombrable.
-2. Singulatif non-uniforme (/SGV/) : désigne un ensemble d’éléments similaires mais non-identiques, comme par exemple des maisons dans une ville.
-3. Singulatif uniforme (/SGVU/) : désigne un ensemble d’éléments identiques, comme peuvent l’être des feuilles de papier de même taille et même couleur.
-4. Duel (/DU/) : désigne deux éléments dénombrables, ou bien une quantité moyenne indénombrable.
-5. Triel (/TRI/) : désigne trois éléments dénombrables, ou bien une quantité relativement importante indénombrable.
-6. Pluriel (/PL/) : désigne quatre éléments ou plus dénombrables, ou bien une quantité très importante indénombrable.
+    Le  Hjelp  dispose de  six  nombres  distincts  qui  se marquent  dans  leur
+    emplacement dédié  dans le mot.  La seule information  inclue sémantiquement
+    dans la  racine du nom  concernant le nombre  est son aspect  dénombrable ou
+    non,  auquel  cas  ces  divers nombres  représenteront  des  quantités  plus
+    arbitraires que si le nombre est dénombrable.
+    1. Singulier (/S/) :  désigne un  élément unique  dénombrable, ou  bien une
+      petite quantité indénombrable.
+    2.  Singulatif   non-uniforme  (/SGV/) :  désigne  un   ensemble  d’éléments
+       similaires mais  non-identiques, comme par  exemple des maisons  dans une
+       ville.
+    3. Singulatif uniforme (/SGVU/) : désigne un ensemble d’éléments identiques,
+       comme  peuvent l’être  des  feuilles de  papier de  même  taille et  même
+       couleur.
+    4. Duel  (/DU/) : désigne deux  éléments dénombrables, ou bien  une quantité
+       moyenne indénombrable.
+    5. Triel (/TRI/) : désigne trois éléments dénombrables, ou bien une quantité
+       relativement importante indénombrable.
+    6. Pluriel  (/PL/) : désigne quatre  éléments ou plus dénombrables,  ou bien
+       une quantité très importante indénombrable.
 
-La distinction entre des éléments identiques ou non relève souvent du subjectif ou de ce sur quoi le locuteur souhaite mettre l’accent. Il en va de même pour les quantités ; celles mentionnés ne sont que l’archétype de l’utilisation de ces nombres, mais le locuteur peut adapter ces nombres basé sur sa perception de ce que représente « peu » ou « beaucoup » d’un élément. On remarquera que les deux singulatifs n’ont pas d’équivalent en terme de quantité pour l’indénombrable ; en effet, ils seront utilisés à la place pour représenter la qualité de l’uniformité de l’élément indénombrable. Ainsi, pour de la farine par exemple, si celle-ci est un mélange d’autres farines, le singulatif non-uniforme sera utilisé. À l’inverse, une farine pure se verra attribuée le singulatif uniforme.
+    La  distinction entre  des  éléments  identiques ou  non  relève souvent  du
+    subjectif ou de ce  sur quoi le locuteur souhaite mettre  l’accent. Il en va
+    de même  pour les quantités ; celles  mentionnés ne sont que  l’archétype de
+    l’utilisation de ces nombres, mais le locuteur peut adapter ces nombres basé
+    sur sa perception de ce que représente « peu » ou « beaucoup » d’un élément.
+    On remarquera  que les deux singulatifs  n’ont pas d’équivalent en  terme de
+    quantité pour  l’indénombrable ; en  effet, ils seront  utilisés à  la place
+    pour  représenter la  qualité  de l’uniformité  de l’élément  indénombrable.
+    Ainsi, pour  de la farine par  exemple, si celle-ci est  un mélange d’autres
+    farines, le  singulatif non-uniforme sera  utilisé. À l’inverse,  une farine
+    pure se verra attribuée le singulatif uniforme.
 
-Voici ci-dessous le tableau des nombres, genrés ou non.
-| / | >    |    |     |      |    |     |    |
-|   |      | S  | SGV | SGVU | DU | TRI | PL |
-|---+------+----+-----+------+----+-----+----|
-|   | Ø    |    | ĺ   | at   | aŕ | arh | ab |
-|   | SAC  | ń  | el  | èt   | èŕ | erh | èb |
-|   | ABST | œn | œl  | øt   | œŕ | œrh | øb |
-|   | LIQ  | ãn | ãl  | ãt   | ãŕ | ãrh | ãb |
-|   | M    | ôn | ôl  | ôt   | ôŕ | ôrh | ôb |
-|   | F    | òn | òl  | òt   | òŕ | òrh | ob |
-|   | N    | en | el  | et   | eŕ | erh | eb |
-|   | ANML | ìn | ìl  | it   | ìŕ | irh | ib |
-|   | PLNT | ũn | ũl  | ũt   | ũŕ | ũrh | ũb |
-|   | INAN | yn | yl  | yt   | uŕ | yrh | yb |
+    Voici ci-dessous le tableau des nombres, genrés ou non.
+    | / | >    |    |     |      |    |     |    |
+    |   |      | S  | SGV | SGVU | DU | TRI | PL |
+    |---+------+----+-----+------+----+-----+----|
+    |   | Ø    |    | ĺ   | at   | aŕ | arh | ab |
+    |   | SAC  | ń  | el  | èt   | èŕ | erh | èb |
+    |   | ABST | œn | œl  | øt   | œŕ | œrh | øb |
+    |   | LIQ  | ãn | ãl  | ãt   | ãŕ | ãrh | ãb |
+    |   | M    | ôn | ôl  | ôt   | ôŕ | ôrh | ôb |
+    |   | F    | òn | òl  | òt   | òŕ | òrh | ob |
+    |   | N    | en | el  | et   | eŕ | erh | eb |
+    |   | ANML | ìn | ìl  | it   | ìŕ | irh | ib |
+    |   | PLNT | ũn | ũl  | ũt   | ũŕ | ũrh | ũb |
+    |   | INAN | yn | yl  | yt   | uŕ | yrh | yb |
 
 *** Déclinaisons
 
@@ -370,35 +796,40 @@ Voici ci-dessous le tableau des nombres, genrés ou non.
 ** Verbes
 ** Conjonctions
 
-src_latex{\newpage}
+   src_latex{\newpage}
 * Syntaxe
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Morphosyntaxe
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Sémantiques
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Pragmatique
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Phraséologie
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Synchronie et diachronie
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Système d’écriture
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Glossaire
 
-Le Hjelp étant une langue évoluant en permanence, je ne peux donner de lexique fixe dans ce document, cependant un dictionnaire en ligne est actuellement en cours de développement qui contiendra tous les mots de la langue et les traduira vers le français et possiblement l’anglais avec les détails nécessaires à une bonne compréhension des termes, les subtilités qu’ils induisent ainsi que leur étymologie s’ils en ont une. Ce dictionnaire sera disponible à l’adresse [[https://dict.phundrak.fr/]]
+  Le Hjelp étant une langue évoluant en permanence, je ne peux donner de lexique
+  fixe dans ce document, cependant un  dictionnaire en ligne est actuellement en
+  cours  de développement  qui contiendra  tous  les mots  de la  langue et  les
+  traduira  vers  le  français  et   possiblement  l’anglais  avec  les  détails
+  nécessaires  à  une bonne  compréhension  des  termes, les  subtilités  qu’ils
+  induisent ainsi  que leur étymologie  s’ils en  ont une. Ce  dictionnaire sera
+  disponible à l’adresse [[https://dict.phundrak.com/]]
 
-src_latex{\newpage}
+  src_latex{\newpage}
 * Annexes
-
 ** Annexe A : Abbréviations
 
 #  LocalWords:  status Melexeq moment-là

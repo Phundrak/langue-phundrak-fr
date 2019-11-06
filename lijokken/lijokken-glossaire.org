@@ -4,8 +4,8 @@
 * Introduction
 * Abréviations
 
-- nn :: nom neutre
-- nr :: nom draconien
+  - nn :: nom neutre
+  - nr :: nom draconien
 
 * Glossaire
 ** Actions physiques
@@ -35,25 +35,34 @@
 ** Légal
 ** Lieux
 ** Lumière
-- ecsuŕn (nn) :: ~/etSMr\n/~ ténèbres, absence de lumière
-- śjìň (nr) :: ~/çj1N/~ flamme draconienne
-- šuìň (nn) :: ~/s`M1N/~ flamme ordinaire
-- us (nr) :: ~/Ms\/~ feu draconien
-- źíň (nn) :: ~/j\1N/~ feu ordinaire
+   - ecsuŕn (nn) :: ~/etSMr\n/~ ténèbres, absence de lumière
+   - śjìň (nr) :: ~/çj1N/~ flamme draconienne
+   - šuìň (nn) :: ~/s`M1N/~ flamme ordinaire
+   - us (nr) :: ~/Ms\/~ feu draconien
+   - źíň (nn) :: ~/j\1N/~ feu ordinaire
 ** Mental
 ** Mesures
 ** Métaux
 ** Mouvement
 ** Nature
-- csutse (nn) :: ~/tSMts\e/~ volcan éteint
-  - Étymologie : /ecsuŕn/ + /re/
-Pour la race des dragons, il s’agit des montagnes les plus pures, bénies par leur dieu et faisant office de lieux de choix concernant leur habitat où ils peuvent trouver des grottes volcaniques. Ces dernières sont souvent utilisées comme des lieux de culte, et les plus puissants de la race des dragons y élisent même parfois domicile.
-- nære (nn) :: ~/naRe/~ colline
-- re (nn) :: ~/Re/~ montagne
-- ërë (nn) :: ~/3R3/~ mont, sommet de montagne
-- źìxe (nr) :: ~/j\IXe/~ volcan actif
-  - Étymologie : /źiň/ + /re/
-Les volcans sont regardés par les dragons comme étant l’origine pure et divine des montagnes. Les volcans actifs sont des lieux de pèlerinage et de vénération pour la race des dragons, trace de l’activité de leur créateur, le dieu du feu.
+   - csutse (nn) :: ~/tSMts\e/~ volcan éteint
+     - Étymologie : /ecsuŕn/ + /re/
+
+       Pour la race des dragons, il  s’agit des montagnes les plus pures, bénies
+       par leur dieu et faisant office de lieux de choix concernant leur habitat
+       où  ils  peuvent trouver  des  grottes  volcaniques. Ces  dernières  sont
+       souvent utilisées comme  des lieux de culte, et les  plus puissants de la
+       race des dragons y élisent même parfois domicile.
+   - nære (nn) :: ~/naRe/~ colline
+   - re (nn) :: ~/Re/~ montagne
+   - ërë (nn) :: ~/3R3/~ mont, sommet de montagne
+   - źìxe (nr) :: ~/j\IXe/~ volcan actif
+     - Étymologie : /źiň/ + /re/
+
+       Les volcans sont  regardés par les dragons comme étant  l’origine pure et
+       divine des montagnes. Les volcans actifs  sont des lieux de pèlerinage et
+       de  vénération pour  la race  des dragons,  trace de  l’activité de  leur
+       créateur, le dieu du feu.
 ** Nombres
 ** Nourriture
 ** Outils

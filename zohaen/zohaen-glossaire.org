@@ -36,7 +36,7 @@
 ** Métaux
 ** Mouvement
 ** Nature
-- qan :: montagne, nom commun, genre neutre
+   - qan :: montagne, nom commun, genre neutre
 ** Nombres
 ** Nourriture
 ** Outils

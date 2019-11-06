@@ -10,29 +10,29 @@
   :CUSTOM_ID: h-7d801f16-4b32-407e-9599-3d44b50e2921
   :END:
 
-[[file:hjalpi.org][Hjalpi’]] ([[file:hjalpi.pdf][pdf]])
+  [[file:hjalpi.org][Hjalpi’]] ([[file:hjalpi.pdf][pdf]])
 
-[[file:hjelp.org][Hjelp]] ([[file:hjelp.pdf][pdf]]) (remplacement du Hjalpi’)
+  [[file:hjelp.org][Hjelp]] ([[file:hjelp.pdf][pdf]]) (remplacement du Hjalpi’)
 
 * Langues draconiennes
   :PROPERTIES:
   :CUSTOM_ID: h-e7cdb261-763b-423a-82c9-8767a69adfcb
   :END:
 
-[[file:lijokken/lijokken-grammaire.org][Łijökken]] ([[file:lijokken/lijokken-grammaire.pdf][pdf]])
+  [[file:lijokken/lijokken-grammaire.org][Łijökken]] ([[file:lijokken/lijokken-grammaire.pdf][pdf]])
 
-[[file:zohaen/zohaen-grammaire.org][Zöhæň]] ([[file:zohaen-grammaire.pdf][pdf]])
+  [[file:zohaen/zohaen-grammaire.org][Zöhæň]] ([[file:zohaen-grammaire.pdf][pdf]])
 
 * Langues humaines
   :PROPERTIES:
   :CUSTOM_ID: h-a8d41369-6364-4e25-ab29-b886577f4955
   :END:
 
-Enánon (à venir)
+  Enánon (à venir)
 
-[[file:matter.org][Mattér]] ([[file:matter.pdf][pdf]])
+  [[file:matter.org][Mattér]] ([[file:matter.pdf][pdf]])
 
-[[file:eittlanda.org][Eittlandais]] ([[file:eittlanda.pdf][pdf]])
+  [[file:eittlanda.org][Eittlandais]] ([[file:eittlanda.pdf][pdf]])
 
 * Proto-langs
   :PROPERTIES:
@@ -40,6 +40,6 @@ Enánon (à venir)
   :CUSTOM_ID: h-2d4665ca-1cff-42ff-81c2-4612d21cd8fe
   :END:
 
-[[file:nyqy.org][Ňyqy]] ([[file:nyqy.pdf][pdf]]) ([[file:en/nyqy.org][English version]] - [[file:en/nyqy.pdf][English pdf]])
+  [[file:nyqy.org][Ňyqy]] ([[file:nyqy.pdf][pdf]]) ([[file:en/nyqy.org][English version]] - [[file:en/nyqy.pdf][English pdf]])
 
-[[file:taso.org][Tãso]] ([[file:taso.pdf][pdf]])
+  [[file:taso.org][Tãso]] ([[file:taso.pdf][pdf]])

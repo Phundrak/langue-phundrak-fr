@@ -3,82 +3,214 @@
 
 * Introduction
 
-Le Hjalpi’ est une langue construite créée comme langue faisant partie de l’univers de mon roman, parlée (comme son nom l’indique) par les divins, mais également apprise par les mages et toute personne pouvant manipuler la magie. Cette langue n’a pas pour aspiration à être simple, facile à prononcer ou à apprendre —au contraire, elle est parlée par les divins, êtres supérieurs maîtrisant des concepts impossibles à ne serait-ce qu’effleurer du bout des doigts pour les humains qui ne peuvent qu’espérer comprendre des phrases simples et ne parler que quelques bribes de cette langue après des années d’étude.
+  Le Hjalpi’  est une  langue construite  créée comme  langue faisant  partie de
+  l’univers de mon roman, parlée (comme  son nom l’indique) par les divins, mais
+  également apprise par les mages et  toute personne pouvant manipuler la magie.
+  Cette langue n’a  pas pour aspiration à  être simple, facile à  prononcer ou à
+  apprendre  —au contraire,  elle est  parlée par  les divins,  êtres supérieurs
+  maîtrisant des  concepts impossibles à  ne serait-ce qu’effleurer du  bout des
+  doigts  pour les  humains qui  ne  peuvent qu’espérer  comprendre des  phrases
+  simples et  ne parler  que quelques  bribes de cette  langue après  des années
+  d’étude.
 
-Bien évidemment, cette langue a été créée par un humain —moi-même— et non par de réels divins, ce qui fait qu’il est tout à fait possible (mais peut-être compliqué) d’apprendre cette langue qui ne remplace que figurativement la langue de mon roman qui, bien qu’elle soit ressemblante, présente elle une complexité bien au delà de ce qu’un humain peut conceptualiser. Je souhaitais tout de même disposer d’une langue réelle et utilisable pour mon roman, afin du rendre plus crédible, plus réaliste lors des passages faisant mention ou usage de la langue. Cette langue sera par ailleurs sans doutes régulièrement mise à jour, même après publication de mes écrits ; le cas échéant, je tenterai de tenir également à jour une ou plusieurs pages web contenant des erratum pour le contenu publié si jamais la langue ou des phrases venaient à changer.
+  Bien évidemment, cette langue a été créée  par un humain —moi-même— et non par
+  de réels divins,  ce qui fait qu’il  est tout à fait  possible (mais peut-être
+  compliqué)  d’apprendre cette  langue qui  ne remplace  que figurativement  la
+  langue de  mon roman qui,  bien qu’elle  soit ressemblante, présente  elle une
+  complexité bien au delà de ce  qu’un humain peut conceptualiser. Je souhaitais
+  tout de même  disposer d’une langue réelle et utilisable  pour mon roman, afin
+  du rendre  plus crédible, plus réaliste  lors des passages faisant  mention ou
+  usage de la  langue. Cette langue sera par ailleurs  sans doutes régulièrement
+  mise  à jour,  même  après publication  de  mes écrits ;  le  cas échéant,  je
+  tenterai de  tenir également à jour  une ou plusieurs pages  web contenant des
+  erratum pour le contenu  publié si jamais la langue ou  des phrases venaient à
+  changer.
 
-On peut trouver dans le Hjalpi’ (plus tard abrégée en LD) de nombreuses racines grammaticales dans notre monde réel, comme par exemple le Tibétain —d’où vient l’ordre Sujet-Objet-Verbe de la LD—, mais également d’autres langues tels que l’Allemand, le Hongrois et les langues Scandinaves pour ce qui est de l’agglutination, et également du Français et de l’Anglais. Cependant, j’essaie pour le vocabulaire d’être aussi original que possible, aussi détaché de toute langue existante que possible, de façon à ce qu’aucune parenté avec une quelconque langue naturelle ne puisse être faite simplement via le vocabulaire de ma langue.
+  On  peut trouver  dans le  Hjalpi’  (plus tard  abrégée en  LD) de  nombreuses
+  racines grammaticales  dans notre  monde réel, comme  par exemple  le Tibétain
+  —d’où  vient l’ordre  Sujet-Objet-Verbe  de la  LD—,  mais également  d’autres
+  langues tels  que l’Allemand, le Hongrois  et les langues Scandinaves  pour ce
+  qui  est  de  l’agglutination,  et  également du  Français  et  de  l’Anglais.
+  Cependant, j’essaie  pour le vocabulaire  d’être aussi original  que possible,
+  aussi détaché de toute langue existante  que possible, de façon à ce qu’aucune
+  parenté avec une  quelconque langue naturelle ne puisse  être faite simplement
+  via le vocabulaire de ma langue.
 
 * Phonologie
 
-La LD dispose de quarante-neuf phonèmes simples, dont trente et une consonnes et dix-huit voyelles, chacune représentées par un graphème unique lors de la translittération de la langue. Dans cet ouvrage, l’utilisation de la translittération sera préférée à l’utilisation de la phonétique, et lorsque cette dernière sera utilisée, je préférerai l’utilisation du X-SAMPA à l’utilisation de l’API. Vous pouvez trouver plus de détails sur le X-SAMPA à l’adresse suivante : [[https://en.wikipedia.org/wiki/X-SAMPA][en.wikipedia.org/wiki/X-SAMPA]]
+  La LD dispose de quarante-neuf phonèmes  simples, dont trente et une consonnes
+  et dix-huit voyelles,  chacune représentées par un graphème unique  lors de la
+  translittération  de  la  langue.  Dans   cet  ouvrage,  l’utilisation  de  la
+  translittération sera  préférée à l’utilisation  de la phonétique,  et lorsque
+  cette  dernière  sera  utilisée,  je préférerai  l’utilisation  du  X-SAMPA  à
+  l’utilisation de l’API.  Vous pouvez trouver plus de détails  sur le X-SAMPA à
+  l’adresse suivante : [[https://en.wikipedia.org/wiki/X-SAMPA][en.wikipedia.org/wiki/X-SAMPA]]
 
 ** Consonnes
 
-Comme dit ci-dessus, la LD dispose de trente et une consonnes. Vous pouvez trouver le tableau complet des consonnes en Annexe A. Voici cependant une explication détaillée de la prononciation des consonnes de la LD :
+   Comme dit  ci-dessus, la LD dispose  de trente et une  consonnes. Vous pouvez
+   trouver le  tableau complet des  consonnes en  Annexe A. Voici  cependant une
+   explication détaillée de la prononciation des consonnes de la LD :
 
-- =[j]= (j) :: cette consonne est prononcée comme un « y » en Français, ou comme le « ille » dans « paille »
-- =[w]= (w) :: cette consonne est prononcée comme un « w » standard en Français.
-- =[r]= (r) :: il s’agit ici du « r » roulé Espagnol ou Italien. Il peut être roulé plusieurs fois, mais il a plutôt tendance à rester bref.
-- =[K]= (ł) :: il s’agit ici d’un =[l]= dévoisé (dans lequel on ne fait pas vibrer nos cordes vocales) auquel une expiration est ajoutée, tel que le « lh » tibétain.
-- =[l]= (l) :: il s’agit du « l » standard en Français. Le « l » se rallonge et tend à se rapprocher de la voyelle =[l0]= lorsqu’elle se situe seule entre deux voyelles et tend à former un triphone (voire plus) avec lesdites voyelles. Exemple: ~ála~ aura tendance à se prononcer =[Al0a]= plutôt que =[A:la]=.
-- =[m]= (m) :: il s’agit du « m » standard en Français.
-- =[n]= (n) :: il s’agit du « n » standard en Français.  Le « n » se rallonge et tend à se rapprocher de la voyelle =[n0]= lorsqu’elle se situe seule entre deux voyelles et tend à former un triphone (voire plus) avec lesdites voyelles. Exemple: ~ýnê~ aura tendance à se prononcer =[Yn09:]= plutôt que =[Y:n9:]=.
-- =[N]= (ň) :: il s’agit du « n » nasalisé, tel que le « ng » en Anglais comme dans « parking ».
-- =[v]= (v) :: il s’agit du « v » standard en Français.
-- =[D]= (ð) :: il s’agit du « th » voisé (où on utilise nos cordes vocales) en Anglais tel que dans « this ».
-- =[z]= (z) :: il s’agit du « z » standard en Français.
-- =[Z]= (ž) :: il s’agit du « j » standard en Français.
-- =[f]= (f) :: il s’agit du « f » standard en Français.
-- =[T]= (þ) :: il s’agit du « th » sourd (où l’on n’utilise pas nos cordes vocales) en Anglais tel que dans « think ».
-- =[s]= (s) :: il s’agit du « s » standard en Français, toujours prononcé comme un « s » et jamais comme un « z ». Cependant, sa prononciation peut se rapprocher du =[s\]= dans sa prononciation plutôt que du =[s]= pur. Ce défaut de prononciation est plutôt présent dans les niveaux de politesse élevés, et disparaît lors des niveaux de politesse standard et plus bas.
-- =[S]= (ß) :: il s’agit du son « ch » standard en Français, tel que dans « chat ».
-- =[x]= (x) :: il s’agit du même son « j » qu’en Espagnol, un « r » sourd et guttural.
-- =[R]= (ŗ) :: il s’agit du « r » Français.
-- =[h]= (h) :: il s’agit du son « h » tel qu’on peut le retrouver en Anglais comme dans « house ». Lorsqu’il se trouve cependant seul entre deux voyelles, il a tendance d’être prononcé =[h\]= dans le registre courant et familier, mais reste un =[h]= pur dans les registres plus soutenus.
+   - =[j]= (j)  :: cette consonne est  prononcée comme un « y »  en Français, ou
+                  comme le « ille » dans « paille »
+   - =[w]=  (w) ::  cette  consonne est  prononcée comme  un  « w » standard  en
+                  Français.
+   - =[r]= (r) :: il s’agit ici du « r » roulé Espagnol ou Italien. Il peut être
+                  roulé plusieurs fois, mais il a plutôt tendance à rester bref.
+   - =[K]= (ł) :: il  s’agit ici d’un =[l]= dévoisé (dans lequel  on ne fait pas
+                  vibrer nos cordes vocales)  auquel une expiration est ajoutée,
+                  tel que le « lh » tibétain.
+   - =[l]= (l) :: il s’agit du « l »  standard en Français. Le « l » se rallonge
+                  et tend  à se rapprocher  de la voyelle =[l0]=  lorsqu’elle se
+                  situe seule entre  deux voyelles et tend à  former un triphone
+                  (voire  plus)  avec  lesdites voyelles.  Exemple:  ~ála~  aura
+                  tendance à se prononcer =[Al0a]= plutôt que =[A:la]=.
+   - =[m]= (m) :: il s’agit du « m » standard en Français.
+   - =[n]= (n) :: il s’agit du « n »  standard en Français. Le « n » se rallonge
+                  et tend  à se rapprocher  de la voyelle =[n0]=  lorsqu’elle se
+                  situe seule entre  deux voyelles et tend à  former un triphone
+                  (voire  plus)  avec  lesdites voyelles.  Exemple:  ~ýnê~  aura
+                  tendance à se prononcer =[Yn09:]= plutôt que =[Y:n9:]=.
+   - =[N]= (ň)  :: il  s’agit du « n »  nasalisé, tel que  le « ng »  en Anglais
+                  comme dans « parking ».
+   - =[v]= (v) :: il s’agit du « v » standard en Français.
+   - =[D]= (ð) :: il  s’agit du « th » voisé (où on  utilise nos cordes vocales)
+                  en Anglais tel que dans « this ».
+   - =[z]= (z) :: il s’agit du « z » standard en Français.
+   - =[Z]= (ž) :: il s’agit du « j » standard en Français.
+   - =[f]= (f) :: il s’agit du « f » standard en Français.
+   - =[T]= (þ) ::  il s’agit du « th »  sourd (où l’on n’utilise  pas nos cordes
+                  vocales) en Anglais tel que dans « think ».
+   - =[s]= (s)  :: il s’agit  du « s »  standard en Français,  toujours prononcé
+                  comme  un  « s »  et  jamais comme  un  « z ».  Cependant,  sa
+                  prononciation   peut  se   rapprocher   du   =[s\]=  dans   sa
+                  prononciation  plutôt   que  du   =[s]=  pur.  Ce   défaut  de
+                  prononciation est plutôt présent dans les niveaux de politesse
+                  élevés, et disparaît lors des niveaux de politesse standard et
+                  plus bas.
+   - =[S]= (ß)  :: il s’agit  du son « ch » standard  en Français, tel  que dans
+                  « chat ».
+   - =[x]= (x) :: il s’agit du même  son « j » qu’en Espagnol, un « r » sourd et
+                  guttural.
+   - =[R]= (ŗ) :: il s’agit du « r » Français.
+   - =[h]= (h) :: il s’agit du son  « h » tel qu’on peut le retrouver en Anglais
+                  comme dans « house ». Lorsqu’il se trouve cependant seul entre
+                  deux voyelles,  il a tendance  d’être prononcé =[h\]=  dans le
+                  registre courant et familier, mais reste un =[h]= pur dans les
+                  registres plus soutenus.
 
-Le reste des lettres /b/, /d/, /g/, /p/, /t/ et /k/ ont également la même sonorité que leur sonorité de base en Français, sans être modifiés par une voyelle (comme le /g/ peut l’être près d’un /i/ en Français). Aucune consonne n’est prononcée avec aspiration, hormis pour le =[K]= et le =[h]=, à moins que la consonne ne soit explicitement suivie par un =[h]=.
+   Le reste  des lettres /b/, /d/,  /g/, /p/, /t/  et /k/ ont également  la même
+   sonorité que  leur sonorité de base  en Français, sans être  modifiés par une
+   voyelle (comme le /g/ peut l’être près d’un /i/ en Français). Aucune consonne
+   n’est prononcée  avec aspiration, hormis pour  le =[K]= et le  =[h]=, à moins
+   que la consonne ne soit explicitement suivie par un =[h]=.
 
 ** Voyelles
 
-- =[a:]= (a) :: il s’agit du son =[a]= naturel prononcé en Français, comme dans le mot « pattes ». Il est nécessairement long.
-- =[A]= (á) :: il s’agit d’un son plus ouvert et plus court que le =[a]=, un peu comme dans « pâtes » tel qu’encore prononcé dans l’ouest de la France.
-- =[2:]= (ë) :: il s’agit exactement de la même voyelle que dans le mot « deux », mais nécessairement long.
-- =[9]= (ê) :: il s’agit exactement de la même voyelle que dans le mot « neuf », mais nécessairement court.
-- =[@]= (ě) :: il s’agit d’un son similaire à =[2]= ou à =[9]=, mais très peu discernable, voire parfois ellipsé ou ajouté pour faciliter la prononciation, un peu similaire à la voyelle dans le mot « le » en Français lorsque l’on parle rapidement. Il s’agit de la seule voyelle qui peut ne pas être notée à l’écrit. Cette voyelle est nécessairement courte. Avec =[l0]= et =[n0]=, =[@]= fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.
-- =[i:]= (i) :: il s’agit exactement du même « i » qu’en Français, cependant nécessairement long.
-- =[I]= (í) :: il s’agit de la même voyelle que dans le mot « this » en Anglais : un « i » plus ouvert que le =[i]=. Il est également nécessairement court.
-- =[e:]= (e) :: il s’agit du « é » standard Français, comme dans le mot « été », cependant nécessairement long.
-- =[E]= (e) :: il s’agit du « è » standard Français, comme dans le mot « laid », cependant nécessairement court.
-- =[o:]= (o) :: il s’agit du « o » fermé standard Français, comme dans le mot « eau », cependant nécessairement long.
-- =[O]= (o) :: il s’agit du « o » ouvert standard Français, comme dans le mot « tonne », cependant nécessairement court.
-- =[y:]= (y) :: il s’agit du « u » standard Français, comme dans le mot « lune », cependant nécessairement long.
-- =[Y]= (ý) :: il s’agit d’un =[y]= ouvert tel qu’on peut le trouver en Allemand, cependant nécessairement court.
-- =[u:]= (u) :: il s’agit du « ou » standard Français, comme dans le mot « boule », cependant nécessairement long.
-- =[U]= (ú) :: il s’agit du « ou » ouvert que l’on peut par exemple retrouver dans des mots Anglais tels que « boot », cependant nécessairement court.
-- =[n0]= (ń) :: il s’agit de la consonne =[n]= utilisée en tant que voyelle. Avec =[@]= et =[l0]=, =[n0]= fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.
-- =[l0]= (ļ) :: il s’agit de la consonne =[l]= utilisée en tant que voyelle. Avec =[@]= et =[n0]=, =[l0]= fait partie des seules voyelles à ne pas pouvoir être utilisées dans une diphtongue.
+   - =[a:]= (a)  :: il s’agit du  son =[a]= naturel prononcé  en Français, comme
+                   dans le mot « pattes ». Il est nécessairement long.
+   - =[A]= (á) :: il s’agit d’un son plus  ouvert et plus court que le =[a]=, un
+                  peu comme  dans « pâtes » tel qu’encore  prononcé dans l’ouest
+                  de la France.
+   - =[2:]= (ë)  :: il  s’agit exactement  de la  même voyelle  que dans  le mot
+                   « deux », mais nécessairement long.
+   - =[9]=  (ê) ::  il s’agit  exactement de  la même  voyelle que  dans le  mot
+                  « neuf », mais nécessairement court.
+   - =[@]= (ě) :: il s’agit d’un son similaire à =[2]= ou à =[9]=, mais très peu
+                  discernable, voire parfois ellipsé ou ajouté pour faciliter la
+                  prononciation,  un peu  similaire  à la  voyelle  dans le  mot
+                  « le » en Français lorsque l’on parle rapidement. Il s’agit de
+                  la seule voyelle  qui peut ne pas être notée  à l’écrit. Cette
+                  voyelle  est nécessairement  courte.  Avec  =[l0]= et  =[n0]=,
+                  =[@]= fait  partie des seules  voyelles à ne pas  pouvoir être
+                  utilisées dans une diphtongue.
+   - =[i:]= (i) :: il s’agit exactement du  même « i » qu’en Français, cependant
+                   nécessairement long.
+   - =[I]= (í)  :: il  s’agit de  la même voyelle  que dans  le mot  « this » en
+                  Anglais : un « i » plus ouvert  que le =[i]=. Il est également
+                  nécessairement court.
+   - =[e:]=  (e) ::  il s’agit  du « é »  standard Français,  comme dans  le mot
+                   « été », cependant nécessairement long.
+   - =[E]=  (e) ::  il s’agit  du  « è » standard  Français, comme  dans le  mot
+                  « laid », cependant nécessairement court.
+   - =[o:]= (o) :: il s’agit du « o » fermé standard Français, comme dans le mot
+                   « eau », cependant nécessairement long.
+   - =[O]= (o) :: il s’agit du « o » ouvert standard Français, comme dans le mot
+                  « tonne », cependant nécessairement court.
+   - =[y:]=  (y) ::  il s’agit  du « u »  standard Français,  comme dans  le mot
+                   « lune », cependant nécessairement long.
+   - =[Y]= (ý)  :: il  s’agit d’un  =[y]= ouvert  tel qu’on  peut le  trouver en
+                  Allemand, cependant nécessairement court.
+   - =[u:]= (u)  :: il  s’agit du  « ou » standard Français,  comme dans  le mot
+                   « boule », cependant nécessairement long.
+   - =[U]= (ú) :: il s’agit du « ou » ouvert que l’on peut par exemple retrouver
+                  dans   des  mots   Anglais   tels   que  « boot »,   cependant
+                  nécessairement court.
+   - =[n0]= (ń) :: il s’agit de la  consonne =[n]= utilisée en tant que voyelle.
+                   Avec =[@]= et =[l0]=, =[n0]=  fait partie des seules voyelles
+                   à ne pas pouvoir être utilisées dans une diphtongue.
+   - =[l0]= (ļ) :: il s’agit de la  consonne =[l]= utilisée en tant que voyelle.
+                   Avec =[@]= et =[n0]=, =[l0]=  fait partie des seules voyelles
+                   à ne pas pouvoir être utilisées dans une diphtongue.
 
-On remarque qu’à l’exception de =[@]=, =[n0]= et =[l0]=, chaque voyelle est présente avec deux équivalents : sa version longue et fermée, ou bien courte et ouverte. Le seul cas où une voyelle fermée n’est pas longue est le cas où elle est utilisée dans une diphtongue, tel que =[ai]=. À moins qu’elles soient explicitement dans une diphtongue, les voyelles longues sont toujours des voyelles longues pures et non des diphtongues et ne se terminent pas avec un son similaire à =[j]= ou =[w]=, comme les anglophones pourraient être tentés de le faire ; la voyelle « /e/ » ne se prononcera donc jamais =[e:j]= ou =[ej]=, sauf s’il est explicitement suivit par une consonne =[j]=.
+   On remarque qu’à  l’exception de =[@]=, =[n0]= et =[l0]=,  chaque voyelle est
+   présente avec deux équivalents : sa  version longue et fermée, ou bien courte
+   et ouverte. Le seul cas où une voyelle  fermée n’est pas longue est le cas où
+   elle  est utilisée  dans une  diphtongue, tel  que =[ai]=.  À moins  qu’elles
+   soient explicitement dans une diphtongue,  les voyelles longues sont toujours
+   des voyelles longues pures et non des diphtongues et ne se terminent pas avec
+   un son  similaire à  =[j]= ou  =[w]=, comme  les anglophones  pourraient être
+   tentés de le faire ; la voyelle «  /e/ » ne se prononcera donc jamais =[e:j]=
+   ou =[ej]=, sauf s’il est explicitement suivit par une consonne =[j]=.
 
 ** Accentuation
 
-Du fait de sa nature agglutinante, le Hjalpi’ pose l’accentuation du mot sur la racine du mot et jamais sur les éléments agglutinés autour de la racine.
+   Du fait de sa nature agglutinante,  le Hjalpi’ pose l’accentuation du mot sur
+   la racine du mot et jamais sur les éléments agglutinés autour de la racine.
 
-L’intonation dans les phrases affirmatives est généralement descendante et remonte pour les accentuations sur les mots et remonte significativement (en général à la hauteur d’origine) lorsque l’on rencontre un sujet ou un verbe. Considéré individuellement, l’accentuation d’un mot se fait sur la première voyelle racine du mot. Ainsi, le mot non modifié /pńtwan/ (sept) aura son accent sur la voyelle /ń/, de même pour /ţéálnat/ (précision temporelle) qui sera accentué sur /éá/. Pour les noms propres cependant, l’accent porte sur l’ensemble des voyelles racines du nom en lui-même (c’est à dire les voyelles ne venant pas de déclinaisons). Par exemple, le prénom /Meréð/ décliné au comitatif (/avec Meréð/) devient /Meðeiréð/, se prononçant ["me:.Dei."rED] ; à l’accusatif, /Meréðvo/ (Meréð étant l’objet direct d’un verbe transitif) se prononcera ["me:."rE.vO] (le /ð/ s’est ellipsé en faveur du /v/, voir le sous-chapitre Assimilation]) ; au génitif, /ţuMeréð/ se prononcera [t`u."me:."rED].
+   L’intonation dans  les phrases  affirmatives est généralement  descendante et
+   remonte pour les accentuations sur  les mots et remonte significativement (en
+   général à la hauteur d’origine) lorsque  l’on rencontre un sujet ou un verbe.
+   Considéré individuellement, l’accentuation  d’un mot se fait  sur la première
+   voyelle racine  du mot. Ainsi,  le mot non  modifié /pńtwan/ (sept)  aura son
+   accent sur la voyelle /ń/, de  même pour /ţéálnat/ (précision temporelle) qui
+   sera accentué sur  /éá/. Pour les noms propres cependant,  l’accent porte sur
+   l’ensemble des voyelles racines du nom en lui-même (c’est à dire les voyelles
+   ne venant  pas de déclinaisons).  Par exemple,  le prénom /Meréð/  décliné au
+   comitatif (/avec Meréð/) devient  /Meðeiréð/, se prononçant ["me:.Dei."rED] ;
+   à l’accusatif, /Meréðvo/ (Meréð étant l’objet direct d’un verbe transitif) se
+   prononcera ["me:."rE.vO]  (le /ð/  s’est ellipsé  en faveur  du /v/,  voir le
+   sous-chapitre   Assimilation]) ;   au   génitif,  /ţuMeréð/   se   prononcera
+   [t`u."me:."rED].
 
-Pour ce qui est des phrases interrogatives et exclamatives, les deux dernières voyelles sont allongées (même dans le cas d’une voyelle ouverte), et dans le cas de l’exclamative on reste sur la même hauteur pour cette dernière voyelle, et dans le cas de l’interrogative la hauteur de la voyelle baisse puis remonte. Dans les phrases négatives, le ton de la phrase monte jusqu’à la négation où le ton redescend à nouveau.
+   Pour  ce  qui  est  des  phrases interrogatives  et  exclamatives,  les  deux
+   dernières voyelles sont  allongées (même dans le cas  d’une voyelle ouverte),
+   et dans  le cas  de l’exclamative  on reste  sur la  même hauteur  pour cette
+   dernière voyelle, et dans le cas  de l’interrogative la hauteur de la voyelle
+   baisse puis  remonte. Dans les phrases  négatives, le ton de  la phrase monte
+   jusqu’à la négation où le ton redescend à nouveau.
 
 ** Phonotactiques
 
-Lorsqu’un mot (hormis les verbes) se termine avec une voyelle et que le mot suivant (hormis les verbes) débute avec une consonne ou inversement, cette dernière aura tendance à s’allonger afin de créer une liaison entre les mots. Exemples :
-- éló tráhin (trans.) \rightarrow élontráhin (rom.)
-Rmq. : Ici, le /h/ de /tráhin/ est prononcé comme un =[h\]= et non comme un =[h]= du fait des deux voyelles l’entourant, comme indiqué plus haut.
-- ðro lwéín (trans.) \rightarrow ðrollwéín (rom.)
-- télýßí halmár (trans.) \rightarrow télýßíhhalmár (rom.)
-- tiryð astret (trans) \rightarrow tiryððastret
+   Lorsqu’un mot (hormis les  verbes) se termine avec une voyelle  et que le mot
+   suivant (hormis  les verbes) débute  avec une consonne ou  inversement, cette
+   dernière aura tendance à s’allonger afin de créer une liaison entre les mots.
+   Exemples :
+   - éló tráhin (trans.) \rightarrow élontráhin (rom.)
+   Rmq. : Ici, le  /h/ de /tráhin/ est prononcé comme un =[h\]=  et non comme un
+   =[h]= du fait des deux voyelles l’entourant, comme indiqué plus haut.
+   - ðro lwéín (trans.) \rightarrow ðrollwéín (rom.)
+   - télýßí halmár (trans.) \rightarrow télýßíhhalmár (rom.)
+   - tiryð astret (trans) \rightarrow tiryððastret
 
-Lorsqu’un mot se termine avec une voyelle et que le mot suivant commence également avec une voyelle, afin d’éviter toute confusion avec une diphtongue (voir le sous-chapitre Les diphtongues]), une consonne « ’ » =[?]= est ajoutée à l’oral afin de séparer les deux mots. Le ton de la première syllabe du second mot sera alors clairement montant, afin de différencier également avec deux voyelles au sein d’un même mot également séparées par la consonne « ’ ».
+   Lorsqu’un mot  se termine  avec une  voyelle et que  le mot  suivant commence
+   également avec une voyelle, afin d’éviter toute confusion avec une diphtongue
+   (voir  le  sous-chapitre Les  diphtongues]),  une  consonne « ’ »  =[?]=  est
+   ajoutée à l’oral afin de séparer les deux mots. Le ton de la première syllabe
+   du second mot  sera alors clairement montant, afin  de différencier également
+   avec deux voyelles  au sein d’un même mot également  séparées par la consonne
+   « ’ ».
 
 * Morphologie
 * Morphologie dérivationnelle
@@ -89,68 +221,68 @@ Lorsqu’un mot se termine avec une voyelle et que le mot suivant commence égal
 * Annexes
 ** Consonnes
 
-| / | <>              | <>              | <>      |
-|---+-----------------+-----------------+---------|
-|   | latin majuscule | latin minuscule | X-SAMPA |
-|---+-----------------+-----------------+---------|
-|   | J               | j               | =[j]=   |
-|   | W               | w               | =[w]=   |
-|   | R               | r               | =[r]=   |
-|   | Ł               | ł               | =[K]=   |
-|   | L               | l               | =[l]=   |
-|   | M               | m               | =[m]=   |
-|   | N               | n               | =[n]=   |
-|   | Ň               | ň               | =[N]=   |
-|   | V               | v               | =[v]=   |
-|   | Ð               | ð               | =[D]=   |
-|   | Z               | z               | =[z]=   |
-|   | Ź               | ź               | =[Z]=   |
-|   | Ž               | ž               | =[j\]=  |
-|   | F               | f               | =[f]=   |
-|   | Þ               | þ               | =[T]=   |
-|   | S               | s               | =[s]=   |
-|   | ß               | ß               | =[S]=   |
-|   | Š               | š               | =[C]=   |
-|   | X               | x               | =[x]=   |
-|   | Ŗ               | ŗ               | =[R]=   |
-|   | H               | h               | =[h]=   |
-|   | Ŕ               | ŕ               | =[r\]=  |
-|   | B               | b               | =[b]=   |
-|   | D               | d               | =[d]=   |
-|   | Ď               | ď               | =[d`]=  |
-|   | G               | g               | =[g]=   |
-|   | P               | p               | =[p]=   |
-|   | T               | t               | =[t]=   |
-|   | Ţ               | ţ               | =[t`]=  |
-|   | K               | k               | =[k]=   |
-|   | '               | '               | =[?]=   |
-|---+-----------------+-----------------+---------|
+   | / | <>              | <>              | <>      |
+   |---+-----------------+-----------------+---------|
+   |   | latin majuscule | latin minuscule | X-SAMPA |
+   |---+-----------------+-----------------+---------|
+   |   | J               | j               | =[j]=   |
+   |   | W               | w               | =[w]=   |
+   |   | R               | r               | =[r]=   |
+   |   | Ł               | ł               | =[K]=   |
+   |   | L               | l               | =[l]=   |
+   |   | M               | m               | =[m]=   |
+   |   | N               | n               | =[n]=   |
+   |   | Ň               | ň               | =[N]=   |
+   |   | V               | v               | =[v]=   |
+   |   | Ð               | ð               | =[D]=   |
+   |   | Z               | z               | =[z]=   |
+   |   | Ź               | ź               | =[Z]=   |
+   |   | Ž               | ž               | =[j\]=  |
+   |   | F               | f               | =[f]=   |
+   |   | Þ               | þ               | =[T]=   |
+   |   | S               | s               | =[s]=   |
+   |   | ß               | ß               | =[S]=   |
+   |   | Š               | š               | =[C]=   |
+   |   | X               | x               | =[x]=   |
+   |   | Ŗ               | ŗ               | =[R]=   |
+   |   | H               | h               | =[h]=   |
+   |   | Ŕ               | ŕ               | =[r\]=  |
+   |   | B               | b               | =[b]=   |
+   |   | D               | d               | =[d]=   |
+   |   | Ď               | ď               | =[d`]=  |
+   |   | G               | g               | =[g]=   |
+   |   | P               | p               | =[p]=   |
+   |   | T               | t               | =[t]=   |
+   |   | Ţ               | ţ               | =[t`]=  |
+   |   | K               | k               | =[k]=   |
+   |   | '               | '               | =[?]=   |
+   |---+-----------------+-----------------+---------|
 
 ** Voyelles
 
-| / | <>              | <>              | <>      |
-|---+-----------------+-----------------+---------|
-|   | latin majuscule | latin minuscule | X-SAMPA |
-|---+-----------------+-----------------+---------|
-|   | A               | a               | =[a:]=  |
-|   | Á               | á               | =[A]=   |
-|   | Ë               | ë               | =[2:]=  |
-|   | Ê               | ê               | =[9]=   |
-|   | Ě               | ě               | =[@]=   |
-|   | Ö               | ö               | =[@`]=  |
-|   | I               | i               | =[i:]=  |
-|   | Í               | í               | =[I]=   |
-|   | E               | e               | =[e:]=  |
-|   | É               | é               | =[E]=   |
-|   | O               | o               | =[o:]=  |
-|   | Ó               | ó               | =[O]=   |
-|   | Y               | y               | =[y:]=  |
-|   | Ý               | ý               | =[Y]=   |
-|   | U               | u               | =[u:]=  |
-|   | Ú               | ú               | =[U]=   |
-|   | Ń               | ń               | =[n0]=  |
-|   | Ļ               | ļ               | =[l0]=  |
-|---+-----------------+-----------------+---------|
+   | / | <>              | <>              | <>      |
+   |---+-----------------+-----------------+---------|
+   |   | latin majuscule | latin minuscule | X-SAMPA |
+   |---+-----------------+-----------------+---------|
+   |   | A               | a               | =[a:]=  |
+   |   | Á               | á               | =[A]=   |
+   |   | Ë               | ë               | =[2:]=  |
+   |   | Ê               | ê               | =[9]=   |
+   |   | Ě               | ě               | =[@]=   |
+   |   | Ö               | ö               | =[@`]=  |
+   |   | I               | i               | =[i:]=  |
+   |   | Í               | í               | =[I]=   |
+   |   | E               | e               | =[e:]=  |
+   |   | É               | é               | =[E]=   |
+   |   | O               | o               | =[o:]=  |
+   |   | Ó               | ó               | =[O]=   |
+   |   | Y               | y               | =[y:]=  |
+   |   | Ý               | ý               | =[Y]=   |
+   |   | U               | u               | =[u:]=  |
+   |   | Ú               | ú               | =[U]=   |
+   |   | Ń               | ń               | =[n0]=  |
+   |   | Ļ               | ļ               | =[l0]=  |
+   |---+-----------------+-----------------+---------|
 
 ** Lexique
 

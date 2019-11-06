@@ -2113,9 +2113,9 @@
   :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
   :END:
 
-[fn:2] [[https://phundrak.fr]]
+[fn:2] [[https://phundrak.com]]
 
-[fn:1] [[https://langue.phundrak.fr]]
+[fn:1] [[https://langue.phundrak.com]]
 
 #  LocalWords:  non-orale Ingólfr Arnarson Ásmundr Ingólfrson Áleifr Steingrímr
 #  LocalWords:  Ásmundrson Áleifrbróðir Hallþórr Eyvindr
