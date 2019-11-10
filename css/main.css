@@ -29,6 +29,12 @@
     src: url("../fonts/NotoSansRunic-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Helvetica Neue";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeue.ttf");
+}
+
 body {
     font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
     font-weight: normal;
