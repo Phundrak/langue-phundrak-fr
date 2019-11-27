@@ -43,16 +43,16 @@ function create_theme_switcher() {
     $('body').append('<div class="themeBtn"><i class="fas fa-'
         .concat(light ? 'moon' : 'sun').concat('"></i></div>'));
     // set the correct css file in the HTML head
-    $('head').append('<link id="theme" rel="stylesheet" href="https://langue.phundrak.fr/css/'
-        .concat(light ? 'light' : 'dark').concat('.css">'));
+    $('head').append('<link id="theme" rel="stylesheet" href="https://langue.phundrak.com/css/'
+                     .concat(light ? 'light' : 'dark').concat('.css">'));
 
     // switch CSS files and button icon, set new cookie on theme switcher click
     $('.themeBtn').click(function() {
         var light = !isThemeLight();
         // Switch the CSS between light and dark
-        $("#theme").first().attr('href', 'https://langue.phundrak.fr/css/'
-            .concat(light ? 'light' : 'dark')
-            .concat('.css'));
+        $("#theme").first().attr('href', 'https://langue.phundrak.com/css/'
+                                 .concat(light ? 'light' : 'dark')
+                                 .concat('.css'));
         // Switch the icon in the theme switcher button
         $('.themeBtn').html('<i class="fas fa-'
             .concat(light ? 'moon' : 'sun')
