@@ -1,6 +1,6 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Une Grammaire de l’Eittlandais
-#+include: headers/head-lvl0.org
+#+INCLUDE: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
@@ -243,7 +243,6 @@
      :PROPERTIES:
      :CUSTOM_ID: h-fb57732b-a2d7-4350-a12c-c9a480fc0a27
      :END:
-
      Eittlande  est une  île  qui fut  découverte en  863  par des  explorateurs
      scandinaves,  très probablement  norvégiens, lors  des grandes  expéditions
      vikings. La première colonie norvégienne s’installa sur l’île en 882 sur sa
@@ -274,7 +273,6 @@
      :PROPERTIES:
      :CUSTOM_ID: h-810692fb-4f6b-4336-acf0-675191c69a33
      :END:
-
      L’Eittlande  pris  au  cours  de  son  histoire  un  positionnement  neutre
      concernant  les affaires  militaires dans  le monde.  De ce  fait, le  pays
      n’entra pas officiellement  en guerre lors de la  première Guerre Mondiale.
@@ -298,7 +296,6 @@
      :PROPERTIES:
      :CUSTOM_ID: h-314b9e9a-2b2c-41fd-8e58-7cbf61a7d099
      :END:
-
      Durant la seconde  Guerre Mondiale, Eittlande réaffirma  sa position neutre
      face  au conflit.  En  Janvier  1940, le  Royaume  Uni  envoya une  requête
      officielle afin  qu’Eittlande rentre dans  le conflit aux côtés  des Alliés
@@ -328,7 +325,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-11e1aecd-4abd-4dd5-a07a-0998e6572b09
     :END:
-
     Du  fait  d’une population  croissante  et  d’un besoin  d’une  organisation
     locale, une constitution  et un gouvernement furent créés  en Eittlande sous
     l’impulsion de la couronne norvégienne, choisissant comme roi d’Eittlande le
@@ -715,7 +711,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-c44d50b3-b107-44fb-8b12-c2fbbd159f31
     :END:
-
     En plus des  dix voyelles pures présentées  ci-dessus, l’Eittlandais dispose
     de quelques voyelles composées de deux voyelles pures : les diphtongues. Ces
     voyelles  se distinguent  par une  évolution de  leur prononciation  dans le

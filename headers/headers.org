@@ -13,14 +13,14 @@
 
 #+LATEX_CLASS: conlang
 #+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
-#+LATEX_HEADER_EXTRA: \usepackage{tocloft} \setlength{\cftchapnumwidth}{3em}
-#+LATEX_HEADER_EXTRA: \usepackage{xltxtra,fontspec,xunicode,svg}
+#+LATEX_HEADER_EXTRA: \usepackage{xltxtra}
 #+LATEX_HEADER_EXTRA: \usepackage[total={17cm,24cm}]{geometry}
-#+LATEX_HEADER_EXTRA: \setromanfont{Charis SIL}
+# #+LATEX_HEADER_EXTRA: \setromanfont{Charis SIL}
+#+LATEX_HEADER_EXTRA: \setmainfont{Charis SIL}
 #+LATEX_HEADER_EXTRA: \usepackage{xcolor}
 #+LATEX_HEADER_EXTRA: \usepackage{hyperref}
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-#+LATEX_HEADER_EXTRA: \usepackage{multicol}
+# #+LATEX_HEADER_EXTRA: \usepackage{multicol}
 #+LATEX_HEADER_EXTRA: \usepackage{indentfirst}
 #+LATEX_HEADER_EXTRA: \sloppy
 
