@@ -1,0 +1,68 @@
+/*
+  Copyright (C) 2019-2020  Lucien Cartier-Tilet
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as
+  published by the Free Software Foundation, either version 3 of the
+  License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #1e5b50;
+
+    .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+
+        /* position the tooltip text */
+        position: absolute;
+        z-index: 1;
+        bottom: 125;
+        left: 50%;
+        margin-left: -60%;
+
+        /* Fade in tooltip */
+        opacity: 0;
+        transition: opacity 0.3s;
+
+    }
+
+    .tooltiptext::after {
+        content: "";
+        top: 100%;
+        margin-left: -5%;
+        border-width: 5px;
+        border-style: solid;
+        transition: opacity 0.2s;
+    }
+}
+
+.tooltip:hover {
+    .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.tooltiptext {
+    padding: 7px !important;
+}
+
+.largetable {
+    $tablepadding: 40px;
+    padding-top: $tablepadding !important;
+    padding-bottom: $tablepadding !important;
+}

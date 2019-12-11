@@ -46,6 +46,7 @@ body {
 
 #postamble {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #content {
@@ -65,37 +66,89 @@ hr {
     border-width: 1px;
 }
 
-.outline-2,
-.outline-3,
-.outline-4,
-.outline-5,
-.outline-6,
-.outline-text-2,
-.outline-text-3,
-.outline-text-4,
-.outline-text-5,
-.outline-text-6 {
+.outline-2 {
     margin: 0 2px;
     padding: 0 10px;
 }
 
-.outline-text-2,
-.outline-text-3,
-.outline-text-4,
-.outline-text-5,
-.outline-text-6,
-#postamble {
+.outline-text-2 {
+    @extend .outline-2;
     margin-bottom: 20px;
 }
 
+.outline-4 {
+    @extend .outline-2;
+}
+
+.outline-text-4 {
+    @extend .outline-text-2;
+}
+
+.outline-5 {
+    @extend .outline-2;
+}
+
+.outline-text-5 {
+    @extend .outline-text-2;
+}
+
+.outline-6 {
+    @extend .outline-2;
+}
+
+.outline-text-6 {
+    @extend .outline-text-2;
+}
+
+h1 {
+    @extend legend;
+    font-size: 4em;
+    box-shadow: inset 0 -50px 0 #1abc9c;
+}
+
+h2 {
+    @extend legend;
+    font-size: 150%;
+    box-shadow: inset 0 -20px 0 #16a085;
+}
+
+h3 {
+    @extend legend;
+    font-size: 125%;
+    box-shadow: inset 0 -16px 0 #27ae60;
+}
+
+h4 {
+    @extend legend;
+    font-size: 115%;
+    box-shadow: inset 0 -15px 0 #e67e22;
+}
+
+h5 {
+    @extend legend;
+    font-size: 110%;
+    box-shadow: inset 0 -14px 0 #9b59b6;
+}
+
+h4,
+h5 {
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+$linkColor: #9b59b6;
+
 a {
     text-decoration: none;
-    box-shadow: inset 0 -3px 0 #9b59b6;
+    box-shadow: inset 0 -3px 0 $linkColor;
     transition: all .3s ease-out;
 }
 
 a:hover {
-    box-shadow: inset 0 -21px 0 #9b59b6;
+    box-shadow: inset 0 -21px 0 $linkColor;
     transition: all .3s ease-in;
 }
 
@@ -104,22 +157,32 @@ a[href^="img/"]:hover {
     box-shadow: 0 0;
 }
 
-.figure p {
-    margin: 0 0;
+.figure {
+    display: block;
+    overflow-x: auto;
+
+    p {
+        margin: 0 0;
+    }
 }
 
-.largetable,
-.figure {
+.largetable {
     display: block;
     overflow-x: auto;
 }
 
-img,
-table {
+img {
     margin: auto;
 }
 
+legend {
+    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+    font-weight: 700;
+    display: inline-block;
+}
+
 table {
+    margin: auto;
     border-collapse: collapse;
 }
 
@@ -133,53 +196,8 @@ td {
     text-align: right;
 }
 
-p {
-    text-align: justify;
-}
-
 pre {
     box-shadow: 3px 3px 3px rgba(1, 1, 1, .6);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-legend {
-    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
-    font-weight: 700;
-    display: inline-block;
-}
-
-h1 {
-    font-size: 4em;
-    box-shadow: inset 0 -50px 0 #1abc9c;
-}
-
-h2 {
-    font-size: 150%;
-    box-shadow: inset 0 -20px 0 #16a085;
-}
-
-h3 {
-    font-size: 125%;
-    box-shadow: inset 0 -16px 0 #27ae60;
-}
-
-h4 {
-    font-size: 115%;
-    box-shadow: inset 0 -15px 0 #e67e22;
-}
-
-h5 {
-    font-size: 110%;
-    box-shadow: inset 0 -14px 0 #9b59b6;
-}
-
-h4,
-h5 {
-    font-weight: 300;
 }
 
 /* scrollbar *****************************************************************/
@@ -215,8 +233,8 @@ h5 {
     text-align: center;
     box-shadow: 3px 3px 6px rgba(1, 1, 1, .6);
     cursor: pointer;
-}
 
-.themeBtn .fas {
-    font-size: 30px;
+    .fas {
+        font-size: 30px;
+    }
 }

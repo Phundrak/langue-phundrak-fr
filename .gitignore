@@ -14,3 +14,9 @@ _minted*
 /js/.tern-port
 *.pdf_tex
 *.lot
+/css/.sass-cache/
+*.map
+/css/light.css
+/css/main.css
+/css/dark.css
+/css/nyqy.css

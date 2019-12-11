@@ -15,33 +15,60 @@
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-html,
-#content,
-#postamble {
-    background-color: #eee;
+$bg:         #2c3e50;
+$darkerbg:   #34495e;
+$textcolor:  #ecf0f1;
+
+html {
+    background-color: $darkerbg;
 }
 
-body,
-.title,
-.themeBtn,
-a {
-    color: #444;
+thead {
+    tr {
+        @extend html;
+    }
 }
 
-th,
-td {
-    border: 1px solid #444;
-}
-
-table {
-    border: 2px solid #444;
-}
-
-thead tr,
 .tooltiptext {
-    background-color: #ddd;
+    @extend html;
 }
 
 .tooltiptext::after {
-    border-color: #ddd transparent transparent transparent;
+    border-color: $darkerbg transparent transparent transparent;
+}
+
+body {
+    color: $textcolor;
+}
+
+.title {
+    @extend body;
+}
+
+a {
+    @extend body;
+}
+
+th {
+    border: 1px solid $bg;
+}
+
+td {
+    @extend th;
+}
+
+pre {
+    @extend th;
+}
+
+table {
+    border: 2px solid $bg;
+}
+
+#content {
+    background-color: $bg;
+}
+
+#postamble{
+    background-color: $bg;
 }
