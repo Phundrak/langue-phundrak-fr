@@ -1,8 +1,8 @@
-#+include: ../headers/head-lvl1.org
 #+TITLE: Grammaire du Łijökken
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue draconienne du Łijökken" />
 #+HTML_HEAD: <meta property="og:title" content="Ressources grammaticales du Łijökken" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue draconienne du Łijökken" />
+#+INCLUDE: ../headers/headers.org
 
 * Introduction
   Le Łijökken  est une langue  draconienne, parlée principalement par  les races

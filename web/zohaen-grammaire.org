@@ -1,8 +1,8 @@
-#+include: headers/head-lvl0.org
 #+TITLE: Grammaire du Zöhæň
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue draconienne du Zöhæň" />
 #+HTML_HEAD: <meta property="og:title" content="Ressources grammaticales du Zöhæň" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue draconienne du Zöhæň" />
+#+INCLUDE: headers/headers.org
 
 * Introduction
   Le Zöhæň est une langue draconienne, parlée principalement par les wyvernes et

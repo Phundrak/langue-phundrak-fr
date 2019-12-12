@@ -1,8 +1,8 @@
 #+TITLE: Une Grammaire du Mattér
-#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Mattér" />
+#+INCLUDE: headers/headers.org
 
 * Avant-propos
   :PROPERTIES:

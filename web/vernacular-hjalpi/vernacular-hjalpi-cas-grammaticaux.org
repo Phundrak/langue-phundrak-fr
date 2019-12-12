@@ -1,5 +1,5 @@
-#+include: ../headers/head-lvl1.org
 #+TITLE: Cas grammaticaux du Hjalpi’ Vernaculaire
+#+INCLUDE: ../headers/headers.org
 
 Le  Hjalpi’  verniculaire   (je  m’y  référerai  plus   tard  comme  « Hjalpi’ »
 uniquement) est une  langue ergative (le sujet du verbe  intransitif et du verbe

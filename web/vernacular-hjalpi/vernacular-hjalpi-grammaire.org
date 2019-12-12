@@ -1,4 +1,4 @@
-#+include: ../headers/head-lvl1.org
+#+INCLUDE: ../headers/headers.org
 #+TITLE: Grammaire du Hjalpi’ vernaculaire
 
 * Abréviations

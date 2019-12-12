@@ -1,8 +1,8 @@
 #+TITLE: Grammaire du Hjalpi’
-#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjalpi’" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjalpi’" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjalpi’" />
+#+INCLUDE: headers/headers.org
 
 * Introduction
   Le Hjalpi’ est la langue parlée par  les dieux dans l’univers de mon roman. La

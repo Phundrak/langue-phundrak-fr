@@ -1,8 +1,8 @@
 #+TITLE: Une Grammaire du Hjelp
-#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
+#+INCLUDE: headers/headers.org
 
 # idées: https://twitter.com/Phundrak/status/1079046235011584001
 

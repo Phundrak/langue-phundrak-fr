@@ -1,5 +1,5 @@
-#+include: headers/head-lvl0.org
 #+TITLE: Ressources grammaticales du Hjalpi’ Vernaculaire
+#+INCLUDE: headers/headers.org
 src_latex{\newpage}
 
 [[file:vernacular-hjalpi/vernacular-hjalpi-grammaire.org][Grammaire]] ([[file:vernacular-hjalpi/vernacular-hjalpi-grammaire.pdf][pdf]])

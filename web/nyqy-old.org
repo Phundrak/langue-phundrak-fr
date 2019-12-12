@@ -1,9 +1,9 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Une Grammaire du Ňyqy
-#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Ňyqy" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Ňyqy" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Ňyqy" />
+#+INCLUDE: headers/headers.org
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup
 #+BEGIN_SRC text :exports none

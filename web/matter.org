@@ -1,10 +1,10 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Une Grammaire du Mattér
-#+include: headers/head-lvl0.org
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Mattér" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
 #+LATEX_HEADER: \usepackage{allrunes}
+#+INCLUDE: headers/headers.org
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/matter-org-export-runes "$1"))
 #+OPTIONS: auto-id:t
