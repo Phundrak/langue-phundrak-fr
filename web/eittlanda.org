@@ -317,9 +317,36 @@
      l’Islande fut transférée du Royaume Uni aux États Unis d’Amérique le 17 Mai
      1940,  un  contingent  éittlandais  resta  sur  place  afin  d’assurer  une
      protection du pays  par un autre pays nordique. Lors  de l’entrée en guerre
-     des États Unis, l’Eittlande les invitère à installer une base militaire sur
+     des États Unis,  l’Eittlande les invita à installer une  base militaire sur
      leur île comme base arrière afin  d’établir une liaison avec le Royaume Uni
      et l’Europe au travers de l’Atlantique.
+
+     L’Éittlande retira ses troupes d’Islande peu  de temps après le retrais des
+     troupes  étasuniennes  durant  1946,  date à  laquelle  la  base  militaire
+     étasunienne  sur   le  sol   Éittlandais  fut   restituée  à   la  couronne
+     Éittlandaise.  Quelques  régiments  restèrent  tout  de  même  sur  le  sol
+     Islandais tandis qu’un régiment Islandais s’établit sur le sol Éittlandais,
+     marquant la formalisation d’une alliance  militaire et économique entre ces
+     deux pays.
+
+     Éittlande  rejoint l’OTAN  le  4 Mai  1949  suite à  un  référendum créé  à
+     l’initiative du roi Ulfor II Ulforsson.
+
+**** Guerres de la Morue
+     :PROPERTIES:
+     :CUSTOM_ID: h-e0d78230-f1e1-4a53-9b14-53da9b9b4c47
+     :END:
+     Durant les  années 70,  Éittlande participa  aux Guerres  de la  Morue avec
+     l’Islande  face au  Royaume  Unis,  qui furent  les  seuls  à supporter  la
+     décision islandaise  d’expansion de  leurs eaux  territoriales. Lors  de la
+     seconde Guerre de  la Morue, Eittlande en profita  pour également augmenter
+     la superficie de ses eaux territoriales, les deux pays dépendant grandement
+     de l’activité  de la pêche. La  troisième Guerre de la  Morue vit cependant
+     une rivalerie entre Eittlande et  l’Islande malgré leur alliance officielle
+     dû à  des zone  maritimes réclamées  par les deux  pays. Il  fût finalement
+     décidé lors de la  fin de la guerre que la zone réclamée  par les deux pays
+     couvrant  les 200  miles nautiques  auraient un  statut de  zone économique
+     exclusive aux deux pays.
 
 *** Situation politique
     :PROPERTIES:
@@ -328,12 +355,12 @@
     Du  fait  d’une population  croissante  et  d’un besoin  d’une  organisation
     locale, une constitution  et un gouvernement furent créés  en Eittlande sous
     l’impulsion de la couronne norvégienne, choisissant comme roi d’Eittlande le
-    jarl  de Ðeberget  Ásmundr  Ingólfrson, l’un  des  fils d’Ingólfr  Arnarson.
-    Ásmundr I fut  ainsi premier souverain d’Eittlande et vassal  de la couronne
+    jarl  de Ðeberget  Ásmundor  Ingólfrson, l’un  des  fils d’Ingólfr  Arnarson.
+    Ásmundor I fut  ainsi premier souverain d’Eittlande et vassal  de la couronne
     de Norvège.  Une monarchie s’installa  donc à  la tête d’un  système féodal.
     L’Eittlande  étant un  territoire divisé  en deux  par la  chaîne de  volcan
     traversant l’île, un co-roi fut nommé pour régner au nom du souverain sur la
-    partie orientale  de l’île  lorsque Áleifr  I, fils  d’Ásmundr I,  accéda au
+    partie orientale  de l’île  lorsque Áleifor  I, fils  d’Ásmundor I,  accéda au
     trône. Depuis, il  est de tradition que  le roi éittlandais nomme  un de ses
     frères ou  un de  ses fils  co-souverain de l’île,  ce dernier  le succédant
     souvent s’il s’agissait du fils du souverain ou du frère d’un souverain sans
@@ -389,47 +416,60 @@
     #+NAME: Eittland-kings:1
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Liste des rois Eittlandais de 915 à 1392
-    | <4>                           |       <4> |  <4> | <4> |       <4> | <4>                            |       <4> |  <4> | <4> |       <4> |
-    | roi                           | naissance | mort | âge |     règne | co-roi                         | naissance | mort | âge |     règne |
-    |-------------------------------+-----------+------+-----+-----------+--------------------------------+-----------+------+-----+-----------|
-    | Ásmundr I, Ingólfrson         |       876 |  932 |  56 |   915-935 | -                              |           |      |     |           |
-    | Áleifr I, Ásmundrson          |       879 |  950 |  71 |   935-950 | Steingrímr I, Áleifrbróðir     |       879 |  959 |  80 |   936-951 |
-    | Áleifr II, Áleifrson          |       915 |  971 |  56 |   950-971 | Eyvindr I, Áleifrbróðir        |       918 |  981 |  63 |   951-972 |
-    | Áleifr III, Áleifrson         |       935 |  981 |  46 |   971-981 | Hallþórr I, Áleifrbróðir       |       936 | 1012 |  76 |   972-981 |
-    | Hallþórr I, Áleifrbróðir      |       936 | 1012 |  76 |  981-1012 | Eiríkr I, Áleifrbróðir         |       938 |  987 |  49 |   982-987 |
-    |                               |           |      |     |           | Hallþórr II, Hallþórrson       |       955 | 1020 |  65 |  937-1012 |
-    | Hallþórr II, Hallþórson       |       955 | 1020 |  65 | 1012-1020 | Ásmundr I, Hallþórrbróðir      |       956 | 1018 |  62 | 1012-1018 |
-    |                               |           |      |     |           | Hallþórr III, Hallþórrsonarson |       992 | 1058 |  66 | 1018-1020 |
-    | Hallþórr III, Hallþórsonarson |       992 | 1058 |  66 | 1020-1058 | Ragnheiðr I, Hallþórrson       |       976 | 1033 |  57 | 1021-1033 |
-    |                               |           |      |     |           | Hallþórr IV, Hallþórrson       |      1013 | 1065 |  52 | 1033-1058 |
-    | Hallþór IV, Hallþórson        |      1013 | 1065 |  52 | 1058-1065 | Áleifr IV, Hallþórbróðir       |      1015 | 1087 |  72 | 1059-1065 |
-    | Áleifr IV, Hallþórbróðir      |      1015 | 1087 |  72 | 1065-1087 | Eríkr II, Áleifrbróðir         |      1020 | 1101 |  81 | 1065-1087 |
-    | Eríkr II, Áleifrbróðir        |      1020 | 1101 |  81 | 1087-1101 | Eyvindr II, Áleifrbróðir       |      1027 | 1098 |  71 | 1088-1098 |
-    |                               |           |      |     |           | Eríkr III, Eríkrsonarson       |      1053 | 1103 |  50 | 1098-1101 |
-    | Eríkr III, Eríkrsonarson      |      1053 | 1103 |  50 | 1101-1103 | Niall I, Eríkrdóttir           |      1076 | 1158 |  82 | 1102-1103 |
-    | Niall I, Eríkrdóttir          |      1076 | 1158 |  82 | 1103-1158 | Eysteinn I, Niallson           |      1095 | 1127 |  32 | 1104-1127 |
-    |                               |           |      |     |           | Yngvarr I, Niallsonarson       |      1102 | 1175 |  73 | 1128-1158 |
-    | Yngvarr I, Niallson           |      1102 | 1175 |  73 | 1158-1175 | Eyvindr II, Yngvarrbróðir      |      1119 | 1176 |  57 | 1159-1175 |
-    | Yngvarr II, Yngvarrson        |      1137 | 1176 |  39 | 1175-1176 | Eyvindr II, Yngvarrbróðir      |      1119 | 1176 |  57 |      1176 |
-    |                               |           |      |     |           | Yngvarr III, Yngvarrson        |      1153 | 1202 |  49 |      1176 |
-    | Yngvarr III, Yngvarrson       |      1153 | 1202 |  49 | 1176-1202 | Heimir I, Yngvarrbróðir        |      1162 | 1223 |  61 | 1177-1202 |
-    | Heimir I, Yngvarrbróðir       |      1162 | 1223 |  61 | 1202-1223 | Ásmundr II, Heimirbróðir       |      1165 | 1218 |  53 | 1202-1218 |
-    |                               |           |      |     |           | Gunnhildr I, Ásmundrdóttir     |      1189 | 1252 |  63 | 1218-1223 |
-    | Gunnhildr I, Ásmundrdóttir    |      1189 | 1252 |  63 | 1223-1252 | Hallþórr V, Gunnhildrson       |      1205 | 1283 |  78 | 1223-1252 |
-    | Hallþórr V, Gunnhildrson      |      1205 | 1283 |  78 | 1252-1283 | Steingrímr II, Hallþórrbroðir  |      1209 | 1263 |  54 | 1252-1263 |
-    |                               |           |      |     |           | Steingrímr III, Steingrímrson  |      1233 | 1278 |  45 | 1263-1278 |
-    |                               |           |      |     |           | Eyvindr III, Steingrímrson     |      1235 | 1291 |  56 | 1278-1283 |
-    | Eyvindr III, Steingrímrson    |      1235 | 1291 |  56 | 1283-1291 | Ragnheiðr II, Eyvindrbróðir    |      1240 | 1296 |  56 | 1284-1291 |
-    | Eyvindr IV, Eyvindrson        |      1262 | 1318 |  56 | 1291-1318 | Ragnheiðr II, Eyvindrbróðir    |      1240 | 1296 |  56 | 1292-1296 |
-    |                               |           |      |     |           | Ragnheiðr III, Ragnheiðrson    |      1259 | 1308 |  49 | 1292-1308 |
-    |                               |           |      |     |           | Eyvindr V, Eyvindrson          |      1285 | 1346 |  61 | 1308-1318 |
-    | Eyvindr V, Eyvindrson         |      1285 | 1346 |  61 | 1318-1346 | Eríkr II, Eyvindrbróðir        |      1290 | 1349 |  59 | 1319-1346 |
-    | Eyvindr VI, Eyvindrson        |      1309 | 1354 |  45 | 1346-1354 | Eríkr III, Eyvindrbróðir       |      1315 | 1349 |  34 | 1346-1349 |
-    |                               |           |      |     |           | Eir I, Eyvindrsystir           |      1299 | 1360 |  61 | 1349-1354 |
-    | Eir I, Eyvindrsystir          |      1299 | 1360 |  61 | 1354-1360 | Biœrg I, Eirdóttir             |      1318 | 1374 |  56 | 1355-1360 |
-    | Biœrg I, Eirdóttir            |      1318 | 1374 |  56 | 1360-1374 | Ásgeirr I, Bjœrgson            |      1330 | 1392 |  62 | 1361-1374 |
-    | Ásgeirr I, Biœrgson           |      1330 | 1392 |  62 | 1374-1392 | Eiríkr IV, Ásgeirrbróðir       |      1333 | 1393 |  60 | 1375-1392 |
+    | <4>                           |       <4> |  <4> | <4> |       <4> | <4>                             |       <4> |  <4> | <4> |       <4> |
+    | roi                           | naissance | mort | âge |     règne | co-roi                          | naissance | mort | âge |     règne |
+    |-------------------------------+-----------+------+-----+-----------+---------------------------------+-----------+------+-----+-----------|
+    | Ásmundor I, Ingólfrson        |       876 |  932 |  56 |   915-935 | -                               |           |      |     |           |
+    | Áleifor I, Ásmundorson        |       879 |  950 |  71 |   935-950 | Steingrímor I, Áleiforbróðir    |       879 |  959 |  80 |   936-951 |
+    | Áleifor II, Áleiforson        |       915 |  971 |  56 |   950-971 | Eyvindor I, Áleiforbróðir       |       918 |  981 |  63 |   951-972 |
+    | Áleifor III, Áleiforson       |       935 |  981 |  46 |   971-981 | Hallþórr I, Áleiforbróðir       |       936 | 1012 |  76 |   972-981 |
+    | Hallþórr I, Áleiforbróðir     |       936 | 1012 |  76 |  981-1012 | Eiríkor I, Áleiforbróðir        |       938 |  987 |  49 |   982-987 |
+    |                               |           |      |     |           | Hallþórr II, Hallþórsson        |       955 | 1020 |  65 |  937-1012 |
+    | Hallþórr II, Hallþórson       |       955 | 1020 |  65 | 1012-1020 | Ásmundor I, Hallþórsbróðir      |       956 | 1018 |  62 | 1012-1018 |
+    |                               |           |      |     |           | Hallþórr III, Hallþórssonarson  |       992 | 1058 |  66 | 1018-1020 |
+    | Hallþórr III, Hallþórsonarson |       992 | 1058 |  66 | 1020-1058 | Ragnheiðr I, Hallþórsson        |       976 | 1033 |  57 | 1021-1033 |
+    |                               |           |      |     |           | Hallþórr IV, Hallþórsson        |      1013 | 1065 |  52 | 1033-1058 |
+    | Hallþór IV, Hallþórson        |      1013 | 1065 |  52 | 1058-1065 | Áleifor IV, Hallþórbróðir       |      1015 | 1087 |  72 | 1059-1065 |
+    | Áleifor IV, Hallþórbróðir     |      1015 | 1087 |  72 | 1065-1087 | Eríkor II, Áleiforbróðir        |      1020 | 1101 |  81 | 1065-1087 |
+    | Eríkor II, Áleiforbróðir      |      1020 | 1101 |  81 | 1087-1101 | Eyvindor II, Áleiforbróðir      |      1027 | 1098 |  71 | 1088-1098 |
+    |                               |           |      |     |           | Eríkor III, Eríkorsonarson      |      1053 | 1103 |  50 | 1098-1101 |
+    | Eríkor III, Eríkorsonarson    |      1053 | 1103 |  50 | 1101-1103 | Niall I, Eríkordóttir           |      1076 | 1158 |  82 | 1102-1103 |
+    | Niall I, Eríkordóttir         |      1076 | 1158 |  82 | 1103-1158 | Eysteinn I, Niallson            |      1095 | 1127 |  32 | 1104-1127 |
+    |                               |           |      |     |           | Yngvarr I, Niallsonarson        |      1102 | 1175 |  73 | 1128-1158 |
+    | Yngvarr I, Niallson           |      1102 | 1175 |  73 | 1158-1175 | Eyvindor II, Yngvarsbróðir      |      1119 | 1176 |  57 | 1159-1175 |
+    | Yngvarr II, Yngvarsson        |      1137 | 1176 |  39 | 1175-1176 | Eyvindor II, Yngvarsbróðir      |      1119 | 1176 |  57 |      1176 |
+    |                               |           |      |     |           | Yngvarr III, Yngvarsson         |      1153 | 1202 |  49 |      1176 |
+    | Yngvarr III, Yngvarsson       |      1153 | 1202 |  49 | 1176-1202 | Heimir I, Yngvarsbróðir         |      1162 | 1223 |  61 | 1177-1202 |
+    | Heimir I, Yngvarsbróðir       |      1162 | 1223 |  61 | 1202-1223 | Ásmundor II, Heimirbróðir       |      1165 | 1218 |  53 | 1202-1218 |
+    |                               |           |      |     |           | Gunnhildor I, Ásmundordóttir    |      1189 | 1252 |  63 | 1218-1223 |
+    | Gunnhildor I, Ásmundordóttir  |      1189 | 1252 |  63 | 1223-1252 | Hallþórr V, Gunnhildorson       |      1205 | 1283 |  78 | 1223-1252 |
+    | Hallþórr V, Gunnhildorson     |      1205 | 1283 |  78 | 1252-1283 | Steingrímor II, Hallþórsbroðir  |      1209 | 1263 |  54 | 1252-1263 |
+    |                               |           |      |     |           | Steingrímor III, Steingrímorson |      1233 | 1278 |  45 | 1263-1278 |
+    |                               |           |      |     |           | Eyvindor III, Steingrímorson    |      1235 | 1291 |  56 | 1278-1283 |
+    | Eyvindor III, Steingrímorson  |      1235 | 1291 |  56 | 1283-1291 | Ragnheiðr II, Eyvindorbróðir    |      1240 | 1296 |  56 | 1284-1291 |
+    | Eyvindor IV, Eyvindorson      |      1262 | 1318 |  56 | 1291-1318 | Ragnheiðr II, Eyvindorbróðir    |      1240 | 1296 |  56 | 1292-1296 |
+    |                               |           |      |     |           | Ragnheiðr III, Ragnheiðrson     |      1259 | 1308 |  49 | 1292-1308 |
+    |                               |           |      |     |           | Eyvindor V, Eyvindorson         |      1285 | 1346 |  61 | 1308-1318 |
+    | Eyvindor V, Eyvindorson       |      1285 | 1346 |  61 | 1318-1346 | Eríkor II, Eyvindorbróðir       |      1290 | 1349 |  59 | 1319-1346 |
+    | Eyvindor VI, Eyvindorson      |      1309 | 1354 |  45 | 1346-1354 | Eríkor III, Eyvindorbróðir      |      1315 | 1349 |  34 | 1346-1349 |
+    |                               |           |      |     |           | Eir I, Eyvindorsystir           |      1299 | 1360 |  61 | 1349-1354 |
+    | Eir I, Eyvindorsystir         |      1299 | 1360 |  61 | 1354-1360 | Biœrg I, Eirdóttir              |      1318 | 1374 |  56 | 1355-1360 |
+    | Biœrg I, Eirdóttir            |      1318 | 1374 |  56 | 1360-1374 | Ásgeirr I, Bjœrgson             |      1330 | 1392 |  62 | 1361-1374 |
+    | Ásgeirr I, Biœrgson           |      1330 | 1397 |  67 | 1374-1397 | Eiríkor IV, Ásgeirsbróðir       |      1333 | 1397 |  64 | 1375-1397 |
     #+TBLFM: $4=$3-$2::$9=$8-$7
+
+    On peut remarquer  la mort simultanée d’Ásgeirr I, Biœrgon  et de son co-roi
+    Eiríkor  IV,  Ásgeirsbródir. Bien  que  rien  ne  puisse être  affirmé  avec
+    certitude,  l’une  des  théories  les  plus populaires  veut  que  les  deux
+    souverains  furent empoisonnés,  marquant une  tentative de  la couronne  de
+    l’Union de Kalmar  de saper le moral  éittlandais et de mettre fin  à ce qui
+    était à l’époque  considéré par l’Union comme étant une  rébellion. Bien que
+    cela mit un terme à la dynastie d’Ásmundor, un nouveau roi fut nommé, choisi
+    dans une famille noble proche du trône. Ainsi le nouveau roi Arvid I Geirson
+    repris la guerre contre l’Union, et repris la tradition du co-roi en nommant
+    son frère Havardor I Arvidbróðir à la  tête de la partie orientale de l’île.
+    La  guerre se  termina le  27 Octobre  1400 avec  l’indépendance d’Éittlande
+    reconnue par l’Union de Kalmar.
 
 ** Écologie
    :PROPERTIES:
@@ -697,14 +737,14 @@
       (conlanging/tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file img/eittlanda/vowel-feature-tree.png :var input=vow-dot :exports results
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
-    #+RESULTS[2c6f077ffbc915fa8a280ad51c89c4e778de0dec]:
+    #+RESULTS:
     [[file:img/eittlanda/vowel-feature-tree.png]]
 
 *** Diphtongues
@@ -856,7 +896,7 @@
       consonne, un <y>,  généralement prononcé {{{phon(ə)}}}, est ajouté  avant le <r>
       final.
 
-      Exemple :  /frægr/ {{{phon(fræɡr)}}}  (VN),  /frægor/  {{{phon(fræɡɚ)}}} (E) ;  /dalr/
+      Exemple :  /frægr/ {{{phon(fræɡr)}}}  (VN),  /frægor/  {{{phon(fræɣɚ)}}} (E) ;  /dalr/
       {{{phon(dal:)}}} (VN), /dalr/ {{{phon(dælː)}}} (E).
 
     L’Eittlandais  a  tout  de  même  conservé  la  distinction  norroise  entre
@@ -2112,5 +2152,5 @@
 
 [fn:1] [[https://langue.phundrak.com]]
 
-#  LocalWords:  non-orale Ingólfr Arnarson Ásmundr Ingólfrson Áleifr Steingrímr
-#  LocalWords:  Ásmundrson Áleifrbróðir Hallþórr Eyvindr
+#  LocalWords:  non-orale Ingólfr Arnarson Ásmundor Ingólfrson Áleifor Steingrímor
+#  LocalWords:  Ásmundorson Áleiforbróðir Hallþórr Eyvindor

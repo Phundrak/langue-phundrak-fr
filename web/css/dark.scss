@@ -18,6 +18,7 @@
 $bg:         #2c3e50;
 $darkerbg:   #34495e;
 $textcolor:  #ecf0f1;
+$tablecolor: #263646;
 
 html {
     background-color: $darkerbg;
@@ -50,7 +51,7 @@ a {
 }
 
 th {
-    border: 1px solid $bg;
+    border: 1px solid $tablecolor;
 }
 
 td {
@@ -62,7 +63,7 @@ pre {
 }
 
 table {
-    border: 2px solid $bg;
+    border: 2px solid $tablecolor;
 }
 
 #content {

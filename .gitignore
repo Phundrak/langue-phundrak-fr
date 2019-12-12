@@ -1,22 +1,27 @@
-*.el
-*.tex
-*.bak
-*.log
-*.html
-*.pdf
 *.aux
-*.toc
+*.bak
+*.el
+*.html
+*.log
+*.lot
+*.map
 *.out
+*.pdf
+*.pdf_tex
+*.tex
+*.toc
 _minted*
 /draconian-2/Vulgar_ Language generator.pdf
-/draconian-2/auto-generated*
-/ignored-folder
-/js/.tern-port
-*.pdf_tex
-*.lot
-/css/.sass-cache/
-*.map
-/css/light.css
-/css/main.css
-/css/dark.css
-/css/nyqy.css
+auto-generated*
+
+# Files and directories created by pub
+.dart_tool/
+.packages
+# Remove the following pattern if you wish to check in your lock file
+pubspec.lock
+
+# Conventional directory for build outputs
+build/
+
+# Directory created by dartdoc
+doc/api/

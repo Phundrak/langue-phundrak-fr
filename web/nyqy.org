@@ -487,15 +487,42 @@
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 800px
-    #+ATTR_LATEX: :float sideways
+    #+ATTR_LATEX: :width 10cm
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS[d6752d93f1ef9dbe412d3eb47db94ef37601fbd2]:
     [[file:img/nyqy/vowel-feature-tree.png]]
+
+    Voici une description des voyelles du Ñyqy :
+    - e ::  il s’agit de la  voyelle antérieure mi-ouverte non-arrondie  [ɛ] que
+           l’on retrouve en Français dans « bête » [bɛt̪] par example.
+    - é ::  il s’agit de  la voyelle  antérieure mi-fermée non-arrondie  [e] que
+           l’on retrouve en Français dans « été » [et̪e] par exemple.
+    - i ::  Il s’agit de la  voyelle antérieure pré-fermée non-arrondie  [ɪ] que
+           l’on retrouve en Anglais comme dans « bit » [bɪt].
+    - o :: Il s’agit de la  voyelle postérieure mi-ouverte arrondie [ɔ] que l’on
+           retrouve en Français dans « sort » [sɔːʁ].
+    - ó ::  Il s’agit de la  voyelle postérieure mi-fermée non-arrondie  [ɤ] que
+           l’on  retrouve  en  Gaellique  Écossais  « doirbh »  [d̪̊ɤrʲɤv]  ou  en
+           Estonien « kõrv » [kɤrv].
+    - u :: Il s’agit de la  voyelle postérieure pré-fermée arrondie [ʊ] que l’on
+           retrouve en Anglais américain « hook » [hʊ̞k].
+    - ú ::  Il s’agit  de la  voyelle postérieure fermée  arrondie [u]  que l’on
+           retrouve en français avec « août » [ut̪].
+    - y  :: Il  s’agit de  la voyelle  antérieure fermée  arrondie [y]  que l’on
+           retrouve en Français avec « dune » [d̪yn̪].
 
 *** Consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
     :END:
+    Le Ñyqy est  une langue ayant une particularité  intéressante : bien qu’elle
+    dispose d’un  total de  seulement douze  consonnes, elle  dispose réellement
+    approximativement du double dû à un effet de mutation des consonnes qui sera
+    décrit plus  bas. Vous pouvez  retrouver l’inventaire total dans  le tableau
+    [[table:cons:ipa]], les lettres résultant  de mutations étant entre parenthèses.
+    Vous trouverez  également la translittération des  consonnes non-mutées dans
+    le tableau [[table:cons:trans]].
+
     #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ñyqy (IPA)
     |              <r5> |     <c5>     |     <c5>      |       <c5>        |    <c5>    |    <c5>     |    <c5>     |
@@ -524,6 +551,10 @@
     | affriqué |                    |         c j         |                         |                   |
     |  spirant |                    |                     |            w            |                   |
 
+
+    Le Ñyqy dispose également d’une hiérarchie entre ses consonnes basée sur des
+    caractéristiques distinctives entre elles, à  l’instar de ses voyelles. Vous
+    trouverez dans l’arbre [[arbre:cons]] l’organisation de ces consonnes.
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       (setq-local nyqy-consonants
@@ -632,10 +663,19 @@
     - Si les règles précédentes ne s’appliquent  pas, il est supposé qu’un schwa
       est ajouté afin de pouvoir rendre la syllabe prononçable.
 
+** Structure des mots
+   :PROPERTIES:
+   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
+   :END:
+
+** Processus phonologiques et morphophonémiques principaux
+   :PROPERTIES:
+   :CUSTOM_ID: h-477abbdc-eab0-4bd4-9d27-c39d9219d1d7
+   :END:
 *** Allophonie
     :PROPERTIES:
-   :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
-   :END:
+    :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
+    :END:
     Il  existe  relativement  peu  de  règles  allophoniques  connues  en  Ñyqy,
     cependant quelques unes sont à peu près certaines :
 
@@ -667,15 +707,6 @@
     Ainsi, la phrase {{{nyqy(ñe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
     phrase {{{nyqy(qi bú pim mo coq)}}} se ne prononce pas *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
 
-** Structure des mots
-   :PROPERTIES:
-   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
-   :END:
-
-** Processus phonologiques et morphophonémiques principaux
-   :PROPERTIES:
-   :CUSTOM_ID: h-477abbdc-eab0-4bd4-9d27-c39d9219d1d7
-   :END:
 
 *** Harmonie des consonnes
     :PROPERTIES:

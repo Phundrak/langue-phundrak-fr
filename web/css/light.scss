@@ -15,12 +15,12 @@
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-$bg:         #2c3e50;
-$darkerbg:   #ddd;
-$textcolor:  #444;
+$bg:        #eee;
+$darkerbg:  #ddd;
+$textcolor: #444;
 
 html {
-    background-color: $darkerbg;
+    background-color: $bg;
 }
 
 thead {
@@ -50,7 +50,7 @@ a {
 }
 
 th {
-    border: 1px solid $bg;
+    border: 1px solid $textcolor;
 }
 
 td {
@@ -62,13 +62,13 @@ pre {
 }
 
 table {
-    border: 2px solid $bg;
+    border: 2px solid $textcolor;
 }
 
 #content {
-    background-color: $bg;
+    background-color: $darkerbg;
 }
 
 #postamble{
-    background-color: $bg;
+    @extend #content;
 }
