@@ -3,10 +3,14 @@
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+INCLUDE: headers/headers.org
+#+OPTIONS: auto-id:t
 
 # idées: https://twitter.com/Phundrak/status/1079046235011584001
 
 * Avant-propos
+  :PROPERTIES:
+  :CUSTOM_ID: h-187f4787-8c93-4476-84a9-6c1b9972daa3
+  :END:
   La  redistribution ou  vente de  ce  document sont  strictement interdits.  Ce
   document est protégé par la loi  française sur le droit d’auteur et appartient
   entièrement et totalement à son auteur. Ce document est un document disponible
@@ -21,6 +25,9 @@
 
   src_latex{\newpage}
 * Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: h-3613445a-a061-4ddd-895a-423813f1cf57
+  :END:
   Le Hjelp est une langue construite représentant symboliquement la langue orale
   et  écrite utilisée  par les  dieux célestes  de l’univers  de mon  roman, les
   Hjalpĺ. Cela signifie que, bien que le Hjelp soit une langue /de facto/ réelle
@@ -64,6 +71,9 @@
   certains concepts seront expliqués dans leur chapitre ou paragraphe dédié.
 
 ** Quelques précisions sur le Hjelp théorique
+   :PROPERTIES:
+   :CUSTOM_ID: h-19745f9a-94c3-493c-8eaa-83b31ec52727
+   :END:
 
    Comme dit plus  haut, le Hjelp théorique est une  langue extrêmement complexe
    parlée par  les Hjalpel dans  mon univers littéraire. Apprendre  cette langue
@@ -101,6 +111,9 @@
 
    src_latex{\newpage}
 * Description du lexique
+  :PROPERTIES:
+  :CUSTOM_ID: h-df6929ff-c861-4e0a-b70b-5229f7df4055
+  :END:
   Le Hjelp est une langue se basant sur le principe des racine consonantales, la
   grammaire étant exprimée quasiment uniquement via les voyelles. Du fait de ses
   très riches déclinaisons, et malgré son nombre limité de racines lexicales, le
@@ -115,7 +128,13 @@
 
   src_latex{\newpage}
 * Phonologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-6c3cf8e1-e35c-4538-85cb-44e93058390f
+  :END:
 ** Notes sur la translittération et la romanisation du Hjelp
+   :PROPERTIES:
+   :CUSTOM_ID: h-1d118401-03c6-4c04-8161-54aa5187f326
+   :END:
    Le Hjelp est une langue disposant d’un système d’écriture qui lui est unique,
    et par  conséquent ne  peut pas être  aisément reproduisible  par ordinateur,
    encore  moins dans  du texte  comme celui-ci,  à moins  d’insérer des  images
@@ -136,8 +155,8 @@
    lecteur,  la romanisation  peut également  changer en  fonction de  la langue
    cible. Ainsi, les francophones pourront retranscrire « qhø₃ð » comme « reuv »
    tandis que  les anglophones le rentranscriront  « rhoth ». Cette romanisation
-   ne sera  présente que  dans le  point suivant  (§[[*Inventaire phon%C3%A9tique]])
-   afin de donner une référence de lecture du Hjelp dans mes textes littéraires,
+   ne sera présente  que dans le point suivant ([[*Inventaire  phonétique]]) afin de
+   donner  une  référence de  lecture  du  Hjelp  dans mes  textes  littéraires,
    cependant elle  ne sera absolument pas  utilisée dans ce document  du fait du
    manque d’information qu’elle partage, contrairement à la translittération qui
    reste  constante  selon   la  langue  du  lecteur  et   transmet  toutes  les
@@ -153,6 +172,9 @@
    l’allophonie).
 
 ** Inventaire phonétique
+   :PROPERTIES:
+   :CUSTOM_ID: h-c56ce529-67dd-4346-903c-b95a0332cfd6
+   :END:
    La tendance en Hjelp est d’isoler  les mots entre eux, marquant la séparation
    entre eux par de  courtes pauses ou par un coup de glotte  [ʔ] entre ces mots
    lors d’un  passage d’une voyelle à  une autre entre deux  mots. Lorsqu’un mot
@@ -167,6 +189,9 @@
    syllabe ne commence pas par une consonne.
 
 *** Les consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-dbd601b8-7703-4306-aae2-0145264ac092
+    :END:
     Le Hjelp est une langue disposant  d’un très large panel de consonnes. Voici
     ci-dessous le tableau des consonnes du Hjelp, translittéré puis en IPA.
 
@@ -342,6 +367,9 @@
            la consonne occlusive glottale sourde [ʔ].
 
 *** Les voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-3af1359b-a8c8-4190-b424-5772d606ec52
+    :END:
     À l’instar des  consonnes, le Hjelp dispose d’un  inventaire phonétique très
     large, contenant un total de 23 voyelles  simples, incluant le <ń> et le <ĺ>
     présentés  ci-dessus,  prononcées  ​/n̩/  et  ​/l̩/  respectivement.  Les  voici
@@ -414,6 +442,9 @@
     - ů :: Il s’agit de la voyelle antérieure pré-ferée arrondie [ʏ].
 
 ** Diphtongues
+   :PROPERTIES:
+   :CUSTOM_ID: h-b03f5ac6-7395-432f-b437-ccb4fe8af503
+   :END:
    Les diphtongues en Hjelp sont très libres, dans le sens où toute voyelle peut
    s’associer avec une autre afin de  créer une diphtongue, à la condition qu’il
    ne s’agisse pas deux  fois de la même voyelle. Lors  de l’association de deux
@@ -432,6 +463,9 @@
    tons du Hjelp, voir la section sur les sept tons (§[[*Les sept tons]]).
 
 ** Triphtongues
+   :PROPERTIES:
+   :CUSTOM_ID: h-1c2eb6ca-a038-4f6f-9ac3-2c72aeebf7f3
+   :END:
    À  l’instar  des  diphtongues   (§[[*Diphtongues]]),  le  Hjelp  est  extrêmement
    permissif  quand aux  triphtongues,  interdisant  uniquement les  successions
    immédiates  de   deux  voyelles  identiques.   À  nouveau,  comme   pour  les
@@ -448,6 +482,9 @@
    rares en Hjelp.
 
 ** Les sept tons
+   :PROPERTIES:
+   :CUSTOM_ID: h-282b78b2-423b-4d8e-ab6f-bc17f2cf0099
+   :END:
    Le Hjelp est une langue tonale  disposant de sept tons différents portant sur
    une syllabe  entière. Un  ton est  une variation de  hauteur non  pas absolue
    comme peuvent l’être  les notes d’une chanson, mais plutôt  des variations de
@@ -491,6 +528,9 @@
    Ainsi, <jhy_{1}i_{3}lh> sera transcrit ​/ʝy.ʔi_{3}ɬ/.
 
 ** Allophonie
+   :PROPERTIES:
+   :CUSTOM_ID: h-d9bd3e2b-3b2d-45ba-a3f8-eb1fc7cd9a69
+   :END:
    En  Hjelp, comme  dans beaucoup  d’autres  langues, il  existe de  nombreuses
    règles sur  la modification  de la prononciation  de certains  phonèmes selon
    leur emplacement  au sein  d’un mot et  selon leur  environnement phonétique,
@@ -509,6 +549,9 @@
    inexistante et insonore.
 
 *** Voyelles
+    :PROPERTIES:
+    :CUSTOM_ID: h-a7e58283-cf4f-4301-84fd-bf049f613b5a
+    :END:
     Il  existe  peu  de  règles  en Hjelp  concernant  les  voyelles,  et  elles
     concernent exclusivement  les consonne syllabiques  tel que vous  pourrez le
     constater ci-dessous.
@@ -550,6 +593,9 @@
       - {​/a/,​/e/} > [ə] / #C_ | _C# si C ne fait pas partie de la racine
 
 *** Consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-4b81728e-8994-4bd7-bdb5-db1b1c951312
+    :END:
     Contrairement  aux  voyelles,  le  Hjelp   est  assez  riche  en  allophonie
     concernant les consonnes.
 
@@ -610,9 +656,15 @@
    | nůr  | ​/nʏr/     | [nʏɾ]     |
 
 ** Phonotaxes
+   :PROPERTIES:
+   :CUSTOM_ID: h-36429d9d-aad8-43d7-a43e-97d128e1a88f
+   :END:
 
    src_latex{\newpage}
 * Morphologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-ca23e576-77b9-42f4-9dc2-63973a393c39
+  :END:
   Comme mentionné dans la description  du lexique (§[[*Description du lexique]]), le
   Hjelp est  une langue  se basant  sur des  racines consonantales  disposant au
   moins d’un emplacement pour une voyelle  entre deux consonnes. Par exemple, le
@@ -638,6 +690,9 @@
   nous parlerons de morphosyntaxe (§[[*Morphosyntaxe]]).
 
 ** Noms
+   :PROPERTIES:
+   :CUSTOM_ID: h-85ff557e-82d5-49e3-82cd-0f785fd56806
+   :END:
    Les noms du  Hjelp servent généralement à désigner des  entités, des concepts
    ou bien des objets. Ils sont  composés d’au moins une racine consonantique et
    de leur voyelle cœur portant la  grammaire du nom, et porte également souvent
@@ -655,6 +710,9 @@
    également utilisés.
 
 *** Genre
+    :PROPERTIES:
+    :CUSTOM_ID: h-d7281cc7-6fa1-4ddb-9681-2284129d917d
+    :END:
     Le Hjelp dispose  de neuf genres différents spécifiques  ainsi qu’un dixième
     genre neutre. Ce dixième genre n’est utilisé que lorsqu’un marquage du genre
     est obligatoire mais non-spécifié. On a donc la liste qui suit :
@@ -742,6 +800,9 @@
     4. Sur-genre Global (/GLOB/) : rassemble le genre inanimé et inconnu.
 
 *** Nombre
+    :PROPERTIES:
+    :CUSTOM_ID: h-bd302f3b-b57d-4ccc-b1f8-c9527472fce8
+    :END:
     Le  Hjelp  dispose de  six  nombres  distincts  qui  se marquent  dans  leur
     emplacement dédié  dans le mot.  La seule information  inclue sémantiquement
     dans la  racine du nom  concernant le nombre  est son aspect  dénombrable ou
@@ -790,35 +851,74 @@
     |   | INAN | yn | yl  | yt   | uŕ | yrh | yb |
 
 *** Déclinaisons
+    :PROPERTIES:
+    :CUSTOM_ID: h-225231f4-1f43-4ac3-8f46-87a8218cdff6
+    :END:
 
 ** Déterminants
+   :PROPERTIES:
+   :CUSTOM_ID: h-e4e6e69f-4bef-4989-a53b-8bffa40eec9d
+   :END:
 ** Adjectifs et adverbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-3e7bde84-469b-4554-b9ac-59fc37cc9e62
+   :END:
 ** Verbes
+   :PROPERTIES:
+   :CUSTOM_ID: h-928a5eda-93fb-4f90-a1b2-981dd55acf0a
+   :END:
 ** Conjonctions
+   :PROPERTIES:
+   :CUSTOM_ID: h-dd9e1850-7a83-4207-940a-f4c6d786d887
+   :END:
 
    src_latex{\newpage}
 * Syntaxe
+  :PROPERTIES:
+  :CUSTOM_ID: h-6542e99d-fe65-425c-84a3-72340772788f
+  :END:
 
   src_latex{\newpage}
 * Morphosyntaxe
+  :PROPERTIES:
+  :CUSTOM_ID: h-83aba0d9-e151-4961-8808-64768b56b212
+  :END:
 
   src_latex{\newpage}
 * Sémantiques
+  :PROPERTIES:
+  :CUSTOM_ID: h-1c857702-b3ba-4970-a2cc-6b59047becfe
+  :END:
 
   src_latex{\newpage}
 * Pragmatique
+  :PROPERTIES:
+  :CUSTOM_ID: h-5d0a8dfb-f2cc-4ebb-b313-4ed15c735b93
+  :END:
 
   src_latex{\newpage}
 * Phraséologie
+  :PROPERTIES:
+  :CUSTOM_ID: h-7b4dd3e2-0c34-44a3-8da0-543aeb012e8e
+  :END:
 
   src_latex{\newpage}
 * Synchronie et diachronie
+  :PROPERTIES:
+  :CUSTOM_ID: h-f4401edc-2479-4bb3-8d78-024d97a236fa
+  :END:
 
   src_latex{\newpage}
 * Système d’écriture
+  :PROPERTIES:
+  :CUSTOM_ID: h-0faa45fa-b303-402b-b27f-820646f22bf2
+  :END:
 
   src_latex{\newpage}
 * Glossaire
+  :PROPERTIES:
+  :CUSTOM_ID: h-ca4a6dde-6941-46ea-8eaa-2501d28e2e95
+  :END:
 
   Le Hjelp étant une langue évoluant en permanence, je ne peux donner de lexique
   fixe dans ce document, cependant un  dictionnaire en ligne est actuellement en
@@ -830,6 +930,12 @@
 
   src_latex{\newpage}
 * Annexes
+  :PROPERTIES:
+  :CUSTOM_ID: h-c6078d3e-d884-4f7d-9988-5cebaf402f7c
+  :END:
 ** Annexe A : Abbréviations
+   :PROPERTIES:
+   :CUSTOM_ID: h-5f6143b0-42f6-48d2-837e-9d00919e5c0e
+   :END:
 
 #  LocalWords:  status Melexeq moment-là
