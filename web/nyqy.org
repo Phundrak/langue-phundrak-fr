@@ -231,6 +231,10 @@
    :PROPERTIES:
    :CUSTOM_ID: h-6b729f0a-7131-443b-8ef3-ddfbaa23c65d
    :END:
+   # - What is the language known as to outsiders?
+   # - What term do  the people use to distinguish themselves  from other language
+   #   groups?
+   # - What is the origin of these terms (if known)?
    Peu de choses sont  connues sur le peuple, du fait de  sa distance avec nous,
    et  du   fait  du   peu  d’éléments  dont   nous  disposons   directement  ou
    indirectement. Beaucoup de nos  connaissances actuelles nous parviennent soit
@@ -290,6 +294,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-dec628cc-50e8-4370-889d-e54b2a2e2280
    :END:
+   # - What is the dominant economic activity of the people?
+   # - Briefly describe the ecosystem, material  culture, and cosmology (they will
+   #   be intimately related)
    Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ñyqy. Pour plus
    de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ñyqy/  de
    K. Yerth, 3404. Un avertissement est tout de même nécessaire :
@@ -343,6 +350,18 @@
    Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
    moins, ainsi que la vénération des étoiles et du feu.
 
+** Démographie
+   :PROPERTIES:
+   :CUSTOM_ID: h-cec2a8c4-1f49-4d46-9146-af3afc822e38
+   :END:
+   # - Where is  the language spoken, and  how are the people  distributed in this
+   #   area?
+   # - Are there other language groups inhabiting the same area?
+   # - What is the nature of the interaction with these language groups? Economic?
+   #   Social? Friendly? Belligerent?
+   # - In  social/economic  interactions  with  other  groups,  which  groups  are
+   #   dominant and which are marginalized? How so?
+
 ** Corpus, reconstruction de la langue
    :PROPERTIES:
    :CUSTOM_ID: h-acf6406f-5fd3-4d01-a0f0-89adef88d5ff
@@ -356,6 +375,16 @@
    :PROPERTIES:
    :CUSTOM_ID: h-e2f22e3c-6069-4881-a3e2-3d319e434fb7
    :END:
+   # - Is the language dominantly isolating or polysynthetic?
+   # - If the language is at all  polysynthetic, is it dominantly agglutinative or
+   #   fusional? Give examples of its dominant pattern and any secondary patterns.
+   # - If  the language  is  at  all agglutinative,  is  it dominantly  prefixing,
+   #   suffixing or neither?
+   # - Illustrate  the major  and secondary  patterns (including  infixation, stem
+   #   modification, reduplication, suprasegmental modification, and suppletion).
+   # - If the language  is at all polysynthetic, is  it dominantly "head-marking",
+   #   "dependent-marking", or mixed?
+   # - Give some examples of each type of marking the language exhibits.
    Le  Ñyqy  est une  langue  qui  apparaît  comme étant  fortement  analytique,
    reposant principalement sur  sa syntaxe afin d’exprimer sa  grammaire et très
    peu  sur  des  règles  morphologiques.   La  large  majorité  des  mots  sont
@@ -721,6 +750,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-a0195f74-9ac1-417c-8af7-cc329e0efc04
     :END:
+    # - What are the distributional properties of nouns?
+    # - What are the structural properties of nouns?
+    # - What are the major formally distinct subcategories of nouns?
+    # - What is the basic structure of the noun word (for polysynthetic languages)
+    #   and/or noun phrases (for more isolating languages)?
     Les noms en Ñyqy se réfèrent  généralement à des entités définies, comme des
     objets, des personnes, des concepts  ou événements. Contrairement à beaucoup
     d’autres langues, et du fait de la  nature très analytique de la langue, les
@@ -757,6 +791,9 @@
     :PROPERTIES:
     :CUSTOM_ID: h-94456c13-5082-4c98-86d4-011be90cbc78
     :END:
+    # - Does the language have free  pronouns and/or anaphoric clitics? (These are
+    #   distinct from grammatical agreement.)
+    # - Give a chart of the free pronouns and/or anaphoric clitics.
 
 **** Pronoms personnels
      :PROPERTIES:
@@ -772,6 +809,24 @@
     :PROPERTIES:
     :CUSTOM_ID: h-26aa65ba-2694-4c63-bf91-258dad3b0430
     :END:
+    # - What are the distributional properties of verbs?
+    # - What are the structural properties of verbs?
+    # - What are the major subclasses of verbs?
+    # - Describe the order  of various verbal operators within the  verbal word or
+    #   verb phrase.
+    # - Give   charts   of   the   various   paradigms,   e.g.   person   marking,
+    #   tense/aspect/mode, etc. Indicate major allomorphic variants.
+    # - Are directional  and/or locational notions  expressed in the verb  or verb
+    #   phrase at all?
+    #   - Is this operation obligatory, i.e. does one member of the paradigm have
+    #     to occur in every finite verb or verb phrase?
+    #   - Is it productive, i.e. can the operation be specified for al verb stems,
+    #     and  does it  have the  same meaning  with each  one? (Nothing  is fully
+    #     productive, but some operations are more productive than others.)
+    #   - Is  this operation  primarily  coded  morphologically, analytically,  or
+    #     lexically? Are there any exceptions to the general case?
+    #   - Where in  the verb  phrase or  verbal word is  this operation  likely to
+    #     appear? Can it occur in more than one place?
 
 **** Structure verbale
      :PROPERTIES:
@@ -788,10 +843,22 @@
      :CUSTOM_ID: h-a93f1630-eeff-4e33-aa34-7c75b4b83e0e
      :END:
 
-*** Modifieurs
+*** Modificateurs
     :PROPERTIES:
     :CUSTOM_ID: h-28acd155-bd9c-4eeb-9a2d-367f70b164b2
     :END:
+    # - If you posit a morphosyntacticc  category of adjectives, give evidence for
+    #   not grouping theseforms with the verbs or nouns.
+    #   What characterizes a form as being an adjective in this language?
+    # - How can you characterize semantically the  class of concepts coded by this
+    #   formal category?
+    # - Do adjectives  agree with their heads  (e.g. in number, case,  and/or noun
+    #   class)?
+    # - What kind of system does the language employ for counting?
+    # - How high  can a fluent  native speaker  count without resorting  either to
+    #   words from  another language or to  a generic word like  /many/? Exemplify
+    #   the system up to this point.
+    # - Do numerals agree with their head nouns (number, case, noun class, ...)?
 
 **** Adjectifs descriptifs
      :PROPERTIES:
@@ -808,10 +875,19 @@
      :CUSTOM_ID: h-8b121d9f-4e6f-4e82-b50b-835fd94feb5c
      :END:
 
-**** Adverbes
-     :PROPERTIES:
-     :CUSTOM_ID: h-863bc9c8-da03-4c1f-b80a-d4668d4c3294
-     :END:
+*** Adverbes
+    :PROPERTIES:
+    :CUSTOM_ID: h-863bc9c8-da03-4c1f-b80a-d4668d4c3294
+    :END:
+    # - What characterikes  a form  as being  an adverb in  this language?  If you
+    #   posit a distinct class of adverbs, argue for why these forms should not be
+    #   treated as nouns, verbs, or adjectives.
+    # - For each kind of adverb listed in  this section, list a few members of the
+    #   type,  and specify  whether there  are any  restrictions relavite  to that
+    #   type, e.g. where  they can come in  a clause, any morphemes  common to the
+    #   type, etc.
+    # - Are any  of these  classes of adverbs  related to  older complement-taking
+    #   (matrix) verbs?
 
 *** Adpositions
     :PROPERTIES:
@@ -864,9 +940,6 @@
      (conlanging/tree-to-dot nyqy-syntax-tree)
    #+END_SRC
 
-   #+RESULTS[24286e618306da25dc9283fdc01819e3b5d77394]: basic-syntax-tree
-   : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Obl"];0 -- 1;2[label="S'"];0 -- 2;21[label="NPerg"];2 -- 21;211[label="NP"];21 -- 211;22[label="VP"];2 -- 22;221[label="NPdat"];22 -- 221;2211[label="NP"];221 -- 2211;222[label="VP'"];22 -- 222;2221[label="NPabs"];222 -- 2221;22211[label="NP"];2221 -- 22211;222111[label="S"];22211 -- 222111;222112[label="NP'"];22211 -- 222112;2221121[label="Adj"];222112 -- 2221121;2221122[label="N"];222112 -- 2221122;2222[label="V'"];222 -- 2222;22221[label="Mood"];2222 -- 22221;22222[label="Tense"];2222 -- 22222;22223[label="V"];2222 -- 22223;22224[label="Neg"];2222 -- 22224;}
-
    #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes
      $input
    #+END_SRC
@@ -876,80 +949,203 @@
    #+RESULTS:
    [[file:img/nyqy/basic-syntax.png]]
 
-*** Clauses principales
+*** Ordre des constituants dans les clauses principales
     :PROPERTIES:
     :CUSTOM_ID: h-76ccdf86-f9b5-4cee-82cf-52254848a449
     :END:
+    # - What is the neutral order of free elements in the unit?
+    # - Are there variations?
+    # - How do the variant orders function?
+    # - Specific to the  main clause constituent order: What  is the pragmatically
+    #   neutral order  of constituents  (A/S, P,  and V) in  basic clauses  of the
+    #   language?
 
-*** Phrases verbales
+*** Ordre des constituants dans les clauses verbales
     :PROPERTIES:
-    :CUSTOM_ID: h-e259aa87-569f-4ce7-8caf-05b9cbd77c1b
+    :CUSTOM_ID: h-e68d1726-9baf-4963-b098-58c6aa340082
     :END:
+    # - Where do auxliaries occur in relation to the semantically “main” verb?
+    # - Where  do  verb-phrase  adverbs  occur   with  respect  to  the  verb  and
+    #   auxiliaries?
 
-*** Phrases nominales
+*** Ordre des constituants dans les clauses nominales
     :PROPERTIES:
-    :CUSTOM_ID: h-90885dd9-8c81-498b-a476-dd7262b8f61a
+    :CUSTOM_ID: h-130f774a-bc58-46ca-a172-c413c8236366
     :END:
+    # - Describe the order(s) of elements in the noun phrase.
 
 *** Phrases adpositionelles
     :PROPERTIES:
     :CUSTOM_ID: h-4079ffcb-f870-401c-a229-3c2b52774650
     :END:
+    # - Is the language dominantly prepositional or post-positional? Give examples.
+    # - Do many adpositions come from nouns or verbs?
 
 *** Comparatifs
     :PROPERTIES:
     :CUSTOM_ID: h-7b89a3fd-dacc-4a7b-b6ba-7b4072261887
     :END:
+    # - Does   the  language   have  one   or  more   grammaticalized  comparative
+    #   constructions? If  so, what is the  order of the standard,  the marker and
+    #   the quality by which an item is compared to the standard?
 
 *** Questions
     :PROPERTIES:
     :CUSTOM_ID: h-2bc6bce7-960e-47ed-9c5b-fe440ff7f096
     :END:
+    # - In yes/no questions, if there is a question particle, where does it occur?
+    # - In information questions, where does the question word occur?
 
 *** Résumé
     :PROPERTIES:
     :CUSTOM_ID: h-60bc5529-151f-44f9-8d6c-6ddea77b5b94
     :END:
+    # - How  does this  language compare  in its  constituent orders  to universal
+    #   expectations, as represented by Greenberg  (1963), Hawkins (1983), or some
+    #   other well-known typology?
 
 ** Structure d’un groupe nominal
    :PROPERTIES:
    :CUSTOM_ID: h-925c4d09-5d24-4b49-b00d-23f989aa93a3
    :END:
+*** Mots composés
+    :PROPERTIES:
+    :CUSTOM_ID: h-d697b050-c292-4852-932f-bcd74ba2061f
+    :END:
+    # - Is there noun-noun compounding that results in a noun (e.g. /windshield/)?
+    # - How do you know it is compounding?
+    # - Is there noun-verb (or verb-noun) compounding that results in a noun (e.g.
+    #   /pickpocket/, /scarecrow/)?
+    # - Are these processes productive (like noun-verb in English can-opener)? How
+    #   common is compounding?
+
+*** Dénominalisation
+    :PROPERTIES:
+    :CUSTOM_ID: h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a
+    :END:
+    # - Are there any processes (productive or not) that form a verb from a noun?
+    # - An adjective from a noun?
+    # - An adverb from a noun?
+
+*** Nombres
+    :PROPERTIES:
+    :CUSTOM_ID: h-4a7398f7-c2a0-4969-a6a2-ca004b4cbddd
+    :END:
+    # - Is number expressed in the noun phrase?
+    # - Is the distinction between singular and non-singular obligatory, optional,
+    #   or completely absent in the noun phrase?
+    # - If number marking is “optional”, when does it tend to occur, and when does
+    #   it tend not to occur?
+    # - If number marking is obligatory, is  number overtly expressed for all noun
+    #   phrases or only some subclasses of noun phrases, such as animate?
+    # - What non-singular distinctions are there?
+
+*** Case
+    :PROPERTIES:
+    :CUSTOM_ID: h-7cf3e6ae-6d62-4f39-a4e1-0c697b380675
+    :END:
+    # - Do nouns exhibit morphological case?
+    # - If so, what are the cases? (The  functions of the cases will be elaborated
+    #   in later sections)
+
+*** Articles, déterminants et démonstratifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-2c2cb606-7ad8-4d8d-a0aa-729b005a7132
+    :END:
+    # - Do noun phrases have articles?
+    # - If so,  are they obligatory or  optional, and under what  circumstances do
+    #   they occur?
+    # - Are they separate words, or bound morphemes?
+    # - Is there a class of classes of demonstratives as distinct from articles?
+    # - How many degrees of distance are there in the system of demontsratives?
+    # - Are there other distinctions beside distances?
+
+*** Possesseurs
+    :PROPERTIES:
+    :CUSTOM_ID: h-fe62e78c-2b6a-47be-876d-0c188d0ee27d
+    :END:
+    # - How are possessors expressed in the noun phrase?
+    # - Do nouns agree  with their possessors? Do possessors  agree with possessed
+    #   nouns? Neither, or both?
+    # - Is there a distinction between alienable and inalienable possesson?
+    # - Are there other types of possession?
+    # - When the possessor is a full noun, where does it usually come with respect
+    #   to the possessed noun?
+
+*** Classes (incluant le genre)
+    :PROPERTIES:
+    :CUSTOM_ID: h-8f76c669-2e2c-45a0-aaf8-8b56ae6c771d
+    :END:
+    # - Is there a noun class system?
+    # - What are the classes and how are they manifested in the noun phrase?
+    # - What dimension of  reality is most central to the  noun class system (e.g.
+    #   animacy, shape, function, etc.)? What other dimensions are relevant?
+    # - Do the classifiers occur with numerals? Adjectives? Verbs?
+    # - What is their function in these contexts?
+
+*** Diminution/Augmentation
+    :PROPERTIES:
+    :CUSTOM_ID: h-8695b587-b33e-42b5-b374-16a068d335ef
+    :END:
+    # - Does the language  employ diminutive and/or augmentative  operators in the
+    #   noun or noun phrase?
+    # - Questions to answer for all nominal operations:
+    #   - Is this operation obligatory, i.e. does  one member of the paradigm have
+    #     to occur in every full noun phrase?
+    #   - Is it productive, i.e. can the  operation be specified for all full noun
+    #     phrases and  does it have  the same meaning  with each one?  (Nothing is
+    #     fully productive, but some operations are more so than others.)
+    #   - Is  this operation  primarily expressed  lexically, morphologically,  or
+    #     analytically?
+    #   - Where in the noun phrase is this  operation likely to be located? Can it
+    #     occur in more than one place?
+
+** Prédicats nominaux et constructions liées
+   :PROPERTIES:
+   :CUSTOM_ID: h-241f8093-3388-42fe-8060-af94a2ff03a4
+   :END:
+*** Prédicats nominaux
+    :PROPERTIES:
+    :CUSTOM_ID: h-28fe553c-2fc1-4c1d-ad81-23680b62918a
+    :END:
+    # - How are proper inclusion and equative predicates formed?
+    # - What restrictions are there, if any, on the TAM marking of such clauses?
+
+*** Prédicats adjectivaux
+    :PROPERTIES:
+    :SUBTITLE: Clauses attributives
+    :CUSTOM_ID: h-5a0c7fd1-9008-4915-88ef-6b2482795e44
+    :END:
+    # - How  are  predicate  adjective  formed? (Include  a  separate  section  on
+    #   predicate adjectives only if they are structurally distinct from predicate
+    #   nominals.)
+
+*** Prédicats locatifs
+    :PROPERTIES:
+    :CUSTOM_ID: h-ea755499-8c28-4ddb-a037-841658aeeb91
+    :END:
+    # - How are locational clauses (or predicate locatives) formed?
+
+*** Prédicats existentiels
+    :PROPERTIES:
+    :CUSTOM_ID: h-93c2c2bb-bb4d-46bd-9979-5a8392c2f144
+    :END:
+    # - How  are   existential  clauses   formed?  (Give  examples   in  different
+    #   tense/aspects, especially if there is significant variation.)
+    # - How are negative existentials formed?
+    # - Are there  extended uses of  existential morphology? (Provide  pointers to
+    #   other relevant sections of the grammar.)
+
+*** Clauses possessives
+    :PROPERTIES:
+    :CUSTOM_ID: h-d68829a8-b329-46f7-88d8-ece6845e08e3
+    :END:
+    # - How are possessive clauses formed?
 
 ** Structure d’un groupe verbal
    :PROPERTIES:
    :CUSTOM_ID: h-3db4f84f-25d4-469f-9743-9920e0aa40e0
    :END:
-
-** Prédicats nominaux et constructions similaires
-   :PROPERTIES:
-   :CUSTOM_ID: h-af6bdf77-7bd1-462c-a9ef-80a2bc5fbf96
-   :END:
-
-*** Prédicats nominaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-1a0fc190-c840-46d2-8ff0-718efc003534
-    :END:
-
-*** Prédicats adjectivaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-2998d21d-1a0a-441d-84c2-8a03b61c3d14
-    :END:
-
-*** Prédicats locatifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-71c1cd9a-0431-47f9-9261-6347c37a6745
-    :END:
-
-*** Prédicats existentiels
-    :PROPERTIES:
-    :CUSTOM_ID: h-90aa44ee-7cd5-4421-84de-e8b967afbe0a
-    :END:
-
-*** Clauses possessives
-    :PROPERTIES:
-    :CUSTOM_ID: h-1da23469-a4c9-4ad9-a5f8-f2866548c492
-    :END:
 
 ** Clauses intransitives
    :PROPERTIES:
@@ -994,6 +1190,36 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ddc93b4c-8a5b-4833-82f5-bb8951d5a0b4
    :END:
+   # Examplify  some simple  intransitive, transitive,  and ditransitive  clauses.
+   # Three-argument clauses may not unequivocally exist.
+   # - What are the  grammatical erlations of this  language? Give morphosyntactic
+   #   evidence for each one that you propose.
+   #   - Subject?
+   #   - Ergative?
+   #   - Absolutive?
+   #   - Direct object?
+   #   - Indirect object?
+   #   There  are basically  four  possible sources  of  evidence for  grammatical
+   #   relations:
+   #   - morphological case on NPs
+   #   - person marking on verbs
+   #   - constituent order
+   #   - some pragmatic hierarchy
+   # - Is the system of grammatical  relations in basic (affirmative, declarative)
+   #   clauses     organized     according     to     a     nominative/accusative,
+   #   ergative/absolutive, tripartite, or some other system?
+   # - Is there a  split system for organizing grammatical relations?  If so, what
+   #   determines the split?
+   #   - Is   there    split   instransitivity?   If   so,    what   semantic   or
+   #     discourse/pragmatic factor conditions the split?
+   #   - DOes the system for pronouns and/or person marking on verbs operate on
+   #     the same basis as that of full NPs?
+   #   - Are there different grammatical-relation  systems depending on the clause
+   #     type (e.g. main vs. dependent clauses, affirmative vs. negative clauses)?
+   #   - Are there different grammatical-relation  assignment systems depending on
+   #     the tense and/or aspect of the clause?
+   #   - Are   there  any   syntactic  processes   (e.g.  conjunction   reduction,
+   #     relativization) that operate on an ergative/absolutive basis?
    Il  existe   de  façon  universelle   deux  types  de  verbes :   les  verbes
    intransitifs, et les  verbes transitifs. Ces premiers ne  prennent qu’un seul
    argument  obligatoire, un  expérienceur –noté  « S »–, alors  que les  verbes
@@ -1047,51 +1273,136 @@
 
      Je mange une pomme, puis (je) dors.
 
-** Constructions liées aux voix et à la valence
+** Constructions liées à la voix et à la valence
    :PROPERTIES:
-   :CUSTOM_ID: h-af67335a-55e0-491c-8be1-a39e6cd80a6d
+   :CUSTOM_ID: h-f6447004-ff87-46d0-afc2-08e1cf1dfc64
    :END:
-
-*** Causatifs
+*** Augmentation de valence
     :PROPERTIES:
-    :CUSTOM_ID: h-2618d8eb-9c64-4308-a386-c8f426759953
+    :CUSTOM_ID: h-abfdbac1-d00a-48e3-bf03-9e01330d6f5e
     :END:
+**** Causatif
+     :PROPERTIES:
+     :CUSTOM_ID: h-b1dac30b-3ca7-4a71-a313-34cdab5e234e
+     :END:
+     # - How  are causatives  formed in  this language?  There are  basically three
+     #   possible answers to this question:
+     #   - lexicall :: kill
+     #   - morphological :: die + cause
+     #   - analytic/periphrastic :: cause to die
+     # - Give examples of both causative of instransitive verbs (e.g. /He made Shin
+     #   Jaa laugh/),  and of transivite  verbs (e.g. /He  made Shin Jaa  wash the
+     #   dishes/).
+     # - What happens to the causee in each type of causative?
+     # - Does  the   causative  morphosyntax  also  serve   other  functions  (e.g.
+     #   permissive, applicative, benefactive, instrumental, etc.)?
+     # - Are there any  other interesting or unusual facts about  causatives in the
+     #   language?
 
-*** Applicatifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-827551d4-b24a-4d53-b71a-6ceb9a446e74
-    :END:
+**** Applicatif
+     :PROPERTIES:
+     :CUSTOM_ID: h-578be841-9d4e-45bf-99a7-2969887e61d9
+     :END:
+     # - Are there any operations by which  a participant which has a semantic role
+     #   normally expressed in an “oblique”  phrase can “advance” to direct object
+     #   status?
+     # - What semantic  roles are subject  to these  operations and how  common are
+     #   these constructions?
 
-*** Reflexifs et réciproquaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-3a6fd3ce-0ca2-4b90-8a35-b9ac2c4aa921
-    :END:
+**** Déplacement datif
+     :PROPERTIES:
+     :CUSTOM_ID: h-114ace73-6554-41d6-b215-a4008d0cecc2
+     :END:
+     # - Is there a dative-shift construction?
+     # - What semantic roles can be “dative-shifted”?
+     # - Is dative shift obligatory?
 
-*** Passif
-    :PROPERTIES:
-    :CUSTOM_ID: h-5bf5bdc8-6a4b-4e45-a155-04abfc32645f
-    :END:
+**** Datif d’intérêt
+     :PROPERTIES:
+     :CUSTOM_ID: h-acb2ac0a-d3ee-4eab-a9ad-d2e56c7d9e7e
+     :END:
 
-*** Inverses
-    :PROPERTIES:
-    :CUSTOM_ID: h-672b9408-8478-43af-8663-65106be88a41
-    :END:
+**** Possession exterieure
+     :PROPERTIES:
+     :CUSTOM_ID: h-ea45c49e-434b-4033-a204-f4f134bc9743
+     :END:
 
-*** Démotion et omission d’objet
+*** Diminution de valence
     :PROPERTIES:
-    :CUSTOM_ID: h-c2176fd9-b4a7-40bb-b411-9c6d86c85561
+    :CUSTOM_ID: h-57ce8a8b-aa0e-4021-ad4b-768bb4d22d5e
     :END:
+**** Réflexifs et réciproques
+     :PROPERTIES:
+     :CUSTOM_ID: h-e24ca699-b946-4a20-a89a-4e6fcdd04aaf
+     :END:
+     # - How are reflexives expressed?
+     #   - Morphologically?
+     #   - Analytically?
+     # - Are reflexives and reciprocals formally identical?
+     # - Are there  any “unusual”  uses of reflexive/reciprocal  morphosyntax? For
+     #   example, does a reflexive marker appear in a noun phrase to indicate that
+     #   the  possessor of  the noun  phrase is  the same  as the  subject of  the
+     #   clause?
+     # - Does   reflexive/reciprocal   morphology   ever   indicate   interclausal
+     #   coreference?
+     # - Are there other “extended” uses of reflexive or reciprocal morphosyntax?
 
-*** Incorporation d’objet
-    :PROPERTIES:
-    :CUSTOM_ID: h-09acd58c-5c32-4426-9e67-9a01c0db01dc
-    :END:
+**** Passifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-32469595-6713-41f7-82e4-0842363ce78c
+     :END:
+     # - Which type(s) of passive constructions does the language have? Exemplify
+     #   each type, and describe its function or functions.
+     #   - Lexical?
+     #   - Morphological?
+     #   - Analytic?
+     # - Are there “impersonal” passives, i.e.  passives of intransitive verbs, or
+     #   passives where there is not necessarily an *agent* implied?
+     # - Is a passive construction obligatory  in any particular environment, e.g.
+     #   when  a  *patient* outranks  an  *agent*  on some  pragmatically  defined
+     #   hierarchy?
+     # - Are there other types of passives?
+
+**** Inverses
+     :PROPERTIES:
+     :CUSTOM_ID: h-1b1a41fe-0567-4bd0-9980-70e75136f32d
+     :END:
+     # - Does the language have a grammatically instantiated inverse construction?
+     #   If so, what type is it?
+
+**** Constructions moyennes
+     :PROPERTIES:
+     :CUSTOM_ID: h-a6f23f5e-5e5c-4a0d-addf-9a2dc94798bd
+     :END:
+     # - Are there grammatically instantiated middle constructions?
+     # - Additional reading: /Kemmer 1993/
+
+**** Antipassifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-8ae349c3-c9e6-4c00-a8a3-1422bcb759c3
+     :END:
+     # - Are  there  any  grammatical  structures that  specifically  function  as
+     #   antipassives?
+     # - Is some other structure used to  express transitive concepts when the *P*
+     #   is very low in topicality?
+
+**** Démotion d’objet ou omission
+     :PROPERTIES:
+     :CUSTOM_ID: h-e114b8d4-fd80-447b-9807-b740d94250ca
+     :END:
+
+**** Incorporation d’objet
+     :PROPERTIES:
+     :CUSTOM_ID: h-0cbb7721-1e9e-4a4f-b16b-1abbbaf41515
+     :END:
+     # - Does  the language  have object  demotion or  omission constructions  (as
+     #   distinct from antipassives)?
+     #   References: Sapir (1911), Green (1981), Mithun (1984), Sadock (1986).
 
 ** Nominalisation
    :PROPERTIES:
    :CUSTOM_ID: h-fe28b97b-5298-4558-ac69-141a96c87827
    :END:
-
 *** Nominalisation d’action
     :PROPERTIES:
     :CUSTOM_ID: h-cb2ecaf9-7bef-4583-8bfd-d6f58a315b1d
@@ -1101,6 +1412,14 @@
     :PROPERTIES:
     :CUSTOM_ID: h-b684c923-a567-4e31-b752-bceeeb0ff202
     :END:
+    # - Describe the processes  (productive or not) that form a  noun from a verb.
+    #   Include at least:
+    #   - action nominalization
+    #   - agent nominalization
+    #   - patient nominalization
+    # - Is  there  a  distinction  between  agent  nominalization  that  refer  to
+    #   characteristic  activities  (e.g.  /teacher/)  and  those  that  refer  to
+    #   specific events (e.g. /the one who is teaching/)?
 
 **** Nominalisation d’agent
      :PROPERTIES:
@@ -1132,150 +1451,406 @@
      :CUSTOM_ID: h-11d9a04b-7fe3-4796-bc7e-fc19cd9fee7f
      :END:
 
-** Temps, aspects, modes
+** Composition (y compris l’incorporation)
    :PROPERTIES:
-   :CUSTOM_ID: h-f500dde8-de1c-41e7-bcfa-2f35353dd1fb
+   :CUSTOM_ID: h-b87bf07b-897a-4ed3-9bb3-9c4f6063402b
    :END:
+   # - Can subject, object and/or nouns be incorporated into the verb?
+   # - Are there verb-verb compounding processes that result in a verb?
 
+** Temps, aspect, mode
+   :PROPERTIES:
+   :CUSTOM_ID: h-7817ca1d-e3ad-48ed-8f79-9039e5c651c7
+   :END:
 *** Temps
     :PROPERTIES:
-    :CUSTOM_ID: h-d6c519b5-30fd-4812-a9fc-7a32feafa28f
+    :CUSTOM_ID: h-8f9ad932-6d85-4ea3-b4d5-aada0f48e488
     :END:
+    # - Is  there  a  tense  system?   How  does  it  operate?  Future/non-future,
+    #   past/non-past,  past/present/future, or  other?  (You may  want tot  treat
+    #   these separately or group them, depending on how the language works.)
 
 *** Aspects
     :PROPERTIES:
-    :CUSTOM_ID: h-c59c6a50-d662-4fc1-954f-3cf3cff38c4f
+    :CUSTOM_ID: h-ec16ad8f-69c7-44bc-ad20-da6d9188b3d1
     :END:
+    # - How is aspect expressed?
 
 *** Modes
     :PROPERTIES:
-    :CUSTOM_ID: h-a2e5515b-ea84-446b-99a7-d3924624925a
+    :CUSTOM_ID: h-c7d2c230-6431-42f5-bf7a-dd70e61499f3
     :END:
+    # - Is there  a clear  dividing line between  tense/aspect and  mode (probably
+    #   not)?
+    # - What are the modes?
+    # - Is the case-marking pattern influenced at all by TAM?
 
-** Structures marquées pragmaticallement
+*** Lieux/direction
+    :PROPERTIES:
+    :CUSTOM_ID: h-94eb465d-d084-4d4b-9390-618ed43a4606
+    :END:
+    # - Does  the  language  employ  verbal  affixes  or  verb-phrase  grammatical
+    #   functors  that  specify  the  spatial  orientation  or  grounding  of  the
+    #   situation?
+
+*** Référence participante
+    :PROPERTIES:
+    :CUSTOM_ID: h-1aa99e09-4706-4ede-8888-7aed826549dd
+    :END:
+    # - Does the  language mark the person  and/or number of verbal  agreements or
+    #   speech act participants on the verb?
+    # - Provide charts of the various paradigms.
+
+*** Évidentialité, validation et mirativité
+    :PROPERTIES:
+    :CUSTOM_ID: h-52d58b47-a607-4f9b-9fa8-f960d3ab50cc
+    :END:
+    # - Are    there   any    grammaticalized    indicators   of    evidentiality,
+    #   validationality, or mirativity?
+
+*** Divers
+    :PROPERTIES:
+    :CUSTOM_ID: h-552d73fa-eee2-46d8-9225-42431b4d7820
+    :END:
+    # - Does  the language  have  any other  “miscellaneous”  verb or  verb-phrase
+    #   operations?
+    # - For any such miscellaneous operations, argue  for why you have not treated
+    #   them as TAM or location/direction marking.
+
+** Structures marquées pragmatiquement
    :PROPERTIES:
-   :CUSTOM_ID: h-53119c8d-f658-4d25-ba99-b83c2f7b1141
+   :CUSTOM_ID: h-eaf98d70-ee47-43bc-92e3-425c940a4493
    :END:
-
-*** Variation d’ordre des constituents
+*** La morphosyntaxe de l’attention, du contraste et du sujet
     :PROPERTIES:
-    :CUSTOM_ID: h-96b5098a-1978-4c3f-80a4-701c092094b7
+    :CUSTOM_ID: h-81bddead-67b2-4183-94a8-d9608c14c5ff
     :END:
-
-*** Particules contrastives ou emphatiques
-    :PROPERTIES:
-    :CUSTOM_ID: h-89e9cd31-86ed-48bf-a008-602430bcf0ce
-    :END:
-
-*** Modèle d’intonations contrastives ou emphatiques
-    :PROPERTIES:
-    :CUSTOM_ID: h-c0e68a68-7310-461d-976d-93347cf8b73e
-    :END:
-
-*** Négation
-    :PROPERTIES:
-    :CUSTOM_ID: h-6a646498-d723-45b2-9e6b-2504130ea1ad
-    :END:
-
-*** Questions
-    :PROPERTIES:
-    :CUSTOM_ID: h-67bd057c-f2cb-4cd0-8421-9188ed37b443
-    :END:
-
-**** Questions absolues
+**** Variation d’ordre des constituants
      :PROPERTIES:
-     :CUSTOM_ID: h-51d5c4b8-3530-4f48-9d84-95cac67df00d
+     :CUSTOM_ID: h-6d3d502c-89da-4c88-9bb0-0e08fa3cced8
      :END:
+     # - Are  there special  devices for  indicating pragmatic  statuses in  basic
+     #   clauses, e.g.  special constituent  orders, left-  and right-dislocation,
+     #   affixes,  or  particles  indicating referentiality,  specificity,  topic,
+     #   focus, contrast, etc.?
+     # - Describe  cleft constructions.  If possible,  give a  characterization of
+     #   their discourse functions.
 
-**** Questions relatives
+**** Négation
      :PROPERTIES:
-     :CUSTOM_ID: h-0b88c67d-3dc2-4b7c-9e10-41fedff292c1
+     :CUSTOM_ID: h-0b72b283-9ce9-4078-8d44-e8cc85c554e1
      :END:
+     # - What is the standard means of forming a negative clause in this language?
+     # - What secondary strategies are there? When are they usedQ
+     # - Is there constituent negation? Derivational negation?
+     # - How is morphology normally associated  with negation employed in creative
+     #   ways in discourse?
 
-*** Impératif
+**** Actes de parole non-déclaratifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-926244cf-335f-4eb1-842d-05f483e791e3
+     :END:
+***** Impératifs
+      :PROPERTIES:
+      :CUSTOM_ID: h-857e4f5d-623e-4ea6-8263-96cd90b724dc
+      :END:
+      # - How are imperatives formned?
+      # - Are  there   “polite”  imperatives   that  contrast  with   more  direct
+      #   imperatives?
+      # - Are there “first person” imperatives (e.g.  /Let’s eat/)? If so, how are
+      #   they used?
+
+***** Questions absolues
+      :PROPERTIES:
+      :CUSTOM_ID: h-b273f0de-ba6d-49c7-9eba-c49dbb527d4b
+      :END:
+      # - How are yes/no questions formed?
+
+***** Questions relatives
+      :PROPERTIES:
+      :CUSTOM_ID: h-3732004d-f013-4d12-bae8-ba1ed7359ece
+      :END:
+      # - How are information questions formed?
+
+*** Particules contrastives et emphatiques
     :PROPERTIES:
-    :CUSTOM_ID: h-38810677-b444-48fb-9d2a-3a83b482eb50
+    :CUSTOM_ID: h-772ee454-b2dc-4461-b619-e1c60a2e9fdf
+    :END:
+
+*** Motifs d’intonation contrastifs et emphatiques
+    :PROPERTIES:
+    :CUSTOM_ID: h-9c0eda5f-2dd9-4011-aed5-07214524ab8d
     :END:
 
 ** Combinaison de clauses
    :PROPERTIES:
-   :CUSTOM_ID: h-750f8ccc-c3aa-4e6d-b553-344645ad14fb
+   :CUSTOM_ID: h-60c13fa4-7a4a-44db-8ade-28e39243a390
    :END:
-
 *** Verbes de série
     :PROPERTIES:
-    :CUSTOM_ID: h-197ca667-84c4-4701-8b84-e12498940db8
+    :CUSTOM_ID: h-42ff20dc-0552-463d-901c-997bb7f1b3f5
     :END:
+    # - Does  the langugae  have serial  verbs (or  “co-verbs” in  the East  Asian
+    #   tradition)?
+    # - Which verbs are most likely to occur in serial constructions?
+    # - Are there  any that are  losing their  semantic content and  becoming more
+    #   like auxiliaries,  adpositions, or TAM  markers when they occur  in serial
+    #   constructions?
 
 *** Clauses complémentaires
     :PROPERTIES:
-    :CUSTOM_ID: h-39f3fd70-aff6-4bbf-99d9-e84d720afe6c
+    :CUSTOM_ID: h-56f6552e-6604-4dde-98cb-6286f3f6291e
     :END:
+    # - What kinds of complement clause does the language have?
+    # - Are  particular   complement  types  common  for   particular  classes  of
+    #   complement-taking verbs?
+    # - Does the  language allow  subject and object  complements, or  just object
+    #   complements?
 
 *** Clauses adverbiales
     :PROPERTIES:
-    :CUSTOM_ID: h-c05e3ae9-2880-4454-9027-53ad1cfb3975
+    :CUSTOM_ID: h-69e269b0-ded6-4188-8fb2-869921f27375
     :END:
+    # - How are adverbial clauses formed?
+    # - What kinds  of adverbial  clauses are there,  e.g. time,  manner, purpose,
+    #   reason, consequence, sequence, conditional?
+    # - Can adverbial clauses occur in more than one place in a clause?
+    # - If so,  are there any differences  in meaning associated with  the various
+    #   allowable positions for any given adverbial clause type?
+    # - Among  the conditionals,  are there  any subdivisions,  e.g. contrafactual
+    #   (/*If  I  had  done  it  differently*,  that  wouldn’t  have  happenned/),
+    #   hypothetical (/*If I were you*, I’d do it differently/)?
+    # - What restrictions are there on the TAM marking of conditional clauses?
 
-*** Enchaînement de clauses
+*** Enchaînement de clauses, clauses médianes et changement de référence
     :PROPERTIES:
-    :CUSTOM_ID: h-375bb375-7848-4da8-910f-25679b447bc0
+    :CUSTOM_ID: h-2fe752f2-8586-4fd2-85de-a0f94f04be07
     :END:
+    # - Does  the  language  have   any  grammaticalized  device  that  explicitly
+    #   indicates whether a participant in one  clause is the same as or different
+    #   than some participant in another clause?
+    #   If so, answer the following questions:
+    #   - What direction  does the dependency  go? That  is, does a  marker signal
+    #     coreferentiality with a  yet to be mentioned participant,  or an already
+    #     mentioned participant? (Maybe both, depending on other factors.)
+    #   - What can “antecede”  one of these markers? That  is, is coreferentiality
+    #     always  with respect  to  a “subject”  participant,  or can  non-subject
+    #     *agent*,  or nominal  of  other grammatical  relations  also antecede  a
+    #     coreference form?
+    #   - On What categories of elements can  these markers go, e.g. verbs, nouns,
+    #     conjunctions, etc.?
+    # - Can one clause  be inflected for the person/number of  the subject of some
+    #   other clause?
+    # - Does the markers of interclausal coreference also carry other information,
+    #   e.g. tense/aspect or semantic relations between clauses?
+    # - How extensive is this phenomenon?
 
 *** Clauses relatives
     :PROPERTIES:
-    :CUSTOM_ID: h-bf2f8f43-92b4-486f-8e0a-24694ba445c1
+    :CUSTOM_ID: h-a7892774-5608-47c3-a66a-fef0a11acea2
     :END:
+    # - What kind of relative clauses does the language have?
+    #   - Prenominal?
+    #   - Postnominal?
+    #   - Internally headed?
+    #   - Headless?
+    #   - Correlative?
+    # - What  positions  on  the   following  relativizability  hierarchy  can  be
+    #   relativized?
+    #   subject > direct object > indirect object > oblique > possessor
+    # - What RC type of “case recoverability strategy“ is used for each position?
 
 *** Coordination
     :PROPERTIES:
-    :CUSTOM_ID: h-b8957545-ba37-47eb-a548-2a17968b290b
+    :CUSTOM_ID: h-1e8799b0-9cce-4bff-a5b2-f237ed0715fb
     :END:
+    # - How are the following kinds of logical relations between clauses typically
+    #   expressed?
+    #   - Conjunction (a and b)/(neither a nor b)?
+    #   - Disjunction (a or b)?
+    #   - Exclusion (a and not b)?
 
 ** Utilisation de la langue
    :PROPERTIES:
-   :CUSTOM_ID: h-14a41a5a-efa4-492e-967b-35011ea0628c
+   :CUSTOM_ID: h-410b5fac-bda1-4c79-9f74-9bd747666e2c
    :END:
-
-*** Typologie lexicale
+*** Continuité (cohésion) et discontinuité
     :PROPERTIES:
-    :CUSTOM_ID: h-285839a4-cc7c-435d-ba58-1600ca3f48f0
+    :CUSTOM_ID: h-0a5942b9-40eb-4289-bc48-c8e261d396e1
     :END:
+    # - What are the discourse functions  of the various referential devices? That
+    #   is,  which  code  highly  continuous  referents,  and  which  code  highly
+    #   discontinuous referents?
+    # - Related  questions: how  are  referents introduced  into narrative  and/or
+    #   conversational discourse?
+    # - Are referents introduced differently depending  on whether or not they are
+    #   “destined” to figure prominently in the following text? (That is, does the
+    #   language  clearly  distinguish  introductions of  “discourse  manipulable”
+    #   referents?)
+    # - Are there different  coding devices used to introduce  referents that have
+    #   some honorific status?
+    # - How is tense/aspect  marking deployed in discourse?  (Answer will probably
+    #   vary according to genre)
+    # - What morphosyntactic device are used to signal the “events” in a narrative
+    #   discourse?  What  about  the  “non-events”,  i.e.  collateral  descriptive
+    #   material?
+    # - What devices are used to ascribe special prominence to portions of text?
+    # - Can you isolated the /kinds/ of  prominence that the language is sensitive
+    #   to?
+    # - Are there  special morphosyntactic devices characteristically  used at the
+    #   climax or peak of a narrative?
+    # - Is there a recognizable peak in other genres?
+    # - Are rhetorical  questions and/or negations used  as “highlighting” devices
+    #   in discourse? Give examples.
 
-**** Espace, direction et mouvement
+**** Continuité de sujet (référenciel)
      :PROPERTIES:
-     :CUSTOM_ID: h-78bafe65-0cf5-49a4-aab5-fb5deb266015
+     :CUSTOM_ID: h-48bbdda1-6153-4bb2-9329-41acb5ed4e16
      :END:
 
-**** Causation
+**** Continuité de thème
      :PROPERTIES:
-     :CUSTOM_ID: h-84a756d2-ba4f-41a9-9496-40fa88259f9e
-     :END:
-
-**** Perspective
-     :PROPERTIES:
-     :CUSTOM_ID: h-f32373d9-9208-4f8c-a79c-b9a2cf1afce9
-     :END:
-
-*** Continuité et discontinuité
-    :PROPERTIES:
-    :CUSTOM_ID: h-89cae237-f281-4796-95a0-e0a48c368d01
-    :END:
-
-**** Continuité de sujet référenciel
-     :PROPERTIES:
-     :CUSTOM_ID: h-3a6784ba-3b39-4539-aeeb-a56d298649cd
-     :END:
-
-**** Continuité thématique
-     :PROPERTIES:
-     :CUSTOM_ID: h-621fd045-3082-4574-853b-89885f6a3b69
+     :CUSTOM_ID: h-c101a6e6-3235-497c-93b0-8d1a33d6014b
      :END:
 
 **** Continuité d’action
      :PROPERTIES:
-     :CUSTOM_ID: h-0b6b8ce5-367e-4502-af63-80ff14a10e4c
+     :CUSTOM_ID: h-98780284-20cb-4ddd-ac75-55454ac31dd1
      :END:
+
+**** Prominence épisodique
+     :PROPERTIES:
+     :CUSTOM_ID: h-d2e427d9-a12d-4930-ae84-b6f2e1db22e9
+     :END:
+***** Apogée, point de culminance
+      :PROPERTIES:
+      :CUSTOM_ID: h-0a5068b2-1d91-4fa1-b8c6-163ceef8ded9
+      :END:
+
+***** Intensification
+      :PROPERTIES:
+      :CUSTOM_ID: h-c4f61aa8-4b31-49e4-87d3-222105840b36
+      :END:
+
+*** Genres
+    :PROPERTIES:
+    :CUSTOM_ID: h-c001376f-4df2-4340-a181-62ab0e1eb645
+    :END:
+    # - What discourse genre are demonstrably distinct in this language? Exemplify
+    #   and discuss the significant characteristics for each.
+
+**** Conversation
+     :PROPERTIES:
+     :CUSTOM_ID: h-93c266a5-2f68-4bce-9d28-4fd6ae52640d
+     :END:
+
+**** Narratif
+     :PROPERTIES:
+     :CUSTOM_ID: h-0a1db1a3-6460-4f55-999b-28c0f4dad61b
+     :END:
+***** Expériences personnelles
+      :PROPERTIES:
+      :CUSTOM_ID: h-098a7c39-cf64-4312-9b76-c2869e2da5de
+      :END:
+
+***** Historique
+      :PROPERTIES:
+      :CUSTOM_ID: h-cc748a7e-07be-4a8e-b5fa-59273aeb307c
+      :END:
+
+***** Histoires folkloriques
+      :PROPERTIES:
+      :CUSTOM_ID: h-917be5b0-5b4e-4b21-a52e-e40131e09921
+      :END:
+
+***** Mythologie
+      :PROPERTIES:
+      :CUSTOM_ID: h-6c431938-12f9-4d8a-89e0-a61a8aaeba3b
+      :END:
+
+**** Pressant
+     :PROPERTIES:
+     :CUSTOM_ID: h-068bfae1-e695-4d50-9ab4-dd7cb8bd07f3
+     :END:
+
+**** Procédurel
+     :PROPERTIES:
+     :CUSTOM_ID: h-f1217ba9-c667-460e-98a9-c57b8e4bf26b
+     :END:
+
+**** Informatif
+     :PROPERTIES:
+     :CUSTOM_ID: h-fceaaa34-b2ac-4296-a8d6-56d0cb5baa21
+     :END:
+
+**** Descriptif
+     :PROPERTIES:
+     :CUSTOM_ID: h-62923698-ff3e-4d49-b0bc-7f51fc465733
+     :END:
+
+**** Élocution rituelle
+     :PROPERTIES:
+     :CUSTOM_ID: h-b437a999-0294-43a6-8752-ba282078c026
+     :END:
+*** Typologie lexicale
+    :PROPERTIES:
+    :CUSTOM_ID: h-e6d10a54-078f-4cc0-8a07-28a6fed468ba
+    :END:
+**** Espace, directions et déplacements
+     :PROPERTIES:
+     :CUSTOM_ID: h-997b8c61-cb5d-40f9-92c1-6e17cfaddce3
+     :END:
+
+**** Causation
+     :PROPERTIES:
+     :CUSTOM_ID: h-44afa9f9-5dc8-4883-90f5-a214b455eef9
+     :END:
+
+**** Valence
+     :PROPERTIES:
+     :CUSTOM_ID: h-39f2e9c1-f91f-4e64-b667-c89a3c9edf77
+     :END:
+
+**** Prépondérance des caractéristiques sémantiques
+     :PROPERTIES:
+     :CUSTOM_ID: h-5ab18e70-8101-417d-be7e-1d87cb85a6ed
+     :END:
+
+*** Divers et conclusions
+    :PROPERTIES:
+    :CUSTOM_ID: h-ee4f1d3a-b677-450c-ae7e-0058b3951ad0
+    :END:
+**** Expressions idiomatiques et proverbes
+     :PROPERTIES:
+     :CUSTOM_ID: h-f4be97ec-4df3-40e2-ae76-73ddf08134a1
+     :END:
+
+**** Symbolisme sonore
+     :PROPERTIES:
+     :CUSTOM_ID: h-5556ebe6-940e-40ee-8a97-c2bfd6c0e9e1
+     :END:
+     # - Does the language make extensive and productive use of sound symbolism?
+     # - What are some common ideophones?
+     # - How  is  the  phonological  system  of  ideophones  and  sound  symbolism
+     #   different than that of the rest of the language?
+     # - How is the morphology different? How is the syntax different?
+
+**** Découvertes typologiques
+     :PROPERTIES:
+     :CUSTOM_ID: h-e7e10073-62f0-443e-83d1-6db24687d7bb
+     :END:
+     # - What are the features of this language that are particularly interesting?
+     # - What typological surprises does it present?
+     # - How  does  this  work  contribute  to our  understanding  of  the  notion
+     #   “possible human  language”? What directions  for further research  do you
+     #   recommend and/or plan to undertake yourself?
+     # - Can you qualitatively describe the “character” of this language? What are
+     #   its dominant features?
+     # - What are the characteristics of a skilled orator in this language?
+     # - Can  you provide  some  explicit  examples that  will  contribute to  the
+     #   reader’s sense of how this language  is used? Some possibilities might be
+     #   jokes, prayers,  metaphorical expressions,  or other  culturally relevent
+     #   discourse samples.
 
 * Annexes
   :PROPERTIES:
