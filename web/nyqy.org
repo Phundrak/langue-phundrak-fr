@@ -96,20 +96,19 @@
    :END:
    Depuis plusieurs siècle déjà, la création de langues est une discipline ayant
    intriguée les  Hommes, certains créant  des langues dans des  buts religieux,
-   philosophiques ou  idéalistes, tandis que  d’autres n’en crééent que  dans un
-   but  artistique,  que  ce  soit  pour compléter  une  œuvre  comme  l’a  fait
-   JRR Tolkien  avec  ses  diverses  langues  dont  les  langues  elfiques  pour
-   compléter son univers  présenté dans /Le Seigneur des Anneaux/,  ou bien dans
-   le but purement artistique de créer une  langue pour la beauté du geste, pour
-   l’œuvre que cette  langue peut être en elle-même. Et  parmi ces langues, deux
-   groupes se  distinguent : les  langues /a posteriori/,  qui sont  des langues
-   crées  avec  d’autres langues  servant  pour  base,  comme  c’est le  cas  de
-   l’Esperanto ou du  Elefen, ou bien qui  sont créées /a priori/,  c’est à dire
-   sans  aucune base  au  préalable autre  que  des connaissances  linguistiques
-   suffisantes pour pouvoir créer une langue, comme pour le Klingon de l’univers
-   de /StarTrek/.
+   philosophiques ou idéalistes, tandis que d’autres n’en créent que dans un but
+   artistique, que ce  soit pour compléter une œuvre comme  l’a fait JRR Tolkien
+   avec  ses diverses  langues  dont  les langues  elfiques  pour compléter  son
+   univers présenté dans /Le Seigneur des Anneaux/, ou bien dans le but purement
+   artistique de  créer une  langue pour  la beauté du  geste, pour  l’œuvre que
+   cette langue  peut être en elle-même.  Et parmi ces langues,  deux groupes se
+   distinguent : les  langues /a  posteriori/, qui sont  des langues  crées avec
+   d’autres langues servant  pour base, comme c’est le cas  de l’Esperanto ou du
+   Elefen, ou bien qui sont créées /a  priori/, c’est à dire sans aucune base au
+   préalable autre que des  connaissances linguistiques suffisantes pour pouvoir
+   créer une langue, comme pour le Klingon de l’univers de /StarTrek/.
 
-   Durant  ces  dernières  décénies,   aidés  par  l’avènement  d’internet,  les
+   Durant  ces  dernières  décennies,  aidés  par  l’avènement  d’internet,  les
    créateurs  de  langues,  auquel  on  se  réfère  par  « idéolinguistes »,  ou
    « conlangers » dans la langue de Shakespeare, ont pu se fédérer, échanger, et
    améliorer leur art tout en le propageant. Et à l’heure actuelle, inspirés par
@@ -167,7 +166,7 @@
    présent, quelqu’un intéressé  par le Ñyqy ne pouvait facilement  accéder à un
    condensé  des résultats  des  recherches existantes,  présents  en un  unique
    ouvrage se présentant comme une grammaire technique de la langue. Ainsi, j’ai
-   entrepris de la  rédiger dans cet ouvrage dans l’espoir  que cela facilite la
+   entrepris de le  rédiger dans cet ouvrage dans l’espoir  que cela facilite la
    tâche  de mes  collègues  et  futurs collègues  dans  leurs  études de  cette
    merveille   qu’est   le   résultat  de   cette   collaboration   linguistique
    internationale s’étant  étalée sur  plusieurs siècles,  aidés par  les écrits
@@ -182,13 +181,13 @@
    :CUSTOM_ID: h-410ccf5a-d5eb-436b-b3f4-a0a4bb4249e9
    :END:
    Dans ce  document seront  utilisé certaines conventions  typographiques, dont
-   des  gloses grammaticales  inter-lignes[fn:4], une  étoile ~*~  précédant des
+   des  gloses grammaticales  interlignes[fn:4],  une étoile  ~*~ précédant  des
    éléments linguistiques considérés comme erronés, un point d’interrogation ~?~
    afin de marquer  des éléments linguistiques questionnables, ou  bien dans les
    gloses une utilisation  du chiffre zéro ~0~ afin de  marquer une absence d’un
    ou plusieurs éléments.
 
-** Liste d’abbréviations
+** Liste d’abréviations
    :PROPERTIES:
    :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
    :END:
@@ -246,13 +245,13 @@
    également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ñyqy)}}}  pour se
    désigner lui-même, mais nous disposons de  trop peu de preuve afin de pouvoir
    affirmer cela avec certitude. Le  terme s’analyse en deux morphèmes basiques,
-   {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ñy)}}}  est le pronom personel du singulier,
+   {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ñy)}}} est le pronom personnel du singulier,
    et  {{{nyqy(qy)}}}  qui le  suit  a  plusieurs  utilisations,  le chiffre  /6/  (le
    {{{nyqy(Ñyqy)}}} est  une langue dont le  système numérique est un  système hybride
    entre  une  base  six  et  une   base  treize)  ou  bien  la  pluralité,  ici
    infléchissant le {{{nyqy(ñy)}}} afin de former la première personne du pluriel.
 
-   Il est à noter que le nom  de cette langue est traditionellement écrite en un
+   Il est à noter que le nom de cette langue est traditionnellement écrite en un
    seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
    mauvaise habitude : chaque élément peut être analysé individuellement et peut
    donc être  considéré comme  mots séparés,  d’où la  néographie « Ñy  Qy » que
@@ -264,7 +263,7 @@
 
    Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ñyqy », ou
    « proto  Ñy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
-   l’abscence totale d’autres langues  nommées « Ñyqy ». Elle n’est généralement
+   l’absence totale  d’autres langues nommées « Ñyqy ».  Elle n’est généralement
    utilisée que  si le  locuteur souhaite  insister sur la  nature de  la langue
    comme langue mère de sa famille.
 
@@ -345,7 +344,7 @@
 
    Sur  ce  dernier  point,  il  semblerait qu’il  n’y  avait  pas  de  tendance
    particulière quant  à qui  rejoignais la  famille de  qui parmi  les familles
-   représentant le bas peuple,  composées principalement de paysans, d’artisants
+   représentant le bas peuple,  composées principalement de paysans, d’artisans
    et de petits marchants. En revanche,  il semblerait qu’il était beaucoup plus
    fréquent  pour les  hommes de  rejoindre la  famille de  leur femme  une fois
    mariés si la  famille pouvait être considérée comme riche  ou importante, par
@@ -353,7 +352,7 @@
    détenant un pouvoir militaire.
 
    Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ñyqy
-   pratiquaient leur religion polythéïste. Il est cependant impossible de savoir
+   pratiquaient leur religion polythéiste. Il est cependant impossible de savoir
    s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
    Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
    moins, ainsi que la vénération des étoiles et du feu, et les dieux liés à ces
@@ -371,12 +370,12 @@
    #   Social? Friendly? Belligerent?
    # - In  social/economic  interactions  with  other  groups,  which  groups  are
    #   dominant and which are marginalized? How so?
-   Selon toute  vraissemblance, le Ñyqy  était parlé  dans la vallée  du Mojhal,
-   dans l’actuel Rhésode. Bien qu’il  soit quasiment impossible de déterminer la
+   Selon toute vraisemblance, le Ñyqy était parlé dans la vallée du Mojhal, dans
+   l’actuel  Rhésode. Bien  qu’il  soit quasiment  impossible  de déterminer  la
    superficie  maximale   couvrant  cette  région,  il   est  considéré  prudent
    d’affirmer que  la langue était  au moins parlée  depuis le delta  du Mojhal,
    cœur économique  de la région,  jusqu’à son confluent  avec le Lor  ainsi que
-   dans toute  zone se situant à  moins de sept  lieues de ce troçon  du Mojhal.
+   dans toute zone  se situant à moins  de sept lieues de ce  tronçon du Mojhal.
    Cela représente une  surface vaste, très certainement  indicateur d’une unité
    politique tout  du moins  de la région,  comme par exemple  un royaume  ou un
    empire. Il est également possible qu’il s’agissait d’une continuité de petits
@@ -393,7 +392,7 @@
    qu’entretenaient le peuple Ñyqy avec ses voisins, il est tout à fait probable
    qu’ils aient été en guerre tout comme  ils été amicaux avec certains de leurs
    voisins: en effet,  des termes liés à la guerre,  mais également aux échanges
-   culturels, mercantiles et amicaux ont pû être reconstruits.
+   culturels, mercantiles et amicaux ont pu être reconstruits.
 
 ** Corpus, reconstruction de la langue
    :PROPERTIES:
@@ -419,7 +418,7 @@
    #   "dependent-marking", or mixed?
    # - Give some examples of each type of marking the language exhibits.
    Le  Ñyqy est  une langue  qui apparaît  comme étant  fortement analytique  et
-   isolationiste,  reposant principalement  sur  sa syntaxe  afin d’exprimer  sa
+   isolationniste,  reposant principalement  sur sa  syntaxe afin  d’exprimer sa
    grammaire et  très peu sur des  règles morphologiques. La large  majorité des
    mots  sont  monosyllabiques ou  bisyllabiques,  et  les phrases  s’articulent
    souvent autour  de morphèmes liés  monosyllabiques que l’on  peut interpréter
@@ -443,19 +442,19 @@
 
       Je souhaite boire
 
-   Dans l’exemple n°1, nous pouvons remarquer l’abscence d’un verbe « être », ce
+   Dans l’exemple n°1, nous pouvons  remarquer l’absence d’un verbe « être », ce
    qui est un exemple des prédicats  existentiels qui ne requièrent pas de verbe
    afin  d’exprimer  une  possession.  On  peut  également  voir  que  l’élément
-   définisant est situé après la particule génitive, tandis que l’élément défini
-   se situe avant celle-ci. Il s’agit là d’un des nombreux exemples montrant que
-   le  Ñyqy  est  une  langue  dont   la  tête  de  ses  diverses  constructions
-   grammaticales  est finale  et  non  initiale.
+   définissant  est situé  après  la particule  génitive,  tandis que  l’élément
+   défini  se situe  avant celle-ci.  Il s’agit  là d’un  des nombreux  exemples
+   montrant  que  le  Ñyqy  est  une   langue  dont  la  tête  de  ses  diverses
+   constructions grammaticales est finale et non initiale.
 
    L’exemple n°2  nous montre  la méthode  utilisée en  Ñyqy afin  d’employer le
    duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
-   infléchir. Ainsi, {{{nyqy(bú qi)}}} peut être considéré comme le pronom personel de
-   la seconde personne du singulier infléchis afin de devenir le pronom personel
-   de la seconde personne du duel.
+   infléchir. Ainsi, {{{nyqy(bú  qi)}}} peut être considéré comme  le pronom personnel
+   de  la seconde  personne du  singulier infléchis  afin de  devenir le  pronom
+   personnel de la seconde personne du duel.
 
    Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
    d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
@@ -477,7 +476,7 @@
    mais  pas nécessairement  pour nous.  Même si  plus personne  ne parle  cette
    langue actuellement,  il me  semble important pour  les étudiants  de langues
    anciennes  de pouvoir  associer  des sons  aux divers  mots  et aux  diverses
-   phrases qu’ils rencontreront ;  il s’agit d’une langue, après  tout ! Dans ce
+   phrases qu’ils rencontreront ;  il s’agit d’une langue, après  tout ! Dans ce
    chapitre, j’essaierai de présenter ce qui  est connu de la phonologie du Ñyqy
    afin que l’on puisse se faire une  idée de ce à quoi ressemblait cette langue
    lorsqu’elle était parlée il y a plusieurs millénaires.
@@ -564,7 +563,7 @@
     - o :: Il s’agit de la  voyelle postérieure mi-ouverte arrondie [ɔ] que l’on
            retrouve en Français dans « sort » [sɔːʁ].
     - ó ::  Il s’agit de la  voyelle postérieure mi-fermée non-arrondie  [ɤ] que
-           l’on  retrouve  en  Gaellique  Écossais  « doirbh »  [d̪̊ɤrʲɤv]  ou  en
+           l’on  retrouve  en  Gaélique  Écossais  « doirbh »  [d̪̊ɤrʲɤv]  ou  en
            Estonien « kõrv » [kɤrv].
     - u :: Il s’agit de la  voyelle postérieure pré-fermée arrondie [ʊ] que l’on
            retrouve en Anglais américain « hook » [hʊ̞k].
@@ -808,7 +807,7 @@
      :CUSTOM_ID: h-3609d30d-2c4a-4cc9-9693-80ee16a0292e
      :END:
 
-**** Inflections
+**** Inflexions
      :PROPERTIES:
      :CUSTOM_ID: h-bb4f100b-4f1f-410c-9cf1-81dd86bba054
      :END:
@@ -874,7 +873,7 @@
      :CUSTOM_ID: h-d24313ab-d25e-4057-92fc-539a35148646
      :END:
 
-**** Inflections verbales
+**** Inflexions verbales
      :PROPERTIES:
      :CUSTOM_ID: h-a93f1630-eeff-4e33-aa34-7c75b4b83e0e
      :END:
@@ -940,14 +939,14 @@
    :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
    :END:
    Le Ñyqy est une langue dont  sa tête de groupes grammaticaux est généralement
-   en fin dudit  groupe. On peut voir avec l’arbre  [[arbre:syntaxe:basique]] que la
+   en fin du-dit groupe. On peut  voir avec l’arbre [[arbre:syntaxe:basique]] que la
    structure générale  d’une phrase  standard démarre  avec des  éléments divers
    liés à la clause principale s’il y en a, auxquels on se référera généralement
    en tant qu’éléments /obliques/. Ces éléments ne sont liés au verbe ni par une
    relation grammaticale  ergative, ni dative,  ni absolutive. Ensuite  vient la
    phrase nominale ergative, précédant la  phrase dative, elle-même précédant la
    phrase verbale,  contenant une phrase nominale  absolutive et le verbe  de la
-   phrase,  le  dernier  élément  d’une phrase  {{{nyqy(ñyqy)}}}.  Les  sous-chapitres
+   phrase,  le  dernier  élément  d’une phrase  {{{nyqy(ñyqy)}}}.  Les  sous chapitres
    suivants détailleront la composition de chacun de ces éléments.
 
    #+NAME: basic-syntax-tree
@@ -1290,7 +1289,7 @@
 
      Verbe transitif, « je » est agent A, et « pomme » est patient P.
 
-   Dans la majorité des langues du  monde, et dans la quasi-totalité des langues
+   Dans la majorité des langues du monde,  et dans la quasi totalité des langues
    européennes (le Basque  étant la seule exception),  l’expérienceur et l’agent
    sont  traités  quasiment  tout  le   temps  à  l’identique,  formant  le  cas
    grammatical  (souvent non  marqué) s’opposant  au cas  accusatif marquant  le
@@ -1378,7 +1377,7 @@
      :CUSTOM_ID: h-acb2ac0a-d3ee-4eab-a9ad-d2e56c7d9e7e
      :END:
 
-**** Possession exterieure
+**** Possession extérieure
      :PROPERTIES:
      :CUSTOM_ID: h-ea45c49e-434b-4033-a204-f4f134bc9743
      :END:
@@ -1463,6 +1462,13 @@
     :PROPERTIES:
     :CUSTOM_ID: h-cb2ecaf9-7bef-4583-8bfd-d6f58a315b1d
     :END:
+    Le processus de nominalisation des  verbes repose principalement, à l’instar
+    de la grammaire  Ñyqy dans sa globalité, sur une  association desdits verbes
+    avec un  mot ayant ici  un rôle de  particule grammaticale. Ainsi,  un verbe
+    associé  à {{{nyqy(só)}}}  (signifiant « manière  de faire »)  en position  affixe
+    permet d’obtenir  d’un verbe un  nom utilisable  comme tel. Par  exemple, le
+    verbe {{{nyqy(meqm)}}} (« parler ») s’associe en {{{nyqy(meqm só)}}} signifiant « l’acte
+    de parler, prise de parole, annonce ».
 
 *** Nominalisation de participants
     :PROPERTIES:
@@ -1506,13 +1512,6 @@
      :PROPERTIES:
      :CUSTOM_ID: h-11d9a04b-7fe3-4796-bc7e-fc19cd9fee7f
      :END:
-     Le processus de nominalisation des verbes repose principalement, à l’instar
-     de la grammaire Ñyqy dans sa  globalité, sur une association desdits verbes
-     avec un  mot ayant ici un  rôle de particule grammaticale.  Ainsi, un verbe
-     associé à  {{{nyqy(só)}}} (signifiant  « manière de  faire ») en  position affixe
-     permet d’obtenir  d’un verbe un nom  utilisable comme tel. Par  exemple, le
-     verbe  {{{nyqy(meqm)}}}  (« parler »)  s’associe   en  {{{nyqy(meqm  só)}}}  signifiant
-     « l’acte de parler, prise de parole, annonce ».
 
 ** Composition (y compris l’incorporation)
    :PROPERTIES:
@@ -1766,7 +1765,7 @@
     # - Are rhetorical  questions and/or negations used  as “highlighting” devices
     #   in discourse? Give examples.
 
-**** Continuité de sujet (référenciel)
+**** Continuité de sujet (référentiel)
      :PROPERTIES:
      :CUSTOM_ID: h-48bbdda1-6153-4bb2-9329-41acb5ed4e16
      :END:
@@ -1781,11 +1780,11 @@
      :CUSTOM_ID: h-98780284-20cb-4ddd-ac75-55454ac31dd1
      :END:
 
-**** Prominence épisodique
+**** Proéminence épisodique
      :PROPERTIES:
      :CUSTOM_ID: h-d2e427d9-a12d-4930-ae84-b6f2e1db22e9
      :END:
-***** Apogée, point de culminance
+***** Apogée, point culminant
       :PROPERTIES:
       :CUSTOM_ID: h-0a5068b2-1d91-4fa1-b8c6-163ceef8ded9
       :END:
@@ -1836,7 +1835,7 @@
      :CUSTOM_ID: h-068bfae1-e695-4d50-9ab4-dd7cb8bd07f3
      :END:
 
-**** Procédurel
+**** Procédural
      :PROPERTIES:
      :CUSTOM_ID: h-f1217ba9-c667-460e-98a9-c57b8e4bf26b
      :END:
@@ -2053,7 +2052,7 @@
 
    |  <c5>  |             <c5>             |          <c5>           |
    |   /    |              <>              |           <>            |
-   | nombre | nombre (représentation ñyqy) |          ñyqy           |
+   | nombre | nombre (représentation Ñyqy) |          Ñyqy           |
    |--------+------------------------------+-------------------------|
    |   0    |              0               |        {{{nyqy(pe)}}}         |
    |   1    |              1               |        {{{nyqy(mi)}}}         |
@@ -2118,3 +2117,8 @@
 [fn:2] [[https://phundrak.fr]]
 
 [fn:1] https://langue.phundrak.fr
+
+#  LocalWords:  Ñy Qy proto-Ñyqy proto Ðbńo Pr Loqbrekh Khorlan Yerth Rhésode
+#  LocalWords:  Mojhal Lor États-cités lingua franca GEN sg OPT SV doirbh kõrv
+#  LocalWords:  hook non-mutées cójm wy wú dor absolutif-verbe sg-ABS sg-ERG
+#  LocalWords:  pomme-ABS
