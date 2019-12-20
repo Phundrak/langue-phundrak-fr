@@ -327,7 +327,15 @@
    les sources  du blé  ou du riz,  voire les deux.  Leur élevage  était orienté
    principalement sur  celui des  vaches et des  porcs. Une  importante activité
    d’échange  fluviale  s’était  probablement   déjà  développée,  ainsi  qu’une
-   activité de pêche dans la zone maritime de la vallée du Mojhal.
+   activité  de pêche  dans la  zone maritime  de la  vallée du  Mojhal. Il  est
+   également très probable  qu’ils aient eu accès à l’une  des forêts tropicales
+   se  situant dans  cette  zone, leur  donnant  un accès  abondant  en bois  de
+   qualité, très  utilisé pour la  construction de  leurs bâtiments et  de leurs
+   outils, ainsi qu’à  une vaste variété de végétaux dont  des fruits et légumes
+   qui  leur  aurait  été  possible   alors  de  cultiver.  Étrangement,  Aucune
+   reconstruction d’un quelconque terme pour  /éléphant/ ou /buffle/ n’a pu être
+   possible, alors que des fouilles ont  prouvé que ces animaux vivaient dans la
+   zone.
 
    Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
    que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
@@ -348,7 +356,9 @@
    pratiquaient leur religion polythéïste. Il est cependant impossible de savoir
    s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
    Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
-   moins, ainsi que la vénération des étoiles et du feu.
+   moins, ainsi que la vénération des étoiles et du feu, et les dieux liés à ces
+   éléments  semblent prendre  une place  beaucoup plus  importante dans  la vie
+   quotidienne du peuple Ñyqy que les autres.
 
 ** Démographie
    :PROPERTIES:
@@ -361,6 +371,29 @@
    #   Social? Friendly? Belligerent?
    # - In  social/economic  interactions  with  other  groups,  which  groups  are
    #   dominant and which are marginalized? How so?
+   Selon toute  vraissemblance, le Ñyqy  était parlé  dans la vallée  du Mojhal,
+   dans l’actuel Rhésode. Bien qu’il  soit quasiment impossible de déterminer la
+   superficie  maximale   couvrant  cette  région,  il   est  considéré  prudent
+   d’affirmer que  la langue était  au moins parlée  depuis le delta  du Mojhal,
+   cœur économique  de la région,  jusqu’à son confluent  avec le Lor  ainsi que
+   dans toute  zone se situant à  moins de sept  lieues de ce troçon  du Mojhal.
+   Cela représente une  surface vaste, très certainement  indicateur d’une unité
+   politique tout  du moins  de la région,  comme par exemple  un royaume  ou un
+   empire. Il est également possible qu’il s’agissait d’une continuité de petits
+   royaumes ou États-cités dont la /lingua franca/ était le Ñyqy ce qui, dans ce
+   cas, indiquerait que  le peuple Ñyqy était le  peuple dominant économiquement
+   ou politiquement dans la région. Les autres peuples théoriques vivant dans la
+   zone d’influence  du Ñyqy parlaient sans  doute leur propre langue,  mais ces
+   dernières n’ont pas eu autant d’impact si ce n’est aucun d’un point de vue de
+   l’histoire de la  linguistique (possiblement au mieux des  mots d’emprunts du
+   Ñyqy, mais  nous n’avons aucun moyen  de le prouver), ce  qui renforce l’idée
+   que ces langues locales étaient marginalisées au profit du Ñyqy.
+
+   Bien  qu’il  nous   soit  impossible  de  connaître  le   type  de  relations
+   qu’entretenaient le peuple Ñyqy avec ses voisins, il est tout à fait probable
+   qu’ils aient été en guerre tout comme  ils été amicaux avec certains de leurs
+   voisins: en effet,  des termes liés à la guerre,  mais également aux échanges
+   culturels, mercantiles et amicaux ont pû être reconstruits.
 
 ** Corpus, reconstruction de la langue
    :PROPERTIES:
