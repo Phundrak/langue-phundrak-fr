@@ -418,13 +418,13 @@
    # - If the language  is at all polysynthetic, is  it dominantly "head-marking",
    #   "dependent-marking", or mixed?
    # - Give some examples of each type of marking the language exhibits.
-   Le  Ñyqy  est une  langue  qui  apparaît  comme étant  fortement  analytique,
-   reposant principalement sur  sa syntaxe afin d’exprimer sa  grammaire et très
-   peu  sur  des  règles  morphologiques.   La  large  majorité  des  mots  sont
-   monosyllabiques ou bisyllabiques, et  les phrases s’articulent souvent autour
-   de morphèmes liés  monosyllabiques que l’on peut interpréter  comme étant des
-   particules  grammaticales.  Voici  un  exemple  de phrase  en  Ñyqy  avec  sa
-   traduction et son détail grammatical :
+   Le  Ñyqy est  une langue  qui apparaît  comme étant  fortement analytique  et
+   isolationiste,  reposant principalement  sur  sa syntaxe  afin d’exprimer  sa
+   grammaire et  très peu sur des  règles morphologiques. La large  majorité des
+   mots  sont  monosyllabiques ou  bisyllabiques,  et  les phrases  s’articulent
+   souvent autour  de morphèmes liés  monosyllabiques que l’on  peut interpréter
+   comme étant des particules grammaticales. Voici  un exemple de phrase en Ñyqy
+   avec sa traduction et son détail grammatical :
    1. {{{nyqy(ñe pom ñy)}}}
 
       maison GEN 1sg
@@ -544,14 +544,14 @@
       (conlanging/tree-to-dot nyqy-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 800px
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 100%
     #+ATTR_LATEX: :width 10cm
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
-    #+RESULTS[d6752d93f1ef9dbe412d3eb47db94ef37601fbd2]:
+    #+RESULTS:
     [[file:img/nyqy/vowel-feature-tree.png]]
 
     Voici une description des voyelles du Ñyqy :
@@ -646,14 +646,14 @@
       (conlanging/tree-to-dot nyqy-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :width 800px
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
-    #+RESULTS[3be02c9003abd7f281f1789435af68d7b25ce1f5]:
+    #+RESULTS:
     [[file:img/nyqy/consonant-feature-tree.png]]
 
 *** Tons et accentuation
@@ -738,20 +738,29 @@
     :PROPERTIES:
     :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
     :END:
-    Il  existe  relativement  peu  de  règles  allophoniques  connues  en  Ñyqy,
-    cependant quelques unes sont à peu près certaines :
+
+*** Harmonie des consonnes
+    :PROPERTIES:
+    :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
+    :END:
+    Les consonnes du Ñyqy suivent  une règle stricte, interdisant deux consonnes
+    dorsales de se suivre, idem pour  deux consonnes non dorsales, même séparées
+    par une voyelle  ou faisant partie de mots différents.  Seule une pause dans
+    l’élocution bloque ce processus. Ainsi, on a les règles formelles suivantes:
 
     - C[+dor] / C[+dor]_ > [-dor]
     - C[-dor] / C[-dor]_ > [+dor]
 
-    Les  deux dernières  règles  reflètent  une règle  générale  du Nyqy :  deux
-    consonnes  ne peuvent  se  suivre si  elles sont  toutes  deux dorsales,  la
-    seconde devant alors changer sa qualité afin  de se soumettre à la règle. Sa
-    qualité haute ou coronale se reflète également lors du changement de qualité
-    dorsale de la  consonne, la qualité /haute/ ou  /coronale/ étant considérées
-    comme    équivalentes    en    Ñyqy.    Vous   pouvez    voir    la    table
-    [[table:mutation:consonants]] qui récapitule les  mutation des consonnes du Ñyqy
-    dû à cette règle.
+    Cette règle  permet de gérer  la proximité  de deux consonnes  similaires en
+    changeant la seconde  consonne qui doit alors changer sa  qualité afin de se
+    soumettre à la règle. Sa qualité haute ou coronale se reflète également lors
+    du  changement de  qualité dorsale  de la  consonne, la  qualité /haute/  ou
+    /coronale/ étant considérées comme équivalentes en Ñyqy. Vous pouvez voir la
+    table [[table:mutation:consonants]] qui récapitule les mutation des consonnes du
+    Ñyqy dû à cette règle. Ce tableau  est issu de l’organisation de l’arbre des
+    caractéristiques  distinctes  des  consonnes  du  Ñyqy  (figure  [[arbre:cons]])
+    présenté         plus         haut,         dans         le         chapitre
+    [[#h-49ab3d74-6565-4f88-835c-f88425493d3f]].
 
     #+NAME: table:mutation:consonants
     #+CAPTION: Table de mutation des consonnes du Ñyqy
@@ -768,12 +777,6 @@
 
     Ainsi, la phrase {{{nyqy(ñe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
     phrase {{{nyqy(qi bú pim mo coq)}}} se ne prononce pas *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
-
-
-*** Harmonie des consonnes
-    :PROPERTIES:
-    :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
-    :END:
 
 ** Classes de mots
    :PROPERTIES:
@@ -992,6 +995,15 @@
     # - Specific to the  main clause constituent order: What  is the pragmatically
     #   neutral order  of constituents  (A/S, P,  and V) in  basic clauses  of the
     #   language?
+    En Ñyqy, l’ordre des éléments principaux  de la phrase typique suit un ordre
+    SV pour  les phrases transitives et  APV pour les phrases  intransitives. Il
+    est toutefois à noter que l’agent  est nécessairement précédé par un élément
+    datif.  Il  est  cependant  possible  lorsqu’aucun  élément  datif  n’est  à
+    mentionner d’utiliser le terme {{{nyqy(bóq)}}} signifiant « rien, aucun ».
+
+    Il est  également à noter que  selon les recherches actuelles,  rien ne nous
+    laisse à penser qu’un autre ordre de ces constituants était possible en Ñyqy
+    mis à par l’ajout d’autres éléments obliques en début de phrase.
 
 *** Ordre des constituants dans les clauses verbales
     :PROPERTIES:
@@ -1059,6 +1071,17 @@
     # - Are there any processes (productive or not) that form a verb from a noun?
     # - An adjective from a noun?
     # - An adverb from a noun?
+    La  dénominalisation en  Ñyqy se  produit grâce  au mot  {{{nyqy(só)}}} signifiant
+    « façon de faire ».  En se préfixant à  un nom, on obtient un  verbe dont la
+    signification  est  généralement en  relation  avec  le nom  d’origine.  Par
+    exemple, en  associant le terme {{{nyqy(qéy)}}}  à ce mot {{{nyqy(só)}}},  on obtient le
+    verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
+
+    Similairement, il  est possible de  créer un adjectif  depuis un nom  via le
+    terme {{{nyqy(coj)}}},  signifiant « manière d’être »  et qui est  souvent comparé
+    dans sa  fonction grammaticale au  comparatif. Ainsi, en associant  le terme
+    {{{nyqy(zum)}}}  (« mer,  océan,  ciel »),   on  obtient  l’adjectif  {{{nyqy(cojzum)}}}
+    signifiant « bleu, aqueux ».
 
 *** Nombres
     :PROPERTIES:
@@ -1073,7 +1096,7 @@
     #   phrases or only some subclasses of noun phrases, such as animate?
     # - What non-singular distinctions are there?
 
-*** Case
+*** Cas grammatical
     :PROPERTIES:
     :CUSTOM_ID: h-7cf3e6ae-6d62-4f39-a4e1-0c697b380675
     :END:
@@ -1483,6 +1506,13 @@
      :PROPERTIES:
      :CUSTOM_ID: h-11d9a04b-7fe3-4796-bc7e-fc19cd9fee7f
      :END:
+     Le processus de nominalisation des verbes repose principalement, à l’instar
+     de la grammaire Ñyqy dans sa  globalité, sur une association desdits verbes
+     avec un  mot ayant ici un  rôle de particule grammaticale.  Ainsi, un verbe
+     associé à  {{{nyqy(só)}}} (signifiant  « manière de  faire ») en  position affixe
+     permet d’obtenir  d’un verbe un nom  utilisable comme tel. Par  exemple, le
+     verbe  {{{nyqy(meqm)}}}  (« parler »)  s’associe   en  {{{nyqy(meqm  só)}}}  signifiant
+     « l’acte de parler, prise de parole, annonce ».
 
 ** Composition (y compris l’incorporation)
    :PROPERTIES:
