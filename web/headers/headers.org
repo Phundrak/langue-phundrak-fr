@@ -20,7 +20,6 @@
 #+LATEX_HEADER_EXTRA: \usepackage{hyperref}
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
 #+LATEX_HEADER_EXTRA: \usepackage{indentfirst}
-#+LATEX_HEADER_EXTRA: \sloppy
 
 # ### HTML #####################################################################
 
