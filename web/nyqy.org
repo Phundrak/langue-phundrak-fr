@@ -659,17 +659,45 @@
     :PROPERTIES:
     :CUSTOM_ID: h-69fc0d1e-1375-4048-9775-8aacc4860eb4
     :END:
+    Étant  donné l’ancienneté  de la  langue,  il est  extrèmement difficile  de
+    s’avancer sur la tonalité de la langue et son accentuation. Il est cependant
+    très  probable  qu’aucune accentuation  tonale  n’existait  en Ñyqy ;  cette
+    caractéristique  n’apparaîtra que  bien plus  tard  dans les  langues de  la
+    région du Leshö, il y a deux mille ans.
+
+    Concernant l’accentuation non tonale, on suppose que celle-ci était rarement
+    utilisée  du fait  de la  quantité  de mots  monosyllabiques. Cependant,  on
+    suppose  que  les mots  bisyllabiques  et  plus  aient eu  une  accentuation
+    pénultime, c’est à dire sur l’avant-dernière syllabe des mots, se traduisant
+    généralement par  une accentuation sur  la première syllabe pour  les termes
+    bisyllabiques et sur la seconde syllabe des termes trisyllabiques. Il s’agit
+    à l’heure actuelle de la théorie la plus probable concernant le Ñyqy pouvant
+    expliquer  une  accentuation théorique  qui,  en  suivant d’autre  théories,
+    serait  beaucoup plus  chaotique. Il  n’empêche que  certaines accentuations
+    théoriques  ne  suivent  tout  de  même pas  cette  théorie  de  la  syllabe
+    pénultime, comme  par exemple  {{{nyqy(coqec)}}} (« Terre, monde,  mortels ») dont
+    l’accentuation portait très probablement sur la syllabe /qec/.
 
 *** Translittération
     :PROPERTIES:
     :CUSTOM_ID: h-62862440-965c-48c5-affb-25323f466c6b
     :END:
-    Le Ñyqy étant une langue orale, aucune transcription historique n’en existe.
-    Ainsi, seule  la translittération  présentée ici fait  office d’orthographe,
-    suivant de près  la prononciation. La transcription phonétique  de la langue
-    utilisant l’IPA[fn:3]  est également possible,  mais moins lisible  je pense
-    pour le  lecteur, alors  que la  translittération lui  laissera le  choix de
-    l’accent avec lequel il souhaite lire le Ñyqy.
+    Le  Ñyqy était  une langue  exclusivement  orale, sachant  que les  premiers
+    systèmes  d’écriture utilisés  pour  une  langue de  cette  famille ne  sont
+    apparus que trois mille ans après  la période d’existance théorique de cette
+    langue. Ainsi, les linguistes préfèrent une transcription de la langue telle
+    que celle utilisée dans cet  ouvrage, représentant de façon quasi phonétique
+    les paroles théoriques de cette époque. Il est toutefois à noter, comme cela
+    sera  expliqué plus  bas (§[[#h-441266e7-313b-4dc0-8da8-31a385eea81b]]),  qu’une
+    même consonne à l’écrit peut représenter  deux consonnes orales du fait d’un
+    phénomène  de mutation  de ces  consonnes.  Afin de  garder une  orthographe
+    cohérente, il a été choisi par  consensus d’utiliser un unique graphème pour
+    les deux  prononciations possible d’une  consonne. Ainsi, /coqec/  peut être
+    prononcé {{{phon(t͡ʃɔħɛt͡ʃ)}}} ou bien {{{phon(ɬɔqɛɬ)}}}, mais  reste dans tous les cas le
+    même terme. Cela  permet également au lecteur de  plus facilement comprendre
+    les textes  et exemples en  Ñyqy sans avoir  à faire d’exercice  mental trop
+    important.  Il   est  également  beaucoup   plus  simple  de   retrouver  la
+    prononciation des mots Ñyqy depuis leur orthographe standard.
 
 ** Phonotaxes
    :PROPERTIES:
