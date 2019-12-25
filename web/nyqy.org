@@ -529,14 +529,14 @@
           ("[back]"
            ("[tense]"
             ("[high]" ("/u/"))
-            ("{high}" ("/o/")))
+            ("{high}" ("/ɤ/")))
            ("{tense}"
             ("[high]" ("/ʊ/"))
             ("{high}" ("/ɔ/"))))
           ("{back}"
            ("[tense]"
             ("[high]" ("/y/"))
-            ("{high}" ("/e/")))
+            ("{high}" ("/ø/")))
            ("{tense}"
             ("[high]" ("/ɪ/"))
             ("{high}" ("/ɛ/"))))))
@@ -548,7 +548,6 @@
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 100%
-    #+ATTR_LATEX: :width 10cm
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS:
     [[file:img/nyqy/vowel-feature-tree.png]]
