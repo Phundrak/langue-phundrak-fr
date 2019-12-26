@@ -4,13 +4,17 @@ library main;
 import 'dart:html';
 
 import 'package:js/js.dart';
+
 import './cookie.dart';
 
 void main() {
   reorganizeHtml();
   createThemeSwitcher();
-  querySelector('.themeBtn').onClick.listen(themeSwitch);
+  themeSwitch(isThemeDark());
+  querySelector('.themeBtn').onClick.listen(themeSwitchMouse);
 }
+
+String cookieThemeName = 'theme';
 
 void createThemeSwitcher() {
   // set the correct CSS depending on the cookie, dark is enabled by default
@@ -23,24 +27,11 @@ void createThemeSwitcher() {
 }
 
 bool isThemeDark() {
-  if (Cookies.get('theme') == 'light') {
+  if (Cookies.get(cookieThemeName) == 'light') {
     return false;
   }
-  Cookies.set('theme', 'dark');
+  Cookies.set(cookieThemeName, 'dark');
   return true;
-}
-
-bool setTheme(bool dark) {
-  Cookies.set('theme', (dark ? 'dark' : 'light'));
-  return !dark;
-}
-
-void themeSwitch(MouseEvent event) {
-  print('Switch theme');
-  bool isDark = setTheme(isThemeDark());
-  querySelector('.fas').className = 'fas fa-' + (isDark ? 'sun' : 'moon');
-  querySelector('#theme').attributes['href'] =
-      '/css/' + (isDark ? 'dark' : 'light') + '.css';
 }
 
 void reorganizeHtml() {
@@ -56,4 +47,20 @@ void reorganizeHtml() {
     table.before(largetable);
     largetable.children.add(table);
   }
+}
+
+bool setTheme(bool dark) {
+  Cookies.set(cookieThemeName, (dark ? 'dark' : 'light'));
+  return !dark;
+}
+
+void themeSwitch(bool isDark) {
+  querySelector('.fas').className = 'fas fa-' + (isDark ? 'sun' : 'moon');
+  querySelector('#theme').attributes['href'] =
+  '/css/' + (isDark ? 'dark' : 'light') + '.css';
+}
+
+void themeSwitchMouse(MouseEvent event) {
+  bool isDark = setTheme(!isThemeDark());
+  themeSwitch(isDark);
 }
