@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8010:8010"
+    command: webdev serve --release web:8010 --hostname 0.0.0.0
+    restart: always
+    volumes:
+      - ./web/:/app/web/
