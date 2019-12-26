@@ -897,6 +897,9 @@
      :PROPERTIES:
      :CUSTOM_ID: h-7c2642e5-e813-4b7e-ad82-933c997914bc
      :END:
+     # |  1 |  2 |  3 |
+     # |----+----+----|
+     # | ñy | bú | zé |
 
 **** Pronoms démonstratifs
      :PROPERTIES:
@@ -2005,6 +2008,7 @@
     :PROPERTIES:
     :CUSTOM_ID: h-24fbc9df-934e-4372-a1ff-236b65d37632
     :END:
+    - {{{nyqy(eco)}}} :: (n) grain commmestible, riz, blé
 
 *** É
     :PROPERTIES:
@@ -2069,6 +2073,7 @@
     :END:
     - {{{nyqy(qi)}}} :: (nbr) deux
     - {{{nyqy(qój)}}} :: (v) dormir
+    - {{{nyqy(qóñ)}}} :: vache, buffle, bétail
     - {{{nyqy(qun)}}} :: (gp.OPT) particule grammaticale marquant l’optatif
     - {{{nyqy(qy)}}} :: (nbr) six, première sixaine. Voir
                   §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
@@ -2077,6 +2082,8 @@
     :PROPERTIES:
     :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
     :END:
+    - {{{nyqy(séwe)}}} ::  (n) porte, voile de  tissu utilisé à l’entrée  des maisons,
+         tissu
     - {{{nyqy(súmusq)}}} :: (n) maison communale
 
 *** U
