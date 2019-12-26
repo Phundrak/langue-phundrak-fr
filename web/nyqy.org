@@ -234,21 +234,21 @@
    # - What term do  the people use to distinguish themselves  from other language
    #   groups?
    # - What is the origin of these terms (if known)?
-   Peu de choses sont  connues sur le peuple, du fait de  sa distance avec nous,
-   et  du   fait  du   peu  d’éléments  dont   nous  disposons   directement  ou
-   indirectement. Beaucoup de nos  connaissances actuelles nous parviennent soit
-   des écrits survivants de l’Ère précédente, soit de recherches archéologiques,
-   soit de recherches linguistiques.
+   Peu de choses sont  connues sur ce peuple, du fait de  sa distance avec nous,
+   et  du  peu d’éléments  dont  nous  disposons directement  ou  indirectement.
+   Beaucoup  de nos  connaissances actuelles  nous parviennent  soit des  écrits
+   survivants de  l’Ère précédente, soit  de recherches archéologiques,  soit de
+   recherches linguistiques.
 
    Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
    probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
    également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ñyqy)}}}  pour se
-   désigner lui-même, mais nous disposons de  trop peu de preuve afin de pouvoir
-   affirmer cela avec certitude. Le  terme s’analyse en deux morphèmes basiques,
-   {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme {{{nyqy(ñy)}}} est le pronom personnel du singulier,
-   et  {{{nyqy(qy)}}}  qui le  suit  a  plusieurs  utilisations,  le chiffre  /6/  (le
-   {{{nyqy(Ñyqy)}}} est  une langue dont le  système numérique est un  système hybride
-   entre  une  base  six  et  une   base  treize)  ou  bien  la  pluralité,  ici
+   désigner  lui-même, mais  nous disposons  de  trop peu  de preuve  permettant
+   d’affirmer  cela  avec  certitude.  Le  terme  s’analyse  en  deux  morphèmes
+   basiques, {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme  {{{nyqy(ñy)}}} est le pronom personnel du
+   singulier, et {{{nyqy(qy)}}}  qui le suit a plusieurs utilisations,  le chiffre /6/
+   (le  {{{nyqy(Ñyqy)}}} est  une  langue dont  le système  numérique  est un  système
+   hybride entre  une base  six et une  base treize) ou  bien la  pluralité, ici
    infléchissant le {{{nyqy(ñy)}}} afin de former la première personne du pluriel.
 
    Il est à noter que le nom de cette langue est traditionnellement écrite en un
@@ -258,13 +258,14 @@
    certains  de  mes  collègues  utilisent, tentant  de  corriger  cette  erreur
    maintenant multi-centenaire. Bien que je salue leur initiative je continuerai
    de nommer cette langue  « Ñyqy » dans cet ouvrage afin de  suivre la norme et
-   afin de  ne pas  rendre confus certaines  personnes n’ayant  jamais rencontré
-   cette néographie, et je présente mes excuses à ces collègues.
+   afin  de ne  pas désorienter  les personnes  n’ayant encore  jamais rencontré
+   cette  néographie,  et  pour  cela  je présente  mes  excuses  aux  collègues
+   sus-mentionnés.
 
-   Parfois, d’autres  personnes s’y  référeront en  tant que  « proto-Ñyqy », ou
+   Dans certains  cas, d’autres  s’y référeront en  tant que  « proto-Ñyqy », ou
    « proto  Ñy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
-   l’absence totale  d’autres langues nommées « Ñyqy ».  Elle n’est généralement
-   utilisée que  si le  locuteur souhaite  insister sur la  nature de  la langue
+   l’absence totale  d’autres langues  nommées « Ñyqy ». Ce  cas ne  se présente
+   généralement que si le locuteur souhaite  insister sur la nature de la langue
    comme langue mère de sa famille.
 
 ** Recherches précédentes
@@ -272,13 +273,15 @@
    :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
    :END:
    Comme  mentionné plus  tôt,  le Ñyqy  est l’objet  depuis  fort longtemps  de
-   recherches linguistiques,  tout d’abord par des  linguistes hélas aujourd’hui
-   anonymes ayant  vécus lors de  l’Ère précédente. Leurs  connaissances étaient
-   sans  doute  beaucoup  plus  vastes  que ce  que  nous  avons  pu  récupérer,
-   probablement similaires à celles dont  nous disposons aujourd’hui, mais comme
-   tout le monde  le sait, seul peu  de témoignages de cette époque  ont pu nous
-   parvenir,  et  les   restes  de  l’Université  de  Ðbńo   relève  du  miracle
-   archéologique.
+   recherches linguistiques, tout d’abord par des linguistes ayant vécus lors de
+   l’Ère précédente. Ces linguistes sont  pour la plupars devenu malheureusement
+   anonymes,  leurs noms  ayant été  effacés par  le temps ;  seuls Jehhe  Chorr
+   Ovehhe et Airr Yndn Ovehhi peuvent encore être crédités pour leurs recherches
+   sur  le sujet.  Les connaissances  de tous  ces linguistes  d’un autre  temps
+   étaient possiblement  bien plus vastes  que ce  que nous avons  pu récupérer,
+   probablement similaires à celles  dont nous disposons aujourd’hui. Cependant,
+   nous savons que seul peu de témoignages de cette époque ont pu nous parvenir,
+   et que les restes de l’Université de Ðbńo relève du miracle archéologique.
 
    Ces premières  recherches, une  fois traduites,  ont servi  de base  aux deux
    derniers  siècles de  recherche  en  direction du  Ñyqy,  avec notamment  les
@@ -296,68 +299,102 @@
    # - What is the dominant economic activity of the people?
    # - Briefly describe the ecosystem, material  culture, and cosmology (they will
    #   be intimately related)
-   Ce qui suit est  un résumé de ce que l’on sait sur  le peuple Ñyqy. Pour plus
-   de  détails,  vous pouvez  vous  référer  à  l’ouvrage  /Le peuple  Ñyqy/  de
-   K. Yerth, 3404. Un avertissement est tout de même nécessaire :
+   Les informations  suivantes résument  nos connaissances  sur le  peuple Ñyqy.
+   Pour plus de  détails, vous pouvez vous référer à  l’ouvrage /Le peuple Ñyqy/
+   du professeur K. Yerth, 3404. Un avertissement est tout de même nécessaire :
 
    #+BEGIN_QUOTE
    Nous n’avons  que très peu  de preuves et  témoignages directs sur  le peuple
    Ñyqy  autre que  par les  ouvrages des  scientifiques de  l’Ère ancienne,  et
-   actuellement  par  les recherches  linguistiques  faites  par des  chercheurs
+   actuellement  par  les recherches  linguistiques  menées  par des  chercheurs
    contemporains à cet ouvrage. Par conséquent, même si les anciens paraissaient
-   très confiants dans  leurs découvertes, il nous est  impossible d’affirmer ce
-   que l’on sait  sur ce peuple comme  étant un fait, mais  simplement comme une
-   forte probabilité que  c’était en effet le cas. La  recherche actuelle sur ce
+   très confiants dans  leurs découvertes, il nous est  impossible de considérer
+   nos connaissances comme  des faits indéniables. La recherche  actuelle sur ce
    peuple et  les hypothèses et  théories peuvent  sembler très solides,  mais à
-   bien y regarder, elles ne le sont qu’entre elles, en supposant que ce que les
-   scientifiques  de l’Ère  ancienne  ne  se trompaient  pas.  Les seules  bases
-   tangibles  auxquelles nous  avons  encore  accès sont  celles  posées par  la
-   linguistique historique,  mais hélas  celle-ci se repose  également fortement
-   sur ces incertitudes que nous avons.
+   bien y regarder, elles  ne le sont qu’entre elles. De  plus, ces dernières se
+   basent  sur la  supposition que  les scientifiques  de l’Ère  ancienne ne  se
+   trompaient pas. Les seules bases tangibles auxquelles nous avons encore accès
+   sont celles  posées par  la linguistique historique,  mais hélas  celle-ci se
+   repose également  fortement sur ces  incertitudes que nous  avons. Cependant,
+   les informations en notre possession nous  pousse à affirmer que notre savoir
+   a une forte probabilité d’être fiable ;  en effet, les scientifiques chez les
+   Anciens sont  réputés fiables  et efficaces, et  les théories  actuelles sont
+   majoritairement cohérentes entre elles.
 
    — K. Yerth
    #+END_QUOTE
 
-   Le peuple Ñyqy  était un peuple vivant dans l’actuel  Rhésode, dans la vallée
-   du Mojhal.  Son cœur  économique se  situait selon  toutes évidences  dans le
-   delta  du fleuve  Mojhal, où  la première  forme de  civilisation connue  est
-   apparue.   Leur   activité   principale  était   basée   principalement   sur
-   l’agriculture, en  particulier sur la  culture d’un grain pouvant  être selon
-   les sources  du blé  ou du riz,  voire les deux.  Leur élevage  était orienté
-   principalement sur  celui des  vaches et des  porcs. Une  importante activité
-   d’échange  fluviale  s’était  probablement   déjà  développée,  ainsi  qu’une
-   activité  de pêche  dans la  zone maritime  de la  vallée du  Mojhal. Il  est
+   Le peuple Ñyqy était un peuple vivant dans l’actuel Rhésode, plus précisément
+   dans la  vallée du Mojhal.  Son cœur économique se  situait dans le  delta du
+   fleuve Mojhal, où la première forme  de civilisation connue est apparue. Leur
+   activité principale était  l’agriculture, en particulier sur  la culture d’un
+   grain pouvant être selon  les sources du blé ou du riz,  voire les deux. Dans
+   le cas  où seul  l’un des deux  était utilisé, il  nous serait  impossible de
+   trancher ;  les deux  graines auraient  très bien  pu être  plantées dans  la
+   région, et on retrouve dans les langues descendantes du Ñyqy des termes issus
+   de  {{{nyqy(eco)}}}  portant  une  signification ou  l’autre,  d’où  la  définition
+   actuelle du  terme « blé, riz,  grain commestible ».
+
+   L’élevage était orienté  principalement sur celui des vaches et  des porcs. À
+   nouveau, une  incertitude plane cependant  sur le terme  {{{nyqy(qóñ)}}} signifiant
+   « vache ». Selon les  recherches portant sur la faune  théorique de l’époque,
+   et au vu  de la région tropicale  soumise aux moussons, il  est très probable
+   qu’il  s’agissait  plutôt   de  buffles.  Le  terme  /qóñ/   aurait  pris  la
+   signification de « vache » lors de  la migration des peuples descendants vers
+   le  nord, domesticant  alors  plutôt les  vaches que  les  buffles alors  que
+   d’autres peuples arrivaient dans l’ancienne  zone occupée par le peuple Ñyqy.
+   Cela pourrait expliquer pourquoi la reconstruction du terme pour /buffle/ n’a
+   pas été  possible. Étrangement,  aucune reconstruction d’un  quelconque terme
+   pour /éléphant/ n’a  pu être possible, alors que des  fouilles ont prouvé que
+   ces animaux vivaient dans  la zone. Il est possible que  le terme ait disparu
+   du fait de son inutilité nouvelle dans les terres plus au nord.
+
+   Une  importante   activité  d’échange  fluviale  s’était   probablement  déjà
+   développée, ainsi qu’une activité de pêche dans la zone maritime de la vallée
+   du Mojhal.  En effet, un  important vocabulaire lié  au champs lexical  de la
+   navigation maritime  et fluviale, de la  pêche et des échanges  commerciaux a
+   put être reconstruit.
+
+   Suivant l’évolution  des climats  et le  climat actuel de  la région,  il est
    également très probable  qu’ils aient eu accès à l’une  des forêts tropicales
    se  situant dans  cette  zone, leur  donnant  un accès  abondant  en bois  de
    qualité, très  utilisé pour la  construction de  leurs bâtiments et  de leurs
    outils, ainsi qu’à  une vaste variété de végétaux dont  des fruits et légumes
-   qui  leur  aurait  été  possible   alors  de  cultiver.  Étrangement,  Aucune
-   reconstruction d’un quelconque terme pour  /éléphant/ ou /buffle/ n’a pu être
-   possible, alors que des fouilles ont  prouvé que ces animaux vivaient dans la
-   zone.
+   qui leur aurait été possible alors de cultiver.
 
    Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
    que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
    communales  {{{nyqy(súmusq)}}} ;  cela  inclus  tous  les  membres  de  la  famille
    descendant de l’ancêtre commun le plus  âgé, ainsi que leurs époux ou épouses
-   respectifs.
+   respectifs. Ces  maisons étaient  principalement faites  de paille  et argile
+   séchée pour  ce qui  est des murs  tandis que le  toit était  possiblement un
+   mélange de  paille et de grandes  feuilles séchées pour les  maisons humbles,
+   tandis que les maisons plus  riches avaient probablement des tuiles d’argile.
+   L’entrée n’était sans doute  fermée que par un voile de  tissu ; en effet, on
+   retrouve  dans beaucoup  de  langues  descendantes du  Ñyqy  les termes  pour
+   « porte » et « tissu » descendants du terme {{{nyqy(séwe)}}}.
 
-   Sur  ce  dernier  point,  il  semblerait qu’il  n’y  avait  pas  de  tendance
-   particulière quant  à qui  rejoignais la  famille de  qui parmi  les familles
-   représentant le bas peuple,  composées principalement de paysans, d’artisans
-   et de petits marchants. En revanche,  il semblerait qu’il était beaucoup plus
-   fréquent  pour les  hommes de  rejoindre la  famille de  leur femme  une fois
-   mariés si la  famille pouvait être considérée comme riche  ou importante, par
-   exemple  si il  s’agit  d’une  famille de  riches  marchands  ou une  famille
-   détenant un pouvoir militaire.
+   Concernant  le  mariage,  il  semblerait  qu’il n’y  avait  pas  de  tendance
+   particulière quant  à qui  rejoignait la  famille de  qui parmi  les familles
+   représentant le  bas peuple, composées principalement  de paysans, d’artisans
+   et de petits marchands. En revanche, il semble qu’il était bien plus fréquent
+   pour les  hommes de  rejoindre la famille  de leur femme  une fois  mariés si
+   cette dernière était considérée comme riche  ou importante, par exemple si il
+   s’agit d’une famille  de riches marchands ou une famille  détenant un pouvoir
+   militaire. On  suppose également que  le mariage était à  l’époque uniquement
+   monogame.
 
    Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ñyqy
    pratiquaient leur religion polythéiste. Il est cependant impossible de savoir
    s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
-   Les seuls points communs sont la vénération de plusieurs dizaines de dieux au
-   moins, ainsi que la vénération des étoiles et du feu, et les dieux liés à ces
-   éléments  semblent prendre  une place  beaucoup plus  importante dans  la vie
-   quotidienne du peuple Ñyqy que les autres.
+   Les points communs de ces pratiques  sont la vénération de plusieurs dizaines
+   de dieux. De plus,  la vénération des étoiles et du feu,  ainsi que les dieux
+   qui y sont liés semblent prendre  une place beaucoup prédominante dans la vie
+   quotidienne du peuple  Ñyqy. Les lunes majeures Nuya et  Norya sont également
+   toutes deux importantes  dans leur culture, régissant  très probablement leur
+   calendrier.  Mais  étrangement,  comme  pour  toutes  les  langues  de  l’Ère
+   Ancienne, il  nous est  impossible de  retracer l’origine du  nom de  la lune
+   mineure Lettri, tandis que Norya semble avoir été considérée comme mineure.
 
 ** Démographie
    :PROPERTIES:
@@ -378,15 +415,16 @@
    dans toute zone  se situant à moins  de sept lieues de ce  tronçon du Mojhal.
    Cela représente une  surface vaste, très certainement  indicateur d’une unité
    politique tout  du moins  de la région,  comme par exemple  un royaume  ou un
-   empire. Il est également possible qu’il s’agissait d’une continuité de petits
-   royaumes ou États-cités dont la /lingua franca/ était le Ñyqy ce qui, dans ce
-   cas, indiquerait que  le peuple Ñyqy était le  peuple dominant économiquement
-   ou politiquement dans la région. Les autres peuples théoriques vivant dans la
-   zone d’influence  du Ñyqy parlaient sans  doute leur propre langue,  mais ces
-   dernières n’ont pas eu autant d’impact si ce n’est aucun d’un point de vue de
-   l’histoire de la  linguistique (possiblement au mieux des  mots d’emprunts du
-   Ñyqy, mais  nous n’avons aucun moyen  de le prouver), ce  qui renforce l’idée
-   que ces langues locales étaient marginalisées au profit du Ñyqy.
+   empire.  Cependant,  l’hypothèses  d’une  continuité de  petits  royaumes  ou
+   États-cités dont la /lingua franca/ était le Ñyqy reste une possibilité. Dans
+   ce  cas,  cela indiquerait  que  le  peuple  Ñyqy  était le  peuple  dominant
+   économiquement ou politiquement dans la région. Les autres peuples théoriques
+   vivant dans  la zone  d’influence du  Ñyqy parlaient  sans doute  leur propre
+   langue, mais  ces dernières n’ont  pas eu autant  d’impact si ce  n’est aucun
+   d’un point de vue de l’histoire de la linguistique (possiblement au mieux des
+   mots d’emprunts du Ñyqy, mais nous n’avons aucun moyen de le prouver), ce qui
+   renforce l’idée  que ces langues  locales étaient marginalisées au  profit du
+   Ñyqy.
 
    Bien  qu’il  nous   soit  impossible  de  connaître  le   type  de  relations
    qu’entretenaient le peuple Ñyqy avec ses voisins, il est tout à fait probable
@@ -429,13 +467,11 @@
       maison GEN 1sg
 
       C’est ma maison
-
    2. {{{nyqy(bú qi pim mo coq)}}}
 
       2sg deux pomme PST manger
 
       Nous avons mangé une pomme
-
    3. {{{nyqy(ñy qun gó)}}}
 
       1sg OPT boire
@@ -1311,7 +1347,6 @@
    - Je dors.
 
      Verbe intransitif, « je » est expérienceur S.
-
    - Je mange une pomme.
 
      Verbe transitif, « je » est agent A, et « pomme » est patient P.
@@ -1338,7 +1373,6 @@
      1sg-ABS dormir
 
      Je dors
-
    - {{{nyqy(ñy-0 pim-0 coq)}}}
 
      1sg-ERG pomme-ABS manger
