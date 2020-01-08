@@ -613,6 +613,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
+    # Rendre le tout un peu plus  intéressant en mélangeant un peu les voyelles.
+    # Pour  une  inspiration,  voir  https://www.youtube.com/watch?v=Y01C1BKu8Tk
+    # vers 5:20. Exemple,  « i » long peut se confondre avec  « e » court, alors
+    # que « e » long et « i » courts en sont distincts.
+
     L’Eittlandais  dispose   d’un  total   de  dix  voyelles   dites  « pures ».
     Contrairement au Vieux Norrois, l’Eittlandais  ne dispose pas de distinction
     entre voyelles  longues et voyelles courtes,  toutes ont à peu  près la même

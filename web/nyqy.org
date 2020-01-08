@@ -528,11 +528,6 @@
     :PROPERTIES:
     :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
     :END:
-    # Rendre le tout un peu plus  intéressant en mélangeant un peu les voyelles.
-    # Pour  une  inspiration,  voir  https://www.youtube.com/watch?v=Y01C1BKu8Tk
-    # vers 5:20. Exemple,  « i » long peut se confondre avec  « e » court, alors
-    # que « e » long et « i » courts en sont distincts.
-
     Le Ñyqy est  une langue disposant d’un total de  huit voyelles individuelles
     ainsi  que  d’une  neuvième  voyelle,  le schwa,  apparaissant  du  fait  de
     certaines  contraintes phonétiques.  Dans le  tableau [[table:vowels:ipa]]  vous
