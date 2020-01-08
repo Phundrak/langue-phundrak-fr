@@ -1,5 +1,6 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Une Grammaire du Ñyqy
+#+SUBTITLE: Un détail de la langue construite prototype du Ñyqy, et une rapide description de son peuple et sa culture
 #+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ñyqy" />
@@ -18,6 +19,7 @@
   W=úuyi
   C=jczs
   P=mbpgq
+
   --REWRITE--
 
   --MONO--
@@ -29,14 +31,20 @@
   WB
   AVCP
   BWCP
+  VCP
+  WCP
+
   --MID--
   AV
   BW
   CPV
   CPW
+  V
+  W
   --INIT--
   AV
   BW
+
   --FINAL--
   AV
   BW
@@ -50,9 +58,8 @@
   BWCP
   CPVCP
   CPWCP
-
   --FLAGS--
-  0 0 monoMostly dropoffSlow
+  0 1 monoMostly dropoffMolasses
   --ADVANCED--
   10
   150
@@ -521,6 +528,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
     :END:
+    # Rendre le tout un peu plus  intéressant en mélangeant un peu les voyelles.
+    # Pour  une  inspiration,  voir  https://www.youtube.com/watch?v=Y01C1BKu8Tk
+    # vers 5:20. Exemple,  « i » long peut se confondre avec  « e » court, alors
+    # que « e » long et « i » courts en sont distincts.
+
     Le Ñyqy est  une langue disposant d’un total de  huit voyelles individuelles
     ainsi  que  d’une  neuvième  voyelle,  le schwa,  apparaissant  du  fait  de
     certaines  contraintes phonétiques.  Dans le  tableau [[table:vowels:ipa]]  vous
@@ -1987,130 +1999,6 @@
    :CUSTOM_ID: h-a0d083dc-a30f-47eb-8d24-cde1c259d9d9
    :END:
 
-** Dictionnaire
-   :PROPERTIES:
-   :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
-   :END:
-
-*** B
-    :PROPERTIES:
-    :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
-    :END:
-    - {{{nyqy(bú)}}} :: (pron) deuxième personne
-
-*** C
-    :PROPERTIES:
-    :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
-    :END:
-    - {{{nyqy(coq)}}} :: (v) manger
-
-*** E
-    :PROPERTIES:
-    :CUSTOM_ID: h-24fbc9df-934e-4372-a1ff-236b65d37632
-    :END:
-    - {{{nyqy(eco)}}} :: (n) grain commmestible, riz, blé
-
-*** É
-    :PROPERTIES:
-    :CUSTOM_ID: h-beac2e71-9160-4fa9-b997-2aebe49c03b1
-    :END:
-
-*** G
-    :PROPERTIES:
-    :CUSTOM_ID: h-32095317-7c5b-4d33-a673-fddce4dec0e6
-    :END:
-    - {{{nyqy(gó)}}} :: (v) boire
-
-*** I
-    :PROPERTIES:
-    :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
-    :END:
-
-*** J
-    :PROPERTIES:
-    :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
-    :END:
-
-*** M
-    :PROPERTIES:
-    :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
-    :END:
-    - {{{nyqy(mo)}}} :: (gp.PST) particule grammaticale marquant le passé
-
-*** N
-    :PROPERTIES:
-    :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
-    :END:
-    - {{{nyqy(nócpi)}}} :: ensuite, puis
-
-*** Ñ
-    :PROPERTIES:
-    :CUSTOM_ID: h-628010b2-9646-4886-9750-ba3c27096c15
-    :END:
-    - {{{nyqy(ñe)}}} :: (n) maison
-    - {{{nyqy(ñy)}}} :: (pron) première personne
-
-*** O
-    :PROPERTIES:
-    :CUSTOM_ID: h-b16799c3-1aa3-48a6-a984-7d201564b8ba
-    :END:
-
-*** Ó
-    :PROPERTIES:
-    :CUSTOM_ID: h-4be4efa4-8b9b-4267-812c-1872856eee41
-    :END:
-
-*** P
-    :PROPERTIES:
-    :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
-    :END:
-    - {{{nyqy(pim)}}} :: (n) pomme
-    - {{{nyqy(pom)}}} :: (gp) particule génitive
-
-*** Q
-    :PROPERTIES:
-    :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
-    :END:
-    - {{{nyqy(qi)}}} :: (nbr) deux
-    - {{{nyqy(qój)}}} :: (v) dormir
-    - {{{nyqy(qóñ)}}} :: vache, buffle, bétail
-    - {{{nyqy(qun)}}} :: (gp.OPT) particule grammaticale marquant l’optatif
-    - {{{nyqy(qy)}}} :: (nbr) six, première sixaine. Voir
-                  §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
-
-*** S
-    :PROPERTIES:
-    :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
-    :END:
-    - {{{nyqy(séwe)}}} ::  (n) porte, voile de  tissu utilisé à l’entrée  des maisons,
-         tissu
-    - {{{nyqy(súmusq)}}} :: (n) maison communale
-
-*** U
-    :PROPERTIES:
-    :CUSTOM_ID: h-319f1418-eefb-4a02-9b0e-7b3dd56c20e4
-    :END:
-
-*** Ú
-    :PROPERTIES:
-    :CUSTOM_ID: h-ac099677-5362-44b9-8fe3-f37d5624b327
-    :END:
-
-*** W
-    :PROPERTIES:
-    :CUSTOM_ID: h-204045c9-4949-4ded-b8cb-8ba95f7df25f
-    :END:
-
-*** Y
-    :PROPERTIES:
-    :CUSTOM_ID: h-f271b8af-6237-448b-90be-d4daa0afbf1c
-    :END:
-
-*** Z
-    :PROPERTIES:
-    :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
-    :END:
-
 ** Nombres
    :PROPERTIES:
    :CUSTOM_ID: h-397983ed-28e5-44c3-afb9-04403aa52e2a
@@ -2173,6 +2061,187 @@
    :PROPERTIES:
    :CUSTOM_ID: h-39866d3e-b4f9-4885-8581-53f7342ddf0c
    :END:
+
+* Dictionnaire
+  :PROPERTIES:
+  :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
+  :END:
+** B
+   :PROPERTIES:
+   :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
+   :END:
+   - {{{nyqy(bú)}}} :: (pron) deuxième personne
+
+** C
+   :PROPERTIES:
+   :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
+   :END:
+   - {{{nyqy(co)}}} :: (gp.SUBJ.PST) marqueur pour verbes du subjonctif accomplis
+   - {{{nyqy(coj)}}}     ::  (gp)  façon  d’être,  d’exister,  comparatif  qualitatif,
+        équatif.     Particule     grammaticale,      graphème     lié,     voir
+        [[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(cojmuz)}}} :: (adj) rouge, pourpre
+   - {{{nyqy(coge)}}} :: (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
+   - {{{nyqy(cope)}}} :: (gp.JUS) marqueur pour  verbes du jussif, marquant un souhait
+        de la part du locuteur.
+   - {{{nyqy(coq)}}} :: (v) manger
+
+** E
+   :PROPERTIES:
+   :CUSTOM_ID: h-24fbc9df-934e-4372-a1ff-236b65d37632
+   :END:
+   - {{{nyqy(eco)}}} :: (n) grain commmestible, riz, blé
+
+** É
+   :PROPERTIES:
+   :CUSTOM_ID: h-beac2e71-9160-4fa9-b997-2aebe49c03b1
+   :END:
+   - {{{nyqy(éc)}}} :: (gp.NEG) particule de négation
+   - {{{nyqy(écésy)}}} :: (n) sans âme, personne vide, tristesse. Voir /éc/ et /wésy/.
+
+** G
+   :PROPERTIES:
+   :CUSTOM_ID: h-32095317-7c5b-4d33-a673-fddce4dec0e6
+   :END:
+   - {{{nyqy(gó)}}} :: (v) boire
+   - {{{nyqy(ge)}}} :: (gp.PST) marqueur du passé
+
+** I
+   :PROPERTIES:
+   :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
+   :END:
+
+** J
+   :PROPERTIES:
+   :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
+   :END:
+   - {{{nyqy(jéq)}}} :: (v) pousser, faire avancer
+
+** M
+   :PROPERTIES:
+   :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
+   :END:
+   - {{{nyqy(meq)}}} :: (n) parole, mot
+   - {{{nyqy(meqm)}}} :: (v) parler, expliquer, échanger oralement
+   - {{{nyqy(meqmsó)}}} :: (n) prise de parole, acte de parole, discours, oratoire
+   - {{{nyqy(meqyjéq)}}} :: (n) chuchotement, parole basse
+
+        (v) chuchoter, litt. souffler une parole, voir /meqm/ et /syjéq/.
+   - {{{nyqy(muz)}}} :: (n) rouge, pourpre, fruit
+
+** N
+   :PROPERTIES:
+   :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
+   :END:
+   - {{{nyqy(nócpi)}}} :: ensuite, puis, à côté, depuis
+
+** Ñ
+   :PROPERTIES:
+   :CUSTOM_ID: h-628010b2-9646-4886-9750-ba3c27096c15
+   :END:
+   - {{{nyqy(ñe)}}} :: (n) maison
+   - {{{nyqy(ñuné)}}}  :: (n)  dieu terrestre,  divinité, être  supérieur. Voir  aussi
+        /wéz/
+   - {{{nyqy(ñy)}}} :: (pron) première personne
+
+** O
+   :PROPERTIES:
+   :CUSTOM_ID: h-b16799c3-1aa3-48a6-a984-7d201564b8ba
+   :END:
+   - {{{nyqy(oñ)}}} :: (n) nez
+   - {{{nyqy(oñsy)}}} :: (n) odeur, litt. air du nez, voir /oñ/ et /sy/.
+
+** Ó
+   :PROPERTIES:
+   :CUSTOM_ID: h-4be4efa4-8b9b-4267-812c-1872856eee41
+   :END:
+
+** P
+   :PROPERTIES:
+   :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
+   :END:
+   - {{{nyqy(pim)}}} :: (n) pomme
+   - {{{nyqy(pom)}}} :: (gp) particule génitive
+
+** Q
+   :PROPERTIES:
+   :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
+   :END:
+   - {{{nyqy(qéy)}}} :: (n) chaleur
+   - {{{nyqy(qéysó)}}} :: (v) chauffer, réchauffer, cuire. Voir /qey/ et /só/.
+   - {{{nyqy(qi)}}} :: (nbr) deux
+   - {{{nyqy(qój)}}} :: (v) dormir
+   - {{{nyqy(qóñ)}}} :: vache, buffle, bétail
+   - {{{nyqy(qun)}}} :: (gp.OPT) particule grammaticale marquant l’optatif
+   - {{{nyqy(qy)}}} :: (nbr) six, première sixaine. Voir
+                 §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
+
+** S
+   :PROPERTIES:
+   :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
+   :END:
+   - {{{nyqy(séwe)}}} ::  (n) porte, voile de  tissu utilisé à l’entrée  des maisons,
+        tissu
+   - {{{nyqy(sósy)}}} :: (vi) vivre, respirer
+   - {{{nyqy(só)}}} ::  façon de faire, manière  de faire, d’agir. Graphème  lié, voir
+                       [[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(súmusq)}}} :: (n) maison communale
+   - {{{nyqy(sy)}}} :: (n) air, vent, vie, souffle
+   - {{{nyqy(syjéq)}}} ::  (v) souffler (vent, respiration),  expirer, litt. « pousser
+        de l’air ». Voir /sy/ et /jéq/.
+   - {{{nyqy(syjéqsó)}}} :: (adj) fraîcheur, froid, souffle, vent
+
+** U
+   :PROPERTIES:
+   :CUSTOM_ID: h-319f1418-eefb-4a02-9b0e-7b3dd56c20e4
+   :END:
+
+** Ú
+   :PROPERTIES:
+   :CUSTOM_ID: h-ac099677-5362-44b9-8fe3-f37d5624b327
+   :END:
+   - {{{nyqy(újq)}}} :: (n) puissance, force mentale, majestueusité
+
+** W
+   :PROPERTIES:
+   :CUSTOM_ID: h-204045c9-4949-4ded-b8cb-8ba95f7df25f
+   :END:
+   - {{{nyqy(wéz)}}} :: (n) divinité suprême, dieu céleste, être supérieur. Voir aussi
+        /ñuné/.
+   - {{{nyqy(wésy)}}} :: (n) souffle divin, âme, esprit. Voir /sy/ et /wéz/.
+
+** Y
+   :PROPERTIES:
+   :CUSTOM_ID: h-f271b8af-6237-448b-90be-d4daa0afbf1c
+   :END:
+   - {{{nyqy(yc)}}} :: (n) eau douce, éther, vie, souffle divin
+   - {{{nyqy(ycéjéz)}}}  ::  (n)  magie,  force  divine.  Littéralement  « eau  de  la
+        puissance divine », voir /yc/, /újq/ et /wéz/.
+
+** Z
+   :PROPERTIES:
+   :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
+   :END:
+
+* Choses à faire [0/2]                                             :noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-66fbd617-f391-47d6-b3ea-06ffe259deee
+  :END:
+** TODO corriger ~conlang/nyqy-to-phonetics~
+   :PROPERTIES:
+   :CUSTOM_ID: h-ad2defa0-828a-4670-ba21-539b26e76a4f
+   :END:
+   Si un  terme commence  avec une  voyelle, la  première consonne  est d’office
+   mutée.  Elle  ne devrait  pas  l’être.  Exemple :  {{{nyqy(oñ)}}} a  la  phonétique
+   {{{phon(ɔm)}}} alors que la phonétique correcte devrait être {{{phon(ɔɴ)}}}.
+** TODO améliorer l’apparence des termes du dictionnaire en LaTeX
+   :PROPERTIES:
+   :CUSTOM_ID: h-12ff10de-1093-4bb8-9805-e1af0b7d9a55
+   :END:
+   Il faudrait trouver un moyen pour que, comme sur l’export HTML, le terme Ñyqy
+   et sa  phonétique soient sur une  ligne différente de la  définition, avec la
+   définition qui est indentée.
+
 * Footnotes
   :PROPERTIES:
   :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
