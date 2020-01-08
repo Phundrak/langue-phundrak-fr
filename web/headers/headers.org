@@ -16,6 +16,8 @@
 #+LATEX_HEADER_EXTRA: \usepackage{xltxtra}
 #+LATEX_HEADER_EXTRA: \usepackage[total={17cm,24cm}]{geometry}
 #+LATEX_HEADER_EXTRA: \setmainfont{Charis SIL}
+#+LATEX_HEADER_EXTRA: \usepackage{newunicodechar}
+#+LATEX_HEADER_EXTRA: \newunicodechar{’}{'}
 #+LATEX_HEADER_EXTRA: \usepackage{xcolor}
 #+LATEX_HEADER_EXTRA: \usepackage{hyperref}
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
