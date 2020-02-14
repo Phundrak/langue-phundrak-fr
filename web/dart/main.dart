@@ -57,7 +57,7 @@ bool setTheme(bool dark) {
 void themeSwitch(bool isDark) {
   querySelector('.fas').className = 'fas fa-' + (isDark ? 'sun' : 'moon');
   querySelector('#theme').attributes['href'] =
-  '/css/' + (isDark ? 'dark' : 'light') + '.css';
+  'https://langue.phundrak.com/css/' + (isDark ? 'dark' : 'light') + '.css';
 }
 
 void themeSwitchMouse(MouseEvent event) {
