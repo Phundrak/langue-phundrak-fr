@@ -8,6 +8,7 @@
 #+INCLUDE: headers/headers.org
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
+#+LATEX_HEADER_EXTRA: \usepackage{enumitem}
 
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup
@@ -2061,6 +2062,7 @@
   :PROPERTIES:
   :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
   :END:
+  src_latex{\setlist[description]{style=nextline}}
 ** B
    :PROPERTIES:
    :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
@@ -2072,14 +2074,19 @@
    :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
    :END:
    - {{{nyqy(co)}}} :: (gp.SUBJ.PST) marqueur pour verbes du subjonctif accomplis
-   - {{{nyqy(coj)}}}     ::  (gp)  façon  d’être,  d’exister,  comparatif  qualitatif,
-        équatif.     Particule     grammaticale,      graphème     lié,     voir
-        [[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+
+                 (nbr) cinq
+   - {{{nyqy(coj)}}} ::  (gp) façon d’être, d’exister, comparatif qualitatif, équatif.
+                        Particule grammaticale, graphème lié, voir
+                        §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
    - {{{nyqy(cojmuz)}}} :: (adj) rouge, pourpre
+   - {{{nyqy(cojzuj)}}} :: (adj) noir, sombre
    - {{{nyqy(coge)}}} :: (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
    - {{{nyqy(cope)}}} :: (gp.JUS) marqueur pour  verbes du jussif, marquant un souhait
-        de la part du locuteur.
+                            de la part du locuteur.
    - {{{nyqy(coq)}}} :: (v) manger
+   - {{{nyqy(cójm)}}} :: (nbr) marqueur de 100000_{6}. Voir
+                         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
 
 ** E
    :PROPERTIES:
@@ -2098,8 +2105,11 @@
    :PROPERTIES:
    :CUSTOM_ID: h-32095317-7c5b-4d33-a673-fddce4dec0e6
    :END:
-   - {{{nyqy(gó)}}} :: (v) boire
    - {{{nyqy(ge)}}} :: (gp.PST) marqueur du passé
+   - {{{nyqy(gec)}}} :: (nbr) marqueur de 10000_{6}. Voir
+                        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(gé)}}} :: (nbr) quatre
+   - {{{nyqy(gó)}}} :: (v) boire
 
 ** I
    :PROPERTIES:
@@ -2121,13 +2131,18 @@
    - {{{nyqy(meqmsó)}}} :: (n) prise de parole, acte de parole, discours, oratoire
    - {{{nyqy(meqyjéq)}}} :: (n) chuchotement, parole basse
 
-        (v) chuchoter, litt. souffler une parole, voir /meqm/ et /syjéq/.
+                      (v) chuchoter, litt. souffler une parole, voir /meqm/ et
+                          /syjéq/.
+   - {{{nyqy(mi)}}} :: (nbr) un
+   - {{{nyqy(mó)}}} :: (nbr) marqueur de 100_{6}. Voir
+                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
    - {{{nyqy(muz)}}} :: (n) rouge, pourpre, fruit
 
 ** N
    :PROPERTIES:
    :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
    :END:
+   - {{{nyqy(né)}}} :: (nbr) trois
    - {{{nyqy(nócpi)}}} :: ensuite, puis, à côté, depuis
 
 ** Ñ
@@ -2135,9 +2150,17 @@
    :CUSTOM_ID: h-628010b2-9646-4886-9750-ba3c27096c15
    :END:
    - {{{nyqy(ñe)}}} :: (n) maison
-   - {{{nyqy(ñuné)}}}  :: (n)  dieu terrestre,  divinité, être  supérieur. Voir  aussi
-        /wéz/
+   - {{{nyqy(ñójb)}}} :: (n) oiseau
+   - {{{nyqy(ñuné)}}} :: (n) dieu terrestre, divinité, être supérieur. Voir aussi
+                   /wéz/.
+   - {{{nyqy(ñuñ)}}} :: (nbr) marqueur de 1000000_{6}. Voir
+                        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
    - {{{nyqy(ñy)}}} :: (pron) première personne
+
+                 (nbr) six, marqueur des sixaines. Voir
+                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+
+                 (adj) beaucoup
 
 ** O
    :PROPERTIES:
@@ -2155,6 +2178,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
    :END:
+   - {{{nyqy(ne)}}} :: (nbr) zéro, rien
    - {{{nyqy(pim)}}} :: (n) pomme
    - {{{nyqy(pom)}}} :: (gp) particule génitive
 
@@ -2163,27 +2187,31 @@
    :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
    :END:
    - {{{nyqy(qéy)}}} :: (n) chaleur
+
+                  (adj) chaud
    - {{{nyqy(qéysó)}}} :: (v) chauffer, réchauffer, cuire. Voir /qey/ et /só/.
    - {{{nyqy(qi)}}} :: (nbr) deux
    - {{{nyqy(qój)}}} :: (v) dormir
    - {{{nyqy(qóñ)}}} :: vache, buffle, bétail
    - {{{nyqy(qun)}}} :: (gp.OPT) particule grammaticale marquant l’optatif
    - {{{nyqy(qy)}}} :: (nbr) six, première sixaine. Voir
-                 §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
+                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
 
 ** S
    :PROPERTIES:
    :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
    :END:
-   - {{{nyqy(séwe)}}} ::  (n) porte, voile de  tissu utilisé à l’entrée  des maisons,
+   - {{{nyqy(si)}}} :: (nbr) marqueur de 1000_{6}. Voir
+                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(séwe)}}} :: (n) porte, voile de tissu utilisé à l’entrée des maisons,
         tissu
    - {{{nyqy(sósy)}}} :: (vi) vivre, respirer
-   - {{{nyqy(só)}}} ::  façon de faire, manière  de faire, d’agir. Graphème  lié, voir
-                       [[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(só)}}} :: façon de faire, manière de faire, d’agir. Graphème lié, voir
+                 §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
    - {{{nyqy(súmusq)}}} :: (n) maison communale
    - {{{nyqy(sy)}}} :: (n) air, vent, vie, souffle
    - {{{nyqy(syjéq)}}} ::  (v) souffler (vent, respiration),  expirer, litt. « pousser
-        de l’air ». Voir /sy/ et /jéq/.
+                         de l’air ». Voir /sy/ et /jéq/.
    - {{{nyqy(syjéqsó)}}} :: (adj) fraîcheur, froid, souffle, vent
 
 ** U
@@ -2202,7 +2230,7 @@
    :CUSTOM_ID: h-204045c9-4949-4ded-b8cb-8ba95f7df25f
    :END:
    - {{{nyqy(wéz)}}} :: (n) divinité suprême, dieu céleste, être supérieur. Voir aussi
-        /ñuné/.
+                      /ñuné/.
    - {{{nyqy(wésy)}}} :: (n) souffle divin, âme, esprit. Voir /sy/ et /wéz/.
 
 ** Y
@@ -2211,25 +2239,31 @@
    :END:
    - {{{nyqy(yc)}}} :: (n) eau douce, éther, vie, souffle divin
    - {{{nyqy(ycéjéz)}}}  ::  (n)  magie,  force  divine.  Littéralement  « eau  de  la
-        puissance divine », voir /yc/, /újq/ et /wéz/.
+                            puissance divine », voir /yc/, /újq/ et /wéz/.
 
 ** Z
    :PROPERTIES:
    :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
    :END:
+   - {{{nyqy(zé)}}} :: (pron) Pron.Pers.3.sg, il, elle
+   - {{{nyqy(zój)}}} :: (n) chose, objet abstrait
+   - {{{nyqy(zuj)}}} :: (n) nuit, noir, ombre
 
-* Choses à faire [0/2]                                             :noexport:
+* Choses à faire [2/4]                                             :noexport:
   :PROPERTIES:
   :CUSTOM_ID: h-66fbd617-f391-47d6-b3ea-06ffe259deee
   :END:
-** TODO corriger ~conlang/nyqy-to-phonetics~
+** DONE corriger ~conlang/nyqy-to-phonetics~
+   CLOSED: [2020-01-29 mer. 21:27]
    :PROPERTIES:
    :CUSTOM_ID: h-ad2defa0-828a-4670-ba21-539b26e76a4f
    :END:
    Si un  terme commence  avec une  voyelle, la  première consonne  est d’office
    mutée.  Elle  ne devrait  pas  l’être.  Exemple :  {{{nyqy(oñ)}}} a  la  phonétique
    {{{phon(ɔm)}}} alors que la phonétique correcte devrait être {{{phon(ɔɴ)}}}.
-** TODO améliorer l’apparence des termes du dictionnaire en LaTeX
+
+** DONE améliorer l’apparence des termes du dictionnaire en LaTeX
+   CLOSED: [2020-01-29 mer. 12:48]
    :PROPERTIES:
    :CUSTOM_ID: h-12ff10de-1093-4bb8-9805-e1af0b7d9a55
    :END:
