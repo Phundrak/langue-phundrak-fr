@@ -2321,6 +2321,36 @@
    et sa  phonétique soient sur une  ligne différente de la  définition, avec la
    définition qui est indentée.
 
+** TODO Simplifier les fonctions du layer ~conlanging~
+   :PROPERTIES:
+   :CUSTOM_ID: h-b6fca087-e439-4bdf-bd26-43803d424a40
+   :END:
+   Vu que je viens enfin de comprendre l’utilisation de ~&optional~ en Elisp, il
+   serait temps de  simplifier les fonctions et réduire le  nombre d’entre elles
+   dans le layer ~conlanging~.
+
+** TODO Compléter la liste Swadesh [1/3]
+   :PROPERTIES:
+   :CUSTOM_ID: h-32a2f3e6-0d2d-4693-99d8-d912446ddedf
+   :END:
+   Compléter la liste du fichier [[file:swadesh.org::#h-a5b4a65c-68ab-4630-b054-da816d679cfd][Swadesh#Ñyqy]].
+
+*** DONE dot tree
+    CLOSED: [2020-01-29 mer. 21:50]
+    :PROPERTIES:
+    :CUSTOM_ID: h-8c9a529a-ab9b-4576-9d10-7f5147250219
+    :END:
+
+*** TODO Eittlandais vers Runes
+    :PROPERTIES:
+    :CUSTOM_ID: h-1b1958f9-fb8c-4a0b-b6c2-fadefa2d4826
+    :END:
+
+*** TODO Mattér vers Runes
+    :PROPERTIES:
+    :CUSTOM_ID: h-89d977fc-4308-4187-b438-1aab2ac301a2
+    :END:
+
 * Footnotes
   :PROPERTIES:
   :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
