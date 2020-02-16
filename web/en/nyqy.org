@@ -7,7 +7,7 @@
 #+HTML_HEAD_EXTRA: <meta property="og:description" content="Detailed grammar of the Ñyqy constructed language" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../css/nyqy.css"/>
 #+OPTIONS: auto-id:t
-#+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
+#+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics $1))
 
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup

@@ -7,7 +7,7 @@
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="/css/nyqy.css"/>
 #+INCLUDE: headers/headers.org
 #+OPTIONS: auto-id:t
-#+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics "$1"))
+#+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics $1))
 #+LATEX_HEADER_EXTRA: \usepackage{enumitem}
 
 # To be used at https://jasontank.net/wordgen.html
