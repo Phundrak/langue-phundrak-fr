@@ -2067,49 +2067,64 @@
    :PROPERTIES:
    :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
    :END:
-   - {{{nyqy(bú)}}} :: (pron) deuxième personne
+   - {{{nyqy(bú)}}} ::
+     1. (pron) deuxième personne
 
 ** C
    :PROPERTIES:
    :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
    :END:
-   - {{{nyqy(co)}}} :: (gp.SUBJ.PST) marqueur pour verbes du subjonctif accomplis
-
-                 (nbr) cinq
-   - {{{nyqy(coj)}}} ::  (gp) façon d’être, d’exister, comparatif qualitatif, équatif.
-                        Particule grammaticale, graphème lié, voir
-                        §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
-   - {{{nyqy(cojmuz)}}} :: (adj) rouge, pourpre
-   - {{{nyqy(cojzuj)}}} :: (adj) noir, sombre
-   - {{{nyqy(coge)}}} :: (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
-   - {{{nyqy(cope)}}} :: (gp.JUS) marqueur pour  verbes du jussif, marquant un souhait
-                            de la part du locuteur.
-   - {{{nyqy(coq)}}} :: (v) manger
-   - {{{nyqy(cójm)}}} :: (nbr) marqueur de 100000_{6}. Voir
-                         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(co)}}} ::
+     1. (gp.SUBJ.PST) marqueur pour verbes du subjonctif accomplis
+     2. (nbr) cinq
+   - {{{nyqy(coj)}}} ::
+     1. (gp) façon d’être, d’exister, comparatif qualitatif, équatif. Particule
+        grammaticale, graphème lié, voir
+        §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(cojmuz)}}} ::
+     1. (adj) rouge, pourpre
+   - {{{nyqy(cojzuj)}}} ::
+     1. (adj) noir, sombre
+   - {{{nyqy(coge)}}} ::
+     1. (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
+   - {{{nyqy(cope)}}} ::
+     1. (gp.JUS) marqueur pour verbes du jussif, marquant un souhait de la part
+        du locuteur.
+   - {{{nyqy(coq)}}} ::
+     1. (v) manger
+   - {{{nyqy(cójm)}}} ::
+     1. (nbr) marqueur de 100000_{6}. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
 
 ** E
    :PROPERTIES:
    :CUSTOM_ID: h-24fbc9df-934e-4372-a1ff-236b65d37632
    :END:
-   - {{{nyqy(eco)}}} :: (n) grain commmestible, riz, blé
+   - {{{nyqy(eco)}}} ::
+     1. (n) grain commmestible, riz, blé
 
 ** É
    :PROPERTIES:
    :CUSTOM_ID: h-beac2e71-9160-4fa9-b997-2aebe49c03b1
    :END:
-   - {{{nyqy(éc)}}} :: (gp.NEG) particule de négation
-   - {{{nyqy(écésy)}}} :: (n) sans âme, personne vide, tristesse. Voir /éc/ et /wésy/.
+   - {{{nyqy(éc)}}} ::
+     1. (gp.NEG) particule de négation
+   - {{{nyqy(écésy)}}} ::
+     1. (n) sans âme, personne vide, tristesse. Voir /éc/ et /wésy/.
 
 ** G
    :PROPERTIES:
    :CUSTOM_ID: h-32095317-7c5b-4d33-a673-fddce4dec0e6
    :END:
-   - {{{nyqy(ge)}}} :: (gp.PST) marqueur du passé
-   - {{{nyqy(gec)}}} :: (nbr) marqueur de 10000_{6}. Voir
-                        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
-   - {{{nyqy(gé)}}} :: (nbr) quatre
-   - {{{nyqy(gó)}}} :: (v) boire
+   - {{{nyqy(ge)}}} ::
+     1. (gp.PST) marqueur du passé
+   - {{{nyqy(gec)}}} ::
+     1. (nbr) marqueur de 10000_{6}. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(gé)}}} ::
+     1. (nbr) quatre
+   - {{{nyqy(gó)}}} ::
+     1. (v) boire
 
 ** I
    :PROPERTIES:
@@ -2120,54 +2135,66 @@
    :PROPERTIES:
    :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
    :END:
-   - {{{nyqy(jéq)}}} :: (v) pousser, faire avancer
+   - {{{nyqy(jéq)}}} ::
+     1. (v) pousser, faire avancer
 
 ** M
    :PROPERTIES:
    :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
    :END:
-   - {{{nyqy(meq)}}} :: (n) parole, mot
-   - {{{nyqy(meqm)}}} :: (v) parler, expliquer, échanger oralement
-   - {{{nyqy(meqmsó)}}} :: (n) prise de parole, acte de parole, discours, oratoire
-   - {{{nyqy(meqyjéq)}}} :: (n) chuchotement, parole basse
-
-                      (v) chuchoter, litt. souffler une parole, voir /meqm/ et
-                          /syjéq/.
-   - {{{nyqy(mi)}}} :: (nbr) un
-   - {{{nyqy(mó)}}} :: (nbr) marqueur de 100_{6}. Voir
-                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
-   - {{{nyqy(muz)}}} :: (n) rouge, pourpre, fruit
+   - {{{nyqy(meq)}}} ::
+     1. (n) parole, mot
+   - {{{nyqy(meqm)}}} ::
+     1. (v) parler, expliquer, échanger oralement
+   - {{{nyqy(meqmsó)}}} ::
+     1. (n) prise de parole, acte de parole, discours, oratoire
+   - {{{nyqy(meqyjéq)}}} ::
+     1. (n) chuchotement, parole basse
+     2. (v) chuchoter, litt. souffler une parole, voir /meqm/ et /syjéq/.
+   - {{{nyqy(mi)}}} ::
+     1. (nbr) un
+   - {{{nyqy(mó)}}} ::
+     1. (nbr) marqueur de 100_{6}. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(muz)}}} ::
+     1. (n) rouge, pourpre, fruit
 
 ** N
    :PROPERTIES:
    :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
    :END:
-   - {{{nyqy(né)}}} :: (nbr) trois
-   - {{{nyqy(nócpi)}}} :: ensuite, puis, à côté, depuis
+   - {{{nyqy(né)}}} ::
+     1. (nbr) trois
+   - {{{nyqy(nócpi)}}} ::
+     1. ensuite, puis, à côté, depuis
 
 ** Ñ
    :PROPERTIES:
    :CUSTOM_ID: h-628010b2-9646-4886-9750-ba3c27096c15
    :END:
-   - {{{nyqy(ñe)}}} :: (n) maison
-   - {{{nyqy(ñójb)}}} :: (n) oiseau
-   - {{{nyqy(ñuné)}}} :: (n) dieu terrestre, divinité, être supérieur. Voir aussi
-                   /wéz/.
-   - {{{nyqy(ñuñ)}}} :: (nbr) marqueur de 1000000_{6}. Voir
-                        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
-   - {{{nyqy(ñy)}}} :: (pron) première personne
-
-                 (nbr) six, marqueur des sixaines. Voir
-                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
-
-                 (adj) beaucoup
+   - {{{nyqy(ñe)}}} ::
+     1. (n) maison
+   - {{{nyqy(ñójb)}}} ::
+     1. (n) oiseau
+   - {{{nyqy(ñuné)}}} ::
+     1. (n) dieu terrestre, divinité, être supérieur. Voir aussi /wéz/.
+   - {{{nyqy(ñuñ)}}} ::
+     1. (nbr) marqueur de 1000000_{6}. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(ñy)}}} ::
+     1. (pron) première personne
+     2. (nbr) six, marqueur des sixaines. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+     3. (adj) beaucoup
 
 ** O
    :PROPERTIES:
    :CUSTOM_ID: h-b16799c3-1aa3-48a6-a984-7d201564b8ba
    :END:
-   - {{{nyqy(oñ)}}} :: (n) nez
-   - {{{nyqy(oñsy)}}} :: (n) odeur, litt. air du nez, voir /oñ/ et /sy/.
+   - {{{nyqy(oñ)}}} ::
+     1. (n) nez
+   - {{{nyqy(oñsy)}}} ::
+     1. (n) odeur, litt. air du nez, voir /oñ/ et /sy/.
 
 ** Ó
    :PROPERTIES:
@@ -2178,41 +2205,57 @@
    :PROPERTIES:
    :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
    :END:
-   - {{{nyqy(ne)}}} :: (nbr) zéro, rien
-   - {{{nyqy(pim)}}} :: (n) pomme
-   - {{{nyqy(pom)}}} :: (gp) particule génitive
+   - {{{nyqy(ne)}}} ::
+     1. (nbr) zéro, rien
+   - {{{nyqy(pim)}}} ::
+     1. (n) pomme
+   - {{{nyqy(pom)}}} ::
+     1. (gp) particule génitive
 
 ** Q
    :PROPERTIES:
    :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
    :END:
-   - {{{nyqy(qéy)}}} :: (n) chaleur
-
-                  (adj) chaud
-   - {{{nyqy(qéysó)}}} :: (v) chauffer, réchauffer, cuire. Voir /qey/ et /só/.
-   - {{{nyqy(qi)}}} :: (nbr) deux
-   - {{{nyqy(qój)}}} :: (v) dormir
-   - {{{nyqy(qóñ)}}} :: vache, buffle, bétail
-   - {{{nyqy(qun)}}} :: (gp.OPT) particule grammaticale marquant l’optatif
-   - {{{nyqy(qy)}}} :: (nbr) six, première sixaine. Voir
-                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
+   - {{{nyqy(qéy)}}} ::
+     1. (n) chaleur
+     2. (adj) chaud
+   - {{{nyqy(qéysó)}}} ::
+     1. (v) chauffer, réchauffer, cuire. Voir /qey/ et /só/.
+   - {{{nyqy(qi)}}} ::
+     1. (nbr) deux
+   - {{{nyqy(qój)}}} ::
+     1. (v) dormir
+   - {{{nyqy(qóñ)}}} ::
+     1. vache, buffle, bétail
+   - {{{nyqy(qun)}}} ::
+     1. (gp.OPT) particule grammaticale marquant l’optatif
+   - {{{nyqy(qy)}}} ::
+     1. (nbr) six, première sixaine. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
 
 ** S
    :PROPERTIES:
    :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
    :END:
-   - {{{nyqy(si)}}} :: (nbr) marqueur de 1000_{6}. Voir
-                       §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
-   - {{{nyqy(séwe)}}} :: (n) porte, voile de tissu utilisé à l’entrée des maisons,
-        tissu
-   - {{{nyqy(sósy)}}} :: (vi) vivre, respirer
-   - {{{nyqy(só)}}} :: façon de faire, manière de faire, d’agir. Graphème lié, voir
-                 §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
-   - {{{nyqy(súmusq)}}} :: (n) maison communale
-   - {{{nyqy(sy)}}} :: (n) air, vent, vie, souffle
-   - {{{nyqy(syjéq)}}} ::  (v) souffler (vent, respiration),  expirer, litt. « pousser
-                         de l’air ». Voir /sy/ et /jéq/.
-   - {{{nyqy(syjéqsó)}}} :: (adj) fraîcheur, froid, souffle, vent
+   - {{{nyqy(si)}}} ::
+     1. (nbr) marqueur de 1000_{6}. Voir
+        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(séwe)}}} ::
+     1. (n) porte, voile de tissu utilisé à l’entrée des maisons, tissu
+   - {{{nyqy(sósy)}}} ::
+     1. (vi) vivre, respirer
+   - {{{nyqy(só)}}} ::
+     1. façon de faire, manière de faire, d’agir. Graphème lié, voir
+        §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(súmusq)}}} ::
+     1. (n) maison communale
+   - {{{nyqy(sy)}}} ::
+     1. (n) air, vent, vie, souffle
+   - {{{nyqy(syjéq)}}} ::
+     1.  (v) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
+        Voir /sy/ et /jéq/.
+   - {{{nyqy(syjéqsó)}}} ::
+     1. (adj) fraîcheur, froid, souffle, vent
 
 ** U
    :PROPERTIES:
@@ -2223,31 +2266,38 @@
    :PROPERTIES:
    :CUSTOM_ID: h-ac099677-5362-44b9-8fe3-f37d5624b327
    :END:
-   - {{{nyqy(újq)}}} :: (n) puissance, force mentale, majestueusité
+   - {{{nyqy(újq)}}} ::
+     1. (n) puissance, force mentale, majestueusité
 
 ** W
    :PROPERTIES:
    :CUSTOM_ID: h-204045c9-4949-4ded-b8cb-8ba95f7df25f
    :END:
-   - {{{nyqy(wéz)}}} :: (n) divinité suprême, dieu céleste, être supérieur. Voir aussi
-                      /ñuné/.
-   - {{{nyqy(wésy)}}} :: (n) souffle divin, âme, esprit. Voir /sy/ et /wéz/.
+   - {{{nyqy(wéz)}}} ::
+     1. (n) divinité suprême, dieu céleste, être supérieur. Voir aussi /ñuné/.
+   - {{{nyqy(wésy)}}} ::
+     1. (n) souffle divin, âme, esprit. Voir /sy/ et /wéz/.
 
 ** Y
    :PROPERTIES:
    :CUSTOM_ID: h-f271b8af-6237-448b-90be-d4daa0afbf1c
    :END:
-   - {{{nyqy(yc)}}} :: (n) eau douce, éther, vie, souffle divin
-   - {{{nyqy(ycéjéz)}}}  ::  (n)  magie,  force  divine.  Littéralement  « eau  de  la
-                            puissance divine », voir /yc/, /újq/ et /wéz/.
+   - {{{nyqy(yc)}}} ::
+     1. (n) eau douce, éther, vie, souffle divin
+   - {{{nyqy(ycéjéz)}}} ::
+     1. (n) magie, force divine. Littéralement « eau de la puissance divine »,
+        voir /yc/, /újq/ et /wéz/.
 
 ** Z
    :PROPERTIES:
    :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
    :END:
-   - {{{nyqy(zé)}}} :: (pron) Pron.Pers.3.sg, il, elle
-   - {{{nyqy(zój)}}} :: (n) chose, objet abstrait
-   - {{{nyqy(zuj)}}} :: (n) nuit, noir, ombre
+   - {{{nyqy(zé)}}} ::
+     1. (pron) Pron.Pers.3.sg, il, elle
+   - {{{nyqy(zój)}}} ::
+     1. (n) chose, objet abstrait
+   - {{{nyqy(zuj)}}} ::
+     1. (n) nuit, noir, ombre
 
 * Choses à faire [2/4]                                             :noexport:
   :PROPERTIES:
