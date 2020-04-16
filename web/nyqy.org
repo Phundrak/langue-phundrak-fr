@@ -9,65 +9,7 @@
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics $1))
 #+LATEX_HEADER_EXTRA: \usepackage{enumitem}
-
-# To be used at https://jasontank.net/wordgen.html
-#+NAME: wordgen-backup
-#+BEGIN_SRC text :exports none
-  --CATEGORIES--
-  A=qgcjñmnszpbw
-  B=qgcjñmnszpb
-  V=óéoe
-  W=úuyi
-  C=jczs
-  P=mbpgq
-
-  --REWRITE--
-
-  --MONO--
-  AV
-  BW
-  AVB
-  BWB
-  VB
-  WB
-  AVCP
-  BWCP
-  VCP
-  WCP
-
-  --MID--
-  AV
-  BW
-  CPV
-  CPW
-  V
-  W
-  --INIT--
-  AV
-  BW
-
-  --FINAL--
-  AV
-  BW
-  CPV
-  CPW
-  AVB
-  BWB
-  CPVB
-  CPWB
-  AVCP
-  BWCP
-  CPVCP
-  CPWCP
-  --FLAGS--
-  0 1 monoMostly dropoffMolasses
-  --ADVANCED--
-  10
-  150
-  750
-  30
-  ||
-#+END_SRC
+#+STARTUP: content
 
 * Propos préliminaires
   :PROPERTIES:
@@ -372,15 +314,15 @@
 
    Le mode de  vie était ainsi donc principalement sédentaire,  et il semblerait
    que  les familles  vivaient  ensemble sous  le même  toit,  dans des  maisons
-   communales  {{{nyqy(súmusq)}}} ;  cela  inclus  tous  les  membres  de  la  famille
-   descendant de l’ancêtre commun le plus  âgé, ainsi que leurs époux ou épouses
-   respectifs. Ces  maisons étaient  principalement faites  de paille  et argile
-   séchée pour  ce qui  est des murs  tandis que le  toit était  possiblement un
-   mélange de  paille et de grandes  feuilles séchées pour les  maisons humbles,
-   tandis que les maisons plus  riches avaient probablement des tuiles d’argile.
-   L’entrée n’était sans doute  fermée que par un voile de  tissu ; en effet, on
-   retrouve  dans beaucoup  de  langues  descendantes du  Ñyqy  les termes  pour
-   « porte » et « tissu » descendants du terme {{{nyqy(séwe)}}}.
+   communes {{{nyqy(súmusq)}}} ; cela inclus tous les membres de la famille descendant
+   de l’ancêtre commun le plus âgé, ainsi que leurs époux ou épouses respectifs.
+   Ces maisons étaient principalement faites de  paille et argile séchée pour ce
+   qui est des murs  tandis que le toit était possiblement  un mélange de paille
+   et  de grandes  feuilles séchées  pour les  maisons humbles,  tandis que  les
+   maisons  plus  riches  avaient  probablement des  tuiles  d’argile.  L’entrée
+   n’était sans doute fermée  que par un voile de tissu ;  en effet, on retrouve
+   dans beaucoup  de langues descendantes du  Ñyqy les termes pour  « porte » et
+   « tissu » descendants du terme {{{nyqy(séwe)}}}.
 
    Concernant  le  mariage,  il  semblerait  qu’il n’y  avait  pas  de  tendance
    particulière quant  à qui  rejoignait la  famille de  qui parmi  les familles
@@ -2130,6 +2072,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
    :END:
+   - {{{nyqy(ij)}}} ::
+     1. (n) chemin, route, voie
+     2. (v) voyager
 
 ** J
    :PROPERTIES:
@@ -2142,6 +2087,8 @@
    :PROPERTIES:
    :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
    :END:
+   - {{{nyqy(meém)}}} ::
+     1. (n) grand-mère (affectueux)
    - {{{nyqy(meq)}}} ::
      1. (n) parole, mot
    - {{{nyqy(meqm)}}} ::
@@ -2207,6 +2154,8 @@
    :END:
    - {{{nyqy(ne)}}} ::
      1. (nbr) zéro, rien
+   - {{{nyqy(pi)}}} ::
+     1. (n) chien
    - {{{nyqy(pim)}}} ::
      1. (n) pomme
    - {{{nyqy(pom)}}} ::
@@ -2261,6 +2210,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-319f1418-eefb-4a02-9b0e-7b3dd56c20e4
    :END:
+   - {{{nyqy(uñ)}}} ::
+     1. (n) pied
+     2. (v) marcher, avancer
 
 ** Ú
    :PROPERTIES:
@@ -2277,6 +2229,9 @@
      1. (n) divinité suprême, dieu céleste, être supérieur. Voir aussi /ñuné/.
    - {{{nyqy(wésy)}}} ::
      1. (n) souffle divin, âme, esprit. Voir /sy/ et /wéz/.
+   - {{{nyqy(wésyqun)}}} ::
+     1. (n) Shaman. Aspirant aux esprits, aux âmes, aux dieux. Voir aussi
+        /wésy/, /qun/
 
 ** Y
    :PROPERTIES:
@@ -2287,6 +2242,18 @@
    - {{{nyqy(ycéjéz)}}} ::
      1. (n) magie, force divine. Littéralement « eau de la puissance divine »,
         voir /yc/, /újq/ et /wéz/.
+   - {{{nyqy(ycij)}}} ::
+     1. (n) rivière, fleuve, ruisseau
+     2. (n) veine, artère
+   - {{{nyqy(ycoj)}}} ::
+     1. (n) liquide
+     2. (adj) aqueux, liquide
+     3. (adj) bénéfacteur, bon
+   - {{{nyqy(ycomuj)}}} ::
+     1. (n) sang, voir /yc/, /cojmuj/
+   - {{{nyqy(ycuñ)}}} ::
+     1. (n) flot, courant (par ex. d’eau)
+     2. (v) couler (de l’eau)
 
 ** Z
    :PROPERTIES:
@@ -2294,6 +2261,13 @@
    :END:
    - {{{nyqy(zé)}}} ::
      1. (pron) Pron.Pers.3.sg, il, elle
+   - {{{nyqy(zoc)}}} ::
+     1. (n) tête
+     2. (n) chef, patriarche, matriarche
+     3. (n) sommet d’une montagne
+     4. (adj) haut, élevé
+   - {{{nyqy(zocséwe)}}} ::
+     1. (n) voile ou châle porté autour de la tête. Voir /zoc/ et /séwe/.
    - {{{nyqy(zój)}}} ::
      1. (n) chose, objet abstrait
    - {{{nyqy(zuj)}}} ::
@@ -2303,6 +2277,65 @@
   :PROPERTIES:
   :CUSTOM_ID: h-66fbd617-f391-47d6-b3ea-06ffe259deee
   :END:
+# To be used at https://jasontank.net/wordgen.html
+#+NAME: wordgen-backup
+#+BEGIN_SRC text :exports none
+  --CATEGORIES--
+  A=qgcjñmnszpbw
+  B=qgcjñmnszpb
+  V=óéoe
+  W=úuyi
+  C=jczs
+  P=mbpgq
+
+  --REWRITE--
+
+  --MONO--
+  AV
+  BW
+  AVB
+  BWB
+  VB
+  WB
+  AVCP
+  BWCP
+  VCP
+  WCP
+
+  --MID--
+  AV
+  BW
+  CPV
+  CPW
+  V
+  W
+  --INIT--
+  AV
+  BW
+
+  --FINAL--
+  AV
+  BW
+  CPV
+  CPW
+  AVB
+  BWB
+  CPVB
+  CPWB
+  AVCP
+  BWCP
+  CPVCP
+  CPWCP
+  --FLAGS--
+  0 1 monoMostly dropoffMolasses
+  --ADVANCED--
+  10
+  150
+  750
+  30
+  ||
+#+END_SRC
+
 ** DONE corriger ~conlang/nyqy-to-phonetics~
    CLOSED: [2020-01-29 mer. 21:27]
    :PROPERTIES:
@@ -2364,6 +2397,10 @@
 
 [fn:1] https://langue.phundrak.fr
 
+# Traduction de « je t’aime »
+# Mon âme est tienne
+# wósy pom ñy zój pom bu
+#
 #  LocalWords:  Ñy Qy proto-Ñyqy proto Ðbńo Pr Loqbrekh Khorlan Yerth Rhésode
 #  LocalWords:  Mojhal Lor États-cités lingua franca GEN sg OPT SV doirbh kõrv
 #  LocalWords:  hook non-mutées cójm wy wú dor absolutif-verbe sg-ABS sg-ERG
