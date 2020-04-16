@@ -3,7 +3,7 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite TEMPLATE" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du TEMPLATE" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite TEMPLATE" />
-#+INCLUDE: headers/headers.org
+#+INCLUDE: headers.org
 #+OPTIONS: auto-id:t
 
 * Propos préliminaires

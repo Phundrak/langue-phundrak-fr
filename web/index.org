@@ -3,7 +3,7 @@
 #+HTML_HEAD: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:title" content="Langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
-#+INCLUDE: headers/headers.org
+#+INCLUDE: headers.org
 
 * Langues divines
   :PROPERTIES:
@@ -21,7 +21,7 @@
 
   [[file:matter.org][Mattér]] ([[file:matter.pdf][pdf]])
 
-  [[file:eittlanda.org][Eittlandais]] ([[file:eittlanda.pdf][pdf]])
+  [[file:eittland.org][Eittlandais]] ([[file:eittland.pdf][pdf]])
 
 * Proto-langs
   :PROPERTIES:
