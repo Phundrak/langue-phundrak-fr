@@ -3,7 +3,7 @@
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Tãso" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Tãso" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Tãso" />
-#+INCLUDE: headers.org
+#+INCLUDE: headers
 #+OPTIONS: auto-id:t
 
 * Propos préliminaires

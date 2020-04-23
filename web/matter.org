@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Mattér" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Mattér" />
 #+LATEX_HEADER: \usepackage{allrunes}
-#+INCLUDE: headers.org
+#+INCLUDE: headers
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/matter-org-export-runes $1))
 #+OPTIONS: auto-id:t

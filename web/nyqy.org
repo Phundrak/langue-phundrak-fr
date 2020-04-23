@@ -5,7 +5,7 @@
 #+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ñyqy" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="/css/nyqy.css"/>
-#+INCLUDE: headers.org
+#+INCLUDE: headers
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics $1))
 #+LATEX_HEADER_EXTRA: \usepackage{enumitem}
@@ -2009,6 +2009,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
    :END:
+   - {{{nyqy(beñ)}}} ::
+     1. (n) dents
+     2. (v) mordre, croquer
    - {{{nyqy(bú)}}} ::
      1. (pron) deuxième personne
 
@@ -2037,6 +2040,9 @@
    - {{{nyqy(cójm)}}} ::
      1. (nbr) marqueur de 100000_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(cosu)}}} ::
+     1. (n) entièreté
+     2. (adv) tout, entièrement
 
 ** E
    :PROPERTIES:
@@ -2063,8 +2069,17 @@
    - {{{nyqy(gec)}}} ::
      1. (nbr) marqueur de 10000_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(gez)}}} ::
+     1. (n) aggression
+     2. (v) attaquer, agresser
+   - {{{nyqy(gezbeñ)}}} ::
+     1. (n) morsure
+     2. (v) mordre
    - {{{nyqy(gé)}}} ::
      1. (nbr) quatre
+   - {{{nyqy(goñ)}}} ::
+     1. (adj) grand, gros, large
+     2. (v) grossir
    - {{{nyqy(gó)}}} ::
      1. (v) boire
 
@@ -2081,7 +2096,10 @@
    :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
    :END:
    - {{{nyqy(jéq)}}} ::
-     1. (v) pousser, faire avancer
+     1. (v) pousser
+   - {{{nyqy(josgé)}}} ::
+     1. (n) os
+     2. (n) amulette
 
 ** M
    :PROPERTIES:
@@ -2100,6 +2118,9 @@
      2. (v) chuchoter, litt. souffler une parole, voir /meqm/ et /syjéq/.
    - {{{nyqy(mi)}}} ::
      1. (nbr) un
+   - {{{nyqy(mij)}}} ::
+     1. (n) cendres
+     2. (n) fumée
    - {{{nyqy(mó)}}} ::
      1. (nbr) marqueur de 100_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
@@ -2142,6 +2163,8 @@
      1. (n) nez
    - {{{nyqy(oñsy)}}} ::
      1. (n) odeur, litt. air du nez, voir /oñ/ et /sy/.
+   - {{{nyqy(oz)}}} ::
+     1. (n) chat
 
 ** Ó
    :PROPERTIES:
@@ -2154,12 +2177,20 @@
    :END:
    - {{{nyqy(ne)}}} ::
      1. (nbr) zéro, rien
+     2. (adv) non, pas, négation
+   - {{{nyqy(neyc)}}} ::
+     1. (n) mort, voir /ne/ et /yc/
+     2. (v) mourrir
+   - {{{nyqy(péj)}}} ::
+     1. (n) poisson d’eau douce
    - {{{nyqy(pi)}}} ::
      1. (n) chien
    - {{{nyqy(pim)}}} ::
      1. (n) pomme
    - {{{nyqy(pom)}}} ::
      1. (gp) particule génitive
+   - {{{nyqy(púmój)}}} ::
+     1. (n) poisson d’eau de mer
 
 ** Q
    :PROPERTIES:
@@ -2196,13 +2227,15 @@
    - {{{nyqy(só)}}} ::
      1. façon de faire, manière de faire, d’agir. Graphème lié, voir
         §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(sú)}}} ::
+     1. (n) ventre, estomac
    - {{{nyqy(súmusq)}}} ::
      1. (n) maison communale
    - {{{nyqy(sy)}}} ::
      1. (n) air, vent, vie, souffle
    - {{{nyqy(syjéq)}}} ::
-     1.  (v) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
-        Voir /sy/ et /jéq/.
+     1. (v) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
+       Voir /sy/ et /jéq/.
    - {{{nyqy(syjéqsó)}}} ::
      1. (adj) fraîcheur, froid, souffle, vent
 
@@ -2213,6 +2246,8 @@
    - {{{nyqy(uñ)}}} ::
      1. (n) pied
      2. (v) marcher, avancer
+   - {{{nyqy(usg)}}} ::
+     1. (n) dos
 
 ** Ú
    :PROPERTIES:

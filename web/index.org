@@ -1,9 +1,11 @@
+# -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Langues construites de P’undrak
 #+INFOJS_OPT: view:showall toc:1
 #+HTML_HEAD: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:title" content="Langues construites de P’undrak" />
 #+HTML_HEAD: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
-#+INCLUDE: headers.org
+#+INCLUDE: headers
+#+options: html-style:nil
 
 * Langues divines
   :PROPERTIES:
