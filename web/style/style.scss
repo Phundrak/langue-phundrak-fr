@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700);
+@font-face {
+    font-family: "DoulosSIL";
+    font-display: swap;
+    src: url("https://langue.phundrak.com/fonts/DoulosSIL-R.woff");
+}
+@font-face {
+    font-family: "Noto Sans Runes";
+    font-display: swap;
+    src: url("../fonts/NotoSansRunic-Regular.ttf");
+}
+@font-face {
+    font-family: "Helvetica Neue";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeue.ttf");
+}
+
+/* Colors ********************************************************************/
+$dark:    rgba(52, 73, 94, 1);
+$accent1: rgba(66, 191, 221, 1);
+$accent2: rgba(92, 172, 126, 1);
+$accent3: rgba(197, 193, 155, 1);
+$light:   rgba(250, 250, 255, 1);
+$gradient-top:          linear-gradient(0deg,   $dark, $accent1, $accent2, $accent3, $light);
+$gradient-right:        linear-gradient(90deg,  $dark, $accent1, $accent2, $accent3, $light);
+$gradient-bottom:       linear-gradient(180deg, $dark, $accent1, $accent2, $accent3, $light);
+$gradient-left:         linear-gradient(270deg, $dark, $accent1, $accent2, $accent3, $light);
+$gradient-top-right:    linear-gradient(45deg,  $dark, $accent1, $accent2, $accent3, $light);
+$gradient-bottom-right: linear-gradient(135deg, $dark, $accent1, $accent2, $accent3, $light);
+$gradient-top-left:     linear-gradient(225deg, $dark, $accent1, $accent2, $accent3, $light);
+$gradient-bottom-left:  linear-gradient(315deg, $dark, $accent1, $accent2, $accent3, $light);
+$gradient-radial:       radial-gradient(        $dark, $accent1, $accent2, $accent3, $light);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+header {
+    padding: 1em;
+    background: red;
+    margin-bottom: 1em;
+    padding-bottom: 3.5em;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+}
+
+.dropdown {
+    position: absolute;
+    width: 500px;
+    opacity: 0;
+    z-index: 2;
+    background: blue;
+    border-top: 2px solid white;
+
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175em 0.5em;
+    transform: translateX(-40%);
+
+    transition: opacity .15s ease-out;
+}
+
+#theme-dropdown {
+    width: 300px;
+    transform: translateX(-60%);
+}
+
+.has-dropdown {
+    &:focus-within {
+        .dropdown {
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+}
+
+.dropdown-item {
+    a {
+        width: 100%;
+        height: 100%;
+        size: 0.7rem;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+}
