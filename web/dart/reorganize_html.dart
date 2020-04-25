@@ -7,56 +7,6 @@ String getPageTitle() {
   return querySelector('title').text;
 }
 
-class Navbar {
-  Navbar() {
-    navbar = Element.ul()..classes.add('navbar-nav');
-  }
-
-  // Inserts the element in a <li class='nav-item'></li>
-  void addElement(final Element elem, [List<String> classes, String id]) {
-    var wrapper = Element.li()
-      ..classes.add('nav-item')
-      ..append(elem);
-    if (classes != null) {
-      for (var c in classes) {
-        wrapper.classes.add(c);
-      }
-    }
-    if (id != null) () => wrapper.attributes['id'] = id;
-    navbar.append(wrapper);
-  }
-
-  Future<Element> makeNavbar() async {
-    addElement(Element.a()
-      ..attributes['href']
-      ..innerText = 'Accueil');
-  }
-
-  Future<void> addLanguages() async {
-    var languages = Element.ul()..classes.add('dropdown');
-    await parseSitemap().then((final sitemap) => {
-          sitemap.forEach((url, name) {
-            final link = Element.a()
-              ..attributes['href'] = url
-              ..innerText = name;
-
-            final linkLi = Element.li()
-              ..classes.add('dropdown-item')
-              ..insertAdjacentElement('afterBegin', link);
-
-            languages.insertAdjacentElement('beforeEnd', linkLi);
-          })
-        });
-    final langLink = Element.a()
-      ..attributes['href'] = '#'
-      ..innerText = 'Langues';
-    addElement(langLink, ['has-dropdown'], 'langList');
-    querySelector('#langList').insertAdjacentElement('beforeEnd', languages);
-  }
-
-  Element navbar;
-}
-
 Future<Element> addLanguages(Element navbar) async {
   // Languages
   var languages = Element.ul()..classes.add('dropdown');
@@ -87,7 +37,7 @@ Future<Element> addLanguages(Element navbar) async {
 // - One back to home
 // - A dropdown to each language detected in the sitemap
 Future<Element> makeNavbar() async {
-  var _navbar = Navbar();
+  // var _navbar = Navbar();
 
   // Home
   var navbar_content = Element.ul()..classes.add('navbar-nav');
@@ -121,8 +71,8 @@ Future<Element> makeNavbar() async {
 <li class="nav-item has-dropdown">
   <a href="#"><i class="fas fa-sun" id="themeBtn"></i></a>
   <ul class="dropdown" id="theme-dropdown">
-    <li class="dropdown-item"><i class="fas fa-sun"></i> Clair</li>
-    <li class="dropdown-item"><i class="fas fa-moon"></i> Sombre</li>
+    <li class="dropdown-item"><span id="lightBtn"><i class="fas fa-sun"></i> Clair</span></li>
+    <li class="dropdown-item"><span id="darkBtn"> <i class="fas fa-moon"></i> Sombre</span></li>
   </ul>
 </li>'''));
 

@@ -1,5 +1,5 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Une Grammaire du Ñyqy
+#+TITLE: Grammaire du Ñyqy
 #+SUBTITLE: Un détail de la langue construite prototype du Ñyqy, et une rapide description de son peuple et sa culture
 #+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />

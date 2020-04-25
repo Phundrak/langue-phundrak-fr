@@ -15,12 +15,19 @@
     src: url("../fonts/HelveticaNeue.ttf");
 }
 
-/* Colors ********************************************************************/
+// Themes /////////////////////////////////////////////////////////////////////
+
 $dark:    rgba(52, 73, 94, 1);
 $accent1: rgba(66, 191, 221, 1);
 $accent2: rgba(92, 172, 126, 1);
 $accent3: rgba(197, 193, 155, 1);
-$light:   rgba(250, 250, 255, 1);
+$light: #ddd;
+$grey1: #f8f8f8;
+$grey2: #dbe1e8;
+$grey3: #b2becd;
+$grey4: #6c7983;
+$grey5: #454e56;
+$grey6: #12181b;
 $gradient-top:          linear-gradient(0deg,   $dark, $accent1, $accent2, $accent3, $light);
 $gradient-right:        linear-gradient(90deg,  $dark, $accent1, $accent2, $accent3, $light);
 $gradient-bottom:       linear-gradient(180deg, $dark, $accent1, $accent2, $accent3, $light);
@@ -31,10 +38,54 @@ $gradient-top-left:     linear-gradient(225deg, $dark, $accent1, $accent2, $acce
 $gradient-bottom-left:  linear-gradient(315deg, $dark, $accent1, $accent2, $accent3, $light);
 $gradient-radial:       radial-gradient(        $dark, $accent1, $accent2, $accent3, $light);
 
+.light {
+    $bg-nav: linear-gradient(to right, $grey1, $grey3);
+    $bg-dropdown: $grey1;
+    $text: $light;
+    $border-color: $accent1;
+    $bg-solar: $accent3;
+
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    color: $dark;
+    background: $light;
+
+    .navbar {
+        background: $grey3;
+    }
+}
+
+.dark {
+    $background: $dark;
+    $foreground: $light;
+    $bg-nav: linear-gradient(to right, $grey5, $grey6);
+    $bg-dropdown: $grey6;
+    $text: $dark;
+    $border-color: $dark;
+    $bg-solar: $accent3;
+
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    color: $light;
+    background: $dark;
+
+    .navbar {
+        color: $light;
+        background: $grey6;
+    }
+}
+
+/* Style *********************************************************************/
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    header, .navbar {
+        transition: background 500ms ease-in-out, color 1s ease-in-out;
+    }
 }
 
 ul {
@@ -51,8 +102,6 @@ a {
 .navbar {
     height: 70px;
     width: 100%;
-    background: black;
-    color: white;
 }
 
 .navbar-nav {
@@ -60,15 +109,18 @@ a {
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+    background: $accent3;
+    color: $dark;
 }
 
 header {
     padding: 1em;
-    background: red;
     margin-bottom: 1em;
     padding-bottom: 3.5em;
     text-align: center;
     clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+    color: $light;
+    background: $accent2;
 }
 
 .dropdown {
@@ -97,7 +149,7 @@ header {
 
 #theme-dropdown {
     width: 300px;
-    transform: translateX(-60%);
+    transform: translateX(-95%);
 }
 
 .has-dropdown {
