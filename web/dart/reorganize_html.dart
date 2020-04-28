@@ -15,7 +15,7 @@ Element makeIcon(List<String> classes, [String id]) {
   return icon;
 }
 
-Future<Element> addLanguages(Element navbar) async {
+Future<Element> makeLanguages() async {
   // Languages
   var languages = Element.ul()
     ..attributes['id'] = 'drop-lang'
@@ -32,14 +32,12 @@ Future<Element> addLanguages(Element navbar) async {
           languages.insertAdjacentElement('beforeEnd', link);
         })
       });
-  navbar.append(Element.li()
+  return Element.li()
     ..append(Element.a()
       ..attributes['href'] = 'javascript:void(0)'
       ..append(makeIcon(['fas', 'fa-language'])))
-    // ..innerText = 'Langues')
     ..classes.addAll(['nav-item', 'has-dropdown'])
-    ..insertAdjacentElement('beforeEnd', languages));
-  return navbar;
+    ..insertAdjacentElement('beforeEnd', languages);
 }
 
 Element makeTocDropDown() {
@@ -65,20 +63,58 @@ Element makeThemeChanger() {
     ..classes.addAll(['nav-item', 'has-dropdown'])
     ..append(Element.a()
       ..attributes['href'] = 'javascript:void(0)'
-      ..append(makeIcon(['fas', 'fa-sun']))
-      ..append(makeIcon(['fas', 'fa-moon'])))
+      ..append(Element.span()
+        ..classes.add('fa-stack')
+        ..style.verticalAlign = 'top'
+        ..append(makeIcon(['fas', 'fa-sun', 'fa-stack-1x'])..style.fontSize = '0.9em')
+        ..append(makeIcon(['fas', 'fa-moon', 'fa-stack-1x']))))
     ..append(Element.ul()
       ..classes.add('dropdown')
       ..attributes['id'] = 'theme-dropdown'
       ..append(makeThemeItem('lightBtn', makeIcon(['fas', 'fa-sun']), 'Clair'))
-      ..append(makeThemeItem('darkBtn', makeIcon(['fas', 'fa-lightbulb']), 'Sombre'))
-      ..append(makeThemeItem('blackBtn', makeIcon(['fas', 'fa-moon']), 'Noir')));
+      ..append(
+          makeThemeItem('darkBtn', makeIcon(['fas', 'fa-lightbulb']), 'Sombre'))
+      ..append(
+          makeThemeItem('blackBtn', makeIcon(['fas', 'fa-moon']), 'Noir')));
 }
 
 // Add a navbar atop of the HTML body, containing two buttons:
 // - One back to home
 // - A dropdown to each language detected in the sitemap
 Future<Element> makeNavbar() async {
+  Element makeShare() {
+    Element makeShareLink(Element icon, String url) {
+      return Element.li()
+        ..classes.add('dropdown-item')
+        ..append(Element.a()
+          ..attributes['href'] = url
+          ..attributes['target'] = '_blank'
+          ..append(icon));
+    }
+
+    return Element.li()
+      ..classes.addAll(['nav-item', 'has-dropdown'])
+      ..append(Element.a()
+        ..attributes['href'] = 'javascript:void(0)'
+        ..append(makeIcon(['fas', 'fa-share-alt'])))
+      ..append(Element.ul()
+        ..classes.add('dropdown')
+        ..append(makeShareLink(
+            makeIcon(['fab', 'fa-twitter-square']),
+            'https://twitter.com/share?text=${getPageTitle()}'
+            '&url=${window.location.href}'))
+        ..append(makeShareLink(makeIcon(['fab', 'fa-reddit-square']),
+            'https://www.reddit.com/submit?title=${getPageTitle()}s&url=${window.location.href}'))
+        ..append(makeShareLink(makeIcon(['fas', 'fa-envelope-square']),
+            'mailto:?subject=${getPageTitle}&body=${window.location.href}'))
+        ..append(makeShareLink(
+            makeIcon(['fab', 'fa-linkedin']),
+            'https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}'
+            '&title=${getPageTitle()}'))
+        ..append(makeShareLink(makeIcon(['fab', 'fa-facebook-square']),
+            'https://www.facebook.com/sharer/sharer.php?u=${window.location.href}')));
+  }
+
   var navbar_content = Element.ul()..classes.add('navbar-nav');
 
   // Home
@@ -94,15 +130,12 @@ Future<Element> makeNavbar() async {
   navbar_content.append(makeTocDropDown());
 
   // Add languages
-  navbar_content = await addLanguages(navbar_content);
+  navbar_content.append(await makeLanguages());
 
   // Share icon
-  // TODO Add dropdown for sharing on multiple platforms
-  navbar_content = addIcon(navbar_content, ['fas', 'fa-share-alt'], 'shareBtn');
+  navbar_content.append(makeShare());
 
   // Theme changer
-  var theme = window.localStorage['theme'];
-  theme = (theme == null || theme == 'light') ? 'fa-moon' : 'fa-sun';
   navbar_content.append(makeThemeChanger());
 
   // Navbar content added to navbar

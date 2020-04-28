@@ -32,34 +32,34 @@ $grey6:                        #12181b;
 
 // Accent 1
 //   Black
-$gradient-accent1-black-left:   linear-gradient(to left,  $black,  $accent1,  $accent1);
-$gradient-accent1-black-right:  linear-gradient(to right, $black,  $accent1,  $accent1);
+$gradient-accent1-black-left:  linear-gradient(to left,  $black,  $accent1,  $accent1);
+$gradient-accent1-black-right: linear-gradient(to right, $black,  $accent1,  $accent1);
 //   Dark
-$gradient-accent1-dark-left:    linear-gradient(to left,  $dark,   $accent1);
-$gradient-accent1-dark-right:   linear-gradient(to right, $dark,   $accent1);
+$gradient-accent1-dark-left:   linear-gradient(to left,  $dark,   $accent1);
+$gradient-accent1-dark-right:  linear-gradient(to right, $dark,   $accent1);
 //   Light
-$gradient-accent1-light-left:   linear-gradient(to left,  $light,  $accent1);
-$gradient-accent1-light-right:  linear-gradient(to right, $light,  $accent1);
+$gradient-accent1-light-left:  linear-gradient(to left,  $light,  $accent1);
+$gradient-accent1-light-right: linear-gradient(to right, $light,  $accent1);
 // Accent 2
 //   Black
-$gradient-accent2-black-left:   linear-gradient(to left,  $black,  $accent2,  $accent2);
-$gradient-accent2-black-right:  linear-gradient(to right, $black,  $accent2,  $accent2);
+$gradient-accent2-black-left:  linear-gradient(to left,  $black,  $accent2,  $accent2);
+$gradient-accent2-black-right: linear-gradient(to right, $black,  $accent2,  $accent2);
 //   Dark
-$gradient-accent2-dark-left:    linear-gradient(to left,  $dark,   $accent2);
-$gradient-accent2-dark-right:   linear-gradient(to right, $dark,   $accent2);
+$gradient-accent2-dark-left:   linear-gradient(to left,  $dark,   $accent2);
+$gradient-accent2-dark-right:  linear-gradient(to right, $dark,   $accent2);
 //   Light
-$gradient-accent2-light-left:   linear-gradient(to left,  $light,  $accent2);
-$gradient-accent2-light-right:  linear-gradient(to right, $light,  $accent2);
+$gradient-accent2-light-left:  linear-gradient(to left,  $light,  $accent2);
+$gradient-accent2-light-right: linear-gradient(to right, $light,  $accent2);
 // Accent 3
 //   Black
-$gradient-accent3-black-left:   linear-gradient(to left,  $black,  $accent3,  $accent3);
-$gradient-accent3-black-right:  linear-gradient(to right, $black,  $accent3,  $accent3);
+$gradient-accent3-black-left:  linear-gradient(to left,  $black,  $accent3,  $accent3);
+$gradient-accent3-black-right: linear-gradient(to right, $black,  $accent3,  $accent3);
 //   Dark
-$gradient-accent3-dark-left:    linear-gradient(to left,  $dark,   $accent3);
-$gradient-accent3-dark-right:   linear-gradient(to right, $dark,   $accent3);
+$gradient-accent3-dark-left:   linear-gradient(to left,  $dark,   $accent3);
+$gradient-accent3-dark-right:  linear-gradient(to right, $dark,   $accent3);
 //   Light
-$gradient-accent3-light-left:   linear-gradient(to left,  $light,  $accent3);
-$gradient-accent3-light-right:  linear-gradient(to right, $light,  $accent3);
+$gradient-accent3-light-left:  linear-gradient(to left,  $light,  $accent3);
+$gradient-accent3-light-right: linear-gradient(to right, $light,  $accent3);
 
 $navbar-height: 70px;
 $postamble-height: 55px;
@@ -99,6 +99,18 @@ $postamble-height: 55px;
         background: $accent3;
         color: $dark;
     }
+
+    #content {
+        a {
+            box-shadow: inset 0 -3px 0 $accent3;
+            transition: box-shadow 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: inset 0 -23px 0 $accent3;
+                transition: box-shadow 300ms ease-in-out;
+            }
+        }
+    }
 }
 
 .dark, .black {
@@ -136,6 +148,18 @@ $postamble-height: 55px;
         background: $accent3;
         color: $dark;
     }
+
+    #content {
+        a {
+            box-shadow: inset 0 -3px 0 $accent2;
+            transition: box-shadow 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: inset 0 -23px 0 $accent2;
+                transition: box-shadow 300ms ease-in-out;
+            }
+        }
+    }
 }
 
 .black {
@@ -154,6 +178,18 @@ $postamble-height: 55px;
     .dropdown {
         background: $dark;
         color: $light;
+    }
+
+    #content {
+        a {
+            box-shadow: inset 0 -3px 0 $accent1;
+            transition: box-shadow 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: inset 0 -23px 0 $accent1;
+                transition: box-shadow 300ms ease-in-out;
+            }
+        }
     }
 }
 
@@ -215,7 +251,7 @@ header {
 .dropdown {
     position: absolute;
     opacity: 0;
-    z-index: 5;
+    z-index: -1;
 
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -226,11 +262,31 @@ header {
     min-height: 3rem;
     margin-top: 1rem;
     padding: 0.5rem;
+    top: 0;
 
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175em 0.5em;
     transform: translateX(-40%);
 
-    transition: opacity .15s ease-out;
+    transition: opacity 500ms ease-in-out, top 500ms ease-in-out;
+}
+
+.has-dropdown {
+    &:focus-within {
+        .dropdown {
+            opacity: 1;
+            top: $navbar-height / 1.5;
+            z-index: 5;
+            pointer-events: auto;
+        }
+
+        #table-of-contents {
+            opacity: 1;
+            top: $navbar-height / 1.5;
+            z-index: 5;
+            height: 500%;
+            pointer-events: auto;
+        }
+    }
 }
 
 #theme-dropdown {
@@ -242,21 +298,6 @@ header {
 #drop-lang {
     flex-direction: column;
     transform: translateX(-40%);
-}
-
-.has-dropdown {
-    &:focus-within {
-        .dropdown {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        #table-of-contents {
-            opacity: 1;
-            height: 500%;
-            pointer-events: auto;
-        }
-    }
 }
 
 .dropdown-item {
@@ -297,8 +338,11 @@ header {
     padding-top: 0;
     max-width: 700px;
     margin: 0 auto;
-
     text-align: justify;
+
+    a {
+        font-style: italic;
+    }
 }
 
 #postamble {
@@ -373,4 +417,8 @@ h4 {
             visibility: visible;
         }
     }
+}
+
+blockquote {
+    font-style: italic;
 }
