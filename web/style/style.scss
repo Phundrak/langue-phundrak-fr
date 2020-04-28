@@ -2,7 +2,7 @@
 @font-face {
     font-family: "DoulosSIL";
     font-display: swap;
-    src: url("https://langue.phundrak.com/fonts/DoulosSIL-R.woff");
+    src: url("/fonts/DoulosSIL-R.woff");
 }
 @font-face {
     font-family: "Noto Sans Runes";
@@ -17,70 +17,158 @@
 
 // Themes /////////////////////////////////////////////////////////////////////
 
-$dark:    rgba(52, 73, 94, 1);
-$accent1: rgba(66, 191, 221, 1);
-$accent2: rgba(92, 172, 126, 1);
-$accent3: rgba(197, 193, 155, 1);
-$light: #ddd;
-$grey1: #f8f8f8;
-$grey2: #dbe1e8;
-$grey3: #b2becd;
-$grey4: #6c7983;
-$grey5: #454e56;
-$grey6: #12181b;
-$gradient-top:          linear-gradient(0deg,   $dark, $accent1, $accent2, $accent3, $light);
-$gradient-right:        linear-gradient(90deg,  $dark, $accent1, $accent2, $accent3, $light);
-$gradient-bottom:       linear-gradient(180deg, $dark, $accent1, $accent2, $accent3, $light);
-$gradient-left:         linear-gradient(270deg, $dark, $accent1, $accent2, $accent3, $light);
-$gradient-top-right:    linear-gradient(45deg,  $dark, $accent1, $accent2, $accent3, $light);
-$gradient-bottom-right: linear-gradient(135deg, $dark, $accent1, $accent2, $accent3, $light);
-$gradient-top-left:     linear-gradient(225deg, $dark, $accent1, $accent2, $accent3, $light);
-$gradient-bottom-left:  linear-gradient(315deg, $dark, $accent1, $accent2, $accent3, $light);
-$gradient-radial:       radial-gradient(        $dark, $accent1, $accent2, $accent3, $light);
+$dark:                         rgba( 52,  73,  94, 1);
+$black:                        rgba(  0,   0,   0, 1);
+$accent1:                      rgba( 93, 115, 126, 1);
+$accent2:                      rgba( 92, 172, 126, 1);
+$accent3:                      rgba(197, 193, 155, 1);
+$light:                        rgba(252, 239, 249, 1);
+$grey1:                        #f8f8f8;
+$grey2:                        #dbe1e8;
+$grey3:                        #b2becd;
+$grey4:                        #6c7983;
+$grey5:                        #454e56;
+$grey6:                        #12181b;
+
+// Accent 1
+//   Black
+$gradient-accent1-black-left:   linear-gradient(to left,  $black,  $accent1,  $accent1);
+$gradient-accent1-black-right:  linear-gradient(to right, $black,  $accent1,  $accent1);
+//   Dark
+$gradient-accent1-dark-left:    linear-gradient(to left,  $dark,   $accent1);
+$gradient-accent1-dark-right:   linear-gradient(to right, $dark,   $accent1);
+//   Light
+$gradient-accent1-light-left:   linear-gradient(to left,  $light,  $accent1);
+$gradient-accent1-light-right:  linear-gradient(to right, $light,  $accent1);
+// Accent 2
+//   Black
+$gradient-accent2-black-left:   linear-gradient(to left,  $black,  $accent2,  $accent2);
+$gradient-accent2-black-right:  linear-gradient(to right, $black,  $accent2,  $accent2);
+//   Dark
+$gradient-accent2-dark-left:    linear-gradient(to left,  $dark,   $accent2);
+$gradient-accent2-dark-right:   linear-gradient(to right, $dark,   $accent2);
+//   Light
+$gradient-accent2-light-left:   linear-gradient(to left,  $light,  $accent2);
+$gradient-accent2-light-right:  linear-gradient(to right, $light,  $accent2);
+// Accent 3
+//   Black
+$gradient-accent3-black-left:   linear-gradient(to left,  $black,  $accent3,  $accent3);
+$gradient-accent3-black-right:  linear-gradient(to right, $black,  $accent3,  $accent3);
+//   Dark
+$gradient-accent3-dark-left:    linear-gradient(to left,  $dark,   $accent3);
+$gradient-accent3-dark-right:   linear-gradient(to right, $dark,   $accent3);
+//   Light
+$gradient-accent3-light-left:   linear-gradient(to left,  $light,  $accent3);
+$gradient-accent3-light-right:  linear-gradient(to right, $light,  $accent3);
+
+$navbar-height: 70px;
+$postamble-height: 55px;
 
 .light {
-    $bg-nav: linear-gradient(to right, $grey1, $grey3);
-    $bg-dropdown: $grey1;
-    $text: $light;
+    $bg-nav: $gradient-accent3-light-right;
     $border-color: $accent1;
-    $bg-solar: $accent3;
-
-    transition: background 500ms ease-in-out, color 1s ease-in-out;
 
     color: $dark;
     background: $light;
 
-    .navbar {
-        background: $grey3;
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    .navbar, header {
+        background: $bg-nav;
+    }
+
+    .status {
+        background: $gradient-accent3-light-left;
+        color: $dark;
+    }
+
+    .tooltip {
+        border-bottom: 1px dotted $accent3;
+
+        .tooltiptext {
+            background-color: $accent3;
+            color: $dark;
+
+            &::after {
+                border-color: $accent3 transparent transparent transparent;
+            }
+        }
+    }
+
+    .dropdown {
+        background: $accent3;
+        color: $dark;
     }
 }
 
-.dark {
-    $background: $dark;
-    $foreground: $light;
-    $bg-nav: linear-gradient(to right, $grey5, $grey6);
-    $bg-dropdown: $grey6;
-    $text: $dark;
+.dark, .black {
+    $bg-nav: $gradient-accent2-dark-right;
     $border-color: $dark;
-    $bg-solar: $accent3;
-
-    transition: background 500ms ease-in-out, color 1s ease-in-out;
 
     color: $light;
     background: $dark;
 
-    .navbar {
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    .navbar, header {
+        background: $bg-nav;
+    }
+
+    .status {
+        background: $gradient-accent2-dark-left;
         color: $light;
-        background: $grey6;
+    }
+
+    .tooltip {
+        border-bottom: 1px dotted $accent1;
+
+        .tooltiptext {
+            background-color: $accent1;
+            color: $light;
+
+            &::after {
+                border-color: $accent1 transparent transparent transparent;
+            }
+        }
+    }
+
+    .dropdown {
+        background: $accent3;
+        color: $dark;
+    }
+}
+
+.black {
+    $bg-nav: $gradient-accent1-black-right;
+
+    background: $black;
+
+    .navbar, header {
+        background: $bg-nav;
+    }
+
+    .status {
+        background: $gradient-accent1-black-left;
+    }
+
+    .dropdown {
+        background: $dark;
+        color: $light;
     }
 }
 
 /* Style *********************************************************************/
 
+* {
+    outline: none;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
+
     transition: background 500ms ease-in-out, color 1s ease-in-out;
 
     header, .navbar {
@@ -100,7 +188,10 @@ a {
 }
 
 .navbar {
-    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    height: $navbar-height;
     width: 100%;
 }
 
@@ -109,27 +200,22 @@ a {
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
-    background: $accent3;
-    color: $dark;
 }
 
 header {
     padding: 1em;
+    margin-top: $navbar-height;
     margin-bottom: 1em;
     padding-bottom: 3.5em;
     text-align: center;
-    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
-    color: $light;
-    background: $accent2;
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    transition: background 500ms ease-in-out;
 }
 
 .dropdown {
     position: absolute;
-    width: 500px;
     opacity: 0;
-    z-index: 2;
-    background: blue;
-    border-top: 2px solid white;
+    z-index: 5;
 
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -137,8 +223,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 3rem;
-    margin-top: 2rem;
+    min-height: 3rem;
+    margin-top: 1rem;
     padding: 0.5rem;
 
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175em 0.5em;
@@ -148,8 +234,14 @@ header {
 }
 
 #theme-dropdown {
-    width: 300px;
-    transform: translateX(-95%);
+    width: 250px;
+    flex-direction: row;
+    transform: translateX(-50%);
+}
+
+#drop-lang {
+    flex-direction: column;
+    transform: translateX(-40%);
 }
 
 .has-dropdown {
@@ -158,15 +250,127 @@ header {
             opacity: 1;
             pointer-events: auto;
         }
+
+        #table-of-contents {
+            opacity: 1;
+            height: 500%;
+            pointer-events: auto;
+        }
     }
 }
 
 .dropdown-item {
+    cursor: pointer;
+
     a {
         width: 100%;
         height: 100%;
         size: 0.7rem;
         padding-left: 10px;
+        padding-right: 10px;
         font-weight: bold;
+    }
+}
+
+#table-of-contents {
+    flex-direction: column;
+    padding: 20px;
+    float: right;
+    overflow-y: auto;
+    height: 0%;
+    width: 400px;
+    transform: translateX(0);
+    transition: height 500ms ease-in-out, opacity 500ms ease-in-out;
+    font-size: 0.9em;
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    #text-table-of-contents {
+        height: 100%;
+    }
+}
+
+#content {
+    padding: 50px;
+    padding-top: 0;
+    max-width: 700px;
+    margin: 0 auto;
+
+    text-align: justify;
+}
+
+#postamble {
+    display: grid;
+    grid-template-areas: 'author email date';
+    height: $postamble-height;
+
+    font-size: 0.8em;
+    align-content: space-evenly;
+    text-align: center;
+
+    .author {
+        grid-area: author;
+    }
+
+    .email {
+        grid-area: email;
+    }
+
+    .date {
+        grid-area: date;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+    .tooltiptext {
+        visibility: hidden;
+
+        width: 120px;
+        margin-left: -60px; /* Half the width */
+        bottom: 100%;
+        left: 50%;
+        padding: 5px 0;
+        text-align: center;
+        border-radius: 6px;
+
+        position: absolute;
+        z-index: 2;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 100%; /* At the bottom of the tooltip */
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+        }
+    }
+
+    &:hover {
+        .tooltiptext {
+            visibility: visible;
+        }
     }
 }

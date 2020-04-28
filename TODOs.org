@@ -1,0 +1,14 @@
+* TODO Organization of HTML [1/3]
+** DONE Add button to display TOC
+   CLOSED: [2020-04-28 mar. 22:30]
+** TODO Add link to images that don’t have any
+** TODO Add share links [0/3]
+*** TODO Add Twitter share
+*** TODO Add Email share
+*** TODO Add LinkedIn share
+*** TODO Add Facebook share
+* TODO Styling [1/3]
+** TODO Tables
+** DONE Hint bubbles for phonetics (Ñyqy)
+   CLOSED: [2020-04-28 mar. 22:31]
+** TODO Links
