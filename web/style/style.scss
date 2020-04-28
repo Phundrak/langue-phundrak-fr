@@ -274,14 +274,14 @@ header {
     &:focus-within {
         .dropdown {
             opacity: 1;
-            top: $navbar-height / 1.5;
+            top: $navbar-height / 1.3;
             z-index: 5;
             pointer-events: auto;
         }
 
         #table-of-contents {
             opacity: 1;
-            top: $navbar-height / 1.5;
+            top: $navbar-height / 1.3;
             z-index: 5;
             height: 500%;
             pointer-events: auto;

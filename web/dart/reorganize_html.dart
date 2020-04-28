@@ -40,7 +40,7 @@ Future<Element> makeLanguages() async {
     ..insertAdjacentElement('beforeEnd', languages);
 }
 
-Element makeTocDropDown() {
+Future<Element> makeTocDropDown() async {
   return Element.li()
     ..attributes['id'] = 'toc-drop'
     ..classes.addAll(['nav-item', 'has-dropdown'])
@@ -49,7 +49,7 @@ Element makeTocDropDown() {
       ..append(makeIcon(['fas', 'fa-list-ol'], 'tocBtn')));
 }
 
-Element makeThemeChanger() {
+Future<Element> makeThemeChanger() async {
   Element makeThemeItem(String t_btnId, Element t_icon, String t_text) {
     return Element.li()
       ..classes.add('dropdown-item')
@@ -78,43 +78,43 @@ Element makeThemeChanger() {
           makeThemeItem('blackBtn', makeIcon(['fas', 'fa-moon']), 'Noir')));
 }
 
+Element makeShareLink(Element icon, String url) {
+  return Element.li()
+  ..classes.add('dropdown-item')
+  ..append(Element.a()
+    ..attributes['href'] = url
+    ..attributes['target'] = '_blank'
+    ..append(icon));
+}
+
+Future<Element> makeShare() async {
+  return Element.li()
+  ..classes.addAll(['nav-item', 'has-dropdown'])
+  ..append(Element.a()
+    ..attributes['href'] = 'javascript:void(0)'
+    ..append(makeIcon(['fas', 'fa-share-alt'])))
+  ..append(Element.ul()
+    ..classes.add('dropdown')
+    ..append(makeShareLink(
+        makeIcon(['fab', 'fa-twitter-square']),
+        'https://twitter.com/share?text=${getPageTitle()}'
+        '&url=${window.location.href}'))
+    ..append(makeShareLink(makeIcon(['fab', 'fa-reddit-square']),
+        'https://www.reddit.com/submit?title=${getPageTitle()}s&url=${window.location.href}'))
+    ..append(makeShareLink(makeIcon(['fas', 'fa-envelope-square']),
+        'mailto:?subject=${getPageTitle}&body=${window.location.href}'))
+    ..append(makeShareLink(
+        makeIcon(['fab', 'fa-linkedin']),
+        'https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}'
+        '&title=${getPageTitle()}'))
+    ..append(makeShareLink(makeIcon(['fab', 'fa-facebook-square']),
+        'https://www.facebook.com/sharer/sharer.php?u=${window.location.href}')));
+}
+
 // Add a navbar atop of the HTML body, containing two buttons:
 // - One back to home
 // - A dropdown to each language detected in the sitemap
 Future<Element> makeNavbar() async {
-  Element makeShare() {
-    Element makeShareLink(Element icon, String url) {
-      return Element.li()
-        ..classes.add('dropdown-item')
-        ..append(Element.a()
-          ..attributes['href'] = url
-          ..attributes['target'] = '_blank'
-          ..append(icon));
-    }
-
-    return Element.li()
-      ..classes.addAll(['nav-item', 'has-dropdown'])
-      ..append(Element.a()
-        ..attributes['href'] = 'javascript:void(0)'
-        ..append(makeIcon(['fas', 'fa-share-alt'])))
-      ..append(Element.ul()
-        ..classes.add('dropdown')
-        ..append(makeShareLink(
-            makeIcon(['fab', 'fa-twitter-square']),
-            'https://twitter.com/share?text=${getPageTitle()}'
-            '&url=${window.location.href}'))
-        ..append(makeShareLink(makeIcon(['fab', 'fa-reddit-square']),
-            'https://www.reddit.com/submit?title=${getPageTitle()}s&url=${window.location.href}'))
-        ..append(makeShareLink(makeIcon(['fas', 'fa-envelope-square']),
-            'mailto:?subject=${getPageTitle}&body=${window.location.href}'))
-        ..append(makeShareLink(
-            makeIcon(['fab', 'fa-linkedin']),
-            'https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}'
-            '&title=${getPageTitle()}'))
-        ..append(makeShareLink(makeIcon(['fab', 'fa-facebook-square']),
-            'https://www.facebook.com/sharer/sharer.php?u=${window.location.href}')));
-  }
-
   var navbar_content = Element.ul()..classes.add('navbar-nav');
 
   // Home
@@ -127,16 +127,16 @@ Future<Element> makeNavbar() async {
           ..append(makeIcon(['fas', 'fa-home']))));
 
   // TOC icon
-  navbar_content.append(makeTocDropDown());
+  navbar_content.append(await makeTocDropDown());
 
   // Add languages
   navbar_content.append(await makeLanguages());
 
   // Share icon
-  navbar_content.append(makeShare());
+  navbar_content.append(await makeShare());
 
   // Theme changer
-  navbar_content.append(makeThemeChanger());
+  navbar_content.append(await makeThemeChanger());
 
   // Navbar content added to navbar
   final navbar = Element.nav()
@@ -183,11 +183,7 @@ Future<void> wrapTables() async {
 Future<void> reorganizeHtml() async {
   // Create navbar and then header
   await makeNavbar().then((navbar) {
-    // querySelector('#toc-drop')
-    //     .append(querySelector('#table-of-contents')..classes.add('dropdown'));
     querySelector('body').insertAdjacentElement('afterBegin', navbar);
-    // querySelector('nav').insertAdjacentElement(
-    //     'afterEnd', Element.div()..attributes['id'] = 'container');
     querySelector('nav').insertAdjacentElement('afterEnd', makeHeader());
     querySelector('#toc-drop')
         .append(querySelector('#table-of-contents')..classes.add('dropdown'));
