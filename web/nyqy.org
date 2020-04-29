@@ -4,7 +4,6 @@
 #+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ñyqy" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="/css/nyqy.css"/>
 #+INCLUDE: headers
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics $1))
@@ -536,7 +535,7 @@
     #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 100%
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS:
-    [[file:img/nyqy/vowel-feature-tree.png]]
+    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N"];1[label="N"];0 -- 1;11[label="GEN"];1 -- 11;12[label="N"];1 -- 12;121[label="Adj"];12 -- 121;122[label="N"];12 -- 122;1221[label="Dem"];122 -- 1221;1222[label="N"];122 -- 1222;12221[label="Num"];1222 -- 12221;12222[label="N"];1222 -- 12222;122221[label="Poss"];12222 -- 122221;122222[label="N"];12222 -- 122222;12223[label="Num"];1222 -- 12223;123[label="Adj"];12 -- 123;2[label="Rel"];0 -- 2;}
 
     Voici une description des voyelles du Ñyqy :
     - e ::  il s’agit de la  voyelle antérieure mi-ouverte non-arrondie  [ɛ] que
@@ -954,51 +953,51 @@
    :PROPERTIES:
    :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
    :END:
-   Le Ñyqy est une langue dont  sa tête de groupes grammaticaux est généralement
-   en fin du-dit groupe. On peut  voir avec l’arbre [[arbre:syntaxe:basique]] que la
-   structure générale  d’une phrase  standard démarre  avec des  éléments divers
-   liés à la clause principale s’il y en a, auxquels on se référera généralement
-   en tant qu’éléments /obliques/. Ces éléments ne sont liés au verbe ni par une
-   relation grammaticale  ergative, ni dative,  ni absolutive. Ensuite  vient la
-   phrase nominale ergative, précédant la  phrase dative, elle-même précédant la
-   phrase verbale,  contenant une phrase nominale  absolutive et le verbe  de la
-   phrase,  le  dernier  élément  d’une phrase  {{{nyqy(ñyqy)}}}.  Les  sous chapitres
-   suivants détailleront la composition de chacun de ces éléments.
+   # Le Ñyqy est une langue dont  sa tête de groupes grammaticaux est généralement
+   # en fin du-dit groupe. On peut  voir avec l’arbre [[arbre:syntaxe:basique]] que la
+   # structure générale  d’une phrase  standard démarre  avec des  éléments divers
+   # liés à la clause principale s’il y en a, auxquels on se référera généralement
+   # en tant qu’éléments /obliques/. Ces éléments ne sont liés au verbe ni par une
+   # relation grammaticale  ergative, ni dative,  ni absolutive. Ensuite  vient la
+   # phrase nominale ergative, précédant la  phrase dative, elle-même précédant la
+   # phrase verbale,  contenant une phrase nominale  absolutive et le verbe  de la
+   # phrase,  le  dernier  élément  d’une phrase  {{{nyqy(ñyqy)}}}.  Les  sous chapitres
+   # suivants détailleront la composition de chacun de ces éléments.
 
-   #+NAME: basic-syntax-tree
-   #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-     (setq-local nyqy-syntax-tree
-                 '("S"
-                   ("Obl")
-                   ("S'"
-                    ("NPerg"
-                     ("NP"))
-                    ("VP"
-                     ("NPdat"
-                      ("NP"))
-                     ("VP'"
-                      ("NPabs"
-                       ("NP"
-                        ("S")
-                        ("NP'"
-                         ("Adj")
-                         ("N"))))
-                      ("V'"
-                       ("Mood")
-                       ("Tense")
-                       ("V")
-                       ("Neg")))))))
-     (conlanging/tree-to-dot nyqy-syntax-tree)
-   #+END_SRC
+   # #+NAME: basic-syntax-tree
+   # #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+   #   (setq-local nyqy-syntax-tree
+   #               '("S"
+   #                 ("Obl")
+   #                 ("S'"
+   #                  ("NPerg"
+   #                   ("NP"))
+   #                  ("VP"
+   #                   ("NPdat"
+   #                    ("NP"))
+   #                   ("VP'"
+   #                    ("NPabs"
+   #                     ("NP"
+   #                      ("S")
+   #                      ("NP'"
+   #                       ("Adj")
+   #                       ("N"))))
+   #                    ("V'"
+   #                     ("Mood")
+   #                     ("Tense")
+   #                     ("V")
+   #                     ("Neg")))))))
+   #   (conlanging/tree-to-dot nyqy-syntax-tree)
+   # #+END_SRC
 
-   #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes
-     $input
-   #+END_SRC
-   #+NAME: arbre:syntaxe:basique
-   #+attr_html: :alt Arbre de syntaxe basique du Ñyqy :width 800px
-   #+CAPTION: Arbre de syntaxe basique du Ñyqy
-   #+RESULTS:
-   [[file:img/nyqy/basic-syntax.png]]
+   # #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes
+   #   $input
+   # #+END_SRC
+   # #+NAME: arbre:syntaxe:basique
+   # #+attr_html: :alt Arbre de syntaxe basique du Ñyqy :width 800px
+   # #+CAPTION: Arbre de syntaxe basique du Ñyqy
+   # #+RESULTS:
+   # [[file:img/nyqy/basic-syntax.png]]
 
 *** Ordre des constituants dans les clauses principales
     :PROPERTIES:
@@ -1010,15 +1009,29 @@
     # - Specific to the  main clause constituent order: What  is the pragmatically
     #   neutral order  of constituents  (A/S, P,  and V) in  basic clauses  of the
     #   language?
-    En Ñyqy, l’ordre des éléments principaux  de la phrase typique suit un ordre
-    SV pour  les phrases transitives et  APV pour les phrases  intransitives. Il
-    est toutefois à noter que l’agent  est nécessairement précédé par un élément
-    datif.  Il  est  cependant  possible  lorsqu’aucun  élément  datif  n’est  à
-    mentionner d’utiliser le terme {{{nyqy(bóq)}}} signifiant « rien, aucun ».
+    # En Ñyqy, l’ordre des éléments principaux  de la phrase typique suit un ordre
+    # SV pour  les phrases transitives et  APV pour les phrases  intransitives. Il
+    # est toutefois à noter que l’agent  est nécessairement précédé par un élément
+    # datif.  Il  est  cependant  possible  lorsqu’aucun  élément  datif  n’est  à
+    # mentionner d’utiliser le terme {{{nyqy(bóq)}}} signifiant « rien, aucun ».
 
-    Il est  également à noter que  selon les recherches actuelles,  rien ne nous
-    laisse à penser qu’un autre ordre de ces constituants était possible en Ñyqy
-    mis à par l’ajout d’autres éléments obliques en début de phrase.
+    # Il est  également à noter que  selon les recherches actuelles,  rien ne nous
+    # laisse à penser qu’un autre ordre de ces constituants était possible en Ñyqy
+    # mis à par l’ajout d’autres éléments obliques en début de phrase.
+    Le  Ñyqy est  une langue  particulière  quant il  s’agit de  l’ordre de  ses
+    éléments principaux dans  ses phrases et clauses  principales. Tout d’abord,
+    il est  bon de noter  que le Ñyqy  est une langue  qui est à  100% ergative.
+    Ainsi, cette  langue considère les  expérienceurs de verbes  intransitifs et
+    les patients  de verbes transitifs  comme objets,  tandis que les  agents de
+    verbes transitifs sont considérés comme sujets. En connaissant cela, on peut
+    donc dire que l’ordre typique d’une clause principale Ñyqy est donc OSV.
+
+    Il s’agit  d’un ordre  de constituants  qui est très  rare dans  les langues
+    naturelles, ce qui explique pourquoi  chacune des langues descendant du Ñyqy
+    ne suivent pas cet  ordre. La majorité a évolué en SOV,  et une minorité des
+    autres langues a quant à elle évolué en OVS. Il est également intéressant de
+    marquer qu’au même moment,  chacune a évolué de manière à  ce que sa syntaxe
+    soit définie par des règles suivant le couple Nominatif-Accusatif.
 
 *** Ordre des constituants dans les clauses verbales
     :PROPERTIES:
@@ -1033,6 +1046,160 @@
     :CUSTOM_ID: h-130f774a-bc58-46ca-a172-c413c8236366
     :END:
     # - Describe the order(s) of elements in the noun phrase.
+    Dans  un  groupe nominal,  on  retrouve  en son  centre  le  nom défini  par
+    plusieurs  éléments pouvant  le caractériser,  tels que  des adjectifs,  des
+    phrases relatives,  des démonstratifs, des  numéraux, des possessifs  ou des
+    éléments génitifs. En résumé, l’ordre des éléments est le suivant :
+
+    #+begin_center
+    Gen-Adj-Dem-Num_{12}-Poss-N-Num_{6}-Adj-Rel
+    #+end_center
+
+    Afin de mieux visualiser l’arbre syntaxique des groupes nominaux en Ñyqy, on
+    peut se référer à la figure [[nom-clause-syntax-tree]]. On peut constater que le
+    Ñyqy est  une langue  qui est donc  fortement ascendante  (/head-final/), la
+    majorité des constituants d’une clause nominale venant après le nom.
+
+    #+NAME: nom-syntax-tree
+    #+BEGIN_SRC emacs-lisp :exports none :eval yes :cache yes
+      (setq-local nominal-group-syntax-tree
+                  '("N'"
+                    ("N'"
+                     ("GEN")
+                     ("N'"
+                      ("Adj")
+                      ("N'"
+                       ("Dem")
+                       ("N'"
+                        ("Num₁₂")
+                        ("N'"
+                         ("Poss")
+                         ("N"))
+                        ("Num₆")))
+                      ("Adj")))
+                    ("Rel")))
+    (conlanging/tree-to-dot  nominal-group-syntax-tree)
+    #+END_SRC
+
+    #+RESULTS[b65d47c0e3188121f8bcbde11627477b0a6b2904]: nom-syntax-tree
+    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N'"];1[label="N'"];0 -- 1;11[label="GEN"];1 -- 11;12[label="N'"];1 -- 12;121[label="Adj"];12 -- 121;122[label="N'"];12 -- 122;1221[label="Dem"];122 -- 1221;1222[label="N'"];122 -- 1222;12221[label="Num₁₂"];1222 -- 12221;12222[label="N'"];1222 -- 12222;122221[label="Poss"];12222 -- 122221;122222[label="N"];12222 -- 122222;12223[label="Num₆"];1222 -- 12223;123[label="Adj"];12 -- 123;2[label="Rel"];0 -- 2;}
+
+    #+BEGIN_SRC dot :file img/nyqy/syntax-nominal-clauses.png :var input=nom-syntax-tree :exports results :eval yes :cache yes
+      $input
+    #+END_SRC
+    #+NAME: nom-clause-syntax-tree
+    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :align center
+    #+ATTR_LATEX: :height 12cm
+    #+CAPTION: Arbre syntaxique des clauses nominales du Ñyqy
+    #+RESULTS[901e0acb85c38044b47c5a3bacee9aaf7df72251]:
+    [[file:img/nyqy/syntax-nominal-clauses.png]]
+
+**** Possessifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-506f68a1-a9de-4d1c-a674-075f130af6a8
+     :END:
+     Concernant les possessifs, ceux-ci se  situent directement avant le nom afin
+     de marquer la possession de l’élément  par une personne ou une autre entité.
+     Cela dépend  du possessif employé. Par  exemple « mon chat » se  traduit par
+     {{{nyqy(cé oz)}}}.
+     |   <c>    | <c>  |
+     |    cé    |  oz  |
+     | POSS.1sg | chat |
+
+**** Numéraux
+     :PROPERTIES:
+     :CUSTOM_ID: h-26b82cb5-1316-46cb-b9c5-279bbded3cc5
+     :END:
+     Pour ce qui est  des numéraux, la règle générale est  que les unités suivent
+     le  nom, tandis  que les  sixaines le  précèdent. Par  exemple, « mes  vingt
+     chats » se traduit par {{{nyqy(né ñy cé oz qi)}}}.
+     | <c>   | <c>      | <c>  | <c> |
+     | né ñy | cé       | oz   | qi  |
+     | 3×6   | POSS.1sg | chat | 2   |
+
+     # TODO autres types de numéraux
+
+     La  position des  unités  impliquent donc  que  l’article indéfini  {{{nyqy(i),}}}
+     dérivé du chiffre « un » {{{nyqy(mi)}}}, suit immédiatement le nom. Par exemple,
+     « un chat » se traduit par {{{nyqy(oz i)}}}.
+     | <c>  | <c>       |
+     |  oz  | i         |
+     | chat | art.indef |
+
+**** Démonstratifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-7e9ab73d-0396-440a-aa14-7a5ba680da6f
+     :END:
+     Concernant le démonstratif, ceux-ci se situe précédant les sixaines en Ñyqy,
+     et donc précédant le nom. Ainsi, si l’on souhaite traduire « ces vingt chats
+     à moi »  (le génitif relative  est ici pour contrecarrer  l’impossibilité en
+     français d’utiliser un démostratif et un possessif en même temps), on a donc
+     {{{nyqy(bóc né ñy cé oz qi)}}}.
+     |   <c>    |  <c>  |   <c>    | <c>  | <c> |
+     |   bóc    | né ñy |    cé    |  oz  | qi  |
+     | DEM.prox |  3×6  | POSS.1sg | chat |  2  |
+
+     La position du démonstratif dans la clause nominale implique également une
+     position identique pour un article défini en Ñyqy. Ainsi, si l’on souhaite
+     traduire « les vingt chats à moi » (à nouveau, le génitif est utilisé ici dû
+     aux limitations du Français), on obtient {{{nyqy(bó né ñy cé oz qi)}}}.
+     |   <c>   |  <c>  |   <c>    | <c>  | <c> |
+     |   bó    | né ñy |    cé    |  oz  | qi  |
+     | art.def |  3×6  | POSS.1sg | chat |  2  |
+
+**** Adjectifs
+     :PROPERTIES:
+     :CUSTOM_ID: h-f0c023d2-ead0-412b-8ed3-d02507af0256
+     :END:
+     Concernant les adjectifs, ceux-ci se divisent en plusieurs classes :
+     - Adjectifs d’opinion
+     - Adjectifs de taille
+     - Adjectifs de quantité
+     - Adjectifs d’âge
+     - Adjectifs d’origine
+     - Adjectifs d’objectif
+     - Adjectifs de matériaux
+     - Adjectifs de forme
+     - Adjectifs de couleur
+     En  Ñyqy,  ils apparaissent  dans  l’ordre  ci-dessus  et sont  classés  par
+     objectivité,  et tous  viennent après  le  nom à  l’exception des  adjectifs
+     d’opinion. Ainsi, les adjectifs les  plus subjectifs arrivent en premier, et
+     les adjectifs les plus objectifs arrivent en dernier.
+
+     Il est  à noter que :
+     - les  adjectifs de  forme et  de  matériaux ne  peuvent se  faire que  via
+       l’utilisation d’un génitif  de type « NOM GEN » (par  exemple « carré GEN
+       table » pour dire « table carrée »)
+     - que les adjectifs d’origine ne se forment qu’avec une particule locative
+     - que  les  adjectifs  d’objectif  ne  se  forment  qu’avec  une  particule
+       instrumentative.
+
+     Ainsi, si l’on souhaite traduire « un gros vieux chat noir et beau », on
+     obtient {{{nyqy(syg oz goñ noc zuj)}}}.
+     | syg  | oz   | i         | goñ  | noc   | zuj  |
+     | beau | chat | art.indef | gros | vieux | noir |
+
+**** Génitif
+     :PROPERTIES:
+     :CUSTOM_ID: h-f5a28bb8-103e-4f96-979c-89df0286ae36
+     :END:
+     Ensuite vient le génitif qui se situe avant les adjectifs d’opinion. On y
+     trouvera donc exclusivement la particule grammaticale {{{nyqy(pom)}}} qui sert à
+     marquer le génitif, précédée par une clause nominale qui définira la clause
+     nominale actuelle. Par exemple, « le chat de mon voisin » peut se traduire
+     par {{{nyqy(cé wóseq pom bó oz)}}}.
+     | cé       | wóseq  | pom | bó      | oz   |
+     | POSS.1sg | voisin | GEN | art.def | chat |
+
+**** Clauses relatives
+     :PROPERTIES:
+     :CUSTOM_ID: h-00f9960f-b515-4fb0-be59-b53573607b8e
+     :END:
+     Enfin, les clauses relatives arrivent à la fin des clauses nominales. Ainsi,
+     si l’on souhaite dire « mon chat qui mange est beau », on obtient la traduction
+     {{{nyqy(cé oz coq syg)}}}.
+     | cé       | oz   | coq    | syg  |
+     | POSS.1sg | chat | manger | beau |
 
 *** Phrases adpositionelles
     :PROPERTIES:
@@ -2012,6 +2179,10 @@
    - {{{nyqy(beñ)}}} ::
      1. (n) dents
      2. (v) mordre, croquer
+   - {{{nyqy(bó)}}} ::
+     1. (art def) le, la, les, article défini. Voir /bóc/
+   - {{{nyqy(bóc)}}} ::
+     1. (n) ceci, ça, démonstratif de proximité
    - {{{nyqy(bú)}}} ::
      1. (pron) deuxième personne
 
@@ -2019,6 +2190,8 @@
    :PROPERTIES:
    :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
    :END:
+   - {{{nyqy(cé)}}} ::
+     1. (poss) mon, ma, mes, possesseur de la première personne
    - {{{nyqy(co)}}} ::
      1. (gp.SUBJ.PST) marqueur pour verbes du subjonctif accomplis
      2. (nbr) cinq
@@ -2078,8 +2251,9 @@
    - {{{nyqy(gé)}}} ::
      1. (nbr) quatre
    - {{{nyqy(goñ)}}} ::
-     1. (adj) grand, gros, large
-     2. (v) grossir
+     1. (n) grande taille, largeur, hauteur, taille (implicitement grande)
+     2. (adj) gros, grand
+     3. (v) grossir
    - {{{nyqy(gó)}}} ::
      1. (v) boire
 
@@ -2087,6 +2261,8 @@
    :PROPERTIES:
    :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
    :END:
+   - {{{nyqy(i)}}} ::
+     1. (art indef) un, une, des, article defini. Voir /mi/
    - {{{nyqy(ij)}}} ::
      1. (n) chemin, route, voie
      2. (v) voyager
@@ -2105,6 +2281,8 @@
    :PROPERTIES:
    :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
    :END:
+   - {{{nyqy(még)}}} ::
+     1. (adv) beaucoup, très
    - {{{nyqy(meém)}}} ::
      1. (n) grand-mère (affectueux)
    - {{{nyqy(meq)}}} ::
@@ -2133,6 +2311,9 @@
    :END:
    - {{{nyqy(né)}}} ::
      1. (nbr) trois
+   - {{{nyqy(noc)}}} ::
+     1. (n) vieillesse, grand âge
+     2. (adj) vieux, âgé
    - {{{nyqy(nócpi)}}} ::
      1. ensuite, puis, à côté, depuis
 
@@ -2142,6 +2323,8 @@
    :END:
    - {{{nyqy(ñe)}}} ::
      1. (n) maison
+   - {{{nyqy(ñocm)}}} ::
+     1. (n) personne, humain, quelqu’un
    - {{{nyqy(ñójb)}}} ::
      1. (n) oiseau
    - {{{nyqy(ñuné)}}} ::
@@ -2238,6 +2421,9 @@
        Voir /sy/ et /jéq/.
    - {{{nyqy(syjéqsó)}}} ::
      1. (adj) fraîcheur, froid, souffle, vent
+   - {{{nyqy(syg)}}} ::
+     1. (n) beauté
+     2. (adj) beau
 
 ** U
    :PROPERTIES:
@@ -2267,6 +2453,10 @@
    - {{{nyqy(wésyqun)}}} ::
      1. (n) Shaman. Aspirant aux esprits, aux âmes, aux dieux. Voir aussi
         /wésy/, /qun/
+   - {{{nyqy(wóseq)}}} ::
+     1. (n) voisin
+     2. (adj) proche
+     3. (adj) voisin
 
 ** Y
    :PROPERTIES:
@@ -2307,6 +2497,84 @@
      1. (n) chose, objet abstrait
    - {{{nyqy(zuj)}}} ::
      1. (n) nuit, noir, ombre
+     2. (adj) noir, sombre
+
+* Notes                                                            :noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: h-1905bd91-a4c5-4b60-acea-5ed10bc655af
+  :END:
+  À corriger :
+  - ñy = 6
+  - qy = 1sg
+
+** Ñyqy syntax
+   :PROPERTIES:
+   :CUSTOM_ID: h-cd39b6f7-85e0-4168-a89d-829fa1dec5c3
+   :END:
+   Prep ⊃ ((NDem ∨ NNum ∨ NPoss ⊃ NAdj) & (NAdj ⊃ NGen) & (NGen ⊃ NRel))
+   Posp ⊃ ((AdjN ∨ RelN ⊃ DemN & NumN & PossN) & (DemN ∨ NumN ∨ PossN ⊃ GenN))
+
+   Lang D of [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit#gid=0][this chart]], evolving to F.
+
+   Le Ñyqy est une langue ascendante (/head-final/ en anglais). Ordre des
+   éléments :
+   - NAdj
+
+     Opinion-N-Size-Quantity-Age-Origin-Purpose-Material-Shape-Color
+
+     Shape et Material => GEN, Origin => LOC, Purpose => INST
+
+     | ycoj  | pim   | még  | goñ    | ñy        | cojmuj |
+     | bonne | pomme | très | grosse | nombreuse | rouge  |
+   - NRel
+
+     pomme que je mange
+   - DemN
+     | bóc | oz   |
+     | ce  | chat |
+
+     - def.art N
+
+       /bó/ from /bóc/
+
+       la pomme :
+       | bó      | pim   |
+       | def.art | pomme |
+   - NumNNum
+     - Num_{12} N Num_{6}
+
+       Les unités suivent le groupe nominal tandis que les sixaines le précèdent.
+       Penser à 6x éléments + y.
+
+       20 pommes (litt 3×6 pommes 2)
+       | né | ñy | pim   | qi |
+       |  3 |  6 | pomme |  2 |
+     - N art.indef
+
+       /i/ from /mi/
+
+       une pomme :
+       | pim   | i |
+       | pomme | indef.art |
+     - ordNum N
+
+       Les nombres ordinaux viennent intégralement avant le nom
+     - Declarative numbers: declNum Gen N
+
+       Pomme première :
+       | mi | pom | pim   |
+       |  1 | GEN | pomme |
+   - PossN
+
+     Comme en français, /ma pomme/
+   - GenN
+
+     Comme le /’s/ en anglais, maison de moi :
+     | ñy  | pom | ñe     |
+     | 1sg | GEN | maison |
+
+     Gen-Adj-Dem-Num-Poss-N-Num-Adj-Rel
+
 
 * Choses à faire [2/4]                                             :noexport:
   :PROPERTIES:
@@ -2389,6 +2657,12 @@
    et sa  phonétique soient sur une  ligne différente de la  définition, avec la
    définition qui est indentée.
 
+** TODO Compléter la liste Swadesh [1/3]
+   :PROPERTIES:
+   :CUSTOM_ID: h-32a2f3e6-0d2d-4693-99d8-d912446ddedf
+   :END:
+   Compléter la liste du fichier [[file:swadesh.org::#h-a5b4a65c-68ab-4630-b054-da816d679cfd][Swadesh#Ñyqy]].
+
 ** TODO Simplifier les fonctions du layer ~conlanging~
    :PROPERTIES:
    :CUSTOM_ID: h-b6fca087-e439-4bdf-bd26-43803d424a40
@@ -2396,12 +2670,6 @@
    Vu que je viens enfin de comprendre l’utilisation de ~&optional~ en Elisp, il
    serait temps de  simplifier les fonctions et réduire le  nombre d’entre elles
    dans le layer ~conlanging~.
-
-** TODO Compléter la liste Swadesh [1/3]
-   :PROPERTIES:
-   :CUSTOM_ID: h-32a2f3e6-0d2d-4693-99d8-d912446ddedf
-   :END:
-   Compléter la liste du fichier [[file:swadesh.org::#h-a5b4a65c-68ab-4630-b054-da816d679cfd][Swadesh#Ñyqy]].
 
 *** DONE dot tree
     CLOSED: [2020-01-29 mer. 21:50]
