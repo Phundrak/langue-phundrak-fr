@@ -651,7 +651,6 @@
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Liste des rois Eittlandais de 915 à 1392
     | <4>                           |       <4> |  <4> | <4> |       <4> | <4>                             |       <4> |  <4> | <4> |       <4> |
-    |                               |           |      |     |           |                                 |           |      |     |           |
     | roi                           | naissance | mort | âge |     règne | co-roi                          | naissance | mort | âge |     règne |
     |-------------------------------+-----------+------+-----+-----------+---------------------------------+-----------+------+-----+-----------|
     | Ásmundor I, Ingólfrson        |       876 |  932 |  56 |   915-935 | -                               |           |      |     |           |
@@ -977,14 +976,14 @@
       (conlanging/tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittland/vowel-feature-tree.png :var input=vow-dot :exports results
+    #+BEGIN_SRC dot :file img/eittland/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
-    #+RESULTS:
+    #+RESULTS[401d3c4bfc06b5ba8a491d6cad9f4d624edc4d9f]:
     [[file:img/eittland/vowel-feature-tree.png]]
 
 *** Diphtongues
