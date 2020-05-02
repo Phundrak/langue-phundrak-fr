@@ -543,14 +543,17 @@
       (conlanging/tree-to-dot nyqy-vowels)
     #+END_SRC
 
+    #+RESULTS[7197a00f9fd897443b1727910097ffe6aceb2ada]: vow-tree
+    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="[vowel]"];1[label="[back]"];0 -- 1;11[label="[tense]"];1 -- 11;111[label="[high]"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="{high}"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="{tense}"];1 -- 12;121[label="[high]"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="{high}"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="{back}"];0 -- 2;21[label="[tense]"];2 -- 21;211[label="[high]"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="{high}"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="{tense}"];2 -- 22;221[label="[high]"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="{high}"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
+
     #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :width 100%
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :class gentree
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS:
-    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N"];1[label="N"];0 -- 1;11[label="GEN"];1 -- 11;12[label="N"];1 -- 12;121[label="Adj"];12 -- 121;122[label="N"];12 -- 122;1221[label="Dem"];122 -- 1221;1222[label="N"];122 -- 1222;12221[label="Num"];1222 -- 12221;12222[label="N"];1222 -- 12222;122221[label="Poss"];12222 -- 122221;122222[label="N"];12222 -- 122222;12223[label="Num"];1222 -- 12223;123[label="Adj"];12 -- 123;2[label="Rel"];0 -- 2;}
+    [[file:img/nyqy/vowel-feature-tree.png]]
 
     Voici une description des voyelles du Ñyqy :
     - e ::  il s’agit de la  voyelle antérieure mi-ouverte non-arrondie  [ɛ] que
@@ -648,7 +651,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :width 100%
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
     #+RESULTS:
@@ -1009,7 +1012,7 @@
    #   $input
    # #+END_SRC
    # #+NAME: arbre:syntaxe:basique
-   # #+attr_html: :alt Arbre de syntaxe basique du Ñyqy :width 800px
+   # #+attr_html: :alt Arbre de syntaxe basique du Ñyqy :class gentree
    # #+CAPTION: Arbre de syntaxe basique du Ñyqy
    # #+RESULTS:
    # [[file:img/nyqy/basic-syntax.png]]
@@ -1099,11 +1102,11 @@
     #+RESULTS[b65d47c0e3188121f8bcbde11627477b0a6b2904]: nom-syntax-tree
     : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N'"];1[label="N'"];0 -- 1;11[label="GEN"];1 -- 11;12[label="N'"];1 -- 12;121[label="Adj"];12 -- 121;122[label="N'"];12 -- 122;1221[label="Dem"];122 -- 1221;1222[label="N'"];122 -- 1222;12221[label="Num₁₂"];1222 -- 12221;12222[label="N'"];1222 -- 12222;122221[label="Poss"];12222 -- 122221;122222[label="N"];12222 -- 122222;12223[label="Num₆"];1222 -- 12223;123[label="Adj"];12 -- 123;2[label="Rel"];0 -- 2;}
 
-    #+BEGIN_SRC dot :file img/nyqy/syntax-nominal-clauses.png :var input=nom-syntax-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file img/nyqy/syntax-nominal-clauses.png :var input=nom-syntax-tree :exports results :eval yes :cache yes :class gentree
       $input
     #+END_SRC
     #+NAME: nom-clause-syntax-tree
-    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :align center
+    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :align center :class gentree
     #+ATTR_LATEX: :height 12cm
     #+CAPTION: Arbre syntaxique des clauses nominales du Ñyqy
     #+RESULTS[901e0acb85c38044b47c5a3bacee9aaf7df72251]:

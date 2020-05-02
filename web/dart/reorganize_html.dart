@@ -126,11 +126,11 @@ Future<Element> makeNavbar() async {
           ..attributes['href'] = '/'
           ..append(makeIcon(['fas', 'fa-home']))));
 
-  // TOC icon
-  navbar_content.append(await makeTocDropDown());
-
   // Add languages
   navbar_content.append(await makeLanguages());
+
+  // TOC icon
+  navbar_content.append(await makeTocDropDown());
 
   // Share icon
   navbar_content.append(await makeShare());

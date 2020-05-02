@@ -119,6 +119,11 @@ $postamble-height: 55px;
     th {
         background: darken($light, 5%);
     }
+
+    .gentree {
+        filter: invert(0%);
+        transition: filter 1s ease-in-out;
+    }
 }
 
 .dark, .black {
@@ -177,8 +182,9 @@ $postamble-height: 55px;
         background: darken($dark, 2.5%);
     }
 
-    img {
-        background: fade-out($light, 0.2);
+    .gentree {
+        filter: invert(100%);
+        transition: filter 1s ease-in-out;
     }
 }
 
@@ -470,4 +476,5 @@ th, td {
 
 img {
     max-height: 600px;
+    max-width: 100%;
 }

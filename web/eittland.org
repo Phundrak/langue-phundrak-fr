@@ -195,7 +195,6 @@
   similaire  à celui  du sud  de l’Angleterre,  grâce au  Gulf Stream  malgré sa
   latitude élevée, similaire à celle de l’Écosse.
 
-  #+ATTR_HTML: :width 100%
   #+ATTR_LATEX: :float sideways
   #+CAPTION: Biomes eittlandais
   #+NAME: img:map-biomes
@@ -343,13 +342,11 @@
     Kalmar reconnu Eittlainde comme pays  indépendant, mais intégra tout de même
     les colonies groënlandaises de l’Eittlande à l’Union.
 
-    #+ATTR_HTML: :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: États eittlandais
     #+NAME: img:eittland-states
     [[file:img/eittland/map-political.png][file:img/eittland/map-political.png]]
 
-    #+ATTR_HTML: :width 100%
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Provinces eittlandaises
     #+NAME: img:eittland-provinces
@@ -459,7 +456,6 @@
     l’Écosse et le nord de l’Angleterre.
 
     #+NAME: img:map-world
-    #+ATTR_HTML: :width 100%
     #+CAPTION: Emplacement d’Eittlande dans l’Océan Atlantique.
     [[file:img/eittland/map-world.jpg][file:img/eittland/map-world.jpg]]
 
@@ -467,7 +463,6 @@
     principaux lieux et principales villes du pays avec la carte [[img:map-simple]]
 
     #+NAME: img:map-simple
-    #+ATTR_HTML: :width 100%
     #+CAPTION: Carte simplifiée d’Eittlande
     [[file:img/eittland/map-simple.jpg][file:img/eittland/map-simple.jpg]]
 
@@ -476,7 +471,6 @@
 
     #+NAME: img:map-typo
     #+ATTR_LATEX: :float sideways
-    #+ATTR_HTML: :width 100%
     #+CAPTION: Topologie d’Eittlande
     [[file:img/eittland/map-hq.jpg][file:img/eittland/map-hq.jpg]]
 
@@ -980,7 +974,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :width 100%
+    #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
     #+RESULTS[401d3c4bfc06b5ba8a491d6cad9f4d624edc4d9f]:
@@ -1212,7 +1206,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais :width 100%
+    #+ATTR_HTML: :alt Arbre des consonnes de l’Eittlandais :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des consonnes de l’Eittlandais
     #+RESULTS[c8ade388ef8459b89ca4c74696b0bd21fba46d34]:
