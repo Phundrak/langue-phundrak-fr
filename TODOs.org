@@ -15,10 +15,11 @@
     CLOSED: [2020-04-29 mer. 00:03]
 *** DONE Add Email share
     CLOSED: [2020-04-29 mer. 00:03]
-* TODO Styling [2/3]
-** TODO Tables
+* TODO Styling [3/5]
 ** TODO Images
 ** TODO Mobile version
+** DONE Tables
+   CLOSED: [2020-05-02 Sat 12:09]
 ** DONE Hint bubbles for phonetics (Ñyqy)
    CLOSED: [2020-04-28 mar. 22:31]
 ** DONE Links
