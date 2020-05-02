@@ -308,14 +308,14 @@ header {
     &:focus-within {
         .dropdown {
             opacity: 1;
-            top: $navbar-height / 1.3;
+            top: $navbar-height;
             z-index: 5;
             pointer-events: auto;
         }
 
         #table-of-contents {
-            opacity: 1;
             top: $navbar-height / 1.3;
+            opacity: 1;
             z-index: 5;
             height: 500%;
             pointer-events: auto;
@@ -353,10 +353,13 @@ header {
     float: right;
     overflow-y: auto;
     height: 0%;
-    width: 400px;
-    transform: translateX(0);
-    transition: height 500ms ease-in-out, opacity 500ms ease-in-out;
+    width: 75%;
+    min-width: 350px;
+    transform: translateX(-45%);
     font-size: 0.9em;
+    top: -40px;
+
+    transition: height 500ms ease-in-out, opacity 500ms ease-in-out, top 500ms ease-in-out;
 
     h2 {
         font-size: 1.2em;
