@@ -15,6 +15,10 @@
     src: url("../fonts/HelveticaNeue.ttf");
 }
 
+/* Variables *****************************************************************/
+
+$switch-title-size: "only screen and (max-width: 600px)";
+
 // Themes /////////////////////////////////////////////////////////////////////
 
 $dark:                         rgba( 52,  73,  94, 1);
@@ -283,6 +287,9 @@ header {
     .title {
         font-size: 5em;
         margin: 0;
+        @media #{$switch-title-size} {
+            font-size: 3em;
+        }
     }
 
     .subtitle {
@@ -431,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     font-size: 2.5em;
-    @media only screen and (max-width: 600px) {
+    @media #{$switch-title-size} {
         font-size: 1.75em;
     }
 }
@@ -439,7 +446,7 @@ h2 {
 h3 {
     font-size: 2em;
 
-    @media only screen and (max-width: 600px) {
+    @media #{$switch-title-size} {
         font-size: 1.5em;
     }
 }
@@ -447,7 +454,7 @@ h3 {
 h4 {
     font-size: 1.5em;
 
-    @media only screen and (max-width: 600px) {
+    @media #{$switch-title-size} {
         font-size: 1.3em;
     }
 }
@@ -455,7 +462,7 @@ h4 {
 h5 {
     font-size: 1.25em;
 
-    @media only screen and (max-width: 600px) {
+    @media #{$switch-title-size} {
         font-size: 1.2em;
     }
 }
