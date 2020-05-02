@@ -1,5 +1,5 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Une Grammaire du Tãso
+#+TITLE: Tãso
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Tãso" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Tãso" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Tãso" />

@@ -1,5 +1,5 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Une Grammaire de l’Eittlandais
+#+TITLE: Eittlandais
 #+LANGUAGE: fr
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire de l’Eittlandais" />
