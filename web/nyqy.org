@@ -151,6 +151,8 @@
    - 2 :: deuxième personne
    - 3 :: troisième personne
    - ABS :: absolutif
+   - art.indef :: article indéfini
+   - art.def :: article défini
    - DAT :: datif
    - ERG :: ergatif
    - F :: féminin
@@ -405,13 +407,13 @@
    #   "dependent-marking", or mixed?
    # - Give some examples of each type of marking the language exhibits.
    Le  Ñyqy est  une langue  qui apparaît  comme étant  fortement analytique  et
-   isolationniste,  reposant principalement  sur sa  syntaxe afin  d’exprimer sa
-   grammaire et  très peu sur des  règles morphologiques. La large  majorité des
+   isolationniste, reposant  quasi exclusivement sur sa  syntaxe afin d’exprimer
+   sa grammaire et très peu sur des règles morphologiques. La large majorité des
    mots  sont  monosyllabiques ou  bisyllabiques,  et  les phrases  s’articulent
    souvent autour  de morphèmes liés  monosyllabiques que l’on  peut interpréter
    comme étant des particules grammaticales. Voici  un exemple de phrase en Ñyqy
    avec sa traduction et son détail grammatical :
-   1. {{{nyqy(ñe pom ñy)}}}
+   1. {{{nyqy(ñe pom qy)}}}
 
       maison GEN 1sg
 
@@ -426,6 +428,11 @@
       1sg OPT boire
 
       Je souhaite boire
+   4. {{{nyqy(bó mygú cé pim i coq op zé qy zúmu op)}}}
+
+      art.def singe POSS.1sg pomme art.indef manger-PST 3sg 1sg voir-PST
+
+      J’ai vu le singe qui a mangé une pomme à moi
 
    Dans l’exemple n°1, nous pouvons  remarquer l’absence d’un verbe « être », ce
    qui est un exemple des prédicats  existentiels qui ne requièrent pas de verbe
@@ -435,11 +442,11 @@
    montrant  que  le  Ñyqy  est  une   langue  dont  la  tête  de  ses  diverses
    constructions grammaticales est finale et non initiale.
 
-   L’exemple n°2  nous montre  la méthode  utilisée en  Ñyqy afin  d’employer le
-   duel : il s’agit d’affixer le nombre « deux » à l’élément que nous souhaitons
-   infléchir. Ainsi, {{{nyqy(bú  qi)}}} peut être considéré comme  le pronom personnel
-   de  la seconde  personne du  singulier infléchis  afin de  devenir le  pronom
-   personnel de la seconde personne du duel.
+   Le deuxième exemple  nous montre la méthode utilisée en  Ñyqy afin d’employer
+   le  duel : il  s’agit  d’affixer  le nombre  « deux »  à  l’élément que  nous
+   souhaitons infléchir. Ainsi, {{{nyqy(bú qi)}}}  peut être considéré comme le pronom
+   personnel de  la seconde personne du  singulier infléchis afin de  devenir le
+   pronom personnel de la seconde personne du duel.
 
    Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
    d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
@@ -448,6 +455,14 @@
    l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
    [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
    d’inflexion des verbes du Ñyqy.
+
+   Enfin,  le quatrième  exemple nous  donne un  aperçu de  la syntaxe,  avec un
+   positionnement différent  des articles  définis et  indéfinis par  rapport au
+   nom,  ainsi qu’un  exemple  de référence  dans une  clause  subordonnée à  un
+   élément extérieur  qu’elle définit,  ici le pronom  de la  troisième personne
+   {{{nyqy(zé)}}} se référant à {{{nyqy(mygú)}}}. On voit également que la clause principale
+   a un ordre de ses constituants en OSV tandis que la subordonnée a un ordre de
+   ses relatives en OVS.
 
 ** Inventaire phonologique et translittération
    :PROPERTIES:
@@ -2162,11 +2177,6 @@
 
    Ce qui donne donc 1052.
 
-** Références
-   :PROPERTIES:
-   :CUSTOM_ID: h-39866d3e-b4f9-4885-8581-53f7342ddf0c
-   :END:
-
 * Dictionnaire
   :PROPERTIES:
   :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
@@ -2304,6 +2314,8 @@
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
    - {{{nyqy(muz)}}} ::
      1. (n) rouge, pourpre, fruit
+   - {{{nyqy(mygú)}}} ::
+     1. (n) singe
 
 ** N
    :PROPERTIES:
@@ -2498,6 +2510,8 @@
    - {{{nyqy(zuj)}}} ::
      1. (n) nuit, noir, ombre
      2. (adj) noir, sombre
+   - {{{nyqy(zúmu)}}} ::
+     1. (vt) voir
 
 * Notes                                                            :noexport:
   :PROPERTIES:
@@ -2574,7 +2588,6 @@
      | 1sg | GEN | maison |
 
      Gen-Adj-Dem-Num-Poss-N-Num-Adj-Rel
-
 
 * Choses à faire [2/4]                                             :noexport:
   :PROPERTIES:
