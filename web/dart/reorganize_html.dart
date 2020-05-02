@@ -187,8 +187,11 @@ Future<void> reorganizeHtml() async {
   await makeNavbar().then((navbar) {
     querySelector('body').insertAdjacentElement('afterBegin', navbar);
     querySelector('nav').insertAdjacentElement('afterEnd', makeHeader());
-    querySelector('.title')
-        .insertAdjacentElement('afterEnd', querySelector('.subtitle'));
+    final subtitle = querySelector('.subtitle');
+    if (subtitle != null) {
+      querySelector('header').append(subtitle);
+    }
+    querySelector('.title br').remove();
     querySelector('#toc-drop')
         .append(querySelector('#table-of-contents')..classes.add('dropdown'));
   });
