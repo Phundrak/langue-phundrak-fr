@@ -1,4 +1,4 @@
-* TODO Organization of HTML [2/3]
+* TODO Organization of HTML [2/4]
 ** TODO Add link to images that don’t have any
 ** TODO Add English links detection
 ** DONE Add button to display TOC
