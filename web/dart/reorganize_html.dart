@@ -66,7 +66,8 @@ Future<Element> makeThemeChanger() async {
       ..append(Element.span()
         ..classes.add('fa-stack')
         ..style.verticalAlign = 'top'
-        ..append(makeIcon(['fas', 'fa-sun', 'fa-stack-1x'])..style.fontSize = '0.9em')
+        ..append(makeIcon(['fas', 'fa-sun', 'fa-stack-1x'])
+          ..style.fontSize = '0.9em')
         ..append(makeIcon(['fas', 'fa-moon', 'fa-stack-1x']))))
     ..append(Element.ul()
       ..classes.add('dropdown')
@@ -80,35 +81,36 @@ Future<Element> makeThemeChanger() async {
 
 Element makeShareLink(Element icon, String url) {
   return Element.li()
-  ..classes.add('dropdown-item')
-  ..append(Element.a()
-    ..attributes['href'] = url
-    ..attributes['target'] = '_blank'
-    ..append(icon));
+    ..classes.add('dropdown-item')
+    ..append(Element.a()
+      ..attributes['href'] = url
+      ..attributes['target'] = '_blank'
+      ..append(icon));
 }
 
 Future<Element> makeShare() async {
   return Element.li()
-  ..classes.addAll(['nav-item', 'has-dropdown'])
-  ..append(Element.a()
-    ..attributes['href'] = 'javascript:void(0)'
-    ..append(makeIcon(['fas', 'fa-share-alt'])))
-  ..append(Element.ul()
-    ..classes.add('dropdown')
-    ..append(makeShareLink(
-        makeIcon(['fab', 'fa-twitter-square']),
-        'https://twitter.com/share?text=${getPageTitle()}'
-        '&url=${window.location.href}'))
-    ..append(makeShareLink(makeIcon(['fab', 'fa-reddit-square']),
-        'https://www.reddit.com/submit?title=${getPageTitle()}s&url=${window.location.href}'))
-    ..append(makeShareLink(makeIcon(['fas', 'fa-envelope-square']),
-        'mailto:?subject=${getPageTitle}&body=${window.location.href}'))
-    ..append(makeShareLink(
-        makeIcon(['fab', 'fa-linkedin']),
-        'https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}'
-        '&title=${getPageTitle()}'))
-    ..append(makeShareLink(makeIcon(['fab', 'fa-facebook-square']),
-        'https://www.facebook.com/sharer/sharer.php?u=${window.location.href}')));
+    ..classes.addAll(['nav-item', 'has-dropdown'])
+    ..append(Element.a()
+      ..attributes['href'] = 'javascript:void(0)'
+      ..append(makeIcon(['fas', 'fa-share-alt'])))
+    ..append(Element.ul()
+      ..classes.add('dropdown')
+      ..attributes['id'] = 'drop-share'
+      ..append(makeShareLink(
+          makeIcon(['fab', 'fa-twitter-square']),
+          'https://twitter.com/share?text=${getPageTitle()}'
+          '&url=${window.location.href}'))
+      ..append(makeShareLink(makeIcon(['fab', 'fa-reddit-square']),
+          'https://www.reddit.com/submit?title=${getPageTitle()}s&url=${window.location.href}'))
+      ..append(makeShareLink(makeIcon(['fas', 'fa-envelope-square']),
+          'mailto:?subject=${getPageTitle}&body=${window.location.href}'))
+      ..append(makeShareLink(
+          makeIcon(['fab', 'fa-linkedin']),
+          'https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}'
+          '&title=${getPageTitle()}'))
+      ..append(makeShareLink(makeIcon(['fab', 'fa-facebook-square']),
+          'https://www.facebook.com/sharer/sharer.php?u=${window.location.href}')));
 }
 
 // Add a navbar atop of the HTML body, containing two buttons:
@@ -185,6 +187,8 @@ Future<void> reorganizeHtml() async {
   await makeNavbar().then((navbar) {
     querySelector('body').insertAdjacentElement('afterBegin', navbar);
     querySelector('nav').insertAdjacentElement('afterEnd', makeHeader());
+    querySelector('.title')
+        .insertAdjacentElement('afterEnd', querySelector('.subtitle'));
     querySelector('#toc-drop')
         .append(querySelector('#table-of-contents')..classes.add('dropdown'));
   });
