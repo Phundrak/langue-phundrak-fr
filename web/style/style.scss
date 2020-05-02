@@ -326,12 +326,15 @@ header {
 #theme-dropdown {
     width: 250px;
     flex-direction: row;
-    transform: translateX(-50%);
+    transform: translateX(-75%);
 }
 
 #drop-lang {
     flex-direction: column;
     transform: translateX(-40%);
+    li {
+        padding: 5px;
+    }
 }
 
 .dropdown-item {
@@ -360,6 +363,10 @@ header {
     top: -40px;
 
     transition: height 500ms ease-in-out, opacity 500ms ease-in-out, top 500ms ease-in-out;
+
+    li {
+        padding: 5px 0;
+    }
 
     h2 {
         font-size: 1.2em;
@@ -409,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h3 {
@@ -418,6 +425,10 @@ h3 {
 
 h4 {
     font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
 }
 
 .tooltip {
@@ -459,6 +470,8 @@ h4 {
 }
 
 blockquote {
+    padding: 0;
+    margin: 20px;
     font-style: italic;
 }
 
@@ -480,4 +493,12 @@ th, td {
 img {
     max-height: 600px;
     max-width: 100%;
+}
+
+.figure {
+    padding: 0;
+}
+
+ul {
+    padding-inline-start: 20px;
 }
