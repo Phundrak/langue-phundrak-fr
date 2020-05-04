@@ -195,7 +195,7 @@ Future<void> reorganizeHtml() async {
     content.insertAdjacentElement('beforeBegin', header);
     final subtitle = querySelector('.subtitle');
     if (subtitle != null) {
-      querySelector('header').append(subtitle);
+      header.append(subtitle);
     }
   });
 
@@ -205,4 +205,7 @@ Future<void> reorganizeHtml() async {
   // Add correct class to TOC
   querySelector('#toc-drop')
       .append(querySelector('#table-of-contents')..classes.add('dropdown'));
+
+  // Remove all <br> tags from HTML
+  querySelectorAll('br').forEach((br) => br.remove());
 }
