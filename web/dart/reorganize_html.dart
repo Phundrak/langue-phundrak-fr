@@ -154,7 +154,7 @@ Element addIcon(Element navbar, List<String> classes, String id) {
   return navbar;
 }
 
-Element makeHeader() {
+Future<Element> makeHeader() async {
   var header = Element.tag('header');
 
   // querySelector('#container').append(Element.tag('header'));
@@ -183,19 +183,26 @@ Future<void> wrapTables() async {
 }
 
 Future<void> reorganizeHtml() async {
-  // Create navbar and then header
+  final content = querySelector('#content');
+
+  // Make navbar
   await makeNavbar().then((navbar) {
     querySelector('body').insertAdjacentElement('afterBegin', navbar);
-    querySelector('nav').insertAdjacentElement('afterEnd', makeHeader());
+  });
+
+  // Make header
+  await makeHeader().then((header) {
+    content.insertAdjacentElement('beforeBegin', header);
     final subtitle = querySelector('.subtitle');
     if (subtitle != null) {
       querySelector('header').append(subtitle);
     }
-    querySelector('.title br').remove();
-    querySelector('#toc-drop')
-        .append(querySelector('#table-of-contents')..classes.add('dropdown'));
   });
 
   // wrap tables in container for better SCSS display
   await wrapTables();
+
+  // Add correct class to TOC
+  querySelector('#toc-drop')
+      .append(querySelector('#table-of-contents')..classes.add('dropdown'));
 }
