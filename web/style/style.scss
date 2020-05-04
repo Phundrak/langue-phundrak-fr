@@ -17,7 +17,11 @@
 
 /* Variables *****************************************************************/
 
-$switch-title-size: "only screen and (max-width: 600px)";
+$switch-small-screen: "only screen and (max-width: 600px)";
+$switch-smaller-screen: "only screen and (max-width: 400px)";
+
+$navbar-height: 70px;
+$postamble-height: 55px;
 
 // Themes /////////////////////////////////////////////////////////////////////
 
@@ -64,9 +68,6 @@ $gradient-accent3-dark-right:  linear-gradient(to right, $dark,   $accent3);
 //   Light
 $gradient-accent3-light-left:  linear-gradient(to left,  $light,  $accent3);
 $gradient-accent3-light-right: linear-gradient(to right, $light,  $accent3);
-
-$navbar-height: 70px;
-$postamble-height: 55px;
 
 .light {
     $bg-nav: $gradient-accent3-light-right;
@@ -287,7 +288,7 @@ header {
     .title {
         font-size: 5em;
         margin: 0;
-        @media #{$switch-title-size} {
+        @media #{$switch-small-screen} {
             font-size: 3em;
         }
     }
@@ -415,6 +416,16 @@ header {
     grid-template-areas: 'author email date';
     height: $postamble-height;
 
+    @media #{$switch-small-screen} {
+        grid-template-areas: 'author date' 'email email';
+        height: $postamble-height + 20px;
+    }
+
+    @media #{$switch-smaller-screen} {
+        grid-template-areas: 'author' 'date' 'email';
+        height: $postamble-height + 40px;
+    }
+
     font-size: 0.8em;
     align-content: space-evenly;
     text-align: center;
@@ -438,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     font-size: 2.5em;
-    @media #{$switch-title-size} {
+    @media #{$switch-small-screen} {
         font-size: 1.75em;
     }
 }
@@ -446,7 +457,7 @@ h2 {
 h3 {
     font-size: 2em;
 
-    @media #{$switch-title-size} {
+    @media #{$switch-small-screen} {
         font-size: 1.5em;
     }
 }
@@ -454,7 +465,7 @@ h3 {
 h4 {
     font-size: 1.5em;
 
-    @media #{$switch-title-size} {
+    @media #{$switch-small-screen} {
         font-size: 1.3em;
     }
 }
@@ -462,7 +473,7 @@ h4 {
 h5 {
     font-size: 1.25em;
 
-    @media #{$switch-title-size} {
+    @media #{$switch-small-screen} {
         font-size: 1.2em;
     }
 }
