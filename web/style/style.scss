@@ -414,21 +414,22 @@ header {
 #postamble {
     display: grid;
     grid-template-areas: 'author email date';
-    height: $postamble-height;
 
     @media #{$switch-small-screen} {
         grid-template-areas: 'author date' 'email email';
-        height: $postamble-height + 20px;
     }
 
     @media #{$switch-smaller-screen} {
         grid-template-areas: 'author' 'date' 'email';
-        height: $postamble-height + 40px;
     }
 
     font-size: 0.8em;
     align-content: space-evenly;
     text-align: center;
+
+    p {
+        margin: 10px 0;
+    }
 
     .author {
         grid-area: author;
