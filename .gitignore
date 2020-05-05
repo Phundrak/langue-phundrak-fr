@@ -12,20 +12,6 @@
 *.toc
 _minted*
 auto-generated*
-
-# Files and directories created by pub
-.dart_tool/
-.packages
-# Remove the following pattern if you wish to check in your lock file
-pubspec.lock
-
-# Conventional directory for build outputs
-build/
-
-# Directory created by dartdoc
-doc/api/
-/web/swadesh
-/web/tibetan-lexicon-layout
-/web/style/.sass-cache/
-/web/style/*.css
-/web/eittland-files/GIS/
+swadesh
+tibetan-lexicon-layout
+/ignored-folder/
