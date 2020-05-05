@@ -2245,6 +2245,15 @@
      1. (gp.NEG) particule de négation
    - {{{nyqy(écésy)}}} ::
      1. (n) sans âme, personne vide, tristesse. Voir /éc/ et /wésy/.
+   - {{{nyqy(éméz)}}} ::
+     1. (n) mère
+   - {{{nyqy(émpé)}}} ::
+     1. (n) maternité, paternité. Voir /éméz/ et /épéq/
+   - {{{nyqy(émpécoj)}}} ::
+     1. (adj) maternel, paternel, parental. Voir /émpé/ et /coj/
+     2. (adj) protecteur
+   - {{{nyqy(épéq)}}} ::
+     1. (n) père, papa
 
 ** G
    :PROPERTIES:
@@ -2259,14 +2268,16 @@
      1. (n) aggression
      2. (v) attaquer, agresser
    - {{{nyqy(gezbeñ)}}} ::
-     1. (n) morsure
+     1. (n) morsure, voir /gez/ et /beñ/
      2. (v) mordre
    - {{{nyqy(gé)}}} ::
      1. (nbr) quatre
    - {{{nyqy(goñ)}}} ::
-     1. (n) grande taille, largeur, hauteur, taille (implicitement grande)
-     2. (adj) gros, grand
-     3. (v) grossir
+     1. (adj) grand, gros, large
+     2. (v) grossir
+   - {{{nyqy(goñij)}}} ::
+     1. (n) Lune majeur, grande lune, litt. « grande cendrée ». Voir /goñ/ et
+        /mij/.
    - {{{nyqy(gó)}}} ::
      1. (v) boire
 
@@ -2276,6 +2287,9 @@
    :END:
    - {{{nyqy(i)}}} ::
      1. (art indef) un, une, des, article defini. Voir /mi/
+   - {{{nyqy(icm)}}} ::
+     1. (n) bras
+     2. (n) branche (arbre)
    - {{{nyqy(ij)}}} ::
      1. (n) chemin, route, voie
      2. (v) voyager
@@ -2289,6 +2303,12 @@
    - {{{nyqy(josgé)}}} ::
      1. (n) os
      2. (n) amulette
+   - {{{nyqy(juc)}}} ::
+     1. (n) bonté, bienfaisance
+     2. (adj) moralement bon, bienfaisant
+   - {{{nyqy(jucú)}}} ::
+     1. (n) peau
+     2. (n) écorce
 
 ** M
    :PROPERTIES:
@@ -2312,9 +2332,12 @@
    - {{{nyqy(mij)}}} ::
      1. (n) cendres
      2. (n) fumée
+     3. (adj) cendré
    - {{{nyqy(mó)}}} ::
      1. (nbr) marqueur de 100_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(músq)}}} ::
+     1. (n) maison (bâtiment), habitation
    - {{{nyqy(muz)}}} ::
      1. (n) rouge, pourpre, fruit
    - {{{nyqy(mygú)}}} ::
@@ -2329,6 +2352,10 @@
    - {{{nyqy(noc)}}} ::
      1. (n) vieillesse, grand âge
      2. (adj) vieux, âgé
+   - {{{nyqy(nó)}}} ::
+     1. (n) poitrine, seins (attribut féminin)
+     2. (adj) maternité
+     3. (adj) fertilité
    - {{{nyqy(nócpi)}}} ::
      1. ensuite, puis, à côté, depuis
 
@@ -2394,6 +2421,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
    :END:
+   - {{{nyqy(qe)}}} ::
+     1. (n) œil
+     2. (v) voir, regarder
    - {{{nyqy(qéy)}}} ::
      1. (n) chaleur
      2. (adj) chaud
@@ -2407,6 +2437,9 @@
      1. vache, buffle, bétail
    - {{{nyqy(qun)}}} ::
      1. (gp.OPT) particule grammaticale marquant l’optatif
+   - {{{nyqy(qúzb)}}} ::
+     1. (n) tête
+     2. (n) intelligence
    - {{{nyqy(qy)}}} ::
      1. (nbr) six, première sixaine. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
@@ -2418,24 +2451,50 @@
    - {{{nyqy(si)}}} ::
      1. (nbr) marqueur de 1000_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(sége)}}} ::
+     1. (adj) bon (goût), délicieux
    - {{{nyqy(séwe)}}} ::
-     1. (n) porte, voile de tissu utilisé à l’entrée des maisons, tissu
+     1. (n) porte, voile de tissu utilisé à l’entrée des maisons
+     2. (n) tissu
+   - {{{nyqy(si)}}} ::
+     1. (adj) petit
+   - {{{nyqy(sij)}}} ::
+     1. (n) Lune mineure, petite lune, litt. « petite cendrée ». Voir /si/ et /mij/
+   - {{{nyqy(sisp)}}} ::
+     1. (adj) bon, correct, bien (sans jugement moral)
+   - {{{nyqy(so)}}} ::
+     1. (n) feu
+   - {{{nyqy(socoj)}}} ::
+     1. (adj) brûlant, voir /so/ et /coj/
+     2. (adj) brillant (chaud)
+   - {{{nyqy(sosó)}}} ::
+     1. (vi) brûler
+     2. (vi) illuminer, allumer, briller (chaud)
    - {{{nyqy(sósy)}}} ::
      1. (vi) vivre, respirer
    - {{{nyqy(só)}}} ::
      1. façon de faire, manière de faire, d’agir. Graphème lié, voir
         §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+   - {{{nyqy(sóñ)}}} ::
+     1. (n) nuage
+     2. (adj) nuageux
+     3. (adj) couvert (temps)
    - {{{nyqy(sú)}}} ::
      1. (n) ventre, estomac
    - {{{nyqy(súmusq)}}} ::
-     1. (n) maison communale
+     1. (n) maison communale, maison (lieu). Le ventre de la maison, son
+        intérieur. Voir /sú/ et /musq/.
    - {{{nyqy(sy)}}} ::
-     1. (n) air, vent, vie, souffle
+     1. (n) air, vent
+     2. (n) vie
+     3. (n) souffle
    - {{{nyqy(syjéq)}}} ::
      1. (v) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
        Voir /sy/ et /jéq/.
    - {{{nyqy(syjéqsó)}}} ::
-     1. (adj) fraîcheur, froid, souffle, vent
+     1. (n) souffle, voir /sujéq/ et /só/
+     2. (n) vent
+     3. (adj) fraîcheur, froid
    - {{{nyqy(syg)}}} ::
      1. (n) beauté
      2. (adj) beau
@@ -2446,7 +2505,8 @@
    :END:
    - {{{nyqy(uñ)}}} ::
      1. (n) pied
-     2. (v) marcher, avancer
+     2. (n) racine
+     3. (v) marcher, avancer
    - {{{nyqy(usg)}}} ::
      1. (n) dos
 
@@ -2455,7 +2515,7 @@
    :CUSTOM_ID: h-ac099677-5362-44b9-8fe3-f37d5624b327
    :END:
    - {{{nyqy(újq)}}} ::
-     1. (n) puissance, force mentale, majestueusité
+     1. (n) puissance, force mentale, majestuosité
 
 ** W
    :PROPERTIES:
@@ -2472,6 +2532,16 @@
      1. (n) voisin
      2. (adj) proche
      3. (adj) voisin
+   - {{{nyqy(wó)}}} ::
+     1. (n) humain
+     2. (adj) d’apparence humaine
+     3. (adj) de comportement humain
+   - {{{nyqy(wócosu)}}} ::
+     1. (n) humanité, tous les humains. Voir /wó/ et /cosu/
+   - {{{nyqy(wóq)}}} ::
+     1. (n) homme
+   - {{{nyqy(wóz)}}} ::
+     1. (n) femme
 
 ** Y
    :PROPERTIES:
@@ -2494,6 +2564,9 @@
    - {{{nyqy(ycuñ)}}} ::
      1. (n) flot, courant (par ex. d’eau)
      2. (v) couler (de l’eau)
+   - {{{nyqy(yzm)}}} ::
+     1. (n) main
+     2. (n) feuille
 
 ** Z
    :PROPERTIES:
@@ -2501,6 +2574,10 @@
    :END:
    - {{{nyqy(zé)}}} ::
      1. (pron) Pron.Pers.3.sg, il, elle
+   - {{{nyqy(zi)}}} ::
+     1. (n) mouche
+     2. (n) moustique
+     3. (adj) agaçant (son), similaire au bruit d’un moustique ou d’une mouche.
    - {{{nyqy(zoc)}}} ::
      1. (n) tête
      2. (n) chef, patriarche, matriarche
