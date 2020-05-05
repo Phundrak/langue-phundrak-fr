@@ -78,6 +78,18 @@ $gradient-accent3-light-right: linear-gradient(to right, $light,  $accent3);
 
     transition: background 500ms ease-in-out, color 1s ease-in-out;
 
+    pre {
+        box-shadow: 3px 3px $dark;
+        border-color: $light;
+    }
+
+    pre.src {
+        &::before {
+            background-color: $light;
+            color: $dark;
+        }
+    }
+
     .navbar, header {
         background: $bg-nav;
     }
@@ -140,6 +152,18 @@ $gradient-accent3-light-right: linear-gradient(to right, $light,  $accent3);
 
     transition: background 500ms ease-in-out, color 1s ease-in-out;
 
+    pre {
+        box-shadow: 3px 3px $dark;
+        border: none;
+    }
+
+    pre.src {
+        &::before {
+            background-color: $dark;
+            color: $light;
+        }
+    }
+
     .navbar, header {
         background: $bg-nav;
     }
@@ -197,6 +221,18 @@ $gradient-accent3-light-right: linear-gradient(to right, $light,  $accent3);
     $bg-nav: $gradient-accent1-black-right;
 
     background: $black;
+
+    pre {
+        box-shadow: 3px 3px $light;
+        border: none;
+    }
+
+    pre.src {
+        &::before {
+            background-color: $black;
+            color: $light;
+        }
+    }
 
     .navbar, header {
         background: $bg-nav;
@@ -547,4 +583,9 @@ img {
 
 ul {
     padding-inline-start: 20px;
+}
+
+pre.src {
+    overflow-y: auto;
+
 }
