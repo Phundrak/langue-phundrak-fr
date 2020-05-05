@@ -15,10 +15,10 @@ Element makeIcon(List<String> classes, [String id]) {
   return icon;
 }
 
-Future<Element> makeLanguages() async {
-  // Languages
-  var languages = Element.ul()
-    ..attributes['id'] = 'drop-lang'
+Future<Element> makePages() async {
+  // Pages
+  var pages = Element.ul()
+    ..attributes['id'] = 'drop-page'
     ..classes.add('dropdown');
   await parseSitemap().then((final sitemap) => {
         sitemap.forEach((url, name) {
@@ -29,15 +29,15 @@ Future<Element> makeLanguages() async {
                 Element.a()
                   ..attributes['href'] = url
                   ..innerText = name);
-          languages.insertAdjacentElement('beforeEnd', link);
+          pages.insertAdjacentElement('beforeEnd', link);
         })
       });
   return Element.li()
     ..append(Element.a()
       ..attributes['href'] = 'javascript:void(0)'
-      ..append(makeIcon(['fas', 'fa-language'])))
+      ..append(makeIcon(['fas', 'fa-flag'])))
     ..classes.addAll(['nav-item', 'has-dropdown'])
-    ..insertAdjacentElement('beforeEnd', languages);
+    ..insertAdjacentElement('beforeEnd', pages);
 }
 
 Future<Element> makeTocDropDown() async {
@@ -115,7 +115,7 @@ Future<Element> makeShare() async {
 
 // Add a navbar atop of the HTML body, containing two buttons:
 // - One back to home
-// - A dropdown to each language detected in the sitemap
+// - A dropdown to each page detected in the sitemap
 Future<Element> makeNavbar() async {
   var navbar_content = Element.ul()..classes.add('navbar-nav');
 
@@ -128,8 +128,8 @@ Future<Element> makeNavbar() async {
           ..attributes['href'] = '/'
           ..append(makeIcon(['fas', 'fa-home']))));
 
-  // Add languages
-  navbar_content.append(await makeLanguages());
+  // Add pages
+  navbar_content.append(await makePages());
 
   // TOC icon
   navbar_content.append(await makeTocDropDown());
