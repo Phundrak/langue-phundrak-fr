@@ -1,8 +1,8 @@
 #+TITLE: Sitemap for project langue-phundrak-com-org
 
-- [[file:index.org][Langues construites de P’undrak]]
 - [[file:eittland.org][Eittlandais]]
 - [[file:hjelp.org][Hjelp]]
+- [[file:index.org][Langues construites de P’undrak]]
 - [[file:matter.org][Mattér]]
 - [[file:taso.org][Tãso]]
 - [[file:nyqy.org][Ñyqy]]
