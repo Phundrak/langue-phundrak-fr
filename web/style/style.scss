@@ -1,0 +1,591 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700);
+@font-face {
+    font-family: "DoulosSIL";
+    font-display: swap;
+    src: url("/fonts/DoulosSIL-R.woff");
+}
+@font-face {
+    font-family: "Noto Sans Runes";
+    font-display: swap;
+    src: url("../fonts/NotoSansRunic-Regular.ttf");
+}
+@font-face {
+    font-family: "Helvetica Neue";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeue.ttf");
+}
+
+/* Variables *****************************************************************/
+
+$switch-small-screen: "only screen and (max-width: 600px)";
+$switch-smaller-screen: "only screen and (max-width: 400px)";
+
+$navbar-height: 70px;
+$postamble-height: 55px;
+
+// Themes /////////////////////////////////////////////////////////////////////
+
+$dark:                         rgba( 52,  73,  94, 1);
+$black:                        rgba(  0,   0,   0, 1);
+$accent1:                      rgba( 93, 115, 126, 1);
+$accent2:                      rgba( 92, 172, 126, 1);
+$accent3:                      rgba(197, 193, 155, 1);
+$light:                        #eee;
+$grey1:                        #f8f8f8;
+$grey2:                        #dbe1e8;
+$grey3:                        #b2becd;
+$grey4:                        #6c7983;
+$grey5:                        #454e56;
+$grey6:                        #12181b;
+
+// Accent 1
+//   Black
+$gradient-accent1-black-left:  linear-gradient(to left,  $black,  $accent1,  $accent1);
+$gradient-accent1-black-right: linear-gradient(to right, $black,  $accent1,  $accent1);
+//   Dark
+$gradient-accent1-dark-left:   linear-gradient(to left,  $dark,   $accent1);
+$gradient-accent1-dark-right:  linear-gradient(to right, $dark,   $accent1);
+//   Light
+$gradient-accent1-light-left:  linear-gradient(to left,  $light,  $accent1);
+$gradient-accent1-light-right: linear-gradient(to right, $light,  $accent1);
+// Accent 2
+//   Black
+$gradient-accent2-black-left:  linear-gradient(to left,  $black,  $accent2,  $accent2);
+$gradient-accent2-black-right: linear-gradient(to right, $black,  $accent2,  $accent2);
+//   Dark
+$gradient-accent2-dark-left:   linear-gradient(to left,  $dark,   $accent2);
+$gradient-accent2-dark-right:  linear-gradient(to right, $dark,   $accent2);
+//   Light
+$gradient-accent2-light-left:  linear-gradient(to left,  $light,  $accent2);
+$gradient-accent2-light-right: linear-gradient(to right, $light,  $accent2);
+// Accent 3
+//   Black
+$gradient-accent3-black-left:  linear-gradient(to left,  $black,  $accent3,  $accent3);
+$gradient-accent3-black-right: linear-gradient(to right, $black,  $accent3,  $accent3);
+//   Dark
+$gradient-accent3-dark-left:   linear-gradient(to left,  $dark,   $accent3);
+$gradient-accent3-dark-right:  linear-gradient(to right, $dark,   $accent3);
+//   Light
+$gradient-accent3-light-left:  linear-gradient(to left,  $light,  $accent3);
+$gradient-accent3-light-right: linear-gradient(to right, $light,  $accent3);
+
+.light {
+    $bg-nav: $gradient-accent3-light-right;
+    $border-color: $accent1;
+
+    color: $dark;
+    background: $light;
+
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    pre {
+        box-shadow: 3px 3px $dark;
+        border-color: $light;
+    }
+
+    pre.src {
+        &::before {
+            background-color: $light;
+            color: $dark;
+        }
+    }
+
+    .navbar, header {
+        background: $bg-nav;
+    }
+
+    .status {
+        background: $gradient-accent3-light-left;
+        color: $dark;
+    }
+
+    .tooltip {
+        border-bottom: 1px dotted $accent3;
+
+        .tooltiptext {
+            background-color: $accent3;
+            color: $dark;
+
+            &::after {
+                border-color: $accent3 transparent transparent transparent;
+            }
+        }
+    }
+
+    .dropdown {
+        background: $accent3;
+        color: $dark;
+    }
+
+    #content {
+        a {
+            box-shadow: inset 0 -3px 0 $accent3;
+            transition: box-shadow 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: inset 0 -23px 0 $accent3;
+                transition: box-shadow 300ms ease-in-out;
+            }
+        }
+    }
+
+    table, th, td {
+        border: 1px solid $dark;
+    }
+
+    th {
+        background: darken($light, 5%);
+    }
+
+    .gentree {
+        filter: invert(0%);
+        transition: filter 1s ease-in-out;
+    }
+}
+
+.dark, .black {
+    $bg-nav: $gradient-accent2-dark-right;
+    $border-color: $dark;
+
+    color: $light;
+    background: $dark;
+
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    pre {
+        box-shadow: 3px 3px $dark;
+        border: none;
+    }
+
+    pre.src {
+        &::before {
+            background-color: $dark;
+            color: $light;
+        }
+    }
+
+    .navbar, header {
+        background: $bg-nav;
+    }
+
+    .status {
+        background: $gradient-accent2-dark-left;
+        color: $light;
+    }
+
+    .tooltip {
+        border-bottom: 1px dotted $accent1;
+
+        .tooltiptext {
+            background-color: $accent1;
+            color: $light;
+
+            &::after {
+                border-color: $accent1 transparent transparent transparent;
+            }
+        }
+    }
+
+    .dropdown {
+        background: $accent3;
+        color: $dark;
+    }
+
+    #content {
+        a {
+            box-shadow: inset 0 -3px 0 $accent2;
+            transition: box-shadow 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: inset 0 -23px 0 $accent2;
+                transition: box-shadow 300ms ease-in-out;
+            }
+        }
+    }
+
+    table, th, td {
+        border: 1px solid $accent1;
+    }
+
+    th {
+        background: darken($dark, 2.5%);
+    }
+
+    .gentree {
+        filter: invert(100%);
+        transition: filter 1s ease-in-out;
+    }
+}
+
+.black {
+    $bg-nav: $gradient-accent1-black-right;
+
+    background: $black;
+
+    pre {
+        box-shadow: 3px 3px $light;
+        border: none;
+    }
+
+    pre.src {
+        &::before {
+            background-color: $black;
+            color: $light;
+        }
+    }
+
+    .navbar, header {
+        background: $bg-nav;
+    }
+
+    .status {
+        background: $gradient-accent1-black-left;
+    }
+
+    .dropdown {
+        background: $dark;
+        color: $light;
+    }
+
+    #content {
+        a {
+            box-shadow: inset 0 -3px 0 $accent1;
+            transition: box-shadow 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: inset 0 -23px 0 $accent1;
+                transition: box-shadow 300ms ease-in-out;
+            }
+        }
+    }
+
+    table, th, td {
+        border: 1px solid $light;
+    }
+
+    th {
+        background: lighten($black, 15%);
+    }
+}
+
+/* Style *********************************************************************/
+
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Runes", "DoulosSIL", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
+
+    transition: background 500ms ease-in-out, color 1s ease-in-out;
+
+    header, .navbar {
+        transition: background 500ms ease-in-out, color 1s ease-in-out;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    height: $navbar-height;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+header {
+    padding: 1em;
+    margin-top: $navbar-height;
+    margin-bottom: 1em;
+    padding-bottom: 6em;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    transition: background 500ms ease-in-out;
+
+    .title {
+        font-size: 5em;
+        margin: 0;
+        @media #{$switch-small-screen} {
+            font-size: 3em;
+        }
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+}
+
+.dropdown {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 3rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    top: 0;
+
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175em 0.5em;
+    transform: translateX(-40%);
+
+    transition: opacity 500ms ease-in-out, top 500ms ease-in-out;
+}
+
+.has-dropdown {
+    &:focus-within {
+        .dropdown {
+            opacity: 1;
+            top: $navbar-height;
+            z-index: 5;
+            pointer-events: auto;
+        }
+
+        #table-of-contents {
+            top: $navbar-height / 1.3;
+            opacity: 1;
+            z-index: 5;
+            height: 500%;
+            pointer-events: auto;
+        }
+    }
+}
+
+#theme-dropdown {
+    width: 250px;
+    flex-direction: row;
+    transform: translateX(-75%);
+}
+
+#drop-page {
+    flex-direction: column;
+    transform: translateX(-40%);
+    li {
+        padding: 5px;
+    }
+}
+
+#drop-share {
+    li {
+        padding: 10px;
+    }
+}
+
+.dropdown-item {
+    cursor: pointer;
+
+    a {
+        width: 100%;
+        height: 100%;
+        size: 0.7rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+    }
+}
+
+#table-of-contents {
+    flex-direction: column;
+    padding: 20px;
+    float: right;
+    overflow-y: auto;
+    height: 0%;
+    width: 75%;
+    min-width: 350px;
+    transform: translateX(-45%);
+    font-size: 0.9em;
+    top: -40px;
+
+    transition: height 500ms ease-in-out, opacity 500ms ease-in-out, top 500ms ease-in-out;
+
+    li {
+        padding: 5px 0;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    #text-table-of-contents {
+        height: 100%;
+    }
+}
+
+#content {
+    padding: 50px;
+    padding-top: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+
+    a {
+        font-style: italic;
+    }
+}
+
+#postamble {
+    display: grid;
+    grid-template-areas: 'author email date';
+
+    @media #{$switch-small-screen} {
+        grid-template-areas: 'author date' 'email email';
+    }
+
+    @media #{$switch-smaller-screen} {
+        grid-template-areas: 'author' 'date' 'email';
+    }
+
+    font-size: 0.8em;
+    align-content: space-evenly;
+    text-align: center;
+
+    p {
+        margin: 10px 0;
+    }
+
+    .author {
+        grid-area: author;
+    }
+
+    .email {
+        grid-area: email;
+    }
+
+    .date {
+        grid-area: date;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    @media #{$switch-small-screen} {
+        font-size: 1.75em;
+    }
+}
+
+h3 {
+    font-size: 2em;
+
+    @media #{$switch-small-screen} {
+        font-size: 1.5em;
+    }
+}
+
+h4 {
+    font-size: 1.5em;
+
+    @media #{$switch-small-screen} {
+        font-size: 1.3em;
+    }
+}
+
+h5 {
+    font-size: 1.25em;
+
+    @media #{$switch-small-screen} {
+        font-size: 1.2em;
+    }
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+    .tooltiptext {
+        visibility: hidden;
+
+        margin-left: -60px; /* Half the width */
+        bottom: 100%;
+        left: 10%;
+        padding: 5px 10px;
+        text-align: center;
+        border-radius: 6px;
+
+        position: absolute;
+        z-index: 5;
+
+
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 100%; /* At the bottom of the tooltip */
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+        }
+    }
+
+    &:hover {
+        .tooltiptext {
+            visibility: visible;
+        }
+    }
+}
+
+blockquote {
+    padding: 0;
+    margin: 20px;
+    font-style: italic;
+}
+
+.largetable {
+    overflow-y: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    white-space: nowrap;
+    padding: 10px;
+}
+
+img {
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.figure {
+    padding: 0;
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+pre.src {
+    overflow-y: auto;
+
+}

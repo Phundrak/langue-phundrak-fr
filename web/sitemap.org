@@ -1,10 +1,10 @@
 #+TITLE: Sitemap for project langue-phundrak-com-org
 
 - [[file:index.org][Langues construites de P’undrak]]
-- [[file:eittland.org][Une Grammaire de l’Eittlandais]]
-- [[file:hjelp.org][Une Grammaire du Hjelp]]
-- [[file:matter.org][Une Grammaire du Mattér]]
-- [[file:taso.org][Une Grammaire du Tãso]]
-- [[file:nyqy.org][Une Grammaire du Ñyqy]]
+- [[file:eittland.org][Eittlandais]]
+- [[file:hjelp.org][Hjelp]]
+- [[file:matter.org][Mattér]]
+- [[file:taso.org][Tãso]]
+- [[file:nyqy.org][Ñyqy]]
 - en
-  - [[file:en/nyqy.org][Grammar of Ñyqy]]
+  - [[file:en/nyqy.org][Ñyqy]]

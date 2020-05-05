@@ -1,5 +1,5 @@
 # -*- mode: org; org-confirm-babel-evaluate: nil -*-
-#+TITLE: Une Grammaire du TEMPLATE
+#+TITLE: TEMPLATE
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite TEMPLATE" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du TEMPLATE" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite TEMPLATE" />

@@ -26,3 +26,6 @@ build/
 doc/api/
 /web/swadesh
 /web/tibetan-lexicon-layout
+/web/style/.sass-cache/
+/web/style/*.css
+/web/eittland-files/GIS/
