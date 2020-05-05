@@ -23,7 +23,7 @@ final localStorage = window.localStorage;
 
 var currentTheme = themes[localStorage['theme']];
 
-void makeThemeChanger() {
+void enableThemeChanger() {
   final darkBtn = querySelector('#darkBtn');
   final lightBtn = querySelector('#lightBtn');
   final blackBtn = querySelector('#blackBtn');
