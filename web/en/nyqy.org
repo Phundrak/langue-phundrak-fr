@@ -440,7 +440,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :class gentree
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS[e1f2ca12b3da614823629b888c369ed0ddf3e4a5]:
@@ -483,7 +483,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :class gentree
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
     #+RESULTS[ea6462370981c1a011d17d703545ec6e6f38f4de]:

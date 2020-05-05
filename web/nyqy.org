@@ -550,7 +550,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :align center :class gentree
+    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :class gentree
     #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
     #+RESULTS:
     [[file:img/nyqy/vowel-feature-tree.png]]
@@ -651,7 +651,7 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :align center :class gentree
+    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
     #+RESULTS:
@@ -1106,7 +1106,7 @@
       $input
     #+END_SRC
     #+NAME: nom-clause-syntax-tree
-    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :align center :class gentree
+    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :class gentree
     #+ATTR_LATEX: :height 12cm
     #+CAPTION: Arbre syntaxique des clauses nominales du Ñyqy
     #+RESULTS[901e0acb85c38044b47c5a3bacee9aaf7df72251]:

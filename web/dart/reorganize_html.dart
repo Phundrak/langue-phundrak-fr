@@ -27,6 +27,19 @@ Future<void> wrapTables() async {
   }
 }
 
+// All images that are not nested inside a link will be linkified to themselves.
+void linkifyImg() {
+  querySelectorAll('img').forEach((img) {
+    print(img.attributes['src']);
+    print(img.parent.tagName);
+    if (img.parent.tagName == 'P') {
+      final link = Element.a()..attributes['href'] = img.attributes['src'];
+      img.insertAdjacentElement('beforeBegin', link);
+      link.append(img);
+    }
+  });
+}
+
 Future<void> reorganizeHtml() async {
   final content = querySelector('#content');
 
@@ -46,6 +59,8 @@ Future<void> reorganizeHtml() async {
 
   // wrap tables in container for better SCSS display
   await wrapTables();
+
+  linkifyImg();
 
   // Add correct class to TOC
   querySelector('#toc-drop')
