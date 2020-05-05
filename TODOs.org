@@ -1,6 +1,8 @@
-* TODO Organization of HTML [2/4]
-** TODO Add link to images that don’t have any
-** TODO Add English links detection
+* TODO Organization of HTML [4/4]
+** DONE Add link to images that don’t have any
+   CLOSED: [2020-05-05 mar. 13:31]
+** DONE Add English links detection
+   CLOSED: [2020-05-05 mar. 13:31]
 ** DONE Add button to display TOC
    CLOSED: [2020-04-28 mar. 22:30]
 ** DONE Add share links [5/5]
@@ -15,9 +17,11 @@
     CLOSED: [2020-04-29 mer. 00:03]
 *** DONE Add Email share
     CLOSED: [2020-04-29 mer. 00:03]
-* TODO Styling [3/5]
-** TODO Images
-** TODO Mobile version
+* TODO Styling [5/5]
+** DONE Images
+   CLOSED: [2020-05-05 mar. 13:31]
+** DONE Mobile version
+   CLOSED: [2020-05-05 mar. 13:31]
 ** DONE Tables
    CLOSED: [2020-05-02 Sat 12:09]
 ** DONE Hint bubbles for phonetics (Ñyqy)
