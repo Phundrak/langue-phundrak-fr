@@ -18,6 +18,7 @@
 #+LATEX_HEADER_EXTRA: \setmainfont{Charis SIL}
 #+LATEX_HEADER_EXTRA: \usepackage{newunicodechar}
 #+LATEX_HEADER_EXTRA: \newunicodechar{’}{'}
+#+LATEX_HEADER_EXTRA: \newunicodechar{…}{...}
 #+LATEX_HEADER_EXTRA: \usepackage{xcolor}
 #+LATEX_HEADER_EXTRA: \usepackage{hyperref}
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
@@ -30,10 +31,10 @@
 #+HTML_HEAD_EXTRA: <meta name="twitter:card" content="summary" />
 #+HTML_HEAD_EXTRA: <meta name="twitter:site" content="@phundrak" />
 #+HTML_HEAD_EXTRA: <meta name="twitter:creator" content="@phundrak" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="/style/style.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://langue.phundrak.com/style/style.css"/>
 #+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://cdn.phundrak.com/img/mahakala-128x128.png" type="img/png" media="screen" />
 #+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://cdn.phundrak.com/img/favicon.ico" type="image/x-icon" media="screen" />
-#+HTML_HEAD_EXTRA: <script defer src="/dart/main.dart.js"></script>
+#+HTML_HEAD_EXTRA: <script defer src="https://langue.phundrak.com/dart/main.dart.js"></script>
 #+HTML_HEAD_EXTRA: <script defer src="https://kit.fontawesome.com/4d42d0c8c5.js" crossorigin="anonymous"></script>
 
 # ### MACROS ###################################################################
