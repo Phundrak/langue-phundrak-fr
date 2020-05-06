@@ -1,0 +1,484 @@
+# -*- mode: org -*-
+#+title: Swadesh List
+#+INCLUDE: headers
+#+OPTIONS: auto-id:t
+
+* Modified Swadesh List
+  :PROPERTIES:
+  :CUSTOM_ID: h-85e70600-8e60-483a-8ef7-aa64d5fe9705
+  :END:
+  List of words I should somehow cover with my conlangs. [[https://en.wikipedia.org/wiki/Swadesh_list][Source]]. This is based
+  on the Final Swadesh List as well as the [[https://en.wikipedia.org/wiki/Leipzig%E2%80%93Jakarta_list][Leipzig-Jakarta List]] and the
+  [[https://en.wikipedia.org/wiki/Dolgopolsky_list][Dolgopolsky List]].
+  - [ ] I (Pers.Pron.1.Sg.)
+  - [ ] all (of a number)
+  - [ ] and
+  - [ ] animal
+  - [ ] ant
+  - [ ] ash(es)
+  - [ ] at
+  - [ ] back
+  - [ ] bad
+  - [ ] bark (of tree)
+  - [ ] because
+  - [ ] belly (lower part of body, abdomen)
+  - [ ] big
+  - [ ] bird
+  - [ ] bite (verb)
+  - [ ] bitter
+  - [ ] black (color)
+  - [ ] blood
+  - [ ] blow (verb)
+  - [ ] bone
+  - [ ] breasts (female; 1955 still breast)
+  - [ ] breathe, breath
+  - [ ] burn (verb intr.!)
+  - [ ] carry (verb)
+  - [ ] child
+  - [ ] claw (not in 1952)1
+  - [ ] cloud (not fog)
+  - [ ] cold (of weather)
+  - [ ] come (verb)
+  - [ ] correct
+  - [ ] count
+  - [ ] cut
+  - [ ] day
+  - [ ] dead
+  - [ ] die (verb)
+  - [ ] dig
+  - [ ] dirty
+  - [ ] do/make (verb)
+  - [ ] dog
+  - [ ] drink (verb)
+  - [ ] dry (substance)
+  - [ ] dull
+  - [ ] dust
+  - [ ] ear
+  - [ ] earth (soil)
+  - [ ] eat (verb)
+  - [ ] egg
+  - [ ] eye
+  - [ ] fall (verb)
+  - [ ] far
+  - [ ] fat
+  - [ ] father
+  - [ ] fear
+  - [ ] feather (large, not down)
+  - [ ] few
+  - [ ] fight
+  - [ ] fingernail
+  - [ ] fire
+  - [ ] fish (noun)
+  - [ ] five
+  - [ ] flesh (1952 meat, flesh)
+  - [ ] float
+  - [ ] flow
+  - [ ] flower
+  - [ ] fly (noun)
+  - [ ] fly (verb)
+  - [ ] fog
+  - [ ] foot (not leg)
+  - [ ] forest
+  - [ ] four
+  - [ ] freeze
+  - [ ] fruit
+  - [ ] full
+  - [ ] give (verb)
+  - [ ] go (verb)
+  - [ ] good
+  - [ ] grass
+  - [ ] grease (1952: fat, organic substance)
+  - [ ] green (color)
+  - [ ] guts
+  - [ ] hair (on head of humans)
+  - [ ] hand
+  - [ ] hard
+  - [ ] he/she/it (Pers.Pron.3.sg)
+  - [ ] head (anatomic)
+  - [ ] hear (verb)
+  - [ ] heart
+  - [ ] heavy
+  - [ ] here
+  - [ ] hide (verb)
+  - [ ] hit/beat (verb)
+  - [ ] hold
+  - [ ] horn (of bull etc., not 1952)
+  - [ ] hot (adjective; 1952 warm, of weather)
+  - [ ] house
+  - [ ] how?
+  - [ ] hunt
+  - [ ] husband
+  - [ ] ice
+  - [ ] if
+  - [ ] in
+  - [ ] kill (verb)
+  - [ ] knee (not 1952)
+  - [ ] know (facts)
+  - [ ] lake
+  - [ ] laugh (verb)
+  - [ ] leaf (botanics)
+  - [ ] left
+  - [ ] leg
+  - [ ] lie (on side, recline)
+  - [ ] little
+  - [ ] live
+  - [ ] liver
+  - [ ] long (not wide)
+  - [ ] louse
+  - [ ] man (adult male human)
+  - [ ] many
+  - [ ] meat
+  - [ ] moon
+  - [ ] mother
+  - [ ] mountain (not hill)
+  - [ ] mouth
+  - [ ] nail (finger-nail)
+  - [ ] name
+  - [ ] narrow
+  - [ ] navel
+  - [ ] near
+  - [ ] neck (not nape)
+  - [ ] new
+  - [ ] night
+  - [ ] nose
+  - [ ] not
+  - [ ] old
+  - [ ] one
+  - [ ] other
+  - [ ] path (1952 road, trail; not street)
+  - [ ] person, human being, Man
+  - [ ] play
+  - [ ] pull
+  - [ ] push
+  - [ ] rain (noun, 1952 verb)
+  - [ ] red (color)
+  - [ ] right
+  - [ ] river
+  - [ ] road
+  - [ ] root (botanics)
+  - [ ] rope
+  - [ ] rotten
+  - [ ] round (not 1952)
+  - [ ] rub
+  - [ ] run (verb)
+  - [ ] salt
+  - [ ] sand
+  - [ ] say (verb)
+  - [ ] scratch
+  - [ ] sea
+  - [ ] see (verb)
+  - [ ] seed (noun)
+  - [ ] sew
+  - [ ] shade/shadow
+  - [ ] sharp
+  - [ ] short
+  - [ ] sing
+  - [ ] sit (verb)
+  - [ ] skin (1952: person’s)
+  - [ ] sky
+  - [ ] sleep (verb)
+  - [ ] small
+  - [ ] smell
+  - [ ] smoke (noun, of fire)
+  - [ ] smooth
+  - [ ] snake
+  - [ ] snow
+  - [ ] some
+  - [ ] spit
+  - [ ] split
+  - [ ] squeeze
+  - [ ] stab
+  - [ ] stand (verb)
+  - [ ] star
+  - [ ] stick
+  - [ ] stone
+  - [ ] straight
+  - [ ] suck (verb)
+  - [ ] sun
+  - [ ] sweet
+  - [ ] swell
+  - [ ] swim (verb)
+  - [ ] tail
+  - [ ] take (verb)
+  - [ ] tear/teardrop
+  - [ ] that
+  - [ ] there
+  - [ ] they
+  - [ ] thick
+  - [ ] thigh
+  - [ ] thin
+  - [ ] think
+  - [ ] this
+  - [ ] three
+  - [ ] throw
+  - [ ] tie (verb)
+  - [ ] tongue (anatomical)
+  - [ ] tooth (front, rather than molar)
+  - [ ] tree (not log)
+  - [ ] turn
+  - [ ] two
+  - [ ] vomit
+  - [ ] walk (verb)
+  - [ ] wash
+  - [ ] water (noun)
+  - [ ] we (1955: inclusive)
+  - [ ] wet
+  - [ ] what? (“?” not 1971)
+  - [ ] when?
+  - [ ] where?
+  - [ ] white (color)
+  - [ ] who? (“?” not 1971)
+  - [ ] wide
+  - [ ] wife
+  - [ ] wind
+  - [ ] wing
+  - [ ] wipe
+  - [ ] with
+  - [ ] woman
+  - [ ] wood
+  - [ ] worm
+  - [ ] year
+  - [ ] yellow (color)
+  - [ ] yesterday
+  - [ ] you (2.sg! 1952 thou & ye)
+
+* Ñyqy
+  :PROPERTIES:
+  :CUSTOM_ID: h-a5b4a65c-68ab-4630-b054-da816d679cfd
+  :END:
+  - [X] I (Pers.Pron.1.Sg.)
+  - [X] all (of a number)
+  - [ ] and
+  - [ ] animal
+  - [ ] ant
+  - [X] ash(es)
+  - [ ] at
+  - [X] back
+  - [ ] bad
+  - [X] bark (of tree)
+  - [ ] because
+  - [X] belly (lower part of body, abdomen)
+  - [X] big
+  - [X] bird
+  - [X] bite (verb)
+  - [ ] bitter
+  - [X] black (color)
+  - [X] blood
+  - [X] blow (verb)
+  - [X] bone
+  - [X] breasts (female; 1955 still breast)†
+  - [ ] breathe, breath
+  - [X] burn (verb intr.!)
+  - [X] carry (verb)
+  - [ ] child
+  - [X] claw (not in 1952)†1
+  - [X] cloud (not fog)
+  - [X] cold (of weather)
+  - [ ] come (verb)
+  - [ ] correct
+  - [ ] count
+  - [ ] cut
+  - [ ] day
+  - [X] dead
+  - [X] die (verb)
+  - [ ] dig
+  - [ ] dirty
+  - [ ] do/make (verb)
+  - [X] dog
+  - [X] drink (verb)
+  - [X] dry (substance)
+  - [ ] dull
+  - [ ] dust
+  - [X] ear
+  - [X] earth (soil)
+  - [X] eat (verb)
+  - [X] egg
+  - [X] eye
+  - [X] fall (verb)
+  - [ ] far
+  - [ ] fat
+  - [ ] father
+  - [ ] fear
+  - [X] feather (large, not down)
+  - [ ] few
+  - [ ] fight
+  - [ ] fingernail
+  - [X] fire
+  - [X] fish (noun)
+  - [ ] five
+  - [X] flesh (1952 meat, flesh)
+  - [ ] float
+  - [ ] flow
+  - [ ] flower
+  - [X] fly (noun)
+  - [X] fly (verb)
+  - [ ] fog
+  - [X] foot (not leg)
+  - [ ] forest
+  - [ ] four
+  - [ ] freeze
+  - [ ] fruit
+  - [ ] full
+  - [ ] give (verb)
+  - [ ] go (verb)
+  - [X] good
+  - [ ] grass
+  - [ ] grease (1952: fat, organic substance)
+  - [ ] green (color)
+  - [ ] guts
+  - [ ] hair (on head of humans)
+  - [X] hand
+  - [ ] hard
+  - [X] he/she/it (Pers.Pron.3.sg)
+  - [X] head (anatomic)
+  - [ ] hear (verb)
+  - [X] heart
+  - [ ] heavy
+  - [ ] here
+  - [ ] hide (verb)
+  - [ ] hit/beat (verb)
+  - [ ] hold
+  - [ ] horn (of bull etc., not 1952)†
+  - [X] hot (adjective; 1952 warm, of weather)
+  - [X] house
+  - [ ] how?
+  - [ ] hunt
+  - [ ] husband
+  - [ ] ice
+  - [ ] if
+  - [ ] in
+  - [ ] kill (verb)
+  - [ ] knee (not 1952)†
+  - [ ] know (facts)
+  - [ ] lake
+  - [ ] laugh (verb)
+  - [ ] leaf (botanics)
+  - [ ] left
+  - [ ] leg
+  - [ ] lie (on side, recline)
+  - [ ] little
+  - [ ] live
+  - [ ] liver
+  - [ ] long (not wide)
+  - [ ] louse
+  - [X] man (adult male human)
+  - [X] many
+  - [ ] meat
+  - [X] moon (not 1952)†
+  - [ ] mother
+  - [ ] mountain (not hill)
+  - [ ] mouth
+  - [ ] nail (finger-nail)
+  - [ ] name
+  - [ ] narrow
+  - [ ] navel
+  - [ ] near
+  - [ ] neck (not nape)
+  - [ ] new
+  - [X] night
+  - [X] nose
+  - [X] not
+  - [ ] old
+  - [X] one
+  - [ ] other
+  - [X] path (1952 road, trail; not street)
+  - [ ] person (individual human)
+  - [ ] play
+  - [ ] pull
+  - [ ] push
+  - [ ] rain (noun, 1952 verb)
+  - [X] red (color)
+  - [ ] right
+  - [ ] river
+  - [ ] road
+  - [ ] root (botanics)
+  - [ ] rope
+  - [ ] rotten
+  - [ ] round (not 1952)†
+  - [ ] rub
+  - [ ] run (verb)
+  - [ ] salt
+  - [ ] sand
+  - [X] say (verb)†
+  - [ ] scratch
+  - [ ] sea
+  - [X] see (verb)
+  - [ ] seed (noun)
+  - [ ] sew
+  - [X] shade/shadow
+  - [ ] sharp
+  - [ ] short
+  - [ ] sing
+  - [ ] sit (verb)
+  - [ ] sing
+  - [X] skin (1952: person’s)
+  - [X] sleep (verb)
+  - [ ] small
+  - [ ] smell
+  - [ ] smoke (noun, of fire)
+  - [ ] smooth
+  - [ ] snake
+  - [ ] snow
+  - [ ] some
+  - [ ] spit
+  - [ ] split
+  - [ ] squeeze
+  - [ ] stab
+  - [ ] stand (verb)
+  - [ ] star
+  - [ ] stick
+  - [ ] stone
+  - [ ] straight
+  - [ ] suck (verb)
+  - [ ] sun
+  - [ ] sweet
+  - [ ] swell
+  - [ ] swim (verb)
+  - [ ] tail
+  - [ ] take (verb)
+  - [ ] tear/teardrop
+  - [ ] that
+  - [ ] there
+  - [ ] they
+  - [ ] thick
+  - [ ] thigh
+  - [ ] thin
+  - [ ] think
+  - [ ] this
+  - [ ] three
+  - [ ] throw
+  - [ ] tie (verb)
+  - [ ] tongue (anatomical)
+  - [X] tooth (front, rather than molar)
+  - [ ] tree (not log)
+  - [ ] turn
+  - [X] two
+  - [ ] vomit
+  - [X] walk (verb)
+  - [ ] wash
+  - [X] water (noun)
+  - [X] we (1955: inclusive)
+  - [ ] wet
+  - [ ] what? (“?” not 1971)
+  - [ ] when?
+  - [ ] where?
+  - [ ] white (color)
+  - [ ] who? (“?” not 1971)
+  - [ ] wide
+  - [ ] wife
+  - [X] wind
+  - [ ] wing
+  - [ ] wipe
+  - [ ] with
+  - [X] woman
+  - [ ] wood
+  - [ ] worn
+  - [ ] year
+  - [ ] yellow (color)
+  - [ ] yesterday
+  - [X] you (2.sg! 1952 thou & ye)
+
+* aaaaaaaa
+  :PROPERTIES:
+  :CUSTOM_ID: h-72ad3dab-5e5e-4cbf-a364-4ba96556acfc
+  :END:
