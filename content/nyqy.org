@@ -818,8 +818,8 @@
     # - What are the distributional properties of nouns?
     # - What are the structural properties of nouns?
     # - What are the major formally distinct subcategories of nouns?
-    # - What is the basic structure of the noun word (for polysynthetic languages)
-    #   and/or noun phrases (for more isolating languages)?
+    # - What is the basic structure of the noun word (for polysynthetic
+    #   languages) and/or noun phrases (for more isolating languages)?
     Les noms en Ñyqy se réfèrent  généralement à des entités définies, comme des
     objets, des personnes, des concepts  ou événements. Contrairement à beaucoup
     d’autres langues, et du fait de la  nature très analytique de la langue, les
@@ -866,12 +866,14 @@
      :END:
      # |  1 |  2 |  3 |
      # |----+----+----|
-     # | ñy | bú | zé |
+     # | qy | bú | zé |
 
 **** Pronoms démonstratifs
      :PROPERTIES:
      :CUSTOM_ID: h-d5c2c839-0ac4-4aad-9efd-5ae2635c85f2
      :END:
+     # | pron.dem.prox |
+     # | bóc           |
 
 *** Verbes
     :PROPERTIES:
@@ -971,16 +973,17 @@
    :PROPERTIES:
    :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
    :END:
-   # Le Ñyqy est une langue dont  sa tête de groupes grammaticaux est généralement
-   # en fin du-dit groupe. On peut  voir avec l’arbre [[arbre:syntaxe:basique]] que la
-   # structure générale  d’une phrase  standard démarre  avec des  éléments divers
-   # liés à la clause principale s’il y en a, auxquels on se référera généralement
-   # en tant qu’éléments /obliques/. Ces éléments ne sont liés au verbe ni par une
-   # relation grammaticale  ergative, ni dative,  ni absolutive. Ensuite  vient la
-   # phrase nominale ergative, précédant la  phrase dative, elle-même précédant la
-   # phrase verbale,  contenant une phrase nominale  absolutive et le verbe  de la
-   # phrase,  le  dernier  élément  d’une phrase  {{{nyqy(ñyqy)}}}.  Les  sous chapitres
-   # suivants détailleront la composition de chacun de ces éléments.
+   # Le Ñyqy est une langue dont sa tête de groupes grammaticaux est
+   # généralement en fin du-dit groupe. On peut voir avec l’arbre
+   # [[arbre:syntaxe:basique]] que la structure générale d’une phrase standard
+   # démarre avec des éléments divers liés à la clause principale s’il y en a,
+   # auxquels on se référera généralement en tant qu’éléments /obliques/. Ces
+   # éléments ne sont liés au verbe ni par une relation grammaticale ergative,
+   # ni dative, ni absolutive. Ensuite vient la phrase nominale ergative,
+   # précédant la phrase dative, elle-même précédant la phrase verbale,
+   # contenant une phrase nominale absolutive et le verbe de la phrase, le
+   # dernier élément d’une phrase {{{nyqy(ñyqy)}}}. Les sous chapitres suivants
+   # détailleront la composition de chacun de ces éléments.
 
    # #+NAME: basic-syntax-tree
    # #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
@@ -1080,27 +1083,29 @@
 
     #+NAME: nom-syntax-tree
     #+BEGIN_SRC emacs-lisp :exports none :eval yes :cache yes
-      (setq-local nominal-group-syntax-tree
-                  '("N'"
-                    ("N'"
-                     ("GEN")
-                     ("N'"
-                      ("Adj")
+        (setq-local nominal-group-syntax-tree
+                    '("N'"
                       ("N'"
-                       ("Dem")
                        ("N'"
-                        ("Num₁₂")
+                        ("GEN")
                         ("N'"
-                         ("Poss")
-                         ("N"))
-                        ("Num₆")))
-                      ("Adj")))
-                    ("Rel")))
-    (conlanging/tree-to-dot  nominal-group-syntax-tree)
+                         ("Adj")
+                         ("N'"
+                          ("Dem")
+                          ("N'"
+                           ("Num₁₂")
+                           ("N'"
+                            ("Poss")
+                            ("N"))
+                           ("Num₆")))
+                         ("Adj")))
+                       ("Nomin"))
+                      ("Rel")))
+      (conlanging/tree-to-dot  nominal-group-syntax-tree)
     #+END_SRC
 
-    #+RESULTS[b65d47c0e3188121f8bcbde11627477b0a6b2904]: nom-syntax-tree
-    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N'"];1[label="N'"];0 -- 1;11[label="GEN"];1 -- 11;12[label="N'"];1 -- 12;121[label="Adj"];12 -- 121;122[label="N'"];12 -- 122;1221[label="Dem"];122 -- 1221;1222[label="N'"];122 -- 1222;12221[label="Num₁₂"];1222 -- 12221;12222[label="N'"];1222 -- 12222;122221[label="Poss"];12222 -- 122221;122222[label="N"];12222 -- 122222;12223[label="Num₆"];1222 -- 12223;123[label="Adj"];12 -- 123;2[label="Rel"];0 -- 2;}
+    #+RESULTS[fbb2ad04afa70b63d78e569394d499bc395d2cc0]: nom-syntax-tree
+    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N'"];1[label="N'"];0 -- 1;11[label="N'"];1 -- 11;111[label="GEN"];11 -- 111;112[label="N'"];11 -- 112;1121[label="Adj"];112 -- 1121;1122[label="N'"];112 -- 1122;11221[label="Dem"];1122 -- 11221;11222[label="N'"];1122 -- 11222;112221[label="Num₁₂"];11222 -- 112221;112222[label="N'"];11222 -- 112222;1122221[label="Poss"];112222 -- 1122221;1122222[label="N"];112222 -- 1122222;112223[label="Num₆"];11222 -- 112223;1123[label="Adj"];112 -- 1123;12[label="Nomin"];1 -- 12;2[label="Rel"];0 -- 2;}
 
     #+BEGIN_SRC dot :file img/nyqy/syntax-nominal-clauses.png :var input=nom-syntax-tree :exports results :eval yes :cache yes :class gentree
       $input
@@ -1109,7 +1114,7 @@
     #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :class gentree
     #+ATTR_LATEX: :height 12cm
     #+CAPTION: Arbre syntaxique des clauses nominales du Ñyqy
-    #+RESULTS[901e0acb85c38044b47c5a3bacee9aaf7df72251]:
+    #+RESULTS[50ed909d48ff543ba071d98743c840f3adba11b7]:
     [[file:img/nyqy/syntax-nominal-clauses.png]]
 
 **** Possessifs
@@ -1268,20 +1273,15 @@
     :PROPERTIES:
     :CUSTOM_ID: h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a
     :END:
-    # - Are there any processes (productive or not) that form a verb from a noun?
+    # - Are there any processes (productive or not) that form a verb from a
+    #   noun?
     # - An adjective from a noun?
     # - An adverb from a noun?
     La  dénominalisation en  Ñyqy se  produit grâce  au mot  {{{nyqy(só)}}} signifiant
-    « façon de faire ».  En se préfixant à  un nom, on obtient un  verbe dont la
+    « façon de faire ».  En se suffixant à  un nom, on obtient un  verbe dont la
     signification  est  généralement en  relation  avec  le nom  d’origine.  Par
     exemple, en  associant le terme {{{nyqy(qéy)}}}  à ce mot {{{nyqy(só)}}},  on obtient le
     verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
-
-    Similairement, il  est possible de  créer un adjectif  depuis un nom  via le
-    terme {{{nyqy(coj)}}},  signifiant « manière d’être »  et qui est  souvent comparé
-    dans sa  fonction grammaticale au  comparatif. Ainsi, en associant  le terme
-    {{{nyqy(zum)}}}  (« mer,  océan,  ciel »),   on  obtient  l’adjectif  {{{nyqy(cojzum)}}}
-    signifiant « bleu, aqueux ».
 
 *** Nombres
     :PROPERTIES:
@@ -2191,11 +2191,14 @@
    :END:
    - {{{nyqy(beñ)}}} ::
      1. (n) dents
-     2. (v) mordre, croquer
-   - {{{nyqy(bó)}}} ::
-     1. (art def) le, la, les, article défini. Voir /bóc/
+     2. (vt) mordre, croquer
+   - {{{nyqy(beñgez)}}} :: Voir /beñ/ et /gez/
+     1. (n) morsure
+     2. (vt) mordre
+   - {{{nyqy(bó)}}} :: Voir /bóc/
+     1. (art def) le, la, les, article défini
    - {{{nyqy(bóc)}}} ::
-     1. (n) ceci, ça, démonstratif de proximité
+     1. (pron.dem) ceci, ça, démonstratif de proximité
    - {{{nyqy(bú)}}} ::
      1. (pron) deuxième personne
 
@@ -2212,23 +2215,24 @@
      1. (gp) façon d’être, d’exister, comparatif qualitatif, équatif. Particule
         grammaticale, graphème lié, voir
         §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
-   - {{{nyqy(cojmuz)}}} ::
-     1. (adj) rouge, pourpre
-   - {{{nyqy(cojzuj)}}} ::
-     1. (adj) noir, sombre
    - {{{nyqy(coge)}}} ::
      1. (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
    - {{{nyqy(cope)}}} ::
      1. (gp.JUS) marqueur pour verbes du jussif, marquant un souhait de la part
         du locuteur.
    - {{{nyqy(coq)}}} ::
-     1. (v) manger
+     1. (vt) manger
    - {{{nyqy(cójm)}}} ::
      1. (nbr) marqueur de 100000_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
    - {{{nyqy(cosu)}}} ::
      1. (n) entièreté
      2. (adv) tout, entièrement
+   - {{{nyqy(cós)}}} ::
+     1. (n) oreille
+     2. (n) ouïe
+   - {{{nyqy(cuwéñ)}}} ::
+     1. (adv) tout le temps
 
 ** E
    :PROPERTIES:
@@ -2236,6 +2240,13 @@
    :END:
    - {{{nyqy(eco)}}} ::
      1. (n) grain commmestible, riz, blé
+   - {{{nyqy(es)}}} ::
+     1. (n) sèchereses
+     2. (adj) sec
+     3. (adj) aride
+   - {{{nyqy(ezp)}}} ::
+     1. (n) ouvrage, travail
+     2. (vi) travailler
 
 ** É
    :PROPERTIES:
@@ -2243,17 +2254,19 @@
    :END:
    - {{{nyqy(éc)}}} ::
      1. (gp.NEG) particule de négation
-   - {{{nyqy(écésy)}}} ::
-     1. (n) sans âme, personne vide, tristesse. Voir /éc/ et /wésy/.
+   - {{{nyqy(ég)}}} ::
+     1. (vt) aimer, apprécier
    - {{{nyqy(éméz)}}} ::
      1. (n) mère
-   - {{{nyqy(émpé)}}} ::
-     1. (n) maternité, paternité. Voir /éméz/ et /épéq/
-   - {{{nyqy(émpécoj)}}} ::
-     1. (adj) maternel, paternel, parental. Voir /émpé/ et /coj/
+   - {{{nyqy(émpé)}}} :: Voir /éméz/ et /épéq/
+     1. (n) maternité, paternité
+   - {{{nyqy(émpécoj)}}} :: Voir /émpé/ et /coj/
+     1. (adj) maternel, paternel, parental
      2. (adj) protecteur
    - {{{nyqy(épéq)}}} ::
      1. (n) père, papa
+   - {{{nyqy(éqcó)}}} ::
+     1. (vt) porter qqch (avec ses mains)
 
 ** G
    :PROPERTIES:
@@ -2266,40 +2279,38 @@
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
    - {{{nyqy(gez)}}} ::
      1. (n) aggression
-     2. (v) attaquer, agresser
-   - {{{nyqy(gezbeñ)}}} ::
-     1. (n) morsure, voir /gez/ et /beñ/
-     2. (v) mordre
+     2. (vt) attaquer, agresser
    - {{{nyqy(gé)}}} ::
      1. (nbr) quatre
    - {{{nyqy(goñ)}}} ::
      1. (adj) grand, gros, large
-     2. (v) grossir
-   - {{{nyqy(goñij)}}} ::
-     1. (n) Lune majeur, grande lune, litt. « grande cendrée ». Voir /goñ/ et
-        /mij/.
+     2. (vi) grossir
    - {{{nyqy(gó)}}} ::
-     1. (v) boire
+     1. (vt) boire
 
 ** I
    :PROPERTIES:
    :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
    :END:
-   - {{{nyqy(i)}}} ::
-     1. (art indef) un, une, des, article defini. Voir /mi/
+   - {{{nyqy(i)}}} :: Voir /mi/
+     1. (art indef) un, une, des, article defini
    - {{{nyqy(icm)}}} ::
      1. (n) bras
      2. (n) branche (arbre)
    - {{{nyqy(ij)}}} ::
      1. (n) chemin, route, voie
-     2. (v) voyager
+     2. (vi) voyager
+   - {{{nyqy(is)}}} ::
+     1. particule du *causatif*
 
 ** J
    :PROPERTIES:
    :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
    :END:
    - {{{nyqy(jéq)}}} ::
-     1. (v) pousser
+     1. (vt) pousser
+   - {{{nyqy(jójpyg)}}} ::
+     1. (n) plume
    - {{{nyqy(josgé)}}} ::
      1. (n) os
      2. (n) amulette
@@ -2309,30 +2320,38 @@
    - {{{nyqy(jucú)}}} ::
      1. (n) peau
      2. (n) écorce
+   - {{{nyqy(juzib)}}} ::
+     1. (n) chair, viande comestible
 
 ** M
    :PROPERTIES:
    :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
    :END:
-   - {{{nyqy(még)}}} ::
-     1. (adv) beaucoup, très
+   - {{{nyqy(meb)}}} ::
+     1. (n) terre (matière)
    - {{{nyqy(meém)}}} ::
      1. (n) grand-mère (affectueux)
    - {{{nyqy(meq)}}} ::
      1. (n) parole, mot
    - {{{nyqy(meqm)}}} ::
-     1. (v) parler, expliquer, échanger oralement
+     1. (vi) parler, expliquer, échanger oralement
    - {{{nyqy(meqmsó)}}} ::
      1. (n) prise de parole, acte de parole, discours, oratoire
-   - {{{nyqy(meqyjéq)}}} ::
+   - {{{nyqy(mesyq)}}} :: Voir /meqm/ et /syjéq/
      1. (n) chuchotement, parole basse
-     2. (v) chuchoter, litt. souffler une parole, voir /meqm/ et /syjéq/.
+     2. (vi) chuchoter, litt. souffler une parole
+   - {{{nyqy(még)}}} ::
+     1. (adv) beaucoup, très
    - {{{nyqy(mi)}}} ::
      1. (nbr) un
    - {{{nyqy(mij)}}} ::
      1. (n) cendres
      2. (n) fumée
      3. (adj) cendré
+   - {{{nyqy(mijoñ)}}} :: Voir /goñ/ et /mij/
+     1. (n) Lune majeur, grande lune, litt. « grande cendrée »
+   - {{{nyqy(misij)}}} :: Voir /si/ et /mij/
+     1. (n) Lune mineure, petite lune, litt. « petite cendrée »
    - {{{nyqy(mó)}}} ::
      1. (nbr) marqueur de 100_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
@@ -2340,6 +2359,7 @@
      1. (n) maison (bâtiment), habitation
    - {{{nyqy(muz)}}} ::
      1. (n) rouge, pourpre, fruit
+     2. (adj) rouge, pourpre
    - {{{nyqy(mygú)}}} ::
      1. (n) singe
 
@@ -2347,6 +2367,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
    :END:
+   - {{{nyqy(ne)}}} ::
+     1. (nbr) zéro, rien
+     2. (adv) non, pas, négation
    - {{{nyqy(né)}}} ::
      1. (nbr) trois
    - {{{nyqy(noc)}}} ::
@@ -2369,8 +2392,11 @@
      1. (n) personne, humain, quelqu’un
    - {{{nyqy(ñójb)}}} ::
      1. (n) oiseau
-   - {{{nyqy(ñuné)}}} ::
-     1. (n) dieu terrestre, divinité, être supérieur. Voir aussi /wéz/.
+   - {{{nyqy(ñucm)}}} ::
+     1. (n) chute
+     2. (vi) tomber, chuter
+   - {{{nyqy(ñuné)}}} :: Voir aussi /wéz/
+     1. (n) dieu terrestre, divinité, être supérieur
    - {{{nyqy(ñuñ)}}} ::
      1. (nbr) marqueur de 1000000_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
@@ -2386,8 +2412,6 @@
    :END:
    - {{{nyqy(oñ)}}} ::
      1. (n) nez
-   - {{{nyqy(oñsy)}}} ::
-     1. (n) odeur, litt. air du nez, voir /oñ/ et /sy/.
    - {{{nyqy(oz)}}} ::
      1. (n) chat
 
@@ -2395,17 +2419,13 @@
    :PROPERTIES:
    :CUSTOM_ID: h-4be4efa4-8b9b-4267-812c-1872856eee41
    :END:
+   - {{{nyqy(ócqi)}}} ::
+     1. (vt) porter. Voir aussi /éqcó/
 
 ** P
    :PROPERTIES:
    :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
    :END:
-   - {{{nyqy(ne)}}} ::
-     1. (nbr) zéro, rien
-     2. (adv) non, pas, négation
-   - {{{nyqy(neyc)}}} ::
-     1. (n) mort, voir /ne/ et /yc/
-     2. (v) mourrir
    - {{{nyqy(péj)}}} ::
      1. (n) poisson d’eau douce
    - {{{nyqy(pi)}}} ::
@@ -2416,6 +2436,9 @@
      1. (gp) particule génitive
    - {{{nyqy(púmój)}}} ::
      1. (n) poisson d’eau de mer
+   - {{{nyqy(póweq)}}} ::
+     1. (n) griffe
+     2. (n) pendentif, bijou
 
 ** Q
    :PROPERTIES:
@@ -2423,16 +2446,16 @@
    :END:
    - {{{nyqy(qe)}}} ::
      1. (n) œil
-     2. (v) voir, regarder
+     2. (vt) voir, regarder
    - {{{nyqy(qéy)}}} ::
      1. (n) chaleur
      2. (adj) chaud
-   - {{{nyqy(qéysó)}}} ::
-     1. (v) chauffer, réchauffer, cuire. Voir /qey/ et /só/.
+   - {{{nyqy(qéysó)}}} :: Voir /qey/ et /só/
+     1. (vt) chauffer, réchauffer, cuire
    - {{{nyqy(qi)}}} ::
      1. (nbr) deux
    - {{{nyqy(qój)}}} ::
-     1. (v) dormir
+     1. (vi) dormir
    - {{{nyqy(qóñ)}}} ::
      1. vache, buffle, bétail
    - {{{nyqy(qun)}}} ::
@@ -2451,6 +2474,9 @@
    - {{{nyqy(si)}}} ::
      1. (nbr) marqueur de 1000_{6}. Voir
         §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+   - {{{nyqy(séc)}}} :: Voir /sy/ et /éc/
+     1. (n) mort
+     2. (adj) mort
    - {{{nyqy(sége)}}} ::
      1. (adj) bon (goût), délicieux
    - {{{nyqy(séwe)}}} ::
@@ -2458,20 +2484,15 @@
      2. (n) tissu
    - {{{nyqy(si)}}} ::
      1. (adj) petit
-   - {{{nyqy(sij)}}} ::
-     1. (n) Lune mineure, petite lune, litt. « petite cendrée ». Voir /si/ et /mij/
    - {{{nyqy(sisp)}}} ::
      1. (adj) bon, correct, bien (sans jugement moral)
    - {{{nyqy(so)}}} ::
      1. (n) feu
-   - {{{nyqy(socoj)}}} ::
-     1. (adj) brûlant, voir /so/ et /coj/
-     2. (adj) brillant (chaud)
-   - {{{nyqy(sosó)}}} ::
+     2. (adj) brûlant
+     3. (adj) brillant (chaud)
+   - {{{nyqy(sosó)}}} :: Voir /so/
      1. (vi) brûler
      2. (vi) illuminer, allumer, briller (chaud)
-   - {{{nyqy(sósy)}}} ::
-     1. (vi) vivre, respirer
    - {{{nyqy(só)}}} ::
      1. façon de faire, manière de faire, d’agir. Graphème lié, voir
         §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
@@ -2481,23 +2502,33 @@
      3. (adj) couvert (temps)
    - {{{nyqy(sú)}}} ::
      1. (n) ventre, estomac
-   - {{{nyqy(súmusq)}}} ::
+   - {{{nyqy(súmusq)}}} :: Voir /sú/ et /musq/
      1. (n) maison communale, maison (lieu). Le ventre de la maison, son
-        intérieur. Voir /sú/ et /musq/.
+        intérieur.
    - {{{nyqy(sy)}}} ::
      1. (n) air, vent
      2. (n) vie
      3. (n) souffle
-   - {{{nyqy(syjéq)}}} ::
-     1. (v) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
-       Voir /sy/ et /jéq/.
-   - {{{nyqy(syjéqsó)}}} ::
-     1. (n) souffle, voir /sujéq/ et /só/
+   - {{{nyqy(syoñ)}}} :: Voir /oñ/ et /sy/
+     1. (n) odeur, litt. « air du nez »
+   - {{{nyqy(syjéq)}}} :: Voir /sy/ et /jéq/
+     1. (vt) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
+   - {{{nyqy(syjéqsó)}}} :: Voir /sujéq/ et /só/
+     1. (n) souffle
      2. (n) vent
      3. (adj) fraîcheur, froid
    - {{{nyqy(syg)}}} ::
      1. (n) beauté
      2. (adj) beau
+   - {{{nyqy(sysó)}}} ::
+     1. (vi) vivre, respirer
+   - {{{nyqy(sywéqun)}}} :: Voir /sywéz/ et /qun/
+     1. (n) Chaman. Aspirant aux esprits, aux âmes, aux dieux.
+   - {{{nyqy(sywéz)}}} :: Voir /sy/ et /wéz/
+     1. (n) souffle divin, âme, esprit
+   - {{{nyqy(sywézéc)}}} :: Voir /sywéz/ et /éc/
+     1. (n) tristesse
+     2. (n) sans âme, personne vide
 
 ** U
    :PROPERTIES:
@@ -2506,7 +2537,7 @@
    - {{{nyqy(uñ)}}} ::
      1. (n) pied
      2. (n) racine
-     3. (v) marcher, avancer
+     3. (vi) marcher, avancer
    - {{{nyqy(usg)}}} ::
      1. (n) dos
 
@@ -2516,6 +2547,8 @@
    :END:
    - {{{nyqy(újq)}}} ::
      1. (n) puissance, force mentale, majestuosité
+   - {{{nyqy(ús)}}} ::
+     1. (n) œuf
 
 ** W
    :PROPERTIES:
@@ -2523,11 +2556,14 @@
    :END:
    - {{{nyqy(wéz)}}} ::
      1. (n) divinité suprême, dieu céleste, être supérieur. Voir aussi /ñuné/.
-   - {{{nyqy(wésy)}}} ::
-     1. (n) souffle divin, âme, esprit. Voir /sy/ et /wéz/.
-   - {{{nyqy(wésyqun)}}} ::
-     1. (n) Shaman. Aspirant aux esprits, aux âmes, aux dieux. Voir aussi
-        /wésy/, /qun/
+     2. (adj) divin (implicitement de divinité suprême), créateur (implicitement
+        magique), supérieur
+   - {{{nyqy(won)}}} ::
+     1. (vt) voler, nager, se déplacer.
+
+        Reçoit en absolutif l’élément dans lequel se déplace l’élément ergatif.
+        Exemple : /yc bó péj won/ « Le poisson nage », litt. « le poisson se
+        déplace dans l’eau douce ».
    - {{{nyqy(wóseq)}}} ::
      1. (n) voisin
      2. (adj) proche
@@ -2536,8 +2572,8 @@
      1. (n) humain
      2. (adj) d’apparence humaine
      3. (adj) de comportement humain
-   - {{{nyqy(wócosu)}}} ::
-     1. (n) humanité, tous les humains. Voir /wó/ et /cosu/
+   - {{{nyqy(wócosu)}}} :: Voir /wó/ et /cosu/
+     1. (n) humanité, tous les humains
    - {{{nyqy(wóq)}}} ::
      1. (n) homme
    - {{{nyqy(wóz)}}} ::
@@ -2548,10 +2584,14 @@
    :CUSTOM_ID: h-f271b8af-6237-448b-90be-d4daa0afbf1c
    :END:
    - {{{nyqy(yc)}}} ::
-     1. (n) eau douce, éther, vie, souffle divin
-   - {{{nyqy(ycéjéz)}}} ::
-     1. (n) magie, force divine. Littéralement « eau de la puissance divine »,
-        voir /yc/, /újq/ et /wéz/.
+     1. (n) eau douce
+     2. (n) éther, souffle divin
+     3. (n) vie
+   - {{{nyqy(ycne)}}} :: Voir /ne/ et /yc/
+     1. (n) mort
+     2. (vi) mourrir
+   - {{{nyqy(ycéjéz)}}} :: Voir /yc/, /újq/ et /wéz/
+     1. (n) magie, force divine. Littéralement « eau de la puissance divine »
    - {{{nyqy(ycij)}}} ::
      1. (n) rivière, fleuve, ruisseau
      2. (n) veine, artère
@@ -2559,11 +2599,11 @@
      1. (n) liquide
      2. (adj) aqueux, liquide
      3. (adj) bénéfacteur, bon
-   - {{{nyqy(ycomuj)}}} ::
-     1. (n) sang, voir /yc/, /cojmuj/
+   - {{{nyqy(ycmuj)}}} :: Voir /yc/ et /cojmuj/
+     1. (n) sang
    - {{{nyqy(ycuñ)}}} ::
      1. (n) flot, courant (par ex. d’eau)
-     2. (v) couler (de l’eau)
+     2. (vi) couler (de l’eau)
    - {{{nyqy(yzm)}}} ::
      1. (n) main
      2. (n) feuille
@@ -2573,18 +2613,23 @@
    :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
    :END:
    - {{{nyqy(zé)}}} ::
-     1. (pron) Pron.Pers.3.sg, il, elle
+     1. (pron) Pron.Pers.3sg, il, elle
    - {{{nyqy(zi)}}} ::
      1. (n) mouche
      2. (n) moustique
      3. (adj) agaçant (son), similaire au bruit d’un moustique ou d’une mouche.
+   - {{{nyqy(zic)}}} ::
+     1. (n) chair, viande non comestible
    - {{{nyqy(zoc)}}} ::
      1. (n) tête
      2. (n) chef, patriarche, matriarche
      3. (n) sommet d’une montagne
      4. (adj) haut, élevé
-   - {{{nyqy(zocséwe)}}} ::
-     1. (n) voile ou châle porté autour de la tête. Voir /zoc/ et /séwe/.
+   - {{{nyqy(zocséwe)}}} :: Voir /zoc/ et /séwe/
+     1. (n) voile ou châle porté autour de la tête. Litt. « tissu de tête »
+   - {{{nyqy(zó)}}} ::
+     1. (n) jeu
+     2. (vt) jouer
    - {{{nyqy(zój)}}} ::
      1. (n) chose, objet abstrait
    - {{{nyqy(zuj)}}} ::
@@ -2600,6 +2645,12 @@
   À corriger :
   - ñy = 6
   - qy = 1sg
+
+** General ideas
+   :PROPERTIES:
+   :CUSTOM_ID: h-d297914e-caf8-4ba0-8fb8-adffcaff38f7
+   :END:
+   Utiliser la terminaison en /m/ pour transformer un nom en verbe
 
 ** Ñyqy syntax
    :PROPERTIES:
