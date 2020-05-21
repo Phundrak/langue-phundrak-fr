@@ -37,7 +37,6 @@
 #+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />
 #+HTML_HEAD_EXTRA: <link rel="apple-touch-icon" href="/img/icon.png" />
 #+HTML_HEAD_EXTRA: <script defer src="/dart/main.dart.js"></script>
-#+HTML_HEAD_EXTRA: <script defer src="https://kit.fontawesome.com/4d42d0c8c5.js" crossorigin="anonymous"></script>
 
 # ### MACROS ###################################################################
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
