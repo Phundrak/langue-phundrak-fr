@@ -3,7 +3,7 @@
 #+INCLUDE: headers
 #+OPTIONS: auto-id:t
 
-* Modified Swadesh List
+* Modified Swadesh List [0/230]
   :PROPERTIES:
   :CUSTOM_ID: h-85e70600-8e60-483a-8ef7-aa64d5fe9705
   :END:
@@ -66,7 +66,6 @@
   - [ ] feather (large, not down)
   - [ ] few
   - [ ] fight
-  - [ ] fingernail
   - [ ] fire
   - [ ] fish (noun)
   - [ ] five
@@ -242,7 +241,7 @@
   - [ ] yesterday
   - [ ] you (2.sg! 1952 thou & ye)
 
-* Ñyqy
+* Ñyqy [92/229]
   :PROPERTIES:
   :CUSTOM_ID: h-a5b4a65c-68ab-4630-b054-da816d679cfd
   :END:
@@ -252,11 +251,11 @@
   - [ ] animal
   - [ ] ant
   - [X] ash(es)
-  - [ ] at
+  - [X] at
   - [X] back
   - [ ] bad
   - [X] bark (of tree)
-  - [ ] because
+  - [X] because (marqué par le causatif)
   - [X] belly (lower part of body, abdomen)
   - [X] big
   - [X] bird
@@ -267,7 +266,7 @@
   - [X] blow (verb)
   - [X] bone
   - [X] breasts (female; 1955 still breast)†
-  - [ ] breathe, breath
+  - [X] breathe, breath
   - [X] burn (verb intr.!)
   - [X] carry (verb)
   - [ ] child
@@ -275,7 +274,7 @@
   - [X] cloud (not fog)
   - [X] cold (of weather)
   - [ ] come (verb)
-  - [ ] correct
+  - [ ] correct (adjectif)
   - [ ] count
   - [ ] cut
   - [ ] day
@@ -297,15 +296,14 @@
   - [X] fall (verb)
   - [ ] far
   - [ ] fat
-  - [ ] father
+  - [X] father
   - [ ] fear
   - [X] feather (large, not down)
   - [ ] few
   - [ ] fight
-  - [ ] fingernail
   - [X] fire
   - [X] fish (noun)
-  - [ ] five
+  - [X] five
   - [X] flesh (1952 meat, flesh)
   - [ ] float
   - [ ] flow
@@ -315,7 +313,7 @@
   - [ ] fog
   - [X] foot (not leg)
   - [ ] forest
-  - [ ] four
+  - [X] four
   - [ ] freeze
   - [ ] fruit
   - [ ] full
@@ -356,16 +354,16 @@
   - [ ] left
   - [ ] leg
   - [ ] lie (on side, recline)
-  - [ ] little
-  - [ ] live
+  - [X] little
+  - [X] live
   - [ ] liver
   - [ ] long (not wide)
   - [ ] louse
   - [X] man (adult male human)
   - [X] many
-  - [ ] meat
+  - [X] meat
   - [X] moon (not 1952)†
-  - [ ] mother
+  - [X] mother
   - [ ] mountain (not hill)
   - [ ] mouth
   - [ ] nail (finger-nail)
@@ -378,20 +376,20 @@
   - [X] night
   - [X] nose
   - [X] not
-  - [ ] old
+  - [X] old
   - [X] one
   - [ ] other
   - [X] path (1952 road, trail; not street)
-  - [ ] person (individual human)
-  - [ ] play
+  - [X] person (individual human)
+  - [X] play
   - [ ] pull
-  - [ ] push
+  - [X] push
   - [ ] rain (noun, 1952 verb)
   - [X] red (color)
   - [ ] right
-  - [ ] river
-  - [ ] road
-  - [ ] root (botanics)
+  - [X] river
+  - [X] road
+  - [X] root (botanics)
   - [ ] rope
   - [ ] rotten
   - [ ] round (not 1952)†
@@ -403,19 +401,18 @@
   - [ ] scratch
   - [ ] sea
   - [X] see (verb)
-  - [ ] seed (noun)
+  - [X] seed (noun)
   - [ ] sew
   - [X] shade/shadow
   - [ ] sharp
   - [ ] short
-  - [ ] sing
   - [ ] sit (verb)
   - [ ] sing
   - [X] skin (1952: person’s)
   - [X] sleep (verb)
-  - [ ] small
-  - [ ] smell
-  - [ ] smoke (noun, of fire)
+  - [X] small
+  - [X] smell
+  - [X] smoke (noun, of fire)
   - [ ] smooth
   - [ ] snake
   - [ ] snow
@@ -433,19 +430,19 @@
   - [ ] sun
   - [ ] sweet
   - [ ] swell
-  - [ ] swim (verb)
+  - [X] swim (verb)
   - [ ] tail
   - [ ] take (verb)
   - [ ] tear/teardrop
   - [ ] that
   - [ ] there
-  - [ ] they
+  - [X] they
   - [ ] thick
   - [ ] thigh
   - [ ] thin
   - [ ] think
-  - [ ] this
-  - [ ] three
+  - [X] this
+  - [X] three
   - [ ] throw
   - [ ] tie (verb)
   - [ ] tongue (anatomical)
@@ -464,7 +461,7 @@
   - [ ] where?
   - [ ] white (color)
   - [ ] who? (“?” not 1971)
-  - [ ] wide
+  - [X] wide
   - [ ] wife
   - [X] wind
   - [ ] wing

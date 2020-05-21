@@ -1,5 +1,5 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Ñyqy
+#+TITLE: Proto-Ñyqy
 #+SUBTITLE: Un détail de la langue construite prototype du Ñyqy, et une rapide description de son peuple et sa culture
 #+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ñyqy" />
 #+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />
@@ -167,6 +167,7 @@
    - NPST :: non-passé
    - OBL :: oblique
    - OPT :: optatif
+   - part :: particule grammaticale
    - pron :: pronom
    - PST :: passé
    - SUBJ :: subjonctif
@@ -1061,6 +1062,16 @@
     # - Where do auxliaries occur in relation to the semantically “main” verb?
     # - Where  do  verb-phrase  adverbs  occur   with  respect  to  the  verb  and
     #   auxiliaries?
+    Le Ñyqy étant une langue dont l’ordre des constituants de ses clauses
+    principales est Objet-Sujet-Verbe, il n’est pas surprenant de savoir que les
+    auxiliaires de ses verbes sont suffixés à ces derniers. Ainsi, le verbe
+    {{{nyqy(coqop)}}} est constitué de la racine {{{nyqy(coj)}}}, signifiant « manger », et
+    de l’auxiliaire {{{nyqy(op)}}} marquant le passé. Dans les clauses principales,
+    les auxiliaires Ñyqy suivent ainsi l’ordre suivant :
+
+    #+begin_center
+    Objet-Subjet-Verbe-Mode-Aspect-Temps-Négation-Question
+    #+end_center
 
 *** Ordre des constituants dans les clauses nominales
     :PROPERTIES:
@@ -1723,19 +1734,85 @@
    :PROPERTIES:
    :CUSTOM_ID: h-7817ca1d-e3ad-48ed-8f79-9039e5c651c7
    :END:
+   # - verbes
+   #   - réel (Indicatif)
+   #     - passé
+   #       - progressif {{{nyqy(múnop)}}}
+   #       - non-progressif {{{nyqy(op)}}}
+   #     - non-passé
+   #       - progressif {{{nyqy(mún)}}}
+   #       - non-progressif /Ø/
+   #   - irréel
+   #     - souhait (Optatif) {{{nyqy(oqé)}}}
+   #     - non-souhait (Subjonctif) {{{nyqy(ug)}}}
+   #       - passé
+   #         - progressif
+   #         - non-progressif
+   #       - non-passé
+   #         - progressif
+   #         - non-progressif
+   # Subjonctif dans une clause principale = ouï-dire
+   # Temps par défaut : non-passé (présent/futur)
+   # | mode | aspect | temps | gloss         |
+   # |------+--------+-------+---------------|
+   # |      |        |       | PRES          |
+   # |      |        | op    | PST           |
+   # |      | mún    |       | PROG          |
+   # |      | mún    | op    | PST.PROG      |
+   # | oqé  |        |       | OPT           |
+   # | ug   |        |       | SUBJ          |
+   # | ug   |        | op    | PST.SUBJ      |
+   # | ug   | mún    |       | SUBJ.PROG     |
+   # | ug   | mún    | op    | PST.SUBJ.PROG |
+   # - pim i bó mygú coq / Le singe mange une pomme
+   # - pim i bó mygú coqop / Le singe mangeait une pomme
+   # - pim i bó mygú coqmún / Le singe est en train de manger une pomme
+   # - pim i bó mygú coqmúnop / Le singe était en train de manger une pomme
+   # - pim i bó mygú coqoqé / Le singe souhaite manger une pomme
+   # - pim i bó mygú coqug / Le singe mangerait une pomme
+   # - pim i bó mygú coqugop / Le singe aurait mangé une pomme
+   # - pim i bó mygú coqugmún / Le singe serait en train de manger une pomme
+   # - pim i bó mygú coqugmúnop / Le singe aurait été en train de manger une pomme
+   # OSV-Mode-Aspect-Temps-Neg-Quest
+   # Compléments: temps, manière, lieu
+   Le Ñyqy  est une langue  disposant de relativement  peu de modes,  aspects et
+   temps. En effet, cette langue ne  dispose que de trois modes (l’indicatif, le
+   subjonctif et l’optatif),  de deux aspects (le parfait et  le progressif), et
+   de deux temps (le passé et le non-passé).
+
 *** Temps
     :PROPERTIES:
     :CUSTOM_ID: h-8f9ad932-6d85-4ea3-b4d5-aada0f48e488
     :END:
-    # - Is  there  a  tense  system?   How  does  it  operate?  Future/non-future,
-    #   past/non-past,  past/present/future, or  other?  (You may  want tot  treat
-    #   these separately or group them, depending on how the language works.)
+    # - Is  there  a  tense  system? How  does  it  operate?  Future/non-future,
+    # past/non-past, past/present/future, or other? (You may want to treat these
+    # separately or group them, depending on how the language works.)
+    Il n’existe que deux temps en Ñyqy :  le passé et le non-passé. Un événement
+    dans  le temps  est  généralement  considéré comme  étant  passé s’il  s’est
+    produit  au  moins un  jour  avant  le  temps d’élocution.  Cependant,  pour
+    préciser si un événement s’est produit il y a moins d’un jour, les locuteurs
+    useront d’indices  temporels, comme par  exemple « il  y a deux  heures » ou
+    « tout à l’heure ».
+
+    À contrario,  le non-passé inclus  ce que à  quoi on se  réfère généralement
+    comme étant le passé proche (il y a  donc moins d’un jour), le présent et le
+    futur. Ainsi, si un événement est à venir ou est en train de se produire, on
+    s’y référera  au non-passé. Par exemple,  la phrase {{{nyqy(pim i  bó mygú coq)}}}
+    peut tout aussi  bien signifier « le singe mange une  pomme » que « le singe
+    vient de manger  une pomme » ou « le singe mangera  une pomme ». Pour donner
+    plus  de précision  temporelle,  des  indices pourront  être  donnés par  le
+    locuteur.
 
 *** Aspects
     :PROPERTIES:
     :CUSTOM_ID: h-ec16ad8f-69c7-44bc-ad20-da6d9188b3d1
     :END:
     # - How is aspect expressed?
+    Le Ñyqy ne dispose que de deux aspects : le parfait et le progressif.
+
+    Le  progressif permet  de  marquer  un événement  comme  étant un  événement
+    s’étalant sur  le temps,  remplissant ainsi  également la  fonction d’aspect
+    imparfait.
 
 *** Modes
     :PROPERTIES:
@@ -1745,6 +1822,33 @@
     #   not)?
     # - What are the modes?
     # - Is the case-marking pattern influenced at all by TAM?
+    Le mode dans  le Ñyqy est marqué  séparément du temps et de  l’aspect de par
+    ses  auxiliaires  dédiés {{{nyqy(oqé)}}}  et  {{{nyqy(ug)}}}.
+
+    Le premier est  un mode optatif, permettant d’exprimer un  souhait, un désir
+    de la part de locuteur. Il est  en revanche impossible pour les locuteurs du
+    Ñyqy  d’exprimer  le souhait  d’une  autre  persone  via l’optatif,  et  une
+    structure  syntaxique devra  être utilisée  afin de  pouvoir exprimer  cette
+    idée. L’optatif est ainsi considéré  comme étant un moyen d’exprimer quelque
+    chose qui est personnel au  locuteur. Il est également impossible d’exprimer
+    un souhait passé avec l’optatif, ce dernier ne peut être utilisé qu’avec des
+    souhaits  qui sont  réels  au moment  de locution.  Comme  pour exprimer  le
+    souhait d’autruit, exprimer un souhait passé doit se faire via une structure
+    syntaxique différente de l’utilisation de l’optatif.
+
+    L’auxiliaire {{{nyqy(ug)}}} sert quant à lui à exprimer des événements, actions ou
+    états  irréels.  Ainsi,  il  est principalement  utilisé  dans  les  clauses
+    principales comme un marqueur  d’évidentialité faible (ouï-dires) tandis que
+    l’indicatif (marqué par l’absence  d’auxiliaire modal) permet d’affirmer une
+    vérité dont le  locuteur est sûr. Le subjonctif  permet également d’exprimer
+    des  situations hypothétiques,  ou  bien même  des  situations imaginées,  y
+    incluant  les rêves.  Les  contes considérés  comme  imaginaires sont  ainsi
+    récités au subjonctif de façon quasi exclusive.
+
+    Enfin, comme dit ci-dessus l’indicatif  permet d’exprimer des faits qui sont
+    considérés comme étant véridiques par  leur locuteur. Ainsi, pour décrire un
+    événement réel  dont on  ne doute pas  ou peu de  sa véracité,  on utilisera
+    l’indicatif.
 
 *** Lieux/direction
     :PROPERTIES:
@@ -2209,8 +2313,7 @@
    - {{{nyqy(cé)}}} ::
      1. (poss) mon, ma, mes, possesseur de la première personne
    - {{{nyqy(co)}}} ::
-     1. (gp.SUBJ.PST) marqueur pour verbes du subjonctif accomplis
-     2. (nbr) cinq
+     1. (nbr) cinq
    - {{{nyqy(coj)}}} ::
      1. (gp) façon d’être, d’exister, comparatif qualitatif, équatif. Particule
         grammaticale, graphème lié, voir
@@ -2253,7 +2356,7 @@
    :CUSTOM_ID: h-beac2e71-9160-4fa9-b997-2aebe49c03b1
    :END:
    - {{{nyqy(éc)}}} ::
-     1. (gp.NEG) particule de négation
+     1. (part) particule de négation
    - {{{nyqy(ég)}}} ::
      1. (vt) aimer, apprécier
    - {{{nyqy(éméz)}}} ::
@@ -2300,6 +2403,8 @@
    - {{{nyqy(ij)}}} ::
      1. (n) chemin, route, voie
      2. (vi) voyager
+   - {{{nyqy(im)}}} ::
+     1. (part) Marqueur du datif
    - {{{nyqy(is)}}} ::
      1. particule du *causatif*
 
@@ -2358,8 +2463,9 @@
    - {{{nyqy(músq)}}} ::
      1. (n) maison (bâtiment), habitation
    - {{{nyqy(muz)}}} ::
-     1. (n) rouge, pourpre, fruit
-     2. (adj) rouge, pourpre
+     1. (n) rouge, pourpre
+     2. (n) fruit rouge
+     3. (adj) rouge, pourpre
    - {{{nyqy(mygú)}}} ::
      1. (n) singe
 
@@ -2370,6 +2476,8 @@
    - {{{nyqy(ne)}}} ::
      1. (nbr) zéro, rien
      2. (adv) non, pas, négation
+   - {{{nyqy(nejqó)}}} ::
+     1. (n) lendemain
    - {{{nyqy(né)}}} ::
      1. (nbr) trois
    - {{{nyqy(noc)}}} ::
@@ -2390,6 +2498,10 @@
      1. (n) maison
    - {{{nyqy(ñocm)}}} ::
      1. (n) personne, humain, quelqu’un
+   - {{{nyqy(ñozmicq)}}} ::
+     1. (vi)  accepter. La  chose acceptée  est passée  au verbe  comme argument
+        ergatif, tandis que  l’argument acceptant est passé  en tant qu’argument
+        datif.
    - {{{nyqy(ñójb)}}} ::
      1. (n) oiseau
    - {{{nyqy(ñucm)}}} ::
@@ -2421,6 +2533,8 @@
    :END:
    - {{{nyqy(ócqi)}}} ::
      1. (vt) porter. Voir aussi /éqcó/
+   - {{{nyqy(ón)}}} ::
+     1. (part) marqueur du locatif
 
 ** P
    :PROPERTIES:
@@ -2433,7 +2547,7 @@
    - {{{nyqy(pim)}}} ::
      1. (n) pomme
    - {{{nyqy(pom)}}} ::
-     1. (gp) particule génitive
+     1. (part) particule génitive
    - {{{nyqy(púmój)}}} ::
      1. (n) poisson d’eau de mer
    - {{{nyqy(póweq)}}} ::
@@ -2447,6 +2561,8 @@
    - {{{nyqy(qe)}}} ::
      1. (n) œil
      2. (vt) voir, regarder
+   - {{{nyqy(qecge)}}} ::
+     1. (vi) partir, quitter
    - {{{nyqy(qéy)}}} ::
      1. (n) chaleur
      2. (adj) chaud
@@ -2500,6 +2616,8 @@
      1. (n) nuage
      2. (adj) nuageux
      3. (adj) couvert (temps)
+   - {{{nyqy(sun)}}} ::
+     1. (n) graine (général). Voir aussi /eco/
    - {{{nyqy(sú)}}} ::
      1. (n) ventre, estomac
    - {{{nyqy(súmusq)}}} :: Voir /sú/ et /musq/
@@ -2636,7 +2754,11 @@
      1. (n) nuit, noir, ombre
      2. (adj) noir, sombre
    - {{{nyqy(zúmu)}}} ::
-     1. (vt) voir
+     1. (vi) voir. L’élément vu est passé au verbe comme un argument datif.
+        Exemple :
+        - {{{nyqy(bó oz im qy zúmuop)}}}
+
+          J’ai vu le chat.
 
 * Notes                                                            :noexport:
   :PROPERTIES:
