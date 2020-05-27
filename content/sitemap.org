@@ -5,6 +5,4 @@
 - [[file:index.org][Langues construites de P’undrak]]
 - [[file:matter.org][Mattér]]
 - [[file:taso.org][Tãso]]
-- [[file:nyqy.org][Ñyqy]]
-- en
-  - [[file:en/nyqy.org][Ñyqy]]
+- [[file:proto-nyqy.org][Proto-Ñyqy]]
