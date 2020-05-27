@@ -759,20 +759,6 @@
     - Si les règles précédentes ne s’appliquent  pas, il est supposé qu’un schwa
       est ajouté afin de pouvoir rendre la syllabe prononçable.
 
-** Structure des mots
-   :PROPERTIES:
-   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
-   :END:
-
-** Processus phonologiques et morphophonémiques principaux
-   :PROPERTIES:
-   :CUSTOM_ID: h-477abbdc-eab0-4bd4-9d27-c39d9219d1d7
-   :END:
-*** Allophonie
-    :PROPERTIES:
-    :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
-    :END:
-
 *** Harmonie des consonnes
     :PROPERTIES:
     :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
@@ -812,6 +798,16 @@
 
     Ainsi, la phrase {{{nyqy(ñe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
     phrase {{{nyqy(qi bú pim mo coq)}}} se ne prononce pas *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
+
+*** Allophonie
+    :PROPERTIES:
+    :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
+    :END:
+
+** Structure des mots
+   :PROPERTIES:
+   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
+   :END:
 
 ** Classes de mots
    :PROPERTIES:
