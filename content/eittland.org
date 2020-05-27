@@ -12,6 +12,7 @@
 #+STARTUP: shrink
 #+KEYWORDS: eittland eittlande einnland einnlande nordique viking islande norrois
 #+OPTIONS: auto-id:t
+#+UID: https://langue.phundrak.com/eittland
 
 * Propos préliminaires
   :PROPERTIES:

@@ -14,3 +14,4 @@ _minted*
 auto-generated*
 tibetan-lexicon-layout
 /ignored-folder/
+*.epub

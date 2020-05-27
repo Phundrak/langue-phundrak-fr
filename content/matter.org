@@ -8,6 +8,7 @@
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
 #+MACRO: rune (eval (conlanging/matter-org-export-runes $1))
 #+OPTIONS: auto-id:t
+#+UID: https://langue.phundrak.com/matter
 
 * Avant-propos
   :PROPERTIES:

@@ -5,6 +5,7 @@
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+INCLUDE: headers
 #+OPTIONS: auto-id:t
+#+UID: https://langue.phundrak.com/hjelp
 
 # idées: https://twitter.com/Phundrak/status/1079046235011584001
 

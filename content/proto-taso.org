@@ -1,10 +1,11 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Tãso
-#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Tãso" />
-#+HTML_HEAD: <meta property="og:title" content="Grammaire du Tãso" />
-#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Tãso" />
+#+TITLE: Proto-Tãso
+#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Tãso" />
+#+HTML_HEAD: <meta property="og:title" content="Grammaire du Proto-Tãso" />
+#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Tãso" />
 #+INCLUDE: headers
 #+OPTIONS: auto-id:t
+#+UID: https://langue.phundrak.com/proto-taso
 
 * Propos préliminaires
   :PROPERTIES:
@@ -176,11 +177,11 @@
     :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
     :END:
 
-    Le Tãso  est une  langue disposant  d’un inventaire  phonétique relativement
-    large,  disposant notamment  de  douze voyelles.  La distinction  principale
-    entre ces  dernières est  leur caractéristique haute,  ainsi que  leur trait
-    nasal.  Vous  trouverez  dans  le  tableau  [[table:vow:ipa]]  l’inventaire  des
-    voyelles du Tãso en IPA.
+    Le  Proto-Tãso   est  une   langue  disposant  d’un   inventaire  phonétique
+    relativement large,  disposant notamment  de douze voyelles.  La distinction
+    principale entre  ces dernières  est leur  caractéristique haute,  ainsi que
+    leur trait nasal. Vous trouverez  dans le tableau [[table:vow:ipa]] l’inventaire
+    des voyelles du Proto-Tãso en IPA.
 
     #+NAME: table:vow:ipa
     |           / |      <      |     <     |      <       |
@@ -212,7 +213,7 @@
     |    ouvertes |      a      |           |      ã       |
 
     Vous retrouverez avec la figure [[arbre:vow]] la hiérarchie des caractéristiques
-    organisant les voyelles du Tãso.
+    organisant les voyelles du Proto-Tãso.
 
     #+NAME: vowel-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
@@ -251,9 +252,9 @@
       $input
     #+END_SRC
     #+NAME: arbre:vow
-    #+ATTR_HTML: :alt Arbre des voyelles du Tãso :class gentree
+    #+ATTR_HTML: :alt Arbre des voyelles du Proto-Tãso :class gentree
     #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des voyelles du Tãso
+    #+CAPTION: Arbre des caractéristiques des voyelles du Proto-Tãso
     #+RESULTS[eff961e714f2313ac2e974637800b18d5c11c928]:
     [[file:img/taso/vowel-feature-tree.png]]
 
@@ -262,9 +263,9 @@
     :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
     :END:
 
-    À l’instar de ses voyelles, le  Tãso est également riche en consonnes, comme
-    vous pouvez  le constater  dans le tableau  [[table:cons:ipa]] les  listant avec
-    leur symbole IPA.
+    À l’instar de ses voyelles, le  Proto-Tãso est également riche en consonnes,
+    comme vous  pouvez le constater  dans le tableau [[table:cons:ipa]]  les listant
+    avec leur symbole IPA.
     #+NAME: table:cons:ipa
     |           <r> | <c> |  <c>  |   <c>   | <c> | <c> | <c>  |
     |               | blb |  alv  |  palv   | plt | vlr | lvlr |
@@ -357,9 +358,9 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Tãso :class gentree
+    #+ATTR_HTML: :alt Arbre des consonnes du Proto-Tãso :class gentree
     #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des consonnes du Tãso
+    #+CAPTION: Arbre des caractéristiques des consonnes du Proto-Tãso
     #+RESULTS[9bf7d97ca85780e74e9fbb5fc69cbc9800439890]:
     [[file:img/taso/consonant-feature-tree.png]]
 
