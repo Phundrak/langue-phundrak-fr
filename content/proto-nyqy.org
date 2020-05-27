@@ -2226,58 +2226,78 @@
    :CUSTOM_ID: h-397983ed-28e5-44c3-afb9-04403aa52e2a
    :END:
    Les locuteurs  du Proto-Ñyqy comptaient  dans un mélange  de base 6  pour les
-   unités et de base 13 pour le reste.
+   unités et de base 12 pour le reste.  Ainsi, les unités seront notées de /0/ à
+   /6/ dans le script  latin, et de /1/ à /b/ pour les  éléments plus élevés. La
+   méthode de calcul  pour passer du système numérique Proto-Ñyqy  à la base dix
+   et vice-versa suit le procédé suivant :
 
-   |  <c5>  |                <c5>                |          <c5>           |
-   |   /    |                 <>                 |           <>            |
-   | nombre | nombre (représentation Proto-Ñyqy) |       Proto-Ñyqy        |
-   |--------+------------------------------------+-------------------------|
-   |   0    |                 0                  |        {{{nyqy(pe)}}}         |
-   |   1    |                 1                  |        {{{nyqy(mi)}}}         |
-   |   2    |                 2                  |        {{{nyqy(qi)}}}         |
-   |   3    |                 3                  |        {{{nyqy(né)}}}         |
-   |   4    |                 4                  |        {{{nyqy(gé)}}}         |
-   |   5    |                 5                  |        {{{nyqy(co)}}}         |
-   |   6    |                1-0                 | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
-   |   7    |                1-1                 |       {{{nyqy(ñy mi)}}}       |
-   |   8    |                1-2                 |       {{{nyqy(ñy qi)}}}       |
-   |   9    |                1-3                 |       {{{nyqy(ñy né)}}}       |
-   |   10   |                1-4                 |       {{{nyqy(ñy gé)}}}       |
-   |   11   |                1-5                 |       {{{nyqy(ñy co)}}}       |
-   |   12   |                2-0                 |       {{{nyqy(qi ñy)}}}       |
-   |   18   |                3-0                 |       {{{nyqy(né ñy)}}}       |
-   |   24   |                4-0                 |       {{{nyqy(gé ñy)}}}       |
-   |   30   |                5-0                 |       {{{nyqy(co ñy)}}}       |
-   |   36   |                6-0                 |     {{{nyqy(pe ñy ñy)}}}      |
-   |   42   |                7-0                 |     {{{nyqy(mi ñy ñy)}}}      |
-   |   48   |                8-0                 |     {{{nyqy(qi ñy ñy)}}}      |
-   |   54   |                9-0                 |     {{{nyqy(né ñy ñy)}}}      |
-   |   60   |                a-0                 |     {{{nyqy(gé ñy ñy)}}}      |
-   |   66   |                b-0                 |     {{{nyqy(co ñy ñy)}}}      |
-   |   72   |               1-0-0                | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
-   |  216   |               6-0-0                |     {{{nyqy(pe mó mó)}}}      |
-   |  864   |              1-0-0-0               | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
-   |  1296  |             1-0-0-0-0              |        {{{nyqy(gec)}}}        |
-   |  7776  |            1-0-0-0-0-0             |       {{{nyqy(cójm)}}}        |
-   | 46656  |           1-0-0-0-0-0-0            |        {{{nyqy(ñuñ)}}}        |
+   Chaque chiffre écrit avec notre alphabet a une position, la première position
+   étant celle  qui se  situe le plus  à droite et  représentant les  unités. Le
+   premier  chiffre  venant à  sa  gauche,  représentant  les sixaines,  est  en
+   deuxième position, et ainsi de suite.  Ainsi, pour représenter le poids d’une
+   unité selon son positionnement, nous avons ces deux lignes :
+   - /P_{1} = 1/
+   - /P_{n} = 12^{n−2}×6/
+
+   Pour avoir un exemple  un peu plus visuel, ce tableau donne  un exemple de la
+   position de quelques éléments, leur poids avant calcul et leur poids réel.
+   | <l>      |       <c>        | <c> |   <c>    | <c>  | <c> | <c> |
+   | position |        n         |  …  |    4     |  3   |  2  |  1  |
+   |----------+------------------+-----+----------+------+-----+-----|
+   | calcul   | P_{n}=12^{n-2}×6 |  …  | 12^{2}×6 | 12×6 | 1×6 |  1  |
+   | poids    |        …         |  …  |   864    |  72  |  6  |  1  |
+
+   Voici un tableau plus compréhensif,  donnant la correspondance Proto-Ñyqy des
+   nombres  exposés.  Notez  qu’en  dehors   des  unités,  le  zéro  n’a  qu’une
+   utilisation  d’illustration de  l’abscence d’une  value dans  cette position.
+   Comme attesté  dans les premiers  systèmes d’écriture évolués plus  tard, les
+   langues de la famille Ñyqy  ont une notation non-positionnelle, contrairement
+   à notre système d’écriture.
+   |  <c5>   |                <c5>                |          <c5>           |
+   |    /    |                 <>                 |           <>            |
+   | nombre  | nombre (représentation Proto-Ñyqy) |       Proto-Ñyqy        |
+   |---------+------------------------------------+-------------------------|
+   |    0    |                 0                  |        {{{nyqy(pe)}}}         |
+   |    1    |                 1                  |        {{{nyqy(mi)}}}         |
+   |    2    |                 2                  |        {{{nyqy(qi)}}}         |
+   |    3    |                 3                  |        {{{nyqy(né)}}}         |
+   |    4    |                 4                  |        {{{nyqy(gé)}}}         |
+   |    5    |                 5                  |        {{{nyqy(co)}}}         |
+   |    6    |                1-0                 | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
+   |    7    |                1-1                 |       {{{nyqy(ñy mi)}}}       |
+   |    8    |                1-2                 |       {{{nyqy(ñy qi)}}}       |
+   |    9    |                1-3                 |       {{{nyqy(ñy né)}}}       |
+   |   10    |                1-4                 |       {{{nyqy(ñy gé)}}}       |
+   |   11    |                1-5                 |       {{{nyqy(ñy co)}}}       |
+   |   12    |                2-0                 |       {{{nyqy(qi ñy)}}}       |
+   |   18    |                3-0                 |       {{{nyqy(né ñy)}}}       |
+   |   24    |                4-0                 |       {{{nyqy(gé ñy)}}}       |
+   |   30    |                5-0                 |       {{{nyqy(co ñy)}}}       |
+   |   36    |                6-0                 |     {{{nyqy(pe ñy ñy)}}}      |
+   |   42    |                7-0                 |     {{{nyqy(mi ñy ñy)}}}      |
+   |   48    |                8-0                 |     {{{nyqy(qi ñy ñy)}}}      |
+   |   54    |                9-0                 |     {{{nyqy(né ñy ñy)}}}      |
+   |   60    |                a-0                 |     {{{nyqy(gé ñy ñy)}}}      |
+   |   66    |                b-0                 |     {{{nyqy(co ñy ñy)}}}      |
+   |   72    |               1-0-0                | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
+   |   432   |               6-0-0                |     {{{nyqy(pe mó mó)}}}      |
+   |   864   |              1-0-0-0               | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
+   |  10368  |             1-0-0-0-0              |        {{{nyqy(gec)}}}        |
+   | 124416  |            1-0-0-0-0-0             |       {{{nyqy(cójm)}}}        |
+   | 1492992 |           1-0-0-0-0-0-0            |        {{{nyqy(ñuñ)}}}        |
 
    Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
    grandeur est répété  afin d’ajouter cinq au  multiplicateur, permettant ainsi
-   une base treize pour ce qui n’est pas des unités.
+   une base douze pour ce qui n’est pas des unités.
 
-   Pour convertir en  base dix un chiffre Proto-Ñyqy, voici  comment faire : les
-   unités sont conservées telles quelles, et pour chaque équivalent de dizaines,
-   que  j’appellerai sixaines,  les multiplier  par six  à la  puissance de  son
-   décalage par rapport aux unités. Par exemple le nombre <gé si co mó mó ñy qi>
-   ({{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
-
-   |     <c>     |      <c>       |   <c>    |   <c>    |
-   | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ñy)}}} | {{{nyqy(qi)}}} |
-   |   4×6^{3}   |    5×6^{2}     | 1×6^{1}  | 2×6^{0}  |
-   |    4×216    |      5*36      |   1×6    |   2×1    |
-   |     864     |      180       |    6     |    2     |
-
-   Ce qui donne donc 1052.
+   Voici un exemple ci-dessous de la notation de 14873 en Proto-Ñyqy:
+   |    <c>    |     <c>     |     <c>     |      <c>       |   <c>    |
+   | {{{nyqy(gec)}}} | {{{nyqy(co si)}}} | {{{nyqy(qi mó)}}} | {{{nyqy(ge ñy ñy)}}} | {{{nyqy(né)}}} |
+   | 12^{3}×6  | 5×12^{2}×6  | 2×12^{1}×6  | (6+4)×12^{0}×6 |    3     |
+   |   10368   |    4320     |     144     |       60       |    3     |
+   Ainsi, 14875 se traduit par {{{nyqy(gec co si qi mó ge ñy ñy né)}}}. Il est à noter
+   toutefois que  le terme  se coupera  en deux, laissant  {{{nyqy(né)}}} seul,  si le
+   nombre s’applique à un nom. Voir [[#h-26b82cb5-1316-46cb-b9c5-279bbded3cc5]].
 
 * Dictionnaire
   :PROPERTIES:
