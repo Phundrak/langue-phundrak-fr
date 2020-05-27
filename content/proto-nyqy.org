@@ -1,9 +1,9 @@
 # -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Proto-Ñyqy
-#+SUBTITLE: Un détail de la langue construite prototype du Ñyqy, et une rapide description de son peuple et sa culture
-#+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Ñyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Ñyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Ñyqy" />
+#+SUBTITLE: Un détail de la langue construite prototype du Proto-Ñyqy, et une rapide description de son peuple et sa culture
+#+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Proto-Ñyqy" />
+#+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
 #+INCLUDE: headers
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-org $1))
@@ -39,7 +39,7 @@
    qui peut  être sujet  à des  mises à jours  dans le  futur. Seul  le chapitre
    actuel et le chapitre suivant seront rédigés en dehors de ce style.
 
-** Introduction sur le Ñyqy en tant que langue construite
+** Introduction sur le Proto-Ñyqy en tant que langue construite
    :PROPERTIES:
    :CUSTOM_ID: h-8aa14ca5-6a1c-4e03-b30a-75bd90452308
    :END:
@@ -69,17 +69,17 @@
    avec  ses irrégularités  qui  lui  sont propres,  ou  bien  créer une  langue
    prototype de laquelle de nouvelles langues seront créées.
 
-   Le {{{nyqy(Ñyqy)}}} n’a  pas aspiration à être une langue  ayant un aspect naturel.
-   Il n’a pas non plus aspiration à être une langue particulièrement complète ou
-   riche, il  n’a pas aspiration  à être parlé  par des êtres  formidables d’une
-   série  télévisée. Le  {{{nyqy(Ñyqy)}}}  n’a  qu’une aspiration :  être  une de  ces
-   langues  prototypes,  ou  proto-lang,  créée  /a  priori/,  et  sur  laquelle
-   reposeront d’autres langues ayant évoluées  des bases que posera cette langue
-   source.  Quelques  règles   seront  insérées  afin  de   donner  un  semblant
-   d’irrégularité ou de naturalisme au  Ñyqy, mais ces règles resteront simples,
-   à l’instar de ses autres règles grammaticales.
+   Le {{{nyqy(Proto-Ñyqy)}}}  n’a pas  aspiration à  être une  langue ayant  un aspect
+   naturel. Il  n’a pas non plus  aspiration à être une  langue particulièrement
+   complète  ou  riche,  il n’a  pas  aspiration  à  être  parlé par  des  êtres
+   formidables   d’une  série   télévisée.   Le   {{{nyqy(Proto-Ñyqy)}}}  n’a   qu’une
+   aspiration :  être une  de ces  langues prototypes,  ou proto-lang,  créée /a
+   priori/, et sur laquelle reposeront d’autres langues ayant évoluées des bases
+   que  posera cette  langue source.  Quelques  règles seront  insérées afin  de
+   donner un semblant  d’irrégularité ou de naturalisme au  Proto-Ñyqy, mais ces
+   règles resteront simples, à l’instar de ses autres règles grammaticales.
 
-** Introduction sur le Ñyqy
+** Introduction sur le Proto-Ñyqy
    :PROPERTIES:
    :CUSTOM_ID: h-ad4d6a0c-e05b-4c28-98c6-baec9e843e96
    :END:
@@ -105,15 +105,15 @@
 
    Nous avons aujourd’hui un point où il  nous est possible d’oser imaginer ce à
    quoi pouvait ressembler les formes les plus anciennes de civilisation grâce à
-   l’une des plus anciennes langues qui nous soit connues, le {{{nyqy(Ñyqy)}}}, langue
-   mère de plus de  la moitié des langues du monde, parlée il  y a entre huit et
-   onze  mille ans  dans  l’un  des berceaux  de  notre civilisation.  Plusieurs
-   illustres  collègues  ont   déjà  travaillé  sur  cette  langue   et  sur  sa
+   l’une des plus anciennes langues  qui nous soit connues, le {{{nyqy(Proto-Ñyqy)}}},
+   langue mère de  plus de la moitié des  langues du monde, parlée il  y a entre
+   huit  et  onze mille  ans  dans  l’un  des  berceaux de  notre  civilisation.
+   Plusieurs illustres collègues  ont déjà travaillé sur cette langue  et sur sa
    reconstruction, et ont fait des progrès fabuleux sur cette langue légendaire.
    J’ai moi-même  pu assister  certains de ces  collègues dans  leurs recherche.
    Cependant, cette implication  m’a amené à une  réalisation cruciale : jusqu’à
-   présent, quelqu’un intéressé  par le Ñyqy ne pouvait facilement  accéder à un
-   condensé  des résultats  des  recherches existantes,  présents  en un  unique
+   présent, quelqu’un intéressé par le  Proto-Ñyqy ne pouvait facilement accéder
+   à un condensé des résultats des  recherches existantes, présents en un unique
    ouvrage se présentant comme une grammaire technique de la langue. Ainsi, j’ai
    entrepris de le  rédiger dans cet ouvrage dans l’espoir  que cela facilite la
    tâche  de mes  collègues  et  futurs collègues  dans  leurs  études de  cette
@@ -158,7 +158,7 @@
    - F :: féminin
    - gp :: particule grammaticale
    - IND :: indicatif
-   - IPA   ::  Alphabet   Phonétique   International  (/International   Phonetic
+   - IPA :: Alphabet Phonétique International (/International Phonetic
             Alphabet/)
    - IRR :: irréel
    - M :: masculin
@@ -174,7 +174,7 @@
    - vi :: verbe intransitif
    - vt :: verbe transitif
 
-* La culture, l’histoire, le contexte sociolinguistique du Ñyqy
+* La culture, l’histoire, le contexte sociolinguistique du Proto-Ñyqy
   :PROPERTIES:
   :CUSTOM_ID: h-362fe960-94ae-42e2-8db3-54d52c7de175
   :END:
@@ -194,37 +194,37 @@
 
    Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
    probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
-   également  que le  terme ait  été utilisé  par le  peuple {{{nyqy(Ñyqy)}}}  pour se
+   également que le terme ait été utilisé par le peuple {{{nyqy(Proto-Ñyqy)}}} pour se
    désigner  lui-même, mais  nous disposons  de  trop peu  de preuve  permettant
-   d’affirmer  cela  avec  certitude.  Le  terme  s’analyse  en  deux  morphèmes
-   basiques, {{{nyqy(ñy)}}} et {{{nyqy(qy)}}}. Le terme  {{{nyqy(ñy)}}} est le pronom personnel du
-   singulier, et {{{nyqy(qy)}}}  qui le suit a plusieurs utilisations,  le chiffre /6/
-   (le  {{{nyqy(Ñyqy)}}} est  une  langue dont  le système  numérique  est un  système
-   hybride entre  une base  six et une  base treize) ou  bien la  pluralité, ici
-   infléchissant le {{{nyqy(ñy)}}} afin de former la première personne du pluriel.
+   d’affirmer  cela  avec  certitude.  Le terme  {{{nyqy(Ñyqy)}}}  s’analyse  en  deux
+   morphèmes basiques,  {{{nyqy(ñy)}}} et  {{{nyqy(qy)}}}. Le terme  {{{nyqy(ñy)}}} est  le pronom
+   personnel du singulier, et {{{nyqy(qy)}}} qui  le suit a plusieurs utilisations, le
+   chiffre /6/ (le {{{nyqy(Proto-Ñyqy)}}} est une langue dont le système numérique est
+   un  système hybride  entre  une base  six  et  une base  treize)  ou bien  la
+   pluralité, ici infléchissant le {{{nyqy(ñy)}}}  afin de former la première personne
+   du pluriel.
 
    Il est à noter que le nom de cette langue est traditionnellement écrite en un
    seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
    mauvaise habitude : chaque élément peut être analysé individuellement et peut
-   donc être  considéré comme  mots séparés,  d’où la  néographie « Ñy  Qy » que
-   certains  de  mes  collègues  utilisent, tentant  de  corriger  cette  erreur
+   donc être  considéré comme mots  séparés, d’où la néographie  « Proto-Ñy Qy »
+   que certains  de mes  collègues utilisent, tentant  de corriger  cette erreur
    maintenant multi-centenaire. Bien que je salue leur initiative je continuerai
-   de nommer cette langue  « Ñyqy » dans cet ouvrage afin de  suivre la norme et
-   afin  de ne  pas désorienter  les personnes  n’ayant encore  jamais rencontré
-   cette  néographie,  et  pour  cela  je présente  mes  excuses  aux  collègues
-   sus-mentionnés.
+   de nommer  cette langue  « Proto-Ñyqy » dans  cet ouvrage  afin de  suivre la
+   norme  et afin  de ne  pas désorienter  les personnes  n’ayant encore  jamais
+   rencontré  cette  néographie,  et  pour  cela je  présente  mes  excuses  aux
+   collègues sus-mentionnés.
 
-   Dans certains  cas, d’autres  s’y référeront en  tant que  « proto-Ñyqy », ou
-   « proto  Ñy  Qy »,  mais  cette  dénomination est  plutôt  rare  étant  donné
-   l’absence totale  d’autres langues  nommées « Ñyqy ». Ce  cas ne  se présente
-   généralement que si le locuteur souhaite  insister sur la nature de la langue
-   comme langue mère de sa famille.
+   Dans certains  cas, d’autres  s’y référeront  en tant  que « Ñyqy »,  ou « Ñy
+   Qy », mais  cette dénomination  est plutôt  rare, étant  donné que  cela peut
+   prêter à une  confusion entre le nom de  la langue et celui de  la famille de
+   langues dont le Proto-Ñyqy est l’ancêtre.
 
 ** Recherches précédentes
    :PROPERTIES:
    :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
    :END:
-   Comme  mentionné plus  tôt,  le Ñyqy  est l’objet  depuis  fort longtemps  de
+   Comme mentionné plus tôt, le Proto-Ñyqy  est l’objet depuis fort longtemps de
    recherches linguistiques, tout d’abord par des linguistes ayant vécus lors de
    l’Ère précédente. Ces linguistes sont  pour la plupars devenu malheureusement
    anonymes,  leurs noms  ayant été  effacés par  le temps ;  seuls Jehhe  Chorr
@@ -236,7 +236,7 @@
    et que les restes de l’Université de Ðbńo relève du miracle archéologique.
 
    Ces premières  recherches, une  fois traduites,  ont servi  de base  aux deux
-   derniers  siècles de  recherche  en  direction du  Ñyqy,  avec notamment  les
+   derniers siècles de recherche en  direction du Proto-Ñyqy, avec notamment les
    recherches du Pr Loqbrekh (3489) le siècle dernier qui a réalisé d’importants
    progrès  sur l’étude  de  cette langue  grâce à  l’addition  de l’analyse  du
    Énanonn, ainsi que  les études du Pr Khorlan  (3598) qui, il y a  cinq ans, a
@@ -251,13 +251,14 @@
    # - What is the dominant economic activity of the people?
    # - Briefly describe the ecosystem, material  culture, and cosmology (they will
    #   be intimately related)
-   Les informations  suivantes résument  nos connaissances  sur le  peuple Ñyqy.
-   Pour plus de  détails, vous pouvez vous référer à  l’ouvrage /Le peuple Ñyqy/
-   du professeur K. Yerth, 3404. Un avertissement est tout de même nécessaire :
+   Les  informations   suivantes  résument  nos  connaissances   sur  le  peuple
+   Proto-Ñyqy. Pour  plus de détails, vous  pouvez vous référer à  l’ouvrage /Le
+   peuple Proto-Ñyqy/ du professeur K. Yerth, 3404. Un avertissement est tout de
+   même nécessaire :
 
    #+BEGIN_QUOTE
    Nous n’avons  que très peu  de preuves et  témoignages directs sur  le peuple
-   Ñyqy  autre que  par les  ouvrages des  scientifiques de  l’Ère ancienne,  et
+   Proto-Ñyqy autre que par les ouvrages des scientifiques de l’Ère ancienne, et
    actuellement  par  les recherches  linguistiques  menées  par des  chercheurs
    contemporains à cet ouvrage. Par conséquent, même si les anciens paraissaient
    très confiants dans  leurs découvertes, il nous est  impossible de considérer
@@ -276,16 +277,16 @@
    — K. Yerth
    #+END_QUOTE
 
-   Le peuple Ñyqy était un peuple vivant dans l’actuel Rhésode, plus précisément
-   dans la  vallée du Mojhal.  Son cœur économique se  situait dans le  delta du
-   fleuve Mojhal, où la première forme  de civilisation connue est apparue. Leur
-   activité principale était  l’agriculture, en particulier sur  la culture d’un
-   grain pouvant être selon  les sources du blé ou du riz,  voire les deux. Dans
-   le cas  où seul  l’un des deux  était utilisé, il  nous serait  impossible de
-   trancher ;  les deux  graines auraient  très bien  pu être  plantées dans  la
-   région, et on retrouve dans les langues descendantes du Ñyqy des termes issus
-   de  {{{nyqy(eco)}}}  portant  une  signification ou  l’autre,  d’où  la  définition
-   actuelle du  terme « blé, riz,  grain commestible ».
+   Le  peuple Proto-Ñyqy  était un  peuple  vivant dans  l’actuel Rhésode,  plus
+   précisément dans la vallée du Mojhal.  Son cœur économique se situait dans le
+   delta  du fleuve  Mojhal, où  la première  forme de  civilisation connue  est
+   apparue. Leur activité principale était  l’agriculture, en particulier sur la
+   culture d’un grain pouvant être selon les sources du blé ou du riz, voire les
+   deux.  Dans le  cas où  seul  l’un des  deux  était utilisé,  il nous  serait
+   impossible de trancher ; les deux graines auraient très bien pu être plantées
+   dans la  région, et on retrouve  dans les langues descendantes  du Proto-Ñyqy
+   des termes issus  de {{{nyqy(eco)}}} portant une signification ou  l’autre, d’où la
+   définition actuelle du terme « blé, riz, grain commestible ».
 
    L’élevage était orienté  principalement sur celui des vaches et  des porcs. À
    nouveau, une  incertitude plane cependant  sur le terme  {{{nyqy(qóñ)}}} signifiant
@@ -294,12 +295,13 @@
    qu’il  s’agissait  plutôt   de  buffles.  Le  terme  /qóñ/   aurait  pris  la
    signification de « vache » lors de  la migration des peuples descendants vers
    le  nord, domesticant  alors  plutôt les  vaches que  les  buffles alors  que
-   d’autres peuples arrivaient dans l’ancienne  zone occupée par le peuple Ñyqy.
-   Cela pourrait expliquer pourquoi la reconstruction du terme pour /buffle/ n’a
-   pas été  possible. Étrangement,  aucune reconstruction d’un  quelconque terme
-   pour /éléphant/ n’a  pu être possible, alors que des  fouilles ont prouvé que
-   ces animaux vivaient dans  la zone. Il est possible que  le terme ait disparu
-   du fait de son inutilité nouvelle dans les terres plus au nord.
+   d’autres  peuples  arrivaient dans  l’ancienne  zone  occupée par  le  peuple
+   Proto-Ñyqy. Cela pourrait expliquer pourquoi  la reconstruction du terme pour
+   /buffle/  n’a  pas  été  possible. Étrangement,  aucune  reconstruction  d’un
+   quelconque terme pour /éléphant/ n’a pu être possible, alors que des fouilles
+   ont prouvé  que ces  animaux vivaient dans  la zone. Il  est possible  que le
+   terme ait disparu du  fait de son inutilité nouvelle dans  les terres plus au
+   nord.
 
    Une  importante   activité  d’échange  fluviale  s’était   probablement  déjà
    développée, ainsi qu’une activité de pêche dans la zone maritime de la vallée
@@ -323,8 +325,8 @@
    et  de grandes  feuilles séchées  pour les  maisons humbles,  tandis que  les
    maisons  plus  riches  avaient  probablement des  tuiles  d’argile.  L’entrée
    n’était sans doute fermée  que par un voile de tissu ;  en effet, on retrouve
-   dans beaucoup  de langues descendantes du  Ñyqy les termes pour  « porte » et
-   « tissu » descendants du terme {{{nyqy(séwe)}}}.
+   dans beaucoup de langues descendantes du Proto-Ñyqy les termes pour « porte »
+   et « tissu » descendants du terme {{{nyqy(séwe)}}}.
 
    Concernant  le  mariage,  il  semblerait  qu’il n’y  avait  pas  de  tendance
    particulière quant  à qui  rejoignait la  famille de  qui parmi  les familles
@@ -336,17 +338,18 @@
    militaire. On  suppose également que  le mariage était à  l’époque uniquement
    monogame.
 
-   Dans chaque  agglomération se trouvait au  moins un temple où  le peuple Ñyqy
-   pratiquaient leur religion polythéiste. Il est cependant impossible de savoir
-   s’il s’agissait de croyances liées à la religion qui dominait l’Ère ancienne.
-   Les points communs de ces pratiques  sont la vénération de plusieurs dizaines
-   de dieux. De plus,  la vénération des étoiles et du feu,  ainsi que les dieux
-   qui y sont liés semblent prendre  une place beaucoup prédominante dans la vie
-   quotidienne du peuple  Ñyqy. Les lunes majeures Nuya et  Norya sont également
-   toutes deux importantes  dans leur culture, régissant  très probablement leur
-   calendrier.  Mais  étrangement,  comme  pour  toutes  les  langues  de  l’Ère
-   Ancienne, il  nous est  impossible de  retracer l’origine du  nom de  la lune
-   mineure Lettri, tandis que Norya semble avoir été considérée comme mineure.
+   Dans  chaque agglomération  se  trouvait  au moins  un  temple  où le  peuple
+   Proto-Ñyqy  pratiquaient   leur  religion   polythéiste.  Il   est  cependant
+   impossible de  savoir s’il s’agissait  de croyances  liées à la  religion qui
+   dominait  l’Ère  ancienne.  Les  points  communs de  ces  pratiques  sont  la
+   vénération de plusieurs dizaines de dieux. De plus, la vénération des étoiles
+   et du  feu, ainsi que les  dieux qui y  sont liés semblent prendre  une place
+   beaucoup prédominante dans la vie quotidienne du peuple Proto-Ñyqy. Les lunes
+   majeures  Nuya et  Norya sont  également  toutes deux  importantes dans  leur
+   culture, régissant très probablement leur calendrier. Mais étrangement, comme
+   pour toutes les langues de l’Ère Ancienne, il nous est impossible de retracer
+   l’origine du nom de la lune mineure Lettri, tandis que Norya semble avoir été
+   considérée comme mineure.
 
 ** Démographie
    :PROPERTIES:
@@ -359,30 +362,30 @@
    #   Social? Friendly? Belligerent?
    # - In  social/economic  interactions  with  other  groups,  which  groups  are
    #   dominant and which are marginalized? How so?
-   Selon toute vraisemblance, le Ñyqy était parlé dans la vallée du Mojhal, dans
-   l’actuel  Rhésode. Bien  qu’il  soit quasiment  impossible  de déterminer  la
-   superficie  maximale   couvrant  cette  région,  il   est  considéré  prudent
-   d’affirmer que  la langue était  au moins parlée  depuis le delta  du Mojhal,
-   cœur économique  de la région,  jusqu’à son confluent  avec le Lor  ainsi que
-   dans toute zone  se situant à moins  de sept lieues de ce  tronçon du Mojhal.
-   Cela représente une  surface vaste, très certainement  indicateur d’une unité
-   politique tout  du moins  de la région,  comme par exemple  un royaume  ou un
-   empire.  Cependant,  l’hypothèses  d’une  continuité de  petits  royaumes  ou
-   États-cités dont la /lingua franca/ était le Ñyqy reste une possibilité. Dans
-   ce  cas,  cela indiquerait  que  le  peuple  Ñyqy  était le  peuple  dominant
-   économiquement ou politiquement dans la région. Les autres peuples théoriques
-   vivant dans  la zone  d’influence du  Ñyqy parlaient  sans doute  leur propre
-   langue, mais  ces dernières n’ont  pas eu autant  d’impact si ce  n’est aucun
-   d’un point de vue de l’histoire de la linguistique (possiblement au mieux des
-   mots d’emprunts du Ñyqy, mais nous n’avons aucun moyen de le prouver), ce qui
-   renforce l’idée  que ces langues  locales étaient marginalisées au  profit du
-   Ñyqy.
+   Selon  toute vraisemblance,  le  Proto-Ñyqy  était parlé  dans  la vallée  du
+   Mojhal,  dans  l’actuel Rhésode.  Bien  qu’il  soit quasiment  impossible  de
+   déterminer la  superficie maximale  couvrant cette  région, il  est considéré
+   prudent d’affirmer  que la langue  était au moins  parlée depuis le  delta du
+   Mojhal, cœur économique de la région, jusqu’à son confluent avec le Lor ainsi
+   que  dans toute  zone se  situant à  moins de  sept lieues  de ce  tronçon du
+   Mojhal. Cela représente une surface vaste, très certainement indicateur d’une
+   unité politique tout du  moins de la région, comme par  exemple un royaume ou
+   un empire.  Cependant, l’hypothèses  d’une continuité  de petits  royaumes ou
+   États-cités  dont   la  /lingua  franca/   était  le  Proto-Ñyqy   reste  une
+   possibilité. Dans ce cas, cela indiquerait  que le peuple Proto-Ñyqy était le
+   peuple dominant  économiquement ou politiquement  dans la région.  Les autres
+   peuples théoriques  vivant dans la  zone d’influence du  Proto-Ñyqy parlaient
+   sans  doute leur  propre  langue,  mais ces  dernières  n’ont  pas eu  autant
+   d’impact si ce n’est aucun d’un point de vue de l’histoire de la linguistique
+   (possiblement au mieux  des mots d’emprunts du Proto-Ñyqy,  mais nous n’avons
+   aucun moyen  de le prouver), ce  qui renforce l’idée que  ces langues locales
+   étaient marginalisées au profit du Proto-Ñyqy.
 
    Bien  qu’il  nous   soit  impossible  de  connaître  le   type  de  relations
-   qu’entretenaient le peuple Ñyqy avec ses voisins, il est tout à fait probable
-   qu’ils aient été en guerre tout comme  ils été amicaux avec certains de leurs
-   voisins: en effet,  des termes liés à la guerre,  mais également aux échanges
-   culturels, mercantiles et amicaux ont pu être reconstruits.
+   qu’entretenaient le  peuple Proto-Ñyqy avec ses  voisins, il est tout  à fait
+   probable qu’ils aient été en guerre  tout comme ils été amicaux avec certains
+   de leurs voisins: en  effet, des termes liés à la  guerre, mais également aux
+   échanges culturels, mercantiles et amicaux ont pu être reconstruits.
 
 ** Corpus, reconstruction de la langue
    :PROPERTIES:
@@ -393,7 +396,7 @@
   :PROPERTIES:
   :CUSTOM_ID: h-6e72a430-ce27-41ab-b2a6-4b8f54c2a2d3
   :END:
-** Esquisse typologique du Ñyqy
+** Esquisse typologique du Proto-Ñyqy
    :PROPERTIES:
    :CUSTOM_ID: h-e2f22e3c-6069-4881-a3e2-3d319e434fb7
    :END:
@@ -407,13 +410,13 @@
    # - If the language  is at all polysynthetic, is  it dominantly "head-marking",
    #   "dependent-marking", or mixed?
    # - Give some examples of each type of marking the language exhibits.
-   Le  Ñyqy est  une langue  qui apparaît  comme étant  fortement analytique  et
+   Le Proto-Ñyqy est une langue qui apparaît comme étant fortement analytique et
    isolationniste, reposant  quasi exclusivement sur sa  syntaxe afin d’exprimer
    sa grammaire et très peu sur des règles morphologiques. La large majorité des
    mots  sont  monosyllabiques ou  bisyllabiques,  et  les phrases  s’articulent
    souvent autour  de morphèmes liés  monosyllabiques que l’on  peut interpréter
-   comme étant des particules grammaticales. Voici  un exemple de phrase en Ñyqy
-   avec sa traduction et son détail grammatical :
+   comme  étant des  particules grammaticales.  Voici  un exemple  de phrase  en
+   Proto-Ñyqy avec sa traduction et son détail grammatical :
    1. {{{nyqy(ñe pom qy)}}}
 
       maison GEN 1sg
@@ -440,14 +443,14 @@
    afin  d’exprimer  une  possession.  On  peut  également  voir  que  l’élément
    définissant  est situé  après  la particule  génitive,  tandis que  l’élément
    défini  se situe  avant celle-ci.  Il s’agit  là d’un  des nombreux  exemples
-   montrant  que  le  Ñyqy  est  une   langue  dont  la  tête  de  ses  diverses
+   montrant  que le  Proto-Ñyqy est  une  langue dont  la tête  de ses  diverses
    constructions grammaticales est finale et non initiale.
 
-   Le deuxième exemple  nous montre la méthode utilisée en  Ñyqy afin d’employer
-   le  duel : il  s’agit  d’affixer  le nombre  « deux »  à  l’élément que  nous
-   souhaitons infléchir. Ainsi, {{{nyqy(bú qi)}}}  peut être considéré comme le pronom
-   personnel de  la seconde personne du  singulier infléchis afin de  devenir le
-   pronom personnel de la seconde personne du duel.
+   Le  deuxième exemple  nous  montre  la méthode  utilisée  en Proto-Ñyqy  afin
+   d’employer le duel :  il s’agit d’affixer le nombre « deux »  à l’élément que
+   nous souhaitons  infléchir. Ainsi, {{{nyqy(bú  qi)}}} peut être considéré  comme le
+   pronom  personnel de  la  seconde  personne du  singulier  infléchis afin  de
+   devenir le pronom personnel de la seconde personne du duel.
 
    Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
    d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
@@ -455,7 +458,7 @@
    {{{nyqy(qun)}}} dont le rôle est de marquer  un mode pour le verbe, en l’occurrence
    l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
    [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
-   d’inflexion des verbes du Ñyqy.
+   d’inflexion des verbes du Proto-Ñyqy.
 
    Enfin,  le quatrième  exemple nous  donne un  aperçu de  la syntaxe,  avec un
    positionnement différent  des articles  définis et  indéfinis par  rapport au
@@ -478,22 +481,22 @@
    langue actuellement,  il me  semble important pour  les étudiants  de langues
    anciennes  de pouvoir  associer  des sons  aux divers  mots  et aux  diverses
    phrases qu’ils rencontreront ;  il s’agit d’une langue, après  tout ! Dans ce
-   chapitre, j’essaierai de présenter ce qui  est connu de la phonologie du Ñyqy
-   afin que l’on puisse se faire une  idée de ce à quoi ressemblait cette langue
-   lorsqu’elle était parlée il y a plusieurs millénaires.
+   chapitre,  j’essaierai de  présenter ce  qui est  connu de  la phonologie  du
+   Proto-Ñyqy afin que  l’on puisse se faire  une idée de ce  à quoi ressemblait
+   cette langue lorsqu’elle était parlée il y a plusieurs millénaires.
 
 *** Voyelles
     :PROPERTIES:
     :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
     :END:
-    Le Ñyqy est  une langue disposant d’un total de  huit voyelles individuelles
-    ainsi  que  d’une  neuvième  voyelle,  le schwa,  apparaissant  du  fait  de
-    certaines  contraintes phonétiques.  Dans le  tableau [[table:vowels:ipa]]  vous
-    trouverez la  liste complète des voyelles  de la langue, et  dans le tableau
-    [[table:vowels:trans]] leur orthographe.
+    Le  Proto-Ñyqy  est  une  langue  disposant  d’un  total  de  huit  voyelles
+    individuelles ainsi  que d’une neuvième  voyelle, le schwa,  apparaissant du
+    fait de certaines contraintes  phonétiques. Dans le tableau [[table:vowels:ipa]]
+    vous  trouverez la  liste complète  des voyelles  de la  langue, et  dans le
+    tableau [[table:vowels:trans]] leur orthographe.
 
     #+NAME: table:vowels:ipa
-    #+CAPTION: Voyelles du Ñyqy (IPA)
+    #+CAPTION: Voyelles du Proto-Ñyqy (IPA)
     #+ATTR_LATEX: :placement [htb]
     |           / |      <      |     <     |      <       |
     |         <r> |     <c>     |    <c>    |     <c>      |
@@ -506,7 +509,7 @@
     | mi-ouvertes |      ɛ      |           |      ɔ       |
 
     #+NAME: table:vowels:trans
-    #+CAPTION: Voyelles du Ñyqy (translittération)
+    #+CAPTION: Voyelles du Proto-Ñyqy (translittération)
     #+ATTR_LATEX: :placement [htb]
     |         <r> |     <c>     |     <c>      |
     |           / |      <      |      <       |
@@ -518,10 +521,10 @@
     | mi-ouvertes |      e      |      o       |
 
     On peut voir  avec l’arbre [[arbre:vowels]] l’organisation des  voyelles dans le
-    Ñyqy. On peut constater que le trait distinctif le plus important dans cette
-    langue  est si  cette dernière  est postérieure.  À l’inverse,  les voyelles
-    n’ayant pour seule distinction que leur hauteur sont considérées comme étant
-    proches les unes des autres.
+    Proto-Ñyqy. On peut constater que le trait distinctif le plus important dans
+    cette  langue  est si  cette  dernière  est  postérieure. À  l’inverse,  les
+    voyelles n’ayant  pour seule distinction  que leur hauteur  sont considérées
+    comme étant proches les unes des autres.
 
     #+NAME: vow-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
@@ -551,12 +554,12 @@
       $input
     #+END_SRC
     #+NAME: arbre:vowels
-    #+ATTR_HTML: :alt Arbre des voyelles du Ñyqy :class gentree
-    #+CAPTION: Arbre des caractéristiques des voyelles du Ñyqy
+    #+ATTR_HTML: :alt Arbre des voyelles du Proto-Ñyqy :class gentree
+    #+CAPTION: Arbre des caractéristiques des voyelles du Proto-Ñyqy
     #+RESULTS:
     [[file:img/nyqy/vowel-feature-tree.png]]
 
-    Voici une description des voyelles du Ñyqy :
+    Voici une description des voyelles du Proto-Ñyqy :
     - e ::  il s’agit de la  voyelle antérieure mi-ouverte non-arrondie  [ɛ] que
            l’on retrouve en Français dans « bête » [bɛt̪] par example.
     - é ::  il s’agit de  la voyelle  antérieure mi-fermée non-arrondie  [e] que
@@ -579,16 +582,16 @@
     :PROPERTIES:
     :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
     :END:
-    Le Ñyqy est  une langue ayant une particularité  intéressante : bien qu’elle
-    dispose d’un  total de  seulement douze  consonnes, elle  dispose réellement
-    approximativement du double dû à un effet de mutation des consonnes qui sera
-    décrit plus  bas. Vous pouvez  retrouver l’inventaire total dans  le tableau
-    [[table:cons:ipa]], les lettres résultant  de mutations étant entre parenthèses.
-    Vous trouverez  également la translittération des  consonnes non-mutées dans
-    le tableau [[table:cons:trans]].
+    Le Proto-Ñyqy  est une  langue ayant  une particularité  intéressante : bien
+    qu’elle  dispose  d’un total  de  seulement  douze consonnes,  elle  dispose
+    réellement  approximativement  du double  dû  à  un  effet de  mutation  des
+    consonnes qui sera décrit plus bas. Vous pouvez retrouver l’inventaire total
+    dans le  tableau [[table:cons:ipa]],  les lettres  résultant de  mutations étant
+    entre  parenthèses.   Vous  trouverez  également  la   translittération  des
+    consonnes non-mutées dans le tableau [[table:cons:trans]].
 
     #+NAME: table:cons:ipa
-    #+CAPTION: Consonnes du Ñyqy (IPA)
+    #+CAPTION: Consonnes du Proto-Ñyqy (IPA)
     |              <r5> |     <c5>     |     <c5>      |       <c5>        |    <c5>    |    <c5>     |    <c5>     |
     |                 / |      <       |       <       |         <         |     <      |      <      |      <      |
     |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
@@ -604,7 +607,7 @@
     |           spirant |              |               |         w         |            |             |             |
 
     #+NAME: table:cons:trans
-    #+CAPTION: Consonnes du Ñyqy (translittération)
+    #+CAPTION: Consonnes du Proto-Ñyqy (translittération)
     |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
     |        / |         <          |          <          |            <            |         <         |
     |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
@@ -616,9 +619,10 @@
     |  spirant |                    |                     |            w            |                   |
 
 
-    Le Ñyqy dispose également d’une hiérarchie entre ses consonnes basée sur des
-    caractéristiques distinctives entre elles, à  l’instar de ses voyelles. Vous
-    trouverez dans l’arbre [[arbre:cons]] l’organisation de ces consonnes.
+    Le Proto-Ñyqy dispose  également d’une hiérarchie entre  ses consonnes basée
+    sur  des  caractéristiques  distinctives  entre elles,  à  l’instar  de  ses
+    voyelles.  Vous  trouverez dans  l’arbre  [[arbre:cons]]  l’organisation de  ces
+    consonnes.
     #+NAME: cons-tree
     #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
       (setq-local nyqy-consonants
@@ -652,9 +656,9 @@
       $input
     #+END_SRC
     #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Ñyqy :class gentree
+    #+ATTR_HTML: :alt Arbre des consonnes du Proto-Ñyqy :class gentree
     #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des consonnes du Ñyqy
+    #+CAPTION: Arbre des caractéristiques des consonnes du Proto-Ñyqy
     #+RESULTS:
     [[file:img/nyqy/consonant-feature-tree.png]]
 
@@ -664,7 +668,7 @@
     :END:
     Étant  donné l’ancienneté  de la  langue,  il est  extrèmement difficile  de
     s’avancer sur la tonalité de la langue et son accentuation. Il est cependant
-    très  probable  qu’aucune accentuation  tonale  n’existait  en Ñyqy ;  cette
+    très probable qu’aucune accentuation tonale n’existait en Proto-Ñyqy ; cette
     caractéristique  n’apparaîtra que  bien plus  tard  dans les  langues de  la
     région du Leshö, il y a deux mille ans.
 
@@ -674,18 +678,18 @@
     pénultime, c’est à dire sur l’avant-dernière syllabe des mots, se traduisant
     généralement par  une accentuation sur  la première syllabe pour  les termes
     bisyllabiques et sur la seconde syllabe des termes trisyllabiques. Il s’agit
-    à l’heure actuelle de la théorie la plus probable concernant le Ñyqy pouvant
-    expliquer  une  accentuation théorique  qui,  en  suivant d’autre  théories,
-    serait  beaucoup plus  chaotique. Il  n’empêche que  certaines accentuations
-    théoriques  ne  suivent  tout  de  même pas  cette  théorie  de  la  syllabe
-    pénultime, comme  par exemple  {{{nyqy(coqec)}}} (« Terre, monde,  mortels ») dont
-    l’accentuation portait très probablement sur la syllabe /qec/.
+    à l’heure actuelle  de la théorie la plus probable  concernant le Proto-Ñyqy
+    pouvant  expliquer  une  accentuation  théorique  qui,  en  suivant  d’autre
+    théories,  serait  beaucoup  plus  chaotique.  Il  n’empêche  que  certaines
+    accentuations théoriques  ne suivent tout  de même  pas cette théorie  de la
+    syllabe pénultime, comme par exemple {{{nyqy(coqec)}}} (« Terre, monde, mortels »)
+    dont l’accentuation portait très probablement sur la syllabe /qec/.
 
 *** Translittération
     :PROPERTIES:
     :CUSTOM_ID: h-62862440-965c-48c5-affb-25323f466c6b
     :END:
-    Le  Ñyqy était  une langue  exclusivement  orale, sachant  que les  premiers
+    Le Proto-Ñyqy était une langue exclusivement orale, sachant que les premiers
     systèmes  d’écriture utilisés  pour  une  langue de  cette  famille ne  sont
     apparus que trois mille ans après  la période d’existance théorique de cette
     langue. Ainsi, les linguistes préfèrent une transcription de la langue telle
@@ -698,9 +702,9 @@
     les deux  prononciations possible d’une  consonne. Ainsi, /coqec/  peut être
     prononcé {{{phon(t͡ʃɔħɛt͡ʃ)}}} ou bien {{{phon(ɬɔqɛɬ)}}}, mais  reste dans tous les cas le
     même terme. Cela  permet également au lecteur de  plus facilement comprendre
-    les textes  et exemples en  Ñyqy sans avoir  à faire d’exercice  mental trop
-    important.  Il   est  également  beaucoup   plus  simple  de   retrouver  la
-    prononciation des mots Ñyqy depuis leur orthographe standard.
+    les textes  et exemples en Proto-Ñyqy  sans avoir à faire  d’exercice mental
+    trop  important. Il  est  également  beaucoup plus  simple  de retrouver  la
+    prononciation des mots Proto-Ñyqy depuis leur orthographe standard.
 
 ** Phonotaxes
    :PROPERTIES:
@@ -713,19 +717,19 @@
     Une syllabe  typique en Mattér se  présente sous la forme  (C)V(CC), avec au
     moins  une consonne  obligatoire  soit  dans l’attaque  soit  dans le  coda,
     suivant les règles présentées ci-dessous. Ainsi, la syllabe la plus complexe
-    possible  en  Ñyqy  contient  une  consonne, puis  une  voyelle,  puis  deux
+    possible en  Proto-Ñyqy contient une  consonne, puis une voyelle,  puis deux
     nouvelles consonnes.
 
     Comme cela  a été mentionné  ci-dessus, il est phonétiquement  impossible en
-    Ñyqy que deux consonnes de même  qualité dorsale se suivent. Ainsi, s’il est
-    théoriquement  que deux  consonnes  soient adjacentes,  la seconde  consonne
-    verra sa prononciation modifiée afin  de rendre cette cohabitation possible.
-    Cependant,  il  arrive  qu’une  fois  mutées  correctement,  deux  consonnes
-    phonétiques soient  adjacentes alors  que les  règles phonologiques  du Ñyqy
-    l’interdisent, ce qui  résulte en un schwa ajouté  entre lesdites consonnes.
-    Ainsi, le  terme /cójm/  est prononcé {{{phon(t͡ʃɤɮəʀ)}}}  si la  première consonne
-    n’est pas mutée, ou bien {{{phon(ɬɤd͡ʒm)}}} dans  le second cas. Dans tous les cas,
-    le terme ne change pas d’orthographe.
+    Proto-Ñyqy que  deux consonnes  de même qualité  dorsale se  suivent. Ainsi,
+    s’il  est théoriquement  que deux  consonnes soient  adjacentes, la  seconde
+    consonne verra sa  prononciation modifiée afin de  rendre cette cohabitation
+    possible.  Cependant,  il  arrive  qu’une  fois  mutées  correctement,  deux
+    consonnes phonétiques  soient adjacentes alors que  les règles phonologiques
+    du  Proto-Ñyqy  l’interdisent, ce  qui  résulte  en  un schwa  ajouté  entre
+    lesdites consonnes. Ainsi,  le terme /cójm/ est prononcé  {{{phon(t͡ʃɤɮəʀ)}}} si la
+    première consonne n’est  pas mutée, ou bien {{{phon(ɬɤd͡ʒm)}}} dans  le second cas.
+    Dans tous les cas, le terme ne change pas d’orthographe.
 
     L’attaque peut être composée de n’importe quelle consonne ou bien être vide,
     ce dernier cas indiquant alors la présence d’une consonne dans le coda.
@@ -773,10 +777,11 @@
     :PROPERTIES:
     :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
     :END:
-    Les consonnes du Ñyqy suivent  une règle stricte, interdisant deux consonnes
-    dorsales de se suivre, idem pour  deux consonnes non dorsales, même séparées
-    par une voyelle  ou faisant partie de mots différents.  Seule une pause dans
-    l’élocution bloque ce processus. Ainsi, on a les règles formelles suivantes:
+    Les  consonnes du  Proto-Ñyqy suivent  une règle  stricte, interdisant  deux
+    consonnes dorsales de se suivre, idem pour deux consonnes non dorsales, même
+    séparées par  une voyelle ou  faisant partie  de mots différents.  Seule une
+    pause dans l’élocution bloque ce processus. Ainsi, on a les règles formelles
+    suivantes:
 
     - C[+dor] / C[+dor]_ > [-dor]
     - C[-dor] / C[-dor]_ > [+dor]
@@ -785,15 +790,15 @@
     changeant la seconde  consonne qui doit alors changer sa  qualité afin de se
     soumettre à la règle. Sa qualité haute ou coronale se reflète également lors
     du  changement de  qualité dorsale  de la  consonne, la  qualité /haute/  ou
-    /coronale/ étant considérées comme équivalentes en Ñyqy. Vous pouvez voir la
-    table [[table:mutation:consonants]] qui récapitule les mutation des consonnes du
-    Ñyqy dû à cette règle. Ce tableau  est issu de l’organisation de l’arbre des
-    caractéristiques  distinctes  des  consonnes  du  Ñyqy  (figure  [[arbre:cons]])
-    présenté         plus         haut,         dans         le         chapitre
+    /coronale/ étant  considérées comme équivalentes en  Proto-Ñyqy. Vous pouvez
+    voir  la table  [[table:mutation:consonants]]  qui récapitule  les mutation  des
+    consonnes  du  Proto-Ñyqy  dû  à  cette   règle.  Ce  tableau  est  issu  de
+    l’organisation de  l’arbre des caractéristiques distinctes  des consonnes du
+    Proto-Ñyqy  (figure  [[arbre:cons]])  présenté   plus  haut,  dans  le  chapitre
     [[#h-49ab3d74-6565-4f88-835c-f88425493d3f]].
 
     #+NAME: table:mutation:consonants
-    #+CAPTION: Table de mutation des consonnes du Ñyqy
+    #+CAPTION: Table de mutation des consonnes du Proto-Ñyqy
     |        /         |              |   | < |                  |              |
     |       <c>        |     <c>      |   |   |       <c>        |     <c>      |
     | [+dor] originale | [-dor] mutée |   |   | [-dor] originale | [+dor] mutée |
@@ -821,27 +826,12 @@
     # - What are the major formally distinct subcategories of nouns?
     # - What is the basic structure of the noun word (for polysynthetic
     #   languages) and/or noun phrases (for more isolating languages)?
-    Les noms en Ñyqy se réfèrent  généralement à des entités définies, comme des
-    objets, des personnes, des concepts  ou événements. Contrairement à beaucoup
-    d’autres langues, et du fait de la  nature très analytique de la langue, les
-    noms  ne supportent  aucune caractéristique  morphosyntaxique ; ils  peuvent
-    cependant s’associer à  d’autres éléments du fait de  leur nature, notamment
-    grâce à des particules grammaticales.
-
-**** La structure d’un nom
-     :PROPERTIES:
-     :CUSTOM_ID: h-59a8a234-a3d0-4a8b-85f2-66abe231cbe6
-     :END:
-
-**** Dérivations
-     :PROPERTIES:
-     :CUSTOM_ID: h-3609d30d-2c4a-4cc9-9693-80ee16a0292e
-     :END:
-
-**** Inflexions
-     :PROPERTIES:
-     :CUSTOM_ID: h-bb4f100b-4f1f-410c-9cf1-81dd86bba054
-     :END:
+    Les  noms en  Proto-Ñyqy se  réfèrent généralement  à des  entités définies,
+    comme des objets, des personnes, des concepts ou événements. Contrairement à
+    beaucoup d’autres  langues, et du  fait de la  nature très analytique  de la
+    langue, les noms ne supportent aucune caractéristique morphosyntaxique ; ils
+    peuvent cependant  s’associer à  d’autres éléments du  fait de  leur nature,
+    notamment grâce à des particules grammaticales.
 
 **** Noms comptables et noms indénombrables
      :PROPERTIES:
@@ -865,9 +855,14 @@
      :PROPERTIES:
      :CUSTOM_ID: h-7c2642e5-e813-4b7e-ad82-933c997914bc
      :END:
-     # |  1 |  2 |  3 |
-     # |----+----+----|
-     # | qy | bú | zé |
+     Le Proto-Ñyqy  ne dispose que de  trois pronoms, un pour  chacune des trois
+     personnes :
+     - Première personne : {{{nyqy(qy)}}}. Se réfère au locuteur.
+     - Deuxième personne : {{{nyqy(bú)}}}. Se réfère à l’interlocuteur.
+     - Troisième personne : {{{nyqy(zé)}}}.  Se réfère aux personnes  extérieures à la
+       conversation.
+
+     Afin de distinguer les personnes par nombre, les locuteurs du Proto-Ñyqy
 
 **** Pronoms démonstratifs
      :PROPERTIES:
@@ -974,7 +969,7 @@
    :PROPERTIES:
    :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
    :END:
-   # Le Ñyqy est une langue dont sa tête de groupes grammaticaux est
+   # Le Proto-Ñyqy est une langue dont sa tête de groupes grammaticaux est
    # généralement en fin du-dit groupe. On peut voir avec l’arbre
    # [[arbre:syntaxe:basique]] que la structure générale d’une phrase standard
    # démarre avec des éléments divers liés à la clause principale s’il y en a,
@@ -1016,8 +1011,8 @@
    #   $input
    # #+END_SRC
    # #+NAME: arbre:syntaxe:basique
-   # #+attr_html: :alt Arbre de syntaxe basique du Ñyqy :class gentree
-   # #+CAPTION: Arbre de syntaxe basique du Ñyqy
+   # #+attr_html: :alt Arbre de syntaxe basique du Proto-Ñyqy :class gentree
+   # #+CAPTION: Arbre de syntaxe basique du Proto-Ñyqy
    # #+RESULTS:
    # [[file:img/nyqy/basic-syntax.png]]
 
@@ -1031,29 +1026,31 @@
     # - Specific to the  main clause constituent order: What  is the pragmatically
     #   neutral order  of constituents  (A/S, P,  and V) in  basic clauses  of the
     #   language?
-    # En Ñyqy, l’ordre des éléments principaux  de la phrase typique suit un ordre
+    # En Proto-Ñyqy, l’ordre des éléments principaux  de la phrase typique suit un ordre
     # SV pour  les phrases transitives et  APV pour les phrases  intransitives. Il
     # est toutefois à noter que l’agent  est nécessairement précédé par un élément
     # datif.  Il  est  cependant  possible  lorsqu’aucun  élément  datif  n’est  à
     # mentionner d’utiliser le terme {{{nyqy(bóq)}}} signifiant « rien, aucun ».
 
     # Il est  également à noter que  selon les recherches actuelles,  rien ne nous
-    # laisse à penser qu’un autre ordre de ces constituants était possible en Ñyqy
+    # laisse à penser qu’un autre ordre de ces constituants était possible en Proto-Ñyqy
     # mis à par l’ajout d’autres éléments obliques en début de phrase.
-    Le  Ñyqy est  une langue  particulière  quant il  s’agit de  l’ordre de  ses
+    Le Proto-Ñyqy est une langue particulière  quant il s’agit de l’ordre de ses
     éléments principaux dans  ses phrases et clauses  principales. Tout d’abord,
-    il est  bon de noter  que le Ñyqy  est une langue  qui est à  100% ergative.
-    Ainsi, cette  langue considère les  expérienceurs de verbes  intransitifs et
-    les patients  de verbes transitifs  comme objets,  tandis que les  agents de
-    verbes transitifs sont considérés comme sujets. En connaissant cela, on peut
-    donc dire que l’ordre typique d’une clause principale Ñyqy est donc OSV.
+    il  est bon  de  noter que  le  Proto-Ñyqy est  une langue  qui  est à  100%
+    ergative.  Ainsi,  cette  langue   considère  les  expérienceurs  de  verbes
+    intransitifs et les  patients de verbes transitifs comme  objets, tandis que
+    les agents de verbes transitifs sont considérés comme sujets. En connaissant
+    cela,  on  peut  donc  dire  que l’ordre  typique  d’une  clause  principale
+    Proto-Ñyqy est donc OSV.
 
     Il s’agit  d’un ordre  de constituants  qui est très  rare dans  les langues
-    naturelles, ce qui explique pourquoi  chacune des langues descendant du Ñyqy
-    ne suivent pas cet  ordre. La majorité a évolué en SOV,  et une minorité des
-    autres langues a quant à elle évolué en OVS. Il est également intéressant de
-    marquer qu’au même moment,  chacune a évolué de manière à  ce que sa syntaxe
-    soit définie par des règles suivant le couple Nominatif-Accusatif.
+    naturelles,  ce qui  explique  pourquoi chacune  des  langues descendant  du
+    Proto-Ñyqy ne  suivent pas cet  ordre. La majorité a  évolué en SOV,  et une
+    minorité des autres langues  a quant à elle évolué en  OVS. Il est également
+    intéressant de marquer  qu’au même moment, chacune a évolué  de manière à ce
+    que   sa  syntaxe   soit  définie   par   des  règles   suivant  le   couple
+    Nominatif-Accusatif.
 
 *** Ordre des constituants dans les clauses verbales
     :PROPERTIES:
@@ -1062,12 +1059,12 @@
     # - Where do auxliaries occur in relation to the semantically “main” verb?
     # - Where  do  verb-phrase  adverbs  occur   with  respect  to  the  verb  and
     #   auxiliaries?
-    Le Ñyqy étant une langue dont l’ordre des constituants de ses clauses
+    Le Proto-Ñyqy étant une langue dont  l’ordre des constituants de ses clauses
     principales est Objet-Sujet-Verbe, il n’est pas surprenant de savoir que les
-    auxiliaires de ses verbes sont suffixés à ces derniers. Ainsi, le verbe
-    {{{nyqy(coqop)}}} est constitué de la racine {{{nyqy(coj)}}}, signifiant « manger », et
-    de l’auxiliaire {{{nyqy(op)}}} marquant le passé. Dans les clauses principales,
-    les auxiliaires Ñyqy suivent ainsi l’ordre suivant :
+    auxiliaires de  ses verbes  sont suffixés  à ces  derniers. Ainsi,  le verbe
+    {{{nyqy(coqop)}}} est constitué de la  racine {{{nyqy(coj)}}}, signifiant « manger », et
+    de l’auxiliaire  {{{nyqy(op)}}} marquant le  passé. Dans les  clauses principales,
+    les auxiliaires Proto-Ñyqy suivent ainsi l’ordre suivant :
 
     #+begin_center
     Objet-Subjet-Verbe-Mode-Aspect-Temps-Négation-Question
@@ -1087,10 +1084,11 @@
     Gen-Adj-Dem-Num_{12}-Poss-N-Num_{6}-Adj-Rel
     #+end_center
 
-    Afin de mieux visualiser l’arbre syntaxique des groupes nominaux en Ñyqy, on
-    peut se référer à la figure [[nom-clause-syntax-tree]]. On peut constater que le
-    Ñyqy est  une langue  qui est donc  fortement ascendante  (/head-final/), la
-    majorité des constituants d’une clause nominale venant après le nom.
+    Afin  de  mieux  visualiser  l’arbre  syntaxique  des  groupes  nominaux  en
+    Proto-Ñyqy, on peut  se référer à la figure  [[nom-clause-syntax-tree]]. On peut
+    constater que le Proto-Ñyqy est une langue qui est donc fortement ascendante
+    (/head-final/), la  majorité des  constituants d’une clause  nominale venant
+    après le nom.
 
     #+NAME: nom-syntax-tree
     #+BEGIN_SRC emacs-lisp :exports none :eval yes :cache yes
@@ -1122,9 +1120,9 @@
       $input
     #+END_SRC
     #+NAME: nom-clause-syntax-tree
-    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Ñyqy :class gentree
+    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Proto-Ñyqy :class gentree
     #+ATTR_LATEX: :height 12cm
-    #+CAPTION: Arbre syntaxique des clauses nominales du Ñyqy
+    #+CAPTION: Arbre syntaxique des clauses nominales du Proto-Ñyqy
     #+RESULTS[50ed909d48ff543ba071d98743c840f3adba11b7]:
     [[file:img/nyqy/syntax-nominal-clauses.png]]
 
@@ -1164,19 +1162,20 @@
      :PROPERTIES:
      :CUSTOM_ID: h-7e9ab73d-0396-440a-aa14-7a5ba680da6f
      :END:
-     Concernant le démonstratif, ceux-ci se situe précédant les sixaines en Ñyqy,
-     et donc précédant le nom. Ainsi, si l’on souhaite traduire « ces vingt chats
-     à moi »  (le génitif relative  est ici pour contrecarrer  l’impossibilité en
-     français d’utiliser un démostratif et un possessif en même temps), on a donc
-     {{{nyqy(bóc né ñy cé oz qi)}}}.
+     Concernant  le démonstratif,  ceux-ci se  situe précédant  les sixaines  en
+     Proto-Ñyqy,  et donc  précédant le  nom. Ainsi,  si l’on  souhaite traduire
+     « ces vingt  chats à moi » (le  génitif relative est ici  pour contrecarrer
+     l’impossibilité en  français d’utiliser un  démostratif et un  possessif en
+     même temps), on a donc {{{nyqy(bóc né ñy cé oz qi)}}}.
      |   <c>    |  <c>  |   <c>    | <c>  | <c> |
      |   bóc    | né ñy |    cé    |  oz  | qi  |
      | DEM.prox |  3×6  | POSS.1sg | chat |  2  |
 
-     La position du démonstratif dans la clause nominale implique également une
-     position identique pour un article défini en Ñyqy. Ainsi, si l’on souhaite
-     traduire « les vingt chats à moi » (à nouveau, le génitif est utilisé ici dû
-     aux limitations du Français), on obtient {{{nyqy(bó né ñy cé oz qi)}}}.
+     La position du démonstratif dans  la clause nominale implique également une
+     position identique  pour un  article défini en  Proto-Ñyqy. Ainsi,  si l’on
+     souhaite traduire  « les vingt  chats à  moi » (à  nouveau, le  génitif est
+     utilisé ici dû aux limitations du Français), on obtient {{{nyqy(bó né ñy cé oz
+     qi)}}}.
      |   <c>   |  <c>  |   <c>    | <c>  | <c> |
      |   bó    | né ñy |    cé    |  oz  | qi  |
      | art.def |  3×6  | POSS.1sg | chat |  2  |
@@ -1195,9 +1194,9 @@
      - Adjectifs de matériaux
      - Adjectifs de forme
      - Adjectifs de couleur
-     En  Ñyqy,  ils apparaissent  dans  l’ordre  ci-dessus  et sont  classés  par
-     objectivité,  et tous  viennent après  le  nom à  l’exception des  adjectifs
-     d’opinion. Ainsi, les adjectifs les  plus subjectifs arrivent en premier, et
+     En Proto-Ñyqy, ils apparaissent dans  l’ordre ci-dessus et sont classés par
+     objectivité,  et tous  viennent après  le nom  à l’exception  des adjectifs
+     d’opinion. Ainsi, les adjectifs les plus subjectifs arrivent en premier, et
      les adjectifs les plus objectifs arrivent en dernier.
 
      Il est  à noter que :
@@ -1288,11 +1287,11 @@
     #   noun?
     # - An adjective from a noun?
     # - An adverb from a noun?
-    La  dénominalisation en  Ñyqy se  produit grâce  au mot  {{{nyqy(só)}}} signifiant
-    « façon de faire ».  En se suffixant à  un nom, on obtient un  verbe dont la
-    signification  est  généralement en  relation  avec  le nom  d’origine.  Par
-    exemple, en  associant le terme {{{nyqy(qéy)}}}  à ce mot {{{nyqy(só)}}},  on obtient le
-    verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
+    La  dénominalisation  en  Proto-Ñyqy  se   produit  grâce  au  mot  {{{nyqy(só)}}}
+    signifiant « façon de faire ». En se suffixant à un nom, on obtient un verbe
+    dont la  signification est généralement  en relation avec le  nom d’origine.
+    Par exemple, en  associant le terme {{{nyqy(qéy)}}} à ce  mot {{{nyqy(só)}}}, on obtient
+    le verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
 
 *** Nombres
     :PROPERTIES:
@@ -1506,7 +1505,7 @@
    grammatical  (souvent non  marqué) s’opposant  au cas  accusatif marquant  le
    patient, traité différemment.
 
-   À  la  différence des  langues  européennes,  le  Ñyqy  est une  langue  dite
+   À la  différence des langues européennes,  le Proto-Ñyqy est une  langue dite
    « ergative » ;  cela signifie  que ses  différents groupes  nominaux ont  une
    relation  grammaticale  envers  leurs  verbes  basée  sur  l’association  des
    expérienceurs et des  patients, avec l’agent traité  différemment. Ce premier
@@ -1528,7 +1527,7 @@
 
      Je mange une pomme.
 
-   En  revanche,  le Ñyqy  utilise  un  pivot  nominatif entre  ses  différentes
+   En revanche, le  Proto-Ñyqy utilise un pivot nominatif  entre ses différentes
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
@@ -1673,12 +1672,12 @@
     :CUSTOM_ID: h-cb2ecaf9-7bef-4583-8bfd-d6f58a315b1d
     :END:
     Le processus de nominalisation des  verbes repose principalement, à l’instar
-    de la grammaire  Ñyqy dans sa globalité, sur une  association desdits verbes
-    avec un  mot ayant ici  un rôle de  particule grammaticale. Ainsi,  un verbe
-    associé  à {{{nyqy(só)}}}  (signifiant « manière  de faire »)  en position  affixe
-    permet d’obtenir  d’un verbe un  nom utilisable  comme tel. Par  exemple, le
-    verbe {{{nyqy(meqm)}}} (« parler ») s’associe en {{{nyqy(meqm só)}}} signifiant « l’acte
-    de parler, prise de parole, annonce ».
+    de la  grammaire Proto-Ñyqy dans  sa globalité, sur une  association desdits
+    verbes avec  un mot ayant ici  un rôle de particule  grammaticale. Ainsi, un
+    verbe  associé à  {{{nyqy(só)}}}  (signifiant « manière  de  faire ») en  position
+    affixe permet d’obtenir d’un verbe un nom utilisable comme tel. Par exemple,
+    le  verbe  {{{nyqy(meqm)}}} (« parler »)  s’associe  en  {{{nyqy(meqm só)}}}  signifiant
+    « l’acte de parler, prise de parole, annonce ».
 
 *** Nominalisation de participants
     :PROPERTIES:
@@ -1775,10 +1774,10 @@
    # - pim i bó mygú coqugmúnop / Le singe aurait été en train de manger une pomme
    # OSV-Mode-Aspect-Temps-Neg-Quest
    # Compléments: temps, manière, lieu
-   Le Ñyqy  est une langue  disposant de relativement  peu de modes,  aspects et
-   temps. En effet, cette langue ne  dispose que de trois modes (l’indicatif, le
-   subjonctif et l’optatif),  de deux aspects (le parfait et  le progressif), et
-   de deux temps (le passé et le non-passé).
+   Le Proto-Ñyqy est une langue disposant  de relativement peu de modes, aspects
+   et temps. En effet, cette langue  ne dispose que de trois modes (l’indicatif,
+   le subjonctif et  l’optatif), de deux aspects (le parfait  et le progressif),
+   et de deux temps (le passé et le non-passé).
 
 *** Temps
     :PROPERTIES:
@@ -1787,9 +1786,9 @@
     # - Is  there  a  tense  system? How  does  it  operate?  Future/non-future,
     # past/non-past, past/present/future, or other? (You may want to treat these
     # separately or group them, depending on how the language works.)
-    Il n’existe que deux temps en Ñyqy :  le passé et le non-passé. Un événement
-    dans  le temps  est  généralement  considéré comme  étant  passé s’il  s’est
-    produit  au  moins un  jour  avant  le  temps d’élocution.  Cependant,  pour
+    Il n’existe  que deux  temps en  Proto-Ñyqy : le passé  et le  non-passé. Un
+    événement dans  le temps est  généralement considéré comme étant  passé s’il
+    s’est produit au  moins un jour avant le temps  d’élocution. Cependant, pour
     préciser si un événement s’est produit il y a moins d’un jour, les locuteurs
     useront d’indices  temporels, comme par  exemple « il  y a deux  heures » ou
     « tout à l’heure ».
@@ -1808,7 +1807,7 @@
     :CUSTOM_ID: h-ec16ad8f-69c7-44bc-ad20-da6d9188b3d1
     :END:
     # - How is aspect expressed?
-    Le Ñyqy ne dispose que de deux aspects : le parfait et le progressif.
+    Le Proto-Ñyqy ne dispose que de deux aspects : le parfait et le progressif.
 
     Le  progressif permet  de  marquer  un événement  comme  étant un  événement
     s’étalant sur  le temps,  remplissant ainsi  également la  fonction d’aspect
@@ -1822,12 +1821,12 @@
     #   not)?
     # - What are the modes?
     # - Is the case-marking pattern influenced at all by TAM?
-    Le mode dans  le Ñyqy est marqué  séparément du temps et de  l’aspect de par
-    ses  auxiliaires  dédiés {{{nyqy(oqé)}}}  et  {{{nyqy(ug)}}}.
+    Le mode dans le Proto-Ñyqy est marqué  séparément du temps et de l’aspect de
+    par ses auxiliaires dédiés {{{nyqy(oqé)}}} et {{{nyqy(ug)}}}.
 
     Le premier est  un mode optatif, permettant d’exprimer un  souhait, un désir
     de la part de locuteur. Il est  en revanche impossible pour les locuteurs du
-    Ñyqy  d’exprimer  le souhait  d’une  autre  persone  via l’optatif,  et  une
+    Proto-Ñyqy d’exprimer le  souhait d’une autre persone via  l’optatif, et une
     structure  syntaxique devra  être utilisée  afin de  pouvoir exprimer  cette
     idée. L’optatif est ainsi considéré  comme étant un moyen d’exprimer quelque
     chose qui est personnel au  locuteur. Il est également impossible d’exprimer
@@ -2230,51 +2229,51 @@
    :PROPERTIES:
    :CUSTOM_ID: h-397983ed-28e5-44c3-afb9-04403aa52e2a
    :END:
-   Les locuteurs du Ñyqy comptaient dans un mélange de base 6 pour les unités et
-   de base 13 pour le reste.
+   Les locuteurs  du Proto-Ñyqy comptaient  dans un mélange  de base 6  pour les
+   unités et de base 13 pour le reste.
 
-   |  <c5>  |             <c5>             |          <c5>           |
-   |   /    |              <>              |           <>            |
-   | nombre | nombre (représentation Ñyqy) |          Ñyqy           |
-   |--------+------------------------------+-------------------------|
-   |   0    |              0               |        {{{nyqy(pe)}}}         |
-   |   1    |              1               |        {{{nyqy(mi)}}}         |
-   |   2    |              2               |        {{{nyqy(qi)}}}         |
-   |   3    |              3               |        {{{nyqy(né)}}}         |
-   |   4    |              4               |        {{{nyqy(gé)}}}         |
-   |   5    |              5               |        {{{nyqy(co)}}}         |
-   |   6    |             1-0              | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
-   |   7    |             1-1              |       {{{nyqy(ñy mi)}}}       |
-   |   8    |             1-2              |       {{{nyqy(ñy qi)}}}       |
-   |   9    |             1-3              |       {{{nyqy(ñy né)}}}       |
-   |   10   |             1-4              |       {{{nyqy(ñy gé)}}}       |
-   |   11   |             1-5              |       {{{nyqy(ñy co)}}}       |
-   |   12   |             2-0              |       {{{nyqy(qi ñy)}}}       |
-   |   18   |             3-0              |       {{{nyqy(né ñy)}}}       |
-   |   24   |             4-0              |       {{{nyqy(gé ñy)}}}       |
-   |   30   |             5-0              |       {{{nyqy(co ñy)}}}       |
-   |   36   |             6-0              |     {{{nyqy(pe ñy ñy)}}}      |
-   |   42   |             7-0              |     {{{nyqy(mi ñy ñy)}}}      |
-   |   48   |             8-0              |     {{{nyqy(qi ñy ñy)}}}      |
-   |   54   |             9-0              |     {{{nyqy(né ñy ñy)}}}      |
-   |   60   |             a-0              |     {{{nyqy(gé ñy ñy)}}}      |
-   |   66   |             b-0              |     {{{nyqy(co ñy ñy)}}}      |
-   |   72   |            1-0-0             | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
-   |  216   |            6-0-0             |     {{{nyqy(pe mó mó)}}}      |
-   |  864   |           1-0-0-0            | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
-   |  1296  |          1-0-0-0-0           |        {{{nyqy(gec)}}}        |
-   |  7776  |         1-0-0-0-0-0          |       {{{nyqy(cójm)}}}        |
-   | 46656  |        1-0-0-0-0-0-0         |        {{{nyqy(ñuñ)}}}        |
+   |  <c5>  |                <c5>                |          <c5>           |
+   |   /    |                 <>                 |           <>            |
+   | nombre | nombre (représentation Proto-Ñyqy) |       Proto-Ñyqy        |
+   |--------+------------------------------------+-------------------------|
+   |   0    |                 0                  |        {{{nyqy(pe)}}}         |
+   |   1    |                 1                  |        {{{nyqy(mi)}}}         |
+   |   2    |                 2                  |        {{{nyqy(qi)}}}         |
+   |   3    |                 3                  |        {{{nyqy(né)}}}         |
+   |   4    |                 4                  |        {{{nyqy(gé)}}}         |
+   |   5    |                 5                  |        {{{nyqy(co)}}}         |
+   |   6    |                1-0                 | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
+   |   7    |                1-1                 |       {{{nyqy(ñy mi)}}}       |
+   |   8    |                1-2                 |       {{{nyqy(ñy qi)}}}       |
+   |   9    |                1-3                 |       {{{nyqy(ñy né)}}}       |
+   |   10   |                1-4                 |       {{{nyqy(ñy gé)}}}       |
+   |   11   |                1-5                 |       {{{nyqy(ñy co)}}}       |
+   |   12   |                2-0                 |       {{{nyqy(qi ñy)}}}       |
+   |   18   |                3-0                 |       {{{nyqy(né ñy)}}}       |
+   |   24   |                4-0                 |       {{{nyqy(gé ñy)}}}       |
+   |   30   |                5-0                 |       {{{nyqy(co ñy)}}}       |
+   |   36   |                6-0                 |     {{{nyqy(pe ñy ñy)}}}      |
+   |   42   |                7-0                 |     {{{nyqy(mi ñy ñy)}}}      |
+   |   48   |                8-0                 |     {{{nyqy(qi ñy ñy)}}}      |
+   |   54   |                9-0                 |     {{{nyqy(né ñy ñy)}}}      |
+   |   60   |                a-0                 |     {{{nyqy(gé ñy ñy)}}}      |
+   |   66   |                b-0                 |     {{{nyqy(co ñy ñy)}}}      |
+   |   72   |               1-0-0                | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
+   |  216   |               6-0-0                |     {{{nyqy(pe mó mó)}}}      |
+   |  864   |              1-0-0-0               | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
+   |  1296  |             1-0-0-0-0              |        {{{nyqy(gec)}}}        |
+   |  7776  |            1-0-0-0-0-0             |       {{{nyqy(cójm)}}}        |
+   | 46656  |           1-0-0-0-0-0-0            |        {{{nyqy(ñuñ)}}}        |
 
    Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
    grandeur est répété  afin d’ajouter cinq au  multiplicateur, permettant ainsi
    une base treize pour ce qui n’est pas des unités.
 
-   Pour convertir en base dix un  chiffre Ñyqy, voici comment faire : les unités
-   sont conservées  telles quelles, et  pour chaque équivalent de  dizaines, que
-   j’appellerai sixaines, les multiplier par six  à la puissance de son décalage
-   par rapport aux unités. Par exemple le nombre <gé si co mó mó ñy qi> ({{{phon(ɢe
-   sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
+   Pour convertir en  base dix un chiffre Proto-Ñyqy, voici  comment faire : les
+   unités sont conservées telles quelles, et pour chaque équivalent de dizaines,
+   que  j’appellerai sixaines,  les multiplier  par six  à la  puissance de  son
+   décalage par rapport aux unités. Par exemple le nombre <gé si co mó mó ñy qi>
+   ({{{phon(ɢe sɪ t͡ʃɔ mɤ ʀɤ my qɪ)}}}) se décompose ainsi :
 
    |     <c>     |      <c>       |   <c>    |   <c>    |
    | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ñy)}}} | {{{nyqy(qi)}}} |
@@ -2774,7 +2773,7 @@
    :END:
    Utiliser la terminaison en /m/ pour transformer un nom en verbe
 
-** Ñyqy syntax
+** Proto-Ñyqy syntax
    :PROPERTIES:
    :CUSTOM_ID: h-cd39b6f7-85e0-4168-a89d-829fa1dec5c3
    :END:
@@ -2783,7 +2782,7 @@
 
    Lang D of [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit#gid=0][this chart]], evolving to F.
 
-   Le Ñyqy est une langue ascendante (/head-final/ en anglais). Ordre des
+   Le Proto-Ñyqy est une langue  ascendante (/head-final/ en anglais). Ordre des
    éléments :
    - NAdj
 
@@ -2919,9 +2918,9 @@
    :PROPERTIES:
    :CUSTOM_ID: h-12ff10de-1093-4bb8-9805-e1af0b7d9a55
    :END:
-   Il faudrait trouver un moyen pour que, comme sur l’export HTML, le terme Ñyqy
-   et sa  phonétique soient sur une  ligne différente de la  définition, avec la
-   définition qui est indentée.
+   Il faudrait  trouver un  moyen pour  que, comme sur  l’export HTML,  le terme
+   Proto-Ñyqy et sa phonétique soient sur une ligne différente de la définition,
+   avec la définition qui est indentée.
 
 ** TODO Compléter la liste Swadesh [1/3]
    :PROPERTIES:

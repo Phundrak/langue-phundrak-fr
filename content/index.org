@@ -5,6 +5,7 @@
 #+HTML_HEAD: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
 #+INCLUDE: headers
 #+options: html-style:nil
+#+STARTUP: content
 
 * Introduction
   Bonjour, je suis Lucien Cartier-Tilet, aussi connu sous le nom de P’undrak, et
@@ -35,10 +36,10 @@
 ** En cours de développement
    Ci-dessous se trouvent les langues sur lesquelles je travaille actuellement.
    Attendez-vous à voir des changements y arriver fréquemment.
-   - <<nyqy>>Le  [[file:nyqy.org][Proto-Ñyqy]] (aussi  appelé  Ñyqy) est  une  langue prototype  /a
-     priori/, se situant dans des temps anciens de mon univers fictif.
+   - <<nyqy>>Le [[file:proto-nyqy.org][Proto-Ñyqy]]  (anciennement appelé Ñyqy) est  une langue prototype
+     /a priori/, se situant dans des temps anciens de mon univers fictif.
 
-     [[file:nyqy.pdf][Version PDF]]
+     [[file:proto-nyqy.pdf][Version PDF]]
    - <<eittland>>L’[[file:eittland.org][Eittlandais]] est une langue /a posteriori/ descendant du Vieux
      Norrois  occidental,  langue  des  vikings ancêtre  de  l’Islandais  et  du
      Norvégien. Elle  est parlée  sur une  île fictive  elle aussi,  située dans
