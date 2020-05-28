@@ -38,6 +38,9 @@
 #+HTML_HEAD_EXTRA: <link rel="apple-touch-icon" href="/img/icon.png" />
 #+HTML_HEAD_EXTRA: <script defer src="/dart/main.dart.js"></script>
 
+# ### EPUB #####################################################################
+#+PUBLISHER: Lucien Cartier-Tilet
+
 # ### MACROS ###################################################################
 #+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
 #+MACRO: newpage @@latex:\newpage@@

@@ -15,3 +15,4 @@ auto-generated*
 tibetan-lexicon-layout
 /ignored-folder/
 *.epub
+/content/ignored-folder/*

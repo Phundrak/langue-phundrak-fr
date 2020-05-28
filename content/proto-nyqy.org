@@ -9,6 +9,7 @@
 #+MACRO: nyqy (eval (conlanging/nyqy-to-org $1))
 #+LATEX_HEADER_EXTRA: \usepackage{enumitem}
 #+STARTUP: content
+#+SUBJECT: Grammaire du Proto-Ñyqy
 #+UID: https://langue.phundrak.com/proto-nyqy
 
 * Propos préliminaires
