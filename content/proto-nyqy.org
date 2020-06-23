@@ -808,11 +808,6 @@
     :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Allophonie-f79ef015
     :END:
 
-** Structure des mots
-   :PROPERTIES:
-   :CUSTOM_ID: Aperçu_structurel-Structure_des_mots-9c59167a
-   :END:
-
 ** Classes de mots
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-dffa5817
@@ -913,8 +908,89 @@
 
 **** Pronom possessifs
      :PROPERTIES:
-     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-Pronom_possessifs-2cb45c12
+     :CUSTOM_ID: Aperçu_structurel-Classes-Pronoms-Pronoms_possessifs-2cb45c12
      :END:
+     Il existe certains  pronoms en Proto-Ñyqy qui intègrent un  rôle génitif en
+     plus de  désigner la personne  à laquelle ils  correspondent, similairement
+     aux pronoms  possessifs que l’on a  en Français tels que  « mon », « ton »,
+     « son », etc… Voici la liste des pronoms du Ñyqy :
+
+     #+CAPTION: Pronoms possessifs du Proto-Ñyqy
+     |      <r> |         <c>          |         <c>          |
+     |        / |          <           |          <           |
+     | personne | possession inclusive | possession exclusive |
+     |----------+----------------------+----------------------|
+     |        1 |       {{{nyqy(cé)}}}       |       {{{nyqy(cu)}}}       |
+     |        2 |       {{{nyqy(jé)}}}       |       {{{nyqy(ju)}}}       |
+     |        3 |       {{{nyqy(bé)}}}       |       {{{nyqy(bu)}}}       |
+
+     Comme  on  peut le  voir,  le  Proto-Ñyqy  distingue  entre deux  types  de
+     possessions :  la  possession  inclusive  et la  possession  exclusive.  Le
+     premier  indique qu’un  élément peut  appartenir  à la  personne qui  clame
+     l’élément  comme étant  sien  mais sans  exclure le  fait  que cela  puisse
+     également appartenir à une ou plusieurs autres personnes, comme par exemple
+     dans le cas d’un village ou d’une maison. Une possession exclusive, quant à
+     elle, indique que  la personne désignée comme propriétaire  de l’élément en
+     est le seul propriétaire, sans que l’élément ne soit partagé.
+
+     On  peut constater  que parmi  les  noms, certains  sont de  nature à  être
+     désignée avec une  possession exclusive uniquement, tandis  que d’autres ne
+     peuvent être désigné  par autre chose qu’une possession  inclusive. Dans la
+     première catégorie, on retrouve par exemple  tout ce qui touche au corps, à
+     l’esprit et aux émotions, tandis que  dans la seconde catégorie on retrouve
+     les maisons ou villages et lieux de vie communs. Il existe tout de même une
+     troisième catégorie dans laquelle on  retrouve les noms pouvant tout autant
+     être d’appartenance  exclusive à  un individu ou  d’appartenance inclusive,
+     comme par exemple des outils.
+
+     - {{{nyqy(móñ ón cé bónusq)}}}
+
+       sud LOC POSS.1.inc village
+
+       Mon/notre village est au sud
+     - * {{{nyqy(móñ ón cu bónusq)}}}
+
+       sud LOC POSS.1.excl village
+
+       Mon village (qui n’appartient qu’à moi) est au sud
+
+     Ci-dessus, la seconde phrase  est grammaticalement incorrecte, {{{nyqy(bónusq)}}}
+     est un mot ne pouvant pas recevoir de possessif exclusif car un village est
+     considéré comme étant  un bien commun et impossible de  n’associer qu’à une
+     seule personne.
+
+     - {{{nyqy(zuj cé oz)}}}
+
+       noir POSS.1.inc chat
+
+       Mon/notre chat est noir
+     - {{{nyqy(móñ ón cu oz)}}}
+
+       noir POSS.1.exc chat
+
+       Mon chat est noir
+
+     Ces deux phrases  sont grammaticalement correctes, la  première indique que
+     le chat en question appartient aussi  à quelqu’un d’autre que le locuteur ;
+     ce peut  être un chat  de famille par exemple.  Dans la seconde  phrase, le
+     locuteur  indique qu’il  est le  seul  maître du  chat en  question et  que
+     personne d’autre ne peut être considéré comme étant maître du chat.
+
+     - {{{nyqy(cu beñ mójpi)}}}
+
+       POSS.1.excl dents faire.mal
+
+       Mes dents me font mal
+     - * {{{nyqy(cé beñ mójpi)}}}
+
+       POSS.1.inc dents faire.mal
+
+       Mes/nos dents me/nous font mal.
+
+     Enfin,  concernant les  deux  phrases précédentes,  seule  la première  est
+     correcte, les  dents d’une personne  ne peuvent appartenir qu’à  cette même
+     personne et ne peuvent être partagées. Il s’agit d’une possession inhérente
+     du locuteur.
 
 *** Verbes
     :PROPERTIES:
@@ -980,7 +1056,7 @@
      comme tels ont une morphologie en  toutes parts identique à celle des noms.
      Cependant, la différence  notable est comment ces noms  sont utilisés, soit
      comme tête d’une  phrase verbale, soit adposé à un  autre nom, modifiant ce
-     dernier de façon descriptive. Commme on le verra dans le chapitre [[#Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-5f3a7b09][Ordre des
+     dernier de façon descriptive. Commme on le verra dans le chapitre [[#Aperçu_structurel-Syntaxe-clauses_nominales-5f3a7b09][Ordre des
      constituants dans  les clauses nominales]],  ces noms descriptifs  se placent
      autour du  nom en  tête, et  certains comme  les adjectifs  de forme  et de
      matériaux sont obligatoirement suivis  par une particule grammaticale (voir
@@ -1254,7 +1330,7 @@
 
 *** Ordre des constituants dans les clauses nominales
     :PROPERTIES:
-    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-5f3a7b09
+    :CUSTOM_ID: Aperçu_structurel-Syntaxe-clauses_nominales-5f3a7b09
     :END:
     # - Describe the order(s) of elements in the noun phrase.
     Dans  un  groupe nominal,  on  retrouve  en son  centre  le  nom défini  par
@@ -2424,10 +2500,16 @@
    - {{{nyqy(beñgez)}}} :: Voir /beñ/ et /gez/
      1. (n) morsure
      2. (vt) mordre
+   - {{{nyqy(bé)}}} ::
+     1. (pron) son, sa, ses, pronom possessif inclusif de la troisième personne
    - {{{nyqy(bó)}}} :: Voir /bóc/
      1. (art.def) le, la, les, article défini
    - {{{nyqy(bóc)}}} ::
      1. (pron.dem) ceci, ça, démonstratif de proximité avec le locuteur
+   - {{{nyqy(bónusq)}}} ::
+     1. (n) village
+   - {{{nyqy(bu)}}} ::
+     1. (pron) mon, ma, mes, pronom possessif exclusif de la troisième personne
    - {{{nyqy(bú)}}} ::
      1. (pron) deuxième personne
 
@@ -2436,7 +2518,7 @@
    :CUSTOM_ID: Dictionnaire-C-29dc766b
    :END:
    - {{{nyqy(cé)}}} ::
-     1. (poss) mon, ma, mes, possesseur de la première personne
+     1. (pron) mon, ma, mes, possesseur inclusif de la première personne
    - {{{nyqy(co)}}} ::
      1. (nbr) cinq
    - {{{nyqy(coge)}}} ::
@@ -2454,6 +2536,8 @@
    - {{{nyqy(cós)}}} ::
      1. (n) oreille
      2. (n) ouïe
+   - {{{nyqy(cu)}}} ::
+     1. (pron) mon, ma, mes, pronom possessif exclusif de la première personne
    - {{{nyqy(cuwéñ)}}} ::
      1. (adv) tout le temps
 
@@ -2530,6 +2614,8 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-J-88f57f6a
    :END:
+   - {{{nyqy(jé)}}} ::
+     1. (pron) ton, ta, tes, pronom possessif inclusif de la deuxième personne
    - {{{nyqy(jéq)}}} ::
      1. (vt) pousser
    - {{{nyqy(jó)}}} ::
@@ -2540,6 +2626,8 @@
    - {{{nyqy(josgé)}}} ::
      1. (n) os
      2. (n) amulette
+   - {{{nyqy(ju)}}} ::
+     1. (pron) ton, ta, tes, pronom possessif exclusif de la deuxième personne
    - {{{nyqy(juc)}}} ::
      1. (n) bonté, bienfaisance
      2. (n) quelque chose de moralement bon, bienfaisant
@@ -2582,6 +2670,11 @@
      1. (n) Lune mineure, petite lune, litt. « petite cendrée »
    - {{{nyqy(mó)}}} ::
      1. (nbr) marqueur de 100_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
+   - {{{nyqy(mójpi)}}} ::
+     1. (n) douleur
+     2. (vi) faire mal, provoquer de la douleur
+   - {{{nyqy(móñ)}}} ::
+     1. (n) sud
    - {{{nyqy(músq)}}} ::
      1. (n) maison (bâtiment), habitation
    - {{{nyqy(muz)}}} ::
