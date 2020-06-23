@@ -14,12 +14,12 @@
 
 * Propos préliminaires
   :PROPERTIES:
-  :CUSTOM_ID: h-e44a14c5-9063-40a6-bce6-043b0869582e
   :UNNUMBERED: t
+  :CUSTOM_ID: Propos_préliminaires-ff022097
   :END:
 ** Avant-propos
    :PROPERTIES:
-   :CUSTOM_ID: h-45733210-18dc-486a-858a-0af1d438d285
+   :CUSTOM_ID: Propos_préliminaires-Avant-propos-c03216e0
    :END:
    La  redistribution ou  vente de  ce document  sont strictement  interdits. Ce
    document est protégé par la loi française sur le droit d’auteur et appartient
@@ -43,7 +43,7 @@
 
 ** Introduction sur le Proto-Ñyqy en tant que langue construite
    :PROPERTIES:
-   :CUSTOM_ID: h-8aa14ca5-6a1c-4e03-b30a-75bd90452308
+   :CUSTOM_ID: Propos_préliminaires-Introduction_sur_le_Proto-Ñyqy_en_tant_que_langue_construite-564d1fdd
    :END:
    Depuis plusieurs siècle déjà, la création de langues est une discipline ayant
    intriguée les  Hommes, certains créant  des langues dans des  buts religieux,
@@ -71,19 +71,19 @@
    avec  ses irrégularités  qui  lui  sont propres,  ou  bien  créer une  langue
    prototype de laquelle de nouvelles langues seront créées.
 
-   Le {{{nyqy(Proto-Ñyqy)}}}  n’a pas  aspiration à  être une  langue ayant  un aspect
-   naturel. Il  n’a pas non plus  aspiration à être une  langue particulièrement
-   complète  ou  riche,  il n’a  pas  aspiration  à  être  parlé par  des  êtres
-   formidables   d’une  série   télévisée.   Le   {{{nyqy(Proto-Ñyqy)}}}  n’a   qu’une
-   aspiration :  être une  de ces  langues prototypes,  ou proto-lang,  créée /a
-   priori/, et sur laquelle reposeront d’autres langues ayant évoluées des bases
-   que  posera cette  langue source.  Quelques  règles seront  insérées afin  de
-   donner un semblant  d’irrégularité ou de naturalisme au  Proto-Ñyqy, mais ces
-   règles resteront simples, à l’instar de ses autres règles grammaticales.
+   Le Proto-Ñyqy n’a  pas aspiration à être une langue  ayant un aspect naturel.
+   Il n’a pas non plus aspiration à être une langue particulièrement complète ou
+   riche, il  n’a pas aspiration  à être parlé  par des êtres  formidables d’une
+   série  télévisée. Le  Proto-Ñyqy  n’a  qu’une aspiration :  être  une de  ces
+   langues  prototypes,  ou  proto-lang,  créée  /a  priori/,  et  sur  laquelle
+   reposeront d’autres langues ayant évoluées  des bases que posera cette langue
+   source.  Quelques  règles   seront  insérées  afin  de   donner  un  semblant
+   d’irrégularité ou  de naturalisme  au Proto-Ñyqy,  mais ces  règles resteront
+   simples, à l’instar de ses autres règles grammaticales.
 
 ** Introduction sur le Proto-Ñyqy
    :PROPERTIES:
-   :CUSTOM_ID: h-ad4d6a0c-e05b-4c28-98c6-baec9e843e96
+   :CUSTOM_ID: Propos_préliminaires-Introduction_sur_le_Proto-Ñyqy-8506da05
    :END:
    Toute langue  dans notre monde  vient de  quelque part. Toute  langue descend
    d’une  autre  langue,  qui  fut  parlée  fut une  époque,  et  qui  ne  l’est
@@ -107,10 +107,10 @@
 
    Nous avons aujourd’hui un point où il  nous est possible d’oser imaginer ce à
    quoi pouvait ressembler les formes les plus anciennes de civilisation grâce à
-   l’une des plus anciennes langues  qui nous soit connues, le {{{nyqy(Proto-Ñyqy)}}},
-   langue mère de  plus de la moitié des  langues du monde, parlée il  y a entre
-   huit  et  onze mille  ans  dans  l’un  des  berceaux de  notre  civilisation.
-   Plusieurs illustres collègues  ont déjà travaillé sur cette langue  et sur sa
+   l’une des plus anciennes langues qui nous soit connues, le Proto-Ñyqy, langue
+   mère de plus de  la moitié des langues du monde, parlée il  y a entre huit et
+   onze  mille ans  dans  l’un  des berceaux  de  notre civilisation.  Plusieurs
+   illustres  collègues  ont   déjà  travaillé  sur  cette  langue   et  sur  sa
    reconstruction, et ont fait des progrès fabuleux sur cette langue légendaire.
    J’ai moi-même  pu assister  certains de ces  collègues dans  leurs recherche.
    Cependant, cette implication  m’a amené à une  réalisation cruciale : jusqu’à
@@ -129,7 +129,7 @@
 
 ** Conventions typographiques
    :PROPERTIES:
-   :CUSTOM_ID: h-410ccf5a-d5eb-436b-b3f4-a0a4bb4249e9
+   :CUSTOM_ID: Propos_préliminaires-Conventions_typographiques-5f771f50
    :END:
    Dans ce  document seront  utilisé certaines conventions  typographiques, dont
    des  gloses grammaticales  interlignes[fn:4],  une étoile  ~*~ précédant  des
@@ -140,7 +140,7 @@
 
 ** Liste d’abréviations
    :PROPERTIES:
-   :CUSTOM_ID: h-a5c14a00-99bb-48f9-8441-2b7624ccb1f0
+   :CUSTOM_ID: Propos_préliminaires-Liste_d’abréviations-c9b08233
    :END:
    Un  certain  nombre  d’abréviations  seront utilisées  dans  ce  document  en
    particulier  lors de  l’expression de  relations grammaticales  ou d’éléments
@@ -169,20 +169,22 @@
    - NPST :: non-passé
    - OBL :: oblique
    - OPT :: optatif
-   - part :: particule grammaticale
+   - ORD :: ordinal
+   - PROG :: progressif
    - pron :: pronom
    - PST :: passé
    - SUBJ :: subjonctif
+   - TERM :: terminatif
    - vi :: verbe intransitif
    - vt :: verbe transitif
 
 * La culture, l’histoire, le contexte sociolinguistique du Proto-Ñyqy
   :PROPERTIES:
-  :CUSTOM_ID: h-362fe960-94ae-42e2-8db3-54d52c7de175
+  :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-38f867af
   :END:
 ** Le peuple, son regard sur lui-même
    :PROPERTIES:
-   :CUSTOM_ID: h-6b729f0a-7131-443b-8ef3-ddfbaa23c65d
+   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Le_peuple,_son_regard_sur_lui-même-7d9f71af
    :END:
    # - What is the language known as to outsiders?
    # - What term do  the people use to distinguish themselves  from other language
@@ -196,15 +198,15 @@
 
    Le nom  de la langue  fut choisi par des  linguistes de l’Ère  ancienne, très
    probablement du  fait de  la signification du  mot : « nous ».  Il semblerait
-   également que le terme ait été utilisé par le peuple {{{nyqy(Proto-Ñyqy)}}} pour se
+   également  que le  terme ait  été utilisé  par le  peuple Proto-Ñyqy  pour se
    désigner  lui-même, mais  nous disposons  de  trop peu  de preuve  permettant
    d’affirmer  cela  avec  certitude.  Le terme  {{{nyqy(Ñyqy)}}}  s’analyse  en  deux
    morphèmes basiques,  {{{nyqy(ñy)}}} et  {{{nyqy(qy)}}}. Le terme  {{{nyqy(ñy)}}} est  le pronom
    personnel du singulier, et {{{nyqy(qy)}}} qui  le suit a plusieurs utilisations, le
-   chiffre /6/ (le {{{nyqy(Proto-Ñyqy)}}} est une langue dont le système numérique est
-   un  système hybride  entre  une base  six  et  une base  treize)  ou bien  la
-   pluralité, ici infléchissant le {{{nyqy(ñy)}}}  afin de former la première personne
-   du pluriel.
+   chiffre /6/  (le Proto-Ñyqy est une  langue dont le système  numérique est un
+   système hybride entre une base six et  une base treize) ou bien la pluralité,
+   ici infléchissant  le {{{nyqy(ñy)}}} afin  de former la première  personne du
+   pluriel.
 
    Il est à noter que le nom de cette langue est traditionnellement écrite en un
    seul  mot, cependant  et comme  nous le  verrons plus  tard, il  s’agit d’une
@@ -224,7 +226,7 @@
 
 ** Recherches précédentes
    :PROPERTIES:
-   :CUSTOM_ID: h-15a213ff-d8f9-479b-a426-08d65de30d5d
+   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Recherches_précédentes-19bab1f9
    :END:
    Comme mentionné plus tôt, le Proto-Ñyqy  est l’objet depuis fort longtemps de
    recherches linguistiques, tout d’abord par des linguistes ayant vécus lors de
@@ -248,7 +250,7 @@
 
 ** Ethnologie
    :PROPERTIES:
-   :CUSTOM_ID: h-dec628cc-50e8-4370-889d-e54b2a2e2280
+   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Ethnologie-d86f215d
    :END:
    # - What is the dominant economic activity of the people?
    # - Briefly describe the ecosystem, material  culture, and cosmology (they will
@@ -355,7 +357,7 @@
 
 ** Démographie
    :PROPERTIES:
-   :CUSTOM_ID: h-cec2a8c4-1f49-4d46-9146-af3afc822e38
+   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Démographie-87cbe30e
    :END:
    # - Where is  the language spoken, and  how are the people  distributed in this
    #   area?
@@ -391,16 +393,16 @@
 
 ** Corpus, reconstruction de la langue
    :PROPERTIES:
-   :CUSTOM_ID: h-acf6406f-5fd3-4d01-a0f0-89adef88d5ff
+   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Corpus,_reconstruction_de_la_langue-4d02e755
    :END:
 
 * Aperçu structurel
   :PROPERTIES:
-  :CUSTOM_ID: h-6e72a430-ce27-41ab-b2a6-4b8f54c2a2d3
+  :CUSTOM_ID: Aperçu_structurel-e660e9fd
   :END:
 ** Esquisse typologique du Proto-Ñyqy
    :PROPERTIES:
-   :CUSTOM_ID: h-e2f22e3c-6069-4881-a3e2-3d319e434fb7
+   :CUSTOM_ID: Aperçu_structurel-Esquisse_typologique_du_Proto-Ñyqy-3f9996ed
    :END:
    # - Is the language dominantly isolating or polysynthetic?
    # - If the language is at all  polysynthetic, is it dominantly agglutinative or
@@ -459,8 +461,8 @@
    intransitive.  On peut  également  remarquer la  présence  d’un morphème  lié
    {{{nyqy(qun)}}} dont le rôle est de marquer  un mode pour le verbe, en l’occurrence
    l’optatif.     Comme     nous     le     verrons     dans     le     chapitre
-   [[#h-26aa65ba-2694-4c63-bf91-258dad3b0430]], il  s’agit de la  méthode principale
-   d’inflexion des verbes du Proto-Ñyqy.
+   [[#Système_fonctionnel-Temps,_aspect,_mode-744a8351]],  il s’agit  de la  méthode
+   principale d’inflexion des verbes du Proto-Ñyqy.
 
    Enfin,  le quatrième  exemple nous  donne un  aperçu de  la syntaxe,  avec un
    positionnement différent  des articles  définis et  indéfinis par  rapport au
@@ -472,7 +474,7 @@
 
 ** Inventaire phonologique et translittération
    :PROPERTIES:
-   :CUSTOM_ID: h-f9f0a2a0-98a6-49d5-b943-98daa6078d3a
+   :CUSTOM_ID: Aperçu_structurel-Inventaire_phonologique_et_translittération-d75e9f9e
    :END:
    La phonologie d’une  langue est l’étude des sons qui  la composent, ainsi que
    l’organisation  et  l’interaction de  ces  derniers  entre  eux. Cela  a  des
@@ -489,7 +491,7 @@
 
 *** Voyelles
     :PROPERTIES:
-    :CUSTOM_ID: h-bd23520b-500c-4131-aa1c-8431cbe097df
+    :CUSTOM_ID: Aperçu_structurel-Inventaire_phonologique_et_translittération-Voyelles-41a769b9
     :END:
     Le  Proto-Ñyqy  est  une  langue  disposant  d’un  total  de  huit  voyelles
     individuelles ainsi  que d’une neuvième  voyelle, le schwa,  apparaissant du
@@ -562,27 +564,27 @@
     [[file:img/nyqy/vowel-feature-tree.png]]
 
     Voici une description des voyelles du Proto-Ñyqy :
-    - e ::  il s’agit de la  voyelle antérieure mi-ouverte non-arrondie  [ɛ] que
-           l’on retrouve en Français dans « bête » [bɛt̪] par example.
-    - é ::  il s’agit de  la voyelle  antérieure mi-fermée non-arrondie  [e] que
-           l’on retrouve en Français dans « été » [et̪e] par exemple.
-    - i ::  Il s’agit de la  voyelle antérieure pré-fermée non-arrondie  [ɪ] que
-           l’on retrouve en Anglais comme dans « bit » [bɪt].
+    - e ::  il  s’agit de la voyelle antérieure mi-ouverte  non-arrondie [ɛ] que
+      l’on retrouve en Français dans « bête » [bɛt̪] par example.
+    - é ::   il s’agit de la  voyelle antérieure mi-fermée non-arrondie  [e] que
+      l’on retrouve en Français dans « été » [et̪e] par exemple.
+    - i ::  Il  s’agit de la voyelle antérieure pré-fermée  non-arrondie [ɪ] que
+      l’on retrouve en Anglais comme dans « bit » [bɪt].
     - o :: Il s’agit de la  voyelle postérieure mi-ouverte arrondie [ɔ] que l’on
-           retrouve en Français dans « sort » [sɔːʁ].
-    - ó ::  Il s’agit de la  voyelle postérieure mi-fermée non-arrondie  [ɤ] que
-           l’on  retrouve  en  Gaélique  Écossais  « doirbh »  [d̪̊ɤrʲɤv]  ou  en
-           Estonien « kõrv » [kɤrv].
+      retrouve en Français dans « sort » [sɔːʁ].
+    - ó ::  Il  s’agit de la voyelle postérieure mi-fermée  non-arrondie [ɤ] que
+      l’on  retrouve en  Gaélique Écossais  « doirbh » [d̪̊ɤrʲɤv]  ou en  Estonien
+      « kõrv » [kɤrv].
     - u :: Il s’agit de la  voyelle postérieure pré-fermée arrondie [ʊ] que l’on
-           retrouve en Anglais américain « hook » [hʊ̞k].
-    - ú ::  Il s’agit  de la  voyelle postérieure fermée  arrondie [u]  que l’on
-           retrouve en français avec « août » [ut̪].
-    - y  :: Il  s’agit de  la voyelle  antérieure fermée  arrondie [y]  que l’on
-           retrouve en Français avec « dune » [d̪yn̪].
+      retrouve en Anglais américain « hook » [hʊ̞k].
+    - ú ::   Il s’agit de  la voyelle postérieure  fermée arrondie [u]  que l’on
+      retrouve en français avec « août » [ut̪].
+    - y  ::  Il s’agit  de la  voyelle antérieure fermée  arrondie [y]  que l’on
+      retrouve en Français avec « dune » [d̪yn̪].
 
 *** Consonnes
     :PROPERTIES:
-    :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
+    :CUSTOM_ID: Aperçu_structurel-Inventaire_phonologique_et_translittération-Consonnes-cde180bc
     :END:
     Le Proto-Ñyqy  est une  langue ayant  une particularité  intéressante : bien
     qu’elle  dispose  d’un total  de  seulement  douze consonnes,  elle  dispose
@@ -610,15 +612,15 @@
 
     #+NAME: table:cons:trans
     #+CAPTION: Consonnes du Proto-Ñyqy (translittération)
-    |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
-    |        / |         <          |          <          |            <            |         <         |
+    |      <r> |     <c5>     |     <c5>      |       <c5>        |    <c5>     |
+    |        / |      <       |       <       |         <         |      <      |
     |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
-    |----------+--------------------+---------------------+-------------------------+-------------------|
-    |   plosif |        p b         |                     |                         |        q g        |
-    |    nasal |         m          |          n          |                         |         ñ         |
-    | fricatif |                    |         s z         |                         |                   |
-    | affriqué |                    |         c j         |                         |                   |
-    |  spirant |                    |                     |            w            |                   |
+    |----------+--------------+---------------+-------------------+-------------|
+    |   plosif |     p b      |               |                   |     q g     |
+    |    nasal |      m       |       n       |                   |      ñ      |
+    | fricatif |              |      s z      |                   |             |
+    | affriqué |              |      c j      |                   |             |
+    |  spirant |              |               |         w         |             |
 
 
     Le Proto-Ñyqy dispose  également d’une hiérarchie entre  ses consonnes basée
@@ -666,7 +668,7 @@
 
 *** Tons et accentuation
     :PROPERTIES:
-    :CUSTOM_ID: h-69fc0d1e-1375-4048-9775-8aacc4860eb4
+    :CUSTOM_ID: Aperçu_structurel-Inventaire_phonologique_et_translittération-Tons_et_accentuation-0ea07000
     :END:
     Étant  donné l’ancienneté  de la  langue,  il est  extrèmement difficile  de
     s’avancer sur la tonalité de la langue et son accentuation. Il est cependant
@@ -689,7 +691,7 @@
 
 *** Translittération
     :PROPERTIES:
-    :CUSTOM_ID: h-62862440-965c-48c5-affb-25323f466c6b
+    :CUSTOM_ID: Aperçu_structurel-Inventaire_phonologique_et_translittération-Translittération-cbf9e7ee
     :END:
     Le Proto-Ñyqy était une langue exclusivement orale, sachant que les premiers
     systèmes  d’écriture utilisés  pour  une  langue de  cette  famille ne  sont
@@ -697,24 +699,24 @@
     langue. Ainsi, les linguistes préfèrent une transcription de la langue telle
     que celle utilisée dans cet  ouvrage, représentant de façon quasi phonétique
     les paroles théoriques de cette époque. Il est toutefois à noter, comme cela
-    sera  expliqué plus  bas (§[[#h-441266e7-313b-4dc0-8da8-31a385eea81b]]),  qu’une
-    même consonne à l’écrit peut représenter  deux consonnes orales du fait d’un
-    phénomène  de mutation  de ces  consonnes.  Afin de  garder une  orthographe
-    cohérente, il a été choisi par  consensus d’utiliser un unique graphème pour
-    les deux  prononciations possible d’une  consonne. Ainsi, /coqec/  peut être
-    prononcé {{{phon(t͡ʃɔħɛt͡ʃ)}}} ou bien {{{phon(ɬɔqɛɬ)}}}, mais  reste dans tous les cas le
-    même terme. Cela  permet également au lecteur de  plus facilement comprendre
-    les textes  et exemples en Proto-Ñyqy  sans avoir à faire  d’exercice mental
-    trop  important. Il  est  également  beaucoup plus  simple  de retrouver  la
+    sera  expliqué plus  bas ([[#Aperçu_structurel-Phonotaxes-Harmonie_des_consonnes-87d73554][Harmonie  des consonnes]]),  qu’une même  consonne à
+    l’écrit peut  représenter deux  consonnes orales du  fait d’un  phénomène de
+    mutation de  ces consonnes. Afin de  garder une orthographe cohérente,  il a
+    été  choisi  par consensus  d’utiliser  un  unique  graphème pour  les  deux
+    prononciations possible  d’une consonne.  Ainsi, /coqec/ peut  être prononcé
+    {{{phon(t͡ʃɔħɛt͡ʃ)}}} ou  bien {{{phon(ɬɔqɛɬ)}}},  mais reste  dans tous  les cas  le même
+    terme. Cela  permet également au  lecteur de plus facilement  comprendre les
+    textes et exemples  en Proto-Ñyqy sans avoir à faire  d’exercice mental trop
+    important.  Il   est  également  beaucoup   plus  simple  de   retrouver  la
     prononciation des mots Proto-Ñyqy depuis leur orthographe standard.
 
 ** Phonotaxes
    :PROPERTIES:
-   :CUSTOM_ID: h-fec68fe1-478e-46fa-8093-175ad3546347
+   :CUSTOM_ID: Aperçu_structurel-Phonotaxes-871e8d78
    :END:
 *** Structure syllabique
     :PROPERTIES:
-   :CUSTOM_ID: h-1058e08a-b109-43fa-8371-305685fda023
+    :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Structure_syllabique-cae9f170
    :END:
     Une syllabe  typique en Mattér se  présente sous la forme  (C)V(CC), avec au
     moins  une consonne  obligatoire  soit  dans l’attaque  soit  dans le  coda,
@@ -763,7 +765,7 @@
 
 *** Harmonie des consonnes
     :PROPERTIES:
-    :CUSTOM_ID: h-441266e7-313b-4dc0-8da8-31a385eea81b
+    :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Harmonie_des_consonnes-87d73554
     :END:
     Les  consonnes du  Proto-Ñyqy suivent  une règle  stricte, interdisant  deux
     consonnes dorsales de se suivre, idem pour deux consonnes non dorsales, même
@@ -783,7 +785,7 @@
     consonnes  du  Proto-Ñyqy  dû  à  cette   règle.  Ce  tableau  est  issu  de
     l’organisation de  l’arbre des caractéristiques distinctes  des consonnes du
     Proto-Ñyqy  (figure  [[arbre:cons]])  présenté   plus  haut,  dans  le  chapitre
-    [[#h-49ab3d74-6565-4f88-835c-f88425493d3f]].
+    [[#Aperçu_structurel-Inventaire_phonologique_et_translittération-Consonnes-cde180bc][Consonnes]].
 
     #+NAME: table:mutation:consonants
     #+CAPTION: Table de mutation des consonnes du Proto-Ñyqy
@@ -803,21 +805,21 @@
 
 *** Allophonie
     :PROPERTIES:
-    :CUSTOM_ID: h-19816428-bd33-40a2-a682-acc2d0afe668
+    :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Allophonie-f79ef015
     :END:
 
 ** Structure des mots
    :PROPERTIES:
-   :CUSTOM_ID: h-3a8e9769-9aca-4ada-b127-6386742d5b32
+   :CUSTOM_ID: Aperçu_structurel-Structure_des_mots-9c59167a
    :END:
 
 ** Classes de mots
    :PROPERTIES:
-   :CUSTOM_ID: h-ca9ceb49-d27e-4f67-bd53-37762ea4f797
+   :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-dffa5817
    :END:
 *** Noms
     :PROPERTIES:
-    :CUSTOM_ID: h-a0195f74-9ac1-417c-8af7-cc329e0efc04
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Noms-b3e617a9
     :END:
     # - What are the distributional properties of nouns?
     # - What are the structural properties of nouns?
@@ -833,17 +835,17 @@
 
 **** Noms comptables et noms indénombrables
      :PROPERTIES:
-     :CUSTOM_ID: h-31004fed-3cf7-4b7d-a4d2-88e38843c3d0
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Noms-Noms_comptables_et_noms_indénombrables-62367388
      :END:
 
 **** Noms propres
      :PROPERTIES:
-     :CUSTOM_ID: h-f093f96b-9501-456a-93a8-19709bd2b3cf
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Noms-Noms_propres-894af58f
      :END:
 
 *** Pronoms et clitiques anaphoriques
     :PROPERTIES:
-    :CUSTOM_ID: h-94456c13-5082-4c98-86d4-011be90cbc78
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-d2465bde
     :END:
     # - Does the language have free  pronouns and/or anaphoric clitics? (These are
     #   distinct from grammatical agreement.)
@@ -851,7 +853,7 @@
 
 **** Pronoms personnels
      :PROPERTIES:
-     :CUSTOM_ID: h-7c2642e5-e813-4b7e-ad82-933c997914bc
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-Pronoms_personnels-8d868b01
      :END:
      Le Proto-Ñyqy  ne dispose que de  trois pronoms, un pour  chacune des trois
      personnes :
@@ -860,18 +862,63 @@
      - Troisième personne : {{{nyqy(zé)}}}.  Se réfère aux personnes  extérieures à la
        conversation.
 
-     Afin de distinguer les personnes par nombre, les locuteurs du Proto-Ñyqy
+     Afin de  distinguer les personnes  par nombre, les locuteurs  du Proto-Ñyqy
+     usent de  nombres cardinaux autour  du pronom.  Il est possible  que chaque
+     unité  était  utilisée, mais  seuls  l’utilisation  des chiffres  {{{nyqy(mi)}}},
+     {{{nyqy(qi)}}} et {{{nyqy(né)}}}  sont attestés, en plus de  {{{nyqy(ñy)}}}. {{{nyqy(Mi)}}} indique
+     le singulier,  tandis que {{{nyqy(qi)}}}  indique le  duel, {{{nyqy(né)}}} le  triel et
+     {{{nyqy(ñy)}}} le pluriel. Il est également  possible que {{{nyqy(né)}}} ait indiqué un
+     paucal pour trois  à cinq éléments, et {{{nyqy(né)}}} le  pluriel pour six objets
+     ou plus. Il semblerait cependant que leur utilisation n’était pas fréquente
+     et le  nombre des  personnes était  souvent inféré lors  de la  locution et
+     n’était utilisé qu’en cas d’ambiguïté.
+
+     Pour plus d’information sur les chiffres et nombres du Ñyqy, voir [[*Numéraux][Numéraux]].
 
 **** Pronoms démonstratifs
      :PROPERTIES:
-     :CUSTOM_ID: h-d5c2c839-0ac4-4aad-9efd-5ae2635c85f2
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-Pronoms_démonstratifs-84b54047
      :END:
-     # | pron.dem.prox |
-     # | bóc           |
+     Il existe en Proto-Ñyqy quatre niveaux de proximité se reflètant dans les
+     pronoms démonstratifs, l’élément est :
+     - {{{nyqy(bóc)}}} :: proche du locuteur
+     - {{{nyqy(pu)}}} :: proche de l’interlocuteur
+     - {{{nyqy(yq)}}} :: éloigné mais visible des interlocuteurs
+     - {{{nyqy(jó)}}} :: éloigné et invisible des interlocuteurs
+
+     Dans  les quatres  phrases  suivantes,  le locuteur  parle  d’un chat  mais
+     utilise  à  chaque  fois  un  démonstratif  différent,  donnant  ainsi  une
+     indication sur la position de ce dernier  quant à lui-même et par rapport à
+     son interlocuteur.
+     - {{{nyqy(cé oz bóc oz)}}}
+
+       POSS.1sg chat dem.prox1 chat
+
+       Ce chat (proche de moi) est mon chat
+     - {{{nyqy(cé oz pu oz)}}}
+
+       POSS.1sg chat dem.prox2 chat
+
+       Ce chat (proche de toi) est mon chat
+     - {{{nyqy(cé oz yq oz)}}}
+
+       POSS.1sg chat dem.prox3 chat
+
+       Ce chat (que l’on voit tous les deux) est mon chat
+     - {{{nyqy(cé oz jó oz)}}}
+
+       POSS.1sg chat dem.prox4 chat
+
+       Ce chat (dont je te parle mais qui n’est pas là) est mon chat
+
+**** Pronom possessifs
+     :PROPERTIES:
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-Pronom_possessifs-2cb45c12
+     :END:
 
 *** Verbes
     :PROPERTIES:
-    :CUSTOM_ID: h-26aa65ba-2694-4c63-bf91-258dad3b0430
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Verbes-896fddad
     :END:
     # - What are the distributional properties of verbs?
     # - What are the structural properties of verbs?
@@ -894,24 +941,24 @@
 
 **** Structure verbale
      :PROPERTIES:
-     :CUSTOM_ID: h-adfce8d6-1a7a-4cb8-b6cb-97ea1c1c448b
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Verbes-Structure_verbale-2f4df4c8
      :END:
 
 **** Dérivations verbales
      :PROPERTIES:
-     :CUSTOM_ID: h-d24313ab-d25e-4057-92fc-539a35148646
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Verbes-Dérivations_verbales-fae1d52c
      :END:
 
 **** Inflexions verbales
      :PROPERTIES:
-     :CUSTOM_ID: h-a93f1630-eeff-4e33-aa34-7c75b4b83e0e
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Verbes-Inflexions_verbales-bbf667b9
      :END:
 
 *** Modificateurs
     :PROPERTIES:
-    :CUSTOM_ID: h-28acd155-bd9c-4eeb-9a2d-367f70b164b2
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-38f75b60
     :END:
-    # - If you posit a morphosyntacticc  category of adjectives, give evidence for
+    # - If you posit  a morphosyntactic category of adjectives,  give evidence for
     #   not grouping theseforms with the verbs or nouns.
     #   What characterizes a form as being an adjective in this language?
     # - How can you characterize semantically the  class of concepts coded by this
@@ -926,22 +973,158 @@
 
 **** Adjectifs descriptifs
      :PROPERTIES:
-     :CUSTOM_ID: h-e8c91c51-ccd6-4f05-9948-454f3154e297
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-Adjectifs_descriptifs-5257ba2e
      :END:
+     Il est  tout à fait  possible de  dire que d’un  certain point de  vue, les
+     adjectifs n’existent pas  dans la langue Ñyqy. En effet,  les mots utilisés
+     comme tels ont une morphologie en  toutes parts identique à celle des noms.
+     Cependant, la différence  notable est comment ces noms  sont utilisés, soit
+     comme tête d’une  phrase verbale, soit adposé à un  autre nom, modifiant ce
+     dernier de façon descriptive. Commme on le verra dans le chapitre [[#Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-5f3a7b09][Ordre des
+     constituants dans  les clauses nominales]],  ces noms descriptifs  se placent
+     autour du  nom en  tête, et  certains comme  les adjectifs  de forme  et de
+     matériaux sont obligatoirement suivis  par une particule grammaticale (voir
+     [[#Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Adjectifs-750d92f4][Ordre des constituants dans les clauses nominales/Adjectifs]]).
+
+     Dans  ce document,  nous nous  référerons à  ces noms  descriptifs en  tant
+     qu’adjectif,  mais  il  est  important  de garder  en  tête  que  la  seule
+     différence entre un nom et un adjectif est la façon dont le mot et utilisé,
+     et chaque adjectif a aussi un  nom (l’inverse n’est cependant pas vrai). Il
+     serait même plus  correct de parler de nom adjectivaux  pour distinguer les
+     noms  pouvant être  utilisés  en tant  qu’adjectifs avec  les  noms qui  ne
+     peuvent pas l’être.
 
 **** Quantifieurs non-numéraux
      :PROPERTIES:
-     :CUSTOM_ID: h-782d5ae9-c047-4f53-b20c-7b7f732e4e8a
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-Quantifieurs_non-numéraux-87dbbac7
      :END:
 
 **** Numéraux
      :PROPERTIES:
-     :CUSTOM_ID: h-8b121d9f-4e6f-4e82-b50b-835fd94feb5c
+     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb
      :END:
+     Les locuteurs du  Proto-Ñyqy comptaient dans un mélange de  base 6 pour les
+     unités et de base 12 pour le  reste. Ainsi, les unités seront notées de /0/
+     à /6/ dans le script latin, et de  /1/ à /b/ pour les éléments plus élevés.
+     La méthode de calcul pour passer  du système numérique Proto-Ñyqy à la base
+     dix et vice-versa suit le procédé suivant :
+
+     Chaque  chiffre écrit  avec  notre  alphabet a  une  position, la  première
+     position étant  celle qui  se situe  le plus à  droite et  représentant les
+     unités. Le premier  chiffre venant à sa gauche,  représentant les sixaines,
+     est en  deuxième position, et  ainsi de  suite. Ainsi, pour  représenter le
+     poids d’une unité selon son positionnement, nous avons ces deux lignes :
+     - /P_{1} = 1/
+     - /P_{n} = 12^{n−2}×6/
+
+     Pour avoir un exemple un peu plus visuel, ce tableau donne un exemple de la
+     position de quelques éléments, leur poids avant calcul et leur poids réel.
+     | <l>      |       <c>        | <c> |   <c>    |   <c>    | <c>  | <c> | <c> |
+     | /        |        <>        |  >  |    >     |    >     |  >   |  >  |     |
+     | position |        n         |  …  |    5     |    4     |  3   |  2  |  1  |
+     |----------+------------------+-----+----------+----------+------+-----+-----|
+     | calcul   | P_{n}=12^{n-2}×6 |  …  | 12^{3}×6 | 12^{2}×6 | 12×6 | 1×6 |  1  |
+     | poids    |        …         |  …  |  10368   |   864    |  72  |  6  |  1  |
+
+     Voici un  tableau plus  compréhensif, donnant la  correspondance Proto-Ñyqy
+     des nombres  exposés. Notez  qu’en dehors  des unités,  le zéro  n’a qu’une
+     utilisation d’illustration  de l’abscence d’une value  dans cette position.
+     Comme attesté dans les premiers  systèmes d’écriture évolués plus tard, les
+     langues   de  la   famille   Ñyqy  ont   une  notation   non-positionnelle,
+     contrairement à notre système d’écriture.
+     |   <c>   |                <c>                 |          <c>           |
+     |    /    |                 <                  |           <            |
+     | nombre  | nombre (représentation Proto-Ñyqy) |       Proto-Ñyqy       |
+     |---------+------------------------------------+------------------------|
+     |    0    |                 0                  |        {{{nyqy(pe)}}}        |
+     |    1    |                 1                  |        {{{nyqy(mi)}}}        |
+     |    2    |                 2                  |        {{{nyqy(qi)}}}        |
+     |    3    |                 3                  |        {{{nyqy(né)}}}        |
+     |    4    |                 4                  |        {{{nyqy(gé)}}}        |
+     |    5    |                 5                  |        {{{nyqy(co)}}}        |
+     |    6    |                1-0                 | {{{nyqy(miñy)}}} ou {{{nyqy(ñy)}}} |
+     |    7    |                1-1                 |       {{{nyqy(ñymi)}}}       |
+     |    8    |                1-2                 |       {{{nyqy(ñyqi)}}}       |
+     |    9    |                1-3                 |       {{{nyqy(ñyné)}}}       |
+     |   10    |                1-4                 |       {{{nyqy(ñygé)}}}       |
+     |   11    |                1-5                 |       {{{nyqy(ñyco)}}}       |
+     |   12    |                2-0                 |       {{{nyqy(qiñy)}}}       |
+     |   18    |                3-0                 |       {{{nyqy(néñy)}}}       |
+     |   24    |                4-0                 |       {{{nyqy(géñy)}}}       |
+     |   30    |                5-0                 |       {{{nyqy(coñy)}}}       |
+     |   36    |                6-0                 |      {{{nyqy(peñyñy)}}}      |
+     |   42    |                7-0                 |      {{{nyqy(miñyñy)}}}      |
+     |   48    |                8-0                 |      {{{nyqy(qiñyñy)}}}      |
+     |   54    |                9-0                 |      {{{nyqy(néñyñy)}}}      |
+     |   60    |                a-0                 |      {{{nyqy(géñyñy)}}}      |
+     |   66    |                b-0                 |      {{{nyqy(coñyñy)}}}      |
+     |   72    |               1-0-0                | {{{nyqy(mimó)}}} ou {{{nyqy(mó)}}} |
+     |   432   |               6-0-0                |      {{{nyqy(pemómó)}}}      |
+     |   864   |              1-0-0-0               | {{{nyqy(misi)}}} ou {{{nyqy(si)}}} |
+     |  10368  |             1-0-0-0-0              |       {{{nyqy(gec)}}}        |
+     | 124416  |            1-0-0-0-0-0             |       {{{nyqy(cójm)}}}       |
+     | 1492992 |           1-0-0-0-0-0-0            |       {{{nyqy(ñuñ)}}}        |
+
+     Comme vous pouvez le voir, afin  d’exprimer des bases plus élevées, l’ordre
+     de grandeur  est répété afin  d’ajouter cinq au  multiplicateur, permettant
+     ainsi une base douze pour ce qui n’est pas des unités.
+
+     Voici un exemple ci-dessous de la notation de 14873 en Proto-Ñyqy:
+     |    <c>    |    <c>     |    <c>     |      <c>       |   <c>    |
+     | {{{nyqy(gec)}}} | {{{nyqy(cosi)}}} | {{{nyqy(qimó)}}} |  {{{nyqy(geñyñy)}}}  | {{{nyqy(né)}}} |
+     | 12^{3}×6  | 5×12^{2}×6 | 2×12^{1}×6 | (6+4)×12^{0}×6 |    3     |
+     |   10368   |    4320    |    144     |       60       |    3     |
+     Ainsi, 14875  se traduit par {{{nyqy(gec  co si qi mó  ge ñy ñy né)}}}.  Il est à
+     noter toutefois que le terme se coupera en deux, laissant {{{nyqy(né)}}} seul, si
+     le nombre s’applique à un nom. Voir [[#Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Numéraux-f2cc88b9][Ordre des constituants dans les clauses
+     nominales /  Numéraux]].
+
+     Concernant  les nombres  ordinaux, ils  se créent  simplement à  partir des
+     nombres ordinaux préfixés par le terme {{{nyqy(qujm)}}}, signifiant « position ».
+     Si {{{nyqy(qujm)}}} est directement suivi par un mon commençant par un <m>, alors
+     {{{nyqy(qujm)}}}  perd  le siens.  Ainsi,  « 148ème  personne » se  traduira  par
+     {{{nyqy(qujm qimó ñocm gé)}}}. Il est  cependant à noter que les unités disposent
+     de leurs propres terme.
+
+     #+CAPTION: Nombres ordinaux en Proto-Ñyqy
+     | <c>  |      <c>       |            <c>            |
+     |  /   |       <        |             <             |
+     |      | nombre ordinal | nombre ordinal terminatif |
+     |------+----------------+---------------------------|
+     | 1er  |   {{{nyqy(qoji)}}}   |        {{{nyqy(qomy)}}}         |
+     | 2ème |   {{{nyqy(qóqi)}}}   |        {{{nyqy(qóqy)}}}         |
+     | 3ème |   {{{nyqy(qóné)}}}   |        {{{nyqy(qóny)}}}         |
+     | 4ème |  {{{nyqy(qomgé)}}}   |       {{{nyqy(qomgéy)}}}        |
+     | 5ème |  {{{nyqy(qopcé)}}}   |       {{{nyqy(qopcéy)}}}        |
+
+     Contrairement  au reste  des nombres,  les chiffres  à l’exception  de zéro
+     disposent  aussi  de  chiffres  ordinaux terminatifs.  Un  chiffre  ordinal
+     terminatif indique  que la  série ne  contient pas  plus d’éléments  que le
+     nombre  indiqué.  Cependant,  {{{nyqy(qomy)}}}  a  une  signification  légèrement
+     différente du  reste des  nombres ordinaux  terminatifs et  signifie plutôt
+     « seul », « individuel ».
+
+     - {{{nyqy(ñocm qóqi qójmún)}}}
+
+       personne 2.ORD dormir-PROG
+
+       La deuxième personne est en train de dormir.
+     - {{{nyqy(ñocm qóqy qójmúm)}}}
+
+       personne 2.ORD.TERM dormir-PROG
+
+       La seconde personne est en train de dormir
+
+     Tandis que la première phrase indique que la deuxième personne fait quelque
+     chose, elle indique également qu’il y a plus que deux personnes dont il est
+     question, alors  que la seconde  phrase indique que cette  seconde personne
+     est la  dernière de la  série des personnes dont  il est question,  et donc
+     qu’il n’y a que deux personnes dont le locuteur parle. Il s’agit de la même
+     différente en Français entre « deuxième » et « second ».
 
 *** Adverbes
     :PROPERTIES:
-    :CUSTOM_ID: h-863bc9c8-da03-4c1f-b80a-d4668d4c3294
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Adverbes-8d8d4dc3
     :END:
     # - What characterikes  a form  as being  an adverb in  this language?  If you
     #   posit a distinct class of adverbs, argue for why these forms should not be
@@ -955,17 +1138,17 @@
 
 *** Adpositions
     :PROPERTIES:
-    :CUSTOM_ID: h-fc26dc39-cc85-4f94-b942-65e6cbf1d98a
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Adpositions-736c7c45
     :END:
 
 *** Particules grammaticales
     :PROPERTIES:
-    :CUSTOM_ID: h-d5d00396-a8d7-409f-a34e-d457013248d9
+    :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Particules_grammaticales-a6fc9b68
     :END:
 
 ** Typologie de l’ordre des constituants
    :PROPERTIES:
-   :CUSTOM_ID: h-add29401-0e7d-45bb-93de-e53286dc4a2d
+   :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-7dcda807
    :END:
    # Le Proto-Ñyqy est une langue dont sa tête de groupes grammaticaux est
    # généralement en fin du-dit groupe. On peut voir avec l’arbre
@@ -1016,23 +1199,24 @@
 
 *** Ordre des constituants dans les clauses principales
     :PROPERTIES:
-    :CUSTOM_ID: h-76ccdf86-f9b5-4cee-82cf-52254848a449
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_principales-a6c37182
     :END:
     # - What is the neutral order of free elements in the unit?
     # - Are there variations?
     # - How do the variant orders function?
-    # - Specific to the  main clause constituent order: What  is the pragmatically
-    #   neutral order  of constituents  (A/S, P,  and V) in  basic clauses  of the
+    # - Specific to the main clause constituent order: What is the pragmatically
+    #   neutral order of constituents  (A/S, P, and V) in  basic clauses  of the
     #   language?
-    # En Proto-Ñyqy, l’ordre des éléments principaux  de la phrase typique suit un ordre
-    # SV pour  les phrases transitives et  APV pour les phrases  intransitives. Il
-    # est toutefois à noter que l’agent  est nécessairement précédé par un élément
-    # datif.  Il  est  cependant  possible  lorsqu’aucun  élément  datif  n’est  à
-    # mentionner d’utiliser le terme {{{nyqy(bóq)}}} signifiant « rien, aucun ».
-
-    # Il est  également à noter que  selon les recherches actuelles,  rien ne nous
-    # laisse à penser qu’un autre ordre de ces constituants était possible en Proto-Ñyqy
-    # mis à par l’ajout d’autres éléments obliques en début de phrase.
+    # En Proto-Ñyqy, l’ordre  des éléments principaux de la  phrase typique suit
+    # un  ordre  SV  pour  les  phrases transitives  et  APV  pour  les  phrases
+    # intransitives. Il  est toutefois  à noter  que l’agent  est nécessairement
+    # précédé  par un  élément  datif. Il  est  cependant possible  lorsqu’aucun
+    # élément datif n’est à mentionner  d’utiliser le terme {{{nyqy(bóq)}}} signifiant
+    # « rien, aucun ».
+    # Il est également à noter que  selon les recherches actuelles, rien ne nous
+    # laisse à  penser qu’un autre ordre  de ces constituants était  possible en
+    # Proto-Ñyqy  mis à  par  l’ajout  d’autres éléments  obliques  en début  de
+    # phrase.
     Le Proto-Ñyqy est une langue particulière  quant il s’agit de l’ordre de ses
     éléments principaux dans  ses phrases et clauses  principales. Tout d’abord,
     il  est bon  de  noter que  le  Proto-Ñyqy est  une langue  qui  est à  100%
@@ -1052,7 +1236,7 @@
 
 *** Ordre des constituants dans les clauses verbales
     :PROPERTIES:
-    :CUSTOM_ID: h-e68d1726-9baf-4963-b098-58c6aa340082
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_verbales-c2bb6bea
     :END:
     # - Where do auxliaries occur in relation to the semantically “main” verb?
     # - Where  do  verb-phrase  adverbs  occur   with  respect  to  the  verb  and
@@ -1060,7 +1244,7 @@
     Le Proto-Ñyqy étant une langue dont  l’ordre des constituants de ses clauses
     principales est Objet-Sujet-Verbe, il n’est pas surprenant de savoir que les
     auxiliaires de  ses verbes  sont suffixés  à ces  derniers. Ainsi,  le verbe
-    {{{nyqy(coqop)}}} est constitué de la  racine {{{nyqy(coj)}}}, signifiant « manger », et
+    {{{nyqy(coqop)}}} est constitué de la  racine {{{nyqy(coq)}}}, signifiant « manger », et
     de l’auxiliaire  {{{nyqy(op)}}} marquant le  passé. Dans les  clauses principales,
     les auxiliaires Proto-Ñyqy suivent ainsi l’ordre suivant :
 
@@ -1070,7 +1254,7 @@
 
 *** Ordre des constituants dans les clauses nominales
     :PROPERTIES:
-    :CUSTOM_ID: h-130f774a-bc58-46ca-a172-c413c8236366
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-5f3a7b09
     :END:
     # - Describe the order(s) of elements in the noun phrase.
     Dans  un  groupe nominal,  on  retrouve  en son  centre  le  nom défini  par
@@ -1108,7 +1292,7 @@
                          ("Adj")))
                        ("Nomin"))
                       ("Rel")))
-      (conlanging/tree-to-dot  nominal-group-syntax-tree)
+      (conlanging/tree-to-dot nominal-group-syntax-tree)
     #+END_SRC
 
     #+RESULTS[fbb2ad04afa70b63d78e569394d499bc395d2cc0]: nom-syntax-tree
@@ -1126,7 +1310,7 @@
 
 **** Possessifs
      :PROPERTIES:
-     :CUSTOM_ID: h-506f68a1-a9de-4d1c-a674-075f130af6a8
+     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Possessifs-d12a0b98
      :END:
      Concernant les possessifs, ceux-ci se  situent directement avant le nom afin
      de marquer la possession de l’élément  par une personne ou une autre entité.
@@ -1138,7 +1322,7 @@
 
 **** Numéraux
      :PROPERTIES:
-     :CUSTOM_ID: h-26b82cb5-1316-46cb-b9c5-279bbded3cc5
+     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Numéraux-f2cc88b9
      :END:
      Pour ce qui est  des numéraux, la règle générale est  que les unités suivent
      le  nom, tandis  que les  sixaines le  précèdent. Par  exemple, « mes  vingt
@@ -1158,7 +1342,7 @@
 
 **** Démonstratifs
      :PROPERTIES:
-     :CUSTOM_ID: h-7e9ab73d-0396-440a-aa14-7a5ba680da6f
+     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Démonstratifs-d02e586d
      :END:
      Concernant  le démonstratif,  ceux-ci se  situe précédant  les sixaines  en
      Proto-Ñyqy,  et donc  précédant le  nom. Ainsi,  si l’on  souhaite traduire
@@ -1180,7 +1364,7 @@
 
 **** Adjectifs
      :PROPERTIES:
-     :CUSTOM_ID: h-f0c023d2-ead0-412b-8ed3-d02507af0256
+     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Adjectifs-750d92f4
      :END:
      Concernant les adjectifs, ceux-ci se divisent en plusieurs classes :
      - Adjectifs d’opinion
@@ -1195,14 +1379,15 @@
      En Proto-Ñyqy, ils apparaissent dans  l’ordre ci-dessus et sont classés par
      objectivité,  et tous  viennent après  le nom  à l’exception  des adjectifs
      d’opinion. Ainsi, les adjectifs les plus subjectifs arrivent en premier, et
-     les adjectifs les plus objectifs arrivent en dernier.
+     les adjectifs les  plus objectifs arrivent en dernier.  Seuls les adjectifs
+     d’opinion se placent avant le nom, les autres arriveront toujours après.
 
      Il est  à noter que :
      - les  adjectifs de  forme et  de  matériaux ne  peuvent se  faire que  via
        l’utilisation d’un génitif  de type « NOM GEN » (par  exemple « carré GEN
        table » pour dire « table carrée »)
-     - que les adjectifs d’origine ne se forment qu’avec une particule locative
-     - que  les  adjectifs  d’objectif  ne  se  forment  qu’avec  une  particule
+     - les adjectifs d’origine ne se forment qu’avec une particule locative
+     - les   adjectifs  d’objectif   ne   se  forment   qu’avec  une   particule
        instrumentative.
 
      Ainsi, si l’on souhaite traduire « un gros vieux chat noir et beau », on
@@ -1212,7 +1397,7 @@
 
 **** Génitif
      :PROPERTIES:
-     :CUSTOM_ID: h-f5a28bb8-103e-4f96-979c-89df0286ae36
+     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Génitif-0adef498
      :END:
      Ensuite vient le génitif qui se situe avant les adjectifs d’opinion. On y
      trouvera donc exclusivement la particule grammaticale {{{nyqy(pom)}}} qui sert à
@@ -1224,7 +1409,7 @@
 
 **** Clauses relatives
      :PROPERTIES:
-     :CUSTOM_ID: h-00f9960f-b515-4fb0-be59-b53573607b8e
+     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Clauses_relatives-a0edf2c9
      :END:
      Enfin, les clauses relatives arrivent à la fin des clauses nominales. Ainsi,
      si l’on souhaite dire « mon chat qui mange est beau », on obtient la traduction
@@ -1234,14 +1419,14 @@
 
 *** Phrases adpositionelles
     :PROPERTIES:
-    :CUSTOM_ID: h-4079ffcb-f870-401c-a229-3c2b52774650
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Phrases_adpositionelles-cb25b027
     :END:
     # - Is the language dominantly prepositional or post-positional? Give examples.
     # - Do many adpositions come from nouns or verbs?
 
 *** Comparatifs
     :PROPERTIES:
-    :CUSTOM_ID: h-7b89a3fd-dacc-4a7b-b6ba-7b4072261887
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Comparatifs-4f95f6de
     :END:
     # - Does   the  language   have  one   or  more   grammaticalized  comparative
     #   constructions? If  so, what is the  order of the standard,  the marker and
@@ -1249,14 +1434,14 @@
 
 *** Questions
     :PROPERTIES:
-    :CUSTOM_ID: h-2bc6bce7-960e-47ed-9c5b-fe440ff7f096
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Questions-1418f08e
     :END:
     # - In yes/no questions, if there is a question particle, where does it occur?
     # - In information questions, where does the question word occur?
 
 *** Résumé
     :PROPERTIES:
-    :CUSTOM_ID: h-60bc5529-151f-44f9-8d6c-6ddea77b5b94
+    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Résumé-54753589
     :END:
     # - How  does this  language compare  in its  constituent orders  to universal
     #   expectations, as represented by Greenberg  (1963), Hawkins (1983), or some
@@ -1264,11 +1449,11 @@
 
 ** Structure d’un groupe nominal
    :PROPERTIES:
-   :CUSTOM_ID: h-925c4d09-5d24-4b49-b00d-23f989aa93a3
+   :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-4a4ff5c0
    :END:
 *** Mots composés
     :PROPERTIES:
-    :CUSTOM_ID: h-d697b050-c292-4852-932f-bcd74ba2061f
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Mots_composés-75aaeeb4
     :END:
     # - Is there noun-noun compounding that results in a noun (e.g. /windshield/)?
     # - How do you know it is compounding?
@@ -1279,7 +1464,7 @@
 
 *** Dénominalisation
     :PROPERTIES:
-    :CUSTOM_ID: h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Dénominalisation-edce8307
     :END:
     # - Are there any processes (productive or not) that form a verb from a
     #   noun?
@@ -1293,7 +1478,7 @@
 
 *** Nombres
     :PROPERTIES:
-    :CUSTOM_ID: h-4a7398f7-c2a0-4969-a6a2-ca004b4cbddd
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Nombres-7914fa48
     :END:
     # - Is number expressed in the noun phrase?
     # - Is the distinction between singular and non-singular obligatory, optional,
@@ -1306,7 +1491,7 @@
 
 *** Cas grammatical
     :PROPERTIES:
-    :CUSTOM_ID: h-7cf3e6ae-6d62-4f39-a4e1-0c697b380675
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Cas_grammatical-738042a3
     :END:
     # - Do nouns exhibit morphological case?
     # - If so, what are the cases? (The  functions of the cases will be elaborated
@@ -1314,7 +1499,7 @@
 
 *** Articles, déterminants et démonstratifs
     :PROPERTIES:
-    :CUSTOM_ID: h-2c2cb606-7ad8-4d8d-a0aa-729b005a7132
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Articles,_déterminants_et_démonstratifs-4065c96e
     :END:
     # - Do noun phrases have articles?
     # - If so,  are they obligatory or  optional, and under what  circumstances do
@@ -1326,7 +1511,7 @@
 
 *** Possesseurs
     :PROPERTIES:
-    :CUSTOM_ID: h-fe62e78c-2b6a-47be-876d-0c188d0ee27d
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Possesseurs-4520343a
     :END:
     # - How are possessors expressed in the noun phrase?
     # - Do nouns agree  with their possessors? Do possessors  agree with possessed
@@ -1338,7 +1523,7 @@
 
 *** Classes (incluant le genre)
     :PROPERTIES:
-    :CUSTOM_ID: h-8f76c669-2e2c-45a0-aaf8-8b56ae6c771d
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Classes_(incluant_le_genre)-d50dedac
     :END:
     # - Is there a noun class system?
     # - What are the classes and how are they manifested in the noun phrase?
@@ -1349,7 +1534,7 @@
 
 *** Diminution/Augmentation
     :PROPERTIES:
-    :CUSTOM_ID: h-8695b587-b33e-42b5-b374-16a068d335ef
+    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Diminution-Augmentation-a5545bab
     :END:
     # - Does the language  employ diminutive and/or augmentative  operators in the
     #   noun or noun phrase?
@@ -1366,11 +1551,11 @@
 
 ** Prédicats nominaux et constructions liées
    :PROPERTIES:
-   :CUSTOM_ID: h-241f8093-3388-42fe-8060-af94a2ff03a4
+   :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-265064bf
    :END:
 *** Prédicats nominaux
     :PROPERTIES:
-    :CUSTOM_ID: h-28fe553c-2fc1-4c1d-ad81-23680b62918a
+    :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-Prédicats_nominaux-1e5566d1
     :END:
     # - How are proper inclusion and equative predicates formed?
     # - What restrictions are there, if any, on the TAM marking of such clauses?
@@ -1378,7 +1563,7 @@
 *** Prédicats adjectivaux
     :PROPERTIES:
     :SUBTITLE: Clauses attributives
-    :CUSTOM_ID: h-5a0c7fd1-9008-4915-88ef-6b2482795e44
+    :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-Prédicats_adjectivaux-83d0636e
     :END:
     # - How  are  predicate  adjective  formed? (Include  a  separate  section  on
     #   predicate adjectives only if they are structurally distinct from predicate
@@ -1386,13 +1571,13 @@
 
 *** Prédicats locatifs
     :PROPERTIES:
-    :CUSTOM_ID: h-ea755499-8c28-4ddb-a037-841658aeeb91
+    :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-Prédicats_locatifs-e90620c6
     :END:
     # - How are locational clauses (or predicate locatives) formed?
 
 *** Prédicats existentiels
     :PROPERTIES:
-    :CUSTOM_ID: h-93c2c2bb-bb4d-46bd-9979-5a8392c2f144
+    :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-Prédicats_existentiels-0490d8af
     :END:
     # - How  are   existential  clauses   formed?  (Give  examples   in  different
     #   tense/aspects, especially if there is significant variation.)
@@ -1402,57 +1587,57 @@
 
 *** Clauses possessives
     :PROPERTIES:
-    :CUSTOM_ID: h-d68829a8-b329-46f7-88d8-ece6845e08e3
+    :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-Clauses_possessives-fd88e5e9
     :END:
     # - How are possessive clauses formed?
 
 ** Structure d’un groupe verbal
    :PROPERTIES:
-   :CUSTOM_ID: h-3db4f84f-25d4-469f-9743-9920e0aa40e0
+   :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_verbal-00ae33bb
    :END:
 
 ** Clauses intransitives
    :PROPERTIES:
-   :CUSTOM_ID: h-382fdfd8-fd02-4902-8c08-1f0cc3012f75
+   :CUSTOM_ID: Aperçu_structurel-Clauses_intransitives-a9434f93
    :END:
 
 ** Clauses transitives
    :PROPERTIES:
-   :CUSTOM_ID: h-a5f60077-7709-496e-a811-e88d90a30cc7
+   :CUSTOM_ID: Aperçu_structurel-Clauses_transitives-05e140b5
    :END:
 
 ** Clauses ditransitives
    :PROPERTIES:
-   :CUSTOM_ID: h-852808cb-7259-4f50-b6ec-bdc7a5ae4033
+   :CUSTOM_ID: Aperçu_structurel-Clauses_ditransitives-9861c422
    :END:
 
 ** Clauses de type dépendant
    :PROPERTIES:
-   :CUSTOM_ID: h-2fcea5e4-e67e-465d-a0b9-a44eecdabb20
+   :CUSTOM_ID: Aperçu_structurel-Clauses_de_type_dépendant-a1bca03c
    :END:
 
 *** Non-fini
     :PROPERTIES:
-    :CUSTOM_ID: h-ca1b2ac2-26a3-45b2-bca9-ffb4fd290662
+    :CUSTOM_ID: Aperçu_structurel-Clauses_de_type_dépendant-Non-fini-cb4f9c6b
     :END:
 
 *** Semi-fini
     :PROPERTIES:
-    :CUSTOM_ID: h-23ca6c77-b4ab-4f93-a052-cd85509e71d3
+    :CUSTOM_ID: Aperçu_structurel-Clauses_de_type_dépendant-Semi-fini-cd512c9e
     :END:
 
 *** Fini
     :PROPERTIES:
-    :CUSTOM_ID: h-96506f26-b92e-45e0-a1b5-0f27dae98e31
+    :CUSTOM_ID: Aperçu_structurel-Clauses_de_type_dépendant-Fini-1a14e5ef
     :END:
 
 * Système fonctionnel
   :PROPERTIES:
-  :CUSTOM_ID: h-ad15e52b-bc94-4b33-8629-02848b53cee7
+  :CUSTOM_ID: Système_fonctionnel-08031a11
   :END:
 ** Relations grammaticales
    :PROPERTIES:
-   :CUSTOM_ID: h-ddc93b4c-8a5b-4833-82f5-bb8951d5a0b4
+   :CUSTOM_ID: Système_fonctionnel-Relations_grammaticales-d1f4fb87
    :END:
    # Examplify  some simple  intransitive, transitive,  and ditransitive  clauses.
    # Three-argument clauses may not unequivocally exist.
@@ -1537,15 +1722,15 @@
 
 ** Constructions liées à la voix et à la valence
    :PROPERTIES:
-   :CUSTOM_ID: h-f6447004-ff87-46d0-afc2-08e1cf1dfc64
+   :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-2746e4c5
    :END:
 *** Augmentation de valence
     :PROPERTIES:
-    :CUSTOM_ID: h-abfdbac1-d00a-48e3-bf03-9e01330d6f5e
+    :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-c551c71f
     :END:
 **** Causatif
      :PROPERTIES:
-     :CUSTOM_ID: h-b1dac30b-3ca7-4a71-a313-34cdab5e234e
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Causatif-7c971725
      :END:
      # - How  are causatives  formed in  this language?  There are  basically three
      #   possible answers to this question:
@@ -1563,7 +1748,7 @@
 
 **** Applicatif
      :PROPERTIES:
-     :CUSTOM_ID: h-578be841-9d4e-45bf-99a7-2969887e61d9
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Applicatif-74fdd007
      :END:
      # - Are there any operations by which  a participant which has a semantic role
      #   normally expressed in an “oblique”  phrase can “advance” to direct object
@@ -1573,7 +1758,7 @@
 
 **** Déplacement datif
      :PROPERTIES:
-     :CUSTOM_ID: h-114ace73-6554-41d6-b215-a4008d0cecc2
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Déplacement_datif-51f6b07b
      :END:
      # - Is there a dative-shift construction?
      # - What semantic roles can be “dative-shifted”?
@@ -1581,21 +1766,21 @@
 
 **** Datif d’intérêt
      :PROPERTIES:
-     :CUSTOM_ID: h-acb2ac0a-d3ee-4eab-a9ad-d2e56c7d9e7e
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Datif_d’intérêt-1379b324
      :END:
 
 **** Possession extérieure
      :PROPERTIES:
-     :CUSTOM_ID: h-ea45c49e-434b-4033-a204-f4f134bc9743
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Possession_extérieure-a3dbdcbc
      :END:
 
 *** Diminution de valence
     :PROPERTIES:
-    :CUSTOM_ID: h-57ce8a8b-aa0e-4021-ad4b-768bb4d22d5e
+    :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-3dd0a866
     :END:
 **** Réflexifs et réciproques
      :PROPERTIES:
-     :CUSTOM_ID: h-e24ca699-b946-4a20-a89a-4e6fcdd04aaf
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Réflexifs_et_réciproques-70e414b4
      :END:
      # - How are reflexives expressed?
      #   - Morphologically?
@@ -1611,7 +1796,7 @@
 
 **** Passifs
      :PROPERTIES:
-     :CUSTOM_ID: h-32469595-6713-41f7-82e4-0842363ce78c
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Passifs-c339f6cb
      :END:
      # - Which type(s) of passive constructions does the language have? Exemplify
      #   each type, and describe its function or functions.
@@ -1627,21 +1812,21 @@
 
 **** Inverses
      :PROPERTIES:
-     :CUSTOM_ID: h-1b1a41fe-0567-4bd0-9980-70e75136f32d
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Inverses-da164e01
      :END:
      # - Does the language have a grammatically instantiated inverse construction?
      #   If so, what type is it?
 
 **** Constructions moyennes
      :PROPERTIES:
-     :CUSTOM_ID: h-a6f23f5e-5e5c-4a0d-addf-9a2dc94798bd
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Constructions_moyennes-337e1ee4
      :END:
      # - Are there grammatically instantiated middle constructions?
      # - Additional reading: /Kemmer 1993/
 
 **** Antipassifs
      :PROPERTIES:
-     :CUSTOM_ID: h-8ae349c3-c9e6-4c00-a8a3-1422bcb759c3
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Antipassifs-313605c6
      :END:
      # - Are  there  any  grammatical  structures that  specifically  function  as
      #   antipassives?
@@ -1650,12 +1835,12 @@
 
 **** Démotion d’objet ou omission
      :PROPERTIES:
-     :CUSTOM_ID: h-e114b8d4-fd80-447b-9807-b740d94250ca
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Démotion_d’objet_ou_omission-70fb5090
      :END:
 
 **** Incorporation d’objet
      :PROPERTIES:
-     :CUSTOM_ID: h-0cbb7721-1e9e-4a4f-b16b-1abbbaf41515
+     :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Incorporation_d’objet-484fca48
      :END:
      # - Does  the language  have object  demotion or  omission constructions  (as
      #   distinct from antipassives)?
@@ -1663,11 +1848,11 @@
 
 ** Nominalisation
    :PROPERTIES:
-   :CUSTOM_ID: h-fe28b97b-5298-4558-ac69-141a96c87827
+   :CUSTOM_ID: Système_fonctionnel-Nominalisation-87de9895
    :END:
 *** Nominalisation d’action
     :PROPERTIES:
-    :CUSTOM_ID: h-cb2ecaf9-7bef-4583-8bfd-d6f58a315b1d
+    :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_d’action-61d45731
     :END:
     Le processus de nominalisation des  verbes repose principalement, à l’instar
     de la  grammaire Proto-Ñyqy dans  sa globalité, sur une  association desdits
@@ -1679,7 +1864,7 @@
 
 *** Nominalisation de participants
     :PROPERTIES:
-    :CUSTOM_ID: h-b684c923-a567-4e31-b752-bceeeb0ff202
+    :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-297bd24c
     :END:
     # - Describe the processes  (productive or not) that form a  noun from a verb.
     #   Include at least:
@@ -1692,44 +1877,44 @@
 
 **** Nominalisation d’agent
      :PROPERTIES:
-     :CUSTOM_ID: h-ff6d145d-fd8d-4423-b9f5-064cf9e1a1ac
+     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_d’agent-3bef0489
      :END:
 
 **** Nominalisation de patient
      :PROPERTIES:
-     :CUSTOM_ID: h-d0d91161-3748-4768-8990-b2d545fb397b
+     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_de_patient-438cdb63
      :END:
 
 **** Nominalisation d’instrument
      :PROPERTIES:
-     :CUSTOM_ID: h-033007d8-05a7-4a0e-a8da-ce922ac46f13
+     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_d’instrument-e873593e
      :END:
 
 **** Nominalisation de lieux
      :PROPERTIES:
-     :CUSTOM_ID: h-68161483-4469-43c3-b84c-24f50db51ffe
+     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_de_lieux-402c90d9
      :END:
 
 **** Nominalisation de produit
      :PROPERTIES:
-     :CUSTOM_ID: h-a7454e14-0dcb-4cf0-adc7-d44080f5f848
+     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_de_produit-7b0b639f
      :END:
 
 **** Nominalisation de façon de faire
      :PROPERTIES:
-     :CUSTOM_ID: h-11d9a04b-7fe3-4796-bc7e-fc19cd9fee7f
+     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_de_façon_de_faire-6d9c19fc
      :END:
 
 ** Composition (y compris l’incorporation)
    :PROPERTIES:
-   :CUSTOM_ID: h-b87bf07b-897a-4ed3-9bb3-9c4f6063402b
+   :CUSTOM_ID: Système_fonctionnel-Composition_(y_compris_l’incorporation)-cbcedd47
    :END:
    # - Can subject, object and/or nouns be incorporated into the verb?
    # - Are there verb-verb compounding processes that result in a verb?
 
 ** Temps, aspect, mode
    :PROPERTIES:
-   :CUSTOM_ID: h-7817ca1d-e3ad-48ed-8f79-9039e5c651c7
+   :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-744a8351
    :END:
    # - verbes
    #   - réel (Indicatif)
@@ -1779,7 +1964,7 @@
 
 *** Temps
     :PROPERTIES:
-    :CUSTOM_ID: h-8f9ad932-6d85-4ea3-b4d5-aada0f48e488
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Temps-d42d602f
     :END:
     # - Is  there  a  tense  system? How  does  it  operate?  Future/non-future,
     # past/non-past, past/present/future, or other? (You may want to treat these
@@ -1802,7 +1987,7 @@
 
 *** Aspects
     :PROPERTIES:
-    :CUSTOM_ID: h-ec16ad8f-69c7-44bc-ad20-da6d9188b3d1
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Aspects-d15008ac
     :END:
     # - How is aspect expressed?
     Le Proto-Ñyqy ne dispose que de deux aspects : le parfait et le progressif.
@@ -1813,7 +1998,7 @@
 
 *** Modes
     :PROPERTIES:
-    :CUSTOM_ID: h-c7d2c230-6431-42f5-bf7a-dd70e61499f3
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Modes-e1613bb2
     :END:
     # - Is there  a clear  dividing line between  tense/aspect and  mode (probably
     #   not)?
@@ -1849,7 +2034,7 @@
 
 *** Lieux/direction
     :PROPERTIES:
-    :CUSTOM_ID: h-94eb465d-d084-4d4b-9390-618ed43a4606
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Lieux-direction-e6bdf09c
     :END:
     # - Does  the  language  employ  verbal  affixes  or  verb-phrase  grammatical
     #   functors  that  specify  the  spatial  orientation  or  grounding  of  the
@@ -1857,7 +2042,7 @@
 
 *** Référence participante
     :PROPERTIES:
-    :CUSTOM_ID: h-1aa99e09-4706-4ede-8888-7aed826549dd
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Référence_participante-c6a093d5
     :END:
     # - Does the  language mark the person  and/or number of verbal  agreements or
     #   speech act participants on the verb?
@@ -1865,14 +2050,14 @@
 
 *** Évidentialité, validation et mirativité
     :PROPERTIES:
-    :CUSTOM_ID: h-52d58b47-a607-4f9b-9fa8-f960d3ab50cc
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Évidentialité,_validation_et_mirativité-eb31c3ca
     :END:
     # - Are    there   any    grammaticalized    indicators   of    evidentiality,
     #   validationality, or mirativity?
 
 *** Divers
     :PROPERTIES:
-    :CUSTOM_ID: h-552d73fa-eee2-46d8-9225-42431b4d7820
+    :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Divers-cecdf4de
     :END:
     # - Does  the language  have  any other  “miscellaneous”  verb or  verb-phrase
     #   operations?
@@ -1881,15 +2066,15 @@
 
 ** Structures marquées pragmatiquement
    :PROPERTIES:
-   :CUSTOM_ID: h-eaf98d70-ee47-43bc-92e3-425c940a4493
+   :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-12b54baf
    :END:
 *** La morphosyntaxe de l’attention, du contraste et du sujet
     :PROPERTIES:
-    :CUSTOM_ID: h-81bddead-67b2-4183-94a8-d9608c14c5ff
+    :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-326eb994
     :END:
 **** Variation d’ordre des constituants
      :PROPERTIES:
-     :CUSTOM_ID: h-6d3d502c-89da-4c88-9bb0-0e08fa3cced8
+     :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Variation_d’ordre_des_constituants-2df26773
      :END:
      # - Are  there special  devices for  indicating pragmatic  statuses in  basic
      #   clauses, e.g.  special constituent  orders, left-  and right-dislocation,
@@ -1900,7 +2085,7 @@
 
 **** Négation
      :PROPERTIES:
-     :CUSTOM_ID: h-0b72b283-9ce9-4078-8d44-e8cc85c554e1
+     :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Négation-8c50952b
      :END:
      # - What is the standard means of forming a negative clause in this language?
      # - What secondary strategies are there? When are they usedQ
@@ -1910,11 +2095,11 @@
 
 **** Actes de parole non-déclaratifs
      :PROPERTIES:
-     :CUSTOM_ID: h-926244cf-335f-4eb1-842d-05f483e791e3
+     :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Actes_de_parole_non-déclaratifs-67121b91
      :END:
 ***** Impératifs
       :PROPERTIES:
-      :CUSTOM_ID: h-857e4f5d-623e-4ea6-8263-96cd90b724dc
+      :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Actes_de_parole_non-déclaratifs-Impératifs-2d6a5e71
       :END:
       # - How are imperatives formned?
       # - Are  there   “polite”  imperatives   that  contrast  with   more  direct
@@ -1924,33 +2109,33 @@
 
 ***** Questions absolues
       :PROPERTIES:
-      :CUSTOM_ID: h-b273f0de-ba6d-49c7-9eba-c49dbb527d4b
+      :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Actes_de_parole_non-déclaratifs-Questions_absolues-eb265d3b
       :END:
       # - How are yes/no questions formed?
 
 ***** Questions relatives
       :PROPERTIES:
-      :CUSTOM_ID: h-3732004d-f013-4d12-bae8-ba1ed7359ece
+      :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Actes_de_parole_non-déclaratifs-Questions_relatives-fe7cc5a0
       :END:
       # - How are information questions formed?
 
 *** Particules contrastives et emphatiques
     :PROPERTIES:
-    :CUSTOM_ID: h-772ee454-b2dc-4461-b619-e1c60a2e9fdf
+    :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Particules_contrastives_et_emphatiques-d84e43c6
     :END:
 
 *** Motifs d’intonation contrastifs et emphatiques
     :PROPERTIES:
-    :CUSTOM_ID: h-9c0eda5f-2dd9-4011-aed5-07214524ab8d
+    :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Motifs_d’intonation_contrastifs_et_emphatiques-e025b201
     :END:
 
 ** Combinaison de clauses
    :PROPERTIES:
-   :CUSTOM_ID: h-60c13fa4-7a4a-44db-8ade-28e39243a390
+   :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-8fbe8cae
    :END:
 *** Verbes de série
     :PROPERTIES:
-    :CUSTOM_ID: h-42ff20dc-0552-463d-901c-997bb7f1b3f5
+    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Verbes_de_série-70c12171
     :END:
     # - Does  the langugae  have serial  verbs (or  “co-verbs” in  the East  Asian
     #   tradition)?
@@ -1961,7 +2146,7 @@
 
 *** Clauses complémentaires
     :PROPERTIES:
-    :CUSTOM_ID: h-56f6552e-6604-4dde-98cb-6286f3f6291e
+    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Clauses_complémentaires-0d63412c
     :END:
     # - What kinds of complement clause does the language have?
     # - Are  particular   complement  types  common  for   particular  classes  of
@@ -1971,7 +2156,7 @@
 
 *** Clauses adverbiales
     :PROPERTIES:
-    :CUSTOM_ID: h-69e269b0-ded6-4188-8fb2-869921f27375
+    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Clauses_adverbiales-626a0a60
     :END:
     # - How are adverbial clauses formed?
     # - What kinds  of adverbial  clauses are there,  e.g. time,  manner, purpose,
@@ -1986,7 +2171,7 @@
 
 *** Enchaînement de clauses, clauses médianes et changement de référence
     :PROPERTIES:
-    :CUSTOM_ID: h-2fe752f2-8586-4fd2-85de-a0f94f04be07
+    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Enchaînement_de_clauses,_clauses_médianes_et_changement_de_référence-52de737b
     :END:
     # - Does  the  language  have   any  grammaticalized  device  that  explicitly
     #   indicates whether a participant in one  clause is the same as or different
@@ -2009,7 +2194,7 @@
 
 *** Clauses relatives
     :PROPERTIES:
-    :CUSTOM_ID: h-a7892774-5608-47c3-a66a-fef0a11acea2
+    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Clauses_relatives-ff6172aa
     :END:
     # - What kind of relative clauses does the language have?
     #   - Prenominal?
@@ -2024,7 +2209,7 @@
 
 *** Coordination
     :PROPERTIES:
-    :CUSTOM_ID: h-1e8799b0-9cce-4bff-a5b2-f237ed0715fb
+    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Coordination-292a975a
     :END:
     # - How are the following kinds of logical relations between clauses typically
     #   expressed?
@@ -2034,11 +2219,11 @@
 
 ** Utilisation de la langue
    :PROPERTIES:
-   :CUSTOM_ID: h-410b5fac-bda1-4c79-9f74-9bd747666e2c
+   :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-dc6b8562
    :END:
 *** Continuité (cohésion) et discontinuité
     :PROPERTIES:
-    :CUSTOM_ID: h-0a5942b9-40eb-4289-bc48-c8e261d396e1
+    :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-a9e0512b
     :END:
     # - What are the discourse functions  of the various referential devices? That
     #   is,  which  code  highly  continuous  referents,  and  which  code  highly
@@ -2067,129 +2252,129 @@
 
 **** Continuité de sujet (référentiel)
      :PROPERTIES:
-     :CUSTOM_ID: h-48bbdda1-6153-4bb2-9329-41acb5ed4e16
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-Continuité_de_sujet_(référentiel)-c3c597fb
      :END:
 
 **** Continuité de thème
      :PROPERTIES:
-     :CUSTOM_ID: h-c101a6e6-3235-497c-93b0-8d1a33d6014b
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-Continuité_de_thème-c3ae30a2
      :END:
 
 **** Continuité d’action
      :PROPERTIES:
-     :CUSTOM_ID: h-98780284-20cb-4ddd-ac75-55454ac31dd1
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-Continuité_d’action-7d073fe4
      :END:
 
 **** Proéminence épisodique
      :PROPERTIES:
-     :CUSTOM_ID: h-d2e427d9-a12d-4930-ae84-b6f2e1db22e9
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-Proéminence_épisodique-f24d1d8e
      :END:
 ***** Apogée, point culminant
       :PROPERTIES:
-      :CUSTOM_ID: h-0a5068b2-1d91-4fa1-b8c6-163ceef8ded9
+      :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-Proéminence_épisodique-Apogée,_point_culminant-73e7cb43
       :END:
 
 ***** Intensification
       :PROPERTIES:
-      :CUSTOM_ID: h-c4f61aa8-4b31-49e4-87d3-222105840b36
+      :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Continuité_(cohésion)_et_discontinuité-Proéminence_épisodique-Intensification-63cece72
       :END:
 
 *** Genres
     :PROPERTIES:
-    :CUSTOM_ID: h-c001376f-4df2-4340-a181-62ab0e1eb645
+    :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-8e78f7ea
     :END:
     # - What discourse genre are demonstrably distinct in this language? Exemplify
     #   and discuss the significant characteristics for each.
 
 **** Conversation
      :PROPERTIES:
-     :CUSTOM_ID: h-93c266a5-2f68-4bce-9d28-4fd6ae52640d
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Conversation-5b251167
      :END:
 
 **** Narratif
      :PROPERTIES:
-     :CUSTOM_ID: h-0a1db1a3-6460-4f55-999b-28c0f4dad61b
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Narratif-b8de3897
      :END:
 ***** Expériences personnelles
       :PROPERTIES:
-      :CUSTOM_ID: h-098a7c39-cf64-4312-9b76-c2869e2da5de
+      :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Narratif-Expériences_personnelles-e7df11f3
       :END:
 
 ***** Historique
       :PROPERTIES:
-      :CUSTOM_ID: h-cc748a7e-07be-4a8e-b5fa-59273aeb307c
+      :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Narratif-Historique-b5956e99
       :END:
 
 ***** Histoires folkloriques
       :PROPERTIES:
-      :CUSTOM_ID: h-917be5b0-5b4e-4b21-a52e-e40131e09921
+      :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Narratif-Histoires_folkloriques-ab60b5a2
       :END:
 
 ***** Mythologie
       :PROPERTIES:
-      :CUSTOM_ID: h-6c431938-12f9-4d8a-89e0-a61a8aaeba3b
+      :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Narratif-Mythologie-dfea03fa
       :END:
 
 **** Pressant
      :PROPERTIES:
-     :CUSTOM_ID: h-068bfae1-e695-4d50-9ab4-dd7cb8bd07f3
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Pressant-1d775a1d
      :END:
 
 **** Procédural
      :PROPERTIES:
-     :CUSTOM_ID: h-f1217ba9-c667-460e-98a9-c57b8e4bf26b
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Procédural-ea3efb7a
      :END:
 
 **** Informatif
      :PROPERTIES:
-     :CUSTOM_ID: h-fceaaa34-b2ac-4296-a8d6-56d0cb5baa21
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Informatif-d584ceb4
      :END:
 
 **** Descriptif
      :PROPERTIES:
-     :CUSTOM_ID: h-62923698-ff3e-4d49-b0bc-7f51fc465733
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Descriptif-023b8206
      :END:
 
 **** Élocution rituelle
      :PROPERTIES:
-     :CUSTOM_ID: h-b437a999-0294-43a6-8752-ba282078c026
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Genres-Élocution_rituelle-5a5e1a18
      :END:
 *** Typologie lexicale
     :PROPERTIES:
-    :CUSTOM_ID: h-e6d10a54-078f-4cc0-8a07-28a6fed468ba
+    :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Typologie_lexicale-e4a133ec
     :END:
 **** Espace, directions et déplacements
      :PROPERTIES:
-     :CUSTOM_ID: h-997b8c61-cb5d-40f9-92c1-6e17cfaddce3
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Typologie_lexicale-Espace,_directions_et_déplacements-602bdeac
      :END:
 
 **** Causation
      :PROPERTIES:
-     :CUSTOM_ID: h-44afa9f9-5dc8-4883-90f5-a214b455eef9
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Typologie_lexicale-Causation-afd5cca5
      :END:
 
 **** Valence
      :PROPERTIES:
-     :CUSTOM_ID: h-39f2e9c1-f91f-4e64-b667-c89a3c9edf77
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Typologie_lexicale-Valence-5eab68c8
      :END:
 
 **** Prépondérance des caractéristiques sémantiques
      :PROPERTIES:
-     :CUSTOM_ID: h-5ab18e70-8101-417d-be7e-1d87cb85a6ed
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Typologie_lexicale-Prépondérance_des_caractéristiques_sémantiques-c033eaeb
      :END:
 
 *** Divers et conclusions
     :PROPERTIES:
-    :CUSTOM_ID: h-ee4f1d3a-b677-450c-ae7e-0058b3951ad0
+    :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Divers_et_conclusions-abb717ae
     :END:
 **** Expressions idiomatiques et proverbes
      :PROPERTIES:
-     :CUSTOM_ID: h-f4be97ec-4df3-40e2-ae76-73ddf08134a1
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Divers_et_conclusions-Expressions_idiomatiques_et_proverbes-a953551d
      :END:
 
 **** Symbolisme sonore
      :PROPERTIES:
-     :CUSTOM_ID: h-5556ebe6-940e-40ee-8a97-c2bfd6c0e9e1
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Divers_et_conclusions-Symbolisme_sonore-19f212be
      :END:
      # - Does the language make extensive and productive use of sound symbolism?
      # - What are some common ideophones?
@@ -2199,7 +2384,7 @@
 
 **** Découvertes typologiques
      :PROPERTIES:
-     :CUSTOM_ID: h-e7e10073-62f0-443e-83d1-6db24687d7bb
+     :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-Divers_et_conclusions-Découvertes_typologiques-5f3f1937
      :END:
      # - What are the features of this language that are particularly interesting?
      # - What typological surprises does it present?
@@ -2216,99 +2401,22 @@
 
 * Annexes
   :PROPERTIES:
-  :CUSTOM_ID: h-59ac4fcd-251d-492e-a73d-e33376457058
+  :CUSTOM_ID: Annexes-455fb685
   :END:
 ** Textes avec traduction interlinéaire
    :PROPERTIES:
-   :CUSTOM_ID: h-a0d083dc-a30f-47eb-8d24-cde1c259d9d9
+   :CUSTOM_ID: Annexes-Textes_avec_traduction_interlinéaire-00034e7a
    :END:
 
-** Nombres
-   :PROPERTIES:
-   :CUSTOM_ID: h-397983ed-28e5-44c3-afb9-04403aa52e2a
-   :END:
-   Les locuteurs  du Proto-Ñyqy comptaient  dans un mélange  de base 6  pour les
-   unités et de base 12 pour le reste.  Ainsi, les unités seront notées de /0/ à
-   /6/ dans le script  latin, et de /1/ à /b/ pour les  éléments plus élevés. La
-   méthode de calcul  pour passer du système numérique Proto-Ñyqy  à la base dix
-   et vice-versa suit le procédé suivant :
-
-   Chaque chiffre écrit avec notre alphabet a une position, la première position
-   étant celle  qui se  situe le plus  à droite et  représentant les  unités. Le
-   premier  chiffre  venant à  sa  gauche,  représentant  les sixaines,  est  en
-   deuxième position, et ainsi de suite.  Ainsi, pour représenter le poids d’une
-   unité selon son positionnement, nous avons ces deux lignes :
-   - /P_{1} = 1/
-   - /P_{n} = 12^{n−2}×6/
-
-   Pour avoir un exemple  un peu plus visuel, ce tableau donne  un exemple de la
-   position de quelques éléments, leur poids avant calcul et leur poids réel.
-   | <l>      |       <c>        | <c> |   <c>    | <c>  | <c> | <c> |
-   | position |        n         |  …  |    4     |  3   |  2  |  1  |
-   |----------+------------------+-----+----------+------+-----+-----|
-   | calcul   | P_{n}=12^{n-2}×6 |  …  | 12^{2}×6 | 12×6 | 1×6 |  1  |
-   | poids    |        …         |  …  |   864    |  72  |  6  |  1  |
-
-   Voici un tableau plus compréhensif,  donnant la correspondance Proto-Ñyqy des
-   nombres  exposés.  Notez  qu’en  dehors   des  unités,  le  zéro  n’a  qu’une
-   utilisation  d’illustration de  l’abscence d’une  value dans  cette position.
-   Comme attesté  dans les premiers  systèmes d’écriture évolués plus  tard, les
-   langues de la famille Ñyqy  ont une notation non-positionnelle, contrairement
-   à notre système d’écriture.
-   |  <c5>   |                <c5>                |          <c5>           |
-   |    /    |                 <>                 |           <>            |
-   | nombre  | nombre (représentation Proto-Ñyqy) |       Proto-Ñyqy        |
-   |---------+------------------------------------+-------------------------|
-   |    0    |                 0                  |        {{{nyqy(pe)}}}         |
-   |    1    |                 1                  |        {{{nyqy(mi)}}}         |
-   |    2    |                 2                  |        {{{nyqy(qi)}}}         |
-   |    3    |                 3                  |        {{{nyqy(né)}}}         |
-   |    4    |                 4                  |        {{{nyqy(gé)}}}         |
-   |    5    |                 5                  |        {{{nyqy(co)}}}         |
-   |    6    |                1-0                 | {{{nyqy(mi ñy)}}} ou {{{nyqy(ñy)}}} |
-   |    7    |                1-1                 |       {{{nyqy(ñy mi)}}}       |
-   |    8    |                1-2                 |       {{{nyqy(ñy qi)}}}       |
-   |    9    |                1-3                 |       {{{nyqy(ñy né)}}}       |
-   |   10    |                1-4                 |       {{{nyqy(ñy gé)}}}       |
-   |   11    |                1-5                 |       {{{nyqy(ñy co)}}}       |
-   |   12    |                2-0                 |       {{{nyqy(qi ñy)}}}       |
-   |   18    |                3-0                 |       {{{nyqy(né ñy)}}}       |
-   |   24    |                4-0                 |       {{{nyqy(gé ñy)}}}       |
-   |   30    |                5-0                 |       {{{nyqy(co ñy)}}}       |
-   |   36    |                6-0                 |     {{{nyqy(pe ñy ñy)}}}      |
-   |   42    |                7-0                 |     {{{nyqy(mi ñy ñy)}}}      |
-   |   48    |                8-0                 |     {{{nyqy(qi ñy ñy)}}}      |
-   |   54    |                9-0                 |     {{{nyqy(né ñy ñy)}}}      |
-   |   60    |                a-0                 |     {{{nyqy(gé ñy ñy)}}}      |
-   |   66    |                b-0                 |     {{{nyqy(co ñy ñy)}}}      |
-   |   72    |               1-0-0                | {{{nyqy(mi mó)}}} ou {{{nyqy(mó)}}} |
-   |   432   |               6-0-0                |     {{{nyqy(pe mó mó)}}}      |
-   |   864   |              1-0-0-0               | {{{nyqy(mi si)}}} ou {{{nyqy(si)}}} |
-   |  10368  |             1-0-0-0-0              |        {{{nyqy(gec)}}}        |
-   | 124416  |            1-0-0-0-0-0             |       {{{nyqy(cójm)}}}        |
-   | 1492992 |           1-0-0-0-0-0-0            |        {{{nyqy(ñuñ)}}}        |
-
-   Comme vous pouvez le voir, afin d’exprimer des bases plus élevées, l’ordre de
-   grandeur est répété  afin d’ajouter cinq au  multiplicateur, permettant ainsi
-   une base douze pour ce qui n’est pas des unités.
-
-   Voici un exemple ci-dessous de la notation de 14873 en Proto-Ñyqy:
-   |    <c>    |     <c>     |     <c>     |      <c>       |   <c>    |
-   | {{{nyqy(gec)}}} | {{{nyqy(co si)}}} | {{{nyqy(qi mó)}}} | {{{nyqy(ge ñy ñy)}}} | {{{nyqy(né)}}} |
-   | 12^{3}×6  | 5×12^{2}×6  | 2×12^{1}×6  | (6+4)×12^{0}×6 |    3     |
-   |   10368   |    4320     |     144     |       60       |    3     |
-   Ainsi, 14875 se traduit par {{{nyqy(gec co si qi mó ge ñy ñy né)}}}. Il est à noter
-   toutefois que  le terme  se coupera  en deux, laissant  {{{nyqy(né)}}} seul,  si le
-   nombre s’applique à un nom. Voir [[#h-26b82cb5-1316-46cb-b9c5-279bbded3cc5]].
 
 * Dictionnaire
   :PROPERTIES:
-  :CUSTOM_ID: h-33a20978-20d6-4a26-8286-016d6c64b654
+  :CUSTOM_ID: Dictionnaire-60a099b4
   :END:
   src_latex{\setlist[description]{style=nextline}}
 ** B
    :PROPERTIES:
-   :CUSTOM_ID: h-1bcc278b-1391-4817-8b0d-3318dcf2e2d3
+   :CUSTOM_ID: Dictionnaire-B-ae79d268
    :END:
    - {{{nyqy(beñ)}}} ::
      1. (n) dents
@@ -2317,24 +2425,20 @@
      1. (n) morsure
      2. (vt) mordre
    - {{{nyqy(bó)}}} :: Voir /bóc/
-     1. (art def) le, la, les, article défini
+     1. (art.def) le, la, les, article défini
    - {{{nyqy(bóc)}}} ::
-     1. (pron.dem) ceci, ça, démonstratif de proximité
+     1. (pron.dem) ceci, ça, démonstratif de proximité avec le locuteur
    - {{{nyqy(bú)}}} ::
      1. (pron) deuxième personne
 
 ** C
    :PROPERTIES:
-   :CUSTOM_ID: h-fb76cf3b-d664-4ab6-9531-320d0b8f0807
+   :CUSTOM_ID: Dictionnaire-C-29dc766b
    :END:
    - {{{nyqy(cé)}}} ::
      1. (poss) mon, ma, mes, possesseur de la première personne
    - {{{nyqy(co)}}} ::
      1. (nbr) cinq
-   - {{{nyqy(coj)}}} ::
-     1. (gp) façon d’être, d’exister, comparatif qualitatif, équatif. Particule
-        grammaticale, graphème lié, voir
-        §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
    - {{{nyqy(coge)}}} ::
      1. (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
    - {{{nyqy(cope)}}} ::
@@ -2343,8 +2447,7 @@
    - {{{nyqy(coq)}}} ::
      1. (vt) manger
    - {{{nyqy(cójm)}}} ::
-     1. (nbr) marqueur de 100000_{6}. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+     1. (nbr) marqueur de 100000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
    - {{{nyqy(cosu)}}} ::
      1. (n) entièreté
      2. (adv) tout, entièrement
@@ -2356,24 +2459,23 @@
 
 ** E
    :PROPERTIES:
-   :CUSTOM_ID: h-24fbc9df-934e-4372-a1ff-236b65d37632
+   :CUSTOM_ID: Dictionnaire-E-54360434
    :END:
    - {{{nyqy(eco)}}} ::
      1. (n) grain commmestible, riz, blé
    - {{{nyqy(es)}}} ::
-     1. (n) sèchereses
-     2. (adj) sec
-     3. (adj) aride
+     1. (n) sècheresse
+     2. (n) quelque chose de sec, d’aride
    - {{{nyqy(ezp)}}} ::
      1. (n) ouvrage, travail
      2. (vi) travailler
 
 ** É
    :PROPERTIES:
-   :CUSTOM_ID: h-beac2e71-9160-4fa9-b997-2aebe49c03b1
+   :CUSTOM_ID: Dictionnaire-É-00657cfe
    :END:
    - {{{nyqy(éc)}}} ::
-     1. (part) particule de négation
+     1. (gp) particule de négation
    - {{{nyqy(ég)}}} ::
      1. (vt) aimer, apprécier
    - {{{nyqy(éméz)}}} ::
@@ -2381,8 +2483,8 @@
    - {{{nyqy(émpé)}}} :: Voir /éméz/ et /épéq/
      1. (n) maternité, paternité
    - {{{nyqy(émpécoj)}}} :: Voir /émpé/ et /coj/
-     1. (adj) maternel, paternel, parental
-     2. (adj) protecteur
+     1. (n) comportement parental, maternel, paternel
+     2. (n) comportement protecteur
    - {{{nyqy(épéq)}}} ::
      1. (n) père, papa
    - {{{nyqy(éqcó)}}} ::
@@ -2390,27 +2492,26 @@
 
 ** G
    :PROPERTIES:
-   :CUSTOM_ID: h-32095317-7c5b-4d33-a673-fddce4dec0e6
+   :CUSTOM_ID: Dictionnaire-G-5a9af03c
    :END:
    - {{{nyqy(ge)}}} ::
      1. (gp.PST) marqueur du passé
    - {{{nyqy(gec)}}} ::
-     1. (nbr) marqueur de 10000_{6}. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+     1. (nbr) marqueur de 10000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
    - {{{nyqy(gez)}}} ::
      1. (n) aggression
      2. (vt) attaquer, agresser
    - {{{nyqy(gé)}}} ::
      1. (nbr) quatre
    - {{{nyqy(goñ)}}} ::
-     1. (adj) grand, gros, large
+     1. (n) quelque chose de grand, gros, large
      2. (vi) grossir
    - {{{nyqy(gó)}}} ::
      1. (vt) boire
 
 ** I
    :PROPERTIES:
-   :CUSTOM_ID: h-3f1fd2e3-6863-4eef-89a8-7aab21873f87
+   :CUSTOM_ID: Dictionnaire-I-a81a4697
    :END:
    - {{{nyqy(i)}}} :: Voir /mi/
      1. (art indef) un, une, des, article defini
@@ -2421,16 +2522,19 @@
      1. (n) chemin, route, voie
      2. (vi) voyager
    - {{{nyqy(im)}}} ::
-     1. (part) Marqueur du datif
+     1. (gp) Marqueur du datif
    - {{{nyqy(is)}}} ::
      1. particule du *causatif*
 
 ** J
    :PROPERTIES:
-   :CUSTOM_ID: h-6994b4f8-111e-4ae4-897f-da26dc34e68e
+   :CUSTOM_ID: Dictionnaire-J-88f57f6a
    :END:
    - {{{nyqy(jéq)}}} ::
      1. (vt) pousser
+   - {{{nyqy(jó)}}} ::
+     1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs,
+        l’élément n’est pas visible.
    - {{{nyqy(jójpyg)}}} ::
      1. (n) plume
    - {{{nyqy(josgé)}}} ::
@@ -2438,16 +2542,18 @@
      2. (n) amulette
    - {{{nyqy(juc)}}} ::
      1. (n) bonté, bienfaisance
-     2. (adj) moralement bon, bienfaisant
+     2. (n) quelque chose de moralement bon, bienfaisant
    - {{{nyqy(jucú)}}} ::
      1. (n) peau
      2. (n) écorce
    - {{{nyqy(juzib)}}} ::
      1. (n) chair, viande comestible
+   - {{{nyqy(jy)}}} ::
+     1. (n) fin, dernier
 
 ** M
    :PROPERTIES:
-   :CUSTOM_ID: h-eb766e30-8f82-4df0-b912-978542459362
+   :CUSTOM_ID: Dictionnaire-M-cccfd958
    :END:
    - {{{nyqy(meb)}}} ::
      1. (n) terre (matière)
@@ -2469,26 +2575,24 @@
    - {{{nyqy(mij)}}} ::
      1. (n) cendres
      2. (n) fumée
-     3. (adj) cendré
+     3. (n) cendré (couleur)
    - {{{nyqy(mijoñ)}}} :: Voir /goñ/ et /mij/
      1. (n) Lune majeur, grande lune, litt. « grande cendrée »
    - {{{nyqy(misij)}}} :: Voir /si/ et /mij/
      1. (n) Lune mineure, petite lune, litt. « petite cendrée »
    - {{{nyqy(mó)}}} ::
-     1. (nbr) marqueur de 100_{6}. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+     1. (nbr) marqueur de 100_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
    - {{{nyqy(músq)}}} ::
      1. (n) maison (bâtiment), habitation
    - {{{nyqy(muz)}}} ::
      1. (n) rouge, pourpre
      2. (n) fruit rouge
-     3. (adj) rouge, pourpre
    - {{{nyqy(mygú)}}} ::
      1. (n) singe
 
 ** N
    :PROPERTIES:
-   :CUSTOM_ID: h-6a9fafb9-36e9-4303-be86-f294349f4379
+   :CUSTOM_ID: Dictionnaire-N-0ef6f2af
    :END:
    - {{{nyqy(ne)}}} ::
      1. (nbr) zéro, rien
@@ -2499,17 +2603,17 @@
      1. (nbr) trois
    - {{{nyqy(noc)}}} ::
      1. (n) vieillesse, grand âge
-     2. (adj) vieux, âgé
+     2. (n) quelque chose de vieux, d’ancien, de grand âge
    - {{{nyqy(nó)}}} ::
      1. (n) poitrine, seins (attribut féminin)
-     2. (adj) maternité
-     3. (adj) fertilité
+     2. (n) maternité
+     3. (n) fertilité
    - {{{nyqy(nócpi)}}} ::
      1. ensuite, puis, à côté, depuis
 
 ** Ñ
    :PROPERTIES:
-   :CUSTOM_ID: h-628010b2-9646-4886-9750-ba3c27096c15
+   :CUSTOM_ID: Dictionnaire-Ñ-ff7a574f
    :END:
    - {{{nyqy(ñe)}}} ::
      1. (n) maison
@@ -2527,17 +2631,15 @@
    - {{{nyqy(ñuné)}}} :: Voir aussi /wéz/
      1. (n) dieu terrestre, divinité, être supérieur
    - {{{nyqy(ñuñ)}}} ::
-     1. (nbr) marqueur de 1000000_{6}. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+     1. (nbr) marqueur de 1000000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
    - {{{nyqy(ñy)}}} ::
      1. (pron) première personne
-     2. (nbr) six, marqueur des sixaines. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
-     3. (adj) beaucoup
+     2. (nbr) six, marqueur des sixaines. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
+     3. (n) quelque chose d’important en nombre
 
 ** O
    :PROPERTIES:
-   :CUSTOM_ID: h-b16799c3-1aa3-48a6-a984-7d201564b8ba
+   :CUSTOM_ID: Dictionnaire-O-cf8f0e3f
    :END:
    - {{{nyqy(oñ)}}} ::
      1. (n) nez
@@ -2546,16 +2648,16 @@
 
 ** Ó
    :PROPERTIES:
-   :CUSTOM_ID: h-4be4efa4-8b9b-4267-812c-1872856eee41
+   :CUSTOM_ID: Dictionnaire-Ó-0c780f53
    :END:
    - {{{nyqy(ócqi)}}} ::
      1. (vt) porter. Voir aussi /éqcó/
    - {{{nyqy(ón)}}} ::
-     1. (part) marqueur du locatif
+     1. (gp) marqueur du locatif
 
 ** P
    :PROPERTIES:
-   :CUSTOM_ID: h-209478fb-1630-463b-bc8e-68c6cf676b3c
+   :CUSTOM_ID: Dictionnaire-P-2b7ab301
    :END:
    - {{{nyqy(péj)}}} ::
      1. (n) poisson d’eau douce
@@ -2564,16 +2666,18 @@
    - {{{nyqy(pim)}}} ::
      1. (n) pomme
    - {{{nyqy(pom)}}} ::
-     1. (part) particule génitive
+     1. (gp) particule génitive
    - {{{nyqy(púmój)}}} ::
      1. (n) poisson d’eau de mer
    - {{{nyqy(póweq)}}} ::
      1. (n) griffe
      2. (n) pendentif, bijou
+   - {{{nyqy(pu)}}} ::
+     1. (pron.dem) pronom démonstratif de proximité avec l’interlocuteur
 
 ** Q
    :PROPERTIES:
-   :CUSTOM_ID: h-5bc02c6b-5dce-4194-a768-1075166957b0
+   :CUSTOM_ID: Dictionnaire-Q-b1ec8323
    :END:
    - {{{nyqy(qe)}}} ::
      1. (n) œil
@@ -2582,57 +2686,58 @@
      1. (vi) partir, quitter
    - {{{nyqy(qéy)}}} ::
      1. (n) chaleur
-     2. (adj) chaud
    - {{{nyqy(qéysó)}}} :: Voir /qey/ et /só/
      1. (vt) chauffer, réchauffer, cuire
    - {{{nyqy(qi)}}} ::
      1. (nbr) deux
+   - {{{nyqy(qomy)}}} ::
+     1. (n) solitude, seul
+     2. (n) individualité, individuel
    - {{{nyqy(qój)}}} ::
      1. (vi) dormir
    - {{{nyqy(qóñ)}}} ::
-     1. vache, buffle, bétail
+     1. (n) vache, buffle, bétail
+   - {{{nyqy(qujm)}}} ::
+     1. (n) position
+     2. (n) numéro (ordinal)
    - {{{nyqy(qun)}}} ::
      1. (gp.OPT) particule grammaticale marquant l’optatif
    - {{{nyqy(qúzb)}}} ::
      1. (n) tête
      2. (n) intelligence
    - {{{nyqy(qy)}}} ::
-     1. (nbr) six, première sixaine. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]]
+     1. (nbr) six, première sixaine. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
 
 ** S
    :PROPERTIES:
-   :CUSTOM_ID: h-2799fac1-a6f4-4073-9bbd-081e4b5c0f24
+   :CUSTOM_ID: Dictionnaire-S-e9e187ae
    :END:
    - {{{nyqy(si)}}} ::
-     1. (nbr) marqueur de 1000_{6}. Voir
-        §[[#h-397983ed-28e5-44c3-afb9-04403aa52e2a]].
+     1. (nbr) marqueur de 1000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
    - {{{nyqy(séc)}}} :: Voir /sy/ et /éc/
      1. (n) mort
-     2. (adj) mort
    - {{{nyqy(sége)}}} ::
      1. (adj) bon (goût), délicieux
    - {{{nyqy(séwe)}}} ::
      1. (n) porte, voile de tissu utilisé à l’entrée des maisons
      2. (n) tissu
    - {{{nyqy(si)}}} ::
-     1. (adj) petit
+     1. (n) quelque chose de petit, de petite taille
    - {{{nyqy(sisp)}}} ::
      1. (adj) bon, correct, bien (sans jugement moral)
    - {{{nyqy(so)}}} ::
      1. (n) feu
-     2. (adj) brûlant
-     3. (adj) brillant (chaud)
+     2. (n) quelque chose de brûlant
+     3. (n) quelque chose de brillant, émanant de la chaleur
    - {{{nyqy(sosó)}}} :: Voir /so/
      1. (vi) brûler
      2. (vi) illuminer, allumer, briller (chaud)
    - {{{nyqy(só)}}} ::
-     1. façon de faire, manière de faire, d’agir. Graphème lié, voir
-        §[[#h-6abaae53-a2b8-4cc1-aa03-10c8b4a45b0a]].
+     1. (gp) façon de faire, manière de faire, d’agir. Graphème lié, voir
+        [[#Aperçu_structurel-Structure_d’un_groupe_nominal-Dénominalisation-edce8307][Dénominalisation]].
    - {{{nyqy(sóñ)}}} ::
      1. (n) nuage
-     2. (adj) nuageux
-     3. (adj) couvert (temps)
+     2. (n) ciel couvert
    - {{{nyqy(sun)}}} ::
      1. (n) graine (général). Voir aussi /eco/
    - {{{nyqy(sú)}}} ::
@@ -2651,10 +2756,9 @@
    - {{{nyqy(syjéqsó)}}} :: Voir /sujéq/ et /só/
      1. (n) souffle
      2. (n) vent
-     3. (adj) fraîcheur, froid
+     3. (n) brise, vent frais
    - {{{nyqy(syg)}}} ::
      1. (n) beauté
-     2. (adj) beau
    - {{{nyqy(sysó)}}} ::
      1. (vi) vivre, respirer
    - {{{nyqy(sywéqun)}}} :: Voir /sywéz/ et /qun/
@@ -2667,7 +2771,7 @@
 
 ** U
    :PROPERTIES:
-   :CUSTOM_ID: h-319f1418-eefb-4a02-9b0e-7b3dd56c20e4
+   :CUSTOM_ID: Dictionnaire-U-fa109e34
    :END:
    - {{{nyqy(uñ)}}} ::
      1. (n) pied
@@ -2678,7 +2782,7 @@
 
 ** Ú
    :PROPERTIES:
-   :CUSTOM_ID: h-ac099677-5362-44b9-8fe3-f37d5624b327
+   :CUSTOM_ID: Dictionnaire-Ú-c35e6434
    :END:
    - {{{nyqy(újq)}}} ::
      1. (n) puissance, force mentale, majestuosité
@@ -2687,12 +2791,11 @@
 
 ** W
    :PROPERTIES:
-   :CUSTOM_ID: h-204045c9-4949-4ded-b8cb-8ba95f7df25f
+   :CUSTOM_ID: Dictionnaire-W-ea0cd36f
    :END:
    - {{{nyqy(wéz)}}} ::
-     1. (n) divinité suprême, dieu céleste, être supérieur. Voir aussi /ñuné/.
-     2. (adj) divin (implicitement de divinité suprême), créateur (implicitement
-        magique), supérieur
+     1. (n) divinité suprême, dieu céleste, être supérieur, créateur. Voir aussi
+        /ñuné/.
    - {{{nyqy(won)}}} ::
      1. (vt) voler, nager, se déplacer.
 
@@ -2701,12 +2804,10 @@
         déplace dans l’eau douce ».
    - {{{nyqy(wóseq)}}} ::
      1. (n) voisin
-     2. (adj) proche
-     3. (adj) voisin
+     2. (n) quelque chose de proche
    - {{{nyqy(wó)}}} ::
      1. (n) humain
-     2. (adj) d’apparence humaine
-     3. (adj) de comportement humain
+     2. (n) quelque chose d’apparence ou de comportement humain
    - {{{nyqy(wócosu)}}} :: Voir /wó/ et /cosu/
      1. (n) humanité, tous les humains
    - {{{nyqy(wóq)}}} ::
@@ -2716,7 +2817,7 @@
 
 ** Y
    :PROPERTIES:
-   :CUSTOM_ID: h-f271b8af-6237-448b-90be-d4daa0afbf1c
+   :CUSTOM_ID: Dictionnaire-Y-a217cb68
    :END:
    - {{{nyqy(yc)}}} ::
      1. (n) eau douce
@@ -2732,34 +2833,36 @@
      2. (n) veine, artère
    - {{{nyqy(ycoj)}}} ::
      1. (n) liquide
-     2. (adj) aqueux, liquide
-     3. (adj) bénéfacteur, bon
-   - {{{nyqy(ycmuj)}}} :: Voir /yc/ et /cojmuj/
+     2. (n) quelque chose de liquide ou d’aqueux
+     3. (n) quelque chose de bénéfacteur
+   - {{{nyqy(ycmuz)}}} :: Voir /yc/ et /muz/
      1. (n) sang
    - {{{nyqy(ycuñ)}}} ::
      1. (n) flot, courant (par ex. d’eau)
      2. (vi) couler (de l’eau)
+   - {{{nyqy(yq)}}} ::
+     1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs, mais
+        l’élément reste visible.
    - {{{nyqy(yzm)}}} ::
      1. (n) main
      2. (n) feuille
 
 ** Z
    :PROPERTIES:
-   :CUSTOM_ID: h-3f05fb02-9578-44cf-952d-e9e2d71cee54
+   :CUSTOM_ID: Dictionnaire-Z-144a2853
    :END:
    - {{{nyqy(zé)}}} ::
      1. (pron) Pron.Pers.3sg, il, elle
    - {{{nyqy(zi)}}} ::
      1. (n) mouche
      2. (n) moustique
-     3. (adj) agaçant (son), similaire au bruit d’un moustique ou d’une mouche.
+     3. (n) son agaçant, similaire au bruit d’un insecte (moustique, mouche)
    - {{{nyqy(zic)}}} ::
      1. (n) chair, viande non comestible
    - {{{nyqy(zoc)}}} ::
      1. (n) tête
      2. (n) chef, patriarche, matriarche
      3. (n) sommet d’une montagne
-     4. (adj) haut, élevé
    - {{{nyqy(zocséwe)}}} :: Voir /zoc/ et /séwe/
      1. (n) voile ou châle porté autour de la tête. Litt. « tissu de tête »
    - {{{nyqy(zó)}}} ::
@@ -2769,7 +2872,6 @@
      1. (n) chose, objet abstrait
    - {{{nyqy(zuj)}}} ::
      1. (n) nuit, noir, ombre
-     2. (adj) noir, sombre
    - {{{nyqy(zúmu)}}} ::
      1. (vi) voir. L’élément vu est passé au verbe comme un argument datif.
         Exemple :
@@ -2779,7 +2881,7 @@
 
 * Notes                                                            :noexport:
   :PROPERTIES:
-  :CUSTOM_ID: h-1905bd91-a4c5-4b60-acea-5ed10bc655af
+  :CUSTOM_ID: Notes-a32a1ab0
   :END:
   À corriger :
   - ñy = 6
@@ -2787,13 +2889,13 @@
 
 ** General ideas
    :PROPERTIES:
-   :CUSTOM_ID: h-d297914e-caf8-4ba0-8fb8-adffcaff38f7
+   :CUSTOM_ID: Notes-General_ideas-78dd1a37
    :END:
    Utiliser la terminaison en /m/ pour transformer un nom en verbe
 
 ** Proto-Ñyqy syntax
    :PROPERTIES:
-   :CUSTOM_ID: h-cd39b6f7-85e0-4168-a89d-829fa1dec5c3
+   :CUSTOM_ID: Notes-Proto-Ñyqy_syntax-f4a6275d
    :END:
    Prep ⊃ ((NDem ∨ NNum ∨ NPoss ⊃ NAdj) & (NAdj ⊃ NGen) & (NGen ⊃ NRel))
    Posp ⊃ ((AdjN ∨ RelN ⊃ DemN & NumN & PossN) & (DemN ∨ NumN ∨ PossN ⊃ GenN))
@@ -2808,8 +2910,8 @@
 
      Shape et Material => GEN, Origin => LOC, Purpose => INST
 
-     | ycoj  | pim   | még  | goñ    | ñy        | cojmuj |
-     | bonne | pomme | très | grosse | nombreuse | rouge  |
+     | ycoj  | pim   | még  | goñ    | ñy        | muz   |
+     | bonne | pomme | très | grosse | nombreuse | rouge |
    - NRel
 
      pomme que je mange
@@ -2861,71 +2963,71 @@
 
 * Choses à faire [2/4]                                             :noexport:
   :PROPERTIES:
-  :CUSTOM_ID: h-66fbd617-f391-47d6-b3ea-06ffe259deee
+  :CUSTOM_ID: Choses_à_faire_[2-4]-fc53373e
   :END:
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup
 #+BEGIN_SRC text :exports none
-  --CATEGORIES--
-  A=qgcjñmnszpbw
-  B=qgcjñmnszpb
-  V=óéoe
-  W=úuyi
-  C=jczs
-  P=mbpgq
+--CATEGORIES--
+A=qgcjñmnszpbw
+B=qgcjñmnszpb
+V=óéoe
+W=úuyi
+C=jczs
+P=mbpgq
 
-  --REWRITE--
+--REWRITE--
 
-  --MONO--
-  AV
-  BW
-  AVB
-  BWB
-  VB
-  WB
-  AVCP
-  BWCP
-  VCP
-  WCP
+--MONO--
+AV
+BW
+AVB
+BWB
+VB
+WB
+AVCP
+BWCP
+VCP
+WCP
 
-  --MID--
-  AV
-  BW
-  CPV
-  CPW
-  V
-  W
-  --INIT--
-  AV
-  BW
+--MID--
+AV
+BW
+CPV
+CPW
+V
+W
+--INIT--
+AV
+BW
 
-  --FINAL--
-  AV
-  BW
-  CPV
-  CPW
-  AVB
-  BWB
-  CPVB
-  CPWB
-  AVCP
-  BWCP
-  CPVCP
-  CPWCP
-  --FLAGS--
-  0 1 monoMostly dropoffMolasses
-  --ADVANCED--
-  10
-  150
-  750
-  30
-  ||
+--FINAL--
+AV
+BW
+CPV
+CPW
+AVB
+BWB
+CPVB
+CPWB
+AVCP
+BWCP
+CPVCP
+CPWCP
+--FLAGS--
+0 1 monoMostly dropoffMolasses
+--ADVANCED--
+10
+150
+750
+30
+||
 #+END_SRC
 
 ** DONE corriger ~conlang/nyqy-to-phonetics~
    CLOSED: [2020-01-29 mer. 21:27]
    :PROPERTIES:
-   :CUSTOM_ID: h-ad2defa0-828a-4670-ba21-539b26e76a4f
+   :CUSTOM_ID: Choses_à_faire-corriger_~conlang-nyqy-to-phonetics~-86bc9830
    :END:
    Si un  terme commence  avec une  voyelle, la  première consonne  est d’office
    mutée.  Elle  ne devrait  pas  l’être.  Exemple :  {{{nyqy(oñ)}}} a  la  phonétique
@@ -2934,7 +3036,7 @@
 ** DONE améliorer l’apparence des termes du dictionnaire en LaTeX
    CLOSED: [2020-01-29 mer. 12:48]
    :PROPERTIES:
-   :CUSTOM_ID: h-12ff10de-1093-4bb8-9805-e1af0b7d9a55
+   :CUSTOM_ID: Choses_à_faire-améliorer_l’apparence_des_termes_du_dictionnaire_en_LaTeX-80e9fd03
    :END:
    Il faudrait  trouver un  moyen pour  que, comme sur  l’export HTML,  le terme
    Proto-Ñyqy et sa phonétique soient sur une ligne différente de la définition,
@@ -2942,13 +3044,13 @@
 
 ** TODO Compléter la liste Swadesh [1/3]
    :PROPERTIES:
-   :CUSTOM_ID: h-32a2f3e6-0d2d-4693-99d8-d912446ddedf
+   :CUSTOM_ID: Choses_à_faire-Compléter_la_liste_Swadesh_[1-3]-00c5cde8
    :END:
    Compléter la liste du fichier [[file:swadesh.org::#h-a5b4a65c-68ab-4630-b054-da816d679cfd][Swadesh#Ñyqy]].
 
 ** TODO Simplifier les fonctions du layer ~conlanging~
    :PROPERTIES:
-   :CUSTOM_ID: h-b6fca087-e439-4bdf-bd26-43803d424a40
+   :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-ce95e0c6
    :END:
    Vu que je viens enfin de comprendre l’utilisation de ~&optional~ en Elisp, il
    serait temps de  simplifier les fonctions et réduire le  nombre d’entre elles
@@ -2957,22 +3059,22 @@
 *** DONE dot tree
     CLOSED: [2020-01-29 mer. 21:50]
     :PROPERTIES:
-    :CUSTOM_ID: h-8c9a529a-ab9b-4576-9d10-7f5147250219
+    :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-dot_tree-f5d38d5c
     :END:
 
 *** TODO Eittlandais vers Runes
     :PROPERTIES:
-    :CUSTOM_ID: h-1b1958f9-fb8c-4a0b-b6c2-fadefa2d4826
+    :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-Eittlandais_vers_Runes-f13362f8
     :END:
 
 *** TODO Mattér vers Runes
     :PROPERTIES:
-    :CUSTOM_ID: h-89d977fc-4308-4187-b438-1aab2ac301a2
+    :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-Mattér_vers_Runes-b269eb6c
     :END:
 
 * Footnotes
   :PROPERTIES:
-  :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
+  :CUSTOM_ID: Footnotes-6126f0eb
   :END:
 
 [fn:4] https://en.wikipedia.org/wiki/Interlinear_gloss
