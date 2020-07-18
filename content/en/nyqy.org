@@ -8,6 +8,7 @@
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../css/nyqy.css"/>
 #+OPTIONS: auto-id:t
 #+MACRO: nyqy (eval (conlanging/nyqy-to-phonetics $1))
+#+startup: content
 
 # To be used at https://jasontank.net/wordgen.html
 #+NAME: wordgen-backup
@@ -1288,8 +1289,8 @@ with a base 12 system, except for its units.
 
 [fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
 
-[fn:2] [[https://phundrak.fr]]
+[fn:2] [[https://phundrak.com]]
 
-[fn:1] https://langue.phundrak.fr
+[fn:1] https://langue.phundrak.com
 
 #  LocalWords:  Rhete né Hje lpel neography Ňy Qy proto

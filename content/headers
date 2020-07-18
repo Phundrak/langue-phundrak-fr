@@ -6,46 +6,65 @@
 
 # ### ORG OPTIONS ##############################################################
 
-#+OPTIONS: H:4 broken_links:mark email:t ^:{} tex:dvisvgm
-#+KEYWORDS: conlang idéolangue langue langues linguistique phundrak drakpa
+#+options: H:4 broken_links:mark email:t ^:{} tex:dvisvgm
+#+keywords: conlang idéolangue langue langues linguistique phundrak drakpa
 
 # ### LaTeX ####################################################################
 
-#+LATEX_CLASS: conlang
-#+LaTeX_CLASS_OPTIONS: [a4paper,twoside]
-#+LATEX_HEADER_EXTRA: \usepackage{xltxtra}
-#+LATEX_HEADER_EXTRA: \usepackage[total={17cm,24cm}]{geometry}
-#+LATEX_HEADER_EXTRA: \setmainfont{Charis SIL}
-#+LATEX_HEADER_EXTRA: \usepackage{newunicodechar}
-#+LATEX_HEADER_EXTRA: \newunicodechar{’}{'}
-#+LATEX_HEADER_EXTRA: \newunicodechar{…}{...}
-#+LATEX_HEADER_EXTRA: \usepackage{xcolor}
-#+LATEX_HEADER_EXTRA: \usepackage{hyperref}
-#+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-#+LATEX_HEADER_EXTRA: \usepackage{indentfirst}
+#+latex_class: conlang
+#+latex_class_options: [a4paper,twoside]
+#+latex_header_extra: \usepackage{xltxtra}
+#+latex_header_extra: \usepackage[total={17cm,24cm}]{geometry}
+#+latex_header_extra: \usepackage{newunicodechar}
+#+latex_header_extra: \usepackage{xcolor}
+#+latex_header_extra: \usepackage{hyperref}
+#+latex_header_extra: \usepackage{indentfirst}
+#+latex_header_extra: \usepackage{enumitem}
+#+latex_header_extra: \setmainfont{Charis SIL}
+#+latex_header_extra: \newunicodechar{’}{'}
+#+latex_header_extra: \newunicodechar{…}{\ldots}
+#+latex_header_extra: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+
 
 # ### HTML #####################################################################
 
-#+HTML_DOCTYPE: html5
-#+HTML_HEAD_EXTRA: <meta property="og:image" content="https://cdn.phundrak.com/img/rich_preview.png" />
-#+HTML_HEAD_EXTRA: <meta name="twitter:card" content="summary" />
-#+HTML_HEAD_EXTRA: <meta name="twitter:site" content="@phundrak" />
-#+HTML_HEAD_EXTRA: <meta name="twitter:creator" content="@phundrak" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="/style/style.css"/>
-#+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />
-#+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://cdn.phundrak.com/img/favicon.ico" type="image/x-icon" media="screen" />
-#+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />
-#+HTML_HEAD_EXTRA: <link rel="apple-touch-icon" href="/img/icon.png" />
-#+HTML_HEAD_EXTRA: <script defer src="/dart/main.dart.js"></script>
+#+html_doctype: html5
+#+html_head_extra: <meta property="og:image" content="https://cdn.phundrak.com/img/rich_preview.png" />
+#+html_head_extra: <meta name="twitter:card" content="summary" />
+#+html_head_extra: <meta name="twitter:site" content="@phundrak" />
+#+html_head_extra: <meta name="twitter:creator" content="@phundrak" />
+#+html_head_extra: <link rel="stylesheet" href="/style/style.css"/>
+#+html_head_extra: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />
+#+html_head_extra: <link rel="shortcut icon" href="https://cdn.phundrak.com/img/favicon.ico" type="image/x-icon" media="screen" />
+#+html_head_extra: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />
+#+html_head_extra: <link rel="apple-touch-icon" href="/img/icon.png" />
+#+html_head_extra: <script defer src="/dart/main.dart.js"></script>
+#+html_head_extra: <!-- Matomo -->
+#+html_head_extra: <script type="text/javascript">
+#+html_head_extra:  var _paq = window._paq || [];
+#+html_head_extra:  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+#+html_head_extra:  _paq.push(['trackPageView']);
+#+html_head_extra:  _paq.push(['enableLinkTracking']);
+#+html_head_extra:  (function() {
+#+html_head_extra:      var u="//matomo.phundrak.com/";
+#+html_head_extra:      _paq.push(['setTrackerUrl', u+'matomo.php']);
+#+html_head_extra:      _paq.push(['setSiteId', '3']);
+#+html_head_extra:      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+#+html_head_extra:      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+#+html_head_extra:  })();
+#+html_head_extra: </script>
+#+html_head_extra: <!-- End Matomo Code -->
 
 # ### EPUB #####################################################################
-#+PUBLISHER: Lucien Cartier-Tilet
+#+publisher: Lucien Cartier-Tilet
 
 # ### MACROS ###################################################################
-#+MACRO: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
-#+MACRO: newpage @@latex:\newpage@@
-#+MACRO: latex-html @@latex:$1@@@@html:$2@@
-#+MACRO: phon @@latex:/$1/@@@@html:/$1/@@@@ascii:/$1/@@
-#+MACRO: v @@latex:\rotatebox[origin=c]{270}{$1}@@@@html:<span class=vertical>$1</span>@@
-#+MACRO: begin-largetable @@html:<div class="largetable">@@
-#+MACRO: end-largetable @@html:</div>@@
+#+macro: newline @@latex:\hspace{0pt}\\@@ @@html:<br>@@
+#+macro: newpage @@latex:\newpage@@
+#+macro: latex-html @@latex:$1@@@@html:$2@@
+#+macro: phon @@latex:/$1/@@@@html:/$1/@@@@ascii:/$1/@@
+#+macro: v @@latex:\rotatebox[origin=c]{270}{$1}@@@@html:<span class=vertical>$1</span>@@
+#+macro: begin-largetable @@html:<div class="largetable">@@
+#+macro: end-largetable @@html:</div>@@
+#+macro: def @@latex:\hfill@@
+#+macro: defnl @@latex: \hfill\\@@

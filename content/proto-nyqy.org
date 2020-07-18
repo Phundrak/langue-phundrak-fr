@@ -1,16 +1,15 @@
 # -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Proto-Ñyqy
-#+SUBTITLE: Un détail de la langue construite prototype du Proto-Ñyqy, et une rapide description de son peuple et sa culture
-#+HTML_HEAD_EXTRA: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:title" content="Grammaire du Proto-Ñyqy" />
-#+HTML_HEAD_EXTRA: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
-#+INCLUDE: headers
-#+OPTIONS: auto-id:t
-#+MACRO: nyqy (eval (conlanging/nyqy-to-org $1))
-#+LATEX_HEADER_EXTRA: \usepackage{enumitem}
-#+STARTUP: content
-#+SUBJECT: Grammaire du Proto-Ñyqy
-#+UID: https://langue.phundrak.com/proto-nyqy
+#+setupfile: headers
+#+title: Proto-Ñyqy
+#+subtitle: Un détail de la langue construite prototype du Proto-Ñyqy, et une rapide description de son peuple et sa culture
+#+html_head_extra: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
+#+html_head_extra: <meta property="og:title" content="Grammaire du Proto-Ñyqy" />
+#+html_head_extra: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
+#+macro: nyqy (eval (conlanging/nyqy-to-org $1))
+#+options: auto-id:t
+#+subject: Grammaire du Proto-Ñyqy
+#+uid: https://langue.phundrak.com/proto-nyqy
+#+startup: content
 
 * Propos préliminaires
   :PROPERTIES:
@@ -3174,9 +3173,9 @@ CPWCP
 
 [fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
 
-[fn:2] [[https://phundrak.fr]]
+[fn:2] [[https://phundrak.com]]
 
-[fn:1] https://langue.phundrak.fr
+[fn:1] https://langue.phundrak.com
 
 # Traduction de « je t’aime »
 # Mon âme est tienne

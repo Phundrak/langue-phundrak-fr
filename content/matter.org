@@ -2722,8 +2722,8 @@
 
 [fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
 
-[fn:2] [[https://phundrak.fr]]
+[fn:2] [[https://phundrak.com]]
 
-[fn:1] https://langue.phundrak.fr
+[fn:1] https://langue.phundrak.com
 
 #  LocalWords:  Pappa langue-jouet Matté Einlant Mattés
