@@ -175,17 +175,17 @@
    - vi :: verbe intransitif
    - vt :: verbe transitif
 
-* La culture, l’histoire, le contexte sociolinguistique du Proto-Ñyqy
+* Sociolinguistique du Proto-Ñyqy
   :PROPERTIES:
-  :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-38f867af
+  :CUSTOM_ID: Sociolinguistique_du_Proto-Ñyqy-288876cb
   :END:
 ** Le peuple, son regard sur lui-même
    :PROPERTIES:
-   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Le_peuple,_son_regard_sur_lui-même-7d9f71af
+   :CUSTOM_ID: Sociolinguistique_du_Proto-Ñyqy-Le_peuple,_son_regard_sur_lui-même-d62709d9
    :END:
    # - What is the language known as to outsiders?
-   # - What term do  the people use to distinguish themselves  from other language
-   #   groups?
+   # - What term do the people use to distinguish themselves from other
+   #   language groups?
    # - What is the origin of these terms (if known)?
    Peu de choses sont  connues sur ce peuple, du fait de  sa distance avec nous,
    et  du  peu d’éléments  dont  nous  disposons directement  ou  indirectement.
@@ -223,7 +223,7 @@
 
 ** Recherches précédentes
    :PROPERTIES:
-   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Recherches_précédentes-19bab1f9
+   :CUSTOM_ID: Sociolinguistique_du_Proto-Ñyqy-Recherches_précédentes-084d54f2
    :END:
    Comme mentionné plus tôt, le Proto-Ñyqy  est l’objet depuis fort longtemps de
    recherches linguistiques, tout d’abord par des linguistes ayant vécus lors de
@@ -247,11 +247,11 @@
 
 ** Ethnologie
    :PROPERTIES:
-   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Ethnologie-d86f215d
+   :CUSTOM_ID: Sociolinguistique_du_Proto-Ñyqy-Ethnologie-bcb2b953
    :END:
    # - What is the dominant economic activity of the people?
-   # - Briefly describe the ecosystem, material  culture, and cosmology (they will
-   #   be intimately related)
+   # - Briefly describe the ecosystem, material culture, and cosmology (they
+   #   will be intimately related)
    Les  informations   suivantes  résument  nos  connaissances   sur  le  peuple
    Proto-Ñyqy. Pour  plus de détails, vous  pouvez vous référer à  l’ouvrage /Le
    peuple Proto-Ñyqy/ du professeur K. Yerth, 3404. Un avertissement est tout de
@@ -354,14 +354,14 @@
 
 ** Démographie
    :PROPERTIES:
-   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Démographie-87cbe30e
+   :CUSTOM_ID: Sociolinguistique_du_Proto-Ñyqy-Démographie-8c1a8467
    :END:
-   # - Where is  the language spoken, and  how are the people  distributed in this
-   #   area?
+   # - Where is the language spoken, and how are the people distributed in
+   #   this area?
    # - Are there other language groups inhabiting the same area?
-   # - What is the nature of the interaction with these language groups? Economic?
-   #   Social? Friendly? Belligerent?
-   # - In  social/economic  interactions  with  other  groups,  which  groups  are
+   # - What is the nature of the interaction with these language groups?
+   #   Economic? Social? Friendly? Belligerent?
+   # - In social/economic interactions with other groups, which groups are
    #   dominant and which are marginalized? How so?
    Selon  toute vraisemblance,  le  Proto-Ñyqy  était parlé  dans  la vallée  du
    Mojhal,  dans  l’actuel Rhésode.  Bien  qu’il  soit quasiment  impossible  de
@@ -388,11 +388,6 @@
    de leurs voisins: en  effet, des termes liés à la  guerre, mais également aux
    échanges culturels, mercantiles et amicaux ont pu être reconstruits.
 
-** Corpus, reconstruction de la langue
-   :PROPERTIES:
-   :CUSTOM_ID: La_culture,_l’histoire,_le_contexte_sociolinguistique_du_Proto-Ñyqy-Corpus,_reconstruction_de_la_langue-4d02e755
-   :END:
-
 * Aperçu structurel
   :PROPERTIES:
   :CUSTOM_ID: Aperçu_structurel-e660e9fd
@@ -402,13 +397,15 @@
    :CUSTOM_ID: Aperçu_structurel-Esquisse_typologique_du_Proto-Ñyqy-3f9996ed
    :END:
    # - Is the language dominantly isolating or polysynthetic?
-   # - If the language is at all  polysynthetic, is it dominantly agglutinative or
-   #   fusional? Give examples of its dominant pattern and any secondary patterns.
-   # - If  the language  is  at  all agglutinative,  is  it dominantly  prefixing,
+   # - If the language is at all polysynthetic, is it dominantly agglutinative
+   #   or fusional? Give examples of its dominant pattern and any secondary
+   #   patterns.
+   # - If the language is at all agglutinative, is it dominantly prefixing,
    #   suffixing or neither?
-   # - Illustrate  the major  and secondary  patterns (including  infixation, stem
-   #   modification, reduplication, suprasegmental modification, and suppletion).
-   # - If the language  is at all polysynthetic, is  it dominantly "head-marking",
+   # - Illustrate the major and secondary patterns (including infixation, stem
+   #   modification, reduplication, suprasegmental modification, and
+   #   suppletion).
+   # - If the language is at all polysynthetic, is it dominantly "head-marking",
    #   "dependent-marking", or mixed?
    # - Give some examples of each type of marking the language exhibits.
    Le Proto-Ñyqy est une langue qui apparaît comme étant fortement analytique et
@@ -418,42 +415,48 @@
    souvent autour  de morphèmes liés  monosyllabiques que l’on  peut interpréter
    comme  étant des  particules grammaticales.  Voici  un exemple  de phrase  en
    Proto-Ñyqy avec sa traduction et son détail grammatical :
-   1. {{{nyqy(ñe pom qy)}}}
+   1. {{{nyqy(yq ñe pom qy)}}}
 
-      maison GEN 1sg
+      dem.prox3 maison GEN 1sg(ABS)
+
+      Cette maison est à moi
+   2. {{{nyqy(cé ñe)}}}
+
+      1sg.POSS.INCL maison(ABS)
 
       C’est ma maison
-   2. {{{nyqy(bú qi pim mo coq)}}}
+   3. {{{nyqy(pim búqi coqop)}}}
 
-      2sg deux pomme PST manger
+      pomme(ABS) 2sg-DU(ERG) manger-PST
 
       Nous avons mangé une pomme
-   3. {{{nyqy(ñy qun gó)}}}
+   4. {{{nyqy(qy qunoqéop)}}}
 
-      1sg OPT boire
+      1sg(ABS) boire-PST-OPT
 
-      Je souhaite boire
-   4. {{{nyqy(bó mygú cé pim i coq op zé qy zúmu op)}}}
+      Je souhaitais boire
+   5. {{{nyqy(cé pimi bómygú coqugmúnop zé qy zúmuop)}}}
 
-      art.def singe POSS.1sg pomme art.indef manger-PST 3sg 1sg voir-PST
+      POSS.1sg  pomme-art.indef(ABS)   art.def-singe(ERG)  manger-SUBJ-PROG-PST,
+      3sg(ABS) 1sg(ERG) voir-PST
 
-      J’ai vu le singe qui a mangé une pomme à moi
+      J’ai vu le singe qui aurait été en train de manger une pomme à moi
 
-   Dans l’exemple n°1, nous pouvons  remarquer l’absence d’un verbe « être », ce
-   qui est un exemple des prédicats  existentiels qui ne requièrent pas de verbe
-   afin  d’exprimer  une  possession.  On  peut  également  voir  que  l’élément
-   définissant  est situé  après  la particule  génitive,  tandis que  l’élément
-   défini  se situe  avant celle-ci.  Il s’agit  là d’un  des nombreux  exemples
-   montrant  que le  Proto-Ñyqy est  une  langue dont  la tête  de ses  diverses
-   constructions grammaticales est finale et non initiale.
+   Dans  l’exemple  n°1  et  2,  nous pouvons  remarquer  l’absence  d’un  verbe
+   « être », ce qui est un exemple  des prédicats existentiels qui ne requièrent
+   pas  de verbe  afin d’exprimer  une possession.  On peut  également voir  que
+   l’élément  définissant est  situé  après la  particule  génitive, tandis  que
+   l’élément défini  se situe  avant celle-ci.  Il s’agit  là d’un  des nombreux
+   exemples  montrant que  le Proto-Ñyqy  est  une langue  dont la  tête de  ses
+   diverses constructions grammaticales est finale et non initiale.
 
-   Le  deuxième exemple  nous  montre  la méthode  utilisée  en Proto-Ñyqy  afin
+   Le  troisième exemple  nous montre  la  méthode utilisée  en Proto-Ñyqy  afin
    d’employer le duel :  il s’agit d’affixer le nombre « deux »  à l’élément que
    nous souhaitons  infléchir. Ainsi, {{{nyqy(bú  qi)}}} peut être considéré  comme le
    pronom  personnel de  la  seconde  personne du  singulier  infléchis afin  de
    devenir le pronom personnel de la seconde personne du duel.
 
-   Le troisième  exemple présente  un exemple  d’ordre basique  des constituants
+   Le quatrième  exemple présente  un exemple  d’ordre basique  des constituants
    d’une  clause simple,  où  l’on peut  voir  une suite  SV  dans cette  clause
    intransitive.  On peut  également  remarquer la  présence  d’un morphème  lié
    {{{nyqy(qun)}}} dont le rôle est de marquer  un mode pour le verbe, en l’occurrence
@@ -461,13 +464,26 @@
    [[#Système_fonctionnel-Temps,_aspect,_mode-744a8351]],  il s’agit  de la  méthode
    principale d’inflexion des verbes du Proto-Ñyqy.
 
-   Enfin,  le quatrième  exemple nous  donne un  aperçu de  la syntaxe,  avec un
+   Enfin,  le cinquième  exemple nous  donne un  aperçu de  la syntaxe,  avec un
    positionnement différent  des articles  définis et  indéfinis par  rapport au
    nom,  ainsi qu’un  exemple  de référence  dans une  clause  subordonnée à  un
    élément extérieur  qu’elle définit,  ici le pronom  de la  troisième personne
    {{{nyqy(zé)}}} se référant à {{{nyqy(mygú)}}}. On voit également que la clause principale
    a un ordre de ses constituants en OSV tandis que la subordonnée a un ordre de
    ses relatives en OVS.
+
+   Notons qu’ici,  les verbes ont  été accolés  à leurs modificateurs  de temps,
+   aspect et mode, de  même pour les noms et les  articles définis et indéfinis.
+   Cela est fait de manière à garder une certaine lisibilité sans se perdre dans
+   une myriade  de petits  mots se  suivant les uns  à la  suite des  autres. On
+   pourrait croire qu’il s’agisse d’une  langue agglutinative, alors qu’elle est
+   en réalité extrêmement analytique. Il aurait été tout aussi juste d’écrire le
+   cinquième exemple sous  la forme /cé pim i  bó mygú coq ug mún op  zé qy zúmu
+   op/,  ce  qui  peut  prêter  à  confusion.  Certain  joignent  également  les
+   différents mots ici  acolés par des tirets d’union ou  par deux points, comme
+   suit  (les deux  styles sont  mélangés dans  cet exemple  et ne  représentent
+   aucune différence grammaticale ou autre) : /cé pim:i bó:mygú coq-ug-mún-op zé
+   qy zúmu-op/.
 
 ** Inventaire phonologique et translittération
    :PROPERTIES:
@@ -707,6 +723,37 @@
     Il est également beaucoup plus simple de retrouver la prononciation des mots
     Proto-Ñyqy depuis leur orthographe standard.
 
+** Structure d’un mot
+   :PROPERTIES:
+   :CUSTOM_ID: Aperçu_structurel-Structure_d’un_mot-fec4d33d
+   :END:
+   Les  mots en  Proto-Ñyqy se  classent  en deux  catégories principales :  des
+   morphèmes  libres et  des  morphèmes  liés. Les  morphèmes  liés voient  leur
+   utilisation limitée à une utilisation  grammaticale du mot, pour indiquer par
+   exemple des rôles grammaticaux de  certains groupes nominaux ou verbaux, pour
+   indiquer des temps, ou encore des  nombres (la liste n’est pas exhaustive). À
+   contrario, les mots libres peuvent être utilisés en soit dans une phrase sans
+   de nécessité  pour ce qui est  de l’ajout de  morphèmes liés. Il est  à noter
+   cependant  que les  morphèmes liés  sont considérés  comme des  mots séparés,
+   apportant simplement des informations grammaticales supplémentaires.
+
+   Ainsi, il  peut être légitime  de se demander si  les mots ont  une structure
+   qu’il peut être  intéressant d’étudier, et en effet, une  structure peut être
+   retrouvée dans  certains mots  du Proto-Ñyqy qui  sont composés  de plusieurs
+   racines. Généralement, l’ordre des racines  d’origine suit à peu près l’ordre
+   des adjectifs, ou bien un ordre  de mots existant sans morphème lié indiquant
+   la  grammaire  gérant ces  deux  mots.  On  retrouve  cela par  exemple  avec
+   {{{nyqy(zocséwe)}}},  composé de  {{{nyqy(zoc)}}} et  {{{nyqy(séwe)}}}. On  pourrait parler  de
+   « tissu de tête » avec {{{nyqy(zoc pom  séwe)}}}, cependant la fusion des deux mots
+   sans  la particule  grammaticale  du  génitif {{{nyqy(pom)}}}  créé  le terme  pour
+   « voile » ou « châle », désignant un tissus  typique porté autour de la tête.
+   {{{nyqy(zócu)}}} peut se  décoposer en {{{nyqy(zój sy)}}}, ou « chose  vivante », mais la
+   fusion  des  deux  donne  le  mot pour  « animal ».  Les  règles  phonétiques
+   gouvernant la  fusion des racines pour  la création de nouveaux  mots ne sont
+   pas bien  connues, et  aucun concensus sur  le sujet n’a  été atteint  et les
+   théories restent trop hypothétiques, nous ne les aborderons donc pas dans cet
+   ouvrage.
+
 ** Phonotaxes
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Phonotaxes-871e8d78
@@ -834,8 +881,8 @@
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-d2465bde
     :END:
-    # - Does the language have free  pronouns and/or anaphoric clitics? (These are
-    #   distinct from grammatical agreement.)
+    # - Does the language have free pronouns and/or anaphoric clitics? (These
+    #   are distinct from grammatical agreement.)
     # - Give a chart of the free pronouns and/or anaphoric clitics.
 
 **** Pronoms personnels
@@ -849,6 +896,17 @@
      - Troisième personne : {{{nyqy(zé)}}}.  Se réfère aux personnes  extérieures à la
        conversation.
 
+     Ainsi, le tableau des pronoms du Proto-Ñyqy reste très simple :
+     #+NAME: table:pronouns
+     #+CAPTION: Pronoms du Proto-Ñyqy
+     | <l>      |        |
+     | /        | <      |
+     | Personne | Pronom |
+     |----------+--------|
+     | 1        | qy     |
+     | 2        | bú     |
+     | 3        | zé     |
+
      Afin de  distinguer les personnes  par nombre, les locuteurs  du Proto-Ñyqy
      usent de  nombres cardinaux autour  du pronom.  Il est possible  que chaque
      unité  était  utilisée, mais  seuls  l’utilisation  des chiffres  {{{nyqy(mi)}}},
@@ -860,7 +918,45 @@
      et le  nombre des  personnes était  souvent inféré lors  de la  locution et
      n’était utilisé qu’en cas d’ambiguïté.
 
-     Pour plus d’information sur les chiffres et nombres du Ñyqy, voir [[*Numéraux][Numéraux]].
+     Exemple :
+     - {{{nyqy(bónusqim qy ij)}}}
+
+       village DAT 1sg aller
+
+       Je vais au village
+
+     - {{{nyqy(bónusqim qyqi ij)}}}
+
+       village DAT 1-DU aller
+
+       Nous deux allons au village
+     - {{{nyqy(bónusqim ñyqy ij)}}}
+
+       village DAT 1-PL aller
+
+       Nous (pluriel) allons au village
+
+     Ainsi, il est possible d’hypothétiser les marqueurs suivants :
+     #+NAME: table:nbr:pronouns
+     #+CAPTION: Marquers de nombres pour les pronoms
+     | /              | <         |
+     | Nombre         | marqueurs |
+     |----------------+-----------|
+     | singulier      | {{{nyqy(mi)}}}  |
+     | duel           | {{{nyqy(qi)}}}  |
+     | triel / paucal | {{{nyqy(né)}}}  |
+     | pluriel        | {{{nyqy(ñy)}}}  |
+     Notez bien  que l’utilisation  de {{{nyqy(mi)}}}, bien  que probable,  étant sans
+     doutes rare.  On ne sait pas  également si {{{nyqy(né)}}} marquait  uniquement le
+     triel ou s’il  faisait office de paucal jusqu’à  l’utilisation de {{{nyqy(ñy)}}}.
+     L’utilisation des nombres n’est également  attestée qu’avec les pronoms, et
+     il  est  improbable selon  nos  connaissances  actuelles qu’ils  aient  été
+     utilisés de cette façon avec d’autres éléments de phrase.
+
+     L’ordre du nombre grammatical suit  également l’ordre des nombres cardinaux
+     tel          que          décrit          dans          la          section
+     [[#Aperçu_structurel-Syntaxe_clauses_nominales-Numéraux-f2cc88b9]]. Vous pouvez
+     vous y référer pour plus d’informations sur le propos des numéraux en Ñyqy.
 
 **** Pronoms démonstratifs
      :PROPERTIES:
@@ -956,7 +1052,7 @@
        noir POSS.1.inc chat
 
        Mon/notre chat est noir
-     - {{{nyqy(móñ ón cu oz)}}}
+     - {{{nyqy(zuj cu oz)}}}
 
        noir POSS.1.exc chat
 
@@ -991,20 +1087,21 @@
     # - What are the distributional properties of verbs?
     # - What are the structural properties of verbs?
     # - What are the major subclasses of verbs?
-    # - Describe the order  of various verbal operators within the  verbal word or
+    # - Describe the order of various verbal operators within the verbal word or
     #   verb phrase.
-    # - Give   charts   of   the   various   paradigms,   e.g.   person   marking,
+    # - Give charts of the various paradigms, e.g. person marking,
     #   tense/aspect/mode, etc. Indicate major allomorphic variants.
-    # - Are directional  and/or locational notions  expressed in the verb  or verb
-    #   phrase at all?
-    #   - Is this operation obligatory, i.e. does one member of the paradigm have
-    #     to occur in every finite verb or verb phrase?
-    #   - Is it productive, i.e. can the operation be specified for al verb stems,
-    #     and  does it  have the  same meaning  with each  one? (Nothing  is fully
-    #     productive, but some operations are more productive than others.)
-    #   - Is  this operation  primarily  coded  morphologically, analytically,  or
+    # - Are directional and/or locational notions expressed in the verb or
+    #   verb phrase at all?
+    #   - Is this operation obligatory, i.e. does one member of the paradigm
+    #     have to occur in every finite verb or verb phrase?
+    #   - Is it productive, i.e. can the operation be specified for al verb
+    #     stems, and does it have the same meaning with each one? (Nothing is
+    #     fully productive, but some operations are more productive than
+    #     others.)
+    #   - Is this operation primarily coded morphologically, analytically, or
     #     lexically? Are there any exceptions to the general case?
-    #   - Where in  the verb  phrase or  verbal word is  this operation  likely to
+    #   - Where in the verb phrase or verbal word is this operation likely to
     #     appear? Can it occur in more than one place?
 
 **** Structure verbale
@@ -1026,17 +1123,17 @@
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-38f75b60
     :END:
-    # - If you posit  a morphosyntactic category of adjectives,  give evidence for
+    # - If you posit a morphosyntactic category of adjectives, give evidence for
     #   not grouping theseforms with the verbs or nouns.
     #   What characterizes a form as being an adjective in this language?
-    # - How can you characterize semantically the  class of concepts coded by this
-    #   formal category?
-    # - Do adjectives  agree with their heads  (e.g. in number, case,  and/or noun
-    #   class)?
+    # - How can you characterize semantically the class of concepts coded by
+    #   this formal category?
+    # - Do adjectives agree with their heads (e.g. in number, case, and/or
+    #   noun class)?
     # - What kind of system does the language employ for counting?
-    # - How high  can a fluent  native speaker  count without resorting  either to
-    #   words from  another language or to  a generic word like  /many/? Exemplify
-    #   the system up to this point.
+    # - How high can a fluent native speaker count without resorting either to
+    #   words from another language or to a generic word like /many/?
+    #   Exemplify the system up to this point.
     # - Do numerals agree with their head nouns (number, case, noun class, ...)?
 
 **** Adjectifs descriptifs
@@ -1044,15 +1141,15 @@
      :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-Adjectifs_descriptifs-5257ba2e
      :END:
      Il est  tout à fait  possible de  dire que d’un  certain point de  vue, les
-     adjectifs n’existent pas  dans la langue Ñyqy. En effet,  les mots utilisés
+     adjectifs n’existent  pas dans le  Proto-Ñyqy. En effet, les  mots utilisés
      comme tels ont une morphologie en  toutes parts identique à celle des noms.
      Cependant, la différence  notable est comment ces noms  sont utilisés, soit
      comme tête d’une  phrase verbale, soit adposé à un  autre nom, modifiant ce
-     dernier de façon descriptive. Commme on le verra dans le chapitre [[#Aperçu_structurel-Syntaxe-clauses_nominales-5f3a7b09][Ordre des
-     constituants dans  les clauses nominales]],  ces noms descriptifs  se placent
-     autour du  nom en  tête, et  certains comme  les adjectifs  de forme  et de
-     matériaux sont obligatoirement suivis  par une particule grammaticale (voir
-     [[#Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Adjectifs-750d92f4][Ordre des constituants dans les clauses nominales/Adjectifs]]).
+     dernier  de  façon  descriptive.  Commme  on  le  verra  dans  le  chapitre
+     [[#Aperçu_structurel-Syntaxe-clauses_nominales-5f3a7b09]], ces noms descriptifs
+     se placent autour du nom en tête,  et certains comme les adjectifs de forme
+     et de matériaux sont obligatoirement  suivis par une particule grammaticale
+     (voir [[#Aperçu_structurel-Syntaxe_clauses_nominales-Adjectifs-750d92f4]]).
 
      Dans  ce document,  nous nous  référerons à  ces noms  descriptifs en  tant
      qu’adjectif,  mais  il  est  important  de garder  en  tête  que  la  seule
@@ -1142,17 +1239,18 @@
      | {{{nyqy(gec)}}} | {{{nyqy(cosi)}}} | {{{nyqy(qimó)}}} |  {{{nyqy(geñyñy)}}}  | {{{nyqy(né)}}} |
      | 12^{3}×6  | 5×12^{2}×6 | 2×12^{1}×6 | (6+4)×12^{0}×6 |    3     |
      |   10368   |    4320    |    144     |       60       |    3     |
-     Ainsi, 14875  se traduit par {{{nyqy(gec  co si qi mó  ge ñy ñy né)}}}.  Il est à
-     noter toutefois que le terme se coupera en deux, laissant {{{nyqy(né)}}} seul, si
-     le nombre s’applique à un nom. Voir [[#Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Numéraux-f2cc88b9][Ordre des constituants dans les clauses
-     nominales /  Numéraux]].
+     Ainsi, 14875 se traduit  par {{{nyqy(gec cosi qimó geñyñy né)}}}.  Il est à noter
+     toutefois que  le terme se coupera  en deux, laissant {{{nyqy(né)}}}  seul, si le
+     nombre      s’applique     à      un     nom.      Voir     la      section
+     [[#Aperçu_structurel-Syntaxe_clauses_nominales-Numéraux-f2cc88b9]].
 
      Concernant  les nombres  ordinaux, ils  se créent  simplement à  partir des
      nombres ordinaux préfixés par le terme {{{nyqy(qujm)}}}, signifiant « position ».
      Si {{{nyqy(qujm)}}} est directement suivi par un mon commençant par un <m>, alors
-     {{{nyqy(qujm)}}}  perd  le siens.  Ainsi,  « 148ème  personne » se  traduira  par
-     {{{nyqy(qujm qimó ñocm gé)}}}. Il est  cependant à noter que les unités disposent
-     de leurs propres terme.
+     {{{nyqy(qujm)}}}  perd  le  sien.  Ainsi, « 148ème  personne »  se  traduira  par
+     {{{nyqy(qujm qimó ñocm  gé)}}}, et {{{nyqy(qujmó ñygé ñocm)}}} se  traduira par « 82ème
+     personne ». Il  est cependant  à noter  que les  unités disposent  de leurs
+     propres terme.
 
      #+CAPTION: Nombres ordinaux en Proto-Ñyqy
      | <c>  |      <c>       |            <c>            |
@@ -1174,12 +1272,12 @@
 
      - {{{nyqy(ñocm qóqi qójmún)}}}
 
-       personne 2.ORD dormir-PROG
+       personne 2-ORD dormir-PROG
 
        La deuxième personne est en train de dormir.
-     - {{{nyqy(ñocm qóqy qójmúm)}}}
+     - {{{nyqy(ñocm qóqy qójmún)}}}
 
-       personne 2.ORD.TERM dormir-PROG
+       personne 2-ORD.TERM dormir-PROG
 
        La seconde personne est en train de dormir
 
@@ -1194,14 +1292,14 @@
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Adverbes-8d8d4dc3
     :END:
-    # - What characterikes  a form  as being  an adverb in  this language?  If you
-    #   posit a distinct class of adverbs, argue for why these forms should not be
-    #   treated as nouns, verbs, or adjectives.
-    # - For each kind of adverb listed in  this section, list a few members of the
-    #   type,  and specify  whether there  are any  restrictions relavite  to that
-    #   type, e.g. where  they can come in  a clause, any morphemes  common to the
-    #   type, etc.
-    # - Are any  of these  classes of adverbs  related to  older complement-taking
+    # - What characterikes a form as being an adverb in this language? If you
+    #   posit a distinct class of adverbs, argue for why these forms should not
+    #   be treated as nouns, verbs, or adjectives.
+    # - For each kind of adverb listed in this section, list a few members of
+    #   the type, and specify whether there are any restrictions relavite to
+    #   that type, e.g. where they can come in a clause, any morphemes common
+    #   to the type, etc.
+    # - Are any of these classes of adverbs related to older complement-taking
     #   (matrix) verbs?
 
 *** Adpositions
@@ -1235,7 +1333,7 @@
     intransitifs et les  patients de verbes transitifs comme  objets, tandis que
     les agents de verbes transitifs sont considérés comme sujets. En connaissant
     cela,  on  peut  donc  dire  que l’ordre  typique  d’une  clause  principale
-    Proto-Ñyqy est donc OSV.
+    Proto-Ñyqy est donc OSV (Absolutif-Ergatif-Verbe).
 
     Il s’agit  d’un ordre  de constituants  qui est très  rare dans  les langues
     naturelles,  ce qui  explique  pourquoi chacune  des  langues descendant  du
@@ -1245,19 +1343,11 @@
     que   sa  syntaxe   soit  définie   par   des  règles   suivant  le   couple
     Nominatif-Accusatif.
 
-*** Ordre des constituants dans les clauses verbales
-    :PROPERTIES:
-    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_verbales-c2bb6bea
-    :END:
-    # - Where do auxliaries occur in relation to the semantically “main” verb?
-    # - Where  do  verb-phrase  adverbs  occur   with  respect  to  the  verb  and
-    #   auxiliaries?
-    Le Proto-Ñyqy étant une langue dont  l’ordre des constituants de ses clauses
-    principales est Objet-Sujet-Verbe, il n’est pas surprenant de savoir que les
-    auxiliaires de  ses verbes  sont suffixés  à ces  derniers. Ainsi,  le verbe
-    {{{nyqy(coqop)}}} est constitué de la  racine {{{nyqy(coq)}}}, signifiant « manger », et
-    de l’auxiliaire  {{{nyqy(op)}}} marquant le  passé. Dans les  clauses principales,
-    les auxiliaires Proto-Ñyqy suivent ainsi l’ordre suivant :
+    On   peut   mieux   visualiser    cette   ordre   via   l’arbre   syntaxique
+    [[main-clause-syntax-tree]]. L’ordre  des constituants  des phrases nominales  NP est
+    défini dans la section [[#Aperçu_structurel-Syntaxe-clauses_nominales-5f3a7b09]]
+    tandis  que l’ordre  des phrases  verbales VP'  peut être  consulté dans  la
+    section [[#Aperçu_structurel-Syntaxe-clauses_nominales-5f3a7b09]].
 
     #+NAME: phrase-syntax-tree-el
     #+BEGIN_SRC emacs-lisp
@@ -1284,6 +1374,32 @@
     #+CAPTION: Arbre syntaxique des clauses nominales du Proto-Ñyqy
     #+RESULTS[1ae67ebfae5847294579cb0ddfcf04bf1faab81b]:
     [[file:img/nyqy/phrase-syntax-tree.png]]
+
+    Il  est à  noter que  le groupe  nominal ergatif  est considéré  comme étant
+    optionnel. Ainsi,  si seul  un groupe  nominatif précède  le verbe,  il sera
+    généralement absolutif.
+    - {{{nyqy(qy qunoquéop)}}}
+
+      1sg(ABS) boire-PST-OPT
+
+      Je souhaitais boire
+    - {{{nyqy(pim búqi coq)}}}
+
+      pomme(ABS) 2sg-DU(ERG) manger
+
+      Je mange une pomme
+    - {{{nyqy(wóseqim músq qy ezpop)}}}
+
+      voisin-DAT maison(ABS) 1sg(ERG) créer-PST
+
+      J’ai construit une maison pour le voisin.
+
+    Cet  absence occasionnelle  de l’élément  ergatif indique  également que  le
+    Proto-Ñyqy  était également  une langue  à pivot  syntaxique nominal  plutôt
+    qu’ergatif. Il  s’agit de l’un des  rares éléments nominatifs de  la langue,
+    marquant sans doute le  début de la transition des langues  de la famille du
+    Ñyqy  à un  ordre  nominal-accusatif de  leurs  constituants depuis  l’ordre
+    ergatif-absolutif qui existait en Proto-Ñyqy.
 
 *** Ordre des constituants dans les clauses nominales
     :PROPERTIES:
@@ -1359,18 +1475,18 @@
      :END:
      Pour ce qui est  des numéraux, la règle générale est  que les unités suivent
      le  nom, tandis  que les  sixaines le  précèdent. Par  exemple, « mes  vingt
-     chats » se traduit par {{{nyqy(né ñy cé oz qi)}}}.
-     | <c>   | <c>      | <c>  | <c> |
-     | né ñy | cé       | oz   | qi  |
-     | 3×6   | POSS.1sg | chat | 2   |
+     chats » se traduit par {{{nyqy(néñy cé oz qi)}}}.
+     | <c>  |   <c>    | <c>  | <c> |
+     | néñy |    cé    |  oz  | qi  |
+     | 3×6  | POSS.1sg | chat |  2  |
 
      # TODO autres types de numéraux
 
      La  position des  unités  impliquent donc  que  l’article indéfini  {{{nyqy(i),}}}
      dérivé du chiffre « un » {{{nyqy(mi)}}}, suit immédiatement le nom. Par exemple,
      « un chat » se traduit par {{{nyqy(oz i)}}}.
-     | <c>  | <c>       |
-     |  oz  | i         |
+     | <c>  |    <c>    |
+     |  oz  |     i     |
      | chat | art.indef |
 
 **** Démonstratifs
@@ -1381,23 +1497,23 @@
      Proto-Ñyqy,  et donc  précédant le  nom. Ainsi,  si l’on  souhaite traduire
      « ces vingt  chats à moi » (le  génitif relative est ici  pour contrecarrer
      l’impossibilité en  français d’utiliser un  démostratif et un  possessif en
-     même temps), on a donc {{{nyqy(bóc né ñy cé oz qi)}}}.
-     |   <c>    |  <c>  |   <c>    | <c>  | <c> |
-     |   bóc    | né ñy |    cé    |  oz  | qi  |
-     | DEM.prox |  3×6  | POSS.1sg | chat |  2  |
+     même temps), on a donc {{{nyqy(bóc néñy cé oz qi)}}}.
+     |   <c>    | <c>  |   <c>    | <c>  | <c> |
+     |   bóc    | néñy |    cé    |  oz  | qi  |
+     | DEM.prox | 3×6  | POSS.1sg | chat |  2  |
 
      La position du démonstratif dans  la clause nominale implique également une
      position identique  pour un  article défini en  Proto-Ñyqy. Ainsi,  si l’on
      souhaite traduire  « les vingt  chats à  moi » (à  nouveau, le  génitif est
-     utilisé ici dû aux limitations du Français), on obtient {{{nyqy(bó né ñy cé oz
+     utilisé ici dû aux limitations du  Français), on obtient {{{nyqy(bó néñy cé oz
      qi)}}}.
-     |   <c>   |  <c>  |   <c>    | <c>  | <c> |
-     |   bó    | né ñy |    cé    |  oz  | qi  |
-     | art.def |  3×6  | POSS.1sg | chat |  2  |
+     |   <c>   | <c>  |   <c>    | <c>  | <c> |
+     |   bó    | néñy |    cé    |  oz  | qi  |
+     | art.def | 3×6  | POSS.1sg | chat |  2  |
 
 **** Adjectifs
      :PROPERTIES:
-     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Adjectifs-750d92f4
+     :CUSTOM_ID: Aperçu_structurel-Syntaxe_clauses_nominales-Adjectifs-750d92f4
      :END:
      Concernant les adjectifs, ceux-ci se divisent en plusieurs classes :
      - Adjectifs d’opinion
@@ -1413,7 +1529,27 @@
      objectivité,  et tous  viennent après  le nom  à l’exception  des adjectifs
      d’opinion. Ainsi, les adjectifs les plus subjectifs arrivent en premier, et
      les adjectifs les  plus objectifs arrivent en dernier.  Seuls les adjectifs
-     d’opinion se placent avant le nom, les autres arriveront toujours après.
+     d’opinion se placent avant le nom, les autres arriveront après. Il est
+     cependant possible pour le locuteur de placer n’importe quel adjectif en
+     position pré-nominale s’il souhaite indiquer qu’il s’agit d’un jugement de
+     valeur selon lui, voire exagérer l’adjectif.
+
+     Exemple :
+     - « je trouve que ce chat est grand »
+       | bó      | oz   | goñ   |
+       | art.def | chat | grand |
+
+     - « ce chat est (à mon avis) très grand »
+       | bó      | goñ   | oz   |
+       | art.def | grand | chat |
+     Dans la phrase {{{nyqy(bóoz goñ)}}}, le locuteur indique que le chat est grand et
+     la phrase peut se traduire par « ce  chat est grand ». En revanche, dans la
+     seconde phrase, {{{nyqy(bógoñ oz)}}}, le  locuteur indique que l’indication de la
+     taille  du chat  est  subjective, ce  qui peut  indiquer  soit une  opinion
+     personnelle pouvant  traduire la  phrase par  « je trouve  que ce  chat est
+     grand », ou bien il  peut s’agir d’une exagération de sa  part et la phrase
+     peut alors se traduire par « le chat est très grand », tout en dénotant une
+     opinion de la part du locuteur.
 
      Il est  à noter que :
      - les  adjectifs de  forme et  de  matériaux ne  peuvent se  faire que  via
@@ -1449,6 +1585,63 @@
      {{{nyqy(cé oz coq syg)}}}.
      | cé       | oz   | coq    | syg  |
      | POSS.1sg | chat | manger | beau |
+
+*** Ordre des constituants dans les clauses verbales
+    :PROPERTIES:
+    :CUSTOM_ID: Aperçu_structurel-Syntaxe_clauses_verbales-c2bb6bea
+    :END:
+    # - Where do auxliaries occur in relation to the semantically “main” verb?
+    # - Where  do  verb-phrase  adverbs  occur   with  respect  to  the  verb  and
+    #   auxiliaries?
+    Le Proto-Ñyqy étant une langue dont  l’ordre des constituants de ses clauses
+    principales est Objet-Sujet-Verbe, il n’est pas surprenant de savoir que les
+    auxiliaires de  ses verbes  sont suffixés  à ces  derniers. Ainsi,  le verbe
+    {{{nyqy(coqop)}}} est constitué de la  racine {{{nyqy(coq)}}}, signifiant « manger », et
+    de l’auxiliaire  {{{nyqy(op)}}} marquant le  passé. Dans les  clauses principales,
+    les auxiliaires Proto-Ñyqy suivent ainsi l’ordre suivant :
+    #+begin_center
+    Adverbe-Verbe-Mode-Aspect-Temps-Adverbe-Négation-Question
+    #+end_center
+
+    Afin de mieux visualiser cet ordre,  on peut se référer à l’arbre syntaxique
+    [[verbal-clause-syntax-tree]].
+
+    #+NAME: vp-syntax-tree-el
+    #+BEGIN_SRC emacs-lisp
+      (setq-local v-syntax-tree
+                  '("VP"
+                    ("VP'"
+                     ("VP'"
+                      ("Adverbes₁")
+                      ("VP'"
+                       ("Verbe")
+                       ("Conjugaison"
+                        ("Mode")
+                        ("Aspect")
+                        ("Temps")))
+                      ("Adverbes₂"))
+                     ("Négation"))
+                    ("Question")))
+      (conlanging/tree-to-dot v-syntax-tree)
+    #+END_SRC
+
+    #+RESULTS[7824656756eaedc3ac2daf1b240aa1c28be75a81]: vp-syntax-tree-el
+    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="VP"];1[label="VP'"];0 -- 1;11[label="VP'"];1 -- 11;111[label="Adverbes₁"];11 -- 111;112[label="VP'"];11 -- 112;1121[label="Verbe"];112 -- 1121;1122[label="Conjugaison"];112 -- 1122;11221[label="Mode"];1122 -- 11221;11222[label="Aspect"];1122 -- 11222;11223[label="Temps"];1122 -- 11223;113[label="Adverbes₂"];11 -- 113;12[label="Négation"];1 -- 12;2[label="Question"];0 -- 2;}
+
+    #+BEGIN_SRC dot :file nyqy/syntax-verbal-clauses.png :var input=vp-syntax-tree-el
+      $input
+    #+END_SRC
+    #+NAME: verbal-clause-syntax-tree
+    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Proto-Ñyqy :class gentree
+    #+ATTR_LATEX: :height 12cm
+    #+CAPTION: Arbre syntaxique des clauses verbales du Proto-Ñyqy
+    #+RESULTS[857f57246dcc51e1a16febaaa3428d5af721d4eb]:
+    [[file:img/nyqy/syntax-verbal-clauses.png]]
+
+    Similairement aux  clauses nominales, les  adverbes sont organisés  avec les
+    adverbes  entièrement  subjectifs avant  le  verbe,  et après  viennent  les
+    adverbes     classés      par     subjectivité.     Voir      la     section
+    [[#Aperçu_structurel-Syntaxe_clauses_nominales-Adjectifs-750d92f4]].
 
 *** Phrases adpositionelles
     :PROPERTIES:
@@ -1503,11 +1696,11 @@
     #   noun?
     # - An adjective from a noun?
     # - An adverb from a noun?
-    La  dénominalisation  en  Proto-Ñyqy  se   produit  grâce  au  mot  {{{nyqy(só)}}}
-    signifiant « façon de faire ». En se suffixant à un nom, on obtient un verbe
-    dont la  signification est généralement  en relation avec le  nom d’origine.
-    Par exemple, en  associant le terme {{{nyqy(qéy)}}} à ce  mot {{{nyqy(só)}}}, on obtient
-    le verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
+    # La  dénominalisation  en  Proto-Ñyqy  se   produit  grâce  au  mot  {{{nyqy(só)}}}
+    # signifiant « façon de faire ». En se suffixant à un nom, on obtient un verbe
+    # dont la  signification est généralement  en relation avec le  nom d’origine.
+    # Par exemple, en  associant le terme {{{nyqy(qéy)}}} à ce  mot {{{nyqy(só)}}}, on obtient
+    # le verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
 
 *** Nombres
     :PROPERTIES:
@@ -1732,14 +1925,14 @@
    absolutif restera en  permanence en contact direct avec le  verbe, tandis que
    l’élément  ergatif  les précédera,  et  pourra  même  être séparé  du  couple
    absolutif-verbe par des éléments datifs. Exemple :
-   - {{{nyqy(ñy-0 qój)}}}
+   - {{{nyqy(qy qój)}}}
 
-     1sg-ABS dormir
+     1sg(ABS) dormir
 
      Je dors
-   - {{{nyqy(ñy-0 pim-0 coq)}}}
+   - {{{nyqy(pim qy coq)}}}
 
-     1sg-ERG pomme-ABS manger
+     pomme(ABS) 1sg(ERG) manger
 
      Je mange une pomme.
 
@@ -1747,9 +1940,9 @@
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
-   - {{{nyqy(ñy-0 pim-0 coq. nócpi qój.)}}}
+   - {{{nyqy(pim qy coq nócpi qój)}}}
 
-     1sg-ERG pomme-ABS manger. ensuite dormir.
+     pomme(ABS) 1sg(ERG) manger ensuite dormir
 
      Je mange une pomme, puis (je) dors.
 
@@ -1887,13 +2080,13 @@
     :PROPERTIES:
     :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_d’action-61d45731
     :END:
-    Le processus de nominalisation des  verbes repose principalement, à l’instar
-    de la  grammaire Proto-Ñyqy dans  sa globalité, sur une  association desdits
-    verbes avec  un mot ayant ici  un rôle de particule  grammaticale. Ainsi, un
-    verbe  associé à  {{{nyqy(só)}}}  (signifiant « manière  de  faire ») en  position
-    affixe permet d’obtenir d’un verbe un nom utilisable comme tel. Par exemple,
-    le  verbe  {{{nyqy(meqm)}}} (« parler »)  s’associe  en  {{{nyqy(meqm só)}}}  signifiant
-    « l’acte de parler, prise de parole, annonce ».
+    # Le processus de nominalisation des  verbes repose principalement, à l’instar
+    # de la  grammaire Proto-Ñyqy dans  sa globalité, sur une  association desdits
+    # verbes avec  un mot ayant ici  un rôle de particule  grammaticale. Ainsi, un
+    # verbe  associé à  {{{nyqy(só)}}}  (signifiant « manière  de  faire ») en  position
+    # affixe permet d’obtenir d’un verbe un nom utilisable comme tel. Par exemple,
+    # le  verbe  {{{nyqy(meqm)}}} (« parler »)  s’associe  en  {{{nyqy(meqm só)}}}  signifiant
+    # « l’acte de parler, prise de parole, annonce ».
 
 *** Nominalisation de participants
     :PROPERTIES:
@@ -1967,18 +2160,18 @@
    #         - progressif
    #         - non-progressif
    # Subjonctif dans une clause principale = ouï-dire
-   # Temps par défaut : non-passé (présent/futur)
-   # | mode | aspect | temps | gloss         |
-   # |------+--------+-------+---------------|
-   # |      |        |       | PRES          |
-   # |      |        | op    | PST           |
-   # |      | mún    |       | PROG          |
-   # |      | mún    | op    | PST.PROG      |
-   # | oqé  |        |       | OPT           |
-   # | ug   |        |       | SUBJ          |
-   # | ug   |        | op    | PST.SUBJ      |
-   # | ug   | mún    |       | SUBJ.PROG     |
-   # | ug   | mún    | op    | PST.SUBJ.PROG |
+   Temps par défaut : non-passé (présent/futur)
+   | mode | aspect | temps | gloss         |
+   |------+--------+-------+---------------|
+   |      |        |       | PRES          |
+   |      |        | op    | PST           |
+   |      | mún    |       | PROG          |
+   |      | mún    | op    | PST.PROG      |
+   | oqé  |        |       | OPT           |
+   | ug   |        |       | SUBJ          |
+   | ug   |        | op    | PST.SUBJ      |
+   | ug   | mún    |       | SUBJ.PROG     |
+   | ug   | mún    | op    | PST.SUBJ.PROG |
    # - pim i bó mygú coq / Le singe mange une pomme
    # - pim i bó mygú coqop / Le singe mangeait une pomme
    # - pim i bó mygú coqmún / Le singe est en train de manger une pomme
@@ -2002,7 +2195,7 @@
     # - Is  there  a  tense  system? How  does  it  operate?  Future/non-future,
     # past/non-past, past/present/future, or other? (You may want to treat these
     # separately or group them, depending on how the language works.)
-    Il n’existe  que deux  temps en  Proto-Ñyqy : le passé  et le  non-passé. Un
+    Il n’existe que deux temps en  Proto-Ñyqy : *le passé* et *le non-passé*. Un
     événement dans  le temps est  généralement considéré comme étant  passé s’il
     s’est produit au  moins un jour avant le temps  d’élocution. Cependant, pour
     préciser si un événement s’est produit il y a moins d’un jour, les locuteurs
@@ -2012,22 +2205,82 @@
     À contrario,  le non-passé inclus  ce que à  quoi on se  réfère généralement
     comme étant le passé proche (il y a  donc moins d’un jour), le présent et le
     futur. Ainsi, si un événement est à venir ou est en train de se produire, on
-    s’y référera  au non-passé. Par exemple,  la phrase {{{nyqy(pim i  bó mygú coq)}}}
-    peut tout aussi  bien signifier « le singe mange une  pomme » que « le singe
-    vient de manger  une pomme » ou « le singe mangera  une pomme ». Pour donner
-    plus  de précision  temporelle,  des  indices pourront  être  donnés par  le
-    locuteur.
+    s’y référera au non-passé. Par exemple, la phrase {{{nyqy(bómygú pimi coq)}}} peut
+    tout aussi bien signifier « le singe  mange une pomme » que « le singe vient
+    de manger une pomme » ou « le singe mangera une pomme ». Pour donner plus de
+    précision temporelle, des indices pourront être donnés par le locuteur.
+
+    #+CAPTION: Marqueurs du temps en Proto-Ñyqy
+    | /         |    <     |
+    |           |   <c>    |
+    | Temps     | Marqueur |
+    |-----------+----------|
+    | Passé     |   -op    |
+    | Non-passé |    Ø     |
+
+    Le temps  en Proto-Ñyqy est donné  par un marqueur {{{nyqy(op)}}}  venant après le
+    verbe lorsque celui-ci  est au passé. Autrement, les verbes  sont par défaut
+    dans le  temps non-passé, pouvant  ainsi se référer  au temps présent  ou au
+    futur.
+
+    Exemples :
+    - {{{nyqy(qy uñ)}}}
+
+      1sg marcher
+
+      Je marche
+    - {{{nyqy(nejqóim qy uñ)}}}
+
+      lendemain-DAT 1sg marcher
+
+      Demain je marcherai
+    - {{{nyqy(qy uñop)}}}
+
+      1sg marcher-PST
+
+      Je marchais
 
 *** Aspects
     :PROPERTIES:
     :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Aspects-d15008ac
     :END:
     # - How is aspect expressed?
-    Le Proto-Ñyqy ne dispose que de deux aspects : le parfait et le progressif.
+    Le Proto-Ñyqy ne  dispose que de trois aspects : l’imparfait,  le parfait et
+    le progressif.
 
-    Le  progressif permet  de  marquer  un événement  comme  étant un  événement
-    s’étalant sur  le temps,  remplissant ainsi  également la  fonction d’aspect
-    imparfait.
+    L’imparfait est l’aspect par défaut  du Proto-Ñyqy, désignant tout événement
+    pouvant paraître inachevé ou qui peut  être placé comme événement de fond au
+    temps de locution.  Cette frame temporelle peut indiquer  que des événements
+    peuvent s’y insérer  et se produire durant le déroulement  de l’événement au
+    parfait. Cet aspect n’est marqué par aucun marqueur grammatical.
+
+    Le  progressif,  marqué par  le  marqueur  {{{nyqy(mún)}}}  permet de  marquer  un
+    événement comme  étant un événement s’étalant  sur le temps. Cela  peut donc
+    indiquer une  action étant  en cours  de déroulement au  temps relatif  à la
+    locution, ou  bien à  un événement ayant  un effet portant  sur le  temps de
+    locution. Ce  genre d’événement peut  s’insérer durant une  frame temporelle
+    indiquée par de l’imparfait.
+
+    Le parfait, marqué par le  marqueur {{{nyqy(uc)}}}, permet d’indiquer un événement
+    est  considéré  lors  de  la  locution comme  étant  un  objet  manipulable,
+    s’insérant dans une  frame temporelle plus large (pouvant  être indiquée par
+    de l’imparfait).
+
+    #+CAPTION: Liste des marqueurs d’aspects en Proto-Ñyqy
+    | /          |     <     |
+    |            |    <c>    |
+    | Aspect     | Marqueur  |
+    |------------+-----------|
+    | imparfait  |     Ø     |
+    | parfait    | {{{nyqy(uc)}}}  |
+    | progressif | {{{nyqy(mún)}}} |
+
+    Exemples :
+    - {{{nyqy(qy uñmúnop ñyim bómygú zúmuucop)}}}
+
+      1sg marcher-PROG-PST 1sg-DAT art.def singe voir-PFT-PST
+
+      Alors que je marchais, le singe me regarda.
 
 *** Modes
     :PROPERTIES:
@@ -2040,6 +2293,15 @@
     Le mode dans le Proto-Ñyqy est marqué  séparément du temps et de l’aspect de
     par ses auxiliaires dédiés {{{nyqy(oqé)}}} et {{{nyqy(ug)}}}.
 
+    #+CAPTION: Liste des marqueurs de mode en Proto-Ñyqy
+    | /          |     <     |
+    |            |    <c>    |
+    | Mode       | Marqueur  |
+    |------------+-----------|
+    | Indicatif  |     Ø     |
+    | Subjonctif | {{{nyqy(ug)}}}  |
+    | Optatif    | {{{nyqy(oqé)}}} |
+
     Le premier est  un mode optatif, permettant d’exprimer un  souhait, un désir
     de la part de locuteur. Il est  en revanche impossible pour les locuteurs du
     Proto-Ñyqy d’exprimer le  souhait d’une autre persone via  l’optatif, et une
@@ -2051,14 +2313,14 @@
     souhait d’autruit, exprimer un souhait passé doit se faire via une structure
     syntaxique différente de l’utilisation de l’optatif.
 
-    L’auxiliaire {{{nyqy(ug)}}} sert quant à lui à exprimer des événements, actions ou
-    états  irréels.  Ainsi,  il  est principalement  utilisé  dans  les  clauses
-    principales comme un marqueur  d’évidentialité faible (ouï-dires) tandis que
-    l’indicatif (marqué par l’absence  d’auxiliaire modal) permet d’affirmer une
-    vérité dont le  locuteur est sûr. Le subjonctif  permet également d’exprimer
-    des  situations hypothétiques,  ou  bien même  des  situations imaginées,  y
-    incluant  les rêves.  Les  contes considérés  comme  imaginaires sont  ainsi
-    récités au subjonctif de façon quasi exclusive.
+    Le marqueur  {{{nyqy(ug)}}} sert quant  à lui à  exprimer le subjonctif,  soit des
+    événements, actions ou  états irréels. Ainsi, il  est principalement utilisé
+    dans  les  clauses  principales  comme un  marqueur  d’évidentialité  faible
+    (ouï-dires) tandis que l’indicatif (marqué par l’absence d’auxiliaire modal)
+    permet d’affirmer une vérité dont le  locuteur est sûr. Le subjonctif permet
+    également  d’exprimer  des  situations   hypothétiques,  ou  bien  même  des
+    situations  imaginées, y  incluant les  rêves. Les  contes considérés  comme
+    imaginaires sont ainsi récités au subjonctif de façon quasi exclusive.
 
     Enfin, comme dit ci-dessus l’indicatif  permet d’exprimer des faits qui sont
     considérés comme étant véridiques par  leur locuteur. Ainsi, pour décrire un
@@ -2441,381 +2703,472 @@
    :CUSTOM_ID: Annexes-Textes_avec_traduction_interlinéaire-00034e7a
    :END:
 
-
 * Dictionnaire
   :PROPERTIES:
   :CUSTOM_ID: Dictionnaire-60a099b4
   :END:
-  src_latex{\setlist[description]{style=nextline}}
 ** B
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-B-ae79d268
    :END:
-   - {{{nyqy(beñ)}}} ::
+   - {{{nyqy(beñ)}}} :: {{{def}}}
      1. (n) dents
      2. (vt) mordre, croquer
-   - {{{nyqy(beñgez)}}} :: Voir /beñ/ et /gez/
+     3. (vi) ruminer
+   - {{{nyqy(beñgez)}}} :: {{{defnl}}} Voir /beñ/ et /gez/
      1. (n) morsure
-     2. (vt) mordre
-   - {{{nyqy(bé)}}} ::
+     2. (vi) mordre
+     3. (vt) attaquer (animal)
+   - {{{nyqy(bé)}}} :: {{{def}}}
      1. (pron) son, sa, ses, pronom possessif inclusif de la troisième personne
-   - {{{nyqy(bó)}}} :: Voir /bóc/
+   - {{{nyqy(béwoñ)}}} :: {{{defnl}}} Voir /bé/ et /woñ/
+     1. (n) quelque chose de puant, de pourris
+     2. (n) puanteur, pourriture
+     3. (vi) puer, pourrir
+     4. (vi) se décomposer
+     5. (vt) corrompre
+   - {{{nyqy(bijéñ)}}} :: {{{defnl}}} Voir /bomij/ et /wéñ/
+     1. (n) nuit, partie sombre du jour
+   - {{{nyqy(bin)}}} :: {{{def}}}
+     1. (n) quelque chose de mauvais, sale
+     2. (n) méchanceté, malice, trait de caractère négatif
+     3. (n) saleté
+     4. (vt) salir
+   - {{{nyqy(bo)}}} :: {{{def}}}
+     1. (adv) et. Associe deux phrases nominales entre elles.
+   - {{{nyqy(bó)}}} :: {{{defnl}}} Voir /bóc/
      1. (art.def) le, la, les, article défini
-   - {{{nyqy(bóc)}}} ::
+   - {{{nyqy(bóc)}}} :: {{{def}}}
      1. (pron.dem) ceci, ça, démonstratif de proximité avec le locuteur
-   - {{{nyqy(bónusq)}}} ::
+   - {{{nyqy(bómij)}}} :: {{{def}}}
+     1. (n) Lune, {{{nyqy(mijoñ)}}} ou {{{nyqy(misij)}}}
+   - {{{nyqy(bónusq)}}} :: {{{def}}}
      1. (n) village
-   - {{{nyqy(bu)}}} ::
+   - {{{nyqy(bópéñ)}}} :: {{{defnl}}} Voir /bópo/ et /wéñ/
+     1. (n) journée, partie ensoleillée du jour
+   - {{{nyqy(bópo)}}} :: {{{defnl}}} Voir /bó/ et /po/
+     1. (n) le Soleil
+   - {{{nyqy(bu)}}} :: {{{def}}}
      1. (pron) mon, ma, mes, pronom possessif exclusif de la troisième personne
-   - {{{nyqy(bú)}}} ::
+   - {{{nyqy(bú)}}} :: {{{def}}}
      1. (pron) deuxième personne
 
 ** C
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-C-29dc766b
    :END:
-   - {{{nyqy(cé)}}} ::
+   - {{{nyqy(cé)}}} :: {{{def}}}
      1. (pron) mon, ma, mes, possesseur inclusif de la première personne
-   - {{{nyqy(co)}}} ::
+   - {{{nyqy(co)}}} :: {{{def}}}
      1. (nbr) cinq
-   - {{{nyqy(coge)}}} ::
+   - {{{nyqy(coge)}}} :: {{{def}}}
      1. (gp.SUBJ) marqueur pour verbes du subjonctif non-accomplis
-   - {{{nyqy(cope)}}} ::
+   - {{{nyqy(cope)}}} :: {{{def}}}
      1. (gp.JUS) marqueur pour verbes du jussif, marquant un souhait de la part
         du locuteur.
-   - {{{nyqy(coq)}}} ::
+   - {{{nyqy(coq)}}} :: {{{def}}}
      1. (vt) manger
-   - {{{nyqy(cójm)}}} ::
-     1. (nbr) marqueur de 100000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(cosu)}}} ::
+     2. (vi) se nourrir
+   - {{{nyqy(cosu)}}} :: {{{def}}}
      1. (n) entièreté
      2. (adv) tout, entièrement
-   - {{{nyqy(cós)}}} ::
+   - {{{nyqy(cójm)}}} :: {{{def}}}
+     1. (nbr) marqueur de 100000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
+   - {{{nyqy(cós)}}} :: {{{def}}}
      1. (n) oreille
      2. (n) ouïe
-   - {{{nyqy(cu)}}} ::
+     3. (vi) entendre
+     4. (vt) écouter. L’élément écouté est marqué par le datif.
+   - {{{nyqy(cóq)}}} :: {{{def}}}
+     1. (vt) couper
+     2. (vt) trancher
+     3. (vi) prendre parti
+   - {{{nyqy(cu)}}} :: {{{def}}}
      1. (pron) mon, ma, mes, pronom possessif exclusif de la première personne
-   - {{{nyqy(cuwéñ)}}} ::
+   - {{{nyqy(cuwéñ)}}} :: {{{defnl}}} Voir /cosu/ et /wéñ/
      1. (adv) tout le temps
+   - {{{nyqy(cúqé)}}} :: {{{def}}}
+     1. (n) fourmi
+     2. (n) insecte ou tout être y ressemblant, comme des mille-pattes.
 
 ** E
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-E-54360434
    :END:
-   - {{{nyqy(eco)}}} ::
+   - {{{nyqy(eco)}}} :: {{{def}}}
      1. (n) grain commmestible, riz, blé
-   - {{{nyqy(es)}}} ::
+     2. (vt) planter, cultiver
+   - {{{nyqy(es)}}} :: {{{def}}}
      1. (n) sècheresse
      2. (n) quelque chose de sec, d’aride
-   - {{{nyqy(ezp)}}} ::
+   - {{{nyqy(ezp)}}} :: {{{def}}}
      1. (n) ouvrage, travail
      2. (vi) travailler
+     3. (vt) créer, ouvrager, construire
 
 ** É
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-É-00657cfe
    :END:
-   - {{{nyqy(éc)}}} ::
+   - {{{nyqy(éc)}}} :: {{{def}}}
      1. (gp) particule de négation
-   - {{{nyqy(ég)}}} ::
+   - {{{nyqy(ég)}}} :: {{{def}}}
      1. (vt) aimer, apprécier
-   - {{{nyqy(éméz)}}} ::
+   - {{{nyqy(éméz)}}} :: {{{def}}}
      1. (n) mère
-   - {{{nyqy(émpé)}}} :: Voir /éméz/ et /épéq/
+   - {{{nyqy(émpé)}}} :: {{{defnl}}} Voir /éméz/ et /épéq/
      1. (n) maternité, paternité
-   - {{{nyqy(émpécoj)}}} :: Voir /émpé/ et /coj/
+   - {{{nyqy(émpécoj)}}} :: {{{defnl}}} Voir /émpé/ et /coj/
      1. (n) comportement parental, maternel, paternel
      2. (n) comportement protecteur
-   - {{{nyqy(épéq)}}} ::
+   - {{{nyqy(épéq)}}} :: {{{def}}}
      1. (n) père, papa
-   - {{{nyqy(éqcó)}}} ::
-     1. (vt) porter qqch (avec ses mains)
+   - {{{nyqy(éqcó)}}} :: {{{def}}}
+     1. (vt) porter quelque chose (avec ses mains)
 
 ** G
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-G-5a9af03c
    :END:
-   - {{{nyqy(ge)}}} ::
+   - {{{nyqy(ge)}}} :: {{{def}}}
      1. (gp.PST) marqueur du passé
-   - {{{nyqy(gec)}}} ::
+   - {{{nyqy(gec)}}} :: {{{def}}}
      1. (nbr) marqueur de 10000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(gez)}}} ::
+   - {{{nyqy(gez)}}} :: {{{def}}}
      1. (n) aggression
      2. (vt) attaquer, agresser
-   - {{{nyqy(gé)}}} ::
+     3. (vi) attaquer
+   - {{{nyqy(gé)}}} :: {{{def}}}
      1. (nbr) quatre
-   - {{{nyqy(goñ)}}} ::
+   - {{{nyqy(goñ)}}} :: {{{def}}}
      1. (n) quelque chose de grand, gros, large
      2. (vi) grossir
-   - {{{nyqy(gó)}}} ::
+     3. (vt) agrandir
+   - {{{nyqy(gó)}}} :: {{{def}}}
      1. (vt) boire
+     2. (vi) s’hydrater
+   - {{{nyqy(gúgús)}}} :: {{{def}}}
+     1. (n) goût amer
+     2. (n) peur (figuratif). Le peuple proto-Ñyqy évoquent le sentiment de peur
+        comme un goût amer qui vient en bouche.
 
 ** I
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-I-a81a4697
    :END:
-   - {{{nyqy(i)}}} :: Voir /mi/
+   - {{{nyqy(i)}}} :: {{{defnl}}} Voir /mi/
      1. (art indef) un, une, des, article defini
-   - {{{nyqy(icm)}}} ::
+   - {{{nyqy(icm)}}} :: {{{def}}}
      1. (n) bras
      2. (n) branche (arbre)
-   - {{{nyqy(ij)}}} ::
+   - {{{nyqy(ij)}}} :: {{{def}}}
      1. (n) chemin, route, voie
      2. (vi) voyager
-   - {{{nyqy(im)}}} ::
+     3. (vt) aller quelque part. Prend un second argument datif et non
+        absolutif.
+   - {{{nyqy(im)}}} :: {{{def}}}
      1. (gp) Marqueur du datif
-   - {{{nyqy(is)}}} ::
+   - {{{nyqy(is)}}} :: {{{def}}}
      1. particule du *causatif*
 
 ** J
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-J-88f57f6a
    :END:
-   - {{{nyqy(jé)}}} ::
+   - {{{nyqy(jé)}}} :: {{{def}}}
      1. (pron) ton, ta, tes, pronom possessif inclusif de la deuxième personne
-   - {{{nyqy(jéq)}}} ::
+   - {{{nyqy(jéq)}}} :: {{{def}}}
      1. (vt) pousser
-   - {{{nyqy(jó)}}} ::
+     2. (vi) se faire pousser
+   - {{{nyqy(jó)}}} :: {{{def}}}
      1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs,
         l’élément n’est pas visible.
-   - {{{nyqy(jójpyg)}}} ::
+   - {{{nyqy(jójpyg)}}} :: {{{def}}}
      1. (n) plume
-   - {{{nyqy(josgé)}}} ::
+   - {{{nyqy(josgé)}}} :: {{{def}}}
      1. (n) os
      2. (n) amulette
-   - {{{nyqy(ju)}}} ::
+   - {{{nyqy(ju)}}} :: {{{def}}}
      1. (pron) ton, ta, tes, pronom possessif exclusif de la deuxième personne
-   - {{{nyqy(juc)}}} ::
+   - {{{nyqy(juc)}}} :: {{{def}}}
      1. (n) bonté, bienfaisance
      2. (n) quelque chose de moralement bon, bienfaisant
-   - {{{nyqy(jucú)}}} ::
+   - {{{nyqy(jucú)}}} :: {{{def}}}
      1. (n) peau
      2. (n) écorce
-   - {{{nyqy(juzib)}}} ::
+   - {{{nyqy(juzib)}}} :: {{{def}}}
      1. (n) chair, viande comestible
-   - {{{nyqy(jy)}}} ::
+   - {{{nyqy(jy)}}} :: {{{def}}}
      1. (n) fin, dernier
 
 ** M
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-M-cccfd958
    :END:
-   - {{{nyqy(meb)}}} ::
+   - {{{nyqy(meb)}}} :: {{{def}}}
      1. (n) terre (matière)
-   - {{{nyqy(meém)}}} ::
+     2. (n) sol, lieu
+     3. (vi) travailler (agricole)
+     4. (vt) labourer
+   - {{{nyqy(meém)}}} :: {{{def}}}
      1. (n) grand-mère (affectueux)
-   - {{{nyqy(meq)}}} ::
+   - {{{nyqy(meq)}}} :: {{{def}}}
      1. (n) parole, mot
-   - {{{nyqy(meqm)}}} ::
-     1. (vi) parler, expliquer, échanger oralement
-   - {{{nyqy(meqmsó)}}} ::
+   - {{{nyqy(meqm)}}} :: {{{def}}}
      1. (n) prise de parole, acte de parole, discours, oratoire
-   - {{{nyqy(mesyq)}}} :: Voir /meqm/ et /syjéq/
+     2. (vi) parler, expliquer, échanger oralement
+     3. (vt) enseigner
+   - {{{nyqy(mesyq)}}} :: {{{defnl}}} Voir /meqm/ et /syjéq/
      1. (n) chuchotement, parole basse
      2. (vi) chuchoter, litt. souffler une parole
-   - {{{nyqy(még)}}} ::
+   - {{{nyqy(még)}}} :: {{{def}}}
      1. (adv) beaucoup, très
-   - {{{nyqy(mi)}}} ::
+   - {{{nyqy(mi)}}} :: {{{def}}}
      1. (nbr) un
-   - {{{nyqy(mij)}}} ::
+   - {{{nyqy(mij)}}} :: {{{def}}}
      1. (n) cendres
-     2. (n) fumée
+     2. (n) fumée (issue d’un feu, salissante)
      3. (n) cendré (couleur)
-   - {{{nyqy(mijoñ)}}} :: Voir /goñ/ et /mij/
+     4. (vi) fumer
+   - {{{nyqy(mijoñ)}}} :: {{{defnl}}} Voir /goñ/ et /mij/
      1. (n) Lune majeur, grande lune, litt. « grande cendrée »
-   - {{{nyqy(misij)}}} :: Voir /si/ et /mij/
+   - {{{nyqy(misij)}}} :: {{{defnl}}} Voir /si/ et /mij/
      1. (n) Lune mineure, petite lune, litt. « petite cendrée »
-   - {{{nyqy(mó)}}} ::
+   - {{{nyqy(miqiné)}}} :: {{{defnl}}} Voir /mi/, /qi/, /né/
+     1. (vi) faire les comptes
+     2. (vt) compter
+   - {{{nyqy(mó)}}} :: {{{def}}}
      1. (nbr) marqueur de 100_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(mójpi)}}} ::
+   - {{{nyqy(mójpi)}}} :: {{{def}}}
      1. (n) douleur
      2. (vi) faire mal, provoquer de la douleur
-   - {{{nyqy(móñ)}}} ::
+     3. (vt) blesser quelqu’un, quelque chose
+   - {{{nyqy(móñ)}}} :: {{{def}}}
      1. (n) sud
-   - {{{nyqy(músq)}}} ::
+   - {{{nyqy(mújyjq)}}} :: {{{def}}}
+     1. (n) outside
+     2. (n) forêt, jungle
+     3. (vt) perdre (quelque chose)
+   - {{{nyqy(músq)}}} :: {{{def}}}
      1. (n) maison (bâtiment), habitation
-   - {{{nyqy(muz)}}} ::
+   - {{{nyqy(muz)}}} :: {{{def}}}
      1. (n) rouge, pourpre
      2. (n) fruit rouge
-   - {{{nyqy(mygú)}}} ::
+     3. (vi) rougir
+   - {{{nyqy(mygú)}}} :: {{{def}}}
      1. (n) singe
+     2. (vi) être agité
 
 ** N
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-N-0ef6f2af
    :END:
-   - {{{nyqy(ne)}}} ::
+   - {{{nyqy(ne)}}} :: {{{def}}}
      1. (nbr) zéro, rien
      2. (adv) non, pas, négation
-   - {{{nyqy(nejqó)}}} ::
+   - {{{nyqy(nejqó)}}} :: {{{def}}}
      1. (n) lendemain
-   - {{{nyqy(né)}}} ::
+   - {{{nyqy(neqm)}}} :: {{{defnl}}} Voir /ne/ et /meqm/
+     1. (n) bébé, enfant en bas âge, ne sachant pas encore parler
+   - {{{nyqy(nezp)}}} :: {{{defnl}}} Voir /ne/ et /ezp/
+     1. (n) enfant n’étant pas encore en âge de travailler (jusqu’à environ 10
+        ans)
+   - {{{nyqy(né)}}} :: {{{def}}}
      1. (nbr) trois
-   - {{{nyqy(noc)}}} ::
+   - {{{nyqy(noc)}}} :: {{{def}}}
      1. (n) vieillesse, grand âge
      2. (n) quelque chose de vieux, d’ancien, de grand âge
-   - {{{nyqy(nó)}}} ::
+   - {{{nyqy(nó)}}} :: {{{def}}}
      1. (n) poitrine, seins (attribut féminin)
      2. (n) maternité
      3. (n) fertilité
-   - {{{nyqy(nócpi)}}} ::
+   - {{{nyqy(nócpi)}}} :: {{{def}}}
      1. ensuite, puis, à côté, depuis
+   - {{{nyqy(núc)}}} :: {{{def}}}
+     1. (n) jeunesse
+     2. (n) jeune personne, adolescent
 
 ** Ñ
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Ñ-ff7a574f
    :END:
-   - {{{nyqy(ñe)}}} ::
+   - {{{nyqy(ñe)}}} :: {{{def}}}
      1. (n) maison
-   - {{{nyqy(ñocm)}}} ::
+   - {{{nyqy(ñocm)}}} :: {{{def}}}
      1. (n) personne, humain, quelqu’un
-   - {{{nyqy(ñozmicq)}}} ::
-     1. (vi)  accepter. La  chose acceptée  est passée  au verbe  comme argument
+   - {{{nyqy(ñozmicq)}}} :: {{{def}}}
+     1. (vi) acquiescer
+     2. (vt)  accepter. La  chose acceptée  est passée  au verbe  comme argument
         ergatif, tandis que  l’argument acceptant est passé  en tant qu’argument
-        datif.
-   - {{{nyqy(ñójb)}}} ::
+        datif. Forme d’anti-passif.
+   - {{{nyqy(ñójb)}}} :: {{{def}}}
      1. (n) oiseau
-   - {{{nyqy(ñucm)}}} ::
+   - {{{nyqy(ñucm)}}} :: {{{def}}}
      1. (n) chute
      2. (vi) tomber, chuter
-   - {{{nyqy(ñuné)}}} :: Voir aussi /wéz/
+   - {{{nyqy(ñuné)}}} :: {{{defnl}}} Voir aussi /wéz/
      1. (n) dieu terrestre, divinité, être supérieur
-   - {{{nyqy(ñuñ)}}} ::
+   - {{{nyqy(ñuñ)}}} :: {{{def}}}
      1. (nbr) marqueur de 1000000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(ñy)}}} ::
-     1. (pron) première personne
-     2. (nbr) six, marqueur des sixaines. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-     3. (n) quelque chose d’important en nombre
+   - {{{nyqy(ñy)}}} :: {{{def}}}
+     1. (nbr) six, marqueur des sixaines. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
+     2. (n) quelque chose d’important en nombre
 
 ** O
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-O-cf8f0e3f
    :END:
-   - {{{nyqy(oñ)}}} ::
+   - {{{nyqy(oñ)}}} :: {{{def}}}
      1. (n) nez
-   - {{{nyqy(oz)}}} ::
+   - {{{nyqy(oz)}}} :: {{{def}}}
      1. (n) chat
 
 ** Ó
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Ó-0c780f53
    :END:
-   - {{{nyqy(ócqi)}}} ::
+   - {{{nyqy(ócqi)}}} :: {{{def}}}
      1. (vt) porter. Voir aussi /éqcó/
-   - {{{nyqy(ón)}}} ::
+   - {{{nyqy(ón)}}} :: {{{def}}}
      1. (gp) marqueur du locatif
 
 ** P
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-P-2b7ab301
    :END:
-   - {{{nyqy(péj)}}} ::
+   - {{{nyqy(péj)}}} :: {{{def}}}
      1. (n) poisson d’eau douce
-   - {{{nyqy(pi)}}} ::
+   - {{{nyqy(pi)}}} :: {{{def}}}
      1. (n) chien
-   - {{{nyqy(pim)}}} ::
+   - {{{nyqy(pim)}}} :: {{{def}}}
      1. (n) pomme
-   - {{{nyqy(pom)}}} ::
+   - {{{nyqy(po)}}} :: {{{def}}}
+     1. (n) or (matière)
+     2. (n) couleur dorée, aspect doré
+   - {{{nyqy(pom)}}} :: {{{def}}}
      1. (gp) particule génitive
-   - {{{nyqy(púmój)}}} ::
+   - {{{nyqy(pomij)}}} :: {{{defnl}}} Voir /po/ et /mij/
+     1. (n) jour, journée, un jour et une nuit (durée de temps, litt. d’or et
+        d’argent)
+   - {{{nyqy(púmój)}}} :: {{{def}}}
      1. (n) poisson d’eau de mer
-   - {{{nyqy(póweq)}}} ::
+   - {{{nyqy(póweq)}}} :: {{{def}}}
      1. (n) griffe
      2. (n) pendentif, bijou
-   - {{{nyqy(pu)}}} ::
+   - {{{nyqy(pu)}}} :: {{{def}}}
      1. (pron.dem) pronom démonstratif de proximité avec l’interlocuteur
 
 ** Q
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Q-b1ec8323
    :END:
-   - {{{nyqy(qe)}}} ::
+   - {{{nyqy(qe)}}} :: {{{def}}}
      1. (n) œil
      2. (vt) voir, regarder
-   - {{{nyqy(qecge)}}} ::
+   - {{{nyqy(qecge)}}} :: {{{def}}}
      1. (vi) partir, quitter
-   - {{{nyqy(qéy)}}} ::
+   - {{{nyqy(qé)}}} :: {{{def}}}
+     1. (n) grandeur, hauteur
+     2. (n) quelque chose de grand, de haut
+     3. (vi) grandir
+     4. (vt) soulever, élever quelque chose
+   - {{{nyqy(qébsin)}}} :: {{{defnl}}} Voir /qéeb/ et /sin/
+     1. (n) montagne
+     2. (vi) trôner, dominer
+   - {{{nyqy(qéeb)}}} :: {{{defnl}}} Voir /qé/ et /meb/
+     1. (n) colline
+   - {{{nyqy(qéy)}}} :: {{{def}}}
      1. (n) chaleur
-   - {{{nyqy(qéysó)}}} :: Voir /qey/ et /só/
-     1. (vt) chauffer, réchauffer, cuire
-   - {{{nyqy(qi)}}} ::
+     2. (vi) se réchauffer
+     3. (vt) chauffer, réchauffer, cuire
+   - {{{nyqy(qi)}}} :: {{{def}}}
      1. (nbr) deux
-   - {{{nyqy(qomy)}}} ::
+   - {{{nyqy(qomy)}}} :: {{{def}}}
      1. (n) solitude, seul
      2. (n) individualité, individuel
-   - {{{nyqy(qój)}}} ::
-     1. (vi) dormir
-   - {{{nyqy(qóñ)}}} ::
+   - {{{nyqy(qój)}}} :: {{{def}}}
+     1. (n) sommeil
+     2. (vi) dormir
+   - {{{nyqy(qósé)}}} :: {{{def}}}
+     1. (n) heure, section de journée.  Dans la culture du peuple proto-Ñyqy, la
+        journée était divisée  entre le jour et la nuit,  chacun étant divisé en
+        cinq heures. Dû à leur position proche de l’équateur, on peut en déduire
+        qu’une heure dans leur culture équivaut à 2h24min environ.
+   - {{{nyqy(qóñ)}}} :: {{{def}}}
      1. (n) vache, buffle, bétail
-   - {{{nyqy(qujm)}}} ::
+   - {{{nyqy(qujm)}}} :: {{{def}}}
      1. (n) position
      2. (n) numéro (ordinal)
-   - {{{nyqy(qun)}}} ::
+     3. (vt) compter
+   - {{{nyqy(qun)}}} :: {{{def}}}
      1. (gp.OPT) particule grammaticale marquant l’optatif
-   - {{{nyqy(qúzb)}}} ::
+   - {{{nyqy(qúzb)}}} :: {{{def}}}
      1. (n) tête
      2. (n) intelligence
-   - {{{nyqy(qy)}}} ::
+     3. (v) réfléchir
+   - {{{nyqy(qy)}}} :: {{{def}}}
      1. (nbr) six, première sixaine. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
 
 ** S
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-S-e9e187ae
    :END:
-   - {{{nyqy(si)}}} ::
+   - {{{nyqy(si)}}} :: {{{def}}}
      1. (nbr) marqueur de 1000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(séc)}}} :: Voir /sy/ et /éc/
+   - {{{nyqy(sin)}}} :: {{{def}}}
+     1. (n) pierre (matière)
+     2. (n) pierre (objet), rocher
+     3. (n) dureté, quelque chose de dur
+     4. (vi) être ferme
+     5. (vt) imposer qqch
+   - {{{nyqy(séc)}}} :: {{{defnl}}} Voir /sy/ et /éc/
      1. (n) mort
-   - {{{nyqy(sége)}}} ::
-     1. (adj) bon (goût), délicieux
-   - {{{nyqy(séwe)}}} ::
+     2. (vi) mourir
+   - {{{nyqy(sége)}}} :: {{{def}}}
+     1. (n) goût agréable
+     2. (n) quelque chose de délicieux
+   - {{{nyqy(séwe)}}} :: {{{def}}}
      1. (n) porte, voile de tissu utilisé à l’entrée des maisons
      2. (n) tissu
-   - {{{nyqy(si)}}} ::
+   - {{{nyqy(si)}}} :: {{{def}}}
      1. (n) quelque chose de petit, de petite taille
-   - {{{nyqy(sisp)}}} ::
-     1. (adj) bon, correct, bien (sans jugement moral)
-   - {{{nyqy(so)}}} ::
+   - {{{nyqy(sisp)}}} :: {{{def}}}
+     1. (n) quelque chose de bon, correct, bien (sans jugement moral)
+   - {{{nyqy(so)}}} :: {{{def}}}
      1. (n) feu
      2. (n) quelque chose de brûlant
      3. (n) quelque chose de brillant, émanant de la chaleur
-   - {{{nyqy(sosó)}}} :: Voir /so/
-     1. (vi) brûler
-     2. (vi) illuminer, allumer, briller (chaud)
-   - {{{nyqy(só)}}} ::
-     1. (gp) façon de faire, manière de faire, d’agir. Graphème lié, voir
-        [[#Aperçu_structurel-Structure_d’un_groupe_nominal-Dénominalisation-edce8307][Dénominalisation]].
-   - {{{nyqy(sóñ)}}} ::
+     4. (vi) brûler
+     5. (vi) illuminer, allumer, briller (chaud)
+   - {{{nyqy(sóñ)}}} :: {{{def}}}
      1. (n) nuage
      2. (n) ciel couvert
-   - {{{nyqy(sun)}}} ::
+   - {{{nyqy(sun)}}} :: {{{def}}}
      1. (n) graine (général). Voir aussi /eco/
-   - {{{nyqy(sú)}}} ::
+   - {{{nyqy(sú)}}} :: {{{def}}}
      1. (n) ventre, estomac
-   - {{{nyqy(súmusq)}}} :: Voir /sú/ et /musq/
+   - {{{nyqy(súmusq)}}} :: {{{defnl}}} Voir /sú/ et /musq/
      1. (n) maison communale, maison (lieu). Le ventre de la maison, son
         intérieur.
-   - {{{nyqy(sy)}}} ::
+   - {{{nyqy(sy)}}} :: {{{def}}}
      1. (n) air, vent
      2. (n) vie
      3. (n) souffle
-   - {{{nyqy(syoñ)}}} :: Voir /oñ/ et /sy/
+     4. (vi) vivre, respirer
+   - {{{nyqy(syoñ)}}} :: {{{defnl}}} Voir /oñ/ et /sy/
      1. (n) odeur, litt. « air du nez »
-   - {{{nyqy(syjéq)}}} :: Voir /sy/ et /jéq/
-     1. (vt) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
-   - {{{nyqy(syjéqsó)}}} :: Voir /sujéq/ et /só/
+   - {{{nyqy(syjéq)}}} :: {{{defnl}}} Voir /sy/ et /jéq/
      1. (n) souffle
      2. (n) vent
      3. (n) brise, vent frais
-   - {{{nyqy(syg)}}} ::
+     4. (vt) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
+   - {{{nyqy(syg)}}} :: {{{def}}}
      1. (n) beauté
-   - {{{nyqy(sysó)}}} ::
-     1. (vi) vivre, respirer
-   - {{{nyqy(sywéqun)}}} :: Voir /sywéz/ et /qun/
+   - {{{nyqy(sywéqun)}}} :: {{{defnl}}} Voir /sywéz/ et /qun/
      1. (n) Chaman. Aspirant aux esprits, aux âmes, aux dieux.
-   - {{{nyqy(sywéz)}}} :: Voir /sy/ et /wéz/
+   - {{{nyqy(sywéz)}}} :: {{{defnl}}} Voir /sy/ et /wéz/
      1. (n) souffle divin, âme, esprit
-   - {{{nyqy(sywézéc)}}} :: Voir /sywéz/ et /éc/
+   - {{{nyqy(sywézéc)}}} :: {{{defnl}}} Voir /sywéz/ et /éc/
      1. (n) tristesse
      2. (n) sans âme, personne vide
 
@@ -2823,77 +3176,107 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-U-fa109e34
    :END:
-   - {{{nyqy(uñ)}}} ::
+   - {{{nyqy(um)}}} :: {{{def}}}
+     1. (adv) et, puis. Associe deux propositions entre elles.
+   - {{{nyqy(uñ)}}} :: {{{def}}}
      1. (n) pied
      2. (n) racine
      3. (vi) marcher, avancer
-   - {{{nyqy(usg)}}} ::
+     4. (vt) faire progresser
+   - {{{nyqy(usg)}}} :: {{{def}}}
      1. (n) dos
+   - {{{nyqy(usj)}}} :: {{{def}}}
+     1. (n) trou
+     2. (vi) creuser le sol
+     3. (vt) graver
 
 ** Ú
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Ú-c35e6434
    :END:
-   - {{{nyqy(újq)}}} ::
+   - {{{nyqy(újq)}}} :: {{{def}}}
      1. (n) puissance, force mentale, majestuosité
-   - {{{nyqy(ús)}}} ::
+   - {{{nyqy(ús)}}} :: {{{def}}}
      1. (n) œuf
 
 ** W
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-W-ea0cd36f
    :END:
-   - {{{nyqy(wéz)}}} ::
+   - {{{nyqy(wejp)}}} :: {{{def}}}
+     1. (n) fumée, vapeur
+     2. (n) brouillard
+     3. (vi) embuer, voiler
+   - {{{nyqy(wéñ)}}} :: {{{def}}}
+     1. temps (concept)
+     2. occurence régulière
+   - {{{nyqy(wéz)}}} :: {{{def}}}
      1. (n) divinité suprême, dieu céleste, être supérieur, créateur. Voir aussi
         /ñuné/.
-   - {{{nyqy(won)}}} ::
+   - {{{nyqy(won)}}} :: {{{def}}}
      1. (vt) voler, nager, se déplacer.
 
         Reçoit en absolutif l’élément dans lequel se déplace l’élément ergatif.
         Exemple : /yc bó péj won/ « Le poisson nage », litt. « le poisson se
         déplace dans l’eau douce ».
-   - {{{nyqy(wóseq)}}} ::
+   - {{{nyqy(wóseq)}}} :: {{{def}}}
      1. (n) voisin
      2. (n) quelque chose de proche
-   - {{{nyqy(wó)}}} ::
+   - {{{nyqy(wó)}}} :: {{{def}}}
      1. (n) humain
      2. (n) quelque chose d’apparence ou de comportement humain
-   - {{{nyqy(wócosu)}}} :: Voir /wó/ et /cosu/
+   - {{{nyqy(wócosu)}}} :: {{{defnl}}} Voir /wó/ et /cosu/
      1. (n) humanité, tous les humains
-   - {{{nyqy(wóq)}}} ::
+   - {{{nyqy(wóq)}}} :: {{{def}}}
      1. (n) homme
-   - {{{nyqy(wóz)}}} ::
+   - {{{nyqy(wóz)}}} :: {{{def}}}
      1. (n) femme
 
 ** Y
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Y-a217cb68
    :END:
-   - {{{nyqy(yc)}}} ::
+   - {{{nyqy(yc)}}} :: {{{def}}}
      1. (n) eau douce
      2. (n) éther, souffle divin
      3. (n) vie
-   - {{{nyqy(ycne)}}} :: Voir /ne/ et /yc/
+     4. (vi) vivre
+   - {{{nyqy(ycne)}}} :: {{{defnl}}} Voir /ne/ et /yc/
      1. (n) mort
      2. (vi) mourrir
-   - {{{nyqy(ycéjéz)}}} :: Voir /yc/, /újq/ et /wéz/
+   - {{{nyqy(ycéjéz)}}} :: {{{defnl}}} Voir /yc/, /újq/ et /wéz/
      1. (n) magie, force divine. Littéralement « eau de la puissance divine »
-   - {{{nyqy(ycij)}}} ::
+   - {{{nyqy(ycij)}}} :: {{{defnl}}} Voir /yc/ et /ij/
      1. (n) rivière, fleuve, ruisseau
      2. (n) veine, artère
-   - {{{nyqy(ycoj)}}} ::
+     3. (vi) s’écouler, couler (de l’eau, pas un bateau)
+   - {{{nyqy(ycisy)}}} :: {{{defnl}}} Voir /ycij/ et /sy/
+     1. (n) mousson
+     2. (n) pluie diluvienne
+     3. (vi) pleuvoir (mousson), pleuvoir intensément
+   - {{{nyqy(ycoj)}}} :: {{{def}}}
      1. (n) liquide
      2. (n) quelque chose de liquide ou d’aqueux
      3. (n) quelque chose de bénéfacteur
-   - {{{nyqy(ycmuz)}}} :: Voir /yc/ et /muz/
+   - {{{nyqy(ycmuz)}}} :: {{{defnl}}} Voir /yc/ et /muz/
      1. (n) sang
-   - {{{nyqy(ycuñ)}}} ::
+     2. (vi) saigner
+     3. (vi) s’énerver, se mettre en colère
+   - {{{nyqy(ycsy)}}} :: {{{defnl}}} Voir /yc/ et /sy/
+     1. (n) pluie, fines gouttes
+     2. (n) brume
+     3. (vi) pleuvoir légèrement
+   - {{{nyqy(ycúñ)}}} :: {{{def}}}
      1. (n) flot, courant (par ex. d’eau)
      2. (vi) couler (de l’eau)
-   - {{{nyqy(yq)}}} ::
+   - {{{nyqy(yjp)}}} :: {{{def}}}
+     1. (n) lac, étang, étendue d’eau douce
+   - {{{nyqy(yq)}}} :: {{{def}}}
      1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs, mais
         l’élément reste visible.
-   - {{{nyqy(yzm)}}} ::
+   - {{{nyqy(ys)}}} :: {{{def}}}
+     1. (vi) venir
+   - {{{nyqy(yzm)}}} :: {{{def}}}
      1. (n) main
      2. (n) feuille
 
@@ -2901,30 +3284,38 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Z-144a2853
    :END:
-   - {{{nyqy(zé)}}} ::
+   - {{{nyqy(zé)}}} :: {{{def}}}
      1. (pron) Pron.Pers.3sg, il, elle
-   - {{{nyqy(zi)}}} ::
+   - {{{nyqy(zi)}}} :: {{{def}}}
      1. (n) mouche
      2. (n) moustique
      3. (n) son agaçant, similaire au bruit d’un insecte (moustique, mouche)
-   - {{{nyqy(zic)}}} ::
+     4. (vi) bourdonner, faire un bruit agaçant
+     5. (vt) agacer (quelqu’un)
+   - {{{nyqy(zic)}}} :: {{{def}}}
      1. (n) chair, viande non comestible
-   - {{{nyqy(zoc)}}} ::
+   - {{{nyqy(ziwez)}}} :: {{{def}}}
+     1. (n) sable 
+   - {{{nyqy(zoc)}}} :: {{{def}}}
      1. (n) tête
      2. (n) chef, patriarche, matriarche
-     3. (n) sommet d’une montagne
-   - {{{nyqy(zocséwe)}}} :: Voir /zoc/ et /séwe/
+     3. (n) sommet
+   - {{{nyqy(zocséwe)}}} :: {{{defnl}}} Voir /zoc/ et /séwe/
      1. (n) voile ou châle porté autour de la tête. Litt. « tissu de tête »
-   - {{{nyqy(zó)}}} ::
+   - {{{nyqy(zó)}}} :: {{{def}}}
      1. (n) jeu
      2. (vt) jouer
-   - {{{nyqy(zój)}}} ::
+   - {{{nyqy(zócu)}}} :: {{{defnl}}} Voir /sy/ et /zój/
+     1. (n) animal
+     2. (n) être vivant non humain non fantastique
+   - {{{nyqy(zój)}}} :: {{{def}}}
      1. (n) chose, objet abstrait
-   - {{{nyqy(zuj)}}} ::
+   - {{{nyqy(zuj)}}} :: {{{def}}}
      1. (n) nuit, noir, ombre
-   - {{{nyqy(zúmu)}}} ::
-     1. (vi) voir. L’élément vu est passé au verbe comme un argument datif.
-        Exemple :
+     2. (vt) assombrir
+   - {{{nyqy(zúmu)}}} :: {{{def}}}
+     1. (vi) voir, regarder. L’élément vu est passé au verbe comme un argument
+        datif. Exemple :
         - {{{nyqy(bó oz im qy zúmuop)}}}
 
           J’ai vu le chat.
@@ -2937,86 +3328,7 @@
   - ñy = 6
   - qy = 1sg
 
-** General ideas
-   :PROPERTIES:
-   :CUSTOM_ID: Notes-General_ideas-78dd1a37
-   :END:
-   Utiliser la terminaison en /m/ pour transformer un nom en verbe
-
-** Proto-Ñyqy syntax
-   :PROPERTIES:
-   :CUSTOM_ID: Notes-Proto-Ñyqy_syntax-f4a6275d
-   :END:
-   Prep ⊃ ((NDem ∨ NNum ∨ NPoss ⊃ NAdj) & (NAdj ⊃ NGen) & (NGen ⊃ NRel))
-   Posp ⊃ ((AdjN ∨ RelN ⊃ DemN & NumN & PossN) & (DemN ∨ NumN ∨ PossN ⊃ GenN))
-
-   Lang D of [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit#gid=0][this chart]], evolving to F.
-
-   Le Proto-Ñyqy est une langue  ascendante (/head-final/ en anglais). Ordre des
-   éléments :
-   - NAdj
-
-     Opinion-N-Size-Quantity-Age-Origin-Purpose-Material-Shape-Color
-
-     Shape et Material => GEN, Origin => LOC, Purpose => INST
-
-     | ycoj  | pim   | még  | goñ    | ñy        | muz   |
-     | bonne | pomme | très | grosse | nombreuse | rouge |
-   - NRel
-
-     pomme que je mange
-   - DemN
-     | bóc | oz   |
-     | ce  | chat |
-
-     - def.art N
-
-       /bó/ from /bóc/
-
-       la pomme :
-       | bó      | pim   |
-       | def.art | pomme |
-   - NumNNum
-     - Num_{12} N Num_{6}
-
-       Les unités suivent le groupe nominal tandis que les sixaines le précèdent.
-       Penser à 6x éléments + y.
-
-       20 pommes (litt 3×6 pommes 2)
-       | né | ñy | pim   | qi |
-       |  3 |  6 | pomme |  2 |
-     - N art.indef
-
-       /i/ from /mi/
-
-       une pomme :
-       | pim   | i |
-       | pomme | indef.art |
-     - ordNum N
-
-       Les nombres ordinaux viennent intégralement avant le nom
-     - Declarative numbers: declNum Gen N
-
-       Pomme première :
-       | mi | pom | pim   |
-       |  1 | GEN | pomme |
-   - PossN
-
-     Comme en français, /ma pomme/
-   - GenN
-
-     Comme le /’s/ en anglais, maison de moi :
-     | ñy  | pom | ñe     |
-     | 1sg | GEN | maison |
-
-     Gen-Adj-Dem-Num-Poss-N-Num-Adj-Rel
-
-* Choses à faire [2/4]                                             :noexport:
-  :PROPERTIES:
-  :CUSTOM_ID: Choses_à_faire_[2-4]-fc53373e
-  :END:
 # To be used at https://jasontank.net/wordgen.html
-#+NAME: wordgen-backup
 #+BEGIN_SRC text :exports none
 --CATEGORIES--
 A=qgcjñmnszpbw
@@ -3074,53 +3386,30 @@ CPWCP
 ||
 #+END_SRC
 
-** DONE corriger ~conlang/nyqy-to-phonetics~
-   CLOSED: [2020-01-29 mer. 21:27]
+** General ideas
    :PROPERTIES:
-   :CUSTOM_ID: Choses_à_faire-corriger_~conlang-nyqy-to-phonetics~-86bc9830
+   :CUSTOM_ID: Notes-General_ideas-78dd1a37
    :END:
-   Si un  terme commence  avec une  voyelle, la  première consonne  est d’office
-   mutée.  Elle  ne devrait  pas  l’être.  Exemple :  {{{nyqy(oñ)}}} a  la  phonétique
-   {{{phon(ɔm)}}} alors que la phonétique correcte devrait être {{{phon(ɔɴ)}}}.
+   Utiliser la terminaison en /m/ pour transformer un nom en verbe
 
-** DONE améliorer l’apparence des termes du dictionnaire en LaTeX
-   CLOSED: [2020-01-29 mer. 12:48]
+** Proto-Ñyqy syntax
    :PROPERTIES:
-   :CUSTOM_ID: Choses_à_faire-améliorer_l’apparence_des_termes_du_dictionnaire_en_LaTeX-80e9fd03
+   :CUSTOM_ID: Notes-Proto-Ñyqy_syntax-f4a6275d
    :END:
-   Il faudrait  trouver un  moyen pour  que, comme sur  l’export HTML,  le terme
-   Proto-Ñyqy et sa phonétique soient sur une ligne différente de la définition,
-   avec la définition qui est indentée.
+   Prep ⊃ ((NDem ∨ NNum ∨ NPoss ⊃ NAdj) & (NAdj ⊃ NGen) & (NGen ⊃ NRel))
+   Posp ⊃ ((AdjN ∨ RelN ⊃ DemN & NumN & PossN) & (DemN ∨ NumN ∨ PossN ⊃ GenN))
 
-** TODO Compléter la liste Swadesh [1/3]
+   Lang D of [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit#gid=0][this chart]], evolving to F.
+
+* Choses à faire [2/4]                                             :noexport:
+  :PROPERTIES:
+  :CUSTOM_ID: Choses_à_faire_[2-4]-fc53373e
+  :END:
+** TODO Compléter la liste Swadesh
    :PROPERTIES:
    :CUSTOM_ID: Choses_à_faire-Compléter_la_liste_Swadesh_[1-3]-00c5cde8
    :END:
    Compléter la liste du fichier [[file:swadesh.org::#h-a5b4a65c-68ab-4630-b054-da816d679cfd][Swadesh#Ñyqy]].
-
-** TODO Simplifier les fonctions du layer ~conlanging~
-   :PROPERTIES:
-   :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-ce95e0c6
-   :END:
-   Vu que je viens enfin de comprendre l’utilisation de ~&optional~ en Elisp, il
-   serait temps de  simplifier les fonctions et réduire le  nombre d’entre elles
-   dans le layer ~conlanging~.
-
-*** DONE dot tree
-    CLOSED: [2020-01-29 mer. 21:50]
-    :PROPERTIES:
-    :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-dot_tree-f5d38d5c
-    :END:
-
-*** TODO Eittlandais vers Runes
-    :PROPERTIES:
-    :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-Eittlandais_vers_Runes-f13362f8
-    :END:
-
-*** TODO Mattér vers Runes
-    :PROPERTIES:
-    :CUSTOM_ID: Choses_à_faire-Simplifier_les_fonctions_du_layer_~conlanging~-Mattér_vers_Runes-b269eb6c
-    :END:
 
 * Footnotes
   :PROPERTIES:
