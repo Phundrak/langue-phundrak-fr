@@ -1,0 +1,26 @@
+#+TITLE:  Todo
+#+AUTHOR: Lucien Cartier-Tilet
+#+EMAIL:  lucien@phundrak.com
+#+DATE:   2020-09-12
+#+TAGS:   conlanging
+
+* TODO Simplifier les fonctions du layer ~conlanging~
+  Vu que je viens enfin de  comprendre l’utilisation de ~&optional~ en Elisp, il
+  serait temps  de simplifier les fonctions  et réduire le nombre  d’entre elles
+  dans le layer ~conlanging~.
+
+** DONE dot tree
+   CLOSED: [2020-01-29 mer. 21:50]
+** TODO Eittlandais vers Runes
+** TODO Mattér vers Runes
+* DONE corriger ~conlang/nyqy-to-phonetics~
+  CLOSED: [2020-01-29 mer. 21:27]
+  Si  un terme  commence avec  une voyelle,  la première  consonne est  d’office
+  mutée. Elle ne devrait pas l’être. Exemple : {{{nyqy(oñ)}}} a la phonétique {{{phon(ɔm)}}}
+  alors que la phonétique correcte devrait être {{{phon(ɔɴ)}}}.
+
+* DONE améliorer l’apparence des termes du dictionnaire en LaTeX
+  CLOSED: [2020-01-29 mer. 12:48]
+  Il  faudrait trouver  un moyen  pour que,  comme sur  l’export HTML,  le terme
+  Proto-Ñyqy et sa phonétique soient sur  une ligne différente de la définition,
+  avec la définition qui est indentée.
