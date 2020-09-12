@@ -215,39 +215,39 @@
     organisant les voyelles du Proto-Tãso.
 
     #+NAME: vowel-tree
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local taso-vowels
         '("vowel"
           ("[high]"
            ("[frnt]"
             ("[tense]"
-             ("[rnd]" ("ʏ"))
-             ("{rnd}" ("ɪ")))
+             ("[rnd]" "ʏ")
+             ("{rnd}" "ɪ"))
             ("{tense}"
-             ("[rnd]" ("y"))
-             ("{rnd}" ("i"))))
+             ("[rnd]" "y")
+             ("{rnd}" "i")))
            ("{frnt}"
-            ("[tense]" ("ɨ"))
-            ("{tense}" ("ʊ"))))
+            ("[tense]" "ɨ ʉ ɯ u")
+            ("{tense}" "ʊ")))
           ("{high}"
            ("[nas]"
             ("[frnt]"
-             ("[tense]" ("ø̃"))
-             ("{tense}" ("ɛ̃")))
+             ("[tense]" "ẽ  ø̃ æ̃")
+             ("{tense}" "ɛ̃ œ̃"))
             ("{frnt}"
-             ("[tense]" ("ɤ̃"))
-             ("{tense}" ("ɑ̃"))))
+             ("[tense]" "ɘ̃ ɵ̃ ɤ̃ õ ɐ̃ ə̃")
+             ("{tense}" "ɜ̃ ɞ̃ ʌ̃ ɔ̃ ɑ̃ ɶ̃ ɑ̃ ɒ̃")))
            ("{nas}"
             ("[frnt]"
-             ("[tense]" ("ø"))
-             ("{tense}" ("ɛ")))
+             ("[tense]" "e ø æ")
+             ("{tense}" "ɛ œ"))
             ("{frnt}"
-             ("[tense]" ("ɤ"))
-             ("{tense}" ("a")))))))
+             ("[tense]" "ɘ ɵ ɤ o ɐ ə")
+             ("{tense}" "ɜ ɞ ʌ ɔ ɑ ɶ ɑ ɒ"))))))
       (conlanging/tree-to-dot taso-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/taso/vowel-feature-tree.png :var input=vowel-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file taso/vowel-feature-tree.png :var input=vowel-tree
       $input
     #+END_SRC
     #+NAME: arbre:vow
@@ -299,61 +299,59 @@
     |  spirant lat. |     |   l   |       |       |     |      |
 
     #+NAME: cons-tree
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local taso-consonants
         '("consonant"
           ("[son]"
            ("[cor]"
             ("[cont]"
-             ("[SG]" ("ɬ"))
-             ("{SG}" ("l")))
-            ("{cont}" ("n")))
+             ("[SG]" "ɬ lʰ rʰ ɹʰ")
+             ("{SG}" "l r ɹ"))
+            ("{cont}" "n ɳ"))
            ("{cor}"
             ("[cont]"
-             ("[SG]" ("ʍ"))
-             ("{SG}" ("w")))
-            ("{cont}" ("m"))))
+             ("[SG]" "ʍ ʎʰ ʀʰ")
+             ("{SG}" "w ʎ ʀ"))
+            ("{cont}" "m ŋ ɲ ɴ")))
           ("{son}"
            ("[cor]"
             ("[dor]"
              ("[cont]"
-              ("[voice]" ("ʝ"))
-              ("{voice}" ("ç")))
+              ("[SG]" "ʧʰ d̮ʒʰ çʰ ʝʰ")
+              ("{SG}" "ʧ d̮ʒ ç ʝ"))
              ("{cont}"
               ("[SG]"
-               ("[voice]" ("d͡ʒʰ"))
-               ("{voice}" ("t͡ʃʰ")))
+               ("[voice]" "ɟʰ ʧʰ")
+               ("{voice}" "cʰ d̮ʒʰ"))
               ("{SG}"
-               ("[voice]" ("d͡ʒ"))
-               ("{voice}" ("t͡ʃ")))))
+               ("[voice]" "ɟ ʧ")
+               ("{voice}" "c d̮ʒ"))))
             ("{dor}"
              ("[cont]"
-              ("[voice]" ("z"))
-              ("{voice}" ("s")))
+              ("[voice]" "z ɮ ð ʒ d̮z")
+              ("{voice}" "s ɬ θ ʃ t̮s"))
              ("{cont}"
               ("[SG]"
-               ("[voice]" ("dʰ"))
-               ("{voice}" ("tʰ")))
+               ("[voice]" "d̮zʰ dʰ")
+               ("{voice}" "t̮sʰ tʰ"))
               ("{SG}"
-               ("[voice]" ("d"))
-               ("{voice}" ("t"))))))
+               ("[voice]" "d̮z d")
+               ("{voice}" "t̮s t")))))
            ("{cor}"
             ("[dor]"
              ("[cont]"
-              ("[voice]" ("ɣ"))
-              ("{voice}" ("x")))
-             ("{cont}"
-              ("[voice]" ("g"))
-              ("{voice}" ("k"))))
+              ("[voice]" "ɣ ʁ")
+              ("{voice}" "x χ"))
+             ("{cont}" "k ɡ q ɢ"))
             ("{dor}"
-             ("[cont]" ("ɸ"))
-             ("{cont}"
-              ("[voice]" ("b"))
-              ("{voice}" ("p"))))))))
+             ("[cont]"
+              ("[voice]" "v β ɦ")
+              ("{voice}" "f ɸ ħ ʕ h p̮f"))
+             ("{cont}" "ʔ p̮f p b"))))))
       (conlanging/tree-to-dot taso-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/taso/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file taso/consonant-feature-tree.png :var input=cons-tree
       $input
     #+END_SRC
     #+NAME: arbre:cons

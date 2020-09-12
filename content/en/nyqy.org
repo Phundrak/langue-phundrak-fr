@@ -417,7 +417,7 @@
     | mi-ouvertes |      e      |      o       |
 
     #+NAME: vow-tree
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local nyqy-vowels
         '("[vowel]"
           ("[back]"
@@ -437,7 +437,7 @@
       (conlanging/tree-to-dot nyqy-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file nyqy/vowel-feature-tree.png :var input=vow-tree
       $input
     #+END_SRC
     #+NAME: arbre:vowels
@@ -452,7 +452,7 @@
     :CUSTOM_ID: h-49ab3d74-6565-4f88-835c-f88425493d3f
     :END:
     #+NAME: cons-tree
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local nyqy-consonants
         '("[cons]"
           ("[son]"
@@ -480,7 +480,7 @@
       (conlanging/tree-to-dot nyqy-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes :cache yes
+    #+BEGIN_SRC dot :file nyqy/consonant-feature-tree.png :var input=cons-tree
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -754,7 +754,7 @@
    dernière position.
 
    #+NAME: basic-syntax-tree
-   #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+   #+BEGIN_SRC emacs-lisp
      (setq-local nyqy-syntax-tree
                  '("S"
                    ("Obl")
@@ -782,7 +782,7 @@
    #+RESULTS[24286e618306da25dc9283fdc01819e3b5d77394]: basic-syntax-tree
    : graph{node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Obl"];0 -- 1;2[label="S'"];0 -- 2;21[label="NPerg"];2 -- 21;211[label="NP"];21 -- 211;22[label="VP"];2 -- 22;221[label="NPdat"];22 -- 221;2211[label="NP"];221 -- 2211;222[label="VP'"];22 -- 222;2221[label="NPabs"];222 -- 2221;22211[label="NP"];2221 -- 22211;222111[label="S"];22211 -- 222111;222112[label="NP'"];22211 -- 222112;2221121[label="Adj"];222112 -- 2221121;2221122[label="N"];222112 -- 2221122;2222[label="V'"];222 -- 2222;22221[label="Mood"];2222 -- 22221;22222[label="Tense"];2222 -- 22222;22223[label="V"];2222 -- 22223;22224[label="Neg"];2222 -- 22224;}
 
-   #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes :cache yes
+   #+BEGIN_SRC dot :file nyqy/basic-syntax.png :var input=basic-syntax-tree
      $input
    #+END_SRC
    #+NAME: arbre:syntaxe:basique

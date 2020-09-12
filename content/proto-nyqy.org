@@ -528,30 +528,30 @@
     comme étant proches les unes des autres.
 
     #+NAME: vow-tree
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local nyqy-vowels
         '("[vowel]"
           ("[back]"
            ("[tense]"
-            ("[high]" ("/u/"))
-            ("{high}" ("/ɤ/")))
+            ("[high]" "/u/")
+            ("{high}" "/ɤ/"))
            ("{tense}"
-            ("[high]" ("/ʊ/"))
-            ("{high}" ("/ɔ/"))))
+            ("[high]" "/ʊ/")
+            ("{high}" "/ɔ/")))
           ("{back}"
            ("[tense]"
-            ("[high]" ("/y/"))
-            ("{high}" ("/ø/")))
+            ("[high]" "/y/")
+            ("{high}" "/ø/"))
            ("{tense}"
-            ("[high]" ("/ɪ/"))
-            ("{high}" ("/ɛ/"))))))
+            ("[high]" "/ɪ/")
+            ("{high}" "/ɛ/")))))
       (conlanging/tree-to-dot nyqy-vowels)
     #+END_SRC
 
     #+RESULTS[7197a00f9fd897443b1727910097ffe6aceb2ada]: vow-tree
     : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="[vowel]"];1[label="[back]"];0 -- 1;11[label="[tense]"];1 -- 11;111[label="[high]"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="{high}"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="{tense}"];1 -- 12;121[label="[high]"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="{high}"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="{back}"];0 -- 2;21[label="[tense]"];2 -- 21;211[label="[high]"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="{high}"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="{tense}"];2 -- 22;221[label="[high]"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="{high}"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
 
-    #+BEGIN_SRC dot :file img/nyqy/vowel-feature-tree.png :var input=vow-tree :exports results :eval yes
+    #+BEGIN_SRC dot :file nyqy/vowel-feature-tree.png :var input=vow-tree
       $input
     #+END_SRC
     #+NAME: arbre:vowels
@@ -601,7 +601,7 @@
     |             nasal |      m       |       n       |                   |            |      ɴ      |             |
     |              tapé |              |               |                   |            |     (ʀ)     |             |
     |          fricatif |              |      s z      |                   |  (x) (ɣ)   |   (χ) (ʁ)   |   (ħ) (ʕ)   |
-    |          affriqué |              |     t͡ʃ d͡ʒ     |                   |            |             |             |
+    |          affriqué |              |      c ɟ      |                   |            |             |             |
     | latérale affriqué |              |    (ɬ) (ɮ)    |                   |            |             |             |
     |  latérale spirant |              |      (l)      |                   |            |             |             |
     |       approximant |              |               |                   |    (j)     |             |             |
@@ -625,35 +625,35 @@
     voyelles.  Vous  trouverez dans  l’arbre  [[arbre:cons]]  l’organisation de  ces
     consonnes.
     #+NAME: cons-tree
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local nyqy-consonants
                   '("[cons]"
                     ("[son]"
                      ("[dor]"
-                      ("[high]" ("/w/\n/j/"))
-                      ("{high}" ("/ɴ/\n/ʀ/")))
+                      ("[high]" "/w/\n/j/")
+                      ("{high}" "/ɴ/\n/ʀ/"))
                      ("{dor}"
-                      ("[cor]" ("/n/\n/l/"))
-                      ("{cor}" ("/m/"))))
+                      ("[cor]" "/n/\n/l/")
+                      ("{cor}" "/m/")))
                     ("{son}"
                      ("[dor]"
                       ("[voice]"
-                       ("[high]" ("/d͡ʒ/\n/ɣ/"))
-                       ("{high}" ("/ɢ/\n/ʁ/")))
+                       ("[high]" "/ɟ/\n/ɣ/")
+                       ("{high}" "/ɢ/\n/ʁ/"))
                       ("{voice}"
-                       ("[high]" ("/t͡ʃ/\n/x/"))
-                       ("{high}" ("/q/\n/χ/"))))
+                       ("[high]" "/c/\n/x/")
+                       ("{high}" "/q/\n/χ/")))
                      ("{dor}"
                       ("[voice]"
-                       ("[cor]" ("/z/\n/ɮ/"))
-                       ("{cor}" ("/b/\n/ʕ/")))
+                       ("[cor]" "/z/\n/ɮ/")
+                       ("{cor}" "/b/\n/ʕ/"))
                       ("{voice}"
-                       ("[cor]" ("/s/\n/ɬ/"))
-                       ("{cor}" ("/p/\n/ħ/")))))))
+                       ("[cor]" "/s/\n/ɬ/")
+                       ("{cor}" "/p/\n/ħ/"))))))
       (conlanging/tree-to-dot nyqy-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/nyqy/consonant-feature-tree.png :var input=cons-tree :exports results :eval yes
+    #+BEGIN_SRC dot :file nyqy/consonant-feature-tree.png :var input=cons-tree
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -701,11 +701,11 @@
     mutation de  ces consonnes. Afin de  garder une orthographe cohérente,  il a
     été  choisi  par consensus  d’utiliser  un  unique  graphème pour  les  deux
     prononciations possible  d’une consonne.  Ainsi, /coqec/ peut  être prononcé
-    {{{phon(t͡ʃɔħɛt͡ʃ)}}} ou  bien {{{phon(ɬɔqɛɬ)}}},  mais reste  dans tous  les cas  le même
-    terme. Cela  permet également au  lecteur de plus facilement  comprendre les
-    textes et exemples  en Proto-Ñyqy sans avoir à faire  d’exercice mental trop
-    important.  Il   est  également  beaucoup   plus  simple  de   retrouver  la
-    prononciation des mots Proto-Ñyqy depuis leur orthographe standard.
+    {{{phon(cɔħɛc)}}} ou bien {{{phon(ɬɔqɛɬ)}}}, mais reste dans tous les cas le même terme.
+    Cela permet également au lecteur de plus facilement comprendre les textes et
+    exemples en Proto-Ñyqy sans avoir  à faire d’exercice mental trop important.
+    Il est également beaucoup plus simple de retrouver la prononciation des mots
+    Proto-Ñyqy depuis leur orthographe standard.
 
 ** Phonotaxes
    :PROPERTIES:
@@ -728,8 +728,8 @@
     possible.  Cependant,  il  arrive  qu’une  fois  mutées  correctement,  deux
     consonnes phonétiques  soient adjacentes alors que  les règles phonologiques
     du  Proto-Ñyqy  l’interdisent, ce  qui  résulte  en  un schwa  ajouté  entre
-    lesdites consonnes. Ainsi,  le terme /cójm/ est prononcé  {{{phon(t͡ʃɤɮəʀ)}}} si la
-    première consonne n’est  pas mutée, ou bien {{{phon(ɬɤd͡ʒm)}}} dans  le second cas.
+    lesdites consonnes.  Ainsi, le terme  /cójm/ est prononcé {{{phon(cɤɮəʀ)}}}  si la
+    première consonne n’est  pas mutée, ou bien {{{phon(ɬɤdʒm)}}} dans  le second cas.
     Dans tous les cas, le terme ne change pas d’orthographe.
 
     L’attaque peut être composée de n’importe quelle consonne ou bien être vide,
@@ -793,17 +793,12 @@
     |        q         |      ħ       |   |   |        p         |      χ       |
     |        ɢ         |      ʕ       |   |   |        b         |      ʁ       |
     |        ɴ         |      m       |   |   |        m         |      ʀ       |
-    |        t͡ʃ        |      ɬ       |   |   |        n         |      j       |
-    |        d͡ʒ        |      ɮ       |   |   |        s         |      x       |
+    |        c         |      ɬ       |   |   |        n         |      j       |
+    |        ɟ         |      ɮ       |   |   |        s         |      x       |
     |        w         |      l       |   |   |        z         |      ɣ       |
 
-    Ainsi, la phrase {{{nyqy(ñe pom qy)}}} ne  se prononce pas *{{{phon(ɴɛ pɔm qy)}}}, et la
-    phrase {{{nyqy(qi bú pim mo coq)}}} se ne prononce pas *{{{phon(qɪ bʊ pɪm mɔ t͡ʃɔq)}}}.
-
-*** Allophonie
-    :PROPERTIES:
-    :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Allophonie-f79ef015
-    :END:
+    Ainsi, la phrase {{{nyqy(cé  ñe)}}} ne se prononce pas *{{{phon(cø  ɴɛ)}}}, et la phrase
+    {{{nyqy(pim búqi coqop)}}} se ne prononce pas *{{{phon(pɪm bʊqɪ cɔqɔp)}}}.
 
 ** Classes de mots
    :PROPERTIES:
@@ -1223,53 +1218,6 @@
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-7dcda807
    :END:
-   # Le Proto-Ñyqy est une langue dont sa tête de groupes grammaticaux est
-   # généralement en fin du-dit groupe. On peut voir avec l’arbre
-   # [[arbre:syntaxe:basique]] que la structure générale d’une phrase standard
-   # démarre avec des éléments divers liés à la clause principale s’il y en a,
-   # auxquels on se référera généralement en tant qu’éléments /obliques/. Ces
-   # éléments ne sont liés au verbe ni par une relation grammaticale ergative,
-   # ni dative, ni absolutive. Ensuite vient la phrase nominale ergative,
-   # précédant la phrase dative, elle-même précédant la phrase verbale,
-   # contenant une phrase nominale absolutive et le verbe de la phrase, le
-   # dernier élément d’une phrase {{{nyqy(ñyqy)}}}. Les sous chapitres suivants
-   # détailleront la composition de chacun de ces éléments.
-
-   # #+NAME: basic-syntax-tree
-   # #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
-   #   (setq-local nyqy-syntax-tree
-   #               '("S"
-   #                 ("Obl")
-   #                 ("S'"
-   #                  ("NPerg"
-   #                   ("NP"))
-   #                  ("VP"
-   #                   ("NPdat"
-   #                    ("NP"))
-   #                   ("VP'"
-   #                    ("NPabs"
-   #                     ("NP"
-   #                      ("S")
-   #                      ("NP'"
-   #                       ("Adj")
-   #                       ("N"))))
-   #                    ("V'"
-   #                     ("Mood")
-   #                     ("Tense")
-   #                     ("V")
-   #                     ("Neg")))))))
-   #   (conlanging/tree-to-dot nyqy-syntax-tree)
-   # #+END_SRC
-
-   # #+BEGIN_SRC dot :file img/nyqy/basic-syntax.png :var input=basic-syntax-tree :exports results :eval yes
-   #   $input
-   # #+END_SRC
-   # #+NAME: arbre:syntaxe:basique
-   # #+attr_html: :alt Arbre de syntaxe basique du Proto-Ñyqy :class gentree
-   # #+CAPTION: Arbre de syntaxe basique du Proto-Ñyqy
-   # #+RESULTS:
-   # [[file:img/nyqy/basic-syntax.png]]
-
 *** Ordre des constituants dans les clauses principales
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_principales-a6c37182
@@ -1280,16 +1228,6 @@
     # - Specific to the main clause constituent order: What is the pragmatically
     #   neutral order of constituents  (A/S, P, and V) in  basic clauses  of the
     #   language?
-    # En Proto-Ñyqy, l’ordre  des éléments principaux de la  phrase typique suit
-    # un  ordre  SV  pour  les  phrases transitives  et  APV  pour  les  phrases
-    # intransitives. Il  est toutefois  à noter  que l’agent  est nécessairement
-    # précédé  par un  élément  datif. Il  est  cependant possible  lorsqu’aucun
-    # élément datif n’est à mentionner  d’utiliser le terme {{{nyqy(bóq)}}} signifiant
-    # « rien, aucun ».
-    # Il est également à noter que  selon les recherches actuelles, rien ne nous
-    # laisse à  penser qu’un autre ordre  de ces constituants était  possible en
-    # Proto-Ñyqy  mis à  par  l’ajout  d’autres éléments  obliques  en début  de
-    # phrase.
     Le Proto-Ñyqy est une langue particulière  quant il s’agit de l’ordre de ses
     éléments principaux dans  ses phrases et clauses  principales. Tout d’abord,
     il  est bon  de  noter que  le  Proto-Ñyqy est  une langue  qui  est à  100%
@@ -1321,9 +1259,31 @@
     de l’auxiliaire  {{{nyqy(op)}}} marquant le  passé. Dans les  clauses principales,
     les auxiliaires Proto-Ñyqy suivent ainsi l’ordre suivant :
 
-    #+begin_center
-    Objet-Subjet-Verbe-Mode-Aspect-Temps-Négation-Question
-    #+end_center
+    #+NAME: phrase-syntax-tree-el
+    #+BEGIN_SRC emacs-lisp
+      (setq-local S-syntax-tree
+                  '("S"
+                    ("Oblique")
+                    ("VP"
+                     ("S'"
+                      ("Absolutive NP")
+                      ("Ergative NP"))
+                     ("VP'"))))
+      (conlanging/tree-to-dot S-syntax-tree)
+    #+END_SRC
+
+    #+RESULTS[8a8150260d529adbc13492aa651ea3ca6c459bf5]: phrase-syntax-tree-el
+    : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="S"];1[label="Oblique"];0 -- 1;2[label="VP"];0 -- 2;21[label="S'"];2 -- 21;211[label="Absolutive NP"];21 -- 211;212[label="Ergative NP"];21 -- 212;22[label="VP'"];2 -- 22;}
+
+    #+BEGIN_SRC dot :file nyqy/phrase-syntax-tree.png :var input=phrase-syntax-tree-el
+      $input
+    #+END_SRC
+    #+NAME: main-clause-syntax-tree
+    #+ATTR_HTML: :alt Arbre syntaxique des clauses nominales du Proto-Ñyqy :class gentree
+    #+ATTR_LATEX: :height 12cm
+    #+CAPTION: Arbre syntaxique des clauses nominales du Proto-Ñyqy
+    #+RESULTS[1ae67ebfae5847294579cb0ddfcf04bf1faab81b]:
+    [[file:img/nyqy/phrase-syntax-tree.png]]
 
 *** Ordre des constituants dans les clauses nominales
     :PROPERTIES:
@@ -1346,7 +1306,7 @@
     après le nom.
 
     #+NAME: nom-syntax-tree
-    #+BEGIN_SRC emacs-lisp :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
         (setq-local nominal-group-syntax-tree
                     '("N'"
                       ("N'"
@@ -1371,7 +1331,7 @@
     #+RESULTS[fbb2ad04afa70b63d78e569394d499bc395d2cc0]: nom-syntax-tree
     : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="N'"];1[label="N'"];0 -- 1;11[label="N'"];1 -- 11;111[label="GEN"];11 -- 111;112[label="N'"];11 -- 112;1121[label="Adj"];112 -- 1121;1122[label="N'"];112 -- 1122;11221[label="Dem"];1122 -- 11221;11222[label="N'"];1122 -- 11222;112221[label="Num₁₂"];11222 -- 112221;112222[label="N'"];11222 -- 112222;1122221[label="Poss"];112222 -- 1122221;1122222[label="N"];112222 -- 1122222;112223[label="Num₆"];11222 -- 112223;1123[label="Adj"];112 -- 1123;12[label="Nomin"];1 -- 12;2[label="Rel"];0 -- 2;}
 
-    #+BEGIN_SRC dot :file img/nyqy/syntax-nominal-clauses.png :var input=nom-syntax-tree :exports results :eval yes :cache yes :class gentree
+    #+BEGIN_SRC dot :file nyqy/syntax-nominal-clauses.png :var input=nom-syntax-tree
       $input
     #+END_SRC
     #+NAME: nom-clause-syntax-tree
@@ -1395,7 +1355,7 @@
 
 **** Numéraux
      :PROPERTIES:
-     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Ordre_des_constituants_dans_les_clauses_nominales-Numéraux-f2cc88b9
+     :CUSTOM_ID: Aperçu_structurel-Syntaxe_clauses_nominales-Numéraux-f2cc88b9
      :END:
      Pour ce qui est  des numéraux, la règle générale est  que les unités suivent
      le  nom, tandis  que les  sixaines le  précèdent. Par  exemple, « mes  vingt

@@ -877,43 +877,43 @@
     le tableau [[vow:eittland:orth]].
 
     #+NAME: vow:eittland:orth
-    |          /          |         <          |       <       | <                                 |
-    |         <c>         |        <c>         |      <c>      | <l>                               |
-    | Orthographe runique | Orthographe latine | Prononciation | Comme dans                        |
-    |---------------------+--------------------+---------------+-----------------------------------|
-    |       {{{rune(i)}}}       |         i          |    {{{phon(i)}}}    | Français : /île/                  |
-    |  {{{rune(e)}}}, {{{rune(i)}}}   |        e, í        |    {{{phon(e)}}}    | Français : /été/                  |
-    |  {{{rune(e)}}}, {{{rune(a)}}}   |        é, á        |    {{{phon(ɛ)}}}    | Français : /bête/                 |
-    |       {{{rune(ę)}}}       |         ę          |    {{{phon(æ)}}}    | Anglais américain général : /cat/ |
-    |  {{{rune(a)}}}, {{{rune(æ)}}}   |        a, æ        |    {{{phon(a)}}}    | Français : /chat/                 |
-    |       {{{rune(y)}}}       |         y          |    {{{phon(y)}}}    | Français : /lune/                 |
-    |  {{{rune(ø)}}}, {{{rune(y)}}}   |        ø, ý        |    {{{phon(ø)}}}    | Français : /deux/                 |
-    |  {{{rune(œ)}}}, {{{rune(a)}}}   |        œ, á        |    {{{phon(œ)}}}    | Français : /neuf/                 |
-    |       {{{rune(u)}}}       |         u          |    {{{phon(u)}}}    | Français : /doux/                 |
-    |  {{{rune(o)}}}, {{{rune(u)}}}   |        o, ú        |    {{{phon(o)}}}    | Français : /eau/                  |
-    |  {{{rune(o)}}}, {{{rune(ǫ)}}}   |        ó, ǫ        |    {{{phon(ɔ)}}}    | Français : /vote/                 |
+    |        /         |         <          |       <       |       <       | <                                 |
+    |       <c>        |        <c>         |      <c>      |      <c>      | <l>                               |
+    |      Runes       | Latin traditionnel | Latin réformé | Prononciation | Comme dans                        |
+    |------------------+--------------------+---------------+---------------+-----------------------------------|
+    |     {{{rune(i)}}}      |         i          |       i       |    {{{phon(i)}}}    | Français : /île/                  |
+    | {{{rune(e)}}}, {{{rune(i)}}} |        e, í        |       e       |    {{{phon(e)}}}    | Français : /été/                  |
+    | {{{rune(é)}}}, {{{rune(á)}}} |        é, á        |       é       |    {{{phon(ɛ)}}}    | Français : /bête/                 |
+    |     {{{rune(ę)}}}      |         ę          |       æ       |    {{{phon(æ)}}}    | Anglais américain général : /cat/ |
+    | {{{rune(a)}}}, {{{rune(æ)}}} |        a, æ        |       a       |    {{{phon(a)}}}    | Français : /chat/                 |
+    |     {{{rune(y)}}}      |         y          |       y       |    {{{phon(y)}}}    | Français : /lune/                 |
+    | {{{rune(ø)}}}, {{{rune(ý)}}} |        ø, ý        |       ø       |    {{{phon(ø)}}}    | Français : /deux/                 |
+    | {{{rune(œ)}}}, {{{rune(á)}}} |        œ, á        |       œ       |    {{{phon(œ)}}}    | Français : /neuf/                 |
+    |     {{{rune(u)}}}      |         u          |       u       |    {{{phon(u)}}}    | Français : /doux/                 |
+    | {{{rune(o)}}}, {{{rune(ú)}}} |        o, ú        |       o       |    {{{phon(o)}}}    | Français : /eau/                  |
+    | {{{rune(ó)}}}, {{{rune(ǫ)}}} |        ó, ǫ        |       ó       |    {{{phon(ɔ)}}}    | Français : /vote/                 |
 
     Ainsi  par exemple,  en Eittlandais  le mot  /írland/ (Irlande)  se prononce
     {{{phon(erlãd)}}} et non  {{{phon(iːrlɑnd)}}} ou {{{phon(iːrlɑ̃d)}}} comme cela  aurait pu être
     prononcé en Vieux  Norrois ou en Vieil  Eittlandais. La notation formelle de
     l’évolution des voyelles Eittlandaises est la suivante :
-    - Vː / _{#,#C} > ə
-    - V / _{#,#C} > Ø
+    - Vː / _# > ə
+    - V / _# > Ø
     - V[+high +long] > V[-high -long]
     - V[+tense +long] > V[-tense -long]
     - V[-tense +long] > V[-long -low]
 
     Il est à noter que les  anciennes voyelles longues ont également évoluées en
-    un schwa lors qu’elles se situent dans une voyelle ouverte en fin de mot qui
-    n’est pas  suivie par une autre  voyelle, tandis que les  anciennes voyelles
-    courtes  ont tout  simplement disparu  dans cette  position. Cela  peut être
+    un schwa lors qu’elles  se situent dans une voyelle ouverte en  fin de mot à
+    l’exception  des mots  monosyllabiques.  Dans  le même  cas  de figure,  les
+    anciennes  voyelles courtes  ont  tout simplement  disparu.  Cela peut  être
     illustré avec les exemples suivants :
     - /þú sér Víla/ (tu vois Víli)
       - Vieux Norrois : {{{phon(θuː seːr wiːlɑ)}}}
-      - Eittlandais : {{{phon(θə sɛr wel)}}}
-    - /á þú Úlfinn aigi/ (tu ne possède pas le loup)
-      - Vieux Norrois : {{{phon(ɑː θuː uːlfinː æiɡi)}}}
-      - Eittlandais : {{{phon(ɛ θo olfĩnː aɪɣ)}}}
+      - Eittlandais : {{{phon(θo sɛr wel)}}}
+    - /á þú Úlfinn eigi aigar/ (tu ne possède pas le loup)
+      - Vieux Norrois : {{{phon(ɔː θuː uːlfinː eiɡi æiɡar)}}}
+      - Eittlandais : {{{phon(ɛ θo olfĩnː aɪɣ aɪɣar)}}}
 
     Suivant la  théorie de  hiérarchisation des phonèmes  selon B.  Elan Dresher
     (2003), certains phonèmes sont perçus  comme étant plus proches que d’autres
@@ -925,40 +925,40 @@
     relation des différentes voyelles entre elles.
 
     #+NAME: vow-dot
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local eittlandic-vowels
         '("vowels"
           ("[high]"
            ("[rnd]"
-            ("[front]" ("/y/"))
-            ("{front}" ("/u/")))
-           ("{rnd}" ("/i/")))
+            ("[front]" "/y/")
+            ("{front}" "/u/"))
+           ("{rnd}" "/i/"))
           ("{high}"
            ("[rnd]"
             ("[tense]"
-             ("[front]" ("/ø/"))
-             ("{front}" ("/o/")))
+             ("[front]" "/ø/")
+             ("{front}" "/o/"))
             ("{tense}"
-            ("[front]" ("/œ/"))
-            ("{front}" ("/ɔ/"))))
+            ("[front]" "/œ/")
+            ("{front}" "/ɔ/")))
            ("{rnd}"
             ("[tense]"
-             ("[low]" ("/æ/"))
-             ("{low}" ("/e/")))
+             ("[low]" "/æ/")
+             ("{low}" "/e/"))
             ("{tense}"
-             ("[low]" ("/a/"))
-             ("{low}" ("/ɛ/")))))))
+             ("[low]" "/a/")
+             ("{low}" "/ɛ/"))))))
       (conlanging/tree-to-dot eittlandic-vowels)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittland/vowel-feature-tree.png :var input=vow-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file eittland/vowel-feature-tree.png :var input=vow-dot
       $input
     #+END_SRC
     #+NAME: arbre:vowels
     #+ATTR_HTML: :alt Arbre des voyelles de l’Eittlandais :class gentree
     #+ATTR_LATEX: :float sideways
     #+CAPTION: Arbre des caractéristiques distinctives des voyelles de l’Eittlandais
-    #+RESULTS[2aebc5cb9a53613860faefb1cc0b1b64e61ae10e]:
+    #+RESULTS[82c10c549a85c192a4d7217d3b2dd3e0f48b956f]:
     [[file:img/eittland/vowel-feature-tree.png]]
 
 *** Diphtongues
@@ -982,9 +982,9 @@
     | diphtongue | phonétique |
     |    <c>     |    <c>     |
     |------------+------------|
-    |     ei     |  {{{phon(a͜ɪ)}}}  |
-    |     au     |  {{{phon(ɔ͜ʊ)}}}  |
-    |     ey     |  {{{phon(œ͜ʏ)}}}  |
+    |     ei     |  {{{phon(aɪ)}}}  |
+    |     au     |  {{{phon(ɔʊ)}}}  |
+    |     ey     |  {{{phon(œʏ)}}}  |
 
     On remarque que les voyelles  /faibles/ subissent un relâchement, le {{{phon(i)}}}
     s’étant  transformé en  {{{phon(ɪ)}}},  le {{{phon(u)}}}  en {{{phon(ʊ)}}}  et  le {{{phon(y)}}}  en
@@ -998,19 +998,19 @@
       sur l’allophonie  (§[[#Aperçu_structurel-Phonotaxes-Allophonie-45a559c0]]). On
       retrouve une diphtongue similaire en Norvégien dans le terme /nei/.
 
-      Exemple : /Eittland/ {{{phon(a͜ɪtlãd)}}}
+      Exemple : /Eittland/ {{{phon(aɪtlə̃d)}}}
     - au   ::  diphtongue similaire à  la diphtongue de l’anglais nord-américain
       standard comme dans  /low/ {{{phon(loʊ̯)}}}, excepté que la  première voyelle est
       plus  ouverte.  Une   diphtongue  plus  proche  peut   être  retrouvée  en
       néerlandais belge dans le terme /lauw/.
 
-      Exemple : /auk/ {{{phon(ɔ͜ʊk)}}}
+      Exemple : /auk/ {{{phon(ɔʊk)}}}
     - ey ::   contrairement  à ce que la voyelle typographique  <e> peut laisser
       penser, la prononciation de la première  voyelle est un <œ>. La diphtongue
       est donc similaire à la voyelle  de /neus/ en néerlandais des Pays-Bas, ou
       à /auga/ en Islandais.
 
-      Exemple : /eyra/ {{{phon(œ͜ʏra)}}}
+      Exemple : /eyra/ {{{phon(œʏr)}}}
 
     Il  est  également possible  de  techniquement  considérer l’association  de
     voyelles avec les consonnes {{{phon(j)}}}  et {{{phon(w)}}} comme des diphtongues, voire
@@ -1019,10 +1019,6 @@
     consonnes  au  même  titre  que   toutes  celles  listées  ci-dessous,  leur
     considération en  tant que diphtongues  et triphtongues n’apportant  rien de
     significatif à la grammaire eittlandaise.
-
-    Pour  des raisons  de simplicités,  les diphtongues  seront marquées  par la
-    suite  en tant  que  {{{phon(aɪ)}}}, {{{phon(ɔʊ)}}}  et {{{phon(œʏ)}}}  au  lieu de  {{{phon(a͜ɪ)}}},
-    {{{phon(ɔ͜ʊ)}}} et {{{phon(œ͜ʏ)}}} respectivement.
 
 *** Consonnes
     :PROPERTIES:
@@ -1142,49 +1138,49 @@
     contrastive des consonnes de l’Eittlandais.
 
     #+NAME: cons-dot
-    #+BEGIN_SRC emacs-lisp :noweb yes :exports none :eval yes :cache yes
+    #+BEGIN_SRC emacs-lisp
       (setq-local eittlandic-consonants
         '("consonants"
           ("[occ]"
            ("[cor]"
-            ("[nasal]" ("/n/"))
+            ("[nasal]" "/n/")
             ("{nasal}"
-             ("[voice]" ("/d/"))
-             ("{voice}" ("/t/"))))
+             ("[voice]" "/d/")
+             ("{voice}" "/t/")))
            ("{cor}"
             ("[nasal]"
-             ("[dor]" ("/ŋ/"))
-             ("{dor}" ("/m/")))
+             ("[dor]" "/ŋ/")
+             ("{dor}" "/m/"))
             ("{nasal}"
              ("[dor]"
-              ("[voice]" ("/ɣ/"))
+              ("[voice]" "/ɣ/")
               ("{voice}"
-               ("[son]" ("/xʷ/"))
-               ("{son}" ("/k/"))))
+               ("[son]" "/xʷ/")
+               ("{son}" "/k/")))
              ("{dor}"
-              ("[voice]" ("/β/"))
+              ("[voice]" "/β/")
               ("{voice}"
-               ("[strident]" ("/f/"))
-               ("{strident}" ("/p/")))))))
+               ("[strident]" "/f/")
+               ("{strident}" "/p/"))))))
           ("{occ}"
            ("[cor]"
-            ("[dor]" ("/ç/"))
+            ("[dor]" "/ç/")
             ("{dor}"
              ("[son]"
-              ("[lat]" ("/l/"))
-              ("{lat}" ("/r/")))
+              ("[lat]" "/l/")
+              ("{lat}" "/r/"))
              ("{son}"
-              ("[voice]" ("/ð/"))
-              ("{voice}" ("/θ/")))))
+              ("[voice]" "/ð/")
+              ("{voice}" "/θ/"))))
            ("{cor}"
             ("[dor]"
-             ("[rnd]" ("/w/"))
-             ("{rnd}" ("/j/")))
-            ("{dor}" ("/h/"))))))
+             ("[rnd]" "/w/")
+             ("{rnd}" "/j/"))
+            ("{dor}" "/h/")))))
       (conlanging/tree-to-dot eittlandic-consonants)
     #+END_SRC
 
-    #+BEGIN_SRC dot :file img/eittland/cons-feature-tree.png :var input=cons-dot :exports results :cache yes
+    #+BEGIN_SRC dot :file eittland/cons-feature-tree.png :var input=cons-dot
       $input
     #+END_SRC
     #+NAME: arbre:cons
@@ -1246,55 +1242,51 @@
     |           <c>           |   <c>    |
     |          latin          |  runes   |
     |-------------------------+----------|
-    |        A a, Á á         | {{{rune(a)}}}  |
-    |           Æ æ           | {{{rune(æ)}}}  |
-    |           B b           | {{{rune(b)}}}  |
-    |           D d           | {{{rune(d)}}}  |
-    |        E e, É é         | {{{rune(e)}}}  |
-    |           Ę ę           | {{{rune(ę)}}}  |
-    |           Ð ð           | {{{rune(ð)}}}  |
-    |           F f           | {{{rune(f)}}}  |
-    |           G g           | {{{rune(g)}}}  |
-    |           H h           | {{{rune(h)}}}  |
-    |          Hv hv          | {{{rune(hv)}}} |
-    |        I i, Í í         | {{{rune(i)}}}  |
-    |           K k           | {{{rune(k)}}}  |
-    |           L l           | {{{rune(l)}}}  |
-    |           M m           | {{{rune(m)}}}  |
-    |           N n           | {{{rune(n)}}}  |
-    |           Ń ń           | {{{rune(ń)}}}  |
-    |           O o           | {{{rune(o)}}}  |
-    |           Ǫ ǫ           | {{{rune(ǫ)}}}  |
-    |           Ø ø           | {{{rune(ø)}}}  |
-    |           Œ œ           | {{{rune(œ)}}}  |
-    |           P p           | {{{rune(p)}}}  |
-    |           R r           | {{{rune(r)}}}  |
-    |           S s           | {{{rune(s)}}}  |
-    |           T t           | {{{rune(t)}}}  |
-    |           Þ þ           | {{{rune(þ)}}}  |
-    |           U u           | {{{rune(u)}}}  |
-    |           V v           | {{{rune(v)}}}  |
-    |           Y y           | {{{rune(y)}}}  |
+    |   A, a / Á, á / Ǫ, ǫ    | {{{rune(a)}}}  |
+    |          B, b           | {{{rune(b)}}}  |
+    |          D, d           | {{{rune(d)}}}  |
+    |          Ð, ð           | {{{rune(ð)}}}  |
+    |   E, e / Ę, ę / Æ, æ    | {{{rune(e)}}}  |
+    |          É, é           | {{{rune(é)}}}  |
+    |          F, f           | {{{rune(f)}}}  |
+    |          G, g           | {{{rune(g)}}}  |
+    |          H, h           | {{{rune(h)}}}  |
+    |         Hv, hv          | {{{rune(hv)}}} |
+    |   I, i / Í, í / J, j    | {{{rune(i)}}}  |
+    |          K, k           | {{{rune(k)}}}  |
+    |          L, l           | {{{rune(l)}}}  |
+    |          M, m           | {{{rune(m)}}}  |
+    |          N, n           | {{{rune(n)}}}  |
+    |       O, o / Ó, ó       | {{{rune(o)}}}  |
+    |       Ø, ø / Œ, œ       | {{{rune(ø)}}}  |
+    |          P, p           | {{{rune(p)}}}  |
+    |          R, r           | {{{rune(r)}}}  |
+    |          S, s           | {{{rune(s)}}}  |
+    |          T, t           | {{{rune(t)}}}  |
+    |          Þ, þ           | {{{rune(þ)}}}  |
+    |   U, u / Ú, ú / V, v    | {{{rune(u)}}}  |
+    |       Y, y / Ý, ý       | {{{rune(y)}}}  |
     |  /délimiteur de mots/   | {{{rune(:)}}}  |
     | /délimiteur de phrases/ | {{{rune(,)}}}  |
 
-    On peut remarquer que dans l’alphabet latin Eittlandais comme dans les runes
-    Eittlandaises il existe une indifférentiation de la voyelle {{{phon(i)}}} et de la
-    consonne    {{{phon(j)}}}.   Cela    est   dû    au   fait    présenté   ci-dessus
-    (§[[#Aperçu_structurel-Phonotaxes-Allophonie-45a559c0]]) que le  {{{phon(i)}}} ne peut
-    être une voyelle s’il est précédé par une consonne et suivi par une voyelle,
-    et le  {{{phon(j)}}} ne peut  précéder une consonne.  De ce fait,  les Eittlandais
-    n’éprouvent  pas de  difficultés à  différencier les  deux phonèmes  l’un de
-    l’autre.
+    On peut  remarquer que  beaucoup de  lettres latines  s’écrivent de  la même
+    façon malgré des prononciations parfois très différentes, commme par exemple
+    le <ø> et  le <œ> qui sont  devenues des phonèmes séparés  mais qui s’écrive
+    avec la  même rune. On a  généralement une absence de  différentiation entre
+    les anciens couples de voyelles longues  et courtes, à l’exception de <e> et
+    <é>. On peut également remarquer que le  <i> et le <j> sont indifférentiés à
+    l’écrit, idem  pour le  <u> et  le <v>,  bien que  ce dernier  soit prononcé
+    {{{phon(v)}}} ou {{{phon(w)}}}.
 
-    Exemple de texte en Eittlandais écrit en alphabet latin et en runes :
-    - Thor blessa Loki avec Mjöllnir.
-    - Þórr ógagnysk Loka é Miœllni.
-    - {{{rune(þorr ogagnysk loka a miœ)}}}{{{rune(llni.)}}}
+    Voici un exemple de phrase Eittlandaise écrite en alphabet latin et en
+    runes :
+    - Français :: Thor blessa Loki avec Mjöllnir
+    - Eittlandais (latin) :: Þórr skaðaði Lóka með Mjølni
+    - Eittlandais (runes) :: {{{rune(þórr skaðaði lóka með mjølni)}}}
 
     Voici le détail grammatical de la phrase ci-dessus :
-    | Thor.NOM.SG | blesser-1SG.PST | Loki-DAT.SG | avec | Mjöllnir.DAT.SG |
-    | Þorr        | ogagn-ysk       | Lok-a       | a    | Miœllni         |
+    | Thor-NOM.SG | blesser-3SG.PST | Loki-DAT.SG | avec | Mjölnir.DAT.SG |
+    | Þór-r       | skað-aði        | Lok-a       | með  | Mjølni         |
 
 ** Phonotaxes
    :PROPERTIES:
