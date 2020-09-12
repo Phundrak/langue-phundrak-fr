@@ -8,32 +8,34 @@
 
 #+options: H:4 broken_links:mark email:t ^:{} tex:dvisvgm
 #+keywords: conlang idéolangue langue langues linguistique phundrak drakpa
+#+startup: overview align noinlineimages hideblocks
+#+property: header-args:emacs-lisp :noweb yes :exports none :eval yes :cache yes
+#+property: header-args:dot :dir img :exports results :eval yes :cache yes :class gentree
 
 # ### LaTeX ####################################################################
 
 #+latex_class: conlang
 #+latex_class_options: [a4paper,twoside]
-#+latex_header_extra: \usepackage{xltxtra}
-#+latex_header_extra: \usepackage[total={17cm,24cm}]{geometry}
-#+latex_header_extra: \usepackage{newunicodechar}
-#+latex_header_extra: \usepackage{xcolor}
-#+latex_header_extra: \usepackage{hyperref}
-#+latex_header_extra: \usepackage{indentfirst}
-#+latex_header_extra: \usepackage{enumitem}
-#+latex_header_extra: \setmainfont{Charis SIL}
-#+latex_header_extra: \newunicodechar{’}{'}
-#+latex_header_extra: \newunicodechar{…}{\ldots}
-#+latex_header_extra: \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
-
+#+latex_header:        \usepackage{xltxtra}
+#+latex_header:        \usepackage[total={17cm,24cm}]{geometry}
+#+latex_header:        \usepackage{newunicodechar}
+#+latex_header:        \usepackage{xcolor}
+#+latex_header:        \usepackage{hyperref}
+#+latex_header:        \usepackage{indentfirst}
+#+latex_header:        \usepackage{enumitem}
+#+latex_header:        \setmainfont{Charis SIL}
+#+latex_header:        \newunicodechar{’}{'}
+#+latex_header:        \newunicodechar{…}{\ldots}
+#+latex_header:        \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
 
 # ### HTML #####################################################################
 
-#+html_doctype: html5
+#+html_doctype:    html5
 #+html_head_extra: <meta property="og:image" content="https://cdn.phundrak.com/img/rich_preview.png" />
 #+html_head_extra: <meta name="twitter:card" content="summary" />
 #+html_head_extra: <meta name="twitter:site" content="@phundrak" />
 #+html_head_extra: <meta name="twitter:creator" content="@phundrak" />
-#+html_head_extra: <link rel="stylesheet" href="/style/style.css"/>
+#+html_head_extra: <link rel="stylesheet" href="/style/main.css"/>
 #+html_head_extra: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />
 #+html_head_extra: <link rel="shortcut icon" href="https://cdn.phundrak.com/img/favicon.ico" type="image/x-icon" media="screen" />
 #+html_head_extra: <link rel="shortcut icon" href="/img/icon.png" type="img/png" media="screen" />

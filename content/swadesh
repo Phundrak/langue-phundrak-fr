@@ -1,11 +1,11 @@
 # -*- mode: org -*-
 #+title: Swadesh List
-#+INCLUDE: headers
+#+setupfile: headers
 #+OPTIONS: auto-id:t
 
 * Modified Swadesh List [0/230]
   :PROPERTIES:
-  :CUSTOM_ID: h-85e70600-8e60-483a-8ef7-aa64d5fe9705
+  :CUSTOM_ID: Modified_Swadesh_List_[0230]-294cb044
   :END:
   List of words I should somehow cover with my conlangs. [[https://en.wikipedia.org/wiki/Swadesh_list][Source]]. This is based
   on the Final Swadesh List as well as the [[https://en.wikipedia.org/wiki/Leipzig%E2%80%93Jakarta_list][Leipzig-Jakarta List]] and the
@@ -243,7 +243,7 @@
 
 * Ñyqy [92/229]
   :PROPERTIES:
-  :CUSTOM_ID: h-a5b4a65c-68ab-4630-b054-da816d679cfd
+  :CUSTOM_ID: Ñyqy_[92229]-bc6e09f9
   :END:
   - [X] I (Pers.Pron.1.Sg.)
   - [X] all (of a number)
@@ -477,5 +477,5 @@
 
 * aaaaaaaa
   :PROPERTIES:
-  :CUSTOM_ID: h-72ad3dab-5e5e-4cbf-a364-4ba96556acfc
+  :CUSTOM_ID: aaaaaaaa-391f7bc9
   :END:

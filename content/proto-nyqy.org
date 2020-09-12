@@ -1,15 +1,13 @@
-# -*- org-confirm-babel-evaluate: nil -*-
+#+title:     Proto-Ñyqy
 #+setupfile: headers
-#+title: Proto-Ñyqy
-#+subtitle: Un détail de la langue construite prototype du Proto-Ñyqy, et une rapide description de son peuple et sa culture
-#+html_head_extra: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
-#+html_head_extra: <meta property="og:title" content="Grammaire du Proto-Ñyqy" />
-#+html_head_extra: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
-#+macro: nyqy (eval (conlanging/nyqy-to-org $1))
-#+options: auto-id:t
-#+subject: Grammaire du Proto-Ñyqy
-#+uid: https://langue.phundrak.com/proto-nyqy
-#+startup: content
+#+subtitle:  Un détail de la grammaire du Proto-Ñyqy, et une rapide description de son peuple et sa culture
+#+html_head: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
+#+html_head: <meta property="og:title" content="Grammaire du Proto-Ñyqy" />
+#+html_head: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
+#+macro:     nyqy (eval (conlanging/nyqy-to-org $1))
+#+options:   auto-id:t
+#+subject:   Grammaire du Proto-Ñyqy
+#+uid:       https://langue.phundrak.com/proto-nyqy
 
 * Propos préliminaires
   :PROPERTIES:

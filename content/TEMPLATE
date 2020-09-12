@@ -1,10 +1,10 @@
-# -*- mode: org; org-confirm-babel-evaluate: nil -*-
-#+TITLE: TEMPLATE
-#+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite TEMPLATE" />
-#+HTML_HEAD: <meta property="og:title" content="Grammaire du TEMPLATE" />
-#+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite TEMPLATE" />
-#+INCLUDE: headers
-#+OPTIONS: auto-id:t
+# -*- mode: org -*-
+#+setupfile: headers
+#+title:     TEMPLATE
+#+html_head: <meta name="description" content="Grammaire détaillée de la langue construite TEMPLATE" />
+#+html_head: <meta property="og:title" content="Grammaire du TEMPLATE" />
+#+html_head: <meta property="og:description" content="Grammaire détaillée de la langue construite TEMPLATE" />
+#+options:   auto-id:t
 
 * Propos préliminaires
   :PROPERTIES:

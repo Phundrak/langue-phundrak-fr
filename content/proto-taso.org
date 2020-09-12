@@ -1,11 +1,10 @@
-# -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Proto-Tãso
+#+TITLE:     Proto-Tãso
+#+setupfile: headers
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Tãso" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Proto-Tãso" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Tãso" />
-#+INCLUDE: headers
-#+OPTIONS: auto-id:t
-#+UID: https://langue.phundrak.com/proto-taso
+#+OPTIONS:   auto-id:t
+#+UID:       https://langue.phundrak.com/proto-taso
 
 * Propos préliminaires
   :PROPERTIES:

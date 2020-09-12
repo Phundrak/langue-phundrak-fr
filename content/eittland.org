@@ -1,16 +1,13 @@
-# -*- org-confirm-babel-evaluate: nil -*-
-#+setupfile: headers
-#+title: Eittlandais
-#+html_head: <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
-#+html_head: <meta property="og:title" content="Grammaire de l’Eittlandais" />
-#+html_head: <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
+#+title:        Eittlandais
+#+setupfile:    headers
+#+html_head:    <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
+#+html_head:    <meta property="og:title" content="Grammaire de l’Eittlandais" />
+#+html_head:    <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
 #+latex_header: \usepackage{allrunes}
-#+macro: rune-manual @@latex:\textara{$1}@@@@html:$2@@
-#+macro: rune (eval (conlanging/eittlanda-org-export-runes $1))
-#+keywords: eittland eittlande einnland einnlande nordique viking islande norrois
-#+options: auto-id:t
-#+uid: https://langue.phundrak.com/eittland
-#+startup: content
+#+macro:        rune (eval (conlanging/eittlandic-org-export-runes $1))
+#+keywords:     eittland eittlande einnland einnlande nordique viking islande norrois
+#+options:      auto-id:t
+#+uid:          https://langue.phundrak.com/eittland
 
 * Propos préliminaires
   :PROPERTIES:

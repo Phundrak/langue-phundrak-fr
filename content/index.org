@@ -1,11 +1,9 @@
-# -*- org-confirm-babel-evaluate: nil -*-
-#+TITLE: Langues construites de P’undrak
-#+HTML_HEAD: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
-#+HTML_HEAD: <meta property="og:title" content="Langues construites de P’undrak" />
-#+HTML_HEAD: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
-#+INCLUDE: headers
-#+options: html-style:nil
-#+STARTUP: content
+#+title:     Langues construites de P’undrak
+#+setupfile: headers
+#+html_head: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
+#+html_head: <meta property="og:title" content="Langues construites de P’undrak" />
+#+html_head: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
+#+options:   html-style:nil
 
 * Introduction
   Bonjour, je suis Lucien Cartier-Tilet, aussi connu sous le nom de P’undrak, et
@@ -73,16 +71,16 @@
    dernière option soit moins probable.  Les projets marqués comme abandonnés le
    seront  définitivement, tandis  que le  statut  des autres  projets de  cette
    section est incertain.
-   - Le [[file:hjelp.org][Hjelp]] était un projet de langue  divine /a priori/, pensé comme étant un
+   - Le [[file:archived/hjelp.org][Hjelp]] était un projet de langue  divine /a priori/, pensé comme étant un
      remplacement du Hjalpi’ (langue que j’ai  supprimé de mon site mais qui est
      encore disponible  dans l’historique  de mes  fichiers source,  la dernière
      version est  disponible [[https://labs.phundrak.com/phundrak/langue-phundrak-com/src/commit/1a8f1bc8cfc7ee7a6cc570b2488fc57af9f3723f/web/hjalpi.org][ici]]). Son statut  est encore incertain, je  ne sais
      pas si  je reprendrai  cette langue  ou en  si j’en  recréerai une  du même
-     genre. [[file:hjelp.pdf][Version PDF]], [[file:hjelp.epub][version EPUB]].
-   - Le  [[file:matter.org][Mattér]] fut  le projet  précédent l’[[eittland][Eittlandais]],  et est  une langue  /a
+     genre. [[file:archived/hjelp.pdf][Version PDF]], [[file:archived/hjelp.epub][version EPUB]].
+   - Le  [[file:archived/matter.org][Mattér]] fut  le projet  précédent l’[[eittland][Eittlandais]],  et est  une langue  /a
      posteriori/ descendant  vaguement du Vieux  Norrois mais avec des  choix de
      design plus que douteux. Cette langue fut abandonnée car elle devenait trop
-     complexe à gérer sans vision  d’ensemble sa direction. [[file:matter.pdf][Version PDF]], [[file:matter.epub][version
+     complexe à gérer sans vision  d’ensemble sa direction. [[file:archived/matter.pdf][Version PDF]], [[file:archived/matter.epub][version
      EPUB]].
 
 * Sous quelle licence se trouvent mes langues ?
