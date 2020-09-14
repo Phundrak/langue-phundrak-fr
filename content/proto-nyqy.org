@@ -2748,6 +2748,7 @@
      1. (n) journée, partie ensoleillée du jour
    - {{{nyqy(bópo)}}} :: {{{defnl}}} Voir /bó/ et /po/
      1. (n) le Soleil
+     2. (vi) briller intensément
    - {{{nyqy(bu)}}} :: {{{def}}}
      1. (pron) mon, ma, mes, pronom possessif exclusif de la troisième personne
    - {{{nyqy(bú)}}} :: {{{def}}}
@@ -2759,6 +2760,10 @@
    :END:
    - {{{nyqy(cé)}}} :: {{{def}}}
      1. (pron) mon, ma, mes, possesseur inclusif de la première personne
+   - {{{nyqy(ci)}}} :: {{{def}}}
+     1. (n) arbre
+   - {{{nyqy(cim)}}} :: {{{defnl}}} Voir /ci/
+     1. (n) bois
    - {{{nyqy(co)}}} :: {{{def}}}
      1. (nbr) cinq
    - {{{nyqy(coge)}}} :: {{{def}}}
@@ -2844,6 +2849,8 @@
      1. (n) quelque chose de grand, gros, large
      2. (vi) grossir
      3. (vt) agrandir
+   - {{{nyqy(gosin)}}} :: {{{defnl}}} Voir /goñ/ et /sin/
+     1. roc, rocher
    - {{{nyqy(gó)}}} :: {{{def}}}
      1. (vt) boire
      2. (vi) s’hydrater
@@ -2878,16 +2885,25 @@
    - {{{nyqy(jé)}}} :: {{{def}}}
      1. (pron) ton, ta, tes, pronom possessif inclusif de la deuxième personne
    - {{{nyqy(jéq)}}} :: {{{def}}}
-     1. (vt) pousser
-     2. (vi) se faire pousser
+     1. (n) petit déplacement (induit par un tiers, par quelqu’un qui a poussé
+        quelque chose)
+     2. (vt) pousser
+     3. (vi) se faire pousser
+   - {{{nyqy(jigo)}}} :: {{{def}}}
+     1. (n) sable
+   - {{{nyqy(jizq)}}} :: {{{def}}}
+     1. (n) plante
+   - {{{nyqy(josgé)}}} :: {{{def}}}
+     1. (n) os
+     2. (n) amulette
    - {{{nyqy(jó)}}} :: {{{def}}}
      1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs,
         l’élément n’est pas visible.
    - {{{nyqy(jójpyg)}}} :: {{{def}}}
      1. (n) plume
-   - {{{nyqy(josgé)}}} :: {{{def}}}
-     1. (n) os
-     2. (n) amulette
+   - {{{nyqy(jós)}}} :: {{{def}}}
+     1. (n) étoile, planète
+     2. (vi) briller doucement
    - {{{nyqy(ju)}}} :: {{{def}}}
      1. (pron) ton, ta, tes, pronom possessif exclusif de la deuxième personne
    - {{{nyqy(juc)}}} :: {{{def}}}
@@ -2905,6 +2921,11 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-M-cccfd958
    :END:
+   - {{{nyqy(micp)}}} :: {{{def}}}
+     1. (n) cou
+     2. (n) nuque
+     3. (vi) avoir un mal de gorge
+     4. (vt) faire le coup du lapin, briser la nuque d’une proie
    - {{{nyqy(meb)}}} :: {{{def}}}
      1. (n) terre (matière)
      2. (n) sol, lieu
@@ -2943,6 +2964,9 @@
      1. (n) douleur
      2. (vi) faire mal, provoquer de la douleur
      3. (vt) blesser quelqu’un, quelque chose
+   - {{{nyqy(mójmicp)}}} :: {{{defnl}}} Voir /mójpi/ et /micp/
+     1. (n) torticoli, mal de nuque
+     2. (vi) avoir mal à la nuque, avoir un torticoli
    - {{{nyqy(móñ)}}} :: {{{def}}}
      1. (n) sud
    - {{{nyqy(mújyjq)}}} :: {{{def}}}
@@ -2955,6 +2979,9 @@
      1. (n) rouge, pourpre
      2. (n) fruit rouge
      3. (vi) rougir
+   - {{{nyqy(my)}}} :: {{{def}}}
+     1. (n) bouche
+     2. (vt) mâcher
    - {{{nyqy(mygú)}}} :: {{{def}}}
      1. (n) singe
      2. (vi) être agité
@@ -3057,6 +3084,12 @@
      2. (n) pendentif, bijou
    - {{{nyqy(pu)}}} :: {{{def}}}
      1. (pron.dem) pronom démonstratif de proximité avec l’interlocuteur
+   - {{{nyqy(pus)}}} :: {{{def}}}
+     1. (n) quelque chose de plat, platitude
+     2. (vt) applatir, applanir
+   - {{{nyqy(puqó)}}} :: {{{defnl}}} Voir /pus/ et /qó/
+     1. (n) mer, océan
+     2. (n) étendue d’eau salée
 
 ** Q
    :PROPERTIES:
@@ -3086,6 +3119,8 @@
    - {{{nyqy(qomy)}}} :: {{{def}}}
      1. (n) solitude, seul
      2. (n) individualité, individuel
+   - {{{nyqy(qó)}}} :: {{{def}}}
+     1. (n) eau salée
    - {{{nyqy(qój)}}} :: {{{def}}}
      1. (n) sommeil
      2. (vi) dormir
@@ -3117,7 +3152,7 @@
      1. (nbr) marqueur de 1000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
    - {{{nyqy(sin)}}} :: {{{def}}}
      1. (n) pierre (matière)
-     2. (n) pierre (objet), rocher
+     2. (n) pierre (objet), petit rocher
      3. (n) dureté, quelque chose de dur
      4. (vi) être ferme
      5. (vt) imposer qqch
@@ -3217,7 +3252,7 @@
      1. (vt) voler, nager, se déplacer.
 
         Reçoit en absolutif l’élément dans lequel se déplace l’élément ergatif.
-        Exemple : /yc bó péj won/ « Le poisson nage », litt. « le poisson se
+        Exemple : {{{nyqy(yc bó péj won)}}} « Le poisson nage », litt. « le poisson se
         déplace dans l’eau douce ».
    - {{{nyqy(wóseq)}}} :: {{{def}}}
      1. (n) voisin
@@ -3243,7 +3278,7 @@
      4. (vi) vivre
    - {{{nyqy(ycne)}}} :: {{{defnl}}} Voir /ne/ et /yc/
      1. (n) mort
-     2. (vi) mourrir
+     2. (vi) mourir
    - {{{nyqy(ycéjéz)}}} :: {{{defnl}}} Voir /yc/, /újq/ et /wéz/
      1. (n) magie, force divine. Littéralement « eau de la puissance divine »
    - {{{nyqy(ycij)}}} :: {{{defnl}}} Voir /yc/ et /ij/
@@ -3295,7 +3330,7 @@
    - {{{nyqy(zic)}}} :: {{{def}}}
      1. (n) chair, viande non comestible
    - {{{nyqy(ziwez)}}} :: {{{def}}}
-     1. (n) sable 
+     1. (n) sable
    - {{{nyqy(zoc)}}} :: {{{def}}}
      1. (n) tête
      2. (n) chef, patriarche, matriarche
