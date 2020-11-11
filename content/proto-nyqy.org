@@ -290,10 +290,10 @@
    définition actuelle du terme « blé, riz, grain commestible ».
 
    L’élevage était orienté  principalement sur celui des vaches et  des porcs. À
-   nouveau, une  incertitude plane cependant  sur le terme  {{{nyqy(qóñ)}}} signifiant
+   nouveau, une  incertitude plane cependant  sur le terme  {{{nyqy(qœñ)}}} signifiant
    « vache ». Selon les  recherches portant sur la faune  théorique de l’époque,
    et au vu  de la région tropicale  soumise aux moussons, il  est très probable
-   qu’il  s’agissait  plutôt   de  buffles.  Le  terme  /qóñ/   aurait  pris  la
+   qu’il  s’agissait  plutôt   de  buffles.  Le  terme  /qœñ/   aurait  pris  la
    signification de « vache » lors de  la migration des peuples descendants vers
    le  nord, domesticant  alors  plutôt les  vaches que  les  buffles alors  que
    d’autres  peuples  arrivaient dans  l’ancienne  zone  occupée par  le  peuple
@@ -327,7 +327,7 @@
    maisons  plus  riches  avaient  probablement des  tuiles  d’argile.  L’entrée
    n’était sans doute fermée  que par un voile de tissu ;  en effet, on retrouve
    dans beaucoup de langues descendantes du Proto-Ñyqy les termes pour « porte »
-   et « tissu » descendants du terme {{{nyqy(séwe)}}}.
+   et « tissu » descendants du terme {{{nyqy(søwe)}}}.
 
    Concernant  le  mariage,  il  semblerait  qu’il n’y  avait  pas  de  tendance
    particulière quant  à qui  rejoignait la  famille de  qui parmi  les familles
@@ -420,7 +420,7 @@
       dem.prox3 maison GEN 1sg(ABS)
 
       Cette maison est à moi
-   2. {{{nyqy(cé ñe)}}}
+   2. {{{nyqy(cø ñe)}}}
 
       1sg.POSS.INCL maison(ABS)
 
@@ -430,12 +430,12 @@
       pomme(ABS) 2sg-DU(ERG) manger-PST
 
       Nous avons mangé une pomme
-   4. {{{nyqy(qy qunoqéop)}}}
+   4. {{{nyqy(qy qunoqøop)}}}
 
       1sg(ABS) boire-PST-OPT
 
       Je souhaitais boire
-   5. {{{nyqy(cé pimi bómygú coqugmúnop zé qy zúmuop)}}}
+   5. {{{nyqy(cø pimi bœmygú coqugmúnop zø qy zúmuop)}}}
 
       POSS.1sg  pomme-art.indef(ABS)   art.def-singe(ERG)  manger-SUBJ-PROG-PST,
       3sg(ABS) 1sg(ERG) voir-PST
@@ -468,7 +468,7 @@
    positionnement différent  des articles  définis et  indéfinis par  rapport au
    nom,  ainsi qu’un  exemple  de référence  dans une  clause  subordonnée à  un
    élément extérieur  qu’elle définit,  ici le pronom  de la  troisième personne
-   {{{nyqy(zé)}}} se référant à {{{nyqy(mygú)}}}. On voit également que la clause principale
+   {{{nyqy(zø)}}} se référant à {{{nyqy(mygú)}}}. On voit également que la clause principale
    a un ordre de ses constituants en OSV tandis que la subordonnée a un ordre de
    ses relatives en OVS.
 
@@ -478,11 +478,11 @@
    une myriade  de petits  mots se  suivant les uns  à la  suite des  autres. On
    pourrait croire qu’il s’agisse d’une  langue agglutinative, alors qu’elle est
    en réalité extrêmement analytique. Il aurait été tout aussi juste d’écrire le
-   cinquième exemple sous  la forme /cé pim i  bó mygú coq ug mún op  zé qy zúmu
+   cinquième exemple sous  la forme /cø pim i  bœ mygú coq ug mún op  zø qy zúmu
    op/,  ce  qui  peut  prêter  à  confusion.  Certain  joignent  également  les
    différents mots ici  acolés par des tirets d’union ou  par deux points, comme
    suit  (les deux  styles sont  mélangés dans  cet exemple  et ne  représentent
-   aucune différence grammaticale ou autre) : /cé pim:i bó:mygú coq-ug-mún-op zé
+   aucune différence grammaticale ou autre) : /cø pim:i bœ:mygú coq-ug-mún-op zø
    qy zúmu-op/.
 
 ** Inventaire phonologique et translittération
@@ -534,7 +534,7 @@
     |-------------+-------------+--------------|
     |     fermées |      y      |      ú       |
     | pré-fermées |      i      |      u       |
-    |  mi-fermées |      é      |      ó       |
+    |  mi-fermées |      ø      |      œ       |
     | mi-ouvertes |      e      |      o       |
 
     On peut voir  avec l’arbre [[arbre:vowels]] l’organisation des  voyelles dans le
@@ -579,13 +579,13 @@
     Voici une description des voyelles du Proto-Ñyqy :
     - e ::  il  s’agit de la voyelle antérieure mi-ouverte  non-arrondie [ɛ] que
       l’on retrouve en Français dans « bête » [bɛt̪] par example.
-    - é ::   il s’agit de la  voyelle antérieure mi-fermée non-arrondie  [e] que
-      l’on retrouve en Français dans « été » [et̪e] par exemple.
     - i ::  Il  s’agit de la voyelle antérieure pré-fermée  non-arrondie [ɪ] que
       l’on retrouve en Anglais comme dans « bit » [bɪt].
     - o :: Il s’agit de la  voyelle postérieure mi-ouverte arrondie [ɔ] que l’on
       retrouve en Français dans « sort » [sɔːʁ].
-    - ó ::  Il  s’agit de la voyelle postérieure mi-fermée  non-arrondie [ɤ] que
+    - ø ::   il s’agit de la  voyelle antérieure mi-fermée non-arrondie  [ø] que
+      l’on retrouve en Français dans « deux » [d̪ø] par exemple.
+    - œ ::  Il  s’agit de la voyelle postérieure mi-fermée  non-arrondie [ɤ] que
       l’on  retrouve en  Gaélique Écossais  « doirbh » [d̪̊ɤrʲɤv]  ou en  Estonien
       « kõrv » [kɤrv].
     - u :: Il s’agit de la  voyelle postérieure pré-fermée arrondie [ʊ] que l’on
@@ -743,11 +743,11 @@
    racines. Généralement, l’ordre des racines  d’origine suit à peu près l’ordre
    des adjectifs, ou bien un ordre  de mots existant sans morphème lié indiquant
    la  grammaire  gérant ces  deux  mots.  On  retrouve  cela par  exemple  avec
-   {{{nyqy(zocséwe)}}},  composé de  {{{nyqy(zoc)}}} et  {{{nyqy(séwe)}}}. On  pourrait parler  de
-   « tissu de tête » avec {{{nyqy(zoc pom  séwe)}}}, cependant la fusion des deux mots
+   {{{nyqy(zosøwe)}}},  composé de  {{{nyqy(zoc)}}}  et {{{nyqy(søwe)}}}.  On  pourrait parler  de
+   « tissu de tête » avec {{{nyqy(zoc pom  søwe)}}}, cependant la fusion des deux mots
    sans  la particule  grammaticale  du  génitif {{{nyqy(pom)}}}  créé  le terme  pour
    « voile » ou « châle », désignant un tissus  typique porté autour de la tête.
-   {{{nyqy(zócu)}}} peut se  décoposer en {{{nyqy(zój sy)}}}, ou « chose  vivante », mais la
+   {{{nyqy(zœcu)}}} peut se  décoposer en {{{nyqy(zœj sy)}}}, ou « chose  vivante », mais la
    fusion  des  deux  donne  le  mot pour  « animal ».  Les  règles  phonétiques
    gouvernant la  fusion des racines pour  la création de nouveaux  mots ne sont
    pas bien  connues, et  aucun concensus sur  le sujet n’a  été atteint  et les
@@ -775,7 +775,7 @@
     possible.  Cependant,  il  arrive  qu’une  fois  mutées  correctement,  deux
     consonnes phonétiques  soient adjacentes alors que  les règles phonologiques
     du  Proto-Ñyqy  l’interdisent, ce  qui  résulte  en  un schwa  ajouté  entre
-    lesdites consonnes.  Ainsi, le terme  /cójm/ est prononcé {{{phon(cɤɮəʀ)}}}  si la
+    lesdites consonnes.  Ainsi, le  terme /cœj/ est  prononcé {{{phon(cɤɮəʀ)}}}  si la
     première consonne n’est  pas mutée, ou bien {{{phon(ɬɤdʒm)}}} dans  le second cas.
     Dans tous les cas, le terme ne change pas d’orthographe.
 
@@ -844,7 +844,7 @@
     |        ɟ         |      ɮ       |   |   |        s         |      x       |
     |        w         |      l       |   |   |        z         |      ɣ       |
 
-    Ainsi, la phrase {{{nyqy(cé  ñe)}}} ne se prononce pas *{{{phon(cø  ɴɛ)}}}, et la phrase
+    Ainsi, la phrase {{{nyqy(cø  ñe)}}} ne se prononce pas *{{{phon(cø  ɴɛ)}}}, et la phrase
     {{{nyqy(pim búqi coqop)}}} se ne prononce pas *{{{phon(pɪm bʊqɪ cɔqɔp)}}}.
 
 ** Classes de mots
@@ -867,12 +867,12 @@
     peuvent cependant  s’associer à  d’autres éléments du  fait de  leur nature,
     notamment grâce à des particules grammaticales.
 
-**** Noms comptables et noms indénombrables
+**** Noms comptables et noms indénombrables                        :noexport:
      :PROPERTIES:
      :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Noms-Noms_comptables_et_noms_indénombrables-62367388
      :END:
 
-**** Noms propres
+**** Noms propres                                                  :noexport:
      :PROPERTIES:
      :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Noms-Noms_propres-894af58f
      :END:
@@ -893,7 +893,7 @@
      personnes :
      - Première personne : {{{nyqy(qy)}}}. Se réfère au locuteur.
      - Deuxième personne : {{{nyqy(bú)}}}. Se réfère à l’interlocuteur.
-     - Troisième personne : {{{nyqy(zé)}}}.  Se réfère aux personnes  extérieures à la
+     - Troisième personne : {{{nyqy(zø)}}}.  Se réfère aux personnes  extérieures à la
        conversation.
 
      Ainsi, le tableau des pronoms du Proto-Ñyqy reste très simple :
@@ -905,32 +905,32 @@
      |----------+--------|
      | 1        | qy     |
      | 2        | bú     |
-     | 3        | zé     |
+     | 3        | zø     |
 
      Afin de  distinguer les personnes  par nombre, les locuteurs  du Proto-Ñyqy
      usent de  nombres cardinaux autour  du pronom.  Il est possible  que chaque
      unité  était  utilisée, mais  seuls  l’utilisation  des chiffres  {{{nyqy(mi)}}},
-     {{{nyqy(qi)}}} et {{{nyqy(né)}}}  sont attestés, en plus de  {{{nyqy(ñy)}}}. {{{nyqy(Mi)}}} indique
-     le singulier,  tandis que {{{nyqy(qi)}}}  indique le  duel, {{{nyqy(né)}}} le  triel et
-     {{{nyqy(ñy)}}} le pluriel. Il est également  possible que {{{nyqy(né)}}} ait indiqué un
-     paucal pour trois  à cinq éléments, et {{{nyqy(né)}}} le  pluriel pour six objets
+     {{{nyqy(qi)}}} et {{{nyqy(nø)}}}  sont attestés, en plus de  {{{nyqy(ñy)}}}. {{{nyqy(Mi)}}} indique
+     le singulier,  tandis que {{{nyqy(qi)}}}  indique le  duel, {{{nyqy(nø)}}} le  triel et
+     {{{nyqy(ñy)}}} le pluriel. Il est également  possible que {{{nyqy(nø)}}} ait indiqué un
+     paucal pour trois  à cinq éléments, et {{{nyqy(nø)}}} le  pluriel pour six objets
      ou plus. Il semblerait cependant que leur utilisation n’était pas fréquente
      et le  nombre des  personnes était  souvent inféré lors  de la  locution et
      n’était utilisé qu’en cas d’ambiguïté.
 
      Exemple :
-     - {{{nyqy(bónusqim qy ij)}}}
+     - {{{nyqy(bœnusqim qy ij)}}}
 
        village DAT 1sg aller
 
        Je vais au village
 
-     - {{{nyqy(bónusqim qyqi ij)}}}
+     - {{{nyqy(bœnusqim qyqi ij)}}}
 
        village DAT 1-DU aller
 
        Nous deux allons au village
-     - {{{nyqy(bónusqim ñyqy ij)}}}
+     - {{{nyqy(bœnusqim ñyqy ij)}}}
 
        village DAT 1-PL aller
 
@@ -944,10 +944,10 @@
      |----------------+-----------|
      | singulier      | {{{nyqy(mi)}}}  |
      | duel           | {{{nyqy(qi)}}}  |
-     | triel / paucal | {{{nyqy(né)}}}  |
+     | triel / paucal | {{{nyqy(nø)}}}  |
      | pluriel        | {{{nyqy(ñy)}}}  |
      Notez bien  que l’utilisation  de {{{nyqy(mi)}}}, bien  que probable,  étant sans
-     doutes rare.  On ne sait pas  également si {{{nyqy(né)}}} marquait  uniquement le
+     doutes rare.  On ne sait pas  également si {{{nyqy(nø)}}} marquait  uniquement le
      triel ou s’il  faisait office de paucal jusqu’à  l’utilisation de {{{nyqy(ñy)}}}.
      L’utilisation des nombres n’est également  attestée qu’avec les pronoms, et
      il  est  improbable selon  nos  connaissances  actuelles qu’ils  aient  été
@@ -958,37 +958,53 @@
      [[#Aperçu_structurel-Syntaxe_clauses_nominales-Numéraux-f2cc88b9]]. Vous pouvez
      vous y référer pour plus d’informations sur le propos des numéraux en Ñyqy.
 
+     Les pronoms du Proto-Ñyqy peuvent  être considérés comme des pronoms libres
+     qui peuvent être  utilisés aussi bien avec un verbe  afin qu’en tant qu’une
+     partie d’une phrase nominale sans être son élément principal.
+     1. {{{nyqy(qi-bú qy qe)}}}
+
+        DU-2 1.SG voir
+
+        Je les regarde
+     2. {{{nyqy(qyim ñocm qe)}}}? {{{nyqy(ee qy)}}}
+
+        1.SG-DAT quelqu’un voir ? oui 1.SG
+
+        Quelqu’un m’a vu ? Oui, moi
+
+     Dans le premier exemple ci-dessus,
+
 **** Pronoms démonstratifs
      :PROPERTIES:
-     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Pronoms_et_clitiques_anaphoriques-Pronoms_démonstratifs-84b54047
+     :CUSTOM_ID: Pronoms_et_clitiques-Pronoms_démonstratifs-84b54047
      :END:
      Il existe en Proto-Ñyqy quatre niveaux de proximité se reflètant dans les
      pronoms démonstratifs, l’élément est :
-     - {{{nyqy(bóc)}}} :: proche du locuteur
+     - {{{nyqy(bœc)}}} :: proche du locuteur
      - {{{nyqy(pu)}}} :: proche de l’interlocuteur
      - {{{nyqy(yq)}}} :: éloigné mais visible des interlocuteurs
-     - {{{nyqy(jó)}}} :: éloigné et invisible des interlocuteurs
+     - {{{nyqy(jœ)}}} :: éloigné et invisible des interlocuteurs
 
      Dans  les quatres  phrases  suivantes,  le locuteur  parle  d’un chat  mais
      utilise  à  chaque  fois  un  démonstratif  différent,  donnant  ainsi  une
      indication sur la position de ce dernier  quant à lui-même et par rapport à
      son interlocuteur.
-     - {{{nyqy(cé oz bóc oz)}}}
+     - {{{nyqy(cø oz bœc oz)}}}
 
        POSS.1sg chat dem.prox1 chat
 
        Ce chat (proche de moi) est mon chat
-     - {{{nyqy(cé oz pu oz)}}}
+     - {{{nyqy(cø oz pu oz)}}}
 
        POSS.1sg chat dem.prox2 chat
 
        Ce chat (proche de toi) est mon chat
-     - {{{nyqy(cé oz yq oz)}}}
+     - {{{nyqy(cø oz yq oz)}}}
 
        POSS.1sg chat dem.prox3 chat
 
        Ce chat (que l’on voit tous les deux) est mon chat
-     - {{{nyqy(cé oz jó oz)}}}
+     - {{{nyqy(cø oz jœ oz)}}}
 
        POSS.1sg chat dem.prox4 chat
 
@@ -1008,9 +1024,9 @@
      |        / |          <           |          <           |
      | personne | possession inclusive | possession exclusive |
      |----------+----------------------+----------------------|
-     |        1 |       {{{nyqy(cé)}}}       |       {{{nyqy(cu)}}}       |
-     |        2 |       {{{nyqy(jé)}}}       |       {{{nyqy(ju)}}}       |
-     |        3 |       {{{nyqy(bé)}}}       |       {{{nyqy(bu)}}}       |
+     |        1 |       {{{nyqy(cø)}}}       |       {{{nyqy(cu)}}}       |
+     |        2 |       {{{nyqy(jø)}}}       |       {{{nyqy(ju)}}}       |
+     |        3 |       {{{nyqy(bø)}}}       |       {{{nyqy(bu)}}}       |
 
      Comme  on  peut le  voir,  le  Proto-Ñyqy  distingue  entre deux  types  de
      possessions :  la  possession  inclusive  et la  possession  exclusive.  Le
@@ -1031,23 +1047,23 @@
      être d’appartenance  exclusive à  un individu ou  d’appartenance inclusive,
      comme par exemple des outils.
 
-     - {{{nyqy(móñ ón cé bónusq)}}}
+     - {{{nyqy(mœñ œn cø bœnusq)}}}
 
        sud LOC POSS.1.inc village
 
        Mon/notre village est au sud
-     - * {{{nyqy(móñ ón cu bónusq)}}}
+     - * {{{nyqy(mœñ œn cu bœnusq)}}}
 
        sud LOC POSS.1.excl village
 
        Mon village (qui n’appartient qu’à moi) est au sud
 
-     Ci-dessus, la seconde phrase  est grammaticalement incorrecte, {{{nyqy(bónusq)}}}
+     Ci-dessus, la seconde phrase  est grammaticalement incorrecte, {{{nyqy(bœnusq)}}}
      est un mot ne pouvant pas recevoir de possessif exclusif car un village est
      considéré comme étant  un bien commun et impossible de  n’associer qu’à une
      seule personne.
 
-     - {{{nyqy(zuj cé oz)}}}
+     - {{{nyqy(zuj cø oz)}}}
 
        noir POSS.1.inc chat
 
@@ -1064,12 +1080,12 @@
      locuteur  indique qu’il  est le  seul  maître du  chat en  question et  que
      personne d’autre ne peut être considéré comme étant maître du chat.
 
-     - {{{nyqy(cu beñ mójpi)}}}
+     - {{{nyqy(cu beñ mœjpi)}}}
 
        POSS.1.excl dents faire.mal
 
        Mes dents me font mal
-     - * {{{nyqy(cé beñ mójpi)}}}
+     - * {{{nyqy(cø beñ mœjpi)}}}
 
        POSS.1.inc dents faire.mal
 
@@ -1080,7 +1096,7 @@
      personne et ne peuvent être partagées. Il s’agit d’une possession inhérente
      du locuteur.
 
-*** Verbes
+*** Verbes                                                         :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Verbes-896fddad
     :END:
@@ -1159,7 +1175,7 @@
      noms  pouvant être  utilisés  en tant  qu’adjectifs avec  les  noms qui  ne
      peuvent pas l’être.
 
-**** Quantifieurs non-numéraux
+**** Quantifieurs non-numéraux                                     :noexport:
      :PROPERTIES:
      :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Modificateurs-Quantifieurs_non-numéraux-87dbbac7
      :END:
@@ -1204,30 +1220,30 @@
      |    0    |                 0                  |        {{{nyqy(pe)}}}        |
      |    1    |                 1                  |        {{{nyqy(mi)}}}        |
      |    2    |                 2                  |        {{{nyqy(qi)}}}        |
-     |    3    |                 3                  |        {{{nyqy(né)}}}        |
-     |    4    |                 4                  |        {{{nyqy(gé)}}}        |
+     |    3    |                 3                  |        {{{nyqy(nø)}}}        |
+     |    4    |                 4                  |        {{{nyqy(gø)}}}        |
      |    5    |                 5                  |        {{{nyqy(co)}}}        |
      |    6    |                1-0                 | {{{nyqy(miñy)}}} ou {{{nyqy(ñy)}}} |
      |    7    |                1-1                 |       {{{nyqy(ñymi)}}}       |
      |    8    |                1-2                 |       {{{nyqy(ñyqi)}}}       |
-     |    9    |                1-3                 |       {{{nyqy(ñyné)}}}       |
-     |   10    |                1-4                 |       {{{nyqy(ñygé)}}}       |
+     |    9    |                1-3                 |       {{{nyqy(ñynø)}}}       |
+     |   10    |                1-4                 |       {{{nyqy(ñygø)}}}       |
      |   11    |                1-5                 |       {{{nyqy(ñyco)}}}       |
      |   12    |                2-0                 |       {{{nyqy(qiñy)}}}       |
-     |   18    |                3-0                 |       {{{nyqy(néñy)}}}       |
-     |   24    |                4-0                 |       {{{nyqy(géñy)}}}       |
+     |   18    |                3-0                 |       {{{nyqy(nøñy)}}}       |
+     |   24    |                4-0                 |       {{{nyqy(gøñy)}}}       |
      |   30    |                5-0                 |       {{{nyqy(coñy)}}}       |
      |   36    |                6-0                 |      {{{nyqy(peñyñy)}}}      |
      |   42    |                7-0                 |      {{{nyqy(miñyñy)}}}      |
      |   48    |                8-0                 |      {{{nyqy(qiñyñy)}}}      |
-     |   54    |                9-0                 |      {{{nyqy(néñyñy)}}}      |
-     |   60    |                a-0                 |      {{{nyqy(géñyñy)}}}      |
+     |   54    |                9-0                 |      {{{nyqy(nøñyñy)}}}      |
+     |   60    |                a-0                 |      {{{nyqy(gøñyñy)}}}      |
      |   66    |                b-0                 |      {{{nyqy(coñyñy)}}}      |
-     |   72    |               1-0-0                | {{{nyqy(mimó)}}} ou {{{nyqy(mó)}}} |
-     |   432   |               6-0-0                |      {{{nyqy(pemómó)}}}      |
+     |   72    |               1-0-0                | {{{nyqy(mimœ)}}} ou {{{nyqy(mœ)}}} |
+     |   432   |               6-0-0                |      {{{nyqy(pemœmœ)}}}      |
      |   864   |              1-0-0-0               | {{{nyqy(misi)}}} ou {{{nyqy(si)}}} |
      |  10368  |             1-0-0-0-0              |       {{{nyqy(gec)}}}        |
-     | 124416  |            1-0-0-0-0-0             |       {{{nyqy(cójm)}}}       |
+     | 124416  |            1-0-0-0-0-0             |       {{{nyqy(cœj)}}}        |
      | 1492992 |           1-0-0-0-0-0-0            |       {{{nyqy(ñuñ)}}}        |
 
      Comme vous pouvez le voir, afin  d’exprimer des bases plus élevées, l’ordre
@@ -1236,11 +1252,11 @@
 
      Voici un exemple ci-dessous de la notation de 14873 en Proto-Ñyqy:
      |    <c>    |    <c>     |    <c>     |      <c>       |   <c>    |
-     | {{{nyqy(gec)}}} | {{{nyqy(cosi)}}} | {{{nyqy(qimó)}}} |  {{{nyqy(geñyñy)}}}  | {{{nyqy(né)}}} |
+     | {{{nyqy(gec)}}} | {{{nyqy(cosi)}}} | {{{nyqy(qimœ)}}} |  {{{nyqy(geñyñy)}}}  | {{{nyqy(nø)}}} |
      | 12^{3}×6  | 5×12^{2}×6 | 2×12^{1}×6 | (6+4)×12^{0}×6 |    3     |
      |   10368   |    4320    |    144     |       60       |    3     |
-     Ainsi, 14875 se traduit  par {{{nyqy(gec cosi qimó geñyñy né)}}}.  Il est à noter
-     toutefois que  le terme se coupera  en deux, laissant {{{nyqy(né)}}}  seul, si le
+     Ainsi, 14875 se traduit  par {{{nyqy(gec cosi qimœ geñyñy nø)}}}.  Il est à noter
+     toutefois que  le terme se coupera  en deux, laissant {{{nyqy(nø)}}}  seul, si le
      nombre      s’applique     à      un     nom.      Voir     la      section
      [[#Aperçu_structurel-Syntaxe_clauses_nominales-Numéraux-f2cc88b9]].
 
@@ -1248,7 +1264,7 @@
      nombres ordinaux préfixés par le terme {{{nyqy(qujm)}}}, signifiant « position ».
      Si {{{nyqy(qujm)}}} est directement suivi par un mon commençant par un <m>, alors
      {{{nyqy(qujm)}}}  perd  le  sien.  Ainsi, « 148ème  personne »  se  traduira  par
-     {{{nyqy(qujm qimó ñocm  gé)}}}, et {{{nyqy(qujmó ñygé ñocm)}}} se  traduira par « 82ème
+     {{{nyqy(qujm qimœ ñocm  gø)}}}, et {{{nyqy(qujmœ ñygø ñocm)}}} se  traduira par « 82ème
      personne ». Il  est cependant  à noter  que les  unités disposent  de leurs
      propres terme.
 
@@ -1258,10 +1274,10 @@
      |      | nombre ordinal | nombre ordinal terminatif |
      |------+----------------+---------------------------|
      | 1er  |   {{{nyqy(qoji)}}}   |        {{{nyqy(qomy)}}}         |
-     | 2ème |   {{{nyqy(qóqi)}}}   |        {{{nyqy(qóqy)}}}         |
-     | 3ème |   {{{nyqy(qóné)}}}   |        {{{nyqy(qóny)}}}         |
-     | 4ème |  {{{nyqy(qomgé)}}}   |       {{{nyqy(qomgéy)}}}        |
-     | 5ème |  {{{nyqy(qopcé)}}}   |       {{{nyqy(qopcéy)}}}        |
+     | 2ème |   {{{nyqy(qœqi)}}}   |        {{{nyqy(qœqy)}}}         |
+     | 3ème |   {{{nyqy(qœnø)}}}   |        {{{nyqy(qœny)}}}         |
+     | 4ème |  {{{nyqy(qomgø)}}}   |       {{{nyqy(qomgøy)}}}        |
+     | 5ème |  {{{nyqy(qopcø)}}}   |       {{{nyqy(qopcøy)}}}        |
 
      Contrairement  au reste  des nombres,  les chiffres  à l’exception  de zéro
      disposent  aussi  de  chiffres  ordinaux terminatifs.  Un  chiffre  ordinal
@@ -1270,12 +1286,12 @@
      différente du  reste des  nombres ordinaux  terminatifs et  signifie plutôt
      « seul », « individuel ».
 
-     - {{{nyqy(ñocm qóqi qójmún)}}}
+     - {{{nyqy(ñocm qœqi qœjmún)}}}
 
        personne 2-ORD dormir-PROG
 
        La deuxième personne est en train de dormir.
-     - {{{nyqy(ñocm qóqy qójmún)}}}
+     - {{{nyqy(ñocm qœqy qœjmún)}}}
 
        personne 2-ORD.TERM dormir-PROG
 
@@ -1288,7 +1304,7 @@
      qu’il n’y a que deux personnes dont le locuteur parle. Il s’agit de la même
      différente en Français entre « deuxième » et « second ».
 
-*** Adverbes
+*** Adverbes                                                       :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Adverbes-8d8d4dc3
     :END:
@@ -1302,12 +1318,12 @@
     # - Are any of these classes of adverbs related to older complement-taking
     #   (matrix) verbs?
 
-*** Adpositions
+*** Adpositions                                                    :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Adpositions-736c7c45
     :END:
 
-*** Particules grammaticales
+*** Particules grammaticales                                       :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Particules_grammaticales-a6fc9b68
     :END:
@@ -1378,7 +1394,7 @@
     Il  est à  noter que  le groupe  nominal ergatif  est considéré  comme étant
     optionnel. Ainsi,  si seul  un groupe  nominatif précède  le verbe,  il sera
     généralement absolutif.
-    - {{{nyqy(qy qunoquéop)}}}
+    - {{{nyqy(qy qunoquøop)}}}
 
       1sg(ABS) boire-PST-OPT
 
@@ -1388,7 +1404,7 @@
       pomme(ABS) 2sg-DU(ERG) manger
 
       Je mange une pomme
-    - {{{nyqy(wóseqim músq qy ezpop)}}}
+    - {{{nyqy(wœseqim músq qy ezpop)}}}
 
       voisin-DAT maison(ABS) 1sg(ERG) créer-PST
 
@@ -1464,9 +1480,9 @@
      Concernant les possessifs, ceux-ci se  situent directement avant le nom afin
      de marquer la possession de l’élément  par une personne ou une autre entité.
      Cela dépend  du possessif employé. Par  exemple « mon chat » se  traduit par
-     {{{nyqy(cé oz)}}}.
+     {{{nyqy(cø oz)}}}.
      |   <c>    | <c>  |
-     |    cé    |  oz  |
+     |    cø    |  oz  |
      | POSS.1sg | chat |
 
 **** Numéraux
@@ -1475,16 +1491,15 @@
      :END:
      Pour ce qui est  des numéraux, la règle générale est  que les unités suivent
      le  nom, tandis  que les  sixaines le  précèdent. Par  exemple, « mes  vingt
-     chats » se traduit par {{{nyqy(néñy cé oz qi)}}}.
+     chats » se traduit par {{{nyqy(nøñy cø oz qi)}}}.
      | <c>  |   <c>    | <c>  | <c> |
-     | néñy |    cé    |  oz  | qi  |
+     | nøñy |    cø    |  oz  | qi  |
      | 3×6  | POSS.1sg | chat |  2  |
 
      # TODO autres types de numéraux
 
-     La  position des  unités  impliquent donc  que  l’article indéfini  {{{nyqy(i),}}}
-     dérivé du chiffre « un » {{{nyqy(mi)}}}, suit immédiatement le nom. Par exemple,
-     « un chat » se traduit par {{{nyqy(oz i)}}}.
+     La position des unités impliquent  donc que l’article indéfini {{{nyqy(i)}}} suit
+     immédiatement le nom. Par exemple, « un chat » se traduit par {{{nyqy(oz i)}}}.
      | <c>  |    <c>    |
      |  oz  |     i     |
      | chat | art.indef |
@@ -1497,18 +1512,18 @@
      Proto-Ñyqy,  et donc  précédant le  nom. Ainsi,  si l’on  souhaite traduire
      « ces vingt  chats à moi » (le  génitif relative est ici  pour contrecarrer
      l’impossibilité en  français d’utiliser un  démostratif et un  possessif en
-     même temps), on a donc {{{nyqy(bóc néñy cé oz qi)}}}.
+     même temps), on a donc {{{nyqy(bœc nøñy cø oz qi)}}}.
      |   <c>    | <c>  |   <c>    | <c>  | <c> |
-     |   bóc    | néñy |    cé    |  oz  | qi  |
+     |   bœc    | nøñy |    cø    |  oz  | qi  |
      | DEM.prox | 3×6  | POSS.1sg | chat |  2  |
 
      La position du démonstratif dans  la clause nominale implique également une
      position identique  pour un  article défini en  Proto-Ñyqy. Ainsi,  si l’on
      souhaite traduire  « les vingt  chats à  moi » (à  nouveau, le  génitif est
-     utilisé ici dû aux limitations du  Français), on obtient {{{nyqy(bó néñy cé oz
+     utilisé ici dû aux limitations du  Français), on obtient {{{nyqy(bœ nøñy cø oz
      qi)}}}.
      |   <c>   | <c>  |   <c>    | <c>  | <c> |
-     |   bó    | néñy |    cé    |  oz  | qi  |
+     |   bœ    | nøñy |    cø    |  oz  | qi  |
      | art.def | 3×6  | POSS.1sg | chat |  2  |
 
 **** Adjectifs
@@ -1535,16 +1550,16 @@
      valeur selon lui, voire exagérer l’adjectif.
 
      Exemple :
-     - « je trouve que ce chat est grand »
-       | bó      | oz   | goñ   |
+     - « ce chat est grand »
+       | bœ      | oz   | goñ   |
        | art.def | chat | grand |
 
-     - « ce chat est (à mon avis) très grand »
-       | bó      | goñ   | oz   |
+     - « je trouve que ce chat est (très) grand »
+       | bœ      | goñ   | oz   |
        | art.def | grand | chat |
-     Dans la phrase {{{nyqy(bóoz goñ)}}}, le locuteur indique que le chat est grand et
+     Dans la phrase {{{nyqy(bœoz goñ)}}}, le locuteur indique que le chat est grand et
      la phrase peut se traduire par « ce  chat est grand ». En revanche, dans la
-     seconde phrase, {{{nyqy(bógoñ oz)}}}, le  locuteur indique que l’indication de la
+     seconde phrase, {{{nyqy(bœgoñ oz)}}}, le  locuteur indique que l’indication de la
      taille  du chat  est  subjective, ce  qui peut  indiquer  soit une  opinion
      personnelle pouvant  traduire la  phrase par  « je trouve  que ce  chat est
      grand », ou bien il  peut s’agir d’une exagération de sa  part et la phrase
@@ -1572,8 +1587,8 @@
      trouvera donc exclusivement la particule grammaticale {{{nyqy(pom)}}} qui sert à
      marquer le génitif, précédée par une clause nominale qui définira la clause
      nominale actuelle. Par exemple, « le chat de mon voisin » peut se traduire
-     par {{{nyqy(cé wóseq pom bó oz)}}}.
-     | cé       | wóseq  | pom | bó      | oz   |
+     par {{{nyqy(cø wœseq pom bœ oz)}}}.
+     | cø       | wœseq  | pom | bœ      | oz   |
      | POSS.1sg | voisin | GEN | art.def | chat |
 
 **** Clauses relatives
@@ -1582,8 +1597,8 @@
      :END:
      Enfin, les clauses relatives arrivent à la fin des clauses nominales. Ainsi,
      si l’on souhaite dire « mon chat qui mange est beau », on obtient la traduction
-     {{{nyqy(cé oz coq syg)}}}.
-     | cé       | oz   | coq    | syg  |
+     {{{nyqy(cø oz coq syg)}}}.
+     | cø       | oz   | coq    | syg  |
      | POSS.1sg | chat | manger | beau |
 
 *** Ordre des constituants dans les clauses verbales
@@ -1643,14 +1658,14 @@
     adverbes     classés      par     subjectivité.     Voir      la     section
     [[#Aperçu_structurel-Syntaxe_clauses_nominales-Adjectifs-750d92f4]].
 
-*** Phrases adpositionelles
+*** Phrases adpositionelles                                        :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Phrases_adpositionelles-cb25b027
     :END:
     # - Is the language dominantly prepositional or post-positional? Give examples.
     # - Do many adpositions come from nouns or verbs?
 
-*** Comparatifs
+*** Comparatifs                                                    :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Comparatifs-4f95f6de
     :END:
@@ -1658,26 +1673,26 @@
     #   constructions? If  so, what is the  order of the standard,  the marker and
     #   the quality by which an item is compared to the standard?
 
-*** Questions
+*** Questions                                                      :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Questions-1418f08e
     :END:
     # - In yes/no questions, if there is a question particle, where does it occur?
     # - In information questions, where does the question word occur?
 
-*** Résumé
+*** Résumé                                                         :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Typologie_de_l’ordre_des_constituants-Résumé-54753589
     :END:
-    # - How  does this  language compare  in its  constituent orders  to universal
-    #   expectations, as represented by Greenberg  (1963), Hawkins (1983), or some
-    #   other well-known typology?
+    # - How does this language compare in its constituent orders to universal
+    #   expectations, as represented by Greenberg (1963), Hawkins (1983), or
+    #   some other well-known typology?
 
 ** Structure d’un groupe nominal
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-4a4ff5c0
    :END:
-*** Mots composés
+*** Mots composés                                                  :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Mots_composés-75aaeeb4
     :END:
@@ -1688,7 +1703,7 @@
     # - Are these processes productive (like noun-verb in English can-opener)? How
     #   common is compounding?
 
-*** Dénominalisation
+*** Dénominalisation                                               :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Dénominalisation-edce8307
     :END:
@@ -1696,13 +1711,13 @@
     #   noun?
     # - An adjective from a noun?
     # - An adverb from a noun?
-    # La  dénominalisation  en  Proto-Ñyqy  se   produit  grâce  au  mot  {{{nyqy(só)}}}
+    # La  dénominalisation  en  Proto-Ñyqy  se   produit  grâce  au  mot  {{{nyqy(sœ)}}}
     # signifiant « façon de faire ». En se suffixant à un nom, on obtient un verbe
     # dont la  signification est généralement  en relation avec le  nom d’origine.
-    # Par exemple, en  associant le terme {{{nyqy(qéy)}}} à ce  mot {{{nyqy(só)}}}, on obtient
-    # le verbe {{{nyqy(qéysó)}}} signifiant « chauffer, réchauffer, cuire ».
+    # Par exemple, en  associant le terme {{{nyqy(qøy)}}} à ce  mot {{{nyqy(sœ)}}}, on obtient
+    # le verbe {{{nyqy(qøysœ)}}} signifiant « chauffer, réchauffer, cuire ».
 
-*** Nombres
+*** Nombres                                                        :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Nombres-7914fa48
     :END:
@@ -1715,7 +1730,7 @@
     #   phrases or only some subclasses of noun phrases, such as animate?
     # - What non-singular distinctions are there?
 
-*** Cas grammatical
+*** Cas grammatical                                                :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Cas_grammatical-738042a3
     :END:
@@ -1723,9 +1738,9 @@
     # - If so, what are the cases? (The  functions of the cases will be elaborated
     #   in later sections)
 
-*** Articles, déterminants et démonstratifs
+*** Articles et démonstratifs
     :PROPERTIES:
-    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Articles,_déterminants_et_démonstratifs-4065c96e
+    :CUSTOM_ID: Structure_NP-Articles_et_démonstratifs-4065c96e
     :END:
     # - Do noun phrases have articles?
     # - If so,  are they obligatory or  optional, and under what  circumstances do
@@ -1734,8 +1749,77 @@
     # - Is there a class of classes of demonstratives as distinct from articles?
     # - How many degrees of distance are there in the system of demontsratives?
     # - Are there other distinctions beside distances?
+    En Proto-Ñyqy,  un seul  article indéfini existe :  {{{nyqy(i)}}}. Il  s’agit d’un
+    terme dérivé  du chiffre « un »  {{{nyqy(mi)}}}. Il  est enployé pour  désigner un
+    élément quelconque unique  ou collectif, et tout comme  le chiffre {{{nyqy(mi)}}},
+    il est placé après le groupe nominal qu’il qualifie.
+    - {{{nyqy(ci i)}}}
 
-*** Possesseurs
+      arbre art.indef
+
+      un arbre
+    - {{{nyqy(møci i)}}}
+
+      une forêt
+
+      un ensemble d’arbres
+
+    Cet  article  n’est  pas  obligatoire  et  est  souvent  implicite  dans  la
+    conversation. Son utilisation principale est la désambigüation, si jamais un
+    élément précis est  le thème d’une conversation et que  le locuteur souhaite
+    indiquer qu’il  mentionne un élément  plus général,  ou bien si  le locuteur
+    veut indiquer qu’il  n’y a qu’un élément mentionné et  non plusieurs dans un
+    contexte  où  le nombre  précis  n’importe  pas.  Il  est alors  utilisé  en
+    opposition au pluriel (où le terme {{{nyqy(møg)}}} sera utilisé à la place), alors
+    que {{{nyqy(mi)}}}  sera utilisé dans un  contexte où des nombres  seront utilisés
+    plutôt que le pluriel.
+    - {{{nyqy(ñy ci gé)}}} ? {{{nyqy(wøqo ci mi)}}}
+
+      dix arbres ? non arbre un
+
+      Il y a dix arbres ? Non, il n’y en a qu’un seul
+    - {{{nyqy(møg ci)}}} ? {{{nyqy(wœqœ ci i)}}}
+
+      plusieurs arbre ? non arbre art.indef
+
+      Il y a plusieurs arbres ? Non, il n’y en a qu’un seul
+    - {{{nyqy(møg ci)}}} ? *{{{nyqy(wœqœ i)}}}
+
+      plusieurs arbre ? non art.indef
+
+    {{{nyqy(i)}}}  ne peut  être utilisé  seul dans  une phrase,  il s’agit  donc d’un
+    morphème lié.
+
+    L’article définit {{{nyqy(bœ)}}} quant à lui se positionne avant le groupe nominal
+    qu’il défini.  Il est également  insensible au  nombre du groupe  nominal et
+    peut être utilisé aussi bien pour du singulier que du pluriel.
+    - {{{nyqy(bœ ci)}}}
+
+      art.dem arbre
+
+      L’arbre
+    - {{{nyqy(bœ nøñy ci)}}}
+
+      art.dem 3x6 arbre
+
+      Les dix-huit arbres
+    - {{{nyqy(cø eco ñocm coqop)}}} ? {{{nyqy(ee bœ)}}}
+
+      POSS.1sg grain quelqu’un mange-PST ? oui art.def
+
+      Est-ce que quelqu’un a mangé mon grain ? Oui, lui
+
+    L’article défini {{{nyqy(bœ)}}} est dérivé  de l’article démonstratif de proximité
+    {{{nyqy(bœc)}}}.  Il  se  positionne  également  avant  le  groupe  nominal  qu’il
+    détermine,  voir   [[#Pronoms_et_clitiques-Pronoms_démonstratifs-84b54047]].  On
+    peut  remarquer avec  le troisième  exemple que  {{{nyqy(bœ)}}} peut  être utilisé
+    comme un  mot indépendant  pouvant désigner quelque  chose et  le remplaçant
+    dans la  phrase, ici signifiant  « lui / elle /  cette personne /  … ». Cela
+    implique  cependant   que  l’élément  désigné   n’est  pas  étranger   à  la
+    conversation ;  dans le  cas contraire  un article  démonstratif aurait  été
+    utilisé, tel que {{{nyqy(bœc)}}}.
+
+*** Possesseurs                                                    :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Possesseurs-4520343a
     :END:
@@ -1747,7 +1831,7 @@
     # - When the possessor is a full noun, where does it usually come with respect
     #   to the possessed noun?
 
-*** Classes (incluant le genre)
+*** Classes (incluant le genre)                                    :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Classes_(incluant_le_genre)-d50dedac
     :END:
@@ -1758,7 +1842,7 @@
     # - Do the classifiers occur with numerals? Adjectives? Verbs?
     # - What is their function in these contexts?
 
-*** Diminution/Augmentation
+*** Diminution/Augmentation                                        :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Diminution-Augmentation-a5545bab
     :END:
@@ -1775,7 +1859,7 @@
     #   - Where in the noun phrase is this  operation likely to be located? Can it
     #     occur in more than one place?
 
-** Prédicats nominaux et constructions liées
+** Prédicats nominaux et constructions liées                       :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Prédicats_nominaux_et_constructions_liées-265064bf
    :END:
@@ -1817,27 +1901,27 @@
     :END:
     # - How are possessive clauses formed?
 
-** Structure d’un groupe verbal
+** Structure d’un groupe verbal                                    :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_verbal-00ae33bb
    :END:
 
-** Clauses intransitives
+** Clauses intransitives                                           :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Clauses_intransitives-a9434f93
    :END:
 
-** Clauses transitives
+** Clauses transitives                                             :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Clauses_transitives-05e140b5
    :END:
 
-** Clauses ditransitives
+** Clauses ditransitives                                           :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Clauses_ditransitives-9861c422
    :END:
 
-** Clauses de type dépendant
+** Clauses de type dépendant                                       :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Aperçu_structurel-Clauses_de_type_dépendant-a1bca03c
    :END:
@@ -1925,7 +2009,7 @@
    absolutif restera en  permanence en contact direct avec le  verbe, tandis que
    l’élément  ergatif  les précédera,  et  pourra  même  être séparé  du  couple
    absolutif-verbe par des éléments datifs. Exemple :
-   - {{{nyqy(qy qój)}}}
+   - {{{nyqy(qy qœj)}}}
 
      1sg(ABS) dormir
 
@@ -1940,13 +2024,13 @@
    clauses. Cela signifie  que l’élément persistant entre  les phrases lorsqu’il
    subit  une  élision  est  l’élément  correspondant  au  cas  nominatif,  soit
    l’argument S ou A du verbe. Exemple :
-   - {{{nyqy(pim qy coq nócpi qój)}}}
+   - {{{nyqy(pim qy coq nœcpi qœj)}}}
 
      pomme(ABS) 1sg(ERG) manger ensuite dormir
 
      Je mange une pomme, puis (je) dors.
 
-** Constructions liées à la voix et à la valence
+** Constructions liées à la voix et à la valence                   :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-2746e4c5
    :END:
@@ -2072,7 +2156,7 @@
      #   distinct from antipassives)?
      #   References: Sapir (1911), Green (1981), Mithun (1984), Sadock (1986).
 
-** Nominalisation
+** Nominalisation                                                  :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Système_fonctionnel-Nominalisation-87de9895
    :END:
@@ -2083,9 +2167,9 @@
     # Le processus de nominalisation des  verbes repose principalement, à l’instar
     # de la  grammaire Proto-Ñyqy dans  sa globalité, sur une  association desdits
     # verbes avec  un mot ayant ici  un rôle de particule  grammaticale. Ainsi, un
-    # verbe  associé à  {{{nyqy(só)}}}  (signifiant « manière  de  faire ») en  position
+    # verbe  associé à  {{{nyqy(sœ)}}}  (signifiant « manière  de  faire ») en  position
     # affixe permet d’obtenir d’un verbe un nom utilisable comme tel. Par exemple,
-    # le  verbe  {{{nyqy(meqm)}}} (« parler »)  s’associe  en  {{{nyqy(meqm só)}}}  signifiant
+    # le  verbe  {{{nyqy(meqm)}}} (« parler »)  s’associe  en  {{{nyqy(meqm sœ)}}}  signifiant
     # « l’acte de parler, prise de parole, annonce ».
 
 *** Nominalisation de participants
@@ -2131,7 +2215,7 @@
      :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-Nominalisation_de_façon_de_faire-6d9c19fc
      :END:
 
-** Composition (y compris l’incorporation)
+** Composition (y compris l’incorporation)                         :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Système_fonctionnel-Composition_(y_compris_l’incorporation)-cbcedd47
    :END:
@@ -2151,7 +2235,7 @@
    #       - progressif {{{nyqy(mún)}}}
    #       - non-progressif /Ø/
    #   - irréel
-   #     - souhait (Optatif) {{{nyqy(oqé)}}}
+   #     - souhait (Optatif) {{{nyqy(oqø)}}}
    #     - non-souhait (Subjonctif) {{{nyqy(ug)}}}
    #       - passé
    #         - progressif
@@ -2172,15 +2256,15 @@
    | ug   |        | op    | PST.SUBJ      |
    | ug   | mún    |       | SUBJ.PROG     |
    | ug   | mún    | op    | PST.SUBJ.PROG |
-   # - pim i bó mygú coq / Le singe mange une pomme
-   # - pim i bó mygú coqop / Le singe mangeait une pomme
-   # - pim i bó mygú coqmún / Le singe est en train de manger une pomme
-   # - pim i bó mygú coqmúnop / Le singe était en train de manger une pomme
-   # - pim i bó mygú coqoqé / Le singe souhaite manger une pomme
-   # - pim i bó mygú coqug / Le singe mangerait une pomme
-   # - pim i bó mygú coqugop / Le singe aurait mangé une pomme
-   # - pim i bó mygú coqugmún / Le singe serait en train de manger une pomme
-   # - pim i bó mygú coqugmúnop / Le singe aurait été en train de manger une pomme
+   # - pim i bœ mygú coq / Le singe mange une pomme
+   # - pim i bœ mygú coqop / Le singe mangeait une pomme
+   # - pim i bœ mygú coqmún / Le singe est en train de manger une pomme
+   # - pim i bœ mygú coqmúnop / Le singe était en train de manger une pomme
+   # - pim i bœ mygú coqoqé / Le singe souhaite manger une pomme
+   # - pim i bœ mygú coqug / Le singe mangerait une pomme
+   # - pim i bœ mygú coqugop / Le singe aurait mangé une pomme
+   # - pim i bœ mygú coqugmún / Le singe serait en train de manger une pomme
+   # - pim i bœ mygú coqugmúnop / Le singe aurait été en train de manger une pomme
    # OSV-Mode-Aspect-Temps-Neg-Quest
    # Compléments: temps, manière, lieu
    Le Proto-Ñyqy est une langue disposant  de relativement peu de modes, aspects
@@ -2205,7 +2289,7 @@
     À contrario,  le non-passé inclus  ce que à  quoi on se  réfère généralement
     comme étant le passé proche (il y a  donc moins d’un jour), le présent et le
     futur. Ainsi, si un événement est à venir ou est en train de se produire, on
-    s’y référera au non-passé. Par exemple, la phrase {{{nyqy(bómygú pimi coq)}}} peut
+    s’y référera au non-passé. Par exemple, la phrase {{{nyqy(bœmygú pimi coq)}}} peut
     tout aussi bien signifier « le singe  mange une pomme » que « le singe vient
     de manger une pomme » ou « le singe mangera une pomme ». Pour donner plus de
     précision temporelle, des indices pourront être donnés par le locuteur.
@@ -2229,7 +2313,7 @@
       1sg marcher
 
       Je marche
-    - {{{nyqy(nejqóim qy uñ)}}}
+    - {{{nyqy(nejqœim qy uñ)}}}
 
       lendemain-DAT 1sg marcher
 
@@ -2276,7 +2360,7 @@
     | progressif | {{{nyqy(mún)}}} |
 
     Exemples :
-    - {{{nyqy(qy uñmúnop ñyim bómygú zúmuucop)}}}
+    - {{{nyqy(qy uñmúnop ñyim bœmygú zúmuucop)}}}
 
       1sg marcher-PROG-PST 1sg-DAT art.def singe voir-PFT-PST
 
@@ -2291,7 +2375,7 @@
     # - What are the modes?
     # - Is the case-marking pattern influenced at all by TAM?
     Le mode dans le Proto-Ñyqy est marqué  séparément du temps et de l’aspect de
-    par ses auxiliaires dédiés {{{nyqy(oqé)}}} et {{{nyqy(ug)}}}.
+    par ses auxiliaires dédiés {{{nyqy(oqø)}}} et {{{nyqy(ug)}}}.
 
     #+CAPTION: Liste des marqueurs de mode en Proto-Ñyqy
     | /          |     <     |
@@ -2300,7 +2384,7 @@
     |------------+-----------|
     | Indicatif  |     Ø     |
     | Subjonctif | {{{nyqy(ug)}}}  |
-    | Optatif    | {{{nyqy(oqé)}}} |
+    | Optatif    | {{{nyqy(oqø)}}} |
 
     Le premier est  un mode optatif, permettant d’exprimer un  souhait, un désir
     de la part de locuteur. Il est  en revanche impossible pour les locuteurs du
@@ -2327,7 +2411,7 @@
     événement réel  dont on  ne doute pas  ou peu de  sa véracité,  on utilisera
     l’indicatif.
 
-*** Lieux/direction
+*** Lieux/direction                                                :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Lieux-direction-e6bdf09c
     :END:
@@ -2335,7 +2419,7 @@
     #   functors  that  specify  the  spatial  orientation  or  grounding  of  the
     #   situation?
 
-*** Référence participante
+*** Référence participante                                         :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Référence_participante-c6a093d5
     :END:
@@ -2343,14 +2427,14 @@
     #   speech act participants on the verb?
     # - Provide charts of the various paradigms.
 
-*** Évidentialité, validation et mirativité
+*** Évidentialité, validation et mirativité                        :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Évidentialité,_validation_et_mirativité-eb31c3ca
     :END:
     # - Are    there   any    grammaticalized    indicators   of    evidentiality,
     #   validationality, or mirativity?
 
-*** Divers
+*** Divers                                                         :noexport:
     :PROPERTIES:
     :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Divers-cecdf4de
     :END:
@@ -2359,7 +2443,7 @@
     # - For any such miscellaneous operations, argue  for why you have not treated
     #   them as TAM or location/direction marking.
 
-** Structures marquées pragmatiquement
+** Structures marquées pragmatiquement                             :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-12b54baf
    :END:
@@ -2424,7 +2508,7 @@
     :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Motifs_d’intonation_contrastifs_et_emphatiques-e025b201
     :END:
 
-** Combinaison de clauses
+** Combinaison de clauses                                          :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-8fbe8cae
    :END:
@@ -2512,7 +2596,7 @@
     #   - Disjunction (a or b)?
     #   - Exclusion (a and not b)?
 
-** Utilisation de la langue
+** Utilisation de la langue                                        :noexport:
    :PROPERTIES:
    :CUSTOM_ID: Système_fonctionnel-Utilisation_de_la_langue-dc6b8562
    :END:
@@ -2694,7 +2778,7 @@
      #   jokes, prayers,  metaphorical expressions,  or other  culturally relevent
      #   discourse samples.
 
-* Annexes
+* Annexes                                                          :noexport:
   :PROPERTIES:
   :CUSTOM_ID: Annexes-455fb685
   :END:
@@ -2719,15 +2803,7 @@
      1. (n) morsure
      2. (vi) mordre
      3. (vt) attaquer (animal)
-   - {{{nyqy(bé)}}} :: {{{def}}}
-     1. (pron) son, sa, ses, pronom possessif inclusif de la troisième personne
-   - {{{nyqy(béwoñ)}}} :: {{{defnl}}} Voir /bé/ et /woñ/
-     1. (n) quelque chose de puant, de pourris
-     2. (n) puanteur, pourriture
-     3. (vi) puer, pourrir
-     4. (vi) se décomposer
-     5. (vt) corrompre
-   - {{{nyqy(bijéñ)}}} :: {{{defnl}}} Voir /bomij/ et /wéñ/
+   - {{{nyqy(bijøñ)}}} :: {{{defnl}}} Voir /bomij/ et /wéñ/
      1. (n) nuit, partie sombre du jour
    - {{{nyqy(bin)}}} :: {{{def}}}
      1. (n) quelque chose de mauvais, sale
@@ -2736,17 +2812,25 @@
      4. (vt) salir
    - {{{nyqy(bo)}}} :: {{{def}}}
      1. (adv) et. Associe deux phrases nominales entre elles.
-   - {{{nyqy(bó)}}} :: {{{defnl}}} Voir /bóc/
+   - {{{nyqy(bø)}}} :: {{{def}}}
+     1. (pron) son, sa, ses, pronom possessif inclusif de la troisième personne
+   - {{{nyqy(bøwoñ)}}} :: {{{defnl}}} Voir /bø/ et /woñ/
+     1. (n) quelque chose de puant, de pourris
+     2. (n) puanteur, pourriture
+     3. (vi) puer, pourrir
+     4. (vi) se décomposer
+     5. (vt) corrompre
+   - {{{nyqy(bœ)}}} :: {{{defnl}}} Voir /bœc/
      1. (art.def) le, la, les, article défini
-   - {{{nyqy(bóc)}}} :: {{{def}}}
+   - {{{nyqy(bœc)}}} :: {{{def}}}
      1. (pron.dem) ceci, ça, démonstratif de proximité avec le locuteur
-   - {{{nyqy(bómij)}}} :: {{{def}}}
+   - {{{nyqy(bœmij)}}} :: {{{def}}}
      1. (n) Lune, {{{nyqy(mijoñ)}}} ou {{{nyqy(misij)}}}
-   - {{{nyqy(bónusq)}}} :: {{{def}}}
+   - {{{nyqy(bœnusq)}}} :: {{{def}}}
      1. (n) village
-   - {{{nyqy(bópéñ)}}} :: {{{defnl}}} Voir /bópo/ et /wéñ/
+   - {{{nyqy(bœpøñ)}}} :: {{{defnl}}} Voir /bœpo/ et /wéñ/
      1. (n) journée, partie ensoleillée du jour
-   - {{{nyqy(bópo)}}} :: {{{defnl}}} Voir /bó/ et /po/
+   - {{{nyqy(bœpo)}}} :: {{{defnl}}} Voir /bœ/ et /po/
      1. (n) le Soleil
      2. (vi) briller intensément
    - {{{nyqy(bu)}}} :: {{{def}}}
@@ -2758,8 +2842,6 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-C-29dc766b
    :END:
-   - {{{nyqy(cé)}}} :: {{{def}}}
-     1. (pron) mon, ma, mes, possesseur inclusif de la première personne
    - {{{nyqy(ci)}}} :: {{{def}}}
      1. (n) arbre
    - {{{nyqy(cim)}}} :: {{{defnl}}} Voir /ci/
@@ -2777,22 +2859,24 @@
    - {{{nyqy(cosu)}}} :: {{{def}}}
      1. (n) entièreté
      2. (adv) tout, entièrement
-   - {{{nyqy(cójm)}}} :: {{{def}}}
+   - {{{nyqy(cø)}}} :: {{{def}}}
+     1. (pron) mon, ma, mes, possesseur inclusif de la première personne
+   - {{{nyqy(cœj)}}} :: {{{def}}}
      1. (nbr) marqueur de 100000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(cós)}}} :: {{{def}}}
+   - {{{nyqy(cœs)}}} :: {{{def}}}
      1. (n) oreille
      2. (n) ouïe
      3. (vi) entendre
      4. (vt) écouter. L’élément écouté est marqué par le datif.
-   - {{{nyqy(cóq)}}} :: {{{def}}}
+   - {{{nyqy(cœq)}}} :: {{{def}}}
      1. (vt) couper
      2. (vt) trancher
      3. (vi) prendre parti
    - {{{nyqy(cu)}}} :: {{{def}}}
      1. (pron) mon, ma, mes, pronom possessif exclusif de la première personne
-   - {{{nyqy(cuwéñ)}}} :: {{{defnl}}} Voir /cosu/ et /wéñ/
+   - {{{nyqy(cuwøñ)}}} :: {{{defnl}}} Voir /cosu/ et /wéñ/
      1. (adv) tout le temps
-   - {{{nyqy(cúqé)}}} :: {{{def}}}
+   - {{{nyqy(cúqø)}}} :: {{{def}}}
      1. (n) fourmi
      2. (n) insecte ou tout être y ressemblant, comme des mille-pattes.
 
@@ -2803,6 +2887,8 @@
    - {{{nyqy(eco)}}} :: {{{def}}}
      1. (n) grain commmestible, riz, blé
      2. (vt) planter, cultiver
+   - {{{nyqy(ee)}}} :: {{{def}}}
+     1. (adv) oui
    - {{{nyqy(es)}}} :: {{{def}}}
      1. (n) sècheresse
      2. (n) quelque chose de sec, d’aride
@@ -2810,26 +2896,6 @@
      1. (n) ouvrage, travail
      2. (vi) travailler
      3. (vt) créer, ouvrager, construire
-
-** É
-   :PROPERTIES:
-   :CUSTOM_ID: Dictionnaire-É-00657cfe
-   :END:
-   - {{{nyqy(éc)}}} :: {{{def}}}
-     1. (gp) particule de négation
-   - {{{nyqy(ég)}}} :: {{{def}}}
-     1. (vt) aimer, apprécier
-   - {{{nyqy(éméz)}}} :: {{{def}}}
-     1. (n) mère
-   - {{{nyqy(émpé)}}} :: {{{defnl}}} Voir /éméz/ et /épéq/
-     1. (n) maternité, paternité
-   - {{{nyqy(émpécoj)}}} :: {{{defnl}}} Voir /émpé/ et /coj/
-     1. (n) comportement parental, maternel, paternel
-     2. (n) comportement protecteur
-   - {{{nyqy(épéq)}}} :: {{{def}}}
-     1. (n) père, papa
-   - {{{nyqy(éqcó)}}} :: {{{def}}}
-     1. (vt) porter quelque chose (avec ses mains)
 
 ** G
    :PROPERTIES:
@@ -2843,15 +2909,15 @@
      1. (n) aggression
      2. (vt) attaquer, agresser
      3. (vi) attaquer
-   - {{{nyqy(gé)}}} :: {{{def}}}
-     1. (nbr) quatre
    - {{{nyqy(goñ)}}} :: {{{def}}}
      1. (n) quelque chose de grand, gros, large
      2. (vi) grossir
      3. (vt) agrandir
    - {{{nyqy(gosin)}}} :: {{{defnl}}} Voir /goñ/ et /sin/
      1. roc, rocher
-   - {{{nyqy(gó)}}} :: {{{def}}}
+   - {{{nyqy(gø)}}} :: {{{def}}}
+     1. (nbr) quatre
+   - {{{nyqy(gœ)}}} :: {{{def}}}
      1. (vt) boire
      2. (vi) s’hydrater
    - {{{nyqy(gúgús)}}} :: {{{def}}}
@@ -2882,26 +2948,26 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-J-88f57f6a
    :END:
-   - {{{nyqy(jé)}}} :: {{{def}}}
+   - {{{nyqy(jø)}}} :: {{{def}}}
      1. (pron) ton, ta, tes, pronom possessif inclusif de la deuxième personne
-   - {{{nyqy(jéq)}}} :: {{{def}}}
-     1. (n) petit déplacement (induit par un tiers, par quelqu’un qui a poussé
-        quelque chose)
-     2. (vt) pousser
-     3. (vi) se faire pousser
    - {{{nyqy(jigo)}}} :: {{{def}}}
      1. (n) sable
    - {{{nyqy(jizq)}}} :: {{{def}}}
      1. (n) plante
-   - {{{nyqy(josgé)}}} :: {{{def}}}
+   - {{{nyqy(josgø)}}} :: {{{def}}}
      1. (n) os
      2. (n) amulette
-   - {{{nyqy(jó)}}} :: {{{def}}}
+   - {{{nyqy(jøq)}}} :: {{{def}}}
+     1. (n) petit déplacement (induit par un tiers, par quelqu’un qui a poussé
+        quelque chose)
+     2. (vt) pousser
+     3. (vi) se faire pousser
+   - {{{nyqy(jœ)}}} :: {{{def}}}
      1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs,
         l’élément n’est pas visible.
-   - {{{nyqy(jójpyg)}}} :: {{{def}}}
+   - {{{nyqy(jœjpyg)}}} :: {{{def}}}
      1. (n) plume
-   - {{{nyqy(jós)}}} :: {{{def}}}
+   - {{{nyqy(jœs)}}} :: {{{def}}}
      1. (n) étoile, planète
      2. (vi) briller doucement
    - {{{nyqy(ju)}}} :: {{{def}}}
@@ -2931,7 +2997,7 @@
      2. (n) sol, lieu
      3. (vi) travailler (agricole)
      4. (vt) labourer
-   - {{{nyqy(meém)}}} :: {{{def}}}
+   - {{{nyqy(meøm)}}} :: {{{def}}}
      1. (n) grand-mère (affectueux)
    - {{{nyqy(meq)}}} :: {{{def}}}
      1. (n) parole, mot
@@ -2939,11 +3005,9 @@
      1. (n) prise de parole, acte de parole, discours, oratoire
      2. (vi) parler, expliquer, échanger oralement
      3. (vt) enseigner
-   - {{{nyqy(mesyq)}}} :: {{{defnl}}} Voir /meqm/ et /syjéq/
+   - {{{nyqy(mesyq)}}} :: {{{defnl}}} Voir /meqm/ et /syjøq/
      1. (n) chuchotement, parole basse
      2. (vi) chuchoter, litt. souffler une parole
-   - {{{nyqy(még)}}} :: {{{def}}}
-     1. (adv) beaucoup, très
    - {{{nyqy(mi)}}} :: {{{def}}}
      1. (nbr) un
    - {{{nyqy(mij)}}} :: {{{def}}}
@@ -2955,19 +3019,25 @@
      1. (n) Lune majeur, grande lune, litt. « grande cendrée »
    - {{{nyqy(misij)}}} :: {{{defnl}}} Voir /si/ et /mij/
      1. (n) Lune mineure, petite lune, litt. « petite cendrée »
-   - {{{nyqy(miqiné)}}} :: {{{defnl}}} Voir /mi/, /qi/, /né/
+   - {{{nyqy(miqinø)}}} :: {{{defnl}}} Voir /mi/, /qi/, /nø/
      1. (vi) faire les comptes
      2. (vt) compter
-   - {{{nyqy(mó)}}} :: {{{def}}}
+   - {{{nyqy(møci)}}} :: {{{defnl}}} Voir /ci/, /møg/
+     1. (n) forêt, partie de forêt, zone hétérogène d’arbres
+     2. (n) ensemble d’arbres
+   - {{{nyqy(møg)}}} :: {{{def}}}
+     1. (n) nombre important, concept de pluriel
+     2. (adv) beaucoup, très
+   - {{{nyqy(mœ)}}} :: {{{def}}}
      1. (nbr) marqueur de 100_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-   - {{{nyqy(mójpi)}}} :: {{{def}}}
+   - {{{nyqy(mœjpi)}}} :: {{{def}}}
      1. (n) douleur
      2. (vi) faire mal, provoquer de la douleur
      3. (vt) blesser quelqu’un, quelque chose
-   - {{{nyqy(mójmicp)}}} :: {{{defnl}}} Voir /mójpi/ et /micp/
+   - {{{nyqy(mœjmicp)}}} :: {{{defnl}}} Voir /mœjpi/ et /micp/
      1. (n) torticoli, mal de nuque
      2. (vi) avoir mal à la nuque, avoir un torticoli
-   - {{{nyqy(móñ)}}} :: {{{def}}}
+   - {{{nyqy(mœñ)}}} :: {{{def}}}
      1. (n) sud
    - {{{nyqy(mújyjq)}}} :: {{{def}}}
      1. (n) outside
@@ -2993,23 +3063,23 @@
    - {{{nyqy(ne)}}} :: {{{def}}}
      1. (nbr) zéro, rien
      2. (adv) non, pas, négation
-   - {{{nyqy(nejqó)}}} :: {{{def}}}
+   - {{{nyqy(nejqœ)}}} :: {{{def}}}
      1. (n) lendemain
    - {{{nyqy(neqm)}}} :: {{{defnl}}} Voir /ne/ et /meqm/
      1. (n) bébé, enfant en bas âge, ne sachant pas encore parler
    - {{{nyqy(nezp)}}} :: {{{defnl}}} Voir /ne/ et /ezp/
      1. (n) enfant n’étant pas encore en âge de travailler (jusqu’à environ 10
         ans)
-   - {{{nyqy(né)}}} :: {{{def}}}
-     1. (nbr) trois
    - {{{nyqy(noc)}}} :: {{{def}}}
      1. (n) vieillesse, grand âge
      2. (n) quelque chose de vieux, d’ancien, de grand âge
-   - {{{nyqy(nó)}}} :: {{{def}}}
+   - {{{nyqy(nø)}}} :: {{{def}}}
+     1. (nbr) trois
+   - {{{nyqy(nœ)}}} :: {{{def}}}
      1. (n) poitrine, seins (attribut féminin)
      2. (n) maternité
      3. (n) fertilité
-   - {{{nyqy(nócpi)}}} :: {{{def}}}
+   - {{{nyqy(nœcpi)}}} :: {{{def}}}
      1. ensuite, puis, à côté, depuis
    - {{{nyqy(núc)}}} :: {{{def}}}
      1. (n) jeunesse
@@ -3028,12 +3098,12 @@
      2. (vt)  accepter. La  chose acceptée  est passée  au verbe  comme argument
         ergatif, tandis que  l’argument acceptant est passé  en tant qu’argument
         datif. Forme d’anti-passif.
-   - {{{nyqy(ñójb)}}} :: {{{def}}}
+   - {{{nyqy(ñœjb)}}} :: {{{def}}}
      1. (n) oiseau
    - {{{nyqy(ñucm)}}} :: {{{def}}}
      1. (n) chute
      2. (vi) tomber, chuter
-   - {{{nyqy(ñuné)}}} :: {{{defnl}}} Voir aussi /wéz/
+   - {{{nyqy(ñunø)}}} :: {{{defnl}}} Voir aussi /wéz/
      1. (n) dieu terrestre, divinité, être supérieur
    - {{{nyqy(ñuñ)}}} :: {{{def}}}
      1. (nbr) marqueur de 1000000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
@@ -3050,20 +3120,40 @@
    - {{{nyqy(oz)}}} :: {{{def}}}
      1. (n) chat
 
-** Ó
+** Ø
    :PROPERTIES:
-   :CUSTOM_ID: Dictionnaire-Ó-0c780f53
+   :CUSTOM_ID: Dictionnaire-8fcb6e1e
    :END:
-   - {{{nyqy(ócqi)}}} :: {{{def}}}
-     1. (vt) porter. Voir aussi /éqcó/
-   - {{{nyqy(ón)}}} :: {{{def}}}
+   - {{{nyqy(øc)}}} :: {{{def}}}
+     1. (gp) particule de négation
+   - {{{nyqy(øg)}}} :: {{{def}}}
+     1. (vt) aimer, apprécier
+   - {{{nyqy(ømøz)}}} :: {{{def}}}
+     1. (n) mère
+   - {{{nyqy(ømpø)}}} :: {{{defnl}}} Voir /éméz/ et /épéq/
+     1. (n) maternité, paternité
+   - {{{nyqy(ømpøcoj)}}} :: {{{defnl}}} Voir /émpé/ et /coj/
+     1. (n) comportement parental, maternel, paternel
+     2. (n) comportement protecteur
+   - {{{nyqy(øpøq)}}} :: {{{def}}}
+     1. (n) père, papa
+   - {{{nyqy(øqcœ)}}} :: {{{def}}}
+     1. (vt) porter quelque chose (avec ses mains)
+
+** Œ
+   :PROPERTIES:
+   :CUSTOM_ID: Dictionnaire-Œ-0c780f53
+   :END:
+   - {{{nyqy(œcqi)}}} :: {{{def}}}
+     1. (vt) porter. Voir aussi /éqcœ/
+   - {{{nyqy(œn)}}} :: {{{def}}}
      1. (gp) marqueur du locatif
 
 ** P
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-P-2b7ab301
    :END:
-   - {{{nyqy(péj)}}} :: {{{def}}}
+   - {{{nyqy(pøj)}}} :: {{{def}}}
      1. (n) poisson d’eau douce
    - {{{nyqy(pi)}}} :: {{{def}}}
      1. (n) chien
@@ -3077,9 +3167,7 @@
    - {{{nyqy(pomij)}}} :: {{{defnl}}} Voir /po/ et /mij/
      1. (n) jour, journée, un jour et une nuit (durée de temps, litt. d’or et
         d’argent)
-   - {{{nyqy(púmój)}}} :: {{{def}}}
-     1. (n) poisson d’eau de mer
-   - {{{nyqy(póweq)}}} :: {{{def}}}
+   - {{{nyqy(pœweq)}}} :: {{{def}}}
      1. (n) griffe
      2. (n) pendentif, bijou
    - {{{nyqy(pu)}}} :: {{{def}}}
@@ -3087,9 +3175,11 @@
    - {{{nyqy(pus)}}} :: {{{def}}}
      1. (n) quelque chose de plat, platitude
      2. (vt) applatir, applanir
-   - {{{nyqy(puqó)}}} :: {{{defnl}}} Voir /pus/ et /qó/
+   - {{{nyqy(puqœ)}}} :: {{{defnl}}} Voir /pus/ et /qœ/
      1. (n) mer, océan
      2. (n) étendue d’eau salée
+   - {{{nyqy(púmœj)}}} :: {{{def}}}
+     1. (n) poisson d’eau de mer
 
 ** Q
    :PROPERTIES:
@@ -3097,39 +3187,42 @@
    :END:
    - {{{nyqy(qe)}}} :: {{{def}}}
      1. (n) œil
-     2. (vt) voir, regarder
+     2. (vi) voir. Le participant qui voit est datif, tandis que le
+        participant vu est absolutif.
+     3. (vt) regarder. Le participant qui regarde est ergatif, tandis que le
+        participant qui est regardé est absolutif.
    - {{{nyqy(qecge)}}} :: {{{def}}}
      1. (vi) partir, quitter
-   - {{{nyqy(qé)}}} :: {{{def}}}
-     1. (n) grandeur, hauteur
-     2. (n) quelque chose de grand, de haut
-     3. (vi) grandir
-     4. (vt) soulever, élever quelque chose
-   - {{{nyqy(qébsin)}}} :: {{{defnl}}} Voir /qéeb/ et /sin/
-     1. (n) montagne
-     2. (vi) trôner, dominer
-   - {{{nyqy(qéeb)}}} :: {{{defnl}}} Voir /qé/ et /meb/
-     1. (n) colline
-   - {{{nyqy(qéy)}}} :: {{{def}}}
-     1. (n) chaleur
-     2. (vi) se réchauffer
-     3. (vt) chauffer, réchauffer, cuire
    - {{{nyqy(qi)}}} :: {{{def}}}
      1. (nbr) deux
    - {{{nyqy(qomy)}}} :: {{{def}}}
      1. (n) solitude, seul
      2. (n) individualité, individuel
-   - {{{nyqy(qó)}}} :: {{{def}}}
+   - {{{nyqy(qø)}}} :: {{{def}}}
+     1. (n) grandeur, hauteur
+     2. (n) quelque chose de grand, de haut
+     3. (vi) grandir
+     4. (vt) soulever, élever quelque chose
+   - {{{nyqy(qøbsin)}}} :: {{{defnl}}} Voir /qéeb/ et /sin/
+     1. (n) montagne
+     2. (vi) trôner, dominer
+   - {{{nyqy(qøeb)}}} :: {{{defnl}}} Voir /qé/ et /meb/
+     1. (n) colline
+   - {{{nyqy(qøy)}}} :: {{{def}}}
+     1. (n) chaleur
+     2. (vi) se réchauffer
+     3. (vt) chauffer, réchauffer, cuire
+   - {{{nyqy(qœ)}}} :: {{{def}}}
      1. (n) eau salée
-   - {{{nyqy(qój)}}} :: {{{def}}}
+   - {{{nyqy(qœj)}}} :: {{{def}}}
      1. (n) sommeil
      2. (vi) dormir
-   - {{{nyqy(qósé)}}} :: {{{def}}}
+   - {{{nyqy(qœsø)}}} :: {{{def}}}
      1. (n) heure, section de journée.  Dans la culture du peuple proto-Ñyqy, la
         journée était divisée  entre le jour et la nuit,  chacun étant divisé en
         cinq heures. Dû à leur position proche de l’équateur, on peut en déduire
         qu’une heure dans leur culture équivaut à 2h24min environ.
-   - {{{nyqy(qóñ)}}} :: {{{def}}}
+   - {{{nyqy(qœñ)}}} :: {{{def}}}
      1. (n) vache, buffle, bétail
    - {{{nyqy(qujm)}}} :: {{{def}}}
      1. (n) position
@@ -3156,15 +3249,6 @@
      3. (n) dureté, quelque chose de dur
      4. (vi) être ferme
      5. (vt) imposer qqch
-   - {{{nyqy(séc)}}} :: {{{defnl}}} Voir /sy/ et /éc/
-     1. (n) mort
-     2. (vi) mourir
-   - {{{nyqy(sége)}}} :: {{{def}}}
-     1. (n) goût agréable
-     2. (n) quelque chose de délicieux
-   - {{{nyqy(séwe)}}} :: {{{def}}}
-     1. (n) porte, voile de tissu utilisé à l’entrée des maisons
-     2. (n) tissu
    - {{{nyqy(si)}}} :: {{{def}}}
      1. (n) quelque chose de petit, de petite taille
    - {{{nyqy(sisp)}}} :: {{{def}}}
@@ -3175,7 +3259,16 @@
      3. (n) quelque chose de brillant, émanant de la chaleur
      4. (vi) brûler
      5. (vi) illuminer, allumer, briller (chaud)
-   - {{{nyqy(sóñ)}}} :: {{{def}}}
+   - {{{nyqy(søc)}}} :: {{{defnl}}} Voir /sy/ et /éc/
+     1. (n) mort
+     2. (vi) mourir
+   - {{{nyqy(søge)}}} :: {{{def}}}
+     1. (n) goût agréable
+     2. (n) quelque chose de délicieux
+   - {{{nyqy(søwe)}}} :: {{{def}}}
+     1. (n) porte, voile de tissu utilisé à l’entrée des maisons
+     2. (n) tissu
+   - {{{nyqy(sœñ)}}} :: {{{def}}}
      1. (n) nuage
      2. (n) ciel couvert
    - {{{nyqy(sun)}}} :: {{{def}}}
@@ -3192,18 +3285,18 @@
      4. (vi) vivre, respirer
    - {{{nyqy(syoñ)}}} :: {{{defnl}}} Voir /oñ/ et /sy/
      1. (n) odeur, litt. « air du nez »
-   - {{{nyqy(syjéq)}}} :: {{{defnl}}} Voir /sy/ et /jéq/
+   - {{{nyqy(syjøq)}}} :: {{{defnl}}} Voir /sy/ et /jøq/
      1. (n) souffle
      2. (n) vent
      3. (n) brise, vent frais
      4. (vt) souffler (vent, respiration), expirer, litt. « pousser de l’air ».
    - {{{nyqy(syg)}}} :: {{{def}}}
      1. (n) beauté
-   - {{{nyqy(sywéqun)}}} :: {{{defnl}}} Voir /sywéz/ et /qun/
+   - {{{nyqy(sywøqun)}}} :: {{{defnl}}} Voir /sywéz/ et /qun/
      1. (n) Chaman. Aspirant aux esprits, aux âmes, aux dieux.
-   - {{{nyqy(sywéz)}}} :: {{{defnl}}} Voir /sy/ et /wéz/
+   - {{{nyqy(sywøz)}}} :: {{{defnl}}} Voir /sy/ et /wéz/
      1. (n) souffle divin, âme, esprit
-   - {{{nyqy(sywézéc)}}} :: {{{defnl}}} Voir /sywéz/ et /éc/
+   - {{{nyqy(sywøzøc)}}} :: {{{defnl}}} Voir /sywøz/ et /øc/
      1. (n) tristesse
      2. (n) sans âme, personne vide
 
@@ -3242,29 +3335,32 @@
      1. (n) fumée, vapeur
      2. (n) brouillard
      3. (vi) embuer, voiler
-   - {{{nyqy(wéñ)}}} :: {{{def}}}
-     1. temps (concept)
-     2. occurence régulière
-   - {{{nyqy(wéz)}}} :: {{{def}}}
-     1. (n) divinité suprême, dieu céleste, être supérieur, créateur. Voir aussi
-        /ñuné/.
    - {{{nyqy(won)}}} :: {{{def}}}
      1. (vt) voler, nager, se déplacer.
 
         Reçoit en absolutif l’élément dans lequel se déplace l’élément ergatif.
-        Exemple : {{{nyqy(yc bó péj won)}}} « Le poisson nage », litt. « le poisson se
+        Exemple : {{{nyqy(yc bœ pøj won)}}} « Le poisson nage », litt. « le poisson se
         déplace dans l’eau douce ».
-   - {{{nyqy(wóseq)}}} :: {{{def}}}
+   - {{{nyqy(wøñ)}}} :: {{{def}}}
+     1. temps (concept)
+     2. occurence régulière
+   - {{{nyqy(wøz)}}} :: {{{def}}}
+     1. (n) divinité suprême, dieu céleste, être supérieur, créateur. Voir aussi
+        /ñunø/.
+   - {{{nyqy(wœqœ)}}} :: {{{def}}}
+     1. (adv) non
+     2. (part) négation, en opposition ou en réponse à du positif
+   - {{{nyqy(wœseq)}}} :: {{{def}}}
      1. (n) voisin
      2. (n) quelque chose de proche
-   - {{{nyqy(wó)}}} :: {{{def}}}
+   - {{{nyqy(wœ)}}} :: {{{def}}}
      1. (n) humain
      2. (n) quelque chose d’apparence ou de comportement humain
-   - {{{nyqy(wócosu)}}} :: {{{defnl}}} Voir /wó/ et /cosu/
+   - {{{nyqy(wœcosu)}}} :: {{{defnl}}} Voir /wœ/ et /cosu/
      1. (n) humanité, tous les humains
-   - {{{nyqy(wóq)}}} :: {{{def}}}
+   - {{{nyqy(wœq)}}} :: {{{def}}}
      1. (n) homme
-   - {{{nyqy(wóz)}}} :: {{{def}}}
+   - {{{nyqy(wœz)}}} :: {{{def}}}
      1. (n) femme
 
 ** Y
@@ -3279,8 +3375,6 @@
    - {{{nyqy(ycne)}}} :: {{{defnl}}} Voir /ne/ et /yc/
      1. (n) mort
      2. (vi) mourir
-   - {{{nyqy(ycéjéz)}}} :: {{{defnl}}} Voir /yc/, /újq/ et /wéz/
-     1. (n) magie, force divine. Littéralement « eau de la puissance divine »
    - {{{nyqy(ycij)}}} :: {{{defnl}}} Voir /yc/ et /ij/
      1. (n) rivière, fleuve, ruisseau
      2. (n) veine, artère
@@ -3289,14 +3383,16 @@
      1. (n) mousson
      2. (n) pluie diluvienne
      3. (vi) pleuvoir (mousson), pleuvoir intensément
-   - {{{nyqy(ycoj)}}} :: {{{def}}}
-     1. (n) liquide
-     2. (n) quelque chose de liquide ou d’aqueux
-     3. (n) quelque chose de bénéfacteur
    - {{{nyqy(ycmuz)}}} :: {{{defnl}}} Voir /yc/ et /muz/
      1. (n) sang
      2. (vi) saigner
      3. (vi) s’énerver, se mettre en colère
+   - {{{nyqy(ycoj)}}} :: {{{def}}}
+     1. (n) liquide
+     2. (n) quelque chose de liquide ou d’aqueux
+     3. (n) quelque chose de bénéfacteur
+   - {{{nyqy(ycøjøz)}}} :: {{{defnl}}} Voir /yc/, /újq/ et /wéz/
+     1. (n) magie, force divine. Littéralement « eau de la puissance divine »
    - {{{nyqy(ycsy)}}} :: {{{defnl}}} Voir /yc/ et /sy/
      1. (n) pluie, fines gouttes
      2. (n) brume
@@ -3319,8 +3415,6 @@
    :PROPERTIES:
    :CUSTOM_ID: Dictionnaire-Z-144a2853
    :END:
-   - {{{nyqy(zé)}}} :: {{{def}}}
-     1. (pron) Pron.Pers.3sg, il, elle
    - {{{nyqy(zi)}}} :: {{{def}}}
      1. (n) mouche
      2. (n) moustique
@@ -3335,15 +3429,17 @@
      1. (n) tête
      2. (n) chef, patriarche, matriarche
      3. (n) sommet
-   - {{{nyqy(zocséwe)}}} :: {{{defnl}}} Voir /zoc/ et /séwe/
+   - {{{nyqy(zosøwe)}}} :: {{{defnl}}} Voir /zoc/ et /søwe/
      1. (n) voile ou châle porté autour de la tête. Litt. « tissu de tête »
-   - {{{nyqy(zó)}}} :: {{{def}}}
+   - {{{nyqy(zø)}}} :: {{{def}}}
+     1. (pron) Pron.Pers.3sg, il, elle
+   - {{{nyqy(zœ)}}} :: {{{def}}}
      1. (n) jeu
      2. (vt) jouer
-   - {{{nyqy(zócu)}}} :: {{{defnl}}} Voir /sy/ et /zój/
+   - {{{nyqy(zœcu)}}} :: {{{defnl}}} Voir /sy/ et /zœj/
      1. (n) animal
      2. (n) être vivant non humain non fantastique
-   - {{{nyqy(zój)}}} :: {{{def}}}
+   - {{{nyqy(zœj)}}} :: {{{def}}}
      1. (n) chose, objet abstrait
    - {{{nyqy(zuj)}}} :: {{{def}}}
      1. (n) nuit, noir, ombre
@@ -3351,7 +3447,7 @@
    - {{{nyqy(zúmu)}}} :: {{{def}}}
      1. (vi) voir, regarder. L’élément vu est passé au verbe comme un argument
         datif. Exemple :
-        - {{{nyqy(bó oz im qy zúmuop)}}}
+        - {{{nyqy(bœ oz im qy zúmuop)}}}
 
           J’ai vu le chat.
 
@@ -3368,7 +3464,7 @@
 --CATEGORIES--
 A=qgcjñmnszpbw
 B=qgcjñmnszpb
-V=óéoe
+V=œéoe
 W=úuyi
 C=jczs
 P=mbpgq
@@ -3436,7 +3532,19 @@ CPWCP
 
    Lang D of [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit#gid=0][this chart]], evolving to F.
 
-* Choses à faire [2/4]                                             :noexport:
+** WH words
+   :PROPERTIES:
+   :CUSTOM_ID: Notes-WH-words-f7ca6fc0
+   :END:
+   - when
+   - what
+   - who
+   - whom
+   - where
+   - how
+   - why
+
+* Choses à faire                                                   :noexport:
   :PROPERTIES:
   :CUSTOM_ID: Choses_à_faire_[2-4]-fc53373e
   :END:
@@ -3461,9 +3569,9 @@ CPWCP
 
 # Traduction de « je t’aime »
 # Mon âme est tienne
-# wósy pom ñy zój pom bu
+# wœsy pom ñy zœj pom bu
 #
 #  LocalWords:  Ñy Qy proto-Ñyqy proto Ðbńo Pr Loqbrekh Khorlan Yerth Rhésode
 #  LocalWords:  Mojhal Lor États-cités lingua franca GEN sg OPT SV doirbh kõrv
-#  LocalWords:  hook non-mutées cójm wy wú dor absolutif-verbe sg-ABS sg-ERG
+#  LocalWords:  hook non-mutées cœj wy wú dor absolutif-verbe sg-ABS sg-ERG
 #  LocalWords:  pomme-ABS
