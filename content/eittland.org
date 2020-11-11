@@ -2344,6 +2344,28 @@
   |  4 | Protestantisme |
   |  2 | Divers         |
 
+** Idées pour évolution phonétique
+   :PROPERTIES:
+   :CUSTOM_ID: Data-not-to-be-exported-Id-es-pour-volution-phon-tique-250e4e42
+   :END:
+   # - tj > tʃ
+   # - nj > ɲ
+   # - Cj > C[+fric] > C[+stop]
+   # - tj > tʃ > ʃ
+   # - dj > dʒ > ʒ
+   # - kj > kx > x
+   - ɡj > j
+   - sj > ʃ
+   - hj > ʃ
+   - hl > ɬ
+   - h > ʃ / _i
+   - ɡ > ɣ / V_V
+   - ɡ > x / F_V
+   - hw > ʍ
+   - VN > V[+nas]
+   - C[+stop +long] > C[+stop +fric -long] !(C_ || _C) where > C[+stop]
+   - V[-stress] > ə / !_#
+
 * Footnotes
   :PROPERTIES:
   :CUSTOM_ID: Footnotes-709ec575
