@@ -7,48 +7,47 @@
 #+UID:       https://langue.phundrak.com/proto-taso
 
 * Propos préliminaires
-  :PROPERTIES:
-  :CUSTOM_ID: h-41a62215-44fc-490f-89f3-5b9cccf02550
-  :UNNUMBERED: t
-  :END:
+:PROPERTIES:
+:CUSTOM_ID: h-41a62215-44fc-490f-89f3-5b9cccf02550
+:UNNUMBERED: t
+:END:
 ** Avant-propos
-   :PROPERTIES:
-   :CUSTOM_ID: h-89e5cd8b-42e4-41c2-aad7-6112dfa3ace1
-   :END:
-   La  redistribution ou  vente de  ce document  sont strictement  interdits. Ce
-   document est protégé par la loi française sur le droit d’auteur et appartient
-   entièrement  et  totalement  à  son  auteur.  Ce  document  est  un  document
-   disponible gratuitement au format web et  pdf sur mon site web[fn:1]. Si vous
-   l’avez obtenu  depuis une autre  source, gratuitement  ou non, merci  de m’en
-   faire part  en me  contactant via mes  réseaux sociaux ou  par mail  que vous
-   trouverez sur mon site principal[fn:2].  Aucune personne, morale ou physique,
-   n’est à l’heure actuelle autorisée à redistribuer ces documents. Si vous êtes
-   intéressés par une redistribution de ce document, je vous invite à rentrer en
-   contact avec moi afin que l’on en discute.
+:PROPERTIES:
+:CUSTOM_ID: Propos-pr-liminaires-Avant-propos-707e1fdb
+:END:
+La redistribution ou vente de ce document sont strictement interdits. Ce
+document est protégé par la loi française sur le droit d’auteur et appartient
+entièrement et totalement à son auteur. Ce document est un document disponible
+gratuitement au format web et pdf sur mon site web[fn:1]. Si vous l’avez obtenu
+depuis une autre source, gratuitement ou non, merci de m’en faire part en me
+contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site
+principal[fn:2]. Aucune personne, morale ou physique, n’est à l’heure actuelle
+autorisée à redistribuer ces documents. Si vous êtes intéressés par une
+redistribution de ce document, je vous invite à rentrer en contact avec moi afin
+que l’on en discute.
 
-   Ce document traite d’une langue imaginaire  que j’ai créé. Cependant, il sera
-   rédigé comme  s’il s’agissait de la  première tentative de description  de la
-   langue par un linguiste la découvrant.  Ainsi, si dans certains passages vous
-   pouvez lire  « mais plus d’études  sur le  sujet sont nécessaires »  ou « cet
-   aspect  de  la  langue  n’a  pas   encore  été  sujet  à  des  analyses  plus
-   approfondies », comprenez  par cela que je  n’ai pas encore travaillé  sur ou
-   fini cette partie qui peut être sujet à des mises à jours dans le futur.
+Ce document traite d’une langue imaginaire que j’ai créé. Cependant, il sera
+rédigé comme s’il s’agissait de la première tentative de description de la
+langue par un linguiste la découvrant. Ainsi, si dans certains passages vous
+pouvez lire « mais plus d’études sur le sujet sont nécessaires » ou « cet aspect
+de la langue n’a pas encore été sujet à des analyses plus approfondies »,
+comprenez par cela que je n’ai pas encore travaillé sur ou fini cette partie qui
+peut être sujet à des mises à jours dans le futur.
 
-** Remerciements
-   :PROPERTIES:
-   :CUSTOM_ID: h-55c5bdb0-8ad9-4be0-8527-925b166474eb
-   :END:
+** Remerciements                                                   :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Propos-pr-liminaires-Remerciements-1c3cd858
+:END:
 
-** Introduction
-   :PROPERTIES:
-   :CUSTOM_ID: h-0c5f0aa6-d69d-4fd5-8f61-df9a409af18f
-   :END:
+** Introduction                                                    :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Propos-pr-liminaires-Introduction-e8ac6989
+:END:
 
 ** Liste des abbréviations
-   :PROPERTIES:
-   :CUSTOM_ID: h-58d63d52-aebc-4b33-841e-b7a561d0f7c4
-   :END:
-
+:PROPERTIES:
+:CUSTOM_ID: Propos-pr-liminaires-Liste-des-abbr-viations-dfe32a3a
+:END:
    - IPA :: /International Phonetic Alphabet/, Alphabet Phonétique International
    - blb :: bilabial
    - alv :: alvéolaire
@@ -57,977 +56,972 @@
    - vlr :: vélaire
    - lvlr :: labio-vélaire
 
-* Contexte culturel, écologique et sociolinguiste de la langue
-  :PROPERTIES:
-  :CUSTOM_ID: h-a89fab50-74c0-4d03-9248-8cad4629d846
-  :END:
+* Contexte culturel, écologique et sociolinguiste de la langue     :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-1f670071
+:END:
 ** Le nom de la langue
-   :PROPERTIES:
-   :CUSTOM_ID: h-2a5d6c2e-16e0-48c1-9cb5-d2ff98519b3f
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Le-nom-de-la-langue-cb580473
+:END:
 
 ** Recherches précédentes
-   :PROPERTIES:
-   :CUSTOM_ID: h-b8a0fbe7-52b9-46a5-a9de-63a2509c8ae6
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Recherches-pr-c-dentes-5e7119d6
+:END:
 
 ** Démographie
-   :PROPERTIES:
-   :CUSTOM_ID: h-4792d22e-b371-46f1-ab60-521d30a7a535
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-D-mographie-46ca8720
+:END:
 *** Cartes
-    :PROPERTIES:
-    :CUSTOM_ID: h-7914837c-3bf9-4edf-828e-6a36f38527e4
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-D-mographie-Cartes-1776d2d0
+:END:
 
 *** Histoire, migrations
-    :PROPERTIES:
-    :CUSTOM_ID: h-f20f59bf-abf0-4732-acd3-4cb773e10b38
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-D-mographie-Histoire-migrations-bfd20d3e
+:END:
 
 *** Situation politique
-    :PROPERTIES:
-    :CUSTOM_ID: h-f97ac07f-8a78-4621-894a-0e469e826787
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-D-mographie-Situation-politique-8b09054d
+:END:
 
 ** Écologie
-   :PROPERTIES:
-   :CUSTOM_ID: h-1cff65b5-a389-4f68-9feb-7aaf4d6c50ee
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-cologie-035c353f
+:END:
 
 ** Éthnographie
-   :PROPERTIES:
-   :CUSTOM_ID: h-c3298027-baf7-4f86-a5e9-136eb4c28a57
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-thnographie-32078da3
+:END:
 
 ** Affiliations génétiques
-   :PROPERTIES:
-   :CUSTOM_ID: h-ae7ce582-2f58-41e2-99b9-129cbd4eedd3
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Affiliations-g-n-tiques-0a855db4
+:END:
 
 ** Tradition littéraire
-   :PROPERTIES:
-   :CUSTOM_ID: h-65a1be15-7777-451f-b876-b52f9a91cbd0
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Tradition-litt-raire-f656f428
+:END:
 
 ** Dialectes
-   :PROPERTIES:
-   :CUSTOM_ID: h-13fc6beb-4c24-4b82-b50f-a2f5da5247fb
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Dialectes-87a88ed7
+:END:
 
 ** Situation sociolinguistique
-   :PROPERTIES:
-   :CUSTOM_ID: h-bada4703-90a1-4dcd-ab29-203101ce00e4
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Situation-sociolinguistique-f2f1dac7
+:END:
 *** Multilinguisme et attitude envers les langues
-    :PROPERTIES:
-    :CUSTOM_ID: h-621e6556-a3ca-4fb4-9c90-7d0cb372ffa2
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Situation-sociolinguistique-Multilinguisme-et-attitude-envers-les-langues-4ed67828
+:END:
 
 *** Contexte d’utilisation et choix de langues
-    :PROPERTIES:
-    :CUSTOM_ID: h-9d8fead2-7af6-46c4-92f6-004d39534331
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Situation-sociolinguistique-Contexte-d-utilisation-et-choix-de-langues-16661177
+:END:
 
 *** Viabilité
-    :PROPERTIES:
-    :CUSTOM_ID: h-6c827715-39ca-497a-b7a1-c365df1b5585
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Situation-sociolinguistique-Viabilit-6387560c
+:END:
 
 *** Mots d’emprun
-    :PROPERTIES:
-    :CUSTOM_ID: h-8b4127a5-6b06-48c7-82f5-b504b6731fb4
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Situation-sociolinguistique-Mots-d-emprun-1ce24488
+:END:
 
 ** Le corpus
-   :PROPERTIES:
-   :CUSTOM_ID: h-9f14afae-8cd0-4f89-9de3-e0d844494d41
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Le-corpus-ea833e66
+:END:
 *** La nature de la recherche
-    :PROPERTIES:
-    :CUSTOM_ID: h-6e9d796f-700f-4cad-b369-f34d0e94c3b1
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Le-corpus-La-nature-de-la-recherche-1381bdea
+:END:
 
 *** Consultants et autres sources
-    :PROPERTIES:
-    :CUSTOM_ID: h-3cf68761-6fab-4d3f-8e27-22fdafce977b
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Le-corpus-Consultants-et-autres-sources-e283c928
+:END:
 
 *** Présentation des données
-    :PROPERTIES:
-    :CUSTOM_ID: h-30f6deba-8a32-4d18-bd94-3264846205fb
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Contexte-culturel-cologique-et-sociolinguiste-de-la-langue-Le-corpus-Pr-sentation-des-donn-es-26524c91
+:END:
 
 * Aperçu structurel
-  :PROPERTIES:
-  :CUSTOM_ID: h-76fc0b91-e41c-42ad-8652-bba029632333
-  :END:
-** Esquisse typologique
-   :PROPERTIES:
-   :CUSTOM_ID: h-dcd950c6-3a8b-4a9b-abf5-11f607d37415
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-76fd8cc3
+:END:
+** Esquisse typologique :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Esquisse-typologique-87b43e3e
+:END:
 
 ** Inventaire phonétique et orthographe
-   :PROPERTIES:
-   :CUSTOM_ID: h-ed0cea88-9b4f-42e9-ac94-b40c8432e264
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Inventaire-phon-tique-et-orthographe-dd580439
+:END:
 *** Voyelles
-    :PROPERTIES:
-    :CUSTOM_ID: h-8a426b75-a928-4eb6-94a4-6532dd9d91e5
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Inventaire-phon-tique-et-orthographe-Voyelles-9b48b94a
+:END:
+Le Proto-Tãso est une langue disposant d’un inventaire phonétique relativement
+large, disposant notamment de douze voyelles. La distinction principale entre
+ces dernières est leur caractéristique haute, ainsi que leur trait nasal. Vous
+trouverez dans le tableau [[table:vow:ipa]] l’inventaire des voyelles du Proto-Tãso
+en IPA.
 
-    Le  Proto-Tãso   est  une   langue  disposant  d’un   inventaire  phonétique
-    relativement large,  disposant notamment  de douze voyelles.  La distinction
-    principale entre  ces dernières  est leur  caractéristique haute,  ainsi que
-    leur trait nasal. Vous trouverez  dans le tableau [[table:vow:ipa]] l’inventaire
-    des voyelles du Proto-Tãso en IPA.
+#+NAME: table:vow:ipa
+|           / |      <      |     <     |      <       |
+|         <r> |     <c>     |    <c>    |     <c>      |
+|             | antérieures | centrales | postérieures |
+|-------------+-------------+-----------+--------------|
+|     fermées |     i y     |     ɨ     |              |
+| pré-fermées |     ɪ ʏ     |           |      ʊ       |
+|  mi-fermées |     ø ø̃     |           |     ɤ ɤ̃      |
+|  mi-ouverte |      ɛ̃      |           |              |
+|    ouvertes |      a      |           |      ɑ̃       |
 
-    #+NAME: table:vow:ipa
-    |           / |      <      |     <     |      <       |
-    |         <r> |     <c>     |    <c>    |     <c>      |
-    |             | antérieures | centrales | postérieures |
-    |-------------+-------------+-----------+--------------|
-    |     fermées |     i y     |     ɨ     |              |
-    | pré-fermées |     ɪ ʏ     |           |      ʊ       |
-    |  mi-fermées |     ø ø̃     |           |     ɤ ɤ̃      |
-    |  mi-ouverte |      ɛ̃      |           |              |
-    |    ouvertes |      a      |           |      ɑ̃       |
+Comme on peut le voir, la majorité de ces voyelles ont leur équivalent nasalisé,
+et les voyelles pré-fermées et fermées ont leur équivalent arrondi ou
+non-arrondi, à l’exception respectivement du {{{phon(a)}}} dont l’équivalent nasalisé
+est le {{{phon(ɑ̃)}}}, et le {{{phon(ɨ)}}} a pour équivalent arrondi le {{{phon(ʊ)}}}. Dans le
+tableau [[table:vow:ortho]], vous retrouverez le même tableau avec l’orthographe des
+voyelles remplaçant leur symbole phonétique.
 
-    Comme  on peut  le voir,  la majorité  de ces  voyelles ont  leur équivalent
-    nasalisé, et les voyelles pré-fermées et fermées ont leur équivalent arrondi
-    ou non-arrondi,  à l’exception  respectivement du {{{phon(a)}}}  dont l’équivalent
-    nasalisé est le {{{phon(ɑ̃)}}}, et le {{{phon(ɨ)}}} a pour équivalent arrondi le {{{phon(ʊ)}}}.
-    Dans  le tableau  [[table:vow:ortho]],  vous retrouverez  le  même tableau  avec
-    l’orthographe des voyelles remplaçant leur symbole phonétique.
+#+NAME: table:vow:ortho
+|           / |      <      |     <     |      <       |
+|         <r> |     <c>     |    <c>    |     <c>      |
+|             | antérieures | centrales | postérieures |
+|-------------+-------------+-----------+--------------|
+|     fermées |     í ý     |     ì     |              |
+| pré-fermées |     i y     |           |      u       |
+|  mi-fermées |     é ę     |           |     o õ      |
+|  mi-ouverte |     e ẽ     |           |              |
+|    ouvertes |      a      |           |      ã       |
 
-    #+NAME: table:vow:ortho
-    |           / |      <      |     <     |      <       |
-    |         <r> |     <c>     |    <c>    |     <c>      |
-    |             | antérieures | centrales | postérieures |
-    |-------------+-------------+-----------+--------------|
-    |     fermées |     í ý     |     ì     |              |
-    | pré-fermées |     i y     |           |      u       |
-    |  mi-fermées |     é ę     |           |     o õ      |
-    |  mi-ouverte |     e ẽ     |           |              |
-    |    ouvertes |      a      |           |      ã       |
+Vous retrouverez avec la figure [[arbre:vow]] la hiérarchie des caractéristiques
+organisant les voyelles du Proto-Tãso.
 
-    Vous retrouverez avec la figure [[arbre:vow]] la hiérarchie des caractéristiques
-    organisant les voyelles du Proto-Tãso.
+#+NAME: vowel-tree
+#+BEGIN_SRC emacs-lisp
+  (setq-local taso-vowels
+    '("vowel"
+      ("[high]"
+       ("[frnt]"
+        ("[tense]"
+         ("[rnd]" "ʏ")
+         ("{rnd}" "ɪ"))
+        ("{tense}"
+         ("[rnd]" "y")
+         ("{rnd}" "i")))
+       ("{frnt}"
+        ("[tense]" "ɨ ʉ ɯ u")
+        ("{tense}" "ʊ")))
+      ("{high}"
+       ("[nas]"
+        ("[frnt]"
+         ("[tense]" "ẽ  ø̃ æ̃")
+         ("{tense}" "ɛ̃ œ̃"))
+        ("{frnt}"
+         ("[tense]" "ɘ̃ ɵ̃ ɤ̃ õ ɐ̃ ə̃")
+         ("{tense}" "ɜ̃ ɞ̃ ʌ̃ ɔ̃ ɑ̃ ɶ̃ ɑ̃ ɒ̃")))
+       ("{nas}"
+        ("[frnt]"
+         ("[tense]" "e ø æ")
+         ("{tense}" "ɛ œ"))
+        ("{frnt}"
+         ("[tense]" "ɘ ɵ ɤ o ɐ ə")
+         ("{tense}" "ɜ ɞ ʌ ɔ ɑ ɶ ɑ ɒ"))))))
+  (conlanging/tree-to-dot taso-vowels)
+#+END_SRC
 
-    #+NAME: vowel-tree
-    #+BEGIN_SRC emacs-lisp
-      (setq-local taso-vowels
-        '("vowel"
-          ("[high]"
-           ("[frnt]"
-            ("[tense]"
-             ("[rnd]" "ʏ")
-             ("{rnd}" "ɪ"))
-            ("{tense}"
-             ("[rnd]" "y")
-             ("{rnd}" "i")))
-           ("{frnt}"
-            ("[tense]" "ɨ ʉ ɯ u")
-            ("{tense}" "ʊ")))
-          ("{high}"
-           ("[nas]"
-            ("[frnt]"
-             ("[tense]" "ẽ  ø̃ æ̃")
-             ("{tense}" "ɛ̃ œ̃"))
-            ("{frnt}"
-             ("[tense]" "ɘ̃ ɵ̃ ɤ̃ õ ɐ̃ ə̃")
-             ("{tense}" "ɜ̃ ɞ̃ ʌ̃ ɔ̃ ɑ̃ ɶ̃ ɑ̃ ɒ̃")))
-           ("{nas}"
-            ("[frnt]"
-             ("[tense]" "e ø æ")
-             ("{tense}" "ɛ œ"))
-            ("{frnt}"
-             ("[tense]" "ɘ ɵ ɤ o ɐ ə")
-             ("{tense}" "ɜ ɞ ʌ ɔ ɑ ɶ ɑ ɒ"))))))
-      (conlanging/tree-to-dot taso-vowels)
-    #+END_SRC
-
-    #+BEGIN_SRC dot :file taso/vowel-feature-tree.png :var input=vowel-tree
-      $input
-    #+END_SRC
-    #+NAME: arbre:vow
-    #+ATTR_HTML: :alt Arbre des voyelles du Proto-Tãso :class gentree
-    #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des voyelles du Proto-Tãso
-    #+RESULTS[eff961e714f2313ac2e974637800b18d5c11c928]:
-    [[file:img/taso/vowel-feature-tree.png]]
+#+BEGIN_SRC dot :file taso/vowel-feature-tree.png :var input=vowel-tree
+  $input
+#+END_SRC
+#+NAME: arbre:vow
+#+ATTR_HTML: :alt Arbre des voyelles du Proto-Tãso :class gentree
+#+ATTR_LATEX: :float sideways
+#+CAPTION: Arbre des caractéristiques des voyelles du Proto-Tãso
+#+RESULTS[eff961e714f2313ac2e974637800b18d5c11c928]:
+[[file:img/taso/vowel-feature-tree.png]]
 
 *** Consonnes
-    :PROPERTIES:
-    :CUSTOM_ID: h-aa2ea546-2078-4239-8b49-f8f28b886547
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Inventaire-phon-tique-et-orthographe-Consonnes-b0ecb46c
+:END:
+À l’instar de ses voyelles, le Proto-Tãso est également riche en consonnes,
+comme vous pouvez le constater dans le tableau [[table:cons:ipa]] les listant avec
+leur symbole IPA.
+#+NAME: table:cons:ipa
+|           <r> | <c> |  <c>  |   <c>   | <c> | <c> | <c>  |
+|               | blb |  alv  |  palv   | plt | vlr | lvlr |
+|---------------+-----+-------+---------+-----+-----+------|
+|         nasal |  m  |   n   |         |     |     |      |
+|      occlusif | p b |  t d  |         |     | k g |      |
+|   occ. aspiré |     | tʰ dʰ |         |     |     |      |
+|      affriqué |     |       |  t͡ʃ d͡ʒ  |     |     |      |
+|   aff. aspiré |     |       | t͡ʃʰ d͡ʒʰ |     |     |      |
+|      fricatif |  ɸ  |  s z  |         | ç ʝ | x ɣ |      |
+|       spirant |     |       |         |     |     | ʍ w  |
+| fricatif lat. |     |   ɬ   |         |     |     |      |
+|  spirant lat. |     |   l   |         |     |     |      |
 
-    À l’instar de ses voyelles, le  Proto-Tãso est également riche en consonnes,
-    comme vous  pouvez le constater  dans le tableau [[table:cons:ipa]]  les listant
-    avec leur symbole IPA.
-    #+NAME: table:cons:ipa
-    |           <r> | <c> |  <c>  |   <c>   | <c> | <c> | <c>  |
-    |               | blb |  alv  |  palv   | plt | vlr | lvlr |
-    |---------------+-----+-------+---------+-----+-----+------|
-    |         nasal |  m  |   n   |         |     |     |      |
-    |      occlusif | p b |  t d  |         |     | k g |      |
-    |   occ. aspiré |     | tʰ dʰ |         |     |     |      |
-    |      affriqué |     |       |  t͡ʃ d͡ʒ  |     |     |      |
-    |   aff. aspiré |     |       | t͡ʃʰ d͡ʒʰ |     |     |      |
-    |      fricatif |  ɸ  |  s z  |         | ç ʝ | x ɣ |      |
-    |       spirant |     |       |         |     |     | ʍ w  |
-    | fricatif lat. |     |   ɬ   |         |     |     |      |
-    |  spirant lat. |     |   l   |         |     |     |      |
+On remarque qu’il existe un certain nombre de consonnes ayant un équivalent
+aspiré, notamment les consonnes plosives et affriquées alvéolaires et
+palatales-alvéolaires. Vous trouverez dans le tableau [[table:cons:ortho]]
+l’orthographe de chacune de ces consonnes.
 
-    On remarque qu’il existe un certain  nombre de consonnes ayant un équivalent
-    aspiré,  notamment  les  consonnes  plosives et  affriquées  alvéolaires  et
-    palatales-alvéolaires.  Vous  trouverez  dans  le  tableau  [[table:cons:ortho]]
-    l’orthographe de chacune de ces consonnes.
+#+NAME: table:cons:ortho
+|           <r> | <c> |  <c>  |  <c>  |  <c>  | <c> | <c>  |
+|               | blb |  alv  | palv  |  plt  | vlr | lvlr |
+|---------------+-----+-------+-------+-------+-----+------|
+|         nasal |  m  |   n   |       |       |     |      |
+|      occlusif | p b |  t d  |       |       | k g |      |
+|   occ. aspiré |     | th dh |       |       |     |      |
+|      affriqué |     |       |  c j  |       |     |      |
+|   aff. aspiré |     |       | ch jh |       |     |      |
+|      fricatif |  f  |  s z  |       | sh zh | x r |      |
+|       spirant |     |       |       |       |     | wh w |
+| fricatif lat. |     |  lh   |       |       |     |      |
+|  spirant lat. |     |   l   |       |       |     |      |
 
-    #+NAME: table:cons:ortho
-    |           <r> | <c> |  <c>  |  <c>  |  <c>  | <c> | <c>  |
-    |               | blb |  alv  | palv  |  plt  | vlr | lvlr |
-    |---------------+-----+-------+-------+-------+-----+------|
-    |         nasal |  m  |   n   |       |       |     |      |
-    |      occlusif | p b |  t d  |       |       | k g |      |
-    |   occ. aspiré |     | th dh |       |       |     |      |
-    |      affriqué |     |       |  c j  |       |     |      |
-    |   aff. aspiré |     |       | ch jh |       |     |      |
-    |      fricatif |  f  |  s z  |       | sh zh | x r |      |
-    |       spirant |     |       |       |       |     | wh w |
-    | fricatif lat. |     |  lh   |       |       |     |      |
-    |  spirant lat. |     |   l   |       |       |     |      |
+#+NAME: cons-tree
+#+BEGIN_SRC emacs-lisp
+  (setq-local taso-consonants
+    '("consonant"
+      ("[son]"
+       ("[cor]"
+        ("[cont]"
+         ("[SG]" "ɬ lʰ rʰ ɹʰ")
+         ("{SG}" "l r ɹ"))
+        ("{cont}" "n ɳ"))
+       ("{cor}"
+        ("[cont]"
+         ("[SG]" "ʍ ʎʰ ʀʰ")
+         ("{SG}" "w ʎ ʀ"))
+        ("{cont}" "m ŋ ɲ ɴ")))
+      ("{son}"
+       ("[cor]"
+        ("[dor]"
+         ("[cont]"
+          ("[SG]" "ʧʰ d̮ʒʰ çʰ ʝʰ")
+          ("{SG}" "ʧ d̮ʒ ç ʝ"))
+         ("{cont}"
+          ("[SG]"
+           ("[voice]" "ɟʰ ʧʰ")
+           ("{voice}" "cʰ d̮ʒʰ"))
+          ("{SG}"
+           ("[voice]" "ɟ ʧ")
+           ("{voice}" "c d̮ʒ"))))
+        ("{dor}"
+         ("[cont]"
+          ("[voice]" "z ɮ ð ʒ d̮z")
+          ("{voice}" "s ɬ θ ʃ t̮s"))
+         ("{cont}"
+          ("[SG]"
+           ("[voice]" "d̮zʰ dʰ")
+           ("{voice}" "t̮sʰ tʰ"))
+          ("{SG}"
+           ("[voice]" "d̮z d")
+           ("{voice}" "t̮s t")))))
+       ("{cor}"
+        ("[dor]"
+         ("[cont]"
+          ("[voice]" "ɣ ʁ")
+          ("{voice}" "x χ"))
+         ("{cont}" "k ɡ q ɢ"))
+        ("{dor}"
+         ("[cont]"
+          ("[voice]" "v β ɦ")
+          ("{voice}" "f ɸ ħ ʕ h p̮f"))
+         ("{cont}" "ʔ p̮f p b"))))))
+  (conlanging/tree-to-dot taso-consonants)
+#+END_SRC
 
-    #+NAME: cons-tree
-    #+BEGIN_SRC emacs-lisp
-      (setq-local taso-consonants
-        '("consonant"
-          ("[son]"
-           ("[cor]"
-            ("[cont]"
-             ("[SG]" "ɬ lʰ rʰ ɹʰ")
-             ("{SG}" "l r ɹ"))
-            ("{cont}" "n ɳ"))
-           ("{cor}"
-            ("[cont]"
-             ("[SG]" "ʍ ʎʰ ʀʰ")
-             ("{SG}" "w ʎ ʀ"))
-            ("{cont}" "m ŋ ɲ ɴ")))
-          ("{son}"
-           ("[cor]"
-            ("[dor]"
-             ("[cont]"
-              ("[SG]" "ʧʰ d̮ʒʰ çʰ ʝʰ")
-              ("{SG}" "ʧ d̮ʒ ç ʝ"))
-             ("{cont}"
-              ("[SG]"
-               ("[voice]" "ɟʰ ʧʰ")
-               ("{voice}" "cʰ d̮ʒʰ"))
-              ("{SG}"
-               ("[voice]" "ɟ ʧ")
-               ("{voice}" "c d̮ʒ"))))
-            ("{dor}"
-             ("[cont]"
-              ("[voice]" "z ɮ ð ʒ d̮z")
-              ("{voice}" "s ɬ θ ʃ t̮s"))
-             ("{cont}"
-              ("[SG]"
-               ("[voice]" "d̮zʰ dʰ")
-               ("{voice}" "t̮sʰ tʰ"))
-              ("{SG}"
-               ("[voice]" "d̮z d")
-               ("{voice}" "t̮s t")))))
-           ("{cor}"
-            ("[dor]"
-             ("[cont]"
-              ("[voice]" "ɣ ʁ")
-              ("{voice}" "x χ"))
-             ("{cont}" "k ɡ q ɢ"))
-            ("{dor}"
-             ("[cont]"
-              ("[voice]" "v β ɦ")
-              ("{voice}" "f ɸ ħ ʕ h p̮f"))
-             ("{cont}" "ʔ p̮f p b"))))))
-      (conlanging/tree-to-dot taso-consonants)
-    #+END_SRC
+#+BEGIN_SRC dot :file taso/consonant-feature-tree.png :var input=cons-tree
+  $input
+#+END_SRC
+#+NAME: arbre:cons
+#+ATTR_HTML: :alt Arbre des consonnes du Proto-Tãso :class gentree
+#+ATTR_LATEX: :float sideways
+#+CAPTION: Arbre des caractéristiques des consonnes du Proto-Tãso
+#+RESULTS[9bf7d97ca85780e74e9fbb5fc69cbc9800439890]:
+[[file:img/taso/consonant-feature-tree.png]]
 
-    #+BEGIN_SRC dot :file taso/consonant-feature-tree.png :var input=cons-tree
-      $input
-    #+END_SRC
-    #+NAME: arbre:cons
-    #+ATTR_HTML: :alt Arbre des consonnes du Proto-Tãso :class gentree
-    #+ATTR_LATEX: :float sideways
-    #+CAPTION: Arbre des caractéristiques des consonnes du Proto-Tãso
-    #+RESULTS[9bf7d97ca85780e74e9fbb5fc69cbc9800439890]:
-    [[file:img/taso/consonant-feature-tree.png]]
+*** Ton et accentuation                                            :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Inventaire-phon-tique-et-orthographe-Ton-et-accentuation-d78ffbbf
+:END:
 
-*** Ton et accentuation
-    :PROPERTIES:
-    :CUSTOM_ID: h-c83deaf0-9767-4ac8-a109-7a677b5fba9d
-    :END:
-
-** Phonotaxes
-   :PROPERTIES:
-   :CUSTOM_ID: h-f0eaf02f-25f5-4b27-988a-ae7b3f99089c
-   :END:
+** Phonotaxes                                                      :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Phonotaxes-9367d37c
+:END:
 *** Structure syllabique
-    :PROPERTIES:
-    :CUSTOM_ID: h-950b4805-8981-4f61-b1d8-4f0ce29ba57e
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Phonotaxes-Structure-syllabique-74862b41
+:END:
 
 *** Allophonie
-    :PROPERTIES:
-    :CUSTOM_ID: h-faef6609-15ef-41ac-9b0b-8df879540a9a
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Phonotaxes-Allophonie-305edf81
+:END:
 
-** Structure d’un mot
-   :PROPERTIES:
-   :CUSTOM_ID: h-6cef78f6-5870-4583-aaf4-4544ba91417e
-   :END:
+** Structure d’un mot                                              :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Structure-d-un-mot-424785a1
+:END:
 
-** Processus phonologiques et morphophonémiques principaux
-   :PROPERTIES:
-   :CUSTOM_ID: h-e70736d9-53cd-402d-a04e-81d5a3462215
-   :END:
+** Processus phonologiques et morphophonémiques principaux         :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Processus-phonologiques-et-morphophon-miques-principaux-d318961f
+:END:
 
-** Prononciation de discours relaché et contractions
-   :PROPERTIES:
-   :CUSTOM_ID: h-b35a0eb7-61b8-4fe7-a653-d9790452b15d
-   :END:
+** Prononciation de discours relaché et contractions               :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Prononciation-de-discours-relach-et-contractions-6dca733b
+:END:
 
-** Classes de mots
-   :PROPERTIES:
-   :CUSTOM_ID: h-115008d7-60bd-43a9-af09-7e3fa69bbeac
-   :END:
+** Classes de mots                                                 :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-a204c339
+:END:
 *** Noms
-    :PROPERTIES:
-    :CUSTOM_ID: h-dcef02ce-f4dd-454d-be8e-e362c92cc147
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Noms-d6d44bdd
+:END:
 **** Structure d’un nom
-     :PROPERTIES:
-     :CUSTOM_ID: h-3f99ead1-df52-4b27-afce-9fe901a62c3a
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Noms-Structure-d-un-nom-432d3126
+:END:
 
 **** Processus dérivationels
-     :PROPERTIES:
-     :CUSTOM_ID: h-def0ffb2-08fb-4221-ab8e-86d9f0f2ae2e
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Noms-Processus-d-rivationels-038bad36
+:END:
 
 **** Processus inflexionels
-     :PROPERTIES:
-     :CUSTOM_ID: h-33255f99-6091-44ee-ac85-d93d6d1cc421
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Noms-Processus-inflexionels-f4d054fd
+:END:
 
 **** Noms dénombrables et indénombrables
-     :PROPERTIES:
-     :CUSTOM_ID: h-43bcf531-a72f-49e9-a0b4-2a0bea3c7dd9
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Noms-Noms-d-nombrables-et-ind-nombrables-cc1ab032
+:END:
 
 **** Noms propres
-     :PROPERTIES:
-     :CUSTOM_ID: h-81ec1093-7601-4abf-bfe6-c13daee3bbf1
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Noms-Noms-propres-bfebe247
+:END:
 
 *** Pronoms et/ou clitiques anaphoriques
-    :PROPERTIES:
-    :CUSTOM_ID: h-edf935a6-971a-4fc1-974a-611784acb77a
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Pronoms-et-ou-clitiques-anaphoriques-810d625c
+:END:
 **** Pronoms personnels
-     :PROPERTIES:
-     :CUSTOM_ID: h-e9bbacb5-e3ef-4c66-a052-869ca7bcc0f3
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Pronoms-et-ou-clitiques-anaphoriques-Pronoms-personnels-a5d814ff
+:END:
 
 **** Pronoms démonstratifs
-     :PROPERTIES:
-     :CUSTOM_ID: h-cb71bffc-c469-4b7b-aeb9-8a5d8d19ffe6
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Pronoms-et-ou-clitiques-anaphoriques-Pronoms-d-monstratifs-c53468c1
+:END:
 
 **** Autres
-     :PROPERTIES:
-     :CUSTOM_ID: h-d7a73687-d694-4174-8d4c-48d6851f0c61
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Pronoms-et-ou-clitiques-anaphoriques-Autres-050f6284
+:END:
 
 *** Verbes
-    :PROPERTIES:
-    :CUSTOM_ID: h-de4bb93d-bcd1-4edf-8314-497bf3c06ab8
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-cb9cad3b
+:END:
 **** Structure verbale
-     :PROPERTIES:
-     :CUSTOM_ID: h-19b1c9d4-eb87-41db-bb3f-483be321af86
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Structure-verbale-924ccbdd
+:END:
 
 **** Processus dérivationel
-     :PROPERTIES:
-     :CUSTOM_ID: h-9ae57ccb-d971-4637-93cd-73e80f5e78f0
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Processus-d-rivationel-6b749068
+:END:
 
 **** Processus inflectionel
-     :PROPERTIES:
-     :CUSTOM_ID: h-e6af0628-8232-4887-9b87-3e60fb6aeb55
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Processus-inflectionel-582e3f78
+:END:
 
 **** Classe de verbes distincte 1
-     :PROPERTIES:
-     :CUSTOM_ID: h-d7d4df8b-f4c6-4578-8c19-e4778705b54f
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Classe-de-verbes-distincte-1-996ea68d
+:END:
 
 **** Classe de verbes distincte 2
-     :PROPERTIES:
-     :CUSTOM_ID: h-c4199547-940d-4c69-868f-aa8cc38ed26c
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Classe-de-verbes-distincte-2-00be1797
+:END:
 
 **** Classe de verbes distincte 3
-     :PROPERTIES:
-     :CUSTOM_ID: h-95980b56-b9f0-40df-9a05-8af14629d425
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Classe-de-verbes-distincte-3-03d383d9
+:END:
 
 **** Classe de verbes distincte 4
-     :PROPERTIES:
-     :CUSTOM_ID: h-53c983a5-445e-445c-81c3-56d6ab360de1
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Verbes-Classe-de-verbes-distincte-4-edac2a3f
+:END:
 
 *** Modificateurs
-    :PROPERTIES:
-    :CUSTOM_ID: h-fa582b13-c83c-4219-9274-fd6c81f83f5b
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Modificateurs-d9d5c745
+:END:
 **** Adjectifs descriptifs
-     :PROPERTIES:
-     :CUSTOM_ID: h-231cd0ef-17a7-4cc9-b97f-a198dd3c2779
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Modificateurs-Adjectifs-descriptifs-a0e9ca1e
+:END:
 
 **** Quantifieurs non-numéraux
-     :PROPERTIES:
-     :CUSTOM_ID: h-5c3776c1-36a9-4cd3-820b-6003181043bf
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Modificateurs-Quantifieurs-non-num-raux-b15db00a
+:END:
 
 **** Numéraux
-     :PROPERTIES:
-     :CUSTOM_ID: h-264415c7-bef0-40c0-a6e0-939949bac6a6
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Modificateurs-Num-raux-7a831c01
+:END:
 
 *** Adverbes
-    :PROPERTIES:
-    :CUSTOM_ID: h-ac1f5889-ab88-4b8c-903a-abc0dbc243c9
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Adverbes-8c80aa1f
+:END:
 
 *** Auxilliaires
-    :PROPERTIES:
-    :CUSTOM_ID: h-5be5e2a8-7d51-4875-ab30-8c44702f1566
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Auxilliaires-ff4192b0
+:END:
 
 *** Adpositions (prépositions ou postpositions)
-    :PROPERTIES:
-    :CUSTOM_ID: h-df92af32-3852-4bf3-8d0d-83467c50f29c
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Adpositions-pr-positions-ou-postpositions-b6a41e20
+:END:
 
 *** Particules ou autres classes de mots mineures
-    :PROPERTIES:
-    :CUSTOM_ID: h-f33bbce5-2fb6-47ae-9aff-03635d06cc2a
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Classes-de-mots-Particules-ou-autres-classes-de-mots-mineures-abbd09eb
+:END:
 
-** Typologie de l’ordre des constituants
-   :PROPERTIES:
-   :CUSTOM_ID: h-ee279d43-b0aa-488e-9467-2b1956468d48
-   :END:
+** Typologie de l’ordre des constituants                           :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-65b95daa
+:END:
 *** Ordre des constituants dans les clauses principales
-    :PROPERTIES:
-    :CUSTOM_ID: h-7945a001-d98a-42fe-845f-7f37c2f14f1d
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-Ordre-des-constituants-dans-les-clauses-principales-ed191f0b
+:END:
 
 *** Ordre des constituants dans les clauses verbales
-    :PROPERTIES:
-    :CUSTOM_ID: h-e68d1726-9baf-4963-b098-58c6aa340082
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-Ordre-des-constituants-dans-les-clauses-verbales-31c70eee
+:END:
 
 *** Ordre des constituants dans les clauses nominales
-    :PROPERTIES:
-    :CUSTOM_ID: h-130f774a-bc58-46ca-a172-c413c8236366
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-Ordre-des-constituants-dans-les-clauses-nominales-537bf408
+:END:
 
 *** Phrases adpositionelles
-    :PROPERTIES:
-    :CUSTOM_ID: h-4890aba1-72e2-43e7-98a6-6185cbc6f246
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-Phrases-adpositionelles-ae341143
+:END:
 
 *** Comparatifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-987612fa-84ce-4d28-a8e2-363002edb722
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-Comparatifs-8ca99c86
+:END:
 
 *** Particules de questions et mots interrogatifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-66436f0c-f1b6-4c2b-8c35-6b9439d81e86
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-Particules-de-questions-et-mots-interrogatifs-25615ddf
+:END:
 
 *** Résumé
-    :PROPERTIES:
-    :CUSTOM_ID: h-86a5e054-9618-485f-8cc8-93704a890a30
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Typologie-de-l-ordre-des-constituants-R-sum-c5ed1742
+:END:
 
-** Structure d’une phrase nominale
-   :PROPERTIES:
-   :CUSTOM_ID: h-3f1cc9cc-1a9d-48e2-94ee-0e7c2aaebe13
-   :END:
+** Structure d’une phrase nominale                                 :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Structure-d-une-phrase-nominale-357caf7f
+:END:
 
-** Structure d’une phrase verbale
-   :PROPERTIES:
-   :CUSTOM_ID: h-fbbefe2b-595f-405d-bc5e-b1fa0cd13749
-   :END:
+** Structure d’une phrase verbale                                  :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Structure-d-une-phrase-verbale-21261d00
+:END:
 
-** Prédicats nominaux et constructions liées
-   :PROPERTIES:
-   :CUSTOM_ID: h-241f8093-3388-42fe-8060-af94a2ff03a4
-   :END:
+** Prédicats nominaux et constructions liées                       :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Pr-dicats-nominaux-et-constructions-li-es-49661ec3
+:END:
 *** Prédicats nominaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-28fe553c-2fc1-4c1d-ad81-23680b62918a
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Pr-dicats-nominaux-et-constructions-li-es-Pr-dicats-nominaux-e8d3b8ab
+:END:
 
 *** Prédicats adjectivaux
-    :PROPERTIES:
-    :CUSTOM_ID: h-5a0c7fd1-9008-4915-88ef-6b2482795e44
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Pr-dicats-nominaux-et-constructions-li-es-Pr-dicats-adjectivaux-3773156f
+:END:
 
 *** Prédicats locatifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-ea755499-8c28-4ddb-a037-841658aeeb91
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Pr-dicats-nominaux-et-constructions-li-es-Pr-dicats-locatifs-053375e9
+:END:
 
 *** Prédicats existentiels
-    :PROPERTIES:
-    :CUSTOM_ID: h-93c2c2bb-bb4d-46bd-9979-5a8392c2f144
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Pr-dicats-nominaux-et-constructions-li-es-Pr-dicats-existentiels-3deb0102
+:END:
 
 *** Clauses possessives
-    :PROPERTIES:
-    :CUSTOM_ID: h-d68829a8-b329-46f7-88d8-ece6845e08e3
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Pr-dicats-nominaux-et-constructions-li-es-Clauses-possessives-c1ed94db
+:END:
 
-** Clauses intransitives
-   :PROPERTIES:
-   :CUSTOM_ID: h-ea08f661-5634-4b92-bb53-026171de4426
-   :END:
+** Clauses intransitives                                           :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Clauses-intransitives-f0008cdc
+:END:
 
-** Clauses transitives
-   :PROPERTIES:
-   :CUSTOM_ID: h-1167b478-c009-4f35-a02f-3cfde57e72e9
-   :END:
+** Clauses transitives                                             :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Clauses-transitives-90c31cf0
+:END:
 
-** Clauses ditransitives
-   :PROPERTIES:
-   :CUSTOM_ID: h-7a1c9080-3e3e-4b26-82c2-80f524380d67
-   :END:
+** Clauses ditransitives                                           :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Clauses-ditransitives-7bde1f7a
+:END:
 
-** Types de clauses dépendantes
-   :PROPERTIES:
-   :CUSTOM_ID: h-569b95dd-01df-4010-8fd1-51fc0499381c
-   :END:
+** Types de clauses dépendantes                                    :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Types-de-clauses-d-pendantes-00ab2d21
+:END:
 *** Non-finies
-    :PROPERTIES:
-    :CUSTOM_ID: h-4a915574-e407-4182-b70c-8247c160d963
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Types-de-clauses-d-pendantes-Non-finies-6baa6064
+:END:
 
 *** Semi-finies
-    :PROPERTIES:
-    :CUSTOM_ID: h-377bfd10-ab3c-4fa1-9b7e-b3d5ec7491de
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Types-de-clauses-d-pendantes-Semi-finies-33c78d8c
+:END:
 
 *** Finies
-    :PROPERTIES:
-    :CUSTOM_ID: h-de685cbe-46a7-4ee9-a226-64767781fb37
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Types-de-clauses-d-pendantes-Finies-7b83ddae
+:END:
 
-* Système fonctionnel
-  :PROPERTIES:
-  :CUSTOM_ID: h-b98946f1-8554-4243-ab3e-bf098b1b04ef
-  :END:
+* Système fonctionnel                                              :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-0dfa0301
+:END:
 ** Relations grammaticales
-   :PROPERTIES:
-   :CUSTOM_ID: h-da598991-b75c-4031-a6af-0f06880eb971
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Relations-grammaticales-1edec474
+:END:
 
 ** Constructions liées à la voix et à la valence
-   :PROPERTIES:
-   :CUSTOM_ID: h-f6447004-ff87-46d0-afc2-08e1cf1dfc64
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-8c01479b
+:END:
 *** Causatif
-    :PROPERTIES:
-    :CUSTOM_ID: h-b1dac30b-3ca7-4a71-a313-34cdab5e234e
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Causatif-b5985ae1
+:END:
 
 *** Applicatif
-    :PROPERTIES:
-    :CUSTOM_ID: h-578be841-9d4e-45bf-99a7-2969887e61d9
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Applicatif-c3d3e465
+:END:
 
 *** Déplacement datif
-    :PROPERTIES:
-    :CUSTOM_ID: h-114ace73-6554-41d6-b215-a4008d0cecc2
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-D-placement-datif-e722ba57
+:END:
 
 *** Datif d’intérêt
-    :PROPERTIES:
-    :CUSTOM_ID: h-acb2ac0a-d3ee-4eab-a9ad-d2e56c7d9e7e
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Datif-d-int-r-t-22328a48
+:END:
 
 *** Possession exterieure
-    :PROPERTIES:
-    :CUSTOM_ID: h-ea45c49e-434b-4033-a204-f4f134bc9743
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Possession-exterieure-ebe65f0a
+:END:
 
 *** Réflexifs et réciproques
-    :PROPERTIES:
-    :CUSTOM_ID: h-e24ca699-b946-4a20-a89a-4e6fcdd04aaf
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-R-flexifs-et-r-ciproques-d52366fb
+:END:
 
 *** Passifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-32469595-6713-41f7-82e4-0842363ce78c
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Passifs-59078b05
+:END:
 
 *** Inverses
-    :PROPERTIES:
-    :CUSTOM_ID: h-1b1a41fe-0567-4bd0-9980-70e75136f32d
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Inverses-56dc84eb
+:END:
 
 *** Constructions moyennes
-    :PROPERTIES:
-    :CUSTOM_ID: h-a6f23f5e-5e5c-4a0d-addf-9a2dc94798bd
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Constructions-moyennes-cab2b8c3
+:END:
 
 *** Antipassifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-8ae349c3-c9e6-4c00-a8a3-1422bcb759c3
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Antipassifs-006f0fd4
+:END:
 
 *** Démotion d’objet ou omission
-    :PROPERTIES:
-    :CUSTOM_ID: h-e114b8d4-fd80-447b-9807-b740d94250ca
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-D-motion-d-objet-ou-omission-fc086cbc
+:END:
 
 *** Incorporation d’objet
-    :PROPERTIES:
-    :CUSTOM_ID: h-0cbb7721-1e9e-4a4f-b16b-1abbbaf41515
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Constructions-li-es-la-voix-et-la-valence-Incorporation-d-objet-7c20a3e5
+:END:
 
 ** Nominalisation
-   :PROPERTIES:
-   :CUSTOM_ID: h-ba9b627c-d1c6-46d3-af2a-335e674ea09c
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-931b978f
+:END:
 *** Nominalisation d’action
-    :PROPERTIES:
-    :CUSTOM_ID: h-0c34362c-290b-4c16-993d-1aede011f4aa
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-d-action-fedf710f
+:END:
 
 *** Nominalisation de participant
-    :PROPERTIES:
-    :CUSTOM_ID: h-6283863d-8e9c-4fc8-bd77-b852fdd116c4
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-d30e28a6
+:END:
 **** Nominalisation d’agent
-     :PROPERTIES:
-     :CUSTOM_ID: h-a51e1cd9-55a2-440f-bf60-96361d13980d
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-Nominalisation-d-agent-fd33a3be
+:END:
 
 **** Nominalisation de patient
-     :PROPERTIES:
-     :CUSTOM_ID: h-862598a2-5803-4785-b921-4ffe172d278a
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-Nominalisation-de-patient-38b89bbb
+:END:
 
 **** Nominalisation d’instrument
-     :PROPERTIES:
-     :CUSTOM_ID: h-1907392e-aa37-49d6-b4a4-c44c16307586
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-Nominalisation-d-instrument-32253296
+:END:
 
 **** Nominalisation de lieu
-     :PROPERTIES:
-     :CUSTOM_ID: h-d1a579d2-b9a5-44b3-8542-03055d1e973f
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-Nominalisation-de-lieu-ad6f365f
+:END:
 
 **** Nominalisation de produit
-     :PROPERTIES:
-     :CUSTOM_ID: h-5fa747d2-b8d2-4c70-a259-3b5389b51590
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-Nominalisation-de-produit-4f1ce520
+:END:
 
 **** Nominalisation de manière
-     :PROPERTIES:
-     :CUSTOM_ID: h-149cf142-1783-4e08-b581-9c1fbf577987
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-de-participant-Nominalisation-de-mani-re-8bcd6a0a
+:END:
 
 *** Nominalisation causale
-    :PROPERTIES:
-    :CUSTOM_ID: h-3172c987-3ab3-48de-9b2c-26420ce516ea
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Nominalisation-Nominalisation-causale-4ac7c871
+:END:
 
 ** Temps, aspect, mode
-   :PROPERTIES:
-   :CUSTOM_ID: h-7817ca1d-e3ad-48ed-8f79-9039e5c651c7
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-0d84babe
+:END:
 *** Temps
-    :PROPERTIES:
-    :CUSTOM_ID: h-8f9ad932-6d85-4ea3-b4d5-aada0f48e488
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Temps-cddc8be3
+:END:
 
 *** Aspects
-    :PROPERTIES:
-    :CUSTOM_ID: h-ec16ad8f-69c7-44bc-ad20-da6d9188b3d1
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-71818c67
+:END:
 
 *** Modes
-    :PROPERTIES:
-    :CUSTOM_ID: h-c7d2c230-6431-42f5-bf7a-dd70e61499f3
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Modes-8f3e9bba
+:END:
 
 *** Lieux/direction
-    :PROPERTIES:
-    :CUSTOM_ID: h-94eb465d-d084-4d4b-9390-618ed43a4606
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Lieux-direction-da24c560
+:END:
 
 *** Évidentialité, validation et mirativité
-    :PROPERTIES:
-    :CUSTOM_ID: h-52d58b47-a607-4f9b-9fa8-f960d3ab50cc
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-videntialit-validation-et-mirativit-4a99ac54
+:END:
 
 *** Divers
-    :PROPERTIES:
-    :CUSTOM_ID: h-552d73fa-eee2-46d8-9225-42431b4d7820
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Divers-5f209996
+:END:
 
 ** Structures marquées pragmatiquement
-   :PROPERTIES:
-   :CUSTOM_ID: h-eaf98d70-ee47-43bc-92e3-425c940a4493
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-6f4cbea6
+:END:
 *** Variation d’ordre des constituants
-    :PROPERTIES:
-    :CUSTOM_ID: h-6d3d502c-89da-4c88-9bb0-0e08fa3cced8
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Variation-d-ordre-des-constituants-24985694
+:END:
 
 *** Particules contrastives et emphatiques
-    :PROPERTIES:
-    :CUSTOM_ID: h-772ee454-b2dc-4461-b619-e1c60a2e9fdf
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Particules-contrastives-et-emphatiques-9ad536e1
+:END:
 
 *** Motifs d’intonation contrastifs et emphatiques
-    :PROPERTIES:
-    :CUSTOM_ID: h-9c0eda5f-2dd9-4011-aed5-07214524ab8d
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Motifs-d-intonation-contrastifs-et-emphatiques-92e024cf
+:END:
 
 *** Négation
-    :PROPERTIES:
-    :CUSTOM_ID: h-0b72b283-9ce9-4078-8d44-e8cc85c554e1
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-N-gation-2b8bacb9
+:END:
 
 *** Questions
-    :PROPERTIES:
-    :CUSTOM_ID: h-a92e1f8f-7092-4975-850c-93a70c6f6466
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Questions-e028e092
+:END:
 **** Questions absolues
-     :PROPERTIES:
-     :CUSTOM_ID: h-b273f0de-ba6d-49c7-9eba-c49dbb527d4b
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Questions-Questions-absolues-39111542
+:END:
 
 **** Questions relatives
-     :PROPERTIES:
-     :CUSTOM_ID: h-3732004d-f013-4d12-bae8-ba1ed7359ece
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Questions-Questions-relatives-51872558
+:END:
 
 *** Impératifs
-    :PROPERTIES:
-    :CUSTOM_ID: h-857e4f5d-623e-4ea6-8263-96cd90b724dc
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Structures-marqu-es-pragmatiquement-Imp-ratifs-b4b5655f
+:END:
 
 ** Combinaison de clauses
-   :PROPERTIES:
-   :CUSTOM_ID: h-60c13fa4-7a4a-44db-8ade-28e39243a390
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-ff6d4ff6
+:END:
 *** Verbes de série
-    :PROPERTIES:
-    :CUSTOM_ID: h-42ff20dc-0552-463d-901c-997bb7f1b3f5
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-Verbes-de-s-rie-5c13eb19
+:END:
 
 *** Clauses complémentaires
-    :PROPERTIES:
-    :CUSTOM_ID: h-56f6552e-6604-4dde-98cb-6286f3f6291e
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-Clauses-compl-mentaires-025727db
+:END:
 
 *** Clauses adverbiales
-    :PROPERTIES:
-    :CUSTOM_ID: h-69e269b0-ded6-4188-8fb2-869921f27375
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-Clauses-adverbiales-c5316013
+:END:
 
 *** Enchaînement de clauses, clauses médianes et changement de référence
-    :PROPERTIES:
-    :CUSTOM_ID: h-2fe752f2-8586-4fd2-85de-a0f94f04be07
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-Encha-nement-de-clauses-clauses-m-dianes-et-changement-de-r-f-rence-3d3b3055
+:END:
 
 *** Clauses relatives
-    :PROPERTIES:
-    :CUSTOM_ID: h-a7892774-5608-47c3-a66a-fef0a11acea2
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-Clauses-relatives-a742d3bd
+:END:
 
 *** Coordination
-    :PROPERTIES:
-    :CUSTOM_ID: h-1e8799b0-9cce-4bff-a5b2-f237ed0715fb
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Combinaison-de-clauses-Coordination-40bb3248
+:END:
 
 ** La langue telle qu’utilisée
-   :PROPERTIES:
-   :CUSTOM_ID: h-410b5fac-bda1-4c79-9f74-9bd747666e2c
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-14f93dae
+:END:
 *** Typologie lexicale
-    :PROPERTIES:
-    :CUSTOM_ID: h-e6d10a54-078f-4cc0-8a07-28a6fed468ba
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Typologie-lexicale-e6a0a33c
+:END:
 **** Espace, directions et déplacements
-     :PROPERTIES:
-     :CUSTOM_ID: h-997b8c61-cb5d-40f9-92c1-6e17cfaddce3
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Typologie-lexicale-Espace-directions-et-d-placements-61785b3d
+:END:
 
 **** Causation
-     :PROPERTIES:
-     :CUSTOM_ID: h-44afa9f9-5dc8-4883-90f5-a214b455eef9
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Typologie-lexicale-Causation-7b7e1efc
+:END:
 
 **** Valence
-     :PROPERTIES:
-     :CUSTOM_ID: h-39f2e9c1-f91f-4e64-b667-c89a3c9edf77
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Typologie-lexicale-Valence-91463a12
+:END:
 
 **** Prépondérance des caractéristiques sémantiques
-     :PROPERTIES:
-     :CUSTOM_ID: h-5ab18e70-8101-417d-be7e-1d87cb85a6ed
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Typologie-lexicale-Pr-pond-rance-des-caract-ristiques-s-mantiques-2c48d237
+:END:
 
 *** Continuité (cohésion) et discontinuité
-    :PROPERTIES:
-    :CUSTOM_ID: h-0a5942b9-40eb-4289-bc48-c8e261d396e1
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Continuit-coh-sion-et-discontinuit-4bf725f8
+:END:
 **** Continuité de sujet (référenciel)
-     :PROPERTIES:
-     :CUSTOM_ID: h-48bbdda1-6153-4bb2-9329-41acb5ed4e16
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Continuit-coh-sion-et-discontinuit-Continuit-de-sujet-r-f-renciel-18cb2656
+:END:
 
 **** Continuité de thème
-     :PROPERTIES:
-     :CUSTOM_ID: h-c101a6e6-3235-497c-93b0-8d1a33d6014b
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Continuit-coh-sion-et-discontinuit-Continuit-de-th-me-7c775c21
+:END:
 
 **** Continuité d’action
-     :PROPERTIES:
-     :CUSTOM_ID: h-98780284-20cb-4ddd-ac75-55454ac31dd1
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Continuit-coh-sion-et-discontinuit-Continuit-d-action-67ac7ce9
+:END:
 
 *** Prominence épisodique
-    :PROPERTIES:
-    :CUSTOM_ID: h-d2e427d9-a12d-4930-ae84-b6f2e1db22e9
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Prominence-pisodique-de26295b
+:END:
 **** Apogée, point de culminance
-     :PROPERTIES:
-     :CUSTOM_ID: h-0a5068b2-1d91-4fa1-b8c6-163ceef8ded9
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Prominence-pisodique-Apog-e-point-de-culminance-54774494
+:END:
 
 **** Intensification
-     :PROPERTIES:
-     :CUSTOM_ID: h-c4f61aa8-4b31-49e4-87d3-222105840b36
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Prominence-pisodique-Intensification-9486a7e8
+:END:
 
 *** Genres
-    :PROPERTIES:
-    :CUSTOM_ID: h-c001376f-4df2-4340-a181-62ab0e1eb645
-    :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-4af00b25
+:END:
 **** Conversation
-     :PROPERTIES:
-     :CUSTOM_ID: h-93c266a5-2f68-4bce-9d28-4fd6ae52640d
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Conversation-6e9b98a2
+:END:
 
 **** Narratif
-     :PROPERTIES:
-     :CUSTOM_ID: h-0a1db1a3-6460-4f55-999b-28c0f4dad61b
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Narratif-610967e8
+:END:
 ***** Expériences personnelles
-      :PROPERTIES:
-      :CUSTOM_ID: h-098a7c39-cf64-4312-9b76-c2869e2da5de
-      :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Narratif-Exp-riences-personnelles-7f29d634
+:END:
 
 ***** Historique
-      :PROPERTIES:
-      :CUSTOM_ID: h-cc748a7e-07be-4a8e-b5fa-59273aeb307c
-      :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Narratif-Historique-d5669351
+:END:
 
 ***** Histoires folkloriques
-      :PROPERTIES:
-      :CUSTOM_ID: h-917be5b0-5b4e-4b21-a52e-e40131e09921
-      :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Narratif-Histoires-folkloriques-641c0022
+:END:
 
 ***** Mythologie
-      :PROPERTIES:
-      :CUSTOM_ID: h-6c431938-12f9-4d8a-89e0-a61a8aaeba3b
-      :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Narratif-Mythologie-964a048b
+:END:
 
 **** Pressant
-     :PROPERTIES:
-     :CUSTOM_ID: h-068bfae1-e695-4d50-9ab4-dd7cb8bd07f3
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Pressant-1a36c919
+:END:
 
 **** Procédurel
-     :PROPERTIES:
-     :CUSTOM_ID: h-f1217ba9-c667-460e-98a9-c57b8e4bf26b
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Proc-durel-021a9e28
+:END:
 
 **** Informatif
-     :PROPERTIES:
-     :CUSTOM_ID: h-fceaaa34-b2ac-4296-a8d6-56d0cb5baa21
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Informatif-e5bd6612
+:END:
 
 **** Descriptif
-     :PROPERTIES:
-     :CUSTOM_ID: h-62923698-ff3e-4d49-b0bc-7f51fc465733
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-Descriptif-433e13eb
+:END:
 
 **** Élocution rituelle
-     :PROPERTIES:
-     :CUSTOM_ID: h-b437a999-0294-43a6-8752-ba282078c026
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Genres-locution-rituelle-a0a968af
+:END:
 
 *** Divers et conclusions
-    :PROPERTIES:
-    :CUSTOM_ID: h-fafab62a-23f1-4536-ba17-9f89e7cc0944
-    :END:
-    :PROPERTIES:
-    :CUSTOM_ID: h-ee4f1d3a-b677-450c-ae7e-0058b3951ad0
-    :END
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Divers-et-conclusions-8e1c39e7
+:END:
 **** Expressions idiomatiques et proverbes
-     :PROPERTIES:
-     :CUSTOM_ID: h-f4be97ec-4df3-40e2-ae76-73ddf08134a1
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Divers-et-conclusions-Expressions-idiomatiques-et-proverbes-3a013412
+:END:
 
 **** Symbolisme sonore
-     :PROPERTIES:
-     :CUSTOM_ID: h-5556ebe6-940e-40ee-8a97-c2bfd6c0e9e1
-     :END:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-La-langue-telle-qu-utilis-e-Divers-et-conclusions-Symbolisme-sonore-8287d109
+:END:
 
-* Annexes
-  :PROPERTIES:
-  :CUSTOM_ID: h-abba570c-9f4e-4b85-9fdf-2d17707a3c1a
-  :END:
+* Annexes                                                          :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Annexes-da03b10f
+:END:
 ** Textes avec traduction interlinéaire
-   :PROPERTIES:
-   :CUSTOM_ID: h-23b6ac25-c290-4121-95ef-66897fd6a93d
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Annexes-Textes-avec-traduction-interlin-aire-019f1ef2
+:END:
 
 ** Dictionnaire
-   :PROPERTIES:
-   :CUSTOM_ID: h-50e5b25c-34f1-4495-ae05-386455077cd5
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: Annexes-Dictionnaire-56cf4788
+:END:
 
 * Data not to be exported                                          :noexport:
-  :PROPERTIES:
-  :CUSTOM_ID: h-39983f30-b547-410d-9984-12cb7565c72a
-  :END:
+:PROPERTIES:
+:CUSTOM_ID: Data-not-to-be-exported-ec97df75
+:END:
 
 * Footnotes
-  :PROPERTIES:
-  :CUSTOM_ID: h-defe47b2-686b-4d1c-ba9b-c84e6c482478
-  :END:
+:PROPERTIES:
+:CUSTOM_ID: Footnotes-34c98e36
+:END:
 
 [fn:2] [[https://phundrak.com]]
 
