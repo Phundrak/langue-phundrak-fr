@@ -1,0 +1,12 @@
+#awkwords version 1.2
+A:q/g/c/j/ñ/m/n/s/z/p/b/w
+B:q/g/c/j/ñ/m/n/s/z/p/b
+V:œ/ø/o/e
+W:ú/u/y/i
+X:œ/ø/o/e/ú/u/y/i
+C:j/c/z/s
+P:m/b/p/g/q
+r:X(B/CP)/AV(B/CP)/BW(B/CP)(X(AV(B/CP)/BW(B/CP)/CPX(B/CP)))
+n:1000
+nle
+filterdup
