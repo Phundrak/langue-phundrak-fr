@@ -1174,7 +1174,7 @@ d’écriture.
 |   66    |                b-0                 |      {{{nyqy(coñyñy)}}}      |
 |   72    |               1-0-0                | {{{nyqy(mimœ)}}} ou {{{nyqy(mœ)}}} |
 |   432   |               6-0-0                |      {{{nyqy(pemœmœ)}}}      |
-|   864   |              1-0-0-0               | {{{nyqy(misi)}}} ou {{{nyqy(si)}}} |
+|   864   |              1-0-0-0               | {{{nyqy(mise)}}} ou {{{nyqy(se)}}} |
 |  10368  |             1-0-0-0-0              |       {{{nyqy(gec)}}}        |
 | 124416  |            1-0-0-0-0-0             |       {{{nyqy(cœj)}}}        |
 | 1492992 |           1-0-0-0-0-0-0            |       {{{nyqy(ñuñ)}}}        |
@@ -1185,10 +1185,10 @@ base douze pour ce qui n’est pas des unités.
 
 Voici un exemple ci-dessous de la notation de 14873 en Proto-Ñyqy:
 |    <c>    |    <c>     |    <c>     |     <c>      |   <c>    |
-| {{{nyqy(gec)}}} | {{{nyqy(cosi)}}} | {{{nyqy(qimœ)}}} | {{{nyqy(geñyñy)}}} | {{{nyqy(nø)}}} |
+| {{{nyqy(gec)}}} | {{{nyqy(cose)}}} | {{{nyqy(qimœ)}}} | {{{nyqy(geñyñy)}}} | {{{nyqy(nø)}}} |
 |   12^{3}×6   |  5×12^{2}×6   |  2×12^{1}×6   | (6+4)×12^{0}×6  |    3     |
 |   10368   |    4320    |    144     |      60      |    3     |
-Ainsi, 14875 se traduit par {{{nyqy(gec cosi qimœ geñyñy nø)}}}. Il est à noter
+Ainsi, 14875 se traduit par {{{nyqy(gec cose qimœ geñyñy nø)}}}. Il est à noter
 toutefois que le terme se coupera en deux, laissant {{{nyqy(nø)}}} seul, si le nombre
 s’applique à un nom. Voir la section
 [[#Aperçu_structurel-Syntaxe_clauses_nominales-Numéraux-f2cc88b9]].
@@ -2618,7 +2618,7 @@ l’indicatif.
   1. (n) morsure
   2. (vi) mordre
   3. (vt) attaquer (animal)
-- {{{nyqy(bijøñ)}}} :: {{{defnl}}} Voir /bomij/ et /wéñ/
+- {{{nyqy(bijøñ)}}} :: {{{defnl}}} Voir /bomij/ et /wøñ/
   1. (n) nuit (période)
 - {{{nyqy(bin)}}} :: {{{def}}}
   1. (n) quelque chose de mauvais, sale
@@ -2643,7 +2643,7 @@ l’indicatif.
   1. (pron.dem) ceci, ça, démonstratif de proximité avec le locuteur
 - {{{nyqy(bœmij)}}} :: {{{def}}}
   1. (n) Lune, {{{nyqy(mijoñ)}}} ou {{{nyqy(misij)}}}
-- {{{nyqy(bœpøñ)}}} :: {{{defnl}}} Voir /bœpo/ et /wéñ/
+- {{{nyqy(bœpøñ)}}} :: {{{defnl}}} Voir /bœpo/ et /wøñ/
   1. (n) journée (période)
 - {{{nyqy(bœpo)}}} :: {{{defnl}}} Voir /bœ/ et /po/
   1. (n) le Soleil, Avi
@@ -2661,6 +2661,8 @@ l’indicatif.
 :END:
 - {{{nyqy(ci)}}} :: {{{def}}}
   1. (n) arbre
+- {{{nyqy(cisi)}}} :: {{{defnl}}} Voir /ci/, /si/
+  1. (n) fleur
 - {{{nyqy(cim)}}} :: {{{defnl}}} Voir /ci/
   1. (n) bois
 - {{{nyqy(co)}}} :: {{{def}}}
@@ -2690,7 +2692,7 @@ l’indicatif.
   3. (vi) prendre parti
 - {{{nyqy(cu)}}} :: {{{def}}}
   1. (pron) mon, ma, mes, pronom possessif exclusif de la première personne
-- {{{nyqy(cuwøñ)}}} :: {{{defnl}}} Voir /cosu/ et /wéñ/
+- {{{nyqy(cuwøñ)}}} :: {{{defnl}}} Voir /cosu/ et /wøñ/
   1. (adv) tout le temps
 - {{{nyqy(cúqø)}}} :: {{{def}}}
   1. (n) fourmi
@@ -2729,7 +2731,7 @@ l’indicatif.
   1. (n) quelque chose de grand, gros, large
   2. (vi) grossir
   3. (vt) agrandir
-- {{{nyqy(gosin)}}} :: {{{defnl}}} Voir /goñ/ et /sin/
+- {{{nyqy(gosen)}}} :: {{{defnl}}} Voir /goñ/ et /sen/
   1. roc, rocher
 - {{{nyqy(gø)}}} :: {{{def}}}
   1. (nbr) quatre
@@ -2890,13 +2892,18 @@ l’indicatif.
   1. (n) bébé, enfant en bas âge, ne sachant pas encore parler
 - {{{nyqy(neñœ)}}} :: {{{defnl}}} Voir /ne/, /ñœ/
   1. (n) couleur sombre, absence de luminosité
-  2. (v) se coucher (astres uniquement)
+  2. (vi) se coucher (astres uniquement)
+  3. (vt) fermer (des fenêtres, des portes), éteindre (une source de lumière), rendre une pièce sombre
 - {{{nyqy(nezp)}}} :: {{{defnl}}} Voir /ne/ et /ezp/
   1. (n) enfant n’étant pas encore en âge de travailler (jusqu’à environ 10
      ans)
 - {{{nyqy(noc)}}} :: {{{def}}}
   1. (n) vieillesse, grand âge
   2. (n) quelque chose de vieux, d’ancien, de grand âge
+- {{{nyqy(noso)}}} :: {{{defnl}}} Voir /ne/, /soo/
+  1. (n) quelque chose de rond, d’abimé
+  2. (n) quelque chose émoussé, usé, abimé
+  3. (v) avoir sommeil, vouloir dormir
 - {{{nyqy(nø)}}} :: {{{def}}}
   1. (nbr) trois
 - {{{nyqy(nœ)}}} :: {{{def}}}
@@ -2941,7 +2948,7 @@ l’indicatif.
 - {{{nyqy(ñucm)}}} :: {{{def}}}
   1. (n) chute
   2. (vi) tomber, chuter
-- {{{nyqy(ñunø)}}} :: {{{defnl}}} Voir aussi /wéz/
+- {{{nyqy(ñunø)}}} :: {{{defnl}}} Voir aussi /wøz/
   1. (n) dieu terrestre, divinité, être supérieur
 - {{{nyqy(ñuñ)}}} :: {{{def}}}
   1. (nbr) marqueur de 1000000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
@@ -2968,9 +2975,9 @@ l’indicatif.
   1. (vt) aimer, apprécier
 - {{{nyqy(ømøz)}}} :: {{{def}}}
   1. (n) mère
-- {{{nyqy(ømpø)}}} :: {{{defnl}}} Voir /éméz/ et /épéq/
+- {{{nyqy(ømpø)}}} :: {{{defnl}}} Voir /ømøz/ et /øpøq/
   1. (n) maternité, paternité
-- {{{nyqy(ømpøcoj)}}} :: {{{defnl}}} Voir /émpé/ et /coj/
+- {{{nyqy(ømpøcoj)}}} :: {{{defnl}}} Voir /ømpø/ et /coj/
   1. (n) comportement parental, maternel, paternel
   2. (n) comportement protecteur
 - {{{nyqy(øpøq)}}} :: {{{def}}}
@@ -2999,11 +3006,16 @@ l’indicatif.
   1. (n) pomme
 - {{{nyqy(po)}}} :: {{{def}}}
   1. (n) or (matière)
-  2. (n) dorée (couleur), aspect doré
+  2. (n) dorée (couleur), aspect doré, jaune
+  3. (n) couleur vive
 - {{{nyqy(pom)}}} :: {{{def}}}
   1. (gp) particule génitive
 - {{{nyqy(pomij)}}} :: {{{defnl}}} Voir /po/ et /mij/
   1. (n) jour, journée, un jour et une nuit (durée de temps, litt. d’or et d’argent)
+- {{{nyqy(pozib)}}} :: {{{defnl}}} Voir /po/, /juzip/
+  1. (n) graisse (litt. chair jaune), gras
+  2. (vi) prendre du poids
+  3. (vt) graisser, lubrifier
 - {{{nyqy(pœweq)}}} :: {{{def}}}
   1. (n) griffe
   2. (n) pendentif, bijou
@@ -3030,6 +3042,9 @@ l’indicatif.
   1. (vi) partir, quitter
 - {{{nyqy(qi)}}} :: {{{def}}}
   1. (nbr) deux
+- {{{nyqy(qoje)}}} :: {{{def}}}
+  1. (n) faible quantité
+  2. (n) nombre faible, mais supérieur à un
 - {{{nyqy(qomy)}}} :: {{{def}}}
   1. (n) solitude, seul
   2. (n) individualité, individuel
@@ -3038,10 +3053,10 @@ l’indicatif.
   2. (n) quelque chose de grand, de haut
   3. (vi) grandir
   4. (vt) soulever, élever quelque chose
-- {{{nyqy(qøbsin)}}} :: {{{defnl}}} Voir /qéeb/ et /sin/
+- {{{nyqy(qøbsen)}}} :: {{{defnl}}} Voir /qøeb/ et /sen/
   1. (n) montagne
   2. (vi) trôner, dominer
-- {{{nyqy(qøeb)}}} :: {{{defnl}}} Voir /qé/ et /meb/
+- {{{nyqy(qøeb)}}} :: {{{defnl}}} Voir /qø/ et /meb/
   1. (n) colline
 - {{{nyqy(qøy)}}} :: {{{def}}}
   1. (n) chaleur
@@ -3073,9 +3088,9 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-S-e9e187ae
 :END:
-- {{{nyqy(si)}}} :: {{{def}}}
+- {{{nyqy(se)}}} :: {{{def}}}
   1. (nbr) marqueur de 1000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
-- {{{nyqy(sin)}}} :: {{{def}}}
+- {{{nyqy(sen)}}} :: {{{def}}}
   1. (n) pierre (matière)
   2. (n) pierre (objet), petit rocher
   3. (n) dureté, quelque chose de dur
@@ -3091,7 +3106,10 @@ l’indicatif.
   3. (n) quelque chose de brillant, émanant de la chaleur
   4. (vi) brûler
   5. (vi) illuminer, allumer, briller (chaud)
-- {{{nyqy(søc)}}} :: {{{defnl}}} Voir /sy/ et /éc/
+- {{{nyqy(soo)}}} :: {{{def}}}
+  1. (n) tranchant de lame, pointe
+  2. (n) chose aiguisée, affutée, pointue
+- {{{nyqy(søc)}}} :: {{{defnl}}} Voir /sy/ et /øc/
   1. (n) mort
   2. (vi) mourir
 - {{{nyqy(søge)}}} :: {{{def}}}
@@ -3125,7 +3143,7 @@ l’indicatif.
   1. (n) beauté
 - {{{nyqy(sywøqun)}}} :: {{{defnl}}} Voir /sywéz/ et /qun/
   1. (n) Chaman. Aspirant aux esprits, aux âmes, aux dieux.
-- {{{nyqy(sywøz)}}} :: {{{defnl}}} Voir /sy/ et /wéz/
+- {{{nyqy(sywøz)}}} :: {{{defnl}}} Voir /sy/ et /wøz/
   1. (n) souffle divin, âme, esprit
 - {{{nyqy(sywøzøc)}}} :: {{{defnl}}} Voir /sywøz/ et /øc/
   1. (n) tristesse
@@ -3220,7 +3238,7 @@ l’indicatif.
   1. (n) liquide
   2. (n) quelque chose de liquide ou d’aqueux
   3. (n) quelque chose de bénéfacteur
-- {{{nyqy(ycøjøz)}}} :: {{{defnl}}} Voir /yc/, /újq/ et /wéz/
+- {{{nyqy(ycøjøz)}}} :: {{{defnl}}} Voir /yc/, /újq/ et /wøz/
   1. (n) magie, force divine. Littéralement « eau de la puissance divine »
 - {{{nyqy(ycsy)}}} :: {{{defnl}}} Voir /yc/ et /sy/
   1. (n) pluie, fines gouttes
