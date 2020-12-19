@@ -1235,9 +1235,9 @@ Français entre « deuxième » et « second ».
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Classes_de_mots-Adverbes-8d8d4dc3
 :END:
-# - What characterikes a form as being an adverb in this language? If you # posit a distinct class of adverbs, argue for why these forms should not # be treated as nouns, verbs, or adjectives.
-# - For each kind of adverb listed in this section, list a few members of # the type, and specify whether there are any restrictions relavite to # that type, e.g. where they can come in a clause, any morphemes common # to the type, etc.
-# - Are any of these classes of adverbs related to older complement-taking # (matrix) verbs?
+# - What characterikes a form as being an adverb in this language? If you posit a distinct class of adverbs, argue for why these forms should not be treated as nouns, verbs, or adjectives.
+# - For each kind of adverb listed in this section, list a few members of the type, and specify whether there are any restrictions relavite to that type, e.g. where they can come in a clause, any morphemes common to the type, etc.
+# - Are any of these classes of adverbs related to older complement-taking (matrix) verbs?
 
 *** Adpositions                                                    :noexport:
 :PROPERTIES:
@@ -1592,14 +1592,28 @@ classés par subjectivité. Voir la section
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-4a4ff5c0
 :END:
-*** Mots composés                                                  :noexport:
+*** Mots composés
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Mots_composés-75aaeeb4
 :END:
 # - Is there noun-noun compounding that results in a noun (e.g. /windshield/)?
 # - How do you know it is compounding?
 # - Is there noun-verb (or verb-noun) compounding that results in a noun (e.g. /pickpocket/, /scarecrow/)?
-# - Are these processes productive (like noun-verb in English can-opener)? How # common is compounding?
+# - Are these processes productive (like noun-verb in English can-opener)? How common is compounding?
+Le Proto-Ñyqy est une langue faisant beaucoup usage de mots composés, avec des
+racines pouvant être aussi bien des noms que des verbes. On trouve par exemple
+{{{nyqy(cisi)}}} ou « fleur », composé des termes {{{nyqy(ci)}}} pour « arbre » et {{{nyqy(si)}}}
+pour désigner quelque chose de petit. Il peut être quelques fois difficile au
+novice en Proto-Ñyqy de distinguer entre un nom portant des adjectifs ou un nom
+composé, mais parfois certains mots composés peuvent avoir une étymologie un peu
+moins intuitive. Par exemple, le terme {{{nyqy(søc)}}} est composé à la base des
+termes {{{nyqy(sy)}}} et {{{nyqy(øc)}}}. On a ici une perte de la première voyelle /y/ et le
+/ø/ est conservé. Le terme {{{nyqy(ømpø)}}} est également un mot composé, venant de
+{{{nyqy(ømøz)}}} et {{{nyqy(øpøq)}}}. Les règles concernant comment les mots composés sont
+formés exactement sont encore inconnues.
+
+Les mots composés en Proto-Ñyqy sont relativement fréquents : on estime
+qu’environ un quart du vocabulaire de cette langue au moins en est composé.
 
 *** Dénominalisation                                               :noexport:
 :PROPERTIES:
@@ -1610,7 +1624,7 @@ classés par subjectivité. Voir la section
 # - An adverb from a noun?
 # La dénominalisation en Proto-Ñyqy se produit grâce au mot {{{nyqy(sœ)}}} signifiant « façon de faire ». En se suffixant à un nom, on obtient un verbe dont la signification est généralement en relation avec le nom d’origine. Par exemple, en associant le terme {{{nyqy(qøy)}}} à ce mot {{{nyqy(sœ)}}}, on obtient le verbe {{{nyqy(qøysœ)}}} signifiant « chauffer, réchauffer, cuire ».
 
-*** Nombres                                                        :noexport:
+*** Nombre
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Nombres-7914fa48
 :END:
@@ -1619,13 +1633,40 @@ classés par subjectivité. Voir la section
 # - If number marking is “optional”, when does it tend to occur, and when does it tend not to occur?
 # - If number marking is obligatory, is number overtly expressed for all noun phrases or only some subclasses of noun phrases, such as animate?
 # - What non-singular distinctions are there?
+Le nombre n’est exprimé que rarement en Proto-Ñyqy, n’étant pas encodé
+grammaticalement dans la phrase. Il n’est généralement exprimé que lorsque le
+locuteur souhaite rendre explicite cette information auprès de ses
+interlocuteurs. La distinction habituelle entre singulier et pluriel est
+également absente du Proto-Ñyqy ; ainsi si le locuteur souhaite exprimer un
+nombre, ce nombre doit être explicite comme « un », « trois », « dix »,… ou bien
+il devra utiliser un qualificateur numérique vague comme « beaucoup » ou
+« peu ». Par exemple :
+- {{{nyqy(pim qy coq)}}}
+
+  Je mange une pomme / nous mangeons une pomme
+- {{{nyqy(pim qymi coq)}}}
+
+  Je mange une pomme
+- {{{nyqy(pim qyco coq)}}}
+
+  Nous mangeons une pomme
+- {{{nyqy(pim qy qoje coq)}}}
+
+  Nous (peu) mangeons une pomme
+- {{{nyqy(pim qy møg coq)}}}
+
+  Nous (nombreux) mangeons une pomme
+Entre le troisième et le quatrième exemples, on peut voir l’origine des nombres
+paucaux et pluriels des langues descendant du Proto-Ñyqy. On estime que la
+différence d’utilisation entre {{{nyqy(qoje)}}} et {{{nyqy(møg)}}} se situe aux alentours
+des cinq à huit éléments désignés par le marqueur numérique.
 
 *** Cas grammatical                                                :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Cas_grammatical-738042a3
 :END:
 # - Do nouns exhibit morphological case?
-# - If so, what are the cases? (The functions of the cases will be elaborated # in later sections)
+# - If so, what are the cases? (The functions of the cases will be elaborated in later sections)
 
 *** Articles et démonstratifs
 :PROPERTIES:
