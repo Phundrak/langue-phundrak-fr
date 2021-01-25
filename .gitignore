@@ -16,3 +16,4 @@ tibetan-lexicon-layout
 /ignored-folder/
 *.epub
 /content/ignored-folder/*
+*.bbl
