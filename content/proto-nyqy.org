@@ -147,9 +147,12 @@ garder exhaustive des abréviations que vous pourrez rencontrer plus tard.
 - 1 :: première personne
 - 2 :: deuxième personne
 - 3 :: troisième personne
+- ABL :: ablatif
 - ABS :: absolutif
 - art.indef :: article indéfini
 - art.def :: article défini
+- adv :: adverbe
+- CAUS :: causatif
 - DAT :: datif
 - ERG :: ergatif
 - F :: féminin
@@ -1935,7 +1938,7 @@ S ou A du verbe. Exemple :
   | pomme(ABS) | 1sg(ERG) | manger | ensuite | dormir |
   Je mange une pomme, puis (je) dors.
 
-** Constructions liées à la voix et à la valence                   :noexport:
+** Constructions liées à la voix et à la valence
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-2746e4c5
 :END:
@@ -1945,25 +1948,112 @@ S ou A du verbe. Exemple :
 :END:
 **** Causatif
 :PROPERTIES:
-:CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Causatif-7c971725
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Causatif-822a2f1f
 :END:
-# - How are causatives formed in this language? There are basically three possible answers to this question:
+# - How are causatives formed in this language? There are basically three
+#   possible answers to this question:
 #   - lexicall :: kill
 #   - morphological :: die + cause
 #   - analytic/periphrastic :: cause to die
-# - Give examples of both causative of instransitive verbs (e.g. /He made Shin Jaa laugh/), and of transivite verbs (e.g. /He made Shin Jaa wash the dishes/).
+# - Give examples of both causative of instransitive verbs (e.g. /He made Shin
+#   Jaa laugh/), and of transivite verbs (e.g. /He made Shin Jaa wash the
+#   dishes/).
 # - What happens to the causee in each type of causative?
-# - Does the causative morphosyntax also serve other functions (e.g. permissive, applicative, benefactive, instrumental, etc.)?
+# - Does the causative morphosyntax also serve other functions (e.g. permissive,
+#   applicative, benefactive, instrumental, etc.)?
 # - Are there any other interesting or unusual facts about causatives in the language?
+Le Proto-Ñyqy est une langue disposant de trois méthodes permettant d’exprimer
+le causatif, ce dernier permettant d’identifier la cause d’une action, d’un
+événement ou d’un état. La première de ces méthodes est lexicale : certains
+verbes sont inhéremment causatifs, tel que le verbe {{{nyqy(bin)}}} « salir », c’est à
+dire « causer la saleté, devenir sale ». Ce genre de verbe causatifs est
+reconnaissable car à quelques exceptions près, ils sont tous intransitifs dans
+leur signification de base et lorsqu’ils sont utilisés en tant que verbes
+transitifs, l’agent provoquant l’événement est passé en tant qu’argument
+ergatif, tandis que le patient dont l’état se retrouve changé est passé en tant
+qu’argument datif ; les arguments absolutifs ne sont pas autorisés. Exemples :
+- {{{nyqy(qy gœop)}}}
+  | / | <l> |       |     |
+  |   | qy  | gœ    | op  |
+  |   | 1   | boire | PST |
+  J’ai bu.
+- {{{nyqy(qyim yc gœop)}}}
+  | / | <l> |     |           |       |     |
+  |   | qy  | im  | yc        | gœ    | op  |
+  |   | 1   | DAT | eau.douce | boire | PST |
+  J’ai bu de l’eau / L’eau m’a hydraté
+Notez cependant que tous les verbes prenant un argument datif au lieu d’un
+argument absolutif n’est pas une garantie qu’il s’agisse d’un verbe causatif.
 
-**** Applicatif
+Les verbes causatifs ne sont pas un procédé productif, le nombre de verbes
+lexicalement causatifs étant limité. Ainsi, le Proto-Ñyqy dispose de deux autres
+moyens analytiques d’exprimer le causatifs. La première structure analytique est
+réservée lorsque l’élément causatif de la clause est considérée par le locuteur
+comme étant un être conscient et intelligent disposant d’une agence volontaire
+dans la clause exprimée. Une traduction littérale de cette structure est /X-GEN
+main-ABL Y/ avec /X/ l’agent causal de la clause et /Y/ la clause résultant de
+l’agence de /X/.
+- {{{nyqy(øpøqpom yzmœsó coqø qy coqop)}}}
+  | /    |     |      |     |       | <l> |            |
+  | øpøq | pom | yzm  | œsó | coqø  | qy  | coq-op     |
+  | père | GEN | main | ABL | fruit | 1   | manger-PST |
+  Mon père m’a fait manger un fruit.
+- {{{nyqy(ñopom yzmœsó qy niisø)}}}
+  | /         |     |      |     | <l> |         |
+  | ño        | pom | yzm  | œsó | qy  | niisø   |
+  | quelqu’un | GEN | main | ABL | 1   | effrayé |
+  Quelqu’un m’a fait peur (volontairement).
+
+Une seconde forme de causatif plus générale existe également ; celle-ci sera
+utilisée généralement par défaut pour le locuteur dans le cas où un être jugé
+conscient et intelligent n’a pas causé volontairement la clause décrite, ou si
+l’action a été causée par un être jugé agissant dans ce cas suivant son instinct
+(tel un animal sauvage, potentiellement les nourissons également) ou bien les
+éléments n’ayant pas de volition en soit comme des facteurs naturels. La
+structure syntaxique sera la suivante :
+#+headers: :results replace :exports results
+#+BEGIN_SRC latex-as-png :file img/nyqy/causative2.png
+  \usepackage{qtree}
+
+  % in
+
+  \Tree [.S [.CAUS [.A agent ]
+  [.CAUS marqueur ] ]
+  \qroof{clause}.S ]
+#+END_SRC
+#+ATTR_HTML: :width 256px
+#+ATTR_LATEX: :width 4.5cm
+#+RESULTS:
+[[file:img/nyqy/causative2.png]]
+
+La particule {{{nyqy(ñep)}}} marquant le causatif marque ainsi l’agent causal et non
+le verbe ; on peut retrouver des traces de cette particule dans certaines
+langues descendant du Proto-Ñyqy où la particule a évolué afin de marquer
+l’agent d’une clause. Il est intéressant de noter que cette particule {{{nyqy(ñip)}}}
+provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifiant
+« donner ».
+- {{{nyqy(ñoñep qy niisø)}}}
+  | /         |      | <l> |         |
+  | ño        | ñep  | qy  | niisø   |
+  | quelqu’un | CAUS | 1   | effrayé |
+  Quelqu’un m’a fait peur (sans le vouloir).
+- {{{nyqy(bœ ozñep jyizgúm qy gezop)}}}
+  | /       |      |      |                  | <l> |           |     |
+  | bœ      | oz   | ñep  | jyizgúm          | qy  | gez       | op  |
+  | art.def | chat | CAUS | serpent.venimeux | 1   | combattre | PST |
+  Le chat m’a fait me battre avec un serpent venimeux.
+
+**** Applicatif                                                 :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Applicatif-74fdd007
 :END:
-# - Are there any operations by which a participant which has a semantic role normally expressed in an “oblique” phrase can “advance” to direct object status?
-# - What semantic roles are subject to these operations and how common are these constructions?
+# - Are there any operations by which a participant which has a semantic role
+#   normally expressed in an “oblique” phrase can “advance” to direct object
+#   status?
+# - What semantic roles are subject to these operations and how common are these
+#   constructions?
 
-**** Déplacement datif
+**** Déplacement datif                                          :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Déplacement_datif-51f6b07b
 :END:
@@ -1971,17 +2061,17 @@ S ou A du verbe. Exemple :
 # - What semantic roles can be “dative-shifted”?
 # - Is dative shift obligatory?
 
-**** Datif d’intérêt
+**** Datif d’intérêt                                            :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Datif_d’intérêt-1379b324
 :END:
 
-**** Possession extérieure
+**** Possession extérieure                                      :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Augmentation_de_valence-Possession_extérieure-a3dbdcbc
 :END:
 
-*** Diminution de valence
+*** Diminution de valence                                        :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-3dd0a866
 :END:
@@ -1993,7 +2083,9 @@ S ou A du verbe. Exemple :
 #   - Morphologically?
 #   - Analytically?
 # - Are reflexives and reciprocals formally identical?
-# - Are there any “unusual” uses of reflexive/reciprocal morphosyntax? For example, does a reflexive marker appear in a noun phrase to indicate that the possessor of the noun phrase is the same as the subject of the clause?
+# - Are there any “unusual” uses of reflexive/reciprocal morphosyntax? For
+#   example, does a reflexive marker appear in a noun phrase to indicate that the
+#   possessor of the noun phrase is the same as the subject of the clause?
 # - Does reflexive/reciprocal morphology ever indicate interclausal coreference?
 # - Are there other “extended” uses of reflexive or reciprocal morphosyntax?
 
@@ -2001,19 +2093,23 @@ S ou A du verbe. Exemple :
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Passifs-c339f6cb
 :END:
-# - Which type(s) of passive constructions does the language have? Exemplify each type, and describe its function or functions.
+# - Which type(s) of passive constructions does the language have? Exemplify each
+#   type, and describe its function or functions.
 #   - Lexical?
 #   - Morphological?
 #   - Analytic?
-# - Are there “impersonal” passives, i.e. passives of intransitive verbs, or passives where there is not necessarily an *agent* implied?
-# - Is a passive construction obligatory in any particular environment, e.g. when a *patient* outranks an *agent* on some pragmatically defined hierarchy?
+# - Are there “impersonal” passives, i.e. passives of intransitive verbs, or
+#   passives where there is not necessarily an *agent* implied?
+# - Is a passive construction obligatory in any particular environment, e.g. when
+#   a *patient* outranks an *agent* on some pragmatically defined hierarchy?
 # - Are there other types of passives?
 
 **** Inverses
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Inverses-da164e01
 :END:
-# - Does the language have a grammatically instantiated inverse construction? If so, what type is it?
+# - Does the language have a grammatically instantiated inverse construction? If
+#   so, what type is it?
 
 **** Constructions moyennes
 :PROPERTIES:
@@ -2027,7 +2123,8 @@ S ou A du verbe. Exemple :
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Antipassifs-313605c6
 :END:
 # - Are there any grammatical structures that specifically function as antipassives?
-# - Is some other structure used to express transitive concepts when the *P* is very low in topicality?
+# - Is some other structure used to express transitive concepts when the *P* is
+#   very low in topicality?
 
 **** Démotion d’objet ou omission
 :PROPERTIES:
@@ -2038,7 +2135,9 @@ S ou A du verbe. Exemple :
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Diminution_de_valence-Incorporation_d’objet-484fca48
 :END:
-# - Does the language have object demotion or omission constructions (as distinct from antipassives)? References: Sapir (1911), Green (1981), Mithun (1984), Sadock (1986).
+# - Does the language have object demotion or omission constructions (as distinct
+#   from antipassives)? References: Sapir (1911), Green (1981), Mithun (1984),
+#   Sadock (1986).
 
 ** Nominalisation                                                  :noexport:
 :PROPERTIES:
