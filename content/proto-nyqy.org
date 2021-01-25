@@ -3620,6 +3620,39 @@ Lang D of [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7
 :END:
 Compléter la liste du fichier [[file:swadesh.org::#h-a5b4a65c-68ab-4630-b054-da816d679cfd][Swadesh#Ñyqy]].
 
+** Références intéressantes pour la construction de langues
+:PROPERTIES:
+:CUSTOM_ID: Choses-faire-R-f-rences-int-ressantes-pour-la-construction-de-langues-7a264f39
+:END:
+1. /Language Construction Kit/, Mark Rosenfelder
+2. /Describing Morphosyntax/, Thomas E. Payne
+3. /World Lexicon of Grammaticalization/, Tania Kuteva
+
+Chaînes linguistiques : NativLang, Linguisticae, Artifexian,  Biblaridion, Xidnaf, Langfocus
+https://www.youtube.com/watch?v=ttq0S4cuIHA : la langue sans temps, juste avec des aspects
+
+Mes sites :
+| Site de linguistique        | Site de ma configuration Linux | Mon blog                  |
+| https://langue.phundrak.com | https://config.phundrak.com    | https://blog.phundrak.com |
+
+** Ce soir, pour le Proto-Ñyqy
+:PROPERTIES:
+:CUSTOM_ID: Choses-faire-Ce-soir-pour-le-Proto-yqy-1b451c52
+:END:
+*** Vocabulaire
+:PROPERTIES:
+:CUSTOM_ID: Choses-faire-Ce-soir-pour-le-Proto-yqy-Vocabulaire-e92270ca
+:END:
+- un :: similaires, identiques (comparaisons) (échange potentiel entre /ñy/ et /mi/)
+- pied :: bas, en dessous, en bas
+- tête :: haut, en haut, au dessus
+- boyaux, tripes :: intérieur, dedans
+- visage :: passé, devant
+- épaule :: futur, derrière
+- main :: présent
+- ou :: peut-être, indique que ou serait inclusif par défaut
+- créer un équivalent au « si » en français pour la négation en Proto-Ñyqy
+
 * Footnotes
 :PROPERTIES:
 :CUSTOM_ID: Footnotes-6126f0eb
