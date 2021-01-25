@@ -7,5 +7,3 @@
 - archived
   - [[file:archived/hjelp.org][Hjelp]]
   - [[file:archived/matter.org][Mattér]]
-- en
-  - [[file:en/nyqy.org][Ñyqy]]
