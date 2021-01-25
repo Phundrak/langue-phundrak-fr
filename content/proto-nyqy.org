@@ -2218,18 +2218,18 @@ provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifian
 #         - progressif
 #         - non-progressif
 # Subjonctif dans une clause principale = ouï-dire
-Temps par défaut : non-passé (présent/futur)
-| mode | aspect | temps | gloss         |
-|------+--------+-------+---------------|
-|      |        |       | PRES          |
-|      |        | op    | PST           |
-|      | mún    |       | PROG          |
-|      | mún    | op    | PST.PROG      |
-| oqé  |        |       | OPT           |
-| ug   |        |       | SUBJ          |
-| ug   |        | op    | PST.SUBJ      |
-| ug   | mún    |       | SUBJ.PROG     |
-| ug   | mún    | op    | PST.SUBJ.PROG |
+# Temps par défaut : non-passé (présent/futur)
+# | mode | aspect | temps | gloss         |
+# |------+--------+-------+---------------|
+# |      |        |       | PRES          |
+# |      |        | op    | PST           |
+# |      | mún    |       | PROG          |
+# |      | mún    | op    | PST.PROG      |
+# | oqé  |        |       | OPT           |
+# | ug   |        |       | SUBJ          |
+# | ug   |        | op    | PST.SUBJ      |
+# | ug   | mún    |       | SUBJ.PROG     |
+# | ug   | mún    | op    | PST.SUBJ.PROG |
 # - pim i bœ mygú coq / Le singe mange une pomme
 # - pim i bœ mygú coqop / Le singe mangeait une pomme
 # - pim i bœ mygú coqmún / Le singe est en train de manger une pomme
@@ -2276,7 +2276,10 @@ temporelle, des indices pourront être donnés par le locuteur.
 
 Le temps en Proto-Ñyqy est donné par un marqueur {{{nyqy(op)}}} venant après le verbe
 lorsque celui-ci est au passé. Autrement, les verbes sont par défaut dans le
-temps non-passé, pouvant ainsi se référer au temps présent ou au futur.
+temps non-passé, pouvant ainsi se référer au temps présent ou au futur. Il est à
+noter que le marqueur {{{nyqy(op)}}} provient très certainement de la même racine que
+le terme {{{nyqy(opy)}}} signifiant « hier », notant ainsi une grammaticalisation de
+ce terme afin de dénoter le temps des verbes.
 
 Exemples :
 - {{{nyqy(qy uñ)}}}
@@ -2300,31 +2303,22 @@ Exemples :
 Le Proto-Ñyqy ne dispose que de trois aspects : l’imparfait, le parfait et le
 progressif.
 
-L’imparfait est l’aspect par défaut du Proto-Ñyqy, désignant tout événement
-pouvant paraître inachevé ou qui peut être placé comme événement de fond au
-temps de locution. Cette frame temporelle peut indiquer que des événements
-peuvent s’y insérer et se produire durant le déroulement de l’événement au
-parfait. Cet aspect n’est marqué par aucun marqueur grammatical.
+#+CAPTION: Liste des marqueurs d’aspects en Proto-Ñyqy
+| /           |     <     |
+|             |    <c>    |
+| Aspect      | Marqueur  |
+|-------------+-----------|
+| imperfectif |     Ø     |
+| perfectif   | {{{nyqy(uc)}}}  |
+| progressif  | {{{nyqy(mún)}}} |
 
-Le progressif, marqué par le marqueur {{{nyqy(mún)}}} permet de marquer un événement
-comme étant un événement s’étalant sur le temps. Cela peut donc indiquer une
-action étant en cours de déroulement au temps relatif à la locution, ou bien à
-un événement ayant un effet portant sur le temps de locution. Ce genre
-d’événement peut s’insérer durant une frame temporelle indiquée par de
-l’imparfait.
-
+**** Perfectif
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Perfectif-8acb85c8
+:END:
 Le parfait, marqué par le marqueur {{{nyqy(uc)}}}, permet d’indiquer un événement est
 considéré lors de la locution comme étant un objet manipulable, s’insérant dans
 une frame temporelle plus large (pouvant être indiquée par de l’imparfait).
-
-#+CAPTION: Liste des marqueurs d’aspects en Proto-Ñyqy
-| /          |     <     |
-|            |    <c>    |
-| Aspect     | Marqueur  |
-|------------+-----------|
-| imparfait  |     Ø     |
-| parfait    | {{{nyqy(uc)}}}  |
-| progressif | {{{nyqy(mún)}}} |
 
 Exemples :
 - {{{nyqy(qy uñmúnop ñyim bœmygú zúmuucop)}}}
@@ -2332,6 +2326,59 @@ Exemples :
   1sg marcher-PROG-PST 1sg-DAT art.def singe voir-PFT-PST
 
   Alors que je marchais, le singe me regarda.
+
+Il est très probable que le marqueur du perfectif {{{nyqy(oc)}}} ait la même racine
+que le verbe {{{nyqy(ocej)}}} signifiant « finir ». Ainsi, il est possible que le
+marqueur {{{nyqy(oc)}}} marquait plutôt un terminatif qu’un perfectif, cependant
+l’utilisation par la suite de ce marqueur comme marqueur du perfectif par les
+langues descendant du Proto-Ñyqy laissent plutôt à penser qu’il s’agissait
+effectivement de perfectif.
+
+**** Imperfectif
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Imperfectif-238eb4b3
+:END:
+# L’imperfectif est l’aspect par défaut du Proto-Ñyqy, désignant tout événement
+# pouvant paraître inachevé ou qui peut être placé comme événement de fond au
+# temps de locution. Cette frame temporelle peut indiquer que des événements
+# peuvent s’y insérer et se produire durant le déroulement de l’événement au
+# parfait. Cet aspect n’est marqué par aucun marqueur grammatical.
+L’imperfectif est l’aspect employé par défaut dans le Proto-Ñyqy, n’étant pas
+marqué. Il dénote généralement des événements comme ayant un début, une durée et
+une fin. Cela peut être utilisé par exemple pour mettre en place une frame
+temporelle dans laquelle se déroulera le temps de locution du locuteur.
+
+**** Progressif                                                 :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Progressif-b3b64519
+:END:
+Le progressif, marqué par le marqueur {{{nyqy(mún)}}} permet de marquer un événement
+comme étant un événement s’étalant sur le temps. Cela peut donc indiquer une
+action étant en cours de déroulement au temps relatif à la locution, ou bien à
+un événement ayant un effet portant sur le temps de locution. Ce genre
+d’événement peut s’insérer durant une frame temporelle indiquée par de
+l’imparfait.
+
+***** TODO Lier le progressif au verbe « rester »
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Progressif-Lier-le-progressif-au-verbe-rester-c3f309e6
+:END:
+
+**** Quotatif                                                   :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Quotatif-af6d631d
+:END:
+Forme « de la bouche de Y, X, cette parole fut dite » avec Y la source de la
+citation et X la citation
+
+**** TODO Iamitif                                               :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Iamitif-68297cdb
+:END:
+***** TODO À lier au perfectif ? Terminatif ?
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Iamitif-lier-au-perfectif-d37e1684
+:END:
 
 *** Modes
 :PROPERTIES:
