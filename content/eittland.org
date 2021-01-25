@@ -1694,382 +1694,306 @@ appliquer.
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-a863cd16
 :END:
-
 ** Relations grammaticales
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Relations_grammaticales-023d7e9e
 :END:
-
 ** Constructions liées à la voix et à la valence
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-52086e7f
 :END:
-
 *** Causatif
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Causatif-6f04bb69
 :END:
-
 *** Applicatif
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Applicatif-dac34f44
 :END:
-
 *** Déplacement datif
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Déplacement_datif-5f09a444
 :END:
-
 *** Datif d’intérêt
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Datif_d’intérêt-87ceba4c
 :END:
-
 *** Possession exterieure
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Possession_exterieure-6edf1c9c
 :END:
-
 *** Réflexifs et réciproques
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Réflexifs_et_réciproques-e6245eaa
 :END:
-
 *** Passifs
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Passifs-074f3119
 :END:
-
 *** Inverses
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Inverses-0160d061
 :END:
-
 *** Constructions moyennes
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Constructions_moyennes-b89c8b10
 :END:
-
 *** Antipassifs
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Antipassifs-07ac57cb
 :END:
-
 *** Démotion d’objet ou omission
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Démotion_d’objet_ou_omission-c57eff09
 :END:
-
 *** Incorporation d’objet
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Constructions_liées_à_la_voix_et_à_la_valence-Incorporation_d’objet-80cff15b
 :END:
-
 ** Nominalisation
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-a39434c9
 :END:
-
 *** Nominalisation d’action
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_d’action-d17356a4
 :END:
-
 *** Nominalisation de participant
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-8d5ca672
 :END:
-
 **** Nominalisation d’agent
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-Nominalisation_d’agent-d8d2061b
 :END:
-
 **** Nominalisation de patient
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-Nominalisation_de_patient-e22103c0
 :END:
-
 **** Nominalisation d’instrument
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-Nominalisation_d’instrument-b56c5ee2
 :END:
-
 **** Nominalisation de lieu
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-Nominalisation_de_lieu-caf961b5
 :END:
-
 **** Nominalisation de produit
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-Nominalisation_de_produit-ecf6f634
 :END:
-
 **** Nominalisation de manière
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participant-Nominalisation_de_manière-3ae0848a
 :END:
-
 *** Nominalisation causale
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_causale-18df2e54
 :END:
-
 ** Temps, aspect, mode
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-42044570
 :END:
-
 *** Temps
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Temps-fe52446f
 :END:
-
 *** Aspects
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Aspects-2c0c1408
 :END:
-
 *** Modes
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Modes-56df8c00
 :END:
-
 *** Lieux/direction
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Lieux/direction-5df466af
 :END:
-
 *** Évidentialité, validation et mirativité
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Évidentialité,_validation_et_mirativité-1795c89b
 :END:
-
 *** Divers
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Temps,_aspect,_mode-Divers-93baf6c5
 :END:
-
 ** Structures marquées pragmatiquement
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-1ded1f52
 :END:
-
 *** Variation d’ordre des constituants
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Variation_d’ordre_des_constituants-b4dcf62c
 :END:
-
 *** Particules contrastives et emphatiques
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Particules_contrastives_et_emphatiques-e48c8ef9
 :END:
-
 *** Motifs d’intonation contrastifs et emphatiques
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Motifs_d’intonation_contrastifs_et_emphatiques-cd38592f
 :END:
-
 *** Négation
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Négation-a5898465
 :END:
-
 *** Questions
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Questions-53717b4f
 :END:
-
 **** Questions absolues
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Questions-Questions_absolues-635d9d1f
 :END:
-
 **** Questions relatives
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Questions-Questions_relatives-5214b35f
 :END:
-
 *** Impératifs
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-Impératifs-008d7253
 :END:
-
 ** Combinaison de clauses
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-9b245665
 :END:
-
 *** Verbes de série
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Verbes_de_série-1eb6d458
 :END:
-
 *** Clauses complémentaires
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Clauses_complémentaires-d6676b7f
 :END:
-
 *** Clauses adverbiales
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Clauses_adverbiales-4b57e831
 :END:
-
 *** Enchaînement de clauses, clauses médianes et changement de référence
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Enchaînement_de_clauses,_clauses_médianes_et_changement_de_référence-5f9278bb
 :END:
-
 *** Clauses relatives
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Clauses_relatives-e0c2c747
 :END:
-
 *** Coordination
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Combinaison_de_clauses-Coordination-663ebf4b
 :END:
-
 ** La langue telle qu’utilisée
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-e8765edf
 :END:
-
 *** Typologie lexicale
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Typologie_lexicale-8636c404
 :END:
-
 **** Espace, directions et déplacements
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Typologie_lexicale-Espace,_directions_et_déplacements-3b6da9f6
 :END:
-
 **** Causation
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Typologie_lexicale-Causation-cf2b9795
 :END:
-
 **** Valence
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Typologie_lexicale-Valence-8ecd6d9b
 :END:
-
 **** Prépondérance des caractéristiques sémantiques
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Typologie_lexicale-Prépondérance_des_caractéristiques_sémantiques-cad5f6fd
 :END:
-
 *** Continuité (cohésion) et discontinuité
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Continuité_(cohésion)_et_discontinuité-56321f5b
 :END:
-
 **** Continuité de sujet (référenciel)
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Continuité_(cohésion)_et_discontinuité-Continuité_de_sujet_(référenciel)-43d01b1a
 :END:
-
 **** Continuité de thème
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Continuité_(cohésion)_et_discontinuité-Continuité_de_thème-96d0821b
 :END:
-
 **** Continuité d’action
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Continuité_(cohésion)_et_discontinuité-Continuité_d’action-a2bb0456
 :END:
-
 *** Prominence épisodique
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Prominence_épisodique-e3f8b197
 :END:
-
 **** Apogée, point de culminance
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Prominence_épisodique-Apogée,_point_de_culminance-a4f8219a
 :END:
-
 **** Intensification
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Prominence_épisodique-Intensification-9d47fee4
 :END:
-
 *** Genres
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-be7e53a3
 :END:
-
 **** Conversation
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Conversation-cb433c3c
 :END:
-
 **** Narratif
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Narratif-365b77d6
 :END:
-
 ***** Expériences personnelles
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Narratif-Expériences_personnelles-cf306f09
 :END:
-
 ***** Historique
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Narratif-Historique-b9d64f1d
 :END:
-
 ***** Histoires folkloriques
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Narratif-Histoires_folkloriques-bfc2658a
 :END:
-
 ***** Mythologie
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Narratif-Mythologie-0ea0f25c
 :END:
-
 **** Pressant
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Pressant-c5ef6ae6
 :END:
-
 **** Procédurel
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Procédurel-f2dc5fc3
 :END:
-
 **** Informatif
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Informatif-a4aa4295
 :END:
-
 **** Descriptif
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Descriptif-ed1d0f58
 :END:
-
 **** Élocution rituelle
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Genres-Élocution_rituelle-43eff564
 :END:
-
 *** Divers et conclusions
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Divers_et_conclusions-9c86028d
 :END:
-
 **** Expressions idiomatiques et proverbes
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Divers_et_conclusions-Expressions_idiomatiques_et_proverbes-7cb9541c
 :END:
-
 **** Symbolisme sonore
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-La_langue_telle_qu’utilisée-Divers_et_conclusions-Symbolisme_sonore-cfd337d6
 :END:
-
 * Annexes
 :PROPERTIES:
 :CUSTOM_ID: Annexes-3ad15374
@@ -2286,6 +2210,15 @@ la référence ci-dessous.
 |  5 | Christianisme  |
 |  4 | Protestantisme |
 |  2 | Divers         |
+
+** Idées d’évolution grammaticale
+:PROPERTIES:
+:CUSTOM_ID: Data-not-to-be-exported-Id-es-d-volution-grammaticale-5d086df5
+:END:
+- Go to > near future (as in English)
+- Come to > unplanned near future (as in Swedish)
+- Become > future (as in German)
+- Keep > durative (as in Icelandic)
 
 ** Idées pour évolution phonétique
 :PROPERTIES:
