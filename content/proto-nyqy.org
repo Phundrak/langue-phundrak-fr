@@ -2672,8 +2672,16 @@ l’indicatif.
 - {{{nyqy(cope)}}} :: {{{def}}}
   1. (gp.JUS) marqueur pour verbes du jussif, marquant un souhait de la part du locuteur.
 - {{{nyqy(coq)}}} :: {{{def}}}
-  1. (vt) manger
-  2. (vi) se nourrir
+  1. (n) nourriture
+  2. (vt) manger
+  3. (vi) se nourrir
+- {{{nyqy(coqø)}}} :: {{{defnl}}} Voir /coq/ et /qø/
+  1. (n) fruit, nourriture poussant dans les arbres, en hauteur
+  2. (n) mangue
+- {{{nyqy(cosi)}}} :: {{{defnl}}} Voir /coq/ et /si/
+  1. (n) légume, nourriture poussant au niveau du sol ou dans le sol
+  2. (n) melon
+  3. (n) racines commestibles
 - {{{nyqy(cosu)}}} :: {{{def}}}
   1. (n) entièreté
   2. (adv) tout, entièrement
@@ -2725,12 +2733,12 @@ l’indicatif.
   1. (nbr) marqueur de 10000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
 - {{{nyqy(gez)}}} :: {{{def}}}
   1. (n) aggression
-  2. (vt) attaquer, agresser
-  3. (vi) attaquer
+  2. (vt) attaquer, agresser, se battre avec
+  3. (vi) attaquer, se battre
 - {{{nyqy(goñ)}}} :: {{{def}}}
   1. (n) quelque chose de grand, gros, large
   2. (vi) grossir
-  3. (vt) agrandir
+  3. (vt.CAUS) agrandir
 - {{{nyqy(gosen)}}} :: {{{defnl}}} Voir /goñ/ et /sen/
   1. roc, rocher
 - {{{nyqy(gø)}}} :: {{{def}}}
@@ -2740,7 +2748,8 @@ l’indicatif.
   2. (vi) s’hydrater
 - {{{nyqy(gúgús)}}} :: {{{def}}}
   1. (n) goût amer
-  2. (n) peur (figuratif). Le peuple proto-Ñyqy évoquent le sentiment de peur comme un goût amer qui vient en bouche.
+  2. (n) peur (figuratif). Le peuple proto-Ñyqy évoquent le sentiment de peur
+     comme un goût amer qui vient en bouche.
 
 ** I
 :PROPERTIES:
@@ -2764,21 +2773,27 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-J-88f57f6a
 :END:
-- {{{nyqy(jø)}}} :: {{{def}}}
-  1. (pron) ton, ta, tes, pronom possessif inclusif de la deuxième personne
 - {{{nyqy(jigo)}}} :: {{{def}}}
   1. (n) sable
+- {{{nyqy(jiøgø)}}} :: {{{def}}}
+  1. (n) serpent non venimeux
 - {{{nyqy(jizq)}}} :: {{{def}}}
   1. (n) plante
 - {{{nyqy(josgø)}}} :: {{{def}}}
   1. (n) os
   2. (n) amulette
+- {{{nyqy(jø)}}} :: {{{def}}}
+  1. (pron) ton, ta, tes, pronom possessif inclusif de la deuxième personne
 - {{{nyqy(jøq)}}} :: {{{def}}}
   1. (n) petit déplacement (induit par un tiers, par quelqu’un qui a poussé quelque chose)
   2. (vt) pousser
   3. (vi) se faire pousser
 - {{{nyqy(jœ)}}} :: {{{def}}}
   1. (pron.dem) pronom démonstratif d’éloignement des interlocuteurs, l’élément n’est pas visible.
+- {{{nyqy(jœc)}}} :: {{{def}}}
+  1. (n) éloignement, quelque chose d’éloigné, de loin
+  2. (vi) partir
+  3. (vt) quitter un lieu
 - {{{nyqy(jœjpyg)}}} :: {{{def}}}
   1. (n) plume
 - {{{nyqy(jœs)}}} :: {{{def}}}
@@ -2792,10 +2807,16 @@ l’indicatif.
 - {{{nyqy(jucú)}}} :: {{{def}}}
   1. (n) peau
   2. (n) écorce
+- {{{nyqy(jucqyñi)}}} :: {{{def}}}
+  1. (n) quelque chose de plein, plein
+  2. (vt) remplir, combler
+  3. (vi) accumuler
 - {{{nyqy(juzib)}}} :: {{{def}}}
   1. (n) chair, viande comestible
 - {{{nyqy(jy)}}} :: {{{def}}}
   1. (n) fin, dernier
+- {{{nyqy(jyizgúm)}}} :: {{{def}}}
+  1. (n) serpent venimeux
 
 ** M
 :PROPERTIES:
@@ -2806,6 +2827,10 @@ l’indicatif.
   2. (n) nuque
   3. (vi) avoir un mal de gorge
   4. (vt) faire le coup du lapin, briser la nuque d’une proie
+- {{{nyqy(miñep)}}} :: {{{def}}}
+  1. (n) don, cadeau, offrande
+  2. (vi) faire plaisir
+  3. (vt) donner, offrir
 - {{{nyqy(meb)}}} :: {{{def}}}
   1. (n) terre (matière)
   2. (n) sol, lieu
@@ -2895,8 +2920,11 @@ l’indicatif.
   2. (vi) se coucher (astres uniquement)
   3. (vt) fermer (des fenêtres, des portes), éteindre (une source de lumière), rendre une pièce sombre
 - {{{nyqy(nezp)}}} :: {{{defnl}}} Voir /ne/ et /ezp/
-  1. (n) enfant n’étant pas encore en âge de travailler (jusqu’à environ 10
-     ans)
+  1. (n) enfant n’étant pas encore en âge de travailler (jusqu’à environ 10 ans)
+- {{{nyqy(niisø)}}} :: {{{def}}}
+  1. (n) peur, crainte
+  2. (vi) être effrayant, faire peur
+  3. (vt) avoir peur de quelque chose, être effrayé par quelque chose
 - {{{nyqy(noc)}}} :: {{{def}}}
   1. (n) vieillesse, grand âge
   2. (n) quelque chose de vieux, d’ancien, de grand âge
@@ -2911,7 +2939,7 @@ l’indicatif.
   2. (n) maternité
   3. (n) fertilité
 - {{{nyqy(nœcpi)}}} :: {{{def}}}
-  1. ensuite, puis, à côté, depuis
+  1. ensuite, puis, à côté
 - {{{nyqy(núc)}}} :: {{{def}}}
   1. (n) jeunesse
   2. (n) jeune personne, adolescent
@@ -2922,6 +2950,8 @@ l’indicatif.
 :END:
 - {{{nyqy(ñe)}}} :: {{{def}}}
   1. (n) maison
+- {{{nyqy(ñep)}}} :: {{{defnl}}} Voir /miñep/
+  1. particule CAUS
 - {{{nyqy(ñœpo)}}} :: {{{defnl}}} Voir /ñe/, /bœpo/
   1. (n) temple d’Avi
   2. (n) lieu de culte lié au Soleil
@@ -2960,8 +2990,16 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-O-cf8f0e3f
 :END:
+- {{{nyqy(ocej)}}} :: {{{def}}}
+  1. (n) fin, finalité
+  2. (vt) finir, terminer
 - {{{nyqy(oñ)}}} :: {{{def}}}
   1. (n) nez
+- {{{nyqy(op)}}} :: {{{defnl}}} Voir /opy/
+  1. Marqueur verbal du passé
+- {{{nyqy(opy)}}} :: {{{def}}}
+  1. (adv) hier
+  2. (n) passé proche
 - {{{nyqy(oz)}}} :: {{{def}}}
   1. (n) chat
 
@@ -2969,6 +3007,11 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-8fcb6e1e
 :END:
+- {{{nyqy(øb)}}} :: {{{def}}}
+  1. (n) dureté, solidité, quelque chose de dur, de solide
+  2. (n) lourdeur, quelque chose de lourd
+  3. (vi) résister
+  4. (vt) solidifier
 - {{{nyqy(øc)}}} :: {{{def}}}
   1. (gp) particule de négation
 - {{{nyqy(øg)}}} :: {{{def}}}
@@ -2993,6 +3036,9 @@ l’indicatif.
   1. (vt) porter. Voir aussi /éqcœ/
 - {{{nyqy(œn)}}} :: {{{def}}}
   1. (gp) marqueur du locatif
+- {{{nyqy(œsó)}}} :: {{{def}}}
+  1. marqueur ABL spatial
+  2. depuis (spatial), venant de
 
 ** P
 :PROPERTIES:
@@ -3043,7 +3089,7 @@ l’indicatif.
 - {{{nyqy(qi)}}} :: {{{def}}}
   1. (nbr) deux
 - {{{nyqy(qoje)}}} :: {{{def}}}
-  1. (n) faible quantité
+  1. (n) faible quantité, peu d’éléments
   2. (n) nombre faible, mais supérieur à un
 - {{{nyqy(qomy)}}} :: {{{def}}}
   1. (n) solitude, seul
@@ -3153,6 +3199,8 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-U-fa109e34
 :END:
+- {{{nyqy(uc)}}} :: {{{defnl}}} Voir /ocej/
+  1. Marqueur verbal du perfectif
 - {{{nyqy(um)}}} :: {{{def}}}
   1. (adv) et, puis. Associe deux propositions entre elles.
 - {{{nyqy(uñ)}}} :: {{{def}}}
@@ -3185,7 +3233,11 @@ l’indicatif.
   2. (n) brouillard
   3. (vi) embuer, voiler
 - {{{nyqy(won)}}} :: {{{def}}}
-  1. (vt) voler, nager, se déplacer. Reçoit en absolutif l’élément dans lequel se déplace l’élément ergatif. Exemple : {{{nyqy(yc bœ pøj won)}}} « Le poisson nage », litt. « le poisson se déplace dans l’eau douce ».
+  1. (vt) voler, nager. Reçoit en absolutif l’élément dans lequel se déplace l’élément ergatif. Exemple : {{{nyqy(yc bœ pøj won)}}} « Le poisson nage », litt. « le poisson se déplace dans l’eau douce ».
+- {{{nyqy(woncij)}}} :: {{{defnl}}} Voir /won/ et /ycne/
+  1. (n) flotaison, nage dans de l’eau
+  2. (vi) flotter, nager
+  3. (vt) mettre à l’eau (bateau ou n’importe quoi qui flotte)
 - {{{nyqy(wøñ)}}} :: {{{def}}}
   1. temps (concept)
   2. occurence régulière
@@ -3269,6 +3321,8 @@ l’indicatif.
   5. (vt) agacer (quelqu’un)
 - {{{nyqy(zic)}}} :: {{{def}}}
   1. (n) chair, viande non comestible
+  2. (n) boyaux
+  3. (n) vider un animal
 - {{{nyqy(ziwez)}}} :: {{{def}}}
   1. (n) sable
 - {{{nyqy(zoc)}}} :: {{{def}}}
@@ -3290,10 +3344,26 @@ l’indicatif.
 - {{{nyqy(zuj)}}} :: {{{def}}}
   1. (n) nuit, noir, ombre
   2. (vt) assombrir
+- {{{nyqy(zúe)}}} :: {{{def}}}
+  1. (n) herbe verte
+  2. (n) vert (couleur)
+- {{{nyqy(zúes)}}} :: {{{defnl}}} Voir /zúe/ et /es/
+  1. (n) chaume, herbe sechée
+  2. (n) matelas, coussin en herbe
+  3. (n) toit
+- {{{nyqy(zúesi)}}} :: {{{defnl}}} Voir /zúe/ et /si/
+  1. (n) poil, cheveu
+- {{{nyqy(zúesúzb)}}} :: {{{defnl}}} Voir /zúesi/ et /qúzb/
+  1. (n) cheveu, spécifiquement humain
+  2. (vi) coiffer ses propres cheveux
+  3. (vt) coiffer les cheveux de quelqu’un, s’occuper de quelqu’un
+- {{{nyqy(zúescosu)}}} :: {{{defnl}}} Voir /zúesi/ et /cosu/
+  1. (n) fourrure
+  2. (n) peau de bête, d’animal
 - {{{nyqy(zúmu)}}} :: {{{def}}}
   1. (vi) voir, regarder. L’élément vu est passé au verbe comme un argument datif. Exemple : {{{nyqy(bœ oz im qy zúmuop)}}} /J’ai vu le chat./
 
-* Notes                                                            :noexport:
+* NOTES                                                            :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Notes-a32a1ab0
 :END:
