@@ -4,9 +4,9 @@ FEXT=("pdf" "tex" "aux" "log" "toc" "out" "html" "lol" "lot" "epub" "bbl")
 DIRS=("auto" "_minted*" "svg-inkscape")
 
 for e in ${FEXT[*]}; do
-    fd -uu -e "$e" -x rm {}
+    fd -uu -e "$e" -X rm {}
 done
 
 for d in ${DIRS[*]}; do
-    fd -uu -t d "$d" -x rm -r {}
+    fd -uu -t d "$d" -X rm -r {}
 done
