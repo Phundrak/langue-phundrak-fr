@@ -153,6 +153,7 @@ garder exhaustive des abréviations que vous pourrez rencontrer plus tard.
 - art.def :: article défini
 - adv :: adverbe
 - CAUS :: causatif
+- CONT :: continu (aspect)
 - DAT :: datif
 - ERG :: ergatif
 - F :: féminin
@@ -167,7 +168,6 @@ garder exhaustive des abréviations que vous pourrez rencontrer plus tard.
 - OBL :: oblique
 - OPT :: optatif
 - ORD :: ordinal
-- PROG :: progressif
 - pron :: pronom
 - PST :: passé
 - SUBJ :: subjonctif
@@ -241,7 +241,7 @@ ainsi que les études du Pr Khorlan (3598) qui, il y a cinq ans, a également
 reposerai principalement sur leurs recherches afin de rédiger cet ouvrage, ainsi
 que leurs références diverses.
 
-** Ethnologie
+** Éthnologie
 :PROPERTIES:
 :CUSTOM_ID: Sociolinguistique_du_Proto-Ñyqy-Ethnologie-bcb2b953
 :END:
@@ -1625,7 +1625,11 @@ qu’environ un quart du vocabulaire de cette langue au moins en est composé.
 # - Are there any processes (productive or not) that form a verb from a noun?
 # - An adjective from a noun?
 # - An adverb from a noun?
-# La dénominalisation en Proto-Ñyqy se produit grâce au mot {{{nyqy(sœ)}}} signifiant « façon de faire ». En se suffixant à un nom, on obtient un verbe dont la signification est généralement en relation avec le nom d’origine. Par exemple, en associant le terme {{{nyqy(qøy)}}} à ce mot {{{nyqy(sœ)}}}, on obtient le verbe {{{nyqy(qøysœ)}}} signifiant « chauffer, réchauffer, cuire ».
+# La dénominalisation en Proto-Ñyqy se produit grâce au mot {{{nyqy(sœ)}}} signifiant
+# « façon de faire ». En se suffixant à un nom, on obtient un verbe dont la
+# signification est généralement en relation avec le nom d’origine. Par exemple,
+# en associant le terme {{{nyqy(qøy)}}} à ce mot {{{nyqy(sœ)}}}, on obtient le verbe
+# {{{nyqy(qøysœ)}}} signifiant « chauffer, réchauffer, cuire ».
 
 *** Nombre
 :PROPERTIES:
@@ -1669,7 +1673,8 @@ des cinq à huit éléments désignés par le marqueur numérique.
 :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Cas_grammatical-738042a3
 :END:
 # - Do nouns exhibit morphological case?
-# - If so, what are the cases? (The functions of the cases will be elaborated in later sections)
+# - If so, what are the cases? (The functions of the cases will be elaborated in
+#   later sections)
 
 *** Articles et démonstratifs
 :PROPERTIES:
@@ -1732,11 +1737,11 @@ qu’il défini. Il est également insensible au nombre du groupe nominal et peu
 - {{{nyqy(bœ ci)}}}
   | bœ      | ci    |
   | art.dem | arbre |
-  L’arbre
+  L’arbre / C’est l’arbre
 - {{{nyqy(bœ nøñy ci)}}}
   | bœ      | nøñy     | ci    |
   | art.dem | dix-huit | arbre |
-  Les dix-huit arbres
+  Les dix-huit arbres / Ce sont les dix-huit arbres
 - {{{nyqy(cø eco ñocm coqop)}}} ? {{{nyqy(ee bœ)}}}
   | cø       | eco   | ñocm      | coq-op    |
   | POSS.1sg | grain | quelqu’un | mange-PST |
@@ -1759,10 +1764,12 @@ un article démonstratif aurait été utilisé, tel que {{{nyqy(bœc)}}}.
 :CUSTOM_ID: Aperçu_structurel-Structure_d’un_groupe_nominal-Possesseurs-4520343a
 :END:
 # - How are possessors expressed in the noun phrase?
-# - Do nouns agree with their possessors? Do possessors agree with possessed nouns? Neither, or both?
+# - Do nouns agree with their possessors? Do possessors agree with possessed
+#   nouns? Neither, or both?
 # - Is there a distinction between alienable and inalienable possesson?
 # - Are there other types of possession?
-# - When the possessor is a full noun, where does it usually come with respect to the possessed noun?
+# - When the possessor is a full noun, where does it usually come with respect to
+#   the possessed noun?
 
 *** Classes (incluant le genre)                                    :noexport:
 :PROPERTIES:
@@ -1770,7 +1777,8 @@ un article démonstratif aurait été utilisé, tel que {{{nyqy(bœc)}}}.
 :END:
 # - Is there a noun class system?
 # - What are the classes and how are they manifested in the noun phrase?
-# - What dimension of reality is most central to the noun class system (e.g. animacy, shape, function, etc.)? What other dimensions are relevant?
+# - What dimension of reality is most central to the noun class system (e.g.
+#   animacy, shape, function, etc.)? What other dimensions are relevant?
 # - Do the classifiers occur with numerals? Adjectives? Verbs?
 # - What is their function in these contexts?
 
@@ -1993,14 +2001,14 @@ comme étant un être conscient et intelligent disposant d’une agence volontai
 dans la clause exprimée. Une traduction littérale de cette structure est /X-GEN
 main-ABL Y/ avec /X/ l’agent causal de la clause et /Y/ la clause résultant de
 l’agence de /X/.
-- {{{nyqy(øpøqpom yzmœsó coqø qy coqop)}}}
+- {{{nyqy(øpøqpom yzmœsœ coqø qy coqop)}}}
   | /    |     |      |     |       | <l> |            |
-  | øpøq | pom | yzm  | œsó | coqø  | qy  | coq-op     |
+  | øpøq | pom | yzm  | œsœ | coqø  | qy  | coq-op     |
   | père | GEN | main | ABL | fruit | 1   | manger-PST |
   Mon père m’a fait manger un fruit.
-- {{{nyqy(ñopom yzmœsó qy niisø)}}}
+- {{{nyqy(ñopom yzmœsœ qy niisø)}}}
   | /         |     |      |     | <l> |         |
-  | ño        | pom | yzm  | œsó | qy  | niisø   |
+  | ño        | pom | yzm  | œsœ | qy  | niisø   |
   | quelqu’un | GEN | main | ABL | 1   | effrayé |
   Quelqu’un m’a fait peur (volontairement).
 
@@ -2143,11 +2151,20 @@ provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifian
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-87de9895
 :END:
-*** Nominalisation d’action
+*** TODO Nominalisation d’action
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_d’action-61d45731
 :END:
-# Le processus de nominalisation des verbes repose principalement, à l’instar de la grammaire Proto-Ñyqy dans sa globalité, sur une association desdits verbes avec un mot ayant ici un rôle de particule grammaticale. Ainsi, un verbe associé à {{{nyqy(sœ)}}} (signifiant « manière de faire ») en position affixe permet d’obtenir d’un verbe un nom utilisable comme tel. Par exemple, le verbe {{{nyqy(meqm)}}} (« parler ») s’associe en {{{nyqy(meqm sœ)}}} signifiant « l’acte de parler, prise de parole, annonce ».
+# Le processus de nominalisation des verbes repose principalement, à l’instar de
+# la grammaire Proto-Ñyqy dans sa globalité, sur une association desdits verbes
+# avec un mot ayant ici un rôle de particule grammaticale. Ainsi, un verbe
+# associé à {{{nyqy(sœ)}}} (signifiant « manière de faire ») en position affixe permet
+# d’obtenir d’un verbe un nom utilisable comme tel. Par exemple, le verbe
+# {{{nyqy(meqm)}}} (« parler ») s’associe en {{{nyqy(meqm sœ)}}} signifiant « l’acte de
+# parler, prise de parole, annonce ».
+
+# utilisation du terme {{{nyqy(zuúco)}}} « manière » placé à la fin de la clause
+# verbale ou de la phrase, d’un élément S, afin de la nominaliser
 
 *** Nominalisation de participants
 :PROPERTIES:
@@ -2203,20 +2220,20 @@ provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifian
 # - verbes
 #   - réel (Indicatif)
 #     - passé
-#       - progressif {{{nyqy(múnop)}}}
-#       - non-progressif {{{nyqy(op)}}}
+#       - continu {{{nyqy(múnop)}}}
+#       - non-continu {{{nyqy(op)}}}
 #     - non-passé
-#       - progressif {{{nyqy(mún)}}}
-#       - non-progressif /Ø/
+#       - continu {{{nyqy(mún)}}}
+#       - non-continu /Ø/
 #   - irréel
 #     - souhait (Optatif) {{{nyqy(oqø)}}}
 #     - non-souhait (Subjonctif) {{{nyqy(ug)}}}
 #       - passé
-#         - progressif
-#         - non-progressif
+#         - continu
+#         - non-continu
 #       - non-passé
-#         - progressif
-#         - non-progressif
+#         - continu
+#         - non-continu
 # Subjonctif dans une clause principale = ouï-dire
 # Temps par défaut : non-passé (présent/futur)
 # | mode | aspect | temps | gloss         |
@@ -2241,10 +2258,10 @@ provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifian
 # - pim i bœ mygú coqugmúnop / Le singe aurait été en train de manger une pomme
 # OSV-Mode-Aspect-Temps-Neg-Quest
 # Compléments: temps, manière, lieu
-Le Proto-Ñyqy est une langue disposant de relativement peu de modes, aspects et
-temps. En effet, cette langue ne dispose que de trois modes (l’indicatif, le
-subjonctif et l’optatif), de deux aspects (le parfait et le progressif), et de
-deux temps (le passé et le non-passé).
+# Le Proto-Ñyqy est une langue disposant de relativement peu de modes, aspects et
+# temps. En effet, cette langue ne dispose que de trois modes (l’indicatif, le
+# subjonctif et l’optatif), de deux aspects (le parfait et le continu), et de
+# deux temps (le passé et le non-passé).
 
 *** Temps
 :PROPERTIES:
@@ -2301,7 +2318,7 @@ Exemples :
 :END:
 # - How is aspect expressed?
 Le Proto-Ñyqy ne dispose que de trois aspects : l’imparfait, le parfait et le
-progressif.
+continu.
 
 #+CAPTION: Liste des marqueurs d’aspects en Proto-Ñyqy
 | /           |     <     |
@@ -2310,7 +2327,7 @@ progressif.
 |-------------+-----------|
 | imperfectif |     Ø     |
 | perfectif   | {{{nyqy(uc)}}}  |
-| progressif  | {{{nyqy(mún)}}} |
+| continu     | {{{nyqy(mún)}}} |
 
 **** Perfectif
 :PROPERTIES:
@@ -2348,37 +2365,83 @@ marqué. Il dénote généralement des événements comme ayant un début, une d
 une fin. Cela peut être utilisé par exemple pour mettre en place une frame
 temporelle dans laquelle se déroulera le temps de locution du locuteur.
 
-**** Progressif                                                 :noexport:
+**** Continu
 :PROPERTIES:
-:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Progressif-b3b64519
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Continu-af54ca04
 :END:
-Le progressif, marqué par le marqueur {{{nyqy(mún)}}} permet de marquer un événement
-comme étant un événement s’étalant sur le temps. Cela peut donc indiquer une
-action étant en cours de déroulement au temps relatif à la locution, ou bien à
-un événement ayant un effet portant sur le temps de locution. Ce genre
-d’événement peut s’insérer durant une frame temporelle indiquée par de
-l’imparfait.
+# Le continu, marqué par {{{nyqy(mún)}}} permet de marquer un événement comme étant
+# un événement s’étalant sur le temps. Cela peut donc indiquer une action étant en
+# cours de déroulement au temps relatif à la locution, ou bien à un événement
+# ayant un effet portant sur le temps de locution. Ce genre d’événement peut
+# s’insérer durant une frame temporelle indiquée par de l’imparfait.
+Le continu en Proto-Ñyqy se marque sur le verbe avec {{{nyqy(mún)}}}. Il indique un
+événement ayant une certaine durée dans le temps. Lorsqu’il est utilisé dans
+passé, le continu dénote un habituel s’il n’est pas mis en opposition à un autre
+événement, ou si le temps de locution est lui-même au passé. En revanche, s’il
+est utilisé au non-passé (présent et futur), cela dénotera toujours un événement
+en cours de déroulement ou devant se dérouler dans le futur pendant un certain
+temps. Exemple :
+- {{{nyqy(qy coqmúnop bo bœoz ysop)}}}
+  | / | <l> |                 |    |         |      |           |
+  |   | qy  | coq-mún-op      | bo | bœ      | oz   | ys-op     |
+  |   | 1   | manger-CONT-PST | et | art.def | chat | venir-PST |
+  Pendant que je mangeais, le chat est venu.
+- {{{nyqy(qy coqmún)}}}
+  | / | <l> |             |
+  |   | qy  | coq-mún     |
+  |   | 1   | manger-CONT |
+  Je suis en train de manger.
+- {{{nyqy(nejqœim qy coqmún)}}}
+  | / |               | <l> |             |
+  |   | nejqœ-im      | qy  | coq-mún     |
+  |   | lendemain-DAT | 1   | manger-CONT |
+  Demain, je serai en train de manger.
 
-***** TODO Lier le progressif au verbe « rester »
-:PROPERTIES:
-:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Progressif-Lier-le-progressif-au-verbe-rester-c3f309e6
-:END:
+Il est à noter que la particule {{{nyqy(mún)}}} vient de la même racine que le verbe
+{{{nyqy(múønuc)}}} signifiant « rester », « immobiliser ».
 
-**** Quotatif                                                   :noexport:
+**** Quotatif
 :PROPERTIES:
 :CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Quotatif-af6d631d
 :END:
-Forme « de la bouche de Y, X, cette parole fut dite » avec Y la source de la
-citation et X la citation
+# Forme « de la bouche de Y, X, cette parole fut dite » avec Y la source de la
+# citation et X la citation
+Le quotatif du Proto-Ñyqy est une structure syntaxique faisant usage de la
+nominalisation de phrases et de clauses verbales encadrées par des périphrases.
+La traduction littérale d’une citation peut se résumer à « de la bouche de /X/,
+/Y/ a été dit » où /X/ représente la personne citée et /Y/ sa citation. Exemple :
+- {{{nyqy(zøpommyœsœ zøpomyzmœsœ bœ oz coqop zuúco zø meqmop)}}}
+  | / |                  |                |         |      |            |       | <l> |          |
+  |   | zø-pom-my-œsœ    | zø-pom-yzm-œsœ | bœ      | oz   | coq-op     | zuúco | zø  | meqm-op  |
+  |   | 3-GEN-bouche-ABL | 3-GEN-main-ABL | art.def | chat | manger-PST | QUOT  | 3   | dire-PST |
+  Il m’a dit qu’il a nourrit le chat
+
+**** TODO Habituel                                              :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Habituel-102576c9
+:END:
+# structure syntaxique
 
 **** TODO Iamitif                                               :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Iamitif-68297cdb
 :END:
-***** TODO À lier au perfectif ? Terminatif ?
+# --------------------------------------|------------------------------------->
+# PST                               PRES                               FUT
+#                    x------------------
+# parfait + terminatif au passé
+
+# comes from “already”
+
+**** TODO Parfait                                               :noexport:
 :PROPERTIES:
-:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Iamitif-lier-au-perfectif-d37e1684
+:CUSTOM_ID: Syst-me-fonctionnel-Temps-aspect-mode-Aspects-Parfait-eceb4b6c
 :END:
+# --------------------------------------|------------------------------------->
+# PST                               PRES                               FUT
+#             x------------------------------
+#                                    ---------------------------x
+# vient du iamitif, même marqueur
 
 *** Modes
 :PROPERTIES:
@@ -3037,6 +3100,10 @@ l’indicatif.
   1. (n) outside
   2. (n) forêt, jungle
   3. (vt) perdre (quelque chose)
+- {{{nyqy(múønuc)}}} :: {{{def}}}
+  1. (n) concept que quelque chose de constant
+  2. (vi) rester sur place, rester identique, ne pas changer
+  3. (vt) immobiliser, verbe causatif
 - {{{nyqy(músq)}}} :: {{{def}}}
   1. (n) maison (bâtiment), habitation
 - {{{nyqy(muz)}}} :: {{{def}}}
@@ -3182,7 +3249,7 @@ l’indicatif.
   1. (vt) porter. Voir aussi /éqcœ/
 - {{{nyqy(œn)}}} :: {{{def}}}
   1. (gp) marqueur du locatif
-- {{{nyqy(œsó)}}} :: {{{def}}}
+- {{{nyqy(œsœ)}}} :: {{{def}}}
   1. marqueur ABL spatial
   2. depuis (spatial), venant de
 
@@ -3490,6 +3557,9 @@ l’indicatif.
 - {{{nyqy(zuj)}}} :: {{{def}}}
   1. (n) nuit, noir, ombre
   2. (vt) assombrir
+- {{{nyqy(zuúco)}}} :: {{{def}}}
+  1. (n) manière
+  2. nominaliseur de clauses verbales
 - {{{nyqy(zúe)}}} :: {{{def}}}
   1. (n) herbe verte
   2. (n) vert (couleur)
