@@ -877,13 +877,21 @@ Il est à noter que les anciennes voyelles longues ont également évoluées en 
 schwa lors qu’elles se situent dans une voyelle ouverte en fin de mot à
 l’exception des mots monosyllabiques. Dans le même cas de figure, les anciennes
 voyelles courtes ont tout simplement disparu. Cela peut être illustré avec les
-exemples suivants :
+phrases en Vieux Norrois suivantes, lues selon la prononciation reconstruite du
+Vieux Norrois et tel qu’un Eittlandais les lirait aujourd’hui.
 - /þú sér Víla/ (tu vois Víli)
-  - Vieux Norrois : {{{phon(θuː seːr wiːlɑ)}}}
-  - Eittlandais : {{{phon(θo sɛr wel)}}}
+  - Vieux Norrois : {{{phon(θuː seːr viːlɑ)}}}
+  - Eittlandais : {{{phon(θo sɛr βel)}}}
 - /á þú Úlfinn eigi aigar/ (tu ne possède pas le loup)
-  - Vieux Norrois : {{{phon(ɔː θuː uːlfinː eiɡi æiɡar)}}}
-  - Eittlandais : {{{phon(ɛ θo olfĩnː aɪɣ aɪɣar)}}}
+  - Vieux Norrois : {{{phon(ɒː θuː uːlfinː eiɡi æiɡar)}}}
+  - Eittlandais : {{{phon(ɛ θo olfĩnː aɪʝ aɪʝar)}}}
+
+Notons aussi que cette évolution phonétique est relativement récente. Même si
+des efforts ont été faits avec la réforme orthographique latine de 1956, très
+souvent les eittlandais continueront d’écrire la voyelle finale désormais
+inexistante. Chez les populations plus jeunes, cette habitude tend à
+disparaître, tandis que les générations les plus agées auront au contraire plus
+tendance à rédiger encore un Eittlandais respectant l’ancienne orthographe.
 
 Suivant la théorie de hiérarchisation des phonèmes selon B. Elan Dresher (2003),
 certains phonèmes sont perçus comme étant plus proches que d’autres par les
@@ -992,6 +1000,114 @@ eittlandaise.
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Inventaire_phonétique_et_orthographe-Consonnes-5ee69620
 :END:
+Comme dans toutes langues, en plus des voyelles l’Eittlandais dispose également
+d’un certain nombre de consonnes. On compte généralement seize différentes
+consonnes, cependant un certain nombre de consonnes existent lorsque l’on prend
+en compte les nombreuses règles allophoniques de l’Eittlandais (voir
+§[[#Aperçu_structurel-Phonotaxes-Allophonie-45a559c0]]). Avec le tableau [[table:cons]],
+vous avez une liste des consonnes avec leurs diverses prononciation que l’on
+peut retrouver pour l’Eittlandais.
+
+#+name: table:cons
+#+caption: * Rare, uniquement dans des termes étrangers
+| /      | <>                              |         |
+| Lettre | Prononciation                   | Exemple |
+|--------+---------------------------------+---------|
+| b      | {{{phon(b)}}}                         |         |
+| c*     | {{{phon(k)}}}                         |         |
+| d      | {{{phon(d)}}}                         |         |
+| f      | {{{phon(f)}}},{{{phon(v)}}}                 |         |
+| g      | {{{phon(g)}}},{{{phon(ʝ)}}},{{{phon(x)}}},{{{phon(ɣ)}}} |         |
+| h      | {{{phon(h)}}},{{{phon(ç)}}}                 |         |
+| j      | {{{phon(j)}}}                         |         |
+| k      | {{{phon(k)}}}                         |         |
+| l      | {{{phon(l)}}}                         |         |
+| m      | {{{phon(m)}}}                         |         |
+| n      | {{{phon(n)}}},{{{phon(ŋ)}}}                 |         |
+| p      | {{{phon(p)}}},{{{phon(ɸ)}}}                 |         |
+| q*     | {{{phon(k)}}}                         |         |
+| s      | {{{phon(ç)}}}                         |         |
+| t      | {{{phon(t)}}}                         |         |
+| v      | {{{phon(w)}}},{{{phon(β)}}}                 |         |
+| w*     | {{{phon(w)}}},{{{phon(β)}}}                 |         |
+| x*     | {{{phon(ks)}}},{{{phon(ɡz)}}}               |         |
+| z      | {{{phon(ʝ)}}}                         |         |
+
+On peut remarquer quelques évolutions dans la façon dont sont prononcées les
+diverses consonnes de l’Eittlandais. Tout d’abord, le <v> est prononcé soit
+{{{phon(w)}}} soit {{{phon(β)}}}. Le <v> est souvent reconstruit comme étant un {{{phon(v)}}} en
+Vieux Norrois, et cette évolution ne suit pas celle des autres langues nordiques
+pour cette consonne, on peut donc supposer que les colons ayant fondé
+l’Eittlande venaient de zones linguistiques du Vieux Norrois où l’évolution vers
+le {{{phon(v)}}} ne s’était pas encore produite et n’a plus eu l’occasion depuis de se
+produire. En revanche, la prononciation du <g> est très instable, on peut noter
+pas moins de quatre prononciations du <g> en soit, sans compter ses
+prononciation lors de digraphes. Enfin, une palatalisation du <s> et du <z>
+s’est produite, les transformant en {{{phon(ç)}}} et en {{{phon(ʝ)}}} respectivement.
+
+Il existe également quelques digraphes disposant de leur propre prononciation,
+présentés dans le tableau [[table:cons:digraphs]].
+#+NAME: table:cons:digraphs
+| /       | <>            |         |
+| Lettres | Prononciation | Exemple |
+|---------+---------------+---------|
+| dj      | {{{phon(dʒ)}}}      |         |
+| gj      | {{{phon(j)}}}       |         |
+| gl      | {{{phon(ɡʲ)}}}      |         |
+| gn      | {{{phon(ɲ)}}}       |         |
+| hj      | {{{phon(ç)}}}       |         |
+| hl      | {{{phon(ɬ)}}}       |         |
+| hv      | {{{phon(ʍ)}}}       |         |
+| ng      | {{{phon(ŋ)}}}       |         |
+| nj      | {{{phon(ɲ)}}}       |         |
+| sj      | {{{phon(ʃ)}}}       |         |
+| tj      | {{{phon(tʃ)}}}      |         |
+
+On retrouve ici l’instabilité du <g> éittlandais, mais également quelques
+palatalisations pour les consonnes <d>, <h>, <n>, <s> et <t>.
+
+Une évolution phonétique a également modifié certaines des consonnes longues
+suivant les règles suivantes :
+- C[+stop +long] > C[+stop +fric -long] ! _C sinon C[+stop +long] > C[+stop]
+- C[+stop +fric] > C[-stop +fric]
+Ainsi, si une consonne occlusive longue se situe devant une consonne, elle perd
+uniquement sa caractéristique en tant que consonne longue, autrement elle
+devient fricative. Il y eut une période durant laquelle ces consonnes occlusives
+devenaient affriquées, entre le début du XII^{e} siècle et le milieu XVIII^{e} siècle,
+mais suite à une nouvelle évolution à la fin du XVIII^{e} siècle ces consonnes
+affriquées ont perdu leur caractéristique occlusive, devenant fricatives .
+Ainsi, on a les prononciations présentées dans le tableau [[table:cons:long]].
+#+NAME: table:cons:long
+| /         | <>            |         |
+| Consonnes | Prononciation | Exemple |
+|-----------+---------------+---------|
+| bb        | {{{phon(v)}}}       |         |
+| dd        | {{{phon(ð)}}}       |         |
+| gg        | {{{phon(ɣ)}}}       |         |
+| kk        | {{{phon(x)}}}       |         |
+| pp        | {{{phon(f)}}}       |         |
+| tt        | {{{phon(θ)}}}       |         |
+
+Le tableau [[table:cons:ipa]] montre ainsi la totalité des consonnes que l’on peut
+rencontrer en Eittlandais.
+#+NAME: table:cons:ipa
+|          / |      <      |                |           |               |            |            |                 |            |
+|       <r5> |    <c5>     |      <c5>      |   <c5>    |     <c5>      |    <c5>    |    <c5>    |      <c5>       |    <c5>    |
+|            | {{{v(bilabial)}}} | {{{v(lab.-dental)}}} | {{{v(dental)}}} | {{{v(alvéolaire)}}} | {{{v(palatal)}}} | {{{v(vélaire)}}} | {{{v(lab.-vélaire)}}} | {{{v(glottal)}}} |
+|------------+-------------+----------------+-----------+---------------+------------+------------+-----------------+------------|
+|      nasal |      m      |                |     n     |               |     ɲ      |     ŋ      |                 |            |
+|   occlusif |     p b     |                |    t d    |               |            |   k ɡ ɡʲ   |                 |            |
+|   fricatif |     ɸ β     |      f v       |    θ ð    |      ʃ ʒ      |    ç  ʝ    |    x ɣ     |                 |     h      |
+|   affriqué |             |                |           |               |            |            |                 |            |
+|    spirant |             |                |           |               |     j      |            |       w ʍ       |            |
+|      roulé |             |                |           |       r       |            |            |                 |            |
+| spir.-lat. |             |                |           |       l       |            |            |                 |            |
+| lat.-fric. |             |                |           |       ɬ       |            |            |                 |            |
+
+*** Consonnes                                                    :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Aper-u-structurel-Inventaire-phon-tique-et-orthographe-Consonnes-0f4c7801
+:END:
 Comme dans toute langues, en plus de voyelles, l’Eittlandais dispose également
 d’un certain nombre de consonnes. On peut compter dix-neuf consonnes basiques
 composant cette langue, et certaines peuvent avoir leur prononciation altérée,
@@ -999,7 +1115,6 @@ rajoutant six autres consonnes à l’inventaire consonantique Eittlandais. Vous
 pouvez trouver la liste de ces consones dans le tableau [[table:cons:ipa]], avec les
 consonnes alternatives (dites allophoniques, voir
 §[[#Aperçu_structurel-Phonotaxes-Allophonie-45a559c0]]) entre parenthèses.
-
 #+NAME: table:cons:ipa
 |           / |      <      |                |           |            |            |                 |            |
 |        <r5> |    <c5>     |      <c5>      |   <c5>    |    <c5>    |    <c5>    |      <c5>       |    <c5>    |
@@ -1183,19 +1298,18 @@ monde à encore utiliser officiellement les runes nordiques. La dernière réfor
 des caractères utilisés eu lieu lors du XVI^{ème} siècle, marquant également la
 dernière réforme orthographique ayant eu lieu depuis : les runes sont à utiliser
 phonétiquement, respectant au mieux la règle de « un caractère pour un son »,
-bien que cette règle ne soit pas exacte. Les Eittlandais ne prennent pas en
-compte les diverses règles phonologiques de l’Eittlandais telles que la mutation
-frontale ou l’allophonie tels que respectivement décrits dans les chapitres
-§[[#Aperçu_structurel-Phonotaxes-Mutation_labiale-26bdb0c7]] et
-§[[#Aperçu_structurel-Phonotaxes-Allophonie-45a559c0]].
+bien que cette règle ne soit pas exacte. Cependant, même si l’orthographe était
+sensée être phonétique à cette époque, elle a très peu évolué depuis, rendant
+son utilisation moderne complexe, en particulier concernant les voyelles de la
+langue. L’alphabet runique est le seul alphabet éittlandais officiel reconnu par
+l’État éittlandais à ce jour.
 
-Eittlande utilise également l’alphabet latin, mais celui-ci reste très
-anecdotique dans la vie quotidienne des Eittlandais qui ne l’utilisent
-pratiquement que pour des communications internationales. Il s’agit néamoins du
-système d’écriture utilisé dans cet ouvrage afin de faciliter l’étude de
-l’Eittlandais pour le lecteur. Vous trouverez le tableau [[table:writing-system]]
-une équivalence des caractères latins utilisés en Eittlandais ainsi que des
-runes fortement inspirées des runes médiévales.
+Cependant, les éittlandais utilisent également l’alphabet latin, relativement
+peu utilisé dans la vie de tous les jours. Il s’agit néamoins du système
+d’écriture utilisé dans cet ouvrage afin de faciliter l’étude de l’Eittlandais
+pour le lecteur. Vous trouverez le tableau [[table:writing-system]] une équivalence
+des caractères latins utilisés en Eittlandais ainsi que des runes fortement
+inspirées des runes médiévales.
 
 #+NAME: table:writing-system
 #+CAPTION: Correspondance de l’alphabet latin éittlandais et des runes eittlandaises
@@ -1234,17 +1348,38 @@ malgré des prononciations parfois très différentes, commme par exemple le <ø
 le <œ> qui sont devenues des phonèmes séparés mais qui s’écrive avec la même
 rune. On a généralement une absence de différentiation entre les anciens couples
 de voyelles longues et courtes, à l’exception de <e> et <é>. On peut également
-remarquer que le <i> et le <j> sont indifférentiés à l’écrit, idem pour le <u>
-et le <v>, bien que ce dernier soit prononcé {{{phon(v)}}} ou {{{phon(w)}}}.
+remarquer que le <i> et le <j> sont indifférentiés à l’écrit, idem pour le <u>,
+le <ú> et le <v>, bien qu’ils soient prononcés {{{phon(u)}}}, {{{phon(o)}}} et {{{phon(β)}}} ou
+{{{phon(w)}}} respectivement.
 
-Voici un exemple de phrase Eittlandaise écrite en alphabet latin et en runes :
-- Français :: Thor blessa Loki avec Mjöllnir
-- Eittlandais (latin) :: Þórr skaðaði Lóka með Mjølni
-- Eittlandais (runes) :: {{{rune(þórr skaðaði lóka með mjølni)}}}
+La différence de difficulté entre l’utilisation des deux systèmes d’écriture,
+l’orthographe runique étant très conservatrice comparé à l’orthographe latine
+restant proche de la prononciation fait que les runes sont devenu de facto
+l’orthographe de prestige de l’Eittlandais, utilisée dans des cadres officiels
+et académiques. Cette orthographe est d’ailleurs l’orthographe principale
+enseignée dans les cursus scolaires, l’orthographe latine n’y est que rapidement
+abordée afin de familiariser les élèves avec ce système également. Cependant,
+l’alphabet latin jouis d’un usage de plus en plus courant dans des milieux moins
+formels, en particulier sur Internet où il est devenu l’alphabet généralement
+utilisé pour des conversations mondaines ou dans des chats publiques où le ton
+est sensé être convivial. Une division générationelle ainsi que démographique
+est également constatée concernant l’usage de l’alphabet latin ; les plus jeunes
+et les personnes les plus exposées à Internet sont les plus à même d’utiliser
+l’alphabet latin que l’alphabet runique que les générations plus agées et les
+personnes passant moins de temps en ligne. Notons tout de même que même si un
+usage plus intensif dans ces démographies est noté, cela ne signifie pas non
+plus qu’il y est courant ; on peut comparer ça à l’utilisation occasionnelel de
+l’alphabet latin au Japon pour l’écriture de la langue japonaise, quoique plus
+fréquent.
 
-Voici le détail grammatical de la phrase ci-dessus :
-| Thor-NOM.SG | blesser-3SG.PST | Loki-DAT.SG | avec | Mjölnir.DAT.SG |
-| Þór-r       | skað-aði        | Lok-a       | með  | Mjølni         |
+# Voici un exemple de phrase Eittlandaise écrite en alphabet latin et en runes :
+# - Français :: Thor blessa Loki avec Mjöllnir
+# - Eittlandais (latin) :: Þórr skaðaði Lóka með Mjølni
+# - Eittlandais (runes) :: {{{rune(þórr skaðaði lóka með mjølni)}}}
+
+# Voici le détail grammatical de la phrase ci-dessus :
+# | Thor-NOM.SG | blesser-3SG.PST | Loki-DAT.SG | avec | Mjölnir.DAT.SG |
+# | Þór-r       | skað-aði        | Lok-a       | með  | Mjølni         |
 
 ** Phonotaxes
 :PROPERTIES:
@@ -1333,7 +1468,7 @@ suivant le tableau [[cons:mut:front]].
 Par exemple, /auðor/ se prononce comme /eyðor/, soit {{{phon(øyðɚ)}}}, tandis que
 /maðor/ se prononce {{{phon(mɑðɚ)}}}.
 
-*** Fracture de la voyelle initiale
+*** Fracture de la voyelle initiale                              :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Fracture_de_la_voyelle_initiale-620ca733
 :END:
