@@ -2215,32 +2215,52 @@ la référence ci-dessous.
 :PROPERTIES:
 :CUSTOM_ID: Data-not-to-be-exported-Id-es-d-volution-grammaticale-5d086df5
 :END:
-- Go to > near future (as in English)
-- Come to > unplanned near future (as in Swedish)
-- Become > future (as in German)
-- Keep > durative (as in Icelandic)
+- go to > near future (as in English)
+- come to > unplanned near future (as in Swedish)
+- become > future (as in German)
+- keep > durative (as in Icelandic)
+- ablative (from) > genitive (of)
+- allative (to) > dative (to)
 
 ** Idées pour évolution phonétique
 :PROPERTIES:
 :CUSTOM_ID: Data-not-to-be-exported-Id-es-pour-volution-phon-tique-250e4e42
 :END:
-   # - tj > tʃ
-   # - nj > ɲ
-   # - Cj > C[+fric] > C[+stop]
-   # - tj > tʃ > ʃ
-   # - dj > dʒ > ʒ
-   # - kj > kx > x
-   - ɡj > j
-   - sj > ʃ
-   - hj > ʃ
-   - hl > ɬ
-   - h > ʃ / _i
-   - ɡ > ɣ / V_V
-   - ɡ > x / F_V
-   - hw > ʍ
-   - VN > V[+nas]
-   - C[+stop +long] > C[+stop +fric -long] !(C_ || _C) where > C[+stop]
-   - V[-stress] > ə / !_#
+# - tj > tʃ > ʃ
+# - dj > dʒ > ʒ
+# - kj > kx > x
+# - Cj > C[+fric] > C[+stop]
+- v > w / C_
+- v > β
+- tj > tʃ
+- dj > dʒ
+- sj > ʃ
+- hj > ç
+- hl > ɬ
+- h > ç / _i
+- ng > ŋ
+- nj > ɲ
+- ɡj > j
+- gn > ɲ
+- gl > ɡʲ
+- ɡ > ʝ / V_V
+- ɡ > x / F_V
+- ɡ > ɣ / V_#
+- f > v ! {#, C[-voice]}_
+- p > ɸ / _C[+stop] ! _{p,b}
+- hv > ʍ
+- s > ç
+- z > ʝ
+- VN > V[+nas]
+- C[+stop +long] > C[+stop -long] / _#
+- C[+stop +long] > C[+stop +fric -long] !(C_ || _C) where > C[+stop]
+- C[+stop +fric] > C[-stop +fric]
+- á / ɔː / > ɒ
+Then, there’s the vowel loss
+Stress on the first syllable
+Allophony:
+- C[+stop] > C[+stop -rel] / _#
+- V[-stress] > ə / !_# in colloquial speech
 
 * Footnotes
 :PROPERTIES:
