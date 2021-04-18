@@ -2147,11 +2147,11 @@ provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifian
 #   from antipassives)? References: Sapir (1911), Green (1981), Mithun (1984),
 #   Sadock (1986).
 
-** Nominalisation                                                  :noexport:
+** Nominalisation
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-87de9895
 :END:
-*** TODO Nominalisation d’action
+*** Nominalisation d’action
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_d’action-61d45731
 :END:
@@ -2163,10 +2163,17 @@ provient sans doute de la même racine que le verbe {{{nyqy(meñep)}}} signifian
 # {{{nyqy(meqm)}}} (« parler ») s’associe en {{{nyqy(meqm sœ)}}} signifiant « l’acte de
 # parler, prise de parole, annonce ».
 
-# utilisation du terme {{{nyqy(zuúco)}}} « manière » placé à la fin de la clause
-# verbale ou de la phrase, d’un élément S, afin de la nominaliser
+Il est possible en Proto-Ñyqy de nominaliser des clauses et phrases, permettant
+au locuter de les utiliser comme clauses nominales dans une phrase. Ce procédé
+est réalisé avec l’ajout du terme {{{nyqy(zuúco)}}}, signifiant « manière » ou
+« manière de faire », après le verbe terminant la phrase ou la clause
+nominalisée.
+-
 
-*** Nominalisation de participants
+Il est également possible de nominaliser un verbe seul afin de signifier
+l’événement associé au verbe ou son action en soit.
+
+*** Nominalisation de participants                               :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Nominalisation-Nominalisation_de_participants-297bd24c
 :END:
