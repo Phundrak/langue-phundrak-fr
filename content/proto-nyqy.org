@@ -2525,17 +2525,22 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Variation_d’ordre_des_constituants-2df26773
 :END:
-# - Are there special devices for indicating pragmatic statuses in basic clauses, e.g. special constituent orders, left- and right-dislocation, affixes, or particles indicating referentiality, specificity, topic, focus, contrast, etc.?
-# - Describe cleft constructions. If possible, give a characterization of their discourse functions.
+# - Are there special devices for indicating pragmatic statuses in basic
+#   clauses, e.g. special constituent orders, left- and right-dislocation,
+#   affixes, or particles indicating referentiality, specificity, topic, focus,
+#   contrast, etc.?
+# - Describe cleft constructions. If possible, give a characterization of their
+#   discourse functions.
 
 **** Négation
 :PROPERTIES:
 :CUSTOM_ID: Système_fonctionnel-Structures_marquées_pragmatiquement-La_morphosyntaxe_de_l’attention,_du_contraste_et_du_sujet-Négation-8c50952b
 :END:
 # - What is the standard means of forming a negative clause in this language?
-# - What secondary strategies are there? When are they usedQ
+# - What secondary strategies are there? When are they used?
 # - Is there constituent negation? Derivational negation?
-# - How is morphology normally associated with negation employed in creative ways in discourse?
+# - How is morphology normally associated with negation employed in creative
+#   ways in discourse?
 
 **** Actes de parole non-déclaratifs
 :PROPERTIES:
