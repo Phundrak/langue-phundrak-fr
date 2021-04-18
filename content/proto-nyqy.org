@@ -3149,7 +3149,8 @@ l’indicatif.
 - {{{nyqy(noso)}}} :: {{{defnl}}} Voir /ne/, /soo/
   1. (n) quelque chose de rond, d’abimé
   2. (n) quelque chose émoussé, usé, abimé
-  3. (v) avoir sommeil, vouloir dormir
+  3. (n) fatigue
+  4. (v) avoir sommeil, vouloir dormir
 - {{{nyqy(nø)}}} :: {{{def}}}
   1. (nbr) trois
 - {{{nyqy(nœ)}}} :: {{{def}}}
