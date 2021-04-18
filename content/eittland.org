@@ -2,10 +2,10 @@
 #+setupfile:    headers
 #+html_head:    <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
 #+html_head:    <meta property="og:title" content="Grammaire de l’Eittlandais" />
-#+html_head:    <meta property="og:description" content="Grammaire détaillée de l’idéolangue Eittlandaise" />
+#+html_head:    <meta property="og:description" content="Grammaire détaillée de l’idéolangue éittlandaise" />
 #+latex_header: \usepackage{allrunes}
 #+macro:        rune (eval (conlanging/eittlandic-org-export-runes $1))
-#+keywords:     eittland eittlande einnland einnlande nordique viking islande norrois
+#+keywords:     eittland eittlande éittlande einnland einnlande nordique viking islande norrois
 #+options:      auto-id:t
 #+uid:          https://langue.phundrak.com/eittland
 
@@ -43,8 +43,8 @@ peut être sujet à des mises à jours dans le futur.
 :END:
 De longues recherches et beaucoup de réflexions et d’explorations dans le monde
 de la linguistique furent nécessaires afin que je puisse créer la langue
-Eittlandaises ainsi qu’une version simplifiée de la culture et de l’histoire du
-pays Eittlandais. Ainsi, je souhaiterais remercier certaines personnes dont les
+éittlandaise ainsi qu’une version simplifiée de la culture et de l’histoire du
+pays éittlandais. Ainsi, je souhaiterais remercier certaines personnes dont les
 travaux m’ont été précieux afin de réaliser ceci, notamment Michael Barnes,
 auteur de /A New Introduction to Old Norse/, Jack Crawford, auteur de nombreuses
 vidéos YouTube sur le sujet de la culture viking et de leur langue, ainsi que
@@ -524,21 +524,21 @@ les invita à installer une base militaire sur leur île comme base arrière afi
 d’établir une liaison avec le Royaume Uni et l’Europe au travers de
 l’Atlantique.
 
-L’Éittlande retira ses troupes d’Islande peu de temps après le retrais des
+L’Eittlande retira ses troupes d’Islande peu de temps après le retrais des
 troupes étasuniennes durant 1946, date à laquelle la base militaire étasunienne
-sur le sol Éittlandais fut restituée à la couronne Éittlandaise. Quelques
+sur le sol Eittlandais fut restituée à la couronne Eittlandaise. Quelques
 régiments restèrent tout de même sur le sol Islandais tandis qu’un régiment
-Islandais s’établit sur le sol Éittlandais, marquant la formalisation d’une
+Islandais s’établit sur le sol Eittlandais, marquant la formalisation d’une
 alliance militaire et économique entre ces deux pays.
 
-L’Éittlande rejoint l’OTAN le 4 Mai 1949 suite à un référendum créé à
+L’Eittlande rejoint l’OTAN le 4 Mai 1949 suite à un référendum créé à
 l’initiative du roi Ulfor II Ulforsson.
 
 **** Guerres de la Morue
 :PROPERTIES:
 :CUSTOM_ID: Contexte_culturel,_écologique_et_sociolinguistique_de_la_langue-Démographie-Histoire,_migrations-Guerres_de_la_Morue-642d048c
 :END:
-Durant les années 70, Éittlande participa aux Guerres de la Morue avec l’Islande
+Durant les années 70, Eittlande participa aux Guerres de la Morue avec l’Islande
 face au Royaume Unis, qui furent les seuls à supporter la décision islandaise
 d’expansion de leurs eaux territoriales. Lors de la seconde Guerre de la Morue,
 Eittlande en profita pour également augmenter la superficie de ses eaux
@@ -665,7 +665,7 @@ d’Ásmundor, un nouveau roi fut nommé, choisi dans une famille noble proche d
 trône. Ainsi le nouveau roi Arvid I Geirson repris la guerre contre l’Union, et
 repris la tradition du co-roi en nommant son frère Havardor I Arvidbróðir à la
 tête de la partie orientale de l’île. La guerre se termina le 27 Octobre 1400
-avec l’indépendance d’Éittlande reconnue par l’Union de Kalmar.
+avec l’indépendance d’Eittlande reconnue par l’Union de Kalmar.
 
 ** Écologie                                                        :noexport:
 :PROPERTIES:
@@ -962,20 +962,20 @@ Voici une description un peu plus complète de ces diphtongues :
 - ei :: diphtongue proche du {{{phon(aɪ)}}} britannique que l’on retrouve dans /pie/,
   à la différence près que la première voyelle est légèrement plus ouverte. On
   peut également parfois la rencontrer prononcée {{{phon(ɛɪ)}}}, notamment dans la
-  partie orientale de l’île d’Eittlande, voir le chapitre sur l’allophonie
+  partie orientale de l’Eittlande, voir le chapitre sur l’allophonie
   (§[[#Aperçu_structurel-Phonotaxes-Allophonie-45a559c0]]). On retrouve une
   diphtongue similaire en Norvégien dans le terme /nei/.
 
   Exemple : /Eittland/ {{{phon(aɪtlə̃d)}}}
-- au :: diphtongue similaire à la diphtongue de l’anglais nord-américain
+- au :: diphtongue similaire à la diphtongue de l’Anglais nord-américain
   standard comme dans /low/ {{{phon(loʊ̯)}}}, excepté que la première voyelle est plus
-  ouverte. Une diphtongue plus proche peut être retrouvée en néerlandais belge
+  ouverte. Une diphtongue plus proche peut être retrouvée en Néerlandais belge
   dans le terme /lauw/.
 
   Exemple : /auk/ {{{phon(ɔʊk)}}}
 - ey :: contrairement à ce que la voyelle typographique <e> peut laisser penser,
   la prononciation de la première voyelle est un <œ>. La diphtongue est donc
-  similaire à la voyelle de /neus/ en néerlandais des Pays-Bas, ou à /auga/ en
+  similaire à la voyelle de /neus/ en Néerlandais des Pays-Bas, ou à /auga/ en
   Islandais.
 
   Exemple : /eyra/ {{{phon(œʏr)}}}
