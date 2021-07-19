@@ -492,31 +492,31 @@
 
     #+NAME: table:cons:ipa
     #+CAPTION: Consonnes du Ñyqy (IPA)
-    |              <r5> |        <c5>        |        <c5>         |          <c5>           |       <c5>       |       <c5>        |       <c5>        |
-    |                 / |         <          |          <          |            <            |        <         |         <         |         <         |
+    |              <r5> |     <c5>     |     <c5>      |       <c5>        |    <c5>    |    <c5>     |    <c5>     |
+    |                 / |      <       |       <       |         <         |     <      |      <      |      <      |
     |                   | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(palatal)}}} | {{{v(uvulaire)}}} | {{{v(pharygal)}}} |
-    |-------------------+--------------------+---------------------+-------------------------+------------------+-------------------+-------------------|
-    |            plosif |        p b         |                     |                         |                  |        q ɢ        |                   |
-    |             nasal |         m          |          n          |                         |                  |         ɴ         |                   |
-    |              tapé |                    |                     |                         |                  |        (ʀ)        |                   |
-    |          fricatif |                    |         s z         |                         |     (x) (ɣ)      |      (χ) (ʁ)      |      (ħ) (ʕ)      |
-    |          affriqué |                    |        t͡ʃ d͡ʒ        |                         |                  |                   |                   |
-    | latérale affriqué |                    |       (ɬ) (ɮ)       |                         |                  |                   |                   |
-    |  latérale spirant |                    |         (l)         |                         |                  |                   |                   |
-    |       approximant |                    |                     |                         |       (j)        |                   |                   |
-    |           spirant |                    |                     |            w            |                  |                   |                   |
+    |-------------------+--------------+---------------+-------------------+------------+-------------+-------------|
+    |            plosif |     p b      |               |                   |            |     q ɢ     |             |
+    |             nasal |      m       |       n       |                   |            |      ɴ      |             |
+    |              tapé |              |               |                   |            |     (ʀ)     |             |
+    |          fricatif |              |      s z      |                   |  (x) (ɣ)   |   (χ) (ʁ)   |   (ħ) (ʕ)   |
+    |          affriqué |              |     t͡ʃ d͡ʒ     |                   |            |             |             |
+    | latérale affriqué |              |    (ɬ) (ɮ)    |                   |            |             |             |
+    |  latérale spirant |              |      (l)      |                   |            |             |             |
+    |       approximant |              |               |                   |    (j)     |             |             |
+    |           spirant |              |               |         w         |            |             |             |
 
     #+NAME: table:cons:trans
     #+CAPTION: Consonnes du Ñyqy (translittération)
-    |      <r> |        <c5>        |        <c5>         |          <c5>           |       <c5>        |
-    |        / |         <          |          <          |            <            |         <         |
+    |      <r> |     <c5>     |     <c5>      |       <c5>        |    <c5>     |
+    |        / |      <       |       <       |         <         |      <      |
     |          | {{{v(bilablial)}}} | {{{v(alvéolaire)}}} | {{{v(labial-velaire)}}} | {{{v(uvulaire)}}} |
-    |----------+--------------------+---------------------+-------------------------+-------------------|
-    |   plosif |        p b         |                     |                         |        q g        |
-    |    nasal |         m          |          n          |                         |         ñ         |
-    | fricatif |                    |         s z         |                         |                   |
-    | affriqué |                    |         c j         |                         |                   |
-    |  spirant |                    |                     |            w            |                   |
+    |----------+--------------+---------------+-------------------+-------------|
+    |   plosif |     p b      |               |                   |     q g     |
+    |    nasal |      m       |       n       |                   |      ñ      |
+    | fricatif |              |      s z      |                   |             |
+    | affriqué |              |      c j      |                   |             |
+    |  spirant |              |               |         w         |             |
 
 *** Tons et accentuation
     :PROPERTIES:
@@ -1266,7 +1266,7 @@
 
    |     <c>     |      <c>       |   <c>    |   <c>    |
    | {{{nyqy(gé si)}}} | {{{nyqy(co mó mó)}}} | {{{nyqy(ñy)}}} | {{{nyqy(qi)}}} |
-   |   4×6^{3}   |    5×6^{2}     | 1×6^{1}  | 2×6^{0}  |
+   |    4×6^{3}     |      5×6^{2}      |   1×6^{1}   |   2×6^{0}   |
    |    4×216    |      5*36      |   1×6    |   2×1    |
    |     864     |      180       |    6     |    2     |
 

@@ -825,10 +825,9 @@ non-accentuées.
 |        <r> |    <c>    |   <c>   |    <c>     |
 |            | antérieur | central | postérieur |
 |------------+-----------+---------+------------|
-|      fermé |    i y    |         |     u      |
-|  pré-fermé |   (ɪ ʏ)   |         |    (ʊ)     |
+|  pré-fermé |    ɪ ʏ    |         |     ʊ      |
 |   mi-fermé |    e ø    |         |     o      |
-|      moyen |           |   ə ɚ   |            |
+|      moyen |           |    ə    |            |
 |  mi-ouvert |    ɛ œ    |         |     ɔ      |
 | pré-ouvert |     æ     |         |            |
 |     ouvert |     a     |         |            |
@@ -847,19 +846,19 @@ certaines voyelles courtes. Ainsi, on obtient l’orthographe suivante concernan
 les voyelles eittlandaises présentée dans le tableau [[vow:eittland:orth]].
 
 #+NAME: vow:eittland:orth
-|        /         |         <          |       <       |       <       | <                                 |
-|       <c>        |        <c>         |      <c>      |      <c>      | <l>                               |
-|      Runes       | Latin traditionnel | Latin réformé | Prononciation | Comme dans                        |
-|------------------+--------------------+---------------+---------------+-----------------------------------|
-|     {{{rune(i)}}}      |         i          |       i       |    {{{phon(i)}}}    | Français : /île/                  |
+|        /         |         <          |       <       |       <       | <                               |
+|       <c>        |        <c>         |      <c>      |      <c>      | <l>                             |
+|      Runes       | Latin traditionnel | Latin réformé | Prononciation | Comme dans                      |
+|------------------+--------------------+---------------+---------------+---------------------------------|
+|     {{{rune(i)}}}      |         i          |       i       |    {{{phon(ɪ)}}}    | Français : /île/                  |
 | {{{rune(e)}}}, {{{rune(i)}}} |        e, í        |       e       |    {{{phon(e)}}}    | Français : /été/                  |
 | {{{rune(é)}}}, {{{rune(á)}}} |        é, á        |       é       |    {{{phon(ɛ)}}}    | Français : /bête/                 |
 |     {{{rune(ę)}}}      |         ę          |       æ       |    {{{phon(æ)}}}    | Anglais américain général : /cat/ |
 | {{{rune(a)}}}, {{{rune(æ)}}} |        a, æ        |       a       |    {{{phon(a)}}}    | Français : /chat/                 |
-|     {{{rune(y)}}}      |         y          |       y       |    {{{phon(y)}}}    | Français : /lune/                 |
+|     {{{rune(y)}}}      |         y          |       y       |    {{{phon(ʏ)}}}    | Français : /lune/                 |
 | {{{rune(ø)}}}, {{{rune(ý)}}} |        ø, ý        |       ø       |    {{{phon(ø)}}}    | Français : /deux/                 |
 | {{{rune(œ)}}}, {{{rune(á)}}} |        œ, á        |       œ       |    {{{phon(œ)}}}    | Français : /neuf/                 |
-|     {{{rune(u)}}}      |         u          |       u       |    {{{phon(u)}}}    | Français : /doux/                 |
+|     {{{rune(u)}}}      |         u          |       u       |    {{{phon(ʊ)}}}    | Français : /doux/                 |
 | {{{rune(o)}}}, {{{rune(ú)}}} |        o, ú        |       o       |    {{{phon(o)}}}    | Français : /eau/                  |
 | {{{rune(ó)}}}, {{{rune(ǫ)}}} |        ó, ǫ        |       ó       |    {{{phon(ɔ)}}}    | Français : /vote/                 |
 
@@ -1010,28 +1009,28 @@ peut retrouver pour l’Eittlandais.
 
 #+name: table:cons
 #+caption: * Rare, uniquement dans des termes étrangers
-| /      | <>                              |         |
-| Lettre | Prononciation                   | Exemple |
-|--------+---------------------------------+---------|
-| b      | {{{phon(b)}}}                         |         |
-| c*     | {{{phon(k)}}}                         |         |
-| d      | {{{phon(d)}}}                         |         |
-| f      | {{{phon(f)}}},{{{phon(v)}}}                 |         |
-| g      | {{{phon(g)}}},{{{phon(ʝ)}}},{{{phon(x)}}},{{{phon(ɣ)}}} |         |
-| h      | {{{phon(h)}}},{{{phon(ç)}}}                 |         |
-| j      | {{{phon(j)}}}                         |         |
-| k      | {{{phon(k)}}}                         |         |
-| l      | {{{phon(l)}}}                         |         |
-| m      | {{{phon(m)}}}                         |         |
-| n      | {{{phon(n)}}},{{{phon(ŋ)}}}                 |         |
-| p      | {{{phon(p)}}},{{{phon(ɸ)}}}                 |         |
-| q*     | {{{phon(k)}}}                         |         |
-| s      | {{{phon(ç)}}}                         |         |
-| t      | {{{phon(t)}}}                         |         |
-| v      | {{{phon(w)}}},{{{phon(β)}}}                 |         |
-| w*     | {{{phon(w)}}},{{{phon(β)}}}                 |         |
-| x*     | {{{phon(ks)}}},{{{phon(ɡz)}}}               |         |
-| z      | {{{phon(ʝ)}}}                         |         |
+| /      | <>                                 |         |
+| Lettre | Prononciation                      | Exemple |
+|--------+------------------------------------+---------|
+| b      | {{{phon(b)}}}                            |         |
+| c*     | {{{phon(k)}}}                            |         |
+| d      | {{{phon(d)}}}                            |         |
+| f      | {{{phon(f)}}}, {{{phon(v)}}}                   |         |
+| g      | {{{phon(g)}}}, {{{phon(ʝ)}}}, {{{phon(x)}}}, {{{phon(ɣ)}}} |         |
+| h      | {{{phon(h)}}}, {{{phon(ç)}}}                   |         |
+| j      | {{{phon(j)}}}                            |         |
+| k      | {{{phon(k)}}}                            |         |
+| l      | {{{phon(l)}}}                            |         |
+| m      | {{{phon(m)}}}                            |         |
+| n      | {{{phon(n)}}}, {{{phon(ŋ)}}}                   |         |
+| p      | {{{phon(p)}}}, {{{phon(ɸ)}}}                   |         |
+| q*     | {{{phon(k)}}}                            |         |
+| s      | {{{phon(ç)}}}                            |         |
+| t      | {{{phon(t)}}}                            |         |
+| v      | {{{phon(w)}}}, {{{phon(β)}}}                   |         |
+| w*     | {{{phon(w)}}}, {{{phon(β)}}}                   |         |
+| x*     | {{{phon(ks)}}}, {{{phon(ɡz)}}}                 |         |
+| z      | {{{phon(ʝ)}}}                            |         |
 
 On peut remarquer quelques évolutions dans la façon dont sont prononcées les
 diverses consonnes de l’Eittlandais. Tout d’abord, le <v> est prononcé soit
@@ -1313,33 +1312,33 @@ inspirées des runes médiévales.
 
 #+NAME: table:writing-system
 #+CAPTION: Correspondance de l’alphabet latin éittlandais et des runes eittlandaises
-|           <c>           |   <c>    |
-|          latin          |  runes   |
-|-------------------------+----------|
-|   A, a / Á, á / Ǫ, ǫ    | {{{rune(a)}}}  |
-|          B, b           | {{{rune(b)}}}  |
-|          D, d           | {{{rune(d)}}}  |
-|          Ð, ð           | {{{rune(ð)}}}  |
-|   E, e / Ę, ę / Æ, æ    | {{{rune(e)}}}  |
-|          É, é           | {{{rune(é)}}}  |
-|          F, f           | {{{rune(f)}}}  |
-|          G, g           | {{{rune(g)}}}  |
-|          H, h           | {{{rune(h)}}}  |
-|         Hv, hv          | {{{rune(hv)}}} |
-|   I, i / Í, í / J, j    | {{{rune(i)}}}  |
-|          K, k           | {{{rune(k)}}}  |
-|          L, l           | {{{rune(l)}}}  |
-|          M, m           | {{{rune(m)}}}  |
-|          N, n           | {{{rune(n)}}}  |
-|       O, o / Ó, ó       | {{{rune(o)}}}  |
-|       Ø, ø / Œ, œ       | {{{rune(ø)}}}  |
-|          P, p           | {{{rune(p)}}}  |
-|          R, r           | {{{rune(r)}}}  |
-|          S, s           | {{{rune(s)}}}  |
-|          T, t           | {{{rune(t)}}}  |
-|          Þ, þ           | {{{rune(þ)}}}  |
-|   U, u / Ú, ú / V, v    | {{{rune(u)}}}  |
-|       Y, y / Ý, ý       | {{{rune(y)}}}  |
+|          <c>          |   <c>    |
+|         latin         |  runes   |
+|-----------------------+----------|
+|  A, a / Á, á / Ǫ, ǫ   | {{{rune(a)}}}  |
+|         B, b          | {{{rune(b)}}}  |
+|         D, d          | {{{rune(d)}}}  |
+|         Ð, ð          | {{{rune(ð)}}}  |
+|  E, e / Ę, ę / Æ, æ   | {{{rune(e)}}}  |
+|         É, é          | {{{rune(é)}}}  |
+|         F, f          | {{{rune(f)}}}  |
+|         G, g          | {{{rune(g)}}}  |
+|         H, h          | {{{rune(h)}}}  |
+|        Hv, hv         | {{{rune(hv)}}} |
+|  I, i / Í, í / J, j   | {{{rune(i)}}}  |
+|         K, k          | {{{rune(k)}}}  |
+|         L, l          | {{{rune(l)}}}  |
+|         M, m          | {{{rune(m)}}}  |
+|         N, n          | {{{rune(n)}}}  |
+|      O, o / Ó, ó      | {{{rune(o)}}}  |
+|      Ø, ø / Œ, œ      | {{{rune(ø)}}}  |
+|         P, p          | {{{rune(p)}}}  |
+|         R, r          | {{{rune(r)}}}  |
+|         S, s          | {{{rune(s)}}}  |
+|         T, t          | {{{rune(t)}}}  |
+|         Þ, þ          | {{{rune(þ)}}}  |
+|  U, u / Ú, ú / V, v   | {{{rune(u)}}}  |
+|      Y, y / Ý, ý      | {{{rune(y)}}}  |
 |  /délimiteur de mots/   | {{{rune(:)}}}  |
 | /délimiteur de phrases/ | {{{rune(,)}}}  |
 
