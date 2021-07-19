@@ -606,8 +606,8 @@
       ou en fin de mot et précédées par une voyelle.
       - ​/f/ > [ɸ] / {V,j,w}​_{#,V,j,w}
       - ​/v/ > [β] / {V,j,w}​_{#,V,j,w}
-    | te_{4}fũ_{3}d | ​/teː_{4}.fʊ̃_{3}d/          | [teː_{4}.ɸʊ̃_{3}d]          |
-    | vyelo_{2}tov  | ​/vye_{1}.loː_{2}.toː_{1}v/ | [vye_{1}.loː_{2}.toː_{1}β] |
+    | te_{4}fũ_{3}d   | ​/teː_{4}.fʊ̃_{3}d/          | [teː_{4}.ɸʊ̃_{3}d]       |
+    | vyelo_{2}tov | ​/vye_{1}.loː_{2}.toː_{1}v/ | [vye_{1}.loː_{2}.toː_{1}β] |
 
    - Le <h>  a pour prononciation standard  le [h], cependant il  peut également
      être prononcé comme  un [ɦ]. Cet allophone se produit  entre deux voyelles,

@@ -732,40 +732,40 @@
    correspondance entre  chacun des  phonèmes du Mattér  et des  runes utilisées
    nativement dans leur ordre alphabétique natif :
    #+CAPTION:Runes du Mattér
-   |             /             |           <            |   <    |
-   |            <c>            |          <c>           |  <c>   |
-   |       script latin        |          rune          |  nom   |
-   |---------------------------+------------------------+--------|
-   |             a             |     {{{rune(a)}}}      |  areð  |
-   |             b             |     {{{rune(b)}}}      |  bér   |
-   |             c             |     {{{rune(c)}}}      | calfér |
-   |             d             |     {{{rune(d)}}}      |  dur   |
-   |             e             |     {{{rune(e)}}}      | eldyr  |
-   |            ea             |     {{{rune(ea)}}}     | ealant |
-   |             f             |     {{{rune(f)}}}      | feioð  |
-   |             g             |     {{{rune(g)}}}      | gelty  |
-   |             h             |     {{{rune(h)}}}      | héþir  |
-   |             i             |     {{{rune(i)}}}      | iéral  |
+   |            /            |        <         |   <    |
+   |           <c>           |       <c>        |  <c>   |
+   |      script latin       |       rune       |  nom   |
+   |-------------------------+------------------+--------|
+   |            a            |     {{{rune(a)}}}      |  areð  |
+   |            b            |     {{{rune(b)}}}      |  bér   |
+   |            c            |     {{{rune(c)}}}      | calfér |
+   |            d            |     {{{rune(d)}}}      |  dur   |
+   |            e            |     {{{rune(e)}}}      | eldyr  |
+   |           ea            |     {{{rune(ea)}}}     | ealant |
+   |            f            |     {{{rune(f)}}}      | feioð  |
+   |            g            |     {{{rune(g)}}}      | gelty  |
+   |            h            |     {{{rune(h)}}}      | héþir  |
+   |            i            |     {{{rune(i)}}}      | iéral  |
    | /j/ (uniquement en runes) |     {{{rune(j)}}}      |  iara  |
-   |             l             |     {{{rune(l)}}}      | logar  |
-   |             m             |     {{{rune(m)}}}      |  mény  |
-   |             n             |     {{{rune(n)}}}      |  néf   |
-   |             o             |     {{{rune(o)}}}      |  orn   |
-   |             p             |     {{{rune(p)}}}      |  pyl   |
-   |             r             |     {{{rune(r)}}}      | rinna  |
-   |             t             |     {{{rune(t)}}}      |  tið   |
-   |             u             |     {{{rune(u)}}}      |  ulv   |
-   |             v             |     {{{rune(v)}}}      |  vér   |
-   |             y             |     {{{rune(y)}}}      | ylgar  |
-   |             æ             |     {{{rune(æ)}}}      |  ævy   |
-   |             é             |     {{{rune(é)}}}      | éþƿér  |
-   |             ð             |     {{{rune(ð)}}}      | ðengil |
-   |             þ             |     {{{rune(þ)}}}      |  þær   |
-   |             ċ             |     {{{rune(ċ)}}}      | ċuðar  |
-   |             ƿ             |     {{{rune(ƿ)}}}      |  ƿyrm  |
-   |    séparateur de mots     | {{{rune-manual(.,᛫)}}} | þticyl |
-   |     marquer de pauses     | {{{rune-manual(:,᛬)}}} |  ċild  |
-   |   séparateur de phrases   | {{{rune-manual(*,᛭)}}} |   ru   |
+   |            l            |     {{{rune(l)}}}      | logar  |
+   |            m            |     {{{rune(m)}}}      |  mény  |
+   |            n            |     {{{rune(n)}}}      |  néf   |
+   |            o            |     {{{rune(o)}}}      |  orn   |
+   |            p            |     {{{rune(p)}}}      |  pyl   |
+   |            r            |     {{{rune(r)}}}      | rinna  |
+   |            t            |     {{{rune(t)}}}      |  tið   |
+   |            u            |     {{{rune(u)}}}      |  ulv   |
+   |            v            |     {{{rune(v)}}}      |  vér   |
+   |            y            |     {{{rune(y)}}}      | ylgar  |
+   |            æ            |     {{{rune(æ)}}}      |  ævy   |
+   |            é            |     {{{rune(é)}}}      | éþƿér  |
+   |            ð            |     {{{rune(ð)}}}      | ðengil |
+   |            þ            |     {{{rune(þ)}}}      |  þær   |
+   |            ċ            |     {{{rune(ċ)}}}      | ċuðar  |
+   |            ƿ            |     {{{rune(ƿ)}}}      |  ƿyrm  |
+   |   séparateur de mots    | {{{rune-manual(.,᛫)}}} | þticyl |
+   |    marquer de pauses    | {{{rune-manual(:,᛬)}}} |  ċild  |
+   |  séparateur de phrases  | {{{rune-manual(*,᛭)}}} |   ru   |
 
    Exceptionnellement, et contrairement aux autres, les diphtongues <ae> et <ea>
    disposent de  leur propre  morphème, respectivement  <ealant> et  <ċild>. Cet
@@ -785,17 +785,17 @@
    d’accès aux personnes utilisant une disposition de clavier n’étant pas pensée
    afin d’écrire du Mattér :
    #+CAPTION:Caractères latins du Mattér
-   |         /         |          <           |
-   |        <c>        |         <c>          |
-   |  caractère natif  | caractère alternatif |
-   |-------------------+----------------------|
-   | þ / {{{rune(þ)}}} |        s / th        |
-   | g / {{{rune(g)}}} |          ᵹ           |
-   | ƿ / {{{rune(w)}}} |          w           |
-   | ċ / {{{rune(ċ)}}} |        ȝ / ch        |
-   | i / {{{rune(j)}}} |          j           |
-   | ð / {{{rune(ð)}}} |        z / dh        |
-   | æ / {{{rune(æ)}}} |          ae          |
+   |        /        |          <           |
+   |       <c>       |         <c>          |
+   | caractère natif | caractère alternatif |
+   |-----------------+----------------------|
+   |   þ / {{{rune(þ)}}}   |        s / th        |
+   |   g / {{{rune(g)}}}   |          ᵹ           |
+   |   ƿ / {{{rune(w)}}}   |          w           |
+   |   ċ / {{{rune(ċ)}}}   |        ȝ / ch        |
+   |   i / {{{rune(j)}}}   |          j           |
+   |   ð / {{{rune(ð)}}}   |        z / dh        |
+   |   æ / {{{rune(æ)}}}   |          ae          |
 
    De ce  fait, des mots  tels que <bryð> et  <þpiċ> peuvent s’écrire  <bryz> ou
    <brudh>, et <spich> ou <thpiȝ> respectivement.
@@ -806,9 +806,9 @@
    personnes  n’ayant pas  aisément  accès aux  caractères  spéciaux du  Mattér.
    Quelques exemples de ces différents systèmes d’écriture :
    #+CAPTION:Exemples d’écritures native du Mattér
-   | /           | <                 | <              |
-   | latin natif | runique           | alternatif     |
-   |-------------+-------------------+----------------|
+   | /           | <           | <              |
+   | latin natif | runique     | alternatif     |
+   |-------------+-------------+----------------|
    | bryð        | {{{rune(bryð)}}}  | bryz / brydh   |
    | þpiċ        | {{{rune(þpiċ)}}}  | spich / thpiȝ  |
    | iea         | {{{rune(jea)}}}   | jea            |
@@ -1681,21 +1681,21 @@
        Détails et exemples 2
 
   Abréviations :
-  | /     | <                    |
-  | adj   | adjectif             |
-  | adv   | adverbe              |
-  | conj  | conjonction          |
-  | ind   | indénombrable        |
-  | inter | interrogatif         |
-  | n     | nom commun           |
-  | np    | nom propre           |
-  | pau   | paucal               |
-  | pl    | pluriel              |
-  | pron  | pronom               |
-  | sg    | singulier            |
-  | vi    | verbe intransitif    |
-  | vt    | verbe transitif      |
-  | on    | onomatopée           |
+  | /     | <                 |
+  | adj   | adjectif          |
+  | adv   | adverbe           |
+  | conj  | conjonction       |
+  | ind   | indénombrable     |
+  | inter | interrogatif      |
+  | n     | nom commun        |
+  | np    | nom propre        |
+  | pau   | paucal            |
+  | pl    | pluriel           |
+  | pron  | pronom            |
+  | sg    | singulier         |
+  | vi    | verbe intransitif |
+  | vt    | verbe transitif   |
+  | on    | onomatopée        |
 
 
 ** Actions physiques
@@ -2080,12 +2080,12 @@
     | pluriel   | NHUM  | ev      |
 
     Exemple :
-    | /                 | <        | <                        |
-    | français          | mattér   | gloss                    |
-    |-------------------+----------+--------------------------|
-    | la tour           | en tere  | ART.DEF.SG.NHUM tour     |
+    | /               | <        | <                        |
+    | français        | mattér   | gloss                    |
+    |-----------------+----------+--------------------------|
+    | la tour         | en tere  | ART.DEF.SG.NHUM tour     |
     | les chats /(peu)/ | od cetet | ART.DEF.PAU.N chat-PAU   |
-    | les villes        | ev urbyþ | ART.DEF.PL.NHUM ville-PL |
+    | les villes      | ev urbyþ | ART.DEF.PL.NHUM ville-PL |
 
     Ici, <od>  est utilisé pour montrer  une proximité et/ou affection  entre le
     locuteur et  lesdits chats,  mais si  un tel lien  n’existe pas  le locuteur
