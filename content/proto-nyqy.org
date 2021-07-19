@@ -4,7 +4,7 @@
 #+html_head: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
 #+html_head: <meta property="og:title" content="Grammaire du Proto-Ñyqy" />
 #+html_head: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Ñyqy" />
-#+macro:     nyqy (eval (conlanging/nyqy-to-org $1))
+#+macro:     nyqy (eval (conlanging-proto-nyqy-to-org $1))
 #+options:   auto-id:t
 #+subject:   Grammaire du Proto-Ñyqy
 #+uid:       https://langue.phundrak.com/proto-nyqy
@@ -537,10 +537,10 @@ proches les unes des autres.
        ("{tense}"
         ("[high]" "/ɪ/")
         ("{high}" "/ɛ/")))))
-  (conlanging/tree-to-dot nyqy-vowels)
+  (conlanging-tree-to-dot nyqy-vowels)
 #+END_SRC
 
-#+RESULTS[7197a00f9fd897443b1727910097ffe6aceb2ada]: vow-tree
+#+RESULTS[765fdf2cc8c3244cf990eb8dd664b92a2dda50d7]: vow-tree
 : graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="[vowel]"];1[label="[back]"];0 -- 1;11[label="[tense]"];1 -- 11;111[label="[high]"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="{high}"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="{tense}"];1 -- 12;121[label="[high]"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="{high}"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="{back}"];0 -- 2;21[label="[tense]"];2 -- 21;211[label="[high]"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="{high}"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="{tense}"];2 -- 22;221[label="[high]"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="{high}"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
 
 #+BEGIN_SRC dot :file nyqy/vowel-feature-tree.png :var input=vow-tree
@@ -641,7 +641,7 @@ trouverez dans l’arbre [[arbre:cons]] l’organisation de ces consonnes.
                   ("{voice}"
                    ("[cor]" "/s/\n/ɬ/")
                    ("{cor}" "/p/\n/ħ/"))))))
-  (conlanging/tree-to-dot nyqy-consonants)
+  (conlanging-tree-to-dot nyqy-consonants)
 #+END_SRC
 
 #+BEGIN_SRC dot :file nyqy/consonant-feature-tree.png :var input=cons-tree
@@ -1296,7 +1296,7 @@ tandis que l’ordre des phrases verbales VP' peut être consulté dans la secti
                   ("Absolutive NP")
                   ("Ergative NP"))
                  ("VP'"))))
-  (conlanging/tree-to-dot S-syntax-tree)
+  (conlanging-tree-to-dot S-syntax-tree)
 #+END_SRC
 
 #+RESULTS[8a8150260d529adbc13492aa651ea3ca6c459bf5]: phrase-syntax-tree-el
@@ -1372,7 +1372,7 @@ majorité des constituants d’une clause nominale venant après le nom.
                      ("Adj")))
                    ("Nomin"))
                   ("Rel")))
-  (conlanging/tree-to-dot nominal-group-syntax-tree)
+  (conlanging-tree-to-dot nominal-group-syntax-tree)
 #+END_SRC
 
 #+RESULTS[fbb2ad04afa70b63d78e569394d499bc395d2cc0]: nom-syntax-tree
@@ -1545,7 +1545,7 @@ Afin de mieux visualiser cet ordre, on peut se référer à l’arbre syntaxique
                   ("Adverbes₂"))
                  ("Négation"))
                 ("Question")))
-  (conlanging/tree-to-dot v-syntax-tree)
+  (conlanging-tree-to-dot v-syntax-tree)
 #+END_SRC
 
 #+RESULTS[7824656756eaedc3ac2daf1b240aa1c28be75a81]: vp-syntax-tree-el
