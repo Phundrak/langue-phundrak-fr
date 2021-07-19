@@ -18,3 +18,5 @@ tibetan-lexicon-layout
 /content/ignored-folder/*
 *.bbl
 *~
+*.glo
+*.ist
