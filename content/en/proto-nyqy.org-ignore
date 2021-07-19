@@ -434,7 +434,7 @@
            ("{tense}"
             ("[high]" ("i"))
             ("{high}" ("e"))))))
-      (conlanging/tree-to-dot nyqy-vowels)
+      (conlanging-tree-to-dot nyqy-vowels)
     #+END_SRC
 
     #+BEGIN_SRC dot :file nyqy/vowel-feature-tree.png :var input=vow-tree
@@ -477,7 +477,7 @@
             ("{voice}"
              ("[cor]")
              ("{cor}"))))))
-      (conlanging/tree-to-dot nyqy-consonants)
+      (conlanging-tree-to-dot nyqy-consonants)
     #+END_SRC
 
     #+BEGIN_SRC dot :file nyqy/consonant-feature-tree.png :var input=cons-tree
@@ -776,7 +776,7 @@
                        ("Tense")
                        ("V")
                        ("Neg")))))))
-     (conlanging/tree-to-dot nyqy-syntax-tree)
+     (conlanging-tree-to-dot nyqy-syntax-tree)
    #+END_SRC
 
    #+RESULTS[24286e618306da25dc9283fdc01819e3b5d77394]: basic-syntax-tree

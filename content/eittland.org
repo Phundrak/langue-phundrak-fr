@@ -4,7 +4,7 @@
 #+html_head:    <meta property="og:title" content="Grammaire de l’Eittlandais" />
 #+html_head:    <meta property="og:description" content="Grammaire détaillée de l’idéolangue éittlandaise" />
 #+latex_header: \usepackage{allrunes}
-#+macro:        rune (eval (conlanging/eittlandic-org-export-runes $1))
+#+macro:        rune (eval (conlanging-to-org-runes $1 'eittlandic))
 #+keywords:     eittland eittlande éittlande einnland einnlande nordique viking islande norrois
 #+options:      auto-id:t
 #+uid:          https://langue.phundrak.com/eittland
@@ -926,7 +926,7 @@ voyelles entre elles.
         ("{tense}"
          ("[low]" "/a/")
          ("{low}" "/ɛ/"))))))
-  (conlanging/tree-to-dot eittlandic-vowels)
+  (conlanging-tree-to-dot eittlandic-vowels)
 #+END_SRC
 
 #+BEGIN_SRC dot :file eittland/vowel-feature-tree.png :var input=vow-dot
@@ -1255,7 +1255,7 @@ des consonnes de l’Eittlandais.
          ("[rnd]" "/w/")
          ("{rnd}" "/j/"))
         ("{dor}" "/h/")))))
-  (conlanging/tree-to-dot eittlandic-consonants)
+  (conlanging-tree-to-dot eittlandic-consonants)
 #+END_SRC
 
 #+BEGIN_SRC dot :file eittland/cons-feature-tree.png :var input=cons-dot

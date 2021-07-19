@@ -549,7 +549,7 @@ proches les unes des autres.
 #+NAME: arbre:vowels
 #+ATTR_HTML: :alt Arbre des voyelles du Proto-Ñyqy :class gentree
 #+CAPTION: Arbre des caractéristiques des voyelles du Proto-Ñyqy
-#+RESULTS:
+#+RESULTS[23c095d0c07e606cabed5ac10e758b79e97638a3]:
 [[file:img/nyqy/vowel-feature-tree.png]]
 
 Voici une description des voyelles du Proto-Ñyqy :

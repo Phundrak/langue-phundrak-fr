@@ -1,4 +1,3 @@
-# -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Hjelp
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite du Hjelp" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Hjelp" />

@@ -242,7 +242,7 @@ organisant les voyelles du Proto-Tãso.
         ("{frnt}"
          ("[tense]" "ɘ ɵ ɤ o ɐ ə")
          ("{tense}" "ɜ ɞ ʌ ɔ ɑ ɶ ɑ ɒ"))))))
-  (conlanging/tree-to-dot taso-vowels)
+  (conlanging-tree-to-dot taso-vowels)
 #+END_SRC
 
 #+BEGIN_SRC dot :file taso/vowel-feature-tree.png :var input=vowel-tree
@@ -345,7 +345,7 @@ l’orthographe de chacune de ces consonnes.
           ("[voice]" "v β ɦ")
           ("{voice}" "f ɸ ħ ʕ h p̮f"))
          ("{cont}" "ʔ p̮f p b"))))))
-  (conlanging/tree-to-dot taso-consonants)
+  (conlanging-tree-to-dot taso-consonants)
 #+END_SRC
 
 #+BEGIN_SRC dot :file taso/consonant-feature-tree.png :var input=cons-tree
