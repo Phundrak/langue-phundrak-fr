@@ -2831,6 +2831,10 @@ l’indicatif.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-B-ae79d268
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
+
 - {{{nyqy(beñ)}}} :: {{{def}}}
   1. (n) dents
   2. (vt) mordre, croquer
@@ -2876,10 +2880,18 @@ l’indicatif.
 - {{{nyqy(bú)}}} :: {{{def}}}
   1. (pron) deuxième personne
 
+#+begin_export latex
+\end{multicols}
+#+end_export
+
 ** C
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-C-29dc766b
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
+
 - {{{nyqy(ci)}}} :: {{{def}}}
   1. (n) arbre
 - {{{nyqy(cisi)}}} :: {{{defnl}}} Voir /ci/, /si/
@@ -2927,10 +2939,18 @@ l’indicatif.
   1. (n) fourmi
   2. (n) insecte ou tout être y ressemblant, comme des mille-pattes.
 
+#+begin_export latex
+\end{multicols}
+#+end_export
+
 ** E
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-E-54360434
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
+
 - {{{nyqy(eco)}}} :: {{{def}}}
   1. (n) grain commmestible, riz, blé
   2. (vt) planter, cultiver
@@ -2944,10 +2964,18 @@ l’indicatif.
   2. (vi) travailler
   3. (vt) créer, ouvrager, construire
 
+#+begin_export latex
+\end{multicols}
+#+end_export
+
 ** G
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-G-5a9af03c
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
+
 - {{{nyqy(ge)}}} :: {{{def}}}
   1. (gp.PST) marqueur du passé
 - {{{nyqy(gec)}}} :: {{{def}}}
@@ -2971,11 +2999,18 @@ l’indicatif.
   1. (n) goût amer
   2. (n) peur (figuratif). Le peuple proto-Ñyqy évoquent le sentiment de peur
      comme un goût amer qui vient en bouche.
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** I
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-I-a81a4697
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
+
 - {{{nyqy(i)}}} :: {{{defnl}}} Voir /mi/
   1. (art indef) un, une, des, article defini
 - {{{nyqy(icm)}}} :: {{{def}}}
@@ -2989,11 +3024,17 @@ l’indicatif.
   1. (gp) Marqueur du datif
 - {{{nyqy(is)}}} :: {{{def}}}
   1. particule du *causatif*
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** J
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-J-88f57f6a
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(jigo)}}} :: {{{def}}}
   1. (n) sable
 - {{{nyqy(jiøgø)}}} :: {{{def}}}
@@ -3038,11 +3079,17 @@ l’indicatif.
   1. (n) fin, dernier
 - {{{nyqy(jyizgúm)}}} :: {{{def}}}
   1. (n) serpent venimeux
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** M
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-M-cccfd958
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(micp)}}} :: {{{def}}}
   1. (n) cou
   2. (n) nuque
@@ -3128,11 +3175,17 @@ l’indicatif.
 - {{{nyqy(mygú)}}} :: {{{def}}}
   1. (n) singe
   2. (vi) être agité
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** N
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-N-0ef6f2af
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(ne)}}} :: {{{def}}}
   1. (nbr) zéro, rien
   2. (adv) non, pas, négation
@@ -3169,11 +3222,17 @@ l’indicatif.
 - {{{nyqy(núc)}}} :: {{{def}}}
   1. (n) jeunesse
   2. (n) jeune personne, adolescent
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Ñ
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Ñ-ff7a574f
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(ñe)}}} :: {{{def}}}
   1. (n) maison
 - {{{nyqy(ñep)}}} :: {{{defnl}}} Voir /miñep/
@@ -3211,11 +3270,17 @@ l’indicatif.
 - {{{nyqy(ñy)}}} :: {{{def}}}
   1. (nbr) six, marqueur des sixaines. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
   2. (n) quelque chose d’important en nombre
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** O
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-O-cf8f0e3f
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(ocej)}}} :: {{{def}}}
   1. (n) fin, finalité
   2. (vt) finir, terminer
@@ -3228,11 +3293,17 @@ l’indicatif.
   2. (n) passé proche
 - {{{nyqy(oz)}}} :: {{{def}}}
   1. (n) chat
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Ø
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-8fcb6e1e
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(øb)}}} :: {{{def}}}
   1. (n) dureté, solidité, quelque chose de dur, de solide
   2. (n) lourdeur, quelque chose de lourd
@@ -3253,11 +3324,17 @@ l’indicatif.
   1. (n) père, papa
 - {{{nyqy(øqcœ)}}} :: {{{def}}}
   1. (vt) porter quelque chose (avec ses mains)
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Œ
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Œ-0c780f53
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(œcqi)}}} :: {{{def}}}
   1. (vt) porter. Voir aussi /éqcœ/
 - {{{nyqy(œn)}}} :: {{{def}}}
@@ -3265,11 +3342,17 @@ l’indicatif.
 - {{{nyqy(œsœ)}}} :: {{{def}}}
   1. marqueur ABL spatial
   2. depuis (spatial), venant de
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** P
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-P-2b7ab301
 :END:
+#+begin_export latex
+\end{multicols}
+#+end_export
 - {{{nyqy(pøj)}}} :: {{{def}}}
   1. (n) poisson d’eau douce. Pour /poisson d’eau de mer/, voir /púmœj/.
 - {{{nyqy(pi)}}} :: {{{def}}}
@@ -3301,11 +3384,17 @@ l’indicatif.
   2. (n) étendue d’eau salée
 - {{{nyqy(púmœj)}}} :: {{{def}}}
   1. (n) poisson d’eau de mer
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Q
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Q-b1ec8323
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(qe)}}} :: {{{def}}}
   1. (n) œil
   2. (vi) voir. Le participant qui voit est datif, tandis que le participant vu est absolutif.
@@ -3355,11 +3444,17 @@ l’indicatif.
   3. (v) réfléchir
 - {{{nyqy(qy)}}} :: {{{def}}}
   1. (nbr) six, première sixaine. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** S
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-S-e9e187ae
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(se)}}} :: {{{def}}}
   1. (nbr) marqueur de 1000_{6}. Voir [[#Aperçu_structurel-Classes_de_mots-Modificateurs-Numéraux-063c31cb][Numéraux]].
 - {{{nyqy(sen)}}} :: {{{def}}}
@@ -3420,11 +3515,17 @@ l’indicatif.
 - {{{nyqy(sywøzøc)}}} :: {{{defnl}}} Voir /sywøz/ et /øc/
   1. (n) tristesse
   2. (n) sans âme, personne vide
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** U
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-U-fa109e34
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(uc)}}} :: {{{defnl}}} Voir /ocej/
   1. Marqueur verbal du perfectif
 - {{{nyqy(um)}}} :: {{{def}}}
@@ -3440,20 +3541,32 @@ l’indicatif.
   1. (n) trou
   2. (vi) creuser le sol
   3. (vt) graver
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Ú
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Ú-c35e6434
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(újq)}}} :: {{{def}}}
   1. (n) puissance, force mentale, majestuosité
 - {{{nyqy(ús)}}} :: {{{def}}}
   1. (n) œuf
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** W
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-W-ea0cd36f
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(wejp)}}} :: {{{def}}}
   1. (n) fumée, vapeur
   2. (n) brouillard
@@ -3484,11 +3597,17 @@ l’indicatif.
   1. (n) homme
 - {{{nyqy(wœz)}}} :: {{{def}}}
   1. (n) femme
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Y-a217cb68
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(yc)}}} :: {{{def}}}
   1. (n) eau douce
   2. (n) éther, souffle divin
@@ -3534,11 +3653,17 @@ l’indicatif.
 - {{{nyqy(yzm)}}} :: {{{def}}}
   1. (n) main
   2. (n) feuille
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 ** Z
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Z-144a2853
 :END:
+#+begin_export latex
+\begin{multicols}{2}
+#+end_export
 - {{{nyqy(zi)}}} :: {{{def}}}
   1. (n) mouche
   2. (n) moustique
@@ -3591,6 +3716,9 @@ l’indicatif.
   2. (n) peau de bête, d’animal
 - {{{nyqy(zúmu)}}} :: {{{def}}}
   1. (vi) voir, regarder. L’élément vu est passé au verbe comme un argument datif. Exemple : {{{nyqy(bœ oz im qy zúmuop)}}} /J’ai vu le chat./
+#+begin_export latex
+\end{multicols}
+#+end_export
 
 * NOTES                                                            :noexport:
 :PROPERTIES:
@@ -3748,12 +3876,3 @@ Mes sites :
 [fn:2] [[https://phundrak.com]]
 
 [fn:1] https://langue.phundrak.com
-
-# Traduction de « je t’aime »
-# Mon âme est tienne
-# wœsy pom ñy zœj pom bu
-#
-#  LocalWords:  Ñy Qy proto-Ñyqy proto Ðbńo Pr Loqbrekh Khorlan Yerth Rhésode
-#  LocalWords:  Mojhal Lor États-cités lingua franca GEN sg OPT SV doirbh kõrv
-#  LocalWords:  hook non-mutées cœj wy wú dor absolutif-verbe sg-ABS sg-ERG
-#  LocalWords:  pomme-ABS
