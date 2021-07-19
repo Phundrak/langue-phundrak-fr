@@ -68,3 +68,4 @@
 #+macro: end-largetable @@html:</div>@@
 #+macro: def @@latex:\hfill@@
 #+macro: defnl @@latex: \hfill\\@@
+#+macro: recon *@@html:<i>$1</i>@@@@latex:\emph{$1}@@
