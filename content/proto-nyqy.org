@@ -18,25 +18,7 @@
 :PROPERTIES:
 :CUSTOM_ID: Propos_préliminaires-Avant-propos-c03216e0
 :END:
-La redistribution ou vente de ce document sont strictement interdits. Ce
-document est protégé par la loi française sur le droit d’auteur et appartient
-entièrement et totalement à son auteur. Ce document est un document disponible
-gratuitement au format web et PDF sur mon site web[fn:1]. Si vous l’avez obtenu
-depuis une autre source, gratuitement ou non, merci de m’en faire part en me
-contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site
-principal[fn:2]. Aucune personne, morale ou physique, n’est à l’heure actuelle
-autorisée à redistribuer ces documents. Si vous êtes intéressés par une
-redistribution de ce document, je vous invite à rentrer en contact avec moi afin
-que l’on en discute.
-
-Ce document traite d’une langue imaginaire que j’ai créé. Cependant, il sera
-rédigé comme s’il s’agissait d’une tentative de description de la langue par un
-linguiste travaillant dessus. Ainsi, si dans certains passages vous pouvez lire
-« mais plus d’études sur le sujet sont nécessaires » ou « cet aspect de la
-langue n’a pas encore été sujet à des analyses plus approfondies », comprenez
-par cela que je n’ai pas encore travaillé sur ou fini cette partie qui peut être
-sujet à des mises à jours dans le futur. Seul le chapitre actuel et le chapitre
-suivant seront rédigés en dehors de ce style.
+#+include: foreword
 
 ** Introduction sur le Proto-Ñyqy en tant que langue construite
 :PROPERTIES:
@@ -128,7 +110,7 @@ découvrir tout ce savoir. /né_{4}Hje_{2}lpel./
 :CUSTOM_ID: Propos_préliminaires-Conventions_typographiques-5f771f50
 :END:
 Dans ce document seront utilisé certaines conventions typographiques, dont des
-gloses grammaticales interlignes[fn:4], une étoile ~*~ précédant des éléments
+gloses grammaticales interlignes[fn:1], une étoile ~*~ précédant des éléments
 linguistiques considérés comme erronés, un point d’interrogation ~?~ afin de
 marquer des éléments linguistiques questionnables, ou bien dans les gloses une
 utilisation du chiffre zéro ~0~ afin de marquer une absence d’un ou plusieurs
@@ -384,10 +366,15 @@ leurs voisins: en effet, des termes liés à la guerre, mais également aux
 :CUSTOM_ID: Aperçu_structurel-Esquisse_typologique_du_Proto-Ñyqy-3f9996ed
 :END:
 # - Is the language dominantly isolating or polysynthetic?
-# - If the language is at all polysynthetic, is it dominantly agglutinative or fusional? Give examples of its dominant pattern and any secondary patterns.
+# - If the language is at all polysynthetic, is it dominantly
+#   agglutinative or fusional? Give examples of its dominant pattern
+#   and any secondary patterns.
 # - If the language is at all agglutinative, is it dominantly prefixing, suffixing or neither?
-# - Illustrate the major and secondary patterns (including infixation, stem modification, reduplication, suprasegmental modification, and suppletion).
-# - If the language is at all polysynthetic, is it dominantly "head-marking", "dependent-marking", or mixed?
+# - Illustrate the major and secondary patterns (including infixation,
+#   stem modification, reduplication, suprasegmental modification, and
+#   suppletion).
+# - If the language is at all polysynthetic, is it dominantly
+#   "head-marking", "dependent-marking", or mixed?
 # - Give some examples of each type of marking the language exhibits.
 Le Proto-Ñyqy est une langue qui apparaît comme étant fortement analytique et
 isolationniste, reposant quasi exclusivement sur sa syntaxe afin d’exprimer sa
@@ -522,26 +509,26 @@ proches les unes des autres.
 #+NAME: vow-tree
 #+BEGIN_SRC emacs-lisp
   (setq-local nyqy-vowels
-    '("[vowel]"
-      ("[back]"
-       ("[tense]"
-        ("[high]" "/u/")
-        ("{high}" "/ɤ/"))
-       ("{tense}"
-        ("[high]" "/ʊ/")
-        ("{high}" "/ɔ/")))
-      ("{back}"
-       ("[tense]"
-        ("[high]" "/y/")
-        ("{high}" "/ø/"))
-       ("{tense}"
-        ("[high]" "/ɪ/")
-        ("{high}" "/ɛ/")))))
+    '("+vowel"
+      ("+back"
+       ("+tense"
+        ("+high" "/u/")
+        ("-high" "/ɤ/"))
+       ("-tense"
+        ("+high" "/ʊ/")
+        ("-high" "/ɔ/")))
+      ("-back"
+       ("+tense"
+        ("+high" "/y/")
+        ("-high" "/ø/"))
+       ("-tense"
+        ("+high" "/ɪ/")
+        ("-high" "/ɛ/")))))
   (conlanging-tree-to-dot nyqy-vowels)
 #+END_SRC
 
-#+RESULTS[765fdf2cc8c3244cf990eb8dd664b92a2dda50d7]: vow-tree
-: graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="[vowel]"];1[label="[back]"];0 -- 1;11[label="[tense]"];1 -- 11;111[label="[high]"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="{high}"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="{tense}"];1 -- 12;121[label="[high]"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="{high}"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="{back}"];0 -- 2;21[label="[tense]"];2 -- 21;211[label="[high]"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="{high}"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="{tense}"];2 -- 22;221[label="[high]"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="{high}"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
+#+RESULTS[6b35bbf302ff8ee0d247a5c76dbfbd8902c94504]: vow-tree
+: graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="+vowel"];1[label="+back"];0 -- 1;11[label="+tense"];1 -- 11;111[label="+high"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="-high"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="-tense"];1 -- 12;121[label="+high"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="-high"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="-back"];0 -- 2;21[label="+tense"];2 -- 21;211[label="+high"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="-high"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="-tense"];2 -- 22;221[label="+high"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="-high"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
 
 #+BEGIN_SRC dot :file nyqy/vowel-feature-tree.png :var input=vow-tree
   $input
@@ -549,7 +536,7 @@ proches les unes des autres.
 #+NAME: arbre:vowels
 #+ATTR_HTML: :alt Arbre des voyelles du Proto-Ñyqy :class gentree
 #+CAPTION: Arbre des caractéristiques des voyelles du Proto-Ñyqy
-#+RESULTS[23c095d0c07e606cabed5ac10e758b79e97638a3]:
+#+RESULTS[552f4476d5a8d7fa9f900430007d31547e69ea55]:
 [[file:img/nyqy/vowel-feature-tree.png]]
 
 Voici une description des voyelles du Proto-Ñyqy :
@@ -736,11 +723,11 @@ les aborderons donc pas dans cet ouvrage.
 :PROPERTIES:
 :CUSTOM_ID: Aperçu_structurel-Phonotaxes-Structure_syllabique-cae9f170
 :END:
-Une syllabe typique en Mattér se présente sous la forme (C)V(CC), avec au moins
-une consonne obligatoire soit dans l’attaque soit dans le coda, suivant les
-règles présentées ci-dessous. Ainsi, la syllabe la plus complexe possible en
-Proto-Ñyqy contient une consonne, puis une voyelle, puis deux nouvelles
-consonnes.
+Une syllabe typique en Proto-Ñyqy se présente sous la forme (C)V(CC),
+avec au moins une consonne obligatoire soit dans l’attaque soit dans
+le coda, suivant les règles présentées ci-dessous. Ainsi, la syllabe
+la plus complexe possible en Proto-Ñyqy contient une consonne, puis
+une voyelle, puis deux nouvelles consonnes.
 
 Comme cela a été mentionné ci-dessus, il est phonétiquement impossible en
 Proto-Ñyqy que deux consonnes de même qualité dorsale se suivent. Ainsi, s’il
@@ -3869,10 +3856,4 @@ Mes sites :
 :CUSTOM_ID: Footnotes-6126f0eb
 :END:
 
-[fn:4] https://en.wikipedia.org/wiki/Interlinear_gloss
-
-[fn:3] [[https://www.internationalphoneticassociation.org/content/ipa-chart]]
-
-[fn:2] [[https://phundrak.com]]
-
-[fn:1] https://langue.phundrak.com
+[fn:1] https://en.wikipedia.org/wiki/Interlinear_gloss
