@@ -1,11 +1,10 @@
-# -*- eval: (require 'org-ref) -*-
 #+title: The Proto-Ñyqy People
-#+subtitle: Their Culture, their Language, and what we know about it
+#+subtitle: Their Culture, their Language
 #+setupfile: ../headers
+#+language: en
 #+html_head: <meta name="description" content="The Culture and the Language of the Proto-Ñyqy people" />
 #+html_head: <meta property="og:title" content="The Proto-Ñyqy people" />
 #+html_head: <meta property="og:description" content="The Culture and the Language of the Proto-Ñyqy People" />
-#+macro:     nyqy (eval (conlanging-proto-nyqy-to-org $1))
 #+options:   auto-id:t
 #+subject:   Proto-Ñyqy Culture and Language
 #+uid:       https://langue.phundrak.com/en/proto-nyqy
@@ -17,7 +16,7 @@
 :PROPERTIES:
 :CUSTOM_ID: Introduction-Foreword-d22hjv20e5j0
 :END:
-Redistribution or sell of this document is strictly prohibited. This
+Redistribution or sale of this document is strictly prohibited. This
 document is protected by French law on copyright and is completely
 owned by its author[fn:3] (myself, Lucien “Phundrak” Cartier-Tilet).
 This document is released for free in various formats on the author’s
@@ -28,18 +27,18 @@ If you got this document by any other mean than a website on the
 currently no agreement with the author to redistribute it by any mean
 possible. If you wish to redistribute it, please contact the author.
 
-This document is about a gls:conlang I created. However, it will be
-written as an in-universe document would be. Therefore, any reference
-to other works, documents or people will be completely fictional. If
-there is somewhere written that there “needs to be more research done
-on the subject” or any similar kind of expression, this simply means I
-haven’t written anything on this subject, and I may not plan to. As
-you might notice, the style of writing in this document will be
-inspired mainly by the book /Indo-European Language and Culture/ by
-Benjamin W. Forston. Go read this book if you haven’t already, it’s
-extremely interesting (except for the part with the Old Irish and
-Vedic people and what their kings and queens did with horses, I wish
-to unread that).
+This document is about a constructed language (conlang) I created.
+However, it will be written as an in-universe document would be.
+Therefore, any reference to other works, documents or people will be
+completely fictional. If there is somewhere written that there “needs
+to be more research done on the subject” or any similar kind of
+expression, this simply means I haven’t written anything on this
+subject, and I may not plan to. As you might notice, the style of
+writing in this document will be inspired mainly by the book
+/Indo-European Language and Culture/ by Benjamin W. Forston. Go read
+this book if you haven’t already, it’s extremely interesting (except
+for the part with the Old Irish and Vedic people and what their kings
+and queens did with horses, I wish to unread that).
 
 This is a work of fiction. Any resemblance to persons living or dead,
 to any real event, or any real people is purely coincidental.
@@ -187,23 +186,24 @@ from it, but they were surely there.
 
 Note that “Proto-Ñyqy” is the usual and most widely accepted spelling
 of the name of the language and culture, but other spellings are
-accepted such as “Proto Ñy Qy”, “Proto Ñy Ȟy”, “Proto My Qy”, or
-“Proto My Ȟy”, each with their equivalent with one word only after the
+accepted such as “Proto Ñy Qy”, “Proto Ñy Ħy”, “Proto Ḿy Qy”, or
+“Proto Ḿy Ħy”, each with their equivalent with one word only after the
 “Proto” part. As we’ll see below in
-§[[#Phonology-Consonants-crlb9nn0h5j0]], the actual pronunciation of
-consonants is extremely uncertain, and each one of these orthographies
-are based on one of the possible pronunciations of the term
-{{{recon(ñyqy)}}}. In this book, we’ll use the so called “coronal-only”
-orthography, unless mentionned otherwise. Some people also have the
-very bad habit of dubbing this language and culture as simply “Ñyqy”
-(or one of its variants), but this is very wrong, as the term “Ñyqy”
-designates the whole familiy of languages and cultures that come from
-the Proto-Ñyqy people. The Tiltinian languages are as much Tiltinian
-as they are Ñyqy languages, but that does not mean they are the same
-as the Proto-Ñyqy language, even if they are relatively close in terms
-of time. When speaking about something that is “Ñyqy”, we are
-generally speaking about daughter languages and cultures and not about
-the Proto-Ñyqy language and culture itself.
+§[[#Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0]],
+the actual pronunciation of consonants is extremely uncertain, and
+each one of these orthographies are based on one of the possible
+pronunciations of the term {{{recon(ñyqy)}}}. In this book, we’ll use the so
+called “coronal-only” orthography, unless mentionned otherwise. Some
+people also have the very bad habit of dubbing this language and
+culture as simply “Ñyqy” (or one of its variants), but this is very
+wrong, as the term “Ñyqy” designates the whole familiy of languages
+and cultures that come from the Proto-Ñyqy people. The Tiltinian
+languages are as much Tiltinian as they are Ñyqy languages, but that
+does not mean they are the same as the Proto-Ñyqy language, even if
+they are relatively close in terms of time. When speaking about
+something that is “Ñyqy”, we are generally speaking about daughter
+languages and cultures and not about the Proto-Ñyqy language and
+culture itself.
 
 Note also we usually write this language with groups of morphemes,
 such as a noun group, as one word like we do with {{{recon(ñyqy)}}}.
@@ -280,14 +280,22 @@ probably near nowadays’ Rhesodia. We know this thanks to some of their
 reconstructed words which are typical for the other people that lived
 or still live in hot rainforests, and these terms are older than the
 split between the northern and southern groups. For instance, both
-groups have a common ancestor word for /bongo/, {{{recon(zebac)}}}, as well as
-for the /bonobo/, {{{recon(pawac)}}}, which are only found in these
+groups have a common ancestor word for /bongo/, {{{recon(zebec)}}}, as well as
+for the /bonobo/, {{{recon(pœwec)}}}, which are only found in these
 rainforests.
 
 ** Society
 :PROPERTIES:
 :CUSTOM_ID: Culture-of-the-Proto-Ñyqy-People-Society-g29i52n0h5j0
 :END:
+The Proto-Ñyqy was a matriachal society, led most likely by older
+women who had an important spiritual role. This cultural trait is
+found in numerous daughter branches of the Ñyqy family, and it would
+be unreasonable to think a large amount of them would change in the
+same way despite many branches being most likely disconnected from one
+another, and the patriarchal branches almost all retained women as
+their spiritual figurehead, even if political power passed in the
+hands of men.
 
 ** Religion and Beliefs
 :PROPERTIES:
@@ -299,17 +307,772 @@ rainforests.
 :CUSTOM_ID: Culture-of-the-Proto-Ñyqy-People-Personal-names-8ymj52n0h5j0
 :END:
 
-* Phonology
+* Structural Overview
 :PROPERTIES:
-:CUSTOM_ID: Phonology-imgb9nn0h5j0
+:CUSTOM_ID: Structural-Preview-ax13bot058j0
 :END:
-** Vowels
+** Typological Outline of Proto-Ñyqy
 :PROPERTIES:
-:CUSTOM_ID: Phonology-Vowels-uvkb9nn0h5j0
+:CUSTOM_ID: Structural-Preview-Typological-Outline-of-Proto-Ñyqy-chc1dpt058j0
 :END:
-** Consonants
+# - Is the language dominantly isolating or polysynthetic?
+# - If the language is at all polysynthetic, is it dominantly
+#   agglutinative or fusional? Give examples of its dominant pattern
+#   and any secondary patterns.
+# - If the language is at all agglutinative, is it dominantly
+#   prefixing, suffixing or neither?
+# - Illustrate the major and secondary patterns (including infixation,
+#   stem modification, reduplication, suprasegmental modification, and
+#   suppletion).
+# - If the language is at all polysynthetic, is it dominantly
+#   "head-marking", "dependent-marking", or mixed?
+# - Give some examples of each type of marking the language exhibits.
+Proto-Ñyqy is a language that appears to be strongly analytical and
+isolating. It relies mainly on its syntax when it comes to its grammar
+and seldom on morphological rules if at all. Most of its words contain
+either one or two syllables and its sentenses often revolve around
+linked morphemes which could be interpreted as grammatical particules.
+You can find some examples of Proto-Ñyqy and its translation below as
+well as its glossing.
+1. {{{recon(yq ñe pom qy)}}}
+   | yq        | ñe   | pom | qy       |
+   | dem.prox3 | home | GEN | 1sg(ABS) |
+   This house is mine
+2. {{{recon(cø ne)}}}
+   | cø            | ñe         |
+   | 1sg.POSS.INCL | house(ABS) |
+   This is my house
+3. {{{recon(pim bú qi coq op)}}}
+   | pim   | bú       | qi | coq | op  |
+   | mango | 2sg(ERG) | DU | eat | PST |
+   We (two) ate a mango
+4. {{{recon(cø pim i bœ mygú coq ug mún op zø qy zúmu op)}}}
+   | cø       | pim   | i              | bœ      | mygú        | coq | ug   | mún  | op  |
+   | POSS.1sg | mango | undef.art(ABS) | def.art | monkey(ERG) | eat | SUBJ | PROG | PST |
+
+   | zø       | qy       | zúmu | op  |
+   | 3sg(ABS) | 1sg(ERG) | see  | PST |
+   I saw the monkey that would have been eating a mango of mine
+
+In the first and second examples, we can notice the absence of a verb
+“to be” or any equivalent, this shows existential predicates did not
+need a verb in order to express the existance of something and its
+attributes. This also reveals the word order of the genitive form in
+Proto-Ñyqy, the genitive particle follows the element it propertizes
+and is followed by its property. For instance, in {{{recon(yq ñe pom qy)}}},
+{{{recon(yq ñe)}}} “this house” has the property of being mine {{{recon(qy)}}} is
+the first person singular). /I/ characterize /this house/, therefore /this
+house is of me/, /this is my house/. The main difference between the
+first and the second examples is the first example is the accent in
+the first example is on the fact that said house is /mine/, whereas in
+the second example “my house” is simply presented to the interlocutor.
+
+As you can see in the third example, Proto-Ñyqy used to have a dual
+number which has been lost in most of its decendent languages, and the
+remaining languages employ the former dual as their current plural
+dissmissing instead the old plural. As indicated by its name, the dual
+was used when referencing to two elements when an otherwise greater
+amount of elements would have required the plural. Hence, in this
+example, you could consider {{{recon(bú qi)}}} to be kind of a 2DU pronoun.
+# --- it is actually a bit more complex than that, as we’ll see in
+# chapter
+# [[#Structural-Preview-Structure-of-a-Nominal-Group-Numbers-n0a6umu058j0]].
+
+Finally, the fourth example gives us an overview of Proto-Ñyqy syntax,
+such as a different position depending on whether we use an indefinite
+or definite article, as well as a subclause inserted in the main
+clause defining a noun phrase, here {{{recon(zø)}}} refering to {{{recon(mygú)}}}.
+We can also clearly see the word order of main clauses presented as
+Absolutive-Ergative-Verb, Proto-Ñyqy being most likely a mostly
+ergative language.
+
+It is to be noted that although it is supposed Proto-Ñyqy was a mostly
+analytical language, some people like to write related morphemes
+together as one word, hyphenated or not. Thus, the third example could
+also be written as {{{recon(pim búqi coqop)}}} or {{{recon(pim bú-qi coq-op)}}} by
+some. It is due to the fact Proto-Ñyqy was for a long time thought to
+be an agglutinative language and the habit of writing related
+morphemes as one word stuck around. However, nowadays we know an
+analytical Proto-Ñyqy is instead most likely and scolars began writing
+morphenes separated from each other instead.
+
+** Phonetic Inventory and Translitteration
 :PROPERTIES:
-:CUSTOM_ID: Phonology-Consonants-crlb9nn0h5j0
+:CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-1hrhtyt058j0
+:END:
+*** Vowels
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Vowels-vishtyt058j0
+:END:
+As we stand today, eight vowels were reconstructed for Proto-Ñyqy:
+- e :: {{{phon(*ɛ)}}} as in General American English /“bed”/ [bɛd]
+- i :: {{{phon(*ɪ)}}} as in General American English /“bit”/ [bɪt]
+- o :: {{{phon(*ɔ)}}} as in General American English /“thought”/ [θɔːt]
+- ø :: {{{phon(*ø)}}} as in French /“peu”/ [pø]
+- œ :: {{{phon(*ɤ)}}} as in Scottish Gaelic /“doirbh”/ [d̪̊ɤrʲɤv]
+- u :: {{{phon(*ʊ)}}} as in General American English /“hook”/ [hʊ̞k]
+- ú :: {{{phon(*u)}}} as in General American English /“boot”/ [bu̟ːt]
+- y :: {{{phon(*y)}}} as in French /“dune”/ [d̪yn]
+
+#+NAME: table:vowels:trans
+#+CAPTION: Proto-Ñyqy Vowels
+#+ATTR_LATEX: :placement [htb]
+|         <r> |     <c>     |     <c>      |
+|           / |      <      |      <       |
+|             | antérieures | postérieures |
+|-------------+-------------+--------------|
+|     fermées |      y      |      ú       |
+| pré-fermées |      i      |      u       |
+|  mi-fermées |      ø      |      œ       |
+| mi-ouvertes |      e      |      o       |
+
+We also have a ninth vowel, noted <ə> which denotes an unknown vowel.
+It is most likely this was before the Proto-Ñyqy breakup a simple
+schwa standing where a vowel got reduced either at an earlier stage
+than Proto-Ñyqy or during the breakup of the language. Depending on
+the languages that evolved from Proto-Ñyqy, some got rid of it later
+while some other reinstated it as a full vowel with different rules
+each on which vowel it would become. Thus in the current stage of
+reasearch on Proto-Ñyqy, we cannot know for certain which vowel it
+should have been.
+
+It is however possible to create a featural tree for the known vowels,
+determining which would have been considered closer to others, as
+seens with figure [[tree:vowels]].
+#+NAME: vow-tree
+#+BEGIN_SRC emacs-lisp :wrap "src dot :file proto-nyqy/vowel-feature-tre.png"
+  (let ((nyqy-vowels
+          '("vowels"
+            ("+back"
+             ("+tense"
+              ("+high" "/u/")
+              ("-high" "/ɤ/"))
+             ("-tense"
+              ("+high" "/ʊ/")
+              ("-high" "/ɔ/")))
+            ("-back"
+             ("+tense"
+              ("+high" "/y/")
+              ("-high" "/ø/"))
+             ("-tense"
+              ("+high" "/ɪ/")
+              ("-high" "/ɛ/"))))))
+    (conlanging-tree-to-dot nyqy-vowels))
+#+END_SRC
+
+#+RESULTS[710ba5bdd3ed5f787748cbb05d0460b251e31a9e]: vow-tree
+#+begin_src dot :file proto-nyqy/vowel-feature-tre.png
+graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="vowels"];1[label="+back"];0 -- 1;11[label="+tense"];1 -- 11;111[label="+high"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="-high"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="-tense"];1 -- 12;121[label="+high"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="-high"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="-back"];0 -- 2;21[label="+tense"];2 -- 21;211[label="+high"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="-high"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="-tense"];2 -- 22;221[label="+high"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="-high"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
+#+end_src
+
+#+NAME: tree:vowels
+#+ATTR_HTML: :alt Proto-Ñyqy Vowel Featural Tree :class gentree
+#+CAPTION: Proto-Ñyqy Vowels Featural Tree
+#+RESULTS[93213f3a21282f76f00524121b4d3bd73339769e]:
+[[file:img/proto-nyqy/vowel-feature-tre.png]]
+
+*** Consonants
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0
+:END:
+the topic of consonants, unlike vowels, is a hot debate among
+linguists. while we are pretty sure proto-ñyqy has twelve consonants,
+we are still unsure which consonants they are due to the extreme
+unstability of the dorsal feature, and there is seemingly no
+consistency as to how the consonants were stabilized in the different
+languages that emerged from the proto-ñyqy breakup. it is only in the
+recent years Ishy Maeln proposed a new theory that is gaining traction
+among proto-ñyqy specialists: each consonant could be pronounced
+either as a dorsal or as a non-dorsal depending on its environment and
+both potential pronunciation can be correct. she even goes further and
+proposes proto-ñyqy had an alternating rule stating a given consonant
+had to be non-dorsal if the previous one was, and vice versa. this
+would explain the common pattern of dorsal consonants alternation
+found in some early languages found after the breakup such as
+proto-mojhal. this phenomenon is more thouroughly explained in
+§[[#Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0]].
+
+The featural tree of the Proto-Ñyqy language can be found in the figure
+[[tree:cons]]. Each grapheme displays below its dorsal pronunciation on
+the left and its non-dorsal pronunciation on the right.
+
+#+name: cons-tree
+#+begin_src emacs-lisp :wrap "src dot :file proto-nyqy/consonant-feature-tree.png"
+  (let ((nyqy-consonants '("consonant"
+                           ("+cor"
+                            ("+ant"
+                             ("+voice"
+                              ("+nas" "n\nɳ / n")
+                              ("-nas" "z\nʝ / z"))
+                             ("-voice" "s\nç / s"))
+                            ("-ant"
+                             ("+voice" "j\nɟ / d͡ʒ")
+                             ("-voice" "c\nc / t͡ʃ")))
+                           ("-cor"
+                            ("+voice"
+                             ("+nas"
+                              ("+lab" "m\nŋ͡m / m")
+                              ("-lab" "ñ\nɴ / ɦ̃"))
+                             ("-nas"
+                              ("+lab"
+                               ("+cont" "w\nw / v")
+                               ("-cont" "b\ng͡b / b"))
+                              ("-lab" "g\nɡ / ʕ")))
+                            ("-voice"
+                             ("+lab" "p\nk͡p / p")
+                             ("-lab" "q\nq / ħ"))))))
+    (conlanging-tree-to-dot nyqy-consonants))
+#+end_src
+
+#+RESULTS[e0875f85b0f48837f58e96ee5587b35ec0bccdeb]: cons-tree
+#+begin_src dot :file proto-nyqy/consonant-feature-tree.png
+graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="consonant"];1[label="+cor"];0 -- 1;11[label="+ant"];1 -- 11;111[label="+voice"];11 -- 111;1111[label="+nas"];111 -- 1111;11111[label="n
+ɳ / n"];1111 -- 11111;1112[label="-nas"];111 -- 1112;11121[label="z
+ʝ / z"];1112 -- 11121;112[label="-voice"];11 -- 112;1121[label="s
+ç / s"];112 -- 1121;12[label="-ant"];1 -- 12;121[label="+voice"];12 -- 121;1211[label="j
+ɟ / d͡ʒ"];121 -- 1211;122[label="-voice"];12 -- 122;1221[label="c
+c / t͡ʃ"];122 -- 1221;2[label="-cor"];0 -- 2;21[label="+voice"];2 -- 21;211[label="+nas"];21 -- 211;2111[label="+lab"];211 -- 2111;21111[label="m
+ŋ͡m / m"];2111 -- 21111;2112[label="-lab"];211 -- 2112;21121[label="ñ
+ɴ / ɦ̃"];2112 -- 21121;212[label="-nas"];21 -- 212;2121[label="+lab"];212 -- 2121;21211[label="+cont"];2121 -- 21211;212111[label="w
+w / v"];21211 -- 212111;21212[label="-cont"];2121 -- 21212;212121[label="b
+g͡b / b"];21212 -- 212121;2122[label="-lab"];212 -- 2122;21221[label="g
+ɡ / ʕ"];2122 -- 21221;22[label="-voice"];2 -- 22;221[label="+lab"];22 -- 221;2211[label="p
+k͡p / p"];221 -- 2211;222[label="-lab"];22 -- 222;2221[label="q
+q / ħ"];222 -- 2221;}
+#+end_src
+
+#+NAME: tree:cons
+#+ATTR_HTML: :alt Feature Tree of Proto-Ñyqy Consonants :class gentree
+#+ATTR_LATEX: :float sideways
+#+CAPTION:Feature Tree of Proto-Ñyqy Consonants
+#+RESULTS[ffe72afe3ad98a580247d708ff0120e303ee1209]:
+[[file:img/proto-nyqy/consonant-feature-tree.png]]
+
+As you can see, each one of the consonants have their two alternative
+indicated below their grapheme. In the case of the coronal consonants,
+the alternative consonant is obtained by replacing the anterior
+feature by the dorsal feature when it is present.
+
+The way of writing consonants was therefore standardized as the
+following:
+| Main Grapheme | Dorsal Phoneme | Non-Dorsal Phoneme | Alternate Grapheme |
+|---------------+----------------+--------------------+--------------------|
+| ñ             | {{{phon(*ɴ)}}}       | {{{phon(*ɦ̃)}}}             | ḿ                  |
+| q             | {{{phon(*q)}}}       | {{{phon(*ħ)}}}           | ħ, h_{1}              |
+| g             | {{{phon(*ɢ)}}}       | {{{phon(*ʕ)}}}           | ȟ, h_{2}              |
+| c             | {{{phon(*c)}}}       | {{{phon(*t͡ʃ)}}}          | ł                  |
+| j             | {{{phon(*ɟ)}}}       | {{{phon(*d͡ʒ)}}}          | ʒ                  |
+| w             | {{{phon(*w)}}}       | {{{phon(*v)}}}           | l                  |
+| m             | {{{phon(*ŋ͡m)}}}      | {{{phon(*m)}}}           | r, r_{1}              |
+| p             | {{{phon(*χ)}}}       | {{{phon(*p)}}}           | xh, r_{2}             |
+| b             | {{{phon(*g͡b)}}}      | {{{phon(*b)}}}           | rh, r_{3}             |
+| n             | {{{phon(*ɳ)}}}       | {{{phon(*n)}}}           | y                  |
+| s             | {{{phon(*ç)}}}       | {{{phon(*s)}}}           | x, r_{4}              |
+| z             | {{{phon(*ʝ)}}}       | {{{phon(*z)}}}           | ɣ, r_{5}              |
+For each of these consonants, the letter chosen represents what we
+suppose was the most common or the default pronunciation of the
+consonant represented. In the table are also included alternate
+graphemes you might find in other, mostly older works, though they are
+mostly deprecated now.
+
+As you can see, Proto-Ñyqy had potentially two different consonants
+that could be pronounced as {{{phon(*m)}}}. Although it did not influence
+Proto-Ñyqy as far as we know, it definitively influenced the Pritian
+branch of the family, with <ñ> and <m> influencing differently the
+vowel following it.
+
+Several consonants used to be unknown at the beginnings of the
+Proto-Ñyqy study, as can be seen with the old usage of <h_{1}, h_{2}, r_{1},
+r_{2}, r_{3}, r_{4}, and r_{5}>. These are found mostly in the earlier documents
+but progressively dissapear as our understanding of the Proto-Ñyqy
+grew during the past century. They are not used anymore, but any
+student that wishes to read older documents on Proto-Ñyqy should be
+aware of these.
+
+*** Pitch and Stress
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Pitch-and-Stress-br8ank61e8j0
+:END:
+It is definitively known Proto-Ñyqy had a stress system that was used
+both on a clause and on a word level, as it has been inherited by the
+languages that evolved from it. However, it is not possible to
+reconstruct it accurately, we only know the vowel <ə> was unstressed
+and only appeared in words with two syllables or more. However, we do
+not know if it had any morphological meaning or if it was productive.
+
+On the other hand, we are much less sure about whether it had an
+accent system, and if it did whether it was productive or not. Most of
+the languages that evolved from Proto-Ñyqy had or have one such as the
+Mojhal-Andelian family, but some don’t such as the Pritian family. The
+most commonly accepted answer is a pitch system appeared after the
+breakup of the pitchless branches which happenned earlier than the
+other branches which do have a pitch system. In reconstructed
+Proto-Ñyqy however, if such a system was present, pitches were most
+likely non-phonemic and unproductive. It only gained productivity in
+later stages, after the first breakups we know, in a common unknown
+ancestor language of the branches which did or still do have either an
+accent or a pitch system, and even there the evolutions seem to have
+happened in different ways depending on the branches. It is therefore
+impossible to know what the pitch system of Proto-Ñyqy was if it had
+one.
+
+** Phonotactics
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonotactics-r2whtyt058j0
+:END:
+*** Syllable Structure
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonotactics-Syllable-Structure-hhx3zk40f8j0
+:END:
+The prototypical syllable in Proto-Ñyqy appears as a (C)V(C)(C)
+syllable with at least one consonant around the vowel, either in the
+onset or in the coda. At most, it can have one consonant in the onset
+and two in the coda.
+
+No special rule have been found to rule the onset, it can host any
+consonant without any effect on the vowel.
+
+However, it has been found the coda has some rules:
+- two nasal consonants cannot follow each other
+- two coronal consonants cannot follow each other
+- labial consonants are never found with another consonant in the coda
+
+It has also been found that if two coronal consonants do follow each
+other in cross-syllabic environments, with the first one in the coda
+of a first syllable and the second one in the onset of a second
+syllable, then the former will become voiced as the latter. It has
+also been found a schwa tends to appear between syllables when the
+first one ends with two consonants and the second one begins with one.
+
+*** Consonantal Dorsal Alternation
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonotactics-Consonantal-Dorsal-Alternation-m5xkj480f8j0
+:END:
+As mentioned above in
+§[[#Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0]],
+it seems probable according to Maeln’s theory consonants were
+alternating between dorsals and non-dorsals. We do not know if it only
+happened between words, within words, or along whole clauses, but this
+would explain much of the different languages that evolved from
+Proto-Ñyqy. Table [[word-consonantal-dorsal-alternation]] shows different
+possible pronunciation of Proto-Ñyqy words with word-wise consonantal
+dorsal alternation whether the first consonant is to be considered a
+dorsal consonant or not.
+
+#+name: word-consonantal-dorsal-alternation
+#+caption: Different Possible Pronunciation of Proto-Ñyqy Words
+| Word         | Dorsal-Initial | Dorsal-Final |
+|--------------+----------------+--------------|
+| {{{recon(pœwec)}}} | {{{phon(*pɤwɛt͡ʃ)}}}  | {{{phon(*pɤvɛc)}}} |
+| {{{recon(zebec)}}} | {{{phon(*zɛg͡bɛt͡ʃ)}}} | {{{phon(*ʝɛbɛc)}}} |
+
+** Word Structure                                                 :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Word-Structure-n6vhtyt058j0
+:END:
+** World Classes                                                  :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-aywhtyt058j0
+:END:
+*** Names
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Names-ztxhtyt058j0
+:END:
+# - What are the distributional properties of nouns?
+# - What are the structural properties of nouns?
+# - What are the major formally distinct subcategories of nouns?
+# - What is the basic structure of the noun word (for polysynthetic
+#   languages) and/or noun phrases (for more isolating languages)?
+**** Countables and Uncountables
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Names-Countables-and-Uncountables-sqyhtyt058j0
+:END:
+**** Proper Nouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Names-Proper-Nouns-0ozhtyt058j0
+:END:
+*** Pronouns and Anaphoric Clitics
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-9k0ityt058j0
+:END:
+# - Does the language have free pronouns and/or anaphoric clitics?
+#   (These are distinct from grammatical agreement.)
+# - Give a chart of the free pronouns and/or anaphoric clitics.
+**** Personal Pronouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Personal-Pronouns-cps4r0u058j0
+:END:
+**** Demonstrative Pronouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Demonstrative-Pronouns-2qt4r0u058j0
+:END:
+**** Possessive Pronouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Possessive-Pronouns-2pu4r0u058j0
+:END:
+*** Verbs
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-xg1ityt058j0
+:END:
+# - What are the distributional properties of verbs?
+# - What are the structural properties of verbs?
+# - What are the major subclasses of verbs?
+# - Describe the order of various verbal operators within the verbal
+# - word or verb phrase.
+# - Give charts of the various paradigms, e.g. person marking,
+# - tense/aspect/mode, etc. Indicate major allomorphic variants.
+# - Are directional and/or locational notions expressed in the verb or
+# - verb phrase at all?
+#   - Is this operation obligatory, i.e. does one member of the
+#     paradigm have to occur in every finite verb or verb phrase?
+#   - Is it productive, i.e. can the operation be specified for al
+#     verb stems, and does it have the same meaning with each one?
+#     (Nothing is fully productive, but some operations are more
+#     productive than others.)
+#   - Is this operation primarily coded morphologically, analytically,
+#     or lexically? Are there any exceptions to the general case?
+#   - Where in the verb phrase or verbal word is this operation likely
+#     to appear? Can it occur in more than one place?
+**** Verbal Structure
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Structure-zfubf8u058j0
+:END:
+**** Verbal Derivations
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Derivations-tezbf8u058j0
+:END:
+**** Verbal Inflexions
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Inflexions-443cf8u058j0
+:END:
+*** Modifiers
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-yw5cf8u058j0
+:END:
+# - If you posit a morphosyntactic category of adjectives, give
+#   evidence for not grouping theseforms with the verbs or nouns. What
+#   characterizes a form as being an adjective in this language?
+# - How can you characterize semantically the class of concepts coded
+#   by this formal category?
+# - Do adjectives agree with their heads (e.g. in number, case, and/or
+#   noun class)?
+# - What kind of system does the language employ for counting?
+# - How high can a fluent native speaker count without resorting
+#   either to words from another language or to a generic word like
+#   /many/? Exemplify the system up to this point.
+# - Do numerals agree with their head nouns (number, case, noun
+#   class, ...)?
+**** Descriptive Adjectives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Descriptive-Adjectives-pcpelau058j0
+:END:
+**** Non-Numeral Quantifiers
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Non-Numeral-Quantifiers-zsselau058j0
+:END:
+**** Numerals
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Numerals-4gvelau058j0
+:END:
+*** Adverbs
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Adverbs-6lxelau058j0
+:END:
+# - What characterikes a form as being an adverb in this language? If
+#   you posit a distinct class of adverbs, argue for why these forms
+#   should not be treated as nouns, verbs, or adjectives.
+# - For each kind of adverb listed in this section, list a few members
+#   of the type, and specify whether there are any restrictions
+#   relavite to that type, e.g. where they can come in a clause, any
+#   morphemes common to the type, etc.
+# - Are any of these classes of adverbs related to older
+#   complement-taking (matrix) verbs?
+*** Adpositions
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Adpositions-isib3bu058j0
+:END:
+*** Grammatical Particules
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Grammatical-Particules-q0kb3bu058j0
+:END:
+** Constituants Order Typology                                    :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-xaujqgu058j0
+:END:
+*** Constituants Order in Main Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Constituants-Order-in-Main-Clauses-6bvjqgu058j0
+:END:
+# - What is the neutral order of free elements in the unit?
+# - Are there variations?
+# - How do the variant orders function?
+# - Specific to the main clause constituent order: What is the
+#   pragmatically neutral order of constituents (A/S, P, and V) in
+#   basic clauses of the language?
+*** Constituants Order in Nominal Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Constituants-Order-in-Nominal-Clauses-195lqgu058j0
+:END:
+# - Describe the order(s) of elements in the noun phrase.
+*** Constituants Order in Verbal Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Constituants-Order-in-Verbal-Clauses-f76lqgu058j0
+:END:
+# - Where do auxliaries occur in relation to the semantically “main”
+#   verb?
+# - Where do verb-phrase adverbs occur with respect to the verb and
+#   auxiliaries?
+*** Adpositional Phrases
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Adpositional-Phrases-g57lqgu058j0
+:END:
+# - Is the language dominantly prepositional or post-positional? Give
+#   examples.
+# - Do many adpositions come from nouns or verbs?
+*** Comparatives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Comparatives-u18lqgu058j0
+:END:
+# - Does the language have one or more grammaticalized comparative
+#   constructions? If so, what is the order of the standard, the
+#   marker and the quality by which an item is compared to the
+#   standard?
+*** Questions
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Questions-qx8lqgu058j0
+:END:
+# - In yes/no questions, if there is a question particle, where does
+#   it occur?
+# - In information questions, where does the question word occur?
+** Structure of a Nominal Group                                   :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-nu66umu058j0
+:END:
+*** Composed Words
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Composed-Words-7w76umu058j0
+:END:
+# - Is there noun-noun compounding that results in a noun (e.g.
+#   /windshield/)?
+# - How do you know it is compounding?
+# - Is there noun-verb (or verb-noun) compounding that results in a
+#   noun (e.g. /pickpocket/, /scarecrow/)?
+# - Are these processes productive (like noun-verb in English
+#   can-opener)? How common is compounding?
+*** Denominalization
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Denominalization-c296umu058j0
+:END:
+# - Are there any processes (productive or not) that form a verb from
+#   a noun?
+# - An adjective from a noun?
+# - An adverb from a noun?
+*** Numbers
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Numbers-n0a6umu058j0
+:END:
+# - Is number expressed in the noun phrase?
+# - Is the distinction between singular and non-singular obligatory,
+#   optional, or completely absent in the noun phrase?
+# - If number marking is “optional”, when does it tend to occur, and
+#   when does it tend not to occur?
+# - If number marking is obligatory, is number overtly expressed for
+#   all noun phrases or only some subclasses of noun phrases, such as
+#   animate?
+# - What non-singular distinctions are there?
+*** Grammatical Case
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Grammatical-Case-bya6umu058j0
+:END:
+# - Do nouns exhibit morphological case?
+# - If so, what are the cases? (The functions of the cases will be
+#   elaborated in later sections)
+*** Articles and Demonstratives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-owb6umu058j0
+:END:
+# - Do noun phrases have articles?
+# - If so, are they obligatory or optional, and under what
+#   circumstances do they occur?
+# - Are they separate words, or bound morphemes?
+# - Is there a class of classes of demonstratives as distinct from
+#   articles?
+# - How many degrees of distance are there in the system of
+#   demontsratives?
+# - Are there other distinctions beside distances?
+*** Possessives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Possessives-8xc6umu058j0
+:END:
+# - How are possessors expressed in the noun phrase?
+# - Do nouns agree with their possessors? Do possessors agree with
+#   possessed nouns? Neither, or both?
+# - Is there a distinction between alienable and inalienable
+#   possesson?
+# - Are there other types of possession?
+# - When the possessor is a full noun, where does it usually come with
+#   respect to the possessed noun?
+*** Classes (including Gender)
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Classes-including-Gender-i2e6umu058j0
+:END:
+# - Is there a noun class system?
+# - What are the classes and how are they manifested in the noun
+#   phrase?
+# - What dimension of reality is most central to the noun class system
+#   (e.g. animacy, shape, function, etc.)? What other dimensions are
+#   relevant?
+# - Do the classifiers occur with numerals? Adjectives? Verbs?
+# - What is their function in these contexts?
+*** Diminution/Augmentation
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Diminution-Augmentation-41f6umu058j0
+:END:
+# - Does the language employ diminutive and/or augmentative operators
+#   in the noun or noun phrase?
+# - Questions to answer for all nominal operations:
+#   - Is this operation obligatory, i.e. does one member of the
+#     paradigm have to occur in every full noun phrase?
+#   - Is it productive, i.e. can the operation be specified for all
+#     full noun phrases and does it have the same meaning with each
+#     one? (Nothing is fully productive, but some operations are more
+#     so than others.)
+#   - Is this operation primarily expressed lexically,
+#     morphologically, or analytically?
+# - Where in the noun phrase is this operation likely to be located?
+# - Can it occur in more than one place?
+** Predicates and Linked Constructions                            :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-9vn42yu058j0
+:END:
+*** Nominal Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Nominal-Predicates-6zo42yu058j0
+:END:
+# - How are proper inclusion and equative predicates formed?
+# - What restrictions are there, if any, on the TAM marking of such
+#   clauses?
+*** Adjective Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Adjective-Predicates-11q42yu058j0
+:END:
+# - How are predicate adjective formed? (Include a separate section on
+#   predicate adjectives only if they are structurally distinct from
+#   predicate nominals.)
+*** Locative Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Locative-Predicates-y5r42yu058j0
+:END:
+# - How are locational clauses (or predicate locatives) formed?
+*** Existential Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Existential-Predicates-wds42yu058j0
+:END:
+# - How are existential clauses formed? (Give examples in different
+#   tense/aspects, especially if there is significant variation.)
+# - How are negative existentials formed?
+# - Are there extended uses of existential morphology? (Provide
+#   pointers to other relevant sections of the grammar.)
+*** Possessive Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Possessive-Clauses-6gt42yu058j0
+:END:
+# - How are possessive clauses formed?
+** Verbal Groups Structure                                        :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Verbal-Groups-Structure-hhu42yu058j0
+:END:
+** Intransitive Clauses                                           :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Intransitive-Clauses-x3k4i1v058j0
+:END:
+** Ditransitive Clauses                                           :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Ditransitive-Clauses-2yl4i1v058j0
+:END:
+** Dependent Type Clauses                                         :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-gln4i1v058j0
+:END:
+*** Non-Finite
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-Non-Finite-99p4i1v058j0
+:END:
+*** Semi-Finite
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-Semi-Finite-urq4i1v058j0
+:END:
+*** Finite
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-Finite-44s4i1v058j0
+:END:
+* Functional System                                                :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-va2ityt058j0
+:END:
+** Grammatical Relationship
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Grammatical-Relationship-dj9g86v058j0
+:END:
+# Examplify some simple intransitive, transitive, and ditransitive
+# clauses. Three-argument clauses may not unequivocally exist.
+# - What are the grammatical erlations of this language? Give
+#   morphosyntactic evidence for each one that you propose.
+#   - Subject?
+#   - Ergative?
+#   - Absolutive?
+#   - Direct object?
+#   - Indirect object?
+#   There are basically four possible sources of evidence for
+#   grammatical relations:
+#   - morphological case on NPs
+#   - person marking on verbs
+#   - constituent order
+#   - some pragmatic hierarchy
+# - Is the system of grammatical relations in basic (affirmative,
+#   declarative) clauses organized according to a
+#   nominative/accusative, ergative/absolutive, tripartite, or some
+#   other system?
+# - Is there a split system for organizing grammatical relations? If
+#   so, what determines the split?
+#   - Is there split instransitivity? If so, what semantic or
+#     discourse/pragmatic factor conditions the split?
+#   - Does the system for pronouns and/or person marking on verbs
+#     operate on the same basis as that of full NPs?
+#   - Are there different grammatical-relation systems depending on
+#     the clause type (e.g. main vs. dependent clauses, affirmative
+#     vs. negative clauses)?
+#   - Are there different grammatical-relation assignment systems
+#     depending on the tense and/or aspect of the clause?
+#   - Are there any syntactic processes (e.g. conjunction reduction,
+#     relativization) that operate on an ergative/absolutive basis?
+** Constructions Linked to Voice and Valence
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Constructions-Linked-to-Voice-and-Valence-g5ceo8v058j0
+:END:
+** Valence Increase
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-dsdeo8v058j0
+:END:
+*** Causative
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Causative-hafeo8v058j0
+:END:
+*** Applicative
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Applicative-7pgeo8v058j0
+:END:
+*** Dative Shift
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Dative-Shift-n3ieo8v058j0
+:END:
+*** Dative Interest
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Dative-Interest-tgjeo8v058j0
+:END:
+*** External Possession
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-External-Possession-opkeo8v058j0
 :END:
 * Dictionary
 :PROPERTIES:
@@ -324,6 +1087,8 @@ rainforests.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-C-29dc766b
 :END:
+- {{{recon(cø)}}} :: {{{def}}}
+  1. (pron) my, first person singular possessive pronoun
 
 ** E
 :PROPERTIES:
@@ -359,6 +1124,8 @@ rainforests.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Ñ-ff7a574f
 :END:
+- {{{recon(ñe)}}} :: {{{def}}}
+  1. (n) house
 
 ** O
 :PROPERTIES:
@@ -379,13 +1146,17 @@ rainforests.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-P-2b7ab301
 :END:
-- {{{recon(pawac)}}} :: {{{def}}}
+- {{{recon(pœwec)}}} :: {{{def}}}
   1. (n) bonobo
+- {{{recon(pom)}}} :: {{{def}}}
+  1. genitive particle
 
 ** Q
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Q-b1ec8323
 :END:
+- {{{recon(qy)}}} :: {{{def}}}
+  1. (pron) first person singular
 
 ** S
 :PROPERTIES:
@@ -411,22 +1182,16 @@ rainforests.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Y-a217cb68
 :END:
+- {{{recon(yq)}}} :: {{{def}}}
+  1. demonstrative of proximity, designating something visible by but
+     far from both speakers.
 
 ** Z
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Z-144a2853
 :END:
-- {{{recon(zebac)}}} :: {{{def}}}
+- {{{recon(zebec)}}} :: {{{def}}}
   1. (n) bongo
-
-* Private Data                                                     :noexport:
-:PROPERTIES:
-:CUSTOM_ID: Private-data-4kqa1530e5j0
-:END:
-#+name: glossary
-| label   | name    | description            |
-|---------+---------+------------------------|
-| conlang | conlang | A constructed language |
 
 * Footnotes
 :PROPERTIES:
