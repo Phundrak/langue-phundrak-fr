@@ -7,3 +7,5 @@
 - archived
   - [[file:archived/hjelp.org][Hjelp]]
   - [[file:archived/matter.org][Mattér]]
+- en
+  - [[file:en/proto-nyqy.org][The Proto-Ñyqy People]]

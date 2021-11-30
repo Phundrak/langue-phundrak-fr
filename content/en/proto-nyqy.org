@@ -1,16 +1,16 @@
 #+title: The Proto-Ñyqy People
 #+subtitle: Their Culture, their Language
-#+setupfile: ../headers
-#+language: en
-#+html_head: <meta name="description" content="The Culture and the Language of the Proto-Ñyqy people" />
-#+html_head: <meta property="og:title" content="The Proto-Ñyqy people" />
-#+html_head: <meta property="og:description" content="The Culture and the Language of the Proto-Ñyqy People" />
-#+options:   auto-id:t
-#+subject:   Proto-Ñyqy Culture and Language
-#+uid:       https://langue.phundrak.com/en/proto-nyqy
+#+setupfile:    ../headers
+#+language:     en
+#+html_head:    <meta name="description" content="The Culture and the Language of the Proto-Ñyqy people" />
+#+html_head:    <meta property="og:title" content="The Proto-Ñyqy people" />
+#+html_head:    <meta property="og:description" content="The Culture and the Language of the Proto-Ñyqy People" />
+#+options:      auto-id:t
+#+subject:      Proto-Ñyqy Culture and Language
+#+uid:          https://langue.phundrak.com/en/proto-nyqy
 #+latex_header: \linespread{1.15}
 #+latex_header: \makeglossaries
-#+latex: \printglossaries
+#+latex:        \printglossaries
 
 * Foreword
 :PROPERTIES:
@@ -297,12 +297,12 @@ another, and the patriarchal branches almost all retained women as
 their spiritual figurehead, even if political power passed in the
 hands of men.
 
-** Religion and Beliefs
+** Religion and Beliefs                                           :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Culture-of-the-Proto-Ñyqy-People-Religion-and-beliefs-31mj52n0h5j0
 :END:
 
-** Personal Names
+** Personal Names                                                 :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Culture-of-the-Proto-Ñyqy-People-Personal-names-8ymj52n0h5j0
 :END:
@@ -404,7 +404,9 @@ morphenes separated from each other instead.
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Vowels-vishtyt058j0
 :END:
-As we stand today, eight vowels were reconstructed for Proto-Ñyqy:
+As we stand today, eight vowels were reconstructed for Proto-Ñyqy, as
+presented in the table [[table:vowels:trans]]. Below is a short guide to
+their pronunciation:
 - e :: {{{phon(*ɛ)}}} as in General American English /“bed”/ [bɛd]
 - i :: {{{phon(*ɪ)}}} as in General American English /“bit”/ [bɪt]
 - o :: {{{phon(*ɔ)}}} as in General American English /“thought”/ [θɔːt]
@@ -440,46 +442,60 @@ It is however possible to create a featural tree for the known vowels,
 determining which would have been considered closer to others, as
 seens with figure [[tree:vowels]].
 #+NAME: vow-tree
-#+BEGIN_SRC emacs-lisp :wrap "src dot :file proto-nyqy/vowel-feature-tre.png"
-  (let ((nyqy-vowels
-          '("vowels"
-            ("+back"
-             ("+tense"
-              ("+high" "/u/")
-              ("-high" "/ɤ/"))
-             ("-tense"
-              ("+high" "/ʊ/")
-              ("-high" "/ɔ/")))
-            ("-back"
-             ("+tense"
-              ("+high" "/y/")
-              ("-high" "/ø/"))
-             ("-tense"
-              ("+high" "/ɪ/")
-              ("-high" "/ɛ/"))))))
-    (conlanging-tree-to-dot nyqy-vowels))
+#+header: :var vowels=vowels-featural-list
+#+BEGIN_SRC emacs-lisp :wrap "src dot :file proto-nyqy/vowel-feature-tree.png"
+(conlanging-list-to-graphviz vowels)
 #+END_SRC
 
-#+RESULTS[710ba5bdd3ed5f787748cbb05d0460b251e31a9e]: vow-tree
-#+begin_src dot :file proto-nyqy/vowel-feature-tre.png
-graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="vowels"];1[label="+back"];0 -- 1;11[label="+tense"];1 -- 11;111[label="+high"];11 -- 111;1111[label="/u/"];111 -- 1111;112[label="-high"];11 -- 112;1121[label="/ɤ/"];112 -- 1121;12[label="-tense"];1 -- 12;121[label="+high"];12 -- 121;1211[label="/ʊ/"];121 -- 1211;122[label="-high"];12 -- 122;1221[label="/ɔ/"];122 -- 1221;2[label="-back"];0 -- 2;21[label="+tense"];2 -- 21;211[label="+high"];21 -- 211;2111[label="/y/"];211 -- 2111;212[label="-high"];21 -- 212;2121[label="/ø/"];212 -- 2121;22[label="-tense"];2 -- 22;221[label="+high"];22 -- 221;2211[label="/ɪ/"];221 -- 2211;222[label="-high"];22 -- 222;2221[label="/ɛ/"];222 -- 2221;}
+#+RESULTS[b89b1c11e7fefc81753f805211bdef60f246d43f]: vow-tree
+#+begin_src dot :file proto-nyqy/vowel-feature-tree.png
+graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jae0mb5jxtn"[label="vowels"];"+back-0jae0mb5jxtx"[label="+back"];"vowels-0jae0mb5jxtn"--"+back-0jae0mb5jxtx";"+tense-0jae0mb5jxu1"[label="+tense"];"+back-0jae0mb5jxtx"--"+tense-0jae0mb5jxu1";"+high-0jae0mb5jxu4"[label="+high"];"+tense-0jae0mb5jxu1"--"+high-0jae0mb5jxu4";"/u/-0jae0mb5jxu6"[label="/u/"];"+high-0jae0mb5jxu4"--"/u/-0jae0mb5jxu6";"-high-0jae0mb5jxub"[label="-high"];"+tense-0jae0mb5jxu1"--"-high-0jae0mb5jxub";"/ɤ/-0jae0mb5jxue"[label="/ɤ/"];"-high-0jae0mb5jxub"--"/ɤ/-0jae0mb5jxue";"-tense-0jae0mb5jxuq"[label="-tense"];"+back-0jae0mb5jxtx"--"-tense-0jae0mb5jxuq";"+high-0jae0mb5jxus"[label="+high"];"-tense-0jae0mb5jxuq"--"+high-0jae0mb5jxus";"/ʊ/-0jae0mb5jxuv"[label="/ʊ/"];"+high-0jae0mb5jxus"--"/ʊ/-0jae0mb5jxuv";"-high-0jae0mb5jxv1"[label="-high"];"-tense-0jae0mb5jxuq"--"-high-0jae0mb5jxv1";"/ɔ/-0jae0mb5jxv3"[label="/ɔ/"];"-high-0jae0mb5jxv1"--"/ɔ/-0jae0mb5jxv3";"-back-0jae0mb5jxvp"[label="-back"];"vowels-0jae0mb5jxtn"--"-back-0jae0mb5jxvp";"+tense-0jae0mb5jxvs"[label="+tense"];"-back-0jae0mb5jxvp"--"+tense-0jae0mb5jxvs";"+high-0jae0mb5jxvv"[label="+high"];"+tense-0jae0mb5jxvs"--"+high-0jae0mb5jxvv";"/y/-0jae0mb5jxvy"[label="/y/"];"+high-0jae0mb5jxvv"--"/y/-0jae0mb5jxvy";"-high-0jae0mb5jxw4"[label="-high"];"+tense-0jae0mb5jxvs"--"-high-0jae0mb5jxw4";"/ø/-0jae0mb5jxw7"[label="/ø/"];"-high-0jae0mb5jxw4"--"/ø/-0jae0mb5jxw7";"-tense-0jae0mb5jxwi"[label="-tense"];"-back-0jae0mb5jxvp"--"-tense-0jae0mb5jxwi";"+high-0jae0mb5jxwl"[label="+high"];"-tense-0jae0mb5jxwi"--"+high-0jae0mb5jxwl";"/ɪ/-0jae0mb5jxwo"[label="/ɪ/"];"+high-0jae0mb5jxwl"--"/ɪ/-0jae0mb5jxwo";"-high-0jae0mb5jxwt"[label="-high"];"-tense-0jae0mb5jxwi"--"-high-0jae0mb5jxwt";"/ɛ/-0jae0mb5jxww"[label="/ɛ/"];"-high-0jae0mb5jxwt"--"/ɛ/-0jae0mb5jxww";}
 #+end_src
 
 #+NAME: tree:vowels
 #+ATTR_HTML: :alt Proto-Ñyqy Vowel Featural Tree :class gentree
 #+CAPTION: Proto-Ñyqy Vowels Featural Tree
-#+RESULTS[93213f3a21282f76f00524121b4d3bd73339769e]:
-[[file:img/proto-nyqy/vowel-feature-tre.png]]
+#+RESULTS[dac9546e31b40b5e6a172a74914ac3fa60f3b1c4]:
+[[file:img/proto-nyqy/vowel-feature-tree.png]]
+
+**** Private Data                                               :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Vowels-Private-Data-jt8bq9m0eaj0
+:END:
+#+name: vowels-featural-list
+- vowels
+  - +back
+    - +tense
+      - +high
+        - /u/
+      - -high
+        - /ɤ/
+    - -tense
+      - +high
+        - /ʊ/
+      - -high
+        - /ɔ/
+  - -back
+    - +tense
+      - +high
+        - /y/
+      - -high
+        - /ø/
+    - -tense
+      - +high
+        - /ɪ/
+      - -high
+        - /ɛ/
 
 *** Consonants
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0
 :END:
-the topic of consonants, unlike vowels, is a hot debate among
+The topic of consonants, unlike vowels, is a hot debate among
 linguists. while we are pretty sure proto-ñyqy has twelve consonants,
 we are still unsure which consonants they are due to the extreme
 unstability of the dorsal feature, and there is seemingly no
-consistency as to how the consonants were stabilized in the different
+consistency as to how the consonants stabilized in the different
 languages that emerged from the proto-ñyqy breakup. it is only in the
 recent years Ishy Maeln proposed a new theory that is gaining traction
 among proto-ñyqy specialists: each consonant could be pronounced
@@ -492,60 +508,27 @@ found in some early languages found after the breakup such as
 proto-mojhal. this phenomenon is more thouroughly explained in
 §[[#Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0]].
 
-The featural tree of the Proto-Ñyqy language can be found in the figure
-[[tree:cons]]. Each grapheme displays below its dorsal pronunciation on
-the left and its non-dorsal pronunciation on the right.
+You can find the featural tree of the Proto-Ñyqy consonants in the
+figure [[tree:cons]]. Each grapheme displays below its dorsal
+pronunciation on the left and its non-dorsal pronunciation on the
+right.
 
 #+name: cons-tree
+#+header: :var consonants=consonants-featural-list
 #+begin_src emacs-lisp :wrap "src dot :file proto-nyqy/consonant-feature-tree.png"
-  (let ((nyqy-consonants '("consonant"
-                           ("+cor"
-                            ("+ant"
-                             ("+voice"
-                              ("+nas" "n\nɳ / n")
-                              ("-nas" "z\nʝ / z"))
-                             ("-voice" "s\nç / s"))
-                            ("-ant"
-                             ("+voice" "j\nɟ / d͡ʒ")
-                             ("-voice" "c\nc / t͡ʃ")))
-                           ("-cor"
-                            ("+voice"
-                             ("+nas"
-                              ("+lab" "m\nŋ͡m / m")
-                              ("-lab" "ñ\nɴ / ɦ̃"))
-                             ("-nas"
-                              ("+lab"
-                               ("+cont" "w\nw / v")
-                               ("-cont" "b\ng͡b / b"))
-                              ("-lab" "g\nɡ / ʕ")))
-                            ("-voice"
-                             ("+lab" "p\nk͡p / p")
-                             ("-lab" "q\nq / ħ"))))))
-    (conlanging-tree-to-dot nyqy-consonants))
+(conlanging-list-to-graphviz consonants)
 #+end_src
 
-#+RESULTS[e0875f85b0f48837f58e96ee5587b35ec0bccdeb]: cons-tree
+#+RESULTS[4e9a50b96e705bd847ee3fab2534263dd96ca335]: cons-tree
 #+begin_src dot :file proto-nyqy/consonant-feature-tree.png
-graph{graph[dpi=300];node[shape=plaintext];graph[bgcolor="transparent"];0[label="consonant"];1[label="+cor"];0 -- 1;11[label="+ant"];1 -- 11;111[label="+voice"];11 -- 111;1111[label="+nas"];111 -- 1111;11111[label="n
-ɳ / n"];1111 -- 11111;1112[label="-nas"];111 -- 1112;11121[label="z
-ʝ / z"];1112 -- 11121;112[label="-voice"];11 -- 112;1121[label="s
-ç / s"];112 -- 1121;12[label="-ant"];1 -- 12;121[label="+voice"];12 -- 121;1211[label="j
-ɟ / d͡ʒ"];121 -- 1211;122[label="-voice"];12 -- 122;1221[label="c
-c / t͡ʃ"];122 -- 1221;2[label="-cor"];0 -- 2;21[label="+voice"];2 -- 21;211[label="+nas"];21 -- 211;2111[label="+lab"];211 -- 2111;21111[label="m
-ŋ͡m / m"];2111 -- 21111;2112[label="-lab"];211 -- 2112;21121[label="ñ
-ɴ / ɦ̃"];2112 -- 21121;212[label="-nas"];21 -- 212;2121[label="+lab"];212 -- 2121;21211[label="+cont"];2121 -- 21211;212111[label="w
-w / v"];21211 -- 212111;21212[label="-cont"];2121 -- 21212;212121[label="b
-g͡b / b"];21212 -- 212121;2122[label="-lab"];212 -- 2122;21221[label="g
-ɡ / ʕ"];2122 -- 21221;22[label="-voice"];2 -- 22;221[label="+lab"];22 -- 221;2211[label="p
-k͡p / p"];221 -- 2211;222[label="-lab"];22 -- 222;2221[label="q
-q / ħ"];222 -- 2221;}
+graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"consonants-0jae0mrv0dgn"[label="consonants"];"+coronal-0jae0mrv0dgx"[label="+coronal"];"consonants-0jae0mrv0dgn"--"+coronal-0jae0mrv0dgx";"+anterior-0jae0mrv0dh1"[label="+anterior"];"+coronal-0jae0mrv0dgx"--"+anterior-0jae0mrv0dh1";"+voice-0jae0mrv0dh3"[label="+voice"];"+anterior-0jae0mrv0dh1"--"+voice-0jae0mrv0dh3";"+nasal-0jae0mrv0dh6"[label="+nasal"];"+voice-0jae0mrv0dh3"--"+nasal-0jae0mrv0dh6";"n\nɳ / n-0jae0mrv0dh9"[label="n\nɳ / n"];"+nasal-0jae0mrv0dh6"--"n\nɳ / n-0jae0mrv0dh9";"-nasal-0jae0mrv0dhf"[label="-nasal"];"+voice-0jae0mrv0dh3"--"-nasal-0jae0mrv0dhf";"z\nʝ / z-0jae0mrv0dhi"[label="z\nʝ / z"];"-nasal-0jae0mrv0dhf"--"z\nʝ / z-0jae0mrv0dhi";"-voice-0jae0mrv0dht"[label="-voice"];"+anterior-0jae0mrv0dh1"--"-voice-0jae0mrv0dht";"s\nç / s-0jae0mrv0dhw"[label="s\nç / s"];"-voice-0jae0mrv0dht"--"s\nç / s-0jae0mrv0dhw";"-anterior-0jae0mrv0did"[label="-anterior"];"+coronal-0jae0mrv0dgx"--"-anterior-0jae0mrv0did";"+voice-0jae0mrv0dif"[label="+voice"];"-anterior-0jae0mrv0did"--"+voice-0jae0mrv0dif";"j\nɟ / d͡ʒ-0jae0mrv0dii"[label="j\nɟ / d͡ʒ"];"+voice-0jae0mrv0dif"--"j\nɟ / d͡ʒ-0jae0mrv0dii";"- voice-0jae0mrv0dio"[label="- voice"];"-anterior-0jae0mrv0did"--"- voice-0jae0mrv0dio";"c\nc / t͡ʃ-0jae0mrv0dir"[label="c\nc / t͡ʃ"];"- voice-0jae0mrv0dio"--"c\nc / t͡ʃ-0jae0mrv0dir";"-coronal-0jae0mrv0djo"[label="-coronal"];"consonants-0jae0mrv0dgn"--"-coronal-0jae0mrv0djo";"+voice-0jae0mrv0djr"[label="+voice"];"-coronal-0jae0mrv0djo"--"+voice-0jae0mrv0djr";"+nasal-0jae0mrv0dju"[label="+nasal"];"+voice-0jae0mrv0djr"--"+nasal-0jae0mrv0dju";"+labial-0jae0mrv0djw"[label="+labial"];"+nasal-0jae0mrv0dju"--"+labial-0jae0mrv0djw";"m\nŋ͡m / m-0jae0mrv0djz"[label="m\nŋ͡m / m"];"+labial-0jae0mrv0djw"--"m\nŋ͡m / m-0jae0mrv0djz";"-labial-0jae0mrv0dk5"[label="-labial"];"+nasal-0jae0mrv0dju"--"-labial-0jae0mrv0dk5";"ñ\nɴ / ɦ̃-0jae0mrv0dk7"[label="ñ\nɴ / ɦ̃"];"-labial-0jae0mrv0dk5"--"ñ\nɴ / ɦ̃-0jae0mrv0dk7";"-nasal-0jae0mrv0dkk"[label="-nasal"];"+voice-0jae0mrv0djr"--"-nasal-0jae0mrv0dkk";"+labial-0jae0mrv0dkn"[label="+labial"];"-nasal-0jae0mrv0dkk"--"+labial-0jae0mrv0dkn";"+constricted-0jae0mrv0dkq"[label="+constricted"];"+labial-0jae0mrv0dkn"--"+constricted-0jae0mrv0dkq";"w\nw / v-0jae0mrv0dkt"[label="w\nw / v"];"+constricted-0jae0mrv0dkq"--"w\nw / v-0jae0mrv0dkt";"-constricted-0jae0mrv0dky"[label="-constricted"];"+labial-0jae0mrv0dkn"--"-constricted-0jae0mrv0dky";"b\ng͡b / b-0jae0mrv0dl1"[label="b\ng͡b / b"];"-constricted-0jae0mrv0dky"--"b\ng͡b / b-0jae0mrv0dl1";"-labial-0jae0mrv0dld"[label="-labial"];"-nasal-0jae0mrv0dkk"--"-labial-0jae0mrv0dld";"g\nɡ / ʕ-0jae0mrv0dlg"[label="g\nɡ / ʕ"];"-labial-0jae0mrv0dld"--"g\nɡ / ʕ-0jae0mrv0dlg";"-voice-0jae0mrv0dmf"[label="-voice"];"-coronal-0jae0mrv0djo"--"-voice-0jae0mrv0dmf";"+labial-0jae0mrv0dmi"[label="+labial"];"-voice-0jae0mrv0dmf"--"+labial-0jae0mrv0dmi";"p\nk͡p / p-0jae0mrv0dml"[label="p\nk͡p / p"];"+labial-0jae0mrv0dmi"--"p\nk͡p / p-0jae0mrv0dml";"-labial-0jae0mrv0dmr"[label="-labial"];"-voice-0jae0mrv0dmf"--"-labial-0jae0mrv0dmr";"q\nq / ħ-0jae0mrv0dmt"[label="q\nq / ħ"];"-labial-0jae0mrv0dmr"--"q\nq / ħ-0jae0mrv0dmt";}
 #+end_src
 
 #+NAME: tree:cons
 #+ATTR_HTML: :alt Feature Tree of Proto-Ñyqy Consonants :class gentree
 #+ATTR_LATEX: :float sideways
 #+CAPTION:Feature Tree of Proto-Ñyqy Consonants
-#+RESULTS[ffe72afe3ad98a580247d708ff0120e303ee1209]:
+#+RESULTS[9684da582c5607871725d06858e1edc91b7ab4a2]:
 [[file:img/proto-nyqy/consonant-feature-tree.png]]
 
 As you can see, each one of the consonants have their two alternative
@@ -553,22 +536,25 @@ indicated below their grapheme. In the case of the coronal consonants,
 the alternative consonant is obtained by replacing the anterior
 feature by the dorsal feature when it is present.
 
-The way of writing consonants was therefore standardized as the
-following:
+The way of writing consonants was therefore standardized as presented
+in the table [[table:consonants-pronunciation]].
+#+name: table:consonants-pronunciation
+#+caption: Possible Pronunciations of the Proto-Ñyqy Consonants
+|      <c>      |      <c>       |        <c>         |        <c>         |
 | Main Grapheme | Dorsal Phoneme | Non-Dorsal Phoneme | Alternate Grapheme |
 |---------------+----------------+--------------------+--------------------|
-| ñ             | {{{phon(*ɴ)}}}       | {{{phon(*ɦ̃)}}}             | ḿ                  |
-| q             | {{{phon(*q)}}}       | {{{phon(*ħ)}}}           | ħ, h_{1}              |
-| g             | {{{phon(*ɢ)}}}       | {{{phon(*ʕ)}}}           | ȟ, h_{2}              |
-| c             | {{{phon(*c)}}}       | {{{phon(*t͡ʃ)}}}          | ł                  |
-| j             | {{{phon(*ɟ)}}}       | {{{phon(*d͡ʒ)}}}          | ʒ                  |
-| w             | {{{phon(*w)}}}       | {{{phon(*v)}}}           | l                  |
-| m             | {{{phon(*ŋ͡m)}}}      | {{{phon(*m)}}}           | r, r_{1}              |
-| p             | {{{phon(*χ)}}}       | {{{phon(*p)}}}           | xh, r_{2}             |
-| b             | {{{phon(*g͡b)}}}      | {{{phon(*b)}}}           | rh, r_{3}             |
-| n             | {{{phon(*ɳ)}}}       | {{{phon(*n)}}}           | y                  |
-| s             | {{{phon(*ç)}}}       | {{{phon(*s)}}}           | x, r_{4}              |
-| z             | {{{phon(*ʝ)}}}       | {{{phon(*z)}}}           | ɣ, r_{5}              |
+|       ñ       |    {{{phon(*ɴ)}}}    |      {{{phon(*ɦ̃)}}}      |         ḿ          |
+|       q       |    {{{phon(*q)}}}    |      {{{phon(*ħ)}}}      |       ħ, h_{1}        |
+|       g       |    {{{phon(*ɢ)}}}    |      {{{phon(*ʕ)}}}      |       ȟ, h_{2}        |
+|       c       |    {{{phon(*c)}}}    |     {{{phon(*t͡ʃ)}}}      |         ł          |
+|       j       |    {{{phon(*ɟ)}}}    |     {{{phon(*d͡ʒ)}}}      |         ʒ          |
+|       w       |    {{{phon(*w)}}}    |      {{{phon(*v)}}}      |         l          |
+|       m       |   {{{phon(*ŋ͡m)}}}    |      {{{phon(*m)}}}      |       r, r_{1}        |
+|       p       |    {{{phon(*χ)}}}    |      {{{phon(*p)}}}      |       xh, r_{2}       |
+|       b       |   {{{phon(*g͡b)}}}    |      {{{phon(*b)}}}      |       rh, r_{3}       |
+|       n       |    {{{phon(*ɳ)}}}    |      {{{phon(*n)}}}      |         y          |
+|       s       |    {{{phon(*ç)}}}    |      {{{phon(*s)}}}      |       x, r_{4}        |
+|       z       |    {{{phon(*ʝ)}}}    |      {{{phon(*z)}}}      |       ɣ, r_{5}        |
 For each of these consonants, the letter chosen represents what we
 suppose was the most common or the default pronunciation of the
 consonant represented. In the table are also included alternate
@@ -588,6 +574,47 @@ but progressively dissapear as our understanding of the Proto-Ñyqy
 grew during the past century. They are not used anymore, but any
 student that wishes to read older documents on Proto-Ñyqy should be
 aware of these.
+
+**** Private Data                                               :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Consonants-Private-Data-sfcbpfm0eaj0
+:END:
+#+name: consonants-featural-list
+- consonants
+  - +coronal
+    - +anterior
+      - +voice
+        - +nasal
+          - n\nɳ / n
+        - -nasal
+          - z\nʝ / z
+      - -voice
+        - s\nç / s
+    - -anterior
+      - +voice
+        - j\nɟ / d͡ʒ
+      - - voice
+        - c\nc / t͡ʃ
+  - -coronal
+    - +voice
+      - +nasal
+        - +labial
+          - m\nŋ͡m / m
+        - -labial
+          - ñ\nɴ / ɦ̃
+      - -nasal
+        - +labial
+          - +constricted
+            - w\nw / v
+          - -constricted
+            - b\ng͡b / b
+        - -labial
+          - g\nɡ / ʕ
+    - -voice
+      - +labial
+        - p\nk͡p / p
+      - -labial
+        - q\nq / ħ
 
 *** Pitch and Stress
 :PROPERTIES:
@@ -633,16 +660,49 @@ No special rule have been found to rule the onset, it can host any
 consonant without any effect on the vowel.
 
 However, it has been found the coda has some rules:
-- two nasal consonants cannot follow each other
-- two coronal consonants cannot follow each other
+- two nasal consonants cannot follow each other --- no {{{recon(-ñm)}}}
+- two coronal consonants cannot follow each other --- no {{{recon(-ns)}}}
 - labial consonants are never found with another consonant in the coda
+  --- no {{{recon(-ps)}}}
+For instance, {{{recon(noc zebec)}}} would be pronounced as {{{recon(noc
+gebec)}}}. It is most likely the features to chose from when converting a
+consonant from a coronal to a non-coronal were considered as absent by
+default. This results in the table
+[[table:coronal-to-non-coronal-consonants]] --- as you can see, the pair
+<z> and <j> and the pair <s> and <c> convert to the same consonant
+respectively.
+#+name: table:coronal-to-non-coronal-consonants
+#+caption: Conversion Table of Coronal to Non-Coronal Consonants
+|        <c>        |          <c>          |
+| Coronal Consonant | Non-Coronal Consonant |
+|-------------------+-----------------------|
+|         n         |           ñ           |
+|         z         |           g           |
+|         s         |           q           |
+|         j         |           g           |
+|         c         |           q           |
 
 It has also been found that if two coronal consonants do follow each
 other in cross-syllabic environments, with the first one in the coda
 of a first syllable and the second one in the onset of a second
-syllable, then the former will become voiced as the latter. It has
-also been found a schwa tends to appear between syllables when the
-first one ends with two consonants and the second one begins with one.
+syllable, then the former will become voiced as the latter.
+
+Similarly, if two nasal consonants are found near each other in a
+cross-syllabic environment, the second nasal consonant will become
+denasalized. Thus, we get the conversion table
+[[table:consonants-denasalization]].
+#+name: table:consonants-denasalization
+#+caption: Denasalization Table for Proto-Ñyqy Consonants
+|       <c>       |         <c>         |
+| Nasal Consonant | Non-Nasal Consonant |
+|-----------------+---------------------|
+|        n        |          z          |
+|        m        |          w          |
+|        ñ        |          b          |
+
+It has also been found a schwa tends to appear between syllables when
+the first one ends with two consonants and the second one begins with
+one.
 
 *** Consonantal Dorsal Alternation
 :PROPERTIES:
@@ -654,17 +714,22 @@ it seems probable according to Maeln’s theory consonants were
 alternating between dorsals and non-dorsals. We do not know if it only
 happened between words, within words, or along whole clauses, but this
 would explain much of the different languages that evolved from
-Proto-Ñyqy. Table [[word-consonantal-dorsal-alternation]] shows different
-possible pronunciation of Proto-Ñyqy words with word-wise consonantal
-dorsal alternation whether the first consonant is to be considered a
-dorsal consonant or not.
+Proto-Ñyqy. Table [[table:word-consonantal-dorsal-alternation]] shows
+different possible pronunciation of Proto-Ñyqy words with word-wise
+consonantal dorsal alternation whether the first consonant is to be
+considered a dorsal consonant or not. Note the nasal switch as well as
+the extra schwa insertion in the third example as described above in
+chapter
+§[[#Structural-Overview-Phonotactics-Syllable-Structure-hhx3zk40f8j0]].
 
-#+name: word-consonantal-dorsal-alternation
+#+name: table:word-consonantal-dorsal-alternation
 #+caption: Different Possible Pronunciation of Proto-Ñyqy Words
-| Word         | Dorsal-Initial | Dorsal-Final |
-|--------------+----------------+--------------|
-| {{{recon(pœwec)}}} | {{{phon(*pɤwɛt͡ʃ)}}}  | {{{phon(*pɤvɛc)}}} |
-| {{{recon(zebec)}}} | {{{phon(*zɛg͡bɛt͡ʃ)}}} | {{{phon(*ʝɛbɛc)}}} |
+|       <c>       |         <c>         |        <c>         |
+|      Word       |   Dorsal-Initial    |    Dorsal-Final    |
+|-----------------+---------------------+--------------------|
+|  {{{recon(pœwec)}}}   |    {{{phon(*pɤwɛt͡ʃ)}}}    |    {{{phon(*pɤvɛc)}}}    |
+|  {{{recon(zebec)}}}   |   {{{phon(*zɛg͡bɛt͡ʃ)}}}    |    {{{phon(*ʝɛbɛc)}}}    |
+| {{{recon(ñocm noc)}}} | {{{phon(*ɴɔt͡ʃŋ͡m ə ɦɔc)}}} | {{{phon(*ɦɔcm ə ɴot͡ʃ)}}} |
 
 ** Word Structure                                                 :noexport:
 :PROPERTIES:
@@ -1082,6 +1147,12 @@ dorsal consonant or not.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-B-ae79d268
 :END:
+- {{{recon(beñ)}}} :: {{{def}}}
+  1. (n) tooth/teeth
+- {{{recon(bin)}}} :: {{{def}}}
+  1. (n) something bad, badness
+  2. (n) mischief, ill-will, maliciousness
+  3. (n) dirtiness
 
 ** C
 :PROPERTIES:
@@ -1119,11 +1190,20 @@ dorsal consonant or not.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-N-0ef6f2af
 :END:
+- {{{recon(noc)}}} :: {{{def}}}
+  1. (n) old age
+  2. (n) elderly person
+- {{{recon(núc)}}} :: {{{def}}}
+  1. (n) youth
+  2. (n) youngster, teenager
 
 ** Ñ
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Ñ-ff7a574f
 :END:
+- {{{recon(ñocm)}}} :: {{{def}}}
+  1. (n) human being
+  2. (n) someone
 - {{{recon(ñe)}}} :: {{{def}}}
   1. (n) house
 
@@ -1191,8 +1271,7 @@ dorsal consonant or not.
 :CUSTOM_ID: Dictionnaire-Z-144a2853
 :END:
 - {{{recon(zebec)}}} :: {{{def}}}
-  1. (n) bongo
-
+  1. (n) bongo (antelope)
 * Footnotes
 :PROPERTIES:
 :CUSTOM_ID: Footnotes-uybi3030e5j0
