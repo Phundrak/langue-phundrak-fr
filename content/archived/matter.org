@@ -5,7 +5,7 @@
 #+LATEX_HEADER: \usepackage{allrunes}
 #+setupfile: ../headers
 #+MACRO: rune-manual @@latex:\textara{$1}@@ @@html:$2@@
-#+MACRO: rune (eval (conlanging/matter-org-export-runes $1))
+#+MACRO: rune (eval (conlanging-to-org-runes $1 'matter))
 #+OPTIONS: auto-id:t
 #+UID: https://langue.phundrak.com/archived/matter
 
