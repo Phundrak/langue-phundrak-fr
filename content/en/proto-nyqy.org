@@ -121,6 +121,105 @@ Loho language, the oldest member of the Mojhal language tree attested;
 the Mojhal tree has been itself linked to the Ñyqy tree some fifty
 years ago by the Pr Khorlan (3598).
 
+#+name: tree-language-family
+#+begin_src dot :file proto-nyqy/nyqy-family-tree.png :exports results
+digraph d {
+    graph[dpi=300,bgcolor="transparent"];
+    node[shape=plaintext];
+    ranksep=.75; size="7.5,7.5";
+
+    {
+        "-10000" -> "-8000" -> "-6000" -> "-5000" -> "-4500" ->
+        "-4000" -> "-3500" -> "-2000" ->
+        "-1000" -> "-500" -> present;
+    }
+
+    {
+        rank=same;
+        "-8000";
+        protonyqy[label="Proto-Ñyqy\n6,000 to 10,000 years ago"];
+    }
+
+    {
+        rank=same;
+        "-5000";
+        protoma[label="Proto-Mojhal-Andelian\n4,000 to 6,000 years ago"];
+    }
+
+    {
+        rank=same;
+        "-4500";
+        prototiltinian[label="Proto-Tiltinian\nca. 4,500 years ago"];
+        protoandelian[label="Proto-Andelian\nca. 4,000 to 5,000 years ago"];
+    }
+
+    {
+        rank=same;
+        "-4000";
+        protomojhal[label="Proto-Mojhal\nca. 4,000 years ago"];
+    }
+
+    {
+        rank=same;
+        "-3500";
+        loho[label="Loho\nca. 3,500 years ago"];
+    }
+
+    {
+        rank=same;
+        "-2000";
+        protopritian[label="Proto-Pritian\nca. 2,000 years ago"];
+        "ne’ic"[label="Ñe’ic\nca. 2,500 years ago"];
+    }
+
+    {
+        rank=same;
+        "-1000";
+        oryora[label="Old Ryora\nca. 1,300 years ago"];
+        oenanonn[label="Old Énanonn\nca. 900 years ago"];
+        omanniki[label="Old Manniki\nca. 1,200 years ago"];
+    }
+
+    {
+        rank=same;
+        "-500";
+        oauc[label="Old Auc\n600 years ago"];
+        mmanniki[label="Middle Manniki\nca. 400 years ago"];
+    }
+
+    {
+        rank=same;
+        present;
+        enanonn[label="Énanonn"];
+        ryora[label="Ryora"];
+        auc[label="Auc"];
+        manniki[label="Manniki"];
+    }
+
+    protonyqy -> protoma;
+    protonyqy -> protopritian;
+    protonyqy -> prototiltinian;
+
+    protoma -> protomojhal;
+    protoma -> protoandelian;
+
+    protomojhal -> loho;
+    protomojhal -> "ne’ic";
+
+    "ne’ic" -> oenanonn -> enanonn;
+    "ne’ic" -> omanniki -> mmanniki -> manniki;
+
+    protoandelian -> oryora -> ryora;
+    protoandelian -> oauc -> auc;
+}
+#+end_src
+
+#+NAME: tree:nyqy-languages
+#+ATTR_HTML: :alt Ñyqy Family Tree :class gentree
+#+CAPTION: Ñyqy Family Tree
+#+RESULTS[e3e196a53a2ce9ec0249f3197ade50494485766a]: tree-language-family
+[[file:img/proto-nyqy/nyqy-family-tree.png]]
+
 ** Principles of Historical Linguistics
 :PROPERTIES:
 :CUSTOM_ID: Introduction-Principles-of-historical-linguistics-woq10x50e5j0
@@ -297,10 +396,21 @@ another, and the patriarchal branches almost all retained women as
 their spiritual figurehead, even if political power passed in the
 hands of men.
 
-** Religion and Beliefs                                           :noexport:
+** Religion and Beliefs
 :PROPERTIES:
 :CUSTOM_ID: Culture-of-the-Proto-Ñyqy-People-Religion-and-beliefs-31mj52n0h5j0
 :END:
+This question might be the hardest of all to answer, as we can only
+speculate based on the religions the daughter cultures of the Ñyqy
+family had, as well as the few hints we can get through the Proto-Ñyqy
+vocabulary. Through this keyhole, dusted by millenia of cultural and
+linguistic changes, we can offer an initial answer. It seems the
+Proto-Ñyqy reveered several gods, with however one god or goddes above
+them called {{{recon(Qiisci)}}}, that might have been to them some form of
+queen or some sort of god for the gods themselves. We can find for
+instance this figure in the Mojhal patheon under the name of Kísce.
+Other than the parental figure of this divinity, their role is vastly
+unknown.
 
 ** Personal Names                                                 :noexport:
 :PROPERTIES:
