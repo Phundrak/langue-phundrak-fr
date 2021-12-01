@@ -841,10 +841,35 @@ chapter
 |  {{{recon(zebec)}}}   |   {{{phon(*zɛg͡bɛt͡ʃ)}}}    |    {{{phon(*ʝɛbɛc)}}}    |
 | {{{recon(ñocm noc)}}} | {{{phon(*ɴɔt͡ʃŋ͡m ə ɦɔc)}}} | {{{phon(*ɦɔcm ə ɴot͡ʃ)}}} |
 
-** Word Structure                                                 :noexport:
+** Word Structure
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Word-Structure-n6vhtyt058j0
 :END:
+Words in Proto-Ñyqy belong to one of two categories: either a bound
+morphene, or a free morpheme. The former have a restricted use and
+must be used in certain contexts and do not mean anything by
+themselves. In Proto-Ñyqy, they are most of the time grammatical
+morphemes, for instance for marking the genitive between two words or
+the tense of a verb. Although the morpheme is bound, it does not mean
+it is part of another word --- it will still be most of the time a
+full fledged word obeying the phonological rules of a whole word.
+
+On the other hand, free morphemes do not require another morpheme to
+exist. The most basic example is the sentence {{{recon(*ñe)}}} which means
+/“It is a house”/. It is also the word for /“house”/ by itself. All nouns
+in Proto-Ñyqy are free morphemes, although they can act as bound
+morphemes if need be such as when they act as adjectives.
+
+Among multi-syllable world, it is not rare to find compound world made
+from other known root words. Generally, the order of the new word
+roughly follows the adjective order, however some words might reflect
+short noun phrases that became over time a word by itself through
+abbreviation with for instance {{{recon(zosøwe)}}} (/shawl/, /veil/) composed of
+{{{recon(zoc)}}} and {{{recon(søwe)}}}. This term is most likely the abbreviation
+of {{{recon(zoc pom søwe)}}}, or /head fabric/. Phonetic rules on abbreviation
+in Proto-Ñyqy are unfortunately very much unknown with no consensus
+reached on this point, most of them might be older innovations.
+
 ** World Classes                                                  :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-aywhtyt058j0
