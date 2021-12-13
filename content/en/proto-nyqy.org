@@ -215,7 +215,7 @@ digraph d {
 #+end_src
 
 #+NAME: tree:nyqy-languages
-#+ATTR_HTML: :alt Ñyqy Family Tree :class gentree
+#+ATTR_HTML: :alt Ñyqy Family Tree :class gentree :loading lazy
 #+CAPTION: Ñyqy Family Tree
 #+RESULTS[e3e196a53a2ce9ec0249f3197ade50494485766a]: tree-language-family
 [[file:img/proto-nyqy/nyqy-family-tree.png]]
@@ -563,7 +563,7 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jae0mb
 #+end_src
 
 #+NAME: tree:vowels
-#+ATTR_HTML: :alt Proto-Ñyqy Vowel Featural Tree :class gentree
+#+ATTR_HTML: :alt Proto-Ñyqy Vowel Featural Tree :class gentree :loading lazy
 #+CAPTION: Proto-Ñyqy Vowels Featural Tree
 #+RESULTS[dac9546e31b40b5e6a172a74914ac3fa60f3b1c4]:
 [[file:img/proto-nyqy/vowel-feature-tree.png]]
@@ -635,7 +635,7 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"consonants-0ja
 #+end_src
 
 #+NAME: tree:cons
-#+ATTR_HTML: :alt Feature Tree of Proto-Ñyqy Consonants :class gentree
+#+ATTR_HTML: :alt Feature Tree of Proto-Ñyqy Consonants :class gentree :loading lazy
 #+ATTR_LATEX: :float sideways
 #+CAPTION:Feature Tree of Proto-Ñyqy Consonants
 #+RESULTS[9684da582c5607871725d06858e1edc91b7ab4a2]:
