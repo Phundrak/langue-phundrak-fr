@@ -1,0 +1,1512 @@
+#+title: Eittland
+#+subtitle: A Linguistic Overview of the Land of the Last Nordic Pagans
+#+setupfile:    ../headers
+#+language:     en
+#+html_head:    <meta name="description" content="A Linguistic Overview of Eittland" />
+#+html_head:    <meta property="og:title" content="Eittland" />
+#+html_head:    <meta property="og:description" content="A Linguistic Overview of the Eittlandic Kingdom" />
+#+subject:      Eittland and its languages
+#+uid:          https://langue.phundrak.com/en/eittlandic
+#+options:      auto-id:t
+#+latex_header: \usepackage{allrunes}
+#+macro:        rune (eval (conlanging-to-org-runes $1 'eittlandic))
+#+latex_header: \linespread{1.15}
+#+latex_header: \usepackage{glossaries}
+#+latex_header: \makeglossaries
+#+latex:        \printglossaries
+
+* Foreword
+:PROPERTIES:
+:CUSTOM_ID: Introduction-Foreword-d22hjv20e5j0
+:UNNUMBERED: t
+:END:
+Redistribution or sale of this document is strictly prohibited. This
+document is protected by French law on copyright and is completely
+owned by its author[fn:3] (myself, Lucien “Phundrak” Cartier-Tilet).
+This document is released for free in various formats on the author’s
+website[fn:1], the language is released under the CC BY-NC-SA 4.0
+licence[fn:2].
+
+If you got this document by any other mean than a website on the
+~.phundrak.com~ domain, please report it as soon as possible. There is
+currently no agreement with the author to redistribute it by any mean
+possible. If you wish to redistribute it, please contact the author.
+
+This document is about a constructed language (conlang) I created. It
+will be written as an in-universe document, in an alternate history
+where the Eittlandic Kingdom actually exists in our world, with its
+history intertwined with ours. Any vague part about any linguistical
+or cultural aspect is most likely due to a lack of worldbuilding, so
+if you read something along the lines of “more research needs to be
+done on the subject” simply means I have not yet written on it (or I
+may not plan to).
+
+This is a work of fiction. Any resemblance to persons living or dead,
+to any real event, or any real people is purely coincidental.
+
+* Eittland
+:PROPERTIES:
+:CUSTOM_ID: Eittland-iz98ngl0jaj0
+:END:
+Eittland (Eittlandic: Eittland {{{rune(eittland)}}} {{{phon(aɪtlãd)}}}) is part of
+the family of Nordic countries, with a population of 31.5 millions as
+per the 2019 national census. It has a superficy of 121 km^{2}, making it
+the second largest island in Europe after Great Britain. Its capital
+Đeberget is the largest eittlandic city with a population of 1.641.600
+in 2019. The island is naturally separated in two, its western and
+eastern sides, by a chain of volcanoes spawning on the separation of
+the North American and the Eurasian plates, much like its northern
+sister Iceland. Thus, its Eastern side covers 49km^{2} of the island and
+hosts 11.3 million inhabitants while the western side covers 72km^{2}
+with a population of 20.1 millions.
+
+** Geography
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Geography-gox58hn0jaj0
+:END:
+Eittland is an active volcanic island. In its center we can find the
+most active volcanoes, surrounded by glaciers and some regular
+mountains. It is surrounded by some taiga, taiga plains covered mainly
+by ashen pines (/pinus fraxinus/), and a large cold desert covering most
+of the center of the island and its northern eastern part. Outside of
+this largely unpopulated region, Eastern Eittland mainly consists of
+grasslands with some temperate rainforests on its southern shores as
+well as some occasional wetland and marshes. On the other hand,
+Western Eittland has a lot more temperate deciduos forests, temperate
+rainforests and some more wetlands and marshes still. Three small cold
+deserts spawn in Western Eittland, including one north east of
+Đeberget not far from the city. More details can be found in the map
+[[img:map-biomes]]. Overall, the southern and western parts of Eittland
+can be compared to Scotland in terms of temperatures, or a warmer
+Iceland.
+#+CAPTION: Biomes of the Eittlandic Island
+#+attr_html: :loading lazy
+#+attr_latex: :float sideways
+#+NAME: img:map-biomes
+[[file:img/eittland/map-biomes.png]]
+
+Eastern Eittland is also recognizable by its great amount of flat
+shorelines, especially in its northern and eastern parts which are part
+of the more recent paths of lava flows. On the other hand, its few
+fjords and the numerous fjords found in the western part of the island
+are characteristic of much older parts of Eittland. The Fjord
+themselves were formed during the last ice age, while the smoother
+shore lines formed since. Western Eittland also has two main bays
+which are two very old caldeira volcanoes. It is not known whether
+they will be one day active again or not.
+
+** Culture
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Culture-q6uf2gs0uaj0
+:END:
+The Eittlandic people share a common basis for their culture which
+remained rather conservative for much longer than the other nordic
+people due to its resistance towards Christianity conversion. The
+number of people adhering to Norse beliefs remained very high through
+the ages and only recently began declining, going from 93% of
+Eittlanders declaring themselves follower of the Norse Faith in 1950
+to 68% in 2019. This decline is also due to either people converting
+to a religion or due to the immigration boom from the last seventy
+years, though the main reason is the decline in people identifying to
+any faith at all --- the number of atheists went from only 2% of
+Eittlanders in 1940 to 15% in 2019. The evolution of the religious
+population is shown in the chart [[chart:religions]], and a geographical
+distribution of these in 2019 can be found in the map [[map:religion]] ---
+note that only the main religion is shown in a particular area and
+religions with less people in said area are not shown. You can also
+see on said map the population repartition of Eittland.
+
+#+headers: :cache yes :exports results
+#+begin_src gnuplot :file img/eittland/religions.png :var data=eittland-religions
+set title "Religions in Eittland since 1950"
+set key invert reverse Left outside
+
+set yrange [0:100]
+set grid y
+set ylabel "Percentage"
+
+set border 3
+set style data histograms
+set style histogram rowstacked
+set style fill solid border -1
+set boxwidth 1
+
+plot data u 2:xticlabels(1) axis x1y1 lw 3 title 'Norse Faith', \
+     data u 3:xticlabels(1) axis x1y1 lw 3 title 'Atheism', \
+     data u 4:xticlabels(1) axis x1y1 lw 3 title 'Church of Eittland', \
+     data u 5:xticlabels(1) axis x1y1 lw 3 title 'Christianity', \
+     data u 6:xticlabels(1) axis x1y1 lw 3 title 'Buddhism', \
+     data u 7:xticlabels(1) axis x1y1 lw 3 title 'Other'
+#+end_src
+
+#+name: chart:religions
+#+caption: Religious Evolution of Eittland Since 1900
+#+attr_html: :loading lazy
+#+RESULTS[3b10b0ef95c6a0d04471ef81330c2b0c065c9344]:
+[[file:img/eittland/religions.png]]
+
+#+attr_html: :loading lazy
+#+attr_latex: :float sideways
+#+name: map:religion
+#+caption: Religious population of Eittland
+[[file:./img/eittland/map-religion.png]]
+
+There is also a regional cultural difference between Western, Eastern,
+and Southern Eittland marked with some differences in traditions and
+language. There is currently a nationalist movement in Southern
+Eittland so a new state is created within the Kingdom of Eittland. The
+repartition of the different eittlandic cultures is shown in the map
+[[map:culture]].
+#+name: map:culture
+#+caption: Cultural Map of Eittland
+#+attr_html: :loading lazy
+#+attr_latex: :float sideways
+[[file:./img/eittland/map-cultural.png]]
+
+** Name of the Country
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Name-of-the-Country-hun23je06bj0
+:END:
+The root of the name of “Eittland” is the accusative of /einn/ (Old
+Norse /one/, /alone/) and /land/ (Old Norse /country/, /land/. This is due to
+how remote it seemed to the people who discovered, before Iceland and
+Greenland were known. Hence, a possible translation of “Eittland” can
+be /Lonely Land/. The term “Eittlandic” is relatively transparent
+considering the term “Icelandic” for “Iceland” and “Greenlandic” for
+“Greenland”.
+
+** History
+:PROPERTIES:
+:CUSTOM_ID: Eittland-History-9n168hn0jaj0
+:END:
+According to historical records, Eittland was first found in 763 by
+Norwegian explorers. Its first settlement appeared in 782 on its
+eastern shores with hopes of finding new farmland. The population grew
+rapidly after the discovery of the southern shores, and in 915
+Eittland became self-governing with Ásmundr Úlfsonn declared the first
+Eittlandic king. However, in order to avoid any unnecessary conflicts,
+the new king swore allegiance to the Norwegian king Harald I
+Halfdansson. Eittland thus became a vassal state to the Norwegian
+crown while retaining autonomy from it, which was granted due to the
+distance between the two countries.
+
+Shortly after however, the beginning of the christianisation of the
+nordic countries and especially of Norway created a new immigration
+boost in Eittland with norsemen seeking a pagan land untouched by
+christian faith. In 935, a year after Haakon I Haraldsson became king
+of Norway and began trying to introduce Christianity to its people,
+the newly crowned king Áleifr I Ásmundson of Eittland adopted a new
+law forbidding the Christian faith to be imported, promoted, and
+practiced in Eittland. This decision forever weakened the alliance
+between the two countries.
+
+As more and more people in Eittland were moving to its western part
+due to larger opportunities with its farmlands, king Áleifr I chose in
+936 to move the capital of Eittland from Hylfjaltr to Đeberget and
+split in half the country. He appointed his brother Steingrímr, later
+known as Steingrímr I Áleifsbróðr, as his co-ruler and gave him
+authority over Eastern Eittland while he kept ruling himself over
+Western Eittland. This choice is due to the difficulty of going from
+one side of the island to the other by land --- lava flows often
+forcefully close and destroy paths joining the two parts together.
+This gave birth to the two states of the Kingdom of Đeberget (also
+called the /Western Eittlandic Kingdom/) and the Kingdom of Hylfjaltr
+(also called the /Eastern Eittlandic Kingdom/). More on that can
+
+** Political Organization
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Political-Organization-z5v4e9p0jaj0
+:END:
+*** Kingdoms and Monarchy
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Political-Organization-Political-subdivisions-z32drvy0jaj0
+:END:
+While Eittland is a single country, it is host to two kingdoms: the
+Kingdom of Đeberget in the western part of the country, and the
+Kingdom of Hylfjaltr in its eastern part. This is due to a separation
+of the country in two halves during the reign of Eittlands second king
+Áleifr I when he realized the difficulties he and the following
+monarchs of the island would face trying to rule the country alone
+while the latter is almost always split in two by active volcanoes.
+Thus, while the two kingdoms operate very independently from each
+other --- each have their own policies on economics, education,
+industry, and so on --- they also operate in cooperation as the
+Eittlandic High Kingdom with the king of Đeberget at its head when it
+comes to common policies, such as military decision and internrational
+affairs.
+#+attr_html: :loading lazy
+#+attr_latex: :float sideways
+#+CAPTION: The Two Eittlandic States
+#+NAME: img:map-political
+[[file:./img/eittland/map-political.png]]
+
+This means that while both governments are independent from each other
+and are legally equals to each other, the western monarch is the one
+with the authority to decide on national actions after negotiations
+between them and the eastern monarch. This is reflected by the throne
+rooms found in official buildings such as the royal palaces where
+three thrones can be found: a central, very large throne surrounded by
+two other identical thrones, the right one for the monarch of
+Hylfjaltr and the left one for the king of Đeberget. Most of the time,
+both monarchs sit on their side throne, including when they meet each
+other as the monarchs of Hylfjaltr and Đeberget. However, when the
+monarch of Đeberget is meant to act as the High Monarch of Eittland,
+they step up to the central throne and then represent the country as a
+whole.
+
+At the end of the reign of the High King, either through abdication or
+their death, his successor is enthroned within a month. Then, within a
+year, the new High King has to appoint a new monarch for Hylfjaltr.
+Traditionally, the new co-ruler is a brother of the current High
+Monarch, however history showed it could be sometimes an uncle, a son,
+a sister or even sometimes a daughter. When the eastern monarch either
+abdicates or dies, the High Monarch has a month to designate a new
+one.
+
+Up until the 14th century, the monarch of Hylfjaltr was rarely the
+successor of the High Monarch. However, High King Ólafr I changed this
+tradition and created a new one. He named his brother and co-ruler
+King of Eittland and his son Prince of Eittland. From here on, the
+King (or occasionally the Queen) of Eastern Eittland was meant to
+become the new High Monarch of Eittland and make the Prince (or
+occasional Princess) the ruler of Hylfjaltr. Then, once the reign of
+the King ends, the Prince becomes the new High King and nominates a
+new King and a new Prince. This was done to ensure the upcoming High
+Monarch would be prepared in ruling the whole country by first ruling
+the state. If anything were to happen to the Prince or Princess of
+Eittland while the King or Queen of Hylfjaltr is on the throne, they
+would have to nominate a new heir among the other possible heirs
+possible for the late High Monarch.
+
+When the High Monarchs steps up to the central throne, they may
+designate someone to fill in the role of the monarch of Đeberget for
+the time being. They can also authorize the monarch of Hylfjaltr to do
+so in case they are unavailable and someone need to represent the
+country in front of foreign representatives. The last example was
+during the two last years of Eríkr IX’s reign from 1987 to 1989 when
+he could not act as High King due to his illness. While he did not
+abdicate, he authorized king Harald III to act as High King while he
+appointed his daughter and present-day High Queen Njall III as the
+acting monarch of Đeberget.
+
+*** Regions and Jarldoms
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Political-Organization-Regions-and-Jarldoms-vxsav301jaj0
+:END:
+While each kingdom is ruled by a monarch and the country is ruled by
+the High Monarch, the kingdoms are divided into several kinds of
+subdivisions. The most common one is the jarldom, historically ruled
+by and still represented by a jarl during ceremonies. “Jarl”
+translates as “Earl” in English, and they were the nobles in charge of
+managing parts of the land in the name of the ruler.
+#+attr_html: :loading lazy
+#+attr_latex: :float sideways
+#+CAPTION: Eittlandic Provinces
+#+NAME: img:map-provinces
+[[file:./img/eittland/map-provinces.png]]
+
+Some parts of the land are directly under the control of the crown,
+such as the districts of Đeberget and Hylfjaltr, which the ruler ruled
+without intermediaries. They are the private possessions of the family
+of the rulers.
+
+On top of this the center of the island is divided in territories, one
+administered by the government of Đeberget and two by the government
+of Hylfjaltr. These territories are supposedly not inhabited by anyone
+and are currently natural parks. This is mostly where you can find the
+mountains and volcanoes of Eittland as well as its cold deserts.
+
+Due to the Last Royal Decree of 1826, jarls no longer rule their
+jarldom themselves anymore. Instead, a local elected government takes
+care of this role now.
+
+*** Governments
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Political-Organization-Government-zoeav301jaj0
+:END:
+**** Monarchy and Things
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Political-Organization-Governments-Monarchy-and-Things-f4i3ii11jaj0
+:END:
+The first form of government created in Eittland revolved around
+Things, assemblies of various size occasionally created at various
+levels of the state to decide on important matters. The Things allow
+at first any adult man to participate, but as the population grew some
+restrictions were put in place in order to limit the amount of
+participants. Only one man could represent a household starting
+from 982. Then, starting from 998, only jarls were allowed to the
+ruler’s Thing, and only ten jarls from each kingdom, elected among all
+the jarls from the same kingdom, would be allowed to attend the High
+Monarch’s Thing. These jarls would then act as representatives of the
+kingdom to the High King and his counsellors.
+
+In 1278, the first formal ministry (or department) was created in the
+Ðeberget Kingdom, called a /Ráðuneyt/ (litt. “fellowship of
+counsellors”) with a /Ráðunautr/ at its head, to aid the King Hallþórr V
+Gunhildson’s in administering agriculture. The Hylfjaltr Kingdom soon
+followed, creating its own in 1283 by order of Eyvindor III
+Steingrímson. From then, ráðuneyts were created as needed with a
+growing number.
+
+**** Constitutional Monarchy
+:PROPERTIES:
+:CUSTOM_ID: Eittland-Political-Organization-Governments-Constitutional-Monarchy-k7y3ii11jaj0
+:END:
+In 1826, fearing the revolutionary climate in mainland Europe, Ólafr V
+passed the appropriately named “Last Royal Decree” in 1826. This act
+put in place a new form of government based on the British monarchy.
+
+All the royal power from the rulers of Đeberget and Hylfjaltr is
+transferred to the House of the People and the House of the Land (the
+equivalent of the lower and upper Houses respectively). The House of
+the People was composed of men elected during general elections every
+eight years. It was decided for each jarldom and district, one
+representative would be elected plus another one for each percentage
+of the population of the kingdom the jarldom represents.
+
+A similar system was created for jarldoms in order to replace jarls
+with locally elected governments, as well as the organisation of
+municipalities.
+
+At first only male land owner of the Nordic Faith could vote and could
+be elected. In 1886, all men of the Nordic Faith got the right to vote
+and be elected in the general elections. In 1902, women gained the
+right to vote and they gained the right to be elected in 1915. The law
+that allowed women to vote also made the authorities stop enforcing
+the restriction on the faith of the participants --- while the
+original texts of 1826 and 1886 were clear on the fact only men of the
+Nordic Faith were allowed to vote and be elected, no such restrictions
+were made for women, making it unclear if only women had no faith
+restriction or if this restriction was removed for everyone.
+Organizers of the next elections in 1914 chose not to enforce this
+religious restriction and it stopped being enforced since then. In
+1998, Queen Siv I exceptionally used her powers of High Queen to pass a
+law to clarify this issue and formally make Eittland a non-religious
+country. This also removed the long unenforced ban on other religions
+in Eittland.
+
+It is to be noted that while the rulers of Đeberget and Hylfjaltr have
+lost all their power with the “Last Royal Decree”, the High Monarch
+remained unaffected by the text though they act as if it were the
+case. To replace them, the eastern and western governments elect a
+single national representative meant to act as the head of both states
+instead of the High Monarch who now holds only a ceremonial position.
+However, it happens from time to time the High Monarch passes a law,
+although they only write down in the law already well established
+traditions, such as the ban on the religious restrictions for voters
+which had not been enforced for almost a century by that point.
+
+Today, Ráðuneyts still exist, but their head is designated no longer
+by the monarch but by the House of the People. Here is the list of
+Ministries that currently exist in Eittland:
+- /Bærráðuneyt/ :: Agriculture Ministry
+- Dæmaráðuneyt :: Justice Ministry
+- Erlendslandsráðuneyt :: Foreign Affair Ministry
+- Fræðiráðuneyt :: Education Ministry
+- Heilsráðuneyt :: Health Ministry
+- Konungdómráðuneyt :: Kingdom Ministry (State Affairs)
+- Náttúrráðuneyt :: Nature Ministry (including ecology)
+- Rógráðuneyt :: War Ministry
+- Teknikráðuneyt :: Technology Ministry
+- Kaupráðuneyt :: Economy Ministry
+- Vinnaráðuneyt :: Employment Ministry
+
+With the separation of the State with its religious departments
+following the law of 1998, the Heiðniráðuneyt (the Heathendom
+Department) became an entity separate from the Government. Its
+Ráðunautr used to be exceptionally appointed by the House of the Land,
+unlike the rest of Ráðunautrs.
+
+* Structural Overview
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-ax13bot058j0
+:END:
+** Typological Outline of the Eittlandic Language                 :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Typological-Outline-of-the-Eittlandic-Language-osk84ty0jaj0
+:END:
+# - Is the language dominantly isolating or polysynthetic?
+# - If the language is at all polysynthetic, is it dominantly
+#   agglutinative or fusional? Give examples of its dominant pattern
+#   and any secondary patterns.
+# - If the language is at all agglutinative, is it dominantly
+#   prefixing, suffixing or neither?
+# - Illustrate the major and secondary patterns (including infixation,
+#   stem modification, reduplication, suprasegmental modification, and
+#   suppletion).
+# - If the language is at all polysynthetic, is it dominantly
+#   "head-marking", "dependent-marking", or mixed?
+# - Give some examples of each type of marking the language exhibits.
+
+** Phonetic Inventory and Translitteration
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-1hrhtyt058j0
+:END:
+*** Evolution from Early Old Norse to Eittlandic
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-1m6a2h60uaj0
+:END:
+Eittlandic evolved early on from Early Old Norse, and as such some
+vowels it evolved from are different than the Old Norse vowels and
+consonants some other Nordic languages evolved from. In this chapter,
+we will see the main list of attested phonetic evolution Eittlandic
+lived through.
+
+The history of Eittlandic goes from the late 8th century until
+modern-day Eittlandic. Its history is divided as shown on table
+[[table:history-eittlandic-language]]. It is not an exact science though
+as changes happened progressively through the country. Changes were
+also progressive, meaning the dates chosen to go from one language to
+the other are relatively arbitrary. In evolution examples, it will be
+indicated whether the Eittlandic pronunciation is specific to a
+certain time area (with /Early Middle Eittlandic/, /Late Old Eittlandic/,
+etc…) but if it only specifies /Eittlandic/ it means no significant
+changes in pronunciation occurred since the phonetic rule shown.
+Meaning is also shown between parenthesis. In case of semantic shift,
+its new meaning in Eittlandic is shown --- the same goes for the
+word’s spelling.
+
+#+name: table:history-eittlandic-language
+| Period                      | Language          |
+|-----------------------------+-------------------|
+| 8th century - 12th century  | Old Eittlandic    |
+| 13th century - 16th century | Middle Eittlandic |
+| 17th century - today        | Modern Eittlandic |
+
+It is generally considered the gj-shift of the 13th century is the
+evolution that marks the change from Old Eittlandic to Middle
+Eittlandic while the great vowel shift marks the change from Middle
+Eittlandic to Modern Eittlandic between the 16th and the 17th century.
+
+**** hʷ > ʍ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-w-β-z5s6wdb0uaj0
+:END:
+One of the first evolution of the Eittlandic was the evolution of the
+{{{phon(hʷ)}}} into a {{{phon(ʍ)}}} (written <hv>). It differs from other nordic
+languages which evolved their {{{phon(hʷ)}}} into a {{{phon(v)}}}, like in
+Icelandic or in Norwegian. However, this evolution is cause to debate,
+mainly due to the original phoneme {{{phon(hʷ)}}} which could be inherited
+from Proto-Norse instead.
+
++ Example :: Early Old Norse or Late Proto-Norse /hvat/ (what)
+  {{{phon(hʷat)}}} > Eittlandic /hvat/ (what) {{{phon(ʍat)}}}
+
+**** C / #h_ > C[-voice]
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-C-h-voice-o4r8mvg08bj0
+:END:
+When preceded by a {{{phon(h)}}}, word-initial consonants such as <l>, <r>,
+<n> would lose their voicing and become voiceless consonants. Note
+<hj> went to {{{phon(ç)}}}.
+
++ Example ::
+  - Early Old Norse /hlóð/ (/hearth/) {{{phon(hloːð)}}} > Old Eittlandic /hlóð/
+    {{{phon(l̥oːð)}}}
+  - Early Old-Norse /hneisa/ (/shame, disgrace/) {{{phon(hneisa)}}} > Early Old
+    Eittlandic {{{phon(n̥eisa)}}}
+  - Early Old Norse /hrifs/ (/robbery/) {{{phon(hrifs)}}} > Old Norse {{{phon(r̥ifs)}}}
+  - Early Old Norse /hjól/ (wheel) {{{phon(hjoːl)}}} > Old Eittlandic {{{phon(çoːl)}}}
+
+**** g / {#,V}_⁣V > ɣ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-g-V-V-ɣ-9mlkdpi08bj0
+:END:
+In word-initial position and followed by a vowel or when between
+vowels, Early Old Norse {{{phon(g)}}} gets palatalized into a {{{phon(ɣ)}}}.
+
++ Example :: Early Old Norse /gegn/ (/against, right opposite/) {{{phon(gegn̩)}}}
+  > Old Eittlandic {{{phon(ɣegn̩)}}}
+
+**** V / _⁣# > ∅ ! j _
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-V-f74dgz60uaj0
+:END:
+When finishing a word, short unaccented vowels disappeared.
+Historically, they first went through a weakening transforming them
+into a {{{phon(ə)}}}, but they eventually disappeared before long vowels got
+affected by the first part of the rule. However, it did not apply to
+final vowels following a <j>.
+
++ Example :: Old Norse /heilsa/ (/health/) {{{phon(heilsa)}}} > Late Old
+  Eittlandic /heils/ {{{phon(heils)}}}.
+
+Reflecting this change, the last vowel got lost in the Eittlandic
+orthography. However, this rule did not get applied consistently with
+a good deal of people that kept them well until the [[#Great-Vowel-Shift-7spk7j70uaj0][Great Vowel Shift]].
+
+**** V / j_# > ə
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-V-j-ə-3v60pdk08bj0
+:END:
+While the final short vowel of words did not disappear when preceded
+by a <j>, they still weakened to a schwa.
+
++ Example :: Old Norse /sitja/ (/to sit/) {{{phon(sitja)}}} > Old Eittlandic
+  {{{phon(sitjə)}}}
+
+**** Vː / _# > ə
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-Vː-ə-9w7dgz60uaj0
+:END:
+When at the end of a word, long unaccented vowels get weakened into a
+schwa.
+
++ Example :: Old Norse /erþó/ (as though) {{{phon(erθoː)}}} > Late Old
+  Eittlandic {{{phon(erθə)}}}.
+
+Notice how in the modern orthography the <ó> didn’t get lost, unlike
+with the previous rule. Unlike the schwa from the previous rule, the
+current schwa still bears the long vowel feature although it is not
+pronounced anymore by that point, influencing the rule described in §[[#Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-ə-C-voice-ysvblnk08bj0]].
+
+**** ɣ / {#,V}_ > j !
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-g-V-j-133jvi70uaj0
+:END:
+During the 13th century, continued palatalization of the letter <g>
+when beginning or preceding a vowel transformed it from {{{phon(g)}}} in
+Proto-Norse to {{{phon(ɣ)}}} in Old Eittlandic to {{{phon(j)}}} in Early Modern
+Eittlandic.
+
++ Example :: Old Norse /gauð/ (a barking) {{{phon(gauð)}}} > Early Middle
+  Eittlandic /gauð/ (a barking, a quarrel) {{{phon(jauð)}}}.
+
+This is the first rule of the gj-shift along with the three next
+rules, marking the passage from Old Eittlandic to Middle Eittlandic.
+
+**** gl > gʲ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-gl-gʲ-ys7bn4c0uaj0
+:END:
+The exception to the above rule is the <g> remains a hard {{{phon(g)}}} when
+followed by an <l> in which case {{{phon(gl)}}} becomes {{{phon(gʲ)}}}.
+
++ Example :: Old Norse /óglaðr/ (sad, moody) {{{phon(oːɡlaðr̩)}}} > Early
+  Middle Eittlandic /óglaðr/ (very sad, miserable) {{{phon(oːɡʲaðr̩)}}}
+
+**** d g n s t / _j > C[+palat]
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-d-g-h-n-s-t-j-C-palat-l22e89c0uaj0
+:END:
+Another exception to the rule in
+§[[#Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-t-C-ʔ-x7lfpz90uaj0]]
+is the <g> remains a hard {{{phon(g)}}} when followed by a {{{phon(j)}}}, in which
+case {{{phon(gj)}}} becomes {{{phon(j)}}}. Other phonemes {{{phon(d)}}}, {{{phon(h)}}},
+{{{phon(n)}}}, {{{phon(s)}}}, and {{{phon(t)}}} also get palatalized, merging with the
+following {{{phon(j)}}}. In the end, we have the conversion table given by
+the table [[cons:palatalization]].
+
+#+name: cons:palatalization
+| Early Old Norse | Eittlandic |
+|-----------------+------------|
+| {{{phon(dj)}}}        | {{{phon(dʒ)}}}   |
+| {{{phon(gj)}}}        | {{{phon(j)}}}    |
+| {{{phon(nj)}}}        | {{{phon(ɲ)}}}    |
+| {{{phon(sj)}}}        | {{{phon(ʃ)}}}    |
+| {{{phon(tj)}}}        | {{{phon(tʃ)}}}   |
+
+Note this is also applicable to devoiced consonants from the rule
+described in
+§[[#Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-C-h-voice-o4r8mvg08bj0]].
+
++ Example ::
+  - Early Old Norse /djúpligr/ (/deep, deeply/) {{{phon(djuːpliɡr̩)}}} > Middle
+    Eittlandic /djúpligr/ (/deep, profound/) {{{phon(dʒuːpliɡr̩)}}}
+  - Early Old Norse /gjøf/ (/gift/) {{{phon(gjøf)}}} > Early Middle Eittlandic
+    {{{phon(jøf)}}}
+  - Early Old Norse /snjór/ (/snow/) {{{phon(snjoːr)}}} > Middle Eittlandic
+    {{{phon(sɲoːr)}}}
+  - Early Old Norse /hnjósa/ (/to sneeze/) {{{phon(hnjoːsa)}}} > Middle Eittlandic {{{phon(ɲ̥oːs)}}}
+  - Early Old Norse /sjá/ (/to see/) {{{phon(sjaː)}}} > Middle Eittlandic {{{phon(ʃaː)}}}
+  - Early Old Norse /skilja/ (/to understand, to distinguish/)
+    {{{phon(skilja)}}} > Early Middle Eittlandic {{{phon(ʃkiljə)}}}
+  - Old Eittlandic /sitja/ (/to sit/) {{{phon(sitjə)}}} > Middle Eittlandic {{{phon(sitʃə)}}}
+
+**** u / V_ > ʊ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-u-V-ʊ-wqbdfb90uaj0
+:END:
+When following another vowel, {{{phon(u)}}} becomes an {{{phon(ʊ)}}}.
+
++ Example :: Old Norse /kaup/ (/bargain/) {{{phon(kaup)}}} > Early Middle
+  Eittlandic {{{phon(kaʊp)}}}
+
+**** {s,z} / _C[+plos] > ʃ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-s-z-C-plos-ʃ-ʒ-i4p0n0b0uaj0
+:END:
+If {{{phon(s)}}} or {{{phon(z)}}} precede a plosive consonant, they become
+palatalized into a {{{phon(ʃ)}}} --- the distinction between <s> and <z> is lost.
+
++ Example ::
+  - Old Norse /fisk/ (/fish/) {{{phon(fisk)}}} > Middle Eittlandic {{{phon(fiʃk)}}}
+  - Early Old Norse /vizka/ (/wisdom/) {{{phon(vizka)}}} > Middle Eittlandic /visk/ {{{phon(viʃk)}}}
+
+Note that in the Modern Eittlandic orthography, the <z> is replaced
+with an <s>.
+
+**** f / {V,C[+voice]}_ {V,C[+voice],#} > v
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-f-V-V-v-v22g0u70uaj0
+:END:
+When a <f> is either surrounded by voice phonemes or is preceded by a
+voiced phoneme and ends a word, it gets voiced into a {{{phon(v)}}}.
+
++ Example :: Old Norse /úlf/ (wolf) {{{phon(uːlf)}}} > Middle Eittlandic /úlv/ {{{phon(uːlv)}}}.
+
+**** l / _j > ʎ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-l-j-ʎ-hapblzj08bj0
+:END:
+When followed by a <j>, any <l> becomes a {{{phon(ʎ)}}}, merging with the
+following <j>.
+
++ Example :: Early Middle Eittlandic /skilja/ (to understand, to
+  distinguish) {{{phon(ʃkiljə)}}} > Middle Eittlandic {{{phon(ʃkiʎə)}}}
+
+**** ə[-long] / C[+voice]_# > ∅
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-ə-C-voice-ysvblnk08bj0
+:END:
+As described in the rule
+§[[#Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-Vː-ə-9w7dgz60uaj0]],
+the schwa resulting from it kept its long vowel feature although it
+wasn’t pronounced anymore. This resulted in the current rule making
+all schwas resulting from short vowels at the end of words to
+disappear when following a voiced consonant. This basically boils down
+to any former short vowel following a <j> in word-final position.
+
++ Example :: Middle Eittlandic (to understand, to distinguish)
+  {{{phon(ʃkiʎə)}}} > Late Middle Eittlandic {{{phon(ʃkiʎ)}}}
+
+**** aʊ > oː
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-aʊ-oː-4w88tmg08bj0
+:END:
+Sometime in the 15th century, any occurence of <au>, pronounced by
+then {{{phon(aʊ)}}}, began shifting to {{{phon(oː)}}}.
+
++ Example :: Early Middle Eittlandic /kaup/ (/bargain/) {{{phon(/kaʊp/)}}} > Late
+  Middle Eittlandic /kaup/ (/commerce/) {{{koːp}}}
+
+**** C[+long +plos -voice] > C[+fric] ! / _C > C[+long +plos] > C[-long]
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-C-long-plos-voice-C-fric-C-C-long-plos-C-long-77287t90uaj0
+:END:
+Unless followed by another consonant, any unvoiced long plosive
+consonant becomes a short affricate while other long plosives simply
+become shorter.
+
++ Example ::
+  - Old Norse /Edda/ (the book written by Snorri Sturuson) {{{phon(edːa)}}} > Late Eittlandic {{{phon(eda)}}}
+  - Old Norse /Eittland/ {{{phon(eitːland)}}} > Late Middle Eittlandic {{{phon(eitland)}}}
+  - Old Norse /uppá/ (/upon/) {{{phon(upːaː)}}} > Late Middle Eittlandic {{{phon(upɸə)}}}
+
+**** r > ʁ (Eastern Eittlandic)
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-r-ʁ-Eastern-Eittlandic-b20i1pm0bbj0
+:END:
+From the beginning of the 16th century, the Eastern Eittlandic {{{phon(r)}}}
+began morphing into an {{{phon(ʁ)}}} in all contexts except in word-final
+<-r>, remanants of Old Norse’s nominative <-R>. This is typical in the
+Eastern region of Eittland and it can be even heard in some dialects
+of Southern Eittlandic.
+
++ Example ::
+  - Old Norse /dratta/ (/to trail/ or /walk like a cow/) {{{phon(dratʃ)}}} > Eastern Modern
+    Eittlandic /dratt/ (/act mindlessly/) {{{phon(dʁatʃ)}}}
+  - Early Old Norse /fjárdráttr/ (/(unfairly) making money/)
+    {{{phon(fjaːdraːtːr̩)}}} > Eastern Modern Eittlandic /fjárdráttr/ (/to scam/)
+    {{{phon(fjɛʁdʁɛtr̩)}}}
+
+**** Great Vowel Shift
+:PROPERTIES:
+:CUSTOM_ID: Great-Vowel-Shift-7spk7j70uaj0
+:END:
+The great vowel shift happened during the 16th and 17th century during
+which long vowels underwent a length loss, transforming them into
+different short vowels. Only three rules governed this shift:
+- V[+high +long] > V[-high -long]
+- V[+tense +long] > V[-tense -long]
+- V[-tense +long] > V[-long -low]
+
+Hence, the vowels evolved as shown in table [[vow:eittland:evolution]].
+#+name: vow:eittland:evolution
+#+caption: Evolution of Old Norse long vowels to Eittlandic short vowels
+| Orthography | Old Eittlandic vowel | Modern Eittlandic Vowel |
+|-------------+----------------------+-------------------------|
+| á           | {{{phon(aː)}}}             | {{{phon(ɛ)}}}                 |
+| é           | {{{phon(eː)}}}             | {{{phon(ɛ)}}}                 |
+| í           | {{{phon(iː)}}}             | {{{phon(e)}}}                 |
+| ó           | {{{phon(oː)}}}             | {{{phon(ɔ)}}}                 |
+| œ (ǿ)       | {{{phon(øː)}}}             | {{{phon(œ)}}}                 |
+| ú           | {{{phon(uː)}}}             | {{{phon(o)}}}                 |
+| ý           | {{{phon(yː)}}}             | {{{phon(ø)}}}                 |
+
+As you can see, some overlap is possible from Old Norse vowels and
+Modern Eittlandic vowels. For instance, Eittlanders will read <e> and
+<í> both as an {{{phon(e)}}}.
+
++ Examples ::
+  - Middle Eittlandic /sjá/ (/to see/) {{{phon(ʃaː)}}} > Modern Eittlandic {{{phon(ʃɛ)}}}
+  - Old Norse /fé/ (/cattle/) {{{phon(feː)}}} > Modern Eittlandic /fé/ (wealth) {{{phon(fɛ)}}}
+  - Late Proto-Norse /hví/ (/why/) {{{phon(hʷiː)}}} > Modern Eittlandic {{{phon(ʍe)}}}
+  - Old Norse /bók/ (/beech/, /book/) {{{phon(boːk)}}} > Modern Eittlandic (/book/)
+    {{{phon(bɔk)}}}
+  - Early Old Norse /œgir/ (/frightener/, /terrifier/) {{{phon(øːɡir)}}} > Modern
+    Eittlandic /œgir/ (/barbarian/, /pirate/) {{{phon(œjir)}}}
+  - Middle Eittlandic /úlv/ (/wolf/) {{{phon(uːlv)}}} > Modern Eittlandic {{{phon(olv)}}}
+
+Diphthongs also evolved following these rules:
+- {{{phon(ei)}}} > {{{phon(ɑɪ)}}}
+- {{{phon(ou)}}} > {{{phon(ɑʊ)}}}
+- {{{phon(øy)}}} > {{{phon(œʏ)}}}
+
+**** V / _N > Ṽ[-tense] ! V[+high] (Southern Eittlandic)
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-V-N-Ṽ-V-high-ulb1ey80uaj0
+:END:
+When preceding a nasal, any vowel that is not high as determined by
+the figure [[tree:vowels]] gets nasalized when preceding a nasal consonant
+and loses its tenseness if it has any. Hence, the pronunciation of the
+<a> in /Eittland/ is {{{phon(ã)}}}. However, Old Norse /runa/ (rune) {{{phon(runa)}}}
+becomes /run/ (letter, character, rune) {{{phon(run)}}} without any
+nasalization.
+
+Note this evolution is mostly proeminent in the southern regions of
+Eittland and the city of Hundraðskip. It is less often documented in
+Eastern Eittland and almost undocumented in Western Eittland. It is
+more often documented in casual conversation buch rarer in formal
+conversation, especially when the majority of the speakers in a group
+are not southerners.
+
+**** t / _C > ʔ ! _ʃ
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-t-C-ʔ-x7lfpz90uaj0
+:END:
+When a {{{phon(t)}}} precedes another consonant, it becomes a glottal stop.
+
++ Example :: Early Modern Eittlandic /Eittland/ {{{phon(ɑɪtland)}}} > Modern
+  Eittlandic {{{phon(ɑɪʔland)}}}
+
+**** V^{U} > ə ! diphthongs (Western Eittlandic)
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-V-U-ə-diphthongs-fjh0pnr0uaj0
+:END:
+A recent evolution in Western Eittland is weakening any unstressed
+vowel that is not a diphthong to a schwa. It is only documented in
+casual speech but almost never in formal speech.
+
++ Example ::
+  - Standard Eittlandic /ádreif/ (spray) {{{phon(ɛdrɑɪv)}}} > Western Casual
+    Eittlandic {{{phon(ɛdrɑɪv)}}}
+  - Standard Eittlandic /einlægr/ (/sincere/) {{{phon(ɑɪnlæɡr)}}} > Western
+    Casual Eittlandic {{{phon(ɑɪnləɡr)}}}
+
+*** Simple Vowels
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Vowels-vishtyt058j0
+:END:
+
+#+name: vow-dot-gen
+#+header: :var vowels=vowels-featural-list
+#+begin_src emacs-lisp :wrap "src dot :file eittland/vowel-feature-tree.png"
+(conlanging-list-to-graphviz vowels)
+#+end_src
+
+#+RESULTS[c52a8076dad068d0ed5c7b1b96a1461025993979]: vow-dot-gen
+#+begin_src dot :file eittland/vowel-feature-tree.png
+graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08yx7y65"[label="vowels"];"+high-0jau08yx7y6e"[label="+high"];"vowels-0jau08yx7y65"--"+high-0jau08yx7y6e";"+round-0jau08yx7y6h"[label="+round"];"+high-0jau08yx7y6e"--"+round-0jau08yx7y6h";"+front-0jau08yx7y6l"[label="+front"];"+round-0jau08yx7y6h"--"+front-0jau08yx7y6l";"/y/-0jau08yx7y6n"[label="/y/"];"+front-0jau08yx7y6l"--"/y/-0jau08yx7y6n";"-front-0jau08yx7y6t"[label="-front"];"+round-0jau08yx7y6h"--"-front-0jau08yx7y6t";"/u/-0jau08yx7y6w"[label="/u/"];"-front-0jau08yx7y6t"--"/u/-0jau08yx7y6w";"-round-0jau08yx7y75"[label="-round"];"+high-0jau08yx7y6e"--"-round-0jau08yx7y75";"/i/-0jau08yx7y78"[label="/i/"];"-round-0jau08yx7y75"--"/i/-0jau08yx7y78";"-high-0jau08yx7y7m"[label="-high"];"vowels-0jau08yx7y65"--"-high-0jau08yx7y7m";"+round-0jau08yx7y7q"[label="+round"];"-high-0jau08yx7y7m"--"+round-0jau08yx7y7q";"+tense-0jau08yx7y7t"[label="+tense"];"+round-0jau08yx7y7q"--"+tense-0jau08yx7y7t";"+front-0jau08yx7y7w"[label="+front"];"+tense-0jau08yx7y7t"--"+front-0jau08yx7y7w";"/ø/-0jau08yx7y80"[label="/ø/"];"+front-0jau08yx7y7w"--"/ø/-0jau08yx7y80";"-front-0jau08yx7y87"[label="-front"];"+tense-0jau08yx7y7t"--"-front-0jau08yx7y87";"/o/-0jau08yx7y8a"[label="/o/"];"-front-0jau08yx7y87"--"/o/-0jau08yx7y8a";"-tense-0jau08yx7y8k"[label="-tense"];"+round-0jau08yx7y7q"--"-tense-0jau08yx7y8k";"+low-0jau08yx7y8o"[label="+low"];"-tense-0jau08yx7y8k"--"+low-0jau08yx7y8o";"/œ/-0jau08yx7y8s"[label="/œ/"];"+low-0jau08yx7y8o"--"/œ/-0jau08yx7y8s";"-low-0jau08yx7y8y"[label="-low"];"-tense-0jau08yx7y8k"--"-low-0jau08yx7y8y";"/ɔ/-0jau08yx7y90"[label="/ɔ/"];"-low-0jau08yx7y8y"--"/ɔ/-0jau08yx7y90";"-round-0jau08yx7y9m"[label="-round"];"-high-0jau08yx7y7m"--"-round-0jau08yx7y9m";"+tense-0jau08yx7y9p"[label="+tense"];"-round-0jau08yx7y9m"--"+tense-0jau08yx7y9p";"+low-0jau08yx7y9s"[label="+low"];"+tense-0jau08yx7y9p"--"+low-0jau08yx7y9s";"/æ/-0jau08yx7y9v"[label="/æ/"];"+low-0jau08yx7y9s"--"/æ/-0jau08yx7y9v";"-low-0jau08yx7ya1"[label="-low"];"+tense-0jau08yx7y9p"--"-low-0jau08yx7ya1";"/e/-0jau08yx7yaa"[label="/e/"];"-low-0jau08yx7ya1"--"/e/-0jau08yx7yaa";"-tense-0jau08yx7yal"[label="-tense"];"-round-0jau08yx7y9m"--"-tense-0jau08yx7yal";"+low-0jau08yx7yao"[label="+low"];"-tense-0jau08yx7yal"--"+low-0jau08yx7yao";"/a/-0jau08yx7yar"[label="/a/"];"+low-0jau08yx7yao"--"/a/-0jau08yx7yar";"-low-0jau08yx7yaw"[label="-low"];"-tense-0jau08yx7yal"--"-low-0jau08yx7yaw";"/ɛ/-0jau08yx7yaz"[label="/ɛ/"];"-low-0jau08yx7yaw"--"/ɛ/-0jau08yx7yaz";}
+#+end_src
+
+#+name: tree:vowels
+#+attr_html: :alt Eittlandic Vowel Featural Tree :class gentree :loading lazy
+#+caption: Eittlandic Vowels Featural Tree
+#+RESULTS[93d18c3e267627e50cf901dcc820c34aaab89eab]:
+[[file:img/eittland/vowel-feature-tree.png]]
+
+**** Private Data                                               :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Vowels-Private-Data-jt8bq9m0eaj0
+:END:
+#+name: vowels-featural-list
+- vowels
+  - +high
+    - +round
+      - +front
+        - /y/
+      - -front
+        - /u/
+    - -round
+      - /i/
+  - -high
+    - +round
+      - +tense
+        - +front
+          - /ø/
+        - -front
+          - /o/
+      - -tense
+        - +low
+          - /œ/
+        - -low
+          - /ɔ/
+    - -round
+      - +tense
+        - +low
+          - /æ/
+        - -low
+          - /e/
+      - -tense
+        - +low
+          - /a/
+        - -low
+          - /ɛ/
+
+*** Consonants
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0
+:END:
+
+**** Private Data                                               :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Consonants-Private-Data-sfcbpfm0eaj0
+:END:
+
+*** Pitch and Stress
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Pitch-and-Stress-br8ank61e8j0
+:END:
+
+** Phonotactics
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Phonotactics-r2whtyt058j0
+:END:
+*** Syllable Structur
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonotactics-Syllable-Structure-hhx3zk40f8j0
+:END:
+
+*** Allophony
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonotactics-Allophony-x185lum0jaj0
+:END:
+
+** Word Structure
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Word-Structure-n6vhtyt058j0
+:END:
+
+** World Classes                                                  :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-aywhtyt058j0
+:END:
+*** Names
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Names-ztxhtyt058j0
+:END:
+# - What are the distributional properties of nouns?
+# - What are the structural properties of nouns?
+# - What are the major formally distinct subcategories of nouns?
+# - What is the basic structure of the noun word (for polysynthetic
+#   languages) and/or noun phrases (for more isolating languages)?
+**** Countables and Uncountables
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Names-Countables-and-Uncountables-sqyhtyt058j0
+:END:
+**** Proper Nouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Names-Proper-Nouns-0ozhtyt058j0
+:END:
+*** Pronouns and Anaphoric Clitics
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-9k0ityt058j0
+:END:
+# - Does the language have free pronouns and/or anaphoric clitics?
+#   (These are distinct from grammatical agreement.)
+# - Give a chart of the free pronouns and/or anaphoric clitics.
+**** Personal Pronouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Personal-Pronouns-cps4r0u058j0
+:END:
+**** Demonstrative Pronouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Demonstrative-Pronouns-2qt4r0u058j0
+:END:
+**** Possessive Pronouns
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Possessive-Pronouns-2pu4r0u058j0
+:END:
+*** Verbs
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-xg1ityt058j0
+:END:
+# - What are the distributional properties of verbs?
+# - What are the structural properties of verbs?
+# - What are the major subclasses of verbs?
+# - Describe the order of various verbal operators within the verbal
+# - word or verb phrase.
+# - Give charts of th
+# - tense/aspect/mode, etc. Indicate major allomorphic variants.
+# - Are directional and/or locational notions expressed in the verb or
+# - verb phrase at all?
+#   - Is this operation obligatory, i.e. does one member of the
+#     paradigm have to occur in every finite verb or verb phrase?
+#   - Is it productiv
+#     verb stems, and does it have the same meaning with each one?
+#     (Nothing is fully productive, but some operations are more
+#     productive than others.)
+#   - Is this operation primarily coded morphologically, analytically,
+#     or lexically? Are there any exceptions to the general case?
+#   - Where in the verb phrase or verbal word is this operation likely
+#     to appear? Can it occur in more than one place?
+**** Verbal Structure
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Structure-zfubf8u058j0
+:END:
+**** Verbal Derivations
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Derivations-tezbf8u058j0
+:END:
+**** Verbal Inflexions
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Inflexions-443cf8u058j0
+:END:
+*** Modifiers
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-yw5cf8u058j0
+:END:
+# - If you posit a morphosyntactic category of adjectives, give
+#   evidence for not grouping theseforms with the verbs or nouns. What
+#   characterizes a form as being an adjective in this language?
+# - How can you characterize semantically the class of concepts coded
+#   by this formal category?
+# - Do adjectives agr
+#   noun class)?
+# - What kind of syst
+# - How high can a fluent native speaker count without resorting
+#   either to words from another language or to a generic word like
+#   /many/? Exemplify the system up to this point.
+# - Do numerals agree with their head nouns (number, case, noun
+#   class, ...)?
+**** Descriptive Adjectives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Descriptive-Adjectives-pcpelau058j0
+:END:
+**** Non-Numeral Quantifiers
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Non-Numeral-Quantifiers-zsselau058j0
+:END:
+**** Numerals
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Numerals-4gvelau058j0
+:END:
+*** Adverbs
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Adverbs-6lxelau058j0
+:END:
+# - What characterikes a form as being an adverb in this language? If
+#   you posit a distinct class of adverbs, argue for why these forms
+#   should not be treated as nouns, verbs, or adjectives.
+# - For each kind of adverb listed in this section, list a few members
+#   of the type, and specify whether there are any restrictions
+#   relavite to that type, e.g. where they can come in a clause, any
+#   morphemes common to the type, etc.
+# - Are any of these classes of adverbs related to older
+#   complement-taking (matrix) verbs?
+*** Adpositions
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Adpositions-isib3bu058j0
+:END:
+*** Grammatical Particules
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-World-Classes-Grammatical-Particules-q0kb3bu058j0
+:END:
+** Constituants Order Typology                                    :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-xaujqgu058j0
+:END:
+*** Constituants Order in Main Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Constituants-Order-in-Main-Clauses-6bvjqgu058j0
+:END:
+# - What is the neutral order of free elements in the unit?
+# - Are there variations?
+# - How do the variant orders function?
+# - Specific to the main clause constituent order: What is the
+#   pragmatically neutral order of constituents (A/S, P, and V) in
+#   basic clauses of the language?
+*** Constituants Order in Nominal Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Constituants-Order-in-Nominal-Clauses-195lqgu058j0
+:END:
+# - Describe the order(s) of elements in the noun phrase.
+*** Constituants Order in Verbal Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Constituants-Order-in-Verbal-Clauses-f76lqgu058j0
+:END:
+# - Where do auxliari
+#   verb?
+# - Where do verb-phrase adverbs occur with respect to the verb and
+#   auxiliaries?
+*** Adpositional Phrases
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Adpositional-Phrases-g57lqgu058j0
+:END:
+# - Is the language dominantly prepositional or post-positional? Give
+#   examples.
+# - Do many adpositions come from nouns or verbs?
+*** Comparatives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Comparatives-u18lqgu058j0
+:END:
+# - Does the language have one or more grammaticalized comparative
+#   constructions? If so, what is the order of the standard, the
+#   marker and the quality by which an item is compared to the
+#   standard?
+*** Questions
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Constituants-Order-Typology-Questions-qx8lqgu058j0
+:END:
+# - In yes/no questions, if there is a question particle, where does
+#   it occur?
+# - In information qu
+** Structure of a Nominal Group                                   :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-nu66umu058j0
+:END:
+*** Composed Words
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Composed-Words-7w76umu058j0
+:END:
+# - Is there noun-noun compounding that results in a noun (e.g.
+#   /windshield/)?
+# - How do you know it is compounding?
+# - Is there noun-verb (or verb-noun) compounding that results in a
+#   noun (e.g. /pickpocket/, /scarecrow/)?
+# - Are these process
+#   can-opener)? How common is compounding?
+*** Denominalization
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Denominalization-c296umu058j0
+:END:
+# - Are there any processes (productive or not) that form a verb from
+#   a noun?
+# - An adjective from a noun?
+# - An adverb from a noun?
+*** Numbers
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Numbers-n0a6umu058j0
+:END:
+# - Is number express
+# - Is the distinction between singular and non-singular obligatory,
+#   optional, or completely absent in the noun phrase?
+# - If number marking is “optional”, when does it tend to occur, and
+#   when does it tend not to occur?
+# - If number marking is obligatory, is number overtly expressed for
+#   all noun phrases or only some subclasses of noun phrases, such as
+#   animate?
+# - What non-singular distinctions are there?
+*** Grammatical Case
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Grammatical-Case-bya6umu058j0
+:END:
+# - Do nouns exhibit morphological case?
+# - If so, what are the cases? (The functions of the cases will be
+#   elaborated in lat
+*** Articles and Demonstratives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-owb6umu058j0
+:END:
+# - Do noun phrases have articles?
+# - If so, are they obligatory or optional, and under what
+#   circumstances do they occur?
+# - Are they separate words, or bound morphemes?
+# - Is there a class of classes of demonstratives as distinct from
+#   articles?
+# - How many degrees of distance are there in the system of
+#   demontsratives?
+# - Are there other distinctions beside distances?
+*** Possessives
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Possessives-8xc6umu058j0
+:END:
+# - How are possessors expressed in the noun phrase?
+# - Do nouns agree with their possessors? Do possessors agree with
+#   possessed nouns? Neither, or both?
+# - Is there a distinction between alienable and inalienable
+#   possesson?
+# - Are there other types of possession?
+# - When the possessor is a full noun, where does it usually come with
+#   respect to the possessed noun?
+*** Classes (including Gender)
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Classes-including-Gender-i2e6umu058j0
+:END:
+# - Is there a noun class system?
+# - What are the classes and how are they manifested in the noun
+#   phrase?
+# - What dimension of reality is most central to the noun class system
+#   (e.g. animacy, shape, function, etc.)? What other dimensions are
+#   relevant?
+# - Do the classifiers occur with numerals? Adjectives? Verbs?
+# - What is their function in these contexts?
+*** Diminution/Augmentation
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Diminution-Augmentation-41f6umu058j0
+:END:
+# - Does the language employ diminutive and/or augmentative operators
+#   in the noun or noun phrase?
+# - Questions to answ
+#   - Is this operation obligatory, i.e. does one member of the
+#     paradigm have to occur in every full noun phrase?
+#   - Is it productiv
+#     full noun phras
+#     one? (Nothing is fully productive, but some operations are more
+#     so than others.)
+#   - Is this operation primarily expressed lexically,
+#     morphologically, or analytically?
+# - Where in the noun phrase is this operation likely to be located?
+# - Can it occur in more than one place?
+** Predicates and Linked Constructions                            :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-9vn42yu058j0
+:END:
+*** Nominal Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Nominal-Predicates-6zo42yu058j0
+:END:
+# - How are proper inclusion and equative predicates formed?
+# - What restrictions are there, if any, on the TAM marking of such
+#   clauses?
+*** Adjective Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Adjective-Predicates-11q42yu058j0
+:END:
+# - How are predicate adjective formed? (Include a separate section on
+#   predicate adjectives only if they are structurally distinct from
+#   predicate nominals.)
+*** Locative Predicat
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Locative-Predicates-y5r42yu058j0
+:END:
+# - How are locational clauses (or predicate locatives) formed?
+*** Existential Predicates
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Existential-Predicates-wds42yu058j0
+:END:
+# - How are existential clauses formed? (Give examples in different
+#   tense/aspects, especially if there is significant variation.)
+# - How are negative
+# - Are there extended uses of existential morphology? (Provide
+#   pointers to other relevant sections of the grammar.)
+*** Possessive Clauses
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Predicates-and-Linked-Constructions-Possessive-Clauses-6gt42yu058j0
+:END:
+# - How are possessiv
+** Verbal Groups Structure                                        :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Verbal-Groups-Structure-hhu42yu058j0
+:END:
+** Intransitive Claus
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Intransitive-Clauses-x3k4i1v058j0
+:END:
+** Ditransitive Claus
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Ditransitive-Clauses-2yl4i1v058j0
+:END:
+** Dependent Type Clauses                                         :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-gln4i1v058j0
+:END:
+*** Non-Finite
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-Non-Finite-99p4i1v058j0
+:END:
+*** Semi-Finite
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-Semi-Finite-urq4i1v058j0
+:END:
+*** Finite
+:PROPERTIES:
+:CUSTOM_ID: Structural-Preview-Dependent-Type-Clauses-Finite-44s4i1v058j0
+:END:
+* Functional System                                                :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-va2ityt058j0
+:END:
+** Grammatical Relationship
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Grammatical-Relationship-dj9g86v058j0
+:END:
+# Examplify some simple intransitive, transitive, and ditransitive
+# clauses. Three-argument clauses may not unequivocally exist.
+# - What are the grammatical erlations of this language? Give
+#   morphosyntactic evidence for each one that you propose.
+#   - Subject?
+#   - Ergative?
+#   - Absolutive?
+#   - Direct object?
+#   - Indirect object?
+#   There are basically four possible sources of evidence for
+#   grammatical relations:
+#   - morphological case on NPs
+#   - person marking on verbs
+#   - constituent ord
+#   - some pragmatic hierarchy
+# - Is the system of grammatical relations in basic (affirmative,
+#   declarative) clauses organized according to a
+#   nominative/accusative, ergative/absolutive, tripartite, or some
+#   other system?
+# - Is there a split system for organizing grammatical relations? If
+#   so, what determin
+#   - Is there split instransitivity? If so, what semantic or
+#     discourse/pragmatic factor conditions the split?
+#   - Does the system for pronouns and/or person marking on verbs
+#     operate on the same basis as that of full NPs?
+#   - Are there different grammatical-relation systems depending on
+#     the clause type (e.g. main vs. dependent clauses, affirmative
+#     vs. negative clauses)?
+#   - Are there different grammatical-relation assignment systems
+#     depending on th
+#   - Are there any syntactic processes (e.g. conjunction reduction,
+#     relativization) that operate on an ergative/absolutive basis?
+** Constructions Link
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Constructions-Linked-to-Voice-and-Valence-g5ceo8v058j0
+:END:
+** Valence Increase
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-dsdeo8v058j0
+:END:
+*** Causative
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Causative-hafeo8v058j0
+:END:
+*** Applicative
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Applicative-7pgeo8v058j0
+:END:
+*** Dative Shift
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Dative-Shift-n3ieo8v058j0
+:END:
+*** Dative Interest
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-Dative-Interest-tgjeo8v058j0
+:END:
+*** External Possession
+:PROPERTIES:
+:CUSTOM_ID: Functional-System-Valence-Increase-External-Possession-opkeo8v058j0
+:END:
+* Dictionary
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-y2icocp0h5j0
+:END:
+** A
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-A-wtcczzm0jaj0
+:END:
+
+** Á
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Á-4kfczzm0jaj0
+:END:
+
+** Æ
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Æ-2diczzm0jaj0
+:END:
+
+** B
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-B-ae79d268
+:END:
+
+** C
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-C-29dc766b
+:END:
+
+** D
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-D-h7lczzm0jaj0
+:END:
+
+** Đ
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Đ-jpnczzm0jaj0
+:END:
+
+** E
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-E-54360434
+:END:
+
+** É
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-É-aeqczzm0jaj0
+:END:
+
+** F
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-F-r4tczzm0jaj0
+:END:
+
+** G
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-G-5a9af03c
+:END:
+
+** H
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-H-5qvczzm0jaj0
+:END:
+
+** I
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-I-a81a4697
+:END:
+
+** Í
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Í-s9yczzm0jaj0
+:END:
+
+** J
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-J-88f57f6a
+:END:
+
+** K
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-K-bl1dzzm0jaj0
+:END:
+
+** L
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-L-j64dzzm0jaj0
+:END:
+
+** M
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-M-cccfd958
+:END:
+
+** N
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-N-0ef6f2af
+:END:
+
+** O
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-O-cf8f0e3f
+:END:
+
+** Ó
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Ó-y77dzzm0jaj0
+:END:
+
+** Ǫ
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Ǫ-xv9dzzm0jaj0
+:END:
+
+** Ø
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-8fcb6e1e
+:END:
+
+** Œ
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-Œ-0c780f53
+:END:
+
+** P
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-P-2b7ab301
+:END:
+
+** Q
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-Q-b1ec8323
+:END:
+
+** R
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-R-fmcdzzm0jaj0
+:END:
+
+** S
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-S-e9e187ae
+:END:
+
+** T
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-T-phfdzzm0jaj0
+:END:
+
+** Þ
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Þ-t6idzzm0jaj0
+:END:
+
+** U
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-U-fa109e34
+:END:
+
+** Ú
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-Ú-c35e6434
+:END:
+
+** V
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-V-urkdzzm0jaj0
+:END:
+
+** Y
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-Y-a217cb68
+:END:
+
+** Ý
+:PROPERTIES:
+:CUSTOM_ID: Dictionary-Ý-iendzzm0jaj0
+:END:
+
+** Z
+:PROPERTIES:
+:CUSTOM_ID: Dictionnaire-Z-144a2853
+:END:
+
+* Private Data                                                     :noexport:
+:PROPERTIES:
+:CUSTOM_ID: Private-Data-q4hgd1d0uaj0
+:END:
+#+name: eittland-religions
+|    / |           < |         |                    |              |          |       |
+| Year | Norse Faith | Atheism | Church of Eittland | Christianity | Buddhism | Other |
+|------+-------------+---------+--------------------+--------------+----------+-------|
+| 1900 |          97 |       0 |                  2 |            1 |        0 |     0 |
+| 1950 |          93 |       2 |                  1 |            1 |        0 |     3 |
+| 1975 |          84 |       7 |                  3 |            1 |        0 |     5 |
+| 2000 |          75 |       9 |                  4 |            4 |        4 |     4 |
+| 2019 |          68 |      15 |                  4 |            4 |        6 |     3 |
+
+* Footnotes
+:PROPERTIES:
+:CUSTOM_ID: Footnotes-uybi3030e5j0
+:END:
+
+[fn:3] [[https://phundrak.com][phundrak.com]]
+
+[fn:2] [[https://creativecommons.org/licenses/by-nc-sa/4.0/][creativecommons.org/licenses/by-nc-sa/4.0/]]
+
+[fn:1] [[https://langue.phundrak.com][langue.phundrak.com]]
