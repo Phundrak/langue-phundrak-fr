@@ -20,6 +20,11 @@
 :CUSTOM_ID: Introduction-Foreword-d22hjv20e5j0
 :UNNUMBERED: t
 :END:
+
+** On This Document
+:PROPERTIES:
+:CUSTOM_ID: Foreword-On-This-Document-drs3x130rbj0
+:END:
 Redistribution or sale of this document is strictly prohibited. This
 document is protected by French law on copyright and is completely
 owned by its author[fn:3] (myself, Lucien “Phundrak” Cartier-Tilet).
@@ -40,6 +45,27 @@ or cultural aspect is most likely due to a lack of worldbuilding, so
 if you read something along the lines of “more research needs to be
 done on the subject” simply means I have not yet written on it (or I
 may not plan to).
+
+** A Warning to the Reader
+:PROPERTIES:
+:CUSTOM_ID: Foreword-A-Warning-to-the-Reader-aov3x130rbj0
+:END:
+This document deals with the evolution of a real historic language
+towards a completely made up language, as well as the evolution of a
+similarly made up people in a made up country. I am no linguist,
+ethnologist, nor historian, and making this requires a lot of
+knowledge which I don’t have (if anything, you could consider me an
+armchair linguists: I read lots of books on the subject). Therefore, I
+*will* take shortcuts here and there on various topics.
+
+Any “fact” you might learn about the Old Norse people, language, or
+history might be altered reality if not straight up wrong, although I
+do try to strive to achieve something believable and as close as I can
+to reality.
+
+Let me reiterate: I am no expert in the subjects presented here, do
+not take anything I say at face value. I believe the scientific term
+for some stuff written here is “bullshit”.
 
 This is a work of fiction. Any resemblance to persons living or dead,
 to any real event, or any real people is purely coincidental.
