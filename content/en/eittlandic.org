@@ -11,6 +11,9 @@
 #+latex_header: \usepackage{allrunes}
 #+macro:        rune (eval (conlanging-to-org-runes $1 'eittlandic))
 #+latex_header: \linespread{1.15}
+#+latex_header: \usepackage{multicol}
+#+latex_header: \setlength{\columnsep}{2cm}
+#+latex_header: \setlength{\columnseprule}{1pt}
 #+latex_header: \usepackage{glossaries}
 #+latex_header: \makeglossaries
 #+latex:        \printglossaries
@@ -20,7 +23,6 @@
 :CUSTOM_ID: Introduction-Foreword-d22hjv20e5j0
 :UNNUMBERED: t
 :END:
-
 ** On This Document
 :PROPERTIES:
 :CUSTOM_ID: Foreword-On-This-Document-drs3x130rbj0
@@ -70,11 +72,23 @@ for some stuff written here is “bullshit”.
 This is a work of fiction. Any resemblance to persons living or dead,
 to any real event, or any real people is purely coincidental.
 
+** List of abbreviations
+:PROPERTIES:
+:CUSTOM_ID: Foreword-List-of-abbreviations-0h6jg050rbj0
+:END:
+- adj :: adjective
+- adv :: adverb
+- f :: feminine noun
+- m :: masculine noun
+- n :: neutral noun
+- prep :: preposition
+- v :: verb
+
 * Eittland
 :PROPERTIES:
 :CUSTOM_ID: Eittland-iz98ngl0jaj0
 :END:
-Eittland (Eittlandic: Eittland {{{rune(eittland)}}} {{{phon(aɪtlãd)}}}) is part of
+Eittland (Eittlandic: Eittland {{{rune(eittland)}}} {{{phon(ɑɪtlɑ̃d)}}}) is part of
 the family of Nordic countries, with a population of 31.5 millions as
 per the 2019 national census. It has a superficy of 121 km^{2}, making it
 the second largest island in Europe after Great Britain. Its capital
@@ -157,18 +171,18 @@ set style histogram rowstacked
 set style fill solid border -1
 set boxwidth 1
 
-plot data u 2:xticlabels(1) axis x1y1 lw 3 title 'Norse Faith', \
-     data u 3:xticlabels(1) axis x1y1 lw 3 title 'Atheism', \
-     data u 4:xticlabels(1) axis x1y1 lw 3 title 'Church of Eittland', \
-     data u 5:xticlabels(1) axis x1y1 lw 3 title 'Christianity', \
-     data u 6:xticlabels(1) axis x1y1 lw 3 title 'Buddhism', \
-     data u 7:xticlabels(1) axis x1y1 lw 3 title 'Other'
+plot data u 2:xticlabels(1) axis x1y1 title 'Norse Faith', \
+     data u 3:xticlabels(1) axis x1y1 title 'Atheism', \
+     data u 4:xticlabels(1) axis x1y1 title 'Church of Eittland', \
+     data u 5:xticlabels(1) axis x1y1 title 'Christianity', \
+     data u 6:xticlabels(1) axis x1y1 title 'Buddhism', \
+     data u 7:xticlabels(1) axis x1y1 title 'Other'
 #+end_src
 
 #+name: chart:religions
 #+caption: Religious Evolution of Eittland Since 1900
 #+attr_html: :loading lazy
-#+RESULTS[3b10b0ef95c6a0d04471ef81330c2b0c065c9344]:
+#+RESULTS[706a2c4928c3c4c8979c0ce62acab59f9eb1bebf]:
 [[file:img/eittland/religions.png]]
 
 #+attr_html: :loading lazy
@@ -188,6 +202,37 @@ repartition of the different eittlandic cultures is shown in the map
 #+attr_html: :loading lazy
 #+attr_latex: :float sideways
 [[file:./img/eittland/map-cultural.png]]
+
+Standard Eittlandic is a relatively young language, created in the
+1960s by the government in order to create a standard dialect to
+facilitate communications between Eittlanders and make learning the
+language easier. Standard Eittlandic is now enforced as the /de facto/
+legal language of the High Kingdom of Eittland, used by its
+government, schools, and universities, but the local dialects are
+still widely spoken privately and in business which remains regional.
+They still have a strong presence in popular media and are still
+spoken by younger generations, but a decline has been registered since
+the 90s among young people living in cities, speaking more and more in
+Standard Eittlandic instead. Dialects are also rarely used on the
+internet outside of private conversation. An estimate of 17% of the
+Eittlandic population younger than 25 in 2017 do not speak any
+dialectal Eittlandic outside of Standard Eittlandic, although only 2%
+of them do not understand their family’s dialectal Eittlandic.
+Standard Eittlandic also became the default dialect for Eittlandic
+communities living outside of Eittland --- in these communities the
+inability of speaking other dialects rise to 61% while the ability to
+understand them rises to 25% among Eittlanders younger than 25 in 2018
+and who still have Eittlandic as their mother tongue.
+
+It is estimated only 0.05% of people living in Eittland do not speak
+any Eittlandic dialect, all of them being immigrants or children of
+immigrants. It is therefore safe to say Eittlandic is still going
+strong and does not face any risk of disappearing anytime soon,
+although we might be at the start of the decline of the historical
+dialects of Eittland in favor of Standard Eittlandic.
+
+In this document, we will mostly address Standard Eittlandic, although
+some dialectal variation will be mentioned.
 
 ** Name of the Country
 :PROPERTIES:
@@ -516,7 +561,7 @@ mainly due to the original phoneme {{{phon(hʷ)}}} which could be inherited
 from Proto-Norse instead.
 
 + Example :: Early Old Norse or Late Proto-Norse /hvat/ (what)
-  {{{phon(hʷat)}}} > Eittlandic /hvat/ (what) {{{phon(ʍat)}}}
+  {{{phon(hʷɑt)}}} > Eittlandic /hvat/ (what) {{{phon(ʍɑt)}}}
 
 **** C / #h_ > C[-voice]
 :PROPERTIES:
@@ -529,12 +574,12 @@ When preceded by a {{{phon(h)}}}, word-initial consonants such as <l>, <r>,
 + Example ::
   - Early Old Norse /hlóð/ (/hearth/) {{{phon(hloːð)}}} > Old Eittlandic /hlóð/
     {{{phon(l̥oːð)}}}
-  - Early Old-Norse /hneisa/ (/shame, disgrace/) {{{phon(hneisa)}}} > Early Old
-    Eittlandic {{{phon(n̥eisa)}}}
+  - Early Old-Norse /hneisa/ (/shame, disgrace/) {{{phon(hneisɑ)}}} > Early Old
+    Eittlandic {{{phon(n̥eisɑ)}}}
   - Early Old Norse /hrifs/ (/robbery/) {{{phon(hrifs)}}} > Old Norse {{{phon(r̥ifs)}}}
   - Early Old Norse /hjól/ (wheel) {{{phon(hjoːl)}}} > Old Eittlandic {{{phon(çoːl)}}}
 
-**** g / {#,V}_⁣V > ɣ
+**** g / {#,V}_⁣{V,#} > ɣ
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-g-V-V-ɣ-9mlkdpi08bj0
 :END:
@@ -554,7 +599,7 @@ into a {{{phon(ə)}}}, but they eventually disappeared before long vowels got
 affected by the first part of the rule. However, it did not apply to
 final vowels following a <j>.
 
-+ Example :: Old Norse /heilsa/ (/health/) {{{phon(heilsa)}}} > Late Old
++ Example :: Old Norse /heilsa/ (/health/) {{{phon(heilsɑ)}}} > Late Old
   Eittlandic /heils/ {{{phon(heils)}}}.
 
 Reflecting this change, the last vowel got lost in the Eittlandic
@@ -568,7 +613,7 @@ a good deal of people that kept them well until the [[#Great-Vowel-Shift-7spk7j7
 While the final short vowel of words did not disappear when preceded
 by a <j>, they still weakened to a schwa.
 
-+ Example :: Old Norse /sitja/ (/to sit/) {{{phon(sitja)}}} > Old Eittlandic
++ Example :: Old Norse /sitja/ (/to sit/) {{{phon(sitjɑ)}}} > Old Eittlandic
   {{{phon(sitjə)}}}
 
 **** Vː / _# > ə
@@ -595,8 +640,8 @@ when beginning or preceding a vowel transformed it from {{{phon(g)}}} in
 Proto-Norse to {{{phon(ɣ)}}} in Old Eittlandic to {{{phon(j)}}} in Early Modern
 Eittlandic.
 
-+ Example :: Old Norse /gauð/ (a barking) {{{phon(gauð)}}} > Early Middle
-  Eittlandic /gauð/ (a barking, a quarrel) {{{phon(jauð)}}}.
++ Example :: Old Norse /gauð/ (a barking) {{{phon(gɑuð)}}} > Early Middle
+  Eittlandic /gauð/ (a barking, a quarrel) {{{phon(jɑuð)}}}.
 
 This is the first rule of the gj-shift along with the three next
 rules, marking the passage from Old Eittlandic to Middle Eittlandic.
@@ -608,8 +653,8 @@ rules, marking the passage from Old Eittlandic to Middle Eittlandic.
 The exception to the above rule is the <g> remains a hard {{{phon(g)}}} when
 followed by an <l> in which case {{{phon(gl)}}} becomes {{{phon(gʲ)}}}.
 
-+ Example :: Old Norse /óglaðr/ (sad, moody) {{{phon(oːɡlaðr̩)}}} > Early
-  Middle Eittlandic /óglaðr/ (very sad, miserable) {{{phon(oːɡʲaðr̩)}}}
++ Example :: Old Norse /óglaðr/ (sad, moody) {{{phon(oːɡlɑðr̩)}}} > Early
+  Middle Eittlandic /óglaðr/ (very sad, miserable) {{{phon(oːɡʲɑðr̩)}}}
 
 **** d g n s t / _j > C[+palat]
 :PROPERTIES:
@@ -637,16 +682,16 @@ described in
 §[[#Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-C-h-voice-o4r8mvg08bj0]].
 
 + Example ::
-  - Early Old Norse /djúpligr/ (/deep, deeply/) {{{phon(djuːpliɡr̩)}}} > Middle
-    Eittlandic /djúpligr/ (/deep, profound/) {{{phon(dʒuːpliɡr̩)}}}
+  - Early Old Norse /djúp/ (/deep/) {{{phon(djuːp)}}} > Middle Eittlandic /djúp/
+    (/deep, profound/) {{{phon(dʒuːp)}}}
   - Early Old Norse /gjøf/ (/gift/) {{{phon(gjøf)}}} > Early Middle Eittlandic
     {{{phon(jøf)}}}
   - Early Old Norse /snjór/ (/snow/) {{{phon(snjoːr)}}} > Middle Eittlandic
     {{{phon(sɲoːr)}}}
-  - Early Old Norse /hnjósa/ (/to sneeze/) {{{phon(hnjoːsa)}}} > Middle Eittlandic {{{phon(ɲ̥oːs)}}}
-  - Early Old Norse /sjá/ (/to see/) {{{phon(sjaː)}}} > Middle Eittlandic {{{phon(ʃaː)}}}
+  - Early Old Norse /hnjósa/ (/to sneeze/) {{{phon(hnjoːsɑ)}}} > Middle Eittlandic {{{phon(ɲ̥oːs)}}}
+  - Early Old Norse /sjá/ (/to see/) {{{phon(sjɑː)}}} > Middle Eittlandic {{{phon(ʃɑː)}}}
   - Early Old Norse /skilja/ (/to understand, to distinguish/)
-    {{{phon(skilja)}}} > Early Middle Eittlandic {{{phon(ʃkiljə)}}}
+    {{{phon(skiljɑ)}}} > Early Middle Eittlandic {{{phon(ʃkiljə)}}}
   - Old Eittlandic /sitja/ (/to sit/) {{{phon(sitjə)}}} > Middle Eittlandic {{{phon(sitʃə)}}}
 
 **** u / V_ > ʊ
@@ -655,19 +700,21 @@ described in
 :END:
 When following another vowel, {{{phon(u)}}} becomes an {{{phon(ʊ)}}}.
 
-+ Example :: Old Norse /kaup/ (/bargain/) {{{phon(kaup)}}} > Early Middle
-  Eittlandic {{{phon(kaʊp)}}}
++ Example :: Old Norse /kaup/ (/bargain/) {{{phon(kɑup)}}} > Early Middle
+  Eittlandic {{{phon(kɑʊp)}}}
 
 **** {s,z} / _C[+plos] > ʃ
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-s-z-C-plos-ʃ-ʒ-i4p0n0b0uaj0
 :END:
 If {{{phon(s)}}} or {{{phon(z)}}} precede a plosive consonant, they become
-palatalized into a {{{phon(ʃ)}}} --- the distinction between <s> and <z> is lost.
+palatalized into a {{{phon(ʃ)}}} --- the distinction between <s> and <z> is
+lost.
 
 + Example ::
-  - Old Norse /fisk/ (/fish/) {{{phon(fisk)}}} > Middle Eittlandic {{{phon(fiʃk)}}}
-  - Early Old Norse /vizka/ (/wisdom/) {{{phon(vizka)}}} > Middle Eittlandic /visk/ {{{phon(viʃk)}}}
+  - Old Norse /fiskr/ (/fish/) {{{phon(fiskr̩)}}} > Middle Eittlandic {{{phon(fiʃkr̩)}}}
+  - Early Old Norse /vizka/ (/wisdom/) {{{phon(βizkɑ)}}} > Middle Eittlandic
+    /viska/ {{{phon(βiʃk)}}}
 
 Note that in the Modern Eittlandic orthography, the <z> is replaced
 with an <s>.
@@ -691,7 +738,7 @@ following <j>.
 + Example :: Early Middle Eittlandic /skilja/ (to understand, to
   distinguish) {{{phon(ʃkiljə)}}} > Middle Eittlandic {{{phon(ʃkiʎə)}}}
 
-**** ə[-long] / C[+voice]_# > ∅
+**** ə[-long] / C_# > ∅
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-ə-C-voice-ysvblnk08bj0
 :END:
@@ -706,14 +753,14 @@ to any former short vowel following a <j> in word-final position.
 + Example :: Middle Eittlandic (to understand, to distinguish)
   {{{phon(ʃkiʎə)}}} > Late Middle Eittlandic {{{phon(ʃkiʎ)}}}
 
-**** aʊ > oː
+**** ɑʊ > oː
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-aʊ-oː-4w88tmg08bj0
 :END:
 Sometime in the 15th century, any occurence of <au>, pronounced by
-then {{{phon(aʊ)}}}, began shifting to {{{phon(oː)}}}.
+then {{{phon(ɑʊ)}}}, began shifting to {{{phon(oː)}}}.
 
-+ Example :: Early Middle Eittlandic /kaup/ (/bargain/) {{{phon(/kaʊp/)}}} > Late
++ Example :: Early Middle Eittlandic /kaup/ (/bargain/) {{{phon(/kɑʊp/)}}} > Late
   Middle Eittlandic /kaup/ (/commerce/) {{{koːp}}}
 
 **** C[+long +plos -voice] > C[+fric] ! / _C > C[+long +plos] > C[-long]
@@ -725,13 +772,14 @@ consonant becomes a short affricate while other long plosives simply
 become shorter.
 
 + Example ::
-  - Old Norse /Edda/ (the book written by Snorri Sturuson) {{{phon(edːa)}}} > Late Eittlandic {{{phon(eda)}}}
-  - Old Norse /Eittland/ {{{phon(eitːland)}}} > Late Middle Eittlandic {{{phon(eitland)}}}
-  - Old Norse /uppá/ (/upon/) {{{phon(upːaː)}}} > Late Middle Eittlandic {{{phon(upɸə)}}}
+  - Old Norse /edda/ (great grandmother) {{{phon(edːɑ)}}} > Late Middle Eittlandic
+    /edda/ (great grandmother, femalle ancestor) {{{phon(edɑ)}}}
+  - Old Norse /Eittland/ {{{phon(eitːlɑnd)}}} > Late Middle Eittlandic {{{phon(eitlɑnd)}}}
+  - Old Norse /uppá/ (/upon/) {{{phon(upːɑː)}}} > Late Middle Eittlandic {{{phon(upɸə)}}}
 
 **** r > ʁ (Eastern Eittlandic)
 :PROPERTIES:
-:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-r-ʁ-Eastern-Eittlandic-b20i1pm0bbj0
+:CUSTOM_ID: Evolution-from-Early-Old-Norse-to-Eittlandic-r-ʁ-Eastern-Eittlandic-b20i1pm0bbj0
 :END:
 From the beginning of the 16th century, the Eastern Eittlandic {{{phon(r)}}}
 began morphing into an {{{phon(ʁ)}}} in all contexts except in word-final
@@ -740,10 +788,10 @@ Eastern region of Eittland and it can be even heard in some dialects
 of Southern Eittlandic.
 
 + Example ::
-  - Old Norse /dratta/ (/to trail/ or /walk like a cow/) {{{phon(dratʃ)}}} > Eastern Modern
-    Eittlandic /dratt/ (/act mindlessly/) {{{phon(dʁatʃ)}}}
+  - Old Norse /dratta/ (/to trail/ or /walk like a cow/) {{{phon(drɑtʃ)}}} > Eastern Modern
+    Eittlandic /dratt/ (/act mindlessly/) {{{phon(dʁɑtʃ)}}}
   - Early Old Norse /fjárdráttr/ (/(unfairly) making money/)
-    {{{phon(fjaːdraːtːr̩)}}} > Eastern Modern Eittlandic /fjárdráttr/ (/to scam/)
+    {{{phon(fjɑːdrɑːtːr̩)}}} > Eastern Modern Eittlandic /fjárdráttr/ (/to scam/)
     {{{phon(fjɛʁdʁɛtr̩)}}}
 
 **** Great Vowel Shift
@@ -762,7 +810,7 @@ Hence, the vowels evolved as shown in table [[vow:eittland:evolution]].
 #+caption: Evolution of Old Norse long vowels to Eittlandic short vowels
 | Orthography | Old Eittlandic vowel | Modern Eittlandic Vowel |
 |-------------+----------------------+-------------------------|
-| á           | {{{phon(aː)}}}             | {{{phon(ɛ)}}}                 |
+| á           | {{{phon(ɑː)}}}             | {{{phon(ɛ)}}}                 |
 | é           | {{{phon(eː)}}}             | {{{phon(ɛ)}}}                 |
 | í           | {{{phon(iː)}}}             | {{{phon(e)}}}                 |
 | ó           | {{{phon(oː)}}}             | {{{phon(ɔ)}}}                 |
@@ -775,28 +823,28 @@ Modern Eittlandic vowels. For instance, Eittlanders will read <e> and
 <í> both as an {{{phon(e)}}}.
 
 + Examples ::
-  - Middle Eittlandic /sjá/ (/to see/) {{{phon(ʃaː)}}} > Modern Eittlandic {{{phon(ʃɛ)}}}
+  - Middle Eittlandic /sjá/ (/to see/) {{{phon(ʃɑː)}}} > Modern Eittlandic {{{phon(ʃɛ)}}}
   - Old Norse /fé/ (/cattle/) {{{phon(feː)}}} > Modern Eittlandic /fé/ (wealth) {{{phon(fɛ)}}}
   - Late Proto-Norse /hví/ (/why/) {{{phon(hʷiː)}}} > Modern Eittlandic {{{phon(ʍe)}}}
   - Old Norse /bók/ (/beech/, /book/) {{{phon(boːk)}}} > Modern Eittlandic (/book/)
     {{{phon(bɔk)}}}
   - Early Old Norse /œgir/ (/frightener/, /terrifier/) {{{phon(øːɡir)}}} > Modern
-    Eittlandic /œgir/ (/barbarian/, /pirate/) {{{phon(œjir)}}}
+    Eittlandic /Œgir/ (a kind of mythical beast) {{{phon(œjir)}}}
   - Middle Eittlandic /úlv/ (/wolf/) {{{phon(uːlv)}}} > Modern Eittlandic {{{phon(olv)}}}
 
 Diphthongs also evolved following these rules:
 - {{{phon(ei)}}} > {{{phon(ɑɪ)}}}
-- {{{phon(ou)}}} > {{{phon(ɑʊ)}}}
+- {{{phon(ou)}}} > {{{phon(ɔʊ)}}}
 - {{{phon(øy)}}} > {{{phon(œʏ)}}}
 
 **** V / _N > Ṽ[-tense] ! V[+high] (Southern Eittlandic)
 :PROPERTIES:
-:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-V-N-Ṽ-V-high-ulb1ey80uaj0
+:CUSTOM_ID: Evolution-from-Early-Old-Norse-to-Eittlandic-V-N-Ṽ-V-high-ulb1ey80uaj0
 :END:
 When preceding a nasal, any vowel that is not high as determined by
 the figure [[tree:vowels]] gets nasalized when preceding a nasal consonant
 and loses its tenseness if it has any. Hence, the pronunciation of the
-<a> in /Eittland/ is {{{phon(ã)}}}. However, Old Norse /runa/ (rune) {{{phon(runa)}}}
+<a> in /Eittland/ is {{{phon(ã)}}}. However, Old Norse /runa/ (rune) {{{phon(runɑ)}}}
 becomes /run/ (letter, character, rune) {{{phon(run)}}} without any
 nasalization.
 
@@ -813,12 +861,12 @@ are not southerners.
 :END:
 When a {{{phon(t)}}} precedes another consonant, it becomes a glottal stop.
 
-+ Example :: Early Modern Eittlandic /Eittland/ {{{phon(ɑɪtland)}}} > Modern
-  Eittlandic {{{phon(ɑɪʔland)}}}
++ Example :: Early Modern Eittlandic /Eittland/ {{{phon(ɑɪtlɑnd)}}} > Modern
+  Eittlandic {{{phon(ɑɪʔlɑnd)}}}
 
 **** V^{U} > ə ! diphthongs (Western Eittlandic)
 :PROPERTIES:
-:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-V-U-ə-diphthongs-fjh0pnr0uaj0
+:CUSTOM_ID: Evolution-from-Early-Old-Norse-to-Eittlandic-V-U-ə-diphthongs-fjh0pnr0uaj0
 :END:
 A recent evolution in Western Eittland is weakening any unstressed
 vowel that is not a diphthong to a schwa. It is only documented in
@@ -830,10 +878,34 @@ casual speech but almost never in formal speech.
   - Standard Eittlandic /einlægr/ (/sincere/) {{{phon(ɑɪnlæɡr)}}} > Western
     Casual Eittlandic {{{phon(ɑɪnləɡr)}}}
 
-*** Simple Vowels
+*** Vowel Inventory
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Vowels-vishtyt058j0
 :END:
+Modern Standard Eittlandic has a total of ten simple vowels and three
+diphthongs. Unlike its ancestor language, Old Norse, it does not bear
+any distinction in vowel length anymore since the great vowel shift
+(see §[[#Great-Vowel-Shift-7spk7j70uaj0]]). The table [[tab:vow:ipa]] lists
+the Eittlandic simple vowels while the table [[tab:vow:dipththongs]] lists
+the Eittlandic diphthongs.
+
+#+name: tab:vow:ipa
+|         / |   <   |      |
+|       <r> |  <c>  | <c>  |
+|           | front | back |
+|-----------+-------+------|
+|     close |  i y  |  u   |
+| close-mid |  e ø  |  o   |
+|  open-mid |  ɛ œ  |  ɔ   |
+|      open |       |  ɑ   |
+
+#+name: tab:vow:dipththongs
+| diphthong | phonetics |
+|    <c>    |    <c>    |
+|-----------+-----------|
+|    ei     | {{{phon(ɑɪ)}}}  |
+|    au     | {{{phon(ɔʊ)}}}  |
+|    ey     | {{{phon(œʏ)}}}  |
 
 #+name: vow-dot-gen
 #+header: :var vowels=vowels-featural-list
@@ -841,15 +913,15 @@ casual speech but almost never in formal speech.
 (conlanging-list-to-graphviz vowels)
 #+end_src
 
-#+RESULTS[c52a8076dad068d0ed5c7b1b96a1461025993979]: vow-dot-gen
+#+RESULTS[95f3d873f1a8b7fac926422e03feb73e9734ec2a]: vow-dot-gen
 #+begin_src dot :file eittland/vowel-feature-tree.png
-graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08yx7y65"[label="vowels"];"+high-0jau08yx7y6e"[label="+high"];"vowels-0jau08yx7y65"--"+high-0jau08yx7y6e";"+round-0jau08yx7y6h"[label="+round"];"+high-0jau08yx7y6e"--"+round-0jau08yx7y6h";"+front-0jau08yx7y6l"[label="+front"];"+round-0jau08yx7y6h"--"+front-0jau08yx7y6l";"/y/-0jau08yx7y6n"[label="/y/"];"+front-0jau08yx7y6l"--"/y/-0jau08yx7y6n";"-front-0jau08yx7y6t"[label="-front"];"+round-0jau08yx7y6h"--"-front-0jau08yx7y6t";"/u/-0jau08yx7y6w"[label="/u/"];"-front-0jau08yx7y6t"--"/u/-0jau08yx7y6w";"-round-0jau08yx7y75"[label="-round"];"+high-0jau08yx7y6e"--"-round-0jau08yx7y75";"/i/-0jau08yx7y78"[label="/i/"];"-round-0jau08yx7y75"--"/i/-0jau08yx7y78";"-high-0jau08yx7y7m"[label="-high"];"vowels-0jau08yx7y65"--"-high-0jau08yx7y7m";"+round-0jau08yx7y7q"[label="+round"];"-high-0jau08yx7y7m"--"+round-0jau08yx7y7q";"+tense-0jau08yx7y7t"[label="+tense"];"+round-0jau08yx7y7q"--"+tense-0jau08yx7y7t";"+front-0jau08yx7y7w"[label="+front"];"+tense-0jau08yx7y7t"--"+front-0jau08yx7y7w";"/ø/-0jau08yx7y80"[label="/ø/"];"+front-0jau08yx7y7w"--"/ø/-0jau08yx7y80";"-front-0jau08yx7y87"[label="-front"];"+tense-0jau08yx7y7t"--"-front-0jau08yx7y87";"/o/-0jau08yx7y8a"[label="/o/"];"-front-0jau08yx7y87"--"/o/-0jau08yx7y8a";"-tense-0jau08yx7y8k"[label="-tense"];"+round-0jau08yx7y7q"--"-tense-0jau08yx7y8k";"+low-0jau08yx7y8o"[label="+low"];"-tense-0jau08yx7y8k"--"+low-0jau08yx7y8o";"/œ/-0jau08yx7y8s"[label="/œ/"];"+low-0jau08yx7y8o"--"/œ/-0jau08yx7y8s";"-low-0jau08yx7y8y"[label="-low"];"-tense-0jau08yx7y8k"--"-low-0jau08yx7y8y";"/ɔ/-0jau08yx7y90"[label="/ɔ/"];"-low-0jau08yx7y8y"--"/ɔ/-0jau08yx7y90";"-round-0jau08yx7y9m"[label="-round"];"-high-0jau08yx7y7m"--"-round-0jau08yx7y9m";"+tense-0jau08yx7y9p"[label="+tense"];"-round-0jau08yx7y9m"--"+tense-0jau08yx7y9p";"+low-0jau08yx7y9s"[label="+low"];"+tense-0jau08yx7y9p"--"+low-0jau08yx7y9s";"/æ/-0jau08yx7y9v"[label="/æ/"];"+low-0jau08yx7y9s"--"/æ/-0jau08yx7y9v";"-low-0jau08yx7ya1"[label="-low"];"+tense-0jau08yx7y9p"--"-low-0jau08yx7ya1";"/e/-0jau08yx7yaa"[label="/e/"];"-low-0jau08yx7ya1"--"/e/-0jau08yx7yaa";"-tense-0jau08yx7yal"[label="-tense"];"-round-0jau08yx7y9m"--"-tense-0jau08yx7yal";"+low-0jau08yx7yao"[label="+low"];"-tense-0jau08yx7yal"--"+low-0jau08yx7yao";"/a/-0jau08yx7yar"[label="/a/"];"+low-0jau08yx7yao"--"/a/-0jau08yx7yar";"-low-0jau08yx7yaw"[label="-low"];"-tense-0jau08yx7yal"--"-low-0jau08yx7yaw";"/ɛ/-0jau08yx7yaz"[label="/ɛ/"];"-low-0jau08yx7yaw"--"/ɛ/-0jau08yx7yaz";}
+graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jbs0vhl86d2"[label="vowels"];"+high-0jbs0vhl86db"[label="+high"];"vowels-0jbs0vhl86d2"--"+high-0jbs0vhl86db";"+round-0jbs0vhl86de"[label="+round"];"+high-0jbs0vhl86db"--"+round-0jbs0vhl86de";"+front-0jbs0vhl86dg"[label="+front"];"+round-0jbs0vhl86de"--"+front-0jbs0vhl86dg";"/y/-0jbs0vhl86dj"[label="/y/"];"+front-0jbs0vhl86dg"--"/y/-0jbs0vhl86dj";"-front-0jbs0vhl86do"[label="-front"];"+round-0jbs0vhl86de"--"-front-0jbs0vhl86do";"/u/-0jbs0vhl86dr"[label="/u/"];"-front-0jbs0vhl86do"--"/u/-0jbs0vhl86dr";"-round-0jbs0vhl86e3"[label="-round"];"+high-0jbs0vhl86db"--"-round-0jbs0vhl86e3";"/i/-0jbs0vhl86e6"[label="/i/"];"-round-0jbs0vhl86e3"--"/i/-0jbs0vhl86e6";"-high-0jbs0vhl86ek"[label="-high"];"vowels-0jbs0vhl86d2"--"-high-0jbs0vhl86ek";"+round-0jbs0vhl86en"[label="+round"];"-high-0jbs0vhl86ek"--"+round-0jbs0vhl86en";"+tense-0jbs0vhl86ep"[label="+tense"];"+round-0jbs0vhl86en"--"+tense-0jbs0vhl86ep";"+front-0jbs0vhl86es"[label="+front"];"+tense-0jbs0vhl86ep"--"+front-0jbs0vhl86es";"/ø/-0jbs0vhl86ev"[label="/ø/"];"+front-0jbs0vhl86es"--"/ø/-0jbs0vhl86ev";"-front-0jbs0vhl86f2"[label="-front"];"+tense-0jbs0vhl86ep"--"-front-0jbs0vhl86f2";"/o/-0jbs0vhl86f4"[label="/o/"];"-front-0jbs0vhl86f2"--"/o/-0jbs0vhl86f4";"-tense-0jbs0vhl86ff"[label="-tense"];"+round-0jbs0vhl86en"--"-tense-0jbs0vhl86ff";"+low-0jbs0vhl86fh"[label="+low"];"-tense-0jbs0vhl86ff"--"+low-0jbs0vhl86fh";"/œ/-0jbs0vhl86fk"[label="/œ/"];"+low-0jbs0vhl86fh"--"/œ/-0jbs0vhl86fk";"-low-0jbs0vhl86fp"[label="-low"];"-tense-0jbs0vhl86ff"--"-low-0jbs0vhl86fp";"/ɔ/-0jbs0vhl86fs"[label="/ɔ/"];"-low-0jbs0vhl86fp"--"/ɔ/-0jbs0vhl86fs";"-round-0jbs0vhl86gm"[label="-round"];"-high-0jbs0vhl86ek"--"-round-0jbs0vhl86gm";"+tense-0jbs0vhl86gp"[label="+tense"];"-round-0jbs0vhl86gm"--"+tense-0jbs0vhl86gp";"/e/-0jbs0vhl86gr"[label="/e/"];"+tense-0jbs0vhl86gp"--"/e/-0jbs0vhl86gr";"-tense-0jbs0vhl86gw"[label="-tense"];"-round-0jbs0vhl86gm"--"-tense-0jbs0vhl86gw";"+low-0jbs0vhl86gz"[label="+low"];"-tense-0jbs0vhl86gw"--"+low-0jbs0vhl86gz";"/ɑ/-0jbs0vhl86h1"[label="/ɑ/"];"+low-0jbs0vhl86gz"--"/ɑ/-0jbs0vhl86h1";"-low-0jbs0vhl86h6"[label="-low"];"-tense-0jbs0vhl86gw"--"-low-0jbs0vhl86h6";"/ɛ/-0jbs0vhl86h9"[label="/ɛ/"];"-low-0jbs0vhl86h6"--"/ɛ/-0jbs0vhl86h9";}
 #+end_src
 
 #+name: tree:vowels
 #+attr_html: :alt Eittlandic Vowel Featural Tree :class gentree :loading lazy
 #+caption: Eittlandic Vowels Featural Tree
-#+RESULTS[93d18c3e267627e50cf901dcc820c34aaab89eab]:
+#+RESULTS[7867f85cb842efcdbf63b57169c32fb8e2b6831c]:
 [[file:img/eittland/vowel-feature-tree.png]]
 
 **** Private Data                                               :noexport:
@@ -880,17 +952,14 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
           - /ɔ/
     - -round
       - +tense
-        - +low
-          - /æ/
-        - -low
-          - /e/
+        - /e/
       - -tense
         - +low
-          - /a/
+          - /ɑ/
         - -low
           - /ɛ/
 
-*** Consonants
+*** Consonant Inventory
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Consonants-xethtyt058j0
 :END:
@@ -905,11 +974,45 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Pitch-and-Stress-br8ank61e8j0
 :END:
 
+*** Regional accents
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Regional-accents-l8w7rux0sbj0
+:END:
+Eittlandic is a language in which three distinct main dialects exist
+with their own accent. These three main dialects are Eastern
+Eittlandic spoken in the majority Kingdom of Hylfjaltr, Western
+Eittlandic spoken in the majority of the Kingdom of Ðeberget, and
+Southern Eittlandic spoken on the southern parts of the island,
+regardess of the legal kingdom (see the map shown in
+§[[#Eittland-Culture-q6uf2gs0uaj0]]. Three main elements of their
+respective accent were presented above in
+§§[[#Evolution-from-Early-Old-Norse-to-Eittlandic-r-ʁ-Eastern-Eittlandic-b20i1pm0bbj0]],
+[[#Evolution-from-Early-Old-Norse-to-Eittlandic-V-N-Ṽ-V-high-ulb1ey80uaj0]],
+and
+[[#Evolution-from-Early-Old-Norse-to-Eittlandic-V-U-ə-diphthongs-fjh0pnr0uaj0]].
+
+Some regional variation can be also found in these dialects, although
+less significant and less consistantly than the changes mentioned
+above. As such, we can find in some rural parts of the Eastern
+Eittlandic dialect area high vowels slightly more open than their
+equivalent in Standard Eittlandic, as shown in table [[vow:accent:east]]
+#+name: vow:accent:east
+#+caption: Equivalence Between Eastern Eittlandic and Standard Eittlandic
+|           <c>            |         <c>         |
+| Rural Eastern Eittlandic | Standard Eittlandic |
+|--------------------------+---------------------|
+|         {{{phon(i)}}}          |       {{{phon(ɪ)}}}       |
+|         {{{phon(y)}}}          |       {{{phon(ʏ)}}}       |
+|         {{{phon(u)}}}          |       {{{phon(ʊ)}}}       |
+
+On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
+{{{phon(a)}}} after nasal consonants and glides and into {{{phon(ɐ)}}} otherwise.
+
 ** Phonotactics
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonotactics-r2whtyt058j0
 :END:
-*** Syllable Structur
+*** Syllable Structure
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Phonotactics-Syllable-Structure-hhx3zk40f8j0
 :END:
@@ -1236,11 +1339,11 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Verbal-Groups-Structure-hhu42yu058j0
 :END:
-** Intransitive Claus
+** Intransitive Clauses                                           :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Intransitive-Clauses-x3k4i1v058j0
 :END:
-** Ditransitive Claus
+** Ditransitive Clauses                                           :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Ditransitive-Clauses-2yl4i1v058j0
 :END:
@@ -1332,6 +1435,7 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-y2icocp0h5j0
 :END:
+#+latex: \begin{multicols*}{2}
 ** A
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-A-wtcczzm0jaj0
@@ -1351,6 +1455,8 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-B-ae79d268
 :END:
+- bók :: f. {{{phon(bɔk)}}}
+  1. book
 
 ** C
 :PROPERTIES:
@@ -1361,6 +1467,11 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-D-h7lczzm0jaj0
 :END:
+- djúp :: adj. {{{phon(dʒop)}}}
+  1. deep
+  2. profound (figuratively)
+- djúpligr :: adv. {{{phon(dʒopliɡr̩)}}}
+  1. deeply
 
 ** Đ
 :PROPERTIES:
@@ -1371,6 +1482,11 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-E-54360434
 :END:
+- edda :: f. {{{phon(ed)}}}
+  1. great grandmother
+  2. female ancestor, beyond the grandmother
+- Eittland :: n. {{{phon(ɑɪʔlɑnd)}}}
+  1. (n) High Kingdom of Eittland, island of Eittland
 
 ** É
 :PROPERTIES:
@@ -1381,16 +1497,48 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-F-r4tczzm0jaj0
 :END:
+- fé :: n. {{{phon(fɛ)}}}
+  1. wealth
+- fiskr :: m. {{{phon(fiʃkr̩)}}}
+  1. fish
 
 ** G
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-G-5a9af03c
 :END:
+- gauð :: n. {{{phon(jɔʊð)}}}
+  1. a barking
+  2. a quarrel
+- gegn :: adv. {{{phon(jeɡn̩)}}}
+  1. against, opposing
+- gjøf :: f. {{{phon(jøv)}}}
+  1. gift, present
 
 ** H
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-H-5qvczzm0jaj0
 :END:
+- heilsa :: f. {{{phon(hɑɪls)}}}
+  1. health
+- hjól :: n. {{{phon(çɔl)}}}
+  1. wheel
+- hlóð :: n. {{{phon(l̥ɔð)}}}
+  1. hearth
+  2. living room
+- hneisa :: f. {{{phon(n̥ɑɪs)}}}
+  1. shame, disgrace
+  2. social isolation
+- hneisingr :: n. {{{phon(n̥ɑɪsinɡr̩)}}}
+  1. hermit
+  2. (modern) shut-in, hikikomori
+- hnjósa :: v. {{{phon(ɲ̥ɔs)}}}
+  1. to sneeze
+- hrifs :: n. {{{phon(r̥ivs)}}}
+  1. assault, mugging
+- hvat :: adv. {{{phon(ʍɑt)}}}
+  1. what
+- hví :: adv. {{{phon(ʍe)}}}
+  1. why
 
 ** I
 :PROPERTIES:
@@ -1411,6 +1559,9 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-K-bl1dzzm0jaj0
 :END:
+- kaup :: n. {{{phon(kɔp)}}}
+  1. commerce
+  2. bargain, barter
 
 ** L
 :PROPERTIES:
@@ -1426,6 +1577,11 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-N-0ef6f2af
 :END:
+- noregsúlfr :: m. {{{phon(norejsolvr̩)}}}
+ 1. wolf, litt. Norway’s wolf. Wolf do not naturally live in Eittland
+     and their only relatives introduced to the island were dogs and
+     wolf-dogs which inherited the simpler /úlfr/ term. Noun composed by
+     Old Norse /noregs/ (genitive of /Noregr/, /Norway/) and /úlfr/.
 
 ** O
 :PROPERTIES:
@@ -1436,11 +1592,8 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-Ó-y77dzzm0jaj0
 :END:
-
-** Ǫ
-:PROPERTIES:
-:CUSTOM_ID: Dictionary-Ǫ-xv9dzzm0jaj0
-:END:
+- óglaðr :: adj. {{{phon(ɔɡʲɑðr̩)}}}
+  1. very sad, depressed, miserable
 
 ** Ø
 :PROPERTIES:
@@ -1451,6 +1604,9 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Œ-0c780f53
 :END:
+- Œgir :: m. {{{phon(œjir)}}}
+  1. A mythical beast residing in the forests of the western
+     Eittlandic fjords.
 
 ** P
 :PROPERTIES:
@@ -1471,6 +1627,18 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-S-e9e187ae
 :END:
+- sitja :: v. {{{phon(sitʃ)}}}
+  1. to sit
+  2. to represent (politics)
+- sjá :: v. {{{phon(ʃɛ)}}}
+  1. to see
+  2. to understand
+- skilja :: v. {{{phon(ʃkiʎ)}}}
+  1. to differenciate
+  2. to segregate, to separate
+  3. to understand a difference
+- snjór :: m. {{{phon(sɲɔr)}}}
+  1. snow
 
 ** T
 :PROPERTIES:
@@ -1486,16 +1654,25 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-U-fa109e34
 :END:
+- uppá :: prep. {{{phon(upɸə)}}}
+  1. upon
 
 ** Ú
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Ú-c35e6434
 :END:
+- úlfr :: m. {{{phon(olvr̩)}}}
+  1. wolf-dog. See also /noregsúlfr/.
 
 ** V
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-V-urkdzzm0jaj0
 :END:
+- veisheit :: f. {{{phon(βɑɪshɑɪt)}}}
+  1. knowledge or wisdom. From German /Weisheit/. See also /vizka/
+- viska :: f. {{{phon(βiʃk)}}}
+  1. practical knowledge or wisdom, acquired from experience
+  See /veisheit/ for a more general term for /wisdow/
 
 ** Y
 :PROPERTIES:
@@ -1511,6 +1688,9 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jau08y
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Z-144a2853
 :END:
+
+
+#+latex: \end{multicols*}
 
 * Private Data                                                     :noexport:
 :PROPERTIES:

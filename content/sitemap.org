@@ -8,4 +8,5 @@
   - [[file:archived/hjelp.org][Hjelp]]
   - [[file:archived/matter.org][Mattér]]
 - en
+  - [[file:en/eittlandic.org][Eittland]]
   - [[file:en/proto-nyqy.org][The Proto-Ñyqy People]]
