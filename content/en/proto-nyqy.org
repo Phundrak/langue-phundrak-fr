@@ -16,12 +16,8 @@
 :PROPERTIES:
 :CUSTOM_ID: Introduction-Foreword-d22hjv20e5j0
 :END:
-Redistribution or sale of this document is strictly prohibited. This
-document is protected by French law on copyright and is completely
-owned by its author[fn:3] (myself, Lucien “Phundrak” Cartier-Tilet).
-This document is released for free in various formats on the author’s
-website[fn:1] under a proprietary licence (all rights reserved), the
-language is released under the CC BY-NC-SA 4.0 licence[fn:2].
+This document is dual-licensed under the GFDL license[fn:4] for the
+text and the CC BY-NC-SA 4.0 license[fn:2] for the images.
 
 If you got this document by any other mean than a website on the
 ~.phundrak.com~ domain, please report it as soon as possible. There is
@@ -1412,6 +1408,7 @@ reached on this point, most of them might be older innovations.
 :PROPERTIES:
 :CUSTOM_ID: Footnotes-uybi3030e5j0
 :END:
+[fn:4] [[https://www.gnu.org/licenses/#FDL][gnu.org/licenses/#FDL]]
 
 [fn:3] [[https://phundrak.com][phundrak.com]]
 

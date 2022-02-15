@@ -30,9 +30,8 @@
 Redistribution or sale of this document is strictly prohibited. This
 document is protected by French law on copyright and is completely
 owned by its author[fn:3] (myself, Lucien “Phundrak” Cartier-Tilet).
-This document is released for free in various formats on the author’s
-website[fn:1], the language is released under the CC BY-NC-SA 4.0
-licence[fn:2].
+This document is dual-licensed under the GFDL license[fn:4] for the
+text and the CC BY-NC-SA 4.0 license[fn:2] for the images.
 
 If you got this document by any other mean than a website on the
 ~.phundrak.com~ domain, please report it as soon as possible. There is
@@ -1710,6 +1709,8 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 :PROPERTIES:
 :CUSTOM_ID: Footnotes-uybi3030e5j0
 :END:
+
+[fn:4] https://www.gnu.org/licenses/#FDL
 
 [fn:3] [[https://phundrak.com][phundrak.com]]
 

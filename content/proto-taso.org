@@ -15,24 +15,10 @@
 :PROPERTIES:
 :CUSTOM_ID: Propos-pr-liminaires-Avant-propos-707e1fdb
 :END:
-La redistribution ou vente de ce document sont strictement interdits. Ce
-document est protégé par la loi française sur le droit d’auteur et appartient
-entièrement et totalement à son auteur. Ce document est un document disponible
-gratuitement au format web et pdf sur mon site web[fn:1]. Si vous l’avez obtenu
-depuis une autre source, gratuitement ou non, merci de m’en faire part en me
-contactant via mes réseaux sociaux ou par mail que vous trouverez sur mon site
-principal[fn:2]. Aucune personne, morale ou physique, n’est à l’heure actuelle
-autorisée à redistribuer ces documents. Si vous êtes intéressés par une
-redistribution de ce document, je vous invite à rentrer en contact avec moi afin
-que l’on en discute.
+Ce document est sous la double license GFDL[fn:1] pour ce qui est du texte
+et CC BY-NC-SA 4.0[fn:2] pour ce qui est des images.
 
-Ce document traite d’une langue imaginaire que j’ai créé. Cependant, il sera
-rédigé comme s’il s’agissait de la première tentative de description de la
-langue par un linguiste la découvrant. Ainsi, si dans certains passages vous
-pouvez lire « mais plus d’études sur le sujet sont nécessaires » ou « cet aspect
-de la langue n’a pas encore été sujet à des analyses plus approfondies »,
-comprenez par cela que je n’ai pas encore travaillé sur ou fini cette partie qui
-peut être sujet à des mises à jours dans le futur.
+#+include: foreword
 
 ** Remerciements                                                   :noexport:
 :PROPERTIES:
@@ -1022,7 +1008,6 @@ l’orthographe de chacune de ces consonnes.
 :PROPERTIES:
 :CUSTOM_ID: Footnotes-34c98e36
 :END:
+[fn:2] [[https://creativecommons.org/licenses/by-nc-sa/4.0/][creativecommons.org/licenses/by-nc-sa/4.0/]]
 
-[fn:2] [[https://phundrak.com]]
-
-[fn:1] [[https://langue.phundrak.com]]
+[fn:1] [[https://www.gnu.org/licenses/#FDL][gnu.org/licenses/#FDL]]

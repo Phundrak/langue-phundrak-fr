@@ -18,6 +18,9 @@
 :PROPERTIES:
 :CUSTOM_ID: Propos_préliminaires-Avant-propos-c03216e0
 :END:
+Ce document est sous la double license GFDL[fn:2] pour ce qui est du texte
+et CC BY-NC-SA 4.0[fn:3] pour ce qui est des images.
+
 #+include: foreword
 
 ** Introduction sur le Proto-Ñyqy en tant que langue construite
@@ -3855,5 +3858,8 @@ Mes sites :
 :PROPERTIES:
 :CUSTOM_ID: Footnotes-6126f0eb
 :END:
+[fn:3] [[https://creativecommons.org/licenses/by-nc-sa/4.0/][creativecommons.org/licenses/by-nc-sa/4.0/]]
 
-[fn:1] https://en.wikipedia.org/wiki/Interlinear_gloss
+[fn:2] [[https://www.gnu.org/licenses/#FDL][gnu.org/licenses/#FDL]]
+
+[fn:1] [[https://en.wikipedia.org/wiki/Interlinear_gloss][en.wikipedia.org/wiki/Interlinear_gloss]]

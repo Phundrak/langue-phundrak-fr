@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-FEXT=("pdf" "tex" "aux" "log" "toc" "out" "html" "lol" "lot" "epub" "bbl")
+FEXT=("pdf" "tex" "aux" "log" "toc" "out" "html" "lol" "lot" "epub" "bbl" "glo" "ist")
 DIRS=("auto" "_minted*" "svg-inkscape")
 
-for e in ${FEXT[*]}; do
+for e in "${FEXT[@]}"; do
     fd -uu -e "$e" -X rm {}
 done
 
-for d in ${DIRS[*]}; do
+for d in "${DIRS[@]}"; do
     fd -uu -t d "$d" -X rm -r {}
 done
