@@ -165,7 +165,7 @@ digraph d {
     {
         rank=same;
         "-2000";
-        protopritian[label="Proto-Pritian\nca. 2,000 years ago"];
+        oldpritian[label="Old Pritian\nca. 2,000 years ago"];
         "ne’ic"[label="Ñe’ic\nca. 2,500 years ago"];
     }
 
@@ -175,6 +175,7 @@ digraph d {
         oryora[label="Old Ryora\nca. 1,300 years ago"];
         oenanonn[label="Old Énanonn\nca. 900 years ago"];
         omanniki[label="Old Manniki\nca. 1,200 years ago"];
+        midpritian[label="Middle Pritian\n 1,100 years ago"];
     }
 
     {
@@ -191,10 +192,11 @@ digraph d {
         ryora[label="Ryora"];
         auc[label="Auc"];
         manniki[label="Manniki"];
+        pritian[label="Pritian"];
     }
 
     protonyqy -> protoma;
-    protonyqy -> protopritian;
+    protonyqy -> oldpritian;
     protonyqy -> prototiltinian;
 
     protoma -> protomojhal;
@@ -208,13 +210,15 @@ digraph d {
 
     protoandelian -> oryora -> ryora;
     protoandelian -> oauc -> auc;
+
+    oldpritian -> midpritian -> pritian;
 }
 #+end_src
 
 #+NAME: tree:nyqy-languages
 #+ATTR_HTML: :alt Ñyqy Family Tree :class gentree :loading lazy
 #+CAPTION: Ñyqy Family Tree
-#+RESULTS[e3e196a53a2ce9ec0249f3197ade50494485766a]: tree-language-family
+#+RESULTS[177ebceb9b05913eefe93aada1cd63ac67c5298a]: tree-language-family
 [[file:img/proto-nyqy/nyqy-family-tree.png]]
 
 ** Principles of Historical Linguistics
