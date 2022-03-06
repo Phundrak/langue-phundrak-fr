@@ -1,1 +1,6 @@
-((org-mode . ((org-confirm-babel-evaluate . nil))))
+((org-mode . ((org-confirm-babel-evaluate . nil)
+              (eval                       . (writeroom-mode 1))))
+ ("eittlandic.org" . ((org-confirm-babel-evaluate . nil)
+                      (eval                       . (require 'org-ref))
+                      (eval . (add-hook 'org-export-before-parsing-hook #'org-ref-acronyms-before-parsing))
+                      (eval . (add-hook 'org-export-before-parsing-hook #'org-ref-glossary-before-parsing)))))

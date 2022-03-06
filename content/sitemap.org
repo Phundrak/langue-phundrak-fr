@@ -1,12 +1,13 @@
-#+TITLE: Sitemap for project langue-phundrak-com-org
+#+TITLE: Sitemap for project conlang-phundrak-com-org
 
-- [[file:eittland.org][Eittlandais]]
-- [[file:index.org][Langues construites de P’undrak]]
-- [[file:proto-taso.org][Proto-Tãso]]
-- [[file:proto-nyqy.org][Proto-Ñyqy]]
+- [[file:eittlandic.org][Eittland]]
+- [[file:index.org][P’undrak’s Constructed Languages]]
+- [[file:proto-nyqy.org][The Proto-Ñyqy People]]
 - archived
   - [[file:archived/hjelp.org][Hjelp]]
   - [[file:archived/matter.org][Mattér]]
-- en
-  - [[file:en/eittlandic.org][Eittland]]
-  - [[file:en/proto-nyqy.org][The Proto-Ñyqy People]]
+- fr
+  - [[file:fr/eittland.org][Eittlandais]]
+  - [[file:fr/index.org][Langues construites de P’undrak]]
+  - [[file:fr/proto-taso.org][Proto-Tãso]]
+  - [[file:fr/proto-nyqy.org][Proto-Ñyqy]]

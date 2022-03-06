@@ -1,7 +1,6 @@
 #+title: Eittland
 #+subtitle: A Linguistic Overview of the Land of the Last Nordic Pagans
-#+setupfile:    ../headers
-#+language:     en
+#+setupfile:    headers
 #+html_head:    <meta name="description" content="A Linguistic Overview of Eittland" />
 #+html_head:    <meta property="og:title" content="Eittland" />
 #+html_head:    <meta property="og:description" content="A Linguistic Overview of the Eittlandic Kingdom" />
@@ -122,7 +121,7 @@ Iceland.
 #+attr_html: :loading lazy
 #+attr_latex: :float sideways
 #+NAME: img:map-biomes
-[[file:img/eittland/map-biomes.png]]
+[[file:img/eittlandic/map-biomes.png]]
 
 Eastern Eittland is also recognizable by its great amount of flat
 shorelines, especially in its northern and eastern parts which are part
@@ -156,7 +155,7 @@ religions with less people in said area are not shown. You can also
 see on said map the population repartition of Eittland.
 
 #+headers: :cache yes :exports results
-#+begin_src gnuplot :file img/eittland/religions.png :var data=eittland-religions
+#+begin_src gnuplot :file img/eittlandic/religions.png :var data=eittland-religions
 set title "Religions in Eittland since 1950"
 set key invert reverse Left outside
 
@@ -182,13 +181,13 @@ plot data u 2:xticlabels(1) axis x1y1 title 'Norse Faith', \
 #+caption: Religious Evolution of Eittland Since 1900
 #+attr_html: :loading lazy
 #+RESULTS[706a2c4928c3c4c8979c0ce62acab59f9eb1bebf]:
-[[file:img/eittland/religions.png]]
+[[file:img/eittlandic/religions.png]]
 
 #+attr_html: :loading lazy
 #+attr_latex: :float sideways
 #+name: map:religion
 #+caption: Religious population of Eittland
-[[file:./img/eittland/map-religion.png]]
+[[file:./img/eittlandic/map-religion.png]]
 
 There is also a regional cultural difference between Western, Eastern,
 and Southern Eittland marked with some differences in traditions and
@@ -200,7 +199,7 @@ repartition of the different eittlandic cultures is shown in the map
 #+caption: Cultural Map of Eittland
 #+attr_html: :loading lazy
 #+attr_latex: :float sideways
-[[file:./img/eittland/map-cultural.png]]
+[[file:./img/eittlandic/map-cultural.png]]
 
 Standard Eittlandic is a relatively young language, created in the
 1960s by the government in order to create a standard dialect to
@@ -308,7 +307,7 @@ affairs.
 #+attr_latex: :float sideways
 #+CAPTION: The Two Eittlandic States
 #+NAME: img:map-political
-[[file:./img/eittland/map-political.png]]
+[[file:./img/eittlandic/map-political.png]]
 
 This means that while both governments are independent from each other
 and are legally equals to each other, the western monarch is the one
@@ -373,7 +372,7 @@ managing parts of the land in the name of the ruler.
 #+attr_latex: :float sideways
 #+CAPTION: Eittlandic Provinces
 #+NAME: img:map-provinces
-[[file:./img/eittland/map-provinces.png]]
+[[file:./img/eittlandic/map-provinces.png]]
 
 Some parts of the land are directly under the control of the crown,
 such as the districts of Đeberget and Hylfjaltr, which the ruler ruled
@@ -921,7 +920,7 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jbs0vh
 #+attr_html: :alt Eittlandic Vowel Featural Tree :class gentree :loading lazy
 #+caption: Eittlandic Vowels Featural Tree
 #+RESULTS[7867f85cb842efcdbf63b57169c32fb8e2b6831c]:
-[[file:img/eittland/vowel-feature-tree.png]]
+[[file:img/eittlandic/vowel-feature-tree.png]]
 
 **** Private Data                                               :noexport:
 :PROPERTIES:

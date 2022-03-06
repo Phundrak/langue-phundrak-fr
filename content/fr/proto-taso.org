@@ -1,5 +1,5 @@
 #+TITLE:     Proto-Tãso
-#+setupfile: headers
+#+setupfile: ../headers
 #+HTML_HEAD: <meta name="description" content="Grammaire détaillée de la langue construite Proto-Tãso" />
 #+HTML_HEAD: <meta property="og:title" content="Grammaire du Proto-Tãso" />
 #+HTML_HEAD: <meta property="og:description" content="Grammaire détaillée de la langue construite Proto-Tãso" />

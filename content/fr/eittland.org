@@ -1,5 +1,5 @@
 #+title:        Eittlandais
-#+setupfile:    headers
+#+setupfile:    ../headers
 #+html_head:    <meta name="description" content="Grammaire détaillée de l’Eittlandais" />
 #+html_head:    <meta property="og:title" content="Grammaire de l’Eittlandais" />
 #+html_head:    <meta property="og:description" content="Grammaire détaillée de l’idéolangue éittlandaise" />
@@ -695,7 +695,7 @@ plus forte croissance d’Eittlande du XX^{ème} et XXI^{ème} siècles.
   lbls <- paste(lbls, "%", sep = "")
   par(mar=c(0,0,0.7,3))
   pie(slices, labels = lbls, col = rainbow(length(lbls)),
-      main = "Religions d’Éïnlante")
+      main = "Religions d’Éïttlande")
 #+END_SRC
 #+CAPTION: Population religieuse d’Éïnlante
 #+LABEL: fig:religion-piechart

@@ -1,0 +1,109 @@
+#+title:     Langues construites de P’undrak
+#+setupfile: ../headers
+#+html_head: <meta name="description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
+#+html_head: <meta property="og:title" content="Langues construites de P’undrak" />
+#+html_head: <meta property="og:description" content="Collection de documents et pages webs de linguistique et de langues construites de P’undrak" />
+#+options:   html-style:nil auto-id:t
+
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: Introduction-dweek6d0edj0
+:END:
+Bonjour, je suis Lucien Cartier-Tilet, aussi connu sous le nom de
+P’undrak, et je créé des langues et univers. Comme vous l’aurez deviné
+basé sur le nom de ce site, on va plutôt s’intéresser aux langues que
+je construit plutôt qu’à mes univers, bien que l’étude de mes langues
+peut faire office d’une fenêtre sur le monde qui les
+entoure. Ci-dessous vous trouverez la liste des langues que je créé,
+que j’ai créé, ou que je prévoie de créer. Elles sont triées dans
+ordre purement subjectif, les premières langues étant celles que je
+préfère ou sur lesquelles je suis en train de travailler. Si vous avez
+la moindre question, vous pouvez me contacter sur mes réseaux sociaux
+ou par email, tous les liens sont disponibles sur [[https://phundrak.com][mon site principal]].
+
+Vous verrez que mes langues sont décrites comme étant des langues soit
+/a priori/, soit /a posteriori/. Les premières sont des langues qui sont
+créées ex-nihilo/, sans descendance directe d’une langue existante. En
+revanche, les secondes sont des langues qui se reposent sur certaines
+langues déjà existantes, qu’il s’agisse de langues naturelles ou de
+langues construites.
+
+Les langues prototypes, quant à elles, n’ont pas pour but d’être
+forcément des langues complètes pouvant être utilisées comme moyen de
+communication efficace par quiconque serait suffisamment timbré pour
+les apprendre ; leur but est de m’offrir des langues sur lesquelles me
+baser pour pouvoir créer d’autres langues afin de pouvoir créer des
+familles de langues qui auront un aspect naturel grâce à leurs
+évolutions.
+
+Pour chaque langue, trois versions de leur grammaire est proposée :
+- *Une version web* qui sera toujours la version la plus à jour.
+- *Une version PDF*, il est possible qu’elle soit en retard comparé à la
+  version web. Adapté pour archiver une grammaire dans un format
+  répandu.
+- *Une version EPUB*, leur publication est encore expérimentale et leur
+  mise à jour régulière n’est pas garantie. Adapté à une lecture sur
+  liseuse. Vous pourrez aisément convertir le fichier EPUB vers du
+  MOBI si vous souhaitez le lire sur une liseuse Kindle.
+
+* Liste des langues
+:PROPERTIES:
+:CUSTOM_ID: Liste-des-langues-2ygek6d0edj0
+:END:
+** En cours de développement
+:PROPERTIES:
+:CUSTOM_ID: Liste-des-langues-En-cours-de-développement-uniek6d0edj0
+:END:
+Ci-dessous se trouvent les langues sur lesquelles je travaille
+actuellement.  Attendez-vous à voir des changements y arriver
+fréquemment.
+- <<nyqy>>Le [[file:proto-nyqy.org][Proto-Ñyqy]] (anciennement appelé Ñyqy) est une langue
+  prototype /a priori/, se situant dans des temps anciens de mon univers
+  fictif.  [[file:proto-nyqy.pdf][Version PDF]], [[file:proto-nyqy.epub][version EPUB]].
+- <<eittland>>L’[[file:eittland.org][Eittlandais]] est une langue /a posteriori/ descendant du
+  Vieux Norrois occidental, langue des vikings ancêtre de l’Islandais
+  et du Norvégien. Elle est parlée sur une île fictive elle aussi,
+  située dans notre monde non loin du Groënland et de
+  l’Islande. [[file:eittland.pdf][Version PDF]], [[file:eittland.epub][version EPUB]].
+
+** Langues à venir
+:PROPERTIES:
+:CUSTOM_ID: Liste-des-langues-Langues-à-venir-5ulek6d0edj0
+:END:
+J’ai prévu de créer certaines langues qui disposent déjà d’un nom,
+qu’il soit définitif ou temporaire. Généralement, elles disposent d’un
+strict minimum les concernant, comme un inventaire phonétique de base
+et une idée globale.
+- Le [[file:proto-taso.org][Proto-Tãso]] est une langue prototype /a priori/ se situant dans le
+  même univers que le [[nyqy][Proto-Ñyqy]].  Elle dispose déjà d’un inventaire
+  phonétique préliminaire qui sera sans doute modifié une fois que je
+  commencerai à travailler sérieusement sur cette langue. [[file:proto-taso.pdf][Version PDF]],
+  [[file:proto-taso.epub][version EPUB]].
+- L’Enánon est une langue /a priori/ caractérisée par son très faible
+  nombre de phonèmes : neuf consonnes et trois voyelles, organisées en
+  syllabes (C)V. Aucun document n’est encore disponible.
+
+** Développement à l’arrêt
+:PROPERTIES:
+:CUSTOM_ID: Liste-des-langues-Développement-à-l-arrêt-k1oek6d0edj0
+:END:
+Dans cette liste de langues, vous pouvez trouver des langues dont j’ai
+stoppé le développement.  Il peut s’agir de langues abandonnées ou
+bien de langues simplement mises en pause que je reprendrai plus tard,
+bien que cette dernière option soit moins probable.  Les projets
+marqués comme abandonnés le seront définitivement, tandis que le
+statut des autres projets de cette section est incertain.
+- Le [[file:archived/hjelp.org][Hjelp]] était un projet de langue divine /a priori/, pensé comme
+  étant un remplacement du Hjalpi’ (langue que j’ai supprimé de mon
+  site mais qui est encore disponible dans l’historique de mes
+  fichiers source, la dernière version est disponible [[https://labs.phundrak.com/phundrak/langue-phundrak-com/src/commit/1a8f1bc8cfc7ee7a6cc570b2488fc57af9f3723f/web/hjalpi.org][ici]]). Son statut
+  est encore incertain, je ne sais pas si je reprendrai cette langue
+  ou en si j’en recréerai une du même genre. [[file:archived/hjelp.pdf][Version PDF]], [[file:archived/hjelp.epub][version
+  EPUB]].
+- Le [[file:archived/matter.org][Mattér]] fut le projet précédent l’[[eittland][Eittlandais]], et est une langue /a
+  posteriori/ descendant vaguement du Vieux Norrois mais avec des choix
+  de design plus que douteux. Cette langue fut abandonnée car elle
+  devenait trop complexe à gérer sans vision d’ensemble sa
+  direction. [[file:archived/matter.pdf][Version PDF]], [[file:archived/matter.epub][version EPUB]].
+
+#+include: ../../LICENSE.org :minlevel 1
