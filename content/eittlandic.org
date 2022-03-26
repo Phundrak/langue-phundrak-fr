@@ -241,6 +241,11 @@ considering the term “Icelandic” for “Iceland” and “Greenlandic” for
 :PROPERTIES:
 :CUSTOM_ID: Eittland-History-9n168hn0jaj0
 :END:
+
+*** Early Eittlandic History
+:PROPERTIES:
+:CUSTOM_ID: Eittland-History-Early-Eittlandic-History-dgxi3s21mej0
+:END:
 According to historical records, Eittland was first found in 763 by
 Norwegian explorers. Its first settlement appeared in 782 on its
 eastern shores with hopes of finding new farmland. The population grew
@@ -260,7 +265,7 @@ of Norway and began trying to introduce Christianity to its people,
 the newly crowned king Áleifr I Ásmundson of Eittland adopted a new
 law forbidding the Christian faith to be imported, promoted, and
 practiced in Eittland. This decision forever weakened the alliance
-between the two countries.
+between the two countries and detariorated their relationship.
 
 As more and more people in Eittland were moving to its western part
 due to larger opportunities with its farmlands, king Áleifr I chose in
@@ -273,7 +278,64 @@ one side of the island to the other by land --- lava flows often
 forcefully close and destroy paths joining the two parts together.
 This gave birth to the two states of the Kingdom of Đeberget (also
 called the /Western Eittlandic Kingdom/) and the Kingdom of Hylfjaltr
-(also called the /Eastern Eittlandic Kingdom/). More on that can
+(also called the /Eastern Eittlandic Kingdom/). More on that in
+§[[#Eittland-Political-Organization-z5v4e9p0jaj0]].
+
+*** Crusades and Independence
+:PROPERTIES:
+:CUSTOM_ID: Eittland-History-Crusades-and-Independence-377j3s21mej0
+:END:
+As soon as the 13th century, and through the 14th century, the
+Teutonic Order and the Livonian Order, backed by the Holy Roman
+Empire, proposed crusades against Eittland to get rid of its norse
+faith. However, these never came to be due to the distance between
+Eittland and mainland Europe, despite the papal authorisations in
+1228, 1257, 1289, 1325, and 1367.
+
+In 1397, the creation of the Kalmar Union kicked a new crusade, this
+time backed by the Union itself as well as the Teutonic Order --- Eric
+of Pomerania aimed to unify his country both religiously by getting
+rid of the norse faith in Eittland and politically by getting rid of
+its established monarchy. A contingent sailed to Eittland to submit
+the island, however they were met with fierce resistance by the locals
+on arrival. Estimates show that while some 2.400 Eittlandic people
+died during this first invasion, most of the 3.000 men sent were
+either killed or taken prisoners.
+
+In 1398, a new contingent of 12.000 men landed in Eittland. This time,
+a much more prepared army of 14.000 men faced them on a battlefield
+east of the eastern capital of Hyfjaltr. This resulted in an
+Eittlandic victory, however the Monarch of Hylfjaltr Eiríkr IV
+Ásgeirsbróðr lost his life during the battle. Coincidentally, the High
+King Ásgeirr I Biœrgson died of unknown causes around the same time.
+Historians still debate whether it is due to the ongoing conflict, and
+if it is by who. Theories range from poisoning by spies from the
+Kalmar Union, to assassination by the next rulers, to a much more
+simple, unknown health condition which coincided with the ongoing
+events.
+
+During the same year, the Althing elected Arvid I Geirson as the new
+High King who nominated his brother Havardr I Arvidbróðr as the
+Monarch of Hylfjaltr. While the previous monarchs took a more
+defensive approach, they chose to become much more aggressive,
+striving for independence. After demands were sent to the Kalmar
+Union, Eittland began a series of raids on its territories, ranging
+from Iceland to the Faroese Islands to even two raids in Norway and
+Denmark. These raids only aimed trade and military ships but severely
+handicaped the Union’s marine.
+
+On September 17th, 1400 High King Arvid Geirson and King Erik met in
+Reykjavik to sign the Treaty of Reykjavik, during which the Kalmar
+Union recognized the independence of Eittland and renounced its claims
+to the island. Both parties agreed to end the hostilities towards one
+another.
+
+While the Union no longer launched any crusades against Eittland, the
+Teutonic Order attempted to land again in 1407 with 4.000 men.
+Although the Kingdom of Hylfjaltr took a devastating blow during the
+initial days of the crusade, loosing well over 6.000 men, the invaders
+were ultimately defeated thanks to reinforcement from the Kingdom of
+Ðeberget. This marked the end of crusades in Eittland.
 
 ** Political Organization
 :PROPERTIES:
@@ -391,16 +453,17 @@ care of this role now.
 :CUSTOM_ID: Eittland-Political-Organization-Governments-Monarchy-and-Things-f4i3ii11jaj0
 :END:
 The first form of government created in Eittland revolved around
-Things, assemblies of various size occasionally created at various
-levels of the state to decide on important matters. The Things allow
-at first any adult man to participate, but as the population grew some
-restrictions were put in place in order to limit the amount of
-participants. Only one man could represent a household starting
-from 982. Then, starting from 998, only jarls were allowed to the
-ruler’s Thing, and only ten jarls from each kingdom, elected among all
-the jarls from the same kingdom, would be allowed to attend the High
-Monarch’s Thing. These jarls would then act as representatives of the
-kingdom to the High King and his counsellors.
+Things (/þing/ in Eittlandic), assemblies of varying size occasionally
+created at various levels of the state to decide on important matters,
+with the Althing being the highest Thing to exist in Eittland. The
+Things allow at first any adult man to participate, but as the
+population grew some restrictions were put in place in order to limit
+the amount of participants. Only one man could represent a household
+starting from 982. Then, starting from 998, only jarls were allowed to
+the ruler’s Thing, and only ten jarls from each kingdom, elected among
+all the jarls from the same kingdom, would be allowed to attend the
+High Monarch’s Thing. These jarls would then act as representatives of
+the kingdom to the High King and his counsellors.
 
 In 1278, the first formal ministry (or department) was created in the
 Ðeberget Kingdom, called a /Ráðuneyt/ (litt. “fellowship of
@@ -418,10 +481,10 @@ In 1826, fearing the revolutionary climate in mainland Europe, Ólafr V
 passed the appropriately named “Last Royal Decree” in 1826. This act
 put in place a new form of government based on the British monarchy.
 
-All the royal power from the rulers of Đeberget and Hylfjaltr is
-transferred to the House of the People and the House of the Land (the
+The king transfers all the royal power from the rulers of Đeberget and
+Hylfjaltr to the House of the People and the House of the Land (the
 equivalent of the lower and upper Houses respectively). The House of
-the People was composed of men elected during general elections every
+the People is composed of men elected during general elections every
 eight years. It was decided for each jarldom and district, one
 representative would be elected plus another one for each percentage
 of the population of the kingdom the jarldom represents.
@@ -437,36 +500,36 @@ right to vote and they gained the right to be elected in 1915. The law
 that allowed women to vote also made the authorities stop enforcing
 the restriction on the faith of the participants --- while the
 original texts of 1826 and 1886 were clear on the fact only men of the
-Nordic Faith were allowed to vote and be elected, no such restrictions
-were made for women, making it unclear if only women had no faith
-restriction or if this restriction was removed for everyone.
-Organizers of the next elections in 1914 chose not to enforce this
-religious restriction and it stopped being enforced since then. In
-1998, Queen Siv I exceptionally used her powers of High Queen to pass a
-law to clarify this issue and formally make Eittland a non-religious
-country. This also removed the long unenforced ban on other religions
-in Eittland.
+Nordic Faith were allowed to vote and be elected, women had no such
+restriction making it unclear if it only applied to women or if this
+restriction was revoked for everyone. Organizers of the next elections
+in 1914 chose not to enforce this religious restriction and ever since
+then. In 1998, Queen Siv I exceptionally used her powers of High Queen
+to pass a law to clarify this issue and formally make Eittland a
+non-religious country. This also removed the long unenforced ban on
+other religions in Eittland.
 
-It is to be noted that while the rulers of Đeberget and Hylfjaltr have
-lost all their power with the “Last Royal Decree”, the High Monarch
-remained unaffected by the text though they act as if it were the
-case. To replace them, the eastern and western governments elect a
-single national representative meant to act as the head of both states
-instead of the High Monarch who now holds only a ceremonial position.
-However, it happens from time to time the High Monarch passes a law,
-although they only write down in the law already well established
-traditions, such as the ban on the religious restrictions for voters
-which had not been enforced for almost a century by that point.
+Note that while the rulers of Đeberget and Hylfjaltr have lost all
+their power with the “Last Royal Decree”, the High Monarch remained
+unaffected by the text though they act and are expected to act as if
+it were the case. To replace them, the eastern and western governments
+elect a single national representative meant to act as the head of
+both states instead of the High Monarch who now holds only a
+ceremonial position. However, it happens from time to time the High
+Monarch passes a law, although they only write down in the law already
+well established traditions, such as the ban on the religious
+restrictions for voters which had not been enforced for almost a
+century by that point.
 
-Today, Ráðuneyts still exist, but their head is designated no longer
-by the monarch but by the House of the People. Here is the list of
-Ministries that currently exist in Eittland:
+Today, Ráðuneyts still exist, but their head is no longer designated
+by the monarch but by the head of the House of the People. Here is the
+list of Ministries that exist in Eittland in 2022:
 - /Bærráðuneyt/ :: Agriculture Ministry
 - Dæmaráðuneyt :: Justice Ministry
 - Erlendslandsráðuneyt :: Foreign Affair Ministry
 - Fræðiráðuneyt :: Education Ministry
 - Heilsráðuneyt :: Health Ministry
-- Konungdómráðuneyt :: Kingdom Ministry (State Affairs)
+- Konungdómráðuneyt :: Kingdom’s Ministry (State Affairs)
 - Náttúrráðuneyt :: Nature Ministry (including ecology)
 - Rógráðuneyt :: War Ministry
 - Teknikráðuneyt :: Technology Ministry
@@ -474,7 +537,7 @@ Ministries that currently exist in Eittland:
 - Vinnaráðuneyt :: Employment Ministry
 
 With the separation of the State with its religious departments
-following the law of 1998, the Heiðniráðuneyt (the Heathendom
+following the law of 1998, the /Heiðniráðuneyt/ (the Heathendom
 Department) became an entity separate from the Government. Its
 Ráðunautr used to be exceptionally appointed by the House of the Land,
 unlike the rest of Ráðunautrs.
