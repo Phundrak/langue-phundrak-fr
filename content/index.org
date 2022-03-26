@@ -53,9 +53,9 @@ I am currently publicly working on two languages:
 :END:
 All my documents in French are currently inactive, and I do not plan
 on working on them again. They include:
-- Proto-Ñyqy (French version)
-- Eittlandic (French version)
-- Hjelp, an /a priori/ kitchen sink language
-- Mattér, the precursor to Eittlandic.
+- Proto-Ñyqy ([[file:fr/proto-nyqy.org][French version]])
+- Eittlandic ([[file:fr/eittland.org][French version]])
+- Hjelp, an /a priori/ kitchen sink language ([[file:archived/hjelp.org][French version]])
+- Mattér, the precursor to Eittlandic ([[file:archived/matter.org][French version]])
 
   #+include: ../LICENSE.org :minlevel 1
