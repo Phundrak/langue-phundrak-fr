@@ -7,9 +7,16 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+
+% Convert some characters to native LaTeX
 \usepackage{newunicodechar}
 \newunicodechar{’}{'}
 \newunicodechar{…}{\ldots}
 \newunicodechar{ }{~}
 \newunicodechar{ }{~}
-\usepackage{glossaries}
+
+% Ease of reading
+\linespread{1.15}
+\usepackage{multicol}
+\setlength{\columnsep}{2cm}
+\setlength{\columnseprule}{1pt}

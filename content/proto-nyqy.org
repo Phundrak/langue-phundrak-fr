@@ -8,9 +8,6 @@
 #+options:      auto-id:t
 #+subject:      Proto-Ñyqy Culture and Language
 #+uid:          https://langue.phundrak.com/en/proto-nyqy
-#+latex_header: \linespread{1.15}
-#+latex_header: \makeglossaries
-#+latex:        \printglossaries
 
 * Foreword
 :PROPERTIES:

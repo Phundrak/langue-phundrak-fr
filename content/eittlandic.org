@@ -9,13 +9,6 @@
 #+options:      auto-id:t
 #+latex_header: \usepackage{allrunes}
 #+macro:        rune (eval (conlanging-to-org-runes $1 'eittlandic))
-#+latex_header: \linespread{1.15}
-#+latex_header: \usepackage{multicol}
-#+latex_header: \setlength{\columnsep}{2cm}
-#+latex_header: \setlength{\columnseprule}{1pt}
-#+latex_header: \usepackage{glossaries}
-#+latex_header: \makeglossaries
-#+latex:        \printglossaries
 
 * Foreword
 :PROPERTIES:
