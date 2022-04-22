@@ -894,13 +894,16 @@ reached on this point, most of them might be older innovations.
 # - What is the basic structure of the noun word (for polysynthetic
 #   languages) and/or noun phrases (for more isolating languages)?
 Names in Proto-Ñyqy generally refer to defined entities, such as
-objects, people, concepts, or events. They do not have any
-morphological characteristics, they remain constant. However, they can
-associate with each other and act as adjectives. More on that in
+objects, people, concepts, or events. Regardless of their role during
+locution, a noun bears no morphological information such as its
+syntactic role or its number. However, nouns can associate with each
+other and act as adjectives. More on that in
 §[[#Structural-Preview-World-Classes-Modifiers-Descriptive-Adjectives-pcpelau058j0]].
-They are the center of the noun phrase, of which they are head-first.
-Noun phrases can be found as agents or patients of a sentence, but
-they can also be found in genitive and dative constructions.
+Noun phrases in Proto-Ñyqy are head-first, meaning the noun in noun
+phrases come relatively early although the former is built around the
+former and not exclusively after it. Noun phrases are mainly found as
+agents or patients of a sentence, but they can also be found in
+genitive and dative constructions.
 
 The nouns could most likely take genitive pronouns, but how they
 interacted exactly is yet unsure. The
