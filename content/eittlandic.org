@@ -69,11 +69,13 @@ to any real event, or any real people is purely coincidental.
 :END:
 - adj :: adjective
 - adv :: adverb
-- f :: feminine noun
-- m :: masculine noun
-- n :: neutral noun
+- f :: strong feminine noun or adjective
+- m :: strong masculine noun or adjective
+- n :: strong neutral noun or adjective
+- N :: noun
 - prep :: preposition
 - v :: verb
+- w :: weak noun or adjective
 
 * Eittland
 :PROPERTIES:
@@ -594,7 +596,15 @@ marking makes the sentence /fisk barn etar/ much more gruesome.
    | fish.NOM | barn.ACC | eat-3sg |
 
 Eittlandic is now a SOV language with a much stricter word order than
-it used to be.
+it used to be. This is an important change since Old Eittlandic which
+main word order was VSO instead. For instance, here is the same
+sentence in Old Eittlandic and in Standard Eittlandic.
+- Old Eittlandic :: Han bar hann til vatns nákkurs
+  | han    | bar            | han-n     | til | vatn-s   | nákkur-s |
+  | he.NOM | carry.3sg.pret | 3sg.m-ACC | to  | lake-DAT | some-DAT |
+- Standard Eittlandic :: Han til vatn nákkur hann bar
+  | han    | til | vatn | nákkur | hann   | bar            |
+  | he.NOM | to  | lake | some   | he.ACC | carry.3sg.pret |
 
 Loss of case marking also affected adjectives which share most of
 their declensions with nouns. The parts where Eittlandic retains its
@@ -1338,6 +1348,33 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 # - Do nouns exhibit morphological case?
 # - If so, what are the cases? (The functions of the cases will be
 #   elaborated in lat
+**** Cases in Modern Eittlandic
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Structure-of-a-Nominal-Group-Grammatical-Case-Cases-in-Modern-Eittlandic-jufb9o11mfj0
+:END:
+Although seldom visible, as described in
+§[[#Structural-Overview-Structure-of-a-Nominal-Group-Grammatical-Case-Case-Marking-c6jb9o11mfj0]],
+cases still remain part of the Eittlandic grammar, expressed through
+its syntax rather than explicit marking on its nouns and adjectives.
+Four different grammatical cases exist in this language: the
+*nominative*, *accusative*, *genitive*, and *dative* case.
+- The *nominative* case represents the subject of a sentence, that is,
+  the subject of intransitive clauses and the agent of transitive
+  clauses. As we’ll see below, it is morphologically marked only in
+  dialects other than Standard Eittlandic, and only if the word is a
+  strong masculine word.
+- On the other hand *accusative*, like Old Norse, usually marks the
+  object of a verb, but it can also express time-related ideas such as
+  a duration in time, or after some prepositions. It is also the
+  default case when a noun has no clear status in a clause, and it can
+  as such serve as a vocative.
+- *Dative* usually marks indirect objects of verbs in Old Norse, though
+  it can also often mark direct objects depending on the verb used.
+
+**** Case Marking
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Structure-of-a-Nominal-Group-Grammatical-Case-Case-Marking-c6jb9o11mfj0
+:END:
 Although present in Early Old Norse, the use of grammatical cases has
 been on the decline since the Great Vowel Shift (see
 §[[#Great-Vowel-Shift-7spk7j70uaj0]]). Due to the general loss of
@@ -1663,7 +1700,7 @@ used even in this dialect.
 :END:
 - fé :: n. {{{phon(fɛ)}}}
   1. wealth
-- fiskr :: m. {{{phon(fiʃkr̩)}}}
+- fisk :: m. {{{phon(fiʃk)}}}
   1. fish
 
 ** G
