@@ -202,11 +202,11 @@ legal language of the High Kingdom of Eittland, used by its
 government, schools, and universities, but the local dialects are
 still widely spoken privately and in business which remains regional.
 They still have a strong presence in popular media and are still
-spoken by younger generations, but a decline has been registered since
-the 90s among young people living in cities, speaking more and more in
-Standard Eittlandic instead. Dialects are also rarely used on the
-internet outside of private conversation. An estimate of 17% of the
-Eittlandic population younger than 25 in 2017 do not speak any
+spoken by younger generations, however, a decline has been registered
+since the 90s among young people living in cities, speaking more and
+more in Standard Eittlandic instead. Dialects are also rarely used on
+the internet outside of private conversation. An estimate of 17% of
+the Eittlandic population younger than 25 in 2017 do not speak any
 dialectal Eittlandic outside of Standard Eittlandic, although only 2%
 of them do not understand their family’s dialectal Eittlandic.
 Standard Eittlandic also became the default dialect for Eittlandic
@@ -546,7 +546,7 @@ unlike the rest of Ráðunautrs.
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-ax13bot058j0
 :END:
-** Typological Outline of the Eittlandic Language                 :noexport:
+** Typological Outline of the Eittlandic Language
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Typological-Outline-of-the-Eittlandic-Language-osk84ty0jaj0
 :END:
@@ -562,6 +562,46 @@ unlike the rest of Ráðunautrs.
 # - If the language is at all polysynthetic, is it dominantly
 #   "head-marking", "dependent-marking", or mixed?
 # - Give some examples of each type of marking the language exhibits.
+Over the last centuries, Eittlandic evolved to become a language
+leaning more and more towards an analytic language, losing its
+fusional aspect Old Eittlandic once had. It grammar now greatly relies
+on its syntax as well as on grammatical particules rather than on its
+morphology. Let’s take the following sentence as an example.
+
+1. barn fisk etar / a child is eating a fish
+   | barn      | fisk     | et-ar   |
+   | child.NOM | fish.ACC | eat-3sg |
+
+In this sentence, the word order helps us understand the child is the
+subject of the sentence while its subject is /fisk/, although we have no
+information on their number; the sentence could also very well mean
+/children are eating fishes/. Unlike in Old Eittlandic where we could
+have the following sentences.
+
+1. barn fiska etar
+   | barn      | fisk-a      | et-ar   |
+   | child.NOM | fish-pl.ACC | eat-3sg |
+2. fiska barn etar
+   | fisk-a      | barn      | et-ar   |
+   | fish-pl.ACC | child.NOM | eat-3sg |
+
+Both have the same meaning as the Eittlandic sentence. However, the
+near-complete (or even complete in Standard Eittlandic) loss of case
+marking makes the sentence /fisk barn etar/ much more gruesome.
+
+1. fisk barn etar
+   | fisk     | barn     | et-ar   |
+   | fish.NOM | barn.ACC | eat-3sg |
+
+Eittlandic is now a SOV language with a much stricter word order than
+it used to be.
+
+Loss of case marking also affected adjectives which share most of
+their declensions with nouns. The parts where Eittlandic retains its
+fusional aspect is with verbs, where loss of its words’ final vowel
+had much less impact, as we could see in /barn fisk etar/. In this case,
+/etar/ is the third person singular declension of the verb /á et/, a weak
+verb.
 
 ** Phonetic Inventory and Translitteration
 :PROPERTIES:
@@ -1062,7 +1102,7 @@ equivalent in Standard Eittlandic, as shown in table [[vow:accent:east]]
 On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 {{{phon(a)}}} after nasal consonants and glides and into {{{phon(ɐ)}}} otherwise.
 
-** Phonotactics
+** Phonotactics                                                   :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonotactics-r2whtyt058j0
 :END:
@@ -1076,7 +1116,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 :CUSTOM_ID: Structural-Overview-Phonotactics-Allophony-x185lum0jaj0
 :END:
 
-** Word Structure
+** Word Structure                                                 :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Word-Structure-n6vhtyt058j0
 :END:
@@ -1255,11 +1295,11 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 # - In yes/no questions, if there is a question particle, where does
 #   it occur?
 # - In information qu
-** Structure of a Nominal Group                                   :noexport:
+** Structure of a Nominal Group
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-nu66umu058j0
 :END:
-*** Composed Words
+*** Composed Words                                               :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Composed-Words-7w76umu058j0
 :END:
@@ -1270,7 +1310,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 #   noun (e.g. /pickpocket/, /scarecrow/)?
 # - Are these process
 #   can-opener)? How common is compounding?
-*** Denominalization
+*** Denominalization                                             :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Denominalization-c296umu058j0
 :END:
@@ -1278,7 +1318,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 #   a noun?
 # - An adjective from a noun?
 # - An adverb from a noun?
-*** Numbers
+*** Numbers                                                      :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Numbers-n0a6umu058j0
 :END:
@@ -1298,7 +1338,77 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 # - Do nouns exhibit morphological case?
 # - If so, what are the cases? (The functions of the cases will be
 #   elaborated in lat
-*** Articles and Demonstratives
+Although present in Early Old Norse, the use of grammatical cases has
+been on the decline since the Great Vowel Shift (see
+§[[#Great-Vowel-Shift-7spk7j70uaj0]]). Due to the general loss of
+word-final short vowels and to regularization of its nouns, Eittlandic
+lost almost all of weak nouns’ inflexions and a good amount in its
+strong nouns’ inflexions. On top of this, the root of most nouns got
+regularized, getting rid of former umlauts. Hence, while in Old Norse
+one might find the table [[tbl:old-norse-noun-inflexions]] presented in
+Cleasby and Vigfusson (1874), Modern Eittlandic is simplified to the
+table [[tbl:eittlandic-example-noun-inflexions]].
+
+#+name: tbl:old-norse-noun-inflexions
+#+caption: 1st declension of strong nouns and declensions of masculine weak nouns in Old Norse
+| / |        <r> |                  |                 |               |                |
+|   |            | Strong Masculine | Strong Feminine | Strong Neuter | Weak Masculine |
+|---+------------+------------------+-----------------+---------------+----------------|
+|   | Sing. Nom. | heim-r           | tíð             | skip          | tím-i          |
+|   |       Acc. | heim             | tíð             | skip          | tím-a          |
+|   |       Gen. | heim-s           | tíð-ar          | skip-s        | tím-a          |
+|   |       Dat. | heim-i           | tíð             | skip-i        | tím-a          |
+|   | Plur. Nom. | heim-ar          | tíð-ir          | skip          | tím-ar         |
+|   |       Acc. | heim-a           | tíð-ir          | skip          | tím-a          |
+|   |       Gen. | heim-a           | tíð-a           | skip-a        | tím-a          |
+|   |       Dat. | heim-um          | tíð-um          | skip-um       | tím-um         |
+
+#+name: tbl:eittlandic-example-noun-inflexions
+#+caption: Declensions for strong and weak nouns in Modern Eittlandic
+| / |        <r> |                  |                 |               |            |
+|   |            | Strong Masculine | Strong Feminine | Strong Neuter | Weak Nouns |
+|---+------------+------------------+-----------------+---------------+------------|
+|   | Sing. Nom. | heim-r           | tíð             | skip          | tím        |
+|   |       Acc. | heim             | tíð             | skip          | tím        |
+|   |       Gen. | heim-s           | tíð-s           | skip-s        | tím-s      |
+|   |       Dat. | heim             | tíð             | skip          | tím        |
+|   | Plur. Nom. | heim-r           | tíð-r           | skip          | tím-r      |
+|   |       Acc. | heim             | tíð-r           | skip          | tím        |
+|   |       Gen. | heim             | tíð             | skip          | tím        |
+|   |       Dat. | heim-um          | tíð-um          | skip-um       | tím-um     |
+
+As you can see, grammatica cases disappeared in singular nominative
+(except for strong mascuine nouns), accusative, and dative as well as
+in plural accusative and genitive. The only markers remaining are for
+singular genitive, plural nominative and dative as well as singular
+nominative for strong masculine words. Note however that strong nouns
+are no longer productive and get slowly replaced with weak nouns.
+
+Note also how the last column in table
+[[tbl:eittlandic-example-noun-inflexions]] is not /Weak masculine/ as in
+table [[tbl:old-norse-noun-inflexions]] but /Weak Nouns/. This is due to
+weak nouns’ inflexions merging together, yet again due to the final
+vowel loss and regularization of these inflexions. Only strong nouns
+remain separated, although by minor differences. All nouns get a case
+marker /-s/ for singular genitive, /-r/ for plural nominative, and /-um/ for
+plural dative. However, strong masculine nouns also get an /-r/ on
+singular nominative nouns, strong feminine nouns get an /-r/ on plural
+accusative nouns, and strong neuter nouns lose their /-r/ on plural
+nominative nouns.
+
+Note also the /-r/ suffix becomes an /-n/ when added to a word ending with
+an <n>. For instance, the word /brún/ (/eyebrow/) becomes /brúnn/ in its
+plural nominative form instead of /brúnr/.
+
+Case markers are no longer productive and only server for redundancy
+with Modern Eittlandic’s syntax. The Royal Academy for Literature,
+which authored Standard Eittlandic, even recommends not using them to
+simplify the language, as they deemed them no longer necessary for
+understanding Eittlandic. While this recommendation is widely adopted
+by Standard Eittlandic speakers, singular genitive /-s/ still remains
+used even in this dialect.
+
+*** Articles and Demonstratives                                  :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-owb6umu058j0
 :END:
@@ -1311,7 +1421,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 # - How many degrees of distance are there in the system of
 #   demontsratives?
 # - Are there other distinctions beside distances?
-*** Possessives
+*** Possessives                                                  :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Possessives-8xc6umu058j0
 :END:
@@ -1323,7 +1433,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 # - Are there other types of possession?
 # - When the possessor is a full noun, where does it usually come with
 #   respect to the possessed noun?
-*** Classes (including Gender)
+*** Classes (including Gender)                                   :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Classes-including-Gender-i2e6umu058j0
 :END:
@@ -1335,7 +1445,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 #   relevant?
 # - Do the classifiers occur with numerals? Adjectives? Verbs?
 # - What is their function in these contexts?
-*** Diminution/Augmentation
+*** Diminution/Augmentation                                      :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Diminution-Augmentation-41f6umu058j0
 :END:
