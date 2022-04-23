@@ -591,7 +591,7 @@ Both have the same meaning as the Eittlandic sentence. However, the
 near-complete (or even complete in Standard Eittlandic) loss of case
 marking makes the sentence /fisk barn etar/ much more gruesome.
 
-1. fisk barn etar
+1. fisk barn etar / a fish is eating a child
    | fisk     | barn     | et-ar   |
    | fish.NOM | barn.ACC | eat-3sg |
 
@@ -604,13 +604,19 @@ sentence in Old Eittlandic and in Standard Eittlandic.
   | he.NOM | carry.3sg.pret | 3sg.m-ACC | to  | lake-DAT | some-DAT |
 - Standard Eittlandic :: Han til vatn nákkur hann bar
   | han    | til | vatn | nákkur | hann   | bar            |
-  | he.NOM | to  | lake | some   | he.ACC | carry.3sg.pret |
+  | 3sg.m.NOM | to  | lake | some   | he.ACC | carry.3sg.pret |
+
+Eittlandic still retains VSO word order in its relative and
+interrogative clauses, as shown below.
+- Han mér talð þat kom han hér í gær / he told me he came here yesterday
+  | han       | mér     | tal-ð         | þat  | kom           | han       | hér  | í gær     |
+  | 3sg.m.NOM | 1sg.DAT | tell-3sg.PRET | that | come.3sg.PRET | 3sg.m.NOM | here | yesterday |
 
 Loss of case marking also affected adjectives which share most of
 their declensions with nouns. The parts where Eittlandic retains its
 fusional aspect is with verbs, where loss of its words’ final vowel
 had much less impact, as we could see in /barn fisk etar/. In this case,
-/etar/ is the third person singular declension of the verb /á et/, a weak
+/etar/ is the third person singular declension of the verb /et/, a weak
 verb.
 
 ** Phonetic Inventory and Translitteration
@@ -747,7 +753,7 @@ Eittlandic.
 + Example :: Old Norse /gauð/ (a barking) {{{phon(gɑuð)}}} > Early Middle
   Eittlandic /gauð/ (a barking, a quarrel) {{{phon(jɑuð)}}}.
 
-This is the first rule of the gj-shift along with the three next
+This is the first rule of the g/j-shift along with the three next
 rules, marking the passage from Old Eittlandic to Middle Eittlandic.
 
 **** gl > gʲ
@@ -1027,6 +1033,20 @@ graph{graph[dpi=300,bgcolor="transparent"];node[shape=plaintext];"vowels-0jbs0vh
 #+caption: Eittlandic Vowels Featural Tree
 #+RESULTS[7867f85cb842efcdbf63b57169c32fb8e2b6831c]:
 [[file:img/eittlandic/vowel-feature-tree.png]]
+
+- a {{{phon(ɑ)}}} ::
+- á {{{phon(ɛ)}}} ::
+- æ {{{phon(ɛ)}}} ::
+- e {{{phon(e)}}} ::
+- é {{{phon(ɛ)}}} ::
+- i {{{phon(i)}}} ::
+- í {{{phon(e)}}} ::
+- o {{{phon(o)}}} ::
+- ó {{{phon(ɔ)}}} ::
+- u {{{phon(u)}}} ::
+- ú {{{phon(o)}}} ::
+- y {{{phon(y)}}} ::
+- ý {{{phon(ø)}}} ::
 
 **** Private Data                                               :noexport:
 :PROPERTIES:
@@ -1729,7 +1749,7 @@ used even in this dialect.
 - hneisa :: f. {{{phon(n̥ɑɪs)}}}
   1. shame, disgrace
   2. social isolation
-- hneisingr :: n. {{{phon(n̥ɑɪsinɡr̩)}}}
+- hneising :: n. {{{phon(n̥ɑɪsinɡ)}}}
   1. hermit
   2. (modern) shut-in, hikikomori
 - hnjósa :: v. {{{phon(ɲ̥ɔs)}}}
@@ -1778,7 +1798,7 @@ used even in this dialect.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-N-0ef6f2af
 :END:
-- noregsúlfr :: m. {{{phon(norejsolvr̩)}}}
+- noregsúlf :: m. {{{phon(norejsolv)}}}
  1. wolf, litt. Norway’s wolf. Wolf do not naturally live in Eittland
      and their only relatives introduced to the island were dogs and
      wolf-dogs which inherited the simpler /úlfr/ term. Noun composed by
@@ -1862,7 +1882,7 @@ used even in this dialect.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-Ú-c35e6434
 :END:
-- úlfr :: m. {{{phon(olvr̩)}}}
+- úlf :: m. {{{phon(olv)}}}
   1. wolf-dog. See also /noregsúlfr/.
 
 ** V
