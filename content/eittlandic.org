@@ -741,7 +741,7 @@ with the previous rule. Unlike the schwa from the previous rule, the
 current schwa still bears the long vowel feature although it is not
 pronounced anymore by that point, influencing the rule described in §[[#Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-ə-C-voice-ysvblnk08bj0]].
 
-**** ɣ / {#,V}_ > j !
+**** ɣ / {#,V}_ > j
 :PROPERTIES:
 :CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-g-V-j-133jvi70uaj0
 :END:
@@ -803,6 +803,18 @@ described in
   - Early Old Norse /skilja/ (/to understand, to distinguish/)
     {{{phon(skiljɑ)}}} > Early Middle Eittlandic {{{phon(ʃkiljə)}}}
   - Old Eittlandic /sitja/ (/to sit/) {{{phon(sitjə)}}} > Middle Eittlandic {{{phon(sitʃə)}}}
+
+**** j > jə / _#
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Phonetic-Inventory-and-Translitteration-Evolution-from-Early-Old-Norse-to-Eittlandic-j-jə-cixbsa00ofj0
+:END:
+With the appearance of word-final {{{phon(j)}}}, and epenthtetic {{{phon(ə)}}}
+appeared due to the phonological rule forbidding word-final consonant
+clusters to end with a {{{phon(j)}}}.
+
++ Example ::
+  - Early Old Norse /berg/ (/rock/, /boulder/) {{{phon(berɡ)}}} > Middle
+    Eittlandic /berg/ {{{phon(berjə)}}}
 
 **** u / V_ > ʊ
 :PROPERTIES:
