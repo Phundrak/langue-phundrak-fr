@@ -224,8 +224,13 @@ strong and does not face any risk of disappearing anytime soon,
 although we might be at the start of the decline of the historical
 dialects of Eittland in favor of Standard Eittlandic.
 
-In this document, we will mostly address Standard Eittlandic, although
-some dialectal variation will be mentioned.
+In this document, you will see references to both Standard Eittlandic
+and Modern Eittlandic. Although some people use the terms
+interchangeably, they are not. /Standard Eittlandic/ refers to the
+official dialect described above, while /Modern Eittlandic/ refers to
+all modern dialects of Eittlandic. This document focuses on Modern
+Eittlandic in general, and when details about specific dialects are
+given, the name of said dialect will be shared.
 
 ** Name of the Country
 :PROPERTIES:
@@ -598,12 +603,12 @@ marking makes the sentence /fisk barn etar/ much more gruesome.
 Eittlandic is now a SOV language with a much stricter word order than
 it used to be. This is an important change since Old Eittlandic which
 main word order was VSO instead. For instance, here is the same
-sentence in Old Eittlandic and in Standard Eittlandic, meaning /he
+sentence in Old Eittlandic and in Modern Eittlandic, meaning /he
 carried him to some lake/.
 - Old Eittlandic :: Han bar hann til vatns nákkurs
   | han    | bar            | han-n     | til | vatn-s   | nákkur-s |
   | he.NOM | carry.3sg.pret | 3sg.m-ACC | to  | lake-DAT | some-DAT |
-- Standard Eittlandic :: Han til vatn nákkur hann bar
+- Modern Eittlandic :: Han til vatn nákkur hann bar
   | han       | til | vatn | nákkur | hann   | bar            |
   | 3sg.m.NOM | to  | lake | some   | he.ACC | carry.3sg.pret |
 
@@ -1007,12 +1012,12 @@ casual speech but almost never in formal speech.
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Phonetic-Inventory-and-Translitteration-Vowels-vishtyt058j0
 :END:
-Modern Standard Eittlandic has a total of ten simple vowels and three
-diphthongs. Unlike its ancestor language, Old Norse, it does not bear
-any distinction in vowel length anymore since the great vowel shift
-(see §[[#Great-Vowel-Shift-7spk7j70uaj0]]). The table [[tab:vow:ipa]] lists
-the Eittlandic simple vowels while the table [[tab:vow:dipththongs]] lists
-the Eittlandic diphthongs.
+Modern Eittlandic has a total of ten simple vowels and three
+diphthongs, regardless of the dialect. Unlike its ancestor language,
+Old Norse, it does not bear any distinction in vowel length anymore
+since the great vowel shift (see §[[#Great-Vowel-Shift-7spk7j70uaj0]]).
+The table [[tab:vow:ipa]] lists the Eittlandic simple vowels while the
+table [[tab:vow:dipththongs]] lists the Eittlandic diphthongs.
 
 #+name: tab:vow:ipa
 #+caption: Vowel inventory of Modern Eittlandic
