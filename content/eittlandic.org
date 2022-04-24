@@ -649,6 +649,7 @@ its new meaning in Eittlandic is shown --- the same goes for the
 word’s spelling.
 
 #+name: table:history-eittlandic-language
+#+caption: Linguistic eras of Eittland
 | Period                      | Language          |
 |-----------------------------+-------------------|
 | 8th century - 12th century  | Old Eittlandic    |
@@ -780,6 +781,7 @@ following {{{phon(j)}}}. In the end, we have the conversion table given by
 the table [[cons:palatalization]].
 
 #+name: cons:palatalization
+#+caption: Consonants palatalization
 | Early Old Norse | Eittlandic |
 |-----------------+------------|
 | {{{phon(dj)}}}        | {{{phon(dʒ)}}}   |
@@ -1013,6 +1015,7 @@ the Eittlandic simple vowels while the table [[tab:vow:dipththongs]] lists
 the Eittlandic diphthongs.
 
 #+name: tab:vow:ipa
+#+caption: Vowel inventory of Modern Eittlandic
 |         / |   <   |      |
 |       <r> |  <c>  | <c>  |
 |           | front | back |
@@ -1023,6 +1026,7 @@ the Eittlandic diphthongs.
 |      open |       |  ɑ   |
 
 #+name: tab:vow:dipththongs
+#+caption: Diphthongs of Modern Eittlandic
 | diphthong | phonetics |
 |    <c>    |    <c>    |
 |-----------+-----------|
@@ -1925,6 +1929,12 @@ used even in this dialect.
 
 
 #+latex: \end{multicols*}
+
+* Table Index
+:PROPERTIES:
+:CUSTOM_ID: Table-Index-cl4eayv0ofj0
+:END:
+#+toc: tables
 
 * Private Data                                                     :noexport:
 :PROPERTIES:
