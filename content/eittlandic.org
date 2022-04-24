@@ -598,12 +598,13 @@ marking makes the sentence /fisk barn etar/ much more gruesome.
 Eittlandic is now a SOV language with a much stricter word order than
 it used to be. This is an important change since Old Eittlandic which
 main word order was VSO instead. For instance, here is the same
-sentence in Old Eittlandic and in Standard Eittlandic.
+sentence in Old Eittlandic and in Standard Eittlandic, meaning /he
+carried him to some lake/.
 - Old Eittlandic :: Han bar hann til vatns nákkurs
   | han    | bar            | han-n     | til | vatn-s   | nákkur-s |
   | he.NOM | carry.3sg.pret | 3sg.m-ACC | to  | lake-DAT | some-DAT |
 - Standard Eittlandic :: Han til vatn nákkur hann bar
-  | han    | til | vatn | nákkur | hann   | bar            |
+  | han       | til | vatn | nákkur | hann   | bar            |
   | 3sg.m.NOM | to  | lake | some   | he.ACC | carry.3sg.pret |
 
 Eittlandic still retains VSO word order in its relative and
