@@ -1037,7 +1037,7 @@ table [[tab:vow:dipththongs]] lists the Eittlandic diphthongs.
 |-----------+-----------|
 |    ei     | {{{phon(ɑɪ)}}}  |
 |    au     | {{{phon(ɔʊ)}}}  |
-|    ey     | {{{phon(œʏ)}}}  |
+|    ey     |  {{{phon(œʏ)}}}  |
 
 #+name: vow-dot-gen
 #+header: :var vowels=vowels-featural-list
@@ -1148,7 +1148,7 @@ equivalent in Standard Eittlandic, as shown in table [[vow:accent:east]]
 | Rural Eastern Eittlandic | Standard Eittlandic |
 |--------------------------+---------------------|
 |         {{{phon(i)}}}          |       {{{phon(ɪ)}}}       |
-|         {{{phon(y)}}}          |       {{{phon(ʏ)}}}       |
+|         {{{phon(y)}}}          |       {{{phon(ʏ)}}}        |
 |         {{{phon(u)}}}          |       {{{phon(ʊ)}}}       |
 
 On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
@@ -1450,45 +1450,81 @@ table [[tbl:eittlandic-example-noun-inflexions]].
 |---+------------+------------------+-----------------+---------------+------------|
 |   | Sing. Nom. | heim-r           | tíð             | skip          | tím        |
 |   |       Acc. | heim             | tíð             | skip          | tím        |
-|   |       Gen. | heim-s           | tíð-s           | skip-s        | tím-s      |
+|   |       Gen. | heim-ar          | tíð-ar          | skip-s        | tím        |
 |   |       Dat. | heim             | tíð             | skip          | tím        |
 |   | Plur. Nom. | heim-r           | tíð-r           | skip          | tím-r      |
 |   |       Acc. | heim             | tíð-r           | skip          | tím        |
 |   |       Gen. | heim             | tíð             | skip          | tím        |
 |   |       Dat. | heim-um          | tíð-um          | skip-um       | tím-um     |
 
-As you can see, grammatica cases disappeared in singular nominative
-(except for strong mascuine nouns), accusative, and dative as well as
-in plural accusative and genitive. The only markers remaining are for
-singular genitive, plural nominative and dative as well as singular
-nominative for strong masculine words. Note however that strong nouns
-are no longer productive and get slowly replaced with weak nouns.
+As you can see, a good amount of declensions disappeared from nouns,
+with only four marked cases for strong masculine and feminine nouns
+and two for strong neuter and weak nouns. The declension system
+completely merged for weak nouns which are no longer distinguished by
+gender, as did the different declensions among the other categories
+--- e.g. there is only one declension remaining for strong masculine
+nouns as opposed to Old Norse’s three different possible declensions
+for the nouns.
 
-Note also how the last column in table
-[[tbl:eittlandic-example-noun-inflexions]] is not /Weak masculine/ as in
-table [[tbl:old-norse-noun-inflexions]] but /Weak Nouns/. This is due to
-weak nouns’ inflexions merging together, yet again due to the final
-vowel loss and regularization of these inflexions. Only strong nouns
-remain separated, although by minor differences. All nouns get a case
-marker /-s/ for singular genitive, /-r/ for plural nominative, and /-um/ for
-plural dative. However, strong masculine nouns also get an /-r/ on
-singular nominative nouns, strong feminine nouns get an /-r/ on plural
-accusative nouns, and strong neuter nouns lose their /-r/ on plural
-nominative nouns.
+Declensions are no longer productive in almost all Modern Eittlandic
+dialects. They are still mostly used in formal and written speech, but
+they are less and less used in less formal circumstances and in oral
+speech. The Royal Academy for Literature, which authored Standard
+Eittlandic, even recommends not using grammatical cases when using
+this dialect as they are reduntand with other syntactic strategies.
+While the recommendation is mostly followed, speakers still tend to
+use the singular genetive declension oraly. Younger folks at the time
+of writing even tend to regularize it as /-ar/ for strong neuter and
+weak nouns.
 
-Note also the /-r/ suffix becomes an /-n/ when added to a word ending with
-an <n>. For instance, the word /brún/ (/eyebrow/) becomes /brúnn/ in its
-plural nominative form instead of /brúnr/.
+The only exception to declensions no longer being productive is in the
+Hylfjaltr Kingdom’s exclave in southern Eittland where speakers of its
+local dialect tend to instead favor strong nouns for newer terms.
+Hence, while most dialects agree on “internet” (pl.nom /internetr/,
+pl.dat /internetum/) being a weak noun, this dialect treats it as either
+a strong feminine (sg.gen /internetar/, pl.nom&acc /internetr/, pl.dat
+/internetum/) or a strong neuter (sg.gen /internets/, pl.dat /internetum/)
+--- the difference is due to subdivisions in said dialect between
+rural and urban areas favoring the former and the latter respectively.
 
-Case markers are no longer productive and only server for redundancy
-with Modern Eittlandic’s syntax. The Royal Academy for Literature,
-which authored Standard Eittlandic, even recommends not using them to
-simplify the language, as they deemed them no longer necessary for
-understanding Eittlandic. While this recommendation is widely adopted
-by Standard Eittlandic speakers, singular genitive /-s/ still remains
-used even in this dialect.
+There are some regular exceptions to the declension system. The first
+one, inherited from Old Norse, is the /-r/ suffix becoming /-n/ or /-l/ when
+a noun ends with an <n> or an <l> respectively, hence
+[[tbl:irregular-noun-declensions]] showing the declensions of strong
+masculine /himn/ (/heaven/) and strong feminine /hafn/ (/harbour/, /haven/).
+#+name: tbl:irregular-noun-declensions
+| / |        <r> |        |        |
+|   | Sing. Nom. | himnn  | hafn   |
+|   |       Acc. | himn   | hafn   |
+|   |       Gen. | himnar | hafnar |
+|   |       Dat. | himn   | hafn   |
+|   | Plur. Nom. | himnn  | hafnn  |
+|   |       Acc. | himn   | hafnn  |
+|   |       Gen. | himn   | hafn   |
+|   |       Dat. | himnum | hafnum |
 
-*** Articles and Demonstratives                                  :noexport:
+During the last five centuries, the root of the word got regularized
+so that only one or two forms are allowed. Due to umlaut or ablaut, it
+is possible the main vowel of a word changes between its singular and
+plural form, even sometimes affecting its dative form. These changes
+are due to old vowels long gone since --- with most even gone by the
+time of Old Norse. These changes mainly remains in a few common words.
+[[tbl:irregularities-root-nouns]] gives some examples of such
+irregularities. These words are marked as irregular in the dictionary.
+#+name: tbl:irregularities-root-nouns
+ | / |        <r> |             |           |           |            |
+ |   |            | kettle (m.) | foot (m.) | book (f.) | water (n.) |
+ |---+------------+-------------+-----------+-----------+------------|
+ |   | Sing. Nom. | ketll       | fótr      | bók       | vatn       |
+ |   |       Acc. | ketl        | fót       | bók       | vatn       |
+ |   |       Gen. | ketlar      | fótar     | bókar     | vatn       |
+ |   |       Dat. | ketl        | fót       | bók       | vatn       |
+ |   | Plur. Nom. | katll       | fœtr      | bœkr      | vótnn      |
+ |   |       Acc. | katl        | fœt       | bœkr      | vótn       |
+ |   |       Gen. | katl        | fœt       | bœk       | vótn       |
+ |   |       Dat. | katlum      | fótum     | bókum     | vótnum     |
+
+*** Articles and Demonstratives
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-owb6umu058j0
 :END:
@@ -1501,6 +1537,21 @@ used even in this dialect.
 # - How many degrees of distance are there in the system of
 #   demontsratives?
 # - Are there other distinctions beside distances?
+When the noun of a nominal group is not a mass noun or a proper noun,
+an article must accompany it, except for indefinite plural nouns. The
+indefinite article is /einn/, the same term as /one/ in Eittlandic. It
+partially agrees in gender, being /einn/ for strong masculine and
+feminine nouns and /eitt/ for strong neutral and weak nouns.
+
+Definite articles are affixes to the noun and are inserted between the
+noun itself and its declension if it has one. For instance, the
+definite singular genitive of /vatn/ (/water/, strong neutral) is /vatnits/,
+using /-it/ as the definite marker. Like the indefinite article, the
+suffix agrees in gender with /-in/ as the suffix for strong masculine
+and feminine words while /-it/ prefixes strong neutral and weak nouns.
+Just like with noun endings, if the case marking is an /-r/ following an
+/-in/, the latter will become an /-n/ as in /hundinn/ (/the dog/, sg.nom.m).
+
 *** Possessives                                                  :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Possessives-8xc6umu058j0
