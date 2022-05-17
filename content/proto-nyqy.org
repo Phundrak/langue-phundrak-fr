@@ -884,21 +884,22 @@ reached on this point, most of them might be older innovations.
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-aywhtyt058j0
 :END:
-*** Names
+*** Nouns
 :PROPERTIES:
-:CUSTOM_ID: Structural-Preview-World-Classes-Names-ztxhtyt058j0
+:CUSTOM_ID: Structural-Overview-World-Classes-Nouns-hu0ktba1zfj0
 :END:
 # - What are the distributional properties of nouns?
 # - What are the structural properties of nouns?
 # - What are the major formally distinct subcategories of nouns?
 # - What is the basic structure of the noun word (for polysynthetic
 #   languages) and/or noun phrases (for more isolating languages)?
-Names in Proto-Ñyqy generally refer to defined entities, such as
+Nouns in Proto-Ñyqy generally refer to defined entities, such as
 objects, people, concepts, or events. Regardless of their role during
 locution, a noun bears no morphological information such as its
 syntactic role or its number. However, nouns can associate with each
-other and act as adjectives. More on that in
-§[[#Structural-Preview-World-Classes-Modifiers-Descriptive-Adjectives-pcpelau058j0]].
+other and act as adjectives.
+# More on that in
+# §[[#Structural-Preview-World-Classes-Modifiers-Descriptive-Adjectives-pcpelau058j0]].
 Noun phrases in Proto-Ñyqy are head-first, meaning the noun in noun
 phrases come relatively early although the former is built around the
 former and not exclusively after it. Noun phrases are mainly found as
@@ -908,14 +909,16 @@ genitive and dative constructions.
 The nouns could most likely take genitive pronouns, but how they
 interacted exactly is yet unsure. The
 
-**** Countables and Uncountables
+**** Countables and Uncountables                                :noexport:
 :PROPERTIES:
-:CUSTOM_ID: Structural-Preview-World-Classes-Names-Countables-and-Uncountables-sqyhtyt058j0
+:CUSTOM_ID: Structural-Overview-World-Classes-Nouns-Countables-and-Uncountables-t7dduha1zfj0
 :END:
-**** Proper Nouns
+
+**** Proper Nouns                                               :noexport:
 :PROPERTIES:
-:CUSTOM_ID: Structural-Preview-World-Classes-Names-Proper-Nouns-0ozhtyt058j0
+:CUSTOM_ID: Structural-Overview-World-Classes-Nouns-Proper-Nouns-cczduha1zfj0
 :END:
+
 *** Pronouns and Anaphoric Clitics
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-9k0ityt058j0
@@ -927,15 +930,111 @@ interacted exactly is yet unsure. The
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Personal-Pronouns-cps4r0u058j0
 :END:
+It seems only three pronouns existed in Proto-Ñyqy, one for each of
+the persons you would find in a typical language, as shown in
+[[table:pronouns]].
+
+#+name: table:pronouns
+#+caption: Proto-Ñyqy pronouns
+| <l>    |           |
+| /      | <         |
+| Person | Pronoun   |
+|--------+-----------|
+| 1      | {{{recon(qy)}}} |
+| 2      | {{{recon(bú)}}} |
+| 3      | {{{recon(zø)}}} |
+
+It appears Proto-Ñyqy pronouns did not have any morphological rule to
+make them agree in number and due to the apparent lack of gender
+neither did they agree with it. However, it is possible that at some
+stage of the development of the language, Proto-Ñyqy began affixing
+cardinal numbers in order to its pronouns up until the number “six”
+{{{recon(ñy)}}} which would have marked a general plural. It is very much
+possible all numbers up to {{{recon(ñy)}}} were used with pronouns, however
+only remains of it as well as {{{recon(qi)}}} (/two/) for some dual or paucal,
+and in the case of the Tiltinian family {{{recon(nø)}}} (/three/) was used for
+trial and later on for paucal. No remains of {{{recon(gø)}}}, {{{recon(co)}}} or
+any number higher than {{{recon(ñy)}}} is found in its daughter languages.
+It is also unlikely {{{recon(mi)}}} (/one/) was ever used to mark the
+singular, or at least its usage never persisted in its recorded
+daughter languages as it cannot be reconstructed with our current
+knowledge.
+# The order in which these cardinal numbers are affixed to
+# the pronoun depend on the numbers’ word order described in
+# [[#Structural-Preview-World-Classes-Modifiers-Numerals-4gvelau058j0]].
+
+- {{{recon(møgusqim qy ij)}}}
+  | møgusq  | im      | qy  | ij |
+  | village | towards | 1sg | go |
+  I’m going to the village
+- {{{recon(møgusqim qyqi ij)}}}
+  | /       |         | <l> |        |    |
+  | møgusq  | im      | qy  | qi     | ij |
+  | village | towards | 1   | two/DU | go |
+  We both are going to the village
+- {{{recon(møgusqim qynø ij)}}}
+  | /       |         | <l> |            |    |
+  | møgusq  | im      | qy  | nø         | ij |
+  | village | towards | 1   | 3/TRI/PAUC | go |
+  We three are going to the village
+- {{{recon(møgusqim ñyqy ij)}}}
+  | /       |         |        | <l> |    |
+  | møgusq  | im      | ñy     | qy  | ij |
+  | village | towards | six/PL | 1   | go |
+  We are going to the village
+
+It doesn’t appear either that there was any morphology associated to
+their grammatical case. All of its daughter languages have at least a
+distinction between nominative, accusative, and genitive pronouns, but
+it appears they all evolved after the Proto-Ñyqy breakup, with no
+relation between the main daughter language families. The best example
+is the striking difference between the Andelian and the Mojhal
+families despite the fact they both come from Proto-Mojhal-Andelian
+which is the earliest known language to split off from Proto-Ñyqy, as
+well as Proto-Tiltinian and Old Pritian which again have no
+similarities regarding their pronoun declensions. The only common
+roots found are these three pronouns described in [[table:pronouns]].
+
+Personal pronouns are free pronouns which do not need to be bound to
+other elements in a sentence.
+1. {{{recon(qibú qy qe)}}}
+   | qi | bú | qy  | qe  |
+   | DU |  2 | 1sg | see |
+   I see them both
+2. {{{recon(qyim ñocm qe)}}}? {{{recon(ee qy)}}}
+   | qy  | im  | ñocm    | qe  |
+   | 1sg | DAT | someone | see |
+
+   | ee  | qy  |
+   | yes | 1sg |
+   Does anyone see me? Yes, me.
+
 **** Demonstrative Pronouns
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Demonstrative-Pronouns-2qt4r0u058j0
 :END:
-**** Possessive Pronouns
+Four levels of demonstratives seems to have existed in Proto-Ñyqy:
+- {{{recon(bœce)}}} :: near the speaker
+- {{{recon(pue)}}} :: near the interlocutor
+- {{{recon(yqe)}}} and {{{recon(jœe)}}} :: distant from the speakers
+
+It is interesting to see here a common pattern among languages which
+is demonstratives pronouns coming from words meaning “here” or
+“there”. In that case, these pronouns are derived from {{{recon(bœc)}}},
+{{{recon(pu)}}}, {{{recon(yq)}}}, and {{{recon(jœ)}}}.
+
+We are not sure about the difference between {{{recon(yq)}}} and {{{recon(jœ)}}}.
+It is theorized they had differences in distance between the element
+described by the pronoun and the speakers, maybe one describing
+something that could be seen and the other not. In any case, only one
+of the two survived in each language family so we cannot compare their
+use in documented languages.
+
+**** Possessive Pronouns                                        :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Pronouns-and-Anaphoric-Clitics-Possessive-Pronouns-2pu4r0u058j0
 :END:
-*** Verbs
+*** Verbs                                                        :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-xg1ityt058j0
 :END:
@@ -970,7 +1069,7 @@ interacted exactly is yet unsure. The
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Inflexions-443cf8u058j0
 :END:
-*** Modifiers
+*** Modifiers                                                    :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-yw5cf8u058j0
 :END:
@@ -999,7 +1098,7 @@ interacted exactly is yet unsure. The
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Numerals-4gvelau058j0
 :END:
-*** Adverbs
+*** Adverbs                                                      :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Adverbs-6lxelau058j0
 :END:
@@ -1012,11 +1111,11 @@ interacted exactly is yet unsure. The
 #   morphemes common to the type, etc.
 # - Are any of these classes of adverbs related to older
 #   complement-taking (matrix) verbs?
-*** Adpositions
+*** Adpositions                                                  :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Adpositions-isib3bu058j0
 :END:
-*** Grammatical Particules
+*** Grammatical Particules                                       :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Grammatical-Particules-q0kb3bu058j0
 :END:
