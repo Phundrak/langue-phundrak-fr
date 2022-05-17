@@ -930,8 +930,6 @@ d’une phrase nominale sans être son élément principal.
 
    Quelqu’un m’a vu ? Oui, moi
 
-Dans le premier exemple ci-dessus,
-
 **** Pronoms démonstratifs
 :PROPERTIES:
 :CUSTOM_ID: Pronoms_et_clitiques-Pronoms_démonstratifs-84b54047
