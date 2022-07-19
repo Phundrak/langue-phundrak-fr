@@ -248,7 +248,6 @@ considering the term “Icelandic” for “Iceland” and “Greenlandic” for
 :PROPERTIES:
 :CUSTOM_ID: Eittland-History-9n168hn0jaj0
 :END:
-
 *** Early Eittlandic History (7th-12th centuries)
 :PROPERTIES:
 :CUSTOM_ID: Eittland-History-Early-Eittlandic-History-dgxi3s21mej0
@@ -1173,9 +1172,9 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 :CUSTOM_ID: Structural-Preview-Word-Structure-n6vhtyt058j0
 :END:
 
-** World Classes                                                  :noexport:
+** Word Classes
 :PROPERTIES:
-:CUSTOM_ID: Structural-Preview-World-Classes-aywhtyt058j0
+:CUSTOM_ID: Structural-Preview-Word-Classes-aywhtyt058j0
 :END:
 *** Nouns                                                        :noexport:
 :PROPERTIES:
@@ -1187,11 +1186,11 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 # - What is the basic structure of the noun word (for polysynthetic
 #   languages) and/or noun phrases (for more isolating languages)?
 
-**** Countables and Uncountables
+**** Countables and Uncountables                                :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Names-Countables-and-Uncountables-sqyhtyt058j0
 :END:
-**** Proper Nouns
+**** Proper Nouns                                               :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Names-Proper-Nouns-0ozhtyt058j0
 :END:
@@ -1249,7 +1248,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Verbs-Verbal-Inflexions-443cf8u058j0
 :END:
-*** Modifiers                                                    :noexport:
+*** Modifiers
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-yw5cf8u058j0
 :END:
@@ -1266,11 +1265,11 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 #   /many/? Exemplify the system up to this point.
 # - Do numerals agree with their head nouns (number, case, noun
 #   class, ...)?
-**** Descriptive Adjectives
+**** Descriptive Adjectives                                     :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Descriptive-Adjectives-pcpelau058j0
 :END:
-**** Non-Numeral Quantifiers
+**** Non-Numeral Quantifiers                                    :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Non-Numeral-Quantifiers-zsselau058j0
 :END:
@@ -1278,6 +1277,7 @@ On the other hand, Southern Eittlandic tends to front its {{{phon(ɑ)}}} into
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Modifiers-Numerals-4gvelau058j0
 :END:
+
 *** Adverbs                                                      :noexport:
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-World-Classes-Adverbs-6lxelau058j0
