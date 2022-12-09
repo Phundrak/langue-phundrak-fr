@@ -237,13 +237,42 @@ given, the name of said dialect will be shared.
 :PROPERTIES:
 :CUSTOM_ID: Eittland-Name-of-the-Country-hun23je06bj0
 :END:
-The root of the name of “Eittland” is the accusative of /einn/ (Old
-Norse /one/, /alone/) and /land/ (Old Norse /country/, /land/. This is due to
-how remote it seemed to the people who discovered, before Iceland and
-Greenland were known. Hence, a possible translation of “Eittland” can
-be /Lonely Land/. The term “Eittlandic” is relatively transparent
-considering the term “Icelandic” for “Iceland” and “Greenlandic” for
-“Greenland”.
+The origins of the name of Eittland are unclear, two main theories
+exist regarding its etymology.
+
+The first theory says the root of the name of “Eittland” is the
+accusative of /einn/ (Old Norse /one/, /alone/) and /land/ (Old Norse /country/,
+/land/. This is due to how remote it seemed to the people who
+discovered, before Iceland and Greenland were known. Hence, a possible
+translation of “Eittland” can be /Lonely Land/. The term “Eittlandic” is
+relatively transparent considering the term “Icelandic” for “Iceland”
+and “Greenlandic” for “Greenland”.
+
+However, the second but least probable theory is the island is named
+after /eitr/, a mythical poison from which the first Jøtunn Ymir was
+created. Eittland’s waters near the volcanoes containing high amounts
+of sulfur, a poison, could be what named the island. This association
+with poison, as well as the association to the place where it was
+found, /Ginnungagap/, could have acted as a deterrent to prevent people
+outsiders from coming.
+
+This last theory’s first recorded mention is from the 18th century,
+while the first theory appears to be much older, and therefore much
+more likely. It is possible the latter was thought of as a way to
+re-invigorate Eittland’s identity as a pagan country unlike its other
+Nordic counterparts, maybe even as a fearsome country.
+
+Although the country is known as Eittland, the island itself bears a
+few other names. Early records show the island being referred to as
+/Vestrheim/ by early settlers, meaning /West Home/, and its inhabitants
+being referred to as /Vestrheiming/ and /Vestrheimingjar/ (singular and
+plural respectively). Around the same time, settlers living closer to
+the mountains would also call the inner lands /Fjallheim/, meaning
+/Mountain Home/, which stuck until now as a name for the Northwestern
+peninsula of Eittland. Lastly, the name /Eldøy/, /Fire Island/, was used
+to refer both to Eittland and Iceland due to their volcanic activity.
+Nowadays, the name morphed into /Eldfjall/ to refer to the volcanic
+cluster at the center of the Island.
 
 ** History
 :PROPERTIES:
