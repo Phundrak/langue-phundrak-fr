@@ -2306,21 +2306,30 @@ in number and gender.
 :PROPERTIES:
 :CUSTOM_ID: Private-Data-Word-order-csri7cg0pfj0
 :END:
+# Per /Hawkin’s Universals/:
+
+# $Posp \supset ((AdjN \vee RelN \supset DemN\ \& \ NumN\ \& \ PossN)\ \& \ (DemN \vee NumN \vee PossN \supset GenN))$
+
+# Adjectives precede nouns, therefore demonstratives, numerals, and
+# possessives also preceed the noun. Since they do, the language must
+# also allow genitives to preceed the noun. The only element in the
+# Postpositional rule that does not precede the noun are relative
+# clauses.
+
+# Eittlandic also has prepositions. Genitive can follow the noun,
+# therefore relative clauses must follow the noun. Therefore, we have:
+# | NPosp | DemN | NumN | PossN | AdjN | GenN | NRel |
+# This is language C as per Artifexian’s [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit][list of postpositional
+# languages]].
+
 Per /Hawkin’s Universals/:
 
-$Posp \supset ((AdjN \vee RelN \supset DemN\ \& \ NumN\ \& \ PossN)\ \& \ (DemN \vee NumN \vee PossN \supset GenN))$
+$Prep \supset ((NDem \lor NNum \lor NPoss \supset NAdj)\ \&\ (NAdj \supset NGen)\ \&\ (NGen \supset NRel))$
 
-Adjectives precede nouns, therefore demonstratives, numerals, and
-possessives also preceed the noun. Since they do, the language must
-also allow genitives to preceed the noun. The only element in the
-Postpositional rule that does not precede the noun are relative
-clauses.
-
-Eittlandic also has prepositions. Genitive can follow the noun,
-therefore relative clauses must follow the noun. Therefore, we have:
-| NPosp | DemN | NumN | PossN | AdjN | GenN | NRel |
-This is language C as per Artifexian’s [[https://docs.google.com/spreadsheets/d/1ZJV1C8g-u8PbZIEHp8t7JT8SSyY7ZetEZ5oBJJn0g2U/edit][list of postpositional
-languages]].
+- Demonstratives and possessives follow the noun, therefore adjectives
+  follow the noun.
+- Adjectives follow the noun, therefore genitives follow the noun.
+- Genitives follow the noun, therefore relative clauses follow the noun
 
 * Footnotes
 :PROPERTIES:
