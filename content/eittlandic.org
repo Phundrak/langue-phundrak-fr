@@ -725,8 +725,8 @@ on its syntax as well as on grammatical particules rather than on its
 morphology. Let’s take the following sentence as an example.
 
 1. barn fisk etar / a child is eating a fish
-   | barn      | fisk     | et-ar   |
-   | child.NOM | fish.ACC | eat-3sg |
+   | barn      | et-ar   | fisk     |
+   | child.NOM | eat-3sg | fish.ACC |
 
 In this sentence, the word order helps us understand the child is the
 subject of the sentence while its subject is /fisk/, although we have no
@@ -734,38 +734,28 @@ information on their number; the sentence could also very well mean
 /children are eating fishes/. Unlike in Old Eittlandic where we could
 have the following sentences.
 
-1. barn fiska etar
-   | barn      | fisk-a      | et-ar   |
-   | child.NOM | fish-pl.ACC | eat-3sg |
-2. fiska barn etar
-   | fisk-a      | barn      | et-ar   |
-   | fish-pl.ACC | child.NOM | eat-3sg |
+1. barn etar fiska
+   | barn      | et-ar   | fisk-a      |
+   | child.NOM | eat-3sg | fish-pl.ACC |
+2. fiska etar barn
+   | fisk-a      | et-ar   | barn      |
+   | fish-pl.ACC | eat-3sg | child.NOM |
 
 Both have the same meaning as the Eittlandic sentence. However, the
 near-complete (or even complete in Standard Eittlandic) loss of case
 marking makes the sentence /fisk barn etar/ much more gruesome.
 
-1. fisk barn etar / a fish is eating a child
-   | fisk     | barn     | et-ar   |
-   | fish.NOM | barn.ACC | eat-3sg |
+1. fisk etar barn / a fish is eating a child
+   | fisk     | et-ar   | barn     |
+   | fish.NOM | eat-3sg | barn.ACC |
 
-Eittlandic is now a SOV language with a much stricter word order than
-it used to be. This is an important change since Old Eittlandic which
-main word order was VSO instead. For instance, here is the same
-sentence in Old Eittlandic and in Modern Eittlandic, meaning /he
-carried him to some lake/.
-- Old Eittlandic :: Han bar hann til vatns nákkurs
-  | han    | bar            | han-n     | til | vatn-s   | nákkur-s |
-  | he.NOM | carry.3sg.pret | 3sg.m-ACC | to  | lake-DAT | some-DAT |
-- Modern Eittlandic :: Han til vatn nákkur hann bar
-  | han       | til | vatn | nákkur | hann   | bar            |
-  | 3sg.m.NOM | to  | lake | some   | he.ACC | carry.3sg.pret |
-
-Eittlandic still retains VSO word order in its relative and
-interrogative clauses, as shown below.
-- Han mér talð þat kom han hér í gær / he told me he came here yesterday
-  | han       | mér     | tal-ð         | þat  | kom           | han       | hér  | í gær     |
-  | 3sg.m.NOM | 1sg.DAT | tell-3sg.PRET | that | come.3sg.PRET | 3sg.m.NOM | here | yesterday |
+Eittlandic is a V-2 language, meaning in most cases, finite verbs are
+in second position in their clause and may be in first position
+interrogative clauses and dependent clauses, as shown below.
+- Han talð mér þat kom han hér í gær / he told me he came here
+  yesterday
+  | han       | tal-ð         | mér     | þat  | kom           | han       | hér  | í gær     |
+  | 3sg.m.NOM | tell-3sg.PRET | 1sg.DAT | that | come.3sg.PRET | 3sg.m.NOM | here | yesterday |
 
 Loss of case marking also affected adjectives which share most of
 their declensions with nouns. The parts where Eittlandic retains its
@@ -1595,26 +1585,23 @@ table [[tbl:eittlandic-example-noun-inflexions]].
 
 #+name: tbl:eittlandic-example-noun-inflexions
 #+caption: Declensions for strong and weak nouns in Modern Eittlandic
-| / |        <r> |                  |                 |               |            |
-|   |            | Strong Masculine | Strong Feminine | Strong Neuter | Weak Nouns |
-|---+------------+------------------+-----------------+---------------+------------|
-|   | Sing. Nom. | heim-r           | tíð             | skip          | tím        |
-|   |       Acc. | heim             | tíð             | skip          | tím        |
-|   |       Gen. | heim-ar          | tíð-ar          | skip-s        | tím        |
-|   |       Dat. | heim             | tíð             | skip          | tím        |
-|   | Plur. Nom. | heim-r           | tíð-r           | skip          | tím-r      |
-|   |       Acc. | heim             | tíð-r           | skip          | tím        |
-|   |       Gen. | heim             | tíð             | skip          | tím        |
-|   |       Dat. | heim-um          | tíð-um          | skip-um       | tím-um     |
+| / |        <r> |               |               |            |
+|   |            | Strong Common | Strong Neuter | Weak Nouns |
+|---+------------+---------------+---------------+------------|
+|   | Sing. Nom. | heim-r        | skip          | tím        |
+|   |       Acc. | heim          | skip          | tím        |
+|   |       Gen. | heim-ar       | skip-s        | tím-s      |
+|   |       Dat. | heim          | skip          | tím        |
+|   | Plur. Nom. | heim-r        | skip          | tím-r      |
+|   |       Acc. | heim          | skip          | tím        |
+|   |       Gen. | heim-ar       | skip-s        | tím-s      |
+|   |       Dat. | heim-um       | skip-um       | tím-um     |
 
 As you can see, a good amount of declensions disappeared from nouns,
-with only four marked cases for strong masculine and feminine nouns
-and two for strong neuter and weak nouns. The declension system
-completely merged for weak nouns which are no longer distinguished by
-gender, as did the different declensions among the other categories
---- e.g. there is only one declension remaining for strong masculine
-nouns as opposed to Old Norse’s three different possible declensions
-for the nouns.
+with only four marked cases for strong common nouns and two for strong
+neuter and weak nouns. The declension system completely merged weak
+nouns which are no longer distinguished by gender. Strong masculine
+and strong feminine also got merged into strong common.
 
 Declensions are no longer productive in almost all Modern Eittlandic
 dialects. They are still mostly used in formal and written speech, but
@@ -1629,13 +1616,14 @@ weak nouns.
 
 The only exception to declensions no longer being productive is in the
 Hylfjaltr Kingdom’s exclave in southern Eittland where speakers of its
-local dialect tend to instead favor strong nouns for newer terms.
+local dialect tend instead to favor strong nouns for newer terms.
 Hence, while most dialects agree on “internet” (pl.nom /internetr/,
 pl.dat /internetum/) being a weak noun, this dialect treats it as either
 a strong feminine (sg.gen /internetar/, pl.nom&acc /internetr/, pl.dat
 /internetum/) or a strong neuter (sg.gen /internets/, pl.dat /internetum/)
---- the difference is due to subdivisions in said dialect between
-rural and urban areas favoring the former and the latter respectively.
+--- the difference is due to subdivisions in said dialect, mainly
+between rural and urban areas favoring the former and the latter
+respectively.
 
 There are some regular exceptions to the declension system. The first
 one, inherited from Old Norse, is the /-r/ suffix becoming /-n/ or /-l/ when
@@ -1644,13 +1632,13 @@ a noun ends with an <n> or an <l> respectively, hence
 masculine /himn/ (/heaven/) and strong feminine /hafn/ (/harbour/, /haven/).
 #+name: tbl:irregular-noun-declensions
 | / |        <r> |        |        |
-|   | Sing. Nom. | himnn  | hafn   |
+|   | Sing. Nom. | himnn  | hafnn  |
 |   |       Acc. | himn   | hafn   |
 |   |       Gen. | himnar | hafnar |
 |   |       Dat. | himn   | hafn   |
 |   | Plur. Nom. | himnn  | hafnn  |
-|   |       Acc. | himn   | hafnn  |
-|   |       Gen. | himn   | hafn   |
+|   |       Acc. | himn   | hafn   |
+|   |       Gen. | himnar | hafnar |
 |   |       Dat. | himnum | hafnum |
 
 During the last five centuries, the root of the word got regularized
