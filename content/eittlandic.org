@@ -344,6 +344,125 @@ initial days of the crusade, loosing well over 6.000 men, the invaders
 were ultimately defeated thanks to reinforcement from the Kingdom of
 Ðeberget. This marked the end of crusades in Eittland.
 
+*** The Absolute Monarchy (1400-1852)
+:PROPERTIES:
+:CUSTOM_ID: Eittland-History-The-Absolute-Monarchy-1400-1852-a8a0ap51cjj0
+:END:
+Once independent, Eittland quickly became isolated among the European
+nations due as it was percieved as a pagan nation by the rest of the
+continent. For over a century, the country had to be almost entirely
+self-sufficient. This lead to a more in-depth survey of the resources
+of the land launched in 1421. Large quantities of iron were discovered
+in 1432 in Western Eittland in the geologically older parts of the
+island as well as copper and some gold.
+
+Unfortunately for the island, no coal deposit ever got found, the
+islanders turned to charcoal instead. During the following century, an
+important deforestation of Eittland took place until the royal decree
+of 1542 was proclaimed in order to protect the forests. It ruled that
+for each tree felled in the next hundred years, four shall be planted,
+and only one once the period ended. The only exceptions were for
+creating new pastures with the condition of the request being
+submitted and accepted by the local Jarl and its government.
+
+The discovery of important marble deposits in the geologically more
+recent parts of the island in 1512 was the event that reopened trades
+with the continent. England was the first country to openly trade with
+Eittland, swiftly followed by states from the Holy Roman Empire and
+other protestant countries. The country became famous for its pure
+white and green marble, which became its emblem. Walking in the
+streets of major cities today, we can still see most of the monuments
+and buildings from during that era made of marble. It is particularly
+the case in Hylfjaltr, known by the nickname of “The White City” due
+to the sheer amount of monuments made of ouf this material.
+
+It is around this time religious wars broke out in mainland Europe,
+and war refugees coming at first from Scandinavia and soon enough from
+all Northern and Western Europe came to Eittland to seek refuge. They
+were accepted on the condition never to try and spread their religion
+on the island with the risk of expulsion back to continental Europe.
+At the time, the influx of refugees represented around one percent of
+its total population, with about two thirds of it being protestants
+and the rest catholics. The local protestant population officially
+founded in 1587 the Church of Eittland.
+
+You can find in the chart [[chart:religious-refugees-pop]] a breakdown of
+the various countries and regions religious refugees came from.
+Although Scandinavia was one of the first regions to take refuge in
+Eittland, most of refugees came from the Holy Roman Empire and from
+France where religious wars were particularly violent. It is estimated
+most of the Protestant population of Eittland are mainly from French
+descent, while the HRE’s and Scandinavian population came with mixes
+of Christians and Protestants. On the other hand, most if not all of
+the English population was Christian.
+
+#+header: :exports results
+#+header: :file img/eittlandic/religious-refugees.png :cache yes
+#+begin_src gnuplot :var data=nationality-religious-refugees
+set title "Country of Origin of Religious Refugees"
+set title boxed offset 0,-3 font ",15"
+set style fill solid border lt -1
+set style textbox opaque noborder
+set boxwidth 1.0 absolute
+unset key
+
+set yrange [0:45]
+set grid y
+set ylabel "Percentage"
+
+set border 3
+set style data histograms
+set style histogram cluster gap 1
+set style fill solid border -1
+set boxwidth 0.9
+set xtic rotate by -45 scale 0
+
+plot data u 2:xtic(1)
+#+end_src
+
+#+name: chart:religious-refugees-pop
+#+caption: Breakdown of the country or region of origin of religious refugees in the 1500s
+#+attr_latex: :width 12cm
+#+RESULTS[469389dc372caee478471ecf758ba81282d2a5ec]:
+[[file:img/eittlandic/religious-refugees.png]]
+
+With the beginning of coloniolization of Northern America, Eittland
+became a naval hotspot. Its position allowed ships to cut in half
+their journey if necessary and replenish their supplies. England and
+the Netherlands were the first countries to halt in Eittland for such
+reasons, participating in an important economic boom in the early 16th
+century on a national scale. France later joined this trade route
+starting in 1619 when going to their colonies in modern-day Canada.
+
+On the 30th of March 1775, England demanded from Eittland a port to be
+used as a military port as part of their war effort during the
+American revolution. Eittland refused these demands, invoking a
+neutrality concerning the ongoing conflict. In response, England sent
+an ultimatum, asking the port of Vátrsteinn to be their military base.
+On Eittland’s second refusal, England declared war and launched a land
+invasion of the island. The general in charge of the invasion, Sir
+Andrew Sapping, decided to avoid landing in fjords, judging it too
+risky and prone to ambushes. Instead, English troops landed in the
+flatlands west of Vátrsteinn. While eittlandic troops were massing in
+the nearby town of Vestrfjoðarkjapt, a volcano erupted into a
+pyroclastic flow. The English landing site being on its path, half of
+the invading English forces were immediately wiped out, and two thirds
+of their vessels were badly dammaged or destroyed. Immediately after
+this, Sir Sapping surrendered to the Eittlandic troops which were
+captured as prisonners of war. Due to this defeat and the sudden
+reduction in available men and ships in the English army, the Treaty
+of Hylfjaltr was signed on the 25 of May of the same year. While
+England recognized its defeat, Eittland promised not to intervene on
+any side in the current rebellion of the American colonies (which was
+not the intent of Eittland in the first place).
+
+After the independence of the United States of America, Eittland
+retained its status as a maritime hotspot between Northern America and
+Europe. Its ports of Kóparvall and Tvinnár, near Ðeberget and
+Hylfjaltr respectively, became the two major ports in Eittland, with
+Tvinnár generally favoured by ships coming from Europe and Kóparvall
+favoured by ships coming from Northern America.
+
 ** Political Organization
 :PROPERTIES:
 :CUSTOM_ID: Eittland-Political-Organization-z5v4e9p0jaj0
@@ -2023,6 +2142,15 @@ in number and gender.
 | 1975 |          84 |       7 |                  3 |            1 |      0.5 |   4.5 |
 | 2000 |          76 |      12 |                  3 |            1 |        4 |     4 |
 | 2019 |          69 |      18 |                  3 |            1 |        6 |     3 |
+
+#+name: nationality-religious-refugees
+| Country           | Percentage |
+|-------------------+------------|
+| France            |         36 |
+| Holy Roman Empire |         24 |
+| Scandinavia       |         22 |
+| United Kingdom    |         14 |
+| Others            |          4 |
 
 ** Word order
 :PROPERTIES:
