@@ -1675,22 +1675,76 @@ irregularities. These words are marked as irregular in the dictionary.
 # - How many degrees of distance are there in the system of
 #   demontsratives?
 # - Are there other distinctions beside distances?
+
 When the noun of a nominal group is not a mass noun or a proper noun,
-an article must accompany it, except for indefinite plural nouns. The
-indefinite article is /einn/, the same term as /one/ in Eittlandic. It
-partially agrees in gender, being /einn/ for strong masculine and
-feminine nouns and /eitt/ for strong neutral and weak nouns.
+an article must accompany it, except for indefinite plural nouns.
 
-Definite articles are affixes to the noun and are inserted between the
-noun itself and its declension if it has one. For instance, the
-definite singular genitive of /vatn/ (/water/, strong neutral) is /vatnits/,
-using /-it/ as the definite marker. Like the indefinite article, the
-suffix agrees in gender with /-in/ as the suffix for strong masculine
-and feminine words while /-it/ prefixes strong neutral and weak nouns.
-Just like with noun endings, if the case marking is an /-r/ following an
-/-in/, the latter will become an /-n/ as in /hundinn/ (/the dog/, sg.nom.m).
+**** Indefinite Article
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-Indefinite-Article-w90dz6o0uij0
+:END:
+The indefinite article is /einn/, the same term as /one/ in Eittlandic. It
+agrees in declension with its noun, though it is to be noted its
+declension is irregular, as seen in table [[tbl:declension-einn]].
+Similarly, other numerals have declensions as discussed in
+[[#Structural-Preview-World-Classes-Modifiers-Numerals-4gvelau058j0]].
+#+name: tbl:declension-einn
+|      | Masculine | Feminine | Neuter |
+|------+-----------+----------+--------|
+| Nom. | einn      | ein      | eit    |
+| Acc. | ein       | ein      | eit    |
+| Dat. | ein       | einn     | eits   |
+| Gen. | einn      | ein      | eit    |
 
-*** Possessives                                                  :noexport:
+**** Definite articles
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-Definite-articles-jt0hlco0uij0
+:END:
+As in other scandinavian languages, definite articles in Eittlandic
+act as suffixes to the noun and fully replace its declension as it has
+case marking itself. The full declension table of definite articles
+can be found in the table [[tbl:definite-articles]]. As we can see, the
+definite articles underwent an important regularization as well as
+merging strong neuter and weak nouns together.
+#+name: tbl:definite-articles
+| / |        <r> |               |                              |
+|   |            | Strong Common | Strong Neuter and Weak Nouns |
+|---+------------+---------------+------------------------------|
+|   | Sing. Nom. | -(i)nn        | -(i)t                        |
+|   |       Acc. | -(i)n         | -(i)t                        |
+|   |       Gen. | -(i)ns        | -(i)ts                       |
+|   |       Dat. | -(i)n         | -(i)t                        |
+|   | Plur. Nom. | -(i)nn        | -(i)tr                       |
+|   |       Acc. | -(i)n         | -(i)t                        |
+|   |       Gen. | -(i)n         | -(i)t                        |
+|   |       Dat. | -(i)num       | -(i)tum                      |
+
+The initial /i/ is only used when using the definite articles as a
+suffix would cause a consonant cluster forbidden by Eittlandic
+phonology, otherwise it is omitted. An example of the former case is
+with /vatn/ (/water/) which becomes /vatnits/ when in its definite singular
+genitive form, while /øy/ (/island/) becomes /øyns/ in the same form. Like
+the indefinite article, the suffix agrees in gender, agreeing either
+with strong masculine or feminine words (or as established before,
+strong common) or with strong neuter and weak nouns.
+
+The use of definite articles with nouns is further discussed in
+§[[#Structural-Overview-Structure-of-a-Nominal-Group-Definiteness-ubpcy4i0mgj0]].
+
+*** Definiteness
+:PROPERTIES:
+:CUSTOM_ID: Structural-Overview-Structure-of-a-Nominal-Group-Definiteness-ubpcy4i0mgj0
+:END:
+Definiteness in Eittlandic serves multiple purposes. Its most obvious
+one is to distinguish between an indefinite and a definite entity, as
+in English /a dog/ or /the dog/, respectively /einn hundr/ and /hundinn/, as
+discussed in
+§[[#Structural-Preview-Structure-of-a-Nominal-Group-Articles-and-Demonstratives-owb6umu058j0]].
+
+However, definiteness is also necessary with suffixed possessives and
+demonstrative.
+
+*** Possessives
 :PROPERTIES:
 :CUSTOM_ID: Structural-Preview-Structure-of-a-Nominal-Group-Possessives-8xc6umu058j0
 :END:
@@ -1715,20 +1769,30 @@ Just like with noun endings, if the case marking is an /-r/ following an
 # - Do the classifiers occur with numerals? Adjectives? Verbs?
 # - What is their function in these contexts?
 Eittlandic inherited from Old Norse a gender system divided into three
-genders: male, female, and neuter. Due to the presence of declensions
-with strong nouns and adjectives, its pronouns, and to a certain
-degree different articles, it can still be said Eittlandic is a
-gendered language although it doesn’t hold much importance in its
-grammar anymore. Since strong nouns aren’t productive anymore and weak
-nouns lost all obvious gender differences, we can even consider gender
-as not productive anymore in Eittlandic and bound to eventually
-disappear.
+genders: male, female, and neuter. Although the number of elements
+marking it declined during its evolution, Eittlandic still marks
+gender in its strong nouns, adjectives, pronouns, and to a certain
+degree in its articles. However, as mentioned in
+[[#Structural-Overview-Structure-of-a-Nominal-Group-Grammatical-Case-Case-Marking-c6jb9o11mfj0]],
+case marking and by extensions gender marking is slowly disappearing
+in Modern Eittlandic nouns and adjectives.
+
+Due to the presence of declensions with strong nouns and
+adjectives, its pronouns, and to a certain degree different articles,
+it can still be said Eittlandic is a gendered language although it
+doesn’t hold much importance in its grammar anymore. Since strong
+nouns aren’t productive anymore and weak nouns lost all obvious gender
+differences, we can even consider gender as not productive anymore in
+Eittlandic and bound to eventually disappear. In fact, the loss of
+gender is even stronger in Standard Eittlandic due to the theoretical
+absence of declensions in this dialect.
 
 In case a strong noun is used with a strong adjective, both will agree
 in number and gender.
 
 + Examples:
-  -
+  - hvítr hundr / white.m.sg.acc dog.m.sg.acc
+  - langir tungir / long.f.pl.acc tongues.f.pl.acc
 
 *** Diminution/Augmentation                                      :noexport:
 :PROPERTIES:
