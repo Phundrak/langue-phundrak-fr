@@ -1968,8 +1968,36 @@ in number and gender.
 :PROPERTIES:
 :CUSTOM_ID: Dictionnaire-B-ae79d268
 :END:
+- bræð :: m. {{{phon(brɛð)}}}
+  See /bróð/
+- bróð :: m. {{{phon(brɔð)}}}
+  1. brother, plural /bræð/
+
+  Re-analysis of /bródir/ decomposed into /bróð/ + /-ir/ by popular
+  etymology. Same goes for its former plural /bræðir/ which got
+  re-analyzed into /bræð/ + /-ir/.
+
+  | / |  <r> | <        |        |
+  |   |      | Singular | Plural |
+  |---+------+----------+--------|
+  |   | Nom. | bróðr    | bræðr  |
+  |   | Acc. | bróð     | bræð   |
+  |   | Gen. | bróðir   | bræðir |
+  |   | Dat. | bróð     | bræðum |
+
 - bók :: f. {{{phon(bɔk)}}}
-  1. book
+  1. book, plural /bøk/
+
+  | / |  <r> | <        |        |
+  |   |      | Singular | Plural |
+  |---+------+----------+--------|
+  |   | Nom. | bókr     | bøkr   |
+  |   | Acc. | bók      | bøk    |
+  |   | Gen. | bókar    | bøkar  |
+  |   | Dat. | bók      | bøkum  |
+
+- bøk :: f. {{{phon(bøk)}}}
+  See /bók/
 
 ** C
 :PROPERTIES:
@@ -1985,6 +2013,8 @@ in number and gender.
   2. profound (figuratively)
 - djúpligr :: adv. {{{phon(dʒopliɡr̩)}}}
   1. deeply
+- dóttir :: f. {{{phon(dɔʧir)}}}, plural *dœtr* {{{phon(dœtr̩)}}}
+  1. daughter
 
 ** Đ
 :PROPERTIES:
@@ -2010,10 +2040,48 @@ in number and gender.
 :PROPERTIES:
 :CUSTOM_ID: Dictionary-F-r4tczzm0jaj0
 :END:
+- feð :: m. {{{phon(feð)}}}
+  See /føð/
+
 - fé :: n. {{{phon(fɛ)}}}
   1. wealth
+
+  From Old Norse /fé/.
+
+  | / |  <r> | <        |        |
+  |   |      | Singular | Plural |
+  |---+------+----------+--------|
+  |   | Nom. | fé       | fé     |
+  |   | Acc. | fé       | fé     |
+  |   | Gen. | fés      | fés    |
+  |   | Dat. | fé       | férum  |
+
 - fisk :: m. {{{phon(fiʃk)}}}
   1. fish
+
+  From Old Norse /fiskr/.
+
+  | / |  <r> | <        |        |
+  |   |      | Singular | Plural |
+  |---+------+----------+--------|
+  |   | Nom. | fiskr    | fiskr  |
+  |   | Acc. | fisk     | fisk   |
+  |   | Gen. | fiskar   | fiskar |
+  |   | Dat. | fisk     | fiskum |
+
+- føð :: m. {{{phon(føð)}}}
+  1. father, plural /feð/
+
+     From Old Norse /fødir/ and /feðir/ which got re-analyzed as appended
+     with an /-ir/.
+
+  | / |  <r> | <        |        |
+  |   |      | Singular | Plural |
+  |---+------+----------+--------|
+  |   | Nom. | føðr     | feðr   |
+  |   | Acc. | føð      | feð    |
+  |   | Gen. | føðar    | feðar  |
+  |   | Dat. | føð      | feðum  |
 
 ** G
 :PROPERTIES:
