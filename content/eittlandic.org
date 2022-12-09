@@ -152,6 +152,7 @@ see on said map the population repartition of Eittland.
 #+headers: :cache yes :exports results
 #+begin_src gnuplot :file img/eittlandic/religions.png :var data=eittland-religions
 set title "Religions in Eittland since 1950"
+set title boxed offset 0,0 font ",15"
 set key invert reverse Left outside
 
 set yrange [0:100]
@@ -175,7 +176,7 @@ plot data u 2:xticlabels(1) axis x1y1 title 'Norse Faith', \
 #+name: chart:religions
 #+caption: Religious Evolution of Eittland Since 1900
 #+attr_html: :loading lazy
-#+RESULTS[706a2c4928c3c4c8979c0ce62acab59f9eb1bebf]:
+#+RESULTS[7826e7cef027df99c173a35bdd97b892bdb30c8f]:
 [[file:img/eittlandic/religions.png]]
 
 #+attr_html: :loading lazy
@@ -2018,10 +2019,10 @@ in number and gender.
 | Year | Norse Faith | Atheism | Church of Eittland | Christianity | Buddhism | Other |
 |------+-------------+---------+--------------------+--------------+----------+-------|
 | 1900 |          97 |       0 |                  2 |            1 |        0 |     0 |
-| 1950 |          93 |       2 |                  1 |            1 |        0 |     3 |
-| 1975 |          84 |       7 |                  3 |            1 |        0 |     5 |
-| 2000 |          75 |       9 |                  4 |            4 |        4 |     4 |
-| 2019 |          68 |      15 |                  4 |            4 |        6 |     3 |
+| 1950 |          93 |       2 |                  2 |            1 |        0 |     2 |
+| 1975 |          84 |       7 |                  3 |            1 |      0.5 |   4.5 |
+| 2000 |          76 |      12 |                  3 |            1 |        4 |     4 |
+| 2019 |          69 |      18 |                  3 |            1 |        6 |     3 |
 
 ** Word order
 :PROPERTIES:
