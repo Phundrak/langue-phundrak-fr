@@ -1,9 +1,9 @@
-#+title: Eittland
-#+subtitle: A Linguistic Overview of the Land of the Last Nordic Pagans
+#+title: Eittland and Its Language
+#+subtitle: A Constructed Language for a Fictional Nordic Country
 #+setupfile:    headers
-#+html_head:    <meta name="description" content="A Linguistic Overview of Eittland" />
+#+html_head:    <meta name="description" content="The Eittlandic Language" />
 #+html_head:    <meta property="og:title" content="Eittland" />
-#+html_head:    <meta property="og:description" content="A Linguistic Overview of the Eittlandic Kingdom" />
+#+html_head:    <meta property="og:description" content="A Linguistic Overview of the Dialects Spoken in the Eittlandic Kingdom." />
 #+subject:      Eittland and its languages
 #+uid:          https://langue.phundrak.com/en/eittlandic
 #+options:      auto-id:t
