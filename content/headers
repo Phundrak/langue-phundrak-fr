@@ -22,6 +22,7 @@
 # ### HTML #####################################################################
 
 #+html_doctype: html5
+#+html_head: <a rel="me" href="https://fosstodon.org/@phundrak">Mastodon</a>
 #+html_head: <meta property="og:image" content="https://cdn.phundrak.com/img/rich_preview.png" />
 #+html_head: <meta name="twitter:card" content="summary" />
 #+html_head: <meta name="twitter:site" content="@phundrak" />
